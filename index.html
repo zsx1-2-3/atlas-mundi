@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-01-E">
+<meta name="build" content="2026-11-01-F">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1599,10 +1599,16 @@ body.panel-open #globe-stage{
   /* 依次试镜像。opt.signal 透传给 fetch —— 详情面板靠它丢弃"点慢了的上一国"。
      data/ 下的档案**不走 jsDelivr**：那边 @main 分支有 12 小时缓存，而且 query
      参数不进缓存键 —— 数据改了页面要等半天才变，这正是"图片永远不更新"的真凶。
-     档案只有 20~30KB，走同源也就一秒多，值这个钱。geo/ 的大分片才继续用 CDN。 */
+     档案只有 20~30KB，走同源也就一秒多，值这个钱。
+     geo/n/ 同样只走同源：它现在退到后台了（点开国家时先用档案里的 outline
+     立刻画线，精细几何随后覆盖），慢一档没人感觉得到；而它一旦被 jsDelivr
+     缓存住，就会出现"粗轮廓是对的、升级一下反而缺了一块"这种倒退
+     —— 索马里兰并入索马里那次实测踩过。
+     geo/c*.json 的大分片继续用 CDN：那些只在开"全部国境线"时才拉，4MB 走
+     同源要几十秒。 */
   function fetchAny(rel, opt) {
     opt = opt || {};
-    var bases = /^data\//.test(rel) ? [''] : MIRRORS;
+    var bases = /^(data\/|geo\/n\/)/.test(rel) ? [''] : MIRRORS;
     var i = 0;
     return new Promise(function (resolve, reject) {
       (function next() {
@@ -2453,6 +2459,19 @@ body.panel-open #globe-stage{
   var GEO_ONE = {};                      // 单国几何的缓存（已解析的对象）
   var GEO_PEND = {};                     // 正在飞的请求（同一个国家会被两处同时要）
   var CARD_OUTLINE = {};                 // iso -> 档案自带的粗轮廓（见 scripts/inline_outline.py）
+  var CARD_PREFETCH = {};                // iso -> true，悬停时已经预取过档案
+
+  /* 悬停预取档案（20~30KB）。用户从"鼠标停在国名上"到真的点下去，
+     通常有 200ms 以上，足够把这一份取回来 —— 点开时就不用再等。
+     同一国只发一次，重复 hover 不重复打网络。 */
+  function prefetchCard(iso) {
+    iso = String(iso || '').toUpperCase();
+    if (!iso || CARD_PREFETCH[iso]) return;
+    CARD_PREFETCH[iso] = true;
+    setTimeout(function () {
+      fetchAny('data/' + iso.toLowerCase() + '.json').catch(function () {});
+    }, 140);
+  }
 
   /* 取一个国家的国界几何。
      优先取**单国文件** geo/n/<iso>.json —— 中位数只有 5KB（加拿大 553KB 是极端值），
@@ -3876,9 +3895,15 @@ body.panel-open #globe-stage{
           if (globe.moved > 6) return;
           openCountry(c);
         });
-        /* 悬停预热：手指/鼠标停在国名上，多半下一步就是点它 */
+        /* 悬停预热：鼠标停在国名上，多半下一步就是点它。
+           几何和档案一起取 —— 点下去时两条链路都已落地，卡片和国界同时出现。
+           这是替代原来「开机 4 秒后把 236 个档案全部预取一遍」的做法：
+           那个方案实测要下 5MB、耗时 33 秒，把首屏带宽全占了，
+           而用户一次浏览最多点三五个国家。 */
         d.addEventListener('mouseenter', function () {
-          loadGeo(String(tgt).toUpperCase());
+          var up = String(tgt).toUpperCase();
+          loadGeo(up);
+          prefetchCard(up);
         });
       }
       host.appendChild(d);
@@ -5522,34 +5547,11 @@ body.panel-open #globe-stage{
       // 由用户点击国土或底部胶囊再展开面板。
       loadSearchIndex();
       loadCountryMeta();
-      /* 三个国家的 data/*.json 与 geo/*.geojson 都很小（十几 KB），
-         空闲时先抓下来放进 HTTP 缓存 —— 否则"第一次点某个国家"要现取现解析，
-         就是那种"有时卡有时不卡"的玄学。 */
-      setTimeout(function () {
-        /* 两个细节都是实测出来的：
-           * geo/{iso}.geojson 只有中法美三国有独立文件，其余国家一律 404。
-             那十几个无效请求既占连接，又会和用户此刻正在点的那张图抢同一条跨境链路。
-             国界走的是 geo/c0..c7.json 分片，这里不该预取。
-           * forEach 里直接 fetch 会在同一瞬间并发十几条。改成每 140ms 一条，
-             温和铺满 HTTP 缓存，不打断用户操作。 */
-        var list = (idx.countries || []).filter(function (c) {
-          return c.status !== 'placeholder';
-        });
-        /* 平面地图下线后，它那三份资源（14KB + 143KB + 431KB）不再预取 ——
-           这条链路只有 18KB/s，白下 600KB 会直接拖慢用户此刻真正要看的东西。 */
-
-        var i = 0;
-        var step = function () {
-          if (i >= list.length) return;
-          var iso = String(list[i++].iso_a2 || '').toLowerCase();
-          if (iso) fetchAny('data/' + iso + '.json').catch(function () {});
-          setTimeout(step, 140);
-        };
-        setTimeout(function () {
-          if (window.requestIdleCallback) requestIdleCallback(step, { timeout: 3000 });
-          else step();
-        }, 900);
-      }, 4200);
+      /* 以前这里会在开机 4.2 秒后，把 236 个国家的 data/*.json 全部预取一遍
+         （每 140ms 一条）。初衷是"第一次点某个国家不要现取现解析"，
+         但它实测要下约 5MB、跑满 33 秒，把用户此刻正在看的贴图和影像全挤掉了 ——
+         首屏流量警报有很大一部分是它贡献的。
+         现在改成在国名上悬停时按需预取（见 prefetchCard），一次浏览最多几份。 */
     })
     .catch(function (e) {
       subEl.textContent = '数据未加载';

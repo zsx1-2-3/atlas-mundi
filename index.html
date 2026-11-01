@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-01-A">
+<meta name="build" content="2026-11-01-B">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -401,6 +401,8 @@
   .globe-stage canvas.dragging{cursor:grabbing}
   .globe-msg{
     position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    /* 这层铺满整个舞台，不加 none 的话提示期间整颗球都点不动 */
+    pointer-events:none;
     gap:10px;
     font-size:12.5px;letter-spacing:.06em;color:var(--ink-faint);
     text-align:center;padding:20px;line-height:1.7;
@@ -906,9 +908,9 @@ body.panel-open #globe-stage{
 #detail pre,#detail code{white-space:pre-wrap;word-break:break-word}
 .dclose{
   position:absolute;top:15px;right:15px;
-  width:30px;height:30px;border-radius:50%;
+  width:36px;height:36px;border-radius:50%;
   display:flex;align-items:center;justify-content:center;
-  font-size:19px;line-height:1;cursor:pointer;
+  font-size:20px;line-height:1;cursor:pointer;
   color:var(--ink-dim);background:rgba(255,255,255,.05);
   border:1px solid var(--line);font-family:inherit;
   transition:color .2s ease,border-color .2s ease,background .2s ease;
@@ -1106,7 +1108,8 @@ body.panel-open #globe-stage{
 /* 复位按钮不属于开关，和下面那组拉开距离 */
 #tools-body #btn-china{margin-bottom:14px}
 .tool-btn{
-  width:36px;height:36px;padding:0;border-radius:50%;
+  /* 36px 在触摸屏上偏小（大拇指按不准），提到 42 */
+  width:42px;height:42px;padding:0;border-radius:50%;
   display:flex;align-items:center;justify-content:center;
   cursor:pointer;
   /* 同理：小球现在会顶到屏幕边缘，按钮底色必须做实 */
@@ -2957,6 +2960,9 @@ body.panel-open #globe-stage{
     }
     m.className = 'globe-msg' + (isErr ? ' err' : '');
     while (m.firstChild) m.removeChild(m.firstChild);
+    /* 传空串 = 收起。不这么写的话会留下一个"还在转的加载环"，
+       因为下面无条件塞了 .globe-spin。 */
+    if (!text) { m.className = 'globe-msg gone'; return; }
     if (!isErr) m.appendChild(el('span', 'globe-spin'));
     m.appendChild(el('span', 'gm-txt', text));
     /* 文字本身也做一次淡入：换文案时不要硬切 */
@@ -3809,7 +3815,10 @@ body.panel-open #globe-stage{
       /* 留 0.03 的容差：全球视角 nz 恰好算成 2.0，可相机阻尼永远差一点点
          到不了目标值，nz 就是 1.99x —— 于是 MIN_LABEL=2.0 的那批大国
          （巴西、阿根廷、中国）在全球视角全都不显示。 */
-      else show = nz >= L.z - 0.03;
+      /* 滞回：已经显示出来的标签，要掉到门槛以下 0.09 才撤。
+         没有这条时，飞行中 nz 连续变化，边缘的小国会一帧显示一帧隐藏，
+         屏幕上就是一片乱闪。 */
+      else show = nz >= L.z - (L.on ? 0.09 : 0.03);
       if (!show) { hideLabel(L); continue; }
 
       llToVec3(L.lon, L.lat, 1.02, L.v);
@@ -3828,7 +3837,8 @@ body.panel-open #globe-stage{
          门槛太高（0.62≈52°）时，巴西、阿根廷这种正好落在球缘附近的国家
          会整片消失 —— 那是"少了一半国家"而不是"更干净"。 */
       var dotMin = (L.kind === 'mc' || L.kind === 'mo') ? 0.26 : 0.34;
-      if (dot < dotMin) { hideLabel(L); continue; }
+      // 同理：已经显示的，多给 0.06 的余量再撤
+      if (dot < dotMin - (L.on ? 0.06 : 0)) { hideLabel(L); continue; }
 
       _lp.copy(L.v).project(globe.camera);
       var x = (_lp.x * 0.5 + 0.5) * w;
@@ -3845,17 +3855,24 @@ body.panel-open #globe-stage{
       var qx = Math.abs(x - cx) + L.w * 0.5;
       var qy = Math.abs(y - cy) + L.h * 0.5;
       var far = Math.sqrt(qx * qx + qy * qy);
-      var discA = (rPx * 0.99 - far) / Math.max(22, rPx * 0.13);
+      var discA = (rPx * 0.99 + (L.on ? 9 : 0) - far) / Math.max(22, rPx * 0.13);
       if (discA <= 0) { hideLabel(L); continue; }
       discA = Math.min(1, discA);
 
       // ② 矩形避让
-      var clash = false;
+      /* 避让带容差：已经显示出来的标签，被别人压掉一半以内就先让着，
+         压掉一半以上才撤。没有容差时，两个位置接近的地名会随零点几像素
+         的位移反复抢位 —— 屏幕上就是"一闪一闪"。
+         新出现的标签（L.on 为 false）仍然要求完全不重叠，保证不会挤成一坨。 */
+      var area = L.w * L.h, cover = 0;
       for (var k = 0; k < placed.length; k++) {
         var q = placed[k];
-        if (rx < q[2] && rx + L.w > q[0] && ry < q[3] && ry + L.h > q[1]) { clash = true; break; }
+        var ox = Math.min(rx + L.w, q[2]) - Math.max(rx, q[0]);
+        var oy = Math.min(ry + L.h, q[3]) - Math.max(ry, q[1]);
+        if (ox > 0 && oy > 0) cover += ox * oy;
+        if (!L.on && cover > 0) break;
       }
-      if (clash) { hideLabel(L); continue; }
+      if (cover > (L.on ? area * 0.5 : 0)) { hideLabel(L); continue; }
       placed.push([rx, ry, rx + L.w, ry + L.h]);
 
       /* 两道渐隐：越靠近球轮廓越淡（转过去就不会突然消失），
@@ -3869,7 +3886,7 @@ body.panel-open #globe-stage{
          再被乘到 0.1 就直接看不见了。改成给"贴边"留一条下限 —— 仍然会淡，
          但淡到 0.6 就打住，不会淡成不存在。 */
       var alpha = limb * (0.60 + 0.40 * edgeA * discA);
-      if (alpha < 0.08) { hideLabel(L); continue; }
+      if (alpha < (L.on ? 0.05 : 0.08)) { hideLabel(L); continue; }
 
       /* 341 个标注每帧无脑写 style 是最贵的一笔开销（首屏卡顿的来源之一）。
          只在数值真的变了才写，静止时几乎零写入。 */
@@ -3979,7 +3996,9 @@ body.panel-open #globe-stage{
     }
     /* 竖屏时若严格按 1.14（含大气外缘）装下，球只能占屏高四成，太小。
        竖屏改按 1.02 —— 球体本身几乎满宽，大气在左右各裁掉一点点看不出。 */
-    function farZ() { return fitZ(stageAspect() < 1.05 ? 1.02 : 1.14); }
+    /* 竖屏原来按 1.02 装球，于是外层大气（1.045）左右各被切掉一截，
+       看起来像气泡被削了两个边。改成 1.06 —— 球略小一点，气壳完整。 */
+    function farZ() { return fitZ(stageAspect() < 1.05 ? 1.06 : 1.14); }
     /* 聚焦就该真的拉近。上一版按"整球入画"取 1.07，只比全球视角近 6%，
        点完国家几乎看不出变化 —— 那不叫聚焦。现在按 0.74 取：
        球约放大到画面的 1.38 倍，国家明显变大，边缘自然溢出画面，
@@ -4311,11 +4330,10 @@ body.panel-open #globe-stage{
     function warmHeavyLayers() {
       if (!globe.spin) return;
       if (!globe.grid && typeof buildGraticule === 'function') prepareGrid(true);
-      /* 全量国境线错开 700ms 再开始：8 个分片是网络请求，回来的建线那一下
-         也有几十毫秒，不要和经纬网的绘制挤在同一帧。 */
-      setTimeout(function () {
-        if (!allBorders && !allBusy) buildAllBorders(false);   // 只建、不显示、不动按钮
-      }, 700);
+      /* 全量国境线的 8 个分片共 4.0MB，以前在这里开机就全量预取。
+         实测首屏 30 秒累计下载 8.9MB / 185 条请求 —— 手机流量和弱网扛不住，
+         而大多数人根本不会去点"显示全部国境线"。
+         现在改成点按钮时才拉，并在拉的过程中给一句提示。 */
     }
     globe.warmHeavyLayers = warmHeavyLayers;
 
@@ -4434,6 +4452,7 @@ body.panel-open #globe-stage{
           spin.add(allBorders);
         }
         allBorders.visible = allWant;
+        globeMsg('');
         flushAll(allWant);
       });
     }
@@ -4452,6 +4471,7 @@ body.panel-open #globe-stage{
         flushAll(allBorders.visible);
         return;
       }
+      globeMsg('正在加载全部国境线…');
       buildAllBorders(true);
     };
 
@@ -4764,15 +4784,13 @@ body.panel-open #globe-stage{
         tilt.rotation.x = Math.max(-lim2, Math.min(lim2, tilt.rotation.x));
       }
       renderer.render(scene, camera);
-      /* 标签是 339 个 DOM 元素，每帧都要投影 + 写 transform。
-         集显（UHD 630）实测：静止时还行，一飞/一拖就掉帧。
-         运动过程中降到约 30 次/秒 —— 标签本来就在跟着球走，
-         肉眼分辨不出 60 和 30 的差别，但主线程少了一半的活。 */
-      if (!(globe.flying || globe.dragging) ||
-          nowMs - (globe.lastLabelMs || 0) > 33) {
-        globe.lastLabelMs = nowMs;
-        updateLabels();
-      }
+      /* 每帧都更新。
+         之前为了省集显的开销，飞行/拖拽时降到了 30 次/秒 —— 那是错的：
+         画面 60fps 在动、标签只有一半帧在跟，实测 65% 的帧标签位置完全冻结，
+         变的那一帧却要挪两倍距离，看屏幕就是"国名疯狂抖动"。
+         真要省，正确做法是降"写样式"的次数（数值没变就不写，代码里已有），
+         而不是降"算位置"的次数。 */
+      updateLabels();
     }
     render();
 

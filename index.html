@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-01-H">
+<meta name="build" content="2026-11-01-I">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2466,7 +2466,7 @@ body.panel-open #globe-stage{
   var GEO_PEND = {};                     // 正在飞的请求（同一个国家会被两处同时要）
   var CARD_OUTLINE = {};                 // iso -> 档案自带的粗轮廓（见 scripts/inline_outline.py）
   var CARD_PREFETCH = {};                // iso -> true，悬停时已经预取过档案
-  /* iso -> 该国全部环（浮点经纬度）。来自 geo/all.json 的预加载，
+  /* iso -> 该国全部环（浮点经纬度）。来自 geo/borders.json 的预加载，
      是"点一下立刻出金线"的底气：数据早在内存里，不用等任何网络。 */
   var ALL_BY_ISO = null;
 
@@ -4471,7 +4471,7 @@ body.panel-open #globe-stage{
       if (cached) { applyLit(iso, cached); if (cb) cb(); return; }
       if (pendingLit[iso]) { if (cb) pendingLit[iso].push(cb); return; }
 
-      /* 快路径：全量国境线的顶点早就下好了（geo/all.json），同一份数据按国家
+      /* 快路径：全量国境线的顶点早就下好了（geo/borders.json），同一份数据按国家
          分过组，直接切出本国那几环就能画 —— 不发任何请求。
          这就是"有的国家点下去还要等一下"的根治：那点延迟原本全在等
          data/{iso}.json 或 geo/n/{iso}.json 的网络往返。 */
@@ -4546,7 +4546,7 @@ body.panel-open #globe-stage{
       /* 全量国境线提前备好。
          以前这里预取的是十六个分片共 4.0MB，实测首屏 30 秒累计 8.9MB / 185 条请求，
          手机流量和弱网扛不住，所以砍掉了；砍完的代价是每次点按钮都要现拉现合并。
-         现在换成专门为这层做的 geo/all.json：0.06° 抽稀，721KB（gzip 236KB），
+         现在换成专门为这层做的 geo/borders.json：0.06° 抽稀，721KB（gzip 236KB），
          是分片的六分之一 —— 预取不再心疼，按钮回到秒开。
          排到 2.6 秒之后：让首屏贴图和影像先走，别抢链路。
          这里不用 requestIdleCallback —— 页面一直跑着 rAF 循环，实测等不到
@@ -4623,7 +4623,7 @@ body.panel-open #globe-stage{
     /* 全部国境线：一条 LineSegments 铺满整颗球。
        240 个国家各建一个对象会有 240 次 draw call，合成一条只有 1 次。
 
-       数据用 geo/all.json（scripts/build_all_borders.py 生成，0.06° 抽稀）：
+       数据用 geo/borders.json（scripts/build_all_borders.py 生成，0.06° 抽稀）：
        721KB，十六个分片是 4.0MB。之所以能砍这么多——球面一像素约 0.3°，
        分片那份 0.006° 的精度有 99% 的点落在同一个像素里，纯属白传。
        这份数据在地球稳定后就会预取、预建几何，点按钮只切 visible。
@@ -4632,7 +4632,7 @@ body.panel-open #globe-stage{
        只是慢一点，不会变成"按钮点了没反应"。 */
     var allBorders = null, allBusy = false, allWant = false, allPend = null;
 
-    /* 解析 geo/all.json。数据是按国家分组的（c: {ISO: [环...]}），一份两用：
+    /* 解析 geo/borders.json。数据是按国家分组的（c: {ISO: [环...]}），一份两用：
          · 全量国境线 —— 把所有环拼成一条 LineSegments
          · 点亮单国  —— 直接切出该国那几环，零网络
        坐标是整数化的 0.02°，这里还原成度。 */
@@ -4656,7 +4656,7 @@ body.panel-open #globe-stage{
     /* 取全量国界顶点：一个 Promise、一次网络，多处调用共享。 */
     function loadAllRings() {
       if (allPend) return allPend;
-      allPend = fetchAny('geo/all.json').then(function (d) {
+      allPend = fetchAny('geo/borders.json').then(function (d) {
         var rings = ringsFromAllData(d);
         if (!rings) throw new Error('all.json 内容为空');
         return rings;

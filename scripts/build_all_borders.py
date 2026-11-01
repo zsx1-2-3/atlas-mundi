@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""把全部国家的国界合并成一份「全量国境线」专用数据：geo/all.json。
+"""把全部国家的国界合并成一份「全量国境线」专用数据：geo/borders.json。
 
 为什么单独做一份
 ----------------
@@ -37,7 +37,7 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 
 from geo_simplify import dp  # noqa: E402
 
-OUT = os.path.join(ROOT, "geo", "all.json")
+OUT = os.path.join(ROOT, "geo", "borders.json")
 TOL = 0.06      # 度。球面 1px≈0.3°，这是五分之一像素
 SCALE = 50      # 坐标单位 0.02°，int16 装得下，JSON 里也就 5~6 个字符
 

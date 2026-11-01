@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-01-B">
+<meta name="build" content="2026-11-01-C">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2396,21 +2396,70 @@ body.panel-open #globe-stage{
      分片按 ISO 的字符和取模，前后端各算一次，不需要额外索引。
      拿到的分片在内存里缓存，同一个分片里的国家不会再请求第二次。 */
   var GEO_CHUNKS = {};
+  /* 分片表：桶内 ISO 用逗号隔开、桶间用 `|`，由 scripts/rebuild_buckets.py 生成。
+     为什么不用 `hash % N`：哈希没法均衡，俄罗斯、加拿大、美国这种巨无霸
+     一撞桶就是 800KB+，点下去"卡片出来了、金线还在路上"。
+     改成按体积贪心分 16 桶（最大 553KB，其余 232KB），代价只是这张表。
+     704 个字符内联，比多一次 HTTP 往返便宜得多。 */
+  var GEO_GROUPS = "CA|US|RU|AQ,BM,CW,GM,LK,LU,ME,MH,SX,SY|AO,AT,BT,GL,KE,LY,MF,NE,PL,PN,PY,SI,ST,TT,WS|AF,BG,BI,BN,CG,CH,DK,EG,FO,GY,ID,IL,IM,IO,NR,SC,TD|AE,AG,BE,CF,CL,CV,DZ,GG,HR,JE,KI,LB,MN,PM,TJ,XK,YE|BD,BJ,DM,ES,ET,HU,MP,NO,SD,SG,SN,SO,SZ,TC,TM,TN,UM,UZ|AI,AM,CN,EC,EH,ER,GA,IT,LT,MA,MU,MW,MY,NF,PK,SH,TL,UY|AS,AU,CI,GE,GH,GU,HN,JO,KW,MR,NI,SK,SM,TR,TZ,UA,VC,ZA|BR,CZ,GD,IR,KP,KR,LI,LR,MC,MD,ML,MM,MV,NA,NG,PR,PW,TG,VU|BO,CO,DO,FJ,GT,IE,JP,KY,MS,NC,NL,NP,PT,QA,SE,SR,TO,VG,VN,WF|AW,AX,BF,BS,BZ,CU,CY,EE,FR,GN,IN,JM,KG,KM,MT,PE,PG,RS,VI,ZW|AD,BB,BH,BY,CR,FI,FM,IQ,LA,MZ,NZ,PA,PH,RW,SL,SS,SV,TV,VE,ZM|AR,AZ,BW,CD,CM,DJ,FK,GI,GQ,HT,IS,KH,KN,LC,LS,LV,MX,SA,TH,UG|AL,BA,BL,CK,DE,GB,GR,GS,GW,HM,KZ,MG,MK,NU,OM,PF,PS,RO,SB,TF";
+  var GEO_COUNT = GEO_GROUPS.split('|').length;
+  var GEO_IDX = null;
   function geoBucket(iso) {
-    var n = 0;
-    for (var i = 0; i < iso.length; i++) n += iso.charCodeAt(i);
-    return n % 8;
+    if (!GEO_IDX) {
+      GEO_IDX = {};
+      GEO_GROUPS.split('|').forEach(function (g, i) {
+        g.split(',').forEach(function (k) { if (k) GEO_IDX[k] = i; });
+      });
+    }
+    var idx = GEO_IDX[iso];
+    /* 表里没有的国家（新增/写法变体）落到 0 桶，别让整条链路断掉 */
+    return idx == null ? 0 : idx;
   }
+  var GEO_ONE = {};                      // 单国几何的缓存（已解析的对象）
+  var GEO_PEND = {};                     // 正在飞的请求（同一个国家会被两处同时要）
+
+  /* 取一个国家的国界几何。
+     优先取**单国文件** geo/n/<iso>.json —— 中位数只有 5KB（加拿大 553KB 是极端值），
+     而分片是 232KB 起。限速 1.6Mbps 下实测：走分片"点下去 6.2 秒才出金线"，
+     走单国文件基本是即时的。
+     单国文件缺失（理论上不会有，新加国家可能）才退回分片，保证不会空手。 */
   function loadGeo(iso) {
     var key = String(iso).toUpperCase();
     var b = geoBucket(key);
-    if (GEO_CHUNKS[b]) return Promise.resolve(GEO_CHUNKS[b][key] || null);
-    return fetchAny('geo/c' + b + '.json')
-      .then(function (all) {
-        GEO_CHUNKS[b] = all || {};
-        return GEO_CHUNKS[b][key] || null;
+    if (GEO_CHUNKS[b] && GEO_CHUNKS[b][key]) return Promise.resolve(GEO_CHUNKS[b][key]);
+    if (GEO_ONE[key]) return Promise.resolve(GEO_ONE[key]);
+    /* 点一下国家，有两处会同时要它的几何（面板里的 SVG 轮廓、球面上的金线），
+       不去重就是两条 5KB 的重复请求，弱网下还会互相排队。 */
+    if (GEO_PEND[key]) return GEO_PEND[key];
+
+    /* 单国文件走**同源**，不走 jsDelivr：
+       文件平均 5KB，RTT 占大头，同源和 CDN 差不多快；而 CDN 对新提交有几分钟
+       延迟，一 404 就要白试两轮镜像（~600ms）才轮到分片。
+       同源的好处是"传上去就是最新"，没有这个窗口。 */
+    var oneUrl = 'geo/n/' + key.toLowerCase() + '.json' +
+      (BUILD_TAG ? '?v=' + encodeURIComponent(BUILD_TAG) : '');
+    GEO_PEND[key] = fetch(oneUrl)
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
       })
-      .catch(function () { return null; });
+      .then(function (gj) {
+        if (!gj || !gj.features) throw new Error('empty');
+        GEO_ONE[key] = gj;
+        delete GEO_PEND[key];
+        return gj;
+      })
+      .catch(function () {
+        delete GEO_PEND[key];
+        if (GEO_CHUNKS[b]) return GEO_CHUNKS[b][key] || null;
+        return fetchAny('geo/c' + b + '.json')
+          .then(function (all) {
+            GEO_CHUNKS[b] = all || {};
+            return GEO_CHUNKS[b][key] || null;
+          })
+          .catch(function () { return null; });
+      });
+    return GEO_PEND[key];
   }
 
   function renderOutline(url, host) {
@@ -2585,6 +2634,14 @@ body.panel-open #globe-stage{
       if (d.kind === 'country') top.appendChild(el('span', 'sr-tag', '基础'));
       item.appendChild(top);
       item.appendChild(el('div', 'sr-a', d.a));
+      /* 鼠标移到这条结果上就把它的国界分片拉下来（232KB）。
+         点下去到"金线出现"之间原本要现取现解析，卡片会先出来、线还在路上 ——
+         这一下预热通常能省掉 200~800ms 的空窗。 */
+      if (d.iso) {
+        item.addEventListener('mouseenter', function () {
+          loadGeo(String(d.iso).toUpperCase());
+        });
+      }
       item.addEventListener('click', function () {
         openDetail(d.iso, cardOf(d.iso), false);
         setSearch(false);              // 选中即收起，视线回到地球
@@ -3760,6 +3817,10 @@ body.panel-open #globe-stage{
           if (globe.moved > 6) return;
           openCountry(c);
         });
+        /* 悬停预热：手指/鼠标停在国名上，多半下一步就是点它 */
+        d.addEventListener('mouseenter', function () {
+          loadGeo(String(tgt).toUpperCase());
+        });
       }
       host.appendChild(d);
       globe.labels.push(rec);
@@ -4419,7 +4480,7 @@ body.panel-open #globe-stage{
       if (allBusy) return;              // 在路上的那次会按最新 allWant 收尾
       allBusy = true;
       var jobs = [];
-      for (var b = 0; b < 8; b++) {
+      for (var b = 0; b < GEO_COUNT; b++) {
         jobs.push(fetchAny('geo/c' + b + '.json')
           .catch(function () { return null; }));
       }

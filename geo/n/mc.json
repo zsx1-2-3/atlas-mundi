@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","name":"摩纳哥","features":[{"type":"Feature","properties":{"name":"摩纳哥","iso_a2":"MC"},"geometry":{"type":"MultiPolygon","coordinates":[[[[7.437,43.743],[7.404,43.718],[7.366,43.723],[7.373,43.746],[7.407,43.764],[7.437,43.743]]]]}}],"iso":"MC"}

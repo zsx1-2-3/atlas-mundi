@@ -114,12 +114,18 @@ def main():
     # 版图合并：中国台湾 / 中国香港 / 中国澳门并入中国，且不作为独立条目出现。
     # 以前这里没做合并，球面点亮"中国"时台湾不亮、港澳还各自成了可点国家 ——
     # 既不合规，也与 data/cn.json 的边界（build_geo 已合并）对不上。
+    # 「没有 ISO 码但必须并进父级」的要素（索马里兰→索马里）走 MERGE_BY_NAME。
     merge_from = {c: par for par, cs in geo_rules.MERGE_INTO.items() for c in cs}
     child_polys = {}
     for feat in feats:
-        iso = iso_of(feat.get("properties", {}) or {})
-        if iso in merge_from:
-            child_polys.setdefault(merge_from[iso], []).extend(polys_of(feat))
+        fp = feat.get("properties", {}) or {}
+        fiso = iso_of(fp)
+        if fiso in merge_from:
+            child_polys.setdefault(merge_from[fiso], []).extend(polys_of(feat))
+            continue
+        by_name = geo_rules.MERGE_BY_NAME.get(str(fp.get("NAME") or ""))
+        if by_name:
+            child_polys.setdefault(by_name, []).extend(polys_of(feat))
 
     for idx, feat in enumerate(feats):
         p = feat.get("properties", {})

@@ -17,6 +17,16 @@ MERGE_INTO = {
     "CN": ["TW", "HK", "MO"],
 }
 
+# 没有 ISO 码、但必须并入父级的要素（按 Natural Earth 的 NAME 匹配）。
+# 索马里兰：1991 年单方面宣布"独立"，至今未获联合国及中国等绝大多数国家承认，
+# 中国政府的立场是索马里兰属于索马里。Natural Earth 把它单列成一个
+# "Sovereign country"、ISO 码留空（-99），前端按两位 ISO 取国家时会把它整块丢掉 ——
+# 结果就是球上索马里北部光秃秃一块、点上去没有任何反应（用户反馈「点不了」）。
+# 按上述立场并入索马里，与中国台湾/香港/澳门并入中国是同一条规则。
+MERGE_BY_NAME = {
+    "Somaliland": "SO",
+}
+
 # 永远不单独作为「国家」出现的 ISO 码（它们已被并入父级版图）
 NEVER_AS_COUNTRY = {code for codes in MERGE_INTO.values() for code in codes}
 

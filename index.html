@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-01-D">
+<meta name="build" content="2026-11-01-E">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -400,13 +400,26 @@
   .globe-stage canvas{display:block;width:100%;height:100%;cursor:grab}
   .globe-stage canvas.dragging{cursor:grabbing}
   .globe-msg{
-    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
-    /* 这层铺满整个舞台，不加 none 的话提示期间整颗球都点不动 */
+    /* 以前是 inset:0 + 居中一行浅灰小字，正压在球心最亮的那块贴图上 ——
+       "正在加载全部国境线…"基本读不出来（用户原话「根本看不清」）。
+       现在做成屏幕上方的一枚浮着的胶囊：深底 + 毛玻璃 + 细描边 + 投影，
+       不论球面明暗都清晰；位置也避开球心，不再挡画面。 */
+    position:absolute;left:50%;top:92px;transform:translateX(-50%);
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    max-width:min(560px,calc(100% - 48px));
+    padding:9px 18px;
+    border-radius:999px;
+    border:1px solid rgba(150,185,230,.24);
+    background:rgba(7,13,22,.86);
+    backdrop-filter:blur(10px) saturate(1.25);
+    -webkit-backdrop-filter:blur(10px) saturate(1.25);
+    box-shadow:0 10px 30px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.055);
+    font-size:12.5px;letter-spacing:.06em;color:#d3e3f6;
+    text-align:center;line-height:1.65;
+    z-index:5;
+    /* 这层不接收事件，提示期间地球照常能拖 */
     pointer-events:none;
-    gap:10px;
-    font-size:12.5px;letter-spacing:.06em;color:var(--ink-faint);
-    text-align:center;padding:20px;line-height:1.7;
-    transition:opacity .6s ease;
+    transition:opacity .45s ease,transform .45s ease;
   }
   /* 加载环用 CSS 动画（合成器线程）而不是 JS 驱动。
      关键点：上传 8K 贴图那一下主线程会停住 100~800ms，JS 驱动的进度条会跟着定住，
@@ -420,8 +433,13 @@
   }
   @keyframes gspin{to{transform:rotate(360deg)}}
   .gm-txt{transition:opacity .26s ease}
-  .globe-msg.gone{opacity:0}
-  .globe-msg.err{color:#c98a6a}
+  .globe-msg.gone{opacity:0;transform:translateX(-50%) translateY(-6px);pointer-events:none}
+  /* 错误提示是一整段话，胶囊装不下就摊成圆角矩形 */
+  .globe-msg.err{
+    color:#e6b393;border-color:rgba(201,138,106,.42);
+    border-radius:12px;padding:12px 18px;
+    background:rgba(24,12,9,.9);
+  }
 
   .globe-side .sub-label{margin-top:0}
   .globe-item{
@@ -945,6 +963,9 @@ body.panel-open #globe-stage{
   .search-wrap{width:128px;height:32px}
   .search-wrap.open{width:calc(100vw - 126px)}
   #globe-stage{inset:0}
+  /* 小屏顶栏更矮，胶囊跟着上移，别压在搜索框下面 */
+  .globe-msg{top:64px;font-size:11.5px;padding:8px 14px;gap:8px;max-width:calc(100% - 28px)}
+  .globe-spin{width:16px;height:16px}
   #detail{
     top:auto;left:10px;right:10px;bottom:10px;
     width:auto;height:82vh;height:82dvh;
@@ -2070,6 +2091,15 @@ body.panel-open #globe-stage{
     dTitle.textContent = d.name_zh;
     dSub.textContent = d.name_en + ' · ' + d.iso_a2 + ' / ' + d.iso_a3 + ' · ' + d.qid;
 
+    /* 档案里带着粗轮廓 → 记下来，球面上如果还没画线就先拿它顶。
+       记在这里而不是 renderDetail 末尾：后面的 DOM 构建还要几十毫秒。 */
+    var isoKey = String(d.iso_a2 || '').toUpperCase();
+    if (isoKey && d.outline) {
+      CARD_OUTLINE[isoKey] = d.outline;
+      /* 面板已经滑出来了，球上还空着 —— 这一刻就把画补上，别等后面那个 220ms */
+      if (globe && globe.maybePreempt) globe.maybePreempt(isoKey, d.outline);
+    }
+
     var wrap = el('div', 'dwrap');
 
     /* 左：影像 */
@@ -2183,9 +2213,14 @@ body.panel-open #globe-stage{
     setTimeout(function () {
       if (d.geometry) { renderOutline(d.geometry, svgHost); return; }
       /* 注意这里在 renderDetail(d) 里，没有 iso 变量 —— 用档案自己的 iso_a2 */
-      loadGeo(d.iso_a2 || '').then(function (gj) {
+      var iso = String(d.iso_a2 || '').toUpperCase();
+      /* 档案自带粗轮廓：先画出来，面板和球面同一次响应，不会"卡片有了线没有" */
+      var coarse = outlineRings(d.outline);
+      if (coarse) drawRings(coarse, svgHost);
+      if (iso && globe.maybePreempt) globe.maybePreempt(iso, d.outline);
+      loadGeo(iso).then(function (gj) {
         if (gj) drawOutline(gj, svgHost);
-        else svgHost.textContent = '没有这个国家的边界数据';
+        else if (!coarse) svgHost.textContent = '没有这个国家的边界数据';
       });
     }, 220);
 
@@ -2401,7 +2436,7 @@ body.panel-open #globe-stage{
      一撞桶就是 800KB+，点下去"卡片出来了、金线还在路上"。
      改成按体积贪心分 16 桶（最大 553KB，其余 232KB），代价只是这张表。
      704 个字符内联，比多一次 HTTP 往返便宜得多。 */
-  var GEO_GROUPS = "CA|US|RU|AQ,BM,CW,GM,LK,LU,ME,MH,SX,SY|AO,AT,BT,GL,KE,LY,MF,NE,PL,PN,PY,SI,ST,TT,WS|AF,BG,BI,BN,CG,CH,DK,EG,FO,GY,ID,IL,IM,IO,NR,SC,TD|AE,AG,BE,CF,CL,CV,DZ,GG,HR,JE,KI,LB,MN,PM,TJ,XK,YE|BD,BJ,DM,ES,ET,HU,MP,NO,SD,SG,SN,SO,SZ,TC,TM,TN,UM,UZ|AI,AM,CN,EC,EH,ER,GA,IT,LT,MA,MU,MW,MY,NF,PK,SH,TL,UY|AS,AU,CI,GE,GH,GU,HN,JO,KW,MR,NI,SK,SM,TR,TZ,UA,VC,ZA|BR,CZ,GD,IR,KP,KR,LI,LR,MC,MD,ML,MM,MV,NA,NG,PR,PW,TG,VU|BO,CO,DO,FJ,GT,IE,JP,KY,MS,NC,NL,NP,PT,QA,SE,SR,TO,VG,VN,WF|AW,AX,BF,BS,BZ,CU,CY,EE,FR,GN,IN,JM,KG,KM,MT,PE,PG,RS,VI,ZW|AD,BB,BH,BY,CR,FI,FM,IQ,LA,MZ,NZ,PA,PH,RW,SL,SS,SV,TV,VE,ZM|AR,AZ,BW,CD,CM,DJ,FK,GI,GQ,HT,IS,KH,KN,LC,LS,LV,MX,SA,TH,UG|AL,BA,BL,CK,DE,GB,GR,GS,GW,HM,KZ,MG,MK,NU,OM,PF,PS,RO,SB,TF";
+  var GEO_GROUPS = "CA|US|RU|AQ,BT,CH,GD,GM,GQ,LI,MC,MH,SY|AO,AT,CK,GL,HM,IL,KE,LY,ME,MF,NU,PL,PY,TT,UY|AE,AF,AS,CG,DK,EG,FO,GT,GY,ID,KW,NR,SR,TD,TO,VC,WF|CF,CL,DZ,GU,HR,LK,MN,NE,RW,SC,SM,TG,TJ,TN,TV,WS,YE|AI,BD,BE,CV,ES,ET,HU,JE,JO,MP,NO,SD,SH,SN,SO,TM,UM,UZ|AD,BB,BJ,CN,EC,ER,GA,GH,IT,KY,LV,MA,MW,MY,PK,QA,TC,VG|AU,AW,AX,CI,EH,GG,HN,KI,KM,MK,MR,NI,TR,TZ,UA,UG,VI,ZA|AM,BR,CZ,GS,IR,JM,KP,KR,LT,ML,MM,MT,MU,NA,NF,NG,SZ,TL,VU|AG,BO,CO,DM,FJ,HT,IE,JP,LR,NC,NL,NP,PM,PR,PT,SE,SG,SI,VN,XK|BF,BG,BH,BS,BZ,CU,CY,EE,FR,GE,GN,IN,KG,PE,PG,PN,PS,RS,ST,SX|BI,BL,BM,BY,CR,CW,FI,FM,LA,LU,MD,MZ,NZ,PA,PH,SL,SS,SV,VE,ZM|AL,AR,AZ,BN,BW,CD,CM,DJ,DO,FK,IM,IO,IQ,IS,KH,LB,MS,MX,SA,TH|BA,DE,GB,GI,GR,GW,KN,KZ,LC,LS,MG,MV,OM,PF,PW,RO,SB,SK,TF,ZW";
   var GEO_COUNT = GEO_GROUPS.split('|').length;
   var GEO_IDX = null;
   function geoBucket(iso) {
@@ -2417,6 +2452,7 @@ body.panel-open #globe-stage{
   }
   var GEO_ONE = {};                      // 单国几何的缓存（已解析的对象）
   var GEO_PEND = {};                     // 正在飞的请求（同一个国家会被两处同时要）
+  var CARD_OUTLINE = {};                 // iso -> 档案自带的粗轮廓（见 scripts/inline_outline.py）
 
   /* 取一个国家的国界几何。
      优先取**单国文件** geo/n/<iso>.json —— 中位数只有 5KB（加拿大 553KB 是极端值），
@@ -2467,18 +2503,35 @@ body.panel-open #globe-stage{
   /* 把 FeatureCollection 画成等距圆柱投影的轮廓 */
   function drawOutline(gj, host) {
     if (!gj) { host.textContent = '边界数据为空'; return; }
-    (function () {
-        var rings = [];
-        (gj.features || []).forEach(function (f) {
-          var g = f.geometry || {};
-          var polys = g.type === 'Polygon' ? [g.coordinates]
-            : (g.type === 'MultiPolygon' ? g.coordinates : []);
-          polys.forEach(function (poly) {
-            poly.forEach(function (ring) { if (ring && ring.length > 2) rings.push(ring); });
-          });
-        });
-        if (!rings.length) { host.textContent = '边界数据为空'; return; }
+    var rings = [];
+    (gj.features || []).forEach(function (f) {
+      var g = f.geometry || {};
+      var polys = g.type === 'Polygon' ? [g.coordinates]
+        : (g.type === 'MultiPolygon' ? g.coordinates : []);
+      polys.forEach(function (poly) {
+        poly.forEach(function (ring) { if (ring && ring.length > 2) rings.push(ring); });
+      });
+    });
+    if (!rings.length) { host.textContent = '边界数据为空'; return; }
+    drawRings(rings, host);
+  }
 
+  /* 档案里自带的那份粗轮廓（scripts/inline_outline.py 生成）。
+     坐标是整数化的 0.01°，还原成度再画 —— 这样点开国家时轮廓和卡片
+     同一次响应到达，不用等 geo/ 那条更慢的链路。 */
+  function outlineRings(o) {
+    if (!o || !o.length) return null;
+    var rings = [];
+    for (var i = 0; i < o.length; i++) {
+      var src = o[i], pts = [];
+      for (var j = 0; j < src.length; j++) pts.push([src[j][0] / 100, src[j][1] / 100]);
+      if (pts.length > 2) rings.push(pts);
+    }
+    return rings.length ? rings : null;
+  }
+
+  function drawRings(rings, host) {
+    (function () {
         var minX = 1e9, maxX = -1e9, minY = 1e9, maxY = -1e9;
         rings.forEach(function (ring) {
           ring.forEach(function (pt) {
@@ -3009,11 +3062,23 @@ body.panel-open #globe-stage{
       m.id = 'globe-msg';
       st.appendChild(m);
     }
-    m.className = 'globe-msg' + (isErr ? ' err' : '');
+    var cls = 'globe-msg' + (isErr ? ' err' : '');
+    if (!text) { m.className = cls + ' gone'; return; }
+
+    /* 进度更新（"3/16"→"4/16"）走这里：只换字，不重建节点。
+       以前每次都清空重塞 + 做一次淡入，浏览器下就是每来一个分片整条提示闪一下。 */
+    var prev = m.querySelector('.gm-txt');
+    if (prev && m.className === cls) {
+      if (prev.textContent !== text) prev.textContent = text;
+      m.style.opacity = '';
+      return;
+    }
+
+    m.className = cls;
+    m.style.opacity = '';
     while (m.firstChild) m.removeChild(m.firstChild);
     /* 传空串 = 收起。不这么写的话会留下一个"还在转的加载环"，
        因为下面无条件塞了 .globe-spin。 */
-    if (!text) { m.className = 'globe-msg gone'; return; }
     if (!isErr) m.appendChild(el('span', 'globe-spin'));
     m.appendChild(el('span', 'gm-txt', text));
     /* 文字本身也做一次淡入：换文案时不要硬切 */
@@ -4299,6 +4364,7 @@ body.panel-open #globe-stage{
        内置三家（中法美）的线在建球时就建好了，其余国家按需从 geo 分片里取，
        取到后缓存起来 —— 同一国第二次点不再走网络，也不再建几何。 */
     var borderCache = {};      // iso -> Line（含内置三国）
+    var borderSrc = {};        // iso -> 'coarse' | 'fine'，粗轮廓是临时的，细的到了要换掉
     var pendingLit = {};       // iso -> [cb]，正在加载的
     var curLit = null;         // 当前最亮的那条
     globe.wantLit = {};        // iso -> true，表示"用户点过、应该亮着"
@@ -4310,6 +4376,24 @@ body.panel-open #globe-stage{
       if (curLit && curLit !== line) curLit.material = globe.matLit;
       curLit = line;
       globe.active = iso;
+    }
+
+    /* 用档案自带的粗轮廓先点亮。
+       为什么需要这一步：金线走 geo/（CDN），卡片走 data/（同源 Pages），
+       两条链路实测差最多 700ms，表现就是"卡片展开了、国土还在路上"。
+       档案里的 outline 是随卡片一起来的，先拿它顶上去，画面立刻完整；
+       精细几何随后到，再把这条换成 0.006° 的版本（下面 upgrade）。
+       球面一像素约 0.3°，粗轮廓是 0.05°，肉眼分不出，所以这个"升级"
+       主要是为了放大后和面板里的 SVG 对齐。 */
+    function litFromOutline(iso, outline) {
+      var rings = outlineRings(outline);
+      if (!rings) return false;
+      var line = ringsToLines(rings, BORDER_R_ON, globe.matLit);
+      borderCache[iso] = line;
+      borderSrc[iso] = 'coarse';
+      spin.add(line);
+      applyLit(iso, line);
+      return true;
     }
 
     function lineFromGeo(gj) {
@@ -4328,6 +4412,16 @@ body.panel-open #globe-stage{
       return ringsToLines(rings, BORDER_R_ON, globe.matLit);
     }
 
+    /* 档案到得比几何早时，用粗轮廓先画（由 renderDetail 调用）。 */
+    globe.maybePreempt = function (iso, outline) {
+      if (!iso || !outline) return;
+      iso = String(iso).toUpperCase();
+      if (!globe.wantLit[iso]) return;         // 用户已经关掉/换国了
+      if (borderSrc[iso] === 'fine') return;   // 精细的已经在画了，别倒退
+      if (borderCache[iso]) return;            // 已经有线，交给 upgrade 处理
+      litFromOutline(iso, outline);
+    };
+
     globe.lightBorder = function (iso, cb) {
       if (!iso) { if (cb) cb(); return; }
       iso = String(iso).toUpperCase();
@@ -4337,7 +4431,12 @@ body.panel-open #globe-stage{
       if (cached) { applyLit(iso, cached); if (cb) cb(); return; }
       if (pendingLit[iso]) { if (cb) pendingLit[iso].push(cb); return; }
 
-      pendingLit[iso] = cb ? [cb] : [];
+      /* 之前点过这国、档案里的粗轮廓已经在内存里 → 立刻亮，不等网络 */
+      if (CARD_OUTLINE[iso] && litFromOutline(iso, CARD_OUTLINE[iso])) {
+        if (cb) cb();
+      }
+
+      pendingLit[iso] = [];
       loadGeo(iso).then(function (gj) {
         var waits = pendingLit[iso] || [];
         delete pendingLit[iso];
@@ -4345,9 +4444,18 @@ body.panel-open #globe-stage{
         if (gj && globe.wantLit[iso]) {
           var line = lineFromGeo(gj);
           if (line) {
+            /* 粗线已占位：原地换成精细的。两条都挂在 spin 上，先加后删，
+               中间不会有一帧"什么都没有"。 */
+            var old = borderCache[iso];
             borderCache[iso] = line;
+            borderSrc[iso] = 'fine';
             spin.add(line);
             applyLit(iso, line);
+            if (old && old !== line) {
+              old.visible = false;
+              spin.remove(old);
+              try { old.geometry.dispose(); } catch (e) {}
+            }
           }
         }
         waits.forEach(function (f) { try { f(); } catch (e) {} });
@@ -4367,6 +4475,7 @@ body.panel-open #globe-stage{
       Object.keys(globe.groups).forEach(function (k) { globe.groups[k].visible = false; });
       globe.wantLit = {};
       pendingLit = {};
+      borderSrc = {};
       curLit = null;
       globe.active = null;
       Array.prototype.forEach.call(
@@ -4474,9 +4583,22 @@ body.panel-open #globe-stage{
       if (allBusy) return;              // 在路上的那次会按最新 allWant 收尾
       allBusy = true;
       var jobs = [];
+      var got = 0;
+      /* 16 个分片共 4MB，弱网下要二三十秒。只写"正在加载"的话用户会以为卡死，
+         所以每回来一片就把计数刷上去 —— 数字在动，就说明它在干活。 */
+      function tick() {
+        got++;
+        if (!allWant) return;
+        /* 最后一片到了还要把 1200 个环合成一条线，那一下是同步的、几十毫秒，
+           文案得跟着换，否则"16/16"停在那里像卡住。 */
+        globeMsg(got < GEO_COUNT
+          ? '正在加载全部国境线… ' + got + '/' + GEO_COUNT
+          : '正在合并国境线…');
+      }
       for (var b = 0; b < GEO_COUNT; b++) {
         jobs.push(fetchAny('geo/c' + b + '.json')
-          .catch(function () { return null; }));
+          .then(function (x) { tick(); return x; })
+          .catch(function () { tick(); return null; }));
       }
       Promise.all(jobs).then(function (list) {
         allBusy = false;
@@ -4526,7 +4648,7 @@ body.panel-open #globe-stage{
         flushAll(allBorders.visible);
         return;
       }
-      globeMsg('正在加载全部国境线…');
+      globeMsg('正在加载全部国境线… 0/' + GEO_COUNT);
       buildAllBorders(true);
     };
 

@@ -90,16 +90,21 @@ def q(v):
 def build_flats():
     data = {}
     total_in = total_out = 0
-    for b in range(8):
-        path = os.path.join(ROOT, "geo", "c%d.json" % b)
-        if not os.path.exists(path):
-            print("[flat] 缺 geo/c%d.json，跳过" % b)
-            continue
+    # 分片数量会变（8 → 16 桶重排过），写死 range(8) 会漏掉 c8..c15 里的国家 ——
+    # 实测漏了一半：那半个地球在 2D/点击判定的索引里压根不存在，
+    # 点上去没有任何反应。所以按目录里实际存在的文件来。
+    import glob
+    shards = sorted(glob.glob(os.path.join(ROOT, "geo", "c*.json")))
+    if not shards:
+        print("[flat] 找不到 geo/c*.json")
+        return
+    for path in shards:
         total_in += os.path.getsize(path)
         with open(path, encoding="utf-8") as f:
             shard = json.load(f)
         for iso, fc in shard.items():
             rings = data.setdefault(iso, [])
+            raw_rings = []
             for feat in ((fc or {}).get("features") or []):
                 g = feat.get("geometry") or {}
                 typ = g.get("type")
@@ -107,9 +112,16 @@ def build_flats():
                          else g.get("coordinates") if typ == "MultiPolygon" else [])
                 for poly in (polys or []):
                     for ring in (poly or []):
+                        if len(ring) >= MIN_RING:
+                            raw_rings.append(ring)
                         s = simplify(ring)
                         if len(s) >= MIN_RING:
                             rings.append([[q(p[0]), q(p[1])] for p in s])
+            # 微型国家（摩纳哥、瑙鲁、圣马力诺）整环都过不了 0.1° 的步长，
+            # 简化后一个环都不剩 —— 它们会从索引里整个消失，点上去没有任何反应。
+            # 对这些国家退回原始环：本来就没几个点，不差这点体积。
+            if not rings and raw_rings:
+                data[iso] = [[[q(p[0]), q(p[1])] for p in r] for r in raw_rings[:3]]
 
     payload = {"scale": SCALE,
                "countries": [{"iso": k, "rings": v} for k, v in data.items() if v]}

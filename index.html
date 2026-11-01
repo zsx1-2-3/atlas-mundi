@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-01-F">
+<meta name="build" content="2026-11-01-G">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -400,14 +400,14 @@
   .globe-stage canvas{display:block;width:100%;height:100%;cursor:grab}
   .globe-stage canvas.dragging{cursor:grabbing}
   .globe-msg{
-    /* 以前是 inset:0 + 居中一行浅灰小字，正压在球心最亮的那块贴图上 ——
-       "正在加载全部国境线…"基本读不出来（用户原话「根本看不清」）。
-       现在做成屏幕上方的一枚浮着的胶囊：深底 + 毛玻璃 + 细描边 + 投影，
-       不论球面明暗都清晰；位置也避开球心，不再挡画面。 */
-    position:absolute;left:50%;top:92px;transform:translateX(-50%);
+    /* 位置保持原来的屏幕正中 —— 用户明确说过"原来那个不是挺好的吗"，
+       挪到顶部是错的。之前的问题只是"浅灰小字压在球心亮面上读不出来"，
+       所以这次只改可见性，不动位置：深底胶囊 + 毛玻璃 + 细描边 + 投影，
+       文字提亮到 #d3e3f6。球面再亮也压得住。 */
+    position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
     display:flex;align-items:center;justify-content:center;gap:10px;
     max-width:min(560px,calc(100% - 48px));
-    padding:9px 18px;
+    padding:10px 20px;
     border-radius:999px;
     border:1px solid rgba(150,185,230,.24);
     background:rgba(7,13,22,.86);
@@ -433,7 +433,7 @@
   }
   @keyframes gspin{to{transform:rotate(360deg)}}
   .gm-txt{transition:opacity .26s ease}
-  .globe-msg.gone{opacity:0;transform:translateX(-50%) translateY(-6px);pointer-events:none}
+  .globe-msg.gone{opacity:0;transform:translate(-50%,-50%) scale(.97);pointer-events:none}
   /* 错误提示是一整段话，胶囊装不下就摊成圆角矩形 */
   .globe-msg.err{
     color:#e6b393;border-color:rgba(201,138,106,.42);
@@ -963,8 +963,8 @@ body.panel-open #globe-stage{
   .search-wrap{width:128px;height:32px}
   .search-wrap.open{width:calc(100vw - 126px)}
   #globe-stage{inset:0}
-  /* 小屏顶栏更矮，胶囊跟着上移，别压在搜索框下面 */
-  .globe-msg{top:64px;font-size:11.5px;padding:8px 14px;gap:8px;max-width:calc(100% - 28px)}
+  /* 小屏：胶囊窄一点，位置仍在正中 */
+  .globe-msg{font-size:11.5px;padding:8px 15px;gap:8px;max-width:calc(100% - 28px)}
   .globe-spin{width:16px;height:16px}
   #detail{
     top:auto;left:10px;right:10px;bottom:10px;
@@ -4509,7 +4509,7 @@ body.panel-open #globe-stage{
       );
     };
 
-    /* 空闲预热：这两样第一次使用都要现做（国境线合并 1201 个环、
+    /* 空闲预热：这两样第一次使用都要现做（全量国境线的顶点拼装、
        经纬网画 4096×2048 的贴图 + 编译 shader），用户点下去会僵一下。
        球稳定后趁空闲先把它们建好，之后开关只切 visible —— 秒开。
        建好先设 visible=false，不改变当前画面。
@@ -4519,10 +4519,19 @@ body.panel-open #globe-stage{
     function warmHeavyLayers() {
       if (!globe.spin) return;
       if (!globe.grid && typeof buildGraticule === 'function') prepareGrid(true);
-      /* 全量国境线的 8 个分片共 4.0MB，以前在这里开机就全量预取。
-         实测首屏 30 秒累计下载 8.9MB / 185 条请求 —— 手机流量和弱网扛不住，
-         而大多数人根本不会去点"显示全部国境线"。
-         现在改成点按钮时才拉，并在拉的过程中给一句提示。 */
+
+      /* 全量国境线提前备好。
+         以前这里预取的是十六个分片共 4.0MB，实测首屏 30 秒累计 8.9MB / 185 条请求，
+         手机流量和弱网扛不住，所以砍掉了；砍完的代价是每次点按钮都要现拉现合并。
+         现在换成专门为这层做的 geo/all.json：0.06° 抽稀，721KB（gzip 236KB），
+         是分片的六分之一 —— 预取不再心疼，按钮回到秒开。
+         排到 2.6 秒之后：让首屏贴图和影像先走，别抢链路。
+         这里不用 requestIdleCallback —— 页面一直跑着 rAF 循环，实测等不到
+         空闲帧（timeout 兜底在 headless 下也没如期触发），预热就这么丢了；
+         固定延迟反而稳。 */
+      setTimeout(function () {
+        if (globe.prewarmBorders) globe.prewarmBorders();
+      }, 1200);
     }
     globe.warmHeavyLayers = warmHeavyLayers;
 
@@ -4588,10 +4597,55 @@ body.panel-open #globe-stage{
       };
     };
 
-    /* 全部国境线：一次把 8 个分片里所有国家的轮廓合并成一个 LineSegments。
-       240 个国家各建一个对象会有 240 次 draw call，合成一条整线只有 1 次。
-       分片总共 1.1MB，切开关时若已加载过就走浏览器缓存，不会重新解析。 */
-    var allBorders = null, allBusy = false, allWant = false;
+    /* 全部国境线：一条 LineSegments 铺满整颗球。
+       240 个国家各建一个对象会有 240 次 draw call，合成一条只有 1 次。
+
+       数据用 geo/all.json（scripts/build_all_borders.py 生成，0.06° 抽稀）：
+       721KB，十六个分片是 4.0MB。之所以能砍这么多——球面一像素约 0.3°，
+       分片那份 0.006° 的精度有 99% 的点落在同一个像素里，纯属白传。
+       这份数据在地球稳定后就会预取、预建几何，点按钮只切 visible。
+
+       分片那条老路留着兜底：all.json 拿不到（旧版本缓存、改坏了）时照旧合并，
+       只是慢一点，不会变成"按钮点了没反应"。 */
+    var allBorders = null, allBusy = false, allWant = false, allPend = null;
+
+    function ringsFromAllData(d) {
+      if (!d || !d.r || !d.r.length) return null;
+      var s = d.s || 1, out = [];
+      for (var i = 0; i < d.r.length; i++) {
+        var src = d.r[i], ring = new Array(src.length), j;
+        for (j = 0; j < src.length; j++) ring[j] = [src[j][0] / s, src[j][1] / s];
+        if (ring.length > 2) out.push(ring);
+      }
+      return out.length ? out : null;
+    }
+
+    /* 取全量国界顶点：一个 Promise、一次网络，多处调用共享。 */
+    function loadAllRings() {
+      if (allPend) return allPend;
+      allPend = fetchAny('geo/all.json').then(function (d) {
+        var rings = ringsFromAllData(d);
+        if (!rings) throw new Error('all.json 内容为空');
+        return rings;
+      });
+      /* 失败一次就别反复打网络，清掉让下次还有机会重试 */
+      allPend.catch(function () { allPend = null; });
+      return allPend;
+    }
+
+    /* 建几何。建过一次就不再建（开关只切 visible）。
+       半径 1.006：球半径是 1，差值必须比深度缓冲的精度大一档，
+       否则线会陷进球面被剔掉（1.0045 实测就完全看不见）。
+       颜色与选中的金线同一支（matAll = 0.40 透明度），只分浓淡。
+       点亮的那几国画在 1.008，永远压在这层上面。 */
+    function makeAllBorders(rings) {
+      if (allBorders || !rings || !rings.length) return allBorders;
+      allBorders = ringsToLines(rings, BORDER_R_ALL, globe.matAll);
+      allBorders.visible = false;
+      spin.add(allBorders);
+      return allBorders;
+    }
+
     /* 加载期间用户又点了：把回调排上，加载完一次性通知。
        以前是 `if (allBusy) return;` —— 直接返回、cb 不调、按钮的 busy 类
        永远摘不掉，之后所有点击都被 `if (classList.contains('busy')) return`
@@ -4603,19 +4657,13 @@ body.panel-open #globe-stage{
       allWait.splice(0).forEach(function (f) { try { f(v); } catch (e) {} });
     }
 
-    function buildAllBorders(show) {
-      allWant = !!show;
-      if (allBusy) return;              // 在路上的那次会按最新 allWant 收尾
-      allBusy = true;
+    /* 兜底：十六个分片合并（4.0MB）。只在 all.json 不可用时走。 */
+    function ringsFromChunks() {
       var jobs = [];
       var got = 0;
-      /* 16 个分片共 4MB，弱网下要二三十秒。只写"正在加载"的话用户会以为卡死，
-         所以每回来一片就把计数刷上去 —— 数字在动，就说明它在干活。 */
       function tick() {
         got++;
         if (!allWant) return;
-        /* 最后一片到了还要把 1200 个环合成一条线，那一下是同步的、几十毫秒，
-           文案得跟着换，否则"16/16"停在那里像卡住。 */
         globeMsg(got < GEO_COUNT
           ? '正在加载全部国境线… ' + got + '/' + GEO_COUNT
           : '正在合并国境线…');
@@ -4625,8 +4673,7 @@ body.panel-open #globe-stage{
           .then(function (x) { tick(); return x; })
           .catch(function () { tick(); return null; }));
       }
-      Promise.all(jobs).then(function (list) {
-        allBusy = false;
+      return Promise.all(jobs).then(function (list) {
         var rings = [];
         list.forEach(function (all) {
           if (!all) return;
@@ -4643,26 +4690,65 @@ body.panel-open #globe-stage{
             });
           });
         });
-        if (!rings.length) { flushAll(false); return; }
-        if (!allBorders) {
-          /* 半径 1.006：球半径是 1，差值必须比深度缓冲的精度大一档，
-             否则线会陷进球面被剔掉（1.0045 实测就完全看不见）。
-             颜色与选中的金线同一支（matAll = 0.40 透明度），只分浓淡。
-             点亮的那几国画在 1.008，永远压在这层上面。 */
-          allBorders = ringsToLines(rings, BORDER_R_ALL, globe.matAll);
-          allBorders.visible = false;
-          spin.add(allBorders);
-        }
-        allBorders.visible = allWant;
-        globeMsg('');
-        flushAll(allWant);
+        return rings;
       });
     }
+
+    function buildAllBorders(show) {
+      allWant = !!show;
+      if (allBorders) {                 // 预建已完成：只切显隐，秒开
+        allBorders.visible = allWant;
+        if (!allWant) globe.clearLit();
+        globeMsg('');
+        flushAll(allWant);
+        return;
+      }
+      if (allBusy) return;              // 在路上的那次会按最新 allWant 收尾
+      allBusy = true;
+      if (allWant) globeMsg('正在准备全部国境线…');
+
+      loadAllRings()
+        .catch(function () {
+          if (allWant) globeMsg('正在加载全部国境线… 0/' + GEO_COUNT);
+          return ringsFromChunks();
+        })
+        .then(function (rings) {
+          allBusy = false;
+          if (!rings || !rings.length) { globeMsg(''); flushAll(false); return; }
+          makeAllBorders(rings);
+          if (allBorders) allBorders.visible = allWant;
+          globeMsg('');
+          flushAll(allWant);
+        })
+        .catch(function () {
+          allBusy = false;
+          globeMsg('');
+          flushAll(false);
+        });
+    }
+
+    /* 预热：地球转起来之后，趁空闲把 all.json 取回来并把几何建好（visible=false）。
+       用户点按钮时就不用等网络，也不用等那一下同步的顶点拼装。
+       建完不显示、不动画面。 */
+    globe.prewarmBorders = function () {
+      if (allBorders) return;
+      loadAllRings().then(function (rings) {
+        if (allBorders) return;        // 期间用户已经点开过，别重复建
+        makeAllBorders(rings);
+        if (allBorders) {
+          allBorders.visible = false;
+          if (globe.renderer && globe.renderer.compile) {
+            /* 提前编译一次：否则第一次显示时那一帧要编 shader，能到几十毫秒 */
+            try { globe.renderer.compile(scene, camera); } catch (e) {}
+          }
+        }
+      }).catch(function () { /* 预热失败无所谓，点按钮时会重试 */ });
+    };
 
     globe.toggleAllBorders = function (cb) {
       if (cb) allWait.push(cb);
       /* 建好一次就留着，开关只切 visible。
-         以前关掉就 dispose，下次打开又得重新合并 1201 个环 —— 用户手感就是
+         以前关掉就 dispose，下次打开又得重新合并一轮 —— 用户手感就是
          "第一次点卡一下、第二次又卡一下"。这个对象只有一条 draw call，
          留着占不了多少内存。 */
       if (allBorders) {
@@ -4673,7 +4759,7 @@ body.panel-open #globe-stage{
         flushAll(allBorders.visible);
         return;
       }
-      globeMsg('正在加载全部国境线… 0/' + GEO_COUNT);
+      globeMsg('正在加载全部国境线…');
       buildAllBorders(true);
     };
 
@@ -4685,6 +4771,16 @@ body.panel-open #globe-stage{
     globe.sphere = sphere;
     globe.data = data;
     globe.ready = true;
+
+    /* 球一建好就开始拉全量国境线的顶点（721KB / gzip 236KB），比等"球稳定"
+       早好几秒 —— 那份数据太小，不差这点带宽，但能让按钮真正提前备好。
+       数据到手后隔一拍再建几何：建那一下是同步的（几万个顶点拼数组），
+       别撞在首屏第一帧上。 */
+    loadAllRings().then(function () {
+      setTimeout(function () {
+        if (globe.prewarmBorders) globe.prewarmBorders();
+      }, 1200);
+    }).catch(function () {});
 
     // ---- 交互：拖拽 ----
     var cv = renderer.domElement;

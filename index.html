@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-01-G">
+<meta name="build" content="2026-11-01-H">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -400,22 +400,25 @@
   .globe-stage canvas{display:block;width:100%;height:100%;cursor:grab}
   .globe-stage canvas.dragging{cursor:grabbing}
   .globe-msg{
-    /* 位置保持原来的屏幕正中 —— 用户明确说过"原来那个不是挺好的吗"，
-       挪到顶部是错的。之前的问题只是"浅灰小字压在球心亮面上读不出来"，
-       所以这次只改可见性，不动位置：深底胶囊 + 毛玻璃 + 细描边 + 投影，
-       文字提亮到 #d3e3f6。球面再亮也压得住。 */
+    /* 原样：屏幕正中一行字，不加底板。
+       之前读不出来只是因为字色太淡（--ink-faint）+ 压在球心最亮的贴图上，
+       所以这里只做两件事：文字提亮，加三层黑色投影当"描边"。
+       投影比底板好在哪 —— 它只跟着笔画走，不占画面，也不改变原来的观感。 */
     position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
     display:flex;align-items:center;justify-content:center;gap:10px;
     max-width:min(560px,calc(100% - 48px));
-    padding:10px 20px;
-    border-radius:999px;
-    border:1px solid rgba(150,185,230,.24);
-    background:rgba(7,13,22,.86);
-    backdrop-filter:blur(10px) saturate(1.25);
-    -webkit-backdrop-filter:blur(10px) saturate(1.25);
-    box-shadow:0 10px 30px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.055);
-    font-size:12.5px;letter-spacing:.06em;color:#d3e3f6;
-    text-align:center;line-height:1.65;
+    font-size:13px;font-weight:500;letter-spacing:.06em;
+    color:#eaf2fd;
+    text-align:center;line-height:1.7;
+    text-shadow:
+      0 0 2px rgba(0,0,0,.95),
+      0 1px 3px rgba(0,0,0,.95),
+      0 2px 10px rgba(0,0,0,.9),
+      0 0 24px rgba(0,0,0,.8);
+    /* 再贴一圈极细的描边：投影在沙漠、雪原这种大片亮色上会"发灰"，
+       描边能把笔画的边界钉住，看着还是一行字，不是一块板。 */
+    -webkit-text-stroke:.45px rgba(0,0,0,.5);
+    paint-order:stroke fill;
     z-index:5;
     /* 这层不接收事件，提示期间地球照常能拖 */
     pointer-events:none;
@@ -434,11 +437,11 @@
   @keyframes gspin{to{transform:rotate(360deg)}}
   .gm-txt{transition:opacity .26s ease}
   .globe-msg.gone{opacity:0;transform:translate(-50%,-50%) scale(.97);pointer-events:none}
-  /* 错误提示是一整段话，胶囊装不下就摊成圆角矩形 */
-  .globe-msg.err{
-    color:#e6b393;border-color:rgba(201,138,106,.42);
-    border-radius:12px;padding:12px 18px;
-    background:rgba(24,12,9,.9);
+  /* 错误提示是一整段话，换行正常，颜色偏暖 */
+  .globe-msg.err{color:#f0b795}
+  .globe-spin{
+    /* 无底板之后，转圈也得自带黑边才看得见 */
+    filter:drop-shadow(0 1px 2px rgba(0,0,0,.95)) drop-shadow(0 0 8px rgba(0,0,0,.8));
   }
 
   .globe-side .sub-label{margin-top:0}
@@ -2220,13 +2223,16 @@ body.panel-open #globe-stage{
       if (d.geometry) { renderOutline(d.geometry, svgHost); return; }
       /* 注意这里在 renderDetail(d) 里，没有 iso 变量 —— 用档案自己的 iso_a2 */
       var iso = String(d.iso_a2 || '').toUpperCase();
-      /* 档案自带粗轮廓：先画出来，面板和球面同一次响应，不会"卡片有了线没有" */
       var coarse = outlineRings(d.outline);
-      if (coarse) drawRings(coarse, svgHost);
+      /* 先画手上有的，再等精细的替换：预加载的全量数据（0.06°）已经够细，
+         档案自带的 outline 次之，两者都比干等"读取边界数据…"强。 */
+      var pre = ALL_BY_ISO && ALL_BY_ISO[iso];
+      if (pre) drawRings(pre, svgHost);
+      else if (coarse) drawRings(coarse, svgHost);
       if (iso && globe.maybePreempt) globe.maybePreempt(iso, d.outline);
       loadGeo(iso).then(function (gj) {
         if (gj) drawOutline(gj, svgHost);
-        else if (!coarse) svgHost.textContent = '没有这个国家的边界数据';
+        else if (!coarse && !pre) svgHost.textContent = '没有这个国家的边界数据';
       });
     }, 220);
 
@@ -2460,6 +2466,9 @@ body.panel-open #globe-stage{
   var GEO_PEND = {};                     // 正在飞的请求（同一个国家会被两处同时要）
   var CARD_OUTLINE = {};                 // iso -> 档案自带的粗轮廓（见 scripts/inline_outline.py）
   var CARD_PREFETCH = {};                // iso -> true，悬停时已经预取过档案
+  /* iso -> 该国全部环（浮点经纬度）。来自 geo/all.json 的预加载，
+     是"点一下立刻出金线"的底气：数据早在内存里，不用等任何网络。 */
+  var ALL_BY_ISO = null;
 
   /* 悬停预取档案（20~30KB）。用户从"鼠标停在国名上"到真的点下去，
      通常有 200ms 以上，足够把这一份取回来 —— 点开时就不用再等。
@@ -4413,9 +4422,15 @@ body.panel-open #globe-stage{
     function litFromOutline(iso, outline) {
       var rings = outlineRings(outline);
       if (!rings) return false;
+      return litFromRings(iso, rings, 'coarse');
+    }
+
+    /* 用一串环直接点亮 —— 数据在内存里时走这条，不等网络。 */
+    function litFromRings(iso, rings, src) {
       var line = ringsToLines(rings, BORDER_R_ON, globe.matLit);
+      if (!line) return false;
       borderCache[iso] = line;
-      borderSrc[iso] = 'coarse';
+      borderSrc[iso] = src || 'pre';
       spin.add(line);
       applyLit(iso, line);
       return true;
@@ -4456,7 +4471,15 @@ body.panel-open #globe-stage{
       if (cached) { applyLit(iso, cached); if (cb) cb(); return; }
       if (pendingLit[iso]) { if (cb) pendingLit[iso].push(cb); return; }
 
-      /* 之前点过这国、档案里的粗轮廓已经在内存里 → 立刻亮，不等网络 */
+      /* 快路径：全量国境线的顶点早就下好了（geo/all.json），同一份数据按国家
+         分过组，直接切出本国那几环就能画 —— 不发任何请求。
+         这就是"有的国家点下去还要等一下"的根治：那点延迟原本全在等
+         data/{iso}.json 或 geo/n/{iso}.json 的网络往返。 */
+      if (ALL_BY_ISO && ALL_BY_ISO[iso]) {
+        if (litFromRings(iso, ALL_BY_ISO[iso], 'pre')) { if (cb) cb(); return; }
+      }
+
+      /* 数据还没预加载完（页面刚开几秒）：先用档案里的粗轮廓顶上 */
       if (CARD_OUTLINE[iso] && litFromOutline(iso, CARD_OUTLINE[iso])) {
         if (cb) cb();
       }
@@ -4609,15 +4632,25 @@ body.panel-open #globe-stage{
        只是慢一点，不会变成"按钮点了没反应"。 */
     var allBorders = null, allBusy = false, allWant = false, allPend = null;
 
+    /* 解析 geo/all.json。数据是按国家分组的（c: {ISO: [环...]}），一份两用：
+         · 全量国境线 —— 把所有环拼成一条 LineSegments
+         · 点亮单国  —— 直接切出该国那几环，零网络
+       坐标是整数化的 0.02°，这里还原成度。 */
     function ringsFromAllData(d) {
-      if (!d || !d.r || !d.r.length) return null;
-      var s = d.s || 1, out = [];
-      for (var i = 0; i < d.r.length; i++) {
-        var src = d.r[i], ring = new Array(src.length), j;
-        for (j = 0; j < src.length; j++) ring[j] = [src[j][0] / s, src[j][1] / s];
-        if (ring.length > 2) out.push(ring);
-      }
-      return out.length ? out : null;
+      if (!d || !d.c) return null;
+      var s = d.s || 1, byIso = {}, all = [];
+      Object.keys(d.c).forEach(function (iso) {
+        var src = d.c[iso], rings = [];
+        for (var i = 0; i < src.length; i++) {
+          var row = src[i], ring = new Array(row.length), j;
+          for (j = 0; j < row.length; j++) ring[j] = [row[j][0] / s, row[j][1] / s];
+          if (ring.length > 2) { rings.push(ring); all.push(ring); }
+        }
+        if (rings.length) byIso[String(iso).toUpperCase()] = rings;
+      });
+      if (!all.length) return null;
+      ALL_BY_ISO = byIso;
+      return all;
     }
 
     /* 取全量国界顶点：一个 Promise、一次网络，多处调用共享。 */

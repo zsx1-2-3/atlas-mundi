@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-01-C">
+<meta name="build" content="2026-11-01-D">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2432,17 +2432,11 @@ body.panel-open #globe-stage{
        不去重就是两条 5KB 的重复请求，弱网下还会互相排队。 */
     if (GEO_PEND[key]) return GEO_PEND[key];
 
-    /* 单国文件走**同源**，不走 jsDelivr：
-       文件平均 5KB，RTT 占大头，同源和 CDN 差不多快；而 CDN 对新提交有几分钟
-       延迟，一 404 就要白试两轮镜像（~600ms）才轮到分片。
-       同源的好处是"传上去就是最新"，没有这个窗口。 */
-    var oneUrl = 'geo/n/' + key.toLowerCase() + '.json' +
-      (BUILD_TAG ? '?v=' + encodeURIComponent(BUILD_TAG) : '');
-    GEO_PEND[key] = fetch(oneUrl)
-      .then(function (r) {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
-      })
+    /* 单国文件同样走 fetchAny（CDN 优先、同源兜底）。
+       实测同一个 jp.json：Pages 1.25s、jsDelivr 约 0.2s —— 文件小的时候
+       差的不是带宽而是链路。刚部署那几分钟 CDN 可能还是 404，多花两轮 RTT
+       就退到同源，不影响正确性。 */
+    GEO_PEND[key] = fetchAny('geo/n/' + key.toLowerCase() + '.json')
       .then(function (gj) {
         if (!gj || !gj.features) throw new Error('empty');
         GEO_ONE[key] = gj;

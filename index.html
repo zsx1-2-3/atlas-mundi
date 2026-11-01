@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-10-31-N">
+<meta name="build" content="2026-11-01-A">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1935,6 +1935,10 @@ body.panel-open #globe-stage{
   document.addEventListener('pointerdown', function (e) {
     _lastDown.x = e.clientX;
     _lastDown.y = e.clientY;
+    /* 顺手把 AudioContext 建好。实测第一次点国家时现场 new AudioContext()
+       要 30~50ms，正好卡在镜头起飞的瞬间 —— 那一下的"顿"就是这么来的。
+       在第一次按下鼠标时就付掉这笔钱，用户还在拖鼠标，感觉不到。 */
+    warmAudio();
   }, true);
 
   function rippleAt(x, y) {
@@ -1953,6 +1957,15 @@ body.panel-open #globe-stage{
   }
 
   var _ac = null;
+
+  function warmAudio() {
+    try {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return;
+      if (!_ac) _ac = new AC();
+      if (_ac.state === 'suspended') _ac.resume();
+    } catch (e) { /* 不支持就算了，点击时再试 */ }
+  }
 
   /* 点击音：机械键盘的"嗒"。
      第一版是 50ms 白噪声过带通（Q 只有 0.9）—— 听起来是"沙"，不是键盘：
@@ -4751,7 +4764,15 @@ body.panel-open #globe-stage{
         tilt.rotation.x = Math.max(-lim2, Math.min(lim2, tilt.rotation.x));
       }
       renderer.render(scene, camera);
-      updateLabels();
+      /* 标签是 339 个 DOM 元素，每帧都要投影 + 写 transform。
+         集显（UHD 630）实测：静止时还行，一飞/一拖就掉帧。
+         运动过程中降到约 30 次/秒 —— 标签本来就在跟着球走，
+         肉眼分辨不出 60 和 30 的差别，但主线程少了一半的活。 */
+      if (!(globe.flying || globe.dragging) ||
+          nowMs - (globe.lastLabelMs || 0) > 33) {
+        globe.lastLabelMs = nowMs;
+        updateLabels();
+      }
     }
     render();
 

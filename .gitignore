@@ -37,10 +37,9 @@ secrets.*
 # 大模型产物的预览副本（确认后才合进 data/*.json）
 data/_llm/
 
-# 一次性运维脚本（用 GitHub Contents API 推送用，不是项目代码）
-_push.py
-_push_many.py
-_gitee_public.py
+# 一次性运维脚本与本地调试脚本（下划线开头的一律不入库，不是项目代码）
+_*.py
+_*/
 geo/_ne_110m_land.geojson
 
 # 贴图源图与本地验证产物（源图 30~40MB，只留生成脚本 scripts/make_textures.py）

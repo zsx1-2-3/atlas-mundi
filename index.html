@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-02-P">
+<meta name="build" content="2026-11-02-Q">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1620,13 +1620,13 @@ body.panel-open #globe-stage{
     </svg>
   </button>
   <div id="tools-body">
-  <button class="tool-btn act" id="btn-china" type="button" aria-label="回到中国上空">
+  <button class="tool-btn" id="btn-china" type="button" aria-label="常驻中国上空" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <circle cx="12" cy="12" r="8.3"/>
       <circle cx="12" cy="12" r="2.2"/>
       <path d="M12 1.9v2.2M12 19.9v2.2M1.9 12h2.2M19.9 12h2.2"/>
     </svg>
-    <span class="tl">回到中国</span>
+    <span class="tl">常驻中国</span>
   </button>
   <div class="tsep" aria-hidden="true"></div>
   <button class="tool-btn" id="btn-borders" type="button" aria-label="显示全部国境线" aria-pressed="false">
@@ -3236,6 +3236,7 @@ body.panel-open #globe-stage{
     matOn: null, matLit: null, matAll: null,
     active: null,
     autoSpin: true,
+    pinCN: false,          // 「常驻中国」：钉住镜头、冻结自转
     inView: false,
     dragging: false,
     last: { x: 0, y: 0 },
@@ -3560,6 +3561,8 @@ body.panel-open #globe-stage{
      得 ry = -lon - 90。
      tilt 绕 X：正角度使北极转向相机，故北半球国家用正 lat。 */
   function focusCountry(iso, ms) {
+    /* 飞向别的国家 = 用户不想钉在中国了 */
+    if (iso !== 'CN' && globe.pinCN) setPinChina(false);
     var c = null;
     (globe.data.countries || []).forEach(function (x) { if (x.iso === iso) c = x; });
     if (!c || !globe.spin) return;
@@ -3581,8 +3584,35 @@ body.panel-open #globe-stage{
       globe.spin.rotation.y = fromY + dY * e;
       globe.tilt.rotation.x = fromX + dX * e;
       if (k < 1) requestAnimationFrame(step);
-      else globe.autoSpin = true;
+      else globe.autoSpin = !globe.pinCN;   // 钉住的时候别自己转走
     })();
+  }
+
+  /* ---------- 常驻中国 ----------
+     原来是一颗一次性动作按钮（act）：按下去飞过去，飞完自转照旧，中国又转走了；
+     而且是六个按钮里唯一不会亮的那个 —— 和旁边五个开关明显不是一类。
+     改成开关：点亮 = 镜头钉在中国上空并冻结自转，再点一次解除。
+     六个按钮于是全是 aria-pressed 开关，点亮态、交互、读屏口径都统一了。
+
+     解除的时机有两处：用户手动拖球（dragDown）、或飞向别的国家（focusCountry）。
+     滚轮缩放不算 —— 拉近看中国正是在用它，不该把钉子拔掉。 */
+  function setPinChina(on) {
+    on = !!on;
+    if (globe.pinCN === on) return;
+    globe.pinCN = on;
+    var btn = document.getElementById('btn-china');
+    if (btn) btn.classList.toggle('on', on);   // aria-pressed 由末尾的 MutationObserver 同步
+    if (on) {
+      globe.camMode = 'manual';
+      globe.flying = false;
+      /* 高度回到首屏那个 3.02，否则"定位到中国"会变得很随机 ——
+         上次放大到街道级别的话，点一下还是贴在街道上。只动相机，不开面板。 */
+      globe.camTarget = 3.02;
+      focusCountry('CN', 900);
+    } else {
+      globe.autoSpin = true;
+      globe.idleUntil = performance.now() + 600;
+    }
   }
 
   /* ---------- 地球贴图与材质 ----------
@@ -4867,7 +4897,8 @@ body.panel-open #globe-stage{
            靠这两个数确认手势到底有没有生效。 */
         camZ: globe.camera ? Math.round(globe.camera.position.z * 1000) / 1000 : null,
         rot: globe.spin ? Math.round(globe.spin.rotation.y * 1000) / 1000 : null,
-        tilt: globe.tilt ? Math.round(globe.tilt.rotation.x * 1000) / 1000 : null
+        tilt: globe.tilt ? Math.round(globe.tilt.rotation.x * 1000) / 1000 : null,
+        pinCN: !!globe.pinCN
       };
     };
 
@@ -5115,6 +5146,7 @@ body.panel-open #globe-stage{
         globe.vel.x = globe.vel.y = 0;
         cv.classList.add('dragging');
         globe.autoSpin = false;
+        if (globe.pinCN) setPinChina(false);   // 手一转就是要自己看，钉子拔掉
         globe.flying = false;        // 手动接管，打断正在进行的飞行
         return;
       }
@@ -5444,7 +5476,7 @@ body.panel-open #globe-stage{
         }
       }
 
-      if (globe.autoSpin && !globe.dragging && !globe.flying &&
+      if (globe.autoSpin && !globe.pinCN && !globe.dragging && !globe.flying &&
           nowMs > globe.idleUntil && !(globe.term && globe.term.on) &&
           !globe.timeMode) {
         /* 自转：0.0009 弧度/帧@60fps ≈ 116 秒一圈（原来 0.0013 = 80 秒，偏快）。
@@ -5551,9 +5583,6 @@ body.panel-open #globe-stage{
       });
     }
 
-    /* 回到中国上空：只动相机，不开面板。高度回到首屏那个 3.02，
-       否则"定位到中国"会变得很随机 —— 上次放大到街道级别的话，
-       点一下还是贴在街道上。 */
     /* 工具栏收纳（只在手机上生效，桌面永远整条展开）。
        原来这里也有一段"收起后只留一颗按钮"的代码，但那个按钮和它的样式
        后来被删掉了 —— toolsToggle 恒为 null，整段是死代码。现在按钮回来了。 */
@@ -5604,10 +5633,7 @@ body.panel-open #globe-stage{
     var bcn = document.getElementById('btn-china');
     if (bcn) {
       bcn.addEventListener('click', function () {
-        globe.camMode = 'manual';
-        globe.flying = false;
-        globe.camTarget = 3.02;
-        focusCountry('CN', 900);
+        setPinChina(!globe.pinCN);
         if (window.__tipHide) window.__tipHide();
       });
     }

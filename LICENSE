@@ -19,20 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-Note on content licensing:
-
-The MIT license above covers the source code (index.html, scripts/, and other
-code in this repository). It does not cover the data, images, or text:
-
-- Geographic data from Natural Earth is in the public domain.
-- Earth imagery from NASA (Blue Marble / Black Marble) is in the public domain.
-- Landmark photographs come from Wikimedia Commons; each one keeps its own
-  license and author, recorded per image in data/{iso}.json
-  (`landmark_images[].license`, `.author`).
-- Prose content is derived from Wikipedia (CC BY-SA 4.0) and adapted.
-
-If you redistribute the dataset or the images, follow the per-item licenses
-recorded in the data files.

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-02-M">
+<meta name="build" content="2026-11-02-N">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -628,6 +628,9 @@
 /* 这一层覆盖旧的"长页面"排版：不再有文档流滚动，一切浮在 3D 舞台之上。 */
 html,body{
   height:100%;overflow:hidden;
+  /* 手机上拖到顶部时别触发"下拉刷新"（Android Chrome），
+     也别让整页有橡皮筋回弹 —— 那是浏览器在跟手势抢。 */
+  overscroll-behavior:none;
 }
 body{
   margin:0;padding:0;
@@ -642,6 +645,13 @@ body{
   transform-origin:50% 50%;
   will-change:transform;
   transition:transform 1.05s cubic-bezier(.22,.61,.36,1),opacity .42s ease;
+  /* 手机上必须写这句。没有它，手指在球上滑动会被浏览器当成"滚动页面/缩放页面"，
+     pointermove 中途还会收到一个 pointercancel —— 表现就是"拖两下就断"。
+     有了它，触摸事件全归我们处理，页面不会跟着滚、也不会跟着捏。
+     注意：面板 #detail 不在这里，它自己的滚动不受影响。 */
+  touch-action:none;
+  /* iOS 长按国名会弹"拷贝/查询"菜单，压着球拖到一半弹出来很出戏 */
+  -webkit-touch-callout:none;
 }
 #globe-stage canvas{
   display:block;width:100%;height:100%;cursor:grab;
@@ -975,7 +985,9 @@ body.panel-open #globe-stage{
   .globe-msg{font-size:11.5px;padding:8px 15px;gap:8px;max-width:calc(100% - 28px)}
   .globe-spin{width:16px;height:16px}
   #detail{
-    top:auto;left:10px;right:10px;bottom:10px;
+    top:auto;left:10px;right:10px;
+    /* 手势条（iPhone 底部那条）+ 圆角：贴到底会被系统横条压住 */
+    bottom:calc(10px + env(safe-area-inset-bottom, 0px));
     width:auto;height:82vh;height:82dvh;
     border-radius:18px;
     transform:translateY(calc(100% + 20px));
@@ -983,6 +995,49 @@ body.panel-open #globe-stage{
   #detail.open{transform:none}
   body.panel-open #globe-stage{transform:translateY(-11%)}
   #footline{display:none}
+
+  /* 刘海屏 / 手势条。viewport-fit=cover 之后浮层会顶到物理边缘，
+     状态栏和 Home 指示条会直接压在上面。 */
+  #topbar{
+    padding:calc(12px + env(safe-area-inset-top, 0px)) calc(14px + env(safe-area-inset-right, 0px))
+            12px calc(14px + env(safe-area-inset-left, 0px));
+  }
+  #tools{
+    left:calc(20px + env(safe-area-inset-left, 0px));
+    bottom:calc(20px + env(safe-area-inset-bottom, 0px));
+  }
+  #dock{bottom:calc(30px + env(safe-area-inset-bottom, 0px))}
+
+  /* iOS 上输入框字号小于 16px，聚焦时浏览器会自动把整页放大，而且不缩回来。
+     搜索框在手机上"点一下就跳"就是这个原因。16px 是那条线。 */
+  #q{font-size:16px}
+
+  /* 缩略图条：手机上 5 张图会折成两行（4+1），很难看。
+     改成单行横滑，最后一行的空间省下来给正文。 */
+  .thumbstrip{flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
+              -webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .thumbstrip::-webkit-scrollbar{display:none}
+  .ts-item{flex:0 0 auto}
+}
+
+/* --- 横屏手机（高度很矮）---
+   竖屏那套"从底下抽上来"的抽屉在横屏会把地球整个盖住；
+   这里仍用右侧栏，但要收窄、留白压到 8px，并给主图限高 ——
+   否则一张 16:10 的照片就吃掉整屏，正文要一直往下滑。 */
+@media (max-height:520px) and (orientation:landscape){
+  #detail{
+    top:8px;right:8px;bottom:8px;
+    width:min(56vw, 440px);
+  }
+  #detail .dimg-wrap{aspect-ratio:16/9;max-height:38vh}
+  #topbar{padding:calc(8px + env(safe-area-inset-top, 0px)) calc(12px + env(safe-area-inset-right, 0px))
+                  8px calc(12px + env(safe-area-inset-left, 0px))}
+  .brand-cn{font-size:16px}
+  #tools{left:calc(14px + env(safe-area-inset-left, 0px));
+         bottom:calc(14px + env(safe-area-inset-bottom, 0px))}
+  /* 横屏高度不够摆 6 个按钮，缩到 36px 一档，仍然大于 32px 的触摸下限 */
+  #tools-body .tool-btn{width:36px;height:36px}
+  #tools-body{gap:5px}
 }
 
 /* ============ 浏览器表面 ============
@@ -4723,7 +4778,12 @@ body.panel-open #globe-stage{
         gridVisible: !!(globe.grid && globe.grid.visible),
         bordersBuilt: !!allBorders,
         bordersVisible: !!(allBorders && allBorders.visible),
-        bordersBusy: !!allBusy
+        bordersBusy: !!allBusy,
+        /* 调试用：相机距离与球体朝向。手机端捏合/拖拽没法用肉眼验证，
+           靠这两个数确认手势到底有没有生效。 */
+        camZ: globe.camera ? Math.round(globe.camera.position.z * 1000) / 1000 : null,
+        rot: globe.spin ? Math.round(globe.spin.rotation.y * 1000) / 1000 : null,
+        tilt: globe.tilt ? Math.round(globe.tilt.rotation.x * 1000) / 1000 : null
       };
     };
 
@@ -4930,22 +4990,84 @@ body.panel-open #globe-stage{
        现在 239 个国家的地名都可点，它们盖住了球面相当大一片；如果按住字就拖不动，
        手感会碎得厉害。所以：down 绑在 canvas 和每个地名上，move/up 统一挂 window
        （带 globe.dragging 守卫），这样从字上按下也能直接转球。 */
-    function dragDown(e) {
-      globe.dragging = true;
-      globe.lastInput = performance.now();
-      globe.last.x = e.clientX;
-      globe.last.y = e.clientY;
-      downAt.x = e.clientX;
-      downAt.y = e.clientY;
-      globe.moved = 0;
-      globe.vel.x = globe.vel.y = 0;
-      cv.classList.add('dragging');
-      globe.autoSpin = false;
-      globe.flying = false;        // 手动接管，打断正在进行的飞行
+    /* ---------- 拖拽旋转 + 双指捏合缩放 ----------
+       以前只有 wheel：手机上根本没有滚轮事件，所以**缩放完全不可用**；
+       而拖拽虽然没有 pointercancel 保护（#globe-stage 少了 touch-action:none），
+       手指划两下就被浏览器抢去滚页面，收到的是一次 pointercancel。
+
+       这里把指针按 id 记账：手机两根手指会同时发 pointermove，
+       不分 id 的话两指的位移互相覆盖，镜头会跳。
+       一根手指 = 转球；两根手指 = 捏合，转动同时停下
+       （否则球会跟着两指中点乱跑）。 */
+    var ptrs = {};          // pointerId -> {x, y}
+    var dragId = null;      // 负责转球的那根
+    var pinching = false;
+    var pinch0 = 0;         // 捏合开始时两指距离（px）
+    var pinchCam0 = 0;      // 捏合开始时的相机距离
+
+    function ptrCount() { return Object.keys(ptrs).length; }
+    function ptrDist() {
+      var ids = Object.keys(ptrs);
+      if (ids.length < 2) return 0;
+      var a = ptrs[ids[0]], b = ptrs[ids[1]];
+      var dx = a.x - b.x, dy = a.y - b.y;
+      return Math.sqrt(dx * dx + dy * dy) || 1;
     }
+
+    function dragDown(e) {
+      /* 鼠标只认左键；触摸和笔没有 button 之分。 */
+      if (e.pointerType === 'mouse' && e.button !== 0) return;
+      ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+
+      if (ptrCount() === 1) {
+        dragId = e.pointerId;
+        globe.dragging = true;
+        globe.lastInput = performance.now();
+        globe.last.x = e.clientX;
+        globe.last.y = e.clientY;
+        downAt.x = e.clientX;
+        downAt.y = e.clientY;
+        globe.moved = 0;
+        globe.vel.x = globe.vel.y = 0;
+        cv.classList.add('dragging');
+        globe.autoSpin = false;
+        globe.flying = false;        // 手动接管，打断正在进行的飞行
+        return;
+      }
+
+      if (ptrCount() === 2) {
+        pinching = true;
+        pinch0 = ptrDist();
+        pinchCam0 = globe.camTarget;
+        globe.dragging = false;
+        globe.vel.x = globe.vel.y = 0;
+        globe.moved = 999;           // 这一串动作不许被当成"点了一下"
+        cv.classList.remove('dragging');
+        globe.camMode = 'manual';
+        globe.flying = false;
+      }
+    }
+
     function dragMove(e) {
-      if (!globe.dragging) return;
+      var p = ptrs[e.pointerId];
+      if (!p) return;                // 不是我们记过的指针（比如第二根手指之外的多余触点）
+      p.x = e.clientX;
+      p.y = e.clientY;
       globe.lastInput = performance.now();
+
+      /* 双指：只算缩放。两指分开 → 距离变大 → 相机拉近（camZ 变小）。
+         用手势的"倍数"而不是每帧增量，捏多少走多少，松手不飘。 */
+      if (pinching && ptrCount() >= 2) {
+        var d = ptrDist();
+        if (pinch0 > 0 && d > 0) {
+          globe.camTarget = Math.max(CAM_MIN, Math.min(CAM_MAX, pinchCam0 * (pinch0 / d)));
+        }
+        globe.autoSpin = false;
+        globe.idleUntil = performance.now() + 2600;
+        return;
+      }
+
+      if (!globe.dragging || e.pointerId !== dragId) return;
       var dx = e.clientX - globe.last.x;
       var dy = e.clientY - globe.last.y;
       globe.last.x = e.clientX;
@@ -4959,8 +5081,35 @@ body.panel-open #globe-stage{
       var lim = 78 * D2R;
       globe.tilt.rotation.x = Math.max(-lim, Math.min(lim, globe.tilt.rotation.x));
     }
-    function dragUp() {
-      if (!globe.dragging) return;
+
+    /* 收尾：抬起一根手指、或整段手势结束。 */
+    function dragUp(e) {
+      if (e && e.pointerId !== undefined) delete ptrs[e.pointerId];
+      var n = ptrCount();
+
+      if (pinching && n < 2) {
+        pinching = false;
+        globe.idleUntil = performance.now() + 2600;
+        if (n === 1) {
+          /* 松掉一根、还剩一根：让留下的那根接着转。
+             基准点重设到它当前的位置，否则球会"跳"一下。 */
+          for (var k in ptrs) { dragId = Number(k); break; }
+          globe.dragging = true;
+          globe.last.x = ptrs[dragId].x;
+          globe.last.y = ptrs[dragId].y;
+          globe.vel.x = globe.vel.y = 0;
+          cv.classList.add('dragging');
+          return;
+        }
+      }
+      if (n > 0) return;
+
+      dragId = null;
+      if (!globe.dragging) {
+        /* 捏合结束时 dragging 已经是 false，但自转要恢复 */
+        globe.autoSpin = true;
+        return;
+      }
       globe.dragging = false;
       cv.classList.remove('dragging');
       /* 只有真正拖动过才延时恢复自转。
@@ -5049,10 +5198,18 @@ body.panel-open #globe-stage{
       keyClick();
       showTimePin(e.clientX, e.clientY, ll);
     });
+    /* 指针事件挂在 window 上：手指滑出画布（或滑到面板上）也要继续跟手。
+       pointercancel 必须当成抬起 —— 系统手势、来电、切后台都会发它，
+       不处理的话球会一直"被按住"，自转再也不恢复。 */
     window.addEventListener('pointermove', dragMove);
     window.addEventListener('pointerup', dragUp);
     window.addEventListener('pointercancel', dragUp);
-    window.addEventListener('blur', dragUp);
+    /* 切走窗口：把所有指针清掉，别留下"一直按着"的状态 */
+    window.addEventListener('blur', function () {
+      ptrs = {};
+      pinching = false;
+      dragUp({ pointerId: -1 });
+    });
 
     // ---- 交互：缩放 ----
     cv.addEventListener('wheel', function (e) {

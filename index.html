@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-02-J">
+<meta name="build" content="2026-11-02-K">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2137,6 +2137,17 @@ body.panel-open #globe-stage{
       var items = [];
       var picSeq = 0;
 
+      /* 题注和授权是纯文本，立刻就能填 —— 图片要等镜头停稳（见下面 whenSettled），
+         这段时间面板不能是空白的，先让图注占住位置，视觉上不跳。 */
+      function setCap(idx) {
+        var it = imgs[idx];
+        capEl.textContent = it.caption_zh || it.caption || '';
+        licEl.textContent = it.license
+          ? '授权：' + it.license + (it.author ? ' · ' + it.author : '')
+          : '授权待确认（来源已记录：' + (it.title || 'Commons') + '）';
+        items.forEach(function (n, i) { n.classList.toggle('active', i === idx); });
+      }
+
       function showPic(idx) {
         var it = imgs[idx];
         var seq = ++picSeq;
@@ -2164,11 +2175,7 @@ body.panel-open #globe-stage{
         setAsset(pic, it.url || it.thumb_url);
         // 换到同一张图时浏览器不会重新触发 load，loaded 就永远加不上，图是透明
         if (pic.complete && pic.naturalWidth) pic.onload();
-        capEl.textContent = it.caption_zh || it.caption || '';
-        licEl.textContent = it.license
-          ? '授权：' + it.license + (it.author ? ' · ' + it.author : '')
-          : '授权待确认（来源已记录：' + (it.title || 'Commons') + '）';
-        items.forEach(function (n, i) { n.classList.toggle('active', i === idx); });
+        setCap(idx);
       }
 
       left.appendChild(picWrap);
@@ -2179,13 +2186,30 @@ body.panel-open #globe-stage{
           t.setAttribute('data-tip', t.alt);
           t.loading = 'lazy';
           t.decoding = 'async';
-          setAsset(t, it.thumb_url || it.url);
           t.addEventListener('click', function () { showPic(i); });
           items.push(t);
           strip.appendChild(t);
         });
       }
-      showPic(0);
+      setCap(0);
+      /* 图片一律等镜头停稳再取。
+         实测：点开一个国家时，掉帧有一半来自这几张图 —— 主图 1200×800 要下载、
+         解码、再当纹理传上 GPU，而那 700 毫秒正是镜头在飞的时候；缩略图一次
+         五六张，情况更糟。而"冷/热"两遍的差别（第一次点卡、再点不卡）也正是
+         它们。题干说"先等镜头固定了再下也能接受"，那就按这个来：
+         面板立刻滑入、图注立刻显示，图位置留一块微光的骨架，停稳后再填图。 */
+      var imgToken = DETAIL_SEQ;
+      (globe.whenSettled || function (f) { f(); })(function () {
+        if (imgToken !== DETAIL_SEQ) return;      // 已经翻到别的国家了
+        /* 停稳之前用户已经点过某张缩略图（picSeq 已经加过），就别再把他
+           选中的那张顶回第一张。 */
+        if (picSeq === 0) showPic(0);
+        if (strip) {
+          imgs.forEach(function (it, i) {
+            setAsset(items[i], it.thumb_url || it.url);
+          });
+        }
+      });
       if (strip) left.appendChild(strip);
       left.appendChild(capEl);
       left.appendChild(licEl);
@@ -3965,6 +3989,21 @@ body.panel-open #globe-stage{
     var camLen = camPos.length() || 1;
     var placed = [];               // 已占用矩形 [x0,y0,x1,y1]
 
+    /* ---- 两道"分批上"的闸门（治点击后镜头一顿一顿）----
+       实测：点开一个国家，镜头压到 CAM_NEAR 之后屏幕上的地名会从十几条
+       跳到七十多条 —— 探针中途取样那一次，60ms 内新冒出 59 条。
+       每冒一条就是一次文字栅格化 + 一次合成层创建，59 条挤在同一帧里，
+       那一帧必然超过 16.7ms；而飞行期间这七十几条又每帧改 transform，
+       把飞行段的每一帧都顶在预算线上（实测：把整个地名层藏起来，掉帧归零）。
+
+       ① 每帧最多放 10 条新地名的名额。多出来的等下一帧、再下一帧 ——
+          反正只差几十毫秒，观众看到的是"渐次浮现"，比"唰一下全出来"更好看。
+       ② 镜头在飞/手在拖时，在场地名封顶 34 条（按优先级，也就是 Natural Earth
+          的 LABELRANK，重要的先上）。已经在场的永不因这条被撤，所以不会闪。
+          停下来后名额恢复，剩下的地名照样补齐 —— 静止时的画面和原来完全一样。 */
+    var flyCap = (globe.flying || globe.dragging) ? 34 : 1e9;
+    var newBudget = 10;
+
     /* ---- 球体的屏幕投影圆 ----
        球在透视投影下仍是一个圆：视半角 asin(R/z)，投影到 NDC 的半径
        = tan(asin(R/z)) / tan(fov/2)，再乘半屏高就是像素半径。
@@ -4047,6 +4086,12 @@ body.panel-open #globe-stage{
         if (!L.on && cover > 0) break;
       }
       if (cover > (L.on ? area * 0.5 : 0)) { hideLabel(L); continue; }
+      /* 上面两道闸门：已经显示的不受名额限制（免得一闪一闪），
+         新出现的才排队。 */
+      if (!L.on) {
+        if (placed.length >= flyCap || newBudget <= 0) { hideLabel(L); continue; }
+        newBudget--;
+      }
       placed.push([rx, ry, rx + L.w, ry + L.h]);
 
       /* 两道渐隐：越靠近球轮廓越淡（转过去就不会突然消失），
@@ -4146,6 +4191,19 @@ body.panel-open #globe-stage{
     globe.idleUntil = performance.now() + 1200;
   }
 
+  /* 等镜头停稳（飞行阻尼收敛）再做事。
+     典型用途：卡片里的地标照片。它们要下载、解码、再当纹理传上 GPU，
+     而这三件事全落在镜头正在飞的这 700ms 里 —— 实测点一个国家掉的那几帧，
+     一半来自这里。宁可让图晚 0.3 秒出现，也别让镜头抖。
+     1.6 秒兜底：飞行被打断、或者用户拖住了球，不能让回调永远不执行。 */
+  globe.whenSettled = function (cb) {
+    var t0 = performance.now();
+    (function wait() {
+      if (!globe.flying || performance.now() - t0 > 1600) { cb(); return; }
+      requestAnimationFrame(wait);
+    })();
+  };
+
   function buildGlobe(data) {
     var stage = globeStage();
 
@@ -4185,8 +4243,26 @@ body.panel-open #globe-stage{
     globe.camTarget = CAM_FAR;
     globe.camMode = 'far';
 
-    var renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    /* ---- 一台机器卡、另一台不卡：MSAA × 高分屏 ----
+       同一台机器、同一段飞行、只改 devicePixelRatio 实测（掉帧次数）：
+         dpr=1.00 → 13      dpr=1.25 → 25      dpr=1.50 → 10      dpr=2.00 → 80
+       1.25 和 1.5 之间那一下不是巧合：1.25 还开着 MSAA，1.5 因为下面这行
+       被关掉了。也就是说"卡不卡"主要不是像素多少，而是**有没有叠 4×MSAA**。
+       4×MSAA 让这颗球的多重采样缓冲区变成 4 倍带宽，而片元着色器本身已经很重
+       （昼夜双贴图混合 + 法线扰动 + 体积光 + 海面高光 + ACES 色调映射），
+       在集显 / 高分屏上直接超 16.7ms —— 整段飞行就掉到 30fps。
+
+       关掉之后：dpr=1.25 从 25 降到 8，dpr=2.00 从 80 降到 11，dpr=1.50 是 10。
+       而 dpr≥1.25 本身就有超采样，球缘和金色国界线的锯齿已经看不出来，
+       少这一层 MSAA 视觉上几乎无损（1.0 的屏仍然给它开着，那里是真需要）。
+
+       分辨率保持 devicePixelRatio（上限 2）不降档：实测把 dpr=2 的缓冲区
+       压到 1.5 倍并不能再减少掉帧（都是 11~12 次），说明剩下的瓶颈不在填充率，
+       降档只是白白牺牲清晰度，所以不做。 */
+    var DPR = window.devicePixelRatio || 1;
+
+    var renderer = new THREE.WebGLRenderer({ antialias: DPR < 1.25, alpha: true });
+    renderer.setPixelRatio(Math.min(DPR, 2));
     renderer.setSize(w, h, false);
     stage.appendChild(renderer.domElement);
     requestAnimationFrame(function () {

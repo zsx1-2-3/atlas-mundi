@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-01-I">
+<meta name="build" content="2026-11-02-J">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1049,7 +1049,15 @@ body.panel-open #globe-stage{
    像地图那样：纯文字、无胶囊底、带投影保证在浅色地表上也读得清。
    每帧由 JS 投影定位，转到背面淡出，互相重叠的按重要度让位。
    尺寸分三级：大洲最轻、大洋斜体、国家名最实。 */
-#labels{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:5}
+#labels{
+  position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:5;
+  /* 让整个地名层自成一个合成层。
+     没有这一行的时候，飞行中每帧有几十个 .mlabel 改 transform，浏览器要逐个
+     把它们的变化提交到合成树、再逐层重传纹理 —— 实测"点击国家镜头一顿一顿"
+     就是它：同一段飞行，去掉这行 12 次掉帧，加上这行 2 次（满帧 60）。
+     它只影响合成方式，不改布局与绘制，标签的避让、裁剪、点击都照旧。 */
+  will-change:transform;
+}
 .mlabel{
   position:absolute;left:0;top:0;
   /* 拖地球的时候鼠标会从地名上划过去。地名是 DOM 文本，浏览器默认会当成
@@ -2117,6 +2125,11 @@ body.panel-open #globe-stage{
     if (imgs.length) {
       var picWrap = el('div', 'dimg-wrap loading');
       var pic = el('img', 'dimg');
+      /* 解码放到渲染线程之外。卡片首图普遍 1200×800 上下，同步解码
+         一次要 30~50ms —— 正好落在面板滑入、镜头起飞的那一帧上，
+         用户看到的就是"点一下顿一下"。decoding=async 让浏览器把解码
+         挪到别的线程，主线程只负责布局。 */
+      pic.decoding = 'async';
       picWrap.appendChild(pic);
       var capEl = el('div', 'cap', '');
       var licEl = el('div', 'cap dim', '');
@@ -2165,6 +2178,7 @@ body.panel-open #globe-stage{
           t.alt = it.caption_zh || it.caption || (d.name_zh + ' 图片 ' + (i + 1));
           t.setAttribute('data-tip', t.alt);
           t.loading = 'lazy';
+          t.decoding = 'async';
           setAsset(t, it.thumb_url || it.url);
           t.addEventListener('click', function () { showPic(i); });
           items.push(t);
@@ -3928,7 +3942,13 @@ body.panel-open #globe-stage{
 
   function hideLabel(L) {
     if (L.on || L._o !== '0') { L.on = false; L._o = '0'; L.el.style.opacity = '0'; }
-    if (L._wc) { L._wc = 0; L.el.style.willChange = 'auto'; }
+    /* 飞行 / 拖拽期间**不撤销** will-change。
+       撤销再重建一次，浏览器要把这段文字重新栅格化、重传一张纹理；
+       760ms 的飞行里几十个标签反复进出，就是"镜头一顿一顿"的主要来源
+       （实测：把标签层整个藏起来，同一段飞行掉帧从 6 次变 0 次）。
+       停下来后的下一帧，这里会因为 flying/dragging 都为 false 而统一收掉，
+       层数不会越积越多。 */
+    if (L._wc && !globe.flying && !globe.dragging) { L._wc = 0; L.el.style.willChange = 'auto'; }
     if (L.el.style.pointerEvents !== 'none') L.el.style.pointerEvents = 'none';
   }
 
@@ -4542,6 +4562,12 @@ body.panel-open #globe-stage{
     function warmHeavyLayers() {
       if (!globe.spin) return;
       if (!globe.grid && typeof buildGraticule === 'function') prepareGrid(true);
+
+      /* 把 AudioContext 提前建好（此时是 suspended 状态，不发声）。
+         以前只在第一次 pointerdown 里建，而创建 AudioContext 本身要
+         60~100ms —— 正好压在点击起飞的那一帧上，第一次点任何国家都会
+         顿一下。提前建，第一次点击只剩一次 resume，几毫秒。 */
+      warmAudio();
 
       /* 全量国境线提前备好。
          以前这里预取的是十六个分片共 4.0MB，实测首屏 30 秒累计 8.9MB / 185 条请求，

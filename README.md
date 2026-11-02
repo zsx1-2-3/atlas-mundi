@@ -161,7 +161,7 @@ atlas-mundi/
 ├── assets/             # 地标图（WebP 双尺寸）与语音
 ├── vendor/             # three.js
 ├── scripts/            # 构建期 Python：采集、清洗、校验、出图
-└── docs/img/           # 本文配图
+└── docs/               # 采集流程说明与本文配图
 ```
 
 ## 本地运行
@@ -185,7 +185,7 @@ python scripts/collect_all.py --stage llm       # 摘要 / 图注 / 特征 / 质
 python scripts/collect_all.py --stage speech    # 语音合成
 ```
 
-几个约定：
+逐阶段的细节、耗时与踩过的坑见 [`docs/全量采集.md`](docs/全量采集.md)。几个约定：
 
 - **密钥只走环境变量**（如 `DEEPSEEK_API_KEY`），`.env` 已在 `.gitignore` 里。页面永不接触
   key——静态站是公开的，前端一旦出现 key 就等于泄露，所以所有模型调用都在构建期完成，

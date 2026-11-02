@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-02-O">
+<meta name="build" content="2026-11-02-P">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1130,15 +1130,9 @@ body.panel-open #globe-stage{
   border-radius:13px;
   box-shadow:0 10px 26px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.04);
 }
-/* 上下两端的金线收口 */
-#tools-body::before,#tools-body::after{
-  content:'';position:absolute;left:8px;right:8px;height:1px;
-  background:rgba(255,210,130,.30);pointer-events:none;
-}
-#tools-body::before{top:4px}
-#tools-body::after{bottom:4px}
-/* 这两条线要压在按钮背景之上，否则 hover 时那块底色会把金线盖掉 */
-#tools-body::before,#tools-body::after{z-index:2}
+/* 上下原来各有一条金线收口，中间还有一条金线把动作和开关分开 —— 三条一起看
+   就是用户说的"三条金线，看得好难受"。线在球面这种明暗大变的背景上本来就不稳，
+   全去掉：条的边界交给圆角与描边，分组交给 9px 的留白（见 .tsep）。 */
 
 .tool-btn{
   /* 图标色只在这一处定义，靠变量分状态。
@@ -1164,12 +1158,9 @@ body.panel-open #globe-stage{
 #tools-body .tool-btn:active{background:rgba(150,185,230,.16)}
 /* 开关之间的 1px 分隔线 */
 #tools-body .tool-btn + .tool-btn{box-shadow:inset 0 1px 0 rgba(140,170,210,.11)}
-/* 动作 / 开关的分界：一道金线，比普通分隔线重一档 */
+/* 动作（回中国）/ 开关 的分界：只留一段留白。
+   原来这里画了一道金线，加上上下两条一共三道，是"难受"的直接来源。 */
 .tsep{position:relative;height:9px;flex:0 0 auto}
-.tsep::before{
-  content:'';position:absolute;left:8px;right:8px;top:4px;height:1px;
-  background:rgba(255,210,130,.22);
-}
 /* 首尾跟着条子的圆角走 */
 #tools-body .tool-btn:first-child{border-radius:12px 12px 0 0}
 #tools-body .tool-btn:last-child{border-radius:0 0 12px 12px}
@@ -1626,47 +1617,52 @@ body.panel-open #globe-stage{
   <div id="tools-body">
   <button class="tool-btn act" id="btn-china" type="button" aria-label="回到中国上空">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="6.6"/>
-      <circle cx="12" cy="12" r="2.1"/>
-      <path d="M12 2.2v2.6M12 19.2v2.6M2.2 12h2.6M19.2 12h2.6"/>
+      <circle cx="12" cy="12" r="8.3"/>
+      <circle cx="12" cy="12" r="2.2"/>
+      <path d="M12 1.9v2.2M12 19.9v2.2M1.9 12h2.2M19.9 12h2.2"/>
     </svg>
     <span class="tl">回到中国</span>
   </button>
   <div class="tsep" aria-hidden="true"></div>
   <button class="tool-btn" id="btn-borders" type="button" aria-label="显示全部国境线" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <!-- 18px 下既不能是虚线（碎成一圈点），也不能是小小的多边形（读成色块）。
-           用"两块地 + 中间一条锯齿界线"：锯齿是唯一能把"国界"和"分栏"区分开的特征。 -->
-      <rect x="3.9" y="5.4" width="16.2" height="13.2" rx="2.2" stroke-opacity=".5"/>
-      <path d="M11.6 5.4l-1.1 3.2 1.9 2.3-1.4 2.9 1.1 4.8"/>
+      <!-- 和其它五个统一成"圆底"：之前这里是个方框，和右边的圆形经纬网放一起，
+           一个方一个圆，风格差得太明显（用户原话"区别好大"）。
+           圆里一条虚线弧 —— 地图图例里国界就是画虚线的，而经纬网是实线网格，
+           "虚 vs 实"比"锯齿 vs 网格"更好分；弧线又避开了"直线虚线像电源符号"。 -->
+      <circle cx="12" cy="12" r="8.3"/>
+      <path d="M9.7 4.3c2.1 2.3 2.9 5 2.3 7.7-.5 2.2-1.8 4.1-3.3 5.6"
+            stroke-width="1.9" stroke-dasharray="2.4 2.1"/>
     </svg>
     <span class="tl">全部国境线</span>
   </button>
   <button class="tool-btn" id="btn-grid" type="button" aria-label="显示经纬线" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="8.4"/>
-      <ellipse cx="12" cy="12" rx="3.9" ry="8.4"/>
-      <path d="M3.6 12h16.8M5.2 7.3h13.6M5.2 16.7h13.6"/>
+      <!-- 球 + 横椭圆（纬线）+ 竖椭圆（经线）。正交两个椭圆才是"网格"，
+           一根竖椭圆加两条横线在 18px 下读成"圆里一道竖杠"。 -->
+      <circle cx="12" cy="12" r="8.3"/>
+      <ellipse cx="12" cy="12" rx="8.3" ry="3.5"/>
+      <ellipse cx="12" cy="12" rx="3.6" ry="8.3"/>
     </svg>
     <span class="tl">经纬线</span>
   </button>
   <button class="tool-btn" id="btn-night" type="button" aria-label="切换白天 / 夜晚" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M20.4 14.6A8.6 8.6 0 1 1 9.4 3.6a6.8 6.8 0 0 0 11 11z"/>
+      <path d="M20.2 14.4A8.5 8.5 0 1 1 9.6 3.8a6.7 6.7 0 0 0 10.6 10.6z"/>
     </svg>
     <span class="tl">夜晚模式</span>
   </button>
   <button class="tool-btn" id="btn-term" type="button" aria-label="按此刻的太阳位置分出昼夜" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="8.2"/>
-      <path d="M12 3.8a8.2 8.2 0 0 0 0 16.4z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+      <circle cx="12" cy="12" r="8.3"/>
+      <path d="M12 3.7a8.3 8.3 0 0 1 0 16.6z" fill="currentColor" fill-opacity=".42" stroke="none"/>
     </svg>
     <span class="tl">昼夜分界</span>
   </button>
   <button class="tool-btn" id="btn-time" type="button" aria-label="时间指示：点地球任意位置看当地时间" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="8.2"/>
-      <path d="M12 6.9V12l3.4 2.1"/>
+      <circle cx="12" cy="12" r="8.3"/>
+      <path d="M12 6.8V12l3.4 2.1"/>
     </svg>
     <span class="tl">时间指示</span>
   </button>

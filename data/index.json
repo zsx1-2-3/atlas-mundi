@@ -2,6 +2,9 @@
   "schema_version": "0.1",
   "updated_at": "2026-10-30",
   "note": "国家/地区清单。前端只读这个文件来渲染入口卡，详情按 iso_a2 拉 /data/{iso}.json。iso_a2 是对外唯一主键。",
+  "generator": "atlas-mundi",
+  "homepage": "https://zzq1419.github.io/atlas-mundi/",
+  "license": "代码 MIT；图片与文字按各自来源授权，见每份档案的 sources[] 与 landmark_images[].license",
   "countries": [
     {
       "iso_a2": "CN",

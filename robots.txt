@@ -1,0 +1,53 @@
+# 寰宇图志 · Atlas Mundi
+# https://zzq1419.github.io/atlas-mundi/
+
+# 页面、数据与图片允许搜索引擎收录。
+User-agent: *
+Allow: /
+
+# 用于训练生成式模型的批量抓取：不欢迎。
+# 这是一份意愿声明，不是技术封锁 —— 真要拦，得在 CDN/WAF 层做。
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+# 本仓库内容按来源授权：图片逐张记录 license/author，正文为 CC BY-SA 4.0。
+# 转载或二次分发请保留这些字段与署名。

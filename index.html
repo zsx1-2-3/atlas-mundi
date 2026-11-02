@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-02-N">
+<meta name="build" content="2026-11-02-O">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -972,74 +972,6 @@ body.panel-open #globe-stage{
 }
 .fl-src{font-size:9.5px;opacity:.7}
 
-/* --- 移动端 --- */
-@media (max-width:760px){
-  #topbar{padding:12px 14px;gap:10px;flex-wrap:nowrap}
-  .brand-en{display:none}
-  .brand-cn{font-size:17px}
-  .topbar-meta{display:none}
-  .search-wrap{width:128px;height:32px}
-  .search-wrap.open{width:calc(100vw - 126px)}
-  #globe-stage{inset:0}
-  /* 小屏：胶囊窄一点，位置仍在正中 */
-  .globe-msg{font-size:11.5px;padding:8px 15px;gap:8px;max-width:calc(100% - 28px)}
-  .globe-spin{width:16px;height:16px}
-  #detail{
-    top:auto;left:10px;right:10px;
-    /* 手势条（iPhone 底部那条）+ 圆角：贴到底会被系统横条压住 */
-    bottom:calc(10px + env(safe-area-inset-bottom, 0px));
-    width:auto;height:82vh;height:82dvh;
-    border-radius:18px;
-    transform:translateY(calc(100% + 20px));
-  }
-  #detail.open{transform:none}
-  body.panel-open #globe-stage{transform:translateY(-11%)}
-  #footline{display:none}
-
-  /* 刘海屏 / 手势条。viewport-fit=cover 之后浮层会顶到物理边缘，
-     状态栏和 Home 指示条会直接压在上面。 */
-  #topbar{
-    padding:calc(12px + env(safe-area-inset-top, 0px)) calc(14px + env(safe-area-inset-right, 0px))
-            12px calc(14px + env(safe-area-inset-left, 0px));
-  }
-  #tools{
-    left:calc(20px + env(safe-area-inset-left, 0px));
-    bottom:calc(20px + env(safe-area-inset-bottom, 0px));
-  }
-  #dock{bottom:calc(30px + env(safe-area-inset-bottom, 0px))}
-
-  /* iOS 上输入框字号小于 16px，聚焦时浏览器会自动把整页放大，而且不缩回来。
-     搜索框在手机上"点一下就跳"就是这个原因。16px 是那条线。 */
-  #q{font-size:16px}
-
-  /* 缩略图条：手机上 5 张图会折成两行（4+1），很难看。
-     改成单行横滑，最后一行的空间省下来给正文。 */
-  .thumbstrip{flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
-              -webkit-overflow-scrolling:touch;scrollbar-width:none}
-  .thumbstrip::-webkit-scrollbar{display:none}
-  .ts-item{flex:0 0 auto}
-}
-
-/* --- 横屏手机（高度很矮）---
-   竖屏那套"从底下抽上来"的抽屉在横屏会把地球整个盖住；
-   这里仍用右侧栏，但要收窄、留白压到 8px，并给主图限高 ——
-   否则一张 16:10 的照片就吃掉整屏，正文要一直往下滑。 */
-@media (max-height:520px) and (orientation:landscape){
-  #detail{
-    top:8px;right:8px;bottom:8px;
-    width:min(56vw, 440px);
-  }
-  #detail .dimg-wrap{aspect-ratio:16/9;max-height:38vh}
-  #topbar{padding:calc(8px + env(safe-area-inset-top, 0px)) calc(12px + env(safe-area-inset-right, 0px))
-                  8px calc(12px + env(safe-area-inset-left, 0px))}
-  .brand-cn{font-size:16px}
-  #tools{left:calc(14px + env(safe-area-inset-left, 0px));
-         bottom:calc(14px + env(safe-area-inset-bottom, 0px))}
-  /* 横屏高度不够摆 6 个按钮，缩到 36px 一档，仍然大于 32px 的触摸下限 */
-  #tools-body .tool-btn{width:36px;height:36px}
-  #tools-body{gap:5px}
-}
-
 /* ============ 浏览器表面 ============
    这些部件不是画出来的，但一样带设计：选区颜色、滚动条、焦点环。
    它们是最便宜的"这页是被建造的"信号，也是最常被漏掉的一层。 */
@@ -1174,57 +1106,98 @@ body.panel-open #globe-stage{
 }
 .mlabel.mk:hover{color:#cfe6ff}
 
-/* ============ 左下角工具按钮 ============ */
+/* ============ 左下角工具条 ============
+   原来每个按钮各是一个 42px 的圆环，描边 rgba(126,158,198,.18) 实测对比度只有
+   1.22:1 —— 形状几乎靠"背后正好是什么"决定：在星空上剩六个虚浮的圈，在雪原上
+   变成六个暗饼。这是"看着不精致"的根源，不是图标画得不好。
+
+   现在改成一条竖直的"仪器条"：底色与描边都是实的一层，边界在任何背景上都成立；
+   上下各一条金线收口、开关之间 1px 细线、动作与开关之间用一道金线分开。
+   点亮态不再发光，改成左侧 3px 金条 + 图标转金 —— 和全站"细线低饱和"同一路。 */
 #tools{
-  position:fixed;left:20px;bottom:20px;z-index:25;
-  display:flex;align-items:flex-end;
+  position:fixed;left:22px;bottom:22px;z-index:25;
+  display:flex;flex-direction:column;align-items:flex-start;
 }
-/* 不加面板、不加边框：图标直接落在球面上，靠间距和留白组织。
-   深色玻璃框会把球面切掉一块，反而更脏。 */
+/* 只有手机才出现的展开按钮（桌面永远不显示） */
+#tools-toggle{display:none}
+
 #tools-body{
-  display:flex;flex-direction:column;gap:6px;
+  position:relative;
+  width:46px;
+  display:flex;flex-direction:column;
+  background:rgba(6,10,17,.74);
+  border:1px solid rgba(140,170,210,.22);
+  border-radius:13px;
+  box-shadow:0 10px 26px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.04);
 }
-/* 每个图标自己带一层极淡的圆底：完全透明会看不清，
-   但也不能再套整块面板 —— 那样等于把球面切掉一角。 */
-#tools-body .tool-btn{
-  background:rgba(7,11,19,.58);
-  border-color:rgba(126,158,198,.18);
-  box-shadow:none;
+/* 上下两端的金线收口 */
+#tools-body::before,#tools-body::after{
+  content:'';position:absolute;left:8px;right:8px;height:1px;
+  background:rgba(255,210,130,.30);pointer-events:none;
 }
-#tools-body .tool-btn svg{stroke:rgba(176,202,238,.82)}
-#tools-body .tool-btn:hover{background:rgba(120,160,210,.18);border-color:rgba(150,185,230,.30)}
-#tools-body .tool-btn.on{
-  background:rgba(58,45,22,.82);border-color:rgba(255,215,138,.65);
-  box-shadow:0 0 14px rgba(255,196,96,.18);
-}
-/* 复位按钮不属于开关，和下面那组拉开距离 */
-#tools-body #btn-china{margin-bottom:14px}
+#tools-body::before{top:4px}
+#tools-body::after{bottom:4px}
+/* 这两条线要压在按钮背景之上，否则 hover 时那块底色会把金线盖掉 */
+#tools-body::before,#tools-body::after{z-index:2}
+
 .tool-btn{
-  /* 36px 在触摸屏上偏小（大拇指按不准），提到 42 */
-  width:42px;height:42px;padding:0;border-radius:50%;
+  /* 图标色只在这一处定义，靠变量分状态。
+     原来写成 `.tool-btn.on svg{stroke:金}`，权重 (0,2,1) 被
+     `#tools-body .tool-btn svg` (1,1,1) 压掉 —— 点亮时图标一直是冷蓝的，
+     金圈里躺着一枚蓝图标。改成变量后没有谁能压谁。 */
+  --ico:rgba(200,220,246,.86);
+  position:relative;
+  width:100%;height:40px;padding:0;
   display:flex;align-items:center;justify-content:center;
-  cursor:pointer;
-  /* 同理：小球现在会顶到屏幕边缘，按钮底色必须做实 */
-  background:rgba(7,11,19,.9);
-  border:1px solid rgba(126,158,198,.26);
-  transition:border-color .2s ease,background .2s ease;
+  background:transparent;border:0;border-radius:0;
+  cursor:pointer;color:var(--ico);
+  transition:background .18s ease;
+  -webkit-tap-highlight-color:transparent;
 }
 .tool-btn svg{
-  width:15px;height:15px;
-  fill:none;stroke:rgba(158,190,228,.7);
-  stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;
-  transition:stroke .2s ease;
+  width:18px;height:18px;
+  fill:none;stroke:var(--ico);
+  stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round;
+  transition:stroke .18s ease;
 }
-.tool-btn:hover{border-color:rgba(150,185,230,.55);background:rgba(19,31,50,.88)}
-.tool-btn:hover svg{stroke:rgba(200,222,250,.95)}
-/* 点亮态用金色 —— 和地球上的国界线、晨昏线是同一支色。
-   开关类按钮（国境线 / 经纬线 / 昼夜分界 / 时间指示）点开都是这个状态。 */
-.tool-btn.on{
-  border-color:rgba(255,215,138,.72);
-  background:rgba(58,45,22,.92);
-  box-shadow:0 0 0 1px rgba(255,215,138,.16),0 0 16px rgba(255,196,96,.20);
+#tools-body .tool-btn:hover{background:rgba(150,185,230,.10);--ico:#eef6ff}
+#tools-body .tool-btn:active{background:rgba(150,185,230,.16)}
+/* 开关之间的 1px 分隔线 */
+#tools-body .tool-btn + .tool-btn{box-shadow:inset 0 1px 0 rgba(140,170,210,.11)}
+/* 动作 / 开关的分界：一道金线，比普通分隔线重一档 */
+.tsep{position:relative;height:9px;flex:0 0 auto}
+.tsep::before{
+  content:'';position:absolute;left:8px;right:8px;top:4px;height:1px;
+  background:rgba(255,210,130,.22);
 }
-.tool-btn.on svg{stroke:rgba(255,224,152,.98)}
+/* 首尾跟着条子的圆角走 */
+#tools-body .tool-btn:first-child{border-radius:12px 12px 0 0}
+#tools-body .tool-btn:last-child{border-radius:0 0 12px 12px}
+
+/* 点亮：左侧 3px 金条 + 图标转金，不发光 */
+#tools-body .tool-btn.on{
+  --ico:rgba(255,224,152,.98);
+  background:linear-gradient(90deg,rgba(255,205,110,.13),rgba(255,205,110,.015) 72%);
+}
+#tools-body .tool-btn.on::before{
+  content:'';position:absolute;left:0;top:7px;bottom:7px;width:3px;
+  border-radius:0 2px 2px 0;background:rgba(255,206,112,.92);
+}
+
+/* 名字：只在 hover / 键盘聚焦时从右侧浮出（手机上常显，见媒体查询）。
+   原来靠 data-tip 的气泡，手机上根本没有 hover，等于没有说明。 */
+.tl{
+  position:absolute;left:calc(100% + 9px);top:50%;
+  transform:translate(-5px,-50%);
+  padding:4px 9px;border-radius:7px;
+  font-size:12px;line-height:1.2;letter-spacing:.02em;white-space:nowrap;
+  color:#dfeaf8;background:rgba(6,10,17,.93);
+  border:1px solid rgba(140,170,210,.24);
+  box-shadow:0 6px 18px rgba(0,0,0,.4);
+  opacity:0;pointer-events:none;
+  transition:opacity .16s ease,transform .2s cubic-bezier(.2,.8,.3,1);
+}
+.tool-btn:hover .tl,.tool-btn:focus-visible .tl{opacity:1;transform:translate(0,-50%)}
 /* 时间指示模式：光标换成一面小旗子，热点在旗杆脚下 */
 #globe-stage.time-mode{cursor:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'%3E%3Cdefs%3E%3ClinearGradient id='f' x1='0' y1='0' x2='.9' y2='1'%3E%3Cstop offset='0' stop-color='%23ffeec2'/%3E%3Cstop offset='.55' stop-color='%23f6c85c'/%3E%3Cstop offset='1' stop-color='%23cd9a2e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M9 31.4V5' stroke='%23e9c987' stroke-width='1.9' stroke-linecap='round'/%3E%3Ccircle cx='9' cy='4.2' r='1.9' fill='%23ffe9b3'/%3E%3Ccircle cx='8.4' cy='3.7' r='.7' fill='%23fffdf2' opacity='.9'/%3E%3Cpath d='M10.2 5.6c5.4-1.7 8.6 1.5 13.6.1.5 2.9.4 5.8-.3 8.7-5 1.3-8.6-1.5-13.3.2z' fill='url(%23f)' stroke='%23a97a1f' stroke-width='.9'/%3E%3Cpath d='M10.2 5.6c5.4-1.7 8.6 1.5 13.6.1' stroke='%23fff6da' stroke-width='1' fill='none' opacity='.85'/%3E%3Cpath d='M12.6 7.2c-.7 2.2-.9 4.4-.6 6.6M16.4 6.7c-.6 2.3-.7 4.6-.4 6.9' stroke='%23b98a24' stroke-width='.7' fill='none' opacity='.55'/%3E%3C/svg%3E") 9 32, crosshair}
 #globe-stage.time-mode canvas{cursor:inherit}
@@ -1479,6 +1452,102 @@ body.panel-open #globe-stage{
   font-variant-numeric:tabular-nums;letter-spacing:.02em;
 }
 
+/* --- 移动端 --- */
+@media (max-width:760px){
+  #topbar{padding:12px 14px;gap:10px;flex-wrap:nowrap}
+  .brand-en{display:none}
+  .brand-cn{font-size:17px}
+  .topbar-meta{display:none}
+  .search-wrap{width:128px;height:32px}
+  .search-wrap.open{width:calc(100vw - 126px)}
+  #globe-stage{inset:0}
+  /* 小屏：胶囊窄一点，位置仍在正中 */
+  .globe-msg{font-size:11.5px;padding:8px 15px;gap:8px;max-width:calc(100% - 28px)}
+  .globe-spin{width:16px;height:16px}
+  #detail{
+    top:auto;left:10px;right:10px;
+    /* 手势条（iPhone 底部那条）+ 圆角：贴到底会被系统横条压住 */
+    bottom:calc(10px + env(safe-area-inset-bottom, 0px));
+    width:auto;height:82vh;height:82dvh;
+    border-radius:18px;
+    transform:translateY(calc(100% + 20px));
+  }
+  #detail.open{transform:none}
+  body.panel-open #globe-stage{transform:translateY(-11%)}
+  #footline{display:none}
+
+  /* 刘海屏 / 手势条。viewport-fit=cover 之后浮层会顶到物理边缘，
+     状态栏和 Home 指示条会直接压在上面。 */
+  #topbar{
+    padding:calc(12px + env(safe-area-inset-top, 0px)) calc(14px + env(safe-area-inset-right, 0px))
+            12px calc(14px + env(safe-area-inset-left, 0px));
+  }
+  #tools{
+    left:calc(20px + env(safe-area-inset-left, 0px));
+    bottom:calc(20px + env(safe-area-inset-bottom, 0px));
+  }
+  /* 手机上只留一颗按钮。原来 6 个按钮竖着排在左边缘，占掉 282px 屏高（33%），
+     而手机用户最需要的是看球。点开才展开，点空白或再点一次收起。 */
+  #tools-toggle{
+    display:flex;
+    width:46px;height:46px;border-radius:14px;
+    background:rgba(6,10,17,.8);
+    border:1px solid rgba(140,170,210,.26);
+    box-shadow:0 8px 22px rgba(0,0,0,.42);
+  }
+  #tools-body{
+    position:absolute;left:0;bottom:calc(100% + 10px);
+    opacity:0;transform:translateY(10px) scale(.97);
+    transform-origin:50% 100%;
+    pointer-events:none;
+    transition:opacity .18s ease,transform .24s cubic-bezier(.2,.8,.3,1);
+  }
+  #tools.open #tools-body{opacity:1;transform:none;pointer-events:auto}
+  /* 手机没有 hover，名字常显；但不再是 6 个胶囊 —— 那样太吵，
+     改成贴着条子的浅色小字，像标注而不是按钮 */
+  .tl{
+    opacity:1;transform:translate(0,-50%);
+    padding:0;background:none;border:0;box-shadow:none;
+    color:rgba(224,236,252,.80);
+    text-shadow:0 1px 3px rgba(0,0,0,.92),0 0 8px rgba(0,0,0,.6);
+    left:calc(100% + 10px);
+  }
+  /* 触控目标从 40 提到 44 */
+  .tool-btn{height:44px}
+  #dock{bottom:calc(30px + env(safe-area-inset-bottom, 0px))}
+
+  /* iOS 上输入框字号小于 16px，聚焦时浏览器会自动把整页放大，而且不缩回来。
+     搜索框在手机上"点一下就跳"就是这个原因。16px 是那条线。 */
+  #q{font-size:16px}
+
+  /* 缩略图条：手机上 5 张图会折成两行（4+1），很难看。
+     改成单行横滑，最后一行的空间省下来给正文。 */
+  .thumbstrip{flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
+              -webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .thumbstrip::-webkit-scrollbar{display:none}
+  .ts-item{flex:0 0 auto}
+}
+
+/* --- 横屏手机（高度很矮）---
+   竖屏那套"从底下抽上来"的抽屉在横屏会把地球整个盖住；
+   这里仍用右侧栏，但要收窄、留白压到 8px，并给主图限高 ——
+   否则一张 16:10 的照片就吃掉整屏，正文要一直往下滑。 */
+@media (max-height:520px) and (orientation:landscape){
+  #detail{
+    top:8px;right:8px;bottom:8px;
+    width:min(56vw, 440px);
+  }
+  #detail .dimg-wrap{aspect-ratio:16/9;max-height:38vh}
+  #topbar{padding:calc(8px + env(safe-area-inset-top, 0px)) calc(12px + env(safe-area-inset-right, 0px))
+                  8px calc(12px + env(safe-area-inset-left, 0px))}
+  .brand-cn{font-size:16px}
+  #tools{left:calc(14px + env(safe-area-inset-left, 0px));
+         bottom:calc(14px + env(safe-area-inset-bottom, 0px))}
+  /* 横屏高度只有 390，整条 249px 还塞得下，但把行高压到 34px 更从容 */
+  #tools-body .tool-btn{height:34px}
+  #tools-body{width:44px}
+}
+
 </style>
 </head>
 <body>
@@ -1547,45 +1616,59 @@ body.panel-open #globe-stage{
 <!-- 工具栏：只留图标本身。之前外面套了层玻璃面板，在深色球面上显得又厚又重，
      干脆去掉容器和折叠把手 —— 六个图标直接浮着，鼠标移上去才有反馈。 -->
 <div id="tools">
+  <!-- 手机端才出现的展开按钮：屏幕上只有一颗，点开才是那一列 -->
+  <button class="tool-btn" id="tools-toggle" type="button" aria-label="展开工具" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 7h7M15 7h5M4 12h3M11 12h9M4 17h10M18 17h2"/>
+      <circle cx="13" cy="7" r="1.9"/><circle cx="9" cy="12" r="1.9"/><circle cx="16" cy="17" r="1.9"/>
+    </svg>
+  </button>
   <div id="tools-body">
-  <button class="tool-btn" id="btn-china" type="button" aria-label="定位到中国上空" data-tip="回到中国上空">
+  <button class="tool-btn act" id="btn-china" type="button" aria-label="回到中国上空">
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <circle cx="12" cy="12" r="6.6"/>
       <circle cx="12" cy="12" r="2.1"/>
       <path d="M12 2.2v2.6M12 19.2v2.6M2.2 12h2.6M19.2 12h2.6"/>
     </svg>
+    <span class="tl">回到中国</span>
   </button>
-  <button class="tool-btn" id="btn-borders" type="button" aria-label="显示全部国境线" data-tip="显示全部国境线">
+  <div class="tsep" aria-hidden="true"></div>
+  <button class="tool-btn" id="btn-borders" type="button" aria-label="显示全部国境线" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M3.6 6.2h16.8v11.6H3.6z" stroke-dasharray="2.6 2.2"/>
-      <path d="M8.6 6.2v11.6M15.4 6.2v11.6" stroke-dasharray="2.6 2.2" opacity=".55"/>
+      <!-- 18px 下既不能是虚线（碎成一圈点），也不能是小小的多边形（读成色块）。
+           用"两块地 + 中间一条锯齿界线"：锯齿是唯一能把"国界"和"分栏"区分开的特征。 -->
+      <rect x="3.9" y="5.4" width="16.2" height="13.2" rx="2.2" stroke-opacity=".5"/>
+      <path d="M11.6 5.4l-1.1 3.2 1.9 2.3-1.4 2.9 1.1 4.8"/>
     </svg>
+    <span class="tl">全部国境线</span>
   </button>
-  <button class="tool-btn" id="btn-grid" type="button" aria-label="显示经纬线" data-tip="显示经纬线">
+  <button class="tool-btn" id="btn-grid" type="button" aria-label="显示经纬线" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <circle cx="12" cy="12" r="8.4"/>
       <ellipse cx="12" cy="12" rx="3.9" ry="8.4"/>
       <path d="M3.6 12h16.8M5.2 7.3h13.6M5.2 16.7h13.6"/>
     </svg>
+    <span class="tl">经纬线</span>
   </button>
-  <button class="tool-btn" id="btn-night" type="button" aria-label="切换白天 / 夜晚" data-tip="切换到夜晚模式">
+  <button class="tool-btn" id="btn-night" type="button" aria-label="切换白天 / 夜晚" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <path d="M20.4 14.6A8.6 8.6 0 1 1 9.4 3.6a6.8 6.8 0 0 0 11 11z"/>
     </svg>
+    <span class="tl">夜晚模式</span>
   </button>
-  <button class="tool-btn" id="btn-term" type="button" aria-label="昼夜分界线" data-tip="按此刻的太阳位置分出昼夜两半">
+  <button class="tool-btn" id="btn-term" type="button" aria-label="按此刻的太阳位置分出昼夜" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <circle cx="12" cy="12" r="8.2"/>
-      <path d="M12 3.8a8.2 8.2 0 0 0 0 16.4z" fill="currentColor" fill-opacity=".22" stroke="none"/>
-      <path d="M7.2 4.9l9.6 14.2" stroke-width="1.5"/>
+      <path d="M12 3.8a8.2 8.2 0 0 0 0 16.4z" fill="currentColor" fill-opacity=".45" stroke="none"/>
     </svg>
+    <span class="tl">昼夜分界</span>
   </button>
-  <button class="tool-btn" id="btn-time" type="button" aria-label="时间指示" data-tip="点地球任意位置看当地时间">
+  <button class="tool-btn" id="btn-time" type="button" aria-label="时间指示：点地球任意位置看当地时间" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <circle cx="12" cy="12" r="8.2"/>
       <path d="M12 6.9V12l3.4 2.1"/>
-      <path d="M12 3.8v1.5M20.2 12h-1.5M12 20.2v-1.5M3.8 12h1.5" stroke-width="1.3" opacity=".55"/>
     </svg>
+    <span class="tl">时间指示</span>
   </button>
   </div>
 </div>
@@ -5470,16 +5553,52 @@ body.panel-open #globe-stage{
     /* 回到中国上空：只动相机，不开面板。高度回到首屏那个 3.02，
        否则"定位到中国"会变得很随机 —— 上次放大到街道级别的话，
        点一下还是贴在街道上。 */
-    /* 工具栏收纳：收起后只留一颗按钮，右下角那片球面就露出来了 */
+    /* 工具栏收纳（只在手机上生效，桌面永远整条展开）。
+       原来这里也有一段"收起后只留一颗按钮"的代码，但那个按钮和它的样式
+       后来被删掉了 —— toolsToggle 恒为 null，整段是死代码。现在按钮回来了。 */
     var toolsWrap = document.getElementById('tools');
     var toolsToggle = document.getElementById('tools-toggle');
     if (toolsWrap && toolsToggle) {
-      toolsToggle.addEventListener('click', function () {
-        var collapsed = toolsWrap.classList.toggle('collapsed');
-        toolsToggle.setAttribute('data-tip', collapsed ? '展开工具栏' : '收起工具栏');
-        if (window.__tipHide) window.__tipHide();
+      var setToolsOpen = function (v) {
+        toolsWrap.classList.toggle('open', v);
+        toolsToggle.setAttribute('aria-expanded', v ? 'true' : 'false');
+        toolsToggle.setAttribute('aria-label', v ? '收起工具' : '展开工具');
+      };
+      toolsToggle.addEventListener('click', function (e) {
+        e.stopPropagation();
+        setToolsOpen(!toolsWrap.classList.contains('open'));
+      });
+      /* 点别处收起。放在捕获段，先于地球的 pointerdown 跑 ——
+         这样"点球面"既能收起工具条，又照常转球。 */
+      document.addEventListener('pointerdown', function (e) {
+        if (!toolsWrap.classList.contains('open')) return;
+        if (toolsWrap.contains(e.target)) return;
+        setToolsOpen(false);
+      }, true);
+      window.addEventListener('resize', function () {
+        if (window.innerWidth > 760) setToolsOpen(false);
       });
     }
+
+    /* 开关状态同步给读屏：这五个是 aria-pressed 开关，复位那颗是动作，不参与。
+       用 MutationObserver 盯 class，比在六处 classList.toggle 后面各补一句可靠 ——
+       漏一处就永远对不上。 */
+    (function () {
+      var all = document.querySelectorAll('#tools .tool-btn[aria-pressed]');
+      var sync = function () {
+        for (var i = 0; i < all.length; i++) {
+          all[i].setAttribute('aria-pressed',
+            all[i].classList.contains('on') ? 'true' : 'false');
+        }
+      };
+      if (window.MutationObserver) {
+        var mo = new MutationObserver(sync);
+        for (var i = 0; i < all.length; i++) {
+          mo.observe(all[i], { attributes: true, attributeFilter: ['class'] });
+        }
+      }
+      sync();
+    })();
 
     var bcn = document.getElementById('btn-china');
     if (bcn) {

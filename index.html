@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-U">
+<meta name="build" content="2026-11-03-Y">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1246,6 +1246,13 @@ body.panel-open #globe-stage{
    旗子模式下可以连点好几处，每个各钉一根、互不影响，也不跟着鼠标动；
    退出旗子模式时一起收掉。 */
 #time-pins{position:fixed;inset:0;z-index:32;pointer-events:none}
+/* 时间钉的锚点：零尺寸，每帧用 translate3d 挪到"那个地理位置"投影到屏幕的位置。
+   用 transform 而不是 left/top —— 拖拽和缩放时每帧都在动，走合成层才不抖。 */
+.tpin-anchor{
+  position:absolute;left:0;top:0;width:0;height:0;
+  will-change:transform,opacity;
+  transition:opacity .18s ease;
+}
 .tpin{
   position:absolute;display:flex;flex-direction:column;align-items:center;
   transform:translate(-50%,-100%);
@@ -2274,7 +2281,13 @@ body.panel-open #globe-stage{
     return { history: '', folk: f };
   }
 
+  var panelT0 = 0;          // 面板开始滑入的时刻（whenPanelIn 用来算剩余时长）
+
   function renderDetail(d, quiet) {
+    /* 记下面板开始滑入的时刻。后面 whenPanelIn 要用它算"动画还剩多久"——
+       光靠 transitionend 会漏：镜头飞行本身就 900ms，若飞行比动画晚结束，
+       监听时动画已经跑完了，事件永远不会再来，只能吃兜底超时（实测 2.87 秒才见图）。 */
+    panelT0 = performance.now();
     dTitle.textContent = d.name_zh;
     dSub.textContent = d.name_en + ' · ' + d.iso_a2 + ' / ' + d.iso_a3 + ' · ' + d.qid;
 
@@ -2360,12 +2373,17 @@ body.panel-open #globe-stage{
           t.setAttribute('role', 'img');
           t.setAttribute('aria-label', label);
           t.setAttribute('data-tip', label);
-          (function (node, rel) {
+          /* 这里只装"怎么加载"，不立刻发请求 —— 由下面 whenSettled 统一触发。
+             之前是在创建时就 probe.src，五张图会和面板的图层光栅化撞在同一帧，
+             实测点开后 40~170ms 那一片掉帧就是从这来的（主图反而在 900ms 后才取）。 */
+          t.__load = function (rel) {
+            if (t.__loading) return;
+            t.__loading = true;
             var probe = new Image();
             var settled = false;
             var apply = function (src) {
-              node.style.backgroundImage = 'url("' + src + '")';
-              node.classList.add('loaded');
+              t.style.backgroundImage = 'url("' + src + '")';
+              t.classList.add('loaded');
             };
             /* 与主图同一套双源策略：先 OBS，失败回退仓库相对路径。
                两个 URL 都试完仍然是坏的，就让它保持骨架，不显示任何占位图。 */
@@ -2378,7 +2396,7 @@ body.panel-open #globe-stage{
               fallback.src = rel;
             };
             probe.src = assetSrc(rel);
-          })(t, it.thumb_url || it.url);
+          };
           t.addEventListener('click', function () { showPic(i); });
           items.push(t);
           strip.appendChild(t);
@@ -2391,17 +2409,49 @@ body.panel-open #globe-stage{
          五六张，情况更糟。而"冷/热"两遍的差别（第一次点卡、再点不卡）也正是
          它们。题干说"先等镜头固定了再下也能接受"，那就按这个来：
          面板立刻滑入、图注立刻显示，图位置留一块微光的骨架，停稳后再填图。 */
+      /* 等面板滑入动画彻底走完再取图。
+         实测（同一台机器、六国连点、屏蔽掉全部 webp 做对照）：
+           正常 31 次掉帧 / 屏蔽图片后只剩 5 次
+         —— 图片的解码和上传 GPU 就是点击后那一顿的绝对主因，占比八成以上。
+         光"等镜头停稳"（900ms）不够：面板滑入本身要 1.05s，图正好砸在动画尾巴上。
+         代价是图晚 0.15 秒出现，骨架多显示一会儿 —— 用户说过"慢能接受，卡不能"。 */
+      function whenPanelIn(cb) {
+        if (!detail) { cb(); return; }
+        /* 动画时长从 CSS 读，别写死 —— 以后调 1.05s 这里不会失配。 */
+        var dur = 0;
+        try {
+          /* 取所有过渡里最长的那个。桌面是 transform .56s，手机是 1.05s，
+             直接读第一个会有平台差异，取最大值最稳。 */
+          var parts = (getComputedStyle(detail).transitionDuration || '0s').split(',');
+          for (var i = 0; i < parts.length; i++) {
+            var v = parts[i].trim();
+            var n = parseFloat(v) || 0;
+            if (v.slice(-2) !== 'ms') n *= 1000;
+            if (n > dur) dur = n;
+          }
+        } catch (e) { dur = 600; }
+        var left = dur - (performance.now() - panelT0);
+        if (left <= 20) { cb(); return; }
+        setTimeout(cb, left + 60);
+      }
+
       var imgToken = DETAIL_SEQ;
       (globe.whenSettled || function (f) { f(); })(function () {
         if (imgToken !== DETAIL_SEQ) return;      // 已经翻到别的国家了
-        /* 停稳之前用户已经点过某张缩略图（picSeq 已经加过），就别再把他
-           选中的那张顶回第一张。 */
-        if (picSeq === 0) showPic(0);
-        if (strip) {
-          imgs.forEach(function (it, i) {
-            setAsset(items[i], it.thumb_url || it.url);
-          });
-        }
+        whenPanelIn(function () {
+          if (imgToken !== DETAIL_SEQ) return;
+          /* 停稳之前用户已经点过某张缩略图（picSeq 已经加过），就别再把他
+             选中的那张顶回第一张。 */
+          if (picSeq === 0) showPic(0);
+          if (strip) {
+            /* 五张错开 110ms 发，别挤在同一帧 */
+            imgs.forEach(function (it, i) {
+              var node = items[i];
+              if (!node || !node.__load) return;
+              setTimeout(function () { node.__load(it.thumb_url || it.url); }, i * 110);
+            });
+          }
+        });
       });
       if (strip) left.appendChild(strip);
       left.appendChild(capEl);
@@ -3496,7 +3546,44 @@ body.panel-open #globe-stage{
     var mat = new THREE.MeshBasicMaterial({
       map: tex, transparent: true, depthWrite: false, side: THREE.FrontSide
     });
-    return new THREE.Mesh(new THREE.SphereGeometry(radius, 96, 48), mat);
+    var out = new THREE.Mesh(new THREE.SphereGeometry(radius, 96, 48), mat);
+
+    /* 南北极各补一枚小球。
+       等距圆柱贴图在这里有个绕不过去的上限：极点附近所有经度被压进同一个 3D 点，
+       纹理的横向分辨率趋近于零，经线不管画多粗都会被压没 —— 所以贴图上的经线
+       在离极点还有十来度的地方就断了，看着是散开的，不像交汇。
+       两枚小球正好盖住那个缺口，十二条经线看起来就收于一点了。 */
+    /* 光补个点不够 —— 贴图的经线在离极点十二度左右就没了，中间还是空的。
+       所以这一小段（78°→90°）用 3D 线段补，十二条经线的末端都落在同一个极点坐标上，
+       才是真的交汇。线宽 1px 由 GPU 定，和贴图那边被压细的部分正好接得上。 */
+    var segPts = [], va = new THREE.Vector3(), vb = new THREE.Vector3();
+    for (var mlon = -180; mlon < 180; mlon += 30) {
+      for (var mlat = 78; mlat < 90; mlat += 2) {
+        llToVec3(mlon, mlat, radius, va);
+        llToVec3(mlon, mlat + 2, radius, vb);
+        segPts.push(va.x, va.y, va.z, vb.x, vb.y, vb.z);
+        llToVec3(mlon, -mlat, radius, va);
+        llToVec3(mlon, -(mlat + 2), radius, vb);
+        segPts.push(va.x, va.y, va.z, vb.x, vb.y, vb.z);
+      }
+    }
+    var segGeo = new THREE.BufferGeometry();
+    segGeo.setAttribute('position', new THREE.Float32BufferAttribute(segPts, 3));
+    out.add(new THREE.LineSegments(segGeo, new THREE.LineBasicMaterial({
+      color: 0xe2be78, transparent: true, opacity: 0.55, depthWrite: false
+    })));
+
+    /* 极点上再压一枚小球，把贴图与 3D 线的接缝盖住 */
+    var dotGeo = new THREE.SphereGeometry(radius * 0.0065, 10, 8);
+    var dotMat = new THREE.MeshBasicMaterial({
+      color: 0xe6c078, transparent: true, opacity: 0.9, depthWrite: false
+    });
+    [1, -1].forEach(function (sgn) {
+      var dot = new THREE.Mesh(dotGeo, dotMat);
+      dot.position.set(0, sgn * radius * 1.002, 0);
+      out.add(dot);
+    });
+    return out;
   }
 
   /* 世界坐标（球面）→ 经纬度 */
@@ -5309,6 +5396,7 @@ body.panel-open #globe-stage{
 
     var pinLayer = document.getElementById('time-pins');
     var TPIN_MAX = 6;                      // 最多同时钉 6 个，再多就从最早的开始收
+    var pins = [];                         // { anchor, lat, lon } —— 位置靠经纬度每帧重算
 
     function showTimePin(cx, cy, ll) {
       if (!pinLayer) return;
@@ -5325,11 +5413,12 @@ body.panel-open #globe-stage{
       var ew = ll.lon >= 0 ? 'E' : 'W';
 
       /* 每个落点各自一个标记，互不覆盖 —— 连着点三处就有三个时间钉在那儿。
-         气泡里记的是**点击那一刻**的时间，所以定住以后不会再跟着走。 */
+         气泡里的时间是**点击那一刻**的，不会跟着走；但钉子的**位置**必须跟着地球：
+         它记的是经纬度，每帧重新投影到屏幕上，所以缩放、拖拽之后它仍然扎在同一个点上。 */
+      var anchor = document.createElement('div');
+      anchor.className = 'tpin-anchor';
       var d = document.createElement('div');
       d.className = 'tpin' + (cy < 150 ? ' below' : '');
-      d.style.left = cx + 'px';
-      d.style.top = cy + 'px';
       d.innerHTML =
         '<div class="tp-bubble"><b>' + (hh < 10 ? '0' : '') + hh + ':' +
           (mm < 10 ? '0' : '') + mm + '</b>　' +
@@ -5337,11 +5426,40 @@ body.panel-open #globe-stage{
           '<i>' + Math.abs(ll.lat).toFixed(1) + '°' + ns + '　' +
           Math.abs(ll.lon).toFixed(1) + '°' + ew + '</i></div>' +
         '<div class="tp-stem"></div>';
-      pinLayer.appendChild(d);
+      anchor.appendChild(d);
+      pinLayer.appendChild(anchor);
+      pins.push({ anchor: anchor, lat: ll.lat, lon: ll.lon });
 
       var kids = pinLayer.children;
-      while (kids.length > TPIN_MAX) pinLayer.removeChild(kids[0]);
+      while (kids.length > TPIN_MAX) { pinLayer.removeChild(kids[0]); pins.shift(); }
+      placePins();          // 立刻摆到位，别先闪在左上角
     }
+
+    /* 把每个钉子的经纬度投影回屏幕。每帧跑，最多 6 个，开销可以忽略。
+       背面（法线背对相机）直接淡出 —— 否则一个球背面的钉子会"穿"到正面来。 */
+    var _pv = null, _pw = null;
+    function placePins() {
+      if (!pins.length || !globe.sphere || !globe.camera) return;
+      if (!_pv) { _pv = new THREE.Vector3(); _pw = new THREE.Vector3(); }
+      var cam = globe.camera;
+      /* canvas 会跟着面板打开被整体上移（body.panel-open 给 #globe-stage 加了 transform），
+         所以必须用它的实际位置换算，不能拿视口尺寸直接算。 */
+      var r = cv.getBoundingClientRect();
+      for (var i = 0; i < pins.length; i++) {
+        var p = pins[i];
+        llToVec3(p.lon, p.lat, 1.004, _pv);
+        globe.sphere.localToWorld(_pv);
+        _pw.copy(cam.position).sub(_pv).normalize();
+        var facing = _pv.clone().normalize().dot(_pw);
+        var v = _pv.project(cam);
+        var x = r.left + (v.x * 0.5 + 0.5) * r.width;
+        var y = r.top + (-v.y * 0.5 + 0.5) * r.height;
+        p.anchor.style.transform = 'translate3d(' + x.toFixed(1) + 'px,' +
+                                   y.toFixed(1) + 'px,0)';
+        p.anchor.style.opacity = facing > 0.04 ? '' : '0';
+      }
+    }
+    globe.placePins = placePins;
 
     /* 退出旗子模式时全部收掉：先淡出再删，一起消失 */
     globe.hideTimePin = function () {
@@ -5351,6 +5469,7 @@ body.panel-open #globe-stage{
       });
       setTimeout(function () {
         if (pinLayer) pinLayer.innerHTML = '';
+        pins.length = 0;
       }, 180);
     };
 
@@ -5543,6 +5662,7 @@ body.panel-open #globe-stage{
         var lim2 = 78 * D2R;
         tilt.rotation.x = Math.max(-lim2, Math.min(lim2, tilt.rotation.x));
       }
+      if (pins.length) placePins();
       renderer.render(scene, camera);
       /* 每帧都更新。
          之前为了省集显的开销，飞行/拖拽时降到了 30 次/秒 —— 那是错的：

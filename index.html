@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-AC">
+<meta name="build" content="2026-11-03-AD">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -6269,6 +6269,18 @@ body.panel-open #globe-stage{
     });
 })();
 </script>
+
+  <!-- 版本号：固定右下角。之前只在 <meta name="build"> 里，用户根本看不到，
+       每次改完只能靠"感觉画面变没变"判断，很容易误判成"没更新"。
+       这里直接从 meta 读出来显示，只改一处、不会对不上。 -->
+  <div id="build-tag" style="position:fixed;right:10px;bottom:8px;z-index:99999;font:11px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;color:rgba(150,180,220,.55);pointer-events:none;letter-spacing:.3px">build</div>
+  <script>
+    (function () {
+      var m = document.querySelector('meta[name="build"]');
+      var t = document.getElementById('build-tag');
+      if (m && t) t.textContent = 'build ' + (m.content || '?');
+    })();
+  </script>
 
 </body>
 </html>

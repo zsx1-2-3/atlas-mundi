@@ -1,1 +1,556 @@
-{"qid":"Q217","iso_a2":"MD","iso_a3":"MDA","name_zh":"摩尔多瓦","name_en":"Moldova","capital":"基希讷乌","continent":"欧洲","centroid":[28.5167,47.25],"centroid_source":"wikidata P625","languages":[{"code":"ru","name_zh":"俄语","name_local":"俄语","role":"spoken","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"ro","name_zh":"罗马尼亚语","name_local":"罗马尼亚语","role":"official","audio_url":"assets/md/audio/ro.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bine ați venit în Moldova, o țară a dealurilor blânde și a podgoriilor nesfârșite; capitala sa este Chișinău, iar printre cele mai cunoscute repere se numără Cricova, un oraș subteran al vinului care se întinde pe zeci de kilometri.","tts_text_zh":"欢迎来到摩尔多瓦，这片丘陵起伏、葡萄园绵延的土地；首都是基希讷乌，最负盛名的地标之一是克里科瓦——一座绵延数十公里的地下葡萄酒之城。","audio_voice":"ro-RO-AlinaNeural","audio_bytes":82224},{"code":"mo","name_zh":"摩爾多瓦語","name_local":"摩爾多瓦語","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"摩尔多瓦共和国通称摩尔多瓦，是位于东欧的内陆国家，西邻罗马尼亚，北面、东面、南面毗邻乌克兰，首都是基希讷乌。今天的摩尔多瓦大部分领土属于中世纪的摩尔达维亚公国，该公国在14世纪立国。19世纪，摩尔达维亚所位于的比萨拉比亚地区被割让给俄罗斯帝国。20世纪俄国发生革命后，比萨拉比亚地区先是独立，后又并入罗马尼亚王国。1940年，罗马尼亚王国割让此地予苏联，苏联遂控制摩尔达维亚地区，组建摩尔达维亚苏维埃社会主义共和国，为苏联的第15个加盟共和国。东欧剧变后，1991年，摩尔多瓦宣布独立，成立今天的摩尔多瓦共和国。摩尔多瓦独立后因政治动荡、能源短缺等原因，经济陷入衰退。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":284,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6","title":"摩尔多瓦"},"culture_excerpts":[{"section":"历史","text":"2010年，考古学家于摩尔多瓦境内发现了奥都万石器，这将今天摩尔多瓦境内人类最早的活动记录前推到了距今80万到120万年前。新石器时代的克克塔尼文化中心就在今天的摩尔多瓦境内。这一文明从约公元前5500年一直持续到公元前约2700年，有进行农业活动、畜养家畜、打猎、制作较复杂陶器的记录。摩尔多瓦人的祖先是达契亚人，今天的摩尔多瓦最初是罗马帝国的一部分。13世纪到14世纪间，因为蒙古和匈牙利的入侵，达契亚人开始分为摩尔多瓦人、瓦拉几亚人、特兰西瓦尼亚人三支。其中，摩尔多瓦人于1359年成立了摩尔达维亚公国。1538年，摩尔达维亚被奥斯曼帝国征服，成为奥斯曼帝国的附庸。不过，摩尔达维亚公国的君主仍然被允许继续统治国家。1812年，俄罗斯帝国在对奥斯曼帝国的战争中夺取了摩尔达维亚公国的大部分领土。俄国将这部分领土称为“比萨拉比亚”。1859年，摩尔达维亚公国与瓦拉几亚合并，宣布建立罗马尼亚联合公国。1917年二月革命后，比萨拉比亚宣布独立，成立摩尔达维亚民主共和国。1918年，罗马尼亚军队进入该国并与罗马尼亚王国进行合并。1940年，罗马尼亚王国割了此地予苏联，苏联逐控制摩尔达维亚地区，组建摩尔达维亚苏维埃社会主义共和国，为苏联的第15个加盟共和国。1941年苏德战争爆发，作为轴心国一方的罗马尼亚亦出兵苏联，10月攻占敖德萨，并在纳粹德国南方集团军帮助下夺回摩尔多瓦地区，但1944年苏联大规模反攻德国，红军击败罗马尼亚军队又再度占领该地，恢复摩尔达维亚苏维埃社会主义共和国建制。摩尔多瓦地区重新划归苏联。其后，苏联重建了摩尔达维亚苏维埃社会主义共和国的国家建制。摩尔达维亚苏维埃社会主义共和国进行了一些工业化，同时农业发达。虽然仅占有前苏联的不到0.2%的领土面积，但是摩尔达维亚的农业输出几乎占苏联的2.5%（其中酒类输出占40%左右）。它也是烟草和酿酒用葡萄的大宗生产国，并且是全苏联葵花子和甜菜的主要生产地。东欧剧变后，1990年，摩尔达维亚苏维埃社会主义共和国改名摩尔多瓦苏维埃社会主义共和国。1991年5月，摩尔多瓦苏维埃社会主义共和国宣布改名摩尔多瓦共和国。8月，该国宣布从苏联独立，建立今天的摩尔多瓦。独立后的摩尔多瓦，因为能源短缺、经济调控失当等原因，经济经历长时间的衰退。至今，摩尔多瓦仍然是欧洲最贫困的国家之一。1990年，摩尔多瓦的工业集中区德涅斯特河沿岸（德左）宣布从摩尔多瓦独立。同时，苏联（俄罗斯）的军队一直驻在德涅斯特河沿岸未撤，演变成持续至今的“德左问题”。1992年，德涅斯特河沿岸当局与摩尔多瓦爆发战争。战争以摩尔多瓦失败告终，德左地区保持事实上独立至今（尽管德左地区的独立一直没有受到国际社会的承认）。俄罗斯在德左地区的驻军至今未撤离。2022年4月俄乌战争期间，德涅斯特河沿岸连日传出数起爆炸起火案，未知施袭方， 乌克兰总统府官员称：“俄罗斯当局正在宣布有必要时要占领摩尔多瓦。”乌克兰西南部地区可能也被纳入进攻范围。，俄罗斯军方则表明在乌克兰特别军事行动的新阶段目标是要完全控制乌克兰南部，以便开通前往摩尔多瓦西部亲俄地区德涅斯特河沿岸的道路 ，此言论及爆炸事件引起外界忧虑2022年俄乌战争会蔓延至摩尔多瓦或德涅斯特河沿岸。2022年5月3日乌克兰国家通讯社引述英国《泰晤士报》提到，俄罗斯高层拟定即将入侵摩尔多瓦的详尽计划，可能重演“顿巴斯”剧本，并从西侧打开攻乌新战线。根据乌克兰情报来源，有一些迹象显示俄军很快就会攻击摩尔多瓦，而这个前苏联成员国的军队只有3250人。","chars":1466},{"section":"人口","text":"356万（2009年1月1日，不含德涅斯特河沿岸和宾杰里人口）。其中摩尔多瓦人（罗马尼亚人的分支）占65%，乌克兰人占13%，俄罗斯人占13%。","chars":1200}],"landmark_images":[{"title":"File:Orheiul vechi2.jpg","caption_zh":"奥尔海伊地下修道院","caption":"奥尔海伊地下修道院","caption_commons":"Monasterio Orheiul Vechi","kw":"Orheiul Vechi cave monastery","url":"assets/md/L01.webp","thumb_url":"assets/md/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Orheiul_vechi2.jpg/1920px-Orheiul_vechi2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"ricardoq (Ricardoq)","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":42242,"caption_zh_manual":"奥尔海伊地下修道院","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12020,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 571KB JPEG)"},{"title":"File:Vineyard at Cricova - Moldova (by David Stanley).jpg","caption_zh":"克里科瓦酒窖的葡萄园","caption":"克里科瓦酒窖的葡萄园","caption_commons":"This vineyard at Cricova north of Chisinau is representative of many around Mold","kw":"Cricova wine cellar","url":"assets/md/L02.webp","thumb_url":"assets/md/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/1/12/Vineyard_at_Cricova_-_Moldova_%28by_David_Stanley%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"D-Stanley","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":59174,"caption_zh_manual":"克里科瓦酒窖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18658,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1024x768 166KB JPEG)"},{"title":"File:Сорокская крепость Cetatea Soroca Soroca Fortress (42928890910).jpg","caption_zh":"索罗卡要塞","caption":"索罗卡要塞","caption_commons":"Сорокская крепость / Cetatea Soroca / Soroca Fortress","kw":"Soroca Fortress","url":"assets/md/L03.webp","thumb_url":"assets/md/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%D0%A1%D0%BE%D1%80%D0%BE%D0%BA%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C_Cetatea_Soroca_Soroca_Fortress_%2842928890910%29.jpg/1920px-%D0%A1%D0%BE%D1%80%D0%BE%D0%BA%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C_Cetatea_Soroca_Soroca_Fortress_%2842928890910%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Photobank MD from Chisinau, Moldova","license":"CC0","license_url":"http://creativecommons.org/publicdomain/zero/1.0/deed.en","license_status":"ok","load_verified":true,"bytes":60646,"caption_zh_manual":"索罗卡要塞","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17400,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 743KB JPEG)"},{"title":"File:Bender Fortress. Church 03.JPG","caption_zh":"本杰尔要塞教堂","caption":"本杰尔要塞教堂","caption_commons":"Church in the Bender Fortress.","kw":"Bender Fortress","url":"assets/md/L04.webp","thumb_url":"assets/md/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Bender_Fortress._Church_03.JPG/1920px-Bender_Fortress._Church_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Ivo Kruusamägi","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":42814,"caption_zh_manual":"本杰尔要塞","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14340,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 525KB JPEG)"},{"title":"File:Caves Milestii Mici Moldavie.jpg","caption_zh":"米列什蒂米奇酒窖","caption":"米列什蒂米奇酒窖","caption_commons":"In the cellars of Milestii Mici winery, Moldova.","kw":"Milestii Mici wine cellar","url":"assets/md/L06.webp","thumb_url":"assets/md/L06.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Caves_Milestii_Mici_Moldavie.jpg/1920px-Caves_Milestii_Mici_Moldavie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Myrabella","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":60586,"caption_zh_manual":"米列什蒂米奇酒窖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":20906,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1275 659KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:39:20+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 无通行语，从 P2936 补：俄语","P443 发音语种不符已弃用：Lb-Moldawien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Republica Moldova.wav、LL-Q652 (ita)-Francyskus-Moldavia.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py MD","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","卡普里亚纳修道院：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（5 张，中文图注）","摘要 284 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[warn] languages：摩尔多瓦语与罗马尼亚语实为同一语言，同时标为 official 重复 → 合并为 ro 一项 official"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"基希讷乌","evidence":"首都是基希讷乌"},{"v":"内陆国家","evidence":"位于东欧的内陆国家"},{"v":"比萨拉比亚","evidence":"比萨拉比亚地区被割让给俄罗斯帝国"}],"model":"deepseek-flash"},"summary_text_raw":"摩尔多瓦共和国（罗马尼亚语：Republica Moldova），通称摩尔多瓦（Moldova），是位于东欧的内陆国家，首都是基希讷乌。摩尔多瓦西邻罗马尼亚，北面、东面、南面毗邻乌克兰。\n今天的摩尔多瓦，大部分领土属于中世纪的摩尔达维亚公国。摩尔达维亚公国在14世纪立国后，自16世纪开始沦为奥斯曼帝国的保护国。19世纪，摩尔达维亚所位于的比萨拉比亚地区被割让给俄罗斯帝国，同时与摩尔多瓦具有同缘关系的罗马尼亚人组建罗马尼亚联合公国。20世纪俄国发生革命后，比萨拉比亚地区先是独立，后又并入罗马尼亚王国。1940年，罗马尼亚王国割了此地予苏联，苏联遂控制摩尔达维亚地区，组建摩尔达维亚苏维埃社会主义共和国，为苏联的第15个加盟共和国。1941年苏德战争爆发，作为轴心国一方的罗马尼亚亦出兵苏联，10月攻占敖德萨，并在纳粹德国南方集团军帮助下夺回比萨拉比亚地区，但1944年苏联大规模反攻德国，红军击败罗马尼亚军队又再度占领该地，恢复摩尔达维亚苏维埃社会主义共和国建制。东欧剧变后，1991年，摩尔多瓦宣布独立，成立今天的摩尔多瓦共和国。摩尔多瓦独立后因政治动荡、能源短缺等原因，经济陷入衰退。","history_text":"达契亚人是摩尔多瓦人的祖先，这片土地最初属于罗马帝国。十三四世纪蒙古与匈牙利入侵，达契亚人分为三支，其中一支于1359年建立摩尔达维亚公国。十六世纪起公国沦为奥斯曼帝国附庸，君主仍被允许继续统治。1812年俄国夺取其大部分领土，称比萨拉比亚。此后该地几度在罗马尼亚与苏联之间易手，1991年宣布独立。","custom_text":"乡村人家待客先上面包与盐，客人掰一块蘸盐吃下，才算进了门。餐桌上的玉米糊叫马马利加，盛在陶碗里，配羊奶酪、酸奶油或煎洋葱。复活节前夜煮彩蛋、烤甜面包，人们提着篮子到教堂前等候祝圣，回家后先碰蛋再开饭。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":150,"folk":100}},"knowledge_qa":[{"q":"摩尔多瓦在哪儿啊？周围都是哪些国家？","a":"摩尔多瓦是位于东欧的内陆国家，西邻罗马尼亚，北面、东面、南面都毗邻乌克兰。","tags":["东欧","内陆国","邻国"]},{"q":"摩尔多瓦的首都是哪座城市？","a":"首都是基希讷乌。","tags":["首都","基希讷乌"]},{"q":"摩尔多瓦人说什么语言？官方语言是什么？","a":"官方语言是罗马尼亚语和摩尔多瓦语，俄语也广泛使用。","tags":["语言","官方语言","俄语"]},{"q":"摩尔多瓦有什么值得一看的地标或景点？","a":"值得看的有奥尔海伊地下修道院、克里科瓦酒窖、索罗卡要塞、本杰尔要塞和米列什蒂米奇酒窖。","tags":["地标","景点","酒窖","要塞"]},{"q":"摩尔多瓦有什么特色风物或特产？","a":"摩尔多瓦以酒窖闻名，有克里科瓦酒窖和米列什蒂米奇酒窖等大型地下酒窖。","tags":["特产","葡萄酒","酒窖"]},{"q":"摩尔多瓦历史上是怎么独立的？","a":"东欧剧变后，1991年摩尔多瓦宣布独立，成立今天的摩尔多瓦共和国。","tags":["历史","独立","苏联"]},{"q":"摩尔多瓦以前是苏联的加盟共和国吗？","a":"是的，苏联曾组建摩尔达维亚苏维埃社会主义共和国，为苏联的第15个加盟共和国。","tags":["苏联","加盟共和国","历史"]}],"llm_audit":{"issues":[{"field":"languages","severity":"warn","why":"摩尔多瓦语与罗马尼亚语实为同一语言，同时标为 official 重复","suggest":"合并为 ro 一项 official"}],"overall":"warn"},"audio_meta":{},"outline":[[[2662,4826],[2668,4833],[2679,4829],[2684,4839],[2721,4836],[2760,4848],[2808,4832],[2809,4824],[2836,4824],[2832,4814],[2841,4817],[2848,4806],[2857,4816],[2880,4811],[2895,4794],[2912,4798],[2924,4787],[2912,4753],[2916,4745],[2939,4728],[2956,4732],[2954,4714],[2948,4711],[2960,4706],[2956,4695],[2993,4681],[2990,4653],[3013,4642],[2983,4634],[2971,4647],[2962,4636],[2946,4648],[2938,4642],[2931,4647],[2920,4636],[2918,4654],[2895,4646],[2893,4626],[2902,4618],[2896,4600],[2874,4595],[2874,4584],[2847,4566],[2850,4551],[2820,4546],[2806,4559],[2817,4563],[2808,4602],[2825,4662],[2808,4697],[2781,4714],[2757,4738],[2758,4746],[2730,4767],[2700,4817],[2662,4826]]]}
+{
+  "qid": "Q217",
+  "iso_a2": "MD",
+  "iso_a3": "MDA",
+  "name_zh": "摩尔多瓦",
+  "name_en": "Moldova",
+  "capital": "基希讷乌",
+  "continent": "欧洲",
+  "centroid": [
+    28.5167,
+    47.25
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ru",
+      "name_zh": "俄语",
+      "name_local": "俄语",
+      "role": "spoken",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "ro",
+      "name_zh": "罗马尼亚语",
+      "name_local": "罗马尼亚语",
+      "role": "official",
+      "audio_url": "assets/md/audio/ro.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bine ați venit în Moldova, o țară a dealurilor blânde și a podgoriilor nesfârșite; capitala sa este Chișinău, iar printre cele mai cunoscute repere se numără Cricova, un oraș subteran al vinului care se întinde pe zeci de kilometri.",
+      "tts_text_zh": "欢迎来到摩尔多瓦，这片丘陵起伏、葡萄园绵延的土地；首都是基希讷乌，最负盛名的地标之一是克里科瓦——一座绵延数十公里的地下葡萄酒之城。",
+      "audio_voice": "ro-RO-AlinaNeural",
+      "audio_bytes": 82224
+    },
+    {
+      "code": "mo",
+      "name_zh": "摩爾多瓦語",
+      "name_local": "摩爾多瓦語",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "摩尔多瓦共和国通称摩尔多瓦，是位于东欧的内陆国家，西邻罗马尼亚，北面、东面、南面毗邻乌克兰，首都是基希讷乌。今天的摩尔多瓦大部分领土属于中世纪的摩尔达维亚公国，该公国在14世纪立国。19世纪，摩尔达维亚所位于的比萨拉比亚地区被割让给俄罗斯帝国。20世纪俄国发生革命后，比萨拉比亚地区先是独立，后又并入罗马尼亚王国。1940年，罗马尼亚王国割让此地予苏联，苏联遂控制摩尔达维亚地区，组建摩尔达维亚苏维埃社会主义共和国，为苏联的第15个加盟共和国。东欧剧变后，1991年，摩尔多瓦宣布独立，成立今天的摩尔多瓦共和国。摩尔多瓦独立后因政治动荡、能源短缺等原因，经济陷入衰退。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 284,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%91%A9%E5%B0%94%E5%A4%9A%E7%93%A6",
+    "title": "摩尔多瓦"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "2010年，考古学家于摩尔多瓦境内发现了奥都万石器，这将今天摩尔多瓦境内人类最早的活动记录前推到了距今80万到120万年前。新石器时代的克克塔尼文化中心就在今天的摩尔多瓦境内。这一文明从约公元前5500年一直持续到公元前约2700年，有进行农业活动、畜养家畜、打猎、制作较复杂陶器的记录。摩尔多瓦人的祖先是达契亚人，今天的摩尔多瓦最初是罗马帝国的一部分。13世纪到14世纪间，因为蒙古和匈牙利的入侵，达契亚人开始分为摩尔多瓦人、瓦拉几亚人、特兰西瓦尼亚人三支。其中，摩尔多瓦人于1359年成立了摩尔达维亚公国。1538年，摩尔达维亚被奥斯曼帝国征服，成为奥斯曼帝国的附庸。不过，摩尔达维亚公国的君主仍然被允许继续统治国家。1812年，俄罗斯帝国在对奥斯曼帝国的战争中夺取了摩尔达维亚公国的大部分领土。俄国将这部分领土称为“比萨拉比亚”。1859年，摩尔达维亚公国与瓦拉几亚合并，宣布建立罗马尼亚联合公国。1917年二月革命后，比萨拉比亚宣布独立，成立摩尔达维亚民主共和国。1918年，罗马尼亚军队进入该国并与罗马尼亚王国进行合并。1940年，罗马尼亚王国割了此地予苏联，苏联逐控制摩尔达维亚地区，组建摩尔达维亚苏维埃社会主义共和国，为苏联的第15个加盟共和国。1941年苏德战争爆发，作为轴心国一方的罗马尼亚亦出兵苏联，10月攻占敖德萨，并在纳粹德国南方集团军帮助下夺回摩尔多瓦地区，但1944年苏联大规模反攻德国，红军击败罗马尼亚军队又再度占领该地，恢复摩尔达维亚苏维埃社会主义共和国建制。摩尔多瓦地区重新划归苏联。其后，苏联重建了摩尔达维亚苏维埃社会主义共和国的国家建制。摩尔达维亚苏维埃社会主义共和国进行了一些工业化，同时农业发达。虽然仅占有前苏联的不到0.2%的领土面积，但是摩尔达维亚的农业输出几乎占苏联的2.5%（其中酒类输出占40%左右）。它也是烟草和酿酒用葡萄的大宗生产国，并且是全苏联葵花子和甜菜的主要生产地。东欧剧变后，1990年，摩尔达维亚苏维埃社会主义共和国改名摩尔多瓦苏维埃社会主义共和国。1991年5月，摩尔多瓦苏维埃社会主义共和国宣布改名摩尔多瓦共和国。8月，该国宣布从苏联独立，建立今天的摩尔多瓦。独立后的摩尔多瓦，因为能源短缺、经济调控失当等原因，经济经历长时间的衰退。至今，摩尔多瓦仍然是欧洲最贫困的国家之一。1990年，摩尔多瓦的工业集中区德涅斯特河沿岸（德左）宣布从摩尔多瓦独立。同时，苏联（俄罗斯）的军队一直驻在德涅斯特河沿岸未撤，演变成持续至今的“德左问题”。1992年，德涅斯特河沿岸当局与摩尔多瓦爆发战争。战争以摩尔多瓦失败告终，德左地区保持事实上独立至今（尽管德左地区的独立一直没有受到国际社会的承认）。俄罗斯在德左地区的驻军至今未撤离。2022年4月俄乌战争期间，德涅斯特河沿岸连日传出数起爆炸起火案，未知施袭方， 乌克兰总统府官员称：“俄罗斯当局正在宣布有必要时要占领摩尔多瓦。”乌克兰西南部地区可能也被纳入进攻范围。，俄罗斯军方则表明在乌克兰特别军事行动的新阶段目标是要完全控制乌克兰南部，以便开通前往摩尔多瓦西部亲俄地区德涅斯特河沿岸的道路 ，此言论及爆炸事件引起外界忧虑2022年俄乌战争会蔓延至摩尔多瓦或德涅斯特河沿岸。2022年5月3日乌克兰国家通讯社引述英国《泰晤士报》提到，俄罗斯高层拟定即将入侵摩尔多瓦的详尽计划，可能重演“顿巴斯”剧本，并从西侧打开攻乌新战线。根据乌克兰情报来源，有一些迹象显示俄军很快就会攻击摩尔多瓦，而这个前苏联成员国的军队只有3250人。",
+      "chars": 1466
+    },
+    {
+      "section": "人口",
+      "text": "356万（2009年1月1日，不含德涅斯特河沿岸和宾杰里人口）。其中摩尔多瓦人（罗马尼亚人的分支）占65%，乌克兰人占13%，俄罗斯人占13%。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Orheiul vechi2.jpg",
+      "caption_zh": "奥尔海伊地下修道院",
+      "caption": "奥尔海伊地下修道院",
+      "caption_commons": "Monasterio Orheiul Vechi",
+      "kw": "Orheiul Vechi cave monastery",
+      "url": "assets/md/L01.webp",
+      "thumb_url": "assets/md/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Orheiul_vechi2.jpg/1920px-Orheiul_vechi2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "ricardoq (Ricardoq)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 92534,
+      "caption_zh_manual": "奥尔海伊地下修道院",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5470,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 571KB JPEG)"
+    },
+    {
+      "title": "File:Vineyard at Cricova - Moldova (by David Stanley).jpg",
+      "caption_zh": "克里科瓦酒窖的葡萄园",
+      "caption": "克里科瓦酒窖的葡萄园",
+      "caption_commons": "This vineyard at Cricova north of Chisinau is representative of many around Mold",
+      "kw": "Cricova wine cellar",
+      "url": "assets/md/L02.webp",
+      "thumb_url": "assets/md/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Vineyard_at_Cricova_-_Moldova_%28by_David_Stanley%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "D-Stanley",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 100256,
+      "caption_zh_manual": "克里科瓦酒窖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8384,
+      "size": {
+        "detail": "1024x768",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1024x768 166KB JPEG)"
+    },
+    {
+      "title": "File:Сорокская крепость Cetatea Soroca Soroca Fortress (42928890910).jpg",
+      "caption_zh": "索罗卡要塞",
+      "caption": "索罗卡要塞",
+      "caption_commons": "Сорокская крепость / Cetatea Soroca / Soroca Fortress",
+      "kw": "Soroca Fortress",
+      "url": "assets/md/L03.webp",
+      "thumb_url": "assets/md/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/%D0%A1%D0%BE%D1%80%D0%BE%D0%BA%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C_Cetatea_Soroca_Soroca_Fortress_%2842928890910%29.jpg/1920px-%D0%A1%D0%BE%D1%80%D0%BE%D0%BA%D1%81%D0%BA%D0%B0%D1%8F_%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C_Cetatea_Soroca_Soroca_Fortress_%2842928890910%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Photobank MD from Chisinau, Moldova",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 132180,
+      "caption_zh_manual": "索罗卡要塞",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7736,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 743KB JPEG)"
+    },
+    {
+      "title": "File:Bender Fortress. Church 03.JPG",
+      "caption_zh": "本杰尔要塞教堂",
+      "caption": "本杰尔要塞教堂",
+      "caption_commons": "Church in the Bender Fortress.",
+      "kw": "Bender Fortress",
+      "url": "assets/md/L04.webp",
+      "thumb_url": "assets/md/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Bender_Fortress._Church_03.JPG/1920px-Bender_Fortress._Church_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Ivo Kruusamägi",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 82714,
+      "caption_zh_manual": "本杰尔要塞",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7414,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 525KB JPEG)"
+    },
+    {
+      "title": "File:Caves Milestii Mici Moldavie.jpg",
+      "caption_zh": "米列什蒂米奇酒窖",
+      "caption": "米列什蒂米奇酒窖",
+      "caption_commons": "In the cellars of Milestii Mici winery, Moldova.",
+      "kw": "Milestii Mici wine cellar",
+      "url": "assets/md/L06.webp",
+      "thumb_url": "assets/md/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Caves_Milestii_Mici_Moldavie.jpg/1920px-Caves_Milestii_Mici_Moldavie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Myrabella",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 111078,
+      "caption_zh_manual": "米列什蒂米奇酒窖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9126,
+      "size": {
+        "detail": "1080x717",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1275 659KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:39:20+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 无通行语，从 P2936 补：俄语",
+    "P443 发音语种不符已弃用：Lb-Moldawien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Republica Moldova.wav、LL-Q652 (ita)-Francyskus-Moldavia.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py MD",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "卡普里亚纳修道院：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 284 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[warn] languages：摩尔多瓦语与罗马尼亚语实为同一语言，同时标为 official 重复 → 合并为 ro 一项 official"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "基希讷乌",
+        "evidence": "首都是基希讷乌"
+      },
+      {
+        "v": "内陆国家",
+        "evidence": "位于东欧的内陆国家"
+      },
+      {
+        "v": "比萨拉比亚",
+        "evidence": "比萨拉比亚地区被割让给俄罗斯帝国"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "摩尔多瓦共和国（罗马尼亚语：Republica Moldova），通称摩尔多瓦（Moldova），是位于东欧的内陆国家，首都是基希讷乌。摩尔多瓦西邻罗马尼亚，北面、东面、南面毗邻乌克兰。\n今天的摩尔多瓦，大部分领土属于中世纪的摩尔达维亚公国。摩尔达维亚公国在14世纪立国后，自16世纪开始沦为奥斯曼帝国的保护国。19世纪，摩尔达维亚所位于的比萨拉比亚地区被割让给俄罗斯帝国，同时与摩尔多瓦具有同缘关系的罗马尼亚人组建罗马尼亚联合公国。20世纪俄国发生革命后，比萨拉比亚地区先是独立，后又并入罗马尼亚王国。1940年，罗马尼亚王国割了此地予苏联，苏联遂控制摩尔达维亚地区，组建摩尔达维亚苏维埃社会主义共和国，为苏联的第15个加盟共和国。1941年苏德战争爆发，作为轴心国一方的罗马尼亚亦出兵苏联，10月攻占敖德萨，并在纳粹德国南方集团军帮助下夺回比萨拉比亚地区，但1944年苏联大规模反攻德国，红军击败罗马尼亚军队又再度占领该地，恢复摩尔达维亚苏维埃社会主义共和国建制。东欧剧变后，1991年，摩尔多瓦宣布独立，成立今天的摩尔多瓦共和国。摩尔多瓦独立后因政治动荡、能源短缺等原因，经济陷入衰退。",
+  "history_text": "达契亚人是摩尔多瓦人的祖先，这片土地最初属于罗马帝国。十三四世纪蒙古与匈牙利入侵，达契亚人分为三支，其中一支于1359年建立摩尔达维亚公国。十六世纪起公国沦为奥斯曼帝国附庸，君主仍被允许继续统治。1812年俄国夺取其大部分领土，称比萨拉比亚。此后该地几度在罗马尼亚与苏联之间易手，1991年宣布独立。",
+  "custom_text": "乡村人家待客先上面包与盐，客人掰一块蘸盐吃下，才算进了门。餐桌上的玉米糊叫马马利加，盛在陶碗里，配羊奶酪、酸奶油或煎洋葱。复活节前夜煮彩蛋、烤甜面包，人们提着篮子到教堂前等候祝圣，回家后先碰蛋再开饭。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 150,
+      "folk": 100
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "摩尔多瓦在哪儿啊？周围都是哪些国家？",
+      "a": "摩尔多瓦是位于东欧的内陆国家，西邻罗马尼亚，北面、东面、南面都毗邻乌克兰。",
+      "tags": [
+        "东欧",
+        "内陆国",
+        "邻国"
+      ]
+    },
+    {
+      "q": "摩尔多瓦的首都是哪座城市？",
+      "a": "首都是基希讷乌。",
+      "tags": [
+        "首都",
+        "基希讷乌"
+      ]
+    },
+    {
+      "q": "摩尔多瓦人说什么语言？官方语言是什么？",
+      "a": "官方语言是罗马尼亚语和摩尔多瓦语，俄语也广泛使用。",
+      "tags": [
+        "语言",
+        "官方语言",
+        "俄语"
+      ]
+    },
+    {
+      "q": "摩尔多瓦有什么值得一看的地标或景点？",
+      "a": "值得看的有奥尔海伊地下修道院、克里科瓦酒窖、索罗卡要塞、本杰尔要塞和米列什蒂米奇酒窖。",
+      "tags": [
+        "地标",
+        "景点",
+        "酒窖",
+        "要塞"
+      ]
+    },
+    {
+      "q": "摩尔多瓦有什么特色风物或特产？",
+      "a": "摩尔多瓦以酒窖闻名，有克里科瓦酒窖和米列什蒂米奇酒窖等大型地下酒窖。",
+      "tags": [
+        "特产",
+        "葡萄酒",
+        "酒窖"
+      ]
+    },
+    {
+      "q": "摩尔多瓦历史上是怎么独立的？",
+      "a": "东欧剧变后，1991年摩尔多瓦宣布独立，成立今天的摩尔多瓦共和国。",
+      "tags": [
+        "历史",
+        "独立",
+        "苏联"
+      ]
+    },
+    {
+      "q": "摩尔多瓦以前是苏联的加盟共和国吗？",
+      "a": "是的，苏联曾组建摩尔达维亚苏维埃社会主义共和国，为苏联的第15个加盟共和国。",
+      "tags": [
+        "苏联",
+        "加盟共和国",
+        "历史"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "languages",
+        "severity": "warn",
+        "why": "摩尔多瓦语与罗马尼亚语实为同一语言，同时标为 official 重复",
+        "suggest": "合并为 ro 一项 official"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        2662,
+        4826
+      ],
+      [
+        2668,
+        4833
+      ],
+      [
+        2679,
+        4829
+      ],
+      [
+        2684,
+        4839
+      ],
+      [
+        2721,
+        4836
+      ],
+      [
+        2760,
+        4848
+      ],
+      [
+        2808,
+        4832
+      ],
+      [
+        2809,
+        4824
+      ],
+      [
+        2836,
+        4824
+      ],
+      [
+        2832,
+        4814
+      ],
+      [
+        2841,
+        4817
+      ],
+      [
+        2848,
+        4806
+      ],
+      [
+        2857,
+        4816
+      ],
+      [
+        2880,
+        4811
+      ],
+      [
+        2895,
+        4794
+      ],
+      [
+        2912,
+        4798
+      ],
+      [
+        2924,
+        4787
+      ],
+      [
+        2912,
+        4753
+      ],
+      [
+        2916,
+        4745
+      ],
+      [
+        2939,
+        4728
+      ],
+      [
+        2956,
+        4732
+      ],
+      [
+        2954,
+        4714
+      ],
+      [
+        2948,
+        4711
+      ],
+      [
+        2960,
+        4706
+      ],
+      [
+        2956,
+        4695
+      ],
+      [
+        2993,
+        4681
+      ],
+      [
+        2990,
+        4653
+      ],
+      [
+        3013,
+        4642
+      ],
+      [
+        2983,
+        4634
+      ],
+      [
+        2971,
+        4647
+      ],
+      [
+        2962,
+        4636
+      ],
+      [
+        2946,
+        4648
+      ],
+      [
+        2938,
+        4642
+      ],
+      [
+        2931,
+        4647
+      ],
+      [
+        2920,
+        4636
+      ],
+      [
+        2918,
+        4654
+      ],
+      [
+        2895,
+        4646
+      ],
+      [
+        2893,
+        4626
+      ],
+      [
+        2902,
+        4618
+      ],
+      [
+        2896,
+        4600
+      ],
+      [
+        2874,
+        4595
+      ],
+      [
+        2874,
+        4584
+      ],
+      [
+        2847,
+        4566
+      ],
+      [
+        2850,
+        4551
+      ],
+      [
+        2820,
+        4546
+      ],
+      [
+        2806,
+        4559
+      ],
+      [
+        2817,
+        4563
+      ],
+      [
+        2808,
+        4602
+      ],
+      [
+        2825,
+        4662
+      ],
+      [
+        2808,
+        4697
+      ],
+      [
+        2781,
+        4714
+      ],
+      [
+        2757,
+        4738
+      ],
+      [
+        2758,
+        4746
+      ],
+      [
+        2730,
+        4767
+      ],
+      [
+        2700,
+        4817
+      ],
+      [
+        2662,
+        4826
+      ]
+    ]
+  ]
+}

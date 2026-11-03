@@ -1,1 +1,575 @@
-{"qid":"Q219","iso_a2":"BG","iso_a3":"BGR","name_zh":"保加利亚","name_en":"Bulgaria","capital":"索非亚","continent":"欧洲","centroid":[25.5,42.75],"centroid_source":"wikidata P625","languages":[{"code":"bg","name_zh":"保加利亚语","name_local":"保加利亚语","role":"official","audio_url":"assets/bg/audio/bg.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Добре дошли в България, страна с дълга история и красива природа. Столицата ѝ е София, а един от най-известните символи на страната е величествената планина Витоша, която се издига над града.","tts_text_zh":"欢迎来到保加利亚，一个历史悠久、风光秀美的国度。它的首都是索非亚，而国家最著名的象征之一，便是巍然耸立于城市之上的维托沙山。","audio_voice":"bg-BG-KalinaNeural","audio_bytes":82800}],"summary_text":"保加利亚共和国通称保加利亚，是一个位于巴尔干半岛东北部的国家，系属东欧或东南欧。它与罗马尼亚、塞尔维亚、北马其顿、希腊和土耳其接壤，东部滨临黑海，近地中海。现在的保加利亚北部相当于古代默西亚东部，南部相当于古代色雷斯北部，古代居民为色雷斯人。公元1年前后此地成为罗马帝国的一部分，分属色雷斯省与默西亚省，随后由拜占廷帝国继承。斯拉夫入侵后不久，默西亚再次遭到入侵，这次是阿斯帕鲁克汗领导下的保加尔人，其部落是旧大保加利亚的残余，该部落联盟位于黑海以北，即今乌克兰和俄罗斯南部。680年，阿斯帕鲁克汗击败拜占庭皇帝查士丁尼二世并与之立约，正式获得拜占廷多瑙河以南、巴尔干山脉以北地区，建立保加利亚第一帝国。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":302,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A","title":"保加利亚"},"culture_excerpts":[{"section":"历史","text":"沙皇西缅死后，保加利亚因与马扎尔人和佩切涅格人的战争以及博格米勒异端的蔓延而衰弱。在连续的罗斯和拜占庭入侵之后，普雷斯拉夫于971年被拜占庭军队占领。帝国从萨缪尔的袭击中短暂恢复，但这在1014年拜占庭皇帝巴西尔二世在克柳赫击败保加利亚军队时结束。萨缪尔在战斗后不久就去世了，到1018年拜占庭人已经征服保加利亚第一帝国，征服后，巴西尔二世通过保留当地贵族的统治，将他们融入拜占庭的官僚和贵族，并免除他们的土地以黄金纳税的义务，允许以实物征税，从而阻止了叛乱。保加利亚宗主教区被降格为大主教，但保留了它的自治地位和它的教区。巴西尔死后，拜占庭的国内政策发生了变化，爆发了一系列不成功的叛乱，其中最大的叛乱由彼得·德利安领导。在曼齐克特对塞尔柱入侵者的军事失败后，帝国的权威下降了，十字军东征进一步扰乱了帝国的权威。这阻止了拜占庭的希腊化尝试，并为进一步的叛乱创造了肥沃的土壤。1185年，彼得四世（英语：Peter_II_of_Bulgaria）、伊凡·阿森一世两兄弟率领保加利亚人再次起义，建立了保加利亚第二帝国，并迫使拜占廷于1187年承认其独立。阿森王朝第三位君主卡洛扬将他的统治范围扩大到贝尔格莱德和奥赫里德。他承认教皇在精神上的至高无上，并从教皇特使那里获得了王冠。帝国在伊凡·阿森二世（1218-1241）统治下达到顶峰，当时其边界扩展到阿尔巴尼亚、塞尔维亚和伊庇鲁斯海岸，同时商业和文化蓬勃发展。阿森二世死后，国势日衰。1242年，蒙古帝国的将领拔都率领的西征蒙古军入侵了保加利亚。1258年，阿森王朝被推翻。1261年，拜占廷进攻保加利亚，夺取安其亚鲁斯港与迈塞姆布里亚港。1265年，拜占廷皇帝迈克尔八世夺取保加利亚巴尔干山脉以南领土。1277年，蒙古金帐汗国入侵保加利亚北部，间接导致伊瓦伊洛起义爆发，起义声势浩大，国王被杀，伊瓦伊洛被拥戴为王，1278年起义军占领首都第诺伐。1279年2月，拜占庭军队趁机攻占第诺伐。1280年起义失败，伊瓦伊洛逃亡后被蒙古人所杀。1330年，保加利亚沦为塞尔维亚的附属国，此后又分裂为几个小国。奥斯曼人在1340年代被拜占庭人雇佣为雇佣军，但后来他们自己成为了入侵者。1362年，苏丹穆拉德一世从拜占庭手中夺取了阿德里安堡；1382年索非亚陷落，1388年舒门陷落。奥斯曼帝国于1393年完成了对大部分保加利亚土地的征服，最后一个保加利亚人城市索佐波尔于1453年陷落。保加利亚贵族随后被消灭，农民被奴役，而许多受过教育的神职人员逃往其他国家。随着奥斯曼帝国的势力开始减弱，哈布斯堡王朝的奥地利和俄罗斯将保加利亚基督徒视为潜在的盟友。奥地利人首先支持了1598年在特尔诺沃的起义，然后是1686年的第二次起义，1688年的奇普罗夫齐起义，最后是1689年的卡尔波什起义。18世纪的西欧启蒙运动影响了保加利亚民族觉醒的开始。导致了1876年的四月起义。在奥斯曼当局镇压叛乱时，多达30,000名保加利亚人被杀。1877年，俄罗斯向奥斯曼人宣战，并在保加利亚叛军的帮助下击败了他们。透过《柏林条约》，保加利亚获得了自治的地位，成立半独立的保加利亚王国。1885年又推选出了自己的国王，实现了国家统一，在俄国等列强的支持下保加利亚大公国逐步摆脱奥斯曼统治并于1908年升格为王国，第一次巴尔干战争爆发后，保加利亚与塞尔维亚、黑山、希腊四国联手企图瓜分土耳其在欧洲部分的领土。保加利亚希望得到马其顿和爱琴海上的港口（尤其希望是萨洛尼卡），保军推进到伊斯坦布尔城下，但却落后希腊人一步进入萨洛尼卡。由于奥匈帝国与意大利王国不希望塞尔维亚与希腊壮大，联手阻止，搞出了一个独立的阿尔巴尼亚。这使得保加利亚无法与塞尔维亚、希腊履行战前的分配协议，带来了第二次巴尔干战争，这次塞尔维亚、希腊倒戈一击，再加上土耳其和罗马尼亚。结果保加利亚不仅失去了不少战利品，还把南多布罗加割给了罗马尼亚。在第一次世界大战中爆发初期，保加利亚就意识到了这是一个报复的好机会，它在1915年加入同盟国集团，迅速和德奥联军一起占领了塞尔维亚，后来又进军罗马尼亚。在德军基本撤出巴尔干防线的情况下，保军成了主力，并且在战争的大部分时间里稳定了这条战线。直到1918年停战。战败的保加利亚，失去了在爱琴海的海岸线，军队也被解散。保加利亚在遭受受战争赔款重压下开始动荡。在国王鲍里斯三世的绝对君主制和威权统治下经历了一个逐步独裁化、政权法西斯化的过程。1923年一群军官在鲍里斯的支持下暗杀了首相，1925年索非亚大教堂发生炸弹爆炸案；此后，政府发动白色恐怖，这突显该国议会政治仅为表象，执政党在政治中占据绝对主导地位，政府依靠残酷镇压实现稳定，且持续到大萧条年代。第二次世界大战初期，纳粹德国和意大利王国的维也纳仲裁让保加利亚王国夺回了南多布罗加（1940年9月7日《克拉约瓦条约》）。由于意大利军队在希腊的失败，加上南斯拉夫亲英国，促使德国决定干涉巴尔干半岛，计划占领南斯拉夫及希腊并必须通过保加利亚。1941年3月1日亲德的首相博格丹·菲洛夫在维也纳代表保加利亚签署了《三国同盟条约》，正式加入了轴心国。在南斯拉夫战役中，保军担任德军的侧翼掩护任务，并在战后分得了南斯拉夫马其顿的大部，在希腊战役，保加利亚占领了希腊西色雷斯，但萨洛尼卡却由德国托管。苏德战争爆发后，保加利亚国王借口","chars":2200},{"section":"文化","text":"保加利亚民间传说的一个基本元素是火，用来驱除邪灵和疾病，一些对抗邪灵的仪式幸存下来，并且仍在实行皮林国家公园、斯雷伯纳自然保护区、马达拉骑士、斯韦什塔里和卡赞勒克的色雷斯墓葬、里拉修道院、博亚纳教堂、伊万诺沃岩石教堂和古城内塞伯尔被联合国教科文组织列为世界遗产。里拉修道院由保加利亚的守护神里拉的圣约翰建立，自中世纪以来，他的生活一直是众多文学作品的主题。\n10世纪普雷斯拉夫和奥赫里德文学学校的建立与中世纪保加利亚文学的黄金时期有关。学校对基督教经文的重视使保加利亚帝国成为斯拉夫文化的中心，使斯拉夫人受到基督教的影响，并为他们提供了书面语言。它的字母，西里尔字母，是由普雷斯拉夫文学学校开发的。许多文学和艺术杰作被奥斯曼征服者摧毁，艺术活动直到19世纪的民族复兴时期才重新出现。宗教视觉艺术遗产包括壁画、壁画和图标，其中许多是由中世纪的塔尔诺沃艺术学校制作的。民间音乐是迄今为止最广泛的传统艺术，并随着远东、东方、中世纪东正教和标准西欧音调和模式的融合而缓慢发展。国家电视台女声合唱团在1990年因其演奏保加利亚民间音乐而获得格莱美奖。\n保加利亚菜与其他巴尔干国家的菜相似，并表现出强烈的土耳其和希腊影响。考虑到对多种沙拉的文化偏好，肉类消费量低于欧洲平均水平。直到1989年，保加利亚一直是世界第二大葡萄酒出口国，但此后失去了这一地位。2016年生产了1.28亿升葡萄酒，其中6200万升主要出口到罗马尼亚、波兰和俄罗斯。","chars":1200},{"section":"现代历史","text":"二战后，保加利亚留住了重新夺回的多布罗加南部，并被划入苏联的势力圈。1946年废除君主制，成立保加利亚人民共和国，格奥尔基·季米特洛夫成为保加利亚人民共和国首任领导人。在乔治·季米特洛夫的领导下，保加利亚成为了一个压制性的、迅速工业化的斯大林主义国家。保加利亚于1955年成为华沙条约组织的一个成员，在托多尔·日夫科夫的领导下，苏联式的计划经济出现了一些试验性的市场导向政策。与战时水平相比，到1980年代，国家GDP增长了五倍，人均GDP增长了四倍。\n在1989年民主运动的影响下，共产党政府于1989年11月10日垮台，国名从保加利亚人民共和国改为保加利亚共和国，开始向议会民主制过渡。1990年6月举行第一次自由选举，1991年7月通过了一部新宪法，规定相对弱势的民选总统和总理对立法机关负责。保加利亚于2004年3月29日年成为北约成员国，于2007年1月1日成为欧洲联盟的一员。","chars":800}],"landmark_images":[{"title":"File:Rila Monastery, August 2013.jpg","caption_zh":"里拉修道院","caption":"里拉修道院","caption_commons":"Looking south.","kw":"Rila Monastery Bulgaria","url":"assets/bg/L01.webp","thumb_url":"assets/bg/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Rila_Monastery%2C_August_2013.jpg/1920px-Rila_Monastery%2C_August_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Raggatt2000","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":73868,"caption_zh_manual":"里拉修道院","caption_zh_source":"llm_from_commons_filename","thumb_bytes":23800,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 751KB JPEG)"},{"title":"File:AlexanderNevskyCathedral-Sofia-6.jpg","caption_zh":"亚历山大·涅夫斯基大教堂","caption":"亚历山大·涅夫斯基大教堂","caption_commons":"Alexander Nevsky Cathedral in Sofia, Bulgaria. Its foundation stone was laid on ","kw":"Alexander Nevsky Cathedral Sofia","url":"assets/bg/L02.webp","thumb_url":"assets/bg/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/AlexanderNevskyCathedral-Sofia-6.jpg/1920px-AlexanderNevskyCathedral-Sofia-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Plamen Agov (user:MrPanyGoff)","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":39126,"caption_zh_manual":"亚历山大·涅夫斯基大教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12582,"size":{"detail":"760x483","thumb":"400x254"},"encoding":"webp q72/q74 (源 1920x1219 555KB JPEG)"},{"title":"File:Ancient theatre plovdiv-3.jpg","caption_zh":"普罗夫迪夫古罗马剧场","caption":"普罗夫迪夫古罗马剧场","caption_commons":"The skênê of the ancient theatre of Plilippopolis","kw":"Plovdiv Roman Theatre","url":"assets/bg/L03.webp","thumb_url":"assets/bg/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Ancient_theatre_plovdiv-3.jpg/1920px-Ancient_theatre_plovdiv-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Kyle Taylor","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":40868,"caption_zh_manual":"普罗夫迪夫古罗马剧场","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13724,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 493KB JPEG)"},{"title":"File:Belogradchik fortress 2009.jpg","caption_zh":"贝洛格拉奇克要塞","caption":"贝洛格拉奇克要塞","caption_commons":"Photo taken from inside the Belogradchik Fortress, North-West Bulgaria.","kw":"Belogradchik Fortress Bulgaria","url":"assets/bg/L04.webp","thumb_url":"assets/bg/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Belogradchik_fortress_2009.jpg/1920px-Belogradchik_fortress_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Klearchos Kapoutsis","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":47196,"caption_zh_manual":"贝洛格拉奇克要塞","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13986,"size":{"detail":"760x506","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1278 652KB JPEG)"},{"title":"File:Nessebar, Old town 3.jpg","caption_zh":"内塞伯尔古城局部","caption":"内塞伯尔古城局部","caption_commons":"This is a photo of a monument in Burgas in Bulgaria identified by the ID","kw":"Nessebar Old Town Bulgaria","url":"assets/bg/L05.webp","thumb_url":"assets/bg/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/6/6b/Nessebar%2C_Old_town_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"Hristina Bumbarova","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":30788,"caption_zh_manual":"内塞伯尔古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7700,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 960x720 88KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:33:41+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：It-Bulgaria.ogg、Lb-Bulgarien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Bulgaria.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py BG","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"巴尔干半岛","evidence":"位于巴尔干半岛东北部上的国家"},{"v":"黑海","evidence":"东部滨临黑海"},{"v":"色雷斯人","evidence":"保加利亚古代居民为色雷斯人"},{"v":"多瑙河","evidence":"多瑙河以南、巴尔干山脉以北地区"}],"model":"deepseek-flash"},"summary_text_raw":"保加利亚共和国（保加利亚语：Република България，罗马化：Republika Balgariya，发音：[rɛˈpublikɐ bɐɫˈɡarijɐ]），通称保加利亚（保加利亚语：България，罗马化：Balgariya，发音：[bɐɫˈɡarijɐ] ），是一个位于巴尔干半岛东北部上的国家，系属东欧或东南欧。它与罗马尼亚、塞尔维亚、北马其顿、希腊和土耳其接壤，东部滨临黑海，近地中海。\n\n\n== 历史 ==\n\n现在的保加利亚北部相当于古代默西亚东部，而保加利亚南部相当于古代色雷斯北部。保加利亚古代居民为色雷斯人。公元1年前后此地成为罗马帝国的一部分，分属色雷斯省与默西亚省。随后拜占廷帝国将其继承。\n\n\n=== 第一帝国 ===\n斯拉夫入侵后不久，默西亚再次遭到入侵，这次是阿斯帕鲁克汗领导下的保加尔人。他们的部落是旧大保加利亚的残余，这是一个已灭绝的部落联盟，位于黑海以北，现在是乌克兰和俄罗斯南部。680年，阿斯帕鲁克汗击败拜占庭皇帝查士丁尼二世，与之立约，正式获得拜占廷之多瑙河以南、巴尔干山脉以北地区，建立保加利亚第一帝国。","history_text":"色雷斯人之后，此地并入罗马帝国，拜占庭继承其地。斯拉夫与保加尔人入侵，680年阿斯帕鲁克汗击败拜占庭皇帝，在多瑙河以南、巴尔干山脉以北建立第一帝国。西缅死后国势衰弱，1018年拜占庭征服第一帝国。1185年彼得四世与伊凡·阿森一世起义，建立第二帝国并获拜占庭承认独立。","custom_text":"火在民间传说里是驱邪除病的基本元素，对抗邪灵的仪式至今仍在实行。民间音乐是最广泛的传统艺术，融合远东、东方、中世纪东正教与西欧的音调模式，国家电视台女声合唱团曾以演唱民间歌曲闻名。里拉修道院由守护神里拉的圣约翰建立，其生平长期是文学的主题。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":134,"folk":120}},"knowledge_qa":[{"q":"保加利亚在哪儿啊？周围都是些什么国家？","a":"保加利亚位于巴尔干半岛东北部，属东欧或东南欧，与罗马尼亚、塞尔维亚、北马其顿、希腊和土耳其接壤，东部滨临黑海。","tags":["地理位置","巴尔干","邻国","黑海"]},{"q":"保加利亚的首都是哪个城市？","a":"首都就是索非亚。","tags":["首都","索非亚","城市"]},{"q":"保加利亚人平时说什么语言？","a":"官方语言是保加利亚语。","tags":["语言","保加利亚语","说什么话"]},{"q":"保加利亚有什么值得一看的地标或景点？","a":"值得看的有里拉修道院、亚历山大·涅夫斯基大教堂、普罗夫迪夫古罗马剧场、贝洛格拉奇克要塞和内塞伯尔古城。","tags":["地标","景点","修道院","古城"]},{"q":"保加利亚有什么有名的历史建筑？","a":"里拉修道院、亚历山大·涅夫斯基大教堂、普罗夫迪夫古罗马剧场、贝洛格拉奇克要塞和内塞伯尔古城都是有名的地方。","tags":["历史建筑","教堂","要塞","剧场"]},{"q":"保加利亚有什么传统或民俗活动吗？","a":"现有资料里没有提到具体的节日或传统习俗。","tags":["节日","传统","民俗"]},{"q":"去保加利亚有什么特色美食或吃的？","a":"现有资料里没有提到饮食或特产信息。","tags":["美食","吃什么","特产"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[2633,4171],[2605,4170],[2618,4143],[2588,4130],[2524,4124],[2489,4140],[2477,4135],[2451,4156],[2408,4154],[2404,4145],[2361,4137],[2292,4134],[2301,4174],[2284,4201],[2253,4213],[2234,4231],[2254,4248],[2242,4257],[2248,4273],[2243,4281],[2273,4289],[2298,4320],[2252,4347],[2235,4381],[2240,4399],[2259,4406],[2269,4423],[2303,4409],[2289,4400],[2289,4384],[2348,4388],[2540,4365],[2578,4373],[2615,4401],[2703,4418],[2738,4402],[2763,4403],[2772,4395],[2791,4399],[2798,4385],[2822,4376],[2858,4374],[2856,4345],[2847,4337],[2832,4343],[2812,4339],[2802,4323],[2790,4320],[2789,4271],[2773,4272],[2763,4263],[2765,4256],[2745,4248],[2772,4242],[2776,4226],[2802,4197],[2781,4200],[2755,4190],[2727,4209],[2705,4208],[2694,4200],[2659,4196],[2653,4182],[2633,4179],[2633,4171]]]}
+{
+  "qid": "Q219",
+  "iso_a2": "BG",
+  "iso_a3": "BGR",
+  "name_zh": "保加利亚",
+  "name_en": "Bulgaria",
+  "capital": "索非亚",
+  "continent": "欧洲",
+  "centroid": [
+    25.5,
+    42.75
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "bg",
+      "name_zh": "保加利亚语",
+      "name_local": "保加利亚语",
+      "role": "official",
+      "audio_url": "assets/bg/audio/bg.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Добре дошли в България, страна с дълга история и красива природа. Столицата ѝ е София, а един от най-известните символи на страната е величествената планина Витоша, която се издига над града.",
+      "tts_text_zh": "欢迎来到保加利亚，一个历史悠久、风光秀美的国度。它的首都是索非亚，而国家最著名的象征之一，便是巍然耸立于城市之上的维托沙山。",
+      "audio_voice": "bg-BG-KalinaNeural",
+      "audio_bytes": 82800
+    }
+  ],
+  "summary_text": "保加利亚共和国通称保加利亚，是一个位于巴尔干半岛东北部的国家，系属东欧或东南欧。它与罗马尼亚、塞尔维亚、北马其顿、希腊和土耳其接壤，东部滨临黑海，近地中海。现在的保加利亚北部相当于古代默西亚东部，南部相当于古代色雷斯北部，古代居民为色雷斯人。公元1年前后此地成为罗马帝国的一部分，分属色雷斯省与默西亚省，随后由拜占廷帝国继承。斯拉夫入侵后不久，默西亚再次遭到入侵，这次是阿斯帕鲁克汗领导下的保加尔人，其部落是旧大保加利亚的残余，该部落联盟位于黑海以北，即今乌克兰和俄罗斯南部。680年，阿斯帕鲁克汗击败拜占庭皇帝查士丁尼二世并与之立约，正式获得拜占廷多瑙河以南、巴尔干山脉以北地区，建立保加利亚第一帝国。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 302,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E4%BF%9D%E5%8A%A0%E5%88%A9%E4%BA%9A",
+    "title": "保加利亚"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "沙皇西缅死后，保加利亚因与马扎尔人和佩切涅格人的战争以及博格米勒异端的蔓延而衰弱。在连续的罗斯和拜占庭入侵之后，普雷斯拉夫于971年被拜占庭军队占领。帝国从萨缪尔的袭击中短暂恢复，但这在1014年拜占庭皇帝巴西尔二世在克柳赫击败保加利亚军队时结束。萨缪尔在战斗后不久就去世了，到1018年拜占庭人已经征服保加利亚第一帝国，征服后，巴西尔二世通过保留当地贵族的统治，将他们融入拜占庭的官僚和贵族，并免除他们的土地以黄金纳税的义务，允许以实物征税，从而阻止了叛乱。保加利亚宗主教区被降格为大主教，但保留了它的自治地位和它的教区。巴西尔死后，拜占庭的国内政策发生了变化，爆发了一系列不成功的叛乱，其中最大的叛乱由彼得·德利安领导。在曼齐克特对塞尔柱入侵者的军事失败后，帝国的权威下降了，十字军东征进一步扰乱了帝国的权威。这阻止了拜占庭的希腊化尝试，并为进一步的叛乱创造了肥沃的土壤。1185年，彼得四世（英语：Peter_II_of_Bulgaria）、伊凡·阿森一世两兄弟率领保加利亚人再次起义，建立了保加利亚第二帝国，并迫使拜占廷于1187年承认其独立。阿森王朝第三位君主卡洛扬将他的统治范围扩大到贝尔格莱德和奥赫里德。他承认教皇在精神上的至高无上，并从教皇特使那里获得了王冠。帝国在伊凡·阿森二世（1218-1241）统治下达到顶峰，当时其边界扩展到阿尔巴尼亚、塞尔维亚和伊庇鲁斯海岸，同时商业和文化蓬勃发展。阿森二世死后，国势日衰。1242年，蒙古帝国的将领拔都率领的西征蒙古军入侵了保加利亚。1258年，阿森王朝被推翻。1261年，拜占廷进攻保加利亚，夺取安其亚鲁斯港与迈塞姆布里亚港。1265年，拜占廷皇帝迈克尔八世夺取保加利亚巴尔干山脉以南领土。1277年，蒙古金帐汗国入侵保加利亚北部，间接导致伊瓦伊洛起义爆发，起义声势浩大，国王被杀，伊瓦伊洛被拥戴为王，1278年起义军占领首都第诺伐。1279年2月，拜占庭军队趁机攻占第诺伐。1280年起义失败，伊瓦伊洛逃亡后被蒙古人所杀。1330年，保加利亚沦为塞尔维亚的附属国，此后又分裂为几个小国。奥斯曼人在1340年代被拜占庭人雇佣为雇佣军，但后来他们自己成为了入侵者。1362年，苏丹穆拉德一世从拜占庭手中夺取了阿德里安堡；1382年索非亚陷落，1388年舒门陷落。奥斯曼帝国于1393年完成了对大部分保加利亚土地的征服，最后一个保加利亚人城市索佐波尔于1453年陷落。保加利亚贵族随后被消灭，农民被奴役，而许多受过教育的神职人员逃往其他国家。随着奥斯曼帝国的势力开始减弱，哈布斯堡王朝的奥地利和俄罗斯将保加利亚基督徒视为潜在的盟友。奥地利人首先支持了1598年在特尔诺沃的起义，然后是1686年的第二次起义，1688年的奇普罗夫齐起义，最后是1689年的卡尔波什起义。18世纪的西欧启蒙运动影响了保加利亚民族觉醒的开始。导致了1876年的四月起义。在奥斯曼当局镇压叛乱时，多达30,000名保加利亚人被杀。1877年，俄罗斯向奥斯曼人宣战，并在保加利亚叛军的帮助下击败了他们。透过《柏林条约》，保加利亚获得了自治的地位，成立半独立的保加利亚王国。1885年又推选出了自己的国王，实现了国家统一，在俄国等列强的支持下保加利亚大公国逐步摆脱奥斯曼统治并于1908年升格为王国，第一次巴尔干战争爆发后，保加利亚与塞尔维亚、黑山、希腊四国联手企图瓜分土耳其在欧洲部分的领土。保加利亚希望得到马其顿和爱琴海上的港口（尤其希望是萨洛尼卡），保军推进到伊斯坦布尔城下，但却落后希腊人一步进入萨洛尼卡。由于奥匈帝国与意大利王国不希望塞尔维亚与希腊壮大，联手阻止，搞出了一个独立的阿尔巴尼亚。这使得保加利亚无法与塞尔维亚、希腊履行战前的分配协议，带来了第二次巴尔干战争，这次塞尔维亚、希腊倒戈一击，再加上土耳其和罗马尼亚。结果保加利亚不仅失去了不少战利品，还把南多布罗加割给了罗马尼亚。在第一次世界大战中爆发初期，保加利亚就意识到了这是一个报复的好机会，它在1915年加入同盟国集团，迅速和德奥联军一起占领了塞尔维亚，后来又进军罗马尼亚。在德军基本撤出巴尔干防线的情况下，保军成了主力，并且在战争的大部分时间里稳定了这条战线。直到1918年停战。战败的保加利亚，失去了在爱琴海的海岸线，军队也被解散。保加利亚在遭受受战争赔款重压下开始动荡。在国王鲍里斯三世的绝对君主制和威权统治下经历了一个逐步独裁化、政权法西斯化的过程。1923年一群军官在鲍里斯的支持下暗杀了首相，1925年索非亚大教堂发生炸弹爆炸案；此后，政府发动白色恐怖，这突显该国议会政治仅为表象，执政党在政治中占据绝对主导地位，政府依靠残酷镇压实现稳定，且持续到大萧条年代。第二次世界大战初期，纳粹德国和意大利王国的维也纳仲裁让保加利亚王国夺回了南多布罗加（1940年9月7日《克拉约瓦条约》）。由于意大利军队在希腊的失败，加上南斯拉夫亲英国，促使德国决定干涉巴尔干半岛，计划占领南斯拉夫及希腊并必须通过保加利亚。1941年3月1日亲德的首相博格丹·菲洛夫在维也纳代表保加利亚签署了《三国同盟条约》，正式加入了轴心国。在南斯拉夫战役中，保军担任德军的侧翼掩护任务，并在战后分得了南斯拉夫马其顿的大部，在希腊战役，保加利亚占领了希腊西色雷斯，但萨洛尼卡却由德国托管。苏德战争爆发后，保加利亚国王借口",
+      "chars": 2200
+    },
+    {
+      "section": "文化",
+      "text": "保加利亚民间传说的一个基本元素是火，用来驱除邪灵和疾病，一些对抗邪灵的仪式幸存下来，并且仍在实行皮林国家公园、斯雷伯纳自然保护区、马达拉骑士、斯韦什塔里和卡赞勒克的色雷斯墓葬、里拉修道院、博亚纳教堂、伊万诺沃岩石教堂和古城内塞伯尔被联合国教科文组织列为世界遗产。里拉修道院由保加利亚的守护神里拉的圣约翰建立，自中世纪以来，他的生活一直是众多文学作品的主题。\n10世纪普雷斯拉夫和奥赫里德文学学校的建立与中世纪保加利亚文学的黄金时期有关。学校对基督教经文的重视使保加利亚帝国成为斯拉夫文化的中心，使斯拉夫人受到基督教的影响，并为他们提供了书面语言。它的字母，西里尔字母，是由普雷斯拉夫文学学校开发的。许多文学和艺术杰作被奥斯曼征服者摧毁，艺术活动直到19世纪的民族复兴时期才重新出现。宗教视觉艺术遗产包括壁画、壁画和图标，其中许多是由中世纪的塔尔诺沃艺术学校制作的。民间音乐是迄今为止最广泛的传统艺术，并随着远东、东方、中世纪东正教和标准西欧音调和模式的融合而缓慢发展。国家电视台女声合唱团在1990年因其演奏保加利亚民间音乐而获得格莱美奖。\n保加利亚菜与其他巴尔干国家的菜相似，并表现出强烈的土耳其和希腊影响。考虑到对多种沙拉的文化偏好，肉类消费量低于欧洲平均水平。直到1989年，保加利亚一直是世界第二大葡萄酒出口国，但此后失去了这一地位。2016年生产了1.28亿升葡萄酒，其中6200万升主要出口到罗马尼亚、波兰和俄罗斯。",
+      "chars": 1200
+    },
+    {
+      "section": "现代历史",
+      "text": "二战后，保加利亚留住了重新夺回的多布罗加南部，并被划入苏联的势力圈。1946年废除君主制，成立保加利亚人民共和国，格奥尔基·季米特洛夫成为保加利亚人民共和国首任领导人。在乔治·季米特洛夫的领导下，保加利亚成为了一个压制性的、迅速工业化的斯大林主义国家。保加利亚于1955年成为华沙条约组织的一个成员，在托多尔·日夫科夫的领导下，苏联式的计划经济出现了一些试验性的市场导向政策。与战时水平相比，到1980年代，国家GDP增长了五倍，人均GDP增长了四倍。\n在1989年民主运动的影响下，共产党政府于1989年11月10日垮台，国名从保加利亚人民共和国改为保加利亚共和国，开始向议会民主制过渡。1990年6月举行第一次自由选举，1991年7月通过了一部新宪法，规定相对弱势的民选总统和总理对立法机关负责。保加利亚于2004年3月29日年成为北约成员国，于2007年1月1日成为欧洲联盟的一员。",
+      "chars": 800
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Rila Monastery, August 2013.jpg",
+      "caption_zh": "里拉修道院",
+      "caption": "里拉修道院",
+      "caption_commons": "Looking south.",
+      "kw": "Rila Monastery Bulgaria",
+      "url": "assets/bg/L01.webp",
+      "thumb_url": "assets/bg/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Rila_Monastery%2C_August_2013.jpg/1920px-Rila_Monastery%2C_August_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Raggatt2000",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 148340,
+      "caption_zh_manual": "里拉修道院",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10230,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 751KB JPEG)"
+    },
+    {
+      "title": "File:AlexanderNevskyCathedral-Sofia-6.jpg",
+      "caption_zh": "亚历山大·涅夫斯基大教堂",
+      "caption": "亚历山大·涅夫斯基大教堂",
+      "caption_commons": "Alexander Nevsky Cathedral in Sofia, Bulgaria. Its foundation stone was laid on ",
+      "kw": "Alexander Nevsky Cathedral Sofia",
+      "url": "assets/bg/L02.webp",
+      "thumb_url": "assets/bg/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/AlexanderNevskyCathedral-Sofia-6.jpg/1920px-AlexanderNevskyCathedral-Sofia-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Plamen Agov (user:MrPanyGoff)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 80712,
+      "caption_zh_manual": "亚历山大·涅夫斯基大教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6102,
+      "size": {
+        "detail": "1080x686",
+        "thumb": "240x152"
+      },
+      "encoding": "webp q75/q78 (源 1920x1219 555KB JPEG)"
+    },
+    {
+      "title": "File:Ancient theatre plovdiv-3.jpg",
+      "caption_zh": "普罗夫迪夫古罗马剧场",
+      "caption": "普罗夫迪夫古罗马剧场",
+      "caption_commons": "The skênê of the ancient theatre of Plilippopolis",
+      "kw": "Plovdiv Roman Theatre",
+      "url": "assets/bg/L03.webp",
+      "thumb_url": "assets/bg/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Ancient_theatre_plovdiv-3.jpg/1920px-Ancient_theatre_plovdiv-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Kyle Taylor",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 78334,
+      "caption_zh_manual": "普罗夫迪夫古罗马剧场",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6814,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 493KB JPEG)"
+    },
+    {
+      "title": "File:Belogradchik fortress 2009.jpg",
+      "caption_zh": "贝洛格拉奇克要塞",
+      "caption": "贝洛格拉奇克要塞",
+      "caption_commons": "Photo taken from inside the Belogradchik Fortress, North-West Bulgaria.",
+      "kw": "Belogradchik Fortress Bulgaria",
+      "url": "assets/bg/L04.webp",
+      "thumb_url": "assets/bg/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Belogradchik_fortress_2009.jpg/1920px-Belogradchik_fortress_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Klearchos Kapoutsis",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 100112,
+      "caption_zh_manual": "贝洛格拉奇克要塞",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6378,
+      "size": {
+        "detail": "1080x719",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1278 652KB JPEG)"
+    },
+    {
+      "title": "File:Nessebar, Old town 3.jpg",
+      "caption_zh": "内塞伯尔古城局部",
+      "caption": "内塞伯尔古城局部",
+      "caption_commons": "This is a photo of a monument in Burgas in Bulgaria identified by the ID",
+      "kw": "Nessebar Old Town Bulgaria",
+      "url": "assets/bg/L05.webp",
+      "thumb_url": "assets/bg/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Nessebar%2C_Old_town_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Hristina Bumbarova",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 64272,
+      "caption_zh_manual": "内塞伯尔古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3800,
+      "size": {
+        "detail": "960x720",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 960x720 88KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:33:41+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：It-Bulgaria.ogg、Lb-Bulgarien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Bulgaria.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py BG",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "巴尔干半岛",
+        "evidence": "位于巴尔干半岛东北部上的国家"
+      },
+      {
+        "v": "黑海",
+        "evidence": "东部滨临黑海"
+      },
+      {
+        "v": "色雷斯人",
+        "evidence": "保加利亚古代居民为色雷斯人"
+      },
+      {
+        "v": "多瑙河",
+        "evidence": "多瑙河以南、巴尔干山脉以北地区"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "保加利亚共和国（保加利亚语：Република България，罗马化：Republika Balgariya，发音：[rɛˈpublikɐ bɐɫˈɡarijɐ]），通称保加利亚（保加利亚语：България，罗马化：Balgariya，发音：[bɐɫˈɡarijɐ] ），是一个位于巴尔干半岛东北部上的国家，系属东欧或东南欧。它与罗马尼亚、塞尔维亚、北马其顿、希腊和土耳其接壤，东部滨临黑海，近地中海。\n\n\n== 历史 ==\n\n现在的保加利亚北部相当于古代默西亚东部，而保加利亚南部相当于古代色雷斯北部。保加利亚古代居民为色雷斯人。公元1年前后此地成为罗马帝国的一部分，分属色雷斯省与默西亚省。随后拜占廷帝国将其继承。\n\n\n=== 第一帝国 ===\n斯拉夫入侵后不久，默西亚再次遭到入侵，这次是阿斯帕鲁克汗领导下的保加尔人。他们的部落是旧大保加利亚的残余，这是一个已灭绝的部落联盟，位于黑海以北，现在是乌克兰和俄罗斯南部。680年，阿斯帕鲁克汗击败拜占庭皇帝查士丁尼二世，与之立约，正式获得拜占廷之多瑙河以南、巴尔干山脉以北地区，建立保加利亚第一帝国。",
+  "history_text": "色雷斯人之后，此地并入罗马帝国，拜占庭继承其地。斯拉夫与保加尔人入侵，680年阿斯帕鲁克汗击败拜占庭皇帝，在多瑙河以南、巴尔干山脉以北建立第一帝国。西缅死后国势衰弱，1018年拜占庭征服第一帝国。1185年彼得四世与伊凡·阿森一世起义，建立第二帝国并获拜占庭承认独立。",
+  "custom_text": "火在民间传说里是驱邪除病的基本元素，对抗邪灵的仪式至今仍在实行。民间音乐是最广泛的传统艺术，融合远东、东方、中世纪东正教与西欧的音调模式，国家电视台女声合唱团曾以演唱民间歌曲闻名。里拉修道院由守护神里拉的圣约翰建立，其生平长期是文学的主题。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 134,
+      "folk": 120
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "保加利亚在哪儿啊？周围都是些什么国家？",
+      "a": "保加利亚位于巴尔干半岛东北部，属东欧或东南欧，与罗马尼亚、塞尔维亚、北马其顿、希腊和土耳其接壤，东部滨临黑海。",
+      "tags": [
+        "地理位置",
+        "巴尔干",
+        "邻国",
+        "黑海"
+      ]
+    },
+    {
+      "q": "保加利亚的首都是哪个城市？",
+      "a": "首都就是索非亚。",
+      "tags": [
+        "首都",
+        "索非亚",
+        "城市"
+      ]
+    },
+    {
+      "q": "保加利亚人平时说什么语言？",
+      "a": "官方语言是保加利亚语。",
+      "tags": [
+        "语言",
+        "保加利亚语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "保加利亚有什么值得一看的地标或景点？",
+      "a": "值得看的有里拉修道院、亚历山大·涅夫斯基大教堂、普罗夫迪夫古罗马剧场、贝洛格拉奇克要塞和内塞伯尔古城。",
+      "tags": [
+        "地标",
+        "景点",
+        "修道院",
+        "古城"
+      ]
+    },
+    {
+      "q": "保加利亚有什么有名的历史建筑？",
+      "a": "里拉修道院、亚历山大·涅夫斯基大教堂、普罗夫迪夫古罗马剧场、贝洛格拉奇克要塞和内塞伯尔古城都是有名的地方。",
+      "tags": [
+        "历史建筑",
+        "教堂",
+        "要塞",
+        "剧场"
+      ]
+    },
+    {
+      "q": "保加利亚有什么传统或民俗活动吗？",
+      "a": "现有资料里没有提到具体的节日或传统习俗。",
+      "tags": [
+        "节日",
+        "传统",
+        "民俗"
+      ]
+    },
+    {
+      "q": "去保加利亚有什么特色美食或吃的？",
+      "a": "现有资料里没有提到饮食或特产信息。",
+      "tags": [
+        "美食",
+        "吃什么",
+        "特产"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        2633,
+        4171
+      ],
+      [
+        2605,
+        4170
+      ],
+      [
+        2618,
+        4143
+      ],
+      [
+        2588,
+        4130
+      ],
+      [
+        2524,
+        4124
+      ],
+      [
+        2489,
+        4140
+      ],
+      [
+        2477,
+        4135
+      ],
+      [
+        2451,
+        4156
+      ],
+      [
+        2408,
+        4154
+      ],
+      [
+        2404,
+        4145
+      ],
+      [
+        2361,
+        4137
+      ],
+      [
+        2292,
+        4134
+      ],
+      [
+        2301,
+        4174
+      ],
+      [
+        2284,
+        4201
+      ],
+      [
+        2253,
+        4213
+      ],
+      [
+        2234,
+        4231
+      ],
+      [
+        2254,
+        4248
+      ],
+      [
+        2242,
+        4257
+      ],
+      [
+        2248,
+        4273
+      ],
+      [
+        2243,
+        4281
+      ],
+      [
+        2273,
+        4289
+      ],
+      [
+        2298,
+        4320
+      ],
+      [
+        2252,
+        4347
+      ],
+      [
+        2235,
+        4381
+      ],
+      [
+        2240,
+        4399
+      ],
+      [
+        2259,
+        4406
+      ],
+      [
+        2269,
+        4423
+      ],
+      [
+        2303,
+        4409
+      ],
+      [
+        2289,
+        4400
+      ],
+      [
+        2289,
+        4384
+      ],
+      [
+        2348,
+        4388
+      ],
+      [
+        2540,
+        4365
+      ],
+      [
+        2578,
+        4373
+      ],
+      [
+        2615,
+        4401
+      ],
+      [
+        2703,
+        4418
+      ],
+      [
+        2738,
+        4402
+      ],
+      [
+        2763,
+        4403
+      ],
+      [
+        2772,
+        4395
+      ],
+      [
+        2791,
+        4399
+      ],
+      [
+        2798,
+        4385
+      ],
+      [
+        2822,
+        4376
+      ],
+      [
+        2858,
+        4374
+      ],
+      [
+        2856,
+        4345
+      ],
+      [
+        2847,
+        4337
+      ],
+      [
+        2832,
+        4343
+      ],
+      [
+        2812,
+        4339
+      ],
+      [
+        2802,
+        4323
+      ],
+      [
+        2790,
+        4320
+      ],
+      [
+        2789,
+        4271
+      ],
+      [
+        2773,
+        4272
+      ],
+      [
+        2763,
+        4263
+      ],
+      [
+        2765,
+        4256
+      ],
+      [
+        2745,
+        4248
+      ],
+      [
+        2772,
+        4242
+      ],
+      [
+        2776,
+        4226
+      ],
+      [
+        2802,
+        4197
+      ],
+      [
+        2781,
+        4200
+      ],
+      [
+        2755,
+        4190
+      ],
+      [
+        2727,
+        4209
+      ],
+      [
+        2705,
+        4208
+      ],
+      [
+        2694,
+        4200
+      ],
+      [
+        2659,
+        4196
+      ],
+      [
+        2653,
+        4182
+      ],
+      [
+        2633,
+        4179
+      ],
+      [
+        2633,
+        4171
+      ]
+    ]
+  ]
+}

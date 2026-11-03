@@ -1,1 +1,1714 @@
-{"qid":"Q142","iso_a2":"FR","iso_a3":"FRA","name_zh":"法国","name_en":"France","capital":"巴黎","continent":"欧洲","centroid":[2,47],"centroid_source":"wikidata P625","languages":[{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/fr/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bonjour, bienvenue en France. Sa capitale est Paris, et la tour Eiffel se dresse au bord de la Seine.","tts_text_zh":"你好，欢迎来到法国。首都是巴黎，埃菲尔铁塔矗立在塞纳河畔。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":44496}],"summary_text":"法国位于西欧，西面比斯开湾，北隔英吉利海峡与英国相望，东邻德国、比利时与意大利，西南接西班牙，领土总面积达64.3万平方公里，是欧盟国土最辽阔的国家。全国人口约6800万，是欧盟人口第二多的国家。法国本土皆为海洋性气候，海外领土则气候多样，在全球各洋均拥有大量岛屿。法国共分为18个大区，其中5个位于海外，首都为巴黎。法国大革命确立共和传统，7月14日国庆即攻占巴士底狱的纪念日。天主教传统深厚，但1905年政教分离后，世俗性成为国家原则。饮食以面包、奶酪、葡萄酒为骨架，AOP原产地制度保护了数百种奶酪与葡萄酒产区，风土被视为文化核心概念。布列塔尼、阿尔萨斯、科西嘉等地保留独立语言与节庆，如布列塔尼的Fest-Noz夜间舞会。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":292},"landmark_images":[{"title":"File:Tour Eiffel Wikimedia Commons.jpg","caption_zh":"埃菲尔铁塔","caption":"埃菲尔铁塔","url":"assets/fr/L01.webp","thumb_url":"assets/fr/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1920px-Tour_Eiffel_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18:埃菲尔铁塔","author":"Benh LIEU SONG","license":"Public domain","license_url":null,"license_status":"ok","load_verified":false,"bytes":91582,"picked_from":"commons_search","origin_size":"1400x2591","thumb_bytes":4614,"size":{"detail":"760x1406","thumb":"162x300"},"encoding":"webp q72/q74 (源 1920x3553 1415KB JPEG)","caption_zh_manual":"埃菲尔铁塔","caption_zh_source":"llm_from_commons_filename"},{"title":"File:Courtyard @ Louvre @ Paris (28897294980).jpg","caption_zh":"卢浮宫玻璃金字塔庭院","caption":"卢浮宫玻璃金字塔庭院","url":"assets/fr/L02.webp","thumb_url":"assets/fr/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Courtyard_%40_Louvre_%40_Paris_%2828897294980%29.jpg/1920px-Courtyard_%40_Louvre_%40_Paris_%2828897294980%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","author":"Guilhem Vellut from Paris, France","license":"CC BY 2.0","license_url":null,"license_status":"ok","load_verified":false,"bytes":36746,"picked_from":"commons_search","origin_size":"1400x933","thumb_bytes":10278,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 540KB JPEG)","caption_zh_manual":"卢浮宫玻璃金字塔","caption_zh_source":"llm_from_commons_filename"},{"title":"File:Mont-Saint-Michel_vu_du_ciel.jpg","caption_zh":"空中俯瞰圣米歇尔山","caption":"空中俯瞰圣米歇尔山","url":"assets/fr/L03.webp","thumb_url":"assets/fr/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Mont-Saint-Michel_vu_du_ciel.jpg/1920px-Mont-Saint-Michel_vu_du_ciel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikipedia_lead","author":"Amaustan","license":"CC BY-SA 4.0","license_url":null,"license_status":"ok","load_verified":false,"bytes":24152,"picked_from":"wikipedia_lead","origin_size":"1400x788","thumb_bytes":8054,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 373KB JPEG)","caption_zh_manual":"圣米歇尔山","caption_zh_source":"llm_from_commons_filename"},{"title":"File:Ceiling of Hall of Mirrors (Palace of Versailles).jpg","caption_zh":"凡尔赛宫镜厅穹顶","caption":"凡尔赛宫镜厅穹顶","url":"assets/fr/L04.webp","thumb_url":"assets/fr/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Ceiling_of_Hall_of_Mirrors_%28Palace_of_Versailles%29.jpg/1920px-Ceiling_of_Hall_of_Mirrors_%28Palace_of_Versailles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","author":"Livioandronico2013","license":"CC BY-SA 4.0","license_url":null,"license_status":"ok","load_verified":false,"bytes":138496,"picked_from":"commons_search","origin_size":"1400x1542","thumb_bytes":19740,"size":{"detail":"760x837","thumb":"272x300"},"encoding":"webp q72/q74 (源 1920x2114 1406KB JPEG)","caption_zh_manual":"凡尔赛宫镜厅（穹顶）","caption_zh_source":"llm_from_commons_filename"},{"title":"File:Notre-Dame de Paris 2013-07-24.jpg","caption_zh":"巴黎圣母院","caption":"巴黎圣母院","caption_commons":"Cathedral Notre Dame de Paris, West view, Paris, France","kw":"Notre-Dame de Paris cathedral","url":"assets/fr/L05.webp","thumb_url":"assets/fr/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/1920px-Notre-Dame_de_Paris_2013-07-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"P e z i","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":128506,"thumb_bytes":13148,"size":{"detail":"760x1026","thumb":"222x300"},"encoding":"webp q72/q74 (源 1920x2592 1416KB JPEG)"}],"image_license":"Public domain","schema_version":"0.1","collected_at":"2026-10-25T23:16:59+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_short":["摘要 292/300 字","镜厅缺主视角图"],"review_notes":["P443 发音语种不符已弃用：Hu-francia.ogg、Th-france.ogg、Jer-France.ogg（P443 不保证语种，须按文件名筛）","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","边界已采集（Natural Earth 50m，817 顶点）","凡尔赛宫镜厅用的是穹顶壁画照（候选池里只有油画与穹顶，缺镜面长廊主视角），后续可用 Galerie des Glaces 再取","摘要 292 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节（prop=extracts&section）","地标图改为人工指定清单（5 张，中文图注）"],"name_official":"法國","geometry":"geo/fr.geojson","geometry_status":"naturalearth_10m_merged","geometry_name":"法国","geometry_stats":{"rings":21,"vertices":2035,"polygons":20,"merged":[],"bytes":39517},"audio_url":"assets/fr/audio/fr.mp3","audio_source":"edge","audio_meta":{"engine":"edge","voice":"fr-FR-DeniseNeural","text":"Bonjour, bienvenue en France. Sa capitale est Paris, et la tour Eiffel se dresse au bord de la Seine.","per_language":[{"code":"fr","url":"assets/fr/audio/fr.mp3","bytes":44496}],"note":"顶层音频为官方语言；区域语言见 languages[].audio_url"},"custom_text":"面包、奶酪与葡萄酒是餐桌的三大骨架。法棍按法律规定只能有面粉、水、盐和酵母，当天买当天吃；奶酪有数百个产区，AOP 原产地制度把土壤、气候与做法一并纳入保护，「风土」（terroir）由此成为理解法国饮食的核心词。七月十四日国庆纪念攻占巴士底狱，当天各地有消防员舞会与街头阅兵。1905年政教分离后，「世俗性」（laïcité）成为国家原则，公共场所不设宗教标识。夏至的音乐节让业余乐手占领街头，八月的假期则几乎让整座城市停摆，人们回到乡下的老屋或海边。布列塔尼保留着 Fest-Noz 夜间圆圈舞，阿尔萨斯与科西嘉各有自己的语言与节庆。","sources":[{"field":["qid","iso_a2","iso_a3","capital","continent","languages"],"source":"wikidata","ref":"Special:EntityData/Q142"},{"field":["centroid"],"source":"wikidata","ref":"P625"},{"field":["summary_text"],"source":"wikipedia_rest","ref":"zh.wikipedia extracts, variant=zh-cn"},{"field":["landmark_images"],"source":"commons","ref":"P18 -> imageinfo + extmetadata"},{"field":["audio_url"],"source":"tts","ref":"edge-tts fr-FR-DeniseNeural"},{"field":["geometry"],"source":"naturalearth","ref":"ne_50m_admin_0_countries, 817 顶点"},{"field":["custom_text"],"source":"manual","ref":"人工撰写，待接 LLM 摘编"}],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 4 张已被替换","custom_facets":{"festivals":[{"v":"7月14日国庆","evidence":"7 月 14 日国庆即攻占巴士底狱的纪念日"},{"v":"Fest-Noz夜间舞会","evidence":"布列塔尼的 Fest-Noz 夜间舞会"}],"cuisine":[{"v":"面包","evidence":"饮食以面包、奶酪、葡萄酒为骨架"},{"v":"奶酪","evidence":"饮食以面包、奶酪、葡萄酒为骨架"},{"v":"葡萄酒","evidence":"饮食以面包、奶酪、葡萄酒为骨架"},{"v":"AOP原产地制度","evidence":"AOP 原产地制度保护了数百种奶酪与葡萄酒产区"},{"v":"风土","evidence":"「风土」（terroir）被视为文化核心概念"}],"religion":[{"v":"天主教","evidence":"天主教传统深厚"},{"v":"政教分离","evidence":"1905 年政教分离后"},{"v":"世俗性","evidence":"「世俗性」（laïcité）成为国家原则"}],"architecture":[],"heritage":[],"keywords":[{"v":"面包与葡萄酒","evidence":"饮食以面包、奶酪、葡萄酒为骨架"},{"v":"风土","evidence":"「风土」（terroir）被视为文化核心概念"},{"v":"Fest-Noz夜间舞会","evidence":"布列塔尼的 Fest-Noz 夜间舞会"},{"v":"布列塔尼独立语言","evidence":"布列塔尼、阿尔萨斯、科西嘉等地保留独立语言"},{"v":"比斯开湾","evidence":"西面比斯开湾"},{"v":"共和传统","evidence":"法国大革命确立共和传统"},{"v":"政教分离","evidence":"1905 年政教分离后"}],"model":"deepseek-flash"},"summary_text_raw":"法兰西共和国（法语：République française，发音：[ʁepyblik fʁɑ̃sɛːz] ），通称法国（France [fʁɑ̃s] ），西欧双首长制共和国，东邻德国、比利时与意大利，西面比斯开湾，西南接西班牙，北隔英吉利海峡与英国相望。法国共分为18个大区，其中5个位于海外，领土总面积达64.3万平方公里，是欧盟国土最辽阔的国家。人口为6789万人，首都巴黎。法国本土皆为海洋性气候，海外领土则气候多样，在全球各洋均拥有大量岛屿。\n法国人的先祖高卢人自铁器时代迁至今日法国定居，后来罗马共和国于前51年并吞了该地区，形成独特的高卢－罗马文化。法兰克人于5世纪在此建立了法兰克王国，并逐步扩张至全西欧。987年，于格·卡佩即位为王，被后世视为法兰西王国的开端。该王国成立之初是个强大但分权的封建王国，直到12世纪末期法王腓力二世开始集中王权，并在布汶之战战胜神圣罗马帝国与安茹帝国联军，逐渐成为全欧最强大的国家。14至15世纪，法国与英格兰王国爆发百年战争，法国赢得胜利后封建制度开始瓦解，其文化与艺术因法国文艺复兴迅速发展，并在大航海时代建立殖民帝国。","llm_audit":{"issues":[],"overall":"pass"},"knowledge_qa":[{"q":"法国在哪儿啊？周围都是些什么地方？","a":"法国位于西欧，西面比斯开湾，北隔英吉利海峡与英国相望，东邻德国、比利时与意大利，西南接西班牙。","tags":["法国位置","欧洲","邻国","比斯开湾"]},{"q":"法国面积有多大？首都是哪里？","a":"领土总面积达64.3万平方公里，是欧盟国土最辽阔的国家，首都为巴黎。","tags":["法国面积","首都","巴黎","欧盟"]},{"q":"法国人说什么语言？有方言吗？","a":"官方语言是法语。布列塔尼、阿尔萨斯、科西嘉等地还保留独立语言与节庆。","tags":["法语","方言","布列塔尼","科西嘉"]},{"q":"法国有什么重要的节日？","a":"7月14日国庆，是攻占巴士底狱的纪念日，法国大革命确立了共和传统。","tags":["国庆","节日","7月14日","巴士底狱"]},{"q":"法国有什么传统习俗或文化特色？","a":"天主教传统深厚，1905年政教分离后世俗性成为国家原则。布列塔尼有Fest-Noz夜间舞会等节庆。","tags":["习俗","世俗性","Fest-Noz","布列塔尼"]},{"q":"法国人平时吃什么？有什么饮食制度？","a":"饮食以面包、奶酪、葡萄酒为骨架，AOP原产地制度保护了数百种奶酪与葡萄酒产区，风土被视为文化核心概念。","tags":["吃什么","奶酪","葡萄酒","AOP","风土"]},{"q":"法国有什么值得看的建筑或景观？","a":"有埃菲尔铁塔、卢浮宫玻璃金字塔庭院、空中俯瞰圣米歇尔山、凡尔赛宫镜厅穹顶等。","tags":["地标","埃菲尔铁塔","卢浮宫","圣米歇尔山","凡尔赛宫"]}],"custom_text_source":{"source":"human","note":"人工撰写：历史脉络 + 民俗日常","split_from_merged":true},"history_text":"公元前1世纪高卢被罗马征服，拉丁语与基督教由此进入这片土地。481年法兰克王国建立，987年卡佩王朝接续，中世纪的法兰西在封建采邑与教会之间逐步凝聚为王国。1789年法国大革命推翻君主专制，《人权宣言》确立自由与平等的原则，此后共和国与帝国反复更替，直到1958年第五共和国成立，政体才稳定下来。启蒙运动时期的思想家把理性与批判推向欧洲，巴黎在19世纪成为艺术与文学的中心，印象派、存在主义、新浪潮电影先后从这里出发。两次世界大战中法国本土被占领与重建，战后与德国共同推动欧洲一体化。","outline":[[[252,5109],[261,5096],[259,5084],[279,5072],[313,5078],[327,5053],[361,5048],[370,5030],[400,5034],[420,5026],[413,5013],[421,5006],[413,4998],[465,4998],[482,5016],[487,5014],[478,4996],[486,4991],[485,4979],[526,4969],[546,4950],[575,4955],[596,4944],[640,4946],[671,4916],[692,4921],[704,4911],[727,4910],[741,4917],[764,4904],[820,4896],[781,4862],[775,4834],[759,4813],[762,4797],[751,4771],[759,4758],[738,4743],[697,4749],[687,4735],[704,4733],[666,4702],[644,4694],[643,4676],[612,4658],[605,4642],[614,4637],[609,4625],[596,4620],[596,4613],[614,4615],[628,4624],[621,4632],[627,4638],[648,4645],[679,4641],[677,4614],[702,4592],[680,4583],[680,4572],[716,4541],[706,4521],[660,4510],[674,4491],[700,4483],[706,4468],[696,4468],[684,4453],[692,4444],[687,4437],[698,4424],[733,4412],[766,4418],[769,4407],[748,4387],[748,4376],[715,4366],[714,4355],[696,4354],[689,4343],[673,4341],[659,4327],[669,4327],[668,4320],[638,4309],[619,4311],[618,4304],[594,4313],[588,4312],[594,4307],[582,4305],[567,4318],[535,4322],[529,4336],[503,4334],[503,4341],[523,4348],[503,4356],[505,4343],[487,4342],[486,4334],[470,4358],[482,4335],[395,4354],[311,4311],[304,4294],[305,4259],[318,4243],[293,4247],[266,4234],[228,4243],[200,4235],[171,4249],[172,4261],[143,4260],[134,4271],[81,4283],[66,4284],[64,4268],[-4,4268],[-32,4284],[-57,4277],[-76,4295],[-115,4301],[-129,4311],[-146,4304],[-140,4324],[-163,4325],[-180,4337],[-166,4340],[-148,4358],[-126,4456],[-119,4466],[-104,4467],[-117,4478],[-126,4463],[-110,4555],[-77,4533],[-54,4490],[-60,4502],[-49,4500],[-66,4510],[-80,4548],[-125,4571],[-116,4581],[-99,4572],[-115,4587],[-105,4604],[-121,4618],[-111,4630],[-124,4628],[-180,4650],[-191,4669],[-212,4682],[-199,4704],[-224,4714],[-215,4728],[-173,4721],[-201,4732],[-228,4725],[-254,4730],[-244,4731],[-256,4738],[-239,4742],[-250,4749],[-236,4751],[-291,4756],[-274,4755],[-271,4764],[-292,4760],[-298,4766],[-294,4756],[-312,4760],[-313,4748],[-320,4764],[-312,4773],[-319,4775],[-322,4766],[-336,4770],[-328,4769],[-336,4771],[-328,4779],[-345,4770],[-413,4792],[-418,4781],[-437,4781],[-443,4798],[-473,4804],[-428,4812],[-438,4823],[-456,4818],[-463,4829],[-455,4835],[-419,4831],[-445,4834],[-429,4843],[-477,4834],[-476,4852],[-456,4863],[-397,4873],[-385,4863],[-381,4873],[-358,4868],[-352,4884],[-321,4887],[-322,4879],[-310,4888],[-312,4876],[-302,4883],[-268,4851],[-232,4870],[-233,4863],[-221,4858],[-205,4865],[-198,4851],[-203,4864],[-195,4870],[-184,4871],[-180,4862],[-136,4864],[-155,4875],[-160,4885],[-151,4903],[-159,4903],[-161,4922],[-155,4922],[-182,4938],[-188,4953],[-184,4962],[-194,4972],[-161,4965],[-126,4970],[-123,4962],[-131,4956],[-112,4934],[-94,4939],[-22,4928],[41,4945],[49,4949],[26,4946],[8,4954],[24,4973],[122,4998],[152,5022],[167,5019],[154,5028],[161,5037],[156,5040],[158,5087],[252,5109]],[[-5411,211],[-5462,233],[-5438,248],[-5417,285],[-5421,313],[-5400,346],[-5400,362],[-5424,388],[-5441,419],[-5449,490],[-5431,523],[-5408,541],[-5393,574],[-5290,541],[-5239,490],[-5226,491],[-5234,472],[-5223,488],[-5202,469],[-5195,445],[-5205,433],[-5194,439],[-5191,466],[-5180,461],[-5165,415],[-5236,315],[-5241,290],[-5269,237],[-5298,217],[-5327,220],[-5323,225],[-5334,235],[-5353,225],[-5376,237],[-5411,211]],[[857,4221],[869,4227],[855,4238],[866,4243],[871,4258],[912,4273],[929,4268],[935,4300],[946,4299],[944,4264],[953,4256],[956,4215],[940,4195],[940,4171],[929,4163],[935,4158],[922,4137],[879,4156],[892,4170],[865,4175],[880,4191],[861,4190],[859,4197],[874,4206],[857,4221]],[[5579,-2110],[5586,-2116],[5581,-2134],[5558,-2137],[5535,-2127],[5522,-2103],[5529,-2091],[5558,-2088],[5579,-2110]]]}
+{
+  "qid": "Q142",
+  "iso_a2": "FR",
+  "iso_a3": "FRA",
+  "name_zh": "法国",
+  "name_en": "France",
+  "capital": "巴黎",
+  "continent": "欧洲",
+  "centroid": [
+    2,
+    47
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/fr/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bonjour, bienvenue en France. Sa capitale est Paris, et la tour Eiffel se dresse au bord de la Seine.",
+      "tts_text_zh": "你好，欢迎来到法国。首都是巴黎，埃菲尔铁塔矗立在塞纳河畔。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 44496
+    }
+  ],
+  "summary_text": "法国位于西欧，西面比斯开湾，北隔英吉利海峡与英国相望，东邻德国、比利时与意大利，西南接西班牙，领土总面积达64.3万平方公里，是欧盟国土最辽阔的国家。全国人口约6800万，是欧盟人口第二多的国家。法国本土皆为海洋性气候，海外领土则气候多样，在全球各洋均拥有大量岛屿。法国共分为18个大区，其中5个位于海外，首都为巴黎。法国大革命确立共和传统，7月14日国庆即攻占巴士底狱的纪念日。天主教传统深厚，但1905年政教分离后，世俗性成为国家原则。饮食以面包、奶酪、葡萄酒为骨架，AOP原产地制度保护了数百种奶酪与葡萄酒产区，风土被视为文化核心概念。布列塔尼、阿尔萨斯、科西嘉等地保留独立语言与节庆，如布列塔尼的Fest-Noz夜间舞会。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 292
+  },
+  "landmark_images": [
+    {
+      "title": "File:Tour Eiffel Wikimedia Commons.jpg",
+      "caption_zh": "埃菲尔铁塔",
+      "caption": "埃菲尔铁塔",
+      "url": "assets/fr/L01.webp",
+      "thumb_url": "assets/fr/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1920px-Tour_Eiffel_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18:埃菲尔铁塔",
+      "author": "Benh LIEU SONG",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": false,
+      "bytes": 206378,
+      "picked_from": "commons_search",
+      "origin_size": "1400x2591",
+      "thumb_bytes": 2132,
+      "size": {
+        "detail": "1080x1999",
+        "thumb": "97x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x3553 1415KB JPEG)",
+      "caption_zh_manual": "埃菲尔铁塔",
+      "caption_zh_source": "llm_from_commons_filename"
+    },
+    {
+      "title": "File:Courtyard @ Louvre @ Paris (28897294980).jpg",
+      "caption_zh": "卢浮宫玻璃金字塔庭院",
+      "caption": "卢浮宫玻璃金字塔庭院",
+      "url": "assets/fr/L02.webp",
+      "thumb_url": "assets/fr/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Courtyard_%40_Louvre_%40_Paris_%2828897294980%29.jpg/1920px-Courtyard_%40_Louvre_%40_Paris_%2828897294980%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "author": "Guilhem Vellut from Paris, France",
+      "license": "CC BY 2.0",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": false,
+      "bytes": 80056,
+      "picked_from": "commons_search",
+      "origin_size": "1400x933",
+      "thumb_bytes": 4602,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 540KB JPEG)",
+      "caption_zh_manual": "卢浮宫玻璃金字塔",
+      "caption_zh_source": "llm_from_commons_filename"
+    },
+    {
+      "title": "File:Mont-Saint-Michel_vu_du_ciel.jpg",
+      "caption_zh": "空中俯瞰圣米歇尔山",
+      "caption": "空中俯瞰圣米歇尔山",
+      "url": "assets/fr/L03.webp",
+      "thumb_url": "assets/fr/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Mont-Saint-Michel_vu_du_ciel.jpg/1920px-Mont-Saint-Michel_vu_du_ciel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikipedia_lead",
+      "author": "Amaustan",
+      "license": "CC BY-SA 4.0",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": false,
+      "bytes": 51880,
+      "picked_from": "wikipedia_lead",
+      "origin_size": "1400x788",
+      "thumb_bytes": 4096,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 373KB JPEG)",
+      "caption_zh_manual": "圣米歇尔山",
+      "caption_zh_source": "llm_from_commons_filename"
+    },
+    {
+      "title": "File:Ceiling of Hall of Mirrors (Palace of Versailles).jpg",
+      "caption_zh": "凡尔赛宫镜厅穹顶",
+      "caption": "凡尔赛宫镜厅穹顶",
+      "url": "assets/fr/L04.webp",
+      "thumb_url": "assets/fr/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Ceiling_of_Hall_of_Mirrors_%28Palace_of_Versailles%29.jpg/1920px-Ceiling_of_Hall_of_Mirrors_%28Palace_of_Versailles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "author": "Livioandronico2013",
+      "license": "CC BY-SA 4.0",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": false,
+      "bytes": 287428,
+      "picked_from": "commons_search",
+      "origin_size": "1400x1542",
+      "thumb_bytes": 9126,
+      "size": {
+        "detail": "1080x1189",
+        "thumb": "163x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2114 1406KB JPEG)",
+      "caption_zh_manual": "凡尔赛宫镜厅（穹顶）",
+      "caption_zh_source": "llm_from_commons_filename"
+    },
+    {
+      "title": "File:Notre-Dame de Paris 2013-07-24.jpg",
+      "caption_zh": "巴黎圣母院",
+      "caption": "巴黎圣母院",
+      "caption_commons": "Cathedral Notre Dame de Paris, West view, Paris, France",
+      "kw": "Notre-Dame de Paris cathedral",
+      "url": "assets/fr/L05.webp",
+      "thumb_url": "assets/fr/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/1920px-Notre-Dame_de_Paris_2013-07-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "P e z i",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 255774,
+      "thumb_bytes": 6078,
+      "size": {
+        "detail": "1080x1458",
+        "thumb": "133x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2592 1416KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-25T23:16:59+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_short": [
+    "摘要 292/300 字",
+    "镜厅缺主视角图"
+  ],
+  "review_notes": [
+    "P443 发音语种不符已弃用：Hu-francia.ogg、Th-france.ogg、Jer-France.ogg（P443 不保证语种，须按文件名筛）",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "边界已采集（Natural Earth 50m，817 顶点）",
+    "凡尔赛宫镜厅用的是穹顶壁画照（候选池里只有油画与穹顶，缺镜面长廊主视角），后续可用 Galerie des Glaces 再取",
+    "摘要 292 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节（prop=extracts&section）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "name_official": "法國",
+  "geometry": "geo/fr.geojson",
+  "geometry_status": "naturalearth_10m_merged",
+  "geometry_name": "法国",
+  "geometry_stats": {
+    "rings": 21,
+    "vertices": 2035,
+    "polygons": 20,
+    "merged": [],
+    "bytes": 39517
+  },
+  "audio_url": "assets/fr/audio/fr.mp3",
+  "audio_source": "edge",
+  "audio_meta": {
+    "engine": "edge",
+    "voice": "fr-FR-DeniseNeural",
+    "text": "Bonjour, bienvenue en France. Sa capitale est Paris, et la tour Eiffel se dresse au bord de la Seine.",
+    "per_language": [
+      {
+        "code": "fr",
+        "url": "assets/fr/audio/fr.mp3",
+        "bytes": 44496
+      }
+    ],
+    "note": "顶层音频为官方语言；区域语言见 languages[].audio_url"
+  },
+  "custom_text": "面包、奶酪与葡萄酒是餐桌的三大骨架。法棍按法律规定只能有面粉、水、盐和酵母，当天买当天吃；奶酪有数百个产区，AOP 原产地制度把土壤、气候与做法一并纳入保护，「风土」（terroir）由此成为理解法国饮食的核心词。七月十四日国庆纪念攻占巴士底狱，当天各地有消防员舞会与街头阅兵。1905年政教分离后，「世俗性」（laïcité）成为国家原则，公共场所不设宗教标识。夏至的音乐节让业余乐手占领街头，八月的假期则几乎让整座城市停摆，人们回到乡下的老屋或海边。布列塔尼保留着 Fest-Noz 夜间圆圈舞，阿尔萨斯与科西嘉各有自己的语言与节庆。",
+  "sources": [
+    {
+      "field": [
+        "qid",
+        "iso_a2",
+        "iso_a3",
+        "capital",
+        "continent",
+        "languages"
+      ],
+      "source": "wikidata",
+      "ref": "Special:EntityData/Q142"
+    },
+    {
+      "field": [
+        "centroid"
+      ],
+      "source": "wikidata",
+      "ref": "P625"
+    },
+    {
+      "field": [
+        "summary_text"
+      ],
+      "source": "wikipedia_rest",
+      "ref": "zh.wikipedia extracts, variant=zh-cn"
+    },
+    {
+      "field": [
+        "landmark_images"
+      ],
+      "source": "commons",
+      "ref": "P18 -> imageinfo + extmetadata"
+    },
+    {
+      "field": [
+        "audio_url"
+      ],
+      "source": "tts",
+      "ref": "edge-tts fr-FR-DeniseNeural"
+    },
+    {
+      "field": [
+        "geometry"
+      ],
+      "source": "naturalearth",
+      "ref": "ne_50m_admin_0_countries, 817 顶点"
+    },
+    {
+      "field": [
+        "custom_text"
+      ],
+      "source": "manual",
+      "ref": "人工撰写，待接 LLM 摘编"
+    }
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 4 张已被替换",
+  "custom_facets": {
+    "festivals": [
+      {
+        "v": "7月14日国庆",
+        "evidence": "7 月 14 日国庆即攻占巴士底狱的纪念日"
+      },
+      {
+        "v": "Fest-Noz夜间舞会",
+        "evidence": "布列塔尼的 Fest-Noz 夜间舞会"
+      }
+    ],
+    "cuisine": [
+      {
+        "v": "面包",
+        "evidence": "饮食以面包、奶酪、葡萄酒为骨架"
+      },
+      {
+        "v": "奶酪",
+        "evidence": "饮食以面包、奶酪、葡萄酒为骨架"
+      },
+      {
+        "v": "葡萄酒",
+        "evidence": "饮食以面包、奶酪、葡萄酒为骨架"
+      },
+      {
+        "v": "AOP原产地制度",
+        "evidence": "AOP 原产地制度保护了数百种奶酪与葡萄酒产区"
+      },
+      {
+        "v": "风土",
+        "evidence": "「风土」（terroir）被视为文化核心概念"
+      }
+    ],
+    "religion": [
+      {
+        "v": "天主教",
+        "evidence": "天主教传统深厚"
+      },
+      {
+        "v": "政教分离",
+        "evidence": "1905 年政教分离后"
+      },
+      {
+        "v": "世俗性",
+        "evidence": "「世俗性」（laïcité）成为国家原则"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "面包与葡萄酒",
+        "evidence": "饮食以面包、奶酪、葡萄酒为骨架"
+      },
+      {
+        "v": "风土",
+        "evidence": "「风土」（terroir）被视为文化核心概念"
+      },
+      {
+        "v": "Fest-Noz夜间舞会",
+        "evidence": "布列塔尼的 Fest-Noz 夜间舞会"
+      },
+      {
+        "v": "布列塔尼独立语言",
+        "evidence": "布列塔尼、阿尔萨斯、科西嘉等地保留独立语言"
+      },
+      {
+        "v": "比斯开湾",
+        "evidence": "西面比斯开湾"
+      },
+      {
+        "v": "共和传统",
+        "evidence": "法国大革命确立共和传统"
+      },
+      {
+        "v": "政教分离",
+        "evidence": "1905 年政教分离后"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "法兰西共和国（法语：République française，发音：[ʁepyblik fʁɑ̃sɛːz] ），通称法国（France [fʁɑ̃s] ），西欧双首长制共和国，东邻德国、比利时与意大利，西面比斯开湾，西南接西班牙，北隔英吉利海峡与英国相望。法国共分为18个大区，其中5个位于海外，领土总面积达64.3万平方公里，是欧盟国土最辽阔的国家。人口为6789万人，首都巴黎。法国本土皆为海洋性气候，海外领土则气候多样，在全球各洋均拥有大量岛屿。\n法国人的先祖高卢人自铁器时代迁至今日法国定居，后来罗马共和国于前51年并吞了该地区，形成独特的高卢－罗马文化。法兰克人于5世纪在此建立了法兰克王国，并逐步扩张至全西欧。987年，于格·卡佩即位为王，被后世视为法兰西王国的开端。该王国成立之初是个强大但分权的封建王国，直到12世纪末期法王腓力二世开始集中王权，并在布汶之战战胜神圣罗马帝国与安茹帝国联军，逐渐成为全欧最强大的国家。14至15世纪，法国与英格兰王国爆发百年战争，法国赢得胜利后封建制度开始瓦解，其文化与艺术因法国文艺复兴迅速发展，并在大航海时代建立殖民帝国。",
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "knowledge_qa": [
+    {
+      "q": "法国在哪儿啊？周围都是些什么地方？",
+      "a": "法国位于西欧，西面比斯开湾，北隔英吉利海峡与英国相望，东邻德国、比利时与意大利，西南接西班牙。",
+      "tags": [
+        "法国位置",
+        "欧洲",
+        "邻国",
+        "比斯开湾"
+      ]
+    },
+    {
+      "q": "法国面积有多大？首都是哪里？",
+      "a": "领土总面积达64.3万平方公里，是欧盟国土最辽阔的国家，首都为巴黎。",
+      "tags": [
+        "法国面积",
+        "首都",
+        "巴黎",
+        "欧盟"
+      ]
+    },
+    {
+      "q": "法国人说什么语言？有方言吗？",
+      "a": "官方语言是法语。布列塔尼、阿尔萨斯、科西嘉等地还保留独立语言与节庆。",
+      "tags": [
+        "法语",
+        "方言",
+        "布列塔尼",
+        "科西嘉"
+      ]
+    },
+    {
+      "q": "法国有什么重要的节日？",
+      "a": "7月14日国庆，是攻占巴士底狱的纪念日，法国大革命确立了共和传统。",
+      "tags": [
+        "国庆",
+        "节日",
+        "7月14日",
+        "巴士底狱"
+      ]
+    },
+    {
+      "q": "法国有什么传统习俗或文化特色？",
+      "a": "天主教传统深厚，1905年政教分离后世俗性成为国家原则。布列塔尼有Fest-Noz夜间舞会等节庆。",
+      "tags": [
+        "习俗",
+        "世俗性",
+        "Fest-Noz",
+        "布列塔尼"
+      ]
+    },
+    {
+      "q": "法国人平时吃什么？有什么饮食制度？",
+      "a": "饮食以面包、奶酪、葡萄酒为骨架，AOP原产地制度保护了数百种奶酪与葡萄酒产区，风土被视为文化核心概念。",
+      "tags": [
+        "吃什么",
+        "奶酪",
+        "葡萄酒",
+        "AOP",
+        "风土"
+      ]
+    },
+    {
+      "q": "法国有什么值得看的建筑或景观？",
+      "a": "有埃菲尔铁塔、卢浮宫玻璃金字塔庭院、空中俯瞰圣米歇尔山、凡尔赛宫镜厅穹顶等。",
+      "tags": [
+        "地标",
+        "埃菲尔铁塔",
+        "卢浮宫",
+        "圣米歇尔山",
+        "凡尔赛宫"
+      ]
+    }
+  ],
+  "custom_text_source": {
+    "source": "human",
+    "note": "人工撰写：历史脉络 + 民俗日常",
+    "split_from_merged": true
+  },
+  "history_text": "公元前1世纪高卢被罗马征服，拉丁语与基督教由此进入这片土地。481年法兰克王国建立，987年卡佩王朝接续，中世纪的法兰西在封建采邑与教会之间逐步凝聚为王国。1789年法国大革命推翻君主专制，《人权宣言》确立自由与平等的原则，此后共和国与帝国反复更替，直到1958年第五共和国成立，政体才稳定下来。启蒙运动时期的思想家把理性与批判推向欧洲，巴黎在19世纪成为艺术与文学的中心，印象派、存在主义、新浪潮电影先后从这里出发。两次世界大战中法国本土被占领与重建，战后与德国共同推动欧洲一体化。",
+  "outline": [
+    [
+      [
+        252,
+        5109
+      ],
+      [
+        261,
+        5096
+      ],
+      [
+        259,
+        5084
+      ],
+      [
+        279,
+        5072
+      ],
+      [
+        313,
+        5078
+      ],
+      [
+        327,
+        5053
+      ],
+      [
+        361,
+        5048
+      ],
+      [
+        370,
+        5030
+      ],
+      [
+        400,
+        5034
+      ],
+      [
+        420,
+        5026
+      ],
+      [
+        413,
+        5013
+      ],
+      [
+        421,
+        5006
+      ],
+      [
+        413,
+        4998
+      ],
+      [
+        465,
+        4998
+      ],
+      [
+        482,
+        5016
+      ],
+      [
+        487,
+        5014
+      ],
+      [
+        478,
+        4996
+      ],
+      [
+        486,
+        4991
+      ],
+      [
+        485,
+        4979
+      ],
+      [
+        526,
+        4969
+      ],
+      [
+        546,
+        4950
+      ],
+      [
+        575,
+        4955
+      ],
+      [
+        596,
+        4944
+      ],
+      [
+        640,
+        4946
+      ],
+      [
+        671,
+        4916
+      ],
+      [
+        692,
+        4921
+      ],
+      [
+        704,
+        4911
+      ],
+      [
+        727,
+        4910
+      ],
+      [
+        741,
+        4917
+      ],
+      [
+        764,
+        4904
+      ],
+      [
+        820,
+        4896
+      ],
+      [
+        781,
+        4862
+      ],
+      [
+        775,
+        4834
+      ],
+      [
+        759,
+        4813
+      ],
+      [
+        762,
+        4797
+      ],
+      [
+        751,
+        4771
+      ],
+      [
+        759,
+        4758
+      ],
+      [
+        738,
+        4743
+      ],
+      [
+        697,
+        4749
+      ],
+      [
+        687,
+        4735
+      ],
+      [
+        704,
+        4733
+      ],
+      [
+        666,
+        4702
+      ],
+      [
+        644,
+        4694
+      ],
+      [
+        643,
+        4676
+      ],
+      [
+        612,
+        4658
+      ],
+      [
+        605,
+        4642
+      ],
+      [
+        614,
+        4637
+      ],
+      [
+        609,
+        4625
+      ],
+      [
+        596,
+        4620
+      ],
+      [
+        596,
+        4613
+      ],
+      [
+        614,
+        4615
+      ],
+      [
+        628,
+        4624
+      ],
+      [
+        621,
+        4632
+      ],
+      [
+        627,
+        4638
+      ],
+      [
+        648,
+        4645
+      ],
+      [
+        679,
+        4641
+      ],
+      [
+        677,
+        4614
+      ],
+      [
+        702,
+        4592
+      ],
+      [
+        680,
+        4583
+      ],
+      [
+        680,
+        4572
+      ],
+      [
+        716,
+        4541
+      ],
+      [
+        706,
+        4521
+      ],
+      [
+        660,
+        4510
+      ],
+      [
+        674,
+        4491
+      ],
+      [
+        700,
+        4483
+      ],
+      [
+        706,
+        4468
+      ],
+      [
+        696,
+        4468
+      ],
+      [
+        684,
+        4453
+      ],
+      [
+        692,
+        4444
+      ],
+      [
+        687,
+        4437
+      ],
+      [
+        698,
+        4424
+      ],
+      [
+        733,
+        4412
+      ],
+      [
+        766,
+        4418
+      ],
+      [
+        769,
+        4407
+      ],
+      [
+        748,
+        4387
+      ],
+      [
+        748,
+        4376
+      ],
+      [
+        715,
+        4366
+      ],
+      [
+        714,
+        4355
+      ],
+      [
+        696,
+        4354
+      ],
+      [
+        689,
+        4343
+      ],
+      [
+        673,
+        4341
+      ],
+      [
+        659,
+        4327
+      ],
+      [
+        669,
+        4327
+      ],
+      [
+        668,
+        4320
+      ],
+      [
+        638,
+        4309
+      ],
+      [
+        619,
+        4311
+      ],
+      [
+        618,
+        4304
+      ],
+      [
+        594,
+        4313
+      ],
+      [
+        588,
+        4312
+      ],
+      [
+        594,
+        4307
+      ],
+      [
+        582,
+        4305
+      ],
+      [
+        567,
+        4318
+      ],
+      [
+        535,
+        4322
+      ],
+      [
+        529,
+        4336
+      ],
+      [
+        503,
+        4334
+      ],
+      [
+        503,
+        4341
+      ],
+      [
+        523,
+        4348
+      ],
+      [
+        503,
+        4356
+      ],
+      [
+        505,
+        4343
+      ],
+      [
+        487,
+        4342
+      ],
+      [
+        486,
+        4334
+      ],
+      [
+        470,
+        4358
+      ],
+      [
+        482,
+        4335
+      ],
+      [
+        395,
+        4354
+      ],
+      [
+        311,
+        4311
+      ],
+      [
+        304,
+        4294
+      ],
+      [
+        305,
+        4259
+      ],
+      [
+        318,
+        4243
+      ],
+      [
+        293,
+        4247
+      ],
+      [
+        266,
+        4234
+      ],
+      [
+        228,
+        4243
+      ],
+      [
+        200,
+        4235
+      ],
+      [
+        171,
+        4249
+      ],
+      [
+        172,
+        4261
+      ],
+      [
+        143,
+        4260
+      ],
+      [
+        134,
+        4271
+      ],
+      [
+        81,
+        4283
+      ],
+      [
+        66,
+        4284
+      ],
+      [
+        64,
+        4268
+      ],
+      [
+        -4,
+        4268
+      ],
+      [
+        -32,
+        4284
+      ],
+      [
+        -57,
+        4277
+      ],
+      [
+        -76,
+        4295
+      ],
+      [
+        -115,
+        4301
+      ],
+      [
+        -129,
+        4311
+      ],
+      [
+        -146,
+        4304
+      ],
+      [
+        -140,
+        4324
+      ],
+      [
+        -163,
+        4325
+      ],
+      [
+        -180,
+        4337
+      ],
+      [
+        -166,
+        4340
+      ],
+      [
+        -148,
+        4358
+      ],
+      [
+        -126,
+        4456
+      ],
+      [
+        -119,
+        4466
+      ],
+      [
+        -104,
+        4467
+      ],
+      [
+        -117,
+        4478
+      ],
+      [
+        -126,
+        4463
+      ],
+      [
+        -110,
+        4555
+      ],
+      [
+        -77,
+        4533
+      ],
+      [
+        -54,
+        4490
+      ],
+      [
+        -60,
+        4502
+      ],
+      [
+        -49,
+        4500
+      ],
+      [
+        -66,
+        4510
+      ],
+      [
+        -80,
+        4548
+      ],
+      [
+        -125,
+        4571
+      ],
+      [
+        -116,
+        4581
+      ],
+      [
+        -99,
+        4572
+      ],
+      [
+        -115,
+        4587
+      ],
+      [
+        -105,
+        4604
+      ],
+      [
+        -121,
+        4618
+      ],
+      [
+        -111,
+        4630
+      ],
+      [
+        -124,
+        4628
+      ],
+      [
+        -180,
+        4650
+      ],
+      [
+        -191,
+        4669
+      ],
+      [
+        -212,
+        4682
+      ],
+      [
+        -199,
+        4704
+      ],
+      [
+        -224,
+        4714
+      ],
+      [
+        -215,
+        4728
+      ],
+      [
+        -173,
+        4721
+      ],
+      [
+        -201,
+        4732
+      ],
+      [
+        -228,
+        4725
+      ],
+      [
+        -254,
+        4730
+      ],
+      [
+        -244,
+        4731
+      ],
+      [
+        -256,
+        4738
+      ],
+      [
+        -239,
+        4742
+      ],
+      [
+        -250,
+        4749
+      ],
+      [
+        -236,
+        4751
+      ],
+      [
+        -291,
+        4756
+      ],
+      [
+        -274,
+        4755
+      ],
+      [
+        -271,
+        4764
+      ],
+      [
+        -292,
+        4760
+      ],
+      [
+        -298,
+        4766
+      ],
+      [
+        -294,
+        4756
+      ],
+      [
+        -312,
+        4760
+      ],
+      [
+        -313,
+        4748
+      ],
+      [
+        -320,
+        4764
+      ],
+      [
+        -312,
+        4773
+      ],
+      [
+        -319,
+        4775
+      ],
+      [
+        -322,
+        4766
+      ],
+      [
+        -336,
+        4770
+      ],
+      [
+        -328,
+        4769
+      ],
+      [
+        -336,
+        4771
+      ],
+      [
+        -328,
+        4779
+      ],
+      [
+        -345,
+        4770
+      ],
+      [
+        -413,
+        4792
+      ],
+      [
+        -418,
+        4781
+      ],
+      [
+        -437,
+        4781
+      ],
+      [
+        -443,
+        4798
+      ],
+      [
+        -473,
+        4804
+      ],
+      [
+        -428,
+        4812
+      ],
+      [
+        -438,
+        4823
+      ],
+      [
+        -456,
+        4818
+      ],
+      [
+        -463,
+        4829
+      ],
+      [
+        -455,
+        4835
+      ],
+      [
+        -419,
+        4831
+      ],
+      [
+        -445,
+        4834
+      ],
+      [
+        -429,
+        4843
+      ],
+      [
+        -477,
+        4834
+      ],
+      [
+        -476,
+        4852
+      ],
+      [
+        -456,
+        4863
+      ],
+      [
+        -397,
+        4873
+      ],
+      [
+        -385,
+        4863
+      ],
+      [
+        -381,
+        4873
+      ],
+      [
+        -358,
+        4868
+      ],
+      [
+        -352,
+        4884
+      ],
+      [
+        -321,
+        4887
+      ],
+      [
+        -322,
+        4879
+      ],
+      [
+        -310,
+        4888
+      ],
+      [
+        -312,
+        4876
+      ],
+      [
+        -302,
+        4883
+      ],
+      [
+        -268,
+        4851
+      ],
+      [
+        -232,
+        4870
+      ],
+      [
+        -233,
+        4863
+      ],
+      [
+        -221,
+        4858
+      ],
+      [
+        -205,
+        4865
+      ],
+      [
+        -198,
+        4851
+      ],
+      [
+        -203,
+        4864
+      ],
+      [
+        -195,
+        4870
+      ],
+      [
+        -184,
+        4871
+      ],
+      [
+        -180,
+        4862
+      ],
+      [
+        -136,
+        4864
+      ],
+      [
+        -155,
+        4875
+      ],
+      [
+        -160,
+        4885
+      ],
+      [
+        -151,
+        4903
+      ],
+      [
+        -159,
+        4903
+      ],
+      [
+        -161,
+        4922
+      ],
+      [
+        -155,
+        4922
+      ],
+      [
+        -182,
+        4938
+      ],
+      [
+        -188,
+        4953
+      ],
+      [
+        -184,
+        4962
+      ],
+      [
+        -194,
+        4972
+      ],
+      [
+        -161,
+        4965
+      ],
+      [
+        -126,
+        4970
+      ],
+      [
+        -123,
+        4962
+      ],
+      [
+        -131,
+        4956
+      ],
+      [
+        -112,
+        4934
+      ],
+      [
+        -94,
+        4939
+      ],
+      [
+        -22,
+        4928
+      ],
+      [
+        41,
+        4945
+      ],
+      [
+        49,
+        4949
+      ],
+      [
+        26,
+        4946
+      ],
+      [
+        8,
+        4954
+      ],
+      [
+        24,
+        4973
+      ],
+      [
+        122,
+        4998
+      ],
+      [
+        152,
+        5022
+      ],
+      [
+        167,
+        5019
+      ],
+      [
+        154,
+        5028
+      ],
+      [
+        161,
+        5037
+      ],
+      [
+        156,
+        5040
+      ],
+      [
+        158,
+        5087
+      ],
+      [
+        252,
+        5109
+      ]
+    ],
+    [
+      [
+        -5411,
+        211
+      ],
+      [
+        -5462,
+        233
+      ],
+      [
+        -5438,
+        248
+      ],
+      [
+        -5417,
+        285
+      ],
+      [
+        -5421,
+        313
+      ],
+      [
+        -5400,
+        346
+      ],
+      [
+        -5400,
+        362
+      ],
+      [
+        -5424,
+        388
+      ],
+      [
+        -5441,
+        419
+      ],
+      [
+        -5449,
+        490
+      ],
+      [
+        -5431,
+        523
+      ],
+      [
+        -5408,
+        541
+      ],
+      [
+        -5393,
+        574
+      ],
+      [
+        -5290,
+        541
+      ],
+      [
+        -5239,
+        490
+      ],
+      [
+        -5226,
+        491
+      ],
+      [
+        -5234,
+        472
+      ],
+      [
+        -5223,
+        488
+      ],
+      [
+        -5202,
+        469
+      ],
+      [
+        -5195,
+        445
+      ],
+      [
+        -5205,
+        433
+      ],
+      [
+        -5194,
+        439
+      ],
+      [
+        -5191,
+        466
+      ],
+      [
+        -5180,
+        461
+      ],
+      [
+        -5165,
+        415
+      ],
+      [
+        -5236,
+        315
+      ],
+      [
+        -5241,
+        290
+      ],
+      [
+        -5269,
+        237
+      ],
+      [
+        -5298,
+        217
+      ],
+      [
+        -5327,
+        220
+      ],
+      [
+        -5323,
+        225
+      ],
+      [
+        -5334,
+        235
+      ],
+      [
+        -5353,
+        225
+      ],
+      [
+        -5376,
+        237
+      ],
+      [
+        -5411,
+        211
+      ]
+    ],
+    [
+      [
+        857,
+        4221
+      ],
+      [
+        869,
+        4227
+      ],
+      [
+        855,
+        4238
+      ],
+      [
+        866,
+        4243
+      ],
+      [
+        871,
+        4258
+      ],
+      [
+        912,
+        4273
+      ],
+      [
+        929,
+        4268
+      ],
+      [
+        935,
+        4300
+      ],
+      [
+        946,
+        4299
+      ],
+      [
+        944,
+        4264
+      ],
+      [
+        953,
+        4256
+      ],
+      [
+        956,
+        4215
+      ],
+      [
+        940,
+        4195
+      ],
+      [
+        940,
+        4171
+      ],
+      [
+        929,
+        4163
+      ],
+      [
+        935,
+        4158
+      ],
+      [
+        922,
+        4137
+      ],
+      [
+        879,
+        4156
+      ],
+      [
+        892,
+        4170
+      ],
+      [
+        865,
+        4175
+      ],
+      [
+        880,
+        4191
+      ],
+      [
+        861,
+        4190
+      ],
+      [
+        859,
+        4197
+      ],
+      [
+        874,
+        4206
+      ],
+      [
+        857,
+        4221
+      ]
+    ],
+    [
+      [
+        5579,
+        -2110
+      ],
+      [
+        5586,
+        -2116
+      ],
+      [
+        5581,
+        -2134
+      ],
+      [
+        5558,
+        -2137
+      ],
+      [
+        5535,
+        -2127
+      ],
+      [
+        5522,
+        -2103
+      ],
+      [
+        5529,
+        -2091
+      ],
+      [
+        5558,
+        -2088
+      ],
+      [
+        5579,
+        -2110
+      ]
+    ]
+  ]
+}

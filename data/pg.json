@@ -1,1 +1,1515 @@
-{"qid":"Q691","iso_a2":"PG","iso_a3":"PNG","name_zh":"巴布亚新几内亚","name_en":"Papua New Guinea","capital":"莫尔斯比港","continent":"大洋洲","centroid":[147,-6.3],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/pg/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Papua New Guinea, a land of living cultures and extraordinary landscapes; its capital, Port Moresby, sits on a sheltered harbour, and beyond it the Kokoda Track winds through the mountains, carrying the memory of those who walked it.","tts_text_zh":"欢迎来到巴布亚新几内亚，一片拥有鲜活文化与非凡风景的土地；首都莫尔斯比港坐落在一处受庇护的港湾之畔，而在它之外，科科达小径蜿蜒穿过群山，承载着曾走过这里的人们的记忆。","audio_voice":"en-US-AriaNeural","audio_bytes":86256},{"code":"tpi","name_zh":"巴布亚皮钦语","name_local":"巴布亚皮钦语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"ho","name_zh":"希里摩圖語","name_local":"希里摩圖語","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"巴布亚新几内亚独立国通称巴布亚新几内亚，简称巴新，是位于大洋洲的岛国，地处澳大利亚以北的西南太平洋。该国由新几内亚岛东半及周边美拉尼西亚地区的离岛组成，西面接壤印度尼西亚，南与澳大利亚隔海相望，东邻所罗门群岛。领土面积为462,840平方千米，包括一片广阔的主岛陆地及数百个外围岛屿。首都为莫尔斯比港，国民议会议员同时兼任省级领导人。该国人口高度集中于农村地区，2023年城市化率仅14%。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":195,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%B8%83%E4%BA%9A%E6%96%B0%E5%87%A0%E5%86%85%E4%BA%9A","title":"巴布亚新几内亚"},"culture_excerpts":[{"section":"历史","text":"1847年9月15日，一批马利诺会（英语：Society of Mary (Marists)）传教士抵达伍德拉克岛，基督教由此传入新几内亚。传教活动成为西方文化及宗教传播的主要渠道。荷兰于1848年吞并该岛西部。昆士兰殖民地于1878年兼并邻近的托雷斯海峡群岛，并于1883年试图吞并新几内亚部分区域。1884年，新几内亚岛东部分割，北部归德国，南部属英国。德国新几内亚公司（英语：German New Guinea Company）最初尝试开发种植园未获成功，转而从事易货贸易。在英国控制区，1895年在曼贝尔河（英语：Mambare River）附近发现金矿。1914年第一次世界大战爆发后，澳大利亚军队占领德属新几内亚（英语：Allied occupation of German New Guinea）并持续管辖至战争结束。战后，国际联盟于1921年5月9日授权澳大利亚将该地区作为第三等托管地管辖，由此形成新几内亚领地。巴布亚领地与新设的新几内亚托管地实行分治管理。1920年代在布洛洛发现金矿后，探矿者开始在全岛范围内搜寻矿藏。至1930年代，探矿者对高地山谷的勘探揭示该地区居住着超过百万人口。1946年，联合国宣布新几内亚为托管领土，由澳大利亚管辖。1949年，巴布亚居民正式获得澳大利亚公民身份，澳大利亚正式将巴布亚与新几内亚合并为巴布亚和新几内亚领地。巴布亚和新几内亚立法委员会（英语：Legislative Council of Papua and New Guinea）于1951年11月成立。自1949年起，巴布亚与新几内亚开始设立乡村理事会，其数量逐年稳步增加。此举构建了替代性权力结构，虽然有时由传统领袖充任，但标志着领导权开始向具有行政或商业经验的人士转移。1950年代，航空勘察在高地地区发现更多有人居住的山谷。战后澳大利亚重建行政管理体系，随之将控制范围扩大至此前基本未受管辖的高地区域。部分部落直至1960至1970年代才首次与西方接触。高地地区的行政管理推动了咖啡种植在该区域的大规模扩展。1964年（英语：1964 Papua New Guinean general election）及1968年（英语：1968 Papua New Guinean general election）的大选在引入政治体系的宣传运动中相继举行。1968年选举筹备期间，首个政党潘古党（英语：Pangu Pati）宣告成立。推动独立的主要动力来自惠特拉姆政府的内部决策，而非巴布亚新几内亚本土的具体诉求。“国家”的概念对该领地多数居民仍属陌生，尚未形成强烈的共同民族认同。1970年代初期，社会普遍担忧独立可能导致大部落支配小部落，并增加外国资本收购土地的风险。后来形成的独立共识主要依靠当地政治领袖的积极推动。1975年9月1日，在巴布亚新几内亚预定独立日前夕，布干维尔当局单方面宣布独立。作为回应，中央政府随即中止向该省份拨付财政资金。独立前夕还出现了其他地区运动：巴布亚贝塞纳运动（英语：Papua Besena）主张将巴布亚地区从新几内亚分离，高地解放阵线（Highlands Liberation Front）旨在抵制沿海地区对高地的主导权，另有小型团体倡导设立新省份。尽管存在这些分歧，澳大利亚议会仍于1975年9月通过《1975年巴布亚新几内亚独立法案》，正式确定9月16日为独立日。索马雷继续担任该国首任总理。选举制度改为简单多数制，旨在推动形成界限清晰的两党制但未果。国家政府均通过宪法规定的方式实现更迭。索马雷在1977年大选（英语：1977 Papua New Guinean general election）后继续担任总理，但于1980年遭不信任投票罢免，由陈仲民接任。索马雷在1982年大选（英语：1982 Papua New Guinean general election）后再度出任总理，却在1985年再次失利于不信任投票。随着布干维尔矿场建设完工，就业需求骤减，当地年轻一代几乎未能从矿区发展中获益。1988年布干维尔再度爆发起义，反抗对象同时指向布干维尔地方政府与巴布亚新几内亚中央政府。1989年5月矿场关闭后，布干维尔革命军宣布独立，中央政府于1990年撤出该地区并实施封锁，冲突由此演变为复杂的内部内战。1990年底政府军重新登陆该岛，在与当地盟友的配合下逐步扩大控制范围。1994年10月政府与部分反叛势力达成协议，次年成立布干维尔过渡政府，但政府军与布干维尔革命军的交战仍在持续。1997年，因雇佣国际佣兵介入布干维尔冲突而引发的“桑德莱恩事件（英语：Sandline affair）”直接导致中央政府垮台。经新西兰主持的和谈斡旋，各方于1998年1月达成停火协议。独立后的第一个十年间，该国经济呈现缓慢而稳定的增长态势。奥克特迪矿场（英语：Ok Tedi Mine）于1982年正式投产。尽管澳大利亚对财政预算的贡献率从1975年占政府收入的40%降至1988年的17%，但通过完善税收体系，政府成功维持了支出规模。布干维尔矿场的关闭虽引发财政困难，但随着石油、矿产和林木产品出口的扩大，国民经济在1990年代初实现复苏。不过这种增长并未缓解社会不平等现象，政府公共服务质量反而出现下滑。由于政府开支持续扩大及其引发的债务攀升","chars":2200},{"section":"文化","text":"由于新几内亚在地理上长期处于孤立状态，美拉尼西亚文化得以在不受重大外部影响的情况下独立发展。该文化高度重视人际关系，同时也强调人与自然环境之间的连结。这种对关系的珍视体现在库拉环交易中，其物品交换的核心目的在于维系社会纽带，而非追求直接的经济利益。土地归属权及其情感联结至关重要，但通常属于集体而非个人。强烈的内部群体意识构成“瓦托克体系”（wantok system）的核心特征，导致个体对待本社群成员与外部社群成员时存在显著差异。对个人行为的评价，通常主要乃至完全取决于其对所属本地社群产生的影响。\n传统美拉尼西亚社会通常由被称为“大人物（英语：Big man (anthropology)）”的领导者主导小型社群。这些地位普遍被认为需凭个人能力获取，社会结构因而相对平等，尽管世袭因素偶尔也起作用；除年龄与性别差异外，还存在不同的社会分层。总体而言，高地社会可能比低地社会更具个人主义倾向。正如传统“大人物”需通过慷慨分配剩余财富来巩固地位，现代的文化期望也促使人们将政治与经济职位用于恩庇关系。该体系的主导地位制约了现代性别角色的发展，导致男性依然占据了政界领袖的绝大多数。性别差异是传统社群中最为突出的不平等根源。成功跻身“大人物”之列者或能终身保有威望，但若被他人超越，其地位也可能不保。亲属关系既可源于血缘，也可来自情感认同。传统社群的权威有时也会与更高层级的治理概念产生冲突。\n该国社会仍处于高度碎片化状态，强烈的地方认同感与忠诚度同薄弱的国族认同形成鲜明对比。极乐鸟是共同的国家象征之一，出现在国旗与国徽上，其羽毛在传统仪式和“sing-sing（英语：Sing-sing (New Guinea)）”歌舞集会中依然具有重要价值。该国拥有一处联合国教科文组织世界遗产，即于2008年列入名录的库克早期农业遗址这。海贝在历史上极具价值，在欧洲人初抵远离海岸的高地地区时，贝壳的价值甚至被认为超过钢铁。贝壳至今保留着仪式用途，在东新不列颠省的部分地区，它们仍在一定程度上行使着货币职能。该国国家货币的名称“基那”便源于一种金唇珍珠贝。\n音乐形态因语言社群而异，但也存在区域共性，常作为文化知识传递载体，并在仪式与习俗中扮演重要角色。广泛使用的传统乐器包括加拉穆特鼓（木鼓）、昆杜鼓（英语：Kundu (drum)）（单面鼓）、竹笛和苏萨普（susap，口簧琴）。其他本土乐器的使用范围较为有限。二战后，吉他、尤克里里等外来乐器广泛普及。现代音乐深受多语种基督教音乐的影响。1970年代，竹乐队（bamboo band）的音乐风格风靡一时，而本地音乐的录制早在独立之前便已开始。该国的第一部音乐录像于1990年在电视上播出。早期的桑古玛（英语：Sanguma）乐队于1977年在国家艺术学院（英语：National Arts School (Papua New Guinea)）成立，并进","chars":1200},{"section":"早期定居历史","text":"考古证据显示，现代人类约在4.2万至4.5万年前首次抵达现今的新几内亚和澳大利亚（英语：Sahul）及俾斯麦群岛地区。布干维尔岛约于2.8万年前开始有人类定居，更偏远的马努斯岛则约在2万年前出现人类活动踪迹。这些迁徙属于人类最早走出非洲的迁徙之一，所形成的种群在史前时期基本与外界隔绝。约1万年前，因海平面上升（英语：Past sea level），新几内亚与澳大利亚分离，但澳大利亚原住民与新几内亚居民的分化早在约3.7万年前就已形成。\n约公元前7000年，新几内亚高地独立发展出农业，成为全球少数几个植物独立驯化中心。在全面农业形成之前，当地已成功驯化多种植物，包括西米、东印度橄榄和卡鲁卡（英语：Karuka）。考古研究证实，说南岛语的拉皮塔文化人群于3300年前抵达俾斯麦群岛。目前尚不清楚他们是否同期登陆新几内亚主岛，但有确凿证据显示其约在公元前500年已活跃于沿海地区。这些社群与更广阔的贸易网络保持往来，香蕉与甘蔗很可能正是通过这些贸易路线从新几内亚传播至世界其他地区。\n新几内亚岛上的各个社群虽通过贸易网络保持经济联系，但除少数政治联盟外，各社群大体维持自治，依靠自给农业维持生计。货物通常沿固定路线交易，部分村民熟悉邻近村落语言，甚至能够掌握使用（但语言本身并非政治归属的标志）。在沿海及岛屿地区，则形成了更广泛的贸易网络。虽然民众很少长途迁徙，但货物通过本地交换实现了远距离流通，文化习俗很可能也借此途径传播。尽管存在这些联系，欧洲统治下建立的更大政治实体并无先例，且往往将历史上相互敌对或毫无关联的社群强行聚合。","chars":800}],"landmark_images":[{"title":"File:Kokoda track Papua New Guinea.JPG","caption_zh":"巴布亚新几内亚科科达小径","caption":"巴布亚新几内亚科科达小径","caption_commons":"Walking the Kokoda track, Papua New Guinea. This section of the track is known a","kw":"Kokoda Track Papua New Guinea","url":"assets/pg/L01.webp","thumb_url":"assets/pg/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kokoda_track_Papua_New_Guinea.JPG/1920px-Kokoda_track_Papua_New_Guinea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Luke Brindley","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":166916,"caption_zh_manual":"科科达小径","caption_zh_source":"llm_from_commons_filename","thumb_bytes":43506,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 1255KB JPEG)"},{"title":"File:Tavurvur volcano edit.jpg","caption_zh":"拉包尔火山塔武尔武尔火山口","caption":"拉包尔火山塔武尔武尔火山口","caption_commons":"Tuvurvur volcano - part of Rabaul Caldera –– Papua New Guinea","kw":"Rabaul Tavurvur volcano","url":"assets/pg/L02.webp","thumb_url":"assets/pg/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Tavurvur_volcano_edit.jpg/1920px-Tavurvur_volcano_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Taro Taylor edit by Richard Bartz","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":18358,"caption_zh_manual":"拉包尔火山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":6368,"size":{"detail":"760x503","thumb":"400x265"},"encoding":"webp q72/q74 (源 1920x1271 288KB JPEG)"},{"title":"File:Sepik 0057.jpg","caption_zh":"塞皮克河","caption":"塞皮克河","caption_commons":"Snapshot of the daily life of the villagers","kw":"Sepik River Papua New Guinea","url":"assets/pg/L03.webp","thumb_url":"assets/pg/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/1/15/Sepik_0057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Top1963 / Tryfon Topalidis","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":82490,"caption_zh_manual":"塞皮克河","caption_zh_source":"llm_from_commons_filename","thumb_bytes":29322,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1286x854 916KB JPEG)"},{"title":"File:Marines on Bougainville.jpg","caption_zh":"博根维尔岛上的海军陆战队员","caption":"博根维尔岛上的海军陆战队员","caption_commons":"Marines from 3rd Platoon, Kilo Company, 3rd Battalion 3rd Marine Regiment on Bou","kw":"Bougainville Island Papua New Guinea","url":"assets/pg/L04.webp","thumb_url":"assets/pg/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/8/83/Marines_on_Bougainville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Joseph R. Goddard, US Marine Corps","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":28438,"caption_zh_manual":"博根维尔岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":29052,"size":{"detail":"400x261","thumb":"400x261"},"encoding":"webp q72/q74 (源 400x261 27KB JPEG)"},{"title":"File:Port Moresby Town2 Mschlauch.jpg","caption_zh":"莫尔兹比港城区","caption":"莫尔兹比港城区","caption_commons":"Overlooking Port Moresby \"Town\" from Touaguba Hill.","kw":"Port Moresby Papua New Guinea","url":"assets/pg/L05.webp","thumb_url":"assets/pg/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/6/6a/Port_Moresby_Town2_Mschlauch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"MSchlauch","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":32644,"caption_zh_manual":"莫尔兹比港","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11450,"size":{"detail":"760x433","thumb":"400x228"},"encoding":"webp q72/q74 (源 904x515 608KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:51:41+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["语言代码未解析，已剔除：Papua New Guinean Sign Language","P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Papua Noua Guinee.wav、LL-Q9027 (swe)-Moonhouse-Papua Nya Guinea.wav、LL-Q652 (ita)-Francyskus-Papua Nuova Guinea.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py PG","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 195 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[error] image_captions：博根维尔岛拼写有误，应为布干维尔 → 改为布干维尔岛"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"新几内亚岛","evidence":"新几内亚岛东半"},{"v":"美拉尼西亚","evidence":"美拉尼西亚地区的离岛"},{"v":"莫尔斯比港","evidence":"首都为莫尔斯比港"},{"v":"巴布亚皮钦语","evidence":"巴布亚皮钦语：Papua Niugini"},{"v":"英联邦王国","evidence":"独立的英联邦王国"}],"model":"deepseek-flash"},"summary_text_raw":"巴布亚新几内亚独立国（英语：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea；巴布亚皮钦语：Papua Niugini）或简称巴新，是位于大洋洲的岛国，由新几内亚岛东半及周边美拉尼西亚地区的离岛组成，地处澳大利亚以北的西南太平洋，首都为莫尔斯比港。西面接壤印尼，南与澳大利亚隔海相望，东邻所罗门群岛。该国领土面积462,840平方千米（178,700平方英里），包括一片广阔的主岛陆地及数百个外围岛屿。\n19世纪80年代，巴布亚新几内亚独立国领土被划分为北部的德属新几内亚和南部的英属巴布亚领地，后者于1902年割让予澳大利亚。第一次世界大战后，全境归澳大利亚管辖，但仍分属两个独立行政区。第二次世界大战期间，新几内亚战役中此地发生激烈战斗；战后依《1949年巴布亚及新几内亚法令》使两个行政区合并。1975年，巴布亚新几内亚成为独立的英联邦王国，由总督代表君主行使职权。政治体制沿袭威斯敏斯特体系，由政府首脑总理领导。国民议会议员同时兼任省级领导人。\n该国人口高度集中于农村地区，2023年城市化率仅14%。","history_text":"现代人类约在四万多年前抵达这片岛屿，高地居民则在约公元前七千年独立驯化植物、发展农业，长期与外界隔绝。十九世纪八十年代，新几内亚岛东部被分割，北部归德国、南部属英国，此后全境由澳大利亚管辖。第二次世界大战期间，新几内亚战役在此激烈展开，战后两个行政区合并。1975年，巴布亚新几内亚成为独立的英联邦王国。","custom_text":"美拉尼西亚文化重视人际关系，也强调人与土地的连结，土地归属通常属于集体而非个人。库拉环交易交换物品，核心在于维系社会纽带，而非追求直接的经济利益。社群内部讲究“瓦托克体系”，成员彼此照应，对待本社群与外部社群的态度因此明显不同。传统社会由凭个人能力赢得地位的“大人物”主导，他们以慷慨分配剩余财富来巩固声望。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":152,"folk":154}},"knowledge_qa":[{"q":"巴布亚新几内亚在哪儿啊？","a":"位于大洋洲，地处澳大利亚以北的西南太平洋，由新几内亚岛东半及周边美拉尼西亚地区的离岛组成。西面接壤印尼，南与澳大利亚隔海相望，东邻所罗门群岛。","tags":["大洋洲","位置","澳大利亚北边"]},{"q":"这个国家面积有多大？","a":"领土面积462,840平方千米（178,700平方英里），包括一片广阔的主岛陆地及数百个外围岛屿。","tags":["面积","多大","国土"]},{"q":"首都叫什么名字？","a":"首都为莫尔斯比港。","tags":["首都","莫尔斯比港","城市"]},{"q":"他们那儿说什么语言？","a":"官方语言有英语、巴布亚皮钦语和希里摩圖語。","tags":["语言","说什么话","方言"]},{"q":"有什么值得看的地标或景观？","a":"地标包括科科达小径、拉包尔火山、塞皮克河、博根维尔岛和莫尔兹比港。","tags":["地标","景点","火山","小径"]},{"q":"巴布亚新几内亚的城市化程度高吗？","a":"人口高度集中于农村地区，2023年城市化率仅14%。","tags":["城市化","农村","人口"]},{"q":"这个国家是怎么独立的？","a":"1975年成为独立的英联邦王国，由总督代表君主行使职权。政治体制沿袭威斯敏斯特体系，由政府首脑总理领导。","tags":["独立","历史","英联邦"]}],"llm_audit":{"issues":[{"field":"image_captions","severity":"error","why":"博根维尔岛拼写有误，应为布干维尔","suggest":"改为布干维尔岛"}],"overall":"warn"},"audio_meta":{},"outline":[[[14097,-260],[14128,-264],[14188,-296],[14201,-296],[14206,-306],[14352,-344],[14402,-380],[14424,-387],[14431,-380],[14451,-382],[14457,-399],[14487,-410],[14508,-436],[14535,-439],[14580,-484],[14576,-548],[14646,-560],[14712,-597],[14734,-593],[14751,-600],[14783,-634],[14785,-669],[14696,-675],[14696,-696],[14707,-701],[14719,-746],[14749,-762],[14773,-793],[14815,-805],[14823,-856],[14844,-868],[14859,-906],[14876,-910],[14914,-898],[14931,-902],[14933,-914],[14918,-937],[14923,-949],[14944,-959],[15001,-964],[15006,-972],[14972,-983],[14985,-1002],[15060,-1021],[15063,-1028],[15087,-1022],[15065,-1034],[15037,-1033],[15036,-1040],[15065,-1048],[15069,-1057],[15021,-1070],[14985,-1055],[15008,-1046],[14996,-1043],[14992,-1049],[14975,-1034],[14951,-1036],[14937,-1028],[14875,-1024],[14869,-1010],[14864,-1019],[14840,-1020],[14816,-1007],[14798,-1017],[14787,-1004],[14772,-1010],[14731,-954],[14712,-943],[14707,-947],[14690,-927],[14689,-913],[14698,-903],[14687,-911],[14660,-901],[14655,-889],[14661,-880],[14636,-856],[14610,-808],[14580,-801],[14579,-791],[14544,-794],[14518,-781],[14488,-778],[14485,-757],[14482,-768],[14465,-756],[14460,-766],[14452,-750],[14451,-767],[14441,-751],[14451,-780],[14437,-774],[14431,-761],[14433,-769],[14423,-766],[14428,-777],[14422,-780],[14385,-765],[14365,-744],[14396,-797],[14380,-793],[14391,-801],[14377,-804],[14336,-790],[14356,-804],[14361,-824],[14296,-834],[14270,-826],[14249,-833],[14236,-817],[14214,-823],[14235,-819],[14245,-837],[14273,-832],[14313,-849],[14340,-877],[14334,-902],[14261,-934],[14221,-916],[14162,-923],[14135,-914],[14115,-923],[14098,-911],[14098,-690],[14085,-670],[14098,-634],[14097,-260]],[[15242,-434],[15236,-451],[15241,-468],[15229,-493],[15197,-498],[15198,-515],[15215,-535],[15210,-546],[15183,-559],[15146,-553],[15153,-566],[15118,-596],[15082,-601],[15080,-612],[15046,-627],[14964,-631],[14949,-612],[14932,-606],[14905,-616],[14905,-601],[14887,-599],[14876,-586],[14839,-578],[14833,-568],[14843,-544],[14856,-554],[14865,-548],[14885,-554],[14898,-546],[14922,-560],[14950,-559],[14967,-548],[14972,-557],[14991,-552],[14999,-542],[14992,-535],[15003,-522],[15001,-509],[15011,-501],[15020,-506],[15003,-530],[15016,-555],[15029,-557],[15047,-545],[15063,-556],[15081,-544],[15091,-549],[15101,-541],[15108,-516],[15137,-490],[15161,-497],[15168,-490],[15154,-418],[15182,-421],[15196,-433],[15201,-419],[15218,-414],[15225,-424],[15218,-421],[15219,-431],[15242,-434]],[[15314,-427],[15304,-449],[15307,-460],[15290,-485],[15269,-456],[15269,-416],[15229,-357],[15181,-336],[15109,-283],[15076,-277],[15076,-271],[15089,-270],[15081,-256],[15122,-287],[15142,-290],[15181,-319],[15205,-325],[15243,-366],[15251,-366],[15257,-382],[15282,-387],[15287,-399],[15295,-399],[15314,-427]],[[15593,-664],[15593,-679],[15592,-673],[15570,-688],[15533,-672],[15517,-653],[15522,-632],[15499,-621],[15476,-595],[15470,-577],[15477,-556],[15470,-543],[15489,-556],[15506,-555],[15521,-587],[15537,-596],[15550,-619],[15564,-618],[15592,-652],[15593,-664]],[[15118,-996],[15130,-997],[15123,-1020],[15096,-1010],[15099,-999],[15091,-1000],[15076,-970],[15109,-1003],[15118,-996]],[[14743,-198],[14743,-206],[14729,-206],[14721,-219],[14670,-211],[14673,-218],[14657,-223],[14652,-215],[14662,-211],[14658,-200],[14665,-196],[14742,-205],[14738,-196],[14743,-198]],[[15300,-914],[15293,-919],[15297,-926],[15274,-918],[15274,-926],[15264,-918],[15271,-914],[15247,-904],[15245,-896],[15242,-908],[15239,-899],[15279,-900],[15300,-914]],[[15080,-965],[15043,-963],[15051,-955],[15043,-936],[15080,-943],[15093,-964],[15084,-971],[15080,-965]],[[15376,-1159],[15356,-1164],[15338,-1157],[15320,-1134],[15376,-1159]],[[15046,-253],[15045,-266],[15019,-268],[14996,-246],[15021,-238],[15046,-253]]]}
+{
+  "qid": "Q691",
+  "iso_a2": "PG",
+  "iso_a3": "PNG",
+  "name_zh": "巴布亚新几内亚",
+  "name_en": "Papua New Guinea",
+  "capital": "莫尔斯比港",
+  "continent": "大洋洲",
+  "centroid": [
+    147,
+    -6.3
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/pg/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Papua New Guinea, a land of living cultures and extraordinary landscapes; its capital, Port Moresby, sits on a sheltered harbour, and beyond it the Kokoda Track winds through the mountains, carrying the memory of those who walked it.",
+      "tts_text_zh": "欢迎来到巴布亚新几内亚，一片拥有鲜活文化与非凡风景的土地；首都莫尔斯比港坐落在一处受庇护的港湾之畔，而在它之外，科科达小径蜿蜒穿过群山，承载着曾走过这里的人们的记忆。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 86256
+    },
+    {
+      "code": "tpi",
+      "name_zh": "巴布亚皮钦语",
+      "name_local": "巴布亚皮钦语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "ho",
+      "name_zh": "希里摩圖語",
+      "name_local": "希里摩圖語",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "巴布亚新几内亚独立国通称巴布亚新几内亚，简称巴新，是位于大洋洲的岛国，地处澳大利亚以北的西南太平洋。该国由新几内亚岛东半及周边美拉尼西亚地区的离岛组成，西面接壤印度尼西亚，南与澳大利亚隔海相望，东邻所罗门群岛。领土面积为462,840平方千米，包括一片广阔的主岛陆地及数百个外围岛屿。首都为莫尔斯比港，国民议会议员同时兼任省级领导人。该国人口高度集中于农村地区，2023年城市化率仅14%。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 195,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%B8%83%E4%BA%9A%E6%96%B0%E5%87%A0%E5%86%85%E4%BA%9A",
+    "title": "巴布亚新几内亚"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "1847年9月15日，一批马利诺会（英语：Society of Mary (Marists)）传教士抵达伍德拉克岛，基督教由此传入新几内亚。传教活动成为西方文化及宗教传播的主要渠道。荷兰于1848年吞并该岛西部。昆士兰殖民地于1878年兼并邻近的托雷斯海峡群岛，并于1883年试图吞并新几内亚部分区域。1884年，新几内亚岛东部分割，北部归德国，南部属英国。德国新几内亚公司（英语：German New Guinea Company）最初尝试开发种植园未获成功，转而从事易货贸易。在英国控制区，1895年在曼贝尔河（英语：Mambare River）附近发现金矿。1914年第一次世界大战爆发后，澳大利亚军队占领德属新几内亚（英语：Allied occupation of German New Guinea）并持续管辖至战争结束。战后，国际联盟于1921年5月9日授权澳大利亚将该地区作为第三等托管地管辖，由此形成新几内亚领地。巴布亚领地与新设的新几内亚托管地实行分治管理。1920年代在布洛洛发现金矿后，探矿者开始在全岛范围内搜寻矿藏。至1930年代，探矿者对高地山谷的勘探揭示该地区居住着超过百万人口。1946年，联合国宣布新几内亚为托管领土，由澳大利亚管辖。1949年，巴布亚居民正式获得澳大利亚公民身份，澳大利亚正式将巴布亚与新几内亚合并为巴布亚和新几内亚领地。巴布亚和新几内亚立法委员会（英语：Legislative Council of Papua and New Guinea）于1951年11月成立。自1949年起，巴布亚与新几内亚开始设立乡村理事会，其数量逐年稳步增加。此举构建了替代性权力结构，虽然有时由传统领袖充任，但标志着领导权开始向具有行政或商业经验的人士转移。1950年代，航空勘察在高地地区发现更多有人居住的山谷。战后澳大利亚重建行政管理体系，随之将控制范围扩大至此前基本未受管辖的高地区域。部分部落直至1960至1970年代才首次与西方接触。高地地区的行政管理推动了咖啡种植在该区域的大规模扩展。1964年（英语：1964 Papua New Guinean general election）及1968年（英语：1968 Papua New Guinean general election）的大选在引入政治体系的宣传运动中相继举行。1968年选举筹备期间，首个政党潘古党（英语：Pangu Pati）宣告成立。推动独立的主要动力来自惠特拉姆政府的内部决策，而非巴布亚新几内亚本土的具体诉求。“国家”的概念对该领地多数居民仍属陌生，尚未形成强烈的共同民族认同。1970年代初期，社会普遍担忧独立可能导致大部落支配小部落，并增加外国资本收购土地的风险。后来形成的独立共识主要依靠当地政治领袖的积极推动。1975年9月1日，在巴布亚新几内亚预定独立日前夕，布干维尔当局单方面宣布独立。作为回应，中央政府随即中止向该省份拨付财政资金。独立前夕还出现了其他地区运动：巴布亚贝塞纳运动（英语：Papua Besena）主张将巴布亚地区从新几内亚分离，高地解放阵线（Highlands Liberation Front）旨在抵制沿海地区对高地的主导权，另有小型团体倡导设立新省份。尽管存在这些分歧，澳大利亚议会仍于1975年9月通过《1975年巴布亚新几内亚独立法案》，正式确定9月16日为独立日。索马雷继续担任该国首任总理。选举制度改为简单多数制，旨在推动形成界限清晰的两党制但未果。国家政府均通过宪法规定的方式实现更迭。索马雷在1977年大选（英语：1977 Papua New Guinean general election）后继续担任总理，但于1980年遭不信任投票罢免，由陈仲民接任。索马雷在1982年大选（英语：1982 Papua New Guinean general election）后再度出任总理，却在1985年再次失利于不信任投票。随着布干维尔矿场建设完工，就业需求骤减，当地年轻一代几乎未能从矿区发展中获益。1988年布干维尔再度爆发起义，反抗对象同时指向布干维尔地方政府与巴布亚新几内亚中央政府。1989年5月矿场关闭后，布干维尔革命军宣布独立，中央政府于1990年撤出该地区并实施封锁，冲突由此演变为复杂的内部内战。1990年底政府军重新登陆该岛，在与当地盟友的配合下逐步扩大控制范围。1994年10月政府与部分反叛势力达成协议，次年成立布干维尔过渡政府，但政府军与布干维尔革命军的交战仍在持续。1997年，因雇佣国际佣兵介入布干维尔冲突而引发的“桑德莱恩事件（英语：Sandline affair）”直接导致中央政府垮台。经新西兰主持的和谈斡旋，各方于1998年1月达成停火协议。独立后的第一个十年间，该国经济呈现缓慢而稳定的增长态势。奥克特迪矿场（英语：Ok Tedi Mine）于1982年正式投产。尽管澳大利亚对财政预算的贡献率从1975年占政府收入的40%降至1988年的17%，但通过完善税收体系，政府成功维持了支出规模。布干维尔矿场的关闭虽引发财政困难，但随着石油、矿产和林木产品出口的扩大，国民经济在1990年代初实现复苏。不过这种增长并未缓解社会不平等现象，政府公共服务质量反而出现下滑。由于政府开支持续扩大及其引发的债务攀升",
+      "chars": 2200
+    },
+    {
+      "section": "文化",
+      "text": "由于新几内亚在地理上长期处于孤立状态，美拉尼西亚文化得以在不受重大外部影响的情况下独立发展。该文化高度重视人际关系，同时也强调人与自然环境之间的连结。这种对关系的珍视体现在库拉环交易中，其物品交换的核心目的在于维系社会纽带，而非追求直接的经济利益。土地归属权及其情感联结至关重要，但通常属于集体而非个人。强烈的内部群体意识构成“瓦托克体系”（wantok system）的核心特征，导致个体对待本社群成员与外部社群成员时存在显著差异。对个人行为的评价，通常主要乃至完全取决于其对所属本地社群产生的影响。\n传统美拉尼西亚社会通常由被称为“大人物（英语：Big man (anthropology)）”的领导者主导小型社群。这些地位普遍被认为需凭个人能力获取，社会结构因而相对平等，尽管世袭因素偶尔也起作用；除年龄与性别差异外，还存在不同的社会分层。总体而言，高地社会可能比低地社会更具个人主义倾向。正如传统“大人物”需通过慷慨分配剩余财富来巩固地位，现代的文化期望也促使人们将政治与经济职位用于恩庇关系。该体系的主导地位制约了现代性别角色的发展，导致男性依然占据了政界领袖的绝大多数。性别差异是传统社群中最为突出的不平等根源。成功跻身“大人物”之列者或能终身保有威望，但若被他人超越，其地位也可能不保。亲属关系既可源于血缘，也可来自情感认同。传统社群的权威有时也会与更高层级的治理概念产生冲突。\n该国社会仍处于高度碎片化状态，强烈的地方认同感与忠诚度同薄弱的国族认同形成鲜明对比。极乐鸟是共同的国家象征之一，出现在国旗与国徽上，其羽毛在传统仪式和“sing-sing（英语：Sing-sing (New Guinea)）”歌舞集会中依然具有重要价值。该国拥有一处联合国教科文组织世界遗产，即于2008年列入名录的库克早期农业遗址这。海贝在历史上极具价值，在欧洲人初抵远离海岸的高地地区时，贝壳的价值甚至被认为超过钢铁。贝壳至今保留着仪式用途，在东新不列颠省的部分地区，它们仍在一定程度上行使着货币职能。该国国家货币的名称“基那”便源于一种金唇珍珠贝。\n音乐形态因语言社群而异，但也存在区域共性，常作为文化知识传递载体，并在仪式与习俗中扮演重要角色。广泛使用的传统乐器包括加拉穆特鼓（木鼓）、昆杜鼓（英语：Kundu (drum)）（单面鼓）、竹笛和苏萨普（susap，口簧琴）。其他本土乐器的使用范围较为有限。二战后，吉他、尤克里里等外来乐器广泛普及。现代音乐深受多语种基督教音乐的影响。1970年代，竹乐队（bamboo band）的音乐风格风靡一时，而本地音乐的录制早在独立之前便已开始。该国的第一部音乐录像于1990年在电视上播出。早期的桑古玛（英语：Sanguma）乐队于1977年在国家艺术学院（英语：National Arts School (Papua New Guinea)）成立，并进",
+      "chars": 1200
+    },
+    {
+      "section": "早期定居历史",
+      "text": "考古证据显示，现代人类约在4.2万至4.5万年前首次抵达现今的新几内亚和澳大利亚（英语：Sahul）及俾斯麦群岛地区。布干维尔岛约于2.8万年前开始有人类定居，更偏远的马努斯岛则约在2万年前出现人类活动踪迹。这些迁徙属于人类最早走出非洲的迁徙之一，所形成的种群在史前时期基本与外界隔绝。约1万年前，因海平面上升（英语：Past sea level），新几内亚与澳大利亚分离，但澳大利亚原住民与新几内亚居民的分化早在约3.7万年前就已形成。\n约公元前7000年，新几内亚高地独立发展出农业，成为全球少数几个植物独立驯化中心。在全面农业形成之前，当地已成功驯化多种植物，包括西米、东印度橄榄和卡鲁卡（英语：Karuka）。考古研究证实，说南岛语的拉皮塔文化人群于3300年前抵达俾斯麦群岛。目前尚不清楚他们是否同期登陆新几内亚主岛，但有确凿证据显示其约在公元前500年已活跃于沿海地区。这些社群与更广阔的贸易网络保持往来，香蕉与甘蔗很可能正是通过这些贸易路线从新几内亚传播至世界其他地区。\n新几内亚岛上的各个社群虽通过贸易网络保持经济联系，但除少数政治联盟外，各社群大体维持自治，依靠自给农业维持生计。货物通常沿固定路线交易，部分村民熟悉邻近村落语言，甚至能够掌握使用（但语言本身并非政治归属的标志）。在沿海及岛屿地区，则形成了更广泛的贸易网络。虽然民众很少长途迁徙，但货物通过本地交换实现了远距离流通，文化习俗很可能也借此途径传播。尽管存在这些联系，欧洲统治下建立的更大政治实体并无先例，且往往将历史上相互敌对或毫无关联的社群强行聚合。",
+      "chars": 800
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Kokoda track Papua New Guinea.JPG",
+      "caption_zh": "巴布亚新几内亚科科达小径",
+      "caption": "巴布亚新几内亚科科达小径",
+      "caption_commons": "Walking the Kokoda track, Papua New Guinea. This section of the track is known a",
+      "kw": "Kokoda Track Papua New Guinea",
+      "url": "assets/pg/L01.webp",
+      "thumb_url": "assets/pg/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kokoda_track_Papua_New_Guinea.JPG/1920px-Kokoda_track_Papua_New_Guinea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Luke Brindley",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 340936,
+      "caption_zh_manual": "科科达小径",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 16556,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 1255KB JPEG)"
+    },
+    {
+      "title": "File:Tavurvur volcano edit.jpg",
+      "caption_zh": "拉包尔火山塔武尔武尔火山口",
+      "caption": "拉包尔火山塔武尔武尔火山口",
+      "caption_commons": "Tuvurvur volcano - part of Rabaul Caldera –– Papua New Guinea",
+      "kw": "Rabaul Tavurvur volcano",
+      "url": "assets/pg/L02.webp",
+      "thumb_url": "assets/pg/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Tavurvur_volcano_edit.jpg/1920px-Tavurvur_volcano_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Taro Taylor edit by Richard Bartz",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 36576,
+      "caption_zh_manual": "拉包尔火山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3392,
+      "size": {
+        "detail": "1080x715",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1271 288KB JPEG)"
+    },
+    {
+      "title": "File:Sepik 0057.jpg",
+      "caption_zh": "塞皮克河",
+      "caption": "塞皮克河",
+      "caption_commons": "Snapshot of the daily life of the villagers",
+      "kw": "Sepik River Papua New Guinea",
+      "url": "assets/pg/L03.webp",
+      "thumb_url": "assets/pg/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Sepik_0057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Top1963 / Tryfon Topalidis",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 143924,
+      "caption_zh_manual": "塞皮克河",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 13138,
+      "size": {
+        "detail": "1080x717",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1286x854 916KB JPEG)"
+    },
+    {
+      "title": "File:Marines on Bougainville.jpg",
+      "caption_zh": "博根维尔岛上的海军陆战队员",
+      "caption": "博根维尔岛上的海军陆战队员",
+      "caption_commons": "Marines from 3rd Platoon, Kilo Company, 3rd Battalion 3rd Marine Regiment on Bou",
+      "kw": "Bougainville Island Papua New Guinea",
+      "url": "assets/pg/L04.webp",
+      "thumb_url": "assets/pg/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Marines_on_Bougainville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Joseph R. Goddard, US Marine Corps",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 29340,
+      "caption_zh_manual": "博根维尔岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 14128,
+      "size": {
+        "detail": "400x261",
+        "thumb": "240x157"
+      },
+      "encoding": "webp q75/q78 (源 400x261 27KB JPEG)"
+    },
+    {
+      "title": "File:Port Moresby Town2 Mschlauch.jpg",
+      "caption_zh": "莫尔兹比港城区",
+      "caption": "莫尔兹比港城区",
+      "caption_commons": "Overlooking Port Moresby \"Town\" from Touaguba Hill.",
+      "kw": "Port Moresby Papua New Guinea",
+      "url": "assets/pg/L05.webp",
+      "thumb_url": "assets/pg/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Port_Moresby_Town2_Mschlauch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "MSchlauch",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 46458,
+      "caption_zh_manual": "莫尔兹比港",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5660,
+      "size": {
+        "detail": "904x515",
+        "thumb": "240x137"
+      },
+      "encoding": "webp q75/q78 (源 904x515 608KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:51:41+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "语言代码未解析，已剔除：Papua New Guinean Sign Language",
+    "P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Papua Noua Guinee.wav、LL-Q9027 (swe)-Moonhouse-Papua Nya Guinea.wav、LL-Q652 (ita)-Francyskus-Papua Nuova Guinea.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py PG",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 195 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[error] image_captions：博根维尔岛拼写有误，应为布干维尔 → 改为布干维尔岛"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "新几内亚岛",
+        "evidence": "新几内亚岛东半"
+      },
+      {
+        "v": "美拉尼西亚",
+        "evidence": "美拉尼西亚地区的离岛"
+      },
+      {
+        "v": "莫尔斯比港",
+        "evidence": "首都为莫尔斯比港"
+      },
+      {
+        "v": "巴布亚皮钦语",
+        "evidence": "巴布亚皮钦语：Papua Niugini"
+      },
+      {
+        "v": "英联邦王国",
+        "evidence": "独立的英联邦王国"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "巴布亚新几内亚独立国（英语：Independent State of Papua New Guinea），通称巴布亚新几内亚（Papua New Guinea；巴布亚皮钦语：Papua Niugini）或简称巴新，是位于大洋洲的岛国，由新几内亚岛东半及周边美拉尼西亚地区的离岛组成，地处澳大利亚以北的西南太平洋，首都为莫尔斯比港。西面接壤印尼，南与澳大利亚隔海相望，东邻所罗门群岛。该国领土面积462,840平方千米（178,700平方英里），包括一片广阔的主岛陆地及数百个外围岛屿。\n19世纪80年代，巴布亚新几内亚独立国领土被划分为北部的德属新几内亚和南部的英属巴布亚领地，后者于1902年割让予澳大利亚。第一次世界大战后，全境归澳大利亚管辖，但仍分属两个独立行政区。第二次世界大战期间，新几内亚战役中此地发生激烈战斗；战后依《1949年巴布亚及新几内亚法令》使两个行政区合并。1975年，巴布亚新几内亚成为独立的英联邦王国，由总督代表君主行使职权。政治体制沿袭威斯敏斯特体系，由政府首脑总理领导。国民议会议员同时兼任省级领导人。\n该国人口高度集中于农村地区，2023年城市化率仅14%。",
+  "history_text": "现代人类约在四万多年前抵达这片岛屿，高地居民则在约公元前七千年独立驯化植物、发展农业，长期与外界隔绝。十九世纪八十年代，新几内亚岛东部被分割，北部归德国、南部属英国，此后全境由澳大利亚管辖。第二次世界大战期间，新几内亚战役在此激烈展开，战后两个行政区合并。1975年，巴布亚新几内亚成为独立的英联邦王国。",
+  "custom_text": "美拉尼西亚文化重视人际关系，也强调人与土地的连结，土地归属通常属于集体而非个人。库拉环交易交换物品，核心在于维系社会纽带，而非追求直接的经济利益。社群内部讲究“瓦托克体系”，成员彼此照应，对待本社群与外部社群的态度因此明显不同。传统社会由凭个人能力赢得地位的“大人物”主导，他们以慷慨分配剩余财富来巩固声望。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 152,
+      "folk": 154
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "巴布亚新几内亚在哪儿啊？",
+      "a": "位于大洋洲，地处澳大利亚以北的西南太平洋，由新几内亚岛东半及周边美拉尼西亚地区的离岛组成。西面接壤印尼，南与澳大利亚隔海相望，东邻所罗门群岛。",
+      "tags": [
+        "大洋洲",
+        "位置",
+        "澳大利亚北边"
+      ]
+    },
+    {
+      "q": "这个国家面积有多大？",
+      "a": "领土面积462,840平方千米（178,700平方英里），包括一片广阔的主岛陆地及数百个外围岛屿。",
+      "tags": [
+        "面积",
+        "多大",
+        "国土"
+      ]
+    },
+    {
+      "q": "首都叫什么名字？",
+      "a": "首都为莫尔斯比港。",
+      "tags": [
+        "首都",
+        "莫尔斯比港",
+        "城市"
+      ]
+    },
+    {
+      "q": "他们那儿说什么语言？",
+      "a": "官方语言有英语、巴布亚皮钦语和希里摩圖語。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "方言"
+      ]
+    },
+    {
+      "q": "有什么值得看的地标或景观？",
+      "a": "地标包括科科达小径、拉包尔火山、塞皮克河、博根维尔岛和莫尔兹比港。",
+      "tags": [
+        "地标",
+        "景点",
+        "火山",
+        "小径"
+      ]
+    },
+    {
+      "q": "巴布亚新几内亚的城市化程度高吗？",
+      "a": "人口高度集中于农村地区，2023年城市化率仅14%。",
+      "tags": [
+        "城市化",
+        "农村",
+        "人口"
+      ]
+    },
+    {
+      "q": "这个国家是怎么独立的？",
+      "a": "1975年成为独立的英联邦王国，由总督代表君主行使职权。政治体制沿袭威斯敏斯特体系，由政府首脑总理领导。",
+      "tags": [
+        "独立",
+        "历史",
+        "英联邦"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "image_captions",
+        "severity": "error",
+        "why": "博根维尔岛拼写有误，应为布干维尔",
+        "suggest": "改为布干维尔岛"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        14097,
+        -260
+      ],
+      [
+        14128,
+        -264
+      ],
+      [
+        14188,
+        -296
+      ],
+      [
+        14201,
+        -296
+      ],
+      [
+        14206,
+        -306
+      ],
+      [
+        14352,
+        -344
+      ],
+      [
+        14402,
+        -380
+      ],
+      [
+        14424,
+        -387
+      ],
+      [
+        14431,
+        -380
+      ],
+      [
+        14451,
+        -382
+      ],
+      [
+        14457,
+        -399
+      ],
+      [
+        14487,
+        -410
+      ],
+      [
+        14508,
+        -436
+      ],
+      [
+        14535,
+        -439
+      ],
+      [
+        14580,
+        -484
+      ],
+      [
+        14576,
+        -548
+      ],
+      [
+        14646,
+        -560
+      ],
+      [
+        14712,
+        -597
+      ],
+      [
+        14734,
+        -593
+      ],
+      [
+        14751,
+        -600
+      ],
+      [
+        14783,
+        -634
+      ],
+      [
+        14785,
+        -669
+      ],
+      [
+        14696,
+        -675
+      ],
+      [
+        14696,
+        -696
+      ],
+      [
+        14707,
+        -701
+      ],
+      [
+        14719,
+        -746
+      ],
+      [
+        14749,
+        -762
+      ],
+      [
+        14773,
+        -793
+      ],
+      [
+        14815,
+        -805
+      ],
+      [
+        14823,
+        -856
+      ],
+      [
+        14844,
+        -868
+      ],
+      [
+        14859,
+        -906
+      ],
+      [
+        14876,
+        -910
+      ],
+      [
+        14914,
+        -898
+      ],
+      [
+        14931,
+        -902
+      ],
+      [
+        14933,
+        -914
+      ],
+      [
+        14918,
+        -937
+      ],
+      [
+        14923,
+        -949
+      ],
+      [
+        14944,
+        -959
+      ],
+      [
+        15001,
+        -964
+      ],
+      [
+        15006,
+        -972
+      ],
+      [
+        14972,
+        -983
+      ],
+      [
+        14985,
+        -1002
+      ],
+      [
+        15060,
+        -1021
+      ],
+      [
+        15063,
+        -1028
+      ],
+      [
+        15087,
+        -1022
+      ],
+      [
+        15065,
+        -1034
+      ],
+      [
+        15037,
+        -1033
+      ],
+      [
+        15036,
+        -1040
+      ],
+      [
+        15065,
+        -1048
+      ],
+      [
+        15069,
+        -1057
+      ],
+      [
+        15021,
+        -1070
+      ],
+      [
+        14985,
+        -1055
+      ],
+      [
+        15008,
+        -1046
+      ],
+      [
+        14996,
+        -1043
+      ],
+      [
+        14992,
+        -1049
+      ],
+      [
+        14975,
+        -1034
+      ],
+      [
+        14951,
+        -1036
+      ],
+      [
+        14937,
+        -1028
+      ],
+      [
+        14875,
+        -1024
+      ],
+      [
+        14869,
+        -1010
+      ],
+      [
+        14864,
+        -1019
+      ],
+      [
+        14840,
+        -1020
+      ],
+      [
+        14816,
+        -1007
+      ],
+      [
+        14798,
+        -1017
+      ],
+      [
+        14787,
+        -1004
+      ],
+      [
+        14772,
+        -1010
+      ],
+      [
+        14731,
+        -954
+      ],
+      [
+        14712,
+        -943
+      ],
+      [
+        14707,
+        -947
+      ],
+      [
+        14690,
+        -927
+      ],
+      [
+        14689,
+        -913
+      ],
+      [
+        14698,
+        -903
+      ],
+      [
+        14687,
+        -911
+      ],
+      [
+        14660,
+        -901
+      ],
+      [
+        14655,
+        -889
+      ],
+      [
+        14661,
+        -880
+      ],
+      [
+        14636,
+        -856
+      ],
+      [
+        14610,
+        -808
+      ],
+      [
+        14580,
+        -801
+      ],
+      [
+        14579,
+        -791
+      ],
+      [
+        14544,
+        -794
+      ],
+      [
+        14518,
+        -781
+      ],
+      [
+        14488,
+        -778
+      ],
+      [
+        14485,
+        -757
+      ],
+      [
+        14482,
+        -768
+      ],
+      [
+        14465,
+        -756
+      ],
+      [
+        14460,
+        -766
+      ],
+      [
+        14452,
+        -750
+      ],
+      [
+        14451,
+        -767
+      ],
+      [
+        14441,
+        -751
+      ],
+      [
+        14451,
+        -780
+      ],
+      [
+        14437,
+        -774
+      ],
+      [
+        14431,
+        -761
+      ],
+      [
+        14433,
+        -769
+      ],
+      [
+        14423,
+        -766
+      ],
+      [
+        14428,
+        -777
+      ],
+      [
+        14422,
+        -780
+      ],
+      [
+        14385,
+        -765
+      ],
+      [
+        14365,
+        -744
+      ],
+      [
+        14396,
+        -797
+      ],
+      [
+        14380,
+        -793
+      ],
+      [
+        14391,
+        -801
+      ],
+      [
+        14377,
+        -804
+      ],
+      [
+        14336,
+        -790
+      ],
+      [
+        14356,
+        -804
+      ],
+      [
+        14361,
+        -824
+      ],
+      [
+        14296,
+        -834
+      ],
+      [
+        14270,
+        -826
+      ],
+      [
+        14249,
+        -833
+      ],
+      [
+        14236,
+        -817
+      ],
+      [
+        14214,
+        -823
+      ],
+      [
+        14235,
+        -819
+      ],
+      [
+        14245,
+        -837
+      ],
+      [
+        14273,
+        -832
+      ],
+      [
+        14313,
+        -849
+      ],
+      [
+        14340,
+        -877
+      ],
+      [
+        14334,
+        -902
+      ],
+      [
+        14261,
+        -934
+      ],
+      [
+        14221,
+        -916
+      ],
+      [
+        14162,
+        -923
+      ],
+      [
+        14135,
+        -914
+      ],
+      [
+        14115,
+        -923
+      ],
+      [
+        14098,
+        -911
+      ],
+      [
+        14098,
+        -690
+      ],
+      [
+        14085,
+        -670
+      ],
+      [
+        14098,
+        -634
+      ],
+      [
+        14097,
+        -260
+      ]
+    ],
+    [
+      [
+        15242,
+        -434
+      ],
+      [
+        15236,
+        -451
+      ],
+      [
+        15241,
+        -468
+      ],
+      [
+        15229,
+        -493
+      ],
+      [
+        15197,
+        -498
+      ],
+      [
+        15198,
+        -515
+      ],
+      [
+        15215,
+        -535
+      ],
+      [
+        15210,
+        -546
+      ],
+      [
+        15183,
+        -559
+      ],
+      [
+        15146,
+        -553
+      ],
+      [
+        15153,
+        -566
+      ],
+      [
+        15118,
+        -596
+      ],
+      [
+        15082,
+        -601
+      ],
+      [
+        15080,
+        -612
+      ],
+      [
+        15046,
+        -627
+      ],
+      [
+        14964,
+        -631
+      ],
+      [
+        14949,
+        -612
+      ],
+      [
+        14932,
+        -606
+      ],
+      [
+        14905,
+        -616
+      ],
+      [
+        14905,
+        -601
+      ],
+      [
+        14887,
+        -599
+      ],
+      [
+        14876,
+        -586
+      ],
+      [
+        14839,
+        -578
+      ],
+      [
+        14833,
+        -568
+      ],
+      [
+        14843,
+        -544
+      ],
+      [
+        14856,
+        -554
+      ],
+      [
+        14865,
+        -548
+      ],
+      [
+        14885,
+        -554
+      ],
+      [
+        14898,
+        -546
+      ],
+      [
+        14922,
+        -560
+      ],
+      [
+        14950,
+        -559
+      ],
+      [
+        14967,
+        -548
+      ],
+      [
+        14972,
+        -557
+      ],
+      [
+        14991,
+        -552
+      ],
+      [
+        14999,
+        -542
+      ],
+      [
+        14992,
+        -535
+      ],
+      [
+        15003,
+        -522
+      ],
+      [
+        15001,
+        -509
+      ],
+      [
+        15011,
+        -501
+      ],
+      [
+        15020,
+        -506
+      ],
+      [
+        15003,
+        -530
+      ],
+      [
+        15016,
+        -555
+      ],
+      [
+        15029,
+        -557
+      ],
+      [
+        15047,
+        -545
+      ],
+      [
+        15063,
+        -556
+      ],
+      [
+        15081,
+        -544
+      ],
+      [
+        15091,
+        -549
+      ],
+      [
+        15101,
+        -541
+      ],
+      [
+        15108,
+        -516
+      ],
+      [
+        15137,
+        -490
+      ],
+      [
+        15161,
+        -497
+      ],
+      [
+        15168,
+        -490
+      ],
+      [
+        15154,
+        -418
+      ],
+      [
+        15182,
+        -421
+      ],
+      [
+        15196,
+        -433
+      ],
+      [
+        15201,
+        -419
+      ],
+      [
+        15218,
+        -414
+      ],
+      [
+        15225,
+        -424
+      ],
+      [
+        15218,
+        -421
+      ],
+      [
+        15219,
+        -431
+      ],
+      [
+        15242,
+        -434
+      ]
+    ],
+    [
+      [
+        15314,
+        -427
+      ],
+      [
+        15304,
+        -449
+      ],
+      [
+        15307,
+        -460
+      ],
+      [
+        15290,
+        -485
+      ],
+      [
+        15269,
+        -456
+      ],
+      [
+        15269,
+        -416
+      ],
+      [
+        15229,
+        -357
+      ],
+      [
+        15181,
+        -336
+      ],
+      [
+        15109,
+        -283
+      ],
+      [
+        15076,
+        -277
+      ],
+      [
+        15076,
+        -271
+      ],
+      [
+        15089,
+        -270
+      ],
+      [
+        15081,
+        -256
+      ],
+      [
+        15122,
+        -287
+      ],
+      [
+        15142,
+        -290
+      ],
+      [
+        15181,
+        -319
+      ],
+      [
+        15205,
+        -325
+      ],
+      [
+        15243,
+        -366
+      ],
+      [
+        15251,
+        -366
+      ],
+      [
+        15257,
+        -382
+      ],
+      [
+        15282,
+        -387
+      ],
+      [
+        15287,
+        -399
+      ],
+      [
+        15295,
+        -399
+      ],
+      [
+        15314,
+        -427
+      ]
+    ],
+    [
+      [
+        15593,
+        -664
+      ],
+      [
+        15593,
+        -679
+      ],
+      [
+        15592,
+        -673
+      ],
+      [
+        15570,
+        -688
+      ],
+      [
+        15533,
+        -672
+      ],
+      [
+        15517,
+        -653
+      ],
+      [
+        15522,
+        -632
+      ],
+      [
+        15499,
+        -621
+      ],
+      [
+        15476,
+        -595
+      ],
+      [
+        15470,
+        -577
+      ],
+      [
+        15477,
+        -556
+      ],
+      [
+        15470,
+        -543
+      ],
+      [
+        15489,
+        -556
+      ],
+      [
+        15506,
+        -555
+      ],
+      [
+        15521,
+        -587
+      ],
+      [
+        15537,
+        -596
+      ],
+      [
+        15550,
+        -619
+      ],
+      [
+        15564,
+        -618
+      ],
+      [
+        15592,
+        -652
+      ],
+      [
+        15593,
+        -664
+      ]
+    ],
+    [
+      [
+        15118,
+        -996
+      ],
+      [
+        15130,
+        -997
+      ],
+      [
+        15123,
+        -1020
+      ],
+      [
+        15096,
+        -1010
+      ],
+      [
+        15099,
+        -999
+      ],
+      [
+        15091,
+        -1000
+      ],
+      [
+        15076,
+        -970
+      ],
+      [
+        15109,
+        -1003
+      ],
+      [
+        15118,
+        -996
+      ]
+    ],
+    [
+      [
+        14743,
+        -198
+      ],
+      [
+        14743,
+        -206
+      ],
+      [
+        14729,
+        -206
+      ],
+      [
+        14721,
+        -219
+      ],
+      [
+        14670,
+        -211
+      ],
+      [
+        14673,
+        -218
+      ],
+      [
+        14657,
+        -223
+      ],
+      [
+        14652,
+        -215
+      ],
+      [
+        14662,
+        -211
+      ],
+      [
+        14658,
+        -200
+      ],
+      [
+        14665,
+        -196
+      ],
+      [
+        14742,
+        -205
+      ],
+      [
+        14738,
+        -196
+      ],
+      [
+        14743,
+        -198
+      ]
+    ],
+    [
+      [
+        15300,
+        -914
+      ],
+      [
+        15293,
+        -919
+      ],
+      [
+        15297,
+        -926
+      ],
+      [
+        15274,
+        -918
+      ],
+      [
+        15274,
+        -926
+      ],
+      [
+        15264,
+        -918
+      ],
+      [
+        15271,
+        -914
+      ],
+      [
+        15247,
+        -904
+      ],
+      [
+        15245,
+        -896
+      ],
+      [
+        15242,
+        -908
+      ],
+      [
+        15239,
+        -899
+      ],
+      [
+        15279,
+        -900
+      ],
+      [
+        15300,
+        -914
+      ]
+    ],
+    [
+      [
+        15080,
+        -965
+      ],
+      [
+        15043,
+        -963
+      ],
+      [
+        15051,
+        -955
+      ],
+      [
+        15043,
+        -936
+      ],
+      [
+        15080,
+        -943
+      ],
+      [
+        15093,
+        -964
+      ],
+      [
+        15084,
+        -971
+      ],
+      [
+        15080,
+        -965
+      ]
+    ],
+    [
+      [
+        15376,
+        -1159
+      ],
+      [
+        15356,
+        -1164
+      ],
+      [
+        15338,
+        -1157
+      ],
+      [
+        15320,
+        -1134
+      ],
+      [
+        15376,
+        -1159
+      ]
+    ],
+    [
+      [
+        15046,
+        -253
+      ],
+      [
+        15045,
+        -266
+      ],
+      [
+        15019,
+        -268
+      ],
+      [
+        14996,
+        -246
+      ],
+      [
+        15021,
+        -238
+      ],
+      [
+        15046,
+        -253
+      ]
+    ]
+  ]
+}

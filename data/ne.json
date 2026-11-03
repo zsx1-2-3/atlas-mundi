@@ -1,1 +1,619 @@
-{"qid":"Q1032","iso_a2":"NE","iso_a3":"NER","name_zh":"尼日尔","name_en":"Niger","capital":"尼亚美","continent":"非洲","centroid":[10,17],"centroid_source":"wikidata P625","languages":[{"code":"fr","name_zh":"法语","name_local":"法语","role":"spoken","audio_url":"assets/ne/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue au Niger, un pays d'Afrique de l'Ouest dont la capitale est Niamey ; laissez-vous guider vers le grand marché de la ville, au cœur de son animation quotidienne.","tts_text_zh":"欢迎来到尼日尔，这个西非国家的首都是尼亚美；请随我前往城市的大市场，感受它日常的喧闹与生机。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":57888},{"code":"ha","name_zh":"豪萨语","name_local":"豪萨语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"尼日尔共和国通称尼日尔，是西非内陆国家之一，因尼日尔河而得名，首都尼亚美。尼日尔东临乍得，南界尼日利亚、贝宁，西部与布基纳法索和马里毗邻，北部与阿尔及利亚接壤，东北与利比亚交界，边境总长5,500公里。尼日尔面积126.76万平方公里，是西非最大的国家，其土地面积有80%位于撒哈拉沙漠。尼日尔人口约2,600万，其中大多数聚居在该国的最南部和西部。尼日尔的首都和最大城市为尼亚美，位于尼日尔西南角。尼日尔最大的种族群体是豪萨人，占人口一半以上。豪萨语是国语也是最通用的语言，另外有10种语言被认可为国家语言。伊斯兰教传入西非后，现今的尼日尔地区曾被多个政权统治，包括加涅姆-博尔努帝国、马里帝国、阿加德兹苏丹国和桑海帝国等。尼日尔大多数人口生活在农村地区，几乎没有机会接受高等教育。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":342,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%B0%BC%E6%97%A5%E5%B0%94","title":"尼日尔"},"culture_excerpts":[{"section":"历史","text":"公元8至16世纪，在尼日尔河中上游地区先后出现过三个强大国家：加纳帝国、马里帝国和桑海帝国。11至18世纪在乍得湖地区兴起了博尔努帝国。加纳王国和马里帝国的统治中心虽然不在尼日尔，但通过贸易往来而对该地区产生了很大影响。而尼日尔的西部和中部都曾经是桑海帝国的一部分。1897年～1900年被法国占领，1904年成为法国殖民地（法属尼日军管地），1940年代并入法属西非。1960年8月3日独立，哈马尼·迪奥里成为首任总统。1974年4月，武装部队参谋长赛义尼·孔切发动政变夺权。孔切一直掌权至1987年11月去世，由阿里·赛义布继任。1993年3月，马哈曼·奥斯曼在该国首次民主总统选举中胜出，不过他的政府在1996年1月被军人发动政变推翻。坦贾·马马杜在1999年11月当选总统，2004年12月成功连任，后于2010年2月18日被军队发动政变推翻。随后穆罕默杜·优素福在2011年总统选举后上台，2021年宣布辞任总统。2021年3月30日晚上至31日，新一任总统穆罕默德·巴祖姆宣誓就职前夕，军方发动军事政变（英语：2021 Nigerien coup d'état attempt），但被挫败。","chars":501},{"section":"居民与宗教","text":"2011年估计尼日尔全国人口1574万。人口密度为每平方公里5人。人口主要集中在尼阿美及其周边地区。人口结构相对年轻，65岁以上的老人占总人口的2%。\n全国有5个主要部族：豪萨人（占全国人口56%）、哲尔马-桑海人（22%）、富拉尼人（8.5%）、图阿雷格人（8%）和卡努里人（4%）。","chars":1200},{"section":"人口","text":"2011年估计尼日尔全国人口1574万。人口密度为每平方公里5人。人口主要集中在尼阿美及其周边地区。人口结构相对年轻，65岁以上的老人占总人口的2%。","chars":1200},{"section":"语言","text":"2025年3月31日，尼日尔军政府宣布为摆脱法国殖民的影响，官方语言由原来的法语变更成为豪萨语，并将法语降级为尼日尔的工作语言。值得一提的是，因为豪萨语在此之前并不是任何国家的官方语言，因此尼日尔成为世界上首个、西非地区首个采用豪萨语作为官方语言的国家。此外，尼日尔全国各部族虽然均有自己的语言，但豪萨语可在尼日尔全国大部分地区通用。","chars":1200}],"landmark_images":[{"title":"File:1997 277-9A Agadez mosque cropped.jpg","caption_zh":"阿加德兹大清真寺局部","caption":"阿加德兹大清真寺局部","caption_commons":"Mosque in Agadez, Niger. Photographed 1997.1997 #277-9A Agadez mosque","kw":"Agadez Grand Mosque","url":"assets/ne/L01.webp","thumb_url":"assets/ne/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/6/62/1997_277-9A_Agadez_mosque_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Dan Lundberg","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":26762,"caption_zh_manual":"阿加德兹大清真寺","caption_zh_source":"llm_from_commons_filename","thumb_bytes":9384,"size":{"detail":"760x513","thumb":"400x270"},"encoding":"webp q72/q74 (源 1072x723 821KB JPEG)"},{"title":"File:Great Mosque of Kairouan minaret view 01.jpg","caption_zh":"大阿加德兹清真寺宣礼塔景观","caption":"大阿加德兹清真寺宣礼塔景观","caption_commons":"Grande Mosquée (Sidi Okba) Minaret view of the great mosque of Kairouan from the","kw":"Agadez minaret mosque","url":"assets/ne/L02.webp","thumb_url":"assets/ne/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Great_Mosque_of_Kairouan_minaret_view_01.jpg/1920px-Great_Mosque_of_Kairouan_minaret_view_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"IssamBarhoumi","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":47624,"caption_zh_manual":"大阿加德兹清真寺宣礼塔","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14142,"size":{"detail":"760x560","thumb":"400x295"},"encoding":"webp q72/q74 (源 1920x1414 671KB JPEG)"},{"title":"File:Hôtel de ville de Niamey 01.jpg","caption_zh":"尼日尔河尼亚美段旁的市政厅","caption":"尼日尔河尼亚美段旁的市政厅","caption_commons":"Façade principale Hôtel de ville de Niamey","kw":"Niger River Niamey","url":"assets/ne/L03.webp","thumb_url":"assets/ne/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/H%C3%B4tel_de_ville_de_Niamey_01.jpg/1920px-H%C3%B4tel_de_ville_de_Niamey_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Barke11","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":47324,"caption_zh_manual":"尼日尔河尼亚美段","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15454,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 514KB JPEG)"}],"image_license":"CC BY-SA 2.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:47:29+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 无通行语，从 P2936 补：法语","P443 发音语种不符已弃用：Lb-Niger.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Niger.wav、LL-Q9610 (ben)-Tahmid-নাইজার.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py NE","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（3 张，中文图注）","LLM 质检[error] languages：豪萨语在尼日尔是通用语言，非法定官方语言；官方语言为法语 → fr 标 official，ha 标 spoken","LLM 质检[warn] languages：法语被标为 spoken，但尼日尔官方语言是法语 → fr 的 role 改为 official"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"伊斯兰教","evidence":"伊斯兰教传入西非后"}],"architecture":[],"heritage":[],"keywords":[{"v":"尼日尔河","evidence":"因尼日尔河而得名"},{"v":"撒哈拉沙漠","evidence":"80%位于撒哈拉沙漠"},{"v":"豪萨语","evidence":"豪萨语是国语也是最通用的语言"},{"v":"尼亚美","evidence":"首都尼亚美"}],"model":"deepseek-flash"},"summary_text_raw":"尼日尔共和国（豪萨语：Jamhuriyar Nijar），通称尼日尔（豪萨语：Nijar），是西非内陆国家之一，因尼日尔河而得名，首都尼亚美。东临乍得，南界尼日利亚、贝宁，西部与布基纳法索和马里毗邻，北部与阿尔及利亚接壤，东北与利比亚交界。边境总长5,500公里。面积126.76万平方公里，是西非最大的国家。其土地面积有80%位于撒哈拉沙漠。人口约2,600万，其中大多数聚居在该国的最南部和西部。尼日尔的首都和最大城市为尼亚美，位于尼日尔西南角。\n伊斯兰教传入西非后，现今的尼日尔地区曾被多个政权统治，包括加涅姆-博尔努帝国、马里帝国、阿加德兹苏丹国和桑海帝国等，然后在瓜分非洲时期成为法属西非的一部分，并在1922年成为独立的尼日尔殖民地。自1960年独立以来，尼日尔人已经历过七部宪法、五次政变和四段军事统治时期。2023年政变后，尼日尔现由军政府国家国土保卫委员会统治。\n尼日尔最大的种族群体是豪萨人，占人口一半以上。豪萨语是国语也是最通用的语言，另外有10种语言被认可为国家语言。其大多数人口生活在农村地区，几乎没有机会接受高等教育。","history_text":"尼日尔河中上游一带，公元8至16世纪先后兴起加纳、马里、桑海三个强大国家，乍得湖地区则在11至18世纪兴起博尔努帝国；西部和中部一度属桑海帝国。1897至1900年被法国占领，1904年沦为法国殖民地，1940年代并入法属西非。1960年8月3日独立，哈马尼·迪奥里出任首任总统；1974年孔切政变夺权，此后军人干政与民主选举交替，政权屡经更迭。","custom_text":"豪萨语通行于大部分地区，各部族虽各有语言，日常交往仍多借它沟通；哲尔马-桑海人、富拉尼人、图阿雷格人与卡努里人各守其俗，聚居南部和西部。伊斯兰教深入生活节律，礼拜、斋月与节庆构成一年中的时间刻度。图阿雷格人的蓝染布与银饰、富拉尼人赶牛迁徙的路线，都是集市上看得见的日常。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":173,"folk":135}},"knowledge_qa":[{"q":"尼日尔在哪儿啊？周围都是哪些国家？","a":"尼日尔是西非内陆国家，东临乍得，南界尼日利亚和贝宁，西部与布基纳法索、马里毗邻，北部与阿尔及利亚接壤，东北与利比亚交界。","tags":["西非","位置","邻国"]},{"q":"尼日尔面积有多大？首都是哪里？","a":"面积126.76万平方公里，是西非最大的国家，首都是尼亚美，也是最大城市，位于尼日尔西南角。","tags":["面积","首都","尼亚美"]},{"q":"尼日尔说什么语言？","a":"法语是 spoken 语言，豪萨语是官方语言，也是国语和最通用的语言，另外有10种语言被认可为国家语言。","tags":["语言","法语","豪萨语"]},{"q":"尼日尔有什么值得看的建筑或景观？","a":"有阿加德兹大清真寺、大阿加德兹清真寺宣礼塔，还有尼日尔河尼亚美段。","tags":["地标","清真寺","尼日尔河"]},{"q":"尼日尔人口多少？主要住在哪里？","a":"人口约2,600万，大多数聚居在该国的最南部和西部，大多数人口生活在农村地区。","tags":["人口","居住","南部"]},{"q":"尼日尔的地形和沙漠情况怎么样？","a":"土地面积有80%位于撒哈拉沙漠，是西非最大的国家，因尼日尔河而得名。","tags":["沙漠","撒哈拉","地形"]},{"q":"尼日尔现在是谁在统治？","a":"2023年政变后，尼日尔现由军政府国家国土保卫委员会统治。","tags":["政变","军政府","统治"]}],"llm_audit":{"issues":[{"field":"languages","severity":"error","why":"豪萨语在尼日尔是通用语言，非法定官方语言；官方语言为法语","suggest":"fr 标 official，ha 标 spoken"},{"field":"languages","severity":"warn","why":"法语被标为 spoken，但尼日尔官方语言是法语","suggest":"fr 的 role 改为 official"}],"overall":"warn"},"audio_meta":{},"outline":[[[360,1170],[284,1240],[237,1224],[246,1200],[239,1190],[205,1234],[224,1242],[211,1271],[197,1272],[184,1261],[156,1263],[98,1303],[98,1337],[127,1335],[105,1344],[90,1362],[59,1369],[37,1404],[39,1425],[15,1455],[22,1500],[95,1498],[133,1528],[300,1534],[303,1543],[351,1535],[353,1550],[385,1568],[406,1630],[418,1642],[423,1914],[579,1945],[748,2087],[1197,2352],[1348,2318],[1422,2262],[1498,2300],[1517,2199],[1518,2149],[1561,2095],[1554,2089],[1557,2075],[1597,2034],[1574,1990],[1547,1692],[1437,1575],[1383,1502],[1366,1455],[1345,1444],[1361,1370],[1333,1371],[1323,1355],[1284,1349],[1280,1337],[1256,1324],[1247,1306],[1206,1312],[1144,1336],[1068,1338],[1012,1325],[959,1280],[868,1292],[810,1330],[782,1334],[739,1311],[720,1312],[707,1300],[694,1300],[630,1366],[614,1364],[552,1388],[523,1374],[482,1377],[445,1367],[413,1347],[409,1300],[393,1275],[364,1252],[360,1191],[367,1176],[360,1170]]]}
+{
+  "qid": "Q1032",
+  "iso_a2": "NE",
+  "iso_a3": "NER",
+  "name_zh": "尼日尔",
+  "name_en": "Niger",
+  "capital": "尼亚美",
+  "continent": "非洲",
+  "centroid": [
+    10,
+    17
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "spoken",
+      "audio_url": "assets/ne/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue au Niger, un pays d'Afrique de l'Ouest dont la capitale est Niamey ; laissez-vous guider vers le grand marché de la ville, au cœur de son animation quotidienne.",
+      "tts_text_zh": "欢迎来到尼日尔，这个西非国家的首都是尼亚美；请随我前往城市的大市场，感受它日常的喧闹与生机。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 57888
+    },
+    {
+      "code": "ha",
+      "name_zh": "豪萨语",
+      "name_local": "豪萨语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "尼日尔共和国通称尼日尔，是西非内陆国家之一，因尼日尔河而得名，首都尼亚美。尼日尔东临乍得，南界尼日利亚、贝宁，西部与布基纳法索和马里毗邻，北部与阿尔及利亚接壤，东北与利比亚交界，边境总长5,500公里。尼日尔面积126.76万平方公里，是西非最大的国家，其土地面积有80%位于撒哈拉沙漠。尼日尔人口约2,600万，其中大多数聚居在该国的最南部和西部。尼日尔的首都和最大城市为尼亚美，位于尼日尔西南角。尼日尔最大的种族群体是豪萨人，占人口一半以上。豪萨语是国语也是最通用的语言，另外有10种语言被认可为国家语言。伊斯兰教传入西非后，现今的尼日尔地区曾被多个政权统治，包括加涅姆-博尔努帝国、马里帝国、阿加德兹苏丹国和桑海帝国等。尼日尔大多数人口生活在农村地区，几乎没有机会接受高等教育。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 342,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E6%97%A5%E5%B0%94",
+    "title": "尼日尔"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "公元8至16世纪，在尼日尔河中上游地区先后出现过三个强大国家：加纳帝国、马里帝国和桑海帝国。11至18世纪在乍得湖地区兴起了博尔努帝国。加纳王国和马里帝国的统治中心虽然不在尼日尔，但通过贸易往来而对该地区产生了很大影响。而尼日尔的西部和中部都曾经是桑海帝国的一部分。1897年～1900年被法国占领，1904年成为法国殖民地（法属尼日军管地），1940年代并入法属西非。1960年8月3日独立，哈马尼·迪奥里成为首任总统。1974年4月，武装部队参谋长赛义尼·孔切发动政变夺权。孔切一直掌权至1987年11月去世，由阿里·赛义布继任。1993年3月，马哈曼·奥斯曼在该国首次民主总统选举中胜出，不过他的政府在1996年1月被军人发动政变推翻。坦贾·马马杜在1999年11月当选总统，2004年12月成功连任，后于2010年2月18日被军队发动政变推翻。随后穆罕默杜·优素福在2011年总统选举后上台，2021年宣布辞任总统。2021年3月30日晚上至31日，新一任总统穆罕默德·巴祖姆宣誓就职前夕，军方发动军事政变（英语：2021 Nigerien coup d'état attempt），但被挫败。",
+      "chars": 501
+    },
+    {
+      "section": "居民与宗教",
+      "text": "2011年估计尼日尔全国人口1574万。人口密度为每平方公里5人。人口主要集中在尼阿美及其周边地区。人口结构相对年轻，65岁以上的老人占总人口的2%。\n全国有5个主要部族：豪萨人（占全国人口56%）、哲尔马-桑海人（22%）、富拉尼人（8.5%）、图阿雷格人（8%）和卡努里人（4%）。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "2011年估计尼日尔全国人口1574万。人口密度为每平方公里5人。人口主要集中在尼阿美及其周边地区。人口结构相对年轻，65岁以上的老人占总人口的2%。",
+      "chars": 1200
+    },
+    {
+      "section": "语言",
+      "text": "2025年3月31日，尼日尔军政府宣布为摆脱法国殖民的影响，官方语言由原来的法语变更成为豪萨语，并将法语降级为尼日尔的工作语言。值得一提的是，因为豪萨语在此之前并不是任何国家的官方语言，因此尼日尔成为世界上首个、西非地区首个采用豪萨语作为官方语言的国家。此外，尼日尔全国各部族虽然均有自己的语言，但豪萨语可在尼日尔全国大部分地区通用。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:1997 277-9A Agadez mosque cropped.jpg",
+      "caption_zh": "阿加德兹大清真寺局部",
+      "caption": "阿加德兹大清真寺局部",
+      "caption_commons": "Mosque in Agadez, Niger. Photographed 1997.1997 #277-9A Agadez mosque",
+      "kw": "Agadez Grand Mosque",
+      "url": "assets/ne/L01.webp",
+      "thumb_url": "assets/ne/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/1997_277-9A_Agadez_mosque_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Dan Lundberg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 45400,
+      "caption_zh_manual": "阿加德兹大清真寺",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4422,
+      "size": {
+        "detail": "1072x723",
+        "thumb": "240x162"
+      },
+      "encoding": "webp q75/q78 (源 1072x723 821KB JPEG)"
+    },
+    {
+      "title": "File:Great Mosque of Kairouan minaret view 01.jpg",
+      "caption_zh": "大阿加德兹清真寺宣礼塔景观",
+      "caption": "大阿加德兹清真寺宣礼塔景观",
+      "caption_commons": "Grande Mosquée (Sidi Okba) Minaret view of the great mosque of Kairouan from the",
+      "kw": "Agadez minaret mosque",
+      "url": "assets/ne/L02.webp",
+      "thumb_url": "assets/ne/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Great_Mosque_of_Kairouan_minaret_view_01.jpg/1920px-Great_Mosque_of_Kairouan_minaret_view_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "IssamBarhoumi",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 103230,
+      "caption_zh_manual": "大阿加德兹清真寺宣礼塔",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5702,
+      "size": {
+        "detail": "1080x795",
+        "thumb": "240x177"
+      },
+      "encoding": "webp q75/q78 (源 1920x1414 671KB JPEG)"
+    },
+    {
+      "title": "File:Hôtel de ville de Niamey 01.jpg",
+      "caption_zh": "尼日尔河尼亚美段旁的市政厅",
+      "caption": "尼日尔河尼亚美段旁的市政厅",
+      "caption_commons": "Façade principale Hôtel de ville de Niamey",
+      "kw": "Niger River Niamey",
+      "url": "assets/ne/L03.webp",
+      "thumb_url": "assets/ne/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/H%C3%B4tel_de_ville_de_Niamey_01.jpg/1920px-H%C3%B4tel_de_ville_de_Niamey_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Barke11",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 90628,
+      "caption_zh_manual": "尼日尔河尼亚美段",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7116,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 514KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 2.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:47:29+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 无通行语，从 P2936 补：法语",
+    "P443 发音语种不符已弃用：Lb-Niger.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Niger.wav、LL-Q9610 (ben)-Tahmid-নাইজার.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py NE",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（3 张，中文图注）",
+    "LLM 质检[error] languages：豪萨语在尼日尔是通用语言，非法定官方语言；官方语言为法语 → fr 标 official，ha 标 spoken",
+    "LLM 质检[warn] languages：法语被标为 spoken，但尼日尔官方语言是法语 → fr 的 role 改为 official"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "伊斯兰教",
+        "evidence": "伊斯兰教传入西非后"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "尼日尔河",
+        "evidence": "因尼日尔河而得名"
+      },
+      {
+        "v": "撒哈拉沙漠",
+        "evidence": "80%位于撒哈拉沙漠"
+      },
+      {
+        "v": "豪萨语",
+        "evidence": "豪萨语是国语也是最通用的语言"
+      },
+      {
+        "v": "尼亚美",
+        "evidence": "首都尼亚美"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "尼日尔共和国（豪萨语：Jamhuriyar Nijar），通称尼日尔（豪萨语：Nijar），是西非内陆国家之一，因尼日尔河而得名，首都尼亚美。东临乍得，南界尼日利亚、贝宁，西部与布基纳法索和马里毗邻，北部与阿尔及利亚接壤，东北与利比亚交界。边境总长5,500公里。面积126.76万平方公里，是西非最大的国家。其土地面积有80%位于撒哈拉沙漠。人口约2,600万，其中大多数聚居在该国的最南部和西部。尼日尔的首都和最大城市为尼亚美，位于尼日尔西南角。\n伊斯兰教传入西非后，现今的尼日尔地区曾被多个政权统治，包括加涅姆-博尔努帝国、马里帝国、阿加德兹苏丹国和桑海帝国等，然后在瓜分非洲时期成为法属西非的一部分，并在1922年成为独立的尼日尔殖民地。自1960年独立以来，尼日尔人已经历过七部宪法、五次政变和四段军事统治时期。2023年政变后，尼日尔现由军政府国家国土保卫委员会统治。\n尼日尔最大的种族群体是豪萨人，占人口一半以上。豪萨语是国语也是最通用的语言，另外有10种语言被认可为国家语言。其大多数人口生活在农村地区，几乎没有机会接受高等教育。",
+  "history_text": "尼日尔河中上游一带，公元8至16世纪先后兴起加纳、马里、桑海三个强大国家，乍得湖地区则在11至18世纪兴起博尔努帝国；西部和中部一度属桑海帝国。1897至1900年被法国占领，1904年沦为法国殖民地，1940年代并入法属西非。1960年8月3日独立，哈马尼·迪奥里出任首任总统；1974年孔切政变夺权，此后军人干政与民主选举交替，政权屡经更迭。",
+  "custom_text": "豪萨语通行于大部分地区，各部族虽各有语言，日常交往仍多借它沟通；哲尔马-桑海人、富拉尼人、图阿雷格人与卡努里人各守其俗，聚居南部和西部。伊斯兰教深入生活节律，礼拜、斋月与节庆构成一年中的时间刻度。图阿雷格人的蓝染布与银饰、富拉尼人赶牛迁徙的路线，都是集市上看得见的日常。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 173,
+      "folk": 135
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "尼日尔在哪儿啊？周围都是哪些国家？",
+      "a": "尼日尔是西非内陆国家，东临乍得，南界尼日利亚和贝宁，西部与布基纳法索、马里毗邻，北部与阿尔及利亚接壤，东北与利比亚交界。",
+      "tags": [
+        "西非",
+        "位置",
+        "邻国"
+      ]
+    },
+    {
+      "q": "尼日尔面积有多大？首都是哪里？",
+      "a": "面积126.76万平方公里，是西非最大的国家，首都是尼亚美，也是最大城市，位于尼日尔西南角。",
+      "tags": [
+        "面积",
+        "首都",
+        "尼亚美"
+      ]
+    },
+    {
+      "q": "尼日尔说什么语言？",
+      "a": "法语是 spoken 语言，豪萨语是官方语言，也是国语和最通用的语言，另外有10种语言被认可为国家语言。",
+      "tags": [
+        "语言",
+        "法语",
+        "豪萨语"
+      ]
+    },
+    {
+      "q": "尼日尔有什么值得看的建筑或景观？",
+      "a": "有阿加德兹大清真寺、大阿加德兹清真寺宣礼塔，还有尼日尔河尼亚美段。",
+      "tags": [
+        "地标",
+        "清真寺",
+        "尼日尔河"
+      ]
+    },
+    {
+      "q": "尼日尔人口多少？主要住在哪里？",
+      "a": "人口约2,600万，大多数聚居在该国的最南部和西部，大多数人口生活在农村地区。",
+      "tags": [
+        "人口",
+        "居住",
+        "南部"
+      ]
+    },
+    {
+      "q": "尼日尔的地形和沙漠情况怎么样？",
+      "a": "土地面积有80%位于撒哈拉沙漠，是西非最大的国家，因尼日尔河而得名。",
+      "tags": [
+        "沙漠",
+        "撒哈拉",
+        "地形"
+      ]
+    },
+    {
+      "q": "尼日尔现在是谁在统治？",
+      "a": "2023年政变后，尼日尔现由军政府国家国土保卫委员会统治。",
+      "tags": [
+        "政变",
+        "军政府",
+        "统治"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "languages",
+        "severity": "error",
+        "why": "豪萨语在尼日尔是通用语言，非法定官方语言；官方语言为法语",
+        "suggest": "fr 标 official，ha 标 spoken"
+      },
+      {
+        "field": "languages",
+        "severity": "warn",
+        "why": "法语被标为 spoken，但尼日尔官方语言是法语",
+        "suggest": "fr 的 role 改为 official"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        360,
+        1170
+      ],
+      [
+        284,
+        1240
+      ],
+      [
+        237,
+        1224
+      ],
+      [
+        246,
+        1200
+      ],
+      [
+        239,
+        1190
+      ],
+      [
+        205,
+        1234
+      ],
+      [
+        224,
+        1242
+      ],
+      [
+        211,
+        1271
+      ],
+      [
+        197,
+        1272
+      ],
+      [
+        184,
+        1261
+      ],
+      [
+        156,
+        1263
+      ],
+      [
+        98,
+        1303
+      ],
+      [
+        98,
+        1337
+      ],
+      [
+        127,
+        1335
+      ],
+      [
+        105,
+        1344
+      ],
+      [
+        90,
+        1362
+      ],
+      [
+        59,
+        1369
+      ],
+      [
+        37,
+        1404
+      ],
+      [
+        39,
+        1425
+      ],
+      [
+        15,
+        1455
+      ],
+      [
+        22,
+        1500
+      ],
+      [
+        95,
+        1498
+      ],
+      [
+        133,
+        1528
+      ],
+      [
+        300,
+        1534
+      ],
+      [
+        303,
+        1543
+      ],
+      [
+        351,
+        1535
+      ],
+      [
+        353,
+        1550
+      ],
+      [
+        385,
+        1568
+      ],
+      [
+        406,
+        1630
+      ],
+      [
+        418,
+        1642
+      ],
+      [
+        423,
+        1914
+      ],
+      [
+        579,
+        1945
+      ],
+      [
+        748,
+        2087
+      ],
+      [
+        1197,
+        2352
+      ],
+      [
+        1348,
+        2318
+      ],
+      [
+        1422,
+        2262
+      ],
+      [
+        1498,
+        2300
+      ],
+      [
+        1517,
+        2199
+      ],
+      [
+        1518,
+        2149
+      ],
+      [
+        1561,
+        2095
+      ],
+      [
+        1554,
+        2089
+      ],
+      [
+        1557,
+        2075
+      ],
+      [
+        1597,
+        2034
+      ],
+      [
+        1574,
+        1990
+      ],
+      [
+        1547,
+        1692
+      ],
+      [
+        1437,
+        1575
+      ],
+      [
+        1383,
+        1502
+      ],
+      [
+        1366,
+        1455
+      ],
+      [
+        1345,
+        1444
+      ],
+      [
+        1361,
+        1370
+      ],
+      [
+        1333,
+        1371
+      ],
+      [
+        1323,
+        1355
+      ],
+      [
+        1284,
+        1349
+      ],
+      [
+        1280,
+        1337
+      ],
+      [
+        1256,
+        1324
+      ],
+      [
+        1247,
+        1306
+      ],
+      [
+        1206,
+        1312
+      ],
+      [
+        1144,
+        1336
+      ],
+      [
+        1068,
+        1338
+      ],
+      [
+        1012,
+        1325
+      ],
+      [
+        959,
+        1280
+      ],
+      [
+        868,
+        1292
+      ],
+      [
+        810,
+        1330
+      ],
+      [
+        782,
+        1334
+      ],
+      [
+        739,
+        1311
+      ],
+      [
+        720,
+        1312
+      ],
+      [
+        707,
+        1300
+      ],
+      [
+        694,
+        1300
+      ],
+      [
+        630,
+        1366
+      ],
+      [
+        614,
+        1364
+      ],
+      [
+        552,
+        1388
+      ],
+      [
+        523,
+        1374
+      ],
+      [
+        482,
+        1377
+      ],
+      [
+        445,
+        1367
+      ],
+      [
+        413,
+        1347
+      ],
+      [
+        409,
+        1300
+      ],
+      [
+        393,
+        1275
+      ],
+      [
+        364,
+        1252
+      ],
+      [
+        360,
+        1191
+      ],
+      [
+        367,
+        1176
+      ],
+      [
+        360,
+        1170
+      ]
+    ]
+  ]
+}

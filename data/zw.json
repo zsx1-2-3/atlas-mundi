@@ -1,1 +1,623 @@
-{"qid":"Q954","iso_a2":"ZW","iso_a3":"ZWE","name_zh":"津巴布韦","name_en":"Zimbabwe","capital":"哈拉雷","continent":"非洲","centroid":[30,-19],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/zw/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Zimbabwe, a land of stone ruins and wide skies; its capital is Harare, and among its landmarks stands the Great Zimbabwe, the ancient stone city that gave the nation its name.","tts_text_zh":"欢迎来到津巴布韦，这片石城遗迹与辽阔天空的土地；首都是哈拉雷，代表地标之一是大津巴布韦遗址，这座古老石城正是国名的由来。","audio_voice":"en-US-AriaNeural","audio_bytes":73296},{"code":"sn","name_zh":"修納語","name_local":"修納語","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"nd","name_zh":"北恩德貝萊語","name_local":"北恩德貝萊語","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"津巴布韦共和国通称津巴布韦，是位于非洲南部的内陆国家，地处赞比西河与林波波河之间。它南接南非，西部及西南部与博茨瓦纳接壤，西北与赞比亚接壤，东部及东北部与莫桑比克相邻；尽管与纳米比亚无领土接壤，但两国在赞比西河河岸仅相隔200余米相望。津巴布韦国土面积39万平方公里，于1980年4月18日独立建国，最大城市和首都为哈拉雷。境内主要河流为赞比西河与林波波河。津巴布韦人口的组成在立国后变化巨大，独立时总人口690万，其中约30万（当时约占5.5%）是白人统治阶级，改革政策之后白人人口持续下降，目前仅剩不到数万人，且多在欧美境外居留并大量移民他国。由于黑人出生率高，津巴布韦人口增至1443万（2018年），黑人已占总人口的99%以上，主要有绍纳族（占79%）和恩德贝莱族（占17%）两大民族。自11世纪开始，津巴布韦境内曾存在过洛兹维帝国、姆韦尼·马塔帕王国以及姆塔瓦卡兹等不同的原住民国家。不列颠南非公司在1890年入侵了津巴布韦地区，划出了现在津巴布韦的边境线。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":434,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E8%BE%9B%E5%B7%B4%E5%A8%81","title":"辛巴威"},"culture_excerpts":[{"section":"历史","text":"1888年，大英帝国赛西尔·罗兹从恩德贝勒国王手上取得他们领土内的采矿权，随后在1889年替英属南非公司取得这里的领土权，并于1895年正式建立“罗德西亚”。1896年到1897年，绍纳人和恩德贝勒人开始武力反抗英国统治，爆发了津巴布韦第一次解放战争（英语：Second Matabele War）。罗德西亚在1911年时分裂为北罗德西亚（今日的赞比亚）与南罗德西亚，后者在1922年时成为英属自治殖民地，即今日的津巴布韦。1953年时，英国将南北罗德西亚以及尼亚萨兰（今马拉维）合并为一个联邦，命名为罗德西亚与尼亚萨兰联邦（简称罗尼联邦）。联邦于1963年解散。在1966年至1968年的国际斡旋工作失败后，英国要求联合国对罗德西亚进行经济制裁，但一意孤行的伊恩·史密斯白人政权（获同样为南非的白人政府支持）仍然在1970年时宣布成立共和国政体，也没有获得任何国际上的承认。在白人执政的这段期间，津巴布韦境内的黑人团体一直在进行激烈的游击战试图推翻当权者，持续的战乱影响了国家运行。不过津巴布韦经济迎来高峰，在白人精英治理时期有“非洲粮仓”的美誉。1978年，在国际制裁与黑人武装运动的交相夹击下，白人政府终于被迫与包括津巴布韦非洲民族联盟（非民盟）及津巴布韦非洲人民联盟（非人盟）在内的诸多黑人势力签订了协约，共同推派卫理公会主教穆佐列瓦担任津巴布韦罗德西亚临时政府的首相。在英国的监督下，黑人游击组织终于愿意卸除武装结束内战，在1980年时举行了该国有史以来的第一次民主选举，虽然穆佐列瓦有原本罗德西亚白人政权与南非政府的支持，但却在本国大部分的黑人族裔中缺乏信赖，他的过渡政府并没有在大选中获得持续执政的机会，而是由罗伯特·穆加贝与他领导的非民盟获得政权。在国家政权顺利转移到黑人政府的手上之后，于1980年4月18日津巴布韦共和国正式独立建国。在此之后穆加贝连续赢得多次竞选，直到2017年津巴布韦政变后下台。2002年，穆加比第四度获得连任。反对党与劳工组织纷纷发动罢工与抗争，要求当时已执政22年的穆加比提早下台退休，而政府则以军警部队镇压。国际货币基金组织（IMF）为首的资金援助债权国，控告穆加比政权藐视人权与在大选中舞弊，纷纷搁置援助计划。而英联邦则在2002年时宣布对津巴布韦停权一年处分，津巴布韦则于不久之后主动退出该协会作为回应。2008年大选，最大反对党民主改革运动党（MDC）的茨万吉拉伊第一轮投票的得票率领先穆加比，但茨万吉拉伊的得票率未达半数，因此于6月27日举行次轮选举，却由于茨万吉拉伊因选举暴力而被迫退选，最终穆加比胜出。2013年8月大选，执政33年的穆加比通过选举舞弊的手段，击败反对派领袖茨万吉拉伊，继续连任总统，成为非洲最年长的国家元首。2016年12月17日，穆加比在执政党津巴布韦非洲民族联盟－爱国阵线（ZANU-PF）的党大会上被提名为2018年总统选举候选人，准备挑战全世界第一位“百岁总统”。2017年津巴布韦政变，军方发动政变，11月19日，执政党津巴布韦非洲民族联盟－爱国阵线通过罢黜穆加比的党主席及第一书记职权。21日穆加比辞职下台。","chars":1299},{"section":"文化","text":"津巴布韦主要节日以及法定假日包括：新年（1月1日）、青年节（2月21日）、复活节、独立日（4月18日）、劳动节（5月1日）、非洲日（5月25日）、国家英雄日（8月11日）、建军节（8月12日）、国家团结日（12月22日）、圣诞节（12月25-26日）等。津巴布韦的公共假期由《公共假期和商业禁令法》（第 10:21 章）及其各种修正案具体规定。\n足球是津巴布韦国内最流行的运动之一。虽然橄榄球和板球也很受欢迎，但传统上主要流行于占少数的白人当中。津巴布韦曾在奥运当中得到8面奖牌，分别是1980年的莫斯科奥运“陆上曲棍球”项目得到1面金牌；2004年的雅典奥运得到金银铜各1面奖牌；2008年的北京奥运得到1金3银。值得一提的是，雅典及北京奥运共7面奖牌皆是由白人女运动员柯丝蒂·考文垂一人于游泳项目所获得。","chars":1200},{"section":"人口","text":"津巴布韦人口约为16,743,000（2018年10月估计值），其中非裔黑人占了98%，混血与亚裔人种占1%，白人则占不到1%。在黑人族裔中最主要的一支为绍纳人（占总人口82%），居次为恩德贝莱人（Ndebele，占总人口14%）。\n英语是津巴布韦的官方语言，并与绍纳语和恩德贝莱语并列为主要语言。","chars":1200},{"section":"教育","text":"自独立以来，政府对津巴布韦的教育事业投资巨大，因而有了非洲最高的成人识字率。在2013年达到90.70%，略低于2010年的92%。","chars":501}],"landmark_images":[{"title":"File:Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 05.jpg","caption_zh":"维多利亚瀑布","caption":"维多利亚瀑布","caption_commons":"Victoria Falls, Zambia-Zimbabwe","kw":"Victoria Falls Zimbabwe","url":"assets/zw/L01.webp","thumb_url":"assets/zw/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg/1920px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Diego Delso","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":51220,"caption_zh_manual":"维多利亚瀑布","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14718,"size":{"detail":"760x434","thumb":"400x228"},"encoding":"webp q72/q74 (源 1920x1096 623KB JPEG)"},{"title":"File:Great-Zimbabwe-6.jpg","caption_zh":"大津巴布韦遗址","caption":"大津巴布韦遗址","caption_commons":"","kw":"Great Zimbabwe Ruins","url":"assets/zw/L02.webp","thumb_url":"assets/zw/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/1/19/Great-Zimbabwe-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":null,"license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":17572,"caption_zh_manual":"大津巴布韦遗址","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18160,"size":{"detail":"384x261","thumb":"384x261"},"encoding":"webp q72/q74 (源 384x261 38KB JPEG)"},{"title":"File:Lion-hwange.jpg","caption_zh":"万基国家公园的狮子","caption":"万基国家公园的狮子","caption_commons":"Lion resting near a termite mound","kw":"Hwange National Park","url":"assets/zw/L03.webp","thumb_url":"assets/zw/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/c/c1/Lion-hwange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Laura (cardamom)","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":85584,"caption_zh_manual":"万基国家公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":27320,"size":{"detail":"760x545","thumb":"400x287"},"encoding":"webp q72/q74 (源 1852x1328 1398KB JPEG)"},{"title":"File:Sunrise_Matobo_Zimbabwe.jpg","caption_zh":"日出时分的马托博山","caption":"日出时分的马托博山","caption_commons":"Sunrise Matobo National Park","kw":"Matobo Hills","url":"assets/zw/L04.webp","thumb_url":"assets/zw/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Sunrise_Matobo_Zimbabwe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikipedia_lead","pick_tier":"strict","author":"Macvivo at English Wikipedia (Original text: Samwise Gamgee)","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":26304,"caption_zh_manual":"马托博山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10540,"size":{"detail":"604x453","thumb":"400x300"},"encoding":"webp q72/q74 (源 604x453 313KB JPEG)"},{"title":"File:Zambezi River near Zambezi Town.jpg","caption_zh":"赞比西镇附近的赞比西河","caption":"赞比西镇附近的赞比西河","caption_commons":"","kw":"Zambezi River Zimbabwe","url":"assets/zw/L05.webp","thumb_url":"assets/zw/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/9/9f/Zambezi_River_near_Zambezi_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":null,"license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":14950,"caption_zh_manual":"赞比西河","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11224,"size":{"detail":"450x296","thumb":"400x263"},"encoding":"webp q72/q74 (源 450x296 126KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:17:14+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["语言代码未解析，已剔除：Barwe、卡蘭加語、科伊桑语系、恩道方言、聰加語、Zimbabwe Sign Language、汤加语、茨瓦纳语、文達語、科萨语、南比亞語","P37 返回 16 个语言，去重/去上位概念后保留 3 个：英语、修納語、北恩德貝萊語","P443 发音语种不符已弃用：LL-Q7026 (cat)-Millars-Zimbàbue.wav、Lb-Simbabwe.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Zimbabwe.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py ZW","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"赞比西河","evidence":"地处赞比西河与林波波河之间"},{"v":"林波波河","evidence":"地处赞比西河与林波波河之间"},{"v":"哈拉雷","evidence":"最大城市和首都为哈拉雷"},{"v":"绍纳族","evidence":"主要有绍纳族（占79%）"},{"v":"恩德贝莱族","evidence":"恩德贝莱族（占17%）"}],"model":"deepseek-flash"},"summary_text_raw":"津巴布韦共和国（英语：Republic of Zimbabwe），通称津巴布韦（英语：Zimbabwe），是位于非洲南部的内陆国家，地处赞比西河与林波波河之间，南接南非，西部及西南部与博茨瓦纳接壤，西北与赞比亚接壤，东部及东北部与莫桑比克相邻，尽管津巴布韦与纳米比亚无领土接壤，但是在赞比西河河岸两国仅相隔200余米相望。津巴布韦于1980年4月18日独立建国，面积39万平方公里，最大城市和首都为哈拉雷。\n津巴布韦人口的组成在立国后变化巨大，独立时总人口690万，其中约30万（当时约占5.5%）是白人统治阶级，但改革政策之后，目前白人出现持续下降的现象，已经仅剩不到数万人，且多在欧美境外居留并大量移民他国。由于黑人的出生率高，津巴布韦人口增至1443万（2018年），黑人已经占总人口的99%以上，主要有绍纳族（占79%）和恩德贝莱族（占17%）两大民族。\n自11世纪开始，津巴布韦境内曾存在过洛兹维帝国、姆韦尼·马塔帕王国以及姆塔瓦卡兹等不同的原住民国家。不列颠南非公司在1890年入侵了津巴布韦地区，划出了现在津巴布韦的边境线。","history_text":"十一世纪起，境内先后出现洛兹维帝国、姆韦尼·马塔帕王国等原住民国家。1890年不列颠南非公司入侵，划出今日边境，1895年建立“罗德西亚”。1922年南罗德西亚成为英属自治殖民地。1960年代白人政权单方面宣布共和国，未获国际承认，黑人武装斗争持续。1980年独立建国。","custom_text":"新年、青年节、独立日、国家英雄日、国家团结日与圣诞节都是法定假日，公共假期由《公共假期和商业禁令法》规定。足球是街头最流行的运动，橄榄球和板球则长期流行于白人群体。英语与绍纳语、恩德贝莱语并为主要语言。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":135,"folk":101}},"knowledge_qa":[{"q":"津巴布韦在哪儿啊？周围都是哪些国家？","a":"在非洲南部，是个内陆国家，夹在赞比西河和林波波河之间。南边接南非，西边和西南边是博茨瓦纳，西北边是赞比亚，东边和东北边挨着莫桑比克。","tags":["非洲","位置","邻国"]},{"q":"津巴布韦的首都是哪座城市？","a":"首都和最大城市都是哈拉雷。","tags":["首都","哈拉雷","城市"]},{"q":"津巴布韦面积有多大？","a":"面积大约39万平方公里。","tags":["面积","多大","国土"]},{"q":"津巴布韦人平时说什么语言？","a":"官方语言有三种：英语、修纳语和北恩德贝莱语。","tags":["语言","说什么话","方言"]},{"q":"津巴布韦有什么值得去看的地方？","a":"有名的地标包括维多利亚瀑布、大津巴布韦遗址、万基国家公园、马托博山和赞比西河。","tags":["景点","地标","旅游","看什么"]},{"q":"津巴布韦有什么好吃的或者特产？","a":"现有资料里没有提到具体的饮食或特产信息。","tags":["吃什么","特产","美食"]},{"q":"津巴布韦有什么传统节日或习俗？","a":"现有资料里没有提到具体的节日或传统习俗。","tags":["节日","习俗","文化"]},{"q":"津巴布韦什么时候独立的？","a":"1980年4月18日独立建国。","tags":["独立","历史","建国"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[2526,-1779],[2552,-1786],[2568,-1781],[2592,-1800],[2621,-1788],[2670,-1807],[2702,-1796],[2758,-1736],[2782,-1696],[2881,-1649],[2886,-1606],[2893,-1596],[2959,-1566],[3040,-1564],[3040,-1600],[3126,-1602],[3140,-1616],[3171,-1622],[3191,-1643],[3229,-1645],[3267,-1660],[3273,-1671],[3297,-1668],[3283,-1693],[3302,-1735],[3294,-1750],[3302,-1762],[3293,-1797],[3296,-1826],[3304,-1835],[3287,-1854],[3290,-1877],[3269,-1883],[3268,-1895],[3286,-1908],[3276,-1946],[3283,-1950],[3282,-1967],[3294,-1965],[3303,-1978],[3301,-2003],[3288,-2010],[3267,-2053],[3248,-2060],[3249,-2094],[3234,-2113],[3245,-2131],[3129,-2240],[3084,-2228],[3034,-2234],[2976,-2213],[2936,-2219],[2904,-2202],[2904,-2180],[2862,-2165],[2799,-2155],[2767,-2107],[2770,-2051],[2727,-2050],[2720,-2009],[2671,-1993],[2631,-1965],[2630,-1958],[2616,-1954],[2595,-1910],[2594,-1892],[2526,-1800],[2526,-1779]]]}
+{
+  "qid": "Q954",
+  "iso_a2": "ZW",
+  "iso_a3": "ZWE",
+  "name_zh": "津巴布韦",
+  "name_en": "Zimbabwe",
+  "capital": "哈拉雷",
+  "continent": "非洲",
+  "centroid": [
+    30,
+    -19
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/zw/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Zimbabwe, a land of stone ruins and wide skies; its capital is Harare, and among its landmarks stands the Great Zimbabwe, the ancient stone city that gave the nation its name.",
+      "tts_text_zh": "欢迎来到津巴布韦，这片石城遗迹与辽阔天空的土地；首都是哈拉雷，代表地标之一是大津巴布韦遗址，这座古老石城正是国名的由来。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 73296
+    },
+    {
+      "code": "sn",
+      "name_zh": "修納語",
+      "name_local": "修納語",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "nd",
+      "name_zh": "北恩德貝萊語",
+      "name_local": "北恩德貝萊語",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "津巴布韦共和国通称津巴布韦，是位于非洲南部的内陆国家，地处赞比西河与林波波河之间。它南接南非，西部及西南部与博茨瓦纳接壤，西北与赞比亚接壤，东部及东北部与莫桑比克相邻；尽管与纳米比亚无领土接壤，但两国在赞比西河河岸仅相隔200余米相望。津巴布韦国土面积39万平方公里，于1980年4月18日独立建国，最大城市和首都为哈拉雷。境内主要河流为赞比西河与林波波河。津巴布韦人口的组成在立国后变化巨大，独立时总人口690万，其中约30万（当时约占5.5%）是白人统治阶级，改革政策之后白人人口持续下降，目前仅剩不到数万人，且多在欧美境外居留并大量移民他国。由于黑人出生率高，津巴布韦人口增至1443万（2018年），黑人已占总人口的99%以上，主要有绍纳族（占79%）和恩德贝莱族（占17%）两大民族。自11世纪开始，津巴布韦境内曾存在过洛兹维帝国、姆韦尼·马塔帕王国以及姆塔瓦卡兹等不同的原住民国家。不列颠南非公司在1890年入侵了津巴布韦地区，划出了现在津巴布韦的边境线。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 434,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E8%BE%9B%E5%B7%B4%E5%A8%81",
+    "title": "辛巴威"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "1888年，大英帝国赛西尔·罗兹从恩德贝勒国王手上取得他们领土内的采矿权，随后在1889年替英属南非公司取得这里的领土权，并于1895年正式建立“罗德西亚”。1896年到1897年，绍纳人和恩德贝勒人开始武力反抗英国统治，爆发了津巴布韦第一次解放战争（英语：Second Matabele War）。罗德西亚在1911年时分裂为北罗德西亚（今日的赞比亚）与南罗德西亚，后者在1922年时成为英属自治殖民地，即今日的津巴布韦。1953年时，英国将南北罗德西亚以及尼亚萨兰（今马拉维）合并为一个联邦，命名为罗德西亚与尼亚萨兰联邦（简称罗尼联邦）。联邦于1963年解散。在1966年至1968年的国际斡旋工作失败后，英国要求联合国对罗德西亚进行经济制裁，但一意孤行的伊恩·史密斯白人政权（获同样为南非的白人政府支持）仍然在1970年时宣布成立共和国政体，也没有获得任何国际上的承认。在白人执政的这段期间，津巴布韦境内的黑人团体一直在进行激烈的游击战试图推翻当权者，持续的战乱影响了国家运行。不过津巴布韦经济迎来高峰，在白人精英治理时期有“非洲粮仓”的美誉。1978年，在国际制裁与黑人武装运动的交相夹击下，白人政府终于被迫与包括津巴布韦非洲民族联盟（非民盟）及津巴布韦非洲人民联盟（非人盟）在内的诸多黑人势力签订了协约，共同推派卫理公会主教穆佐列瓦担任津巴布韦罗德西亚临时政府的首相。在英国的监督下，黑人游击组织终于愿意卸除武装结束内战，在1980年时举行了该国有史以来的第一次民主选举，虽然穆佐列瓦有原本罗德西亚白人政权与南非政府的支持，但却在本国大部分的黑人族裔中缺乏信赖，他的过渡政府并没有在大选中获得持续执政的机会，而是由罗伯特·穆加贝与他领导的非民盟获得政权。在国家政权顺利转移到黑人政府的手上之后，于1980年4月18日津巴布韦共和国正式独立建国。在此之后穆加贝连续赢得多次竞选，直到2017年津巴布韦政变后下台。2002年，穆加比第四度获得连任。反对党与劳工组织纷纷发动罢工与抗争，要求当时已执政22年的穆加比提早下台退休，而政府则以军警部队镇压。国际货币基金组织（IMF）为首的资金援助债权国，控告穆加比政权藐视人权与在大选中舞弊，纷纷搁置援助计划。而英联邦则在2002年时宣布对津巴布韦停权一年处分，津巴布韦则于不久之后主动退出该协会作为回应。2008年大选，最大反对党民主改革运动党（MDC）的茨万吉拉伊第一轮投票的得票率领先穆加比，但茨万吉拉伊的得票率未达半数，因此于6月27日举行次轮选举，却由于茨万吉拉伊因选举暴力而被迫退选，最终穆加比胜出。2013年8月大选，执政33年的穆加比通过选举舞弊的手段，击败反对派领袖茨万吉拉伊，继续连任总统，成为非洲最年长的国家元首。2016年12月17日，穆加比在执政党津巴布韦非洲民族联盟－爱国阵线（ZANU-PF）的党大会上被提名为2018年总统选举候选人，准备挑战全世界第一位“百岁总统”。2017年津巴布韦政变，军方发动政变，11月19日，执政党津巴布韦非洲民族联盟－爱国阵线通过罢黜穆加比的党主席及第一书记职权。21日穆加比辞职下台。",
+      "chars": 1299
+    },
+    {
+      "section": "文化",
+      "text": "津巴布韦主要节日以及法定假日包括：新年（1月1日）、青年节（2月21日）、复活节、独立日（4月18日）、劳动节（5月1日）、非洲日（5月25日）、国家英雄日（8月11日）、建军节（8月12日）、国家团结日（12月22日）、圣诞节（12月25-26日）等。津巴布韦的公共假期由《公共假期和商业禁令法》（第 10:21 章）及其各种修正案具体规定。\n足球是津巴布韦国内最流行的运动之一。虽然橄榄球和板球也很受欢迎，但传统上主要流行于占少数的白人当中。津巴布韦曾在奥运当中得到8面奖牌，分别是1980年的莫斯科奥运“陆上曲棍球”项目得到1面金牌；2004年的雅典奥运得到金银铜各1面奖牌；2008年的北京奥运得到1金3银。值得一提的是，雅典及北京奥运共7面奖牌皆是由白人女运动员柯丝蒂·考文垂一人于游泳项目所获得。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "津巴布韦人口约为16,743,000（2018年10月估计值），其中非裔黑人占了98%，混血与亚裔人种占1%，白人则占不到1%。在黑人族裔中最主要的一支为绍纳人（占总人口82%），居次为恩德贝莱人（Ndebele，占总人口14%）。\n英语是津巴布韦的官方语言，并与绍纳语和恩德贝莱语并列为主要语言。",
+      "chars": 1200
+    },
+    {
+      "section": "教育",
+      "text": "自独立以来，政府对津巴布韦的教育事业投资巨大，因而有了非洲最高的成人识字率。在2013年达到90.70%，略低于2010年的92%。",
+      "chars": 501
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 05.jpg",
+      "caption_zh": "维多利亚瀑布",
+      "caption": "维多利亚瀑布",
+      "caption_commons": "Victoria Falls, Zambia-Zimbabwe",
+      "kw": "Victoria Falls Zimbabwe",
+      "url": "assets/zw/L01.webp",
+      "thumb_url": "assets/zw/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg/1920px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 109548,
+      "caption_zh_manual": "维多利亚瀑布",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6382,
+      "size": {
+        "detail": "1080x616",
+        "thumb": "240x137"
+      },
+      "encoding": "webp q75/q78 (源 1920x1096 623KB JPEG)"
+    },
+    {
+      "title": "File:Great-Zimbabwe-6.jpg",
+      "caption_zh": "大津巴布韦遗址",
+      "caption": "大津巴布韦遗址",
+      "caption_commons": "",
+      "kw": "Great Zimbabwe Ruins",
+      "url": "assets/zw/L02.webp",
+      "thumb_url": "assets/zw/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Great-Zimbabwe-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": null,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 18368,
+      "caption_zh_manual": "大津巴布韦遗址",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8310,
+      "size": {
+        "detail": "384x261",
+        "thumb": "240x163"
+      },
+      "encoding": "webp q75/q78 (源 384x261 38KB JPEG)"
+    },
+    {
+      "title": "File:Lion-hwange.jpg",
+      "caption_zh": "万基国家公园的狮子",
+      "caption": "万基国家公园的狮子",
+      "caption_commons": "Lion resting near a termite mound",
+      "kw": "Hwange National Park",
+      "url": "assets/zw/L03.webp",
+      "thumb_url": "assets/zw/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Lion-hwange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Laura (cardamom)",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 159966,
+      "caption_zh_manual": "万基国家公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11716,
+      "size": {
+        "detail": "1080x774",
+        "thumb": "240x172"
+      },
+      "encoding": "webp q75/q78 (源 1852x1328 1398KB JPEG)"
+    },
+    {
+      "title": "File:Sunrise_Matobo_Zimbabwe.jpg",
+      "caption_zh": "日出时分的马托博山",
+      "caption": "日出时分的马托博山",
+      "caption_commons": "Sunrise Matobo National Park",
+      "kw": "Matobo Hills",
+      "url": "assets/zw/L04.webp",
+      "thumb_url": "assets/zw/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sunrise_Matobo_Zimbabwe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikipedia_lead",
+      "pick_tier": "strict",
+      "author": "Macvivo at English Wikipedia (Original text: Samwise Gamgee)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 27430,
+      "caption_zh_manual": "马托博山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4668,
+      "size": {
+        "detail": "604x453",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 604x453 313KB JPEG)"
+    },
+    {
+      "title": "File:Zambezi River near Zambezi Town.jpg",
+      "caption_zh": "赞比西镇附近的赞比西河",
+      "caption": "赞比西镇附近的赞比西河",
+      "caption_commons": "",
+      "kw": "Zambezi River Zimbabwe",
+      "url": "assets/zw/L05.webp",
+      "thumb_url": "assets/zw/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Zambezi_River_near_Zambezi_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": null,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 15396,
+      "caption_zh_manual": "赞比西河",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4920,
+      "size": {
+        "detail": "450x296",
+        "thumb": "240x158"
+      },
+      "encoding": "webp q75/q78 (源 450x296 126KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:17:14+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "语言代码未解析，已剔除：Barwe、卡蘭加語、科伊桑语系、恩道方言、聰加語、Zimbabwe Sign Language、汤加语、茨瓦纳语、文達語、科萨语、南比亞語",
+    "P37 返回 16 个语言，去重/去上位概念后保留 3 个：英语、修納語、北恩德貝萊語",
+    "P443 发音语种不符已弃用：LL-Q7026 (cat)-Millars-Zimbàbue.wav、Lb-Simbabwe.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Zimbabwe.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py ZW",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "赞比西河",
+        "evidence": "地处赞比西河与林波波河之间"
+      },
+      {
+        "v": "林波波河",
+        "evidence": "地处赞比西河与林波波河之间"
+      },
+      {
+        "v": "哈拉雷",
+        "evidence": "最大城市和首都为哈拉雷"
+      },
+      {
+        "v": "绍纳族",
+        "evidence": "主要有绍纳族（占79%）"
+      },
+      {
+        "v": "恩德贝莱族",
+        "evidence": "恩德贝莱族（占17%）"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "津巴布韦共和国（英语：Republic of Zimbabwe），通称津巴布韦（英语：Zimbabwe），是位于非洲南部的内陆国家，地处赞比西河与林波波河之间，南接南非，西部及西南部与博茨瓦纳接壤，西北与赞比亚接壤，东部及东北部与莫桑比克相邻，尽管津巴布韦与纳米比亚无领土接壤，但是在赞比西河河岸两国仅相隔200余米相望。津巴布韦于1980年4月18日独立建国，面积39万平方公里，最大城市和首都为哈拉雷。\n津巴布韦人口的组成在立国后变化巨大，独立时总人口690万，其中约30万（当时约占5.5%）是白人统治阶级，但改革政策之后，目前白人出现持续下降的现象，已经仅剩不到数万人，且多在欧美境外居留并大量移民他国。由于黑人的出生率高，津巴布韦人口增至1443万（2018年），黑人已经占总人口的99%以上，主要有绍纳族（占79%）和恩德贝莱族（占17%）两大民族。\n自11世纪开始，津巴布韦境内曾存在过洛兹维帝国、姆韦尼·马塔帕王国以及姆塔瓦卡兹等不同的原住民国家。不列颠南非公司在1890年入侵了津巴布韦地区，划出了现在津巴布韦的边境线。",
+  "history_text": "十一世纪起，境内先后出现洛兹维帝国、姆韦尼·马塔帕王国等原住民国家。1890年不列颠南非公司入侵，划出今日边境，1895年建立“罗德西亚”。1922年南罗德西亚成为英属自治殖民地。1960年代白人政权单方面宣布共和国，未获国际承认，黑人武装斗争持续。1980年独立建国。",
+  "custom_text": "新年、青年节、独立日、国家英雄日、国家团结日与圣诞节都是法定假日，公共假期由《公共假期和商业禁令法》规定。足球是街头最流行的运动，橄榄球和板球则长期流行于白人群体。英语与绍纳语、恩德贝莱语并为主要语言。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 135,
+      "folk": 101
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "津巴布韦在哪儿啊？周围都是哪些国家？",
+      "a": "在非洲南部，是个内陆国家，夹在赞比西河和林波波河之间。南边接南非，西边和西南边是博茨瓦纳，西北边是赞比亚，东边和东北边挨着莫桑比克。",
+      "tags": [
+        "非洲",
+        "位置",
+        "邻国"
+      ]
+    },
+    {
+      "q": "津巴布韦的首都是哪座城市？",
+      "a": "首都和最大城市都是哈拉雷。",
+      "tags": [
+        "首都",
+        "哈拉雷",
+        "城市"
+      ]
+    },
+    {
+      "q": "津巴布韦面积有多大？",
+      "a": "面积大约39万平方公里。",
+      "tags": [
+        "面积",
+        "多大",
+        "国土"
+      ]
+    },
+    {
+      "q": "津巴布韦人平时说什么语言？",
+      "a": "官方语言有三种：英语、修纳语和北恩德贝莱语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "方言"
+      ]
+    },
+    {
+      "q": "津巴布韦有什么值得去看的地方？",
+      "a": "有名的地标包括维多利亚瀑布、大津巴布韦遗址、万基国家公园、马托博山和赞比西河。",
+      "tags": [
+        "景点",
+        "地标",
+        "旅游",
+        "看什么"
+      ]
+    },
+    {
+      "q": "津巴布韦有什么好吃的或者特产？",
+      "a": "现有资料里没有提到具体的饮食或特产信息。",
+      "tags": [
+        "吃什么",
+        "特产",
+        "美食"
+      ]
+    },
+    {
+      "q": "津巴布韦有什么传统节日或习俗？",
+      "a": "现有资料里没有提到具体的节日或传统习俗。",
+      "tags": [
+        "节日",
+        "习俗",
+        "文化"
+      ]
+    },
+    {
+      "q": "津巴布韦什么时候独立的？",
+      "a": "1980年4月18日独立建国。",
+      "tags": [
+        "独立",
+        "历史",
+        "建国"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        2526,
+        -1779
+      ],
+      [
+        2552,
+        -1786
+      ],
+      [
+        2568,
+        -1781
+      ],
+      [
+        2592,
+        -1800
+      ],
+      [
+        2621,
+        -1788
+      ],
+      [
+        2670,
+        -1807
+      ],
+      [
+        2702,
+        -1796
+      ],
+      [
+        2758,
+        -1736
+      ],
+      [
+        2782,
+        -1696
+      ],
+      [
+        2881,
+        -1649
+      ],
+      [
+        2886,
+        -1606
+      ],
+      [
+        2893,
+        -1596
+      ],
+      [
+        2959,
+        -1566
+      ],
+      [
+        3040,
+        -1564
+      ],
+      [
+        3040,
+        -1600
+      ],
+      [
+        3126,
+        -1602
+      ],
+      [
+        3140,
+        -1616
+      ],
+      [
+        3171,
+        -1622
+      ],
+      [
+        3191,
+        -1643
+      ],
+      [
+        3229,
+        -1645
+      ],
+      [
+        3267,
+        -1660
+      ],
+      [
+        3273,
+        -1671
+      ],
+      [
+        3297,
+        -1668
+      ],
+      [
+        3283,
+        -1693
+      ],
+      [
+        3302,
+        -1735
+      ],
+      [
+        3294,
+        -1750
+      ],
+      [
+        3302,
+        -1762
+      ],
+      [
+        3293,
+        -1797
+      ],
+      [
+        3296,
+        -1826
+      ],
+      [
+        3304,
+        -1835
+      ],
+      [
+        3287,
+        -1854
+      ],
+      [
+        3290,
+        -1877
+      ],
+      [
+        3269,
+        -1883
+      ],
+      [
+        3268,
+        -1895
+      ],
+      [
+        3286,
+        -1908
+      ],
+      [
+        3276,
+        -1946
+      ],
+      [
+        3283,
+        -1950
+      ],
+      [
+        3282,
+        -1967
+      ],
+      [
+        3294,
+        -1965
+      ],
+      [
+        3303,
+        -1978
+      ],
+      [
+        3301,
+        -2003
+      ],
+      [
+        3288,
+        -2010
+      ],
+      [
+        3267,
+        -2053
+      ],
+      [
+        3248,
+        -2060
+      ],
+      [
+        3249,
+        -2094
+      ],
+      [
+        3234,
+        -2113
+      ],
+      [
+        3245,
+        -2131
+      ],
+      [
+        3129,
+        -2240
+      ],
+      [
+        3084,
+        -2228
+      ],
+      [
+        3034,
+        -2234
+      ],
+      [
+        2976,
+        -2213
+      ],
+      [
+        2936,
+        -2219
+      ],
+      [
+        2904,
+        -2202
+      ],
+      [
+        2904,
+        -2180
+      ],
+      [
+        2862,
+        -2165
+      ],
+      [
+        2799,
+        -2155
+      ],
+      [
+        2767,
+        -2107
+      ],
+      [
+        2770,
+        -2051
+      ],
+      [
+        2727,
+        -2050
+      ],
+      [
+        2720,
+        -2009
+      ],
+      [
+        2671,
+        -1993
+      ],
+      [
+        2631,
+        -1965
+      ],
+      [
+        2630,
+        -1958
+      ],
+      [
+        2616,
+        -1954
+      ],
+      [
+        2595,
+        -1910
+      ],
+      [
+        2594,
+        -1892
+      ],
+      [
+        2526,
+        -1800
+      ],
+      [
+        2526,
+        -1779
+      ]
+    ]
+  ]
+}

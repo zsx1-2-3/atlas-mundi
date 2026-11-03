@@ -1,1 +1,862 @@
-{"qid":"Q9648","iso_a2":"FK","iso_a3":"FLK","name_zh":"福克兰群岛","name_en":"Falkland Islands","capital":"斯坦利","continent":"南美洲","centroid":[-59.22,-51.73],"centroid_source":"wikidata P625","languages":[{"code":"Q7979","name_zh":"英国英语","name_local":"英国英语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"en","name_zh":"英国英语","name_local":"英国英语","role":"official","audio_url":"assets/fk/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to the Falkland Islands, a windswept archipelago in the South Atlantic; its capital is Stanley, a small harbour town of colourful roofs, and nearby stands the historic Christ Church Cathedral with its famous whalebone arch.","tts_text_zh":"欢迎来到福克兰群岛，这片南大西洋上迎风而立的群岛；首都是斯坦利，一座屋顶色彩缤纷的小港镇，附近矗立着历史悠久的基督教堂座堂及其著名的鲸骨拱门。","audio_voice":"en-US-AriaNeural","audio_bytes":85968}],"summary_text":"福克兰群岛位于南大西洋巴塔哥尼亚大陆架，地处南美洲巴塔哥尼亚南部海岸以东约500公里、南纬52°左右海域，整个群岛包括东福克兰岛、西福克兰岛和776个小岛，总面积12,200平方公里。群岛是英国海外领土，拥有内部自治权，英国负责其国防和外交事务，首府是位于东福克兰岛的斯坦利。根据2012年的人口普查结果，除却服役军人及其家眷，福克兰群岛一共有2,932位居民，其中大部分都是具英国血统的福克兰群岛人，其他种族包括法国人、直布罗陀人和斯堪的纳维亚人。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":225,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%85%8B%E5%85%B0%E7%BE%A4%E5%B2%9B","title":"福克兰群岛"},"culture_excerpts":[{"section":"历史","text":"虽然来自巴塔哥尼亚的火地群岛土著居民有可能早在史前时代就到达过福克兰群岛，但到欧洲人发现群岛时，这里仍然荒无人烟。早在16世纪末时就开始有探险家声称自己发现了这片群岛，但对于这些早期探险家发现的究竟就是福克兰群岛还是南大西洋的其它岛屿这点仍未达成共识。1690年，英国船长约翰·斯壮途经秘鲁和智利近海到达群岛并发现了福克兰海峡，他还记录了岛上的水域和野生动物，这也是存在文献记载证实的人类第一次登陆该群岛。1764年，法国船长路易斯·安东尼·布干维尔在东福克兰岛建立了路易港（福克兰群岛）（英语：Port Louis, Falkland Islands）（Port Louis），福克兰群岛开始有人类居住。1766年，英国船长约翰·麦克布赖德（John MacBride）也在森德尔斯岛建立了埃格蒙特港（英语：Port Egmont）（Port Egmont）。不过，历史学家对各定居点的居民是否知晓另一个定居点存在仍未达成一致意见。1766年，西班牙获得了法国在岛上建立的定居点，并于次年将其更名为索莱达港（西班牙语：Puerto Soledad）（Puerto Soledad）。西班牙人发现埃格蒙特港后于1770年将其占领，引发了1770年福克兰群岛危机，大不列颠王国和西班牙之间的战争如箭在弦，但最终西班牙于1771年将埃格蒙特港归还英国，战争得以避免。英国和西班牙人建立的定居点在群岛上共存到1774年，英国出于新的经济和战略考量主动从群岛撤军，乔治三世对福克兰群岛的主权主张名存实亡。西班牙的拉普拉塔总督辖区成为领地上仅有的政府存在。西福克兰岛处于荒废，索莱达港基本上成了战俘营。欧洲爆发拿破仑战争期间，英国夺取拉普拉塔总督辖区，1806年，群岛总督撤离，剩下的西班牙殖民地驻军也在1811年跟进，只剩高乔人和渔民自愿留了下来。此后十余年间，只有渔船才偶尔来到这片群岛，其政治地位也没有什么争议。但到了1820年，为拉普拉塔联合省工作的美国私掠者大卫·朱伊特（英语：David Jewett）（David Jewett）上校告知锚定船只，布宜诺斯艾利斯已于1816年宣布继承这片南大西洋西班牙殖民地的主权。由于群岛上没有永久居民，布宜诺斯艾利斯于1823年授权德国出生的商人路易斯·韦尔内（英语：Luis Vernet）（Luis Vernet）在这里捕鱼并获取野牛。韦尔内于1826年在索莱达港遗址定居，然后逐渐积累资源，直到足以带来更多的定居者，形成永久性的殖民地。1829年，布宜诺斯艾利斯任命韦尔内为群岛军事和民事的总指挥，他则试图经过规管，阻止外来船只捕杀鲸鱼和海豹的活动。韦尔内的事业起初还算顺利，但到了1831年，因在捕捞权和狩猎权上出现争议，美国炮舰“列星顿号（英语：USS Lexington (1825)）”（USS Lexington）对岛上定居点进行了突击搜查，美国海军将领西拉斯·邓肯（英语：Silas Duncan）（Silas Duncan）宣布岛上的政府统治到此结束。布宜诺斯艾利斯试图通过派遣驻军保持对定居点的影响力，但在1832年的兵变发生后，英军于次年到达群岛，重申英国拥有这里的主权。以布宜诺斯艾利斯省长胡安·曼努埃尔·德·罗萨斯为首的阿根廷邦联抗议英国的这一做法，阿根廷从此还开始不间断地针对英国提出正式抗议。英国军队完成自己的使命后就离开了领地，群岛基本上变成“无人地带”。韦尔内的副手，苏格兰人马修·布里斯班（英语：Matthew Brisbane）（Matthew Brisbane）同年返回群岛试图试图恢复韦尔内的事业，但是，高乔人安东尼奥·里韦罗（英语：Antonio Rivero）（Antonio Rivero）在一片动荡的路易港带领其他多位“心怀不满的人士”谋杀了布里斯班和定居点的多位领导人，幸存者躲到了附近小岛的一个山洞，直到英国人返回并恢复秩序。1840年，福克兰群岛成为皇家殖民地，苏格兰定居者随后建立了正式的教会牧区。四年后，几乎所有居民都迁到了杰克逊港，认为这里更适合作为政府的所在地，商人塞缪尔·拉冯（Samuel Lafone）鼓励英国对群岛加以良好管理。杰克逊港不久后更名为斯坦利，并在1845年正式成为政府所在地。斯坦利早期曾因船运货物丢失导致声誉不佳，只有在紧急情况下，船只才会绕过合恩角停在该港口。不过，事实证明，福克兰群岛的地理位置对船舶维修来说非常理想，并且很适合进行销售和购买沉船及其上货物的“沉船贸易”。除了这些行业外，群岛的商业活动较少，因为牧场中野牛的皮革附加价值很低。1851年，福克兰群岛公司（英语：Falkland Islands Company）收购了拉冯日落西山的产业，然后成功地引进了用于羊毛养殖业的切维厄特绵羊，带动其他养殖场纷纷效仿，群岛上的经济开始有了起色。由于进口材料的成本很高，加上劳动力不足及由此产生的薪酬成本过高，船舶维修业开始失去竞争力。1870年以后，南美洲煤炭的低价加剧了蒸汽船取代帆船的步伐，群岛上的船舶维修业因此前景黯淡；到了1914年巴拿马运河开通时，岛上的这一行当很快就成了历史。1881年，福克兰群岛从经济上与英国独立。超过一个世纪的时间里，福克兰群岛公司从与英国的羊毛贸易中获益匪浅，公司主宰了群岛的贸易和就业，并且拥有斯坦利的大部分房屋。20世纪的","chars":2200},{"section":"文化","text":"“福克兰群岛的文化主要源于英国文化”，根据博物学家威尔·瓦格斯塔夫（Will Wagstaff）的研究：“福克兰群岛是个适宜社交的地方，停下聊天是（这里的）一种生活方式”。\n群岛上开办有两家周报，分别是《茶浆果快报》（Teaberry Express）和《企鹅新闻》（The Penguin News）。据瓦格斯塔夫形容，当地菜色大多采用土生土长的蔬菜、羊肉、牛肉和鱼肉”。饭后人们还经常会“喝茶或咖啡，配上自制的蛋糕和饼干”。","chars":1200},{"section":"人口统计","text":"福克兰群岛属同质社会，大部分居民都是1833年移民来此的苏格兰和威尔士人后裔。2006年的人口普查还表明部分岛民是法国、直布罗陀和斯堪的纳维亚人的后代。这次人口普查显示，有三分之一的岛民是在群岛上出生。英国国会在1983年通过的《1983年英国国籍（福克兰群岛）法令》（英语：British Nationality (Falkland Islands) Act 1983）说明当地所有居民都是英国公民。\n20世纪期间，福克兰群岛曾受到人口不足的严重影响，许多青年岛民为了追求现代生活方式和更好的工作机遇而离开了群岛。进入21世纪后，岛上人口得到来自英国、圣赫勒拿岛和智利的移民补充，人口数量趋于稳定。2012年，群岛再次进行了人口普查，大部分居民都将自己的国籍列为福克兰群岛人（英语：Falkland Islanders），比例达59%，接下来分别是英国人（29%）、圣赫勒拿岛人（9.8%）和智利人（5.4%）。\n福克兰群岛的人口密度较低。根据2012年的人口普查，如不计服役军人及其家属，群岛的日均人口为2,932。2012年的一份报告表明福克兰群岛上有1,300位制服军人和50名英国国防部的公务员。斯坦利是领地人口最多的所在，拥有2,121位居民；其后是拥有369位居民的快活岭，这些人中大部分是空军基地的承建商；其他农村地区则生活了351人。岛上大部分居民都处于就业年龄（20至60岁），男性多于女性（53%和47%），并且这种差距在20至60岁年龄段人群中最为突出。根据2006年的人口普查，大部分岛民认为自己是基督徒（67.2%），非基督徒中拒绝回答这个问题或是自称没有宗教信仰的占31.5%，剩下的1.3%（39人）是其他宗教的信徒。\n福克兰群岛的教育制度向所有5至16岁居民实行免费义务教育。斯坦利、快活岭空军基地和多个农村定居点都有提供小学教育，但要上中学则必须前往斯坦利，这里提","chars":800}],"landmark_images":[{"title":"File:Street in Stanley, Falkland Islands.jpg","caption_zh":"斯坦利港街景","caption":"斯坦利港街景","caption_commons":"Street in Stanley, Falkland Islands","kw":"Stanley Harbour Falkland Islands","url":"assets/fk/L01.webp","thumb_url":"assets/fk/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/9/97/Street_in_Stanley%2C_Falkland_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Victor","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":46676,"caption_zh_manual":"斯坦利港","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16618,"size":{"detail":"750x498","thumb":"400x266"},"encoding":"webp q72/q74 (源 750x498 360KB JPEG)"},{"title":"File:Charadrius falklandicus, Volunteer Point, East Falkland, Falkland Islands 1.jpg","caption_zh":"志愿者角的双斑鸻","caption":"志愿者角的双斑鸻","caption_commons":"Two-banded Plover Charadrius falklandicus, Volunteer Point, East Falkland, Falkl","kw":"Volunteer Point Falkland Islands","url":"assets/fk/L02.webp","thumb_url":"assets/fk/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Charadrius_falklandicus%2C_Volunteer_Point%2C_East_Falkland%2C_Falkland_Islands_1.jpg/1920px-Charadrius_falklandicus%2C_Volunteer_Point%2C_East_Falkland%2C_Falkland_Islands_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"laverymike","license":"CC BY 4.0","license_url":"https://creativecommons.org/licenses/by/4.0","license_status":"ok","load_verified":true,"bytes":31050,"caption_zh_manual":"志愿者角","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13244,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 320KB JPEG)"},{"title":"File:Melanodera melanodera -Sea Lion Island, Sea Lion Island-8.jpg","caption_zh":"海狮岛上的黑喉雀","caption":"海狮岛上的黑喉雀","caption_commons":"A White-bridled Finch in Sea Lion Island, Sea Lion Island.","kw":"Sea Lion Island Falkland Islands","url":"assets/fk/L03.webp","thumb_url":"assets/fk/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/9/92/Melanodera_melanodera_-Sea_Lion_Island%2C_Sea_Lion_Island-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"Chris Pearson from Leuchars, Scotland","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":5532,"caption_zh_manual":"海狮岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":2644,"size":{"detail":"760x506","thumb":"400x266"},"encoding":"webp q72/q74 (源 800x533 30KB JPEG)"},{"title":"File:West Point Island in the Falkland Islands 1.jpg","caption_zh":"西角岛信天翁","caption":"西角岛信天翁","caption_commons":"West Point Island is one of the Falkland Islands, lying west of West Falkland. I","kw":"West Point Island Albatross Falkland","url":"assets/fk/L04.webp","thumb_url":"assets/fk/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/West_Point_Island_in_the_Falkland_Islands_1.jpg/1920px-West_Point_Island_in_the_Falkland_Islands_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Liam Quinn","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":38632,"caption_zh_manual":"西角岛信天翁","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11434,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 529KB JPEG)"},{"title":"File:2884-saunders-landscape RJ.jpg","caption_zh":"桑德斯岛景观","caption":"桑德斯岛景观","caption_commons":"\"The Neck\" on Saunders Island.","kw":"Saunders Island Falkland Islands","url":"assets/fk/L05.webp","thumb_url":"assets/fk/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/c/c5/2884-saunders-landscape_RJ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Copyright 2004, Ryan Holliday (Wrh2). The original image can be found at [1].","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":15634,"caption_zh_manual":"桑德斯岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8094,"size":{"detail":"600x400","thumb":"400x267"},"encoding":"webp q72/q74 (源 600x400 41KB JPEG)"}],"image_license":"CC BY 2.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:17:20+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q33573 (kin)-Adygrafix250-Ibirwa bya Folukilande.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py FK","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 225 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","语音跳过 英国英语（无句子）","语音跳过 英国英语（无句子）","语音跳过 英国英语（无句子）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"南大西洋群岛","evidence":"位于南大西洋巴塔哥尼亚大陆架的群岛"},{"v":"东福克兰岛","evidence":"包括东福克兰岛、西福克兰岛和776个小岛"},{"v":"西福克兰岛","evidence":"包括东福克兰岛、西福克兰岛和776个小岛"},{"v":"斯坦利","evidence":"群岛首府是斯坦利"},{"v":"福克兰战争","evidence":"福克兰战争由此爆发"}],"model":"deepseek-flash"},"summary_text_raw":"福克兰群岛（英语：Falkland Islands，/ˈfɔːklənd, ˈfɔːl-, ˈfɒl-/），阿根廷称马尔维纳斯群岛（西班牙语：Islas Malvinas，西班牙语发音：[ˈizlaz malˈβinas]），是位于南大西洋巴塔哥尼亚大陆架的群岛。主岛地处南美洲巴塔哥尼亚南部海岸以东约500公里，南纬52°左右海域。整个群岛包括东福克兰岛、西福克兰岛和776个小岛，总面积12,200平方公里。福克兰群岛是英国海外领土，拥有内部自治权，英国负责其国防和外交事务。群岛首府是斯坦利，位于东福克兰岛。\n福克兰群岛的发现及其后欧洲人统治的历史均有争议。法国、英国、西班牙和阿根廷都曾在岛上设立定居点。英国于1833年重申了其主权，但此后的阿根廷历届政府仍宣称拥有岛上主权。1982年，阿根廷对岛上实施军事占领，福克兰战争由此爆发，之后阿根廷战败撤军，英国再次拥有群岛。\n根据2012年的人口普查结果，除却服役军人及其家眷，福克兰群岛一共有2,932位居民，其中大部分都是具英国血统的福克兰群岛人。其他种族包括法国人、直布罗陀人和斯堪的纳维亚人。","history_text":"群岛在欧洲人到来前荒无人烟。1690年英国船长约翰·斯壮途经此地并记录水域与野生动物，留下人类首次登陆的文献记载。1764年法国船长布干维尔在东福克兰岛建立路易港，岛上始有人居；两年后英国船长麦克布赖德在森德尔斯岛建立埃格蒙特港。1766年西班牙接手法国定居点，次年更名索莱达港，随后占领埃格蒙特港，群岛进入多方争夺。","custom_text":"岛上的社交从停下聊天开始，路上遇见便站着说上一阵。餐桌多取自本地：自家菜园里的蔬菜、羊肉、牛肉与鱼肉。饭后常是一杯茶或咖啡，配自制的蛋糕和饼干。两份周报《茶浆果快报》与《企鹅新闻》在邻里间传看，消息和闲话一起走。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":159,"folk":106}},"knowledge_qa":[{"q":"福克兰群岛在哪儿啊？","a":"位于南大西洋巴塔哥尼亚大陆架的群岛，主岛在南美洲巴塔哥尼亚南部海岸以东约500公里，南纬52°左右。","tags":["南大西洋","地理位置","巴塔哥尼亚"]},{"q":"福克兰群岛有多大？","a":"总面积12,200平方公里，包括东福克兰岛、西福克兰岛和776个小岛。","tags":["面积","多大","岛屿数量"]},{"q":"福克兰群岛的首都是哪里？","a":"首府是斯坦利，位于东福克兰岛。","tags":["首都","斯坦利","东福克兰岛"]},{"q":"福克兰群岛说什么语言？","a":"官方语言是英国英语。","tags":["语言","说什么话","英语"]},{"q":"福克兰群岛有什么值得看的地方？","a":"地标包括斯坦利港、志愿者角、海狮岛、西角岛信天翁和桑德斯岛。","tags":["景点","地标","值得看"]},{"q":"福克兰群岛有什么历史故事？","a":"法国、英国、西班牙和阿根廷都曾在岛上设立定居点。英国于1833年重申主权，1982年阿根廷军事占领后爆发福克兰战争，阿根廷战败撤军，英国再次拥有群岛。","tags":["历史","战争","主权争议"]},{"q":"福克兰群岛住着多少人？","a":"根据2012年人口普查，除服役军人及其家眷外，有2,932位居民，大部分是具英国血统的福克兰群岛人。","tags":["人口","居民","人口普查"]}],"llm_audit":{"issues":[],"overall":"pass"},"review_short":["语音：英国英语（无句子）"],"audio_meta":{},"outline":[[[-5782,-5169],[-5773,-5169],[-5826,-5176],[-5814,-5179],[-5842,-5189],[-5876,-5189],[-5895,-5180],[-5881,-5195],[-5863,-5197],[-5864,-5211],[-5927,-5199],[-5908,-5210],[-5915,-5214],[-5904,-5215],[-5908,-5223],[-5946,-5214],[-5934,-5234],[-5972,-5211],[-5957,-5206],[-5963,-5201],[-5952,-5196],[-5960,-5192],[-5949,-5193],[-5949,-5184],[-5921,-5171],[-5906,-5169],[-5904,-5182],[-5899,-5180],[-5899,-5165],[-5917,-5157],[-5911,-5150],[-5901,-5156],[-5910,-5141],[-5887,-5137],[-5895,-5125],[-5839,-5133],[-5833,-5143],[-5850,-5140],[-5852,-5149],[-5842,-5148],[-5842,-5155],[-5823,-5165],[-5824,-5159],[-5817,-5161],[-5822,-5153],[-5836,-5150],[-5829,-5142],[-5791,-5138],[-5778,-5154],[-5814,-5154],[-5778,-5162],[-5790,-5167],[-5782,-5169]],[[-5963,-5174],[-5989,-5196],[-6026,-5198],[-6037,-5216],[-6055,-5211],[-6050,-5219],[-6059,-5224],[-6069,-5211],[-6082,-5210],[-6072,-5217],[-6080,-5217],[-6104,-5205],[-6074,-5201],[-6084,-5196],[-6053,-5200],[-6040,-5192],[-6061,-5193],[-6048,-5192],[-6044,-5178],[-6037,-5177],[-6034,-5186],[-6030,-5175],[-6018,-5176],[-6018,-5171],[-6034,-5171],[-6055,-5179],[-6062,-5167],[-6008,-5169],[-6050,-5152],[-6039,-5148],[-6065,-5135],[-6015,-5149],[-5999,-5147],[-6008,-5145],[-6002,-5138],[-5980,-5145],[-5949,-5139],[-5958,-5144],[-5949,-5146],[-5939,-5143],[-5940,-5134],[-5921,-5141],[-5963,-5174]],[[-6095,-5195],[-6115,-5184],[-6099,-5178],[-6094,-5181],[-6103,-5187],[-6096,-5185],[-6086,-5176],[-6087,-5190],[-6095,-5195]],[[-6017,-5139],[-6029,-5138],[-6011,-5136],[-6030,-5127],[-6007,-5130],[-6005,-5135],[-6017,-5139]],[[-5975,-5128],[-5981,-5126],[-5950,-5126],[-5945,-5132],[-5975,-5128]],[[-5842,-5199],[-5843,-5210],[-5855,-5203],[-5842,-5199]],[[-5969,-5221],[-5976,-5227],[-5979,-5213],[-5969,-5221]],[[-5974,-5133],[-5960,-5138],[-5983,-5135],[-5974,-5133]]]}
+{
+  "qid": "Q9648",
+  "iso_a2": "FK",
+  "iso_a3": "FLK",
+  "name_zh": "福克兰群岛",
+  "name_en": "Falkland Islands",
+  "capital": "斯坦利",
+  "continent": "南美洲",
+  "centroid": [
+    -59.22,
+    -51.73
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "Q7979",
+      "name_zh": "英国英语",
+      "name_local": "英国英语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "en",
+      "name_zh": "英国英语",
+      "name_local": "英国英语",
+      "role": "official",
+      "audio_url": "assets/fk/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to the Falkland Islands, a windswept archipelago in the South Atlantic; its capital is Stanley, a small harbour town of colourful roofs, and nearby stands the historic Christ Church Cathedral with its famous whalebone arch.",
+      "tts_text_zh": "欢迎来到福克兰群岛，这片南大西洋上迎风而立的群岛；首都是斯坦利，一座屋顶色彩缤纷的小港镇，附近矗立着历史悠久的基督教堂座堂及其著名的鲸骨拱门。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 85968
+    }
+  ],
+  "summary_text": "福克兰群岛位于南大西洋巴塔哥尼亚大陆架，地处南美洲巴塔哥尼亚南部海岸以东约500公里、南纬52°左右海域，整个群岛包括东福克兰岛、西福克兰岛和776个小岛，总面积12,200平方公里。群岛是英国海外领土，拥有内部自治权，英国负责其国防和外交事务，首府是位于东福克兰岛的斯坦利。根据2012年的人口普查结果，除却服役军人及其家眷，福克兰群岛一共有2,932位居民，其中大部分都是具英国血统的福克兰群岛人，其他种族包括法国人、直布罗陀人和斯堪的纳维亚人。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 225,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%85%8B%E5%85%B0%E7%BE%A4%E5%B2%9B",
+    "title": "福克兰群岛"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "虽然来自巴塔哥尼亚的火地群岛土著居民有可能早在史前时代就到达过福克兰群岛，但到欧洲人发现群岛时，这里仍然荒无人烟。早在16世纪末时就开始有探险家声称自己发现了这片群岛，但对于这些早期探险家发现的究竟就是福克兰群岛还是南大西洋的其它岛屿这点仍未达成共识。1690年，英国船长约翰·斯壮途经秘鲁和智利近海到达群岛并发现了福克兰海峡，他还记录了岛上的水域和野生动物，这也是存在文献记载证实的人类第一次登陆该群岛。1764年，法国船长路易斯·安东尼·布干维尔在东福克兰岛建立了路易港（福克兰群岛）（英语：Port Louis, Falkland Islands）（Port Louis），福克兰群岛开始有人类居住。1766年，英国船长约翰·麦克布赖德（John MacBride）也在森德尔斯岛建立了埃格蒙特港（英语：Port Egmont）（Port Egmont）。不过，历史学家对各定居点的居民是否知晓另一个定居点存在仍未达成一致意见。1766年，西班牙获得了法国在岛上建立的定居点，并于次年将其更名为索莱达港（西班牙语：Puerto Soledad）（Puerto Soledad）。西班牙人发现埃格蒙特港后于1770年将其占领，引发了1770年福克兰群岛危机，大不列颠王国和西班牙之间的战争如箭在弦，但最终西班牙于1771年将埃格蒙特港归还英国，战争得以避免。英国和西班牙人建立的定居点在群岛上共存到1774年，英国出于新的经济和战略考量主动从群岛撤军，乔治三世对福克兰群岛的主权主张名存实亡。西班牙的拉普拉塔总督辖区成为领地上仅有的政府存在。西福克兰岛处于荒废，索莱达港基本上成了战俘营。欧洲爆发拿破仑战争期间，英国夺取拉普拉塔总督辖区，1806年，群岛总督撤离，剩下的西班牙殖民地驻军也在1811年跟进，只剩高乔人和渔民自愿留了下来。此后十余年间，只有渔船才偶尔来到这片群岛，其政治地位也没有什么争议。但到了1820年，为拉普拉塔联合省工作的美国私掠者大卫·朱伊特（英语：David Jewett）（David Jewett）上校告知锚定船只，布宜诺斯艾利斯已于1816年宣布继承这片南大西洋西班牙殖民地的主权。由于群岛上没有永久居民，布宜诺斯艾利斯于1823年授权德国出生的商人路易斯·韦尔内（英语：Luis Vernet）（Luis Vernet）在这里捕鱼并获取野牛。韦尔内于1826年在索莱达港遗址定居，然后逐渐积累资源，直到足以带来更多的定居者，形成永久性的殖民地。1829年，布宜诺斯艾利斯任命韦尔内为群岛军事和民事的总指挥，他则试图经过规管，阻止外来船只捕杀鲸鱼和海豹的活动。韦尔内的事业起初还算顺利，但到了1831年，因在捕捞权和狩猎权上出现争议，美国炮舰“列星顿号（英语：USS Lexington (1825)）”（USS Lexington）对岛上定居点进行了突击搜查，美国海军将领西拉斯·邓肯（英语：Silas Duncan）（Silas Duncan）宣布岛上的政府统治到此结束。布宜诺斯艾利斯试图通过派遣驻军保持对定居点的影响力，但在1832年的兵变发生后，英军于次年到达群岛，重申英国拥有这里的主权。以布宜诺斯艾利斯省长胡安·曼努埃尔·德·罗萨斯为首的阿根廷邦联抗议英国的这一做法，阿根廷从此还开始不间断地针对英国提出正式抗议。英国军队完成自己的使命后就离开了领地，群岛基本上变成“无人地带”。韦尔内的副手，苏格兰人马修·布里斯班（英语：Matthew Brisbane）（Matthew Brisbane）同年返回群岛试图试图恢复韦尔内的事业，但是，高乔人安东尼奥·里韦罗（英语：Antonio Rivero）（Antonio Rivero）在一片动荡的路易港带领其他多位“心怀不满的人士”谋杀了布里斯班和定居点的多位领导人，幸存者躲到了附近小岛的一个山洞，直到英国人返回并恢复秩序。1840年，福克兰群岛成为皇家殖民地，苏格兰定居者随后建立了正式的教会牧区。四年后，几乎所有居民都迁到了杰克逊港，认为这里更适合作为政府的所在地，商人塞缪尔·拉冯（Samuel Lafone）鼓励英国对群岛加以良好管理。杰克逊港不久后更名为斯坦利，并在1845年正式成为政府所在地。斯坦利早期曾因船运货物丢失导致声誉不佳，只有在紧急情况下，船只才会绕过合恩角停在该港口。不过，事实证明，福克兰群岛的地理位置对船舶维修来说非常理想，并且很适合进行销售和购买沉船及其上货物的“沉船贸易”。除了这些行业外，群岛的商业活动较少，因为牧场中野牛的皮革附加价值很低。1851年，福克兰群岛公司（英语：Falkland Islands Company）收购了拉冯日落西山的产业，然后成功地引进了用于羊毛养殖业的切维厄特绵羊，带动其他养殖场纷纷效仿，群岛上的经济开始有了起色。由于进口材料的成本很高，加上劳动力不足及由此产生的薪酬成本过高，船舶维修业开始失去竞争力。1870年以后，南美洲煤炭的低价加剧了蒸汽船取代帆船的步伐，群岛上的船舶维修业因此前景黯淡；到了1914年巴拿马运河开通时，岛上的这一行当很快就成了历史。1881年，福克兰群岛从经济上与英国独立。超过一个世纪的时间里，福克兰群岛公司从与英国的羊毛贸易中获益匪浅，公司主宰了群岛的贸易和就业，并且拥有斯坦利的大部分房屋。20世纪的",
+      "chars": 2200
+    },
+    {
+      "section": "文化",
+      "text": "“福克兰群岛的文化主要源于英国文化”，根据博物学家威尔·瓦格斯塔夫（Will Wagstaff）的研究：“福克兰群岛是个适宜社交的地方，停下聊天是（这里的）一种生活方式”。\n群岛上开办有两家周报，分别是《茶浆果快报》（Teaberry Express）和《企鹅新闻》（The Penguin News）。据瓦格斯塔夫形容，当地菜色大多采用土生土长的蔬菜、羊肉、牛肉和鱼肉”。饭后人们还经常会“喝茶或咖啡，配上自制的蛋糕和饼干”。",
+      "chars": 1200
+    },
+    {
+      "section": "人口统计",
+      "text": "福克兰群岛属同质社会，大部分居民都是1833年移民来此的苏格兰和威尔士人后裔。2006年的人口普查还表明部分岛民是法国、直布罗陀和斯堪的纳维亚人的后代。这次人口普查显示，有三分之一的岛民是在群岛上出生。英国国会在1983年通过的《1983年英国国籍（福克兰群岛）法令》（英语：British Nationality (Falkland Islands) Act 1983）说明当地所有居民都是英国公民。\n20世纪期间，福克兰群岛曾受到人口不足的严重影响，许多青年岛民为了追求现代生活方式和更好的工作机遇而离开了群岛。进入21世纪后，岛上人口得到来自英国、圣赫勒拿岛和智利的移民补充，人口数量趋于稳定。2012年，群岛再次进行了人口普查，大部分居民都将自己的国籍列为福克兰群岛人（英语：Falkland Islanders），比例达59%，接下来分别是英国人（29%）、圣赫勒拿岛人（9.8%）和智利人（5.4%）。\n福克兰群岛的人口密度较低。根据2012年的人口普查，如不计服役军人及其家属，群岛的日均人口为2,932。2012年的一份报告表明福克兰群岛上有1,300位制服军人和50名英国国防部的公务员。斯坦利是领地人口最多的所在，拥有2,121位居民；其后是拥有369位居民的快活岭，这些人中大部分是空军基地的承建商；其他农村地区则生活了351人。岛上大部分居民都处于就业年龄（20至60岁），男性多于女性（53%和47%），并且这种差距在20至60岁年龄段人群中最为突出。根据2006年的人口普查，大部分岛民认为自己是基督徒（67.2%），非基督徒中拒绝回答这个问题或是自称没有宗教信仰的占31.5%，剩下的1.3%（39人）是其他宗教的信徒。\n福克兰群岛的教育制度向所有5至16岁居民实行免费义务教育。斯坦利、快活岭空军基地和多个农村定居点都有提供小学教育，但要上中学则必须前往斯坦利，这里提",
+      "chars": 800
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Street in Stanley, Falkland Islands.jpg",
+      "caption_zh": "斯坦利港街景",
+      "caption": "斯坦利港街景",
+      "caption_commons": "Street in Stanley, Falkland Islands",
+      "kw": "Stanley Harbour Falkland Islands",
+      "url": "assets/fk/L01.webp",
+      "thumb_url": "assets/fk/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Street_in_Stanley%2C_Falkland_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Victor",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 49086,
+      "caption_zh_manual": "斯坦利港",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7892,
+      "size": {
+        "detail": "750x498",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 750x498 360KB JPEG)"
+    },
+    {
+      "title": "File:Charadrius falklandicus, Volunteer Point, East Falkland, Falkland Islands 1.jpg",
+      "caption_zh": "志愿者角的双斑鸻",
+      "caption": "志愿者角的双斑鸻",
+      "caption_commons": "Two-banded Plover Charadrius falklandicus, Volunteer Point, East Falkland, Falkl",
+      "kw": "Volunteer Point Falkland Islands",
+      "url": "assets/fk/L02.webp",
+      "thumb_url": "assets/fk/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Charadrius_falklandicus%2C_Volunteer_Point%2C_East_Falkland%2C_Falkland_Islands_1.jpg/1920px-Charadrius_falklandicus%2C_Volunteer_Point%2C_East_Falkland%2C_Falkland_Islands_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "laverymike",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 52438,
+      "caption_zh_manual": "志愿者角",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7020,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 320KB JPEG)"
+    },
+    {
+      "title": "File:Melanodera melanodera -Sea Lion Island, Sea Lion Island-8.jpg",
+      "caption_zh": "海狮岛上的黑喉雀",
+      "caption": "海狮岛上的黑喉雀",
+      "caption_commons": "A White-bridled Finch in Sea Lion Island, Sea Lion Island.",
+      "kw": "Sea Lion Island Falkland Islands",
+      "url": "assets/fk/L03.webp",
+      "thumb_url": "assets/fk/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Melanodera_melanodera_-Sea_Lion_Island%2C_Sea_Lion_Island-8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Chris Pearson from Leuchars, Scotland",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 6468,
+      "caption_zh_manual": "海狮岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 1560,
+      "size": {
+        "detail": "800x533",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 800x533 30KB JPEG)"
+    },
+    {
+      "title": "File:West Point Island in the Falkland Islands 1.jpg",
+      "caption_zh": "西角岛信天翁",
+      "caption": "西角岛信天翁",
+      "caption_commons": "West Point Island is one of the Falkland Islands, lying west of West Falkland. I",
+      "kw": "West Point Island Albatross Falkland",
+      "url": "assets/fk/L04.webp",
+      "thumb_url": "assets/fk/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/West_Point_Island_in_the_Falkland_Islands_1.jpg/1920px-West_Point_Island_in_the_Falkland_Islands_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Liam Quinn",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 81142,
+      "caption_zh_manual": "西角岛信天翁",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4972,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 529KB JPEG)"
+    },
+    {
+      "title": "File:2884-saunders-landscape RJ.jpg",
+      "caption_zh": "桑德斯岛景观",
+      "caption": "桑德斯岛景观",
+      "caption_commons": "\"The Neck\" on Saunders Island.",
+      "kw": "Saunders Island Falkland Islands",
+      "url": "assets/fk/L05.webp",
+      "thumb_url": "assets/fk/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/2884-saunders-landscape_RJ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Copyright 2004, Ryan Holliday (Wrh2). The original image can be found at [1].",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 16468,
+      "caption_zh_manual": "桑德斯岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3886,
+      "size": {
+        "detail": "600x400",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 600x400 41KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY 2.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:17:20+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q33573 (kin)-Adygrafix250-Ibirwa bya Folukilande.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py FK",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 225 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "语音跳过 英国英语（无句子）",
+    "语音跳过 英国英语（无句子）",
+    "语音跳过 英国英语（无句子）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "南大西洋群岛",
+        "evidence": "位于南大西洋巴塔哥尼亚大陆架的群岛"
+      },
+      {
+        "v": "东福克兰岛",
+        "evidence": "包括东福克兰岛、西福克兰岛和776个小岛"
+      },
+      {
+        "v": "西福克兰岛",
+        "evidence": "包括东福克兰岛、西福克兰岛和776个小岛"
+      },
+      {
+        "v": "斯坦利",
+        "evidence": "群岛首府是斯坦利"
+      },
+      {
+        "v": "福克兰战争",
+        "evidence": "福克兰战争由此爆发"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "福克兰群岛（英语：Falkland Islands，/ˈfɔːklənd, ˈfɔːl-, ˈfɒl-/），阿根廷称马尔维纳斯群岛（西班牙语：Islas Malvinas，西班牙语发音：[ˈizlaz malˈβinas]），是位于南大西洋巴塔哥尼亚大陆架的群岛。主岛地处南美洲巴塔哥尼亚南部海岸以东约500公里，南纬52°左右海域。整个群岛包括东福克兰岛、西福克兰岛和776个小岛，总面积12,200平方公里。福克兰群岛是英国海外领土，拥有内部自治权，英国负责其国防和外交事务。群岛首府是斯坦利，位于东福克兰岛。\n福克兰群岛的发现及其后欧洲人统治的历史均有争议。法国、英国、西班牙和阿根廷都曾在岛上设立定居点。英国于1833年重申了其主权，但此后的阿根廷历届政府仍宣称拥有岛上主权。1982年，阿根廷对岛上实施军事占领，福克兰战争由此爆发，之后阿根廷战败撤军，英国再次拥有群岛。\n根据2012年的人口普查结果，除却服役军人及其家眷，福克兰群岛一共有2,932位居民，其中大部分都是具英国血统的福克兰群岛人。其他种族包括法国人、直布罗陀人和斯堪的纳维亚人。",
+  "history_text": "群岛在欧洲人到来前荒无人烟。1690年英国船长约翰·斯壮途经此地并记录水域与野生动物，留下人类首次登陆的文献记载。1764年法国船长布干维尔在东福克兰岛建立路易港，岛上始有人居；两年后英国船长麦克布赖德在森德尔斯岛建立埃格蒙特港。1766年西班牙接手法国定居点，次年更名索莱达港，随后占领埃格蒙特港，群岛进入多方争夺。",
+  "custom_text": "岛上的社交从停下聊天开始，路上遇见便站着说上一阵。餐桌多取自本地：自家菜园里的蔬菜、羊肉、牛肉与鱼肉。饭后常是一杯茶或咖啡，配自制的蛋糕和饼干。两份周报《茶浆果快报》与《企鹅新闻》在邻里间传看，消息和闲话一起走。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 159,
+      "folk": 106
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "福克兰群岛在哪儿啊？",
+      "a": "位于南大西洋巴塔哥尼亚大陆架的群岛，主岛在南美洲巴塔哥尼亚南部海岸以东约500公里，南纬52°左右。",
+      "tags": [
+        "南大西洋",
+        "地理位置",
+        "巴塔哥尼亚"
+      ]
+    },
+    {
+      "q": "福克兰群岛有多大？",
+      "a": "总面积12,200平方公里，包括东福克兰岛、西福克兰岛和776个小岛。",
+      "tags": [
+        "面积",
+        "多大",
+        "岛屿数量"
+      ]
+    },
+    {
+      "q": "福克兰群岛的首都是哪里？",
+      "a": "首府是斯坦利，位于东福克兰岛。",
+      "tags": [
+        "首都",
+        "斯坦利",
+        "东福克兰岛"
+      ]
+    },
+    {
+      "q": "福克兰群岛说什么语言？",
+      "a": "官方语言是英国英语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "英语"
+      ]
+    },
+    {
+      "q": "福克兰群岛有什么值得看的地方？",
+      "a": "地标包括斯坦利港、志愿者角、海狮岛、西角岛信天翁和桑德斯岛。",
+      "tags": [
+        "景点",
+        "地标",
+        "值得看"
+      ]
+    },
+    {
+      "q": "福克兰群岛有什么历史故事？",
+      "a": "法国、英国、西班牙和阿根廷都曾在岛上设立定居点。英国于1833年重申主权，1982年阿根廷军事占领后爆发福克兰战争，阿根廷战败撤军，英国再次拥有群岛。",
+      "tags": [
+        "历史",
+        "战争",
+        "主权争议"
+      ]
+    },
+    {
+      "q": "福克兰群岛住着多少人？",
+      "a": "根据2012年人口普查，除服役军人及其家眷外，有2,932位居民，大部分是具英国血统的福克兰群岛人。",
+      "tags": [
+        "人口",
+        "居民",
+        "人口普查"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "review_short": [
+    "语音：英国英语（无句子）"
+  ],
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -5782,
+        -5169
+      ],
+      [
+        -5773,
+        -5169
+      ],
+      [
+        -5826,
+        -5176
+      ],
+      [
+        -5814,
+        -5179
+      ],
+      [
+        -5842,
+        -5189
+      ],
+      [
+        -5876,
+        -5189
+      ],
+      [
+        -5895,
+        -5180
+      ],
+      [
+        -5881,
+        -5195
+      ],
+      [
+        -5863,
+        -5197
+      ],
+      [
+        -5864,
+        -5211
+      ],
+      [
+        -5927,
+        -5199
+      ],
+      [
+        -5908,
+        -5210
+      ],
+      [
+        -5915,
+        -5214
+      ],
+      [
+        -5904,
+        -5215
+      ],
+      [
+        -5908,
+        -5223
+      ],
+      [
+        -5946,
+        -5214
+      ],
+      [
+        -5934,
+        -5234
+      ],
+      [
+        -5972,
+        -5211
+      ],
+      [
+        -5957,
+        -5206
+      ],
+      [
+        -5963,
+        -5201
+      ],
+      [
+        -5952,
+        -5196
+      ],
+      [
+        -5960,
+        -5192
+      ],
+      [
+        -5949,
+        -5193
+      ],
+      [
+        -5949,
+        -5184
+      ],
+      [
+        -5921,
+        -5171
+      ],
+      [
+        -5906,
+        -5169
+      ],
+      [
+        -5904,
+        -5182
+      ],
+      [
+        -5899,
+        -5180
+      ],
+      [
+        -5899,
+        -5165
+      ],
+      [
+        -5917,
+        -5157
+      ],
+      [
+        -5911,
+        -5150
+      ],
+      [
+        -5901,
+        -5156
+      ],
+      [
+        -5910,
+        -5141
+      ],
+      [
+        -5887,
+        -5137
+      ],
+      [
+        -5895,
+        -5125
+      ],
+      [
+        -5839,
+        -5133
+      ],
+      [
+        -5833,
+        -5143
+      ],
+      [
+        -5850,
+        -5140
+      ],
+      [
+        -5852,
+        -5149
+      ],
+      [
+        -5842,
+        -5148
+      ],
+      [
+        -5842,
+        -5155
+      ],
+      [
+        -5823,
+        -5165
+      ],
+      [
+        -5824,
+        -5159
+      ],
+      [
+        -5817,
+        -5161
+      ],
+      [
+        -5822,
+        -5153
+      ],
+      [
+        -5836,
+        -5150
+      ],
+      [
+        -5829,
+        -5142
+      ],
+      [
+        -5791,
+        -5138
+      ],
+      [
+        -5778,
+        -5154
+      ],
+      [
+        -5814,
+        -5154
+      ],
+      [
+        -5778,
+        -5162
+      ],
+      [
+        -5790,
+        -5167
+      ],
+      [
+        -5782,
+        -5169
+      ]
+    ],
+    [
+      [
+        -5963,
+        -5174
+      ],
+      [
+        -5989,
+        -5196
+      ],
+      [
+        -6026,
+        -5198
+      ],
+      [
+        -6037,
+        -5216
+      ],
+      [
+        -6055,
+        -5211
+      ],
+      [
+        -6050,
+        -5219
+      ],
+      [
+        -6059,
+        -5224
+      ],
+      [
+        -6069,
+        -5211
+      ],
+      [
+        -6082,
+        -5210
+      ],
+      [
+        -6072,
+        -5217
+      ],
+      [
+        -6080,
+        -5217
+      ],
+      [
+        -6104,
+        -5205
+      ],
+      [
+        -6074,
+        -5201
+      ],
+      [
+        -6084,
+        -5196
+      ],
+      [
+        -6053,
+        -5200
+      ],
+      [
+        -6040,
+        -5192
+      ],
+      [
+        -6061,
+        -5193
+      ],
+      [
+        -6048,
+        -5192
+      ],
+      [
+        -6044,
+        -5178
+      ],
+      [
+        -6037,
+        -5177
+      ],
+      [
+        -6034,
+        -5186
+      ],
+      [
+        -6030,
+        -5175
+      ],
+      [
+        -6018,
+        -5176
+      ],
+      [
+        -6018,
+        -5171
+      ],
+      [
+        -6034,
+        -5171
+      ],
+      [
+        -6055,
+        -5179
+      ],
+      [
+        -6062,
+        -5167
+      ],
+      [
+        -6008,
+        -5169
+      ],
+      [
+        -6050,
+        -5152
+      ],
+      [
+        -6039,
+        -5148
+      ],
+      [
+        -6065,
+        -5135
+      ],
+      [
+        -6015,
+        -5149
+      ],
+      [
+        -5999,
+        -5147
+      ],
+      [
+        -6008,
+        -5145
+      ],
+      [
+        -6002,
+        -5138
+      ],
+      [
+        -5980,
+        -5145
+      ],
+      [
+        -5949,
+        -5139
+      ],
+      [
+        -5958,
+        -5144
+      ],
+      [
+        -5949,
+        -5146
+      ],
+      [
+        -5939,
+        -5143
+      ],
+      [
+        -5940,
+        -5134
+      ],
+      [
+        -5921,
+        -5141
+      ],
+      [
+        -5963,
+        -5174
+      ]
+    ],
+    [
+      [
+        -6095,
+        -5195
+      ],
+      [
+        -6115,
+        -5184
+      ],
+      [
+        -6099,
+        -5178
+      ],
+      [
+        -6094,
+        -5181
+      ],
+      [
+        -6103,
+        -5187
+      ],
+      [
+        -6096,
+        -5185
+      ],
+      [
+        -6086,
+        -5176
+      ],
+      [
+        -6087,
+        -5190
+      ],
+      [
+        -6095,
+        -5195
+      ]
+    ],
+    [
+      [
+        -6017,
+        -5139
+      ],
+      [
+        -6029,
+        -5138
+      ],
+      [
+        -6011,
+        -5136
+      ],
+      [
+        -6030,
+        -5127
+      ],
+      [
+        -6007,
+        -5130
+      ],
+      [
+        -6005,
+        -5135
+      ],
+      [
+        -6017,
+        -5139
+      ]
+    ],
+    [
+      [
+        -5975,
+        -5128
+      ],
+      [
+        -5981,
+        -5126
+      ],
+      [
+        -5950,
+        -5126
+      ],
+      [
+        -5945,
+        -5132
+      ],
+      [
+        -5975,
+        -5128
+      ]
+    ],
+    [
+      [
+        -5842,
+        -5199
+      ],
+      [
+        -5843,
+        -5210
+      ],
+      [
+        -5855,
+        -5203
+      ],
+      [
+        -5842,
+        -5199
+      ]
+    ],
+    [
+      [
+        -5969,
+        -5221
+      ],
+      [
+        -5976,
+        -5227
+      ],
+      [
+        -5979,
+        -5213
+      ],
+      [
+        -5969,
+        -5221
+      ]
+    ],
+    [
+      [
+        -5974,
+        -5133
+      ],
+      [
+        -5960,
+        -5138
+      ],
+      [
+        -5983,
+        -5135
+      ],
+      [
+        -5974,
+        -5133
+      ]
+    ]
+  ]
+}

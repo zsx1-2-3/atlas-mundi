@@ -1,1 +1,909 @@
-{"qid":"Q750","iso_a2":"BO","iso_a3":"BOL","name_zh":"玻利维亚","name_en":"Bolivia","capital":"苏克雷","continent":"南美洲","centroid":[-64.9912,-17.0569],"centroid_source":"wikidata P625","languages":[{"code":"es","name_zh":"西班牙语","name_local":"西班牙语","role":"official","audio_url":"assets/bo/audio/es.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenidos a Bolivia, un país de alturas y contrastes; su capital constitucional es Sucre, y entre sus lugares más emblemáticos destaca el Salar de Uyuni, la llanura de sal más grande del mundo.","tts_text_zh":"欢迎来到玻利维亚，一个充满高原与对比的国度；其宪法首都是苏克雷，而在最具代表性的地标中，乌尤尼盐沼尤为瞩目，它是世界上最大的盐沼平原。","audio_voice":"es-AR-ElenaNeural","audio_bytes":75456},{"code":"ay","name_zh":"艾馬拉語","name_local":"艾馬拉語","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"qu","name_zh":"克丘亚语","name_local":"克丘亚语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"多民族玻利维亚国通称玻利维亚，是位于南美洲中西部的内陆国家，与巴西、秘鲁、智利、阿根廷、巴拉圭五国接壤，亦为南美洲国家联盟的成员国。其法定首都为苏克雷，但实际上政府位于拉巴斯，拉巴斯海拔高度超过3,600米，为世界海拔最高的首都。欧洲殖民之前，玻利维亚的安第斯地区属于美洲前哥伦布时期辖境最大的国家印加帝国。16世纪，西班牙帝国征服了该地区。在西班牙殖民时期，这个地方称为上秘鲁，由秘鲁总督区管理。1809年宣布独立，经过16年的战争后，1825年8月6日成立共和国，国名源于拉丁美洲革命家西蒙·玻利瓦尔。受政局不稳等问题困扰，加上欠缺出海口，导致其经济发展有欠发达。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":284,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%8E%BB%E5%88%A9%E7%B6%AD%E4%BA%9E","title":"玻利維亞"},"culture_excerpts":[{"section":"历史","text":"19世纪间的拉丁美洲独立战争，时称“上秘鲁”的玻利维亚，为来自委内瑞拉加拉加斯的民族英雄——西蒙·玻利瓦尔所解救而于1809年独立，便以玻利瓦尔之名定国号为玻利维亚以兹纪念。1825年，正式从西班牙独立，最初，取名为“上秘鲁国（西班牙语：Estado del Alto Perú）”、“玻利瓦尔共和国”，不久，定名为“玻利维亚共和国”；此后，常与周边国家发生战争，因而失去了近半的领土，包含：现今智利北部的安第斯山脉和沿海地区、巴西南部和巴拉圭北部。特别是在1879年到1883年的硝石战争，玻利维亚丧失了唯一的滨海省份与重要港口安托法加斯塔，自此成为内陆国家。独立后，玻国政府由来自欧洲的白人殖民者的后裔和梅斯蒂索人（印欧混血人种）组成，实行军阀独裁统治和寡头政治，并将人口占多数的印第安原住民排除在外。通过法律取缔印第安公社，以夺取印第安原住民的土地所有权。1900年，玻利维亚人口有1600万，仅三至四万人享有选举权。1898年，玻国保守派控制的国会试图要求中央政府机关必须回到苏克雷办公，拉巴斯自由派拒绝承认这一决定，宣布反对中央政府权威，双方发生武装冲突，玻利维亚联邦战争（Guerra Federal）爆发。战争以自由派全面胜利告终，拉巴斯成为事实首都，苏克雷保持了名义首都。这反映了玻利维亚经济从枯竭的波托西银矿转向奥鲁罗附近锡的开采，导致了国家精英的政治、经济权力的转移。在1932年—1936年的查科战争中，玻利维亚被巴拉圭击败，被迫将大查科的大部分地区割让给巴拉圭。2003年，天然气管道风波（通过智利港口，向北美输气）引起全国抗议、全国总罢工，总统桑切斯与接任的代理总统梅萨先后被迫下台，逃亡海外。2005年12月18日举行总统选举。艾马拉族的印第安原住民、争取社会主义运动领导人莫拉莱斯以53.75%的选票赢得选举，并于2006年1月22日就职，成为该国首位美洲原住民总统，亦成为玻利维亚第一位左翼总统。开始了缓进的社群社会主义（即印第安社会主义）为基本价值理念以构建玻利维亚。2009年1月25日，玻利维亚历史上的第16部宪法，也是首部由全民公投的宪法，以61.8％的赞成票获得通过。2009年3月26日，莫拉莱斯签署最高法令宣布将原国名“玻利维亚共和国”（República de Bolivia）改为“多民族玻利维亚国”（El Estado Plurinacional de Bolivia），并以64.2%支持率成功连任。","chars":1027},{"section":"文化","text":"玻利维亚文化深受西班牙人、艾马拉人、克丘亚人以及拉丁美洲流行文化的影响。\n现在玻利维亚的文化发展分为三个不同的时期：前哥伦布时期、殖民时期和共和时期。重要的考古遗迹、金银饰品、石碑、陶瓷和编织物都来自几个重要的前哥伦布时期文化。西班牙人带来了他们自己的宗教艺术传统，与当地文化结合，发展成为一种丰富而独特的建筑、文学和雕塑风格，被称为“混血巴洛克风格”。殖民时期不仅产生了佩雷斯·德·奥尔金（Perez de Holguin）、弗洛雷斯（Leonardo Flores）、比蒂（Bernardo Bitti）等人的绘画作品，还产生了技术娴熟但名不见经传的石匠、木雕师、金匠和银匠的作品。近年来，殖民时期重要的本土巴洛克宗教音乐得以恢复，并自1994 年以来在国际上得到广泛赞誉。","chars":1200},{"section":"饮食","text":"玻利维亚饮食主要源于西班牙美食与传统玻利维亚本土食材的结合，后来由于欧洲的移民的到来，受到德国人、意大利人、巴斯克人、克罗地亚人、俄罗斯人和波兰人的影响。玻利维亚美食的三大传统主食是玉米、马铃薯和豆类。这些食材与欧洲人带来的一些主食相结合，如大米、小麦、牛肉、猪肉和鸡肉。","chars":1200},{"section":"人口","text":"从古至今，玻利维亚从西到东都有人居住，但是在总体地貌中，居住在高纬度和山谷里的人还是少数，尽管低纬度地区土地比较肥沃适合生存，但是直到今日除了少数远离发达文明中心的半游牧民之外，人们在低纬度地区却难以获得所需，反之在靠海和秘鲁中部的高原地区却人口密集，因此尽管该处农产和生活条件有限，但却拥有广阔的适合放牧的地区，那里蕴藏大量可以开采的矿物使高纬度地区成为人们定居的中心。\n玻利维亚是一个多民族国家，根据2010年的统计数据，全国总人口为1,012.5万。","chars":773}],"landmark_images":[{"title":"File:FishIslandSalarUyuni.jpg","caption_zh":"乌尤尼盐沼的鱼岛","caption":"乌尤尼盐沼的鱼岛","caption_commons":"","kw":"Salar de Uyuni Bolivia","url":"assets/bo/L01.webp","thumb_url":"assets/bo/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/9/93/FishIslandSalarUyuni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":null,"license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":43758,"caption_zh_manual":"乌尤尼盐沼","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15818,"size":{"detail":"760x514","thumb":"400x270"},"encoding":"webp q72/q74 (源 1745x1180 1637KB JPEG)"},{"title":"File:Isla de Sol, Lago Titicaca 3.jpg","caption_zh":"的喀喀湖太阳岛","caption":"的喀喀湖太阳岛","caption_commons":"Desde la isla del sol, en el lago titicaca está el tradicional barco hecho de to","kw":"Isla del Sol Lake Titicaca","url":"assets/bo/L02.webp","thumb_url":"assets/bo/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Isla_de_Sol%2C_Lago_Titicaca_3.jpg/1920px-Isla_de_Sol%2C_Lago_Titicaca_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Qhanaaru","license":"CC0","license_url":"http://creativecommons.org/publicdomain/zero/1.0/deed.en","license_status":"ok","load_verified":true,"bytes":63104,"caption_zh_manual":"的喀喀湖太阳岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18320,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 688KB JPEG)"},{"title":"File:Tiwanaku - Puerta de la Luna - panoramio.jpg","caption_zh":"蒂瓦纳科遗址月亮门","caption":"蒂瓦纳科遗址月亮门","caption_commons":"Tiwanaku - Puerta de la Luna","kw":"Tiwanaku archaeological site Bolivia","url":"assets/bo/L03.webp","thumb_url":"assets/bo/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Tiwanaku_-_Puerta_de_la_Luna_-_panoramio.jpg/1920px-Tiwanaku_-_Puerta_de_la_Luna_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Pavel Špindler","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":52030,"caption_zh_manual":"蒂瓦纳科遗址","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13710,"size":{"detail":"760x504","thumb":"400x265"},"encoding":"webp q72/q74 (源 1920x1272 689KB JPEG)"},{"title":"File:04-Feria de las Alasitas (La Paz)-1.jpg","caption_zh":"拉巴斯城市天际线","caption":"拉巴斯城市天际线","caption_commons":"Feria de las Alasitas, La Paz","kw":"La Paz Bolivia city skyline","url":"assets/bo/L04.webp","thumb_url":"assets/bo/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/04-Feria_de_las_Alasitas_%28La_Paz%29-1.jpg/1920px-04-Feria_de_las_Alasitas_%28La_Paz%29-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"PsamatheM","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":93952,"caption_zh_manual":"拉巴斯城市天际线","caption_zh_source":"llm_from_commons_filename","thumb_bytes":29674,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 941KB JPEG)"},{"title":"File:Cerro Rico Potosi (pixinn.net).jpg","caption_zh":"波托西里科山","caption":"波托西里科山","caption_commons":"The streets of Potosi are dominated by the \"Cerro Rico\", the \"Wealthy Mountain\"","kw":"Cerro Rico Potosi Bolivia","url":"assets/bo/L05.webp","thumb_url":"assets/bo/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Cerro_Rico_Potosi_%28pixinn.net%29.jpg/1920px-Cerro_Rico_Potosi_%28pixinn.net%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Christophe Meneboeuf","license":"CC BY-SA 2.5","license_url":"https://creativecommons.org/licenses/by-sa/2.5","license_status":"ok","load_verified":true,"bytes":42048,"caption_zh_manual":"波托西里科山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11554,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1276 673KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:36:07+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 返回 4 个语言，去重/去上位概念后保留 3 个：西班牙语、艾馬拉語、克丘亚语","P443 发音语种不符已弃用：Lb-Bolivien.ogg、ES-pe - Bolivia.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Bolivia.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py BO","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 284 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"安第斯地区","evidence":"玻利维亚的安第斯地区"},{"v":"印加帝国","evidence":"印加帝国"},{"v":"拉巴斯","evidence":"政府位于拉巴斯"},{"v":"苏克雷","evidence":"法定首都为苏克雷"},{"v":"上秘鲁","evidence":"这个地方称为上秘鲁"}],"model":"deepseek-flash"},"summary_text_raw":"多民族玻利维亚国（西班牙语：Estado Plurinacional de Bolivia），通称玻利维亚，是位于南美洲中西部的内陆国家，与巴西、秘鲁、智利、阿根廷、巴拉圭五国接壤，亦为南美洲国家联盟的成员国；其法定首都为苏克雷，但实际上其政府位于拉巴斯，其海拔高度超过3,600米并为世界海拔最高的首都。\n欧洲殖民之前，玻利维亚的安第斯地区属于美洲前哥伦布时期辖境最大的国家——印加帝国。16世纪，西班牙帝国征服了该地区。在西班牙殖民时期，这个地方称为上秘鲁，由秘鲁总督区管理。在1809年宣布独立，经过16年的战争后，1825年8月6日成立共和国，国名源于拉丁美洲革命家西蒙·玻利瓦尔。受政局不稳等问题困扰，加上欠缺出海口，导致其经济发展有欠发达。\n\n\n== 历史 ==\n\n\n=== 早期 ===\n玻利维亚于15世纪末为西班牙所征服，隶属于西班牙拉普拉塔总督区。\n19世纪间的拉丁美洲独立战争，时称“上秘鲁”的玻利维亚，为来自委内瑞拉加拉加斯的民族英雄——西蒙·玻利瓦尔所解救而于1809年独立，便以玻利瓦尔之名定国号为玻利维亚以兹纪念。","history_text":"安第斯山区原是印加帝国辖境，十六世纪被西班牙征服，称上秘鲁。十九世纪独立战争中由玻利瓦尔解救，1809年宣布独立，1825年正式脱离西班牙，国名即取自玻利瓦尔。此后常与邻国交战，失去近半领土，硝石战争后丧失滨海省份与港口安托法加斯塔，自此成为内陆国。独立后政权长期由殖民者后裔与印欧混血人掌握，印第安原住民被排除在外。","custom_text":"玉米、马铃薯与豆类是日常饮食的根基，西班牙人带来的大米、小麦与牛肉猪肉同本土食材混搭，欧洲移民又添了几层风味。高原上的编织与金银饰品承自前哥伦布时期，殖民时代的石匠、木雕师与金银匠留下混血巴洛克风格的建筑与雕塑。近年被重新发掘的殖民时期本土巴洛克宗教音乐，让旧日教堂里的旋律重新响起。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":159,"folk":142}},"knowledge_qa":[{"q":"玻利维亚在哪儿啊？","a":"位于南美洲中西部，是个内陆国家，和巴西、秘鲁、智利、阿根廷、巴拉圭五个国家接壤。","tags":["南美洲","内陆国","位置"]},{"q":"玻利维亚的首都是哪里？","a":"法定首都是苏克雷，但政府实际在拉巴斯，拉巴斯海拔超过3600米，是世界海拔最高的首都。","tags":["首都","苏克雷","拉巴斯"]},{"q":"玻利维亚说什么语言？","a":"官方语言有西班牙语、艾马拉语和克丘亚语。","tags":["语言","西班牙语","艾马拉语"]},{"q":"玻利维亚有什么值得看的地方？","a":"乌尤尼盐沼、的喀喀湖太阳岛、蒂瓦纳科遗址、拉巴斯城市天际线和波托西里科山都值得一看。","tags":["景点","乌尤尼盐沼","地标"]},{"q":"玻利维亚有什么历史遗迹？","a":"有蒂瓦纳科遗址，还有波托西里科山，都是比较有名的地标。","tags":["历史","遗址","蒂瓦纳科"]},{"q":"玻利维亚以前是哪个帝国的？","a":"欧洲殖民之前，安第斯地区属于印加帝国，16世纪被西班牙帝国征服，殖民时期叫上秘鲁。","tags":["历史","印加帝国","殖民"]},{"q":"玻利维亚什么时候独立的？","a":"1809年宣布独立，经过16年战争后，1825年8月6日成立共和国，国名源于西蒙·玻利瓦尔。","tags":["独立","历史","玻利瓦尔"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-6951,-1751],[-6952,-1737],[-6967,-1729],[-6962,-1719],[-6943,-1709],[-6918,-1673],[-6904,-1667],[-6903,-1645],[-6883,-1633],[-6898,-1621],[-6918,-1620],[-6943,-1563],[-6915,-1523],[-6938,-1498],[-6937,-1480],[-6927,-1475],[-6924,-1457],[-6899,-1438],[-6901,-1425],[-6886,-1419],[-6910,-1367],[-6897,-1350],[-6898,-1287],[-6877,-1271],[-6879,-1262],[-6868,-1250],[-6958,-1095],[-6881,-1100],[-6878,-1114],[-6862,-1111],[-6829,-1098],[-6804,-1067],[-6772,-1070],[-6758,-1050],[-6732,-1032],[-6706,-1026],[-6664,-991],[-6579,-973],[-6558,-984],[-6542,-968],[-6530,-984],[-6528,-1021],[-6545,-1047],[-6540,-1080],[-6530,-1098],[-6539,-1128],[-6532,-1148],[-6517,-1162],[-6520,-1174],[-6511,-1169],[-6507,-1175],[-6501,-1198],[-6479,-1203],[-6474,-1214],[-6469,-1210],[-6449,-1224],[-6449,-1237],[-6429,-1250],[-6392,-1254],[-6380,-1246],[-6349,-1256],[-6332,-1270],[-6308,-1265],[-6299,-1284],[-6279,-1300],[-6269,-1296],[-6242,-1313],[-6212,-1315],[-6211,-1325],[-6184,-1354],[-6105,-1346],[-6047,-1380],[-6039,-1398],[-6047,-1412],[-6046,-1428],[-6029,-1463],[-6027,-1508],[-6058,-1510],[-6025,-1548],[-6016,-1626],[-5846,-1633],[-5835,-1628],[-5834,-1647],[-5848,-1668],[-5840,-1724],[-5801,-1750],[-5780,-1753],[-5773,-1785],[-5747,-1824],[-5757,-1826],[-5778,-1891],[-5772,-1905],[-5779,-1906],[-5812,-1973],[-5786,-1998],[-5816,-2016],[-5818,-1982],[-5909,-1929],[-6001,-1930],[-6175,-1965],[-6194,-2010],[-6227,-2055],[-6228,-2107],[-6265,-2223],[-6286,-2199],[-6374,-2205],[-6393,-2200],[-6425,-2254],[-6432,-2287],[-6460,-2221],[-6502,-2210],[-6574,-2211],[-6622,-2179],[-6631,-2208],[-6674,-2222],[-6678,-2243],[-6703,-2252],[-6703,-2264],[-6719,-2282],[-6777,-2289],[-6789,-2282],[-6786,-2255],[-6796,-2210],[-6810,-2195],[-6821,-2128],[-6842,-2096],[-6856,-2091],[-6857,-2074],[-6848,-2062],[-6876,-2042],[-6868,-2033],[-6879,-2011],[-6859,-2006],[-6854,-1992],[-6870,-1972],[-6845,-1943],[-6899,-1895],[-6895,-1887],[-6916,-1814],[-6908,-1804],[-6930,-1798],[-6951,-1751]]]}
+{
+  "qid": "Q750",
+  "iso_a2": "BO",
+  "iso_a3": "BOL",
+  "name_zh": "玻利维亚",
+  "name_en": "Bolivia",
+  "capital": "苏克雷",
+  "continent": "南美洲",
+  "centroid": [
+    -64.9912,
+    -17.0569
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "es",
+      "name_zh": "西班牙语",
+      "name_local": "西班牙语",
+      "role": "official",
+      "audio_url": "assets/bo/audio/es.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenidos a Bolivia, un país de alturas y contrastes; su capital constitucional es Sucre, y entre sus lugares más emblemáticos destaca el Salar de Uyuni, la llanura de sal más grande del mundo.",
+      "tts_text_zh": "欢迎来到玻利维亚，一个充满高原与对比的国度；其宪法首都是苏克雷，而在最具代表性的地标中，乌尤尼盐沼尤为瞩目，它是世界上最大的盐沼平原。",
+      "audio_voice": "es-AR-ElenaNeural",
+      "audio_bytes": 75456
+    },
+    {
+      "code": "ay",
+      "name_zh": "艾馬拉語",
+      "name_local": "艾馬拉語",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "qu",
+      "name_zh": "克丘亚语",
+      "name_local": "克丘亚语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "多民族玻利维亚国通称玻利维亚，是位于南美洲中西部的内陆国家，与巴西、秘鲁、智利、阿根廷、巴拉圭五国接壤，亦为南美洲国家联盟的成员国。其法定首都为苏克雷，但实际上政府位于拉巴斯，拉巴斯海拔高度超过3,600米，为世界海拔最高的首都。欧洲殖民之前，玻利维亚的安第斯地区属于美洲前哥伦布时期辖境最大的国家印加帝国。16世纪，西班牙帝国征服了该地区。在西班牙殖民时期，这个地方称为上秘鲁，由秘鲁总督区管理。1809年宣布独立，经过16年的战争后，1825年8月6日成立共和国，国名源于拉丁美洲革命家西蒙·玻利瓦尔。受政局不稳等问题困扰，加上欠缺出海口，导致其经济发展有欠发达。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 284,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%8E%BB%E5%88%A9%E7%B6%AD%E4%BA%9E",
+    "title": "玻利維亞"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "19世纪间的拉丁美洲独立战争，时称“上秘鲁”的玻利维亚，为来自委内瑞拉加拉加斯的民族英雄——西蒙·玻利瓦尔所解救而于1809年独立，便以玻利瓦尔之名定国号为玻利维亚以兹纪念。1825年，正式从西班牙独立，最初，取名为“上秘鲁国（西班牙语：Estado del Alto Perú）”、“玻利瓦尔共和国”，不久，定名为“玻利维亚共和国”；此后，常与周边国家发生战争，因而失去了近半的领土，包含：现今智利北部的安第斯山脉和沿海地区、巴西南部和巴拉圭北部。特别是在1879年到1883年的硝石战争，玻利维亚丧失了唯一的滨海省份与重要港口安托法加斯塔，自此成为内陆国家。独立后，玻国政府由来自欧洲的白人殖民者的后裔和梅斯蒂索人（印欧混血人种）组成，实行军阀独裁统治和寡头政治，并将人口占多数的印第安原住民排除在外。通过法律取缔印第安公社，以夺取印第安原住民的土地所有权。1900年，玻利维亚人口有1600万，仅三至四万人享有选举权。1898年，玻国保守派控制的国会试图要求中央政府机关必须回到苏克雷办公，拉巴斯自由派拒绝承认这一决定，宣布反对中央政府权威，双方发生武装冲突，玻利维亚联邦战争（Guerra Federal）爆发。战争以自由派全面胜利告终，拉巴斯成为事实首都，苏克雷保持了名义首都。这反映了玻利维亚经济从枯竭的波托西银矿转向奥鲁罗附近锡的开采，导致了国家精英的政治、经济权力的转移。在1932年—1936年的查科战争中，玻利维亚被巴拉圭击败，被迫将大查科的大部分地区割让给巴拉圭。2003年，天然气管道风波（通过智利港口，向北美输气）引起全国抗议、全国总罢工，总统桑切斯与接任的代理总统梅萨先后被迫下台，逃亡海外。2005年12月18日举行总统选举。艾马拉族的印第安原住民、争取社会主义运动领导人莫拉莱斯以53.75%的选票赢得选举，并于2006年1月22日就职，成为该国首位美洲原住民总统，亦成为玻利维亚第一位左翼总统。开始了缓进的社群社会主义（即印第安社会主义）为基本价值理念以构建玻利维亚。2009年1月25日，玻利维亚历史上的第16部宪法，也是首部由全民公投的宪法，以61.8％的赞成票获得通过。2009年3月26日，莫拉莱斯签署最高法令宣布将原国名“玻利维亚共和国”（República de Bolivia）改为“多民族玻利维亚国”（El Estado Plurinacional de Bolivia），并以64.2%支持率成功连任。",
+      "chars": 1027
+    },
+    {
+      "section": "文化",
+      "text": "玻利维亚文化深受西班牙人、艾马拉人、克丘亚人以及拉丁美洲流行文化的影响。\n现在玻利维亚的文化发展分为三个不同的时期：前哥伦布时期、殖民时期和共和时期。重要的考古遗迹、金银饰品、石碑、陶瓷和编织物都来自几个重要的前哥伦布时期文化。西班牙人带来了他们自己的宗教艺术传统，与当地文化结合，发展成为一种丰富而独特的建筑、文学和雕塑风格，被称为“混血巴洛克风格”。殖民时期不仅产生了佩雷斯·德·奥尔金（Perez de Holguin）、弗洛雷斯（Leonardo Flores）、比蒂（Bernardo Bitti）等人的绘画作品，还产生了技术娴熟但名不见经传的石匠、木雕师、金匠和银匠的作品。近年来，殖民时期重要的本土巴洛克宗教音乐得以恢复，并自1994 年以来在国际上得到广泛赞誉。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "玻利维亚饮食主要源于西班牙美食与传统玻利维亚本土食材的结合，后来由于欧洲的移民的到来，受到德国人、意大利人、巴斯克人、克罗地亚人、俄罗斯人和波兰人的影响。玻利维亚美食的三大传统主食是玉米、马铃薯和豆类。这些食材与欧洲人带来的一些主食相结合，如大米、小麦、牛肉、猪肉和鸡肉。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "从古至今，玻利维亚从西到东都有人居住，但是在总体地貌中，居住在高纬度和山谷里的人还是少数，尽管低纬度地区土地比较肥沃适合生存，但是直到今日除了少数远离发达文明中心的半游牧民之外，人们在低纬度地区却难以获得所需，反之在靠海和秘鲁中部的高原地区却人口密集，因此尽管该处农产和生活条件有限，但却拥有广阔的适合放牧的地区，那里蕴藏大量可以开采的矿物使高纬度地区成为人们定居的中心。\n玻利维亚是一个多民族国家，根据2010年的统计数据，全国总人口为1,012.5万。",
+      "chars": 773
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:FishIslandSalarUyuni.jpg",
+      "caption_zh": "乌尤尼盐沼的鱼岛",
+      "caption": "乌尤尼盐沼的鱼岛",
+      "caption_commons": "",
+      "kw": "Salar de Uyuni Bolivia",
+      "url": "assets/bo/L01.webp",
+      "thumb_url": "assets/bo/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/FishIslandSalarUyuni.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": null,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 73374,
+      "caption_zh_manual": "乌尤尼盐沼",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7914,
+      "size": {
+        "detail": "1080x730",
+        "thumb": "240x162"
+      },
+      "encoding": "webp q75/q78 (源 1745x1180 1637KB JPEG)"
+    },
+    {
+      "title": "File:Isla de Sol, Lago Titicaca 3.jpg",
+      "caption_zh": "的喀喀湖太阳岛",
+      "caption": "的喀喀湖太阳岛",
+      "caption_commons": "Desde la isla del sol, en el lago titicaca está el tradicional barco hecho de to",
+      "kw": "Isla del Sol Lake Titicaca",
+      "url": "assets/bo/L02.webp",
+      "thumb_url": "assets/bo/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Isla_de_Sol%2C_Lago_Titicaca_3.jpg/1920px-Isla_de_Sol%2C_Lago_Titicaca_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Qhanaaru",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 132092,
+      "caption_zh_manual": "的喀喀湖太阳岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8012,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 688KB JPEG)"
+    },
+    {
+      "title": "File:Tiwanaku - Puerta de la Luna - panoramio.jpg",
+      "caption_zh": "蒂瓦纳科遗址月亮门",
+      "caption": "蒂瓦纳科遗址月亮门",
+      "caption_commons": "Tiwanaku - Puerta de la Luna",
+      "kw": "Tiwanaku archaeological site Bolivia",
+      "url": "assets/bo/L03.webp",
+      "thumb_url": "assets/bo/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Tiwanaku_-_Puerta_de_la_Luna_-_panoramio.jpg/1920px-Tiwanaku_-_Puerta_de_la_Luna_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Pavel Špindler",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 116396,
+      "caption_zh_manual": "蒂瓦纳科遗址",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5850,
+      "size": {
+        "detail": "1080x716",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1272 689KB JPEG)"
+    },
+    {
+      "title": "File:04-Feria de las Alasitas (La Paz)-1.jpg",
+      "caption_zh": "拉巴斯城市天际线",
+      "caption": "拉巴斯城市天际线",
+      "caption_commons": "Feria de las Alasitas, La Paz",
+      "kw": "La Paz Bolivia city skyline",
+      "url": "assets/bo/L04.webp",
+      "thumb_url": "assets/bo/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/04-Feria_de_las_Alasitas_%28La_Paz%29-1.jpg/1920px-04-Feria_de_las_Alasitas_%28La_Paz%29-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "PsamatheM",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 186634,
+      "caption_zh_manual": "拉巴斯城市天际线",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 13020,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 941KB JPEG)"
+    },
+    {
+      "title": "File:Cerro Rico Potosi (pixinn.net).jpg",
+      "caption_zh": "波托西里科山",
+      "caption": "波托西里科山",
+      "caption_commons": "The streets of Potosi are dominated by the \"Cerro Rico\", the \"Wealthy Mountain\"",
+      "kw": "Cerro Rico Potosi Bolivia",
+      "url": "assets/bo/L05.webp",
+      "thumb_url": "assets/bo/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Cerro_Rico_Potosi_%28pixinn.net%29.jpg/1920px-Cerro_Rico_Potosi_%28pixinn.net%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Christophe Meneboeuf",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 98456,
+      "caption_zh_manual": "波托西里科山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5504,
+      "size": {
+        "detail": "1080x718",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1276 673KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:36:07+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 返回 4 个语言，去重/去上位概念后保留 3 个：西班牙语、艾馬拉語、克丘亚语",
+    "P443 发音语种不符已弃用：Lb-Bolivien.ogg、ES-pe - Bolivia.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Bolivia.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py BO",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 284 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "安第斯地区",
+        "evidence": "玻利维亚的安第斯地区"
+      },
+      {
+        "v": "印加帝国",
+        "evidence": "印加帝国"
+      },
+      {
+        "v": "拉巴斯",
+        "evidence": "政府位于拉巴斯"
+      },
+      {
+        "v": "苏克雷",
+        "evidence": "法定首都为苏克雷"
+      },
+      {
+        "v": "上秘鲁",
+        "evidence": "这个地方称为上秘鲁"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "多民族玻利维亚国（西班牙语：Estado Plurinacional de Bolivia），通称玻利维亚，是位于南美洲中西部的内陆国家，与巴西、秘鲁、智利、阿根廷、巴拉圭五国接壤，亦为南美洲国家联盟的成员国；其法定首都为苏克雷，但实际上其政府位于拉巴斯，其海拔高度超过3,600米并为世界海拔最高的首都。\n欧洲殖民之前，玻利维亚的安第斯地区属于美洲前哥伦布时期辖境最大的国家——印加帝国。16世纪，西班牙帝国征服了该地区。在西班牙殖民时期，这个地方称为上秘鲁，由秘鲁总督区管理。在1809年宣布独立，经过16年的战争后，1825年8月6日成立共和国，国名源于拉丁美洲革命家西蒙·玻利瓦尔。受政局不稳等问题困扰，加上欠缺出海口，导致其经济发展有欠发达。\n\n\n== 历史 ==\n\n\n=== 早期 ===\n玻利维亚于15世纪末为西班牙所征服，隶属于西班牙拉普拉塔总督区。\n19世纪间的拉丁美洲独立战争，时称“上秘鲁”的玻利维亚，为来自委内瑞拉加拉加斯的民族英雄——西蒙·玻利瓦尔所解救而于1809年独立，便以玻利瓦尔之名定国号为玻利维亚以兹纪念。",
+  "history_text": "安第斯山区原是印加帝国辖境，十六世纪被西班牙征服，称上秘鲁。十九世纪独立战争中由玻利瓦尔解救，1809年宣布独立，1825年正式脱离西班牙，国名即取自玻利瓦尔。此后常与邻国交战，失去近半领土，硝石战争后丧失滨海省份与港口安托法加斯塔，自此成为内陆国。独立后政权长期由殖民者后裔与印欧混血人掌握，印第安原住民被排除在外。",
+  "custom_text": "玉米、马铃薯与豆类是日常饮食的根基，西班牙人带来的大米、小麦与牛肉猪肉同本土食材混搭，欧洲移民又添了几层风味。高原上的编织与金银饰品承自前哥伦布时期，殖民时代的石匠、木雕师与金银匠留下混血巴洛克风格的建筑与雕塑。近年被重新发掘的殖民时期本土巴洛克宗教音乐，让旧日教堂里的旋律重新响起。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 159,
+      "folk": 142
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "玻利维亚在哪儿啊？",
+      "a": "位于南美洲中西部，是个内陆国家，和巴西、秘鲁、智利、阿根廷、巴拉圭五个国家接壤。",
+      "tags": [
+        "南美洲",
+        "内陆国",
+        "位置"
+      ]
+    },
+    {
+      "q": "玻利维亚的首都是哪里？",
+      "a": "法定首都是苏克雷，但政府实际在拉巴斯，拉巴斯海拔超过3600米，是世界海拔最高的首都。",
+      "tags": [
+        "首都",
+        "苏克雷",
+        "拉巴斯"
+      ]
+    },
+    {
+      "q": "玻利维亚说什么语言？",
+      "a": "官方语言有西班牙语、艾马拉语和克丘亚语。",
+      "tags": [
+        "语言",
+        "西班牙语",
+        "艾马拉语"
+      ]
+    },
+    {
+      "q": "玻利维亚有什么值得看的地方？",
+      "a": "乌尤尼盐沼、的喀喀湖太阳岛、蒂瓦纳科遗址、拉巴斯城市天际线和波托西里科山都值得一看。",
+      "tags": [
+        "景点",
+        "乌尤尼盐沼",
+        "地标"
+      ]
+    },
+    {
+      "q": "玻利维亚有什么历史遗迹？",
+      "a": "有蒂瓦纳科遗址，还有波托西里科山，都是比较有名的地标。",
+      "tags": [
+        "历史",
+        "遗址",
+        "蒂瓦纳科"
+      ]
+    },
+    {
+      "q": "玻利维亚以前是哪个帝国的？",
+      "a": "欧洲殖民之前，安第斯地区属于印加帝国，16世纪被西班牙帝国征服，殖民时期叫上秘鲁。",
+      "tags": [
+        "历史",
+        "印加帝国",
+        "殖民"
+      ]
+    },
+    {
+      "q": "玻利维亚什么时候独立的？",
+      "a": "1809年宣布独立，经过16年战争后，1825年8月6日成立共和国，国名源于西蒙·玻利瓦尔。",
+      "tags": [
+        "独立",
+        "历史",
+        "玻利瓦尔"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -6951,
+        -1751
+      ],
+      [
+        -6952,
+        -1737
+      ],
+      [
+        -6967,
+        -1729
+      ],
+      [
+        -6962,
+        -1719
+      ],
+      [
+        -6943,
+        -1709
+      ],
+      [
+        -6918,
+        -1673
+      ],
+      [
+        -6904,
+        -1667
+      ],
+      [
+        -6903,
+        -1645
+      ],
+      [
+        -6883,
+        -1633
+      ],
+      [
+        -6898,
+        -1621
+      ],
+      [
+        -6918,
+        -1620
+      ],
+      [
+        -6943,
+        -1563
+      ],
+      [
+        -6915,
+        -1523
+      ],
+      [
+        -6938,
+        -1498
+      ],
+      [
+        -6937,
+        -1480
+      ],
+      [
+        -6927,
+        -1475
+      ],
+      [
+        -6924,
+        -1457
+      ],
+      [
+        -6899,
+        -1438
+      ],
+      [
+        -6901,
+        -1425
+      ],
+      [
+        -6886,
+        -1419
+      ],
+      [
+        -6910,
+        -1367
+      ],
+      [
+        -6897,
+        -1350
+      ],
+      [
+        -6898,
+        -1287
+      ],
+      [
+        -6877,
+        -1271
+      ],
+      [
+        -6879,
+        -1262
+      ],
+      [
+        -6868,
+        -1250
+      ],
+      [
+        -6958,
+        -1095
+      ],
+      [
+        -6881,
+        -1100
+      ],
+      [
+        -6878,
+        -1114
+      ],
+      [
+        -6862,
+        -1111
+      ],
+      [
+        -6829,
+        -1098
+      ],
+      [
+        -6804,
+        -1067
+      ],
+      [
+        -6772,
+        -1070
+      ],
+      [
+        -6758,
+        -1050
+      ],
+      [
+        -6732,
+        -1032
+      ],
+      [
+        -6706,
+        -1026
+      ],
+      [
+        -6664,
+        -991
+      ],
+      [
+        -6579,
+        -973
+      ],
+      [
+        -6558,
+        -984
+      ],
+      [
+        -6542,
+        -968
+      ],
+      [
+        -6530,
+        -984
+      ],
+      [
+        -6528,
+        -1021
+      ],
+      [
+        -6545,
+        -1047
+      ],
+      [
+        -6540,
+        -1080
+      ],
+      [
+        -6530,
+        -1098
+      ],
+      [
+        -6539,
+        -1128
+      ],
+      [
+        -6532,
+        -1148
+      ],
+      [
+        -6517,
+        -1162
+      ],
+      [
+        -6520,
+        -1174
+      ],
+      [
+        -6511,
+        -1169
+      ],
+      [
+        -6507,
+        -1175
+      ],
+      [
+        -6501,
+        -1198
+      ],
+      [
+        -6479,
+        -1203
+      ],
+      [
+        -6474,
+        -1214
+      ],
+      [
+        -6469,
+        -1210
+      ],
+      [
+        -6449,
+        -1224
+      ],
+      [
+        -6449,
+        -1237
+      ],
+      [
+        -6429,
+        -1250
+      ],
+      [
+        -6392,
+        -1254
+      ],
+      [
+        -6380,
+        -1246
+      ],
+      [
+        -6349,
+        -1256
+      ],
+      [
+        -6332,
+        -1270
+      ],
+      [
+        -6308,
+        -1265
+      ],
+      [
+        -6299,
+        -1284
+      ],
+      [
+        -6279,
+        -1300
+      ],
+      [
+        -6269,
+        -1296
+      ],
+      [
+        -6242,
+        -1313
+      ],
+      [
+        -6212,
+        -1315
+      ],
+      [
+        -6211,
+        -1325
+      ],
+      [
+        -6184,
+        -1354
+      ],
+      [
+        -6105,
+        -1346
+      ],
+      [
+        -6047,
+        -1380
+      ],
+      [
+        -6039,
+        -1398
+      ],
+      [
+        -6047,
+        -1412
+      ],
+      [
+        -6046,
+        -1428
+      ],
+      [
+        -6029,
+        -1463
+      ],
+      [
+        -6027,
+        -1508
+      ],
+      [
+        -6058,
+        -1510
+      ],
+      [
+        -6025,
+        -1548
+      ],
+      [
+        -6016,
+        -1626
+      ],
+      [
+        -5846,
+        -1633
+      ],
+      [
+        -5835,
+        -1628
+      ],
+      [
+        -5834,
+        -1647
+      ],
+      [
+        -5848,
+        -1668
+      ],
+      [
+        -5840,
+        -1724
+      ],
+      [
+        -5801,
+        -1750
+      ],
+      [
+        -5780,
+        -1753
+      ],
+      [
+        -5773,
+        -1785
+      ],
+      [
+        -5747,
+        -1824
+      ],
+      [
+        -5757,
+        -1826
+      ],
+      [
+        -5778,
+        -1891
+      ],
+      [
+        -5772,
+        -1905
+      ],
+      [
+        -5779,
+        -1906
+      ],
+      [
+        -5812,
+        -1973
+      ],
+      [
+        -5786,
+        -1998
+      ],
+      [
+        -5816,
+        -2016
+      ],
+      [
+        -5818,
+        -1982
+      ],
+      [
+        -5909,
+        -1929
+      ],
+      [
+        -6001,
+        -1930
+      ],
+      [
+        -6175,
+        -1965
+      ],
+      [
+        -6194,
+        -2010
+      ],
+      [
+        -6227,
+        -2055
+      ],
+      [
+        -6228,
+        -2107
+      ],
+      [
+        -6265,
+        -2223
+      ],
+      [
+        -6286,
+        -2199
+      ],
+      [
+        -6374,
+        -2205
+      ],
+      [
+        -6393,
+        -2200
+      ],
+      [
+        -6425,
+        -2254
+      ],
+      [
+        -6432,
+        -2287
+      ],
+      [
+        -6460,
+        -2221
+      ],
+      [
+        -6502,
+        -2210
+      ],
+      [
+        -6574,
+        -2211
+      ],
+      [
+        -6622,
+        -2179
+      ],
+      [
+        -6631,
+        -2208
+      ],
+      [
+        -6674,
+        -2222
+      ],
+      [
+        -6678,
+        -2243
+      ],
+      [
+        -6703,
+        -2252
+      ],
+      [
+        -6703,
+        -2264
+      ],
+      [
+        -6719,
+        -2282
+      ],
+      [
+        -6777,
+        -2289
+      ],
+      [
+        -6789,
+        -2282
+      ],
+      [
+        -6786,
+        -2255
+      ],
+      [
+        -6796,
+        -2210
+      ],
+      [
+        -6810,
+        -2195
+      ],
+      [
+        -6821,
+        -2128
+      ],
+      [
+        -6842,
+        -2096
+      ],
+      [
+        -6856,
+        -2091
+      ],
+      [
+        -6857,
+        -2074
+      ],
+      [
+        -6848,
+        -2062
+      ],
+      [
+        -6876,
+        -2042
+      ],
+      [
+        -6868,
+        -2033
+      ],
+      [
+        -6879,
+        -2011
+      ],
+      [
+        -6859,
+        -2006
+      ],
+      [
+        -6854,
+        -1992
+      ],
+      [
+        -6870,
+        -1972
+      ],
+      [
+        -6845,
+        -1943
+      ],
+      [
+        -6899,
+        -1895
+      ],
+      [
+        -6895,
+        -1887
+      ],
+      [
+        -6916,
+        -1814
+      ],
+      [
+        -6908,
+        -1804
+      ],
+      [
+        -6930,
+        -1798
+      ],
+      [
+        -6951,
+        -1751
+      ]
+    ]
+  ]
+}

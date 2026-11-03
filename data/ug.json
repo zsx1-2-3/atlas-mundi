@@ -1,1 +1,569 @@
-{"qid":"Q1036","iso_a2":"UG","iso_a3":"UGA","name_zh":"乌干达","name_en":"Uganda","capital":"坎帕拉","continent":"非洲","centroid":[32.39,1.28],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/ug/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Uganda, a land of green hills and warm-hearted people; its capital, Kampala, spreads across seven hills beside Lake Victoria, while the Nile thunders through the gorge at Murchison Falls.","tts_text_zh":"欢迎来到乌干达，这片青山连绵、人心温暖的土地；首都坎帕拉铺展在维多利亚湖畔的七座山丘之间，尼罗河在默奇森瀑布的峡谷中奔涌轰鸣。","audio_voice":"en-US-AriaNeural","audio_bytes":75024},{"code":"sw","name_zh":"斯瓦希里语","name_local":"斯瓦希里语","role":"official","audio_url":"assets/ug/audio/sw.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Karibu Uganda, nchi ya vilima vya kijani na watu wenye ukarimu; mji mkuu wake, Kampala, umeenea juu ya vilima saba kando ya Ziwa Victoria, na mto Nile unanguruma kwenye korongo la Murchison Falls.","tts_text_zh":"欢迎来到乌干达，这片青山连绵、人心温暖的土地；首都坎帕拉铺展在维多利亚湖畔的七座山丘之间，尼罗河在默奇森瀑布的峡谷中奔涌轰鸣。","audio_voice":"sw-KE-ZuriNeural","audio_bytes":77760}],"summary_text":"乌干达共和国通称乌干达，是位于东非的内陆国家。乌干达的名称来自于过去班图人建立的布干达王国。欧洲列强在十九世纪后叶进入东非内陆后，乌干达在1894年成为英国殖民地，1962年脱离英国独立。乌干达是非洲联盟、七十七国集团以及伊斯兰合作组织的成员。此外，乌干达与肯尼亚、坦桑尼亚、布隆迪、卢旺达、南苏丹同为东非共同体成员，六个国家在未来有望合并为东非联邦，新国体将共同使用同一部宪法、一样的货币，由同一位总统与合组的议会来治理。虽然人类在乌干达的活动遗迹可以追溯至公元前1000年，但对于在其他洲的人进入这片土地之前的记录，人们现在知之甚少。乌干达人直至1700年至2300年之前，尚是狩猎收集者。之后可能是来自于中非班图语部族，来到了这个国家的南部定居，带来了铁器铸造技术和新的社会和政治制度，并建立了Kitara国。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":358,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%B9%B2%E8%BE%BE","title":"乌干达"},"culture_excerpts":[{"section":"历史","text":"虽然人类在乌干达的活动遗迹可以追溯至公元前1000年，但对于在其他洲的人进入这片土地之前的记录，人们现在知之甚少。乌干达人直至1700年－2300年之前，尚是狩猎收集者。之后可能是来自于中非班图语部族，来到了这个国家的南部定居，带来了铁器铸造技术和新的社会和政治制度，并建立了Kitara国。Kitara国涵盖了大部分的大湖地区，从维多利亚湖、坦噶尼喀湖、艾伯特湖，到基奥加湖。当19世纪阿拉伯人和欧洲人来到的时候，这里有好几个国家，这些国家大约建立于16世纪。其中最大且最重要的王国是布甘达（Buganda）。1888年英国将此地置于不列颠东非公司管辖下；1894年6月，英宣布布甘达为其“保护国”；1896年，英将“保护国”范围扩展到乌干达全境，并于1907年在乌设总督。1962年10月9日乌干达宣布脱离英国统治而独立。1971年1月15日，陆军参谋长伊迪·阿明发动军事政变，夺取政权。在他的独裁统治下，大约30万乌干达人丧生。1979年，阿明发动乌坦战争侵略邻国坦桑尼亚，坦桑尼亚随后的反攻结束了阿明政权。米尔顿·奥博特二次当政后，情况无大改观，1985年被推翻；现任总统约韦里·穆塞韦尼于1986年开始执政。2006年2月23日，乌干达总统和议会选举举行。乌干达选举委员会宣布，穆塞韦尼获胜，再次连任总统。在2011年和2016年的总统选举中，穆塞韦尼连续获胜，继续连任总统。他的这两次连任还招致了后来反对党的批评和选举舞弊的指控，首都坎帕拉市区还发生了一些游行和骚乱。","chars":640},{"section":"文化","text":"部族文化极为多样，阿敏执政时曾经大肆驱逐亚洲人（主要是印度人），现在又有很多人回归乌干达。","chars":1200},{"section":"人口","text":"根据2024年人口普查，乌干达共有45,935,046人，是非洲人口第九多的国家。乌干达人口由多个民族构成，其中巴干达人占比16.5%最高，其他主要民族包含恩科莱人（英语：Nkole people）、索加人（英语：Soga people）等。\n乌干达境内有多达数十种语言，其中最常使用的是英语，其也是乌干达的通用语。卢干达语和斯瓦希里语是最常用的本土语言。","chars":1200},{"section":"语言","text":"乌干达境内有多达数十种语言，其中最常使用的是英语，其也是乌干达的通用语。卢干达语和斯瓦希里语是最常用的本土语言。","chars":1160}],"landmark_images":[{"title":"File:Bwindi mountains.jpg","caption_zh":"布温迪密林中的山峦","caption":"布温迪密林中的山峦","caption_commons":"Bwindi mountains, UgandaBwindi mountains","kw":"Bwindi Impenetrable Forest","url":"assets/ug/L01.webp","thumb_url":"assets/ug/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/4/40/Bwindi_mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"tajai from malaysia","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":19544,"caption_zh_manual":"布温迪密林","caption_zh_source":"llm_from_commons_filename","thumb_bytes":6302,"size":{"detail":"760x568","thumb":"400x299"},"encoding":"webp q72/q74 (源 800x598 63KB JPEG)"},{"title":"File:Murchison Falls from above.jpg","caption_zh":"俯瞰默奇森瀑布","caption":"俯瞰默奇森瀑布","caption_commons":"Photograph taken by Oliver Sedlacek in September 2000 of the Murchison Falls on ","kw":"Murchison Falls Uganda","url":"assets/ug/L02.webp","thumb_url":"assets/ug/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/6/6e/Murchison_Falls_from_above.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Oliver Sedlacek","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":46402,"caption_zh_manual":"默奇森瀑布","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15844,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1760x1174 390KB JPEG)"},{"title":"File:1172 ruwenzori.jpg","caption_zh":"鲁文佐里山脉","caption":"鲁文佐里山脉","caption_commons":"Dendrosenecio adnivalis — flora in the Rwenzori Mountains range. Rwenzori Mounta","kw":"Rwenzori Mountains Uganda","url":"assets/ug/L03.webp","thumb_url":"assets/ug/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/5/50/1172_ruwenzori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Nick06","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":54044,"caption_zh_manual":"鲁文佐里山脉","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18540,"size":{"detail":"760x503","thumb":"400x264"},"encoding":"webp q72/q74 (源 800x529 140KB JPEG)"},{"title":"File:Hippopotami in the Kazinga Channel, Queen Elizabeth National Park.jpg","caption_zh":"卡津加海峡河马，伊丽莎白女王国家公园","caption":"卡津加海峡河马，伊丽莎白女王国家公园","caption_commons":"Hippopotami in the Kazinga Channel, Queen Elizabeth National Park, Uganda Summar","kw":"Queen Elizabeth National Park Uganda","url":"assets/ug/L04.webp","thumb_url":"assets/ug/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/b/b2/Hippopotami_in_the_Kazinga_Channel%2C_Queen_Elizabeth_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Rweinkove at English Wikipedia","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":92382,"caption_zh_manual":"伊丽莎白女王国家公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":25434,"size":{"detail":"760x504","thumb":"400x265"},"encoding":"webp q72/q74 (源 1544x1024 1639KB JPEG)"},{"title":"File:Crater Lakes of Fort Portal 01.jpg","caption_zh":"卡塞塞火山口湖","caption":"卡塞塞火山口湖","caption_commons":"Fort Portal, nestled at the base of the Rwenzori Mountain range in Western Ugand","kw":"Fort Portal Crater Lakes Uganda","url":"assets/ug/L05.webp","thumb_url":"assets/ug/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Crater_Lakes_of_Fort_Portal_01.jpg/1920px-Crater_Lakes_of_Fort_Portal_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Fiktube","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":47488,"caption_zh_manual":"卡塞塞火山口湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13684,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 588KB JPEG)"}],"image_license":"CC BY 2.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:11:17+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Uganda.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Uganda.wav、LL-Q33810 (ori)-Psubhashish-ଉଗାଣ୍ଡା.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py UG","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 2 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"东非内陆国家","evidence":"位于东非的内陆国家"},{"v":"布干达王国","evidence":"班图人建立的布干达王国"},{"v":"铁器铸造技术","evidence":"带来了铁器铸造技术"},{"v":"狩猎收集者","evidence":"尚是狩猎收集者"},{"v":"东非联邦","evidence":"六个国家在未来有望合并为东非联邦"}],"model":"deepseek-flash"},"summary_text_raw":"乌干达共和国（斯瓦希里语：Jamhuri ya Uganda，英语：Republic of Uganda），通称乌干达，是位于东非的内陆国家。\n乌干达名称来自于过去班图人建立的布干达王国。欧洲列强在十九世纪后叶进入东非内陆后，乌干达在1894年成为英国殖民地。1962年乌干达脱离英国独立。1970年代，乌干达由独裁者伊迪·阿敏实施军事统治，伊迪·阿敏下台后又爆发乌干达丛林战争，直到进入二十一世纪后国内局势尚趋于稳定。\n乌干达是非洲联盟、七十七国集团以及伊斯兰合作组织的成员。此外，乌干达与肯尼亚、坦桑尼亚、布隆迪、卢旺达、南苏丹同为东非共同体成员，六个国家在未来有望合并为东非联邦，新国体将共同使用同一部宪法、一样的货币，由同一位总统与合组的议会来治理。\n\n\n== 历史 ==\n\n虽然人类在乌干达的活动遗迹可以追溯至公元前1000年，但对于在其他洲的人进入这片土地之前的记录，人们现在知之甚少。乌干达人直至1700年－2300年之前，尚是狩猎收集者。之后可能是来自于中非班图语部族，来到了这个国家的南部定居，带来了铁器铸造技术和新的社会和政治制度，并建立了Kitara国。","history_text":"南部一带早先由来自中非的班图语部族定居，带来铁器铸造与新的社会政治制度，建立起涵盖大湖地区的Kitara国。到十九世纪外人到来时，此地已有数个约建于十六世纪的国家，其中最大最重要的是布甘达。1894年英宣布布甘达为保护国，1896年扩至全境，1962年10月9日脱离英国独立。1971年伊迪·阿明政变夺权，其独裁统治下大量乌干达人丧生，1979年乌坦战争结束其政权，1986年约韦里·穆塞韦尼开始执政。","custom_text":"部族文化极为多样，巴干达人占比最高，恩科莱人、索加人等民族各有自己的语言与习俗。境内通行数十种语言，英语是通用语，卢干达语与斯瓦希里语最常在本土使用。阿明执政时曾大肆驱逐以印度人为主的亚洲人，此后又有许多人回归，市镇里的商铺与饮食随之带上南亚色彩。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":201,"folk":124}},"knowledge_qa":[{"q":"乌干达在哪儿啊？","a":"乌干达是位于东非的内陆国家，首都是坎帕拉。","tags":["东非","位置","内陆国"]},{"q":"乌干达的首都是哪里？","a":"坎帕拉。","tags":["首都","坎帕拉"]},{"q":"乌干达说什么语言？","a":"官方语言是英语和斯瓦希里语。","tags":["语言","英语","斯瓦希里语"]},{"q":"乌干达有什么值得看的地方？","a":"有布温迪密林、默奇森瀑布、鲁文佐里山脉、伊丽莎白女王国家公园和卡塞塞火山口湖。","tags":["景点","地标","国家公园"]},{"q":"乌干达有什么自然景观推荐？","a":"可以看布温迪密林、默奇森瀑布、鲁文佐里山脉、伊丽莎白女王国家公园和卡塞塞火山口湖。","tags":["自然景观","瀑布","山脉"]},{"q":"乌干达以前是殖民地吗？","a":"是的，1894年成为英国殖民地，1962年脱离英国独立。","tags":["历史","殖民地","独立"]},{"q":"乌干达是哪些组织的成员？","a":"非洲联盟、七十七国集团、伊斯兰合作组织，以及东非共同体成员。","tags":["国际组织","东非共同体","非盟"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[3047,-107],[3034,-107],[3015,-134],[2994,-147],[2982,-132],[2958,-139],[2955,-100],[2970,7],[2994,50],[2995,82],[3016,91],[3024,114],[3048,124],[3127,210],[3118,230],[3106,229],[3097,240],[3087,233],[3071,244],[3085,285],[3075,308],[3091,339],[3090,352],[3084,349],[3094,368],[3122,379],[3152,366],[3178,382],[3193,360],[3217,351],[3219,362],[3237,373],[3276,377],[3300,389],[3316,376],[3349,375],[3401,421],[3408,388],[3420,388],[3415,378],[3444,367],[3438,348],[3443,318],[3488,259],[3492,248],[3487,235],[3501,192],[3497,165],[3478,139],[3480,123],[3449,108],[3439,82],[3415,60],[3408,35],[3389,11],[3395,-15],[3390,-100],[3078,-99],[3047,-107]]]}
+{
+  "qid": "Q1036",
+  "iso_a2": "UG",
+  "iso_a3": "UGA",
+  "name_zh": "乌干达",
+  "name_en": "Uganda",
+  "capital": "坎帕拉",
+  "continent": "非洲",
+  "centroid": [
+    32.39,
+    1.28
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/ug/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Uganda, a land of green hills and warm-hearted people; its capital, Kampala, spreads across seven hills beside Lake Victoria, while the Nile thunders through the gorge at Murchison Falls.",
+      "tts_text_zh": "欢迎来到乌干达，这片青山连绵、人心温暖的土地；首都坎帕拉铺展在维多利亚湖畔的七座山丘之间，尼罗河在默奇森瀑布的峡谷中奔涌轰鸣。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 75024
+    },
+    {
+      "code": "sw",
+      "name_zh": "斯瓦希里语",
+      "name_local": "斯瓦希里语",
+      "role": "official",
+      "audio_url": "assets/ug/audio/sw.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Karibu Uganda, nchi ya vilima vya kijani na watu wenye ukarimu; mji mkuu wake, Kampala, umeenea juu ya vilima saba kando ya Ziwa Victoria, na mto Nile unanguruma kwenye korongo la Murchison Falls.",
+      "tts_text_zh": "欢迎来到乌干达，这片青山连绵、人心温暖的土地；首都坎帕拉铺展在维多利亚湖畔的七座山丘之间，尼罗河在默奇森瀑布的峡谷中奔涌轰鸣。",
+      "audio_voice": "sw-KE-ZuriNeural",
+      "audio_bytes": 77760
+    }
+  ],
+  "summary_text": "乌干达共和国通称乌干达，是位于东非的内陆国家。乌干达的名称来自于过去班图人建立的布干达王国。欧洲列强在十九世纪后叶进入东非内陆后，乌干达在1894年成为英国殖民地，1962年脱离英国独立。乌干达是非洲联盟、七十七国集团以及伊斯兰合作组织的成员。此外，乌干达与肯尼亚、坦桑尼亚、布隆迪、卢旺达、南苏丹同为东非共同体成员，六个国家在未来有望合并为东非联邦，新国体将共同使用同一部宪法、一样的货币，由同一位总统与合组的议会来治理。虽然人类在乌干达的活动遗迹可以追溯至公元前1000年，但对于在其他洲的人进入这片土地之前的记录，人们现在知之甚少。乌干达人直至1700年至2300年之前，尚是狩猎收集者。之后可能是来自于中非班图语部族，来到了这个国家的南部定居，带来了铁器铸造技术和新的社会和政治制度，并建立了Kitara国。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 358,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%B9%B2%E8%BE%BE",
+    "title": "乌干达"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "虽然人类在乌干达的活动遗迹可以追溯至公元前1000年，但对于在其他洲的人进入这片土地之前的记录，人们现在知之甚少。乌干达人直至1700年－2300年之前，尚是狩猎收集者。之后可能是来自于中非班图语部族，来到了这个国家的南部定居，带来了铁器铸造技术和新的社会和政治制度，并建立了Kitara国。Kitara国涵盖了大部分的大湖地区，从维多利亚湖、坦噶尼喀湖、艾伯特湖，到基奥加湖。当19世纪阿拉伯人和欧洲人来到的时候，这里有好几个国家，这些国家大约建立于16世纪。其中最大且最重要的王国是布甘达（Buganda）。1888年英国将此地置于不列颠东非公司管辖下；1894年6月，英宣布布甘达为其“保护国”；1896年，英将“保护国”范围扩展到乌干达全境，并于1907年在乌设总督。1962年10月9日乌干达宣布脱离英国统治而独立。1971年1月15日，陆军参谋长伊迪·阿明发动军事政变，夺取政权。在他的独裁统治下，大约30万乌干达人丧生。1979年，阿明发动乌坦战争侵略邻国坦桑尼亚，坦桑尼亚随后的反攻结束了阿明政权。米尔顿·奥博特二次当政后，情况无大改观，1985年被推翻；现任总统约韦里·穆塞韦尼于1986年开始执政。2006年2月23日，乌干达总统和议会选举举行。乌干达选举委员会宣布，穆塞韦尼获胜，再次连任总统。在2011年和2016年的总统选举中，穆塞韦尼连续获胜，继续连任总统。他的这两次连任还招致了后来反对党的批评和选举舞弊的指控，首都坎帕拉市区还发生了一些游行和骚乱。",
+      "chars": 640
+    },
+    {
+      "section": "文化",
+      "text": "部族文化极为多样，阿敏执政时曾经大肆驱逐亚洲人（主要是印度人），现在又有很多人回归乌干达。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "根据2024年人口普查，乌干达共有45,935,046人，是非洲人口第九多的国家。乌干达人口由多个民族构成，其中巴干达人占比16.5%最高，其他主要民族包含恩科莱人（英语：Nkole people）、索加人（英语：Soga people）等。\n乌干达境内有多达数十种语言，其中最常使用的是英语，其也是乌干达的通用语。卢干达语和斯瓦希里语是最常用的本土语言。",
+      "chars": 1200
+    },
+    {
+      "section": "语言",
+      "text": "乌干达境内有多达数十种语言，其中最常使用的是英语，其也是乌干达的通用语。卢干达语和斯瓦希里语是最常用的本土语言。",
+      "chars": 1160
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Bwindi mountains.jpg",
+      "caption_zh": "布温迪密林中的山峦",
+      "caption": "布温迪密林中的山峦",
+      "caption_commons": "Bwindi mountains, UgandaBwindi mountains",
+      "kw": "Bwindi Impenetrable Forest",
+      "url": "assets/ug/L01.webp",
+      "thumb_url": "assets/ug/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bwindi_mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "tajai from malaysia",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 23382,
+      "caption_zh_manual": "布温迪密林",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 2944,
+      "size": {
+        "detail": "800x598",
+        "thumb": "240x179"
+      },
+      "encoding": "webp q75/q78 (源 800x598 63KB JPEG)"
+    },
+    {
+      "title": "File:Murchison Falls from above.jpg",
+      "caption_zh": "俯瞰默奇森瀑布",
+      "caption": "俯瞰默奇森瀑布",
+      "caption_commons": "Photograph taken by Oliver Sedlacek in September 2000 of the Murchison Falls on ",
+      "kw": "Murchison Falls Uganda",
+      "url": "assets/ug/L02.webp",
+      "thumb_url": "assets/ug/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Murchison_Falls_from_above.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Oliver Sedlacek",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 82642,
+      "caption_zh_manual": "默奇森瀑布",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7462,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1760x1174 390KB JPEG)"
+    },
+    {
+      "title": "File:1172 ruwenzori.jpg",
+      "caption_zh": "鲁文佐里山脉",
+      "caption": "鲁文佐里山脉",
+      "caption_commons": "Dendrosenecio adnivalis — flora in the Rwenzori Mountains range. Rwenzori Mounta",
+      "kw": "Rwenzori Mountains Uganda",
+      "url": "assets/ug/L03.webp",
+      "thumb_url": "assets/ug/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/1172_ruwenzori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Nick06",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 64030,
+      "caption_zh_manual": "鲁文佐里山脉",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8248,
+      "size": {
+        "detail": "800x529",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 800x529 140KB JPEG)"
+    },
+    {
+      "title": "File:Hippopotami in the Kazinga Channel, Queen Elizabeth National Park.jpg",
+      "caption_zh": "卡津加海峡河马，伊丽莎白女王国家公园",
+      "caption": "卡津加海峡河马，伊丽莎白女王国家公园",
+      "caption_commons": "Hippopotami in the Kazinga Channel, Queen Elizabeth National Park, Uganda Summar",
+      "kw": "Queen Elizabeth National Park Uganda",
+      "url": "assets/ug/L04.webp",
+      "thumb_url": "assets/ug/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hippopotami_in_the_Kazinga_Channel%2C_Queen_Elizabeth_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Rweinkove at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 187708,
+      "caption_zh_manual": "伊丽莎白女王国家公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10376,
+      "size": {
+        "detail": "1080x716",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1544x1024 1639KB JPEG)"
+    },
+    {
+      "title": "File:Crater Lakes of Fort Portal 01.jpg",
+      "caption_zh": "卡塞塞火山口湖",
+      "caption": "卡塞塞火山口湖",
+      "caption_commons": "Fort Portal, nestled at the base of the Rwenzori Mountain range in Western Ugand",
+      "kw": "Fort Portal Crater Lakes Uganda",
+      "url": "assets/ug/L05.webp",
+      "thumb_url": "assets/ug/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Crater_Lakes_of_Fort_Portal_01.jpg/1920px-Crater_Lakes_of_Fort_Portal_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Fiktube",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 101192,
+      "caption_zh_manual": "卡塞塞火山口湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6108,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 588KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY 2.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:11:17+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Uganda.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Uganda.wav、LL-Q33810 (ori)-Psubhashish-ଉଗାଣ୍ଡା.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py UG",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 2 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "东非内陆国家",
+        "evidence": "位于东非的内陆国家"
+      },
+      {
+        "v": "布干达王国",
+        "evidence": "班图人建立的布干达王国"
+      },
+      {
+        "v": "铁器铸造技术",
+        "evidence": "带来了铁器铸造技术"
+      },
+      {
+        "v": "狩猎收集者",
+        "evidence": "尚是狩猎收集者"
+      },
+      {
+        "v": "东非联邦",
+        "evidence": "六个国家在未来有望合并为东非联邦"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "乌干达共和国（斯瓦希里语：Jamhuri ya Uganda，英语：Republic of Uganda），通称乌干达，是位于东非的内陆国家。\n乌干达名称来自于过去班图人建立的布干达王国。欧洲列强在十九世纪后叶进入东非内陆后，乌干达在1894年成为英国殖民地。1962年乌干达脱离英国独立。1970年代，乌干达由独裁者伊迪·阿敏实施军事统治，伊迪·阿敏下台后又爆发乌干达丛林战争，直到进入二十一世纪后国内局势尚趋于稳定。\n乌干达是非洲联盟、七十七国集团以及伊斯兰合作组织的成员。此外，乌干达与肯尼亚、坦桑尼亚、布隆迪、卢旺达、南苏丹同为东非共同体成员，六个国家在未来有望合并为东非联邦，新国体将共同使用同一部宪法、一样的货币，由同一位总统与合组的议会来治理。\n\n\n== 历史 ==\n\n虽然人类在乌干达的活动遗迹可以追溯至公元前1000年，但对于在其他洲的人进入这片土地之前的记录，人们现在知之甚少。乌干达人直至1700年－2300年之前，尚是狩猎收集者。之后可能是来自于中非班图语部族，来到了这个国家的南部定居，带来了铁器铸造技术和新的社会和政治制度，并建立了Kitara国。",
+  "history_text": "南部一带早先由来自中非的班图语部族定居，带来铁器铸造与新的社会政治制度，建立起涵盖大湖地区的Kitara国。到十九世纪外人到来时，此地已有数个约建于十六世纪的国家，其中最大最重要的是布甘达。1894年英宣布布甘达为保护国，1896年扩至全境，1962年10月9日脱离英国独立。1971年伊迪·阿明政变夺权，其独裁统治下大量乌干达人丧生，1979年乌坦战争结束其政权，1986年约韦里·穆塞韦尼开始执政。",
+  "custom_text": "部族文化极为多样，巴干达人占比最高，恩科莱人、索加人等民族各有自己的语言与习俗。境内通行数十种语言，英语是通用语，卢干达语与斯瓦希里语最常在本土使用。阿明执政时曾大肆驱逐以印度人为主的亚洲人，此后又有许多人回归，市镇里的商铺与饮食随之带上南亚色彩。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 201,
+      "folk": 124
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "乌干达在哪儿啊？",
+      "a": "乌干达是位于东非的内陆国家，首都是坎帕拉。",
+      "tags": [
+        "东非",
+        "位置",
+        "内陆国"
+      ]
+    },
+    {
+      "q": "乌干达的首都是哪里？",
+      "a": "坎帕拉。",
+      "tags": [
+        "首都",
+        "坎帕拉"
+      ]
+    },
+    {
+      "q": "乌干达说什么语言？",
+      "a": "官方语言是英语和斯瓦希里语。",
+      "tags": [
+        "语言",
+        "英语",
+        "斯瓦希里语"
+      ]
+    },
+    {
+      "q": "乌干达有什么值得看的地方？",
+      "a": "有布温迪密林、默奇森瀑布、鲁文佐里山脉、伊丽莎白女王国家公园和卡塞塞火山口湖。",
+      "tags": [
+        "景点",
+        "地标",
+        "国家公园"
+      ]
+    },
+    {
+      "q": "乌干达有什么自然景观推荐？",
+      "a": "可以看布温迪密林、默奇森瀑布、鲁文佐里山脉、伊丽莎白女王国家公园和卡塞塞火山口湖。",
+      "tags": [
+        "自然景观",
+        "瀑布",
+        "山脉"
+      ]
+    },
+    {
+      "q": "乌干达以前是殖民地吗？",
+      "a": "是的，1894年成为英国殖民地，1962年脱离英国独立。",
+      "tags": [
+        "历史",
+        "殖民地",
+        "独立"
+      ]
+    },
+    {
+      "q": "乌干达是哪些组织的成员？",
+      "a": "非洲联盟、七十七国集团、伊斯兰合作组织，以及东非共同体成员。",
+      "tags": [
+        "国际组织",
+        "东非共同体",
+        "非盟"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        3047,
+        -107
+      ],
+      [
+        3034,
+        -107
+      ],
+      [
+        3015,
+        -134
+      ],
+      [
+        2994,
+        -147
+      ],
+      [
+        2982,
+        -132
+      ],
+      [
+        2958,
+        -139
+      ],
+      [
+        2955,
+        -100
+      ],
+      [
+        2970,
+        7
+      ],
+      [
+        2994,
+        50
+      ],
+      [
+        2995,
+        82
+      ],
+      [
+        3016,
+        91
+      ],
+      [
+        3024,
+        114
+      ],
+      [
+        3048,
+        124
+      ],
+      [
+        3127,
+        210
+      ],
+      [
+        3118,
+        230
+      ],
+      [
+        3106,
+        229
+      ],
+      [
+        3097,
+        240
+      ],
+      [
+        3087,
+        233
+      ],
+      [
+        3071,
+        244
+      ],
+      [
+        3085,
+        285
+      ],
+      [
+        3075,
+        308
+      ],
+      [
+        3091,
+        339
+      ],
+      [
+        3090,
+        352
+      ],
+      [
+        3084,
+        349
+      ],
+      [
+        3094,
+        368
+      ],
+      [
+        3122,
+        379
+      ],
+      [
+        3152,
+        366
+      ],
+      [
+        3178,
+        382
+      ],
+      [
+        3193,
+        360
+      ],
+      [
+        3217,
+        351
+      ],
+      [
+        3219,
+        362
+      ],
+      [
+        3237,
+        373
+      ],
+      [
+        3276,
+        377
+      ],
+      [
+        3300,
+        389
+      ],
+      [
+        3316,
+        376
+      ],
+      [
+        3349,
+        375
+      ],
+      [
+        3401,
+        421
+      ],
+      [
+        3408,
+        388
+      ],
+      [
+        3420,
+        388
+      ],
+      [
+        3415,
+        378
+      ],
+      [
+        3444,
+        367
+      ],
+      [
+        3438,
+        348
+      ],
+      [
+        3443,
+        318
+      ],
+      [
+        3488,
+        259
+      ],
+      [
+        3492,
+        248
+      ],
+      [
+        3487,
+        235
+      ],
+      [
+        3501,
+        192
+      ],
+      [
+        3497,
+        165
+      ],
+      [
+        3478,
+        139
+      ],
+      [
+        3480,
+        123
+      ],
+      [
+        3449,
+        108
+      ],
+      [
+        3439,
+        82
+      ],
+      [
+        3415,
+        60
+      ],
+      [
+        3408,
+        35
+      ],
+      [
+        3389,
+        11
+      ],
+      [
+        3395,
+        -15
+      ],
+      [
+        3390,
+        -100
+      ],
+      [
+        3078,
+        -99
+      ],
+      [
+        3047,
+        -107
+      ]
+    ]
+  ]
+}

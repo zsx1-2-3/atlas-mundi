@@ -1,1 +1,374 @@
-{"qid":"Q1050","iso_a2":"SZ","iso_a3":"SWZ","name_zh":"斯威士兰","name_en":"Eswatini","capital":"洛班巴","continent":"非洲","centroid":[31.4333,-26.4833],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/sz/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Eswatini, a kingdom of green hills; its capital is Lobamba, and nearby stands the royal village of Ludzidzini.","tts_text_zh":"欢迎来到斯威士兰，一个青山环绕的王国；首都是洛班巴，附近坐落着王室村落卢济济尼。","_retried":true,"audio_voice":"en-US-AriaNeural","audio_bytes":51840},{"code":"ss","name_zh":"斯瓦蒂语","name_local":"斯瓦蒂语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"斯威士兰王国通称斯威士兰，是位于非洲南部的一个内陆国家。斯威士兰北、西、南三面均为南非所包围，东北面则与莫桑比克接壤。斯威士兰南北长不超过200公里，东西宽不超过130公里，是非洲面积最小的国家之一。其气候和地形多样，兼有凉爽多山的高原和炎热干燥的低地。行政首都和最大城市是姆巴巴内，立法首都是洛班巴。该国旧英语官方国名为“Swaziland”，其拼写与欧洲的瑞士相近，且同属内陆国，因而有“非洲小瑞士”之称。2018年4月19日，斯威士兰国王姆斯瓦蒂三世宣布将英语国名由“Kingdom of Swaziland”改为“Kingdom of Eswatini”，其中“Eswatini”的斯威士语原义是“斯威士人的土地”。中文译名方面，中华民国政府配合斯威士兰官方政策由“史瓦济兰”改为“史瓦帝尼”，中国大陆、港澳地区、新马两国仍维持原有译名不变，称“斯威士兰”。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":383,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%8F%B2%E7%93%A6%E5%B8%9D%E5%B0%BC","title":"史瓦帝尼"},"culture_excerpts":[{"section":"历史","text":"史瓦帝人原属班图族之一支，16世纪时班图族自非洲中部迁徙至南部。18世纪中叶，斯威士兰脱离班图族自立，其领袖为恩史瓦帝（英语：Mswati），其后该族即以“史瓦帝”为其族名。19世纪中叶，欧洲势力开始进入此区。1902年第二次布尔战争之后，斯威士兰成为英国的保护国。1967年4月，斯威士兰举行大选，国王索布扎二世领导的因博科德沃民族运动（英语：Imbokodvo National Movement）取得议会的全部席位，该国也随即于1968年9月6日宣布独立，索布札成为该国真正的国家元首。1973年4月，索布扎二世废除宪法并解散议会，禁止政党活动。1978年制定新宪法，但并没有向国民公布，直到2005年才重新施行宪法。1986年4月25日，现任国王姆斯瓦蒂三世即位。","chars":336},{"section":"文化","text":"斯威士兰自1972年慕尼黑奥运起开始有运动员参与奥运，但未曾获得奖牌。唯一一次冬季奥运的参赛纪录则是1992年阿尔贝维尔奥运中Keith Fraser（英语：Keith Fraser (skier)）参与高山滑雪，成为迄今唯一代表该国参与冬季奥运的选手。\n斯威士兰国内有一座多功能体育场Somhlolo National Stadium（英语：Somhlolo National Stadium），以该国19世纪时的国王索布扎一世（英语：Sobhuza I）命名，可作为足球、橄榄球的比赛场地，约可容纳20000人。","chars":1200},{"section":"民族和语言","text":"斯威士兰的大多数人口为斯威士人，另有少量祖鲁族和白人非洲人（英国人和南非荷兰人的后裔）。斯威士兰人传统上以务农和放牧为生，如今大多数人在从事农业之外，还在日益发展的城市正规经济和政府部门就职。\n斯威士语是斯威士兰的官方语言之一，属于班图语支，通行于斯威士兰和南非。它拥有250万使用者。","chars":1200},{"section":"人口","text":"2002年时，总人口约1,224,000人。2014年时，总人口约1,268,000人。\n在斯威士兰大多数人口为基督徒（89.3％）。总人口84.2%％为新教信徒。其次是天主教信徒，占人口的3.7％，1.4%的是基督教各种派别，如“锡安会”。也有较少其他宗教，如印度教（1.15％）、伊斯兰教（0.95％）、巴哈伊教（0.5％）。","chars":1200}],"geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:04:46+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-eSwatini.wav、LL-Q22809485 (apc)-Hassan Hassoon-إسواتيني.wav、LL-Q652 (ita)-Francyskus-Eswatini.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py SZ","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","姆卡亚自然保护区：Wikidata / 维基 / Commons 都没有可用图","西贝贝岩：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（4 张，中文图注）"],"landmark_images":[{"title":"File:Mlilwane Wildlife Sanctuary 02.jpg","caption_zh":"姆利尔瓦内野生动物保护区","caption":"姆利尔瓦内野生动物保护区","caption_commons":"Blesbok (Damaliscus pygargus phillipsi, foreground) and Impala (Aepyceros melamp","kw":"Mlilwane Wildlife Sanctuary","url":"assets/sz/L01.webp","thumb_url":"assets/sz/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Mlilwane_Wildlife_Sanctuary_02.jpg/1920px-Mlilwane_Wildlife_Sanctuary_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Bernard Gagnon","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":86968,"caption_zh_manual":"姆利尔瓦内野生动物保护区","caption_zh_source":"llm_from_commons_filename","thumb_bytes":21016,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 1071KB JPEG)"},{"title":"File:Mantenga Falls (6899369494) (6).jpg","caption_zh":"曼滕加瀑布","caption":"曼滕加瀑布","caption_commons":"Mantenga Falls in Eswatini","kw":"Mantenga Falls","url":"assets/sz/L03.webp","thumb_url":"assets/sz/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Mantenga_Falls_%286899369494%29_%286%29.jpg/1920px-Mantenga_Falls_%286899369494%29_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"thomas","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":100970,"caption_zh_manual":"曼滕加瀑布","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11942,"size":{"detail":"760x1013","thumb":"225x300"},"encoding":"webp q72/q74 (源 1920x2560 1072KB JPEG)"},{"title":"File:SZ-ezulwini-markt-4.jpg","caption_zh":"埃祖尔维尼山谷集市","caption":"埃祖尔维尼山谷集市","caption_commons":"Ezulwini Valley, Markt","kw":"Ezulwini Valley","url":"assets/sz/L05.webp","thumb_url":"assets/sz/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/c/c1/SZ-ezulwini-markt-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"Bgabel","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":62054,"caption_zh_manual":"埃祖尔维尼山谷","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18380,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1215x807 542KB JPEG)"},{"title":"File:Ngwenya Mine.jpg","caption_zh":"恩格温亚岩","caption":"恩格温亚岩","caption_commons":"Ngwenya mine is the oldest known mine in the world. The san, or bushmen, mined h","kw":"Ngwenya Mine","url":"assets/sz/L06.webp","thumb_url":"assets/sz/L06.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/e/ef/Ngwenya_Mine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Heather Dowd","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":37788,"caption_zh_manual":"恩格温亚岩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15064,"size":{"detail":"640x427","thumb":"400x267"},"encoding":"webp q72/q74 (源 640x427 134KB JPEG)"}],"image_license":"CC BY-SA 4.0","image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 0 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"非洲小瑞士","evidence":"有“非洲小瑞士”之称"},{"v":"高原","evidence":"凉爽多山的高原"},{"v":"低地","evidence":"炎热干燥的低地"},{"v":"斯威士语","evidence":"斯威士语原义是“斯威士人的土地”"}],"model":"deepseek-flash"},"summary_text_raw":"斯威士兰王国（斯威士语：Umbuso weSwatini；英语：Kingdom of Eswatini），通称斯威士兰（斯威士语：eSwatini；英语：Eswatini），是位于非洲南部的一个内陆国家。斯威士兰北、西、南三面均为南非所包围，东北面则与莫桑比克接壤。\n斯威士兰南北长不超过200公里，东西宽不超过130公里，是非洲面积最小的国家之一。其气候和地形多样，兼有凉爽多山的高原和炎热干燥的低地。行政首都和最大城市是姆巴巴内，立法首都是洛班巴。\n\n\n== 名称 ==\n该国旧英语官方国名为“Swaziland”，其拼写与欧洲的瑞士（Switzerland）相近，且同属内陆国，因而有“非洲小瑞士”之称。但亦由于拼写相近的关系，2018年4月19日，斯威士兰国王姆斯瓦蒂三世宣布将英语国名由“Kingdom of Swaziland”改为“Kingdom of Eswatini”，其中“Eswatini”的斯威士语原义是“斯威士人的土地”。中文译名方面，中华民国政府配合斯威士兰官方政策由“史瓦济兰”改为“史瓦帝尼”。中国大陆、港澳地区、新马两国仍维持原有译名不变，称“斯威士兰”。","history_text":"斯威士人的祖先属班图族一支，16世纪自非洲中部南迁。18世纪中叶脱离班图族自立，领袖恩史瓦帝，族名由此而来。19世纪中叶欧洲势力进入，第二次布尔战争后沦为英国保护国。1968年宣布独立，索布扎二世掌权，1973年废除宪法、解散议会并禁止政党活动。1986年姆斯瓦蒂三世即位。","custom_text":"多数人务农放牧，如今也在城市正规经济与政府部门谋职。斯威士语属班图语支，通行于本地与南非。信众以基督徒为主，新教占多数，也有天主教、锡安会及印度教、伊斯兰教、巴哈伊教等少数群体。体育场以19世纪国王索布扎一世命名，可作足球、橄榄球场地。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":137,"folk":118}},"knowledge_qa":[{"q":"斯威士兰在哪儿啊？周围都是什么国家？","a":"位于非洲南部，是个内陆国家。北、西、南三面都被南非包围，东北面跟莫桑比克接壤。","tags":["非洲","位置","邻国","内陆国"]},{"q":"斯威士兰首都是哪里？","a":"行政首都是姆巴巴内，也是最大城市；立法首都是洛班巴。","tags":["首都","姆巴巴内","洛班巴"]},{"q":"斯威士兰有多大？","a":"南北长不超过200公里，东西宽不超过130公里，是非洲面积最小的国家之一。","tags":["面积","多大","非洲最小"]},{"q":"斯威士兰人说什么语言？","a":"官方语言是英语和斯瓦蒂语。","tags":["语言","说什么话","官方语言","斯瓦蒂语"]},{"q":"斯威士兰有什么值得看的自然景观？","a":"有姆利尔瓦内野生动物保护区、曼滕加瀑布、埃祖尔维尼山谷和恩格温亚岩。","tags":["景点","野生动物","瀑布","看什么"]},{"q":"斯威士兰为什么叫“非洲小瑞士”？","a":"因为旧英语国名“Swaziland”跟瑞士“Switzerland”拼写相近，又都是内陆国，所以有“非洲小瑞士”之称。","tags":["非洲小瑞士","国名","别称"]},{"q":"斯威士兰现在的英文国名是什么？","a":"2018年国王姆斯瓦蒂三世宣布改为“Kingdom of Eswatini”，斯瓦蒂语原义是“斯威士人的土地”。","tags":["国名","英文名","Eswatini"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[3195,-2596],[3207,-2601],[3204,-2628],[3212,-2658],[3211,-2684],[3199,-2681],[3197,-2732],[3153,-2731],[3116,-2721],[3098,-2704],[3088,-2677],[3080,-2681],[3080,-2640],[3112,-2591],[3134,-2574],[3184,-2598],[3195,-2596]]]}
+{
+  "qid": "Q1050",
+  "iso_a2": "SZ",
+  "iso_a3": "SWZ",
+  "name_zh": "斯威士兰",
+  "name_en": "Eswatini",
+  "capital": "洛班巴",
+  "continent": "非洲",
+  "centroid": [
+    31.4333,
+    -26.4833
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/sz/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Eswatini, a kingdom of green hills; its capital is Lobamba, and nearby stands the royal village of Ludzidzini.",
+      "tts_text_zh": "欢迎来到斯威士兰，一个青山环绕的王国；首都是洛班巴，附近坐落着王室村落卢济济尼。",
+      "_retried": true,
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 51840
+    },
+    {
+      "code": "ss",
+      "name_zh": "斯瓦蒂语",
+      "name_local": "斯瓦蒂语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "斯威士兰王国通称斯威士兰，是位于非洲南部的一个内陆国家。斯威士兰北、西、南三面均为南非所包围，东北面则与莫桑比克接壤。斯威士兰南北长不超过200公里，东西宽不超过130公里，是非洲面积最小的国家之一。其气候和地形多样，兼有凉爽多山的高原和炎热干燥的低地。行政首都和最大城市是姆巴巴内，立法首都是洛班巴。该国旧英语官方国名为“Swaziland”，其拼写与欧洲的瑞士相近，且同属内陆国，因而有“非洲小瑞士”之称。2018年4月19日，斯威士兰国王姆斯瓦蒂三世宣布将英语国名由“Kingdom of Swaziland”改为“Kingdom of Eswatini”，其中“Eswatini”的斯威士语原义是“斯威士人的土地”。中文译名方面，中华民国政府配合斯威士兰官方政策由“史瓦济兰”改为“史瓦帝尼”，中国大陆、港澳地区、新马两国仍维持原有译名不变，称“斯威士兰”。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 383,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%8F%B2%E7%93%A6%E5%B8%9D%E5%B0%BC",
+    "title": "史瓦帝尼"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "史瓦帝人原属班图族之一支，16世纪时班图族自非洲中部迁徙至南部。18世纪中叶，斯威士兰脱离班图族自立，其领袖为恩史瓦帝（英语：Mswati），其后该族即以“史瓦帝”为其族名。19世纪中叶，欧洲势力开始进入此区。1902年第二次布尔战争之后，斯威士兰成为英国的保护国。1967年4月，斯威士兰举行大选，国王索布扎二世领导的因博科德沃民族运动（英语：Imbokodvo National Movement）取得议会的全部席位，该国也随即于1968年9月6日宣布独立，索布札成为该国真正的国家元首。1973年4月，索布扎二世废除宪法并解散议会，禁止政党活动。1978年制定新宪法，但并没有向国民公布，直到2005年才重新施行宪法。1986年4月25日，现任国王姆斯瓦蒂三世即位。",
+      "chars": 336
+    },
+    {
+      "section": "文化",
+      "text": "斯威士兰自1972年慕尼黑奥运起开始有运动员参与奥运，但未曾获得奖牌。唯一一次冬季奥运的参赛纪录则是1992年阿尔贝维尔奥运中Keith Fraser（英语：Keith Fraser (skier)）参与高山滑雪，成为迄今唯一代表该国参与冬季奥运的选手。\n斯威士兰国内有一座多功能体育场Somhlolo National Stadium（英语：Somhlolo National Stadium），以该国19世纪时的国王索布扎一世（英语：Sobhuza I）命名，可作为足球、橄榄球的比赛场地，约可容纳20000人。",
+      "chars": 1200
+    },
+    {
+      "section": "民族和语言",
+      "text": "斯威士兰的大多数人口为斯威士人，另有少量祖鲁族和白人非洲人（英国人和南非荷兰人的后裔）。斯威士兰人传统上以务农和放牧为生，如今大多数人在从事农业之外，还在日益发展的城市正规经济和政府部门就职。\n斯威士语是斯威士兰的官方语言之一，属于班图语支，通行于斯威士兰和南非。它拥有250万使用者。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "2002年时，总人口约1,224,000人。2014年时，总人口约1,268,000人。\n在斯威士兰大多数人口为基督徒（89.3％）。总人口84.2%％为新教信徒。其次是天主教信徒，占人口的3.7％，1.4%的是基督教各种派别，如“锡安会”。也有较少其他宗教，如印度教（1.15％）、伊斯兰教（0.95％）、巴哈伊教（0.5％）。",
+      "chars": 1200
+    }
+  ],
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:04:46+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-eSwatini.wav、LL-Q22809485 (apc)-Hassan Hassoon-إسواتيني.wav、LL-Q652 (ita)-Francyskus-Eswatini.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py SZ",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "姆卡亚自然保护区：Wikidata / 维基 / Commons 都没有可用图",
+    "西贝贝岩：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（4 张，中文图注）"
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Mlilwane Wildlife Sanctuary 02.jpg",
+      "caption_zh": "姆利尔瓦内野生动物保护区",
+      "caption": "姆利尔瓦内野生动物保护区",
+      "caption_commons": "Blesbok (Damaliscus pygargus phillipsi, foreground) and Impala (Aepyceros melamp",
+      "kw": "Mlilwane Wildlife Sanctuary",
+      "url": "assets/sz/L01.webp",
+      "thumb_url": "assets/sz/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Mlilwane_Wildlife_Sanctuary_02.jpg/1920px-Mlilwane_Wildlife_Sanctuary_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Bernard Gagnon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 202200,
+      "caption_zh_manual": "姆利尔瓦内野生动物保护区",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8026,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 1071KB JPEG)"
+    },
+    {
+      "title": "File:Mantenga Falls (6899369494) (6).jpg",
+      "caption_zh": "曼滕加瀑布",
+      "caption": "曼滕加瀑布",
+      "caption_commons": "Mantenga Falls in Eswatini",
+      "kw": "Mantenga Falls",
+      "url": "assets/sz/L03.webp",
+      "thumb_url": "assets/sz/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Mantenga_Falls_%286899369494%29_%286%29.jpg/1920px-Mantenga_Falls_%286899369494%29_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "thomas",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 193426,
+      "caption_zh_manual": "曼滕加瀑布",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5618,
+      "size": {
+        "detail": "1080x1440",
+        "thumb": "135x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2560 1072KB JPEG)"
+    },
+    {
+      "title": "File:SZ-ezulwini-markt-4.jpg",
+      "caption_zh": "埃祖尔维尼山谷集市",
+      "caption": "埃祖尔维尼山谷集市",
+      "caption_commons": "Ezulwini Valley, Markt",
+      "kw": "Ezulwini Valley",
+      "url": "assets/sz/L05.webp",
+      "thumb_url": "assets/sz/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/SZ-ezulwini-markt-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Bgabel",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 124782,
+      "caption_zh_manual": "埃祖尔维尼山谷",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7992,
+      "size": {
+        "detail": "1080x717",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1215x807 542KB JPEG)"
+    },
+    {
+      "title": "File:Ngwenya Mine.jpg",
+      "caption_zh": "恩格温亚岩",
+      "caption": "恩格温亚岩",
+      "caption_commons": "Ngwenya mine is the oldest known mine in the world. The san, or bushmen, mined h",
+      "kw": "Ngwenya Mine",
+      "url": "assets/sz/L06.webp",
+      "thumb_url": "assets/sz/L06.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Ngwenya_Mine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Heather Dowd",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 39144,
+      "caption_zh_manual": "恩格温亚岩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6658,
+      "size": {
+        "detail": "640x427",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 640x427 134KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 0 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "非洲小瑞士",
+        "evidence": "有“非洲小瑞士”之称"
+      },
+      {
+        "v": "高原",
+        "evidence": "凉爽多山的高原"
+      },
+      {
+        "v": "低地",
+        "evidence": "炎热干燥的低地"
+      },
+      {
+        "v": "斯威士语",
+        "evidence": "斯威士语原义是“斯威士人的土地”"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "斯威士兰王国（斯威士语：Umbuso weSwatini；英语：Kingdom of Eswatini），通称斯威士兰（斯威士语：eSwatini；英语：Eswatini），是位于非洲南部的一个内陆国家。斯威士兰北、西、南三面均为南非所包围，东北面则与莫桑比克接壤。\n斯威士兰南北长不超过200公里，东西宽不超过130公里，是非洲面积最小的国家之一。其气候和地形多样，兼有凉爽多山的高原和炎热干燥的低地。行政首都和最大城市是姆巴巴内，立法首都是洛班巴。\n\n\n== 名称 ==\n该国旧英语官方国名为“Swaziland”，其拼写与欧洲的瑞士（Switzerland）相近，且同属内陆国，因而有“非洲小瑞士”之称。但亦由于拼写相近的关系，2018年4月19日，斯威士兰国王姆斯瓦蒂三世宣布将英语国名由“Kingdom of Swaziland”改为“Kingdom of Eswatini”，其中“Eswatini”的斯威士语原义是“斯威士人的土地”。中文译名方面，中华民国政府配合斯威士兰官方政策由“史瓦济兰”改为“史瓦帝尼”。中国大陆、港澳地区、新马两国仍维持原有译名不变，称“斯威士兰”。",
+  "history_text": "斯威士人的祖先属班图族一支，16世纪自非洲中部南迁。18世纪中叶脱离班图族自立，领袖恩史瓦帝，族名由此而来。19世纪中叶欧洲势力进入，第二次布尔战争后沦为英国保护国。1968年宣布独立，索布扎二世掌权，1973年废除宪法、解散议会并禁止政党活动。1986年姆斯瓦蒂三世即位。",
+  "custom_text": "多数人务农放牧，如今也在城市正规经济与政府部门谋职。斯威士语属班图语支，通行于本地与南非。信众以基督徒为主，新教占多数，也有天主教、锡安会及印度教、伊斯兰教、巴哈伊教等少数群体。体育场以19世纪国王索布扎一世命名，可作足球、橄榄球场地。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 137,
+      "folk": 118
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "斯威士兰在哪儿啊？周围都是什么国家？",
+      "a": "位于非洲南部，是个内陆国家。北、西、南三面都被南非包围，东北面跟莫桑比克接壤。",
+      "tags": [
+        "非洲",
+        "位置",
+        "邻国",
+        "内陆国"
+      ]
+    },
+    {
+      "q": "斯威士兰首都是哪里？",
+      "a": "行政首都是姆巴巴内，也是最大城市；立法首都是洛班巴。",
+      "tags": [
+        "首都",
+        "姆巴巴内",
+        "洛班巴"
+      ]
+    },
+    {
+      "q": "斯威士兰有多大？",
+      "a": "南北长不超过200公里，东西宽不超过130公里，是非洲面积最小的国家之一。",
+      "tags": [
+        "面积",
+        "多大",
+        "非洲最小"
+      ]
+    },
+    {
+      "q": "斯威士兰人说什么语言？",
+      "a": "官方语言是英语和斯瓦蒂语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言",
+        "斯瓦蒂语"
+      ]
+    },
+    {
+      "q": "斯威士兰有什么值得看的自然景观？",
+      "a": "有姆利尔瓦内野生动物保护区、曼滕加瀑布、埃祖尔维尼山谷和恩格温亚岩。",
+      "tags": [
+        "景点",
+        "野生动物",
+        "瀑布",
+        "看什么"
+      ]
+    },
+    {
+      "q": "斯威士兰为什么叫“非洲小瑞士”？",
+      "a": "因为旧英语国名“Swaziland”跟瑞士“Switzerland”拼写相近，又都是内陆国，所以有“非洲小瑞士”之称。",
+      "tags": [
+        "非洲小瑞士",
+        "国名",
+        "别称"
+      ]
+    },
+    {
+      "q": "斯威士兰现在的英文国名是什么？",
+      "a": "2018年国王姆斯瓦蒂三世宣布改为“Kingdom of Eswatini”，斯瓦蒂语原义是“斯威士人的土地”。",
+      "tags": [
+        "国名",
+        "英文名",
+        "Eswatini"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        3195,
+        -2596
+      ],
+      [
+        3207,
+        -2601
+      ],
+      [
+        3204,
+        -2628
+      ],
+      [
+        3212,
+        -2658
+      ],
+      [
+        3211,
+        -2684
+      ],
+      [
+        3199,
+        -2681
+      ],
+      [
+        3197,
+        -2732
+      ],
+      [
+        3153,
+        -2731
+      ],
+      [
+        3116,
+        -2721
+      ],
+      [
+        3098,
+        -2704
+      ],
+      [
+        3088,
+        -2677
+      ],
+      [
+        3080,
+        -2681
+      ],
+      [
+        3080,
+        -2640
+      ],
+      [
+        3112,
+        -2591
+      ],
+      [
+        3134,
+        -2574
+      ],
+      [
+        3184,
+        -2598
+      ],
+      [
+        3195,
+        -2596
+      ]
+    ]
+  ]
+}

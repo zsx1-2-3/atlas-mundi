@@ -1,1 +1,689 @@
-{"qid":"Q55","iso_a2":"NL","name_zh":"荷兰","name_en":"Netherlands","capital":"阿姆斯特丹","continent":"欧洲","centroid":[5.55,52.3167],"centroid_source":"wikidata P625","languages":[{"code":"nl","name_zh":"荷兰语","name_local":"荷兰语","role":"official","audio_url":"assets/nl/audio/nl.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welkom in Nederland, een land van water en vergezichten; de hoofdstad is Amsterdam, en wie de geschiedenis wil voelen, wandelt langs de grachten naar het Koninklijk Paleis op de Dam.","tts_text_zh":"欢迎来到荷兰，一个由水与远景构成的国度；首都是阿姆斯特丹，想感受历史的人，可以沿着运河漫步到水坝广场的王宫。","audio_voice":"nl-BE-DenaNeural","audio_bytes":62496},{"code":"fy","name_zh":"西弗里斯兰语","name_local":"西弗里斯兰语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"pap","name_zh":"帕皮阿门托语","name_local":"帕皮阿门托语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"荷兰，中文通称，国名原文“尼德兰”意为“低地之国”，是位于欧洲西部的低地国家，由欧洲区的12个省份和加勒比区的博奈尔岛、圣尤斯特歇斯岛和萨巴岛组成，也是荷兰王国的四个构成国之一，与阿鲁巴、库拉索和荷属圣马丁共同组成荷兰王国。其欧洲区领土位于欧洲西北部，濒临北海，与德国、比利时接壤，并与英国隔海相望；加勒比区则位于美洲加勒比海地区。荷兰国名原文的字面意义为低地国家，这一名称来自其国内平坦而低湿的地形，国土中只有约50%的土地高于海拔1米，低于海平面的土地绝大多数是人造的。荷兰最大的三个城市是阿姆斯特丹、鹿特丹与海牙，阿姆斯特丹是宪法确定的正式首都，然而政府、国王的王宫和大多数外国驻荷兰使馆都位于海牙，国际法庭也设在海牙。鹿特丹港位于鹿特丹，为全世界进出量第八的大型港口。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":338,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E8%8D%B7%E5%85%B0","title":"荷兰"},"culture_excerpts":[{"section":"历史","text":"1556年帝国皇帝查理五世（1519年－1556年在位）退位，将西班牙和低地（被称为北方省）分给他的儿子腓力二世，将奥地利等其他地区以及哈布斯堡王朝正统分给他的弟弟斐迪南一世。就这样，北方省属于西班牙王国。1568年，因反抗西班牙国王的中央集权和对新教加尔文派的迫害，爆发了北方省反抗西班牙的八十年战争。1579年北方省中的七省（现在荷兰、比利时和卢森堡的区域）成立了乌得勒支同盟，共同反对西班牙统治。这被认为现代荷兰的开始。1581年，联盟正式宣布独立。战争在继续，直到1648年西班牙国王菲利普四世才签订《明斯特条约》，承认七低地（尼德兰）／七省联合共和国，从西班牙王获得独立之后，荷兰发展成为17世纪航海和贸易强国。它在世界各地建立殖民地和贸易据点，包括台湾的部分地区于1624年－1662年和1664年－1667年曾为其殖民地。这段时期在荷兰被称为“黄金年代”。先后开发与殖民四地，即后的纽约、南非、印度尼西亚与台湾(后三者的部分)。荷兰也曾在毛里求斯殖民，但收效甚微，最终放弃。在1815年被拿破仑统治的法国占领结束后，荷兰和现在的比利时、卢森堡组成荷兰联合王国，同时荷属开普殖民地正式被英国统治。比利时很快在1830年独立，卢森堡也紧随其后，荷兰联合王国随之瓦解。19世纪中，荷兰相对于邻国比利时相比较为落后，比利时在当时为工业强国。一直到1870年代，才因为第二次工业革命的发生而促使经济起飞。1914年，第一次世界大战爆发，荷兰在第一次世界大战中保持中立。但战事仍使荷兰深受其苦，由于周边的国家皆处于战争状态，若欲于北海进行航运将会有极大的风险，因而粮食变得稀缺，甚至有发生饥荒的威胁存在。荷兰在战争爆发时如同第一次世界大战一样，再次宣布自己是中立国。虽然如此，在第二次世界大战中荷兰自1940年5月依然被纳粹德国占领直至1945年才被解放。德国入侵荷兰是为了绕开马奇诺防线，并防止英军登陆荷兰北部。当时的入侵造成荷兰在所有西欧被纳粹德国占领过的国家中死亡率是最高的。1949年，荷兰承认印度尼西亚独立，失去了对荷属东印度的统治权。同年荷兰在西巴布亚建立荷属新几内亚。1954年，迫于国际社会要求实行去殖民化的压力，荷兰王国颁布了《荷兰王国宪章（英语：Charter for the Kingdom of the Netherlands）》，改革了政治结构。于1954年12月15日，荷兰通过《荷兰王国章程》（Het Statuut），使荷兰的原殖民地和属地在王国内与荷兰本土享有同等地位。自此荷兰王国专指由荷兰本土及其前殖民地组成部分的王国，而“荷兰”则专指欧洲大陆荷兰。1962年10月，在美国压力下，荷兰将荷属新几内亚交付联合国托管，该地区后来并入印尼。","chars":1138},{"section":"文化","text":"荷兰建筑的第一个辉煌时期大约起始于17世纪的荷兰黄金时代，由于经济蓬勃的城市大为扩大，新会堂和仓库的修建。商人从中大发横财，增建新建筑以及在其周围各城市挖河渠（国防、运输用途），房子的装饰门面的翻修以适合新的市容。在乡村，新的乡村住房不断出现。涌现了一大批知名的建筑师如：雅各布·范·坎彭（1595年-1657年）、Lieven de Key（c. 1560年-1627年）和Hendrik de Keyser (1565年-1621年)。\n荷兰诞生过很多著名的画家。北方文艺复兴时期就有早期尼德兰画派出现。17世纪时，正值鼎盛的荷兰共和国又出现了荷兰黄金时代绘画，荷兰出现了伦勃朗、扬·弗美尔、扬·斯特恩和其他一些画家；据估计在1640年之后的20年内荷兰画家绘制了大约130万幅作品。19世纪和20世纪的画家包括梵高和皮特·蒙德里安。而莫里茨·科内利斯·埃舍尔亦是一位知名的图形艺术家。\n荷兰拥有一些独特的传统体育竞赛，如十一个城市巡回赛是菲仕兰省的一项传统长途巡回溜冰比赛，这项竞赛需沿着结冰的河面，河流和湖泊穿越该省所有11个历史名城，因此得名。\n荷兰传统饮食文化比较简单。早餐和午餐通常是面包和配菜。晚餐则主要是肉和马铃薯。荷兰人的碳水化合物和脂肪摄取量较高，显示出体力劳动者的饮食需要，并且荷兰人的奶制品消费量也很高。传统荷兰食物因地区各有不同。东部、北部受德国影响较浓，较多食用香肠；西部属平原，畜牧业发达，盛产不同种类奶酪；南部则毗邻比利时，饮食较类似于法国菜。20世纪后，荷兰的饮食文化变得更加国际化。在荷兰的大城市可以品尝到来自世界各地的食物。","chars":1200},{"section":"饮食","text":"荷兰传统饮食文化比较简单。早餐和午餐通常是面包和配菜。晚餐则主要是肉和马铃薯。荷兰人的碳水化合物和脂肪摄取量较高，显示出体力劳动者的饮食需要，并且荷兰人的奶制品消费量也很高。传统荷兰食物因地区各有不同。东部、北部受德国影响较浓，较多食用香肠；西部属平原，畜牧业发达，盛产不同种类奶酪；南部则毗邻比利时，饮食较类似于法国菜。20世纪后，荷兰的饮食文化变得更加国际化。在荷兰的大城市可以品尝到来自世界各地的食物。","chars":1200},{"section":"人口和社会","text":"荷兰是世界上人口密度最高的国家之一。它的人口密度超过400人／平方公里。\n在荷兰居住着多个种族的人群。尽管如此，纯正荷兰血统的居民仍占总人口的大多数。\n荷兰语是荷兰的官方语言之一，属于印欧语系日耳曼语族下的西日耳曼语支，是荷兰、比利时、苏里南、阿鲁巴、库拉索、荷属圣马丁等地的官方语言。在荷兰全境、比利时北部的佛兰德斯地区和法国法兰德斯地区通用。欧洲约有两千四百万人以荷兰语为第一语言。曾经被荷兰统治了三个半世纪的印度尼西亚也有少量日常的使用。\n南非语，又称“南非荷兰语”“阿非利卡语”“阿非利堪斯语”“布尔语”，是17世纪殖民者所说的荷兰语的变种，并融合了相当数量的马来、班图诸语言的词汇和语法，南非白人的祖先名为布尔人，其名称的由来是来自荷兰语中boer（农夫）这个单词。南非语是南非共和国的官方语言之一。\n荷兰以社会风气宽容开放著称。通常，荷兰的形象会与贸易、郁金香、风车、木鞋、奶酪和白蓝彩釉陶器等等相联系。在2001年4月1日，荷兰成为全球第一个同性婚姻合法化的国家\n荷兰是个医疗分级做得较为明确的国家，基础医疗机构为GP（General Practitioner，荷兰语：huisarts，即所谓家庭医生/私人医生），所有的荷兰民众都必须要注册一个家庭医师，有任何的疑难杂症都必须要先去家庭医师报到，再由家庭医师判断是否要转诊到专门的大医院。荷兰有超过160间基础医疗护理中心提供一周7天，每天24小时的服务。另一方面，荷兰的医疗费用也相对昂贵，不过荷兰政府也强制规定所有荷兰居民都必须有医疗保险，但人民可以自己","chars":662}],"landmark_images":[{"title":"File:KinderdijkMolens02.jpg","caption_zh":"小孩堤防风车群","caption":"小孩堤防风车群","caption_commons":"See the original image","kw":"Kinderdijk windmills Netherlands","url":"assets/nl/L01.webp","thumb_url":"assets/nl/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/f/ff/KinderdijkMolens02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Lucas Hirschegger","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":36080,"caption_zh_manual":"小孩堤防风车群","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11672,"size":{"detail":"760x569","thumb":"400x299"},"encoding":"webp q72/q74 (源 1480x1108 235KB JPEG)"},{"title":"File:Amsterdam Canal Tour.jpg","caption_zh":"阿姆斯特丹运河带游船视角","caption":"阿姆斯特丹运河带游船视角","caption_commons":"Numerous tourists view Amsterdam from canal boat tours (2015)","kw":"Amsterdam canal ring houses","url":"assets/nl/L02.webp","thumb_url":"assets/nl/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Amsterdam_Canal_Tour.jpg/1920px-Amsterdam_Canal_Tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Peter K Burian","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":115606,"caption_zh_manual":"阿姆斯特丹运河带","caption_zh_source":"llm_from_commons_filename","thumb_bytes":30922,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 1201KB JPEG)"},{"title":"File:De Slag bij Waterloo Rijksmuseum SK-A-1115.jpeg","caption_zh":"国立博物馆与运河藏滑铁卢战役画","caption":"国立博物馆与运河藏滑铁卢战役画","caption_commons":"The Battle of Waterloo, 18 June 1815. View of the battle field on the moment tha","kw":"Rijksmuseum Amsterdam building","url":"assets/nl/L03.webp","thumb_url":"assets/nl/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/De_Slag_bij_Waterloo_Rijksmuseum_SK-A-1115.jpeg/1920px-De_Slag_bij_Waterloo_Rijksmuseum_SK-A-1115.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Jan Willem Pieneman","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":40082,"caption_zh_manual":"国立博物馆与运河","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12660,"size":{"detail":"760x503","thumb":"400x265"},"encoding":"webp q72/q74 (源 1920x1271 584KB JPEG)"},{"title":"File:NL-keukenhof-01.jpg","caption_zh":"库肯霍夫郁金香花园","caption":"库肯霍夫郁金香花园","caption_commons":"Keukenhof 22.04.2014","kw":"Keukenhof tulips garden","url":"assets/nl/L04.webp","thumb_url":"assets/nl/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/NL-keukenhof-01.jpg/1920px-NL-keukenhof-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Balou46","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":118602,"caption_zh_manual":"库肯霍夫郁金香花园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":31446,"size":{"detail":"760x504","thumb":"400x265"},"encoding":"webp q72/q74 (源 1920x1272 1210KB JPEG)"},{"title":"File:Andrew carnegie Palais de la Paix Peace Palace Den Haag The Hague La Haye.jpg","caption_zh":"安德鲁·卡内基与和平宫","caption":"安德鲁·卡内基与和平宫","caption_commons":"Buste d'Andrew Carnegie se trouvant dans le Palais de la Paix Peace Palace Den H","kw":"Peace Palace The Hague","url":"assets/nl/L05.webp","thumb_url":"assets/nl/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Andrew_carnegie_Palais_de_la_Paix_Peace_Palace_Den_Haag_The_Hague_La_Haye.jpg/1920px-Andrew_carnegie_Palais_de_la_Paix_Peace_Palace_Den_Haag_The_Hague_La_Haye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Lybil","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":132176,"caption_zh_manual":"和平宫","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12572,"size":{"detail":"760x1013","thumb":"225x300"},"encoding":"webp q72/q74 (源 1920x2560 1672KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:48:34+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["Wikidata 无 P298（三字母码）","语言代码未解析，已剔除：Dutch Sign Language","P37 返回 5 个语言，去重/去上位概念后保留 3 个：荷兰语、西弗里斯兰语、帕皮阿门托语","P443 发音语种不符已弃用：LL-Q143 (epo)-Robin van der Vliet-Nederlando.wav、Lb-Holland.ogg、LL-Q7411 (nld)-Robin van der Vliet-Nederland.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py NL","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"低地之国","evidence":"意为“低地之国”"},{"v":"北海","evidence":"濒临北海"},{"v":"阿姆斯特丹","evidence":"阿姆斯特丹是宪法确定的正式首都"},{"v":"鹿特丹港","evidence":"鹿特丹港，位于鹿特丹"},{"v":"海牙国际法庭","evidence":"国际法庭也设在海牙"}],"model":"deepseek-flash"},"summary_text_raw":"尼德兰（荷兰语：Nederland，[ˈneːdərˌlɑnt] ，意为“低地之国”），中文通称荷兰，是位于欧洲西部的低地国家，由欧洲区荷兰的12个省份和荷兰加勒比区的博奈尔岛、圣尤斯特歇斯岛和萨巴岛组成。荷兰也是荷兰王国（荷兰语：Koninkrijk der Nederlanden）的四个构成国之一，与美洲加勒比地区的阿鲁巴、库拉索和荷属圣马丁共同组成荷兰王国。尼德兰的领土可分为欧洲区与加勒比区两个部分。欧洲区领土位于欧洲西北部，濒临北海，与德国、比利时接壤，并与英国隔海相望。加勒比海区，位于美洲加勒比海地区，包括博奈尔岛、圣尤斯特歇斯岛和萨巴岛三个小岛。荷兰最大的三个城市是阿姆斯特丹、鹿特丹与海牙。阿姆斯特丹是宪法确定的正式首都，然而，政府、国王的王宫和大多数外国驻荷兰使馆都位于海牙。此外，国际法庭也设在海牙。鹿特丹港，位于鹿特丹，为全世界进出量第八的大型港口。\n荷兰国名原文“尼德兰”（Nederland）的字面意义为低地国家，这个名称来自于它国内平坦而低湿的地形。其国土中，只有约50%的土地高于海拔1米。其国土中，低于海平面的土地，绝大多数是人造的。","history_text":"北方省原属西班牙王国，因反抗中央集权与新教迫害，爆发八十年战争。七省结成乌得勒支同盟共抗西班牙，随后宣布独立，至《明斯特条约》获承认。独立后凭航海与贸易崛起为强国，在各地建立殖民地与贸易据点，这段时期被称为“黄金年代”。","custom_text":"早餐与午餐通常只是面包配菜，晚餐以肉和马铃薯为主，奶制品消费很多。东部北部受德国影响多吃香肠，西部平原畜牧业发达盛产奶酪，南部饮食近似法国菜。菲仕兰省有沿结冰河湖长途滑行的十一城市巡回赛。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":110,"folk":94}},"knowledge_qa":[{"q":"荷兰在哪儿啊？周围挨着哪些国家？","a":"荷兰位于欧洲西部，濒临北海，与德国、比利时接壤，并与英国隔海相望。","tags":["荷兰","地理位置","邻国"]},{"q":"荷兰的首都是哪里？政府也在首都吗？","a":"宪法确定的正式首都是阿姆斯特丹，但政府、国王的王宫和大多数外国使馆都位于海牙。","tags":["荷兰","首都","阿姆斯特丹","海牙"]},{"q":"荷兰人平时说什么语言？","a":"官方语言有荷兰语、西弗里斯兰语和帕皮阿门托语。","tags":["荷兰","语言","方言"]},{"q":"荷兰有什么值得一看的地标或景观？","a":"小孩堤防风车群、阿姆斯特丹运河带、国立博物馆与运河、库肯霍夫郁金香花园、和平宫都值得一看。","tags":["荷兰","地标","风车","郁金香"]},{"q":"荷兰国土有多大？地形怎么样？","a":"荷兰国土只有约50%的土地高于海拔1米，低于海平面的土地绝大多数是人造的。","tags":["荷兰","地形","低地"]},{"q":"荷兰的港口大不大？","a":"鹿特丹港位于鹿特丹，为全世界进出量第八的大型港口。","tags":["荷兰","鹿特丹港","港口"]},{"q":"荷兰这个名字是怎么来的？","a":"荷兰国名原文“尼德兰”的字面意义为低地国家，这个名称来自于它国内平坦而低湿的地形。","tags":["荷兰","国名","尼德兰"]},{"q":"荷兰除了欧洲部分，还有别的领土吗？","a":"有，荷兰加勒比区包括博奈尔岛、圣尤斯特歇斯岛和萨巴岛三个小岛。","tags":["荷兰","加勒比","岛屿"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"iso_a3":"NLD","outline":[[[720,5324],[719,5300],[704,5265],[674,5264],[667,5254],[672,5246],[697,5245],[705,5236],[703,5223],[667,5205],[681,5196],[634,5182],[613,5190],[616,5184],[593,5182],[620,5146],[606,5121],[615,5115],[585,5104],[588,5096],[606,5091],[600,5075],[571,5075],[562,5083],[583,5116],[549,5129],[522,5126],[503,5148],[491,5139],[476,5141],[482,5141],[478,5150],[463,5142],[448,5147],[438,5144],[439,5135],[400,5145],[383,5139],[345,5153],[385,5161],[411,5145],[428,5145],[399,5159],[421,5159],[411,5164],[418,5169],[386,5182],[408,5184],[402,5199],[414,5201],[451,5234],[474,5297],[487,5290],[508,5295],[538,5310],[559,5330],[598,5341],[683,5345],[690,5335],[720,5324]],[[335,5138],[422,5136],[381,5120],[364,5129],[339,5125],[335,5138]],[[-6821,1223],[-6824,1202],[-6830,1220],[-6842,1226],[-6838,1231],[-6821,1223]],[[404,5169],[410,5165],[396,5162],[369,5172],[404,5169]],[[489,5311],[480,5300],[471,5303],[485,5319],[489,5311]]]}
+{
+  "qid": "Q55",
+  "iso_a2": "NL",
+  "name_zh": "荷兰",
+  "name_en": "Netherlands",
+  "capital": "阿姆斯特丹",
+  "continent": "欧洲",
+  "centroid": [
+    5.55,
+    52.3167
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "nl",
+      "name_zh": "荷兰语",
+      "name_local": "荷兰语",
+      "role": "official",
+      "audio_url": "assets/nl/audio/nl.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welkom in Nederland, een land van water en vergezichten; de hoofdstad is Amsterdam, en wie de geschiedenis wil voelen, wandelt langs de grachten naar het Koninklijk Paleis op de Dam.",
+      "tts_text_zh": "欢迎来到荷兰，一个由水与远景构成的国度；首都是阿姆斯特丹，想感受历史的人，可以沿着运河漫步到水坝广场的王宫。",
+      "audio_voice": "nl-BE-DenaNeural",
+      "audio_bytes": 62496
+    },
+    {
+      "code": "fy",
+      "name_zh": "西弗里斯兰语",
+      "name_local": "西弗里斯兰语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "pap",
+      "name_zh": "帕皮阿门托语",
+      "name_local": "帕皮阿门托语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "荷兰，中文通称，国名原文“尼德兰”意为“低地之国”，是位于欧洲西部的低地国家，由欧洲区的12个省份和加勒比区的博奈尔岛、圣尤斯特歇斯岛和萨巴岛组成，也是荷兰王国的四个构成国之一，与阿鲁巴、库拉索和荷属圣马丁共同组成荷兰王国。其欧洲区领土位于欧洲西北部，濒临北海，与德国、比利时接壤，并与英国隔海相望；加勒比区则位于美洲加勒比海地区。荷兰国名原文的字面意义为低地国家，这一名称来自其国内平坦而低湿的地形，国土中只有约50%的土地高于海拔1米，低于海平面的土地绝大多数是人造的。荷兰最大的三个城市是阿姆斯特丹、鹿特丹与海牙，阿姆斯特丹是宪法确定的正式首都，然而政府、国王的王宫和大多数外国驻荷兰使馆都位于海牙，国际法庭也设在海牙。鹿特丹港位于鹿特丹，为全世界进出量第八的大型港口。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 338,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E8%8D%B7%E5%85%B0",
+    "title": "荷兰"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "1556年帝国皇帝查理五世（1519年－1556年在位）退位，将西班牙和低地（被称为北方省）分给他的儿子腓力二世，将奥地利等其他地区以及哈布斯堡王朝正统分给他的弟弟斐迪南一世。就这样，北方省属于西班牙王国。1568年，因反抗西班牙国王的中央集权和对新教加尔文派的迫害，爆发了北方省反抗西班牙的八十年战争。1579年北方省中的七省（现在荷兰、比利时和卢森堡的区域）成立了乌得勒支同盟，共同反对西班牙统治。这被认为现代荷兰的开始。1581年，联盟正式宣布独立。战争在继续，直到1648年西班牙国王菲利普四世才签订《明斯特条约》，承认七低地（尼德兰）／七省联合共和国，从西班牙王获得独立之后，荷兰发展成为17世纪航海和贸易强国。它在世界各地建立殖民地和贸易据点，包括台湾的部分地区于1624年－1662年和1664年－1667年曾为其殖民地。这段时期在荷兰被称为“黄金年代”。先后开发与殖民四地，即后的纽约、南非、印度尼西亚与台湾(后三者的部分)。荷兰也曾在毛里求斯殖民，但收效甚微，最终放弃。在1815年被拿破仑统治的法国占领结束后，荷兰和现在的比利时、卢森堡组成荷兰联合王国，同时荷属开普殖民地正式被英国统治。比利时很快在1830年独立，卢森堡也紧随其后，荷兰联合王国随之瓦解。19世纪中，荷兰相对于邻国比利时相比较为落后，比利时在当时为工业强国。一直到1870年代，才因为第二次工业革命的发生而促使经济起飞。1914年，第一次世界大战爆发，荷兰在第一次世界大战中保持中立。但战事仍使荷兰深受其苦，由于周边的国家皆处于战争状态，若欲于北海进行航运将会有极大的风险，因而粮食变得稀缺，甚至有发生饥荒的威胁存在。荷兰在战争爆发时如同第一次世界大战一样，再次宣布自己是中立国。虽然如此，在第二次世界大战中荷兰自1940年5月依然被纳粹德国占领直至1945年才被解放。德国入侵荷兰是为了绕开马奇诺防线，并防止英军登陆荷兰北部。当时的入侵造成荷兰在所有西欧被纳粹德国占领过的国家中死亡率是最高的。1949年，荷兰承认印度尼西亚独立，失去了对荷属东印度的统治权。同年荷兰在西巴布亚建立荷属新几内亚。1954年，迫于国际社会要求实行去殖民化的压力，荷兰王国颁布了《荷兰王国宪章（英语：Charter for the Kingdom of the Netherlands）》，改革了政治结构。于1954年12月15日，荷兰通过《荷兰王国章程》（Het Statuut），使荷兰的原殖民地和属地在王国内与荷兰本土享有同等地位。自此荷兰王国专指由荷兰本土及其前殖民地组成部分的王国，而“荷兰”则专指欧洲大陆荷兰。1962年10月，在美国压力下，荷兰将荷属新几内亚交付联合国托管，该地区后来并入印尼。",
+      "chars": 1138
+    },
+    {
+      "section": "文化",
+      "text": "荷兰建筑的第一个辉煌时期大约起始于17世纪的荷兰黄金时代，由于经济蓬勃的城市大为扩大，新会堂和仓库的修建。商人从中大发横财，增建新建筑以及在其周围各城市挖河渠（国防、运输用途），房子的装饰门面的翻修以适合新的市容。在乡村，新的乡村住房不断出现。涌现了一大批知名的建筑师如：雅各布·范·坎彭（1595年-1657年）、Lieven de Key（c. 1560年-1627年）和Hendrik de Keyser (1565年-1621年)。\n荷兰诞生过很多著名的画家。北方文艺复兴时期就有早期尼德兰画派出现。17世纪时，正值鼎盛的荷兰共和国又出现了荷兰黄金时代绘画，荷兰出现了伦勃朗、扬·弗美尔、扬·斯特恩和其他一些画家；据估计在1640年之后的20年内荷兰画家绘制了大约130万幅作品。19世纪和20世纪的画家包括梵高和皮特·蒙德里安。而莫里茨·科内利斯·埃舍尔亦是一位知名的图形艺术家。\n荷兰拥有一些独特的传统体育竞赛，如十一个城市巡回赛是菲仕兰省的一项传统长途巡回溜冰比赛，这项竞赛需沿着结冰的河面，河流和湖泊穿越该省所有11个历史名城，因此得名。\n荷兰传统饮食文化比较简单。早餐和午餐通常是面包和配菜。晚餐则主要是肉和马铃薯。荷兰人的碳水化合物和脂肪摄取量较高，显示出体力劳动者的饮食需要，并且荷兰人的奶制品消费量也很高。传统荷兰食物因地区各有不同。东部、北部受德国影响较浓，较多食用香肠；西部属平原，畜牧业发达，盛产不同种类奶酪；南部则毗邻比利时，饮食较类似于法国菜。20世纪后，荷兰的饮食文化变得更加国际化。在荷兰的大城市可以品尝到来自世界各地的食物。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "荷兰传统饮食文化比较简单。早餐和午餐通常是面包和配菜。晚餐则主要是肉和马铃薯。荷兰人的碳水化合物和脂肪摄取量较高，显示出体力劳动者的饮食需要，并且荷兰人的奶制品消费量也很高。传统荷兰食物因地区各有不同。东部、北部受德国影响较浓，较多食用香肠；西部属平原，畜牧业发达，盛产不同种类奶酪；南部则毗邻比利时，饮食较类似于法国菜。20世纪后，荷兰的饮食文化变得更加国际化。在荷兰的大城市可以品尝到来自世界各地的食物。",
+      "chars": 1200
+    },
+    {
+      "section": "人口和社会",
+      "text": "荷兰是世界上人口密度最高的国家之一。它的人口密度超过400人／平方公里。\n在荷兰居住着多个种族的人群。尽管如此，纯正荷兰血统的居民仍占总人口的大多数。\n荷兰语是荷兰的官方语言之一，属于印欧语系日耳曼语族下的西日耳曼语支，是荷兰、比利时、苏里南、阿鲁巴、库拉索、荷属圣马丁等地的官方语言。在荷兰全境、比利时北部的佛兰德斯地区和法国法兰德斯地区通用。欧洲约有两千四百万人以荷兰语为第一语言。曾经被荷兰统治了三个半世纪的印度尼西亚也有少量日常的使用。\n南非语，又称“南非荷兰语”“阿非利卡语”“阿非利堪斯语”“布尔语”，是17世纪殖民者所说的荷兰语的变种，并融合了相当数量的马来、班图诸语言的词汇和语法，南非白人的祖先名为布尔人，其名称的由来是来自荷兰语中boer（农夫）这个单词。南非语是南非共和国的官方语言之一。\n荷兰以社会风气宽容开放著称。通常，荷兰的形象会与贸易、郁金香、风车、木鞋、奶酪和白蓝彩釉陶器等等相联系。在2001年4月1日，荷兰成为全球第一个同性婚姻合法化的国家\n荷兰是个医疗分级做得较为明确的国家，基础医疗机构为GP（General Practitioner，荷兰语：huisarts，即所谓家庭医生/私人医生），所有的荷兰民众都必须要注册一个家庭医师，有任何的疑难杂症都必须要先去家庭医师报到，再由家庭医师判断是否要转诊到专门的大医院。荷兰有超过160间基础医疗护理中心提供一周7天，每天24小时的服务。另一方面，荷兰的医疗费用也相对昂贵，不过荷兰政府也强制规定所有荷兰居民都必须有医疗保险，但人民可以自己",
+      "chars": 662
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:KinderdijkMolens02.jpg",
+      "caption_zh": "小孩堤防风车群",
+      "caption": "小孩堤防风车群",
+      "caption_commons": "See the original image",
+      "kw": "Kinderdijk windmills Netherlands",
+      "url": "assets/nl/L01.webp",
+      "thumb_url": "assets/nl/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/KinderdijkMolens02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Lucas Hirschegger",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 65540,
+      "caption_zh_manual": "小孩堤防风车群",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5340,
+      "size": {
+        "detail": "1080x809",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1480x1108 235KB JPEG)"
+    },
+    {
+      "title": "File:Amsterdam Canal Tour.jpg",
+      "caption_zh": "阿姆斯特丹运河带游船视角",
+      "caption": "阿姆斯特丹运河带游船视角",
+      "caption_commons": "Numerous tourists view Amsterdam from canal boat tours (2015)",
+      "kw": "Amsterdam canal ring houses",
+      "url": "assets/nl/L02.webp",
+      "thumb_url": "assets/nl/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Amsterdam_Canal_Tour.jpg/1920px-Amsterdam_Canal_Tour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Peter K Burian",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 250150,
+      "caption_zh_manual": "阿姆斯特丹运河带",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 12298,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 1201KB JPEG)"
+    },
+    {
+      "title": "File:De Slag bij Waterloo Rijksmuseum SK-A-1115.jpeg",
+      "caption_zh": "国立博物馆与运河藏滑铁卢战役画",
+      "caption": "国立博物馆与运河藏滑铁卢战役画",
+      "caption_commons": "The Battle of Waterloo, 18 June 1815. View of the battle field on the moment tha",
+      "kw": "Rijksmuseum Amsterdam building",
+      "url": "assets/nl/L03.webp",
+      "thumb_url": "assets/nl/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/De_Slag_bij_Waterloo_Rijksmuseum_SK-A-1115.jpeg/1920px-De_Slag_bij_Waterloo_Rijksmuseum_SK-A-1115.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Jan Willem Pieneman",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 84226,
+      "caption_zh_manual": "国立博物馆与运河",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6256,
+      "size": {
+        "detail": "1080x715",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1271 584KB JPEG)"
+    },
+    {
+      "title": "File:NL-keukenhof-01.jpg",
+      "caption_zh": "库肯霍夫郁金香花园",
+      "caption": "库肯霍夫郁金香花园",
+      "caption_commons": "Keukenhof 22.04.2014",
+      "kw": "Keukenhof tulips garden",
+      "url": "assets/nl/L04.webp",
+      "thumb_url": "assets/nl/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/NL-keukenhof-01.jpg/1920px-NL-keukenhof-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Balou46",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 263876,
+      "caption_zh_manual": "库肯霍夫郁金香花园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 12366,
+      "size": {
+        "detail": "1080x716",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1272 1210KB JPEG)"
+    },
+    {
+      "title": "File:Andrew carnegie Palais de la Paix Peace Palace Den Haag The Hague La Haye.jpg",
+      "caption_zh": "安德鲁·卡内基与和平宫",
+      "caption": "安德鲁·卡内基与和平宫",
+      "caption_commons": "Buste d'Andrew Carnegie se trouvant dans le Palais de la Paix Peace Palace Den H",
+      "kw": "Peace Palace The Hague",
+      "url": "assets/nl/L05.webp",
+      "thumb_url": "assets/nl/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Andrew_carnegie_Palais_de_la_Paix_Peace_Palace_Den_Haag_The_Hague_La_Haye.jpg/1920px-Andrew_carnegie_Palais_de_la_Paix_Peace_Palace_Den_Haag_The_Hague_La_Haye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Lybil",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 310692,
+      "caption_zh_manual": "和平宫",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6120,
+      "size": {
+        "detail": "1080x1440",
+        "thumb": "135x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2560 1672KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:48:34+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "Wikidata 无 P298（三字母码）",
+    "语言代码未解析，已剔除：Dutch Sign Language",
+    "P37 返回 5 个语言，去重/去上位概念后保留 3 个：荷兰语、西弗里斯兰语、帕皮阿门托语",
+    "P443 发音语种不符已弃用：LL-Q143 (epo)-Robin van der Vliet-Nederlando.wav、Lb-Holland.ogg、LL-Q7411 (nld)-Robin van der Vliet-Nederland.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py NL",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "低地之国",
+        "evidence": "意为“低地之国”"
+      },
+      {
+        "v": "北海",
+        "evidence": "濒临北海"
+      },
+      {
+        "v": "阿姆斯特丹",
+        "evidence": "阿姆斯特丹是宪法确定的正式首都"
+      },
+      {
+        "v": "鹿特丹港",
+        "evidence": "鹿特丹港，位于鹿特丹"
+      },
+      {
+        "v": "海牙国际法庭",
+        "evidence": "国际法庭也设在海牙"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "尼德兰（荷兰语：Nederland，[ˈneːdərˌlɑnt] ，意为“低地之国”），中文通称荷兰，是位于欧洲西部的低地国家，由欧洲区荷兰的12个省份和荷兰加勒比区的博奈尔岛、圣尤斯特歇斯岛和萨巴岛组成。荷兰也是荷兰王国（荷兰语：Koninkrijk der Nederlanden）的四个构成国之一，与美洲加勒比地区的阿鲁巴、库拉索和荷属圣马丁共同组成荷兰王国。尼德兰的领土可分为欧洲区与加勒比区两个部分。欧洲区领土位于欧洲西北部，濒临北海，与德国、比利时接壤，并与英国隔海相望。加勒比海区，位于美洲加勒比海地区，包括博奈尔岛、圣尤斯特歇斯岛和萨巴岛三个小岛。荷兰最大的三个城市是阿姆斯特丹、鹿特丹与海牙。阿姆斯特丹是宪法确定的正式首都，然而，政府、国王的王宫和大多数外国驻荷兰使馆都位于海牙。此外，国际法庭也设在海牙。鹿特丹港，位于鹿特丹，为全世界进出量第八的大型港口。\n荷兰国名原文“尼德兰”（Nederland）的字面意义为低地国家，这个名称来自于它国内平坦而低湿的地形。其国土中，只有约50%的土地高于海拔1米。其国土中，低于海平面的土地，绝大多数是人造的。",
+  "history_text": "北方省原属西班牙王国，因反抗中央集权与新教迫害，爆发八十年战争。七省结成乌得勒支同盟共抗西班牙，随后宣布独立，至《明斯特条约》获承认。独立后凭航海与贸易崛起为强国，在各地建立殖民地与贸易据点，这段时期被称为“黄金年代”。",
+  "custom_text": "早餐与午餐通常只是面包配菜，晚餐以肉和马铃薯为主，奶制品消费很多。东部北部受德国影响多吃香肠，西部平原畜牧业发达盛产奶酪，南部饮食近似法国菜。菲仕兰省有沿结冰河湖长途滑行的十一城市巡回赛。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 110,
+      "folk": 94
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "荷兰在哪儿啊？周围挨着哪些国家？",
+      "a": "荷兰位于欧洲西部，濒临北海，与德国、比利时接壤，并与英国隔海相望。",
+      "tags": [
+        "荷兰",
+        "地理位置",
+        "邻国"
+      ]
+    },
+    {
+      "q": "荷兰的首都是哪里？政府也在首都吗？",
+      "a": "宪法确定的正式首都是阿姆斯特丹，但政府、国王的王宫和大多数外国使馆都位于海牙。",
+      "tags": [
+        "荷兰",
+        "首都",
+        "阿姆斯特丹",
+        "海牙"
+      ]
+    },
+    {
+      "q": "荷兰人平时说什么语言？",
+      "a": "官方语言有荷兰语、西弗里斯兰语和帕皮阿门托语。",
+      "tags": [
+        "荷兰",
+        "语言",
+        "方言"
+      ]
+    },
+    {
+      "q": "荷兰有什么值得一看的地标或景观？",
+      "a": "小孩堤防风车群、阿姆斯特丹运河带、国立博物馆与运河、库肯霍夫郁金香花园、和平宫都值得一看。",
+      "tags": [
+        "荷兰",
+        "地标",
+        "风车",
+        "郁金香"
+      ]
+    },
+    {
+      "q": "荷兰国土有多大？地形怎么样？",
+      "a": "荷兰国土只有约50%的土地高于海拔1米，低于海平面的土地绝大多数是人造的。",
+      "tags": [
+        "荷兰",
+        "地形",
+        "低地"
+      ]
+    },
+    {
+      "q": "荷兰的港口大不大？",
+      "a": "鹿特丹港位于鹿特丹，为全世界进出量第八的大型港口。",
+      "tags": [
+        "荷兰",
+        "鹿特丹港",
+        "港口"
+      ]
+    },
+    {
+      "q": "荷兰这个名字是怎么来的？",
+      "a": "荷兰国名原文“尼德兰”的字面意义为低地国家，这个名称来自于它国内平坦而低湿的地形。",
+      "tags": [
+        "荷兰",
+        "国名",
+        "尼德兰"
+      ]
+    },
+    {
+      "q": "荷兰除了欧洲部分，还有别的领土吗？",
+      "a": "有，荷兰加勒比区包括博奈尔岛、圣尤斯特歇斯岛和萨巴岛三个小岛。",
+      "tags": [
+        "荷兰",
+        "加勒比",
+        "岛屿"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "iso_a3": "NLD",
+  "outline": [
+    [
+      [
+        720,
+        5324
+      ],
+      [
+        719,
+        5300
+      ],
+      [
+        704,
+        5265
+      ],
+      [
+        674,
+        5264
+      ],
+      [
+        667,
+        5254
+      ],
+      [
+        672,
+        5246
+      ],
+      [
+        697,
+        5245
+      ],
+      [
+        705,
+        5236
+      ],
+      [
+        703,
+        5223
+      ],
+      [
+        667,
+        5205
+      ],
+      [
+        681,
+        5196
+      ],
+      [
+        634,
+        5182
+      ],
+      [
+        613,
+        5190
+      ],
+      [
+        616,
+        5184
+      ],
+      [
+        593,
+        5182
+      ],
+      [
+        620,
+        5146
+      ],
+      [
+        606,
+        5121
+      ],
+      [
+        615,
+        5115
+      ],
+      [
+        585,
+        5104
+      ],
+      [
+        588,
+        5096
+      ],
+      [
+        606,
+        5091
+      ],
+      [
+        600,
+        5075
+      ],
+      [
+        571,
+        5075
+      ],
+      [
+        562,
+        5083
+      ],
+      [
+        583,
+        5116
+      ],
+      [
+        549,
+        5129
+      ],
+      [
+        522,
+        5126
+      ],
+      [
+        503,
+        5148
+      ],
+      [
+        491,
+        5139
+      ],
+      [
+        476,
+        5141
+      ],
+      [
+        482,
+        5141
+      ],
+      [
+        478,
+        5150
+      ],
+      [
+        463,
+        5142
+      ],
+      [
+        448,
+        5147
+      ],
+      [
+        438,
+        5144
+      ],
+      [
+        439,
+        5135
+      ],
+      [
+        400,
+        5145
+      ],
+      [
+        383,
+        5139
+      ],
+      [
+        345,
+        5153
+      ],
+      [
+        385,
+        5161
+      ],
+      [
+        411,
+        5145
+      ],
+      [
+        428,
+        5145
+      ],
+      [
+        399,
+        5159
+      ],
+      [
+        421,
+        5159
+      ],
+      [
+        411,
+        5164
+      ],
+      [
+        418,
+        5169
+      ],
+      [
+        386,
+        5182
+      ],
+      [
+        408,
+        5184
+      ],
+      [
+        402,
+        5199
+      ],
+      [
+        414,
+        5201
+      ],
+      [
+        451,
+        5234
+      ],
+      [
+        474,
+        5297
+      ],
+      [
+        487,
+        5290
+      ],
+      [
+        508,
+        5295
+      ],
+      [
+        538,
+        5310
+      ],
+      [
+        559,
+        5330
+      ],
+      [
+        598,
+        5341
+      ],
+      [
+        683,
+        5345
+      ],
+      [
+        690,
+        5335
+      ],
+      [
+        720,
+        5324
+      ]
+    ],
+    [
+      [
+        335,
+        5138
+      ],
+      [
+        422,
+        5136
+      ],
+      [
+        381,
+        5120
+      ],
+      [
+        364,
+        5129
+      ],
+      [
+        339,
+        5125
+      ],
+      [
+        335,
+        5138
+      ]
+    ],
+    [
+      [
+        -6821,
+        1223
+      ],
+      [
+        -6824,
+        1202
+      ],
+      [
+        -6830,
+        1220
+      ],
+      [
+        -6842,
+        1226
+      ],
+      [
+        -6838,
+        1231
+      ],
+      [
+        -6821,
+        1223
+      ]
+    ],
+    [
+      [
+        404,
+        5169
+      ],
+      [
+        410,
+        5165
+      ],
+      [
+        396,
+        5162
+      ],
+      [
+        369,
+        5172
+      ],
+      [
+        404,
+        5169
+      ]
+    ],
+    [
+      [
+        489,
+        5311
+      ],
+      [
+        480,
+        5300
+      ],
+      [
+        471,
+        5303
+      ],
+      [
+        485,
+        5319
+      ],
+      [
+        489,
+        5311
+      ]
+    ]
+  ]
+}

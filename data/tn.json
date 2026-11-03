@@ -1,1 +1,727 @@
-{"qid":"Q948","iso_a2":"TN","iso_a3":"TUN","name_zh":"突尼斯","name_en":"Tunisia","capital":"突尼斯市","continent":"非洲","centroid":[10,34],"centroid_source":"wikidata P625","languages":[{"code":"ar","name_zh":"阿拉伯语","name_local":"阿拉伯语","role":"official","audio_url":"assets/tn/audio/ar.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"أهلاً بكم في تونس، البلد الذي يفتح ذراعيه للبحر والصحراء معاً؛ عاصمته مدينة تونس العتيقة بأزقتها ومساجدها، ومن أبرز معالمها موقع قرطاج الأثري المطل على خليج تونس.","tts_text_zh":"欢迎来到突尼斯，这个同时向大海与沙漠敞开怀抱的国度；它的首都是突尼斯市，老城巷陌与清真寺交错，而最著名的地标之一是俯瞰突尼斯湾的迦太基考古遗址。","audio_voice":"ar-DZ-AminaNeural","audio_bytes":101376}],"summary_text":"突尼斯共和国通称突尼斯，是位于北非的国家，隶属于马格里布地区。其东部和北部紧邻地中海，西方与阿尔及利亚接壤，东南方与利比亚相邻，北方不远处即为意大利。首都及最大城市为突尼斯市，国家因坐落于北方的首都突尼斯市而得名。公元前9世纪初，腓尼基人在今突尼斯湾沿岸地区建立迦太基城，后发展成古迦太基文明。1956年3月20日突尼斯从法国殖民中独立，1957年7月25日突尼斯制宪会议通过决议，废除君主制，成立突尼斯共和国，哈比卜·布尔吉巴成为第一任总统并长期掌控突尼斯政权。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":232,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%AA%81%E5%B0%BC%E8%A5%BF%E4%BA%9E","title":"突尼西亞"},"culture_excerpts":[{"section":"历史","text":"突尼斯曾经是迦太基的发源地和国家中枢。这个位于北非的国家统治了西班牙，北非，地中海沿岸等零星地区，成为当时地中海最强盛的国家，并因此成为以后罗马的强敌，迦太基名将汉尼拔曾经一度要攻入罗马的首都。后来北非第三次布匿战争后，迦太基被征服并成为罗马共和国的阿非利加行省。后来此地又陆续受到汪达尔王国、拜占庭帝国、阿拉伯帝国的统治。突尼斯在很长一段时间内受到奥斯曼帝国统治（这一时期被称为突尼斯摄政时期）。在1881年时，随着法国对殖民地的开拓，转而成为法国的保护国，即法属突尼斯。二战时间，1940年法国投降，维希法国继续统治突尼斯，1942年维希政权被德国进驻，意大利军队占领了突尼斯和法国南部，建立了短暂的意属突尼斯（英语：Italian Tunisians#Tunisia in World War II）。1943年德义联军和盟军爆发了突尼斯战役。二战后，突尼斯被法国重新接收。1956年3月20日，突尼斯从法国独立，成立突尼斯王国。穆罕默德·艾敏贝伊出任国王，哈比卜·布尔吉巴担任首相。王国建立一年多以后，君主制被推翻，成立突尼斯共和国，哈比卜·布尔吉巴就任首届总统。从1956年独立到2011年革命，政府和宪政民主联盟实际上是一体的。国际特赦组织、《卫报》称突尼斯为“阿拉伯世界最现代化但最专制的国家之一”。1987年11月，布尔吉巴被医生宣布不适宜继续担任总统，根据突尼斯宪法第57条，在一场不流血的政变中，总理扎因·阿比丁·本·阿里继任了总统职位。他继任总统的日期11月7日此后被定为法定节日。本·阿里每五年都以绝对优势（远超过80%的得票）连任总统，最近一次是2009年10月25日，直至2011年1月，他在民众骚乱中逃离突尼斯。哈比卜·布尔吉巴30年统治的结果是以收买人心的政策以及伊斯兰运动的崛起为标志的，继任总统扎因·阿比丁·本·阿里将之废除，但延续了布尔吉巴主义的现代化目标，即经济自由化。他在国内推行经济改革，吸引外国投资。突尼斯的人均国内生产总值（调整至现时价格）从1986年的1,201美元升至2008年的3,876美元。从1987年起的大约20年间，国内生产总值每年平均以接近5%的速度增长。这段时间内，突尼斯经济发展成就被誉为“突尼斯奇迹”。2009－2010年度世界经济竞争力论坛年报显示，在经济竞争力、抵御金融危机、通讯和信息技术促进和生活质量改善等方面，突尼斯在133个国家排名中名列非洲第1、世界第40。在茉莉花革命前，无论从政府廉洁度（透明国际2010年排名，突尼斯位列排名59位），还是从民生状况来观察，突尼斯都是发展中国家样板。虽然2008年世界金融危机并未对突尼斯的经济产业结构造成明显冲击，但重创了突尼斯的旅游业，使得依靠旅游业周边产业谋生的底层民众怨声载道。2011年，一名女性突尼斯政府官员执法时掌掴了一名男性小贩，此举在伊斯兰文化是对雄性的羞辱。该名男性小贩在遭受掌掴后一小时在政府大楼前自焚。当地政府在此事件的处理轻描淡写，只是将该名女性官员调职处理，引起了民众群体性不满。加上当地社交网络煽风点火，引爆反政府示威茉莉花革命，要求总统扎因·阿比丁·本·阿里为此事负责，不敌民意压力下扎因·阿比丁·本·阿里宣布解散国会重新大选。但彼时示威已成燎原之势，多地暴力事件频发，国内治安形势崩溃，再次大选已无法进行。扎因·阿比丁·本·阿里被迫将权力交给总理穆罕默德·加努希代理，逃离突尼斯。2011年12月12日，突尼斯制宪议会投票选举保卫共和大会党主席蒙塞夫·马祖吉为新一任总统。2014年11月23日，采用新宪法后的第一次正规总统选举举行，突尼斯呼声党候选人贝吉·卡伊德·埃塞卜西当选。此次大选的投票率达到了64.6%，投票过程也井然有序，突尼斯政治过渡进程渐近尾声。2019年9月19日，突尼斯外交部突然发出声明，证实了带罪流亡的本阿里，已于该日稍早病逝于沙特阿拉伯，终年83岁。2021年7月25日，突尼斯总统凯斯·赛义德罢免总理，关停议会，进行政变，重回独裁道路。","chars":1660},{"section":"人口","text":"突尼斯在2001年有人口约9,700,000人，90%以上为阿拉伯-柏柏人。2008年人口达到10,380,000人。\n突尼斯政府推动计划生育，使该国人口增长率近年降至每年1%左右。\n官方语言为阿拉伯语，突尼斯阿拉伯语是当地日常使用的方言。法语也是突尼斯主要的语言，用于教育、媒体、商业等方面，多数路牌、商店招牌会同时并列阿拉伯语与法语。一小部分人口使用意大利语。","chars":1200},{"section":"语言","text":"官方语言为阿拉伯语，突尼斯阿拉伯语是当地日常使用的方言。法语也是突尼斯主要的语言，用于教育、媒体、商业等方面，多数路牌、商店招牌会同时并列阿拉伯语与法语。一小部分人口使用意大利语。","chars":1200}],"landmark_images":[{"title":"File:St Louis Cathedral - Carthage - Tunisia - 1899.jpg","caption_zh":"圣路易主教座堂与迦太基古城遗址","caption":"圣路易主教座堂与迦太基古城遗址","caption_commons":"Photograph of the St Louis Cathedral of Carthage, Tunisia. This color photochrom","kw":"Carthage ruins Tunisia","url":"assets/tn/L01.webp","thumb_url":"assets/tn/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/St_Louis_Cathedral_-_Carthage_-_Tunisia_-_1899.jpg/1920px-St_Louis_Cathedral_-_Carthage_-_Tunisia_-_1899.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Detroit Publishing Co.","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":44350,"caption_zh_manual":"迦太基古城遗址","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14632,"size":{"detail":"760x562","thumb":"400x296"},"encoding":"webp q72/q74 (源 1920x1421 642KB JPEG)"},{"title":"File:Amphi El Jem.jpg","caption_zh":"埃尔杰姆圆形剧场","caption":"埃尔杰姆圆形剧场","caption_commons":"Amphitheatre of El Jem in Tunisia","kw":"El Jem Amphitheatre Tunisia","url":"assets/tn/L02.webp","thumb_url":"assets/tn/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Amphi_El_Jem.jpg/1920px-Amphi_El_Jem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Cimoi","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":56458,"caption_zh_manual":"埃尔杰姆圆形剧场","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18922,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 619KB JPEG)"},{"title":"File:Sidi Bou Said, Tunisia, 19 March 2018 DSC 8004.jpg","caption_zh":"西迪布赛义德","caption":"西迪布赛义德","caption_commons":"Sidi Bou Said, Tunisie","kw":"Sidi Bou Said Tunisia","url":"assets/tn/L03.webp","thumb_url":"assets/tn/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Sidi_Bou_Said%2C_Tunisia%2C_19_March_2018_DSC_8004.jpg/1920px-Sidi_Bou_Said%2C_Tunisia%2C_19_March_2018_DSC_8004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Habib M'henni","license":"CC BY 4.0","license_url":"https://creativecommons.org/licenses/by/4.0","license_status":"ok","load_verified":true,"bytes":46742,"caption_zh_manual":"西迪布赛义德","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14290,"size":{"detail":"760x504","thumb":"400x265"},"encoding":"webp q72/q74 (源 1920x1274 604KB JPEG)"},{"title":"File:Djerba el mouradi menzel hotel pool-2.jpg","caption_zh":"杰尔巴岛El Mouradi Menzel酒店泳池","caption":"杰尔巴岛El Mouradi Menzel酒店泳池","caption_commons":"The El Mouradi Menzel hotel in Djerba (Tunisia).","kw":"Djerba island Tunisia","url":"assets/tn/L04.webp","thumb_url":"assets/tn/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Djerba_el_mouradi_menzel_hotel_pool-2.jpg/1920px-Djerba_el_mouradi_menzel_hotel_pool-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"SuperManu","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":56128,"caption_zh_manual":"杰尔巴岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16514,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 679KB JPEG)"},{"title":"File:Grande Mosquée de Kairouan, vue d'ensemble.jpg","caption_zh":"凯鲁万大清真寺全景","caption":"凯鲁万大清真寺全景","caption_commons":"Overview of the Great Mosque of Kairouan (in Tunisia). This mosque, also called ","kw":"Great Mosque of Kairouan","url":"assets/tn/L05.webp","thumb_url":"assets/tn/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Grande_Mosqu%C3%A9e_de_Kairouan%2C_vue_d%27ensemble.jpg/1920px-Grande_Mosqu%C3%A9e_de_Kairouan%2C_vue_d%27ensemble.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"weetoon66","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":35700,"caption_zh_manual":"凯鲁万大清真寺","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10396,"size":{"detail":"760x584","thumb":"390x300"},"encoding":"webp q72/q74 (源 1920x1476 537KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:08:15+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Tunesien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Tunisia.wav、LL-Q9610 (ben)-Tahmid-তিউনিসিয়া.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py TN","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 232 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"阿拉伯穆斯林","evidence":"703年被阿拉伯穆斯林征服"}],"architecture":[],"heritage":[],"keywords":[{"v":"马格里布","evidence":"隶属于马格里布地区"},{"v":"地中海","evidence":"东部和北部紧邻地中海"},{"v":"迦太基城","evidence":"建立迦太基城"},{"v":"突尼斯市","evidence":"首都及最大城市为突尼斯市"}],"model":"deepseek-flash"},"summary_text_raw":"突尼斯共和国（阿拉伯语：الجمهورية التونسية，罗马化：al-Jumhūrīya at-Tūnisīya），通称突尼斯（阿拉伯语：تونس，罗马化：Tūnis），是位于北非的国家，首都及最大城市为突尼斯市。此外，突尼斯隶属于马格里布地区，东部和北部紧邻地中海。突尼斯有两个邻国，分别为西方的阿尔及利亚（公共国界线长965公里）与东南方的利比亚（公共国界线长460公里），北方不远处即为意大利。突尼斯因其坐落于国家北方的首都突尼斯市而得名。\n公元前9世纪初，腓尼基人在今突尼斯湾沿岸地区建立迦太基城，后发展成古迦太基文明。公元前146年突尼斯成为罗马帝国的阿非利加省的一部分。公元5～6世纪突尼斯地区先被汪达尔人占领，后被罗马人夺回。703年被阿拉伯穆斯林征服。13世纪哈夫斯王朝建立了强大的突尼斯国家。1574年突尼斯又沦为奥斯曼帝国的一个省。1881年成为法国保护领地。1956年3月20日突尼斯从法国殖民中独立。1957年7月25日突尼斯制宪会议通过决议，废除君主制，成立突尼斯共和国，哈比卜·布尔吉巴成为第一任总统并长期掌控突尼斯政权。","history_text":"腓尼基人在突尼斯湾沿岸建立迦太基城，后发展为强盛国家，与罗马长期对抗，第三次布匿战争后被征服，成为罗马的阿非利加行省。此后汪达尔王国、拜占庭帝国、阿拉伯帝国相继统治此地，奥斯曼帝国时期称突尼斯摄政。1881年成为法国保护国，二战中经历维希与德意占领、突尼斯战役，战后由法国重新接收。1956年独立建王国，次年废君主制，成立共和国。","custom_text":"日常说的是突尼斯阿拉伯语，官方语言为阿拉伯语，法语通行于教育、媒体与商业，路牌和商店招牌常阿拉伯语与法语并列，少数人讲意大利语。饮食与节庆带着阿拉伯穆斯林传统，家庭餐桌以粗麦粉制品、橄榄油与辛辣调味为底色，斋月里白日禁食、入夜聚食，开斋与宰牲的节庆按伊斯兰历轮转。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":165,"folk":132}},"knowledge_qa":[{"q":"突尼斯在哪儿啊？周围都是些什么地方？","a":"突尼斯位于北非，属于马格里布地区，东边和北边紧挨着地中海。它有两个邻国：西边是阿尔及利亚，东南边是利比亚，北边不远处就是意大利。","tags":["北非","地理位置","邻国","地中海"]},{"q":"突尼斯首都叫啥？","a":"首都叫突尼斯市，也是全国最大的城市。国家就是因为这座位于北方的首都而得名的。","tags":["首都","突尼斯市","最大城市"]},{"q":"突尼斯人平时说什么语言？","a":"官方语言是阿拉伯语。","tags":["语言","阿拉伯语","说什么话"]},{"q":"突尼斯有什么值得一看的古迹或景点？","a":"有迦太基古城遗址、埃尔杰姆圆形剧场、西迪布赛义德、杰尔巴岛和凯鲁万大清真寺，都是很有代表性的地标。","tags":["景点","古迹","地标","值得看"]},{"q":"突尼斯有什么好吃的或者特产吗？","a":"目前没有关于突尼斯饮食或特产的具体信息。","tags":["吃什么","特产","饮食"]},{"q":"突尼斯有什么传统节日或民俗活动？","a":"目前没有关于突尼斯节日或民俗活动的具体信息。","tags":["节日","民俗","传统"]},{"q":"突尼斯以前是哪个国家的殖民地？什么时候独立的？","a":"1881年成为法国保护领地，1956年3月20日从法国殖民中独立。1957年废除君主制，成立突尼斯共和国。","tags":["历史","独立","法国","殖民地"]},{"q":"突尼斯面积多大？","a":"目前没有关于突尼斯面积的具体信息。","tags":["面积","多大"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[1150,3318],[1145,3264],[1155,3243],[1087,3214],[1077,3201],[1061,3195],[1050,3174],[1026,3168],[1011,3143],[1025,3084],[987,3036],[952,3023],[904,3207],[833,3253],[828,3284],[809,3309],[772,3323],[771,3342],[748,3385],[752,3410],[775,3423],[783,3441],[824,3465],[830,3507],[843,3524],[829,3533],[834,3554],[824,3583],[836,3643],[817,3653],[843,3666],[841,3678],[864,3684],[860,3694],[882,3698],[921,3723],[974,3734],[986,3733],[977,3721],[982,3715],[991,3718],[982,3723],[988,3726],[1027,3718],[1013,3716],[1023,3712],[1018,3703],[1035,3688],[1019,3680],[1036,3673],[1052,3676],[1058,3688],[1105,3708],[1113,3685],[1080,3645],[1055,3638],[1048,3611],[1062,3584],[1104,3564],[1104,3533],[1116,3522],[1060,3454],[1013,3433],[1001,3417],[1007,3395],[1033,3370],[1049,3365],[1072,3371],[1067,3355],[1074,3348],[1091,3354],[1094,3364],[1104,3362],[1110,3336],[1129,3329],[1113,3331],[1118,3321],[1143,3319],[1135,3326],[1150,3318]],[[1099,3384],[1106,3380],[1089,3364],[1083,3373],[1074,3372],[1074,3388],[1099,3384]],[[1127,3477],[1130,3473],[1113,3466],[1125,3483],[1127,3477]],[[1096,3466],[1099,3467],[1110,3467],[1111,3466],[1106,3462],[1096,3466]]]}
+{
+  "qid": "Q948",
+  "iso_a2": "TN",
+  "iso_a3": "TUN",
+  "name_zh": "突尼斯",
+  "name_en": "Tunisia",
+  "capital": "突尼斯市",
+  "continent": "非洲",
+  "centroid": [
+    10,
+    34
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ar",
+      "name_zh": "阿拉伯语",
+      "name_local": "阿拉伯语",
+      "role": "official",
+      "audio_url": "assets/tn/audio/ar.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "أهلاً بكم في تونس، البلد الذي يفتح ذراعيه للبحر والصحراء معاً؛ عاصمته مدينة تونس العتيقة بأزقتها ومساجدها، ومن أبرز معالمها موقع قرطاج الأثري المطل على خليج تونس.",
+      "tts_text_zh": "欢迎来到突尼斯，这个同时向大海与沙漠敞开怀抱的国度；它的首都是突尼斯市，老城巷陌与清真寺交错，而最著名的地标之一是俯瞰突尼斯湾的迦太基考古遗址。",
+      "audio_voice": "ar-DZ-AminaNeural",
+      "audio_bytes": 101376
+    }
+  ],
+  "summary_text": "突尼斯共和国通称突尼斯，是位于北非的国家，隶属于马格里布地区。其东部和北部紧邻地中海，西方与阿尔及利亚接壤，东南方与利比亚相邻，北方不远处即为意大利。首都及最大城市为突尼斯市，国家因坐落于北方的首都突尼斯市而得名。公元前9世纪初，腓尼基人在今突尼斯湾沿岸地区建立迦太基城，后发展成古迦太基文明。1956年3月20日突尼斯从法国殖民中独立，1957年7月25日突尼斯制宪会议通过决议，废除君主制，成立突尼斯共和国，哈比卜·布尔吉巴成为第一任总统并长期掌控突尼斯政权。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 232,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%AA%81%E5%B0%BC%E8%A5%BF%E4%BA%9E",
+    "title": "突尼西亞"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "突尼斯曾经是迦太基的发源地和国家中枢。这个位于北非的国家统治了西班牙，北非，地中海沿岸等零星地区，成为当时地中海最强盛的国家，并因此成为以后罗马的强敌，迦太基名将汉尼拔曾经一度要攻入罗马的首都。后来北非第三次布匿战争后，迦太基被征服并成为罗马共和国的阿非利加行省。后来此地又陆续受到汪达尔王国、拜占庭帝国、阿拉伯帝国的统治。突尼斯在很长一段时间内受到奥斯曼帝国统治（这一时期被称为突尼斯摄政时期）。在1881年时，随着法国对殖民地的开拓，转而成为法国的保护国，即法属突尼斯。二战时间，1940年法国投降，维希法国继续统治突尼斯，1942年维希政权被德国进驻，意大利军队占领了突尼斯和法国南部，建立了短暂的意属突尼斯（英语：Italian Tunisians#Tunisia in World War II）。1943年德义联军和盟军爆发了突尼斯战役。二战后，突尼斯被法国重新接收。1956年3月20日，突尼斯从法国独立，成立突尼斯王国。穆罕默德·艾敏贝伊出任国王，哈比卜·布尔吉巴担任首相。王国建立一年多以后，君主制被推翻，成立突尼斯共和国，哈比卜·布尔吉巴就任首届总统。从1956年独立到2011年革命，政府和宪政民主联盟实际上是一体的。国际特赦组织、《卫报》称突尼斯为“阿拉伯世界最现代化但最专制的国家之一”。1987年11月，布尔吉巴被医生宣布不适宜继续担任总统，根据突尼斯宪法第57条，在一场不流血的政变中，总理扎因·阿比丁·本·阿里继任了总统职位。他继任总统的日期11月7日此后被定为法定节日。本·阿里每五年都以绝对优势（远超过80%的得票）连任总统，最近一次是2009年10月25日，直至2011年1月，他在民众骚乱中逃离突尼斯。哈比卜·布尔吉巴30年统治的结果是以收买人心的政策以及伊斯兰运动的崛起为标志的，继任总统扎因·阿比丁·本·阿里将之废除，但延续了布尔吉巴主义的现代化目标，即经济自由化。他在国内推行经济改革，吸引外国投资。突尼斯的人均国内生产总值（调整至现时价格）从1986年的1,201美元升至2008年的3,876美元。从1987年起的大约20年间，国内生产总值每年平均以接近5%的速度增长。这段时间内，突尼斯经济发展成就被誉为“突尼斯奇迹”。2009－2010年度世界经济竞争力论坛年报显示，在经济竞争力、抵御金融危机、通讯和信息技术促进和生活质量改善等方面，突尼斯在133个国家排名中名列非洲第1、世界第40。在茉莉花革命前，无论从政府廉洁度（透明国际2010年排名，突尼斯位列排名59位），还是从民生状况来观察，突尼斯都是发展中国家样板。虽然2008年世界金融危机并未对突尼斯的经济产业结构造成明显冲击，但重创了突尼斯的旅游业，使得依靠旅游业周边产业谋生的底层民众怨声载道。2011年，一名女性突尼斯政府官员执法时掌掴了一名男性小贩，此举在伊斯兰文化是对雄性的羞辱。该名男性小贩在遭受掌掴后一小时在政府大楼前自焚。当地政府在此事件的处理轻描淡写，只是将该名女性官员调职处理，引起了民众群体性不满。加上当地社交网络煽风点火，引爆反政府示威茉莉花革命，要求总统扎因·阿比丁·本·阿里为此事负责，不敌民意压力下扎因·阿比丁·本·阿里宣布解散国会重新大选。但彼时示威已成燎原之势，多地暴力事件频发，国内治安形势崩溃，再次大选已无法进行。扎因·阿比丁·本·阿里被迫将权力交给总理穆罕默德·加努希代理，逃离突尼斯。2011年12月12日，突尼斯制宪议会投票选举保卫共和大会党主席蒙塞夫·马祖吉为新一任总统。2014年11月23日，采用新宪法后的第一次正规总统选举举行，突尼斯呼声党候选人贝吉·卡伊德·埃塞卜西当选。此次大选的投票率达到了64.6%，投票过程也井然有序，突尼斯政治过渡进程渐近尾声。2019年9月19日，突尼斯外交部突然发出声明，证实了带罪流亡的本阿里，已于该日稍早病逝于沙特阿拉伯，终年83岁。2021年7月25日，突尼斯总统凯斯·赛义德罢免总理，关停议会，进行政变，重回独裁道路。",
+      "chars": 1660
+    },
+    {
+      "section": "人口",
+      "text": "突尼斯在2001年有人口约9,700,000人，90%以上为阿拉伯-柏柏人。2008年人口达到10,380,000人。\n突尼斯政府推动计划生育，使该国人口增长率近年降至每年1%左右。\n官方语言为阿拉伯语，突尼斯阿拉伯语是当地日常使用的方言。法语也是突尼斯主要的语言，用于教育、媒体、商业等方面，多数路牌、商店招牌会同时并列阿拉伯语与法语。一小部分人口使用意大利语。",
+      "chars": 1200
+    },
+    {
+      "section": "语言",
+      "text": "官方语言为阿拉伯语，突尼斯阿拉伯语是当地日常使用的方言。法语也是突尼斯主要的语言，用于教育、媒体、商业等方面，多数路牌、商店招牌会同时并列阿拉伯语与法语。一小部分人口使用意大利语。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:St Louis Cathedral - Carthage - Tunisia - 1899.jpg",
+      "caption_zh": "圣路易主教座堂与迦太基古城遗址",
+      "caption": "圣路易主教座堂与迦太基古城遗址",
+      "caption_commons": "Photograph of the St Louis Cathedral of Carthage, Tunisia. This color photochrom",
+      "kw": "Carthage ruins Tunisia",
+      "url": "assets/tn/L01.webp",
+      "thumb_url": "assets/tn/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/St_Louis_Cathedral_-_Carthage_-_Tunisia_-_1899.jpg/1920px-St_Louis_Cathedral_-_Carthage_-_Tunisia_-_1899.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Detroit Publishing Co.",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 88934,
+      "caption_zh_manual": "迦太基古城遗址",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7206,
+      "size": {
+        "detail": "1080x799",
+        "thumb": "240x178"
+      },
+      "encoding": "webp q75/q78 (源 1920x1421 642KB JPEG)"
+    },
+    {
+      "title": "File:Amphi El Jem.jpg",
+      "caption_zh": "埃尔杰姆圆形剧场",
+      "caption": "埃尔杰姆圆形剧场",
+      "caption_commons": "Amphitheatre of El Jem in Tunisia",
+      "kw": "El Jem Amphitheatre Tunisia",
+      "url": "assets/tn/L02.webp",
+      "thumb_url": "assets/tn/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Amphi_El_Jem.jpg/1920px-Amphi_El_Jem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Cimoi",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 107852,
+      "caption_zh_manual": "埃尔杰姆圆形剧场",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9016,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 619KB JPEG)"
+    },
+    {
+      "title": "File:Sidi Bou Said, Tunisia, 19 March 2018 DSC 8004.jpg",
+      "caption_zh": "西迪布赛义德",
+      "caption": "西迪布赛义德",
+      "caption_commons": "Sidi Bou Said, Tunisie",
+      "kw": "Sidi Bou Said Tunisia",
+      "url": "assets/tn/L03.webp",
+      "thumb_url": "assets/tn/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Sidi_Bou_Said%2C_Tunisia%2C_19_March_2018_DSC_8004.jpg/1920px-Sidi_Bou_Said%2C_Tunisia%2C_19_March_2018_DSC_8004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Habib M'henni",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 96208,
+      "caption_zh_manual": "西迪布赛义德",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6682,
+      "size": {
+        "detail": "1080x717",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1274 604KB JPEG)"
+    },
+    {
+      "title": "File:Djerba el mouradi menzel hotel pool-2.jpg",
+      "caption_zh": "杰尔巴岛El Mouradi Menzel酒店泳池",
+      "caption": "杰尔巴岛El Mouradi Menzel酒店泳池",
+      "caption_commons": "The El Mouradi Menzel hotel in Djerba (Tunisia).",
+      "kw": "Djerba island Tunisia",
+      "url": "assets/tn/L04.webp",
+      "thumb_url": "assets/tn/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Djerba_el_mouradi_menzel_hotel_pool-2.jpg/1920px-Djerba_el_mouradi_menzel_hotel_pool-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "SuperManu",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 117932,
+      "caption_zh_manual": "杰尔巴岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7556,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 679KB JPEG)"
+    },
+    {
+      "title": "File:Grande Mosquée de Kairouan, vue d'ensemble.jpg",
+      "caption_zh": "凯鲁万大清真寺全景",
+      "caption": "凯鲁万大清真寺全景",
+      "caption_commons": "Overview of the Great Mosque of Kairouan (in Tunisia). This mosque, also called ",
+      "kw": "Great Mosque of Kairouan",
+      "url": "assets/tn/L05.webp",
+      "thumb_url": "assets/tn/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Grande_Mosqu%C3%A9e_de_Kairouan%2C_vue_d%27ensemble.jpg/1920px-Grande_Mosqu%C3%A9e_de_Kairouan%2C_vue_d%27ensemble.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "weetoon66",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 76632,
+      "caption_zh_manual": "凯鲁万大清真寺",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5478,
+      "size": {
+        "detail": "1080x830",
+        "thumb": "234x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1476 537KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:08:15+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Tunesien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Tunisia.wav、LL-Q9610 (ben)-Tahmid-তিউনিসিয়া.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py TN",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 232 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "阿拉伯穆斯林",
+        "evidence": "703年被阿拉伯穆斯林征服"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "马格里布",
+        "evidence": "隶属于马格里布地区"
+      },
+      {
+        "v": "地中海",
+        "evidence": "东部和北部紧邻地中海"
+      },
+      {
+        "v": "迦太基城",
+        "evidence": "建立迦太基城"
+      },
+      {
+        "v": "突尼斯市",
+        "evidence": "首都及最大城市为突尼斯市"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "突尼斯共和国（阿拉伯语：الجمهورية التونسية，罗马化：al-Jumhūrīya at-Tūnisīya），通称突尼斯（阿拉伯语：تونس，罗马化：Tūnis），是位于北非的国家，首都及最大城市为突尼斯市。此外，突尼斯隶属于马格里布地区，东部和北部紧邻地中海。突尼斯有两个邻国，分别为西方的阿尔及利亚（公共国界线长965公里）与东南方的利比亚（公共国界线长460公里），北方不远处即为意大利。突尼斯因其坐落于国家北方的首都突尼斯市而得名。\n公元前9世纪初，腓尼基人在今突尼斯湾沿岸地区建立迦太基城，后发展成古迦太基文明。公元前146年突尼斯成为罗马帝国的阿非利加省的一部分。公元5～6世纪突尼斯地区先被汪达尔人占领，后被罗马人夺回。703年被阿拉伯穆斯林征服。13世纪哈夫斯王朝建立了强大的突尼斯国家。1574年突尼斯又沦为奥斯曼帝国的一个省。1881年成为法国保护领地。1956年3月20日突尼斯从法国殖民中独立。1957年7月25日突尼斯制宪会议通过决议，废除君主制，成立突尼斯共和国，哈比卜·布尔吉巴成为第一任总统并长期掌控突尼斯政权。",
+  "history_text": "腓尼基人在突尼斯湾沿岸建立迦太基城，后发展为强盛国家，与罗马长期对抗，第三次布匿战争后被征服，成为罗马的阿非利加行省。此后汪达尔王国、拜占庭帝国、阿拉伯帝国相继统治此地，奥斯曼帝国时期称突尼斯摄政。1881年成为法国保护国，二战中经历维希与德意占领、突尼斯战役，战后由法国重新接收。1956年独立建王国，次年废君主制，成立共和国。",
+  "custom_text": "日常说的是突尼斯阿拉伯语，官方语言为阿拉伯语，法语通行于教育、媒体与商业，路牌和商店招牌常阿拉伯语与法语并列，少数人讲意大利语。饮食与节庆带着阿拉伯穆斯林传统，家庭餐桌以粗麦粉制品、橄榄油与辛辣调味为底色，斋月里白日禁食、入夜聚食，开斋与宰牲的节庆按伊斯兰历轮转。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 165,
+      "folk": 132
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "突尼斯在哪儿啊？周围都是些什么地方？",
+      "a": "突尼斯位于北非，属于马格里布地区，东边和北边紧挨着地中海。它有两个邻国：西边是阿尔及利亚，东南边是利比亚，北边不远处就是意大利。",
+      "tags": [
+        "北非",
+        "地理位置",
+        "邻国",
+        "地中海"
+      ]
+    },
+    {
+      "q": "突尼斯首都叫啥？",
+      "a": "首都叫突尼斯市，也是全国最大的城市。国家就是因为这座位于北方的首都而得名的。",
+      "tags": [
+        "首都",
+        "突尼斯市",
+        "最大城市"
+      ]
+    },
+    {
+      "q": "突尼斯人平时说什么语言？",
+      "a": "官方语言是阿拉伯语。",
+      "tags": [
+        "语言",
+        "阿拉伯语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "突尼斯有什么值得一看的古迹或景点？",
+      "a": "有迦太基古城遗址、埃尔杰姆圆形剧场、西迪布赛义德、杰尔巴岛和凯鲁万大清真寺，都是很有代表性的地标。",
+      "tags": [
+        "景点",
+        "古迹",
+        "地标",
+        "值得看"
+      ]
+    },
+    {
+      "q": "突尼斯有什么好吃的或者特产吗？",
+      "a": "目前没有关于突尼斯饮食或特产的具体信息。",
+      "tags": [
+        "吃什么",
+        "特产",
+        "饮食"
+      ]
+    },
+    {
+      "q": "突尼斯有什么传统节日或民俗活动？",
+      "a": "目前没有关于突尼斯节日或民俗活动的具体信息。",
+      "tags": [
+        "节日",
+        "民俗",
+        "传统"
+      ]
+    },
+    {
+      "q": "突尼斯以前是哪个国家的殖民地？什么时候独立的？",
+      "a": "1881年成为法国保护领地，1956年3月20日从法国殖民中独立。1957年废除君主制，成立突尼斯共和国。",
+      "tags": [
+        "历史",
+        "独立",
+        "法国",
+        "殖民地"
+      ]
+    },
+    {
+      "q": "突尼斯面积多大？",
+      "a": "目前没有关于突尼斯面积的具体信息。",
+      "tags": [
+        "面积",
+        "多大"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        1150,
+        3318
+      ],
+      [
+        1145,
+        3264
+      ],
+      [
+        1155,
+        3243
+      ],
+      [
+        1087,
+        3214
+      ],
+      [
+        1077,
+        3201
+      ],
+      [
+        1061,
+        3195
+      ],
+      [
+        1050,
+        3174
+      ],
+      [
+        1026,
+        3168
+      ],
+      [
+        1011,
+        3143
+      ],
+      [
+        1025,
+        3084
+      ],
+      [
+        987,
+        3036
+      ],
+      [
+        952,
+        3023
+      ],
+      [
+        904,
+        3207
+      ],
+      [
+        833,
+        3253
+      ],
+      [
+        828,
+        3284
+      ],
+      [
+        809,
+        3309
+      ],
+      [
+        772,
+        3323
+      ],
+      [
+        771,
+        3342
+      ],
+      [
+        748,
+        3385
+      ],
+      [
+        752,
+        3410
+      ],
+      [
+        775,
+        3423
+      ],
+      [
+        783,
+        3441
+      ],
+      [
+        824,
+        3465
+      ],
+      [
+        830,
+        3507
+      ],
+      [
+        843,
+        3524
+      ],
+      [
+        829,
+        3533
+      ],
+      [
+        834,
+        3554
+      ],
+      [
+        824,
+        3583
+      ],
+      [
+        836,
+        3643
+      ],
+      [
+        817,
+        3653
+      ],
+      [
+        843,
+        3666
+      ],
+      [
+        841,
+        3678
+      ],
+      [
+        864,
+        3684
+      ],
+      [
+        860,
+        3694
+      ],
+      [
+        882,
+        3698
+      ],
+      [
+        921,
+        3723
+      ],
+      [
+        974,
+        3734
+      ],
+      [
+        986,
+        3733
+      ],
+      [
+        977,
+        3721
+      ],
+      [
+        982,
+        3715
+      ],
+      [
+        991,
+        3718
+      ],
+      [
+        982,
+        3723
+      ],
+      [
+        988,
+        3726
+      ],
+      [
+        1027,
+        3718
+      ],
+      [
+        1013,
+        3716
+      ],
+      [
+        1023,
+        3712
+      ],
+      [
+        1018,
+        3703
+      ],
+      [
+        1035,
+        3688
+      ],
+      [
+        1019,
+        3680
+      ],
+      [
+        1036,
+        3673
+      ],
+      [
+        1052,
+        3676
+      ],
+      [
+        1058,
+        3688
+      ],
+      [
+        1105,
+        3708
+      ],
+      [
+        1113,
+        3685
+      ],
+      [
+        1080,
+        3645
+      ],
+      [
+        1055,
+        3638
+      ],
+      [
+        1048,
+        3611
+      ],
+      [
+        1062,
+        3584
+      ],
+      [
+        1104,
+        3564
+      ],
+      [
+        1104,
+        3533
+      ],
+      [
+        1116,
+        3522
+      ],
+      [
+        1060,
+        3454
+      ],
+      [
+        1013,
+        3433
+      ],
+      [
+        1001,
+        3417
+      ],
+      [
+        1007,
+        3395
+      ],
+      [
+        1033,
+        3370
+      ],
+      [
+        1049,
+        3365
+      ],
+      [
+        1072,
+        3371
+      ],
+      [
+        1067,
+        3355
+      ],
+      [
+        1074,
+        3348
+      ],
+      [
+        1091,
+        3354
+      ],
+      [
+        1094,
+        3364
+      ],
+      [
+        1104,
+        3362
+      ],
+      [
+        1110,
+        3336
+      ],
+      [
+        1129,
+        3329
+      ],
+      [
+        1113,
+        3331
+      ],
+      [
+        1118,
+        3321
+      ],
+      [
+        1143,
+        3319
+      ],
+      [
+        1135,
+        3326
+      ],
+      [
+        1150,
+        3318
+      ]
+    ],
+    [
+      [
+        1099,
+        3384
+      ],
+      [
+        1106,
+        3380
+      ],
+      [
+        1089,
+        3364
+      ],
+      [
+        1083,
+        3373
+      ],
+      [
+        1074,
+        3372
+      ],
+      [
+        1074,
+        3388
+      ],
+      [
+        1099,
+        3384
+      ]
+    ],
+    [
+      [
+        1127,
+        3477
+      ],
+      [
+        1130,
+        3473
+      ],
+      [
+        1113,
+        3466
+      ],
+      [
+        1125,
+        3483
+      ],
+      [
+        1127,
+        3477
+      ]
+    ],
+    [
+      [
+        1096,
+        3466
+      ],
+      [
+        1099,
+        3467
+      ],
+      [
+        1110,
+        3467
+      ],
+      [
+        1111,
+        3466
+      ],
+      [
+        1106,
+        3462
+      ],
+      [
+        1096,
+        3466
+      ]
+    ]
+  ]
+}

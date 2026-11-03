@@ -1,1 +1,346 @@
-{"qid":"Q1410","iso_a2":"GI","iso_a3":"GIB","name_zh":"直布罗陀","name_en":"Gibraltar","capital":"直布罗陀","continent":"欧洲","centroid":[-5.35,36.14],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"spoken","audio_url":"assets/gi/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Gibraltar, a small British territory at the southern tip of the Iberian Peninsula, where the capital, also called Gibraltar, sits beneath the famous Rock of Gibraltar, a limestone landmark rising sharply above the sea.","tts_text_zh":"欢迎来到直布罗陀，这是位于伊比利亚半岛南端的一小块英国属地，首府同样名为直布罗陀，坐落在著名的直布罗陀巨岩之下，这块石灰岩地标从海面陡然升起。","audio_voice":"en-US-AriaNeural","audio_bytes":86688},{"code":"Q7979","name_zh":"英国英语","name_local":"英国英语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"直布罗陀是英国官方承认的第14个英国海外领土，也是其中最小的一个，位于伊比利亚半岛的末端，是通往地中海的入口。它地处欧洲，面积约为6平方公里，北接西班牙安达卢西亚加的斯省，是英国与欧洲大陆陆地接壤的唯一地区。直布罗陀巨岩是当地主要的地标之一，构成当地具有代表性的地形景观。直布罗陀的人口集中在该区域的南部，容纳了直布罗陀人和其他民族共三万多人；居民人数包括常住的直布罗陀人、一些常驻的英国人（包括直布罗陀英军军眷）和非英国居民，没有包括参观的游客和短暂停留的人士。2009年，本地出生的人数达到23,907人，含3,129名英国移民居住者和其余民族2,395人，总人口数达到31,623人。位于直布罗陀的戈勒姆岩洞化石证明了尼安德特人曾在公元前28,000至24,000年在直布罗陀聚居，而之后则一直没有很多人类遗迹。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":359,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%9B%B4%E5%B8%83%E7%BD%97%E9%99%80","title":"直布罗陀"},"culture_excerpts":[{"section":"历史","text":"位于直布罗陀的戈勒姆岩洞化石证明了尼安德特人曾在公元前28,000至24,000年在直布罗陀聚居，而之后则一直没有很多人类遗迹。古时，直布罗陀是北非迦太基人的聚居地，在公元前二世纪被罗马帝国征服。公元五世纪西罗马帝国灭亡后，部分哥特人和当地伊比利亚人和摩尔人（主要是腓尼基人后代）争夺此地。伊斯兰教兴起后成为北非信奉伊斯兰教的摩尔人侵略欧洲的踏脚石，一部摩尔人在伊比利亚半岛南部（包括了直布罗陀半岛），成立了若干小国并接受基督教和伊斯兰教共存，在十一至十五世纪时西班牙王国和葡萄牙王国抗击要统一信仰的北非穆斯林侵略时，和一部分混血和信奉伊斯兰教但宽容基督教的欧洲摩尔人联手，驱逐了侵略者。在地理大发现及西班牙帝国国势强盛前后，西班牙对直布罗陀地区信奉伊斯兰教的摩尔人采取驱逐或强逼改宗的政策，而很多人即使改宗后仍被逼迁到北非的摩洛哥。公元1704年，英国在西班牙王位继承战争期间攻占直布罗陀，1713年《乌特勒支条约》中，西班牙波旁王朝为换取英国承认其合法性，正式将直布罗陀割让予英国。自此，直布罗陀一直被英国统治，不少意大利人和英国人也开始迁入，部分摩尔人也回流充实了当地人口。虽然西班牙一直声称拥有直布罗陀主权，目前直布罗陀人大多否认西班牙对当地有宗主权。1960年代塞浦路斯和马耳他从英国独立后，直布罗陀成为英国在欧洲的最后一块殖民地，也是欧洲大陆仅存的一块殖民地。2022年，直布罗陀被确认具有城市地位。这个地位是维多利亚女王于1842年授予的，然而因不明原因从官方名单中遗漏。2022年，直布罗陀竞标成为一个城市，作为英国女王伊丽莎白二世白金禧年庆祝活动的一部分。直到此时，研究人员翻阅英国国家档案馆资料，才发现180年前遗漏的史实，于是官方重申了其城市地位。英国首相鲍里斯·约翰逊将直布罗陀官宣成为一个城市描述为“巨大的荣誉”，以庆祝其“丰富的历史和活力”。","chars":785},{"section":"人口及语言","text":"人口三万余，三分之二的人口为意大利人、马耳他人和西班牙人的后裔、英国人约5,000人；摩洛哥人约3,000人；其余少数人口为印度人、葡萄牙人、巴基斯坦人。整个半岛分为东西两部分，人口主要集中在西岸。直布罗陀的人口密度之高位居世界前列，每平方公里4,530人。\n直布罗陀人是几百年来移居此地的许多欧洲移民的种族文化大拼盘。这些人是在1704年大多数西班牙人离开之后前往直布罗陀的经济移民的后裔。少数于1704年8月留在当地的少数西班牙人后来加上了随着黑森-达姆施塔特的格奥尔格（英语：George of Hesse-Darmstadt）的舰队一起来到直布罗陀的两百多加泰罗尼亚人。到了1753年热那亚人、马耳他人和葡萄牙人成为了新增人口中的大多数。其他族群包括梅诺卡人（当梅诺卡岛在1802年归还西班牙时被迫离家来到此地）、撒丁岛人、西西里人和其他意大利人、法国人、德国人和英国人。来自西班牙的移民以及与周边西班牙城镇进行的跨境婚姻是直布罗陀历史上的一个固有特色，直到佛朗哥将军关闭了与直布罗陀的边境，直布罗陀人与西班牙亲属的联系因此中断。1982年西班牙政府重新开放了陆地边界，但其他限制规定仍然保留不变。","chars":1200},{"section":"宗教","text":"根据2012年的人口普查，大约72.1％的直布罗陀人是罗马天主教信徒。始建于16世纪的圣母加冕主教座堂为天主教直布罗陀教区的主教座堂也是该地区最古老的天主教堂。其他基督教派包括英格兰教会（7.7％）、卫理公会、苏格兰教会、普利茅斯弟兄会、五旬节运动、耶稣基督后期圣徒教会和耶和华见证人，圣三一教堂是圣公会欧洲教区的主教座堂。7.1％的人表示他们没有宗教信仰。直布罗陀世俗人道主义协会也定期举行会议。伊斯兰教为直布罗陀第三大宗教（3.6％），其他宗教还有犹太教（2.4％）、印度教（2％）和巴哈伊教。","chars":1200}],"landmark_images":[{"title":"File:Rock of Gibraltar 1810.jpg","caption_zh":"直布罗陀巨岩","caption":"直布罗陀巨岩","caption_commons":"The Rock of Gibraltar's North Front cliff face from Bayside showing the embrasur","kw":"Rock of Gibraltar","url":"assets/gi/L01.webp","thumb_url":"assets/gi/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/6/69/Rock_of_Gibraltar_1810.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"No illustrator given","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":22996,"caption_zh_manual":"直布罗陀巨岩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":9890,"size":{"detail":"567x353","thumb":"400x249"},"encoding":"webp q72/q74 (源 567x353 303KB JPEG)"},{"title":"File:Europa Point Lighthouse and cottages.jpg","caption_zh":"欧罗巴角灯塔及附属小屋","caption":"欧罗巴角灯塔及附属小屋","caption_commons":"Europa Point Lighthouse and cottages, Gibraltar","kw":"Europa Point Lighthouse","url":"assets/gi/L02.webp","thumb_url":"assets/gi/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/e/ec/Europa_Point_Lighthouse_and_cottages.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Allie Caulfield","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":26170,"caption_zh_manual":"欧罗巴角灯塔","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8516,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1600x1200 775KB JPEG)"},{"title":"File:The stage inside St. Michael's Cave.jpg","caption_zh":"圣米迦勒岩洞内的舞台","caption":"圣米迦勒岩洞内的舞台","caption_commons":"View of the stage and surrounding area inside St. Michael's Cave, Gibraltar.","kw":"St Michael's Cave Gibraltar","url":"assets/gi/L03.webp","thumb_url":"assets/gi/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/The_stage_inside_St._Michael%27s_Cave.jpg/1920px-The_stage_inside_St._Michael%27s_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Greenshed","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":67510,"caption_zh_manual":"圣米迦勒岩洞","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22766,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1277 629KB JPEG)"},{"title":"File:Main Street Gibraltar.JPG","caption_zh":"直布罗陀主街街景","caption":"直布罗陀主街街景","caption_commons":"A image of Main Street in Gibraltar taken by myself.","kw":"Main Street Gibraltar","url":"assets/gi/L05.webp","thumb_url":"assets/gi/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Main_Street_Gibraltar.JPG/1920px-Main_Street_Gibraltar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"RedCoat10 at English Wikipedia","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":90760,"caption_zh_manual":"直布罗陀主街","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12216,"size":{"detail":"760x1013","thumb":"225x300"},"encoding":"webp q72/q74 (源 1920x2560 869KB JPEG)"},{"title":"File:Gibraltar Cable Car 5.jpg","caption_zh":"直布罗陀缆车","caption":"直布罗陀缆车","caption_commons":"Cable Car in Gibraltar from Grand Parade.","kw":"Gibraltar Cable Car","url":"assets/gi/L06.webp","thumb_url":"assets/gi/L06.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/8/8e/Gibraltar_Cable_Car_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Nathan Harig","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":56388,"caption_zh_manual":"直布罗陀缆车","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18798,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1600x1200 756KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:20:50+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 无通行语，从 P2936 补：英语","P443 发音语种不符已弃用：LL-Q33573 (kin)-Adygrafix250-Giburalitari.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py GI","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","摩尔人城堡：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（5 张，中文图注）","LLM 质检[warn] languages：英语标为 spoken，英国英语标为 official，角色标注不一致 → 英语设为 official，英国英语可删或改 spoken"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 2 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"直布罗陀巨岩","evidence":"直布罗陀巨岩是直布罗陀主要的地标之一"},{"v":"戈勒姆岩洞","evidence":"位于直布罗陀的戈勒姆岩洞化石"},{"v":"伊比利亚半岛","evidence":"位于伊比利亚半岛的末端"},{"v":"地中海入口","evidence":"是通往地中海的入口"}],"model":"deepseek-flash"},"summary_text_raw":"直布罗陀（英语：Gibraltar，/dʒɪˈbrɔːltər/ jih-BRAWL-tər ，西班牙语发音：[xiβɾalˈtaɾ] ）是英国官方承认的第14个英国海外领土，也是最小的一个，位于伊比利亚半岛的末端，是通往地中海的入口。\n直布罗陀面积约为6平方公里，北接西班牙安达卢西亚加的斯省，是英国与欧洲大陆陆地接壤的唯一地区，直布罗陀巨岩是直布罗陀主要的地标之一。直布罗陀的人口集中在该区域的南部，容纳了直布罗陀人和其他民族共三万多人。居民人数包括常住的直布罗陀人，一些常驻的英国人（包括直布罗陀英军军眷）和非英国居民。没有包括参观的游客和短暂停留的人士。\n自1713年《乌得勒支条约》西班牙将此地割让给英国，至今仍为英国领土。但西班牙一直对此地声称领有主权。2009年，本地出生的人数达到23,907人，含3,129名英国移民居住者和其余民族2,395人，总人口数达到31,623人。\n\n\n== 历史 ==\n\n位于直布罗陀的戈勒姆岩洞化石证明了尼安德特人曾在公元前28,000至24,000年在直布罗陀聚居，而之后则一直没有很多人类遗迹。","history_text":"戈勒姆岩洞的化石把此地的人类活动上推到尼安德特人时期，此后迦太基人、罗马人、哥特人与摩尔人相继在此留下痕迹。摩尔人曾以半岛为跳板进入伊比利亚南部，与基督教势力长期拉锯。1704年英国在西班牙王位继承战争中攻占此地，1713年《乌特勒支条约》中西班牙正式割让予英国，此后一直由英国统治，西班牙则持续声称拥有主权。","custom_text":"人口由意大利人、马耳他人、西班牙人后裔与英国人、摩洛哥人、印度人等层层叠成，是几百年移民汇成的文化拼盘。宗教上以罗马天主教为主，始建于十六世纪的圣母加冕主教座堂是最古老的天主教堂，圣三一教堂则属圣公会。跨境婚姻与来自西班牙的移民，长期是当地生活的固有特色。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":155,"folk":128}},"knowledge_qa":[{"q":"直布罗陀在哪儿啊？","a":"位于伊比利亚半岛的末端，是通往地中海的入口，北接西班牙安达卢西亚加的斯省，是英国与欧洲大陆陆地接壤的唯一地区。","tags":["位置","欧洲","地中海"]},{"q":"直布罗陀有多大？","a":"面积约为6平方公里，是英国最小的海外领土。","tags":["面积","大小"]},{"q":"直布罗陀的首都是哪里？","a":"首都就是直布罗陀本身。","tags":["首都","首府"]},{"q":"直布罗陀说什么语言？","a":"当地使用英语，官方语言是英国英语。","tags":["语言","说什么话","英语"]},{"q":"直布罗陀有什么值得看的地标？","a":"直布罗陀巨岩是主要地标，还有欧罗巴角灯塔、圣米迦勒岩洞、直布罗陀主街和直布罗陀缆车。","tags":["地标","景点","巨岩","灯塔"]},{"q":"直布罗陀有什么文化节日或传统习俗？","a":"根据现有信息，直布罗陀的文化节日和传统习俗暂无详细记录。","tags":["节日","习俗","文化"]},{"q":"直布罗陀有什么好吃的或特产？","a":"根据现有信息，直布罗陀的饮食和特产暂无详细记录。","tags":["吃什么","特产","美食"]}],"llm_audit":{"issues":[{"field":"languages","severity":"warn","why":"英语标为 spoken，英国英语标为 official，角色标注不一致","suggest":"英语设为 official，英国英语可删或改 spoken"}],"overall":"warn"},"audio_meta":{},"outline":[[[-536,3614],[-534,3614],[-534,3611],[-536,3614]]]}
+{
+  "qid": "Q1410",
+  "iso_a2": "GI",
+  "iso_a3": "GIB",
+  "name_zh": "直布罗陀",
+  "name_en": "Gibraltar",
+  "capital": "直布罗陀",
+  "continent": "欧洲",
+  "centroid": [
+    -5.35,
+    36.14
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "spoken",
+      "audio_url": "assets/gi/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Gibraltar, a small British territory at the southern tip of the Iberian Peninsula, where the capital, also called Gibraltar, sits beneath the famous Rock of Gibraltar, a limestone landmark rising sharply above the sea.",
+      "tts_text_zh": "欢迎来到直布罗陀，这是位于伊比利亚半岛南端的一小块英国属地，首府同样名为直布罗陀，坐落在著名的直布罗陀巨岩之下，这块石灰岩地标从海面陡然升起。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 86688
+    },
+    {
+      "code": "Q7979",
+      "name_zh": "英国英语",
+      "name_local": "英国英语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "直布罗陀是英国官方承认的第14个英国海外领土，也是其中最小的一个，位于伊比利亚半岛的末端，是通往地中海的入口。它地处欧洲，面积约为6平方公里，北接西班牙安达卢西亚加的斯省，是英国与欧洲大陆陆地接壤的唯一地区。直布罗陀巨岩是当地主要的地标之一，构成当地具有代表性的地形景观。直布罗陀的人口集中在该区域的南部，容纳了直布罗陀人和其他民族共三万多人；居民人数包括常住的直布罗陀人、一些常驻的英国人（包括直布罗陀英军军眷）和非英国居民，没有包括参观的游客和短暂停留的人士。2009年，本地出生的人数达到23,907人，含3,129名英国移民居住者和其余民族2,395人，总人口数达到31,623人。位于直布罗陀的戈勒姆岩洞化石证明了尼安德特人曾在公元前28,000至24,000年在直布罗陀聚居，而之后则一直没有很多人类遗迹。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 359,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%9B%B4%E5%B8%83%E7%BD%97%E9%99%80",
+    "title": "直布罗陀"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "位于直布罗陀的戈勒姆岩洞化石证明了尼安德特人曾在公元前28,000至24,000年在直布罗陀聚居，而之后则一直没有很多人类遗迹。古时，直布罗陀是北非迦太基人的聚居地，在公元前二世纪被罗马帝国征服。公元五世纪西罗马帝国灭亡后，部分哥特人和当地伊比利亚人和摩尔人（主要是腓尼基人后代）争夺此地。伊斯兰教兴起后成为北非信奉伊斯兰教的摩尔人侵略欧洲的踏脚石，一部摩尔人在伊比利亚半岛南部（包括了直布罗陀半岛），成立了若干小国并接受基督教和伊斯兰教共存，在十一至十五世纪时西班牙王国和葡萄牙王国抗击要统一信仰的北非穆斯林侵略时，和一部分混血和信奉伊斯兰教但宽容基督教的欧洲摩尔人联手，驱逐了侵略者。在地理大发现及西班牙帝国国势强盛前后，西班牙对直布罗陀地区信奉伊斯兰教的摩尔人采取驱逐或强逼改宗的政策，而很多人即使改宗后仍被逼迁到北非的摩洛哥。公元1704年，英国在西班牙王位继承战争期间攻占直布罗陀，1713年《乌特勒支条约》中，西班牙波旁王朝为换取英国承认其合法性，正式将直布罗陀割让予英国。自此，直布罗陀一直被英国统治，不少意大利人和英国人也开始迁入，部分摩尔人也回流充实了当地人口。虽然西班牙一直声称拥有直布罗陀主权，目前直布罗陀人大多否认西班牙对当地有宗主权。1960年代塞浦路斯和马耳他从英国独立后，直布罗陀成为英国在欧洲的最后一块殖民地，也是欧洲大陆仅存的一块殖民地。2022年，直布罗陀被确认具有城市地位。这个地位是维多利亚女王于1842年授予的，然而因不明原因从官方名单中遗漏。2022年，直布罗陀竞标成为一个城市，作为英国女王伊丽莎白二世白金禧年庆祝活动的一部分。直到此时，研究人员翻阅英国国家档案馆资料，才发现180年前遗漏的史实，于是官方重申了其城市地位。英国首相鲍里斯·约翰逊将直布罗陀官宣成为一个城市描述为“巨大的荣誉”，以庆祝其“丰富的历史和活力”。",
+      "chars": 785
+    },
+    {
+      "section": "人口及语言",
+      "text": "人口三万余，三分之二的人口为意大利人、马耳他人和西班牙人的后裔、英国人约5,000人；摩洛哥人约3,000人；其余少数人口为印度人、葡萄牙人、巴基斯坦人。整个半岛分为东西两部分，人口主要集中在西岸。直布罗陀的人口密度之高位居世界前列，每平方公里4,530人。\n直布罗陀人是几百年来移居此地的许多欧洲移民的种族文化大拼盘。这些人是在1704年大多数西班牙人离开之后前往直布罗陀的经济移民的后裔。少数于1704年8月留在当地的少数西班牙人后来加上了随着黑森-达姆施塔特的格奥尔格（英语：George of Hesse-Darmstadt）的舰队一起来到直布罗陀的两百多加泰罗尼亚人。到了1753年热那亚人、马耳他人和葡萄牙人成为了新增人口中的大多数。其他族群包括梅诺卡人（当梅诺卡岛在1802年归还西班牙时被迫离家来到此地）、撒丁岛人、西西里人和其他意大利人、法国人、德国人和英国人。来自西班牙的移民以及与周边西班牙城镇进行的跨境婚姻是直布罗陀历史上的一个固有特色，直到佛朗哥将军关闭了与直布罗陀的边境，直布罗陀人与西班牙亲属的联系因此中断。1982年西班牙政府重新开放了陆地边界，但其他限制规定仍然保留不变。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "根据2012年的人口普查，大约72.1％的直布罗陀人是罗马天主教信徒。始建于16世纪的圣母加冕主教座堂为天主教直布罗陀教区的主教座堂也是该地区最古老的天主教堂。其他基督教派包括英格兰教会（7.7％）、卫理公会、苏格兰教会、普利茅斯弟兄会、五旬节运动、耶稣基督后期圣徒教会和耶和华见证人，圣三一教堂是圣公会欧洲教区的主教座堂。7.1％的人表示他们没有宗教信仰。直布罗陀世俗人道主义协会也定期举行会议。伊斯兰教为直布罗陀第三大宗教（3.6％），其他宗教还有犹太教（2.4％）、印度教（2％）和巴哈伊教。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Rock of Gibraltar 1810.jpg",
+      "caption_zh": "直布罗陀巨岩",
+      "caption": "直布罗陀巨岩",
+      "caption_commons": "The Rock of Gibraltar's North Front cliff face from Bayside showing the embrasur",
+      "kw": "Rock of Gibraltar",
+      "url": "assets/gi/L01.webp",
+      "thumb_url": "assets/gi/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Rock_of_Gibraltar_1810.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "No illustrator given",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 24228,
+      "caption_zh_manual": "直布罗陀巨岩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4536,
+      "size": {
+        "detail": "567x353",
+        "thumb": "240x149"
+      },
+      "encoding": "webp q75/q78 (源 567x353 303KB JPEG)"
+    },
+    {
+      "title": "File:Europa Point Lighthouse and cottages.jpg",
+      "caption_zh": "欧罗巴角灯塔及附属小屋",
+      "caption": "欧罗巴角灯塔及附属小屋",
+      "caption_commons": "Europa Point Lighthouse and cottages, Gibraltar",
+      "kw": "Europa Point Lighthouse",
+      "url": "assets/gi/L02.webp",
+      "thumb_url": "assets/gi/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Europa_Point_Lighthouse_and_cottages.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Allie Caulfield",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 46448,
+      "caption_zh_manual": "欧罗巴角灯塔",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4180,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1600x1200 775KB JPEG)"
+    },
+    {
+      "title": "File:The stage inside St. Michael's Cave.jpg",
+      "caption_zh": "圣米迦勒岩洞内的舞台",
+      "caption": "圣米迦勒岩洞内的舞台",
+      "caption_commons": "View of the stage and surrounding area inside St. Michael's Cave, Gibraltar.",
+      "kw": "St Michael's Cave Gibraltar",
+      "url": "assets/gi/L03.webp",
+      "thumb_url": "assets/gi/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/The_stage_inside_St._Michael%27s_Cave.jpg/1920px-The_stage_inside_St._Michael%27s_Cave.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Greenshed",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 121114,
+      "caption_zh_manual": "圣米迦勒岩洞",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10468,
+      "size": {
+        "detail": "1080x718",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1277 629KB JPEG)"
+    },
+    {
+      "title": "File:Main Street Gibraltar.JPG",
+      "caption_zh": "直布罗陀主街街景",
+      "caption": "直布罗陀主街街景",
+      "caption_commons": "A image of Main Street in Gibraltar taken by myself.",
+      "kw": "Main Street Gibraltar",
+      "url": "assets/gi/L05.webp",
+      "thumb_url": "assets/gi/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Main_Street_Gibraltar.JPG/1920px-Main_Street_Gibraltar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "RedCoat10 at English Wikipedia",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 161118,
+      "caption_zh_manual": "直布罗陀主街",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5946,
+      "size": {
+        "detail": "1080x1440",
+        "thumb": "135x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2560 869KB JPEG)"
+    },
+    {
+      "title": "File:Gibraltar Cable Car 5.jpg",
+      "caption_zh": "直布罗陀缆车",
+      "caption": "直布罗陀缆车",
+      "caption_commons": "Cable Car in Gibraltar from Grand Parade.",
+      "kw": "Gibraltar Cable Car",
+      "url": "assets/gi/L06.webp",
+      "thumb_url": "assets/gi/L06.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Gibraltar_Cable_Car_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Nathan Harig",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 100578,
+      "caption_zh_manual": "直布罗陀缆车",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8828,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1600x1200 756KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:20:50+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 无通行语，从 P2936 补：英语",
+    "P443 发音语种不符已弃用：LL-Q33573 (kin)-Adygrafix250-Giburalitari.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py GI",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "摩尔人城堡：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "LLM 质检[warn] languages：英语标为 spoken，英国英语标为 official，角色标注不一致 → 英语设为 official，英国英语可删或改 spoken"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 2 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "直布罗陀巨岩",
+        "evidence": "直布罗陀巨岩是直布罗陀主要的地标之一"
+      },
+      {
+        "v": "戈勒姆岩洞",
+        "evidence": "位于直布罗陀的戈勒姆岩洞化石"
+      },
+      {
+        "v": "伊比利亚半岛",
+        "evidence": "位于伊比利亚半岛的末端"
+      },
+      {
+        "v": "地中海入口",
+        "evidence": "是通往地中海的入口"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "直布罗陀（英语：Gibraltar，/dʒɪˈbrɔːltər/ jih-BRAWL-tər ，西班牙语发音：[xiβɾalˈtaɾ] ）是英国官方承认的第14个英国海外领土，也是最小的一个，位于伊比利亚半岛的末端，是通往地中海的入口。\n直布罗陀面积约为6平方公里，北接西班牙安达卢西亚加的斯省，是英国与欧洲大陆陆地接壤的唯一地区，直布罗陀巨岩是直布罗陀主要的地标之一。直布罗陀的人口集中在该区域的南部，容纳了直布罗陀人和其他民族共三万多人。居民人数包括常住的直布罗陀人，一些常驻的英国人（包括直布罗陀英军军眷）和非英国居民。没有包括参观的游客和短暂停留的人士。\n自1713年《乌得勒支条约》西班牙将此地割让给英国，至今仍为英国领土。但西班牙一直对此地声称领有主权。2009年，本地出生的人数达到23,907人，含3,129名英国移民居住者和其余民族2,395人，总人口数达到31,623人。\n\n\n== 历史 ==\n\n位于直布罗陀的戈勒姆岩洞化石证明了尼安德特人曾在公元前28,000至24,000年在直布罗陀聚居，而之后则一直没有很多人类遗迹。",
+  "history_text": "戈勒姆岩洞的化石把此地的人类活动上推到尼安德特人时期，此后迦太基人、罗马人、哥特人与摩尔人相继在此留下痕迹。摩尔人曾以半岛为跳板进入伊比利亚南部，与基督教势力长期拉锯。1704年英国在西班牙王位继承战争中攻占此地，1713年《乌特勒支条约》中西班牙正式割让予英国，此后一直由英国统治，西班牙则持续声称拥有主权。",
+  "custom_text": "人口由意大利人、马耳他人、西班牙人后裔与英国人、摩洛哥人、印度人等层层叠成，是几百年移民汇成的文化拼盘。宗教上以罗马天主教为主，始建于十六世纪的圣母加冕主教座堂是最古老的天主教堂，圣三一教堂则属圣公会。跨境婚姻与来自西班牙的移民，长期是当地生活的固有特色。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 155,
+      "folk": 128
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "直布罗陀在哪儿啊？",
+      "a": "位于伊比利亚半岛的末端，是通往地中海的入口，北接西班牙安达卢西亚加的斯省，是英国与欧洲大陆陆地接壤的唯一地区。",
+      "tags": [
+        "位置",
+        "欧洲",
+        "地中海"
+      ]
+    },
+    {
+      "q": "直布罗陀有多大？",
+      "a": "面积约为6平方公里，是英国最小的海外领土。",
+      "tags": [
+        "面积",
+        "大小"
+      ]
+    },
+    {
+      "q": "直布罗陀的首都是哪里？",
+      "a": "首都就是直布罗陀本身。",
+      "tags": [
+        "首都",
+        "首府"
+      ]
+    },
+    {
+      "q": "直布罗陀说什么语言？",
+      "a": "当地使用英语，官方语言是英国英语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "英语"
+      ]
+    },
+    {
+      "q": "直布罗陀有什么值得看的地标？",
+      "a": "直布罗陀巨岩是主要地标，还有欧罗巴角灯塔、圣米迦勒岩洞、直布罗陀主街和直布罗陀缆车。",
+      "tags": [
+        "地标",
+        "景点",
+        "巨岩",
+        "灯塔"
+      ]
+    },
+    {
+      "q": "直布罗陀有什么文化节日或传统习俗？",
+      "a": "根据现有信息，直布罗陀的文化节日和传统习俗暂无详细记录。",
+      "tags": [
+        "节日",
+        "习俗",
+        "文化"
+      ]
+    },
+    {
+      "q": "直布罗陀有什么好吃的或特产？",
+      "a": "根据现有信息，直布罗陀的饮食和特产暂无详细记录。",
+      "tags": [
+        "吃什么",
+        "特产",
+        "美食"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "languages",
+        "severity": "warn",
+        "why": "英语标为 spoken，英国英语标为 official，角色标注不一致",
+        "suggest": "英语设为 official，英国英语可删或改 spoken"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -536,
+        3614
+      ],
+      [
+        -534,
+        3614
+      ],
+      [
+        -534,
+        3611
+      ],
+      [
+        -536,
+        3614
+      ]
+    ]
+  ]
+}

@@ -1,1 +1,404 @@
-{"qid":"Q221","iso_a2":"MK","iso_a3":"MKD","name_zh":"北马其顿","name_en":"North Macedonia","capital":"斯科普里","continent":"欧洲","centroid":[21.7167,41.65],"centroid_source":"wikidata P625","languages":[{"code":"mk","name_zh":"马其顿语","name_local":"马其顿语","role":"official","audio_url":"assets/mk/audio/mk.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Добредојдовте во Северна Македонија, земја на планини и езера; главниот град Скопје ве очекува со својата древна тврдина, а потоа запознајте го Охридското Езеро, едно од најстарите во Европа.","tts_text_zh":"欢迎来到北马其顿，一个山川与湖泊之国；首都斯科普里以其古老的城堡迎接您，随后请认识一下奥赫里德湖——欧洲最古老的湖泊之一。","audio_voice":"mk-MK-MarijaNeural","audio_bytes":72144},{"code":"sq","name_zh":"阿尔巴尼亚语","name_local":"阿尔巴尼亚语","role":"official","audio_url":"assets/mk/audio/sq.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Mirë se vini në Maqedoninë e Veriut, një vend malesh dhe liqenesh; kryeqyteti Shkup ju pret me kalanë e tij të lashtë, dhe më pas njihuni me Liqenin e Ohrit, një nga më të vjetrit në Evropë.","tts_text_zh":"欢迎来到北马其顿，一个山川与湖泊之国；首都斯科普里以其古老的城堡迎接您，随后请认识一下奥赫里德湖——欧洲最古老的湖泊之一。","audio_voice":"sq-AL-AnilaNeural","audio_bytes":67824}],"summary_text":"北马其顿共和国通称北马其顿，是位于欧洲巴尔干半岛南部的内陆国家，东临保加利亚，西北临科索沃，北临塞尔维亚，西临阿尔巴尼亚，南临希腊。首都与最大都市是斯科普里。该国原为南斯拉夫社会主义联邦共和国的成员国之一，1991年南斯拉夫解体后获得独立，当时国号为马其顿共和国，通称马其顿，以“前南斯拉夫马其顿共和国”的名义加入联合国。由于在“马其顿”名称的使用上与邻邦希腊长期存在争议，2019年2月12日起国号改为现名。2020年3月27日，北马其顿加入北约，成为该组织的第30个会员国。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":239,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%8C%97%E9%A6%AC%E5%85%B6%E9%A0%93","title":"北馬其頓"},"culture_excerpts":[{"section":"历史","text":"马其顿古为希腊文明北端的边疆地区，时而常被雅典等希腊文明中心爱琴海地区的人嘲笑其未开化，但古马其顿人本身亦是希腊人的一支，其所说的古马其顿语亦为古马其顿王国境内的古希腊语西北方言的统称。亚历山大帝国崩溃后，马其顿地区先后由罗马帝国、拜占庭帝国（希腊人所主导）等统治。5世纪起斯拉夫人开始进入马其顿地区（尤其是马其顿的内陆地区）定居，因而奠定了现代马其顿南北之分（南：希腊人/北：斯拉夫人）的基础。837年时保加利亚征服了马其顿，并于10世纪末在该地的奥赫里德定都。1018年拜占庭帝国又征服了马其顿，在接下来的几个世纪里马其顿多次在拜占庭帝国、保加利亚和塞尔维亚之间转手。15世纪初奥斯曼帝国征服了马其顿，并开始了长达500年的统治。19世纪时希腊、保加利亚、塞尔维亚复国运动相继展开，民族主义高涨，马其顿也成为三国的必争之地。1878年签订的《圣斯特凡诺条约》规定该地划归保加利亚大公国，但由于列强干涉而未成功，导致马其顿内部革命组织的出现，谋求与保加利亚统一。1913年三国在共同针对奥斯曼帝国的第一次巴尔干战争中获胜，奥斯曼帝国将马其顿割予三国，但三国之间又因马其顿具体分割方案爆发第二次巴尔干战争，最终希腊、塞尔维亚击败保加利亚，三国将马其顿瓜分。塞尔维亚所得到的部分就是现代北马其顿共和国的领土。第一次世界大战之后，塞属马其顿连同塞尔维亚成为南斯拉夫王国的一部分。第二次世界大战时，希腊、南斯拉夫为同盟国，保加利亚参加了由纳粹德国主导的轴心国阵营，希腊、南斯拉夫被德军占领之后，保加利亚分得了马其顿的大部分地区，但战争结束后各国之间的边界又还原到战前的形势。二战之后，南斯拉夫成为由铁托所领导的社会主义国家，初始定名南斯拉夫联邦人民共和国。1946年时铁托将马其顿地区从塞尔维亚分开，成为一个南斯拉夫直辖的社会主义共和国。1991年9月25日马其顿从南斯拉夫和平分离，但希腊不满其使用了“马其顿”作为国名而引发国名争端，最后马其顿共和国于1993年以“前南斯拉夫马其顿共和国（F.Y.R.O.M）”的名义加入联合国。希腊共和国最终在1995年解除该国的经济封锁。1999年，南斯拉夫联盟共和国内部爆发科索沃战争，近40万阿尔巴尼亚族难民从科索沃涌入马其顿共和国。2001年春，该国西部的阿族人开始进行武装叛乱，引发短暂的内战，后来双方于6月在欧盟官员的调停下达成停火协议，阿族同意放下武装，政府同意给予阿族人更多权力，阿族人得以进入共和国的议会并参与选举，之后国内的民族关系有一定的改善。随着2019年国名更名为“北马其顿共和国”，2020年3月27日北马其顿正式加入北大西洋公约组织。","chars":1098},{"section":"人口","text":"截至2019年该国有207万人口。马其顿人为主，阿尔巴尼亚人居第二。通用隶属于东南南斯拉夫语支的马其顿语，与保加利亚语完全互通。","chars":1200},{"section":"宗教","text":"基督徒共有64%。（北马其顿人口63%是东正教信徒，绝大多数为马其顿正教会教徒。1%人口信新教、天主教、其他独立教会。）穆斯林共有36%（北马其顿是欧洲第三大的伊斯兰教徒居多的国家，仅次于阿尔巴尼亚和波斯尼亚和黑塞哥维那）。\n引用错误：页面中存在&lt;ref&#160;group&#61;\"註\"&gt;标签或&#123;&#123;noteTag&#125;&#125;模板，但没有找到相应的&lt;references&#160;group&#61;\"註\"&#160;&#47;&gt;标签或&#123;&#123;noteFoot&#125;&#125;模板。","chars":1200}],"landmark_images":[{"title":"File:Ohridsoeen.jpg","caption_zh":"奥赫里德湖","caption":"奥赫里德湖","caption_commons":"","kw":"Lake Ohrid North Macedonia","url":"assets/mk/L01.webp","thumb_url":"assets/mk/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/1/16/Ohridsoeen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":null,"license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":23648,"caption_zh_manual":"奥赫里德湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8890,"size":{"detail":"760x489","thumb":"400x257"},"encoding":"webp q72/q74 (源 1262x812 547KB JPEG)"},{"title":"File:PlostadMakedonija-Skopje.JPG","caption_zh":"马其顿广场上的斯科普里石桥","caption":"马其顿广场上的斯科普里石桥","caption_commons":"Macedonia Square in Skopje, Republic of Macedonia","kw":"Stone Bridge Skopje Vardar","url":"assets/mk/L02.webp","thumb_url":"assets/mk/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/PlostadMakedonija-Skopje.JPG/1920px-PlostadMakedonija-Skopje.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Yemc","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":34294,"caption_zh_manual":"斯科普里石桥","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11076,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 519KB JPEG)"},{"title":"File:Thessaloniki Saint Sophia Church west wall.jpg","caption_zh":"圣索菲亚教堂西墙","caption":"圣索菲亚教堂西墙","caption_commons":"West wall of Saint Sophia Church, Thessaloniki, Central Macedonia, Greece","kw":"Church of Saint Sophia Ohrid","url":"assets/mk/L03.webp","thumb_url":"assets/mk/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Thessaloniki_Saint_Sophia_Church_west_wall.jpg/1920px-Thessaloniki_Saint_Sophia_Church_west_wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Ymblanter","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":59182,"caption_zh_manual":"圣索菲亚教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17684,"size":{"detail":"760x578","thumb":"395x300"},"encoding":"webp q72/q74 (源 1920x1460 697KB JPEG)"},{"title":"File:Mavrovo national park 3.jpg","caption_zh":"马夫罗沃国家公园","caption":"马夫罗沃国家公园","caption_commons":"Landscape in Mavrovo national park","kw":"Mavrovo National Park","url":"assets/mk/L04.webp","thumb_url":"assets/mk/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Mavrovo_national_park_3.jpg/1920px-Mavrovo_national_park_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Ismcuacor","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":98280,"caption_zh_manual":"马夫罗沃国家公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":26592,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 1118KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:41:24+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Mazedonien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Macedonia de Nord.wav、LL-Q652 (ita)-Francyskus-Macedonia del Nord.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py MK","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（4 张，中文图注）","摘要 239 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"巴尔干半岛","evidence":"巴尔干半岛南部的内陆国家"},{"v":"斯科普里","evidence":"首都与最大都市是斯科普里"},{"v":"马其顿语","evidence":"马其顿语：Република Северна"}],"model":"deepseek-flash"},"summary_text_raw":"北马其顿共和国（马其顿语：Република Северна Македонија，罗马化：Republika Severna Makedonija），通称北马其顿（马其顿语：Северна Македонија，罗马化：Severna Makedonija，发音：[ˈsɛvɛrna makɛˈdɔnija]），是位于欧洲的巴尔干半岛南部的内陆国家，东临保加利亚，西北临科索沃，北临塞尔维亚，西临阿尔巴尼亚，南临希腊。首都与最大都市是斯科普里。\n原为南斯拉夫社会主义联邦共和国的成员国之一，1991年南斯拉夫解体后获得独立，当时国号为马其顿共和国（马其顿语：Република Македонија，罗马化：Republika Makedonija），通称马其顿，以“前南斯拉夫马其顿共和国”的名义加入联合国，由于在“马其顿”名称的使用上与邻邦希腊长期存在争议，2019年2月12日起国号改为现名。2020年3月27日，北马其顿加入北约，成为该组织的第30个会员国。","history_text":"马其顿古为希腊文明北端的边疆地区，古马其顿人属希腊人一支。亚历山大帝国崩溃后，先后由罗马帝国、拜占庭帝国统治。5世纪起斯拉夫人进入并定居，奠定南北之分。15世纪初奥斯曼帝国征服此地，统治长达五百年。19世纪希腊、保加利亚、塞尔维亚复国运动相继展开，马其顿成为三国必争之地。","custom_text":"家庭餐桌常见面包、奶酪与烤制菜肴，节庆时人们围坐分享，佐以当地酿造的果酒。东正教家庭过圣诞与复活节，守斋与教堂礼拜贯穿全年节律；穆斯林家庭则另守斋月与开斋宴。婚礼与圣名日多请亲友聚宴，歌舞相伴。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":136,"folk":97}},"knowledge_qa":[{"q":"北马其顿在哪儿啊？周围都是哪些国家？","a":"位于欧洲巴尔干半岛南部，是个内陆国家。东边是保加利亚，西北是科索沃，北边塞尔维亚，西边阿尔巴尼亚，南边希腊。","tags":["欧洲","巴尔干","位置","邻国"]},{"q":"北马其顿的首都是哪里？","a":"首都和最大都市都是斯科普里。","tags":["首都","斯科普里","城市"]},{"q":"北马其顿说什么语言？","a":"官方语言是马其顿语和阿尔巴尼亚语。","tags":["语言","说什么话","官方语言"]},{"q":"北马其顿有什么值得看的地标或景点？","a":"有奥赫里德湖、斯科普里石桥、圣索菲亚教堂和马夫罗沃国家公园。","tags":["景点","地标","奥赫里德湖","石桥"]},{"q":"北马其顿有什么好吃的或特产？","a":"目前没有具体的饮食或特产信息。","tags":["吃什么","特产","美食"]},{"q":"北马其顿有什么传统节日或习俗？","a":"目前没有具体的节日或传统习俗信息。","tags":["节日","习俗","文化"]},{"q":"北马其顿以前叫什么名字？为什么改国名？","a":"以前叫马其顿共和国，通称马其顿。因为和希腊在“马其顿”名称使用上长期有争议，2019年2月12日起改叫北马其顿。","tags":["国名","历史","改名","希腊"]},{"q":"北马其顿是什么时候加入北约的？","a":"2020年3月27日加入北约，成为第30个会员国。","tags":["北约","加入","2020年"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[2057,4187],[2070,4185],[2078,4208],[2110,4220],[2130,4209],[2144,4225],[2227,4237],[2253,4213],[2284,4201],[2301,4172],[2293,4161],[2294,4135],[2275,4132],[2270,4114],[2205,4115],[2158,4087],[2096,4085],[2072,4091],[2050,4124],[2054,4140],[2044,4155],[2054,4158],[2050,4173],[2057,4187]]]}
+{
+  "qid": "Q221",
+  "iso_a2": "MK",
+  "iso_a3": "MKD",
+  "name_zh": "北马其顿",
+  "name_en": "North Macedonia",
+  "capital": "斯科普里",
+  "continent": "欧洲",
+  "centroid": [
+    21.7167,
+    41.65
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "mk",
+      "name_zh": "马其顿语",
+      "name_local": "马其顿语",
+      "role": "official",
+      "audio_url": "assets/mk/audio/mk.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Добредојдовте во Северна Македонија, земја на планини и езера; главниот град Скопје ве очекува со својата древна тврдина, а потоа запознајте го Охридското Езеро, едно од најстарите во Европа.",
+      "tts_text_zh": "欢迎来到北马其顿，一个山川与湖泊之国；首都斯科普里以其古老的城堡迎接您，随后请认识一下奥赫里德湖——欧洲最古老的湖泊之一。",
+      "audio_voice": "mk-MK-MarijaNeural",
+      "audio_bytes": 72144
+    },
+    {
+      "code": "sq",
+      "name_zh": "阿尔巴尼亚语",
+      "name_local": "阿尔巴尼亚语",
+      "role": "official",
+      "audio_url": "assets/mk/audio/sq.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Mirë se vini në Maqedoninë e Veriut, një vend malesh dhe liqenesh; kryeqyteti Shkup ju pret me kalanë e tij të lashtë, dhe më pas njihuni me Liqenin e Ohrit, një nga më të vjetrit në Evropë.",
+      "tts_text_zh": "欢迎来到北马其顿，一个山川与湖泊之国；首都斯科普里以其古老的城堡迎接您，随后请认识一下奥赫里德湖——欧洲最古老的湖泊之一。",
+      "audio_voice": "sq-AL-AnilaNeural",
+      "audio_bytes": 67824
+    }
+  ],
+  "summary_text": "北马其顿共和国通称北马其顿，是位于欧洲巴尔干半岛南部的内陆国家，东临保加利亚，西北临科索沃，北临塞尔维亚，西临阿尔巴尼亚，南临希腊。首都与最大都市是斯科普里。该国原为南斯拉夫社会主义联邦共和国的成员国之一，1991年南斯拉夫解体后获得独立，当时国号为马其顿共和国，通称马其顿，以“前南斯拉夫马其顿共和国”的名义加入联合国。由于在“马其顿”名称的使用上与邻邦希腊长期存在争议，2019年2月12日起国号改为现名。2020年3月27日，北马其顿加入北约，成为该组织的第30个会员国。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 239,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%8C%97%E9%A6%AC%E5%85%B6%E9%A0%93",
+    "title": "北馬其頓"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "马其顿古为希腊文明北端的边疆地区，时而常被雅典等希腊文明中心爱琴海地区的人嘲笑其未开化，但古马其顿人本身亦是希腊人的一支，其所说的古马其顿语亦为古马其顿王国境内的古希腊语西北方言的统称。亚历山大帝国崩溃后，马其顿地区先后由罗马帝国、拜占庭帝国（希腊人所主导）等统治。5世纪起斯拉夫人开始进入马其顿地区（尤其是马其顿的内陆地区）定居，因而奠定了现代马其顿南北之分（南：希腊人/北：斯拉夫人）的基础。837年时保加利亚征服了马其顿，并于10世纪末在该地的奥赫里德定都。1018年拜占庭帝国又征服了马其顿，在接下来的几个世纪里马其顿多次在拜占庭帝国、保加利亚和塞尔维亚之间转手。15世纪初奥斯曼帝国征服了马其顿，并开始了长达500年的统治。19世纪时希腊、保加利亚、塞尔维亚复国运动相继展开，民族主义高涨，马其顿也成为三国的必争之地。1878年签订的《圣斯特凡诺条约》规定该地划归保加利亚大公国，但由于列强干涉而未成功，导致马其顿内部革命组织的出现，谋求与保加利亚统一。1913年三国在共同针对奥斯曼帝国的第一次巴尔干战争中获胜，奥斯曼帝国将马其顿割予三国，但三国之间又因马其顿具体分割方案爆发第二次巴尔干战争，最终希腊、塞尔维亚击败保加利亚，三国将马其顿瓜分。塞尔维亚所得到的部分就是现代北马其顿共和国的领土。第一次世界大战之后，塞属马其顿连同塞尔维亚成为南斯拉夫王国的一部分。第二次世界大战时，希腊、南斯拉夫为同盟国，保加利亚参加了由纳粹德国主导的轴心国阵营，希腊、南斯拉夫被德军占领之后，保加利亚分得了马其顿的大部分地区，但战争结束后各国之间的边界又还原到战前的形势。二战之后，南斯拉夫成为由铁托所领导的社会主义国家，初始定名南斯拉夫联邦人民共和国。1946年时铁托将马其顿地区从塞尔维亚分开，成为一个南斯拉夫直辖的社会主义共和国。1991年9月25日马其顿从南斯拉夫和平分离，但希腊不满其使用了“马其顿”作为国名而引发国名争端，最后马其顿共和国于1993年以“前南斯拉夫马其顿共和国（F.Y.R.O.M）”的名义加入联合国。希腊共和国最终在1995年解除该国的经济封锁。1999年，南斯拉夫联盟共和国内部爆发科索沃战争，近40万阿尔巴尼亚族难民从科索沃涌入马其顿共和国。2001年春，该国西部的阿族人开始进行武装叛乱，引发短暂的内战，后来双方于6月在欧盟官员的调停下达成停火协议，阿族同意放下武装，政府同意给予阿族人更多权力，阿族人得以进入共和国的议会并参与选举，之后国内的民族关系有一定的改善。随着2019年国名更名为“北马其顿共和国”，2020年3月27日北马其顿正式加入北大西洋公约组织。",
+      "chars": 1098
+    },
+    {
+      "section": "人口",
+      "text": "截至2019年该国有207万人口。马其顿人为主，阿尔巴尼亚人居第二。通用隶属于东南南斯拉夫语支的马其顿语，与保加利亚语完全互通。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "基督徒共有64%。（北马其顿人口63%是东正教信徒，绝大多数为马其顿正教会教徒。1%人口信新教、天主教、其他独立教会。）穆斯林共有36%（北马其顿是欧洲第三大的伊斯兰教徒居多的国家，仅次于阿尔巴尼亚和波斯尼亚和黑塞哥维那）。\n引用错误：页面中存在&lt;ref&#160;group&#61;\"註\"&gt;标签或&#123;&#123;noteTag&#125;&#125;模板，但没有找到相应的&lt;references&#160;group&#61;\"註\"&#160;&#47;&gt;标签或&#123;&#123;noteFoot&#125;&#125;模板。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Ohridsoeen.jpg",
+      "caption_zh": "奥赫里德湖",
+      "caption": "奥赫里德湖",
+      "caption_commons": "",
+      "kw": "Lake Ohrid North Macedonia",
+      "url": "assets/mk/L01.webp",
+      "thumb_url": "assets/mk/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ohridsoeen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": null,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 40684,
+      "caption_zh_manual": "奥赫里德湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4326,
+      "size": {
+        "detail": "1080x695",
+        "thumb": "240x154"
+      },
+      "encoding": "webp q75/q78 (源 1262x812 547KB JPEG)"
+    },
+    {
+      "title": "File:PlostadMakedonija-Skopje.JPG",
+      "caption_zh": "马其顿广场上的斯科普里石桥",
+      "caption": "马其顿广场上的斯科普里石桥",
+      "caption_commons": "Macedonia Square in Skopje, Republic of Macedonia",
+      "kw": "Stone Bridge Skopje Vardar",
+      "url": "assets/mk/L02.webp",
+      "thumb_url": "assets/mk/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/PlostadMakedonija-Skopje.JPG/1920px-PlostadMakedonija-Skopje.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Yemc",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 69098,
+      "caption_zh_manual": "斯科普里石桥",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5268,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 519KB JPEG)"
+    },
+    {
+      "title": "File:Thessaloniki Saint Sophia Church west wall.jpg",
+      "caption_zh": "圣索菲亚教堂西墙",
+      "caption": "圣索菲亚教堂西墙",
+      "caption_commons": "West wall of Saint Sophia Church, Thessaloniki, Central Macedonia, Greece",
+      "kw": "Church of Saint Sophia Ohrid",
+      "url": "assets/mk/L03.webp",
+      "thumb_url": "assets/mk/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Thessaloniki_Saint_Sophia_Church_west_wall.jpg/1920px-Thessaloniki_Saint_Sophia_Church_west_wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Ymblanter",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 122190,
+      "caption_zh_manual": "圣索菲亚教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8294,
+      "size": {
+        "detail": "1080x821",
+        "thumb": "237x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1460 697KB JPEG)"
+    },
+    {
+      "title": "File:Mavrovo national park 3.jpg",
+      "caption_zh": "马夫罗沃国家公园",
+      "caption": "马夫罗沃国家公园",
+      "caption_commons": "Landscape in Mavrovo national park",
+      "kw": "Mavrovo National Park",
+      "url": "assets/mk/L04.webp",
+      "thumb_url": "assets/mk/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Mavrovo_national_park_3.jpg/1920px-Mavrovo_national_park_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Ismcuacor",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 217764,
+      "caption_zh_manual": "马夫罗沃国家公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11048,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 1118KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:41:24+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Mazedonien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Macedonia de Nord.wav、LL-Q652 (ita)-Francyskus-Macedonia del Nord.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py MK",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（4 张，中文图注）",
+    "摘要 239 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "巴尔干半岛",
+        "evidence": "巴尔干半岛南部的内陆国家"
+      },
+      {
+        "v": "斯科普里",
+        "evidence": "首都与最大都市是斯科普里"
+      },
+      {
+        "v": "马其顿语",
+        "evidence": "马其顿语：Република Северна"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "北马其顿共和国（马其顿语：Република Северна Македонија，罗马化：Republika Severna Makedonija），通称北马其顿（马其顿语：Северна Македонија，罗马化：Severna Makedonija，发音：[ˈsɛvɛrna makɛˈdɔnija]），是位于欧洲的巴尔干半岛南部的内陆国家，东临保加利亚，西北临科索沃，北临塞尔维亚，西临阿尔巴尼亚，南临希腊。首都与最大都市是斯科普里。\n原为南斯拉夫社会主义联邦共和国的成员国之一，1991年南斯拉夫解体后获得独立，当时国号为马其顿共和国（马其顿语：Република Македонија，罗马化：Republika Makedonija），通称马其顿，以“前南斯拉夫马其顿共和国”的名义加入联合国，由于在“马其顿”名称的使用上与邻邦希腊长期存在争议，2019年2月12日起国号改为现名。2020年3月27日，北马其顿加入北约，成为该组织的第30个会员国。",
+  "history_text": "马其顿古为希腊文明北端的边疆地区，古马其顿人属希腊人一支。亚历山大帝国崩溃后，先后由罗马帝国、拜占庭帝国统治。5世纪起斯拉夫人进入并定居，奠定南北之分。15世纪初奥斯曼帝国征服此地，统治长达五百年。19世纪希腊、保加利亚、塞尔维亚复国运动相继展开，马其顿成为三国必争之地。",
+  "custom_text": "家庭餐桌常见面包、奶酪与烤制菜肴，节庆时人们围坐分享，佐以当地酿造的果酒。东正教家庭过圣诞与复活节，守斋与教堂礼拜贯穿全年节律；穆斯林家庭则另守斋月与开斋宴。婚礼与圣名日多请亲友聚宴，歌舞相伴。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 136,
+      "folk": 97
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "北马其顿在哪儿啊？周围都是哪些国家？",
+      "a": "位于欧洲巴尔干半岛南部，是个内陆国家。东边是保加利亚，西北是科索沃，北边塞尔维亚，西边阿尔巴尼亚，南边希腊。",
+      "tags": [
+        "欧洲",
+        "巴尔干",
+        "位置",
+        "邻国"
+      ]
+    },
+    {
+      "q": "北马其顿的首都是哪里？",
+      "a": "首都和最大都市都是斯科普里。",
+      "tags": [
+        "首都",
+        "斯科普里",
+        "城市"
+      ]
+    },
+    {
+      "q": "北马其顿说什么语言？",
+      "a": "官方语言是马其顿语和阿尔巴尼亚语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言"
+      ]
+    },
+    {
+      "q": "北马其顿有什么值得看的地标或景点？",
+      "a": "有奥赫里德湖、斯科普里石桥、圣索菲亚教堂和马夫罗沃国家公园。",
+      "tags": [
+        "景点",
+        "地标",
+        "奥赫里德湖",
+        "石桥"
+      ]
+    },
+    {
+      "q": "北马其顿有什么好吃的或特产？",
+      "a": "目前没有具体的饮食或特产信息。",
+      "tags": [
+        "吃什么",
+        "特产",
+        "美食"
+      ]
+    },
+    {
+      "q": "北马其顿有什么传统节日或习俗？",
+      "a": "目前没有具体的节日或传统习俗信息。",
+      "tags": [
+        "节日",
+        "习俗",
+        "文化"
+      ]
+    },
+    {
+      "q": "北马其顿以前叫什么名字？为什么改国名？",
+      "a": "以前叫马其顿共和国，通称马其顿。因为和希腊在“马其顿”名称使用上长期有争议，2019年2月12日起改叫北马其顿。",
+      "tags": [
+        "国名",
+        "历史",
+        "改名",
+        "希腊"
+      ]
+    },
+    {
+      "q": "北马其顿是什么时候加入北约的？",
+      "a": "2020年3月27日加入北约，成为第30个会员国。",
+      "tags": [
+        "北约",
+        "加入",
+        "2020年"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        2057,
+        4187
+      ],
+      [
+        2070,
+        4185
+      ],
+      [
+        2078,
+        4208
+      ],
+      [
+        2110,
+        4220
+      ],
+      [
+        2130,
+        4209
+      ],
+      [
+        2144,
+        4225
+      ],
+      [
+        2227,
+        4237
+      ],
+      [
+        2253,
+        4213
+      ],
+      [
+        2284,
+        4201
+      ],
+      [
+        2301,
+        4172
+      ],
+      [
+        2293,
+        4161
+      ],
+      [
+        2294,
+        4135
+      ],
+      [
+        2275,
+        4132
+      ],
+      [
+        2270,
+        4114
+      ],
+      [
+        2205,
+        4115
+      ],
+      [
+        2158,
+        4087
+      ],
+      [
+        2096,
+        4085
+      ],
+      [
+        2072,
+        4091
+      ],
+      [
+        2050,
+        4124
+      ],
+      [
+        2054,
+        4140
+      ],
+      [
+        2044,
+        4155
+      ],
+      [
+        2054,
+        4158
+      ],
+      [
+        2050,
+        4173
+      ],
+      [
+        2057,
+        4187
+      ]
+    ]
+  ]
+}

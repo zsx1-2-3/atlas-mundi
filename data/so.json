@@ -1,1 +1,628 @@
-{"qid":"Q1045","iso_a2":"SO","iso_a3":"SOM","name_zh":"索马里","name_en":"Somalia","capital":"摩加迪休","continent":"非洲","centroid":[47,6],"centroid_source":"wikidata P625","languages":[{"code":"so","name_zh":"索馬里語","name_local":"索馬里語","role":"official","audio_url":"assets/so/audio/so.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Ku soo dhawoow dalka Soomaaliya, halkaas oo magaalo-madaxda Muqdisho ku taallo xeebta Badweynta Hindiya, iyo dhismaha qadiimiga ah ee Xamar Weyne oo ka tarjumaya taariikhda dheer ee magaalada.","tts_text_zh":"欢迎来到索马里，首都摩加迪沙坐落于印度洋沿岸，古老的哈马尔韦内城区映照着这座城市悠久的历史。","audio_voice":"so-SO-UbaxNeural","audio_bytes":72720},{"code":"ar","name_zh":"阿拉伯语","name_local":"阿拉伯语","role":"official","audio_url":"assets/so/audio/ar.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"مرحبًا بكم في الصومال، حيث تقع العاصمة مقديشو على ساحل المحيط الهندي، ويقف حي حمر وين القديم شاهدًا على تاريخ المدينة العريق.","tts_text_zh":"欢迎来到索马里，首都摩加迪沙位于印度洋沿岸，古老的哈马尔韦内街区见证着这座城市的悠久历史。","audio_voice":"ar-DZ-AminaNeural","audio_bytes":73728}],"summary_text":"索马里联邦共和国通称索马里，是一个东非国家，位于索马里半岛上。它东滨印度洋，北临亚丁湾，西与埃塞俄比亚、肯尼亚、吉布提相邻。索马里居于地中海与印度洋的亚丁湾之南，是各国货轮由曼德海峡出入苏伊士运河的必经海路，并拥有非洲大陆最长的海岸线。其地形主要由高原、平原和高地组成，全年炎热，有周期性的季风和不规则的较少的降雨。国际公认边界内的索马里人口约为1,500万，其中超过200万人居住在首都和最大城市摩加迪沙。该国被描述为非洲文化最单一的国家，大约85%的居民是索马里人，主要居住在该国北部，少数民族主要集中在南方。索马里的官方语言是索马里语和阿拉伯语，该国大多数人是逊尼派穆斯林。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":290,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%B4%A2%E9%A9%AC%E9%87%8C","title":"索马里"},"culture_excerpts":[{"section":"历史","text":"1840年，英国侵入北部；1887年宣布该地为其保护地。1889年意大利王国进占中部，至1925年整个中、南部沦为意属殖民地。第二次世界大战期间，意属索马里是意属东非一部分。1941年东非战役英国占领意属索马里，1949年联合国决议将原意大利侵占地区交意大利托管。1991年5月18日，原英属索马里兰的西部单方面独立为索马里兰。1993年联合国短暂干预索马里局势后，即因摩加迪沙之战，美国士兵被打死并被当街示众亵渎被电视播出一事而退出。1995年6月，索马里军阀穆罕默德·法拉赫·艾迪德宣布在摩加迪沙成立临时政府，自任“总统”，在其亡故后的1996年8月，艾迪德之子侯赛因·穆罕默德·法拉赫·艾迪德（英语：Hussein_Farrah_Aidid）继任“临时政府总统”。1998年7月，阿卜杜拉希·优素福·艾哈迈德在索马里东北部成立“邦特兰”政府并任主席，该自治政权不谋求独立，承认其是索马里的一部分，邦特兰和索马里兰随后发生边界冲突。2000年，吉布提在阿尔塔主持召开索马里全国和解会议，和会通过了过渡宪章，选举产生了三年期过渡全国政府，由阿迪卡西姆·萨拉德·哈山出任总统，组建了索马里过渡国家政府，但遭索马里国内派别联合抵制。2002年3月，拉汉文抵抗军（英语：Rahanweyn_Resistance_Army）宣布成立索马里西南国。2004年1月29日，索马里各方代表签署了过渡联邦宪章，8月22日，索马里过渡议会在内罗毕成立，12月，索马里过渡联邦政府在肯尼亚成立。2005年6月，过渡政府迁回国内，但是由于缺乏实力，只能在南部城市拜多阿办公。2006年6月5日，索马里教派武装击败军阀联盟，并控制了摩加迪沙。12月24日，埃塞俄比亚首次公开承认介入了索马里内部的武装冲突。12月28日，索马里过渡政府部队击退教派武装，进驻摩加迪沙。2007年1月23日，埃塞俄比亚开始从索马里撤出军队。2月20日，联合国安理会通过第1744号决议，授权非洲联盟在索马里部署维和部队，以稳定当地局势。3月12日，索马里过渡议会批准过渡政府从拜多阿迁回首都摩加迪沙。2008年12月，索马里过渡联邦政府倒台。2009年1月31日，索马里反对派组织“索马里再解放联盟”领导人谢赫·谢里夫·谢赫·艾哈迈德在吉布提首都吉布提举行的索马里总统选举中获胜。2月14日，据联合国的索马利亚政治办公室透露，索马利亚国会以414票对9票，支持总统艾哈迈德任命阿卜迪拉希德·阿里·舍马克之子、现阶段拥有加拿大和索马里双重国籍的奥马尔·萨马克（Omar Abdirashid Ali Sharmarke）为新一任政府总理，并于2月20日就职。2013年9月16日，在布鲁塞尔举行的“索马里新政”会议上通过《索马里契约》（The Somali Compact）。2014年，索马里联邦政府制订了“2016年愿景”行动框架（Vision 2016: Framework for Action）。2020年2月，索马里政府因蝗虫肆虐而宣布“国家紧急状态”，这是全世界25年来最严重的一次，对邻国肯亚而言，更是70年以来首见。联合国粮食及农业组织警告，至6月蝗虫数量可能会增加到500倍。","chars":1326},{"section":"人口","text":"2018年估计人口有1518万。绝大多数是索马里人，又分萨马莱和萨布两大族系。其中萨马莱族系占全国人口的80%以上，分为达鲁德、哈维耶、伊萨克和迪尔四大部族。萨布族系分为迪吉尔和拉汉文两大部族。伊斯兰教为国教，穆斯林占总人口99%。\n索马里语属于闪含语系库希特语族，为索马里的官方语言，该语言也在埃塞俄比亚、苏丹及肯尼亚等地区使用。1922年后索马里开始采用由奥斯曼·尤瑟夫·肯纳迪所研创的奥斯曼亚字母来拼写，在1960年代时奥斯曼亚字母与拉丁字母两者并行使用。自1972年起全面采用拉丁字母来拼写，不过在一些私人及特殊场合也会用奥斯曼亚字母的书写法。","chars":1200},{"section":"语言","text":"索马里语属于闪含语系库希特语族，为索马里的官方语言，该语言也在埃塞俄比亚、苏丹及肯尼亚等地区使用。1922年后索马里开始采用由奥斯曼·尤瑟夫·肯纳迪所研创的奥斯曼亚字母来拼写，在1960年代时奥斯曼亚字母与拉丁字母两者并行使用。自1972年起全面采用拉丁字母来拼写，不过在一些私人及特殊场合也会用奥斯曼亚字母的书写法。\n除索马里语外，因过去的殖民历史及与邻近国家肯亚、乌干达的地缘关系因素，英语及斯瓦希里语在索马里亦广为通行。而意大利语因去殖民化和战乱导致的语言学校消失无人使用。","chars":1200}],"landmark_images":[{"title":"File:2013 09 01 Mogadishu Taxi Company 017 (9656572232).jpg","caption_zh":"摩加迪沙老城出租车公司","caption":"摩加迪沙老城出租车公司","caption_commons":"A woman walks past cars belonging to the Mogadishu Taxi Company next to the comp","kw":"Mogadishu old town Hamar Weyne","url":"assets/so/L02.webp","thumb_url":"assets/so/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2013_09_01_Mogadishu_Taxi_Company_017_%289656572232%29.jpg/1920px-2013_09_01_Mogadishu_Taxi_Company_017_%289656572232%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"AMISOM Public Information","license":"CC0","license_url":"http://creativecommons.org/publicdomain/zero/1.0/deed.en","license_status":"ok","load_verified":true,"bytes":58070,"caption_zh_manual":"摩加迪沙老城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18232,"size":{"detail":"760x525","thumb":"400x276"},"encoding":"webp q72/q74 (源 1920x1327 604KB JPEG)"},{"title":"File:Berbera building.jpg","caption_zh":"柏培拉奥斯曼建筑","caption":"柏培拉奥斯曼建筑","caption_commons":"Building in Berbera, Somalia. Image taken by Charles Fred on flickr. The creator","kw":"Berbera Ottoman architecture","url":"assets/so/L04.webp","thumb_url":"assets/so/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/a/ad/Berbera_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Charles Roffey","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":55072,"caption_zh_manual":"柏培拉奥斯曼建筑","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17504,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1024x683 392KB JPEG)"},{"title":"File:Laas Geel.jpg","caption_zh":"拉阿斯卡德遗址","caption":"拉阿斯卡德遗址","caption_commons":"Some of the many paintings inside the Laas Geel caves, near Hargeisa in Somalila","kw":"Laas Geel rock art Somaliland","url":"assets/so/L05.webp","thumb_url":"assets/so/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/f/f1/Laas_Geel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Abdullah Geelah","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":42812,"caption_zh_manual":"拉阿斯卡德遗址","caption_zh_source":"llm_from_commons_filename","thumb_bytes":25608,"size":{"detail":"500x333","thumb":"400x266"},"encoding":"webp q72/q74 (源 500x333 138KB JPEG)"},{"title":"File:Zeila, Somaliland.jpg","caption_zh":"泽拉古城","caption":"泽拉古城","caption_commons":"Zeila, Somaliland","kw":"Zeila old town Somalia","url":"assets/so/L06.webp","thumb_url":"assets/so/L06.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/3/38/Zeila%2C_Somaliland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"islamic-art-and-quotes.tumblr.com","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":17624,"caption_zh_manual":"泽拉古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":5206,"size":{"detail":"470x545","thumb":"259x300"},"encoding":"webp q72/q74 (源 470x545 34KB JPEG)"}],"image_license":"CC0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:01:52+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Somalia.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Somalia.wav、LL-Q9610 (ben)-Tahmid-সোমালিয়া.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py SO","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","拉斯基博雷灯塔：Wikidata / 维基 / Commons 都没有可用图","阿尔巴清真寺：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（4 张，中文图注）","摘要 290 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"逊尼派穆斯林","evidence":"该国大多数人是逊尼派穆斯林"}],"architecture":[],"heritage":[],"keywords":[{"v":"索马里半岛","evidence":"位于索马里半岛上"},{"v":"印度洋","evidence":"东滨印度洋"},{"v":"亚丁湾","evidence":"北临亚丁湾"},{"v":"曼德海峡","evidence":"由曼德海峡出入苏伊士运河"},{"v":"非洲最长海岸线","evidence":"拥有非洲大陆最长的海岸线"},{"v":"索马里语","evidence":"官方语言是索马里语和阿拉伯语"}],"model":"deepseek-flash"},"summary_text_raw":"索马里联邦共和国（索马里语：Jamhuuriyadda Federaalka Soomaaliya；阿拉伯语：جمهورية الصومال الفدرالية，Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya；英语：Federal Republic of Somalia），通称索马里（Soomaaliya；الصومال，aṣ-Ṣūmāl，/səˈmɑːliə/，so-MAH-lee-ə；Somalia），是一个东非国家，位于索马里半岛上，东滨印度洋，北临亚丁湾，西与埃塞俄比亚、肯尼亚、吉布提相邻。\n索马里居于地中海与印度洋的亚丁湾之南，是各国货轮由曼德海峡出入苏伊士运河的必经海路。拥有非洲大陆最长的海岸线，其地形主要由高原、平原和高地组成。全年炎热，有周期性的季风和不规则的较少的降雨。国际公认边界内的索马里人口约为1,500万，其中超过200万人居住在首都和最大城市摩加迪沙，并被描述为非洲文化最单一的国家，大约85%的居民是索马里人，主要居住在该国北部。少数民族主要集中在南方。索马里的官方语言是索马里语和阿拉伯语。该国大多数人是逊尼派穆斯林。","history_text":"北部沿海自十九世纪中叶起被英国侵入并宣布为保护地，中部随后落入意大利之手，至二十世纪二十年代中南部全境沦为意属殖民地。二战期间这里是意属东非的一部分，战后由英国占领，又交意大利托管。九十年代初，原英属索马里兰的西部单方面宣布独立，此后军阀在摩加迪沙另立临时政府，东北部又出现承认归属索马里的邦特兰自治政权。","custom_text":"待客时，主人会煮一壶香料浓重的茶，配着椰枣或炸面点端上来，客人不喝完便不撤杯。主食多是把高粱或玉米磨粉做成团块，佐以驼奶或羊奶；逢婚嫁与开斋，男人们围坐分食烤羊，长者先动刀。索马里语用拉丁字母拼写，但老人写信仍爱用奥斯曼亚字母。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":153,"folk":114}},"knowledge_qa":[{"q":"索马里在哪儿啊？周围都是些什么地方？","a":"索马里在非洲东部，位于索马里半岛上，东边是印度洋，北边是亚丁湾，西边挨着埃塞俄比亚、肯尼亚和吉布提。","tags":["非洲","地理位置","周边国家","印度洋"]},{"q":"索马里的首都是哪里？","a":"首都是摩加迪休，也叫摩加迪沙，是索马里最大的城市，全国超过200万人住在那儿。","tags":["首都","摩加迪沙","城市"]},{"q":"索马里人平时说什么话？","a":"官方语言是索马里语和阿拉伯语，大多数居民是索马里人，日常主要讲索马里语。","tags":["语言","说什么话","索马里语","阿拉伯语"]},{"q":"索马里有什么值得一看的老建筑或者古迹？","a":"可以看看摩加迪沙老城、柏培拉的奥斯曼建筑、拉阿斯卡德遗址，还有泽拉古城，都是挺有历史感的地方。","tags":["地标","古迹","老城","建筑"]},{"q":"索马里那边信什么教？有什么文化特点？","a":"大多数人是逊尼派穆斯林。索马里被描述为非洲文化最单一的国家，大约85%的居民是索马里人，少数民族主要集中在南方。","tags":["宗教","文化","穆斯林","民族"]},{"q":"索马里人口大概多少？","a":"国际公认边界内的索马里人口约为1,500万，其中超过200万人住在首都摩加迪沙。","tags":["人口","多少人","摩加迪沙"]},{"q":"索马里的气候怎么样？","a":"全年炎热，有周期性的季风和不规则的较少降雨，地形主要由高原、平原和高地组成。","tags":["气候","天气","热不热","季风"]},{"q":"索马里海岸线长吗？","a":"索马里拥有非洲大陆最长的海岸线，东滨印度洋，北临亚丁湾，是货轮进出苏伊士运河的必经海路。","tags":["海岸线","印度洋","亚丁湾","航运"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[4647,654],[4798,800],[4894,945],[4894,1125],[5027,1159],[5064,1195],[5080,1199],[5129,1183],[5108,1134],[5109,1119],[5119,1114],[5112,1099],[5116,1060],[5101,1043],[5122,1044],[5118,1056],[5140,1048],[5140,1040],[5109,1041],[5093,1033],[5083,942],[5044,889],[5009,816],[4982,793],[4974,759],[4925,681],[4904,614],[4795,446],[4605,246],[4455,156],[4366,80],[4197,-100],[4195,-89],[4188,-121],[4183,-117],[4184,-126],[4154,-170],[4152,-157],[4098,-87],[4098,284],[4134,320],[4192,407],[4207,418],[4283,430],[4312,465],[4353,484],[4397,495],[4494,491],[4647,654]],[[4894,1125],[4894,945],[4798,800],[4698,800],[4402,899],[4362,934],[4342,941],[4319,988],[4307,992],[4284,1021],[4265,1061],[4328,1150],[4349,1138],[4351,1121],[4392,1072],[4435,1042],[4459,1038],[4496,1042],[4577,1088],[4645,1069],[4741,1118],[4771,1110],[4813,1114],[4852,1132],[4894,1125]]]}
+{
+  "qid": "Q1045",
+  "iso_a2": "SO",
+  "iso_a3": "SOM",
+  "name_zh": "索马里",
+  "name_en": "Somalia",
+  "capital": "摩加迪休",
+  "continent": "非洲",
+  "centroid": [
+    47,
+    6
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "so",
+      "name_zh": "索馬里語",
+      "name_local": "索馬里語",
+      "role": "official",
+      "audio_url": "assets/so/audio/so.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Ku soo dhawoow dalka Soomaaliya, halkaas oo magaalo-madaxda Muqdisho ku taallo xeebta Badweynta Hindiya, iyo dhismaha qadiimiga ah ee Xamar Weyne oo ka tarjumaya taariikhda dheer ee magaalada.",
+      "tts_text_zh": "欢迎来到索马里，首都摩加迪沙坐落于印度洋沿岸，古老的哈马尔韦内城区映照着这座城市悠久的历史。",
+      "audio_voice": "so-SO-UbaxNeural",
+      "audio_bytes": 72720
+    },
+    {
+      "code": "ar",
+      "name_zh": "阿拉伯语",
+      "name_local": "阿拉伯语",
+      "role": "official",
+      "audio_url": "assets/so/audio/ar.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "مرحبًا بكم في الصومال، حيث تقع العاصمة مقديشو على ساحل المحيط الهندي، ويقف حي حمر وين القديم شاهدًا على تاريخ المدينة العريق.",
+      "tts_text_zh": "欢迎来到索马里，首都摩加迪沙位于印度洋沿岸，古老的哈马尔韦内街区见证着这座城市的悠久历史。",
+      "audio_voice": "ar-DZ-AminaNeural",
+      "audio_bytes": 73728
+    }
+  ],
+  "summary_text": "索马里联邦共和国通称索马里，是一个东非国家，位于索马里半岛上。它东滨印度洋，北临亚丁湾，西与埃塞俄比亚、肯尼亚、吉布提相邻。索马里居于地中海与印度洋的亚丁湾之南，是各国货轮由曼德海峡出入苏伊士运河的必经海路，并拥有非洲大陆最长的海岸线。其地形主要由高原、平原和高地组成，全年炎热，有周期性的季风和不规则的较少的降雨。国际公认边界内的索马里人口约为1,500万，其中超过200万人居住在首都和最大城市摩加迪沙。该国被描述为非洲文化最单一的国家，大约85%的居民是索马里人，主要居住在该国北部，少数民族主要集中在南方。索马里的官方语言是索马里语和阿拉伯语，该国大多数人是逊尼派穆斯林。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 290,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E9%A9%AC%E9%87%8C",
+    "title": "索马里"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "1840年，英国侵入北部；1887年宣布该地为其保护地。1889年意大利王国进占中部，至1925年整个中、南部沦为意属殖民地。第二次世界大战期间，意属索马里是意属东非一部分。1941年东非战役英国占领意属索马里，1949年联合国决议将原意大利侵占地区交意大利托管。1991年5月18日，原英属索马里兰的西部单方面独立为索马里兰。1993年联合国短暂干预索马里局势后，即因摩加迪沙之战，美国士兵被打死并被当街示众亵渎被电视播出一事而退出。1995年6月，索马里军阀穆罕默德·法拉赫·艾迪德宣布在摩加迪沙成立临时政府，自任“总统”，在其亡故后的1996年8月，艾迪德之子侯赛因·穆罕默德·法拉赫·艾迪德（英语：Hussein_Farrah_Aidid）继任“临时政府总统”。1998年7月，阿卜杜拉希·优素福·艾哈迈德在索马里东北部成立“邦特兰”政府并任主席，该自治政权不谋求独立，承认其是索马里的一部分，邦特兰和索马里兰随后发生边界冲突。2000年，吉布提在阿尔塔主持召开索马里全国和解会议，和会通过了过渡宪章，选举产生了三年期过渡全国政府，由阿迪卡西姆·萨拉德·哈山出任总统，组建了索马里过渡国家政府，但遭索马里国内派别联合抵制。2002年3月，拉汉文抵抗军（英语：Rahanweyn_Resistance_Army）宣布成立索马里西南国。2004年1月29日，索马里各方代表签署了过渡联邦宪章，8月22日，索马里过渡议会在内罗毕成立，12月，索马里过渡联邦政府在肯尼亚成立。2005年6月，过渡政府迁回国内，但是由于缺乏实力，只能在南部城市拜多阿办公。2006年6月5日，索马里教派武装击败军阀联盟，并控制了摩加迪沙。12月24日，埃塞俄比亚首次公开承认介入了索马里内部的武装冲突。12月28日，索马里过渡政府部队击退教派武装，进驻摩加迪沙。2007年1月23日，埃塞俄比亚开始从索马里撤出军队。2月20日，联合国安理会通过第1744号决议，授权非洲联盟在索马里部署维和部队，以稳定当地局势。3月12日，索马里过渡议会批准过渡政府从拜多阿迁回首都摩加迪沙。2008年12月，索马里过渡联邦政府倒台。2009年1月31日，索马里反对派组织“索马里再解放联盟”领导人谢赫·谢里夫·谢赫·艾哈迈德在吉布提首都吉布提举行的索马里总统选举中获胜。2月14日，据联合国的索马利亚政治办公室透露，索马利亚国会以414票对9票，支持总统艾哈迈德任命阿卜迪拉希德·阿里·舍马克之子、现阶段拥有加拿大和索马里双重国籍的奥马尔·萨马克（Omar Abdirashid Ali Sharmarke）为新一任政府总理，并于2月20日就职。2013年9月16日，在布鲁塞尔举行的“索马里新政”会议上通过《索马里契约》（The Somali Compact）。2014年，索马里联邦政府制订了“2016年愿景”行动框架（Vision 2016: Framework for Action）。2020年2月，索马里政府因蝗虫肆虐而宣布“国家紧急状态”，这是全世界25年来最严重的一次，对邻国肯亚而言，更是70年以来首见。联合国粮食及农业组织警告，至6月蝗虫数量可能会增加到500倍。",
+      "chars": 1326
+    },
+    {
+      "section": "人口",
+      "text": "2018年估计人口有1518万。绝大多数是索马里人，又分萨马莱和萨布两大族系。其中萨马莱族系占全国人口的80%以上，分为达鲁德、哈维耶、伊萨克和迪尔四大部族。萨布族系分为迪吉尔和拉汉文两大部族。伊斯兰教为国教，穆斯林占总人口99%。\n索马里语属于闪含语系库希特语族，为索马里的官方语言，该语言也在埃塞俄比亚、苏丹及肯尼亚等地区使用。1922年后索马里开始采用由奥斯曼·尤瑟夫·肯纳迪所研创的奥斯曼亚字母来拼写，在1960年代时奥斯曼亚字母与拉丁字母两者并行使用。自1972年起全面采用拉丁字母来拼写，不过在一些私人及特殊场合也会用奥斯曼亚字母的书写法。",
+      "chars": 1200
+    },
+    {
+      "section": "语言",
+      "text": "索马里语属于闪含语系库希特语族，为索马里的官方语言，该语言也在埃塞俄比亚、苏丹及肯尼亚等地区使用。1922年后索马里开始采用由奥斯曼·尤瑟夫·肯纳迪所研创的奥斯曼亚字母来拼写，在1960年代时奥斯曼亚字母与拉丁字母两者并行使用。自1972年起全面采用拉丁字母来拼写，不过在一些私人及特殊场合也会用奥斯曼亚字母的书写法。\n除索马里语外，因过去的殖民历史及与邻近国家肯亚、乌干达的地缘关系因素，英语及斯瓦希里语在索马里亦广为通行。而意大利语因去殖民化和战乱导致的语言学校消失无人使用。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:2013 09 01 Mogadishu Taxi Company 017 (9656572232).jpg",
+      "caption_zh": "摩加迪沙老城出租车公司",
+      "caption": "摩加迪沙老城出租车公司",
+      "caption_commons": "A woman walks past cars belonging to the Mogadishu Taxi Company next to the comp",
+      "kw": "Mogadishu old town Hamar Weyne",
+      "url": "assets/so/L02.webp",
+      "thumb_url": "assets/so/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/2013_09_01_Mogadishu_Taxi_Company_017_%289656572232%29.jpg/1920px-2013_09_01_Mogadishu_Taxi_Company_017_%289656572232%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "AMISOM Public Information",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 116246,
+      "caption_zh_manual": "摩加迪沙老城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8612,
+      "size": {
+        "detail": "1080x746",
+        "thumb": "240x166"
+      },
+      "encoding": "webp q75/q78 (源 1920x1327 604KB JPEG)"
+    },
+    {
+      "title": "File:Berbera building.jpg",
+      "caption_zh": "柏培拉奥斯曼建筑",
+      "caption": "柏培拉奥斯曼建筑",
+      "caption_commons": "Building in Berbera, Somalia. Image taken by Charles Fred on flickr. The creator",
+      "kw": "Berbera Ottoman architecture",
+      "url": "assets/so/L04.webp",
+      "thumb_url": "assets/so/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Berbera_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Charles Roffey",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 102658,
+      "caption_zh_manual": "柏培拉奥斯曼建筑",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8096,
+      "size": {
+        "detail": "1024x683",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1024x683 392KB JPEG)"
+    },
+    {
+      "title": "File:Laas Geel.jpg",
+      "caption_zh": "拉阿斯卡德遗址",
+      "caption": "拉阿斯卡德遗址",
+      "caption_commons": "Some of the many paintings inside the Laas Geel caves, near Hargeisa in Somalila",
+      "kw": "Laas Geel rock art Somaliland",
+      "url": "assets/so/L05.webp",
+      "thumb_url": "assets/so/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Laas_Geel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Abdullah Geelah",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 44858,
+      "caption_zh_manual": "拉阿斯卡德遗址",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9404,
+      "size": {
+        "detail": "500x333",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 500x333 138KB JPEG)"
+    },
+    {
+      "title": "File:Zeila, Somaliland.jpg",
+      "caption_zh": "泽拉古城",
+      "caption": "泽拉古城",
+      "caption_commons": "Zeila, Somaliland",
+      "kw": "Zeila old town Somalia",
+      "url": "assets/so/L06.webp",
+      "thumb_url": "assets/so/L06.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Zeila%2C_Somaliland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "islamic-art-and-quotes.tumblr.com",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 18376,
+      "caption_zh_manual": "泽拉古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 2832,
+      "size": {
+        "detail": "470x545",
+        "thumb": "155x180"
+      },
+      "encoding": "webp q75/q78 (源 470x545 34KB JPEG)"
+    }
+  ],
+  "image_license": "CC0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:01:52+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Somalia.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Somalia.wav、LL-Q9610 (ben)-Tahmid-সোমালিয়া.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py SO",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "拉斯基博雷灯塔：Wikidata / 维基 / Commons 都没有可用图",
+    "阿尔巴清真寺：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（4 张，中文图注）",
+    "摘要 290 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "逊尼派穆斯林",
+        "evidence": "该国大多数人是逊尼派穆斯林"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "索马里半岛",
+        "evidence": "位于索马里半岛上"
+      },
+      {
+        "v": "印度洋",
+        "evidence": "东滨印度洋"
+      },
+      {
+        "v": "亚丁湾",
+        "evidence": "北临亚丁湾"
+      },
+      {
+        "v": "曼德海峡",
+        "evidence": "由曼德海峡出入苏伊士运河"
+      },
+      {
+        "v": "非洲最长海岸线",
+        "evidence": "拥有非洲大陆最长的海岸线"
+      },
+      {
+        "v": "索马里语",
+        "evidence": "官方语言是索马里语和阿拉伯语"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "索马里联邦共和国（索马里语：Jamhuuriyadda Federaalka Soomaaliya；阿拉伯语：جمهورية الصومال الفدرالية，Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya；英语：Federal Republic of Somalia），通称索马里（Soomaaliya；الصومال，aṣ-Ṣūmāl，/səˈmɑːliə/，so-MAH-lee-ə；Somalia），是一个东非国家，位于索马里半岛上，东滨印度洋，北临亚丁湾，西与埃塞俄比亚、肯尼亚、吉布提相邻。\n索马里居于地中海与印度洋的亚丁湾之南，是各国货轮由曼德海峡出入苏伊士运河的必经海路。拥有非洲大陆最长的海岸线，其地形主要由高原、平原和高地组成。全年炎热，有周期性的季风和不规则的较少的降雨。国际公认边界内的索马里人口约为1,500万，其中超过200万人居住在首都和最大城市摩加迪沙，并被描述为非洲文化最单一的国家，大约85%的居民是索马里人，主要居住在该国北部。少数民族主要集中在南方。索马里的官方语言是索马里语和阿拉伯语。该国大多数人是逊尼派穆斯林。",
+  "history_text": "北部沿海自十九世纪中叶起被英国侵入并宣布为保护地，中部随后落入意大利之手，至二十世纪二十年代中南部全境沦为意属殖民地。二战期间这里是意属东非的一部分，战后由英国占领，又交意大利托管。九十年代初，原英属索马里兰的西部单方面宣布独立，此后军阀在摩加迪沙另立临时政府，东北部又出现承认归属索马里的邦特兰自治政权。",
+  "custom_text": "待客时，主人会煮一壶香料浓重的茶，配着椰枣或炸面点端上来，客人不喝完便不撤杯。主食多是把高粱或玉米磨粉做成团块，佐以驼奶或羊奶；逢婚嫁与开斋，男人们围坐分食烤羊，长者先动刀。索马里语用拉丁字母拼写，但老人写信仍爱用奥斯曼亚字母。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 153,
+      "folk": 114
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "索马里在哪儿啊？周围都是些什么地方？",
+      "a": "索马里在非洲东部，位于索马里半岛上，东边是印度洋，北边是亚丁湾，西边挨着埃塞俄比亚、肯尼亚和吉布提。",
+      "tags": [
+        "非洲",
+        "地理位置",
+        "周边国家",
+        "印度洋"
+      ]
+    },
+    {
+      "q": "索马里的首都是哪里？",
+      "a": "首都是摩加迪休，也叫摩加迪沙，是索马里最大的城市，全国超过200万人住在那儿。",
+      "tags": [
+        "首都",
+        "摩加迪沙",
+        "城市"
+      ]
+    },
+    {
+      "q": "索马里人平时说什么话？",
+      "a": "官方语言是索马里语和阿拉伯语，大多数居民是索马里人，日常主要讲索马里语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "索马里语",
+        "阿拉伯语"
+      ]
+    },
+    {
+      "q": "索马里有什么值得一看的老建筑或者古迹？",
+      "a": "可以看看摩加迪沙老城、柏培拉的奥斯曼建筑、拉阿斯卡德遗址，还有泽拉古城，都是挺有历史感的地方。",
+      "tags": [
+        "地标",
+        "古迹",
+        "老城",
+        "建筑"
+      ]
+    },
+    {
+      "q": "索马里那边信什么教？有什么文化特点？",
+      "a": "大多数人是逊尼派穆斯林。索马里被描述为非洲文化最单一的国家，大约85%的居民是索马里人，少数民族主要集中在南方。",
+      "tags": [
+        "宗教",
+        "文化",
+        "穆斯林",
+        "民族"
+      ]
+    },
+    {
+      "q": "索马里人口大概多少？",
+      "a": "国际公认边界内的索马里人口约为1,500万，其中超过200万人住在首都摩加迪沙。",
+      "tags": [
+        "人口",
+        "多少人",
+        "摩加迪沙"
+      ]
+    },
+    {
+      "q": "索马里的气候怎么样？",
+      "a": "全年炎热，有周期性的季风和不规则的较少降雨，地形主要由高原、平原和高地组成。",
+      "tags": [
+        "气候",
+        "天气",
+        "热不热",
+        "季风"
+      ]
+    },
+    {
+      "q": "索马里海岸线长吗？",
+      "a": "索马里拥有非洲大陆最长的海岸线，东滨印度洋，北临亚丁湾，是货轮进出苏伊士运河的必经海路。",
+      "tags": [
+        "海岸线",
+        "印度洋",
+        "亚丁湾",
+        "航运"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        4647,
+        654
+      ],
+      [
+        4798,
+        800
+      ],
+      [
+        4894,
+        945
+      ],
+      [
+        4894,
+        1125
+      ],
+      [
+        5027,
+        1159
+      ],
+      [
+        5064,
+        1195
+      ],
+      [
+        5080,
+        1199
+      ],
+      [
+        5129,
+        1183
+      ],
+      [
+        5108,
+        1134
+      ],
+      [
+        5109,
+        1119
+      ],
+      [
+        5119,
+        1114
+      ],
+      [
+        5112,
+        1099
+      ],
+      [
+        5116,
+        1060
+      ],
+      [
+        5101,
+        1043
+      ],
+      [
+        5122,
+        1044
+      ],
+      [
+        5118,
+        1056
+      ],
+      [
+        5140,
+        1048
+      ],
+      [
+        5140,
+        1040
+      ],
+      [
+        5109,
+        1041
+      ],
+      [
+        5093,
+        1033
+      ],
+      [
+        5083,
+        942
+      ],
+      [
+        5044,
+        889
+      ],
+      [
+        5009,
+        816
+      ],
+      [
+        4982,
+        793
+      ],
+      [
+        4974,
+        759
+      ],
+      [
+        4925,
+        681
+      ],
+      [
+        4904,
+        614
+      ],
+      [
+        4795,
+        446
+      ],
+      [
+        4605,
+        246
+      ],
+      [
+        4455,
+        156
+      ],
+      [
+        4366,
+        80
+      ],
+      [
+        4197,
+        -100
+      ],
+      [
+        4195,
+        -89
+      ],
+      [
+        4188,
+        -121
+      ],
+      [
+        4183,
+        -117
+      ],
+      [
+        4184,
+        -126
+      ],
+      [
+        4154,
+        -170
+      ],
+      [
+        4152,
+        -157
+      ],
+      [
+        4098,
+        -87
+      ],
+      [
+        4098,
+        284
+      ],
+      [
+        4134,
+        320
+      ],
+      [
+        4192,
+        407
+      ],
+      [
+        4207,
+        418
+      ],
+      [
+        4283,
+        430
+      ],
+      [
+        4312,
+        465
+      ],
+      [
+        4353,
+        484
+      ],
+      [
+        4397,
+        495
+      ],
+      [
+        4494,
+        491
+      ],
+      [
+        4647,
+        654
+      ]
+    ],
+    [
+      [
+        4894,
+        1125
+      ],
+      [
+        4894,
+        945
+      ],
+      [
+        4798,
+        800
+      ],
+      [
+        4698,
+        800
+      ],
+      [
+        4402,
+        899
+      ],
+      [
+        4362,
+        934
+      ],
+      [
+        4342,
+        941
+      ],
+      [
+        4319,
+        988
+      ],
+      [
+        4307,
+        992
+      ],
+      [
+        4284,
+        1021
+      ],
+      [
+        4265,
+        1061
+      ],
+      [
+        4328,
+        1150
+      ],
+      [
+        4349,
+        1138
+      ],
+      [
+        4351,
+        1121
+      ],
+      [
+        4392,
+        1072
+      ],
+      [
+        4435,
+        1042
+      ],
+      [
+        4459,
+        1038
+      ],
+      [
+        4496,
+        1042
+      ],
+      [
+        4577,
+        1088
+      ],
+      [
+        4645,
+        1069
+      ],
+      [
+        4741,
+        1118
+      ],
+      [
+        4771,
+        1110
+      ],
+      [
+        4813,
+        1114
+      ],
+      [
+        4852,
+        1132
+      ],
+      [
+        4894,
+        1125
+      ]
+    ]
+  ]
+}

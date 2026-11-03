@@ -1,1 +1,340 @@
-{"qid":"Q228","iso_a2":"AD","iso_a3":"AND","name_zh":"安道尔","name_en":"Andorra","capital":"安道尔城","continent":"欧洲","centroid":[1.6,42.5425],"centroid_source":"wikidata P625","languages":[{"code":"es","name_zh":"西班牙语","name_local":"西班牙语","role":"spoken","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"ca","name_zh":"加泰罗尼亚语","name_local":"加泰罗尼亚语","role":"official","audio_url":"assets/ad/audio/ca.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Benvinguts a Andorra, un petit país als Pirineus on la natura i la història es troben; la seva capital és Andorra la Vella, i us convidem a descobrir la Casa de la Vall, un dels edificis més emblemàtics del país.","tts_text_zh":"欢迎来到安道尔，这个坐落于比利牛斯山间、自然与历史交汇的小国；它的首都是安道尔城，我们邀请您去探访山谷石屋，这是该国最具代表性的建筑之一。","audio_voice":"ca-ES-JoanaNeural","audio_bytes":88992}],"summary_text":"安道尔公国通称安道尔，位于欧洲比利牛斯山脉东南部，毗邻法国和西班牙，国土面积468平方公里，是现今欧洲大陆仅存的采邑主教国。安道尔高山峡谷遍布全境，全国平均海拔高达1100米，是欧洲地势最高的国家。首都为安道尔城。官方语言为加泰罗尼亚语，通用语言为西班牙语和法语，国内居民多信奉天主教。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":143,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%AE%89%E9%81%93%E5%B0%94","title":"安道尔"},"culture_excerpts":[{"section":"历史","text":"传说法兰克王国查理大帝为回报安道尔人与摩尔人作战，颁布特许状，在安道尔设立教区，命西班牙乌赫尔的伯爵担任主教一职。11世纪时，乌赫尔主教和法兰西王国开始争论安道尔的主权问题。1278年双方达成协议，安道尔由法国富瓦伯爵和乌赫尔主教两方共同拥有主权（协议内的范围是今日安道尔政治和国土的雏型），后来富瓦伯爵的主权转到纳瓦拉国王手中，法王亨利四世于1607年下令法国国家元首与乌赫尔主教同时拥有安道尔的主权。1812年随着拿破仑入侵西班牙，安道尔以及西班牙的加泰罗尼亚被法兰西第一帝国吞并。半岛战争结束后恢复独立。1933年法兰西第三共和国以世界经济大萧条导致社会动荡之名，占领安道尔。在1934年7月12日，俄罗斯冒险家鲍里斯·斯科瑟廖夫于乌赫尔向大众宣布，他拥有安道尔的主权，同时对乌赫尔主教宣战。但他在八天之后的7月20日即被西班牙当局逮捕，并立刻被驱逐出境。1936到1940年间，法国因西班牙内战而派兵驻守安道尔。二战期间，安道尔维持中立，成为维希法国与西班牙之间的走私重镇，西班牙佛朗哥政权亦曾想占领安道尔，但最终没有这样做。安道尔长时间与世隔绝，只保持对法国和西班牙加泰罗尼亚自治区的关系。近年来安道尔致力改善交通和通讯，并大力发展旅游业。1993年，安道尔举行公投，通过安道尔宪法，并成为联合国的一员。","chars":557},{"section":"人口","text":"安道尔只有33%的人口是安道尔人，外国侨民以西班牙人为主（占43%），还有葡萄牙人（11%）和法国人（7%）等。","chars":1200},{"section":"语言","text":"官方语言为加泰罗尼亚语，与加泰罗尼亚相同。多数民众亦能通西班牙语。英语、法语是当地最重要的外语。","chars":1200},{"section":"宗教","text":"安道尔宪法保障个人宗教信仰和言论自由。安道尔的主要宗教为基督教（90.8%），最大的基督教教派为天主教（85.5％），只有天主教会才具有宗教团体的合法地位；所有其他宗教信仰均在政府注册为文化协会，并根据安道尔的社团法开展活动。其他基督教派别包括新教圣公宗、归正宗、新使徒教会（英语：New Apostolic Church）等，和根源于基督教的非主流教派如统一教会、耶和华见证人。其他少数宗教有伊斯兰教（主要为北非穆斯林移民）、印度教和巴哈伊教，另外大约100名犹太人住在安道尔。","chars":1200}],"landmark_images":[{"title":"File:Puente de la Margineda, Santa Coloma, Andorra, 2013-12-30, DD 02.JPG","caption_zh":"圣科洛马老城马尔吉内达桥","caption":"圣科洛马老城马尔吉内达桥","caption_commons":"Margineda bridge, Santa Coloma, Andorra","kw":"Barri Antic Santa Coloma Andorra","url":"assets/ad/L01.webp","thumb_url":"assets/ad/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Puente_de_la_Margineda%2C_Santa_Coloma%2C_Andorra%2C_2013-12-30%2C_DD_02.JPG/1920px-Puente_de_la_Margineda%2C_Santa_Coloma%2C_Andorra%2C_2013-12-30%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Diego Delso","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":119378,"caption_zh_manual":"圣科洛马老城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":29136,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 1267KB JPEG)"},{"title":"File:Casa de la Vall 2015-10.JPG","caption_zh":"卡萨德拉瓦尔外观","caption":"卡萨德拉瓦尔外观","caption_commons":"Casa de la Vall, the historic Parliament building of Andorra","kw":"Casa de la Vall Andorra","url":"assets/ad/L02.webp","thumb_url":"assets/ad/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Casa_de_la_Vall_2015-10.JPG/1920px-Casa_de_la_Vall_2015-10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Zinneke","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":83780,"caption_zh_manual":"卡萨德拉瓦尔","caption_zh_source":"llm_from_commons_filename","thumb_bytes":24316,"size":{"detail":"760x540","thumb":"400x284"},"encoding":"webp q72/q74 (源 1920x1364 827KB JPEG)"},{"title":"File:Saint Mary church in Meritxell (8).jpg","caption_zh":"梅里特克塞尔圣母教堂","caption":"梅里特克塞尔圣母教堂","caption_commons":"This is a photo of a heritage property registered in the General Inventory of Cu","kw":"Santuario de Meritxell Andorra","url":"assets/ad/L03.webp","thumb_url":"assets/ad/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Saint_Mary_church_in_Meritxell_%288%29.jpg/1920px-Saint_Mary_church_in_Meritxell_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Krzysztof Golik","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":82386,"caption_zh_manual":"梅里特克塞尔圣母教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":21614,"size":{"detail":"760x492","thumb":"400x259"},"encoding":"webp q72/q74 (源 1920x1244 925KB JPEG)"},{"title":"File:Radio Andorre Lac d'Engolasters.JPG","caption_zh":"恩戈拉斯特湖与安道尔电台","caption":"恩戈拉斯特湖与安道尔电台","caption_commons":"A Radio Andorre broadcast antenna at Engolasters Lake.","kw":"Estany d'Engolasters Andorra","url":"assets/ad/L04.webp","thumb_url":"assets/ad/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Radio_Andorre_Lac_d%27Engolasters.JPG/1920px-Radio_Andorre_Lac_d%27Engolasters.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Occitandu34","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":22542,"caption_zh_manual":"恩戈拉斯特湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7838,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 443KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:25:04+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 无通行语，从 P2936 补：西班牙语","P443 发音语种不符已弃用：Lb-Andorra.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Andorra.wav、LL-Q33810 (ori)-Psubhashish-ଆଣ୍ଡୋରା.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py AD","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","摘要 143 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","地标图改为人工指定清单（4 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 4 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"天主教","evidence":"国内居民多信奉天主教"}],"architecture":[],"heritage":[],"keywords":[{"v":"比利牛斯山脉","evidence":"位于比利牛斯山脉东南部"},{"v":"高山峡谷","evidence":"高山峡谷遍布全境"},{"v":"加泰罗尼亚语","evidence":"官方语言为加泰罗尼亚语"},{"v":"安道尔城","evidence":"首都为安道尔城"}],"model":"deepseek-flash"},"summary_text_raw":"安道尔公国（加泰罗尼亚语：Principat d'Andorra，加泰罗尼亚语发音：[pɾinsiˈpad dənˈdorə]），又译安道尔侯国、安道尔亲王国，通称安道尔（加泰罗尼亚语：Andorra，加泰罗尼亚语发音：[ənˈdorə] ），是一个微型国家，国土面积468平方公里，是现今欧洲大陆仅存的采邑主教国，位于比利牛斯山脉东南部，毗邻法国和西班牙。首都为安道尔城。官方语言为加泰罗尼亚语，通用语言为西班牙语和法语。国内居民多信奉天主教。\n安道尔高山峡谷遍布全境，全国平均海拔高达1,100米（3,600英尺），是欧洲地势最高的国家。\n安道尔宪法规定，安道尔为君主立宪制国家，首相为政府首脑。安道尔没有军队和自卫队，只存在警察，所以国防由法国和西班牙一起负责。安道尔主要有两大政党：安道尔民主主义者党（Demòcrates per Andorra）和社会民主党（Partit Socialdemòcrata），安道尔民主主义者党现为安道尔的执政党。安道尔的旅游业、商业及金融业极其发达，服务业在1950年代很快取代了传统农牧业，成为经济支柱。","history_text":"传说查理大帝为回报与摩尔人作战的安道尔人颁布特许状，设立教区，命乌赫尔伯爵任主教。11世纪起乌赫尔主教与法兰西王国争论主权，1278年双方达成协议，由富瓦伯爵与乌赫尔主教共同拥有主权，此范围成为今日国土雏型。1607年法王亨利四世下令法国国家元首与乌赫尔主教同享主权。1934年俄罗斯冒险家斯科瑟廖夫曾向乌赫尔主教宣战，八天后被西班牙当局逮捕驱逐。","custom_text":"官方语言为加泰罗尼亚语，与加泰罗尼亚相同，多数民众亦通西班牙语，英语、法语是当地最重要的外语。居民多信奉天主教，天主教会是唯一具有宗教团体合法地位的教会，其余信仰以文化协会名义注册，按社团法活动。侨民以西班牙人为主，另有葡萄牙人、法国人，北非穆斯林移民带来伊斯兰教，印度教与巴哈伊教亦有信众。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":174,"folk":146}},"knowledge_qa":[{"q":"安道尔在哪儿啊？周围是哪些国家？","a":"位于比利牛斯山脉东南部，毗邻法国和西班牙，是欧洲的微型国家。","tags":["欧洲","位置","邻国"]},{"q":"安道尔面积多大？首都是哪里？","a":"国土面积468平方公里，首都是安道尔城。","tags":["面积","首都","多大"]},{"q":"安道尔人说什么语言？","a":"官方语言是加泰罗尼亚语，通用语言为西班牙语和法语。","tags":["语言","方言","说什么话"]},{"q":"安道尔有什么值得看的地标或景点？","a":"有圣科洛马老城、卡萨德拉瓦尔、梅里特克塞尔圣母教堂和恩戈拉斯特湖。","tags":["景点","地标","看什么"]},{"q":"安道尔有什么传统或文化特色？","a":"官方语言为加泰罗尼亚语，国内居民多信奉天主教，是欧洲大陆仅存的采邑主教国。","tags":["文化","传统","宗教"]},{"q":"安道尔的经济靠什么？","a":"旅游业、商业及金融业极其发达，服务业在1950年代取代传统农牧业成为经济支柱。","tags":["经济","产业","靠什么"]},{"q":"安道尔的地势怎么样？","a":"高山峡谷遍布全境，全国平均海拔高达1,100米，是欧洲地势最高的国家。","tags":["地势","海拔","高山"]},{"q":"安道尔有军队吗？国防谁负责？","a":"没有军队和自卫队，只存在警察，国防由法国和西班牙一起负责。","tags":["军队","国防","警察"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[171,4250],[151,4243],[141,4253],[154,4265],[172,4261],[171,4250]]]}
+{
+  "qid": "Q228",
+  "iso_a2": "AD",
+  "iso_a3": "AND",
+  "name_zh": "安道尔",
+  "name_en": "Andorra",
+  "capital": "安道尔城",
+  "continent": "欧洲",
+  "centroid": [
+    1.6,
+    42.5425
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "es",
+      "name_zh": "西班牙语",
+      "name_local": "西班牙语",
+      "role": "spoken",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "ca",
+      "name_zh": "加泰罗尼亚语",
+      "name_local": "加泰罗尼亚语",
+      "role": "official",
+      "audio_url": "assets/ad/audio/ca.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Benvinguts a Andorra, un petit país als Pirineus on la natura i la història es troben; la seva capital és Andorra la Vella, i us convidem a descobrir la Casa de la Vall, un dels edificis més emblemàtics del país.",
+      "tts_text_zh": "欢迎来到安道尔，这个坐落于比利牛斯山间、自然与历史交汇的小国；它的首都是安道尔城，我们邀请您去探访山谷石屋，这是该国最具代表性的建筑之一。",
+      "audio_voice": "ca-ES-JoanaNeural",
+      "audio_bytes": 88992
+    }
+  ],
+  "summary_text": "安道尔公国通称安道尔，位于欧洲比利牛斯山脉东南部，毗邻法国和西班牙，国土面积468平方公里，是现今欧洲大陆仅存的采邑主教国。安道尔高山峡谷遍布全境，全国平均海拔高达1100米，是欧洲地势最高的国家。首都为安道尔城。官方语言为加泰罗尼亚语，通用语言为西班牙语和法语，国内居民多信奉天主教。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 143,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E9%81%93%E5%B0%94",
+    "title": "安道尔"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "传说法兰克王国查理大帝为回报安道尔人与摩尔人作战，颁布特许状，在安道尔设立教区，命西班牙乌赫尔的伯爵担任主教一职。11世纪时，乌赫尔主教和法兰西王国开始争论安道尔的主权问题。1278年双方达成协议，安道尔由法国富瓦伯爵和乌赫尔主教两方共同拥有主权（协议内的范围是今日安道尔政治和国土的雏型），后来富瓦伯爵的主权转到纳瓦拉国王手中，法王亨利四世于1607年下令法国国家元首与乌赫尔主教同时拥有安道尔的主权。1812年随着拿破仑入侵西班牙，安道尔以及西班牙的加泰罗尼亚被法兰西第一帝国吞并。半岛战争结束后恢复独立。1933年法兰西第三共和国以世界经济大萧条导致社会动荡之名，占领安道尔。在1934年7月12日，俄罗斯冒险家鲍里斯·斯科瑟廖夫于乌赫尔向大众宣布，他拥有安道尔的主权，同时对乌赫尔主教宣战。但他在八天之后的7月20日即被西班牙当局逮捕，并立刻被驱逐出境。1936到1940年间，法国因西班牙内战而派兵驻守安道尔。二战期间，安道尔维持中立，成为维希法国与西班牙之间的走私重镇，西班牙佛朗哥政权亦曾想占领安道尔，但最终没有这样做。安道尔长时间与世隔绝，只保持对法国和西班牙加泰罗尼亚自治区的关系。近年来安道尔致力改善交通和通讯，并大力发展旅游业。1993年，安道尔举行公投，通过安道尔宪法，并成为联合国的一员。",
+      "chars": 557
+    },
+    {
+      "section": "人口",
+      "text": "安道尔只有33%的人口是安道尔人，外国侨民以西班牙人为主（占43%），还有葡萄牙人（11%）和法国人（7%）等。",
+      "chars": 1200
+    },
+    {
+      "section": "语言",
+      "text": "官方语言为加泰罗尼亚语，与加泰罗尼亚相同。多数民众亦能通西班牙语。英语、法语是当地最重要的外语。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "安道尔宪法保障个人宗教信仰和言论自由。安道尔的主要宗教为基督教（90.8%），最大的基督教教派为天主教（85.5％），只有天主教会才具有宗教团体的合法地位；所有其他宗教信仰均在政府注册为文化协会，并根据安道尔的社团法开展活动。其他基督教派别包括新教圣公宗、归正宗、新使徒教会（英语：New Apostolic Church）等，和根源于基督教的非主流教派如统一教会、耶和华见证人。其他少数宗教有伊斯兰教（主要为北非穆斯林移民）、印度教和巴哈伊教，另外大约100名犹太人住在安道尔。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Puente de la Margineda, Santa Coloma, Andorra, 2013-12-30, DD 02.JPG",
+      "caption_zh": "圣科洛马老城马尔吉内达桥",
+      "caption": "圣科洛马老城马尔吉内达桥",
+      "caption_commons": "Margineda bridge, Santa Coloma, Andorra",
+      "kw": "Barri Antic Santa Coloma Andorra",
+      "url": "assets/ad/L01.webp",
+      "thumb_url": "assets/ad/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Puente_de_la_Margineda%2C_Santa_Coloma%2C_Andorra%2C_2013-12-30%2C_DD_02.JPG/1920px-Puente_de_la_Margineda%2C_Santa_Coloma%2C_Andorra%2C_2013-12-30%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 271398,
+      "caption_zh_manual": "圣科洛马老城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10660,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 1267KB JPEG)"
+    },
+    {
+      "title": "File:Casa de la Vall 2015-10.JPG",
+      "caption_zh": "卡萨德拉瓦尔外观",
+      "caption": "卡萨德拉瓦尔外观",
+      "caption_commons": "Casa de la Vall, the historic Parliament building of Andorra",
+      "kw": "Casa de la Vall Andorra",
+      "url": "assets/ad/L02.webp",
+      "thumb_url": "assets/ad/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Casa_de_la_Vall_2015-10.JPG/1920px-Casa_de_la_Vall_2015-10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Zinneke",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 171970,
+      "caption_zh_manual": "卡萨德拉瓦尔",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10136,
+      "size": {
+        "detail": "1080x767",
+        "thumb": "240x170"
+      },
+      "encoding": "webp q75/q78 (源 1920x1364 827KB JPEG)"
+    },
+    {
+      "title": "File:Saint Mary church in Meritxell (8).jpg",
+      "caption_zh": "梅里特克塞尔圣母教堂",
+      "caption": "梅里特克塞尔圣母教堂",
+      "caption_commons": "This is a photo of a heritage property registered in the General Inventory of Cu",
+      "kw": "Santuario de Meritxell Andorra",
+      "url": "assets/ad/L03.webp",
+      "thumb_url": "assets/ad/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Saint_Mary_church_in_Meritxell_%288%29.jpg/1920px-Saint_Mary_church_in_Meritxell_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Krzysztof Golik",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 181284,
+      "caption_zh_manual": "梅里特克塞尔圣母教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9000,
+      "size": {
+        "detail": "1080x700",
+        "thumb": "240x156"
+      },
+      "encoding": "webp q75/q78 (源 1920x1244 925KB JPEG)"
+    },
+    {
+      "title": "File:Radio Andorre Lac d'Engolasters.JPG",
+      "caption_zh": "恩戈拉斯特湖与安道尔电台",
+      "caption": "恩戈拉斯特湖与安道尔电台",
+      "caption_commons": "A Radio Andorre broadcast antenna at Engolasters Lake.",
+      "kw": "Estany d'Engolasters Andorra",
+      "url": "assets/ad/L04.webp",
+      "thumb_url": "assets/ad/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Radio_Andorre_Lac_d%27Engolasters.JPG/1920px-Radio_Andorre_Lac_d%27Engolasters.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Occitandu34",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 49080,
+      "caption_zh_manual": "恩戈拉斯特湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4288,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 443KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:25:04+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 无通行语，从 P2936 补：西班牙语",
+    "P443 发音语种不符已弃用：Lb-Andorra.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Andorra.wav、LL-Q33810 (ori)-Psubhashish-ଆଣ୍ଡୋରା.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py AD",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "摘要 143 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "地标图改为人工指定清单（4 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 4 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "天主教",
+        "evidence": "国内居民多信奉天主教"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "比利牛斯山脉",
+        "evidence": "位于比利牛斯山脉东南部"
+      },
+      {
+        "v": "高山峡谷",
+        "evidence": "高山峡谷遍布全境"
+      },
+      {
+        "v": "加泰罗尼亚语",
+        "evidence": "官方语言为加泰罗尼亚语"
+      },
+      {
+        "v": "安道尔城",
+        "evidence": "首都为安道尔城"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "安道尔公国（加泰罗尼亚语：Principat d'Andorra，加泰罗尼亚语发音：[pɾinsiˈpad dənˈdorə]），又译安道尔侯国、安道尔亲王国，通称安道尔（加泰罗尼亚语：Andorra，加泰罗尼亚语发音：[ənˈdorə] ），是一个微型国家，国土面积468平方公里，是现今欧洲大陆仅存的采邑主教国，位于比利牛斯山脉东南部，毗邻法国和西班牙。首都为安道尔城。官方语言为加泰罗尼亚语，通用语言为西班牙语和法语。国内居民多信奉天主教。\n安道尔高山峡谷遍布全境，全国平均海拔高达1,100米（3,600英尺），是欧洲地势最高的国家。\n安道尔宪法规定，安道尔为君主立宪制国家，首相为政府首脑。安道尔没有军队和自卫队，只存在警察，所以国防由法国和西班牙一起负责。安道尔主要有两大政党：安道尔民主主义者党（Demòcrates per Andorra）和社会民主党（Partit Socialdemòcrata），安道尔民主主义者党现为安道尔的执政党。安道尔的旅游业、商业及金融业极其发达，服务业在1950年代很快取代了传统农牧业，成为经济支柱。",
+  "history_text": "传说查理大帝为回报与摩尔人作战的安道尔人颁布特许状，设立教区，命乌赫尔伯爵任主教。11世纪起乌赫尔主教与法兰西王国争论主权，1278年双方达成协议，由富瓦伯爵与乌赫尔主教共同拥有主权，此范围成为今日国土雏型。1607年法王亨利四世下令法国国家元首与乌赫尔主教同享主权。1934年俄罗斯冒险家斯科瑟廖夫曾向乌赫尔主教宣战，八天后被西班牙当局逮捕驱逐。",
+  "custom_text": "官方语言为加泰罗尼亚语，与加泰罗尼亚相同，多数民众亦通西班牙语，英语、法语是当地最重要的外语。居民多信奉天主教，天主教会是唯一具有宗教团体合法地位的教会，其余信仰以文化协会名义注册，按社团法活动。侨民以西班牙人为主，另有葡萄牙人、法国人，北非穆斯林移民带来伊斯兰教，印度教与巴哈伊教亦有信众。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 174,
+      "folk": 146
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "安道尔在哪儿啊？周围是哪些国家？",
+      "a": "位于比利牛斯山脉东南部，毗邻法国和西班牙，是欧洲的微型国家。",
+      "tags": [
+        "欧洲",
+        "位置",
+        "邻国"
+      ]
+    },
+    {
+      "q": "安道尔面积多大？首都是哪里？",
+      "a": "国土面积468平方公里，首都是安道尔城。",
+      "tags": [
+        "面积",
+        "首都",
+        "多大"
+      ]
+    },
+    {
+      "q": "安道尔人说什么语言？",
+      "a": "官方语言是加泰罗尼亚语，通用语言为西班牙语和法语。",
+      "tags": [
+        "语言",
+        "方言",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "安道尔有什么值得看的地标或景点？",
+      "a": "有圣科洛马老城、卡萨德拉瓦尔、梅里特克塞尔圣母教堂和恩戈拉斯特湖。",
+      "tags": [
+        "景点",
+        "地标",
+        "看什么"
+      ]
+    },
+    {
+      "q": "安道尔有什么传统或文化特色？",
+      "a": "官方语言为加泰罗尼亚语，国内居民多信奉天主教，是欧洲大陆仅存的采邑主教国。",
+      "tags": [
+        "文化",
+        "传统",
+        "宗教"
+      ]
+    },
+    {
+      "q": "安道尔的经济靠什么？",
+      "a": "旅游业、商业及金融业极其发达，服务业在1950年代取代传统农牧业成为经济支柱。",
+      "tags": [
+        "经济",
+        "产业",
+        "靠什么"
+      ]
+    },
+    {
+      "q": "安道尔的地势怎么样？",
+      "a": "高山峡谷遍布全境，全国平均海拔高达1,100米，是欧洲地势最高的国家。",
+      "tags": [
+        "地势",
+        "海拔",
+        "高山"
+      ]
+    },
+    {
+      "q": "安道尔有军队吗？国防谁负责？",
+      "a": "没有军队和自卫队，只存在警察，国防由法国和西班牙一起负责。",
+      "tags": [
+        "军队",
+        "国防",
+        "警察"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        171,
+        4250
+      ],
+      [
+        151,
+        4243
+      ],
+      [
+        141,
+        4253
+      ],
+      [
+        154,
+        4265
+      ],
+      [
+        172,
+        4261
+      ],
+      [
+        171,
+        4250
+      ]
+    ]
+  ]
+}

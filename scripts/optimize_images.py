@@ -36,9 +36,14 @@ except Exception:
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-DETAIL_W, DETAIL_Q = 760, 72
-THUMB_W, THUMB_Q = 400, 74
-THUMB_H = 300          # 竖图（布达拉宫等）按宽度缩完还有 600px 高，得再兜一层
+# 详情图 1080：面板图区宽约 456 CSS px，手机 3 倍屏要 1368 物理像素，桌面 2 倍屏要 912。
+# 原来的 760 连桌面 2 倍屏都不够（760 < 912），所以主图一直有点软。
+# 1080 是折中：桌面 2 倍屏完全够，手机 3 倍屏到 1.9 倍，肉眼已经很难分辨。
+DETAIL_W, DETAIL_Q = 1080, 75
+# 缩略图 240：胶片带里每张只显示 64×46 CSS px，3 倍屏也只要 192 物理像素。
+# 原来的 400 是六倍冗余 —— 240 仍然有 3.75 倍余量，体积却省一半多。
+THUMB_W, THUMB_Q = 240, 78
+THUMB_H = 180          # 竖图按宽度缩完仍然很高，再按最大高度兜一次（4:3）
 
 
 def optimize(iso):
@@ -61,11 +66,29 @@ def optimize(iso):
     changed = False
     for im_meta in images:
         src_rel = im_meta.get("url") or ""
-        if not src_rel.lower().endswith((".jpg", ".jpeg", ".png")):
-            continue
         src = os.path.join(ROOT, src_rel)
+
+        # 第一遍压完之后 url 已经指向 .webp 了，这时候直接 continue 会让
+        # 这个脚本变成"只能跑一次"。所以要回头按同名去捞原始 jpg/png ——
+        # 原图一直在本地留着（PRUNE 默认关），正是为了能随时调压缩参数。
+        if src_rel.lower().endswith(".webp"):
+            stem = os.path.splitext(src)[0]
+            for ext in (".jpg", ".jpeg", ".png", ".JPG", ".JPEG", ".PNG"):
+                if os.path.exists(stem + ext):
+                    src = stem + ext
+                    break
+            else:
+                continue          # 没有原图，保留现有 webp，不放大
+        elif not src_rel.lower().endswith((".jpg", ".jpeg", ".png", ".JPG", ".JPEG", ".PNG")):
+            continue
+
         if not os.path.exists(src):
             print("  ! 源图缺失 %s" % src_rel)
+            continue
+
+        # 幂等：已经压到目标宽度就不再重压（想强制重压用 --force）
+        cur = (im_meta.get("size") or {}).get("detail") or ""
+        if not FORCE["on"] and cur.startswith("%dx" % DETAIL_W):
             continue
 
         base = os.path.splitext(src)[0]
@@ -138,6 +161,7 @@ def optimize(iso):
 # --prune 的开关。压图成功后源文件就没用了：详情页读的是 webp，
 # 但留着的话 223 国 × 5 张 × 0.4MB ≈ 450MB，仓库和 Pages 都扛不住。
 PRUNE = {"on": False}
+FORCE = {"on": False}
 
 
 def _prune_orphans(iso, rec):
@@ -176,8 +200,11 @@ def main():
     ap.add_argument("--all", action="store_true", help="处理 data/ 下全部档案")
     ap.add_argument("--prune", action="store_true",
                     help="WebP 写好之后删掉源 jpg/png（223 国能省下几百 MB）")
+    ap.add_argument("--force", action="store_true",
+                    help="已经是目标宽度也重压一遍")
     args = ap.parse_args()
     PRUNE["on"] = bool(args.prune)
+    FORCE["on"] = bool(args.force)
 
     isos = [x.upper() for x in args.isos]
     if args.all:

@@ -1,1 +1,567 @@
-{"qid":"Q28","iso_a2":"HU","iso_a3":"HUN","name_zh":"匈牙利","name_en":"Hungary","capital":"布达佩斯","continent":"欧洲","centroid":[19,47],"centroid_source":"wikidata P625","languages":[{"code":"hu","name_zh":"匈牙利语","name_local":"匈牙利语","role":"official","audio_url":"assets/hu/audio/hu.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Üdvözöljük Magyarországon, ahol a Duna két partján fekszik Budapest, az ország fővárosa, és ahol a látogatót a Parlament épületének impozáns látképe fogadja.","tts_text_zh":"欢迎来到匈牙利，首都布达佩斯横跨多瑙河两岸，游客在此可欣赏到国会大厦的壮丽景色。","audio_voice":"hu-HU-NoemiNeural","audio_bytes":67824}],"summary_text":"匈牙利是位于欧洲的内陆国家，不濒临海洋。根据地理分区的不同定义，匈牙利被认为处在中欧和东欧。其北邻斯洛伐克，东北邻乌克兰，东和东南邻罗马尼亚，南邻塞尔维亚，西南邻克罗地亚，西邻斯洛文尼亚，西北邻奥地利，为欧盟中型面积成员国之一。首都和最大城市为布达佩斯，其余的大城市分别有德布勒森、塞格德、米什科尔茨、佩奇和杰尔。官方语言为匈牙利语，它是欧洲最广泛使用的非印欧语系语言。今匈牙利国土在过去千年间曾被多个民族统治，包括达契亚人、凯尔特人、罗马人、日耳曼人、匈人、西斯拉夫人和阿瓦尔人等。9世纪后期，马扎尔人在阿尔帕德大公的带领下征服了喀尔巴阡盆地，其曾孙伊什特万一世在1000年登基为王，并立基督教为国教。12世纪，匈牙利成为欧洲的地区强权之一，15世纪其文化和政治达至高峰。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":337,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%8C%88%E7%89%99%E5%88%A9","title":"匈牙利"},"culture_excerpts":[{"section":"历史","text":"1241年至1242年，拔都西征的攻击下，匈牙利曾经遭到严重破坏。后来，匈牙利逐渐成长为中欧中一个强大独立的王国，既有鲜明的文化特色，又同西欧其它文明联系密切。匈雅提·马加什于1458年至1490年统治匈牙利。他进一步地加强了匈牙利国力和政府的权威。在他的统治下，匈牙利（特别是北部，今斯洛伐克一部分地区）成为文艺复兴时期，欧洲的一个艺术文化中心。1848年，爆发了科苏特·拉约什领导的自由革命斗争。1849年4月，匈牙利国会通过独立宣言，建立匈牙利共和国，惟不久被奥地利和俄罗斯帝国所扼杀。1920年，战败国匈牙利与协约国签定《特里阿农条约》，丧失了72%的领土和64%的人口。1938年第一次维也纳仲裁，在纳粹德国和意大利王国的帮助下匈牙利获得斯洛伐克部分领土，于1940年8月第二次维也纳仲裁裁决，获得罗马尼亚的北特兰西瓦尼亚（英语：Northern Transylvania）。1940年，霍尔蒂政府加入德意志轴心国，成为德国、意大利和日本的盟友，在1941年4月南斯拉夫战役中分得了大片领土，6月匈牙利跟德国对苏联宣战，并参与苏德战争各埸战役，但在斯大林格勒战役，匈牙利军队损失惨重。日本偷袭珍珠港后6天，12月12日匈牙利跟德国和意大利对美国宣战。1944年，苏联占领匈牙利。1946年2月1日，宣布废除君主制，成立匈牙利共和国。1949年，通过宪法，改名匈牙利人民共和国。1949年8月20日，宣布成立匈牙利人民共和国。1989年2月1日，匈牙利与韩国建交，这是东欧集团中第一个与韩国建交的国家，随后社会主义国家陆续跟进，纷纷与韩国建交。同年10月23日，恰逢匈牙利十月事件33周年，改国名为“匈牙利共和国”，并放弃社会主义制度，取消一党制，在原有宪法基础上大幅修改宪法，以符合多党民主原则。1990年，反对党民主论坛胜出实行多党制的第一次议会选举，首次出现政党轮替。1994年，由原匈牙利社会主义工人党改组的匈牙利社会党获得绝对多数地位，重新执政。1998年，右翼的青年民主主义者联盟－匈牙利公民联盟的奥班·维克多胜出选举，领导右翼联合政府并首次担任新政府总理。2002年奥班连任失败，左翼的匈牙利社会党、自由民主联盟和民主论坛以微弱优势胜出，重新执政。1999年，匈牙利加入北约。2004年，匈牙利加入欧盟，于2007年12月21日成为申根公约会员国。2006年4月9日，议会选举第一轮投票举行，左翼的社会党、自由民主联盟和民主论坛以微弱优势胜出。4月23日，议会选举第二轮投票进行。社会党共赢得国会386个席位中的186席，青民盟获得164席，自民盟获得18席，民主论坛获得11席，其余7席由联合候选人和独立候选人获得。6月9日，以久尔恰尼·费伦茨为总理的新政府宣誓就职，由社会党和自民盟联合执政，成功连任。2008年自民盟退出联合政府，社会党组建少数政府。社会党政府爆出严重丑闻，加上金融海啸导致出现经济危机，导致支持率大幅下降。2011年4月18日，匈牙利议会以262票赞成、44票反对的投票结果，通过名为《基本法》的新宪法，取代1949年的旧宪法，于2012年1月1日起生效，改国名为“匈牙利”（原为“匈牙利共和国”）。同年更改选举制度，由两轮投票制改为单一选区两票制并立制，议会议席减半，由386席减至199席，106席由单一选区产生，93席由比例代表制产生，比例代表制部分需要有5%的得票率才能进入议会。","chars":1417},{"section":"汉字文化圈","text":"日语、韩语与中文相异，将匈牙利国名译作“洪牙利”，简称“洪”。日语另有假名词“ハンガリー”（与“洪牙利”发音相同）。至今日，汉字写法已少见，于日本，假名词“ハンガリー”成为主流，韩国则改采音译“헝가리”。","chars":1200},{"section":"文化","text":"匈牙利语属于乌拉语系芬兰-乌戈尔语族中的乌戈尔语支，在世界最常用语的排名是40名，在欧洲是第12名。\n匈牙利教育体系分为三个等级：小孩到6岁时必须要上小学（分6、8、12年级的学校）。小学毕业后可选择就读语言中学（4年）、职业中学（4年）、职业学校（3年）、或专科补校（2年）。十八岁通过入学考试的学生可就读大学（5-6年）或学院（3-4年）。","chars":1200},{"section":"人口","text":"人口大约有973万，马扎尔族占94%，使用马扎尔语（即匈牙利语）。首都人口有175万。","chars":383}],"landmark_images":[{"title":"File:Parliament_of_Hungary_November_2017.jpg","caption_zh":"匈牙利国会大厦","caption":"匈牙利国会大厦","caption_commons":"The Parliament of Hungary in Budapest seen in November 2017","kw":"Hungarian Parliament Building Budapest","url":"assets/hu/L01.webp","thumb_url":"assets/hu/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Parliament_of_Hungary_November_2017.jpg/1920px-Parliament_of_Hungary_November_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikipedia_lead","pick_tier":"strict","author":"Gabinho","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":38044,"caption_zh_manual":"匈牙利国会大厦","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11256,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 434KB JPEG)"},{"title":"File:20190502 Zamek w Budapeszcie 0647 1862 DxO.jpg","caption_zh":"布达城堡","caption":"布达城堡","caption_commons":"View of Buda Castle from the Danube riverbank","kw":"Buda Castle Budapest","url":"assets/hu/L02.webp","thumb_url":"assets/hu/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/20190502_Zamek_w_Budapeszcie_0647_1862_DxO.jpg/1920px-20190502_Zamek_w_Budapeszcie_0647_1862_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Jakub Hałun","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":50982,"caption_zh_manual":"布达城堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15294,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1276 644KB JPEG)"},{"title":"File:Fishermansbastion2.JPG","caption_zh":"渔人堡","caption":"渔人堡","caption_commons":"Fisherman's Bastion in Budapest","kw":"Fisherman's Bastion Budapest","url":"assets/hu/L03.webp","thumb_url":"assets/hu/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Fishermansbastion2.JPG/1920px-Fishermansbastion2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Bethmechlin at English Wikipedia","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":23912,"caption_zh_manual":"渔人堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8408,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 387KB JPEG)"},{"title":"File:HUN-2015-Budapest-St. Stephen's Basilica.jpg","caption_zh":"圣伊什特万圣殿","caption":"圣伊什特万圣殿","caption_commons":"St. Stephen's Basilica, west façade, Budapest, Hungary, 2015.","kw":"St Stephen's Basilica Budapest","url":"assets/hu/L04.webp","thumb_url":"assets/hu/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/HUN-2015-Budapest-St._Stephen%27s_Basilica.jpg/1920px-HUN-2015-Budapest-St._Stephen%27s_Basilica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Godot13","license":"Attribution","license_url":null,"license_status":"ok","load_verified":true,"bytes":90812,"caption_zh_manual":"圣伊什特万圣殿","caption_zh_source":"llm_from_commons_filename","thumb_bytes":9714,"size":{"detail":"760x1011","thumb":"225x300"},"encoding":"webp q72/q74 (源 1920x2555 1186KB JPEG)"},{"title":"File:Eger G Hoefnagel.jpg","caption_zh":"埃格尔城堡","caption":"埃格尔城堡","caption_commons":"Eger (Agria) G Hoefnagel metszetén, a XVI. század végén","kw":"Eger Castle Hungary","url":"assets/hu/L05.webp","thumb_url":"assets/hu/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Eger_G_Hoefnagel.jpg/1920px-Eger_G_Hoefnagel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Joris Hoefnagel","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":138226,"caption_zh_manual":"埃格尔城堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":33564,"size":{"detail":"760x547","thumb":"400x288"},"encoding":"webp q72/q74 (源 1920x1382 1587KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:26:32+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Ungarn.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Ungaria.wav、Hu-Magyarország.ogg（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py HU","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"基督教","evidence":"立基督教为国教"}],"architecture":[],"heritage":[],"keywords":[{"v":"匈牙利语","evidence":"官方语言为匈牙利语"},{"v":"布达佩斯","evidence":"首都和最大城市为布达佩斯"},{"v":"喀尔巴阡盆地","evidence":"征服了喀尔巴阡盆地"},{"v":"奥匈帝国","evidence":"合组奥匈帝国"}],"model":"deepseek-flash"},"summary_text_raw":"匈牙利（匈牙利语：Magyarország，发音：[ˈmɒɟɒrorsaːɡ] ）是位于欧洲的内陆国家。根据地理分区的不同定义，匈牙利被认为处在中欧和东欧。北邻斯洛伐克，东北邻乌克兰，东和东南邻罗马尼亚，南邻塞尔维亚，西南邻克罗地亚，西邻斯洛文尼亚，西北邻奥地利。官方语言为匈牙利语，为欧洲最广泛使用的非印欧语系语言。为欧盟中型面积成员国之一。首都和最大城市为布达佩斯，其余的大城市分别有德布勒森、塞格德、米什科尔茨、佩奇、杰尔。\n今匈牙利国土在过去千年间曾被多个民族统治，包括达契亚人、凯尔特人、罗马人、日耳曼人、匈人、西斯拉夫人和阿瓦尔人等。9世纪后期，马扎尔人在阿尔帕德大公的带领下征服了喀尔巴阡盆地，其曾孙伊什特万一世在1000年登基为王，并立基督教为国教。12世纪，匈牙利成为欧洲的地区强权之一。15世纪，其文化和政治达至高峰。1526年第一次摩哈赤战役后匈牙利被奥斯曼帝国局部控制（1541-1699）。18世纪开始被哈布斯堡君主国统治。19世纪与奥地利合组奥匈帝国，并成为欧洲的强权之一。","history_text":"马扎尔人在阿尔帕德大公带领下征服喀尔巴阡盆地，伊什特万一世登基立基督教为国教，匈牙利成长为独立王国。匈雅提·马加什统治时期成为文艺复兴艺术文化中心。1848年科苏特领导自由革命，次年国会通过独立宣言建共和国，旋被奥地利与俄罗斯扼杀。1920年《特里阿农条约》丧失大片领土与人口，此后卷入二战，斯大林格勒战役损失惨重。","custom_text":"语言属乌拉语系芬兰—乌戈尔语族，与周边印欧语系全然不同，是日常身份认同的核心。孩子六岁必须入小学，小学后分流进语言中学、职业中学或专科补校，十八岁通过入学考试方可升大学或学院。饮食以红辣椒粉调味为标志，家庭餐桌常见炖菜与面食。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":158,"folk":113}},"knowledge_qa":[{"q":"匈牙利在欧洲哪个位置？周围挨着哪些国家？","a":"匈牙利是欧洲的内陆国家，通常被认为在中欧和东欧。北邻斯洛伐克，东北邻乌克兰，东和东南邻罗马尼亚，南邻塞尔维亚，西南邻克罗地亚，西邻斯洛文尼亚，西北邻奥地利。","tags":["欧洲","内陆国","邻国","地理位置"]},{"q":"匈牙利首都是哪儿？还有哪些大城市？","a":"首都和最大城市是布达佩斯，其他大城市有德布勒森、塞格德、米什科尔茨、佩奇、杰尔。","tags":["首都","布达佩斯","大城市"]},{"q":"匈牙利人说什么语言？","a":"官方语言是匈牙利语，它是欧洲最广泛使用的非印欧语系语言。","tags":["语言","匈牙利语","说什么话"]},{"q":"匈牙利有什么值得看的地标建筑？","a":"值得看的地标有匈牙利国会大厦、布达城堡、渔人堡、圣伊什特万圣殿和埃格尔城堡。","tags":["地标","建筑","景点","打卡"]},{"q":"匈牙利有什么历史背景？","a":"匈牙利国土过去千年曾被多个民族统治，包括达契亚人、凯尔特人、罗马人等。9世纪后期马扎尔人征服喀尔巴阡盆地，1000年伊什特万一世登基并立基督教为国教。","tags":["历史","马扎尔人","基督教"]},{"q":"匈牙利是欧盟成员国吗？面积大不大？","a":"匈牙利是欧盟中型面积成员国之一。","tags":["欧盟","面积","成员国"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[2288,4795],[2264,4777],[2227,4772],[2201,4752],[2200,4739],[2163,4702],[2150,4670],[2130,4660],[2128,4642],[2105,4624],[2082,4627],[2066,4614],[2024,4611],[1955,4616],[1926,4598],[1909,4602],[1898,4592],[1866,4591],[1841,4574],[1786,4577],[1759,4594],[1734,4596],[1684,4638],[1652,4650],[1637,4664],[1632,4684],[1609,4686],[1627,4700],[1649,4700],[1642,4702],[1651,4714],[1641,4719],[1647,4728],[1643,4740],[1664,4745],[1669,4754],[1663,4762],[1641,4766],[1657,4775],[1680,4768],[1708,4771],[1700,4786],[1718,4802],[1783,4775],[1869,4778],[1882,4783],[1874,4797],[1884,4804],[1943,4809],[1962,4823],[1993,4813],[2032,4828],[2048,4853],[2080,4857],[2111,4849],[2142,4856],[2176,4833],[2227,4840],[2236,4824],[2248,4824],[2260,4810],[2280,4809],[2288,4795]]]}
+{
+  "qid": "Q28",
+  "iso_a2": "HU",
+  "iso_a3": "HUN",
+  "name_zh": "匈牙利",
+  "name_en": "Hungary",
+  "capital": "布达佩斯",
+  "continent": "欧洲",
+  "centroid": [
+    19,
+    47
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "hu",
+      "name_zh": "匈牙利语",
+      "name_local": "匈牙利语",
+      "role": "official",
+      "audio_url": "assets/hu/audio/hu.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Üdvözöljük Magyarországon, ahol a Duna két partján fekszik Budapest, az ország fővárosa, és ahol a látogatót a Parlament épületének impozáns látképe fogadja.",
+      "tts_text_zh": "欢迎来到匈牙利，首都布达佩斯横跨多瑙河两岸，游客在此可欣赏到国会大厦的壮丽景色。",
+      "audio_voice": "hu-HU-NoemiNeural",
+      "audio_bytes": 67824
+    }
+  ],
+  "summary_text": "匈牙利是位于欧洲的内陆国家，不濒临海洋。根据地理分区的不同定义，匈牙利被认为处在中欧和东欧。其北邻斯洛伐克，东北邻乌克兰，东和东南邻罗马尼亚，南邻塞尔维亚，西南邻克罗地亚，西邻斯洛文尼亚，西北邻奥地利，为欧盟中型面积成员国之一。首都和最大城市为布达佩斯，其余的大城市分别有德布勒森、塞格德、米什科尔茨、佩奇和杰尔。官方语言为匈牙利语，它是欧洲最广泛使用的非印欧语系语言。今匈牙利国土在过去千年间曾被多个民族统治，包括达契亚人、凯尔特人、罗马人、日耳曼人、匈人、西斯拉夫人和阿瓦尔人等。9世纪后期，马扎尔人在阿尔帕德大公的带领下征服了喀尔巴阡盆地，其曾孙伊什特万一世在1000年登基为王，并立基督教为国教。12世纪，匈牙利成为欧洲的地区强权之一，15世纪其文化和政治达至高峰。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 337,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%8C%88%E7%89%99%E5%88%A9",
+    "title": "匈牙利"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "1241年至1242年，拔都西征的攻击下，匈牙利曾经遭到严重破坏。后来，匈牙利逐渐成长为中欧中一个强大独立的王国，既有鲜明的文化特色，又同西欧其它文明联系密切。匈雅提·马加什于1458年至1490年统治匈牙利。他进一步地加强了匈牙利国力和政府的权威。在他的统治下，匈牙利（特别是北部，今斯洛伐克一部分地区）成为文艺复兴时期，欧洲的一个艺术文化中心。1848年，爆发了科苏特·拉约什领导的自由革命斗争。1849年4月，匈牙利国会通过独立宣言，建立匈牙利共和国，惟不久被奥地利和俄罗斯帝国所扼杀。1920年，战败国匈牙利与协约国签定《特里阿农条约》，丧失了72%的领土和64%的人口。1938年第一次维也纳仲裁，在纳粹德国和意大利王国的帮助下匈牙利获得斯洛伐克部分领土，于1940年8月第二次维也纳仲裁裁决，获得罗马尼亚的北特兰西瓦尼亚（英语：Northern Transylvania）。1940年，霍尔蒂政府加入德意志轴心国，成为德国、意大利和日本的盟友，在1941年4月南斯拉夫战役中分得了大片领土，6月匈牙利跟德国对苏联宣战，并参与苏德战争各埸战役，但在斯大林格勒战役，匈牙利军队损失惨重。日本偷袭珍珠港后6天，12月12日匈牙利跟德国和意大利对美国宣战。1944年，苏联占领匈牙利。1946年2月1日，宣布废除君主制，成立匈牙利共和国。1949年，通过宪法，改名匈牙利人民共和国。1949年8月20日，宣布成立匈牙利人民共和国。1989年2月1日，匈牙利与韩国建交，这是东欧集团中第一个与韩国建交的国家，随后社会主义国家陆续跟进，纷纷与韩国建交。同年10月23日，恰逢匈牙利十月事件33周年，改国名为“匈牙利共和国”，并放弃社会主义制度，取消一党制，在原有宪法基础上大幅修改宪法，以符合多党民主原则。1990年，反对党民主论坛胜出实行多党制的第一次议会选举，首次出现政党轮替。1994年，由原匈牙利社会主义工人党改组的匈牙利社会党获得绝对多数地位，重新执政。1998年，右翼的青年民主主义者联盟－匈牙利公民联盟的奥班·维克多胜出选举，领导右翼联合政府并首次担任新政府总理。2002年奥班连任失败，左翼的匈牙利社会党、自由民主联盟和民主论坛以微弱优势胜出，重新执政。1999年，匈牙利加入北约。2004年，匈牙利加入欧盟，于2007年12月21日成为申根公约会员国。2006年4月9日，议会选举第一轮投票举行，左翼的社会党、自由民主联盟和民主论坛以微弱优势胜出。4月23日，议会选举第二轮投票进行。社会党共赢得国会386个席位中的186席，青民盟获得164席，自民盟获得18席，民主论坛获得11席，其余7席由联合候选人和独立候选人获得。6月9日，以久尔恰尼·费伦茨为总理的新政府宣誓就职，由社会党和自民盟联合执政，成功连任。2008年自民盟退出联合政府，社会党组建少数政府。社会党政府爆出严重丑闻，加上金融海啸导致出现经济危机，导致支持率大幅下降。2011年4月18日，匈牙利议会以262票赞成、44票反对的投票结果，通过名为《基本法》的新宪法，取代1949年的旧宪法，于2012年1月1日起生效，改国名为“匈牙利”（原为“匈牙利共和国”）。同年更改选举制度，由两轮投票制改为单一选区两票制并立制，议会议席减半，由386席减至199席，106席由单一选区产生，93席由比例代表制产生，比例代表制部分需要有5%的得票率才能进入议会。",
+      "chars": 1417
+    },
+    {
+      "section": "汉字文化圈",
+      "text": "日语、韩语与中文相异，将匈牙利国名译作“洪牙利”，简称“洪”。日语另有假名词“ハンガリー”（与“洪牙利”发音相同）。至今日，汉字写法已少见，于日本，假名词“ハンガリー”成为主流，韩国则改采音译“헝가리”。",
+      "chars": 1200
+    },
+    {
+      "section": "文化",
+      "text": "匈牙利语属于乌拉语系芬兰-乌戈尔语族中的乌戈尔语支，在世界最常用语的排名是40名，在欧洲是第12名。\n匈牙利教育体系分为三个等级：小孩到6岁时必须要上小学（分6、8、12年级的学校）。小学毕业后可选择就读语言中学（4年）、职业中学（4年）、职业学校（3年）、或专科补校（2年）。十八岁通过入学考试的学生可就读大学（5-6年）或学院（3-4年）。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "人口大约有973万，马扎尔族占94%，使用马扎尔语（即匈牙利语）。首都人口有175万。",
+      "chars": 383
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Parliament_of_Hungary_November_2017.jpg",
+      "caption_zh": "匈牙利国会大厦",
+      "caption": "匈牙利国会大厦",
+      "caption_commons": "The Parliament of Hungary in Budapest seen in November 2017",
+      "kw": "Hungarian Parliament Building Budapest",
+      "url": "assets/hu/L01.webp",
+      "thumb_url": "assets/hu/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Parliament_of_Hungary_November_2017.jpg/1920px-Parliament_of_Hungary_November_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikipedia_lead",
+      "pick_tier": "strict",
+      "author": "Gabinho",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 78850,
+      "caption_zh_manual": "匈牙利国会大厦",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4870,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 434KB JPEG)"
+    },
+    {
+      "title": "File:20190502 Zamek w Budapeszcie 0647 1862 DxO.jpg",
+      "caption_zh": "布达城堡",
+      "caption": "布达城堡",
+      "caption_commons": "View of Buda Castle from the Danube riverbank",
+      "kw": "Buda Castle Budapest",
+      "url": "assets/hu/L02.webp",
+      "thumb_url": "assets/hu/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/20190502_Zamek_w_Budapeszcie_0647_1862_DxO.jpg/1920px-20190502_Zamek_w_Budapeszcie_0647_1862_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 108972,
+      "caption_zh_manual": "布达城堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6728,
+      "size": {
+        "detail": "1080x718",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1276 644KB JPEG)"
+    },
+    {
+      "title": "File:Fishermansbastion2.JPG",
+      "caption_zh": "渔人堡",
+      "caption": "渔人堡",
+      "caption_commons": "Fisherman's Bastion in Budapest",
+      "kw": "Fisherman's Bastion Budapest",
+      "url": "assets/hu/L03.webp",
+      "thumb_url": "assets/hu/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Fishermansbastion2.JPG/1920px-Fishermansbastion2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Bethmechlin at English Wikipedia",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 46718,
+      "caption_zh_manual": "渔人堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4340,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 387KB JPEG)"
+    },
+    {
+      "title": "File:HUN-2015-Budapest-St. Stephen's Basilica.jpg",
+      "caption_zh": "圣伊什特万圣殿",
+      "caption": "圣伊什特万圣殿",
+      "caption_commons": "St. Stephen's Basilica, west façade, Budapest, Hungary, 2015.",
+      "kw": "St Stephen's Basilica Budapest",
+      "url": "assets/hu/L04.webp",
+      "thumb_url": "assets/hu/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/HUN-2015-Budapest-St._Stephen%27s_Basilica.jpg/1920px-HUN-2015-Budapest-St._Stephen%27s_Basilica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Godot13",
+      "license": "Attribution",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 191590,
+      "caption_zh_manual": "圣伊什特万圣殿",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4610,
+      "size": {
+        "detail": "1080x1437",
+        "thumb": "135x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2555 1186KB JPEG)"
+    },
+    {
+      "title": "File:Eger G Hoefnagel.jpg",
+      "caption_zh": "埃格尔城堡",
+      "caption": "埃格尔城堡",
+      "caption_commons": "Eger (Agria) G Hoefnagel metszetén, a XVI. század végén",
+      "kw": "Eger Castle Hungary",
+      "url": "assets/hu/L05.webp",
+      "thumb_url": "assets/hu/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Eger_G_Hoefnagel.jpg/1920px-Eger_G_Hoefnagel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Joris Hoefnagel",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 327168,
+      "caption_zh_manual": "埃格尔城堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 13768,
+      "size": {
+        "detail": "1080x777",
+        "thumb": "240x173"
+      },
+      "encoding": "webp q75/q78 (源 1920x1382 1587KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:26:32+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Ungarn.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Ungaria.wav、Hu-Magyarország.ogg（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py HU",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "基督教",
+        "evidence": "立基督教为国教"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "匈牙利语",
+        "evidence": "官方语言为匈牙利语"
+      },
+      {
+        "v": "布达佩斯",
+        "evidence": "首都和最大城市为布达佩斯"
+      },
+      {
+        "v": "喀尔巴阡盆地",
+        "evidence": "征服了喀尔巴阡盆地"
+      },
+      {
+        "v": "奥匈帝国",
+        "evidence": "合组奥匈帝国"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "匈牙利（匈牙利语：Magyarország，发音：[ˈmɒɟɒrorsaːɡ] ）是位于欧洲的内陆国家。根据地理分区的不同定义，匈牙利被认为处在中欧和东欧。北邻斯洛伐克，东北邻乌克兰，东和东南邻罗马尼亚，南邻塞尔维亚，西南邻克罗地亚，西邻斯洛文尼亚，西北邻奥地利。官方语言为匈牙利语，为欧洲最广泛使用的非印欧语系语言。为欧盟中型面积成员国之一。首都和最大城市为布达佩斯，其余的大城市分别有德布勒森、塞格德、米什科尔茨、佩奇、杰尔。\n今匈牙利国土在过去千年间曾被多个民族统治，包括达契亚人、凯尔特人、罗马人、日耳曼人、匈人、西斯拉夫人和阿瓦尔人等。9世纪后期，马扎尔人在阿尔帕德大公的带领下征服了喀尔巴阡盆地，其曾孙伊什特万一世在1000年登基为王，并立基督教为国教。12世纪，匈牙利成为欧洲的地区强权之一。15世纪，其文化和政治达至高峰。1526年第一次摩哈赤战役后匈牙利被奥斯曼帝国局部控制（1541-1699）。18世纪开始被哈布斯堡君主国统治。19世纪与奥地利合组奥匈帝国，并成为欧洲的强权之一。",
+  "history_text": "马扎尔人在阿尔帕德大公带领下征服喀尔巴阡盆地，伊什特万一世登基立基督教为国教，匈牙利成长为独立王国。匈雅提·马加什统治时期成为文艺复兴艺术文化中心。1848年科苏特领导自由革命，次年国会通过独立宣言建共和国，旋被奥地利与俄罗斯扼杀。1920年《特里阿农条约》丧失大片领土与人口，此后卷入二战，斯大林格勒战役损失惨重。",
+  "custom_text": "语言属乌拉语系芬兰—乌戈尔语族，与周边印欧语系全然不同，是日常身份认同的核心。孩子六岁必须入小学，小学后分流进语言中学、职业中学或专科补校，十八岁通过入学考试方可升大学或学院。饮食以红辣椒粉调味为标志，家庭餐桌常见炖菜与面食。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 158,
+      "folk": 113
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "匈牙利在欧洲哪个位置？周围挨着哪些国家？",
+      "a": "匈牙利是欧洲的内陆国家，通常被认为在中欧和东欧。北邻斯洛伐克，东北邻乌克兰，东和东南邻罗马尼亚，南邻塞尔维亚，西南邻克罗地亚，西邻斯洛文尼亚，西北邻奥地利。",
+      "tags": [
+        "欧洲",
+        "内陆国",
+        "邻国",
+        "地理位置"
+      ]
+    },
+    {
+      "q": "匈牙利首都是哪儿？还有哪些大城市？",
+      "a": "首都和最大城市是布达佩斯，其他大城市有德布勒森、塞格德、米什科尔茨、佩奇、杰尔。",
+      "tags": [
+        "首都",
+        "布达佩斯",
+        "大城市"
+      ]
+    },
+    {
+      "q": "匈牙利人说什么语言？",
+      "a": "官方语言是匈牙利语，它是欧洲最广泛使用的非印欧语系语言。",
+      "tags": [
+        "语言",
+        "匈牙利语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "匈牙利有什么值得看的地标建筑？",
+      "a": "值得看的地标有匈牙利国会大厦、布达城堡、渔人堡、圣伊什特万圣殿和埃格尔城堡。",
+      "tags": [
+        "地标",
+        "建筑",
+        "景点",
+        "打卡"
+      ]
+    },
+    {
+      "q": "匈牙利有什么历史背景？",
+      "a": "匈牙利国土过去千年曾被多个民族统治，包括达契亚人、凯尔特人、罗马人等。9世纪后期马扎尔人征服喀尔巴阡盆地，1000年伊什特万一世登基并立基督教为国教。",
+      "tags": [
+        "历史",
+        "马扎尔人",
+        "基督教"
+      ]
+    },
+    {
+      "q": "匈牙利是欧盟成员国吗？面积大不大？",
+      "a": "匈牙利是欧盟中型面积成员国之一。",
+      "tags": [
+        "欧盟",
+        "面积",
+        "成员国"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        2288,
+        4795
+      ],
+      [
+        2264,
+        4777
+      ],
+      [
+        2227,
+        4772
+      ],
+      [
+        2201,
+        4752
+      ],
+      [
+        2200,
+        4739
+      ],
+      [
+        2163,
+        4702
+      ],
+      [
+        2150,
+        4670
+      ],
+      [
+        2130,
+        4660
+      ],
+      [
+        2128,
+        4642
+      ],
+      [
+        2105,
+        4624
+      ],
+      [
+        2082,
+        4627
+      ],
+      [
+        2066,
+        4614
+      ],
+      [
+        2024,
+        4611
+      ],
+      [
+        1955,
+        4616
+      ],
+      [
+        1926,
+        4598
+      ],
+      [
+        1909,
+        4602
+      ],
+      [
+        1898,
+        4592
+      ],
+      [
+        1866,
+        4591
+      ],
+      [
+        1841,
+        4574
+      ],
+      [
+        1786,
+        4577
+      ],
+      [
+        1759,
+        4594
+      ],
+      [
+        1734,
+        4596
+      ],
+      [
+        1684,
+        4638
+      ],
+      [
+        1652,
+        4650
+      ],
+      [
+        1637,
+        4664
+      ],
+      [
+        1632,
+        4684
+      ],
+      [
+        1609,
+        4686
+      ],
+      [
+        1627,
+        4700
+      ],
+      [
+        1649,
+        4700
+      ],
+      [
+        1642,
+        4702
+      ],
+      [
+        1651,
+        4714
+      ],
+      [
+        1641,
+        4719
+      ],
+      [
+        1647,
+        4728
+      ],
+      [
+        1643,
+        4740
+      ],
+      [
+        1664,
+        4745
+      ],
+      [
+        1669,
+        4754
+      ],
+      [
+        1663,
+        4762
+      ],
+      [
+        1641,
+        4766
+      ],
+      [
+        1657,
+        4775
+      ],
+      [
+        1680,
+        4768
+      ],
+      [
+        1708,
+        4771
+      ],
+      [
+        1700,
+        4786
+      ],
+      [
+        1718,
+        4802
+      ],
+      [
+        1783,
+        4775
+      ],
+      [
+        1869,
+        4778
+      ],
+      [
+        1882,
+        4783
+      ],
+      [
+        1874,
+        4797
+      ],
+      [
+        1884,
+        4804
+      ],
+      [
+        1943,
+        4809
+      ],
+      [
+        1962,
+        4823
+      ],
+      [
+        1993,
+        4813
+      ],
+      [
+        2032,
+        4828
+      ],
+      [
+        2048,
+        4853
+      ],
+      [
+        2080,
+        4857
+      ],
+      [
+        2111,
+        4849
+      ],
+      [
+        2142,
+        4856
+      ],
+      [
+        2176,
+        4833
+      ],
+      [
+        2227,
+        4840
+      ],
+      [
+        2236,
+        4824
+      ],
+      [
+        2248,
+        4824
+      ],
+      [
+        2260,
+        4810
+      ],
+      [
+        2280,
+        4809
+      ],
+      [
+        2288,
+        4795
+      ]
+    ]
+  ]
+}

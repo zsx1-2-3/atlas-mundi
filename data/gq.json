@@ -1,1 +1,421 @@
-{"qid":"Q983","iso_a2":"GQ","iso_a3":"GNQ","name_zh":"赤道几内亚","name_en":"Equatorial Guinea","capital":"拉巴斯城","continent":"非洲","centroid":[10,1.5],"centroid_source":"wikidata P625","languages":[{"code":"es","name_zh":"西班牙语","name_local":"西班牙语","role":"official","audio_url":"assets/gq/audio/es.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenidos a Guinea Ecuatorial, un país donde la selva se encuentra con el mar; su capital es Malabo, en la isla de Bioko, y entre sus lugares más emblemáticos destaca la catedral de Santa Isabel, de estilo neogótico.","tts_text_zh":"欢迎来到赤道几内亚，一个森林与海洋相遇的国度；首都是比奥科岛上的马拉博，其代表性名胜之一是圣伊莎贝尔大教堂，属新哥特式风格。","audio_voice":"es-AR-ElenaNeural","audio_bytes":82512},{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/gq/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue en Guinée équatoriale, un pays où la forêt tropicale rejoint l'océan ; sa capitale est Malabo, sur l'île de Bioko, et parmi ses sites les plus remarquables figure la cathédrale Santa Isabel, de style néogothique.","tts_text_zh":"欢迎来到赤道几内亚，一个热带森林与海洋相接的国度；首都是比奥科岛上的马拉博，其最著名的景点之一是圣伊莎贝尔大教堂，属新哥特式风格。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":82368},{"code":"pt","name_zh":"葡萄牙语","name_local":"葡萄牙语","role":"official","audio_url":"assets/gq/audio/pt.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bem-vindos à Guiné Equatorial, um país onde a floresta tropical encontra o oceano; a sua capital é Malabo, na ilha de Bioko, e entre os seus locais mais marcantes destaca-se a catedral de Santa Isabel, de estilo neogótico.","tts_text_zh":"欢迎来到赤道几内亚，一个热带森林与海洋相遇的国度；首都是比奥科岛上的马拉博，其最具代表性的地点之一是圣伊莎贝尔大教堂，属新哥特式风格。","audio_voice":"pt-BR-ThalitaMultilingualNeural","audio_bytes":81072}],"summary_text":"赤道几内亚共和国，简称赤道几内亚，中文亦简称赤几，位于非洲中部，2024年人口为170万人。赤道几内亚大陆部分的原始居民为俾格米人，他们的领地后来被班图人占有。1471年至1472年，葡萄牙航海家斐南·德·波在寻找通往印度的航路过程中发现了斐南多波岛，将其命名为“福尔摩萨”。安诺本岛是在新年发现的，并由此得名。1499年，根据《托德西利亚斯条约》，位于西经50度以西的领土归西班牙，以东的领土归葡萄牙，葡萄牙人由此占有亚洲和非洲地区，南美洲大部分为西班牙所有。及至奴隶贸易兴起，葡萄牙人便垄断了非洲的奴隶来源和出口权，这引起西班牙的强烈不满，西班牙也要求在非洲得到供应奴隶的地方。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":291,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E8%B5%A4%E9%81%93%E5%87%A0%E5%86%85%E4%BA%9A","title":"赤道几内亚"},"culture_excerpts":[{"section":"历史","text":"赤道几内亚大陆部分的原始居民为俾格米人，他们的领地后来被班图人占有。1471年至1472年，葡萄牙航海家斐南·德·波（Fernão do Pó）在寻找通往印度的航路过程中发现了斐南多波岛，将其命名为“福尔摩萨”（Formosa）。安诺本岛是在新年发现的，并由此得名。1499年，根据《托德西利亚斯条约》，位于西经50度以西的领土归西班牙，以东的领土归葡萄牙，葡萄牙人由此占有亚洲和非洲地区，南美洲大部分为西班牙所有。及至奴隶贸易兴起，葡萄牙人便垄断了非洲的奴隶来源和出口权。这就引起西班牙的强烈不满，西班牙也要求在非洲得到供应奴隶的地方。1778年，葡萄牙同意让给西班牙一些非洲沿海岛屿，以及大陆上位于欧果韦河（位于今日加蓬共和国境内）和尼日尔河之间的领土，以此作为交换条件，葡萄牙人在西经50度以西占据的美洲地区（今日巴西的西部）的所有权得到西班牙承认。同年西班牙人在福尔摩萨登陆，将其改名为斐南多波岛，以纪念其发现者。但是，由于黄热病横行，西班牙人在岛上移民的尝试屡次失败，迫使其在1781年撤出该岛。西班牙内战后，西属几内亚得到了更多的开发。1959年，该地区被划为斐南多波和木尼河两个海外省。1964年1月，两省取得内部自治地位。至1968年，在民族独立运动和联合国的双重压力下，西班牙同意给予其独立地位。1968年10月12日，西属几内亚宣告独立，改国名为赤道几内亚共和国。1968年，弗朗西斯科·马西亚斯·恩圭马成为赤道几内亚第一任总统，开启了长达十多年的残酷黑暗的独裁统治，恩圭马执政期间采取极其恐怖的统治，推行个人崇拜自封为神，大规模的处决政府官员和百姓，关闭赤道几内亚所有的学校和图书馆，禁止报纸、杂志出版，其统治后期赤道几内亚的政府已经完全瘫痪。1979年8月3日，恩圭马被其侄儿特奥多罗·奥比昂发动政变推翻，1979年9月24日，恩圭马被判处死刑并在不久后被枪决。推翻恩圭马统治后，奥比昂成为赤几总统并一直统治至今。","chars":819}],"landmark_images":[{"title":"File:Santa Isabel Malabo 20131224 140204.jpg","caption_zh":"马拉博圣伊莎贝尔大教堂","caption":"马拉博圣伊莎贝尔大教堂","caption_commons":"Santa Isabel Kathedrale Malabo","kw":"Santa Isabel Cathedral Malabo","url":"assets/gq/L01.webp","thumb_url":"assets/gq/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Santa_Isabel_Malabo_20131224_140204.jpg/1920px-Santa_Isabel_Malabo_20131224_140204.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Denis Barthel","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":70038,"caption_zh_manual":"马拉博圣伊莎贝尔大教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8462,"size":{"detail":"760x1013","thumb":"225x300"},"encoding":"webp q72/q74 (源 1920x2560 1264KB JPEG)"},{"title":"File:Ayasofya - panoramio - Alen Ištoković.jpg","caption_zh":"蒙特阿伦国家公园全景","caption":"蒙特阿伦国家公园全景","caption_commons":"Ayasofya, Istanbul","kw":"Monte Alen National Park","url":"assets/gq/L03.webp","thumb_url":"assets/gq/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/7/7b/Ayasofya_-_panoramio_-_Alen_I%C5%A1tokovi%C4%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"Alen Ištoković","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":44562,"caption_zh_manual":"蒙特阿伦国家公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14442,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1280x960 251KB JPEG)"},{"title":"File:Bata, 2015-02 -i---i- (15890576434).jpg","caption_zh":"巴塔海滨大道","caption":"巴塔海滨大道","caption_commons":"Bata, February 2015","kw":"Paseo Maritimo Bata","url":"assets/gq/L04.webp","thumb_url":"assets/gq/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Bata%2C_2015-02_-i---i-_%2815890576434%29.jpg/1920px-Bata%2C_2015-02_-i---i-_%2815890576434%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Ben Sutherland from Crystal Palace, London, UK","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":46590,"caption_zh_manual":"巴塔海滨大道","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15186,"size":{"detail":"760x504","thumb":"400x265"},"encoding":"webp q72/q74 (源 1920x1272 581KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:22:26+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Guineea Ecuatorială.wav、LL-Q22809485 (apc)-Hassan Hassoon-غينيا الاستوائية.wav、LL-Q652 (ita)-Francyskus-Guinea Equatoriale.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py GQ","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","马拉博独立广场：Wikidata / 维基 / Commons 都没有可用图","乌雷卡瀑布：检索接口全部失败（英文维基：英文维基无合适条目）","地标图改为人工指定清单（3 张，中文图注）","摘要 291 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[error] capital：赤道几内亚首都是马拉博，拉巴斯城是玻利维亚首都 → 马拉博"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"俾格米人","evidence":"原始居民为俾格米人"},{"v":"班图人","evidence":"被班图人占有"},{"v":"斐南多波岛","evidence":"发现了斐南多波岛"},{"v":"安诺本岛","evidence":"安诺本岛是在新年发现的"},{"v":"奴隶贸易","evidence":"奴隶贸易兴起"}],"model":"deepseek-flash"},"summary_text_raw":"赤道几内亚共和国，简称赤道几内亚（西班牙语：Guinea Ecuatorial；法语：Guinée équatoriale；葡萄牙语：Guiné Equatorial），中文亦简称赤几，位于非洲中部。2024年人口为170万人。\n\n\n== 历史 ==\n\n赤道几内亚大陆部分的原始居民为俾格米人，他们的领地后来被班图人占有。1471年至1472年，葡萄牙航海家斐南·德·波（Fernão do Pó）在寻找通往印度的航路过程中发现了斐南多波岛，将其命名为“福尔摩萨”（Formosa）。安诺本岛是在新年发现的，并由此得名。\n\n1499年，根据《托德西利亚斯条约》，位于西经50度以西的领土归西班牙，以东的领土归葡萄牙，葡萄牙人由此占有亚洲和非洲地区，南美洲大部分为西班牙所有。及至奴隶贸易兴起，葡萄牙人便垄断了非洲的奴隶来源和出口权。这就引起西班牙的强烈不满，西班牙也要求在非洲得到供应奴隶的地方。","history_text":"大陆部分的原始居民为俾格米人，其领地后来被班图人占有。1471年至1472年，葡萄牙航海家斐南·德·波发现斐南多波岛，初名“福尔摩萨”。1499年《托德西利亚斯条约》划定西经50度以西归西班牙、以东归葡萄牙，葡萄牙由此垄断非洲奴隶来源与出口权，引起西班牙不满。1778年葡萄牙让给西班牙几内亚湾沿海岛屿与欧果韦河至尼日尔河之间的领土，西班牙人登陆后改岛名为斐南多波岛，因黄热病横行，移民尝试屡次失败，1781年撤出。","custom_text":"新年那天望见的海岛，名字就留在了安诺本岛上。岛上人家靠海吃海，木薯与芭蕉是灶间的常客，棕榈油把炖菜染成橙红。村落里长辈说话有分量，鼓声一响，邻里便聚到空地上跳舞，节庆的夜晚常延续到天亮。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":208,"folk":93}},"knowledge_qa":[{"q":"赤道几内亚在哪儿啊？","a":"位于非洲中部。","tags":["非洲","位置","在哪"]},{"q":"赤道几内亚的首都是哪里？","a":"首都为拉巴斯城。","tags":["首都","拉巴斯城"]},{"q":"赤道几内亚说什么语言？","a":"官方语言有西班牙语、法语和葡萄牙语。","tags":["语言","说什么话","官方语言"]},{"q":"赤道几内亚有什么值得看的地标？","a":"有马拉博圣伊莎贝尔大教堂、蒙特阿伦国家公园和巴塔海滨大道。","tags":["地标","景点","教堂","国家公园"]},{"q":"赤道几内亚人口多少？","a":"2024年人口为170万人。","tags":["人口","多少人"]},{"q":"赤道几内亚有什么历史背景？","a":"大陆部分原始居民为俾格米人，后领地被班图人占有；1471年至1472年葡萄牙航海家发现斐南多波岛并命名“福尔摩萨”。","tags":["历史","葡萄牙","班图人"]}],"llm_audit":{"issues":[{"field":"capital","severity":"error","why":"赤道几内亚首都是马拉博，拉巴斯城是玻利维亚首都","suggest":"马拉博"}],"overall":"fail"},"audio_meta":{},"outline":[[[980,234],[982,225],[999,217],[1132,217],[1134,100],[1003,100],[994,92],[972,113],[958,104],[952,113],[940,111],[935,118],[946,142],[962,159],[974,160],[961,164],[981,194],[980,234]],[[892,375],[896,364],[869,320],[845,327],[844,342],[858,346],[867,373],[892,375]],[[563,-146],[562,-143],[563,-142],[565,-144],[564,-146],[563,-148],[561,-146],[563,-146]]]}
+{
+  "qid": "Q983",
+  "iso_a2": "GQ",
+  "iso_a3": "GNQ",
+  "name_zh": "赤道几内亚",
+  "name_en": "Equatorial Guinea",
+  "capital": "拉巴斯城",
+  "continent": "非洲",
+  "centroid": [
+    10,
+    1.5
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "es",
+      "name_zh": "西班牙语",
+      "name_local": "西班牙语",
+      "role": "official",
+      "audio_url": "assets/gq/audio/es.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenidos a Guinea Ecuatorial, un país donde la selva se encuentra con el mar; su capital es Malabo, en la isla de Bioko, y entre sus lugares más emblemáticos destaca la catedral de Santa Isabel, de estilo neogótico.",
+      "tts_text_zh": "欢迎来到赤道几内亚，一个森林与海洋相遇的国度；首都是比奥科岛上的马拉博，其代表性名胜之一是圣伊莎贝尔大教堂，属新哥特式风格。",
+      "audio_voice": "es-AR-ElenaNeural",
+      "audio_bytes": 82512
+    },
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/gq/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue en Guinée équatoriale, un pays où la forêt tropicale rejoint l'océan ; sa capitale est Malabo, sur l'île de Bioko, et parmi ses sites les plus remarquables figure la cathédrale Santa Isabel, de style néogothique.",
+      "tts_text_zh": "欢迎来到赤道几内亚，一个热带森林与海洋相接的国度；首都是比奥科岛上的马拉博，其最著名的景点之一是圣伊莎贝尔大教堂，属新哥特式风格。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 82368
+    },
+    {
+      "code": "pt",
+      "name_zh": "葡萄牙语",
+      "name_local": "葡萄牙语",
+      "role": "official",
+      "audio_url": "assets/gq/audio/pt.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bem-vindos à Guiné Equatorial, um país onde a floresta tropical encontra o oceano; a sua capital é Malabo, na ilha de Bioko, e entre os seus locais mais marcantes destaca-se a catedral de Santa Isabel, de estilo neogótico.",
+      "tts_text_zh": "欢迎来到赤道几内亚，一个热带森林与海洋相遇的国度；首都是比奥科岛上的马拉博，其最具代表性的地点之一是圣伊莎贝尔大教堂，属新哥特式风格。",
+      "audio_voice": "pt-BR-ThalitaMultilingualNeural",
+      "audio_bytes": 81072
+    }
+  ],
+  "summary_text": "赤道几内亚共和国，简称赤道几内亚，中文亦简称赤几，位于非洲中部，2024年人口为170万人。赤道几内亚大陆部分的原始居民为俾格米人，他们的领地后来被班图人占有。1471年至1472年，葡萄牙航海家斐南·德·波在寻找通往印度的航路过程中发现了斐南多波岛，将其命名为“福尔摩萨”。安诺本岛是在新年发现的，并由此得名。1499年，根据《托德西利亚斯条约》，位于西经50度以西的领土归西班牙，以东的领土归葡萄牙，葡萄牙人由此占有亚洲和非洲地区，南美洲大部分为西班牙所有。及至奴隶贸易兴起，葡萄牙人便垄断了非洲的奴隶来源和出口权，这引起西班牙的强烈不满，西班牙也要求在非洲得到供应奴隶的地方。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 291,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E8%B5%A4%E9%81%93%E5%87%A0%E5%86%85%E4%BA%9A",
+    "title": "赤道几内亚"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "赤道几内亚大陆部分的原始居民为俾格米人，他们的领地后来被班图人占有。1471年至1472年，葡萄牙航海家斐南·德·波（Fernão do Pó）在寻找通往印度的航路过程中发现了斐南多波岛，将其命名为“福尔摩萨”（Formosa）。安诺本岛是在新年发现的，并由此得名。1499年，根据《托德西利亚斯条约》，位于西经50度以西的领土归西班牙，以东的领土归葡萄牙，葡萄牙人由此占有亚洲和非洲地区，南美洲大部分为西班牙所有。及至奴隶贸易兴起，葡萄牙人便垄断了非洲的奴隶来源和出口权。这就引起西班牙的强烈不满，西班牙也要求在非洲得到供应奴隶的地方。1778年，葡萄牙同意让给西班牙一些非洲沿海岛屿，以及大陆上位于欧果韦河（位于今日加蓬共和国境内）和尼日尔河之间的领土，以此作为交换条件，葡萄牙人在西经50度以西占据的美洲地区（今日巴西的西部）的所有权得到西班牙承认。同年西班牙人在福尔摩萨登陆，将其改名为斐南多波岛，以纪念其发现者。但是，由于黄热病横行，西班牙人在岛上移民的尝试屡次失败，迫使其在1781年撤出该岛。西班牙内战后，西属几内亚得到了更多的开发。1959年，该地区被划为斐南多波和木尼河两个海外省。1964年1月，两省取得内部自治地位。至1968年，在民族独立运动和联合国的双重压力下，西班牙同意给予其独立地位。1968年10月12日，西属几内亚宣告独立，改国名为赤道几内亚共和国。1968年，弗朗西斯科·马西亚斯·恩圭马成为赤道几内亚第一任总统，开启了长达十多年的残酷黑暗的独裁统治，恩圭马执政期间采取极其恐怖的统治，推行个人崇拜自封为神，大规模的处决政府官员和百姓，关闭赤道几内亚所有的学校和图书馆，禁止报纸、杂志出版，其统治后期赤道几内亚的政府已经完全瘫痪。1979年8月3日，恩圭马被其侄儿特奥多罗·奥比昂发动政变推翻，1979年9月24日，恩圭马被判处死刑并在不久后被枪决。推翻恩圭马统治后，奥比昂成为赤几总统并一直统治至今。",
+      "chars": 819
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Santa Isabel Malabo 20131224 140204.jpg",
+      "caption_zh": "马拉博圣伊莎贝尔大教堂",
+      "caption": "马拉博圣伊莎贝尔大教堂",
+      "caption_commons": "Santa Isabel Kathedrale Malabo",
+      "kw": "Santa Isabel Cathedral Malabo",
+      "url": "assets/gq/L01.webp",
+      "thumb_url": "assets/gq/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Santa_Isabel_Malabo_20131224_140204.jpg/1920px-Santa_Isabel_Malabo_20131224_140204.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Denis Barthel",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 155390,
+      "caption_zh_manual": "马拉博圣伊莎贝尔大教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4280,
+      "size": {
+        "detail": "1080x1440",
+        "thumb": "135x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2560 1264KB JPEG)"
+    },
+    {
+      "title": "File:Ayasofya - panoramio - Alen Ištoković.jpg",
+      "caption_zh": "蒙特阿伦国家公园全景",
+      "caption": "蒙特阿伦国家公园全景",
+      "caption_commons": "Ayasofya, Istanbul",
+      "kw": "Monte Alen National Park",
+      "url": "assets/gq/L03.webp",
+      "thumb_url": "assets/gq/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Ayasofya_-_panoramio_-_Alen_I%C5%A1tokovi%C4%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Alen Ištoković",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 87432,
+      "caption_zh_manual": "蒙特阿伦国家公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6836,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1280x960 251KB JPEG)"
+    },
+    {
+      "title": "File:Bata, 2015-02 -i---i- (15890576434).jpg",
+      "caption_zh": "巴塔海滨大道",
+      "caption": "巴塔海滨大道",
+      "caption_commons": "Bata, February 2015",
+      "kw": "Paseo Maritimo Bata",
+      "url": "assets/gq/L04.webp",
+      "thumb_url": "assets/gq/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Bata%2C_2015-02_-i---i-_%2815890576434%29.jpg/1920px-Bata%2C_2015-02_-i---i-_%2815890576434%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Ben Sutherland from Crystal Palace, London, UK",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 93676,
+      "caption_zh_manual": "巴塔海滨大道",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7128,
+      "size": {
+        "detail": "1080x716",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1272 581KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:22:26+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Guineea Ecuatorială.wav、LL-Q22809485 (apc)-Hassan Hassoon-غينيا الاستوائية.wav、LL-Q652 (ita)-Francyskus-Guinea Equatoriale.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py GQ",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "马拉博独立广场：Wikidata / 维基 / Commons 都没有可用图",
+    "乌雷卡瀑布：检索接口全部失败（英文维基：英文维基无合适条目）",
+    "地标图改为人工指定清单（3 张，中文图注）",
+    "摘要 291 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[error] capital：赤道几内亚首都是马拉博，拉巴斯城是玻利维亚首都 → 马拉博"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "俾格米人",
+        "evidence": "原始居民为俾格米人"
+      },
+      {
+        "v": "班图人",
+        "evidence": "被班图人占有"
+      },
+      {
+        "v": "斐南多波岛",
+        "evidence": "发现了斐南多波岛"
+      },
+      {
+        "v": "安诺本岛",
+        "evidence": "安诺本岛是在新年发现的"
+      },
+      {
+        "v": "奴隶贸易",
+        "evidence": "奴隶贸易兴起"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "赤道几内亚共和国，简称赤道几内亚（西班牙语：Guinea Ecuatorial；法语：Guinée équatoriale；葡萄牙语：Guiné Equatorial），中文亦简称赤几，位于非洲中部。2024年人口为170万人。\n\n\n== 历史 ==\n\n赤道几内亚大陆部分的原始居民为俾格米人，他们的领地后来被班图人占有。1471年至1472年，葡萄牙航海家斐南·德·波（Fernão do Pó）在寻找通往印度的航路过程中发现了斐南多波岛，将其命名为“福尔摩萨”（Formosa）。安诺本岛是在新年发现的，并由此得名。\n\n1499年，根据《托德西利亚斯条约》，位于西经50度以西的领土归西班牙，以东的领土归葡萄牙，葡萄牙人由此占有亚洲和非洲地区，南美洲大部分为西班牙所有。及至奴隶贸易兴起，葡萄牙人便垄断了非洲的奴隶来源和出口权。这就引起西班牙的强烈不满，西班牙也要求在非洲得到供应奴隶的地方。",
+  "history_text": "大陆部分的原始居民为俾格米人，其领地后来被班图人占有。1471年至1472年，葡萄牙航海家斐南·德·波发现斐南多波岛，初名“福尔摩萨”。1499年《托德西利亚斯条约》划定西经50度以西归西班牙、以东归葡萄牙，葡萄牙由此垄断非洲奴隶来源与出口权，引起西班牙不满。1778年葡萄牙让给西班牙几内亚湾沿海岛屿与欧果韦河至尼日尔河之间的领土，西班牙人登陆后改岛名为斐南多波岛，因黄热病横行，移民尝试屡次失败，1781年撤出。",
+  "custom_text": "新年那天望见的海岛，名字就留在了安诺本岛上。岛上人家靠海吃海，木薯与芭蕉是灶间的常客，棕榈油把炖菜染成橙红。村落里长辈说话有分量，鼓声一响，邻里便聚到空地上跳舞，节庆的夜晚常延续到天亮。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 208,
+      "folk": 93
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "赤道几内亚在哪儿啊？",
+      "a": "位于非洲中部。",
+      "tags": [
+        "非洲",
+        "位置",
+        "在哪"
+      ]
+    },
+    {
+      "q": "赤道几内亚的首都是哪里？",
+      "a": "首都为拉巴斯城。",
+      "tags": [
+        "首都",
+        "拉巴斯城"
+      ]
+    },
+    {
+      "q": "赤道几内亚说什么语言？",
+      "a": "官方语言有西班牙语、法语和葡萄牙语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言"
+      ]
+    },
+    {
+      "q": "赤道几内亚有什么值得看的地标？",
+      "a": "有马拉博圣伊莎贝尔大教堂、蒙特阿伦国家公园和巴塔海滨大道。",
+      "tags": [
+        "地标",
+        "景点",
+        "教堂",
+        "国家公园"
+      ]
+    },
+    {
+      "q": "赤道几内亚人口多少？",
+      "a": "2024年人口为170万人。",
+      "tags": [
+        "人口",
+        "多少人"
+      ]
+    },
+    {
+      "q": "赤道几内亚有什么历史背景？",
+      "a": "大陆部分原始居民为俾格米人，后领地被班图人占有；1471年至1472年葡萄牙航海家发现斐南多波岛并命名“福尔摩萨”。",
+      "tags": [
+        "历史",
+        "葡萄牙",
+        "班图人"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "capital",
+        "severity": "error",
+        "why": "赤道几内亚首都是马拉博，拉巴斯城是玻利维亚首都",
+        "suggest": "马拉博"
+      }
+    ],
+    "overall": "fail"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        980,
+        234
+      ],
+      [
+        982,
+        225
+      ],
+      [
+        999,
+        217
+      ],
+      [
+        1132,
+        217
+      ],
+      [
+        1134,
+        100
+      ],
+      [
+        1003,
+        100
+      ],
+      [
+        994,
+        92
+      ],
+      [
+        972,
+        113
+      ],
+      [
+        958,
+        104
+      ],
+      [
+        952,
+        113
+      ],
+      [
+        940,
+        111
+      ],
+      [
+        935,
+        118
+      ],
+      [
+        946,
+        142
+      ],
+      [
+        962,
+        159
+      ],
+      [
+        974,
+        160
+      ],
+      [
+        961,
+        164
+      ],
+      [
+        981,
+        194
+      ],
+      [
+        980,
+        234
+      ]
+    ],
+    [
+      [
+        892,
+        375
+      ],
+      [
+        896,
+        364
+      ],
+      [
+        869,
+        320
+      ],
+      [
+        845,
+        327
+      ],
+      [
+        844,
+        342
+      ],
+      [
+        858,
+        346
+      ],
+      [
+        867,
+        373
+      ],
+      [
+        892,
+        375
+      ]
+    ],
+    [
+      [
+        563,
+        -146
+      ],
+      [
+        562,
+        -143
+      ],
+      [
+        563,
+        -142
+      ],
+      [
+        565,
+        -144
+      ],
+      [
+        564,
+        -146
+      ],
+      [
+        563,
+        -148
+      ],
+      [
+        561,
+        -146
+      ],
+      [
+        563,
+        -146
+      ]
+    ]
+  ]
+}

@@ -1,1 +1,473 @@
-{"qid":"Q774","iso_a2":"GT","iso_a3":"GTM","name_zh":"危地马拉","name_en":"Guatemala","capital":"危地马拉城","continent":"北美洲","centroid":[-90.25,15.5],"centroid_source":"wikidata P625","languages":[{"code":"es","name_zh":"西班牙语","name_local":"西班牙语","role":"official","audio_url":"assets/gt/audio/es.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenidos a Guatemala, un país de volcanes y lagos; su capital es la Ciudad de Guatemala, y entre sus lugares más emblemáticos destaca el lago de Atitlán, rodeado de montañas y pueblos mayas.","tts_text_zh":"欢迎来到危地马拉，一个火山与湖泊之国；它的首都是危地马拉城，最具代表性的地标之一是阿蒂特兰湖，四周环绕着群山与玛雅村落。","audio_voice":"es-AR-ElenaNeural","audio_bytes":75168}],"summary_text":"危地马拉共和国通称危地马拉，位于中美洲北部，北接墨西哥，东北邻伯利兹，东南与洪都拉斯和萨尔瓦多接壤，西濒太平洋，东临加勒比海的洪都拉斯湾，总面积约108,889平方公里，是中美洲人口最多的国家。全国人口约1,900万，首都及最大城市为危地马拉城，同时也是中美洲最大的都会区。危地马拉地形多样，北部佩滕低地为热带雨林，中部高地火山纵横，其中包括中美洲最高峰塔胡木耳科火山，海拔4,211米，南部太平洋沿岸则为狭窄平原。危地马拉是古代玛雅文明的核心区域之一，4至10世纪期间，佩滕盆地的玛雅城邦曾繁盛一时。1821年脱离西班牙独立，随后短暂加入墨西哥帝国及中美洲联邦，直至1839年成为完全独立的共和国。20世纪中叶，危地马拉经历了民主改革，随后陷入长达36年的内战，其间原住民玛雅人遭受严重迫害，直至1996年签署和平协定后才逐步恢复稳定。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":369,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%8D%B1%E5%9C%B0%E9%A9%AC%E6%8B%89","title":"危地马拉"},"culture_excerpts":[{"section":"历史","text":"从4世纪到10世纪危地马拉的佩滕低地地区是玛雅文明的中心，10世纪末低地地区的玛雅文化被消灭后在中央高地地区仍然存在。1524年西班牙人来到危地马拉，摧毁了当地的玛雅文化并开始殖民危地马拉。由于西班牙殖民者的消灭政策，几乎所有此前的玛雅书籍都遭销毁殆尽，仅少数残存至今。1821年9月15日危地马拉等中美洲国家宣布脱离西班牙统治。1824年到1839年危地马拉为中美洲联邦的一员，直到1840年危地马拉才完全独立。1841年到1871年拉斐尔·卡雷拉及其之后的保守派人士组织危地马拉政府。他们为保护自身利益，试图保留殖民时期留下来的等级制度，并不重视国家经济现代化。1871年胡斯托·鲁菲诺·巴里奥斯·奥延的自由党政权开始执政到1944年国家才开始致力于经济现代化。同时美国主导的联合果品公司也开始收购危地马拉大面积的咖啡和香蕉庄园并介入危地马拉的政治。1944年十月革命后前独裁者豪尔赫·乌维科被推翻，危地马拉实行民主与言论自由，危地马拉史上第一部保护工人利益的法律生效，1950年到1954年执政的瑞士裔哈科沃·阿本斯总统施行了土地改革。当时仅全国人口2%的大地主却占有全国约70%的可耕地，而阿本斯开出土地改革的支票，承诺买下大地主持有的土地并重新分配给小农。阿本斯以此赢得选举，土地改革计划也立刻实行。针对拥有土地大于223英亩的地主，只要有未用于生产的土地便要征收。最后从1059个农场征收了平均4300英亩的土地，约有十万名农民得到这些土地的所有权。联合果品公司在危地马拉拥有其最大的庄园，而且还拥有中美洲国际铁路公司和危地马拉仅有的一个海港。在联合果品公司的驱使下，美国外交部开始对危地马拉展开宣传战，以反共的名义打击阿本斯政权。中央情报局与危地马拉军队中的反对派合作，共同策划了1954年危地马拉政变。阿本斯政权被推翻以后，总统流亡海外，卡斯蒂略·阿马斯成为新的独裁者。新政府立刻废除前阿本斯政府所作的改革。1957年阿马斯被刺，讽刺的是他的继承人是一个在40年代独裁政府中就已经以其血腥出名的军人米格尔·伊迪戈拉斯·富恩特斯。不满阿本斯政权被推翻的农民组织了一支游击队，开始与政府军展开长达36年的内战，直到1996年交战双方才签署一份和平条约，正式结束内战。这场内战中约数十万人丧生，上百万人流离失所。危地马拉军队对原住民玛雅人的迫害近似种族灭绝，仅1982年9月里奥斯·蒙特当政时期就有9000位玛雅人惨遭杀害。1983年起危地马拉政府逐步减少迫害原住民，国家重启民主化历程，1985年重新举行大选。但全国人民贫富不均的现象依然没法解决，今天仅占1%的少数人却拥有危地马拉60%以上的可耕地和财富。","chars":1110},{"section":"文化","text":"危地马拉主要信仰天主教，约占总人口之51%。其余宗教包括新教约占36.7%，马雅信仰约占0.4%，无宗教信仰者占9.1%。\n危地马拉的官方语言为西班牙语。除西班牙语之外，危地马拉大部分地区亦通用多种马雅方言，加勒比海地区另有Garífuna方言。\n危地马拉的饮食风俗深受马雅和西班牙殖民者的影响，而濒临加勒比海的伊萨瓦尔省一带的饮食则受到西非的影响，玉米是该国主要的粮食，通常会做成玉米薄饼（英语：Corn tortilla）；而西红柿、红豆与黑豆也是该国厨房里常见的食材，相比起墨西哥，当地料理并不常使用辣椒。青酱牛肉（西班牙语：Jocón (platillo típico de Guatemala)）、茄汁鸡肉（西班牙语：Pepián (Guatemala)）也是当地具有代表性的肉类料理。","chars":1200},{"section":"饮食","text":"危地马拉的饮食风俗深受马雅和西班牙殖民者的影响，而濒临加勒比海的伊萨瓦尔省一带的饮食则受到西非的影响，玉米是该国主要的粮食，通常会做成玉米薄饼（英语：Corn tortilla）；而西红柿、红豆与黑豆也是该国厨房里常见的食材，相比起墨西哥，当地料理并不常使用辣椒。青酱牛肉（西班牙语：Jocón (platillo típico de Guatemala)）、茄汁鸡肉（西班牙语：Pepián (Guatemala)）也是当地具有代表性的肉类料理。","chars":1200},{"section":"人口","text":"危地马拉43%的人口是当地玛雅人的后裔。在加勒比海岸附近也有非洲人的后裔。大多数危地马拉人生活在农村，但城市化不断加快。最主要的宗教是天主教，不过许多当地的传统也流入了天主教的崇拜和祈祷。约40%的人信新教，1%的人信奉传统的玛雅宗教。\n虽然西班牙语是官方语言，但一些当地人依然说不同的玛雅语言。尤其在农村有时会有人不懂西班牙语。","chars":690}],"landmark_images":[{"title":"File:Tikal Temple IV corner detail 1.jpg","caption_zh":"蒂卡尔古城四号神庙转角局部","caption":"蒂卡尔古城四号神庙转角局部","caption_commons":"Detail of Temple IV at Tikal in Guatemala.","kw":"Tikal Guatemala ruins","url":"assets/gt/L01.webp","thumb_url":"assets/gt/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tikal_Temple_IV_corner_detail_1.jpg/1920px-Tikal_Temple_IV_corner_detail_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Simon Burchell","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":162104,"caption_zh_manual":"蒂卡尔古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15982,"size":{"detail":"760x1013","thumb":"225x300"},"encoding":"webp q72/q74 (源 1920x2560 1250KB JPEG)"},{"title":"File:Antigua - Antigua Guatemala 2.jpg","caption_zh":"安提瓜中央广场","caption":"安提瓜中央广场","caption_commons":"The Church and convent of the Society of Jesus in Antigua Guatemala is a religio","kw":"Antigua Guatemala Parque Central","url":"assets/gt/L02.webp","thumb_url":"assets/gt/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Antigua_-_Antigua_Guatemala_2.jpg/1920px-Antigua_-_Antigua_Guatemala_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Chad Davis","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":88192,"caption_zh_manual":"安提瓜中央广场","caption_zh_source":"llm_from_commons_filename","thumb_bytes":25394,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 1005KB JPEG)"},{"title":"File:Atitlanrealestate Casa del Mundo.jpg","caption_zh":"阿蒂特兰湖世界之家","caption":"阿蒂特兰湖世界之家","caption_commons":"I took this picture in November of 2006. Image of Lake Atitlán, Guatemala, near ","kw":"Lake Atitlan Guatemala","url":"assets/gt/L03.webp","thumb_url":"assets/gt/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/e/e2/Atitlanrealestate_Casa_del_Mundo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Navidnak at English Wikipedia","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":30356,"caption_zh_manual":"阿蒂特兰湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":23792,"size":{"detail":"461x307","thumb":"400x266"},"encoding":"webp q72/q74 (源 461x307 118KB JPEG)"},{"title":"File:Volcán de Fuego and Acatenango.jpg","caption_zh":"富埃戈火山与阿卡特南戈火山","caption":"富埃戈火山与阿卡特南戈火山","caption_commons":"Photo of Volcán de Fuego (left) and Volcán de Agua (right). Volcán Acatenango li","kw":"Volcan de Fuego Guatemala","url":"assets/gt/L04.webp","thumb_url":"assets/gt/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/6/6b/Volc%C3%A1n_de_Fuego_and_Acatenango.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Scottydude","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":33960,"caption_zh_manual":"富埃戈火山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12394,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1600x1200 500KB JPEG)"},{"title":"File:Semuc Champey, Guatemala.jpg","caption_zh":"危地马拉塞穆克尚佩","caption":"危地马拉塞穆克尚佩","caption_commons":"Semuc Champey is famous for its turquoise pools made of limestone. It is located","kw":"Semuc Champey Guatemala","url":"assets/gt/L05.webp","thumb_url":"assets/gt/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Semuc_Champey%2C_Guatemala.jpg/1920px-Semuc_Champey%2C_Guatemala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Christopher Crouzet","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":99442,"caption_zh_manual":"塞穆克尚佩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":26532,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 980KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:23:36+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Guatemala.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Guatemala.wav、LL-Q652 (ita)-Francyskus-Guatemala.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py GT","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"玛雅文明","evidence":"古代玛雅文明的核心区域之一"},{"v":"佩滕盆地","evidence":"佩滕盆地的玛雅城邦"},{"v":"热带雨林","evidence":"北部佩滕低地为热带雨林"},{"v":"火山","evidence":"中部高地火山纵横"},{"v":"塔胡木耳科火山","evidence":"中美洲最高峰塔胡木耳科火山"}],"model":"deepseek-flash"},"summary_text_raw":"危地马拉共和国（西班牙语：República de Guatemala），通称危地马拉（Guatemala ），是中美洲北部的一个国家。该国地理位置优越，北接墨西哥，东北邻伯利兹，东南与洪都拉斯和萨尔瓦多接壤，西濒太平洋，东临加勒比海的洪都拉斯湾，总面积约108,889平方公里，是中美洲人口最多的国家。根据2026年预计，全国人口约1,900万，首都及最大城市为危地马拉城，同时也是中美洲最大的都会区。\n危地马拉是古代玛雅文明的核心区域之一，4至10世纪期间，佩滕盆地的玛雅城邦曾繁盛一时。1524年，西班牙殖民者征服该地后，危地马拉成为新西班牙总督辖区的一部分。1821年脱离西班牙独立，随后短暂加入墨西哥帝国及中美洲联邦，直至1839年成为完全独立的共和国。20世纪中叶，危地马拉经历了民主改革与美国支持的军事政变，随后陷入长达36年的内战（1960–1996），其间原住民玛雅人遭受严重迫害，直至1996年签署和平协定后才逐步恢复稳定。\n危地马拉地形多样，北部佩滕低地为热带雨林，中部高地火山纵横（包括中美洲最高峰塔胡木耳科火山，海拔4,211米），南部太平洋沿岸则为狭窄平原。","history_text":"四至十世纪，佩滕低地是玛雅文明的中心，十世纪末低地文化消亡后，中央高地仍有留存。1524年西班牙人到来，摧毁玛雅文化并开始殖民，玛雅书籍几乎被销毁殆尽。1821年宣布脱离西班牙统治，此后短暂加入中美洲联邦，至1840年才完全独立。1944年十月革命推翻独裁者，民主与言论自由开启，第一部保护工人利益的法律生效。","custom_text":"玉米是主要粮食，通常做成薄饼，西红柿、红豆与黑豆也是厨房常备，当地料理不常使用辣椒。青酱牛肉与茄汁鸡肉是具代表性的肉类料理。天主教崇拜与祈祷中融入了许多当地传统，农村仍有人说各种玛雅语言，有人不懂西班牙语。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":155,"folk":103}},"knowledge_qa":[{"q":"危地马拉在哪儿啊？周围都是哪些国家？","a":"在北美洲，中美洲北部。北接墨西哥，东北邻伯利兹，东南与洪都拉斯和萨尔瓦多接壤，西濒太平洋，东临加勒比海的洪都拉斯湾。","tags":["地理位置","邻国","中美洲"]},{"q":"危地马拉面积多大？人口多少？","a":"总面积约108,889平方公里，是中美洲人口最多的国家。根据2026年预计，全国人口约1,900万。","tags":["面积","人口","多大"]},{"q":"危地马拉的首都是哪里？","a":"首都及最大城市是危地马拉城，同时也是中美洲最大的都会区。","tags":["首都","危地马拉城","最大城市"]},{"q":"危地马拉说什么语言？","a":"官方语言是西班牙语。","tags":["语言","说什么话","西班牙语"]},{"q":"危地马拉有什么值得看的地标或景观？","a":"有蒂卡尔古城、安提瓜中央广场、阿蒂特兰湖、富埃戈火山和塞穆克尚佩。","tags":["地标","景点","看什么"]},{"q":"危地马拉的地形怎么样？有什么火山？","a":"地形多样，北部佩滕低地为热带雨林，中部高地火山纵横，包括中美洲最高峰塔胡木耳科火山，海拔4,211米；南部太平洋沿岸为狭窄平原。","tags":["地形","火山","自然风光"]},{"q":"危地马拉有什么历史文化背景？","a":"是古代玛雅文明的核心区域之一，4至10世纪佩滕盆地的玛雅城邦曾繁盛一时。1524年被西班牙殖民，1821年独立，1839年成为完全独立的共和国。","tags":["历史","玛雅","文化"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-8936,1442],[-8958,1440],[-8952,1423],[-8969,1417],[-8975,1404],[-8988,1404],[-9002,1394],[-9010,1373],[-9058,1391],[-9132,1396],[-9176,1418],[-9225,1455],[-9216,1468],[-9215,1500],[-9207,1507],[-9220,1529],[-9174,1606],[-9044,1610],[-9040,1642],[-9063,1648],[-9080,1680],[-9106,1691],[-9129,1719],[-9144,1724],[-9099,1725],[-9098,1781],[-8916,1781],[-8924,1589],[-8879,1586],[-8861,1570],[-8856,1585],[-8849,1585],[-8860,1597],[-8822,1573],[-8916,1506],[-8923,1485],[-8916,1458],[-8936,1442]]]}
+{
+  "qid": "Q774",
+  "iso_a2": "GT",
+  "iso_a3": "GTM",
+  "name_zh": "危地马拉",
+  "name_en": "Guatemala",
+  "capital": "危地马拉城",
+  "continent": "北美洲",
+  "centroid": [
+    -90.25,
+    15.5
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "es",
+      "name_zh": "西班牙语",
+      "name_local": "西班牙语",
+      "role": "official",
+      "audio_url": "assets/gt/audio/es.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenidos a Guatemala, un país de volcanes y lagos; su capital es la Ciudad de Guatemala, y entre sus lugares más emblemáticos destaca el lago de Atitlán, rodeado de montañas y pueblos mayas.",
+      "tts_text_zh": "欢迎来到危地马拉，一个火山与湖泊之国；它的首都是危地马拉城，最具代表性的地标之一是阿蒂特兰湖，四周环绕着群山与玛雅村落。",
+      "audio_voice": "es-AR-ElenaNeural",
+      "audio_bytes": 75168
+    }
+  ],
+  "summary_text": "危地马拉共和国通称危地马拉，位于中美洲北部，北接墨西哥，东北邻伯利兹，东南与洪都拉斯和萨尔瓦多接壤，西濒太平洋，东临加勒比海的洪都拉斯湾，总面积约108,889平方公里，是中美洲人口最多的国家。全国人口约1,900万，首都及最大城市为危地马拉城，同时也是中美洲最大的都会区。危地马拉地形多样，北部佩滕低地为热带雨林，中部高地火山纵横，其中包括中美洲最高峰塔胡木耳科火山，海拔4,211米，南部太平洋沿岸则为狭窄平原。危地马拉是古代玛雅文明的核心区域之一，4至10世纪期间，佩滕盆地的玛雅城邦曾繁盛一时。1821年脱离西班牙独立，随后短暂加入墨西哥帝国及中美洲联邦，直至1839年成为完全独立的共和国。20世纪中叶，危地马拉经历了民主改革，随后陷入长达36年的内战，其间原住民玛雅人遭受严重迫害，直至1996年签署和平协定后才逐步恢复稳定。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 369,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%8D%B1%E5%9C%B0%E9%A9%AC%E6%8B%89",
+    "title": "危地马拉"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "从4世纪到10世纪危地马拉的佩滕低地地区是玛雅文明的中心，10世纪末低地地区的玛雅文化被消灭后在中央高地地区仍然存在。1524年西班牙人来到危地马拉，摧毁了当地的玛雅文化并开始殖民危地马拉。由于西班牙殖民者的消灭政策，几乎所有此前的玛雅书籍都遭销毁殆尽，仅少数残存至今。1821年9月15日危地马拉等中美洲国家宣布脱离西班牙统治。1824年到1839年危地马拉为中美洲联邦的一员，直到1840年危地马拉才完全独立。1841年到1871年拉斐尔·卡雷拉及其之后的保守派人士组织危地马拉政府。他们为保护自身利益，试图保留殖民时期留下来的等级制度，并不重视国家经济现代化。1871年胡斯托·鲁菲诺·巴里奥斯·奥延的自由党政权开始执政到1944年国家才开始致力于经济现代化。同时美国主导的联合果品公司也开始收购危地马拉大面积的咖啡和香蕉庄园并介入危地马拉的政治。1944年十月革命后前独裁者豪尔赫·乌维科被推翻，危地马拉实行民主与言论自由，危地马拉史上第一部保护工人利益的法律生效，1950年到1954年执政的瑞士裔哈科沃·阿本斯总统施行了土地改革。当时仅全国人口2%的大地主却占有全国约70%的可耕地，而阿本斯开出土地改革的支票，承诺买下大地主持有的土地并重新分配给小农。阿本斯以此赢得选举，土地改革计划也立刻实行。针对拥有土地大于223英亩的地主，只要有未用于生产的土地便要征收。最后从1059个农场征收了平均4300英亩的土地，约有十万名农民得到这些土地的所有权。联合果品公司在危地马拉拥有其最大的庄园，而且还拥有中美洲国际铁路公司和危地马拉仅有的一个海港。在联合果品公司的驱使下，美国外交部开始对危地马拉展开宣传战，以反共的名义打击阿本斯政权。中央情报局与危地马拉军队中的反对派合作，共同策划了1954年危地马拉政变。阿本斯政权被推翻以后，总统流亡海外，卡斯蒂略·阿马斯成为新的独裁者。新政府立刻废除前阿本斯政府所作的改革。1957年阿马斯被刺，讽刺的是他的继承人是一个在40年代独裁政府中就已经以其血腥出名的军人米格尔·伊迪戈拉斯·富恩特斯。不满阿本斯政权被推翻的农民组织了一支游击队，开始与政府军展开长达36年的内战，直到1996年交战双方才签署一份和平条约，正式结束内战。这场内战中约数十万人丧生，上百万人流离失所。危地马拉军队对原住民玛雅人的迫害近似种族灭绝，仅1982年9月里奥斯·蒙特当政时期就有9000位玛雅人惨遭杀害。1983年起危地马拉政府逐步减少迫害原住民，国家重启民主化历程，1985年重新举行大选。但全国人民贫富不均的现象依然没法解决，今天仅占1%的少数人却拥有危地马拉60%以上的可耕地和财富。",
+      "chars": 1110
+    },
+    {
+      "section": "文化",
+      "text": "危地马拉主要信仰天主教，约占总人口之51%。其余宗教包括新教约占36.7%，马雅信仰约占0.4%，无宗教信仰者占9.1%。\n危地马拉的官方语言为西班牙语。除西班牙语之外，危地马拉大部分地区亦通用多种马雅方言，加勒比海地区另有Garífuna方言。\n危地马拉的饮食风俗深受马雅和西班牙殖民者的影响，而濒临加勒比海的伊萨瓦尔省一带的饮食则受到西非的影响，玉米是该国主要的粮食，通常会做成玉米薄饼（英语：Corn tortilla）；而西红柿、红豆与黑豆也是该国厨房里常见的食材，相比起墨西哥，当地料理并不常使用辣椒。青酱牛肉（西班牙语：Jocón (platillo típico de Guatemala)）、茄汁鸡肉（西班牙语：Pepián (Guatemala)）也是当地具有代表性的肉类料理。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "危地马拉的饮食风俗深受马雅和西班牙殖民者的影响，而濒临加勒比海的伊萨瓦尔省一带的饮食则受到西非的影响，玉米是该国主要的粮食，通常会做成玉米薄饼（英语：Corn tortilla）；而西红柿、红豆与黑豆也是该国厨房里常见的食材，相比起墨西哥，当地料理并不常使用辣椒。青酱牛肉（西班牙语：Jocón (platillo típico de Guatemala)）、茄汁鸡肉（西班牙语：Pepián (Guatemala)）也是当地具有代表性的肉类料理。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "危地马拉43%的人口是当地玛雅人的后裔。在加勒比海岸附近也有非洲人的后裔。大多数危地马拉人生活在农村，但城市化不断加快。最主要的宗教是天主教，不过许多当地的传统也流入了天主教的崇拜和祈祷。约40%的人信新教，1%的人信奉传统的玛雅宗教。\n虽然西班牙语是官方语言，但一些当地人依然说不同的玛雅语言。尤其在农村有时会有人不懂西班牙语。",
+      "chars": 690
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Tikal Temple IV corner detail 1.jpg",
+      "caption_zh": "蒂卡尔古城四号神庙转角局部",
+      "caption": "蒂卡尔古城四号神庙转角局部",
+      "caption_commons": "Detail of Temple IV at Tikal in Guatemala.",
+      "kw": "Tikal Guatemala ruins",
+      "url": "assets/gt/L01.webp",
+      "thumb_url": "assets/gt/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tikal_Temple_IV_corner_detail_1.jpg/1920px-Tikal_Temple_IV_corner_detail_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Simon Burchell",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 297040,
+      "caption_zh_manual": "蒂卡尔古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6986,
+      "size": {
+        "detail": "1080x1440",
+        "thumb": "135x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2560 1250KB JPEG)"
+    },
+    {
+      "title": "File:Antigua - Antigua Guatemala 2.jpg",
+      "caption_zh": "安提瓜中央广场",
+      "caption": "安提瓜中央广场",
+      "caption_commons": "The Church and convent of the Society of Jesus in Antigua Guatemala is a religio",
+      "kw": "Antigua Guatemala Parque Central",
+      "url": "assets/gt/L02.webp",
+      "thumb_url": "assets/gt/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Antigua_-_Antigua_Guatemala_2.jpg/1920px-Antigua_-_Antigua_Guatemala_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Chad Davis",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 188632,
+      "caption_zh_manual": "安提瓜中央广场",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10808,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 1005KB JPEG)"
+    },
+    {
+      "title": "File:Atitlanrealestate Casa del Mundo.jpg",
+      "caption_zh": "阿蒂特兰湖世界之家",
+      "caption": "阿蒂特兰湖世界之家",
+      "caption_commons": "I took this picture in November of 2006. Image of Lake Atitlán, Guatemala, near ",
+      "kw": "Lake Atitlan Guatemala",
+      "url": "assets/gt/L03.webp",
+      "thumb_url": "assets/gt/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atitlanrealestate_Casa_del_Mundo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Navidnak at English Wikipedia",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 31488,
+      "caption_zh_manual": "阿蒂特兰湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10704,
+      "size": {
+        "detail": "461x307",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 461x307 118KB JPEG)"
+    },
+    {
+      "title": "File:Volcán de Fuego and Acatenango.jpg",
+      "caption_zh": "富埃戈火山与阿卡特南戈火山",
+      "caption": "富埃戈火山与阿卡特南戈火山",
+      "caption_commons": "Photo of Volcán de Fuego (left) and Volcán de Agua (right). Volcán Acatenango li",
+      "kw": "Volcan de Fuego Guatemala",
+      "url": "assets/gt/L04.webp",
+      "thumb_url": "assets/gt/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Volc%C3%A1n_de_Fuego_and_Acatenango.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Scottydude",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 60638,
+      "caption_zh_manual": "富埃戈火山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6262,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1600x1200 500KB JPEG)"
+    },
+    {
+      "title": "File:Semuc Champey, Guatemala.jpg",
+      "caption_zh": "危地马拉塞穆克尚佩",
+      "caption": "危地马拉塞穆克尚佩",
+      "caption_commons": "Semuc Champey is famous for its turquoise pools made of limestone. It is located",
+      "kw": "Semuc Champey Guatemala",
+      "url": "assets/gt/L05.webp",
+      "thumb_url": "assets/gt/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Semuc_Champey%2C_Guatemala.jpg/1920px-Semuc_Champey%2C_Guatemala.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Christopher Crouzet",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 217086,
+      "caption_zh_manual": "塞穆克尚佩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11018,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 980KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:23:36+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Guatemala.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Guatemala.wav、LL-Q652 (ita)-Francyskus-Guatemala.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py GT",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "玛雅文明",
+        "evidence": "古代玛雅文明的核心区域之一"
+      },
+      {
+        "v": "佩滕盆地",
+        "evidence": "佩滕盆地的玛雅城邦"
+      },
+      {
+        "v": "热带雨林",
+        "evidence": "北部佩滕低地为热带雨林"
+      },
+      {
+        "v": "火山",
+        "evidence": "中部高地火山纵横"
+      },
+      {
+        "v": "塔胡木耳科火山",
+        "evidence": "中美洲最高峰塔胡木耳科火山"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "危地马拉共和国（西班牙语：República de Guatemala），通称危地马拉（Guatemala ），是中美洲北部的一个国家。该国地理位置优越，北接墨西哥，东北邻伯利兹，东南与洪都拉斯和萨尔瓦多接壤，西濒太平洋，东临加勒比海的洪都拉斯湾，总面积约108,889平方公里，是中美洲人口最多的国家。根据2026年预计，全国人口约1,900万，首都及最大城市为危地马拉城，同时也是中美洲最大的都会区。\n危地马拉是古代玛雅文明的核心区域之一，4至10世纪期间，佩滕盆地的玛雅城邦曾繁盛一时。1524年，西班牙殖民者征服该地后，危地马拉成为新西班牙总督辖区的一部分。1821年脱离西班牙独立，随后短暂加入墨西哥帝国及中美洲联邦，直至1839年成为完全独立的共和国。20世纪中叶，危地马拉经历了民主改革与美国支持的军事政变，随后陷入长达36年的内战（1960–1996），其间原住民玛雅人遭受严重迫害，直至1996年签署和平协定后才逐步恢复稳定。\n危地马拉地形多样，北部佩滕低地为热带雨林，中部高地火山纵横（包括中美洲最高峰塔胡木耳科火山，海拔4,211米），南部太平洋沿岸则为狭窄平原。",
+  "history_text": "四至十世纪，佩滕低地是玛雅文明的中心，十世纪末低地文化消亡后，中央高地仍有留存。1524年西班牙人到来，摧毁玛雅文化并开始殖民，玛雅书籍几乎被销毁殆尽。1821年宣布脱离西班牙统治，此后短暂加入中美洲联邦，至1840年才完全独立。1944年十月革命推翻独裁者，民主与言论自由开启，第一部保护工人利益的法律生效。",
+  "custom_text": "玉米是主要粮食，通常做成薄饼，西红柿、红豆与黑豆也是厨房常备，当地料理不常使用辣椒。青酱牛肉与茄汁鸡肉是具代表性的肉类料理。天主教崇拜与祈祷中融入了许多当地传统，农村仍有人说各种玛雅语言，有人不懂西班牙语。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 155,
+      "folk": 103
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "危地马拉在哪儿啊？周围都是哪些国家？",
+      "a": "在北美洲，中美洲北部。北接墨西哥，东北邻伯利兹，东南与洪都拉斯和萨尔瓦多接壤，西濒太平洋，东临加勒比海的洪都拉斯湾。",
+      "tags": [
+        "地理位置",
+        "邻国",
+        "中美洲"
+      ]
+    },
+    {
+      "q": "危地马拉面积多大？人口多少？",
+      "a": "总面积约108,889平方公里，是中美洲人口最多的国家。根据2026年预计，全国人口约1,900万。",
+      "tags": [
+        "面积",
+        "人口",
+        "多大"
+      ]
+    },
+    {
+      "q": "危地马拉的首都是哪里？",
+      "a": "首都及最大城市是危地马拉城，同时也是中美洲最大的都会区。",
+      "tags": [
+        "首都",
+        "危地马拉城",
+        "最大城市"
+      ]
+    },
+    {
+      "q": "危地马拉说什么语言？",
+      "a": "官方语言是西班牙语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "西班牙语"
+      ]
+    },
+    {
+      "q": "危地马拉有什么值得看的地标或景观？",
+      "a": "有蒂卡尔古城、安提瓜中央广场、阿蒂特兰湖、富埃戈火山和塞穆克尚佩。",
+      "tags": [
+        "地标",
+        "景点",
+        "看什么"
+      ]
+    },
+    {
+      "q": "危地马拉的地形怎么样？有什么火山？",
+      "a": "地形多样，北部佩滕低地为热带雨林，中部高地火山纵横，包括中美洲最高峰塔胡木耳科火山，海拔4,211米；南部太平洋沿岸为狭窄平原。",
+      "tags": [
+        "地形",
+        "火山",
+        "自然风光"
+      ]
+    },
+    {
+      "q": "危地马拉有什么历史文化背景？",
+      "a": "是古代玛雅文明的核心区域之一，4至10世纪佩滕盆地的玛雅城邦曾繁盛一时。1524年被西班牙殖民，1821年独立，1839年成为完全独立的共和国。",
+      "tags": [
+        "历史",
+        "玛雅",
+        "文化"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -8936,
+        1442
+      ],
+      [
+        -8958,
+        1440
+      ],
+      [
+        -8952,
+        1423
+      ],
+      [
+        -8969,
+        1417
+      ],
+      [
+        -8975,
+        1404
+      ],
+      [
+        -8988,
+        1404
+      ],
+      [
+        -9002,
+        1394
+      ],
+      [
+        -9010,
+        1373
+      ],
+      [
+        -9058,
+        1391
+      ],
+      [
+        -9132,
+        1396
+      ],
+      [
+        -9176,
+        1418
+      ],
+      [
+        -9225,
+        1455
+      ],
+      [
+        -9216,
+        1468
+      ],
+      [
+        -9215,
+        1500
+      ],
+      [
+        -9207,
+        1507
+      ],
+      [
+        -9220,
+        1529
+      ],
+      [
+        -9174,
+        1606
+      ],
+      [
+        -9044,
+        1610
+      ],
+      [
+        -9040,
+        1642
+      ],
+      [
+        -9063,
+        1648
+      ],
+      [
+        -9080,
+        1680
+      ],
+      [
+        -9106,
+        1691
+      ],
+      [
+        -9129,
+        1719
+      ],
+      [
+        -9144,
+        1724
+      ],
+      [
+        -9099,
+        1725
+      ],
+      [
+        -9098,
+        1781
+      ],
+      [
+        -8916,
+        1781
+      ],
+      [
+        -8924,
+        1589
+      ],
+      [
+        -8879,
+        1586
+      ],
+      [
+        -8861,
+        1570
+      ],
+      [
+        -8856,
+        1585
+      ],
+      [
+        -8849,
+        1585
+      ],
+      [
+        -8860,
+        1597
+      ],
+      [
+        -8822,
+        1573
+      ],
+      [
+        -8916,
+        1506
+      ],
+      [
+        -8923,
+        1485
+      ],
+      [
+        -8916,
+        1458
+      ],
+      [
+        -8936,
+        1442
+      ]
+    ]
+  ]
+}

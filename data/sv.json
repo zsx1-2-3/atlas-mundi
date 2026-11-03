@@ -1,1 +1,513 @@
-{"qid":"Q792","iso_a2":"SV","iso_a3":"SLV","name_zh":"萨尔瓦多","name_en":"El Salvador","capital":"圣萨尔瓦多","continent":"北美洲","centroid":[-88.8661,13.6689],"centroid_source":"wikidata P625","languages":[{"code":"es","name_zh":"西班牙语","name_local":"西班牙语","role":"official","audio_url":"assets/sv/audio/es.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenidos a El Salvador, un país donde la historia y la naturaleza se encuentran; su capital es San Salvador, y entre sus lugares más emblemáticos destaca el volcán de San Salvador, que se alza sobre el valle y ofrece una vista que invita a contemplar la ciudad desde las alturas.","tts_text_zh":"欢迎来到萨尔瓦多，这个历史与自然交汇的国度；它的首都是圣萨尔瓦多，而在其最具代表性的地标中，圣萨尔瓦多火山尤为突出，它耸立在谷地之上，邀人从高处俯瞰整座城市。","audio_voice":"es-AR-ElenaNeural","audio_bytes":98208}],"summary_text":"萨尔瓦多共和国通称萨尔瓦多，位于中美洲北部，是中美洲唯一不靠大西洋的国家，全国面积21,393平方千米。该国西北邻接危地马拉，东北与洪都拉斯交界，西面滨临太平洋，东南邻近丰塞卡湾。首都为圣萨尔瓦多。1821年9月15日，萨尔瓦多脱离西班牙的统治独立。从19世纪末到20世纪中叶，萨尔瓦多经历了长期的政治和经济动荡，政变与专制独裁层出不穷，持续的社会经济不平等和内乱在1979年至1992年的萨尔瓦多内战中达到高潮。内战以1992年双方签署《查普尔特佩克和平协定》结束，这项通过谈判达成的协议建立了多党制的宪法共和国，直到今日。萨尔瓦多曾是全球首个将比特币作为法定货币的国家，目前已取消。“萨尔瓦多”在西班牙语中解作“救世主”。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":313,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E8%90%A8%E5%B0%94%E7%93%A6%E5%A4%9A","title":"萨尔瓦多"},"culture_excerpts":[{"section":"历史","text":"1524年沦为西班牙殖民地，1821年9月15日宣布独立。后为墨西哥帝国的一部分。1822年帝国崩溃，萨尔瓦多加入中美洲联邦。1838年中美洲联邦解体后于1841年2月18日宣布成立共和国；萨尔瓦多内战（1980年～1992年）为政府军与游击队的内战，超过7.5万人死亡或失踪。","chars":139},{"section":"政治文化","text":"目前该国主要两大政党为右派民族主义共和联盟（ARENA）和左派法拉本多·马蒂民族解放阵线（FMLN）。FMLN从2009年起执政至2019年。2010年国家共和联盟党（ARENA）分裂，退党者成立偏右派的国家团结联盟党（英语：Grand Alliance for National Unity）（GANA），并在2019年萨尔瓦多总统选举由代表该党的纳伊布·布格磊胜出，结束两大党轮流执政。","chars":1200},{"section":"文化","text":"经过数世纪的殖民统治后，当地的印第安人已经被同化，只有少数仍能够保留其印第安文化、传统和语言。而深受天主教影响的萨尔瓦多，可以在其众多和天主教有关的节庆日中体现出来。\n萨尔瓦多最受欢迎的运动为足球。萨尔瓦多国家足球队曾在1970年和1982年取得世界杯足球赛的参赛资格。","chars":1200},{"section":"人口","text":"萨尔瓦多总人口约682万(2021年)，其中印欧混血种人（即印第安人和西班牙人混血后裔）占90%。另外白人占9%，其余1%为当地土著。首都圣萨尔瓦多为全国人口最多的城市，居住了210万人。而住在乡间的人口约占总人口的42%。\n据联合国的统计，萨尔瓦多人的平均寿命为男性68岁；而女性则是74岁。","chars":1200}],"landmark_images":[{"title":"File:Santa Ana Volcano.USAF.C-130.1.jpg","caption_zh":"圣安娜火山航拍","caption":"圣安娜火山航拍","caption_commons":"","kw":"Santa Ana Volcano El Salvador","url":"assets/sv/L01.webp","thumb_url":"assets/sv/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/3/36/Santa_Ana_Volcano.USAF.C-130.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":null,"license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":19308,"caption_zh_manual":"圣安娜火山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":6828,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1600x1200 782KB JPEG)"},{"title":"File:Coatepeque - santa ana by mimamor.png","caption_zh":"科阿特佩克湖","caption":"科阿特佩克湖","caption_commons":"Coatepeque - santa ana","kw":"Lake Coatepeque El Salvador","url":"assets/sv/L02.webp","thumb_url":"assets/sv/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/3/35/Coatepeque_-_santa_ana_by_mimamor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"MIMAMOR from California, USA","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":26636,"caption_zh_manual":"科阿特佩克湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10722,"size":{"detail":"760x510","thumb":"400x268"},"encoding":"webp q72/q74 (源 1024x687 2737KB JPEG)"},{"title":"File:Green_Izalco_Volcano.JPG","caption_zh":"绿色的伊萨尔科火山","caption":"绿色的伊萨尔科火山","caption_commons":"El Salvador: Ecotourism - The Izalco Volcano Site: The Izalco Volcano, partially","kw":"Izalco Volcano El Salvador","url":"assets/sv/L03.webp","thumb_url":"assets/sv/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Green_Izalco_Volcano.JPG/1920px-Green_Izalco_Volcano.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikipedia_lead","pick_tier":"strict","author":"Angela Rucker, USAID","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":27156,"caption_zh_manual":"伊萨尔科火山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7834,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 374KB JPEG)"},{"title":"File:Cathedral of San Salvador 2023.png","caption_zh":"圣萨尔瓦多大教堂","caption":"圣萨尔瓦多大教堂","caption_commons":"Picture of the Metropolitan Cathedral of San Salvador in 2023","kw":"San Salvador Cathedral El Salvador","url":"assets/sv/L04.webp","thumb_url":"assets/sv/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/d/dc/Cathedral_of_San_Salvador_2023.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"Echa24161","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":43148,"caption_zh_manual":"圣萨尔瓦多大教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15650,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1197x897 1626KB JPEG)"},{"title":"File:Villaluenga del Rosario-IMG 20210725 172405.jpg","caption_zh":"罗萨里奥教堂","caption":"罗萨里奥教堂","caption_commons":"Villaluenga del Rosario (Andalucía, España)","kw":"Rosario Church San Salvador","url":"assets/sv/L05.webp","thumb_url":"assets/sv/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Villaluenga_del_Rosario-IMG_20210725_172405.jpg/1920px-Villaluenga_del_Rosario-IMG_20210725_172405.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"El Pantera","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":88940,"caption_zh_manual":"罗萨里奥教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":24516,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 1008KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:03:40+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-El Salvador.ogg、LL-Q7913 (ron)-KlaudiuMihaila-El Salvador.wav、LL-Q33810 (ori)-Psubhashish-ଏଲ ସାଲଭାଡୋର.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py SV","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"太平洋","evidence":"西面滨临太平洋"},{"v":"丰塞卡湾","evidence":"东南邻近丰塞卡湾"},{"v":"西班牙语","evidence":"西班牙语：El Salvador"},{"v":"比特币","evidence":"将比特币作为法定货币"}],"model":"deepseek-flash"},"summary_text_raw":"萨尔瓦多共和国（西班牙语：República de El Salvador），通称萨尔瓦多（西班牙语：El Salvador），是位于中美洲北部的国家，为中美洲唯一不靠大西洋之国家，全国面积21,393平方千米。该国西北邻接危地马拉，东北与洪都拉斯交界，西面滨临太平洋，东南邻近丰塞卡湾。首都为圣萨尔瓦多。1821年9月15日脱离西班牙的统治独立。从19世纪末到20世纪中叶，萨尔瓦多经历了长期的政治和经济动荡，政变与专制独裁层出不穷，持续的社会经济不平等和内乱在1979年至1992年的萨尔瓦多内战中达到高潮，这场战争由军方领导的政府与左翼游击团体联合组织之间进行。内战以1992年双方签署《查普尔特佩克和平协定》结束。这项通过谈判达成的协议建立了多党制的宪法共和国，直到今日。\n萨尔瓦多曾是全球首个将比特币作为法定货币的国家，目前已取消。\n\n\n== 国名 ==\n“萨尔瓦多”（El Salvador）在西班牙语解作“救世主”。","history_text":"1524年沦为西班牙殖民地，1821年9月15日宣布独立，随后一度并入墨西哥帝国；1822年帝国崩溃后加入中美洲联邦。1838年中美洲联邦解体，1841年2月18日宣布成立共和国。此后长期政治动荡，1980年至1992年的内战在政府军与游击队之间展开，超过七万五千人死亡或失踪，最终以和平协定结束冲突、转向多党制宪政。","custom_text":"殖民数百年后，当地印第安人多已被同化，只有少数仍保留自己的语言、传统与手艺。天主教深深渗入日常节庆，村镇的守护圣人日往往以游行、弥撒和市集连缀成一年中最热闹的几天。足球是最受追捧的运动，街头巷尾的孩子踢球成风，国家队出赛时整座城镇都停下来看。饮食上，玉米饼、豆泥与奶酪是家家餐桌的底子。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":159,"folk":143}},"knowledge_qa":[{"q":"萨尔瓦多在哪啊？周围都是些什么地方？","a":"位于中美洲北部，西北接危地马拉，东北与洪都拉斯交界，西面滨临太平洋，东南邻近丰塞卡湾，是中美洲唯一不靠大西洋的国家。","tags":["中美洲","位置","邻国","太平洋"]},{"q":"萨尔瓦多面积多大？首都是哪？","a":"全国面积21,393平方千米，首都为圣萨尔瓦多。","tags":["面积","首都","圣萨尔瓦多"]},{"q":"萨尔瓦多人说什么语言？","a":"官方语言是西班牙语。","tags":["语言","西班牙语","说什么话"]},{"q":"萨尔瓦多有什么值得一看的火山或湖泊？","a":"有圣安娜火山、伊萨尔科火山和科阿特佩克湖等自然景观。","tags":["火山","湖泊","自然景观","圣安娜火山"]},{"q":"萨尔瓦多有哪些有名的教堂？","a":"圣萨尔瓦多大教堂和罗萨里奥教堂都是当地有名的宗教建筑。","tags":["教堂","建筑","圣萨尔瓦多大教堂","罗萨里奥教堂"]},{"q":"萨尔瓦多有什么传统节日或习俗吗？","a":"现有资料没有提到具体的节日或传统习俗。","tags":["节日","习俗","传统文化"]},{"q":"萨尔瓦多有什么特色吃的或特产？","a":"现有资料没有提到饮食或特产信息。","tags":["吃什么","特产","饮食"]},{"q":"萨尔瓦多以前是不是用比特币当法定货币？","a":"是的，萨尔瓦多曾是全球首个将比特币作为法定货币的国家，但目前已取消。","tags":["比特币","法定货币","经济"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-9010,1373],[-9002,1394],[-8988,1404],[-8975,1404],[-8969,1417],[-8952,1423],[-8958,1440],[-8940,1444],[-8915,1435],[-8911,1440],[-8884,1410],[-8850,1398],[-8850,1385],[-8810,1399],[-8802,1387],[-8782,1392],[-8770,1382],[-8779,1353],[-8772,1346],[-8784,1344],[-8787,1336],[-8779,1329],[-8793,1316],[-8832,1317],[-8836,1323],[-8842,1317],[-8845,1326],[-8860,1328],[-8872,1327],[-8846,1317],[-8879,1324],[-8925,1347],[-8981,1353],[-9010,1373]],[[-8773,1320],[-8772,1322],[-8771,1321],[-8769,1317],[-8772,1316],[-8773,1320]],[[-8777,1325],[-8775,1323],[-8776,1321],[-8778,1324],[-8777,1325]]]}
+{
+  "qid": "Q792",
+  "iso_a2": "SV",
+  "iso_a3": "SLV",
+  "name_zh": "萨尔瓦多",
+  "name_en": "El Salvador",
+  "capital": "圣萨尔瓦多",
+  "continent": "北美洲",
+  "centroid": [
+    -88.8661,
+    13.6689
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "es",
+      "name_zh": "西班牙语",
+      "name_local": "西班牙语",
+      "role": "official",
+      "audio_url": "assets/sv/audio/es.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenidos a El Salvador, un país donde la historia y la naturaleza se encuentran; su capital es San Salvador, y entre sus lugares más emblemáticos destaca el volcán de San Salvador, que se alza sobre el valle y ofrece una vista que invita a contemplar la ciudad desde las alturas.",
+      "tts_text_zh": "欢迎来到萨尔瓦多，这个历史与自然交汇的国度；它的首都是圣萨尔瓦多，而在其最具代表性的地标中，圣萨尔瓦多火山尤为突出，它耸立在谷地之上，邀人从高处俯瞰整座城市。",
+      "audio_voice": "es-AR-ElenaNeural",
+      "audio_bytes": 98208
+    }
+  ],
+  "summary_text": "萨尔瓦多共和国通称萨尔瓦多，位于中美洲北部，是中美洲唯一不靠大西洋的国家，全国面积21,393平方千米。该国西北邻接危地马拉，东北与洪都拉斯交界，西面滨临太平洋，东南邻近丰塞卡湾。首都为圣萨尔瓦多。1821年9月15日，萨尔瓦多脱离西班牙的统治独立。从19世纪末到20世纪中叶，萨尔瓦多经历了长期的政治和经济动荡，政变与专制独裁层出不穷，持续的社会经济不平等和内乱在1979年至1992年的萨尔瓦多内战中达到高潮。内战以1992年双方签署《查普尔特佩克和平协定》结束，这项通过谈判达成的协议建立了多党制的宪法共和国，直到今日。萨尔瓦多曾是全球首个将比特币作为法定货币的国家，目前已取消。“萨尔瓦多”在西班牙语中解作“救世主”。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 313,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E5%B0%94%E7%93%A6%E5%A4%9A",
+    "title": "萨尔瓦多"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "1524年沦为西班牙殖民地，1821年9月15日宣布独立。后为墨西哥帝国的一部分。1822年帝国崩溃，萨尔瓦多加入中美洲联邦。1838年中美洲联邦解体后于1841年2月18日宣布成立共和国；萨尔瓦多内战（1980年～1992年）为政府军与游击队的内战，超过7.5万人死亡或失踪。",
+      "chars": 139
+    },
+    {
+      "section": "政治文化",
+      "text": "目前该国主要两大政党为右派民族主义共和联盟（ARENA）和左派法拉本多·马蒂民族解放阵线（FMLN）。FMLN从2009年起执政至2019年。2010年国家共和联盟党（ARENA）分裂，退党者成立偏右派的国家团结联盟党（英语：Grand Alliance for National Unity）（GANA），并在2019年萨尔瓦多总统选举由代表该党的纳伊布·布格磊胜出，结束两大党轮流执政。",
+      "chars": 1200
+    },
+    {
+      "section": "文化",
+      "text": "经过数世纪的殖民统治后，当地的印第安人已经被同化，只有少数仍能够保留其印第安文化、传统和语言。而深受天主教影响的萨尔瓦多，可以在其众多和天主教有关的节庆日中体现出来。\n萨尔瓦多最受欢迎的运动为足球。萨尔瓦多国家足球队曾在1970年和1982年取得世界杯足球赛的参赛资格。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "萨尔瓦多总人口约682万(2021年)，其中印欧混血种人（即印第安人和西班牙人混血后裔）占90%。另外白人占9%，其余1%为当地土著。首都圣萨尔瓦多为全国人口最多的城市，居住了210万人。而住在乡间的人口约占总人口的42%。\n据联合国的统计，萨尔瓦多人的平均寿命为男性68岁；而女性则是74岁。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Santa Ana Volcano.USAF.C-130.1.jpg",
+      "caption_zh": "圣安娜火山航拍",
+      "caption": "圣安娜火山航拍",
+      "caption_commons": "",
+      "kw": "Santa Ana Volcano El Salvador",
+      "url": "assets/sv/L01.webp",
+      "thumb_url": "assets/sv/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Santa_Ana_Volcano.USAF.C-130.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": null,
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 35724,
+      "caption_zh_manual": "圣安娜火山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3744,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1600x1200 782KB JPEG)"
+    },
+    {
+      "title": "File:Coatepeque - santa ana by mimamor.png",
+      "caption_zh": "科阿特佩克湖",
+      "caption": "科阿特佩克湖",
+      "caption_commons": "Coatepeque - santa ana",
+      "kw": "Lake Coatepeque El Salvador",
+      "url": "assets/sv/L02.webp",
+      "thumb_url": "assets/sv/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Coatepeque_-_santa_ana_by_mimamor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "MIMAMOR from California, USA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 42094,
+      "caption_zh_manual": "科阿特佩克湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5574,
+      "size": {
+        "detail": "1024x687",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1024x687 2737KB JPEG)"
+    },
+    {
+      "title": "File:Green_Izalco_Volcano.JPG",
+      "caption_zh": "绿色的伊萨尔科火山",
+      "caption": "绿色的伊萨尔科火山",
+      "caption_commons": "El Salvador: Ecotourism - The Izalco Volcano Site: The Izalco Volcano, partially",
+      "kw": "Izalco Volcano El Salvador",
+      "url": "assets/sv/L03.webp",
+      "thumb_url": "assets/sv/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Green_Izalco_Volcano.JPG/1920px-Green_Izalco_Volcano.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikipedia_lead",
+      "pick_tier": "strict",
+      "author": "Angela Rucker, USAID",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 57198,
+      "caption_zh_manual": "伊萨尔科火山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3538,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 374KB JPEG)"
+    },
+    {
+      "title": "File:Cathedral of San Salvador 2023.png",
+      "caption_zh": "圣萨尔瓦多大教堂",
+      "caption": "圣萨尔瓦多大教堂",
+      "caption_commons": "Picture of the Metropolitan Cathedral of San Salvador in 2023",
+      "kw": "San Salvador Cathedral El Salvador",
+      "url": "assets/sv/L04.webp",
+      "thumb_url": "assets/sv/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Cathedral_of_San_Salvador_2023.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Echa24161",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 75912,
+      "caption_zh_manual": "圣萨尔瓦多大教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7750,
+      "size": {
+        "detail": "1080x809",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1197x897 1626KB JPEG)"
+    },
+    {
+      "title": "File:Villaluenga del Rosario-IMG 20210725 172405.jpg",
+      "caption_zh": "罗萨里奥教堂",
+      "caption": "罗萨里奥教堂",
+      "caption_commons": "Villaluenga del Rosario (Andalucía, España)",
+      "kw": "Rosario Church San Salvador",
+      "url": "assets/sv/L05.webp",
+      "thumb_url": "assets/sv/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Villaluenga_del_Rosario-IMG_20210725_172405.jpg/1920px-Villaluenga_del_Rosario-IMG_20210725_172405.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "El Pantera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 197450,
+      "caption_zh_manual": "罗萨里奥教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10686,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 1008KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:03:40+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-El Salvador.ogg、LL-Q7913 (ron)-KlaudiuMihaila-El Salvador.wav、LL-Q33810 (ori)-Psubhashish-ଏଲ ସାଲଭାଡୋର.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py SV",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "太平洋",
+        "evidence": "西面滨临太平洋"
+      },
+      {
+        "v": "丰塞卡湾",
+        "evidence": "东南邻近丰塞卡湾"
+      },
+      {
+        "v": "西班牙语",
+        "evidence": "西班牙语：El Salvador"
+      },
+      {
+        "v": "比特币",
+        "evidence": "将比特币作为法定货币"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "萨尔瓦多共和国（西班牙语：República de El Salvador），通称萨尔瓦多（西班牙语：El Salvador），是位于中美洲北部的国家，为中美洲唯一不靠大西洋之国家，全国面积21,393平方千米。该国西北邻接危地马拉，东北与洪都拉斯交界，西面滨临太平洋，东南邻近丰塞卡湾。首都为圣萨尔瓦多。1821年9月15日脱离西班牙的统治独立。从19世纪末到20世纪中叶，萨尔瓦多经历了长期的政治和经济动荡，政变与专制独裁层出不穷，持续的社会经济不平等和内乱在1979年至1992年的萨尔瓦多内战中达到高潮，这场战争由军方领导的政府与左翼游击团体联合组织之间进行。内战以1992年双方签署《查普尔特佩克和平协定》结束。这项通过谈判达成的协议建立了多党制的宪法共和国，直到今日。\n萨尔瓦多曾是全球首个将比特币作为法定货币的国家，目前已取消。\n\n\n== 国名 ==\n“萨尔瓦多”（El Salvador）在西班牙语解作“救世主”。",
+  "history_text": "1524年沦为西班牙殖民地，1821年9月15日宣布独立，随后一度并入墨西哥帝国；1822年帝国崩溃后加入中美洲联邦。1838年中美洲联邦解体，1841年2月18日宣布成立共和国。此后长期政治动荡，1980年至1992年的内战在政府军与游击队之间展开，超过七万五千人死亡或失踪，最终以和平协定结束冲突、转向多党制宪政。",
+  "custom_text": "殖民数百年后，当地印第安人多已被同化，只有少数仍保留自己的语言、传统与手艺。天主教深深渗入日常节庆，村镇的守护圣人日往往以游行、弥撒和市集连缀成一年中最热闹的几天。足球是最受追捧的运动，街头巷尾的孩子踢球成风，国家队出赛时整座城镇都停下来看。饮食上，玉米饼、豆泥与奶酪是家家餐桌的底子。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 159,
+      "folk": 143
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "萨尔瓦多在哪啊？周围都是些什么地方？",
+      "a": "位于中美洲北部，西北接危地马拉，东北与洪都拉斯交界，西面滨临太平洋，东南邻近丰塞卡湾，是中美洲唯一不靠大西洋的国家。",
+      "tags": [
+        "中美洲",
+        "位置",
+        "邻国",
+        "太平洋"
+      ]
+    },
+    {
+      "q": "萨尔瓦多面积多大？首都是哪？",
+      "a": "全国面积21,393平方千米，首都为圣萨尔瓦多。",
+      "tags": [
+        "面积",
+        "首都",
+        "圣萨尔瓦多"
+      ]
+    },
+    {
+      "q": "萨尔瓦多人说什么语言？",
+      "a": "官方语言是西班牙语。",
+      "tags": [
+        "语言",
+        "西班牙语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "萨尔瓦多有什么值得一看的火山或湖泊？",
+      "a": "有圣安娜火山、伊萨尔科火山和科阿特佩克湖等自然景观。",
+      "tags": [
+        "火山",
+        "湖泊",
+        "自然景观",
+        "圣安娜火山"
+      ]
+    },
+    {
+      "q": "萨尔瓦多有哪些有名的教堂？",
+      "a": "圣萨尔瓦多大教堂和罗萨里奥教堂都是当地有名的宗教建筑。",
+      "tags": [
+        "教堂",
+        "建筑",
+        "圣萨尔瓦多大教堂",
+        "罗萨里奥教堂"
+      ]
+    },
+    {
+      "q": "萨尔瓦多有什么传统节日或习俗吗？",
+      "a": "现有资料没有提到具体的节日或传统习俗。",
+      "tags": [
+        "节日",
+        "习俗",
+        "传统文化"
+      ]
+    },
+    {
+      "q": "萨尔瓦多有什么特色吃的或特产？",
+      "a": "现有资料没有提到饮食或特产信息。",
+      "tags": [
+        "吃什么",
+        "特产",
+        "饮食"
+      ]
+    },
+    {
+      "q": "萨尔瓦多以前是不是用比特币当法定货币？",
+      "a": "是的，萨尔瓦多曾是全球首个将比特币作为法定货币的国家，但目前已取消。",
+      "tags": [
+        "比特币",
+        "法定货币",
+        "经济"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -9010,
+        1373
+      ],
+      [
+        -9002,
+        1394
+      ],
+      [
+        -8988,
+        1404
+      ],
+      [
+        -8975,
+        1404
+      ],
+      [
+        -8969,
+        1417
+      ],
+      [
+        -8952,
+        1423
+      ],
+      [
+        -8958,
+        1440
+      ],
+      [
+        -8940,
+        1444
+      ],
+      [
+        -8915,
+        1435
+      ],
+      [
+        -8911,
+        1440
+      ],
+      [
+        -8884,
+        1410
+      ],
+      [
+        -8850,
+        1398
+      ],
+      [
+        -8850,
+        1385
+      ],
+      [
+        -8810,
+        1399
+      ],
+      [
+        -8802,
+        1387
+      ],
+      [
+        -8782,
+        1392
+      ],
+      [
+        -8770,
+        1382
+      ],
+      [
+        -8779,
+        1353
+      ],
+      [
+        -8772,
+        1346
+      ],
+      [
+        -8784,
+        1344
+      ],
+      [
+        -8787,
+        1336
+      ],
+      [
+        -8779,
+        1329
+      ],
+      [
+        -8793,
+        1316
+      ],
+      [
+        -8832,
+        1317
+      ],
+      [
+        -8836,
+        1323
+      ],
+      [
+        -8842,
+        1317
+      ],
+      [
+        -8845,
+        1326
+      ],
+      [
+        -8860,
+        1328
+      ],
+      [
+        -8872,
+        1327
+      ],
+      [
+        -8846,
+        1317
+      ],
+      [
+        -8879,
+        1324
+      ],
+      [
+        -8925,
+        1347
+      ],
+      [
+        -8981,
+        1353
+      ],
+      [
+        -9010,
+        1373
+      ]
+    ],
+    [
+      [
+        -8773,
+        1320
+      ],
+      [
+        -8772,
+        1322
+      ],
+      [
+        -8771,
+        1321
+      ],
+      [
+        -8769,
+        1317
+      ],
+      [
+        -8772,
+        1316
+      ],
+      [
+        -8773,
+        1320
+      ]
+    ],
+    [
+      [
+        -8777,
+        1325
+      ],
+      [
+        -8775,
+        1323
+      ],
+      [
+        -8776,
+        1321
+      ],
+      [
+        -8778,
+        1324
+      ],
+      [
+        -8777,
+        1325
+      ]
+    ]
+  ]
+}

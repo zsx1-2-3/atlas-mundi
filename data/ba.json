@@ -1,1 +1,494 @@
-{"qid":"Q225","iso_a2":"BA","iso_a3":"BIH","name_zh":"波斯尼亚和黑塞哥维那","name_en":"Bosnia and Herzegovina","capital":"萨拉热窝","continent":"欧洲","centroid":[18,44],"centroid_source":"wikidata P625","languages":[{"code":"bs","name_zh":"波斯尼亚语","name_local":"波斯尼亚语","role":"official","audio_url":"assets/ba/audio/bs.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Dobro došli u Bosnu i Hercegovinu, zemlju u kojoj se planine i rijeke susreću pod otvorenim nebom; njen glavni grad je Sarajevo, a među njegovim najpoznatijim znamenitostima izdvaja se stari most u Mostaru, koji kao da lebdi nad zelenom Neretvom.","tts_text_zh":"欢迎来到波斯尼亚和黑塞哥维那，这片群山与河流在开阔天空下相遇的土地；它的首都是萨拉热窝，而最具代表性的地标之一是莫斯塔尔老桥，它仿佛悬浮在碧绿的內雷特瓦河之上。","audio_voice":"bs-BA-VesnaNeural","audio_bytes":84816},{"code":"hr","name_zh":"克罗地亚语","name_local":"克罗地亚语","role":"official","audio_url":"assets/ba/audio/hr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Dobro došli u Bosnu i Hercegovinu, zemlju u kojoj se planine i rijeke susreću pod otvorenim nebom; njezin glavni grad je Sarajevo, a među njegovim najpoznatijim znamenitostima izdvaja se stari most u Mostaru, koji kao da lebdi nad zelenom Neretvom.","tts_text_zh":"欢迎来到波斯尼亚和黑塞哥维那，这片群山与河流在开阔天空下相遇的土地；它的首都是萨拉热窝，而最具代表性的地标之一是莫斯塔尔老桥，它仿佛悬浮在碧绿的內雷特瓦河之上。","audio_voice":"hr-HR-GabrijelaNeural","audio_bytes":93456},{"code":"sr","name_zh":"塞尔维亚语","name_local":"塞尔维亚语","role":"official","audio_url":"assets/ba/audio/sr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Dobro došli u Bosnu i Hercegovinu, zemlju u kojoj se planine i reke susreću pod otvorenim nebom; njen glavni grad je Sarajevo, a među njegovim najpoznatijim znamenitostima izdvaja se stari most u Mostaru, koji kao da lebdi nad zelenom Neretvom.","tts_text_zh":"欢迎来到波斯尼亚和黑塞哥维那，这片群山与河流在开阔天空下相遇的土地；它的首都是萨拉热窝，而最具代表性的地标之一是莫斯塔尔老桥，它仿佛悬浮在碧绿的內雷特瓦河之上。","audio_voice":"sr-RS-SophieNeural","audio_bytes":97920}],"summary_text":"波斯尼亚和黑塞哥维那简称波黑，是欧洲东南部巴尔干半岛西部的主权国家，首都萨拉热窝。该国拥有约20公里亚得里亚海海岸线，北及西南接克罗地亚，东邻塞尔维亚，东南毗黑山。地形以迪纳拉山脉为主体，波斯尼亚地区属温带大陆性气候，黑塞哥维纳则呈现地中海气候特征。波黑历史可追溯至旧石器时代晚期，新石器时代的布特米尔文化与武切多尔文化在此发展，斯拉夫人于6至9世纪迁入。1463年遭奥斯曼帝国征服并引入伊斯兰教，19世纪末转由奥匈帝国管治。二战后作为加盟共和国加入南斯拉夫社会主义联邦共和国，1992年经公投独立，1995年《代顿协议》确立现行宪政架构。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":270,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%96%AF%E5%B0%BC%E4%BA%9A%E5%92%8C%E9%BB%91%E5%A1%9E%E5%93%A5%E7%BB%B4%E9%82%A3","title":"波斯尼亚和黑塞哥维那"},"culture_excerpts":[{"section":"历史","text":"此外，新石器时代的文物也时有发现，当时的居民为伊利里亚人。波黑地域于公元前168年由罗马帝国占领。455年时东哥特人将该地区占领，6世纪时东哥特人被拜占庭击败，现波斯尼亚和黑塞哥维那南部地区一度成为拜占庭帝国的一部分。阿瓦尔人于6世纪和7世纪时开始入侵，塞尔维亚人和克罗地亚人也相继进入巴尔干半岛。在接下来的几个世纪内，波斯尼亚以及赫塞哥维纳地区多次分属周围的各个国家。1377年时特弗尔特科·科特罗曼尼奇（Tvrtko Kotromanić）建立了一个独立的波斯尼亚王国，但1463年时奥斯曼帝国入侵，波斯尼亚被奥斯曼帝国所并吞。奥斯曼帝国占领区儿童从小脱离父母和家庭，进行集中教育和培养，使之成为近卫军的一种兵源，迫使塞尔维亚人和克罗地亚人后代突厥化。他们还将其占领地区的人分等级，给予不同地位。凡是为其统治服务、效力的地主、军人等享有很高的地位，而仍旧信仰基督教的塞尔维亚人和克罗地亚人普通平民则被称为“赖雅”。1908年波斯尼亚和黑塞哥维那一起成为奥匈帝国的领地，1914年奥匈帝国皇储斐迪南大公在萨拉热窝被塞族民族主义者所刺杀（参见萨拉热窝事件），直接导致第一次世界大战的爆发。战后波斯尼亚和黑塞哥维那成为塞尔维亚人、克罗地亚人和斯洛文尼亚人王国的一部分，该王国后来更名为南斯拉夫王国。第二次世界大战期间，波斯尼亚和黑塞哥维那成为纳粹德国及意大利王国的傀儡政权克罗地亚独立国领地的一部分，战后以波斯尼亚和黑塞哥维那社会主义共和国的名义又重归铁托领导下的南斯拉夫。此时的波斯尼亚和黑塞哥维那正式确认为南斯拉夫的一个联邦共和国，其边界采用的是奥斯曼帝国时期的边界，与当地实际民族的分布颇有出入。70年代，南斯拉夫承认“讲塞尔维亚-克罗地亚语的伊斯兰教徒”为穆斯林族（即波黑独立后的波斯尼亚克人），使原本构成南斯拉夫主体的民族由五个提升到六个。新承认的穆斯林族，人口次于塞尔维亚人和克罗地亚人位居南斯拉夫第三位。1992年2月19日，波斯尼亚和黑塞哥维那在境内塞尔维亚人抵制的情况下，就独立问题举行公民投票。投票结果显示，约占人口62.8%的穆斯林族和克罗地亚族支持独立。3月3日，波斯尼亚和黑塞哥维那议会在塞尔维亚人议员缺席抵制的情况下宣布独立，致使民族矛盾激化。4月6日，就在欧洲共同体承认波斯尼亚和黑塞哥维那共和国独立的当天，其境内5个塞尔维亚人自治区宣布联合成立塞族共和国，独立于波斯尼亚和黑塞哥维那之外，但依然留在南斯拉夫社会主义联邦共和国之内。塞尔维亚人的行动立即招致了波斯尼亚和黑塞哥维那政府的镇压，驻扎在波斯尼亚和黑塞哥维那境内的南斯拉夫人民军亦遭穆斯林和克罗地亚两族武装部队的攻击。4月7日，南斯拉夫人民军出动飞机轰炸了克罗地亚族武装力量的弹药库，武装冲突骤然升级。冲突由首都萨拉热窝向外蔓延，酿成全面内战。1994年3月波斯尼亚和黑塞哥维那境内的穆斯林和克罗地亚人双方同意共组联邦，以共同对抗境内塞尔维亚人。1995年11月21日各方签署代顿和平协定，结束内战，并把波斯尼亚和黑塞哥维那分为波黑联邦以及塞族共和国两个实体。在这次的内战中波斯尼亚和黑塞哥维那境内共有20万人死亡，超过200万人流离失所。战争结束后，北约在波斯尼亚和黑塞哥维那的境内继续驻扎维和部队，2004年底由欧盟所取代。2006年10月1日，大选举行。10月18日，中央选举委员会公布波什尼亚克族的哈里斯·西拉伊季奇、塞尔维亚族的内博伊沙·拉德马诺维奇和克罗地亚族的热利科·科姆希奇当选为主席团成员。议会代表院42个席位中，民主行动党获得9席，波黑党获得8席，独立社会民主联盟和波黑社会民主党分别获得7席和5席，余下席位被其他一些政党和政党联盟获得。2007年2月9日，以尼科拉·什皮里奇为部长会议主席的政府宣誓就职。2014年2月4日，发生反政府示威，或被称为“波斯尼亚之春”，这场始于北部城镇图兹拉的示威的名字来源于阿拉伯之春。起因是来自几家破产的私人企业的工人联合起来要求政府创造更多就业机会，付清工资，支付养老金。很快这场示威蔓延到国内其他地方，在近20个城镇均有暴力冲突报道，其中以萨拉热窝、泽尼察、莫斯塔尔、比哈奇、布尔奇科、图兹拉最大。据波斯尼亚新闻媒体报道在示威中有有数百人受伤，包括许多警察。另外在巴尼亚卢卡也有数百人集会支持反政府示威。","chars":1775},{"section":"人口","text":"在波斯尼亚和黑塞哥维那境内波什尼亚克人约为40%，塞尔维亚人约为33%，克罗地亚人约为20%，其他7%。","chars":1200},{"section":"宗教","text":"境内的宗教分布为伊斯兰教（约为50%，主要是波什尼亚克人）、东正教（约为31%，主要是塞尔维亚人）和天主教（约为15%，主要是克罗地亚人），为波斯尼亚和黑塞哥维那的三大主要宗教。","chars":1200}],"landmark_images":[{"title":"File:Mostar Old Town Panorama 2007.jpg","caption_zh":"莫斯塔尔古桥全景","caption":"莫斯塔尔古桥全景","caption_commons":"Mostar - Old Town panorama. The picture was taken from the minaret of Koski Mehm","kw":"Stari Most Mostar","url":"assets/ba/L01.webp","thumb_url":"assets/ba/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mostar_Old_Town_Panorama_2007.jpg/1920px-Mostar_Old_Town_Panorama_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Ramirez","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":72126,"caption_zh_manual":"莫斯塔尔古桥","caption_zh_source":"llm_from_commons_filename","thumb_bytes":20966,"size":{"detail":"760x509","thumb":"400x268"},"encoding":"webp q72/q74 (源 1920x1285 782KB JPEG)"},{"title":"File:Latin Bridge 02 (22757259615).jpg","caption_zh":"拉丁桥","caption":"拉丁桥","caption_commons":"Latin Bridge 02","kw":"Latin Bridge Sarajevo","url":"assets/ba/L02.webp","thumb_url":"assets/ba/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Latin_Bridge_02_%2822757259615%29.jpg/1920px-Latin_Bridge_02_%2822757259615%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"sundeviljeff","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":93112,"caption_zh_manual":"拉丁桥","caption_zh_source":"llm_from_commons_filename","thumb_bytes":27162,"size":{"detail":"760x531","thumb":"400x279"},"encoding":"webp q72/q74 (源 1920x1341 929KB JPEG)"},{"title":"File:Blagaj – Vrelo Bune 3.jpg","caption_zh":"布拉加伊修道院与布纳泉","caption":"布拉加伊修道院与布纳泉","caption_commons":"Quelle der Buna in Blagaj","kw":"Blagaj Tekija Buna","url":"assets/ba/L03.webp","thumb_url":"assets/ba/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Blagaj_%E2%80%93_Vrelo_Bune_3.jpg/1920px-Blagaj_%E2%80%93_Vrelo_Bune_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Julian Nyča","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":102318,"caption_zh_manual":"布拉加伊修道院","caption_zh_source":"llm_from_commons_filename","thumb_bytes":29750,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 976KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:31:42+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q7026 (cat)-Millars-Bosnia i Hercegovina.wav、Lb-Bosnien-Herzegowina.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Bosnia și Herțegovina.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py BA","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（3 张，中文图注）","摘要 270 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"伊斯兰教","evidence":"引入伊斯兰教"}],"architecture":[],"heritage":[],"keywords":[{"v":"迪纳拉山脉","evidence":"地形以迪纳拉山脉为主体"},{"v":"亚得里亚海海岸线","evidence":"约20公里亚得里亚海海岸线"},{"v":"萨拉热窝","evidence":"首都萨拉热窝"},{"v":"温带大陆性气候","evidence":"属温带大陆性气候"},{"v":"地中海气候","evidence":"呈现地中海气候特征"}],"model":"deepseek-flash"},"summary_text_raw":"波斯尼亚和黑塞哥维那（波斯尼亚语：Bosna i Hercegovina／Босна и Херцеговина），简称波黑，有时亦简称为波斯尼亚（波斯尼亚语：Bosna／Босна），是欧洲东南部巴尔干半岛西部的主权国家，首都萨拉热窝。该国拥有约20公里亚得里亚海海岸线，北及西南接克罗地亚，东邻塞尔维亚，东南毗黑山。地形以迪纳拉山脉为主体，波斯尼亚地区属温带大陆性气候，黑塞哥维纳则呈现地中海气候特征。\n波黑历史可追溯至旧石器时代晚期，新石器时代的布特米尔文化与武切多尔文化在此发展。公元前1世纪被纳入罗马帝国达尔马提亚行省，斯拉夫人于6至9世纪迁入。12世纪成立的波斯尼亚巴纳特为首个独立政体，14世纪升格为波斯尼亚王国并成为巴尔干西部强权。1463年遭奥斯曼帝国征服并引入伊斯兰教，19世纪末转由奥匈帝国管治。1914年萨拉热窝事件在此爆发，成为第一次世界大战导火线。二战后作为加盟共和国加入南斯拉夫社会主义联邦共和国，1992年经公投独立后爆发波黑战争，直至1995年《代顿协议》确立现行宪政架构。","history_text":"新石器时代伊利里亚人在此留下遗物，公元前168年地域被罗马帝国占领，此后东哥特人、拜占庭、阿瓦尔人相继进入，塞尔维亚人与克罗地亚人陆续迁入巴尔干。1377年特弗尔特科·科特罗曼尼奇建立独立的波斯尼亚王国，1463年奥斯曼帝国入侵并吞波斯尼亚，1908年与黑塞哥维那同归奥匈帝国，1914年萨拉热窝刺杀事件引爆第一次世界大战。","custom_text":"清真寺的唤拜声与东正教教堂的钟声、天主教堂的弥撒在同一座城里交错，开斋节与圣诞节各自热闹。待客必奉咖啡，用小铜壶煮出浓稠的波斯尼亚咖啡，配着方糖和拉哈特软糖慢慢啜饮；街头炭火烤着切瓦皮肉卷，配洋葱和扁面饼。塞夫达林卡是唱不尽的老情歌，唱到动情处满座静听。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":162,"folk":127}},"knowledge_qa":[{"q":"波黑在哪儿啊？周围都是哪些国家？","a":"在欧洲东南部巴尔干半岛西部，北边和西南边挨着克罗地亚，东边是塞尔维亚，东南边是黑山，还有大约20公里的亚得里亚海海岸线。","tags":["波黑","地理位置","邻国","巴尔干"]},{"q":"波黑的首都是哪里？","a":"首都就是萨拉热窝。","tags":["首都","萨拉热窝","波黑"]},{"q":"波黑说什么话？","a":"官方语言有三种：波斯尼亚语、克罗地亚语和塞尔维亚语。","tags":["语言","说什么话","官方语言","波黑"]},{"q":"波黑有什么值得看的地标？","a":"可以看莫斯塔尔古桥、拉丁桥和布拉加伊修道院。","tags":["地标","景点","古桥","修道院"]},{"q":"波黑那边气候怎么样？","a":"地形以迪纳拉山脉为主，波斯尼亚地区是温带大陆性气候，黑塞哥维纳那边是地中海气候。","tags":["气候","天气","温带","地中海"]},{"q":"波黑有什么历史大事？","a":"1914年萨拉热窝事件在这里爆发，成了第一次世界大战的导火线；1992年公投独立后爆发波黑战争，1995年《代顿协议》确立了现在的宪政架构。","tags":["历史","萨拉热窝事件","波黑战争","代顿协议"]},{"q":"波黑有什么好吃的或者特产？","a":"抱歉，目前没有关于波黑饮食或特产的信息。","tags":["吃什么","特产","美食","饮食"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[1765,4289],[1756,4294],[1766,4297],[1763,4305],[1729,4330],[1727,4346],[1703,4355],[1633,4408],[1612,4452],[1601,4454],[1603,4462],[1573,4477],[1579,4519],[1602,4521],[1632,4500],[1653,4522],[1681,4518],[1692,4528],[1719,4515],[1768,4516],[1784,4506],[1824,4516],[1852,4506],[1868,4509],[1889,4486],[1919,4493],[1937,4489],[1911,4438],[1961,4406],[1953,4398],[1929,4401],[1923,4396],[1946,4376],[1949,4356],[1935,4361],[1891,4351],[1907,4331],[1899,4327],[1882,4334],[1866,4323],[1864,4302],[1845,4299],[1844,4282],[1855,4267],[1849,4256],[1800,4274],[1781,4291],[1765,4289]]]}
+{
+  "qid": "Q225",
+  "iso_a2": "BA",
+  "iso_a3": "BIH",
+  "name_zh": "波斯尼亚和黑塞哥维那",
+  "name_en": "Bosnia and Herzegovina",
+  "capital": "萨拉热窝",
+  "continent": "欧洲",
+  "centroid": [
+    18,
+    44
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "bs",
+      "name_zh": "波斯尼亚语",
+      "name_local": "波斯尼亚语",
+      "role": "official",
+      "audio_url": "assets/ba/audio/bs.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Dobro došli u Bosnu i Hercegovinu, zemlju u kojoj se planine i rijeke susreću pod otvorenim nebom; njen glavni grad je Sarajevo, a među njegovim najpoznatijim znamenitostima izdvaja se stari most u Mostaru, koji kao da lebdi nad zelenom Neretvom.",
+      "tts_text_zh": "欢迎来到波斯尼亚和黑塞哥维那，这片群山与河流在开阔天空下相遇的土地；它的首都是萨拉热窝，而最具代表性的地标之一是莫斯塔尔老桥，它仿佛悬浮在碧绿的內雷特瓦河之上。",
+      "audio_voice": "bs-BA-VesnaNeural",
+      "audio_bytes": 84816
+    },
+    {
+      "code": "hr",
+      "name_zh": "克罗地亚语",
+      "name_local": "克罗地亚语",
+      "role": "official",
+      "audio_url": "assets/ba/audio/hr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Dobro došli u Bosnu i Hercegovinu, zemlju u kojoj se planine i rijeke susreću pod otvorenim nebom; njezin glavni grad je Sarajevo, a među njegovim najpoznatijim znamenitostima izdvaja se stari most u Mostaru, koji kao da lebdi nad zelenom Neretvom.",
+      "tts_text_zh": "欢迎来到波斯尼亚和黑塞哥维那，这片群山与河流在开阔天空下相遇的土地；它的首都是萨拉热窝，而最具代表性的地标之一是莫斯塔尔老桥，它仿佛悬浮在碧绿的內雷特瓦河之上。",
+      "audio_voice": "hr-HR-GabrijelaNeural",
+      "audio_bytes": 93456
+    },
+    {
+      "code": "sr",
+      "name_zh": "塞尔维亚语",
+      "name_local": "塞尔维亚语",
+      "role": "official",
+      "audio_url": "assets/ba/audio/sr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Dobro došli u Bosnu i Hercegovinu, zemlju u kojoj se planine i reke susreću pod otvorenim nebom; njen glavni grad je Sarajevo, a među njegovim najpoznatijim znamenitostima izdvaja se stari most u Mostaru, koji kao da lebdi nad zelenom Neretvom.",
+      "tts_text_zh": "欢迎来到波斯尼亚和黑塞哥维那，这片群山与河流在开阔天空下相遇的土地；它的首都是萨拉热窝，而最具代表性的地标之一是莫斯塔尔老桥，它仿佛悬浮在碧绿的內雷特瓦河之上。",
+      "audio_voice": "sr-RS-SophieNeural",
+      "audio_bytes": 97920
+    }
+  ],
+  "summary_text": "波斯尼亚和黑塞哥维那简称波黑，是欧洲东南部巴尔干半岛西部的主权国家，首都萨拉热窝。该国拥有约20公里亚得里亚海海岸线，北及西南接克罗地亚，东邻塞尔维亚，东南毗黑山。地形以迪纳拉山脉为主体，波斯尼亚地区属温带大陆性气候，黑塞哥维纳则呈现地中海气候特征。波黑历史可追溯至旧石器时代晚期，新石器时代的布特米尔文化与武切多尔文化在此发展，斯拉夫人于6至9世纪迁入。1463年遭奥斯曼帝国征服并引入伊斯兰教，19世纪末转由奥匈帝国管治。二战后作为加盟共和国加入南斯拉夫社会主义联邦共和国，1992年经公投独立，1995年《代顿协议》确立现行宪政架构。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 270,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%96%AF%E5%B0%BC%E4%BA%9A%E5%92%8C%E9%BB%91%E5%A1%9E%E5%93%A5%E7%BB%B4%E9%82%A3",
+    "title": "波斯尼亚和黑塞哥维那"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "此外，新石器时代的文物也时有发现，当时的居民为伊利里亚人。波黑地域于公元前168年由罗马帝国占领。455年时东哥特人将该地区占领，6世纪时东哥特人被拜占庭击败，现波斯尼亚和黑塞哥维那南部地区一度成为拜占庭帝国的一部分。阿瓦尔人于6世纪和7世纪时开始入侵，塞尔维亚人和克罗地亚人也相继进入巴尔干半岛。在接下来的几个世纪内，波斯尼亚以及赫塞哥维纳地区多次分属周围的各个国家。1377年时特弗尔特科·科特罗曼尼奇（Tvrtko Kotromanić）建立了一个独立的波斯尼亚王国，但1463年时奥斯曼帝国入侵，波斯尼亚被奥斯曼帝国所并吞。奥斯曼帝国占领区儿童从小脱离父母和家庭，进行集中教育和培养，使之成为近卫军的一种兵源，迫使塞尔维亚人和克罗地亚人后代突厥化。他们还将其占领地区的人分等级，给予不同地位。凡是为其统治服务、效力的地主、军人等享有很高的地位，而仍旧信仰基督教的塞尔维亚人和克罗地亚人普通平民则被称为“赖雅”。1908年波斯尼亚和黑塞哥维那一起成为奥匈帝国的领地，1914年奥匈帝国皇储斐迪南大公在萨拉热窝被塞族民族主义者所刺杀（参见萨拉热窝事件），直接导致第一次世界大战的爆发。战后波斯尼亚和黑塞哥维那成为塞尔维亚人、克罗地亚人和斯洛文尼亚人王国的一部分，该王国后来更名为南斯拉夫王国。第二次世界大战期间，波斯尼亚和黑塞哥维那成为纳粹德国及意大利王国的傀儡政权克罗地亚独立国领地的一部分，战后以波斯尼亚和黑塞哥维那社会主义共和国的名义又重归铁托领导下的南斯拉夫。此时的波斯尼亚和黑塞哥维那正式确认为南斯拉夫的一个联邦共和国，其边界采用的是奥斯曼帝国时期的边界，与当地实际民族的分布颇有出入。70年代，南斯拉夫承认“讲塞尔维亚-克罗地亚语的伊斯兰教徒”为穆斯林族（即波黑独立后的波斯尼亚克人），使原本构成南斯拉夫主体的民族由五个提升到六个。新承认的穆斯林族，人口次于塞尔维亚人和克罗地亚人位居南斯拉夫第三位。1992年2月19日，波斯尼亚和黑塞哥维那在境内塞尔维亚人抵制的情况下，就独立问题举行公民投票。投票结果显示，约占人口62.8%的穆斯林族和克罗地亚族支持独立。3月3日，波斯尼亚和黑塞哥维那议会在塞尔维亚人议员缺席抵制的情况下宣布独立，致使民族矛盾激化。4月6日，就在欧洲共同体承认波斯尼亚和黑塞哥维那共和国独立的当天，其境内5个塞尔维亚人自治区宣布联合成立塞族共和国，独立于波斯尼亚和黑塞哥维那之外，但依然留在南斯拉夫社会主义联邦共和国之内。塞尔维亚人的行动立即招致了波斯尼亚和黑塞哥维那政府的镇压，驻扎在波斯尼亚和黑塞哥维那境内的南斯拉夫人民军亦遭穆斯林和克罗地亚两族武装部队的攻击。4月7日，南斯拉夫人民军出动飞机轰炸了克罗地亚族武装力量的弹药库，武装冲突骤然升级。冲突由首都萨拉热窝向外蔓延，酿成全面内战。1994年3月波斯尼亚和黑塞哥维那境内的穆斯林和克罗地亚人双方同意共组联邦，以共同对抗境内塞尔维亚人。1995年11月21日各方签署代顿和平协定，结束内战，并把波斯尼亚和黑塞哥维那分为波黑联邦以及塞族共和国两个实体。在这次的内战中波斯尼亚和黑塞哥维那境内共有20万人死亡，超过200万人流离失所。战争结束后，北约在波斯尼亚和黑塞哥维那的境内继续驻扎维和部队，2004年底由欧盟所取代。2006年10月1日，大选举行。10月18日，中央选举委员会公布波什尼亚克族的哈里斯·西拉伊季奇、塞尔维亚族的内博伊沙·拉德马诺维奇和克罗地亚族的热利科·科姆希奇当选为主席团成员。议会代表院42个席位中，民主行动党获得9席，波黑党获得8席，独立社会民主联盟和波黑社会民主党分别获得7席和5席，余下席位被其他一些政党和政党联盟获得。2007年2月9日，以尼科拉·什皮里奇为部长会议主席的政府宣誓就职。2014年2月4日，发生反政府示威，或被称为“波斯尼亚之春”，这场始于北部城镇图兹拉的示威的名字来源于阿拉伯之春。起因是来自几家破产的私人企业的工人联合起来要求政府创造更多就业机会，付清工资，支付养老金。很快这场示威蔓延到国内其他地方，在近20个城镇均有暴力冲突报道，其中以萨拉热窝、泽尼察、莫斯塔尔、比哈奇、布尔奇科、图兹拉最大。据波斯尼亚新闻媒体报道在示威中有有数百人受伤，包括许多警察。另外在巴尼亚卢卡也有数百人集会支持反政府示威。",
+      "chars": 1775
+    },
+    {
+      "section": "人口",
+      "text": "在波斯尼亚和黑塞哥维那境内波什尼亚克人约为40%，塞尔维亚人约为33%，克罗地亚人约为20%，其他7%。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "境内的宗教分布为伊斯兰教（约为50%，主要是波什尼亚克人）、东正教（约为31%，主要是塞尔维亚人）和天主教（约为15%，主要是克罗地亚人），为波斯尼亚和黑塞哥维那的三大主要宗教。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Mostar Old Town Panorama 2007.jpg",
+      "caption_zh": "莫斯塔尔古桥全景",
+      "caption": "莫斯塔尔古桥全景",
+      "caption_commons": "Mostar - Old Town panorama. The picture was taken from the minaret of Koski Mehm",
+      "kw": "Stari Most Mostar",
+      "url": "assets/ba/L01.webp",
+      "thumb_url": "assets/ba/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mostar_Old_Town_Panorama_2007.jpg/1920px-Mostar_Old_Town_Panorama_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Ramirez",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 154052,
+      "caption_zh_manual": "莫斯塔尔古桥",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9434,
+      "size": {
+        "detail": "1080x723",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1920x1285 782KB JPEG)"
+    },
+    {
+      "title": "File:Latin Bridge 02 (22757259615).jpg",
+      "caption_zh": "拉丁桥",
+      "caption": "拉丁桥",
+      "caption_commons": "Latin Bridge 02",
+      "kw": "Latin Bridge Sarajevo",
+      "url": "assets/ba/L02.webp",
+      "thumb_url": "assets/ba/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Latin_Bridge_02_%2822757259615%29.jpg/1920px-Latin_Bridge_02_%2822757259615%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "sundeviljeff",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 194010,
+      "caption_zh_manual": "拉丁桥",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11770,
+      "size": {
+        "detail": "1080x754",
+        "thumb": "240x168"
+      },
+      "encoding": "webp q75/q78 (源 1920x1341 929KB JPEG)"
+    },
+    {
+      "title": "File:Blagaj – Vrelo Bune 3.jpg",
+      "caption_zh": "布拉加伊修道院与布纳泉",
+      "caption": "布拉加伊修道院与布纳泉",
+      "caption_commons": "Quelle der Buna in Blagaj",
+      "kw": "Blagaj Tekija Buna",
+      "url": "assets/ba/L03.webp",
+      "thumb_url": "assets/ba/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Blagaj_%E2%80%93_Vrelo_Bune_3.jpg/1920px-Blagaj_%E2%80%93_Vrelo_Bune_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Julian Nyča",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 211844,
+      "caption_zh_manual": "布拉加伊修道院",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 12520,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 976KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:31:42+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q7026 (cat)-Millars-Bosnia i Hercegovina.wav、Lb-Bosnien-Herzegowina.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Bosnia și Herțegovina.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py BA",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（3 张，中文图注）",
+    "摘要 270 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "伊斯兰教",
+        "evidence": "引入伊斯兰教"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "迪纳拉山脉",
+        "evidence": "地形以迪纳拉山脉为主体"
+      },
+      {
+        "v": "亚得里亚海海岸线",
+        "evidence": "约20公里亚得里亚海海岸线"
+      },
+      {
+        "v": "萨拉热窝",
+        "evidence": "首都萨拉热窝"
+      },
+      {
+        "v": "温带大陆性气候",
+        "evidence": "属温带大陆性气候"
+      },
+      {
+        "v": "地中海气候",
+        "evidence": "呈现地中海气候特征"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "波斯尼亚和黑塞哥维那（波斯尼亚语：Bosna i Hercegovina／Босна и Херцеговина），简称波黑，有时亦简称为波斯尼亚（波斯尼亚语：Bosna／Босна），是欧洲东南部巴尔干半岛西部的主权国家，首都萨拉热窝。该国拥有约20公里亚得里亚海海岸线，北及西南接克罗地亚，东邻塞尔维亚，东南毗黑山。地形以迪纳拉山脉为主体，波斯尼亚地区属温带大陆性气候，黑塞哥维纳则呈现地中海气候特征。\n波黑历史可追溯至旧石器时代晚期，新石器时代的布特米尔文化与武切多尔文化在此发展。公元前1世纪被纳入罗马帝国达尔马提亚行省，斯拉夫人于6至9世纪迁入。12世纪成立的波斯尼亚巴纳特为首个独立政体，14世纪升格为波斯尼亚王国并成为巴尔干西部强权。1463年遭奥斯曼帝国征服并引入伊斯兰教，19世纪末转由奥匈帝国管治。1914年萨拉热窝事件在此爆发，成为第一次世界大战导火线。二战后作为加盟共和国加入南斯拉夫社会主义联邦共和国，1992年经公投独立后爆发波黑战争，直至1995年《代顿协议》确立现行宪政架构。",
+  "history_text": "新石器时代伊利里亚人在此留下遗物，公元前168年地域被罗马帝国占领，此后东哥特人、拜占庭、阿瓦尔人相继进入，塞尔维亚人与克罗地亚人陆续迁入巴尔干。1377年特弗尔特科·科特罗曼尼奇建立独立的波斯尼亚王国，1463年奥斯曼帝国入侵并吞波斯尼亚，1908年与黑塞哥维那同归奥匈帝国，1914年萨拉热窝刺杀事件引爆第一次世界大战。",
+  "custom_text": "清真寺的唤拜声与东正教教堂的钟声、天主教堂的弥撒在同一座城里交错，开斋节与圣诞节各自热闹。待客必奉咖啡，用小铜壶煮出浓稠的波斯尼亚咖啡，配着方糖和拉哈特软糖慢慢啜饮；街头炭火烤着切瓦皮肉卷，配洋葱和扁面饼。塞夫达林卡是唱不尽的老情歌，唱到动情处满座静听。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 162,
+      "folk": 127
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "波黑在哪儿啊？周围都是哪些国家？",
+      "a": "在欧洲东南部巴尔干半岛西部，北边和西南边挨着克罗地亚，东边是塞尔维亚，东南边是黑山，还有大约20公里的亚得里亚海海岸线。",
+      "tags": [
+        "波黑",
+        "地理位置",
+        "邻国",
+        "巴尔干"
+      ]
+    },
+    {
+      "q": "波黑的首都是哪里？",
+      "a": "首都就是萨拉热窝。",
+      "tags": [
+        "首都",
+        "萨拉热窝",
+        "波黑"
+      ]
+    },
+    {
+      "q": "波黑说什么话？",
+      "a": "官方语言有三种：波斯尼亚语、克罗地亚语和塞尔维亚语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言",
+        "波黑"
+      ]
+    },
+    {
+      "q": "波黑有什么值得看的地标？",
+      "a": "可以看莫斯塔尔古桥、拉丁桥和布拉加伊修道院。",
+      "tags": [
+        "地标",
+        "景点",
+        "古桥",
+        "修道院"
+      ]
+    },
+    {
+      "q": "波黑那边气候怎么样？",
+      "a": "地形以迪纳拉山脉为主，波斯尼亚地区是温带大陆性气候，黑塞哥维纳那边是地中海气候。",
+      "tags": [
+        "气候",
+        "天气",
+        "温带",
+        "地中海"
+      ]
+    },
+    {
+      "q": "波黑有什么历史大事？",
+      "a": "1914年萨拉热窝事件在这里爆发，成了第一次世界大战的导火线；1992年公投独立后爆发波黑战争，1995年《代顿协议》确立了现在的宪政架构。",
+      "tags": [
+        "历史",
+        "萨拉热窝事件",
+        "波黑战争",
+        "代顿协议"
+      ]
+    },
+    {
+      "q": "波黑有什么好吃的或者特产？",
+      "a": "抱歉，目前没有关于波黑饮食或特产的信息。",
+      "tags": [
+        "吃什么",
+        "特产",
+        "美食",
+        "饮食"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        1765,
+        4289
+      ],
+      [
+        1756,
+        4294
+      ],
+      [
+        1766,
+        4297
+      ],
+      [
+        1763,
+        4305
+      ],
+      [
+        1729,
+        4330
+      ],
+      [
+        1727,
+        4346
+      ],
+      [
+        1703,
+        4355
+      ],
+      [
+        1633,
+        4408
+      ],
+      [
+        1612,
+        4452
+      ],
+      [
+        1601,
+        4454
+      ],
+      [
+        1603,
+        4462
+      ],
+      [
+        1573,
+        4477
+      ],
+      [
+        1579,
+        4519
+      ],
+      [
+        1602,
+        4521
+      ],
+      [
+        1632,
+        4500
+      ],
+      [
+        1653,
+        4522
+      ],
+      [
+        1681,
+        4518
+      ],
+      [
+        1692,
+        4528
+      ],
+      [
+        1719,
+        4515
+      ],
+      [
+        1768,
+        4516
+      ],
+      [
+        1784,
+        4506
+      ],
+      [
+        1824,
+        4516
+      ],
+      [
+        1852,
+        4506
+      ],
+      [
+        1868,
+        4509
+      ],
+      [
+        1889,
+        4486
+      ],
+      [
+        1919,
+        4493
+      ],
+      [
+        1937,
+        4489
+      ],
+      [
+        1911,
+        4438
+      ],
+      [
+        1961,
+        4406
+      ],
+      [
+        1953,
+        4398
+      ],
+      [
+        1929,
+        4401
+      ],
+      [
+        1923,
+        4396
+      ],
+      [
+        1946,
+        4376
+      ],
+      [
+        1949,
+        4356
+      ],
+      [
+        1935,
+        4361
+      ],
+      [
+        1891,
+        4351
+      ],
+      [
+        1907,
+        4331
+      ],
+      [
+        1899,
+        4327
+      ],
+      [
+        1882,
+        4334
+      ],
+      [
+        1866,
+        4323
+      ],
+      [
+        1864,
+        4302
+      ],
+      [
+        1845,
+        4299
+      ],
+      [
+        1844,
+        4282
+      ],
+      [
+        1855,
+        4267
+      ],
+      [
+        1849,
+        4256
+      ],
+      [
+        1800,
+        4274
+      ],
+      [
+        1781,
+        4291
+      ],
+      [
+        1765,
+        4289
+      ]
+    ]
+  ]
+}

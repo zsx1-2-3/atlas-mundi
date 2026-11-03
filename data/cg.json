@@ -1,1 +1,799 @@
-{"qid":"Q971","iso_a2":"CG","iso_a3":"COG","name_zh":"刚果共和国","name_en":"Republic of the Congo","capital":"布拉柴维尔","continent":"非洲","centroid":[15.3833,-0.75],"centroid_source":"wikidata P625","languages":[{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/cg/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue au Congo, un pays où le fleuve trace la mémoire des peuples ; sa capitale, Brazzaville, s'étend sur la rive droite du majestueux fleuve Congo, face à Kinshasa, et le parc national d'Odzala-Kokoua, l'un des plus anciens d'Afrique, abrite gorilles et forêts primaires.","tts_text_zh":"欢迎来到刚果，一个河流镌刻着各族人民记忆的国度；首都布拉柴维尔坐落在壮阔的刚果河右岸，与金沙萨隔河相望，而奥扎拉-科库阿国家公园是非洲最古老的保护区之一，栖息着大猩猩与原始森林。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":99936}],"summary_text":"刚果共和国简称刚果、刚果（布拉柴维尔）或刚果（布），是非洲中部的一个国家，首都为布拉柴维尔，毗邻几内亚湾，接壤刚果民主共和国、喀麦隆、中非共和国、加蓬以及安哥拉等国。该国通用法语，1960年获得独立。班图人曾于13世纪末14世纪初在这一地区建立刚果王国，其领土包括现在的安哥拉、加蓬和刚果民主共和国的疆域。15世纪晚期欧洲人到来并开始奴隶贸易，到19世纪早期奴隶贸易结束时，这些班图王国都已衰落。1880年法国正式开始对刚果的殖民统治，1884年柏林会议确定法国殖民地与比属刚果以刚果河为界。1910年法国设立法属赤道非洲，包括现在的刚果共和国、加蓬、乍得和中非共和国，布拉柴维尔被定为首府。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":296,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%88%9A%E6%9E%9C%E5%85%B1%E5%92%8C%E5%9B%BD","title":"刚果共和国"},"culture_excerpts":[{"section":"历史","text":"班图人曾经于13世纪末14世纪初在这个地区建立过刚果王国，领土包括现在的安哥拉、加蓬和刚果民主共和国的疆域。15世纪晚期，欧洲人来到这里开始奴隶贸易。到19世纪早期奴隶贸易结束的时候，这些班图王国都衰落了。1880年，法国正式开始对刚果的殖民统治。1884年的柏林会议确定法国殖民地与比属刚果以刚果河为界。1910年法国设立法属赤道非洲，包括现在的刚果共和国、加蓬、乍得和中非共和国，布拉柴维尔被定为首府。第二次世界大战中，法属赤道非洲当局支持戴高乐将军，1940年－1943年布拉柴维尔更是被选作自由法国的象征性首都。1958年9月经过法国全民公决，通过新宪法。法属赤道非洲解体，11月28日，4个成员国各自成为法兰西共同体内的自治国家。1960年8月15日，刚果正式独立，这一天成为刚果国庆至今。独立后一度政权更迭频繁：1960年，富尔贝·尤卢当选为第一任总统，旋即在1963年的“刚果八月革命”中被推翻，由阿尔方斯·马桑巴-代巴接任，而他又在1968年7月31日被马里安·恩古瓦比等联合发动的“七·三一运动”推翻。次年12月国名改为刚果人民共和国。1977年，恩古瓦比遇刺身亡，若阿基姆·雍比-奥庞戈出任总统，两年后被执政党刚果劳动党罢免，不久德尼·萨苏-恩格索成为党主席，同时当选总统。1990年7月，劳动党决定放弃马克思列宁主义，但坚持社会主义，实行多党制，放弃领导地位。次年上半年举行全国会议，通过临时宪法，恢复独立时的国名、国旗和国歌。1992年举行实行多党制后的首次总统大选，泛非社会民主联盟主席帕斯卡尔·利苏巴当选总统。1997年6月刚果内战爆发，利苏巴战败逃亡，萨苏成为总统。此后的2002年和2009年两次在大选中胜出，当选总统至今。","chars":728}],"landmark_images":[{"title":"File:Morning mist over the Sangha River near Bayanga.jpg","caption_zh":"巴扬加附近桑加河晨雾","caption":"巴扬加附近桑加河晨雾","caption_commons":"Morning mist over the Sangha River near Bayanga.","kw":"Sangha River Congo","url":"assets/cg/L01.webp","thumb_url":"assets/cg/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Morning_mist_over_the_Sangha_River_near_Bayanga.jpg/1920px-Morning_mist_over_the_Sangha_River_near_Bayanga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"JosepMGracia","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":14628,"caption_zh_manual":"桑加河","caption_zh_source":"llm_from_commons_filename","thumb_bytes":4374,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1275 299KB JPEG)"},{"title":"File:Cathédrale de Brazzaville avant 1926.jpg","caption_zh":"1926年前的布拉柴维尔刚果河岸主教座堂","caption":"1926年前的布拉柴维尔刚果河岸主教座堂","caption_commons":"Une vue de la cathédrale de Brazzaville avant 1926, in Monseigneur Augouard de G","kw":"Brazzaville Congo River","url":"assets/cg/L02.webp","thumb_url":"assets/cg/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/3/3d/Cath%C3%A9drale_de_Brazzaville_avant_1926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Garitan","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":14376,"caption_zh_manual":"布拉柴维尔刚果河岸","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14732,"size":{"detail":"387x251","thumb":"387x251"},"encoding":"webp q72/q74 (源 387x251 68KB JPEG)"},{"title":"File:Basilique Sainte-anne.jpg","caption_zh":"圣安娜大教堂","caption":"圣安娜大教堂","caption_commons":"Basilique mineure Sainte-Anne à Brazzaville","kw":"Basilique Sainte-Anne Brazzaville","url":"assets/cg/L04.webp","thumb_url":"assets/cg/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/5/52/Basilique_Sainte-anne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Kani Beat","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":142604,"caption_zh_manual":"圣安娜大教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8620,"size":{"detail":"760x1136","thumb":"201x300"},"encoding":"webp q72/q74 (源 1070x1600 1358KB JPEG)"},{"title":"File:20160718 OSM-Odzala.png","caption_zh":"奥扎拉-科库阿国家公园地图","caption":"奥扎拉-科库阿国家公园地图","caption_commons":"Boundaries of Odzaka National Park, Republic of the Congo (OSM) ː forest elephan","kw":"Odzala-Kokoua National Park","url":"assets/cg/L05.webp","thumb_url":"assets/cg/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/0/06/20160718_OSM-Odzala.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Contributers to OpenStreetMap","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":10140,"caption_zh_manual":"奥扎拉-科库阿国家公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":4794,"size":{"detail":"562x472","thumb":"357x300"},"encoding":"webp q72/q74 (源 562x472 94KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:39:22+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Kongo.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Republica Congo.wav、LL-Q9610 (ben)-Tahmid-কঙ্গো প্রজাতন্ত্র.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py CG","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","莱菲尼沼泽：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（4 张，中文图注）","摘要 296 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[error] summary_head：刚果共和国不与喀麦隆接壤 → 删除喀麦隆"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"马克思列宁主义","evidence":"马克思列宁主义一党制国家"}],"architecture":[],"heritage":[],"keywords":[{"v":"法语","evidence":"通用法语"},{"v":"布拉柴维尔","evidence":"首都为布拉柴维尔"},{"v":"几内亚湾","evidence":"毗邻几内亚湾"},{"v":"刚果河","evidence":"以刚果河为界"},{"v":"班图人","evidence":"班图人的部落控制"}],"model":"deepseek-flash"},"summary_text_raw":"刚果共和国（法语：République du Congo；基图巴语：Repubilika ya Kongo；林格拉语：Republiki ya Kongó），简称刚果、刚果（布拉柴维尔）或刚果（布），是非洲中部的一个国家，首都为布拉柴维尔，接壤刚果民主共和国、喀麦隆、中非共和国、加蓬以及安哥拉等国，毗邻几内亚湾。\n历史上该地由班图人的部落控制，后成为法国殖民地，通用法语，1960年获得独立。1970年至1991年间国名为刚果人民共和国，是一个马克思列宁主义一党制国家；1992年曾改用多党制，但1997年此政府在内战中倒台。\n\n\n== 历史 ==\n\n班图人曾经于13世纪末14世纪初在这个地区建立过刚果王国，领土包括现在的安哥拉、加蓬和刚果民主共和国的疆域。15世纪晚期，欧洲人来到这里开始奴隶贸易。到19世纪早期奴隶贸易结束的时候，这些班图王国都衰落了。1880年，法国正式开始对刚果的殖民统治。1884年的柏林会议确定法国殖民地与比属刚果以刚果河为界。1910年法国设立法属赤道非洲，包括现在的刚果共和国、加蓬、乍得和中非共和国，布拉柴维尔被定为首府。","history_text":"班图人于十三世纪末十四世纪初在此建立刚果王国，疆域横跨今安哥拉、加蓬与刚果民主共和国一带。十五世纪晚期欧洲人到来，奴隶贸易延续至十九世纪早期，诸班图王国随之衰落。1880年法国开始殖民统治，1910年法属赤道非洲设布拉柴维尔为首府。1960年8月15日正式独立，此后政权更迭频繁，1963年“刚果八月革命”、1968年“七·三一运动”接连推翻总统，次年改国名为刚果人民共和国。","custom_text":"木薯与芭蕉是日常主食，木薯磨粉做成团块，配以花生酱或棕榈油调味的炖菜；河鱼与熏鱼在沿河集市上常见。周日礼拜时，人们穿上色彩鲜亮的蜡染布衣裳，唱诗与鼓声交织。傍晚的村落里，长者围坐讲述祖先与森林精灵的故事，鼓点仍是节庆与仪式中传递消息、召唤舞者的语言。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":188,"folk":125}},"knowledge_qa":[{"q":"刚果共和国在哪儿啊？","a":"非洲中部的一个国家，首都布拉柴维尔，接壤刚果民主共和国、喀麦隆、中非共和国、加蓬以及安哥拉等国，毗邻几内亚湾。","tags":["非洲","位置","邻国"]},{"q":"刚果共和国的首都是哪里？","a":"布拉柴维尔。","tags":["首都","布拉柴维尔"]},{"q":"刚果共和国说什么语言？","a":"官方语言是法语，通用法语。","tags":["语言","法语","说什么话"]},{"q":"刚果共和国有什么值得看的地标？","a":"有桑加河、布拉柴维尔刚果河岸、圣安娜大教堂、奥扎拉-科库阿国家公园。","tags":["地标","景点","教堂","国家公园"]},{"q":"刚果共和国有什么历史背景？","a":"历史上由班图人部落控制，后成为法国殖民地，1960年获得独立。1970年至1991年间国名为刚果人民共和国，1992年曾改用多党制，但1997年此政府在内战中倒台。","tags":["历史","独立","殖民地"]},{"q":"刚果共和国以前是法国殖民地吗？","a":"是的，1880年法国正式开始对刚果的殖民统治，1910年法国设立法属赤道非洲，布拉柴维尔被定为首府。","tags":["法国","殖民地","历史"]},{"q":"刚果共和国和刚果民主共和国是同一个国家吗？","a":"不是，刚果共和国简称刚果（布），首都布拉柴维尔，接壤刚果民主共和国等国。","tags":["刚果布","刚果金","区别"]}],"llm_audit":{"issues":[{"field":"summary_head","severity":"error","why":"刚果共和国不与喀麦隆接壤","suggest":"删除喀麦隆"}],"overall":"fail"},"audio_meta":{},"outline":[[[1863,348],[1861,313],[1807,216],[1807,155],[1787,102],[1794,38],[1772,-20],[1775,-52],[1731,-101],[1702,-110],[1683,-127],[1651,-189],[1620,-218],[1623,-331],[1591,-392],[1555,-405],[1546,-421],[1520,-434],[1483,-482],[1467,-490],[1452,-484],[1440,-489],[1435,-456],[1447,-443],[1439,-428],[1394,-450],[1372,-445],[1371,-469],[1339,-488],[1311,-458],[1303,-461],[1287,-441],[1276,-439],[1262,-456],[1239,-461],[1232,-478],[1219,-476],[1201,-502],[1182,-478],[1181,-458],[1111,-394],[1121,-370],[1148,-351],[1169,-370],[1191,-364],[1182,-357],[1194,-330],[1169,-317],[1178,-301],[1164,-283],[1153,-287],[1162,-263],[1157,-233],[1176,-242],[1194,-233],[1206,-242],[1246,-233],[1250,-210],[1243,-188],[1249,-192],[1263,-182],[1280,-192],[1301,-228],[1297,-237],[1346,-244],[1374,-210],[1391,-236],[1385,-247],[1409,-250],[1423,-236],[1415,-222],[1424,-198],[1440,-189],[1445,-169],[1436,-161],[1446,-155],[1449,-141],[1439,-101],[1449,-60],[1432,-44],[1416,-46],[1410,-28],[1383,-20],[1392,-5],[1387,20],[1394,35],[1408,54],[1433,62],[1447,91],[1428,113],[1425,133],[1414,139],[1380,143],[1354,128],[1315,126],[1325,134],[1313,159],[1316,190],[1330,216],[1443,213],[1456,221],[1476,206],[1486,212],[1489,201],[1521,204],[1534,192],[1548,198],[1571,193],[1601,177],[1607,166],[1616,174],[1607,198],[1609,215],[1621,222],[1648,284],[1646,316],[1660,350],[1720,358],[1746,371],[1779,362],[1784,354],[1808,356],[1818,348],[1825,358],[1847,363],[1863,348]]]}
+{
+  "qid": "Q971",
+  "iso_a2": "CG",
+  "iso_a3": "COG",
+  "name_zh": "刚果共和国",
+  "name_en": "Republic of the Congo",
+  "capital": "布拉柴维尔",
+  "continent": "非洲",
+  "centroid": [
+    15.3833,
+    -0.75
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/cg/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue au Congo, un pays où le fleuve trace la mémoire des peuples ; sa capitale, Brazzaville, s'étend sur la rive droite du majestueux fleuve Congo, face à Kinshasa, et le parc national d'Odzala-Kokoua, l'un des plus anciens d'Afrique, abrite gorilles et forêts primaires.",
+      "tts_text_zh": "欢迎来到刚果，一个河流镌刻着各族人民记忆的国度；首都布拉柴维尔坐落在壮阔的刚果河右岸，与金沙萨隔河相望，而奥扎拉-科库阿国家公园是非洲最古老的保护区之一，栖息着大猩猩与原始森林。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 99936
+    }
+  ],
+  "summary_text": "刚果共和国简称刚果、刚果（布拉柴维尔）或刚果（布），是非洲中部的一个国家，首都为布拉柴维尔，毗邻几内亚湾，接壤刚果民主共和国、喀麦隆、中非共和国、加蓬以及安哥拉等国。该国通用法语，1960年获得独立。班图人曾于13世纪末14世纪初在这一地区建立刚果王国，其领土包括现在的安哥拉、加蓬和刚果民主共和国的疆域。15世纪晚期欧洲人到来并开始奴隶贸易，到19世纪早期奴隶贸易结束时，这些班图王国都已衰落。1880年法国正式开始对刚果的殖民统治，1884年柏林会议确定法国殖民地与比属刚果以刚果河为界。1910年法国设立法属赤道非洲，包括现在的刚果共和国、加蓬、乍得和中非共和国，布拉柴维尔被定为首府。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 296,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%88%9A%E6%9E%9C%E5%85%B1%E5%92%8C%E5%9B%BD",
+    "title": "刚果共和国"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "班图人曾经于13世纪末14世纪初在这个地区建立过刚果王国，领土包括现在的安哥拉、加蓬和刚果民主共和国的疆域。15世纪晚期，欧洲人来到这里开始奴隶贸易。到19世纪早期奴隶贸易结束的时候，这些班图王国都衰落了。1880年，法国正式开始对刚果的殖民统治。1884年的柏林会议确定法国殖民地与比属刚果以刚果河为界。1910年法国设立法属赤道非洲，包括现在的刚果共和国、加蓬、乍得和中非共和国，布拉柴维尔被定为首府。第二次世界大战中，法属赤道非洲当局支持戴高乐将军，1940年－1943年布拉柴维尔更是被选作自由法国的象征性首都。1958年9月经过法国全民公决，通过新宪法。法属赤道非洲解体，11月28日，4个成员国各自成为法兰西共同体内的自治国家。1960年8月15日，刚果正式独立，这一天成为刚果国庆至今。独立后一度政权更迭频繁：1960年，富尔贝·尤卢当选为第一任总统，旋即在1963年的“刚果八月革命”中被推翻，由阿尔方斯·马桑巴-代巴接任，而他又在1968年7月31日被马里安·恩古瓦比等联合发动的“七·三一运动”推翻。次年12月国名改为刚果人民共和国。1977年，恩古瓦比遇刺身亡，若阿基姆·雍比-奥庞戈出任总统，两年后被执政党刚果劳动党罢免，不久德尼·萨苏-恩格索成为党主席，同时当选总统。1990年7月，劳动党决定放弃马克思列宁主义，但坚持社会主义，实行多党制，放弃领导地位。次年上半年举行全国会议，通过临时宪法，恢复独立时的国名、国旗和国歌。1992年举行实行多党制后的首次总统大选，泛非社会民主联盟主席帕斯卡尔·利苏巴当选总统。1997年6月刚果内战爆发，利苏巴战败逃亡，萨苏成为总统。此后的2002年和2009年两次在大选中胜出，当选总统至今。",
+      "chars": 728
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Morning mist over the Sangha River near Bayanga.jpg",
+      "caption_zh": "巴扬加附近桑加河晨雾",
+      "caption": "巴扬加附近桑加河晨雾",
+      "caption_commons": "Morning mist over the Sangha River near Bayanga.",
+      "kw": "Sangha River Congo",
+      "url": "assets/cg/L01.webp",
+      "thumb_url": "assets/cg/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Morning_mist_over_the_Sangha_River_near_Bayanga.jpg/1920px-Morning_mist_over_the_Sangha_River_near_Bayanga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "JosepMGracia",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 31364,
+      "caption_zh_manual": "桑加河",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 2094,
+      "size": {
+        "detail": "1080x717",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1275 299KB JPEG)"
+    },
+    {
+      "title": "File:Cathédrale de Brazzaville avant 1926.jpg",
+      "caption_zh": "1926年前的布拉柴维尔刚果河岸主教座堂",
+      "caption": "1926年前的布拉柴维尔刚果河岸主教座堂",
+      "caption_commons": "Une vue de la cathédrale de Brazzaville avant 1926, in Monseigneur Augouard de G",
+      "kw": "Brazzaville Congo River",
+      "url": "assets/cg/L02.webp",
+      "thumb_url": "assets/cg/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cath%C3%A9drale_de_Brazzaville_avant_1926.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Garitan",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 15050,
+      "caption_zh_manual": "布拉柴维尔刚果河岸",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7742,
+      "size": {
+        "detail": "387x251",
+        "thumb": "240x156"
+      },
+      "encoding": "webp q75/q78 (源 387x251 68KB JPEG)"
+    },
+    {
+      "title": "File:Basilique Sainte-anne.jpg",
+      "caption_zh": "圣安娜大教堂",
+      "caption": "圣安娜大教堂",
+      "caption_commons": "Basilique mineure Sainte-Anne à Brazzaville",
+      "kw": "Basilique Sainte-Anne Brazzaville",
+      "url": "assets/cg/L04.webp",
+      "thumb_url": "assets/cg/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Basilique_Sainte-anne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Kani Beat",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 292670,
+      "caption_zh_manual": "圣安娜大教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3680,
+      "size": {
+        "detail": "1070x1600",
+        "thumb": "120x180"
+      },
+      "encoding": "webp q75/q78 (源 1070x1600 1358KB JPEG)"
+    },
+    {
+      "title": "File:20160718 OSM-Odzala.png",
+      "caption_zh": "奥扎拉-科库阿国家公园地图",
+      "caption": "奥扎拉-科库阿国家公园地图",
+      "caption_commons": "Boundaries of Odzaka National Park, Republic of the Congo (OSM) ː forest elephan",
+      "kw": "Odzala-Kokoua National Park",
+      "url": "assets/cg/L05.webp",
+      "thumb_url": "assets/cg/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/20160718_OSM-Odzala.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Contributers to OpenStreetMap",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 10726,
+      "caption_zh_manual": "奥扎拉-科库阿国家公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 2326,
+      "size": {
+        "detail": "562x472",
+        "thumb": "214x180"
+      },
+      "encoding": "webp q75/q78 (源 562x472 94KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:39:22+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Kongo.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Republica Congo.wav、LL-Q9610 (ben)-Tahmid-কঙ্গো প্রজাতন্ত্র.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py CG",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "莱菲尼沼泽：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（4 张，中文图注）",
+    "摘要 296 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[error] summary_head：刚果共和国不与喀麦隆接壤 → 删除喀麦隆"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "马克思列宁主义",
+        "evidence": "马克思列宁主义一党制国家"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "法语",
+        "evidence": "通用法语"
+      },
+      {
+        "v": "布拉柴维尔",
+        "evidence": "首都为布拉柴维尔"
+      },
+      {
+        "v": "几内亚湾",
+        "evidence": "毗邻几内亚湾"
+      },
+      {
+        "v": "刚果河",
+        "evidence": "以刚果河为界"
+      },
+      {
+        "v": "班图人",
+        "evidence": "班图人的部落控制"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "刚果共和国（法语：République du Congo；基图巴语：Repubilika ya Kongo；林格拉语：Republiki ya Kongó），简称刚果、刚果（布拉柴维尔）或刚果（布），是非洲中部的一个国家，首都为布拉柴维尔，接壤刚果民主共和国、喀麦隆、中非共和国、加蓬以及安哥拉等国，毗邻几内亚湾。\n历史上该地由班图人的部落控制，后成为法国殖民地，通用法语，1960年获得独立。1970年至1991年间国名为刚果人民共和国，是一个马克思列宁主义一党制国家；1992年曾改用多党制，但1997年此政府在内战中倒台。\n\n\n== 历史 ==\n\n班图人曾经于13世纪末14世纪初在这个地区建立过刚果王国，领土包括现在的安哥拉、加蓬和刚果民主共和国的疆域。15世纪晚期，欧洲人来到这里开始奴隶贸易。到19世纪早期奴隶贸易结束的时候，这些班图王国都衰落了。1880年，法国正式开始对刚果的殖民统治。1884年的柏林会议确定法国殖民地与比属刚果以刚果河为界。1910年法国设立法属赤道非洲，包括现在的刚果共和国、加蓬、乍得和中非共和国，布拉柴维尔被定为首府。",
+  "history_text": "班图人于十三世纪末十四世纪初在此建立刚果王国，疆域横跨今安哥拉、加蓬与刚果民主共和国一带。十五世纪晚期欧洲人到来，奴隶贸易延续至十九世纪早期，诸班图王国随之衰落。1880年法国开始殖民统治，1910年法属赤道非洲设布拉柴维尔为首府。1960年8月15日正式独立，此后政权更迭频繁，1963年“刚果八月革命”、1968年“七·三一运动”接连推翻总统，次年改国名为刚果人民共和国。",
+  "custom_text": "木薯与芭蕉是日常主食，木薯磨粉做成团块，配以花生酱或棕榈油调味的炖菜；河鱼与熏鱼在沿河集市上常见。周日礼拜时，人们穿上色彩鲜亮的蜡染布衣裳，唱诗与鼓声交织。傍晚的村落里，长者围坐讲述祖先与森林精灵的故事，鼓点仍是节庆与仪式中传递消息、召唤舞者的语言。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 188,
+      "folk": 125
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "刚果共和国在哪儿啊？",
+      "a": "非洲中部的一个国家，首都布拉柴维尔，接壤刚果民主共和国、喀麦隆、中非共和国、加蓬以及安哥拉等国，毗邻几内亚湾。",
+      "tags": [
+        "非洲",
+        "位置",
+        "邻国"
+      ]
+    },
+    {
+      "q": "刚果共和国的首都是哪里？",
+      "a": "布拉柴维尔。",
+      "tags": [
+        "首都",
+        "布拉柴维尔"
+      ]
+    },
+    {
+      "q": "刚果共和国说什么语言？",
+      "a": "官方语言是法语，通用法语。",
+      "tags": [
+        "语言",
+        "法语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "刚果共和国有什么值得看的地标？",
+      "a": "有桑加河、布拉柴维尔刚果河岸、圣安娜大教堂、奥扎拉-科库阿国家公园。",
+      "tags": [
+        "地标",
+        "景点",
+        "教堂",
+        "国家公园"
+      ]
+    },
+    {
+      "q": "刚果共和国有什么历史背景？",
+      "a": "历史上由班图人部落控制，后成为法国殖民地，1960年获得独立。1970年至1991年间国名为刚果人民共和国，1992年曾改用多党制，但1997年此政府在内战中倒台。",
+      "tags": [
+        "历史",
+        "独立",
+        "殖民地"
+      ]
+    },
+    {
+      "q": "刚果共和国以前是法国殖民地吗？",
+      "a": "是的，1880年法国正式开始对刚果的殖民统治，1910年法国设立法属赤道非洲，布拉柴维尔被定为首府。",
+      "tags": [
+        "法国",
+        "殖民地",
+        "历史"
+      ]
+    },
+    {
+      "q": "刚果共和国和刚果民主共和国是同一个国家吗？",
+      "a": "不是，刚果共和国简称刚果（布），首都布拉柴维尔，接壤刚果民主共和国等国。",
+      "tags": [
+        "刚果布",
+        "刚果金",
+        "区别"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "summary_head",
+        "severity": "error",
+        "why": "刚果共和国不与喀麦隆接壤",
+        "suggest": "删除喀麦隆"
+      }
+    ],
+    "overall": "fail"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        1863,
+        348
+      ],
+      [
+        1861,
+        313
+      ],
+      [
+        1807,
+        216
+      ],
+      [
+        1807,
+        155
+      ],
+      [
+        1787,
+        102
+      ],
+      [
+        1794,
+        38
+      ],
+      [
+        1772,
+        -20
+      ],
+      [
+        1775,
+        -52
+      ],
+      [
+        1731,
+        -101
+      ],
+      [
+        1702,
+        -110
+      ],
+      [
+        1683,
+        -127
+      ],
+      [
+        1651,
+        -189
+      ],
+      [
+        1620,
+        -218
+      ],
+      [
+        1623,
+        -331
+      ],
+      [
+        1591,
+        -392
+      ],
+      [
+        1555,
+        -405
+      ],
+      [
+        1546,
+        -421
+      ],
+      [
+        1520,
+        -434
+      ],
+      [
+        1483,
+        -482
+      ],
+      [
+        1467,
+        -490
+      ],
+      [
+        1452,
+        -484
+      ],
+      [
+        1440,
+        -489
+      ],
+      [
+        1435,
+        -456
+      ],
+      [
+        1447,
+        -443
+      ],
+      [
+        1439,
+        -428
+      ],
+      [
+        1394,
+        -450
+      ],
+      [
+        1372,
+        -445
+      ],
+      [
+        1371,
+        -469
+      ],
+      [
+        1339,
+        -488
+      ],
+      [
+        1311,
+        -458
+      ],
+      [
+        1303,
+        -461
+      ],
+      [
+        1287,
+        -441
+      ],
+      [
+        1276,
+        -439
+      ],
+      [
+        1262,
+        -456
+      ],
+      [
+        1239,
+        -461
+      ],
+      [
+        1232,
+        -478
+      ],
+      [
+        1219,
+        -476
+      ],
+      [
+        1201,
+        -502
+      ],
+      [
+        1182,
+        -478
+      ],
+      [
+        1181,
+        -458
+      ],
+      [
+        1111,
+        -394
+      ],
+      [
+        1121,
+        -370
+      ],
+      [
+        1148,
+        -351
+      ],
+      [
+        1169,
+        -370
+      ],
+      [
+        1191,
+        -364
+      ],
+      [
+        1182,
+        -357
+      ],
+      [
+        1194,
+        -330
+      ],
+      [
+        1169,
+        -317
+      ],
+      [
+        1178,
+        -301
+      ],
+      [
+        1164,
+        -283
+      ],
+      [
+        1153,
+        -287
+      ],
+      [
+        1162,
+        -263
+      ],
+      [
+        1157,
+        -233
+      ],
+      [
+        1176,
+        -242
+      ],
+      [
+        1194,
+        -233
+      ],
+      [
+        1206,
+        -242
+      ],
+      [
+        1246,
+        -233
+      ],
+      [
+        1250,
+        -210
+      ],
+      [
+        1243,
+        -188
+      ],
+      [
+        1249,
+        -192
+      ],
+      [
+        1263,
+        -182
+      ],
+      [
+        1280,
+        -192
+      ],
+      [
+        1301,
+        -228
+      ],
+      [
+        1297,
+        -237
+      ],
+      [
+        1346,
+        -244
+      ],
+      [
+        1374,
+        -210
+      ],
+      [
+        1391,
+        -236
+      ],
+      [
+        1385,
+        -247
+      ],
+      [
+        1409,
+        -250
+      ],
+      [
+        1423,
+        -236
+      ],
+      [
+        1415,
+        -222
+      ],
+      [
+        1424,
+        -198
+      ],
+      [
+        1440,
+        -189
+      ],
+      [
+        1445,
+        -169
+      ],
+      [
+        1436,
+        -161
+      ],
+      [
+        1446,
+        -155
+      ],
+      [
+        1449,
+        -141
+      ],
+      [
+        1439,
+        -101
+      ],
+      [
+        1449,
+        -60
+      ],
+      [
+        1432,
+        -44
+      ],
+      [
+        1416,
+        -46
+      ],
+      [
+        1410,
+        -28
+      ],
+      [
+        1383,
+        -20
+      ],
+      [
+        1392,
+        -5
+      ],
+      [
+        1387,
+        20
+      ],
+      [
+        1394,
+        35
+      ],
+      [
+        1408,
+        54
+      ],
+      [
+        1433,
+        62
+      ],
+      [
+        1447,
+        91
+      ],
+      [
+        1428,
+        113
+      ],
+      [
+        1425,
+        133
+      ],
+      [
+        1414,
+        139
+      ],
+      [
+        1380,
+        143
+      ],
+      [
+        1354,
+        128
+      ],
+      [
+        1315,
+        126
+      ],
+      [
+        1325,
+        134
+      ],
+      [
+        1313,
+        159
+      ],
+      [
+        1316,
+        190
+      ],
+      [
+        1330,
+        216
+      ],
+      [
+        1443,
+        213
+      ],
+      [
+        1456,
+        221
+      ],
+      [
+        1476,
+        206
+      ],
+      [
+        1486,
+        212
+      ],
+      [
+        1489,
+        201
+      ],
+      [
+        1521,
+        204
+      ],
+      [
+        1534,
+        192
+      ],
+      [
+        1548,
+        198
+      ],
+      [
+        1571,
+        193
+      ],
+      [
+        1601,
+        177
+      ],
+      [
+        1607,
+        166
+      ],
+      [
+        1616,
+        174
+      ],
+      [
+        1607,
+        198
+      ],
+      [
+        1609,
+        215
+      ],
+      [
+        1621,
+        222
+      ],
+      [
+        1648,
+        284
+      ],
+      [
+        1646,
+        316
+      ],
+      [
+        1660,
+        350
+      ],
+      [
+        1720,
+        358
+      ],
+      [
+        1746,
+        371
+      ],
+      [
+        1779,
+        362
+      ],
+      [
+        1784,
+        354
+      ],
+      [
+        1808,
+        356
+      ],
+      [
+        1818,
+        348
+      ],
+      [
+        1825,
+        358
+      ],
+      [
+        1847,
+        363
+      ],
+      [
+        1863,
+        348
+      ]
+    ]
+  ]
+}

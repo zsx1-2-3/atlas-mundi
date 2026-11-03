@@ -752,7 +752,7 @@
         0,
         -90
       ],
-      "thumb": "assets/aq/01.webp",
+      "thumb": "assets/aq/01.thumb.webp",
       "modalities": {
         "image": true,
         "audio": false,

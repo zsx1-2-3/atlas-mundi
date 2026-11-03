@@ -1,1 +1,521 @@
-{"qid":"Q215","iso_a2":"SI","iso_a3":"SVN","name_zh":"斯洛文尼亚","name_en":"Slovenia","capital":"卢布尔雅那","continent":"欧洲","centroid":[15,46],"centroid_source":"wikidata P625","languages":[{"code":"sl","name_zh":"斯洛文尼亚语","name_local":"斯洛文尼亚语","role":"official","audio_url":"assets/si/audio/sl.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Dobrodošli v Sloveniji, deželi zelenih gozdov in mirnih rek; glavno mesto je Ljubljana, kjer vas ob reki Ljubljanici pozdravlja grajski hrib, nedaleč stran pa se nad jezerom Blejskim dviga otoška cerkev.","tts_text_zh":"欢迎来到斯洛文尼亚，这片绿色森林与宁静河流之地；首都是卢布尔雅那，卢布尔雅尼察河畔的城堡山向您致意，不远处布莱德湖上的小岛教堂静静矗立。","audio_voice":"sl-SI-PetraNeural","audio_bytes":71856},{"code":"it","name_zh":"意大利语","name_local":"意大利语","role":"official","audio_url":"assets/si/audio/it.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Benvenuti in Slovenia, terra di boschi verdi e fiumi tranquilli; la capitale è Lubiana, dove il colle del castello si affaccia sul fiume Ljubljanica, e poco lontano la chiesetta sull'isola del lago di Bled si specchia nelle acque.","tts_text_zh":"欢迎来到斯洛文尼亚，这片绿色森林与宁静河流之地；首都是卢布尔雅那，城堡山俯瞰着卢布尔雅尼察河，不远处布莱德湖岛上的小教堂倒映在水中。","audio_voice":"it-IT-ElsaNeural","audio_bytes":88272},{"code":"hu","name_zh":"匈牙利语","name_local":"匈牙利语","role":"official","audio_url":"assets/si/audio/hu.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Üdvözöljük Szlovéniában, a zöld erdők és csendes folyók országában; fővárosa Ljubljana, ahol a várhegy a Ljubljanica folyó fölé emelkedik, nem messze pedig a bledi tó szigetén álló templom tükröződik a vízben.","tts_text_zh":"欢迎来到斯洛文尼亚，这片绿色森林与宁静河流之国；首都是卢布尔雅那，城堡山高踞于卢布尔雅尼察河之上，不远处布莱德湖岛上的教堂倒映在水中。","audio_voice":"hu-HU-NoemiNeural","audio_bytes":85104}],"summary_text":"斯洛文尼亚共和国通称斯洛文尼亚，是一个位于中东欧、毗邻阿尔卑斯山的国家。它西邻意大利，西南通往亚得里亚海，东部和南部被克罗地亚包围，东北有匈牙利，北接奥地利，国土面积为20,273平方公里。该国地处阿尔卑斯山一带，地形与周边国家相连。卢布尔雅那为首都及最大城市。斯洛文尼亚语为通用语言，其民族祖先古斯拉夫人从6世纪起渐渐在此地定居。半数以上居民信仰罗马天主教。该国虽然是中东欧的斯拉夫民族国家，但在历史和文化上深受邻国意大利和奥地利深远的影响，1991年6月25日独立之前为前南斯拉夫社会主义联邦共和国的一个加盟共和国，即斯洛文尼亚社会主义共和国。现长期居于斯拉夫国家中人均GDP最高的国家。2023年全国人口约212万人。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":312,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%96%AF%E6%B4%9B%E6%96%87%E5%B0%BC%E4%BA%9A","title":"斯洛文尼亚"},"culture_excerpts":[{"section":"历史","text":"铁器时代， 斯洛文尼亚的居民为古凯尔特人及古伊利里亚人。罗马帝国经过长达两百年与当地民族的冲突以后，于1世纪时开始对该地进行统治，并在当地建立的多个城市。从6世纪起，斯洛文尼亚民族的祖先——古斯拉夫人渐渐在此地定居。7世纪时当地兴起了第一个斯洛文尼亚族国家，即卡拉塔尼亚公国。745年该国由法兰克帝国吞并，许多斯拉夫人自此转信天主教。1000年左右书写的《弗赖辛手稿》为斯洛文尼亚语现存最早的文字记录，也是历史上第一个以拉丁字母书写的斯拉夫语言。14世纪时斯洛文尼亚大部分成为哈布斯堡王朝的领地，该王朝即奥匈帝国的建立者。拿破仑时代斯洛文尼亚曾一度成为法国的伊利里亚行省的一部分。1848年，奥匈帝国内地方民族主义高涨，斯洛文尼亚也传出了建立统一独立的国家的呼声。1918年，奥匈帝国在第一次世界大战中战败，旋即崩溃。斯洛文尼亚成为塞尔维亚人、克罗地亚人和斯洛文尼亚人王国的一部分。王国于1929年更名为南斯拉夫王国。第二次世界大战时，轴心国入侵南斯拉夫，斯洛文尼亚的中、西和东部由纳粹德国、意大利王国及匈牙利所兼并，而首都卢比安纳及西部被并入意大利，成为意大利本土省的一部分。战后又以加盟共和国的身份重归南斯拉夫。南斯拉夫时期的斯洛文尼亚是六个加盟共和国当中最富裕的一个。南斯拉夫领导人铁托于1980年逝世后，斯洛文尼亚政府开始自行进行一系列的政治、经济改革，并于1989年9月通过修正案，重申斯洛文尼亚加盟共和国脱离联邦的权利。1990年12月23日，斯洛文尼亚进行全民公决，88%赞成独立。1991年6月25日，斯洛文尼亚正式宣布独立。南斯拉夫随即派兵向斯洛文尼亚宣战，但十天内便在斯洛文尼亚的抵抗中撤退，双方伤亡轻微，史称十日战争。1992年，欧洲共同体承认斯洛文尼亚为独立国家，并接纳斯洛文尼亚加入联合国。同年，斯洛文尼亚正式独立。独立后，斯洛文尼亚将注意力转向西方。2004年3月斯洛文尼亚加入了北约组织，5月1日加入欧盟，在2007年1月正式启用欧元，2007年12月21日成为申根公约会员国。","chars":854},{"section":"文化","text":"斯洛文尼亚菜与相邻的奥地利、匈牙利、意大利菜有很多相同的地方。内陆地区主要是肉类菜，以香肠和炸猪排为主；沿海地区主要是海鲜。此外，生火腿（英语：Prosciutto）、莎乐美肠等肉类加工品也很多。饮料有红宝石颜色的特蓝等红葡萄酒以及白葡萄酒。此外还有用苹果和桃类等水果为基底，加以蒸馏制成的白兰地。斯洛文尼亚的蛋糕类点心也很丰富，多为荞麦面制成。其中有用小麦粉加入杏仁和核桃等烤制的波提察（英语：Potica）（斯洛文尼亚语：Slovenska potica），以及加入苹果的普雷库姆尔斯卡-基巴察（英语：Prekmurska gibanica）（斯洛文尼亚语：Prekmurska gibanica）等传统点心。\n斯洛文尼亚的人口不多，但运动风气相当兴盛，在国际体坛上拥有许多成就。自1992年首次参加奥运以来，斯洛文尼亚的运动员共获得45枚奥运奖牌，其中包括10枚金牌；24枚残奥会的奖牌，其中4枚金牌。斯洛文尼亚的主要团队运动包括足球、篮球、手球、排球、冰球和自行车。\n斯洛文尼亚节日分为两种，一是国家节日，另外是休假日。国家节日是全国庆祝，升国旗，也会有一些公共活动。休假日是天主教的宗教假期，例如圣诞节和复活节。就像星期天一样，公司学校都关闭休假，但是没有什么公共的节目。","chars":1200},{"section":"饮食","text":"斯洛文尼亚菜与相邻的奥地利、匈牙利、意大利菜有很多相同的地方。内陆地区主要是肉类菜，以香肠和炸猪排为主；沿海地区主要是海鲜。此外，生火腿（英语：Prosciutto）、莎乐美肠等肉类加工品也很多。饮料有红宝石颜色的特蓝等红葡萄酒以及白葡萄酒。此外还有用苹果和桃类等水果为基底，加以蒸馏制成的白兰地。斯洛文尼亚的蛋糕类点心也很丰富，多为荞麦面制成。其中有用小麦粉加入杏仁和核桃等烤制的波提察（英语：Potica）（斯洛文尼亚语：Slovenska potica），以及加入苹果的普雷库姆尔斯卡-基巴察（英语：Prekmurska gibanica）（斯洛文尼亚语：Prekmurska gibanica）等传统点心。","chars":1200},{"section":"人口","text":"斯洛文尼亚人口88%属于斯洛文尼亚族，其他民族有克罗地亚人（3%）、塞尔维亚人（2%）、波斯尼亚克人（1%），匈牙利人（0.4%）等。2013年人口出生时预期寿命为79.6岁。主要宗教为天主教（70.8%），另有新教路德宗（1%）、伊斯兰教（1%）、无神论（4.3%）等。\n斯洛文尼亚人口密度为95人/km²，在欧洲国家当中偏低。大约50%的人口为城镇人口，其余为乡村人口。","chars":946}],"landmark_images":[{"title":"File:Aerial image of Lake Bled (view from the southwest).jpg","caption_zh":"从西南方俯瞰布莱德湖","caption":"从西南方俯瞰布莱德湖","caption_commons":"Aerial image of Lake Bled (view from the southwest)","kw":"Lake Bled Slovenia island","url":"assets/si/L01.webp","thumb_url":"assets/si/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Aerial_image_of_Lake_Bled_%28view_from_the_southwest%29.jpg/1920px-Aerial_image_of_Lake_Bled_%28view_from_the_southwest%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Carsten Steger","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":81160,"caption_zh_manual":"布莱德湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22152,"size":{"detail":"760x587","thumb":"388x300"},"encoding":"webp q72/q74 (源 1920x1484 981KB JPEG)"},{"title":"File:Triglav.jpg","caption_zh":"朱利安阿尔卑斯山特里格拉夫峰","caption":"朱利安阿尔卑斯山特里格拉夫峰","caption_commons":"Mount Triglav, the highest mountain in Slovenia. View from the east (Mt. Debela ","kw":"Julian Alps Triglav Slovenia","url":"assets/si/L02.webp","thumb_url":"assets/si/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/0/0a/Triglav.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Andrej Jakobčič","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":54044,"caption_zh_manual":"朱利安阿尔卑斯山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18054,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1600x1200 478KB JPEG)"},{"title":"File:Postojna Cave (18264483725).jpg","caption_zh":"波斯托伊纳溶洞","caption":"波斯托伊纳溶洞","caption_commons":"Postojna Cave","kw":"Postojna Cave Slovenia","url":"assets/si/L03.webp","thumb_url":"assets/si/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Postojna_Cave_%2818264483725%29.jpg/1920px-Postojna_Cave_%2818264483725%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Shadowgate from Novara, ITALY","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":88622,"caption_zh_manual":"波斯托伊纳溶洞","caption_zh_source":"llm_from_commons_filename","thumb_bytes":28122,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 999KB JPEG)"},{"title":"File:Cerkev-MarijinoObiskanje-Ljubljana-Roznik.JPG","caption_zh":"卢布尔雅那龙桥旁的圣母访亲教堂","caption":"卢布尔雅那龙桥旁的圣母访亲教堂","caption_commons":"Maria's visitation church at Rožnik hill, Ljubljana. Originally built in 1740-47","kw":"Dragon Bridge Ljubljana","url":"assets/si/L04.webp","thumb_url":"assets/si/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/a/a0/Cerkev-MarijinoObiskanje-Ljubljana-Roznik.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"No machine-readable author provided. Žiga assumed (based on copyright claims).","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":36824,"caption_zh_manual":"卢布尔雅那龙桥","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12004,"size":{"detail":"760x592","thumb":"385x300"},"encoding":"webp q72/q74 (源 889x692 78KB JPEG)"},{"title":"File:Piranobzidje2011mw.JPG","caption_zh":"皮兰老城城墙","caption":"皮兰老城城墙","caption_commons":"Piran town walls","kw":"Piran Slovenia old town","url":"assets/si/L05.webp","thumb_url":"assets/si/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Piranobzidje2011mw.JPG/1920px-Piranobzidje2011mw.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Mrwho00tm (talk)","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":39240,"caption_zh_manual":"皮兰老城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13496,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 439KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:00:06+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Slowenien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Slovenia.wav、LL-Q33810 (ori)-Psubhashish-ସ୍ଲୋଭେନିଆ.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py SI","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"罗马天主教","evidence":"半数以上居民信仰罗马天主教"}],"architecture":[],"heritage":[],"keywords":[{"v":"阿尔卑斯山","evidence":"毗邻阿尔卑斯山的国家"},{"v":"亚得里亚海","evidence":"西南通往亚得里亚海"},{"v":"卢布尔雅那","evidence":"卢布尔雅那为首都及最大城市"},{"v":"古斯拉夫人","evidence":"古斯拉夫人渐渐在此地定居"},{"v":"卡拉塔尼亚公国","evidence":"即卡拉塔尼亚公国"}],"model":"deepseek-flash"},"summary_text_raw":"斯洛文尼亚共和国（斯洛文尼亚语：Republika Slovenija），通称斯洛文尼亚（斯洛文尼亚语：Slovenija），是一个位于中东欧，毗邻阿尔卑斯山的国家。西邻意大利，西南通往亚得里亚海，东部和南部被克罗地亚包围，东北有匈牙利，北接奥地利。斯洛文尼亚国土面积为20,273平方公里，2023年全国人口约212万人，半数以上居民信仰罗马天主教，卢布尔雅那为首都及最大城市。该国虽然是中东欧的斯拉夫民族国家，但是在历史和文化上深受邻国意大利和奥地利深远的影响，斯洛文尼亚在1991年6月25日独立之前为前南斯拉夫社会主义联邦共和国的一个加盟共和国（斯洛文尼亚社会主义共和国）。现长期居于斯拉夫国家中人均GDP最高的国家。\n\n\n== 历史 ==\n\n根据目前的考古证据，冰河时期末期，境内有尼安德特人生息繁衍。\n铁器时代， 斯洛文尼亚的居民为古凯尔特人及古伊利里亚人。罗马帝国经过长达两百年与当地民族的冲突以后，于1世纪时开始对该地进行统治，并在当地建立的多个城市。\n从6世纪起，斯洛文尼亚民族的祖先——古斯拉夫人渐渐在此地定居。7世纪时当地兴起了第一个斯洛文尼亚族国家，即卡拉塔尼亚公国。","history_text":"铁器时代，这片土地上的居民是古凯尔特人与古伊利里亚人，罗马帝国经长期冲突后于1世纪开始统治并建立多座城市。6世纪起，古斯拉夫人渐渐在此定居，7世纪兴起第一个斯洛文尼亚族国家卡拉塔尼亚公国，745年被法兰克帝国吞并，许多斯拉夫人自此转信天主教。14世纪大部分成为哈布斯堡王朝领地。1918年奥匈帝国崩溃后，斯洛文尼亚并入塞尔维亚人、克罗地亚人和斯洛文尼亚人王国，即后来的南斯拉夫王国。","custom_text":"内陆人家的餐桌以肉类为主，香肠和炸猪排是常客；沿海一带则多海鲜。生火腿、莎乐美肠这类肉制品也常见，酒有红宝石色的特蓝红葡萄酒与白葡萄酒，还有以苹果、桃等水果蒸馏成的白兰地。点心多用荞麦面制成，小麦粉加杏仁和核桃烤成的波提察、夹苹果的普雷库姆尔斯卡-基巴察都是传统做法。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":191,"folk":134}},"knowledge_qa":[{"q":"斯洛文尼亚在哪儿啊？周围都是哪些国家？","a":"位于中东欧，毗邻阿尔卑斯山。西邻意大利，西南通往亚得里亚海，东部和南部被克罗地亚包围，东北有匈牙利，北接奥地利。","tags":["地理位置","邻国","欧洲"]},{"q":"斯洛文尼亚面积多大？人口多少？","a":"国土面积20,273平方公里，2023年全国人口约212万人。","tags":["面积","人口","多大"]},{"q":"斯洛文尼亚的首都是哪里？","a":"首都及最大城市是卢布尔雅那。","tags":["首都","卢布尔雅那","城市"]},{"q":"斯洛文尼亚人说什么语言？","a":"官方语言有斯洛文尼亚语、意大利语和匈牙利语。","tags":["语言","说什么话","官方语言"]},{"q":"斯洛文尼亚有什么值得看的地标或自然景观？","a":"有布莱德湖、朱利安阿尔卑斯山、波斯托伊纳溶洞、卢布尔雅那龙桥和皮兰老城。","tags":["地标","景点","自然风光"]},{"q":"斯洛文尼亚有什么历史文化背景？","a":"历史上深受邻国意大利和奥地利影响，1991年6月25日独立前是前南斯拉夫社会主义联邦共和国的加盟共和国。","tags":["历史","文化","独立"]},{"q":"斯洛文尼亚人主要信什么宗教？","a":"半数以上居民信仰罗马天主教。","tags":["宗教","信仰","天主教"]},{"q":"斯洛文尼亚经济水平怎么样？","a":"现长期居于斯拉夫国家中人均GDP最高的国家。","tags":["经济","人均GDP","发展"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[1364,4546],[1357,4554],[1390,4563],[1358,4581],[1361,4598],[1346,4601],[1364,4618],[1341,4621],[1336,4629],[1370,4652],[1454,4638],[1485,4660],[1506,4665],[1546,4662],[1564,4672],[1585,4672],[1602,4667],[1597,4682],[1609,4686],[1632,4684],[1638,4663],[1650,4654],[1626,4651],[1628,4637],[1606,4638],[1602,4630],[1564,4621],[1559,4611],[1570,4604],[1568,4584],[1526,4572],[1537,4564],[1527,4560],[1532,4545],[1514,4543],[1492,4552],[1480,4546],[1458,4567],[1437,4548],[1364,4546]]]}
+{
+  "qid": "Q215",
+  "iso_a2": "SI",
+  "iso_a3": "SVN",
+  "name_zh": "斯洛文尼亚",
+  "name_en": "Slovenia",
+  "capital": "卢布尔雅那",
+  "continent": "欧洲",
+  "centroid": [
+    15,
+    46
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "sl",
+      "name_zh": "斯洛文尼亚语",
+      "name_local": "斯洛文尼亚语",
+      "role": "official",
+      "audio_url": "assets/si/audio/sl.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Dobrodošli v Sloveniji, deželi zelenih gozdov in mirnih rek; glavno mesto je Ljubljana, kjer vas ob reki Ljubljanici pozdravlja grajski hrib, nedaleč stran pa se nad jezerom Blejskim dviga otoška cerkev.",
+      "tts_text_zh": "欢迎来到斯洛文尼亚，这片绿色森林与宁静河流之地；首都是卢布尔雅那，卢布尔雅尼察河畔的城堡山向您致意，不远处布莱德湖上的小岛教堂静静矗立。",
+      "audio_voice": "sl-SI-PetraNeural",
+      "audio_bytes": 71856
+    },
+    {
+      "code": "it",
+      "name_zh": "意大利语",
+      "name_local": "意大利语",
+      "role": "official",
+      "audio_url": "assets/si/audio/it.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Benvenuti in Slovenia, terra di boschi verdi e fiumi tranquilli; la capitale è Lubiana, dove il colle del castello si affaccia sul fiume Ljubljanica, e poco lontano la chiesetta sull'isola del lago di Bled si specchia nelle acque.",
+      "tts_text_zh": "欢迎来到斯洛文尼亚，这片绿色森林与宁静河流之地；首都是卢布尔雅那，城堡山俯瞰着卢布尔雅尼察河，不远处布莱德湖岛上的小教堂倒映在水中。",
+      "audio_voice": "it-IT-ElsaNeural",
+      "audio_bytes": 88272
+    },
+    {
+      "code": "hu",
+      "name_zh": "匈牙利语",
+      "name_local": "匈牙利语",
+      "role": "official",
+      "audio_url": "assets/si/audio/hu.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Üdvözöljük Szlovéniában, a zöld erdők és csendes folyók országában; fővárosa Ljubljana, ahol a várhegy a Ljubljanica folyó fölé emelkedik, nem messze pedig a bledi tó szigetén álló templom tükröződik a vízben.",
+      "tts_text_zh": "欢迎来到斯洛文尼亚，这片绿色森林与宁静河流之国；首都是卢布尔雅那，城堡山高踞于卢布尔雅尼察河之上，不远处布莱德湖岛上的教堂倒映在水中。",
+      "audio_voice": "hu-HU-NoemiNeural",
+      "audio_bytes": 85104
+    }
+  ],
+  "summary_text": "斯洛文尼亚共和国通称斯洛文尼亚，是一个位于中东欧、毗邻阿尔卑斯山的国家。它西邻意大利，西南通往亚得里亚海，东部和南部被克罗地亚包围，东北有匈牙利，北接奥地利，国土面积为20,273平方公里。该国地处阿尔卑斯山一带，地形与周边国家相连。卢布尔雅那为首都及最大城市。斯洛文尼亚语为通用语言，其民族祖先古斯拉夫人从6世纪起渐渐在此地定居。半数以上居民信仰罗马天主教。该国虽然是中东欧的斯拉夫民族国家，但在历史和文化上深受邻国意大利和奥地利深远的影响，1991年6月25日独立之前为前南斯拉夫社会主义联邦共和国的一个加盟共和国，即斯洛文尼亚社会主义共和国。现长期居于斯拉夫国家中人均GDP最高的国家。2023年全国人口约212万人。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 312,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E6%B4%9B%E6%96%87%E5%B0%BC%E4%BA%9A",
+    "title": "斯洛文尼亚"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "铁器时代， 斯洛文尼亚的居民为古凯尔特人及古伊利里亚人。罗马帝国经过长达两百年与当地民族的冲突以后，于1世纪时开始对该地进行统治，并在当地建立的多个城市。从6世纪起，斯洛文尼亚民族的祖先——古斯拉夫人渐渐在此地定居。7世纪时当地兴起了第一个斯洛文尼亚族国家，即卡拉塔尼亚公国。745年该国由法兰克帝国吞并，许多斯拉夫人自此转信天主教。1000年左右书写的《弗赖辛手稿》为斯洛文尼亚语现存最早的文字记录，也是历史上第一个以拉丁字母书写的斯拉夫语言。14世纪时斯洛文尼亚大部分成为哈布斯堡王朝的领地，该王朝即奥匈帝国的建立者。拿破仑时代斯洛文尼亚曾一度成为法国的伊利里亚行省的一部分。1848年，奥匈帝国内地方民族主义高涨，斯洛文尼亚也传出了建立统一独立的国家的呼声。1918年，奥匈帝国在第一次世界大战中战败，旋即崩溃。斯洛文尼亚成为塞尔维亚人、克罗地亚人和斯洛文尼亚人王国的一部分。王国于1929年更名为南斯拉夫王国。第二次世界大战时，轴心国入侵南斯拉夫，斯洛文尼亚的中、西和东部由纳粹德国、意大利王国及匈牙利所兼并，而首都卢比安纳及西部被并入意大利，成为意大利本土省的一部分。战后又以加盟共和国的身份重归南斯拉夫。南斯拉夫时期的斯洛文尼亚是六个加盟共和国当中最富裕的一个。南斯拉夫领导人铁托于1980年逝世后，斯洛文尼亚政府开始自行进行一系列的政治、经济改革，并于1989年9月通过修正案，重申斯洛文尼亚加盟共和国脱离联邦的权利。1990年12月23日，斯洛文尼亚进行全民公决，88%赞成独立。1991年6月25日，斯洛文尼亚正式宣布独立。南斯拉夫随即派兵向斯洛文尼亚宣战，但十天内便在斯洛文尼亚的抵抗中撤退，双方伤亡轻微，史称十日战争。1992年，欧洲共同体承认斯洛文尼亚为独立国家，并接纳斯洛文尼亚加入联合国。同年，斯洛文尼亚正式独立。独立后，斯洛文尼亚将注意力转向西方。2004年3月斯洛文尼亚加入了北约组织，5月1日加入欧盟，在2007年1月正式启用欧元，2007年12月21日成为申根公约会员国。",
+      "chars": 854
+    },
+    {
+      "section": "文化",
+      "text": "斯洛文尼亚菜与相邻的奥地利、匈牙利、意大利菜有很多相同的地方。内陆地区主要是肉类菜，以香肠和炸猪排为主；沿海地区主要是海鲜。此外，生火腿（英语：Prosciutto）、莎乐美肠等肉类加工品也很多。饮料有红宝石颜色的特蓝等红葡萄酒以及白葡萄酒。此外还有用苹果和桃类等水果为基底，加以蒸馏制成的白兰地。斯洛文尼亚的蛋糕类点心也很丰富，多为荞麦面制成。其中有用小麦粉加入杏仁和核桃等烤制的波提察（英语：Potica）（斯洛文尼亚语：Slovenska potica），以及加入苹果的普雷库姆尔斯卡-基巴察（英语：Prekmurska gibanica）（斯洛文尼亚语：Prekmurska gibanica）等传统点心。\n斯洛文尼亚的人口不多，但运动风气相当兴盛，在国际体坛上拥有许多成就。自1992年首次参加奥运以来，斯洛文尼亚的运动员共获得45枚奥运奖牌，其中包括10枚金牌；24枚残奥会的奖牌，其中4枚金牌。斯洛文尼亚的主要团队运动包括足球、篮球、手球、排球、冰球和自行车。\n斯洛文尼亚节日分为两种，一是国家节日，另外是休假日。国家节日是全国庆祝，升国旗，也会有一些公共活动。休假日是天主教的宗教假期，例如圣诞节和复活节。就像星期天一样，公司学校都关闭休假，但是没有什么公共的节目。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "斯洛文尼亚菜与相邻的奥地利、匈牙利、意大利菜有很多相同的地方。内陆地区主要是肉类菜，以香肠和炸猪排为主；沿海地区主要是海鲜。此外，生火腿（英语：Prosciutto）、莎乐美肠等肉类加工品也很多。饮料有红宝石颜色的特蓝等红葡萄酒以及白葡萄酒。此外还有用苹果和桃类等水果为基底，加以蒸馏制成的白兰地。斯洛文尼亚的蛋糕类点心也很丰富，多为荞麦面制成。其中有用小麦粉加入杏仁和核桃等烤制的波提察（英语：Potica）（斯洛文尼亚语：Slovenska potica），以及加入苹果的普雷库姆尔斯卡-基巴察（英语：Prekmurska gibanica）（斯洛文尼亚语：Prekmurska gibanica）等传统点心。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "斯洛文尼亚人口88%属于斯洛文尼亚族，其他民族有克罗地亚人（3%）、塞尔维亚人（2%）、波斯尼亚克人（1%），匈牙利人（0.4%）等。2013年人口出生时预期寿命为79.6岁。主要宗教为天主教（70.8%），另有新教路德宗（1%）、伊斯兰教（1%）、无神论（4.3%）等。\n斯洛文尼亚人口密度为95人/km²，在欧洲国家当中偏低。大约50%的人口为城镇人口，其余为乡村人口。",
+      "chars": 946
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Aerial image of Lake Bled (view from the southwest).jpg",
+      "caption_zh": "从西南方俯瞰布莱德湖",
+      "caption": "从西南方俯瞰布莱德湖",
+      "caption_commons": "Aerial image of Lake Bled (view from the southwest)",
+      "kw": "Lake Bled Slovenia island",
+      "url": "assets/si/L01.webp",
+      "thumb_url": "assets/si/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Aerial_image_of_Lake_Bled_%28view_from_the_southwest%29.jpg/1920px-Aerial_image_of_Lake_Bled_%28view_from_the_southwest%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Carsten Steger",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 174252,
+      "caption_zh_manual": "布莱德湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9360,
+      "size": {
+        "detail": "1080x835",
+        "thumb": "233x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1484 981KB JPEG)"
+    },
+    {
+      "title": "File:Triglav.jpg",
+      "caption_zh": "朱利安阿尔卑斯山特里格拉夫峰",
+      "caption": "朱利安阿尔卑斯山特里格拉夫峰",
+      "caption_commons": "Mount Triglav, the highest mountain in Slovenia. View from the east (Mt. Debela ",
+      "kw": "Julian Alps Triglav Slovenia",
+      "url": "assets/si/L02.webp",
+      "thumb_url": "assets/si/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Triglav.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Andrej Jakobčič",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 95288,
+      "caption_zh_manual": "朱利安阿尔卑斯山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8398,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1600x1200 478KB JPEG)"
+    },
+    {
+      "title": "File:Postojna Cave (18264483725).jpg",
+      "caption_zh": "波斯托伊纳溶洞",
+      "caption": "波斯托伊纳溶洞",
+      "caption_commons": "Postojna Cave",
+      "kw": "Postojna Cave Slovenia",
+      "url": "assets/si/L03.webp",
+      "thumb_url": "assets/si/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Postojna_Cave_%2818264483725%29.jpg/1920px-Postojna_Cave_%2818264483725%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Shadowgate from Novara, ITALY",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 182520,
+      "caption_zh_manual": "波斯托伊纳溶洞",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 12238,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 999KB JPEG)"
+    },
+    {
+      "title": "File:Cerkev-MarijinoObiskanje-Ljubljana-Roznik.JPG",
+      "caption_zh": "卢布尔雅那龙桥旁的圣母访亲教堂",
+      "caption": "卢布尔雅那龙桥旁的圣母访亲教堂",
+      "caption_commons": "Maria's visitation church at Rožnik hill, Ljubljana. Originally built in 1740-47",
+      "kw": "Dragon Bridge Ljubljana",
+      "url": "assets/si/L04.webp",
+      "thumb_url": "assets/si/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Cerkev-MarijinoObiskanje-Ljubljana-Roznik.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "No machine-readable author provided. Žiga assumed (based on copyright claims).",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 51536,
+      "caption_zh_manual": "卢布尔雅那龙桥",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5664,
+      "size": {
+        "detail": "889x692",
+        "thumb": "231x180"
+      },
+      "encoding": "webp q75/q78 (源 889x692 78KB JPEG)"
+    },
+    {
+      "title": "File:Piranobzidje2011mw.JPG",
+      "caption_zh": "皮兰老城城墙",
+      "caption": "皮兰老城城墙",
+      "caption_commons": "Piran town walls",
+      "kw": "Piran Slovenia old town",
+      "url": "assets/si/L05.webp",
+      "thumb_url": "assets/si/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Piranobzidje2011mw.JPG/1920px-Piranobzidje2011mw.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Mrwho00tm (talk)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 67406,
+      "caption_zh_manual": "皮兰老城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6242,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 439KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:00:06+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Slowenien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Slovenia.wav、LL-Q33810 (ori)-Psubhashish-ସ୍ଲୋଭେନିଆ.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py SI",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "罗马天主教",
+        "evidence": "半数以上居民信仰罗马天主教"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "阿尔卑斯山",
+        "evidence": "毗邻阿尔卑斯山的国家"
+      },
+      {
+        "v": "亚得里亚海",
+        "evidence": "西南通往亚得里亚海"
+      },
+      {
+        "v": "卢布尔雅那",
+        "evidence": "卢布尔雅那为首都及最大城市"
+      },
+      {
+        "v": "古斯拉夫人",
+        "evidence": "古斯拉夫人渐渐在此地定居"
+      },
+      {
+        "v": "卡拉塔尼亚公国",
+        "evidence": "即卡拉塔尼亚公国"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "斯洛文尼亚共和国（斯洛文尼亚语：Republika Slovenija），通称斯洛文尼亚（斯洛文尼亚语：Slovenija），是一个位于中东欧，毗邻阿尔卑斯山的国家。西邻意大利，西南通往亚得里亚海，东部和南部被克罗地亚包围，东北有匈牙利，北接奥地利。斯洛文尼亚国土面积为20,273平方公里，2023年全国人口约212万人，半数以上居民信仰罗马天主教，卢布尔雅那为首都及最大城市。该国虽然是中东欧的斯拉夫民族国家，但是在历史和文化上深受邻国意大利和奥地利深远的影响，斯洛文尼亚在1991年6月25日独立之前为前南斯拉夫社会主义联邦共和国的一个加盟共和国（斯洛文尼亚社会主义共和国）。现长期居于斯拉夫国家中人均GDP最高的国家。\n\n\n== 历史 ==\n\n根据目前的考古证据，冰河时期末期，境内有尼安德特人生息繁衍。\n铁器时代， 斯洛文尼亚的居民为古凯尔特人及古伊利里亚人。罗马帝国经过长达两百年与当地民族的冲突以后，于1世纪时开始对该地进行统治，并在当地建立的多个城市。\n从6世纪起，斯洛文尼亚民族的祖先——古斯拉夫人渐渐在此地定居。7世纪时当地兴起了第一个斯洛文尼亚族国家，即卡拉塔尼亚公国。",
+  "history_text": "铁器时代，这片土地上的居民是古凯尔特人与古伊利里亚人，罗马帝国经长期冲突后于1世纪开始统治并建立多座城市。6世纪起，古斯拉夫人渐渐在此定居，7世纪兴起第一个斯洛文尼亚族国家卡拉塔尼亚公国，745年被法兰克帝国吞并，许多斯拉夫人自此转信天主教。14世纪大部分成为哈布斯堡王朝领地。1918年奥匈帝国崩溃后，斯洛文尼亚并入塞尔维亚人、克罗地亚人和斯洛文尼亚人王国，即后来的南斯拉夫王国。",
+  "custom_text": "内陆人家的餐桌以肉类为主，香肠和炸猪排是常客；沿海一带则多海鲜。生火腿、莎乐美肠这类肉制品也常见，酒有红宝石色的特蓝红葡萄酒与白葡萄酒，还有以苹果、桃等水果蒸馏成的白兰地。点心多用荞麦面制成，小麦粉加杏仁和核桃烤成的波提察、夹苹果的普雷库姆尔斯卡-基巴察都是传统做法。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 191,
+      "folk": 134
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "斯洛文尼亚在哪儿啊？周围都是哪些国家？",
+      "a": "位于中东欧，毗邻阿尔卑斯山。西邻意大利，西南通往亚得里亚海，东部和南部被克罗地亚包围，东北有匈牙利，北接奥地利。",
+      "tags": [
+        "地理位置",
+        "邻国",
+        "欧洲"
+      ]
+    },
+    {
+      "q": "斯洛文尼亚面积多大？人口多少？",
+      "a": "国土面积20,273平方公里，2023年全国人口约212万人。",
+      "tags": [
+        "面积",
+        "人口",
+        "多大"
+      ]
+    },
+    {
+      "q": "斯洛文尼亚的首都是哪里？",
+      "a": "首都及最大城市是卢布尔雅那。",
+      "tags": [
+        "首都",
+        "卢布尔雅那",
+        "城市"
+      ]
+    },
+    {
+      "q": "斯洛文尼亚人说什么语言？",
+      "a": "官方语言有斯洛文尼亚语、意大利语和匈牙利语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言"
+      ]
+    },
+    {
+      "q": "斯洛文尼亚有什么值得看的地标或自然景观？",
+      "a": "有布莱德湖、朱利安阿尔卑斯山、波斯托伊纳溶洞、卢布尔雅那龙桥和皮兰老城。",
+      "tags": [
+        "地标",
+        "景点",
+        "自然风光"
+      ]
+    },
+    {
+      "q": "斯洛文尼亚有什么历史文化背景？",
+      "a": "历史上深受邻国意大利和奥地利影响，1991年6月25日独立前是前南斯拉夫社会主义联邦共和国的加盟共和国。",
+      "tags": [
+        "历史",
+        "文化",
+        "独立"
+      ]
+    },
+    {
+      "q": "斯洛文尼亚人主要信什么宗教？",
+      "a": "半数以上居民信仰罗马天主教。",
+      "tags": [
+        "宗教",
+        "信仰",
+        "天主教"
+      ]
+    },
+    {
+      "q": "斯洛文尼亚经济水平怎么样？",
+      "a": "现长期居于斯拉夫国家中人均GDP最高的国家。",
+      "tags": [
+        "经济",
+        "人均GDP",
+        "发展"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        1364,
+        4546
+      ],
+      [
+        1357,
+        4554
+      ],
+      [
+        1390,
+        4563
+      ],
+      [
+        1358,
+        4581
+      ],
+      [
+        1361,
+        4598
+      ],
+      [
+        1346,
+        4601
+      ],
+      [
+        1364,
+        4618
+      ],
+      [
+        1341,
+        4621
+      ],
+      [
+        1336,
+        4629
+      ],
+      [
+        1370,
+        4652
+      ],
+      [
+        1454,
+        4638
+      ],
+      [
+        1485,
+        4660
+      ],
+      [
+        1506,
+        4665
+      ],
+      [
+        1546,
+        4662
+      ],
+      [
+        1564,
+        4672
+      ],
+      [
+        1585,
+        4672
+      ],
+      [
+        1602,
+        4667
+      ],
+      [
+        1597,
+        4682
+      ],
+      [
+        1609,
+        4686
+      ],
+      [
+        1632,
+        4684
+      ],
+      [
+        1638,
+        4663
+      ],
+      [
+        1650,
+        4654
+      ],
+      [
+        1626,
+        4651
+      ],
+      [
+        1628,
+        4637
+      ],
+      [
+        1606,
+        4638
+      ],
+      [
+        1602,
+        4630
+      ],
+      [
+        1564,
+        4621
+      ],
+      [
+        1559,
+        4611
+      ],
+      [
+        1570,
+        4604
+      ],
+      [
+        1568,
+        4584
+      ],
+      [
+        1526,
+        4572
+      ],
+      [
+        1537,
+        4564
+      ],
+      [
+        1527,
+        4560
+      ],
+      [
+        1532,
+        4545
+      ],
+      [
+        1514,
+        4543
+      ],
+      [
+        1492,
+        4552
+      ],
+      [
+        1480,
+        4546
+      ],
+      [
+        1458,
+        4567
+      ],
+      [
+        1437,
+        4548
+      ],
+      [
+        1364,
+        4546
+      ]
+    ]
+  ]
+}

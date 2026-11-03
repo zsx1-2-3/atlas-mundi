@@ -1,1 +1,766 @@
-{"qid":"Q36","iso_a2":"PL","iso_a3":"POL","name_zh":"波兰","name_en":"Poland","capital":"华沙","continent":"欧洲","centroid":[19,52],"centroid_source":"wikidata P625","languages":[{"code":"pl","name_zh":"波兰语","name_local":"波兰语","role":"official","audio_url":"assets/pl/audio/pl.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Witamy w Polsce, kraju o bogatej historii i kulturze; jej stolicą jest Warszawa, a jednym z najbardziej rozpoznawalnych zabytków jest Zamek Królewski na Starym Mieście, który warto zobaczyć podczas wizyty.","tts_text_zh":"欢迎来到波兰，一个历史悠久、文化丰富的国家；它的首都是华沙，最著名的地标之一是老城区的王宫，值得在参观时一看。","audio_voice":"pl-PL-ZofiaNeural","audio_bytes":74160},{"code":"be","name_zh":"白俄罗斯语","name_local":"白俄罗斯语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"csb","name_zh":"卡舒比语","name_local":"卡舒比语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"波兰共和国通称波兰，是位于中欧和东欧的国家，北边濒临波罗的海并与俄罗斯加里宁格勒州相望，南边与捷克、斯洛伐克和乌克兰接壤，西边比邻德国，东边与立陶宛和白罗斯相接。国土面积313,933平方公里，位居欧洲第十；人口约3,763万人，位居欧洲第九、欧盟第五。首都及最大城市为华沙。波兰的历史悠久，早在50万年前就有原始人类定居，进入9世纪以后，一个名为古波兰人的部落逐渐统一了今天大部分的波兰地区。966年，这一部落的首领梅什科一世皈依基督教（天主教会），从此波兰由部落社会转变为封建国家。1025年，皮尔斯特王朝统一了波兰全境，“波兰王国”由此成立，波兰王国又于1569年与东欧的立陶宛大公国合并，共同组成波兰立陶宛联邦，波兰成为主导该联邦的组成国。在16至17世纪间，波兰立陶宛联邦是欧洲大陆上面积最大、人口最多的国家之一。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":362,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%B3%A2%E5%85%B0","title":"波兰"},"culture_excerpts":[{"section":"历史","text":"波兰从异教向基督教的转变并不是一蹴而就的，11世纪30年代曾发生大规模的异教徒叛乱（英语：Pagan reaction in Poland），促使卡齐米日一世于1038年将首都迁到克拉科夫。1076年，波列斯瓦夫二世重获“国王”称号，但在1079年因谋杀斯坦尼斯劳斯主教（英语：Stanislaus of Szczepanów）而被贵族推翻。1138年，波列斯瓦夫二世将他的土地分封给他的儿子们，使波兰分裂为小波兰、大波兰、西里西亚、马佐夫舍和桑多梅日五个公国。1226年，马佐夫舍公爵康拉德一世邀请条顿骑士团协助对抗普鲁士异教徒，这一决定导致了后世波兰与条顿骑士团数百年的战争。1333年，卡齐米日三世即位。其在位期间，波兰的基础设施、军事、司法和外交等方面均取得了显著发展，成为欧洲一大强国。1340年，卡齐米日三世确立了波兰对鲁塞尼亚的统治，并为防止黑死病蔓延而实施隔离措施，使波兰成为受黑死病影响最小的欧洲国家之一。1364年，卡齐米日三世建立了克拉科夫大学，为欧洲最古老的高等学府之一。1370年，卡齐米日三世去世，皮雅斯特王朝宣告终结。其外甥匈牙利国王拉约什一世继任波兰国王。1384年，拉约什一世的小女儿雅德维加继位，成为波兰第一位女性君主。1573年，第一位经选举即位的国王亨里克五世批准了要求未来君主尊重贵族权利的《亨里克条款（英语：Henrician Articles）》。其继任者巴托里·斯特凡在立窝尼亚战争中领导联邦军队取得胜利，使波兰获得了更多波罗的海东岸的土地。随后，国家事务由王室总理大臣扬·扎莫厄斯基领导。1592年，齐格蒙特三世继承瑞典国王之位。此后，波兰和瑞典两国之间建立联盟，直到1599年齐格蒙特三世被瑞典议会废黜为止。1609年，齐格蒙特三世乘俄罗斯陷入内战之机，入侵俄罗斯。一年后，斯坦尼斯瓦夫·若乌凯夫斯基率领的波兰翼骑兵部队在克鲁希诺击败俄军（英语：Battle of Klushino），随后波兰占领莫斯科，时间达两年之久。同时，在东南战线上，波兰也在与奥斯曼帝国作战。1621年，扬·卡罗尔·霍德凯维奇率领波兰军队，在霍腾取得了对土耳其人的决定性胜利（英语：Battle of Khotyn (1621)），导致奥斯曼苏丹奥斯曼二世的垮台。齐格蒙特三世统治时期，波兰恰逢白银时代，同时其自身也热衷于慈善，但其功绩为暴政所掩盖。继任的瓦迪斯瓦夫四世主张宗教宽容，但其逝世后，波兰立陶宛联邦即因内乱和战争而衰落。1648年，波兰对乌克兰的残暴统治使乌克兰人民不堪忍受，引发了赫梅尔尼茨基起义；1655年，瑞典进攻波兰，波兰进入大洪水时代；1657年，普鲁士也宣告独立（英语：Treaty of Bromberg）。1683年，扬三世·索别斯基在维也纳之战中击败了奥斯曼军队，从而阻止了奥斯曼帝国向欧洲的进一步扩张。随后的奥古斯特二世和奥古斯特三世时期，波兰经历了大北方战争和波兰王位继承战争两场大规模战争后国力衰落，同时邻国也逐渐崛起。1791年，众议院通过《五三宪法》，规定实行君主立宪制。《五三宪法》是欧洲第一部、世界第二部现代意义上的宪法。该宪法限制贵族利益的条文触动了国内贵族的利益，部分反对者组成了塔戈维查联盟，向俄罗斯求助，引发了1792年俄波战争。由于担心波兰霸权的复兴，1793年，俄罗斯和普鲁士对波兰进行了第二次瓜分，使波兰的国力大为削弱。1795年10月24日，俄普奥三国第三次瓜分波兰，此后，波兰立陶宛联邦灭亡，波兰进入长达123年的亡国时期。末代国王斯坦尼斯瓦夫二世于同年11月25日逊位。1939年9月1日，纳粹德国入侵波兰，第二次世界大战正式爆发。9月17日，苏联跟进入侵。1939年9月28日，华沙沦陷。根据《苏德互不侵犯条约》，波兰分为两部分，西部由纳粹德国占领，东部由苏联占领。1939年至1941年间，苏联政府流放了数以千计的波兰人，同时内务人民委员部大批处决波兰战俘，制造了多起屠杀事件，其中最典型、影响最大的则是卡廷惨案。1939年11月，纳粹当局呼吁“彻底灭绝整个波兰民族”，并在《东方总计划》中规划了灭绝的具体流程。纳粹德国军队在波兰建造了特雷布林卡、马伊达内克、奥斯威辛等六座灭绝营。纳粹运用铁路运输体系，从占领区各地运来上百万的犹太人，随后在灭绝营将其全部杀害。据统计，在纳粹占领期间，共有300万波兰犹太人（约占战前波兰犹太人总数的90%）以及180至280万波兰人被纳粹杀害。仅华沙起义就有15万波兰平民遇害。此外，在1939年至1941年间，在苏联占领的波兰领土上，也有约15万波兰人遇害；而在1943年至1944年间，乌克兰民族主义者屠杀了10万波兰人。 在二战所有参战国当中，波兰的人口损失比例最大，共有600万人丧生，占战前波兰人口的六分之一，其中半数为犹太人。 在所有死者中，只有约10%属于战死。1947年2月19日，新政府通过了《小宪法（英语：Small Constitution of 1947）》，从而控制了国内的政治局势。1952年，波兰人民共和国正式成立。1956年，博莱斯瓦夫·贝鲁特去世后，继任的瓦迪斯瓦夫·哥穆尔卡释放了一批政治犯，并放宽言论自由、推行党内民主。进入60年代后，政策一度回归保守。1970年，爱德华·盖莱克上台后，重新推行较为自由的政策，并实行经济改革，取","chars":2200},{"section":"文化","text":"波兰文化和其千年的复杂历史紧密相连，也是西方文化的重要组成部分。波兰文化渊源于早期斯拉夫人，也包含了曾居住于波兰的犹太人、立陶宛人等民族，并深受德国、法国、拉丁和拜占庭文化的影响。波兰人自豪于自身的民族身份，其民族象征通常与红、白两色相关联。波兰古建筑众多，许多受到国家文化遗产研究院（英语：National Institute of Cultural Heritage）的保护，列入历史古迹名录的遗迹达100多个，其中有17个获联合国教科文组织列入世界遗产名录。\n波兰的国定假日与节日有元旦（1月1日）、主显节（1月6日）、复活节（每年春分月圆之后第一个星期日）及其后第一个星期一、劳动节（5月1日）、宪法日（英语：3 May Constitution Day）（5月3日）、五旬节（复活节后第50天）、基督圣体圣血节（天主圣三节之后的星期四）、圣母升天节（8月15日）、诸圣节（11月1日）、国家独立日（11月11日）、圣诞节（12月25日至26日）等。\n波兰有其独特的传统和习俗。尽管平安夜并不属于国定假日，但它仍然是波兰最重要的节日之一。每逢肥胖星期四（复活节之前52天），民众都会上街购买甜甜圈和其他糕点。在复活节，人们制作彩蛋后，将其放入装饰好且经神父祝福的篮子里；第二天，传统上年轻人之间要互相泼水。而在诸圣节，人们则会前往祖先的墓地，并清洁墓碑、点燃蜡烛，以纪念死者。\n波兰民间建筑以木材、红砖等为主要建筑材料，加固教堂（英语：Fortified church）的观念很普遍。在今天的波兰，一些地区依然存在传统风格的庄园、农舍、粮仓、磨坊、客栈等世俗建筑。20世纪早期至中叶，随着城市化以及功能主义建筑的发展，很多传统建筑方法逐渐失传。\n由于波兰历史的多元变化，食物烹调方式不拘一格，与周边国家菜系有许多融合之处。波兰饮食和其他斯拉夫国家的饮食文化相似，特别是与捷克、斯洛伐克、白俄罗斯、乌克兰和俄罗斯的菜肴；也受到中欧饮食的影响，包括德国、奥地利和匈牙利；除此之外也受到犹太人、法国、土耳其和意大利的影响。波兰的著名菜肴有：波兰饺子、比哥斯、波兰披萨（英语：zapiekanka）、波兰炸猪排（英语：Kotlet schabowy）以及波兰酸汤（英语：żurek）等。\n牛奶吧（波兰语：bar mleczny）是波兰一种特别的快餐店形式，在两次世界大战期间和后来的社会主义时期开始流行，以提供价格低廉的波兰传统料理为其特色。由于快餐连锁店的普及，酪乳、酸奶、克非尔及软性饮料也受到欢迎。","chars":1200},{"section":"节日与传统","text":"波兰的国定假日与节日有元旦（1月1日）、主显节（1月6日）、复活节（每年春分月圆之后第一个星期日）及其后第一个星期一、劳动节（5月1日）、宪法日（英语：3 May Constitution Day）（5月3日）、五旬节（复活节后第50天）、基督圣体圣血节（天主圣三节之后的星期四）、圣母升天节（8月15日）、诸圣节（11月1日）、国家独立日（11月11日）、圣诞节（12月25日至26日）等。\n波兰有其独特的传统和习俗。尽管平安夜并不属于国定假日，但它仍然是波兰最重要的节日之一。每逢肥胖星期四（复活节之前52天），民众都会上街购买甜甜圈和其他糕点。在复活节，人们制作彩蛋后，将其放入装饰好且经神父祝福的篮子里；第二天，传统上年轻人之间要互相泼水。而在诸圣节，人们则会前往祖先的墓地，并清洁墓碑、点燃蜡烛，以纪念死者。","chars":800}],"landmark_images":[{"title":"File:Krakow - Wawel - nocny pejzaz 01.jpg","caption_zh":"克拉科夫老城瓦维尔夜景","caption":"克拉科夫老城瓦维尔夜景","caption_commons":"Kraków, zespół Wzgórza Wawelskiego - nocny pejzaż","kw":"Krakow Old Town Main Square","url":"assets/pl/L01.webp","thumb_url":"assets/pl/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Krakow_-_Wawel_-_nocny_pejzaz_01.jpg/1920px-Krakow_-_Wawel_-_nocny_pejzaz_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Jar.ciurus","license":"CC BY-SA 3.0 pl","license_url":"https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en","license_status":"ok","load_verified":true,"bytes":29848,"caption_zh_manual":"克拉科夫老城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":9784,"size":{"detail":"760x449","thumb":"400x236"},"encoding":"webp q72/q74 (源 1920x1134 387KB JPEG)"},{"title":"File:Wieliczka, Jana Matejki; Kopalnia soli- kierat konny węgierski; A-580; 01.jpg","caption_zh":"维利奇卡盐矿匈牙利马拉绞盘","caption":"维利奇卡盐矿匈牙利马拉绞盘","caption_commons":"a Horse mill at the Wieliczka Salt Mine, Poland.","kw":"Wieliczka Salt Mine","url":"assets/pl/L02.webp","thumb_url":"assets/pl/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Wieliczka%2C_Jana_Matejki%3B_Kopalnia_soli-_kierat_konny_w%C4%99gierski%3B_A-580%3B_01.jpg/1920px-Wieliczka%2C_Jana_Matejki%3B_Kopalnia_soli-_kierat_konny_w%C4%99gierski%3B_A-580%3B_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Kriskros","license":"CC BY-SA 3.0 pl","license_url":"https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en","license_status":"ok","load_verified":true,"bytes":97010,"caption_zh_manual":"维利奇卡盐矿","caption_zh_source":"llm_from_commons_filename","thumb_bytes":26010,"size":{"detail":"760x562","thumb":"400x296"},"encoding":"webp q72/q74 (源 1920x1419 1177KB JPEG)"},{"title":"File:Panorama of Malbork Castle, part 4.jpg","caption_zh":"马尔堡城堡全景（第四部分）","caption":"马尔堡城堡全景（第四部分）","caption_commons":"Picture taken in Malbork after Wikimania 2010 conference. Panorama of Malbork Ca","kw":"Malbork Castle","url":"assets/pl/L03.webp","thumb_url":"assets/pl/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Panorama_of_Malbork_Castle%2C_part_4.jpg/1920px-Panorama_of_Malbork_Castle%2C_part_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"DerHexer; derivate work: Carschten","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":63836,"caption_zh_manual":"马尔堡城堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17894,"size":{"detail":"760x497","thumb":"400x262"},"encoding":"webp q72/q74 (源 1920x1256 798KB JPEG)"},{"title":"File:Warsaw Old Town, Warsaw, Poland - panoramio (74).jpg","caption_zh":"华沙老城全景","caption":"华沙老城全景","caption_commons":"Warsaw Old Town, Warsaw, Poland","kw":"Warsaw Old Town Market Square","url":"assets/pl/L04.webp","thumb_url":"assets/pl/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Warsaw_Old_Town%2C_Warsaw%2C_Poland_-_panoramio_%2874%29.jpg/1920px-Warsaw_Old_Town%2C_Warsaw%2C_Poland_-_panoramio_%2874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Ben Bender","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":72886,"caption_zh_manual":"华沙老城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":25140,"size":{"detail":"760x510","thumb":"400x269"},"encoding":"webp q72/q74 (源 1920x1289 617KB JPEG)"},{"title":"File:Lesna river Bialowieza Forest.tif","caption_zh":"比亚沃维耶扎森林中的莱斯纳河","caption":"比亚沃维耶扎森林中的莱斯纳河","caption_commons":"The Lesna river as seen from the bridge near Topiło - Białowieża Forest, Poland","kw":"Bialowieza Forest","url":"assets/pl/L05.webp","thumb_url":"assets/pl/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lesna_river_Bialowieza_Forest.tif/lossy-page1-1920px-Lesna_river_Bialowieza_Forest.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Bouke ten Cate","license":"CC BY 4.0","license_url":"https://creativecommons.org/licenses/by/4.0","license_status":"ok","load_verified":true,"bytes":68876,"caption_zh_manual":"比亚沃维耶扎森林","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18868,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 724KB JPEG)"}],"image_license":"CC BY-SA 3.0 pl","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:52:57+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["语言代码未解析，已剔除：西里西亚语","P443 发音语种不符已弃用：Pl-Polska.ogg、Lb-Polen.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Polonia.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py PL","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","LLM 质检[error] languages：白俄罗斯语在波兰不是官方语言 → 移除 be 或改为 minority","LLM 质检[warn] languages：卡舒比语为地区性语言，非全国官方语言 → role 改为 regional"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 2 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"基督教（天主教会）","evidence":"皈依基督教（天主教会）"}],"architecture":[],"heritage":[],"keywords":[{"v":"华沙","evidence":"首都及最大城市为华沙"},{"v":"波罗的海","evidence":"北边与波罗的海"},{"v":"古波兰人","evidence":"一个名为古波兰人的部落"},{"v":"波兰立陶宛联邦","evidence":"共同组成波兰立陶宛联邦"}],"model":"deepseek-flash"},"summary_text_raw":"波兰共和国（波兰语：Rzeczpospolita Polska），通称波兰（波兰语：Polska），是位于中欧和东欧的国家，首都及最大城市为华沙。国土面积313,933平方公里，位居欧洲第十；人口约3,763万人，位居欧洲第九、欧盟第五。波兰南边与捷克、斯洛伐克和乌克兰接壤，北边与波罗的海及俄罗斯加里宁格勒州相望，西边比邻德国，东边则与立陶宛和白罗斯相接。\n波兰的历史悠久，早在50万年前就有原始人类定居。进入9世纪以后，一个名为古波兰人的部落逐渐统一了今天大部分的波兰地区。966年，这一部落的首领梅什科一世皈依基督教（天主教会），从此波兰由部落社会转变为封建国家。1025年，皮尔斯特王朝统一了波兰全境，“波兰王国”由此成立，而波兰王国又于1569年与东欧的立陶宛大公国合并，共同组成波兰立陶宛联邦，波兰则成为主导该联邦的组成国。在16～17世纪间，波兰立陶宛联邦是欧洲大陆上面积最大、人口最多的国家之一。\n18世纪，波兰立陶宛联邦由盛转衰，于世纪末分次被俄罗斯帝国、奥地利帝国（奥匈帝国）、普鲁士王国（德意志帝国）这三个国家瓜分而亡。","history_text":"11世纪30年代的异教徒叛乱促使卡齐米日一世将首都迁往克拉科夫。1138年，波列斯瓦夫二世分封诸子，国土裂为小波兰、大波兰、西里西亚、马佐夫舍和桑多梅日五个公国。1226年，康拉德一世引入条顿骑士团对抗普鲁士异教徒，由此开启数百年战争。卡齐米日三世在位时国力大振，1364年建立克拉科夫大学，1370年皮雅斯特王朝终结，王位转入匈牙利国王一系。","custom_text":"平安夜虽非法定假日，却是全年最要紧的一夜。复活节前第五十二天的肥胖星期四，人们上街买甜甜圈和糕点；到了复活节，彩蛋装进经神父祝福的装饰篮子，年轻人彼此泼水。诸圣节则举家前往祖辈墓地，清洁墓碑、点起蜡烛。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":172,"folk":101}},"knowledge_qa":[{"q":"波兰在哪儿啊？周围都是些什么地方？","a":"波兰位于中欧和东欧，南边挨着捷克、斯洛伐克和乌克兰，北边是波罗的海和俄罗斯加里宁格勒州，西边是德国，东边是立陶宛和白俄罗斯。","tags":["波兰位置","欧洲","邻国"]},{"q":"波兰面积多大？人口多少？","a":"国土面积313,933平方公里，在欧洲排第十；人口约3,763万人，欧洲第九、欧盟第五。","tags":["面积","人口","波兰"]},{"q":"波兰的首都是哪里？","a":"首都和最大城市都是华沙。","tags":["首都","华沙"]},{"q":"波兰人说什么语言？","a":"官方语言有波兰语、白俄罗斯语和卡舒比语。","tags":["语言","波兰语","方言"]},{"q":"波兰有什么值得一看的地方？","a":"可以看看克拉科夫老城、维利奇卡盐矿、马尔堡城堡、华沙老城和比亚沃维耶扎森林。","tags":["景点","地标","老城"]},{"q":"波兰有什么好吃的或者特产？","a":"目前没有关于波兰饮食或特产的具体信息。","tags":["吃什么","特产","美食"]},{"q":"波兰有什么传统节日或习俗？","a":"目前没有关于波兰节日或传统习俗的具体信息。","tags":["节日","习俗","传统"]}],"llm_audit":{"issues":[{"field":"languages","severity":"error","why":"白俄罗斯语在波兰不是官方语言","suggest":"移除 be 或改为 minority"},{"field":"languages","severity":"warn","why":"卡舒比语为地区性语言，非全国官方语言","suggest":"role 改为 regional"}],"overall":"warn"},"audio_meta":{},"outline":[[[1883,4951],[1879,4967],[1862,4971],[1856,4991],[1829,4991],[1800,5005],[1803,5000],[1784,4997],[1763,5011],[1759,5016],[1775,5022],[1771,5031],[1743,5024],[1689,5043],[1702,5022],[1666,5009],[1634,5037],[1620,5041],[1643,5057],[1633,5064],[1598,5060],[1597,5068],[1579,5074],[1536,5078],[1527,5095],[1514,5101],[1496,5099],[1498,5086],[1481,5086],[1502,5127],[1494,5145],[1471,5153],[1473,5166],[1459,5180],[1476,5208],[1469,5212],[1471,5224],[1454,5238],[1464,5258],[1412,5285],[1414,5296],[1434,5305],[1444,5325],[1426,5370],[1429,5375],[1459,5360],[1462,5365],[1454,5370],[1463,5385],[1443,5391],[1432,5382],[1418,5391],[1618,5426],[1657,5456],[1734,5475],[1815,5484],[1875,5469],[1884,5460],[1846,5479],[1841,5475],[1859,5443],[1889,5435],[1961,5446],[2270,5434],[2284,5440],[2345,5416],[2359,5361],[2389,5315],[2392,5274],[2339,5251],[2317,5229],[2364,5208],[2368,5199],[2354,5159],[2370,5140],[2364,5130],[2414,5086],[2396,5081],[2408,5071],[2411,5054],[2398,5040],[2368,5037],[2267,4957],[2274,4928],[2268,4916],[2285,4908],[2286,4899],[2204,4920],[2193,4933],[2160,4943],[2107,4942],[2092,4929],[2069,4940],[2032,4939],[2014,4931],[2005,4917],[1976,4919],[1977,4939],[1963,4940],[1944,4960],[1914,4939],[1896,4939],[1896,4949],[1883,4951]]]}
+{
+  "qid": "Q36",
+  "iso_a2": "PL",
+  "iso_a3": "POL",
+  "name_zh": "波兰",
+  "name_en": "Poland",
+  "capital": "华沙",
+  "continent": "欧洲",
+  "centroid": [
+    19,
+    52
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "pl",
+      "name_zh": "波兰语",
+      "name_local": "波兰语",
+      "role": "official",
+      "audio_url": "assets/pl/audio/pl.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Witamy w Polsce, kraju o bogatej historii i kulturze; jej stolicą jest Warszawa, a jednym z najbardziej rozpoznawalnych zabytków jest Zamek Królewski na Starym Mieście, który warto zobaczyć podczas wizyty.",
+      "tts_text_zh": "欢迎来到波兰，一个历史悠久、文化丰富的国家；它的首都是华沙，最著名的地标之一是老城区的王宫，值得在参观时一看。",
+      "audio_voice": "pl-PL-ZofiaNeural",
+      "audio_bytes": 74160
+    },
+    {
+      "code": "be",
+      "name_zh": "白俄罗斯语",
+      "name_local": "白俄罗斯语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "csb",
+      "name_zh": "卡舒比语",
+      "name_local": "卡舒比语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "波兰共和国通称波兰，是位于中欧和东欧的国家，北边濒临波罗的海并与俄罗斯加里宁格勒州相望，南边与捷克、斯洛伐克和乌克兰接壤，西边比邻德国，东边与立陶宛和白罗斯相接。国土面积313,933平方公里，位居欧洲第十；人口约3,763万人，位居欧洲第九、欧盟第五。首都及最大城市为华沙。波兰的历史悠久，早在50万年前就有原始人类定居，进入9世纪以后，一个名为古波兰人的部落逐渐统一了今天大部分的波兰地区。966年，这一部落的首领梅什科一世皈依基督教（天主教会），从此波兰由部落社会转变为封建国家。1025年，皮尔斯特王朝统一了波兰全境，“波兰王国”由此成立，波兰王国又于1569年与东欧的立陶宛大公国合并，共同组成波兰立陶宛联邦，波兰成为主导该联邦的组成国。在16至17世纪间，波兰立陶宛联邦是欧洲大陆上面积最大、人口最多的国家之一。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 362,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E5%85%B0",
+    "title": "波兰"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "波兰从异教向基督教的转变并不是一蹴而就的，11世纪30年代曾发生大规模的异教徒叛乱（英语：Pagan reaction in Poland），促使卡齐米日一世于1038年将首都迁到克拉科夫。1076年，波列斯瓦夫二世重获“国王”称号，但在1079年因谋杀斯坦尼斯劳斯主教（英语：Stanislaus of Szczepanów）而被贵族推翻。1138年，波列斯瓦夫二世将他的土地分封给他的儿子们，使波兰分裂为小波兰、大波兰、西里西亚、马佐夫舍和桑多梅日五个公国。1226年，马佐夫舍公爵康拉德一世邀请条顿骑士团协助对抗普鲁士异教徒，这一决定导致了后世波兰与条顿骑士团数百年的战争。1333年，卡齐米日三世即位。其在位期间，波兰的基础设施、军事、司法和外交等方面均取得了显著发展，成为欧洲一大强国。1340年，卡齐米日三世确立了波兰对鲁塞尼亚的统治，并为防止黑死病蔓延而实施隔离措施，使波兰成为受黑死病影响最小的欧洲国家之一。1364年，卡齐米日三世建立了克拉科夫大学，为欧洲最古老的高等学府之一。1370年，卡齐米日三世去世，皮雅斯特王朝宣告终结。其外甥匈牙利国王拉约什一世继任波兰国王。1384年，拉约什一世的小女儿雅德维加继位，成为波兰第一位女性君主。1573年，第一位经选举即位的国王亨里克五世批准了要求未来君主尊重贵族权利的《亨里克条款（英语：Henrician Articles）》。其继任者巴托里·斯特凡在立窝尼亚战争中领导联邦军队取得胜利，使波兰获得了更多波罗的海东岸的土地。随后，国家事务由王室总理大臣扬·扎莫厄斯基领导。1592年，齐格蒙特三世继承瑞典国王之位。此后，波兰和瑞典两国之间建立联盟，直到1599年齐格蒙特三世被瑞典议会废黜为止。1609年，齐格蒙特三世乘俄罗斯陷入内战之机，入侵俄罗斯。一年后，斯坦尼斯瓦夫·若乌凯夫斯基率领的波兰翼骑兵部队在克鲁希诺击败俄军（英语：Battle of Klushino），随后波兰占领莫斯科，时间达两年之久。同时，在东南战线上，波兰也在与奥斯曼帝国作战。1621年，扬·卡罗尔·霍德凯维奇率领波兰军队，在霍腾取得了对土耳其人的决定性胜利（英语：Battle of Khotyn (1621)），导致奥斯曼苏丹奥斯曼二世的垮台。齐格蒙特三世统治时期，波兰恰逢白银时代，同时其自身也热衷于慈善，但其功绩为暴政所掩盖。继任的瓦迪斯瓦夫四世主张宗教宽容，但其逝世后，波兰立陶宛联邦即因内乱和战争而衰落。1648年，波兰对乌克兰的残暴统治使乌克兰人民不堪忍受，引发了赫梅尔尼茨基起义；1655年，瑞典进攻波兰，波兰进入大洪水时代；1657年，普鲁士也宣告独立（英语：Treaty of Bromberg）。1683年，扬三世·索别斯基在维也纳之战中击败了奥斯曼军队，从而阻止了奥斯曼帝国向欧洲的进一步扩张。随后的奥古斯特二世和奥古斯特三世时期，波兰经历了大北方战争和波兰王位继承战争两场大规模战争后国力衰落，同时邻国也逐渐崛起。1791年，众议院通过《五三宪法》，规定实行君主立宪制。《五三宪法》是欧洲第一部、世界第二部现代意义上的宪法。该宪法限制贵族利益的条文触动了国内贵族的利益，部分反对者组成了塔戈维查联盟，向俄罗斯求助，引发了1792年俄波战争。由于担心波兰霸权的复兴，1793年，俄罗斯和普鲁士对波兰进行了第二次瓜分，使波兰的国力大为削弱。1795年10月24日，俄普奥三国第三次瓜分波兰，此后，波兰立陶宛联邦灭亡，波兰进入长达123年的亡国时期。末代国王斯坦尼斯瓦夫二世于同年11月25日逊位。1939年9月1日，纳粹德国入侵波兰，第二次世界大战正式爆发。9月17日，苏联跟进入侵。1939年9月28日，华沙沦陷。根据《苏德互不侵犯条约》，波兰分为两部分，西部由纳粹德国占领，东部由苏联占领。1939年至1941年间，苏联政府流放了数以千计的波兰人，同时内务人民委员部大批处决波兰战俘，制造了多起屠杀事件，其中最典型、影响最大的则是卡廷惨案。1939年11月，纳粹当局呼吁“彻底灭绝整个波兰民族”，并在《东方总计划》中规划了灭绝的具体流程。纳粹德国军队在波兰建造了特雷布林卡、马伊达内克、奥斯威辛等六座灭绝营。纳粹运用铁路运输体系，从占领区各地运来上百万的犹太人，随后在灭绝营将其全部杀害。据统计，在纳粹占领期间，共有300万波兰犹太人（约占战前波兰犹太人总数的90%）以及180至280万波兰人被纳粹杀害。仅华沙起义就有15万波兰平民遇害。此外，在1939年至1941年间，在苏联占领的波兰领土上，也有约15万波兰人遇害；而在1943年至1944年间，乌克兰民族主义者屠杀了10万波兰人。 在二战所有参战国当中，波兰的人口损失比例最大，共有600万人丧生，占战前波兰人口的六分之一，其中半数为犹太人。 在所有死者中，只有约10%属于战死。1947年2月19日，新政府通过了《小宪法（英语：Small Constitution of 1947）》，从而控制了国内的政治局势。1952年，波兰人民共和国正式成立。1956年，博莱斯瓦夫·贝鲁特去世后，继任的瓦迪斯瓦夫·哥穆尔卡释放了一批政治犯，并放宽言论自由、推行党内民主。进入60年代后，政策一度回归保守。1970年，爱德华·盖莱克上台后，重新推行较为自由的政策，并实行经济改革，取",
+      "chars": 2200
+    },
+    {
+      "section": "文化",
+      "text": "波兰文化和其千年的复杂历史紧密相连，也是西方文化的重要组成部分。波兰文化渊源于早期斯拉夫人，也包含了曾居住于波兰的犹太人、立陶宛人等民族，并深受德国、法国、拉丁和拜占庭文化的影响。波兰人自豪于自身的民族身份，其民族象征通常与红、白两色相关联。波兰古建筑众多，许多受到国家文化遗产研究院（英语：National Institute of Cultural Heritage）的保护，列入历史古迹名录的遗迹达100多个，其中有17个获联合国教科文组织列入世界遗产名录。\n波兰的国定假日与节日有元旦（1月1日）、主显节（1月6日）、复活节（每年春分月圆之后第一个星期日）及其后第一个星期一、劳动节（5月1日）、宪法日（英语：3 May Constitution Day）（5月3日）、五旬节（复活节后第50天）、基督圣体圣血节（天主圣三节之后的星期四）、圣母升天节（8月15日）、诸圣节（11月1日）、国家独立日（11月11日）、圣诞节（12月25日至26日）等。\n波兰有其独特的传统和习俗。尽管平安夜并不属于国定假日，但它仍然是波兰最重要的节日之一。每逢肥胖星期四（复活节之前52天），民众都会上街购买甜甜圈和其他糕点。在复活节，人们制作彩蛋后，将其放入装饰好且经神父祝福的篮子里；第二天，传统上年轻人之间要互相泼水。而在诸圣节，人们则会前往祖先的墓地，并清洁墓碑、点燃蜡烛，以纪念死者。\n波兰民间建筑以木材、红砖等为主要建筑材料，加固教堂（英语：Fortified church）的观念很普遍。在今天的波兰，一些地区依然存在传统风格的庄园、农舍、粮仓、磨坊、客栈等世俗建筑。20世纪早期至中叶，随着城市化以及功能主义建筑的发展，很多传统建筑方法逐渐失传。\n由于波兰历史的多元变化，食物烹调方式不拘一格，与周边国家菜系有许多融合之处。波兰饮食和其他斯拉夫国家的饮食文化相似，特别是与捷克、斯洛伐克、白俄罗斯、乌克兰和俄罗斯的菜肴；也受到中欧饮食的影响，包括德国、奥地利和匈牙利；除此之外也受到犹太人、法国、土耳其和意大利的影响。波兰的著名菜肴有：波兰饺子、比哥斯、波兰披萨（英语：zapiekanka）、波兰炸猪排（英语：Kotlet schabowy）以及波兰酸汤（英语：żurek）等。\n牛奶吧（波兰语：bar mleczny）是波兰一种特别的快餐店形式，在两次世界大战期间和后来的社会主义时期开始流行，以提供价格低廉的波兰传统料理为其特色。由于快餐连锁店的普及，酪乳、酸奶、克非尔及软性饮料也受到欢迎。",
+      "chars": 1200
+    },
+    {
+      "section": "节日与传统",
+      "text": "波兰的国定假日与节日有元旦（1月1日）、主显节（1月6日）、复活节（每年春分月圆之后第一个星期日）及其后第一个星期一、劳动节（5月1日）、宪法日（英语：3 May Constitution Day）（5月3日）、五旬节（复活节后第50天）、基督圣体圣血节（天主圣三节之后的星期四）、圣母升天节（8月15日）、诸圣节（11月1日）、国家独立日（11月11日）、圣诞节（12月25日至26日）等。\n波兰有其独特的传统和习俗。尽管平安夜并不属于国定假日，但它仍然是波兰最重要的节日之一。每逢肥胖星期四（复活节之前52天），民众都会上街购买甜甜圈和其他糕点。在复活节，人们制作彩蛋后，将其放入装饰好且经神父祝福的篮子里；第二天，传统上年轻人之间要互相泼水。而在诸圣节，人们则会前往祖先的墓地，并清洁墓碑、点燃蜡烛，以纪念死者。",
+      "chars": 800
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Krakow - Wawel - nocny pejzaz 01.jpg",
+      "caption_zh": "克拉科夫老城瓦维尔夜景",
+      "caption": "克拉科夫老城瓦维尔夜景",
+      "caption_commons": "Kraków, zespół Wzgórza Wawelskiego - nocny pejzaż",
+      "kw": "Krakow Old Town Main Square",
+      "url": "assets/pl/L01.webp",
+      "thumb_url": "assets/pl/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Krakow_-_Wawel_-_nocny_pejzaz_01.jpg/1920px-Krakow_-_Wawel_-_nocny_pejzaz_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Jar.ciurus",
+      "license": "CC BY-SA 3.0 pl",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 61010,
+      "caption_zh_manual": "克拉科夫老城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4814,
+      "size": {
+        "detail": "1080x638",
+        "thumb": "240x142"
+      },
+      "encoding": "webp q75/q78 (源 1920x1134 387KB JPEG)"
+    },
+    {
+      "title": "File:Wieliczka, Jana Matejki; Kopalnia soli- kierat konny węgierski; A-580; 01.jpg",
+      "caption_zh": "维利奇卡盐矿匈牙利马拉绞盘",
+      "caption": "维利奇卡盐矿匈牙利马拉绞盘",
+      "caption_commons": "a Horse mill at the Wieliczka Salt Mine, Poland.",
+      "kw": "Wieliczka Salt Mine",
+      "url": "assets/pl/L02.webp",
+      "thumb_url": "assets/pl/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Wieliczka%2C_Jana_Matejki%3B_Kopalnia_soli-_kierat_konny_w%C4%99gierski%3B_A-580%3B_01.jpg/1920px-Wieliczka%2C_Jana_Matejki%3B_Kopalnia_soli-_kierat_konny_w%C4%99gierski%3B_A-580%3B_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Kriskros",
+      "license": "CC BY-SA 3.0 pl",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 220692,
+      "caption_zh_manual": "维利奇卡盐矿",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11456,
+      "size": {
+        "detail": "1080x798",
+        "thumb": "240x177"
+      },
+      "encoding": "webp q75/q78 (源 1920x1419 1177KB JPEG)"
+    },
+    {
+      "title": "File:Panorama of Malbork Castle, part 4.jpg",
+      "caption_zh": "马尔堡城堡全景（第四部分）",
+      "caption": "马尔堡城堡全景（第四部分）",
+      "caption_commons": "Picture taken in Malbork after Wikimania 2010 conference. Panorama of Malbork Ca",
+      "kw": "Malbork Castle",
+      "url": "assets/pl/L03.webp",
+      "thumb_url": "assets/pl/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Panorama_of_Malbork_Castle%2C_part_4.jpg/1920px-Panorama_of_Malbork_Castle%2C_part_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "DerHexer; derivate work: Carschten",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 143080,
+      "caption_zh_manual": "马尔堡城堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7658,
+      "size": {
+        "detail": "1080x706",
+        "thumb": "240x157"
+      },
+      "encoding": "webp q75/q78 (源 1920x1256 798KB JPEG)"
+    },
+    {
+      "title": "File:Warsaw Old Town, Warsaw, Poland - panoramio (74).jpg",
+      "caption_zh": "华沙老城全景",
+      "caption": "华沙老城全景",
+      "caption_commons": "Warsaw Old Town, Warsaw, Poland",
+      "kw": "Warsaw Old Town Market Square",
+      "url": "assets/pl/L04.webp",
+      "thumb_url": "assets/pl/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Warsaw_Old_Town%2C_Warsaw%2C_Poland_-_panoramio_%2874%29.jpg/1920px-Warsaw_Old_Town%2C_Warsaw%2C_Poland_-_panoramio_%2874%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Ben Bender",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 133746,
+      "caption_zh_manual": "华沙老城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11676,
+      "size": {
+        "detail": "1080x725",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1920x1289 617KB JPEG)"
+    },
+    {
+      "title": "File:Lesna river Bialowieza Forest.tif",
+      "caption_zh": "比亚沃维耶扎森林中的莱斯纳河",
+      "caption": "比亚沃维耶扎森林中的莱斯纳河",
+      "caption_commons": "The Lesna river as seen from the bridge near Topiło - Białowieża Forest, Poland",
+      "kw": "Bialowieza Forest",
+      "url": "assets/pl/L05.webp",
+      "thumb_url": "assets/pl/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Lesna_river_Bialowieza_Forest.tif/lossy-page1-1920px-Lesna_river_Bialowieza_Forest.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Bouke ten Cate",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 142858,
+      "caption_zh_manual": "比亚沃维耶扎森林",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7378,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 724KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0 pl",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:52:57+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "语言代码未解析，已剔除：西里西亚语",
+    "P443 发音语种不符已弃用：Pl-Polska.ogg、Lb-Polen.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Polonia.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py PL",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "LLM 质检[error] languages：白俄罗斯语在波兰不是官方语言 → 移除 be 或改为 minority",
+    "LLM 质检[warn] languages：卡舒比语为地区性语言，非全国官方语言 → role 改为 regional"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 2 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "基督教（天主教会）",
+        "evidence": "皈依基督教（天主教会）"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "华沙",
+        "evidence": "首都及最大城市为华沙"
+      },
+      {
+        "v": "波罗的海",
+        "evidence": "北边与波罗的海"
+      },
+      {
+        "v": "古波兰人",
+        "evidence": "一个名为古波兰人的部落"
+      },
+      {
+        "v": "波兰立陶宛联邦",
+        "evidence": "共同组成波兰立陶宛联邦"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "波兰共和国（波兰语：Rzeczpospolita Polska），通称波兰（波兰语：Polska），是位于中欧和东欧的国家，首都及最大城市为华沙。国土面积313,933平方公里，位居欧洲第十；人口约3,763万人，位居欧洲第九、欧盟第五。波兰南边与捷克、斯洛伐克和乌克兰接壤，北边与波罗的海及俄罗斯加里宁格勒州相望，西边比邻德国，东边则与立陶宛和白罗斯相接。\n波兰的历史悠久，早在50万年前就有原始人类定居。进入9世纪以后，一个名为古波兰人的部落逐渐统一了今天大部分的波兰地区。966年，这一部落的首领梅什科一世皈依基督教（天主教会），从此波兰由部落社会转变为封建国家。1025年，皮尔斯特王朝统一了波兰全境，“波兰王国”由此成立，而波兰王国又于1569年与东欧的立陶宛大公国合并，共同组成波兰立陶宛联邦，波兰则成为主导该联邦的组成国。在16～17世纪间，波兰立陶宛联邦是欧洲大陆上面积最大、人口最多的国家之一。\n18世纪，波兰立陶宛联邦由盛转衰，于世纪末分次被俄罗斯帝国、奥地利帝国（奥匈帝国）、普鲁士王国（德意志帝国）这三个国家瓜分而亡。",
+  "history_text": "11世纪30年代的异教徒叛乱促使卡齐米日一世将首都迁往克拉科夫。1138年，波列斯瓦夫二世分封诸子，国土裂为小波兰、大波兰、西里西亚、马佐夫舍和桑多梅日五个公国。1226年，康拉德一世引入条顿骑士团对抗普鲁士异教徒，由此开启数百年战争。卡齐米日三世在位时国力大振，1364年建立克拉科夫大学，1370年皮雅斯特王朝终结，王位转入匈牙利国王一系。",
+  "custom_text": "平安夜虽非法定假日，却是全年最要紧的一夜。复活节前第五十二天的肥胖星期四，人们上街买甜甜圈和糕点；到了复活节，彩蛋装进经神父祝福的装饰篮子，年轻人彼此泼水。诸圣节则举家前往祖辈墓地，清洁墓碑、点起蜡烛。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 172,
+      "folk": 101
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "波兰在哪儿啊？周围都是些什么地方？",
+      "a": "波兰位于中欧和东欧，南边挨着捷克、斯洛伐克和乌克兰，北边是波罗的海和俄罗斯加里宁格勒州，西边是德国，东边是立陶宛和白俄罗斯。",
+      "tags": [
+        "波兰位置",
+        "欧洲",
+        "邻国"
+      ]
+    },
+    {
+      "q": "波兰面积多大？人口多少？",
+      "a": "国土面积313,933平方公里，在欧洲排第十；人口约3,763万人，欧洲第九、欧盟第五。",
+      "tags": [
+        "面积",
+        "人口",
+        "波兰"
+      ]
+    },
+    {
+      "q": "波兰的首都是哪里？",
+      "a": "首都和最大城市都是华沙。",
+      "tags": [
+        "首都",
+        "华沙"
+      ]
+    },
+    {
+      "q": "波兰人说什么语言？",
+      "a": "官方语言有波兰语、白俄罗斯语和卡舒比语。",
+      "tags": [
+        "语言",
+        "波兰语",
+        "方言"
+      ]
+    },
+    {
+      "q": "波兰有什么值得一看的地方？",
+      "a": "可以看看克拉科夫老城、维利奇卡盐矿、马尔堡城堡、华沙老城和比亚沃维耶扎森林。",
+      "tags": [
+        "景点",
+        "地标",
+        "老城"
+      ]
+    },
+    {
+      "q": "波兰有什么好吃的或者特产？",
+      "a": "目前没有关于波兰饮食或特产的具体信息。",
+      "tags": [
+        "吃什么",
+        "特产",
+        "美食"
+      ]
+    },
+    {
+      "q": "波兰有什么传统节日或习俗？",
+      "a": "目前没有关于波兰节日或传统习俗的具体信息。",
+      "tags": [
+        "节日",
+        "习俗",
+        "传统"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "languages",
+        "severity": "error",
+        "why": "白俄罗斯语在波兰不是官方语言",
+        "suggest": "移除 be 或改为 minority"
+      },
+      {
+        "field": "languages",
+        "severity": "warn",
+        "why": "卡舒比语为地区性语言，非全国官方语言",
+        "suggest": "role 改为 regional"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        1883,
+        4951
+      ],
+      [
+        1879,
+        4967
+      ],
+      [
+        1862,
+        4971
+      ],
+      [
+        1856,
+        4991
+      ],
+      [
+        1829,
+        4991
+      ],
+      [
+        1800,
+        5005
+      ],
+      [
+        1803,
+        5000
+      ],
+      [
+        1784,
+        4997
+      ],
+      [
+        1763,
+        5011
+      ],
+      [
+        1759,
+        5016
+      ],
+      [
+        1775,
+        5022
+      ],
+      [
+        1771,
+        5031
+      ],
+      [
+        1743,
+        5024
+      ],
+      [
+        1689,
+        5043
+      ],
+      [
+        1702,
+        5022
+      ],
+      [
+        1666,
+        5009
+      ],
+      [
+        1634,
+        5037
+      ],
+      [
+        1620,
+        5041
+      ],
+      [
+        1643,
+        5057
+      ],
+      [
+        1633,
+        5064
+      ],
+      [
+        1598,
+        5060
+      ],
+      [
+        1597,
+        5068
+      ],
+      [
+        1579,
+        5074
+      ],
+      [
+        1536,
+        5078
+      ],
+      [
+        1527,
+        5095
+      ],
+      [
+        1514,
+        5101
+      ],
+      [
+        1496,
+        5099
+      ],
+      [
+        1498,
+        5086
+      ],
+      [
+        1481,
+        5086
+      ],
+      [
+        1502,
+        5127
+      ],
+      [
+        1494,
+        5145
+      ],
+      [
+        1471,
+        5153
+      ],
+      [
+        1473,
+        5166
+      ],
+      [
+        1459,
+        5180
+      ],
+      [
+        1476,
+        5208
+      ],
+      [
+        1469,
+        5212
+      ],
+      [
+        1471,
+        5224
+      ],
+      [
+        1454,
+        5238
+      ],
+      [
+        1464,
+        5258
+      ],
+      [
+        1412,
+        5285
+      ],
+      [
+        1414,
+        5296
+      ],
+      [
+        1434,
+        5305
+      ],
+      [
+        1444,
+        5325
+      ],
+      [
+        1426,
+        5370
+      ],
+      [
+        1429,
+        5375
+      ],
+      [
+        1459,
+        5360
+      ],
+      [
+        1462,
+        5365
+      ],
+      [
+        1454,
+        5370
+      ],
+      [
+        1463,
+        5385
+      ],
+      [
+        1443,
+        5391
+      ],
+      [
+        1432,
+        5382
+      ],
+      [
+        1418,
+        5391
+      ],
+      [
+        1618,
+        5426
+      ],
+      [
+        1657,
+        5456
+      ],
+      [
+        1734,
+        5475
+      ],
+      [
+        1815,
+        5484
+      ],
+      [
+        1875,
+        5469
+      ],
+      [
+        1884,
+        5460
+      ],
+      [
+        1846,
+        5479
+      ],
+      [
+        1841,
+        5475
+      ],
+      [
+        1859,
+        5443
+      ],
+      [
+        1889,
+        5435
+      ],
+      [
+        1961,
+        5446
+      ],
+      [
+        2270,
+        5434
+      ],
+      [
+        2284,
+        5440
+      ],
+      [
+        2345,
+        5416
+      ],
+      [
+        2359,
+        5361
+      ],
+      [
+        2389,
+        5315
+      ],
+      [
+        2392,
+        5274
+      ],
+      [
+        2339,
+        5251
+      ],
+      [
+        2317,
+        5229
+      ],
+      [
+        2364,
+        5208
+      ],
+      [
+        2368,
+        5199
+      ],
+      [
+        2354,
+        5159
+      ],
+      [
+        2370,
+        5140
+      ],
+      [
+        2364,
+        5130
+      ],
+      [
+        2414,
+        5086
+      ],
+      [
+        2396,
+        5081
+      ],
+      [
+        2408,
+        5071
+      ],
+      [
+        2411,
+        5054
+      ],
+      [
+        2398,
+        5040
+      ],
+      [
+        2368,
+        5037
+      ],
+      [
+        2267,
+        4957
+      ],
+      [
+        2274,
+        4928
+      ],
+      [
+        2268,
+        4916
+      ],
+      [
+        2285,
+        4908
+      ],
+      [
+        2286,
+        4899
+      ],
+      [
+        2204,
+        4920
+      ],
+      [
+        2193,
+        4933
+      ],
+      [
+        2160,
+        4943
+      ],
+      [
+        2107,
+        4942
+      ],
+      [
+        2092,
+        4929
+      ],
+      [
+        2069,
+        4940
+      ],
+      [
+        2032,
+        4939
+      ],
+      [
+        2014,
+        4931
+      ],
+      [
+        2005,
+        4917
+      ],
+      [
+        1976,
+        4919
+      ],
+      [
+        1977,
+        4939
+      ],
+      [
+        1963,
+        4940
+      ],
+      [
+        1944,
+        4960
+      ],
+      [
+        1914,
+        4939
+      ],
+      [
+        1896,
+        4939
+      ],
+      [
+        1896,
+        4949
+      ],
+      [
+        1883,
+        4951
+      ]
+    ]
+  ]
+}

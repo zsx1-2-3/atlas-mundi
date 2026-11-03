@@ -1,1 +1,508 @@
-{"qid":"Q16645","iso_a2":"UM","iso_a3":"UMI","name_zh":"美国本土外小岛屿","name_en":"United States Minor Outlying Islands","continent":"太平洋岛国","centroid":[166.6333,19.3],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/um/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to the United States Minor Outlying Islands, a scattered collection of remote atolls and reefs across the Pacific; this territory has no official capital, and among its scattered landmarks, the lighthouse on Sand Island in Midway Atoll stands as a quiet witness to the Pacific's history.","tts_text_zh":"欢迎来到美国本土外小岛屿——散布在太平洋上的偏远环礁与珊瑚礁群；这片属地没有正式首都，而在其众多地标中，中途岛沙岛上的灯塔静静见证着太平洋的历史。","audio_voice":"en-US-AriaNeural","audio_bytes":107856}],"summary_text":"美国本土外小岛屿是国际标准化组织ISO 3166-1国际标准所定义的一组美国岛屿属地，二位字母代码为“UM”，国际域名缩写为.um。这些岛屿目前没有永久人口。它们分布在太平洋和加勒比海两个区域。在太平洋的密克罗尼西亚区域，有位于马绍尔群岛北方的威克岛。在波利尼西亚区域，有位于夏威夷群岛西北方的中途岛，位于檀香山西南方的约翰斯顿环礁，位于凤凰群岛北部的豪兰岛和贝克岛，位于莱恩群岛北部的金曼礁和巴尔米拉环礁，以及位于莱恩群岛中部的贾维斯岛。在加勒比海区域，有纳弗沙岛。这些岛屿属地散布于广阔海域，彼此相距遥远，均无永久居民定居。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":264,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD%E6%9C%AC%E5%9C%9F%E5%A4%96%E5%B0%8F%E5%B2%9B%E5%B1%BF","title":"美国本土外小岛屿"},"landmark_images":[{"title":"File:NSGA Midway Sign.jpg","caption_zh":"中途岛环礁NSGA标志牌","caption":"中途岛环礁NSGA标志牌","caption_commons":"NSGA Midway Sign","kw":"Midway Atoll Sand Island","url":"assets/um/L01.webp","thumb_url":"assets/um/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/NSGA_Midway_Sign.jpg/1920px-NSGA_Midway_Sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"CRKerr","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":25106,"caption_zh_manual":"中途岛环礁","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10972,"size":{"detail":"760x523","thumb":"400x275"},"encoding":"webp q72/q74 (源 1920x1321 405KB JPEG)"},{"title":"File:Wake Island Memorial Chapel damaged by Hurricane-Typhoon Ioke 2006.jpg","caption_zh":"威克岛纪念教堂遭飓风破坏","caption":"威克岛纪念教堂遭飓风破坏","caption_commons":"Dead trees and debris left by Typhoon Ioke in 2006 at the Memorial Chapel on Wak","kw":"Wake Island lagoon","url":"assets/um/L02.webp","thumb_url":"assets/um/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Wake_Island_Memorial_Chapel_damaged_by_Hurricane-Typhoon_Ioke_2006.jpg/1920px-Wake_Island_Memorial_Chapel_damaged_by_Hurricane-Typhoon_Ioke_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Tech. Sgt. Shane A. Cuomo","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":72502,"caption_zh_manual":"威克岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22292,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1276 705KB JPEG)"},{"title":"File:A dog sniffs for invasive crazy ants at Johnston Atoll Refuge.png","caption_zh":"约翰斯顿环礁保护区：犬只嗅探入侵性疯蚁","caption":"约翰斯顿环礁保护区：犬只嗅探入侵性疯蚁","caption_commons":"A dog sniffs for invasive crazy ants at Johnston Atoll Refuge","kw":"Johnston Atoll","url":"assets/um/L03.webp","thumb_url":"assets/um/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/A_dog_sniffs_for_invasive_crazy_ants_at_Johnston_Atoll_Refuge.png/1920px-A_dog_sniffs_for_invasive_crazy_ants_at_Johnston_Atoll_Refuge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Tor Johnson","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":83012,"caption_zh_manual":"约翰斯顿环礁","caption_zh_source":"llm_from_commons_filename","thumb_bytes":24648,"size":{"detail":"760x526","thumb":"400x277"},"encoding":"webp q72/q74 (源 1920x1328 3743KB JPEG)"},{"title":"File:PalmyraLagoon1.jpg","caption_zh":"帕尔米拉环礁潟湖","caption":"帕尔米拉环礁潟湖","caption_commons":"","kw":"Palmyra Atoll","url":"assets/um/L04.webp","thumb_url":"assets/um/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/e/ed/PalmyraLagoon1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":null,"license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":20078,"caption_zh_manual":"帕尔米拉环礁","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7524,"size":{"detail":"760x479","thumb":"400x252"},"encoding":"webp q72/q74 (源 1000x630 101KB JPEG)"},{"title":"File:Baker Island Coastline.jpg","caption_zh":"贝克岛海岸线","caption":"贝克岛海岸线","caption_commons":"Baker Island, coastline with day beacon. A red-footed booby Sula sula in foregro","kw":"Baker Island","url":"assets/um/L05.webp","thumb_url":"assets/um/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Baker_Island_Coastline.jpg/1920px-Baker_Island_Coastline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Joann94024 at English Wikipedia","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":25732,"caption_zh_manual":"贝克岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7910,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 528KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:11:38+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["Wikidata 无 P36（首都）","P443 发音语种不符已弃用：LL-Q33573 (kin)-Adygrafix250-Ibirwa Bito Bikikije Leta Zunze Ubumwe.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py UM","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 264 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[warn] continent：该属地含加勒比海岛屿，且坐标166°E在太平洋，分类笼统 → 可标注为大洋洲/太平洋岛屿属地"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"威克岛","evidence":"威克岛（Wake Island）"},{"v":"中途岛","evidence":"中途岛（Midway Atoll）"},{"v":"约翰斯顿环礁","evidence":"约翰斯顿环礁（Johnston Atoll）"},{"v":"巴尔米拉环礁","evidence":"巴尔米拉环礁（Palmyra Atoll）"},{"v":"纳弗沙岛","evidence":"纳弗沙岛（Navasa Island）"}],"model":"deepseek-flash"},"summary_text_raw":"美国本土外小岛屿（英语：United States Minor Outlying Islands），国际标准化组织的ISO 3166-1国际标准所定义的以下美国九处岛屿属地，二位字母代码是“UM”。它们目前没有永久人口。它们的国际域名缩写是.um。美国尚声称拥有塞拉尼拉浅滩和巴霍努埃沃浅滩，但是目前其实际管理方是哥伦比亚。\n\n\n== 太平洋 ==\n\n\n=== 密克罗尼西亚 ===\n威克岛（Wake Island），位于马绍尔群岛的北方\n\n\n=== 波利尼西亚 ===\n中途岛（Midway Atoll），位于夏威夷群岛的西北方\n约翰斯顿环礁（Johnston Atoll），位于檀香山的西南方\n豪兰岛（Howland Island），位于凤凰群岛北部\n贝克岛（Baker Island），位于凤凰群岛北部\n金曼礁（Kingman Reef），位于莱恩群岛北部\n巴尔米拉环礁（Palmyra Atoll），位于莱恩群岛北部\n贾维斯岛（Jarvis Island），位于莱恩群岛中部\n\n\n== 加勒比海 ==\n纳弗沙岛（Navasa Island）\n\n\n== 参考资料 ==\nWorldStatesm……","history_text":"这些岛屿散在太平洋与加勒比海，彼此相隔极远，没有共同的首府，也没有世代定居的居民。它们被归入同一组代码，只因都属美国管辖而无人常年居住。威克岛、中途岛、约翰斯顿环礁、豪兰岛、贝克岛、金曼礁、巴尔米拉环礁、贾维斯岛与纳弗沙岛各自孤立于海面，行政上由美方机构分别照管。美国另声称拥有塞拉尼拉浅滩与巴霍努埃沃浅滩，实际管理方为哥伦比亚。","custom_text":"岛上没有常住的灶火与节庆，日常由轮换的驻守人员与科研队伍维持：补给船靠岸卸下食水与邮件，跑道和气象站按班次运转，海鸟在珊瑚沙上筑巢。巴尔米拉环礁的潟湖与椰林间留有旧时种植园的残迹，如今更多是巡护者记录鸟群与潮汐的所在。这些地方的“习俗”，是看天、等船、记潮水。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":165,"folk":130}},"knowledge_qa":[{"q":"美国本土外小岛屿在哪儿啊？","a":"分布在太平洋和加勒比海，太平洋部分包括密克罗尼西亚的威克岛、波利尼西亚的中途岛、约翰斯顿环礁、豪兰岛、贝克岛、金曼礁、巴尔米拉环礁、贾维斯岛，加勒比海有纳弗沙岛。","tags":["位置","太平洋","加勒比海"]},{"q":"这些岛有首都吗？","a":"没有首都，它们目前没有永久人口。","tags":["首都","人口"]},{"q":"那边说什么语言？","a":"官方语言是英语。","tags":["语言","英语"]},{"q":"有什么值得看的地标或景观？","a":"值得看的有中途岛环礁、威克岛、约翰斯顿环礁、帕尔米拉环礁和贝克岛。","tags":["地标","景观","环礁"]},{"q":"中途岛在哪个位置？","a":"中途岛位于夏威夷群岛的西北方。","tags":["中途岛","夏威夷"]},{"q":"威克岛在哪里？","a":"威克岛位于马绍尔群岛的北方。","tags":["威克岛","马绍尔群岛"]},{"q":"这些岛有永久居民吗？","a":"目前没有永久人口。","tags":["人口","居民"]},{"q":"美国本土外小岛屿的域名缩写是什么？","a":"国际域名缩写是.um。","tags":["域名","缩写"]}],"llm_audit":{"issues":[{"field":"continent","severity":"warn","why":"该属地含加勒比海岛屿，且坐标166°E在太平洋，分类笼统","suggest":"可标注为大洋洲/太平洋岛屿属地"}],"overall":"warn"},"audio_meta":{},"capital":"无常住人口","outline":[[[16662,1928],[16664,1929],[16664,1931],[16665,1930],[16665,1928],[16664,1928],[16662,1928]],[[-16206,589],[-16206,587],[-16207,587],[-16209,588],[-16207,589],[-16210,589],[-16206,589]],[[-7502,1842],[-7501,1842],[-7500,1840],[-7502,1840],[-7503,1841],[-7502,1842]],[[-16003,-38],[-16001,-37],[-16002,-39],[-16003,-38]],[[-17736,2821],[-17739,2820],[-17738,2821],[-17736,2821]],[[-16953,1673],[-16952,1673],[-16955,1672],[-16953,1673]],[[-16953,1676],[-16952,1676],[-16954,1675],[-16953,1676]],[[-17733,2821],[-17732,2821],[-17734,2820],[-17733,2821]],[[-16240,644],[-16238,644],[-16238,643],[-16240,643],[-16240,644]]]}
+{
+  "qid": "Q16645",
+  "iso_a2": "UM",
+  "iso_a3": "UMI",
+  "name_zh": "美国本土外小岛屿",
+  "name_en": "United States Minor Outlying Islands",
+  "continent": "太平洋岛国",
+  "centroid": [
+    166.6333,
+    19.3
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/um/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to the United States Minor Outlying Islands, a scattered collection of remote atolls and reefs across the Pacific; this territory has no official capital, and among its scattered landmarks, the lighthouse on Sand Island in Midway Atoll stands as a quiet witness to the Pacific's history.",
+      "tts_text_zh": "欢迎来到美国本土外小岛屿——散布在太平洋上的偏远环礁与珊瑚礁群；这片属地没有正式首都，而在其众多地标中，中途岛沙岛上的灯塔静静见证着太平洋的历史。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 107856
+    }
+  ],
+  "summary_text": "美国本土外小岛屿是国际标准化组织ISO 3166-1国际标准所定义的一组美国岛屿属地，二位字母代码为“UM”，国际域名缩写为.um。这些岛屿目前没有永久人口。它们分布在太平洋和加勒比海两个区域。在太平洋的密克罗尼西亚区域，有位于马绍尔群岛北方的威克岛。在波利尼西亚区域，有位于夏威夷群岛西北方的中途岛，位于檀香山西南方的约翰斯顿环礁，位于凤凰群岛北部的豪兰岛和贝克岛，位于莱恩群岛北部的金曼礁和巴尔米拉环礁，以及位于莱恩群岛中部的贾维斯岛。在加勒比海区域，有纳弗沙岛。这些岛屿属地散布于广阔海域，彼此相距遥远，均无永久居民定居。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 264,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD%E6%9C%AC%E5%9C%9F%E5%A4%96%E5%B0%8F%E5%B2%9B%E5%B1%BF",
+    "title": "美国本土外小岛屿"
+  },
+  "landmark_images": [
+    {
+      "title": "File:NSGA Midway Sign.jpg",
+      "caption_zh": "中途岛环礁NSGA标志牌",
+      "caption": "中途岛环礁NSGA标志牌",
+      "caption_commons": "NSGA Midway Sign",
+      "kw": "Midway Atoll Sand Island",
+      "url": "assets/um/L01.webp",
+      "thumb_url": "assets/um/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/NSGA_Midway_Sign.jpg/1920px-NSGA_Midway_Sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "CRKerr",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 42922,
+      "caption_zh_manual": "中途岛环礁",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6070,
+      "size": {
+        "detail": "1080x743",
+        "thumb": "240x165"
+      },
+      "encoding": "webp q75/q78 (源 1920x1321 405KB JPEG)"
+    },
+    {
+      "title": "File:Wake Island Memorial Chapel damaged by Hurricane-Typhoon Ioke 2006.jpg",
+      "caption_zh": "威克岛纪念教堂遭飓风破坏",
+      "caption": "威克岛纪念教堂遭飓风破坏",
+      "caption_commons": "Dead trees and debris left by Typhoon Ioke in 2006 at the Memorial Chapel on Wak",
+      "kw": "Wake Island lagoon",
+      "url": "assets/um/L02.webp",
+      "thumb_url": "assets/um/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Wake_Island_Memorial_Chapel_damaged_by_Hurricane-Typhoon_Ioke_2006.jpg/1920px-Wake_Island_Memorial_Chapel_damaged_by_Hurricane-Typhoon_Ioke_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Tech. Sgt. Shane A. Cuomo",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 143634,
+      "caption_zh_manual": "威克岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9836,
+      "size": {
+        "detail": "1080x718",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1276 705KB JPEG)"
+    },
+    {
+      "title": "File:A dog sniffs for invasive crazy ants at Johnston Atoll Refuge.png",
+      "caption_zh": "约翰斯顿环礁保护区：犬只嗅探入侵性疯蚁",
+      "caption": "约翰斯顿环礁保护区：犬只嗅探入侵性疯蚁",
+      "caption_commons": "A dog sniffs for invasive crazy ants at Johnston Atoll Refuge",
+      "kw": "Johnston Atoll",
+      "url": "assets/um/L03.webp",
+      "thumb_url": "assets/um/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/A_dog_sniffs_for_invasive_crazy_ants_at_Johnston_Atoll_Refuge.png/1920px-A_dog_sniffs_for_invasive_crazy_ants_at_Johnston_Atoll_Refuge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Tor Johnson",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 155372,
+      "caption_zh_manual": "约翰斯顿环礁",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10148,
+      "size": {
+        "detail": "1080x747",
+        "thumb": "240x166"
+      },
+      "encoding": "webp q75/q78 (源 1920x1328 3743KB JPEG)"
+    },
+    {
+      "title": "File:PalmyraLagoon1.jpg",
+      "caption_zh": "帕尔米拉环礁潟湖",
+      "caption": "帕尔米拉环礁潟湖",
+      "caption_commons": "",
+      "kw": "Palmyra Atoll",
+      "url": "assets/um/L04.webp",
+      "thumb_url": "assets/um/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/PalmyraLagoon1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": null,
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 33092,
+      "caption_zh_manual": "帕尔米拉环礁",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4090,
+      "size": {
+        "detail": "1000x630",
+        "thumb": "240x151"
+      },
+      "encoding": "webp q75/q78 (源 1000x630 101KB JPEG)"
+    },
+    {
+      "title": "File:Baker Island Coastline.jpg",
+      "caption_zh": "贝克岛海岸线",
+      "caption": "贝克岛海岸线",
+      "caption_commons": "Baker Island, coastline with day beacon. A red-footed booby Sula sula in foregro",
+      "kw": "Baker Island",
+      "url": "assets/um/L05.webp",
+      "thumb_url": "assets/um/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Baker_Island_Coastline.jpg/1920px-Baker_Island_Coastline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Joann94024 at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 54942,
+      "caption_zh_manual": "贝克岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3734,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 528KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:11:38+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "Wikidata 无 P36（首都）",
+    "P443 发音语种不符已弃用：LL-Q33573 (kin)-Adygrafix250-Ibirwa Bito Bikikije Leta Zunze Ubumwe.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py UM",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 264 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[warn] continent：该属地含加勒比海岛屿，且坐标166°E在太平洋，分类笼统 → 可标注为大洋洲/太平洋岛屿属地"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "威克岛",
+        "evidence": "威克岛（Wake Island）"
+      },
+      {
+        "v": "中途岛",
+        "evidence": "中途岛（Midway Atoll）"
+      },
+      {
+        "v": "约翰斯顿环礁",
+        "evidence": "约翰斯顿环礁（Johnston Atoll）"
+      },
+      {
+        "v": "巴尔米拉环礁",
+        "evidence": "巴尔米拉环礁（Palmyra Atoll）"
+      },
+      {
+        "v": "纳弗沙岛",
+        "evidence": "纳弗沙岛（Navasa Island）"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "美国本土外小岛屿（英语：United States Minor Outlying Islands），国际标准化组织的ISO 3166-1国际标准所定义的以下美国九处岛屿属地，二位字母代码是“UM”。它们目前没有永久人口。它们的国际域名缩写是.um。美国尚声称拥有塞拉尼拉浅滩和巴霍努埃沃浅滩，但是目前其实际管理方是哥伦比亚。\n\n\n== 太平洋 ==\n\n\n=== 密克罗尼西亚 ===\n威克岛（Wake Island），位于马绍尔群岛的北方\n\n\n=== 波利尼西亚 ===\n中途岛（Midway Atoll），位于夏威夷群岛的西北方\n约翰斯顿环礁（Johnston Atoll），位于檀香山的西南方\n豪兰岛（Howland Island），位于凤凰群岛北部\n贝克岛（Baker Island），位于凤凰群岛北部\n金曼礁（Kingman Reef），位于莱恩群岛北部\n巴尔米拉环礁（Palmyra Atoll），位于莱恩群岛北部\n贾维斯岛（Jarvis Island），位于莱恩群岛中部\n\n\n== 加勒比海 ==\n纳弗沙岛（Navasa Island）\n\n\n== 参考资料 ==\nWorldStatesm……",
+  "history_text": "这些岛屿散在太平洋与加勒比海，彼此相隔极远，没有共同的首府，也没有世代定居的居民。它们被归入同一组代码，只因都属美国管辖而无人常年居住。威克岛、中途岛、约翰斯顿环礁、豪兰岛、贝克岛、金曼礁、巴尔米拉环礁、贾维斯岛与纳弗沙岛各自孤立于海面，行政上由美方机构分别照管。美国另声称拥有塞拉尼拉浅滩与巴霍努埃沃浅滩，实际管理方为哥伦比亚。",
+  "custom_text": "岛上没有常住的灶火与节庆，日常由轮换的驻守人员与科研队伍维持：补给船靠岸卸下食水与邮件，跑道和气象站按班次运转，海鸟在珊瑚沙上筑巢。巴尔米拉环礁的潟湖与椰林间留有旧时种植园的残迹，如今更多是巡护者记录鸟群与潮汐的所在。这些地方的“习俗”，是看天、等船、记潮水。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 165,
+      "folk": 130
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "美国本土外小岛屿在哪儿啊？",
+      "a": "分布在太平洋和加勒比海，太平洋部分包括密克罗尼西亚的威克岛、波利尼西亚的中途岛、约翰斯顿环礁、豪兰岛、贝克岛、金曼礁、巴尔米拉环礁、贾维斯岛，加勒比海有纳弗沙岛。",
+      "tags": [
+        "位置",
+        "太平洋",
+        "加勒比海"
+      ]
+    },
+    {
+      "q": "这些岛有首都吗？",
+      "a": "没有首都，它们目前没有永久人口。",
+      "tags": [
+        "首都",
+        "人口"
+      ]
+    },
+    {
+      "q": "那边说什么语言？",
+      "a": "官方语言是英语。",
+      "tags": [
+        "语言",
+        "英语"
+      ]
+    },
+    {
+      "q": "有什么值得看的地标或景观？",
+      "a": "值得看的有中途岛环礁、威克岛、约翰斯顿环礁、帕尔米拉环礁和贝克岛。",
+      "tags": [
+        "地标",
+        "景观",
+        "环礁"
+      ]
+    },
+    {
+      "q": "中途岛在哪个位置？",
+      "a": "中途岛位于夏威夷群岛的西北方。",
+      "tags": [
+        "中途岛",
+        "夏威夷"
+      ]
+    },
+    {
+      "q": "威克岛在哪里？",
+      "a": "威克岛位于马绍尔群岛的北方。",
+      "tags": [
+        "威克岛",
+        "马绍尔群岛"
+      ]
+    },
+    {
+      "q": "这些岛有永久居民吗？",
+      "a": "目前没有永久人口。",
+      "tags": [
+        "人口",
+        "居民"
+      ]
+    },
+    {
+      "q": "美国本土外小岛屿的域名缩写是什么？",
+      "a": "国际域名缩写是.um。",
+      "tags": [
+        "域名",
+        "缩写"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "continent",
+        "severity": "warn",
+        "why": "该属地含加勒比海岛屿，且坐标166°E在太平洋，分类笼统",
+        "suggest": "可标注为大洋洲/太平洋岛屿属地"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "capital": "无常住人口",
+  "outline": [
+    [
+      [
+        16662,
+        1928
+      ],
+      [
+        16664,
+        1929
+      ],
+      [
+        16664,
+        1931
+      ],
+      [
+        16665,
+        1930
+      ],
+      [
+        16665,
+        1928
+      ],
+      [
+        16664,
+        1928
+      ],
+      [
+        16662,
+        1928
+      ]
+    ],
+    [
+      [
+        -16206,
+        589
+      ],
+      [
+        -16206,
+        587
+      ],
+      [
+        -16207,
+        587
+      ],
+      [
+        -16209,
+        588
+      ],
+      [
+        -16207,
+        589
+      ],
+      [
+        -16210,
+        589
+      ],
+      [
+        -16206,
+        589
+      ]
+    ],
+    [
+      [
+        -7502,
+        1842
+      ],
+      [
+        -7501,
+        1842
+      ],
+      [
+        -7500,
+        1840
+      ],
+      [
+        -7502,
+        1840
+      ],
+      [
+        -7503,
+        1841
+      ],
+      [
+        -7502,
+        1842
+      ]
+    ],
+    [
+      [
+        -16003,
+        -38
+      ],
+      [
+        -16001,
+        -37
+      ],
+      [
+        -16002,
+        -39
+      ],
+      [
+        -16003,
+        -38
+      ]
+    ],
+    [
+      [
+        -17736,
+        2821
+      ],
+      [
+        -17739,
+        2820
+      ],
+      [
+        -17738,
+        2821
+      ],
+      [
+        -17736,
+        2821
+      ]
+    ],
+    [
+      [
+        -16953,
+        1673
+      ],
+      [
+        -16952,
+        1673
+      ],
+      [
+        -16955,
+        1672
+      ],
+      [
+        -16953,
+        1673
+      ]
+    ],
+    [
+      [
+        -16953,
+        1676
+      ],
+      [
+        -16952,
+        1676
+      ],
+      [
+        -16954,
+        1675
+      ],
+      [
+        -16953,
+        1676
+      ]
+    ],
+    [
+      [
+        -17733,
+        2821
+      ],
+      [
+        -17732,
+        2821
+      ],
+      [
+        -17734,
+        2820
+      ],
+      [
+        -17733,
+        2821
+      ]
+    ],
+    [
+      [
+        -16240,
+        644
+      ],
+      [
+        -16238,
+        644
+      ],
+      [
+        -16238,
+        643
+      ],
+      [
+        -16240,
+        643
+      ],
+      [
+        -16240,
+        644
+      ]
+    ]
+  ]
+}

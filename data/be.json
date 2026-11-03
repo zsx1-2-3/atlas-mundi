@@ -1,1 +1,549 @@
-{"qid":"Q31","iso_a2":"BE","iso_a3":"BEL","name_zh":"比利时","name_en":"Belgium","capital":"布鲁塞尔","continent":"欧洲","centroid":[4.6681,50.6411],"centroid_source":"wikidata P625","languages":[{"code":"nl","name_zh":"荷兰语","name_local":"荷兰语","role":"official","audio_url":"assets/be/audio/nl.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welkom in België, een land waar de geschiedenis zachtjes ademt; de hoofdstad is Brussel, en wie de Grote Markt betreedt, ziet meteen het hart van deze stad oplichten.","tts_text_zh":"欢迎来到比利时，一个历史轻声呼吸的国度；首都是布鲁塞尔，走进大广场的人，立刻会看到这座城市的心脏亮起来。","audio_voice":"nl-BE-DenaNeural","audio_bytes":58896},{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/be/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue en Belgique, un pays où l'histoire respire doucement ; sa capitale est Bruxelles, et quiconque s'avance sur la Grand-Place découvre aussitôt le cœur battant de la ville.","tts_text_zh":"欢迎来到比利时，一个历史轻声呼吸的国度；它的首都是布鲁塞尔，走上大广场的人会立刻发现这座城市跳动的心脏。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":60768},{"code":"de","name_zh":"德语","name_local":"德语","role":"official","audio_url":"assets/be/audio/de.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Willkommen in Belgien, einem Land, in dem die Geschichte leise atmet; seine Hauptstadt ist Brüssel, und wer den Großen Markt betritt, sieht sogleich das Herz dieser Stadt aufleuchten.","tts_text_zh":"欢迎来到比利时，一个历史轻声呼吸的国度；它的首都是布鲁塞尔，走进大广场的人会立刻看到这座城市的心脏亮起来。","audio_voice":"de-AT-IngridNeural","audio_bytes":66960}],"summary_text":"比利时王国通称比利时，是位于西欧的一个国家，坐落于被称为低地国家的沿海低地地区。其领土北部与荷兰接壤，东部与德国相邻，东南毗邻卢森堡，南接法国，西濒大西洋北海。比利时的国土面积为30,689平方千米，人口超过1170万，人口密度为每平方千米383人，在全球排名第22位，在欧洲排名第七位。比利时是一个实行议会制的君主立宪国家，具有一个以地区和语言为基础构建的复杂联邦体系。全国分为三个高度自治的大区，分别为北部的弗拉芒大区、南部的瓦隆大区以及中部的布鲁塞尔首都大区。其首都及最大城市为布鲁塞尔，其他主要城市包括安特卫普、根特、沙勒罗瓦、列日、布鲁日、那慕尔以及鲁汶等。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":284,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%AF%94%E5%88%A9%E6%97%B6","title":"比利时"},"culture_excerpts":[{"section":"历史","text":"公元前54年，当时主要由凯尔特人居住的这一地区被罗马共和国将军凯撒征服。罗马帝国崩溃后，日耳曼人于5世纪大举入侵，其中的一支法兰克人随后建立了墨洛温王朝，其领土包括了现在的比利时。墨洛温王朝之后由卡洛林王朝取代。860年，西法兰克国王查理二世任命杜伯安一世为法兰德斯伯爵。979年，布鲁塞尔正式建立。1302年，弗拉芒人在金马刺之战中击败了法国骑兵。1328年，法国人在卡塞勒之役后，确立了对法兰德斯的统治。1425年，鲁汶大学建立。1468年，勃艮第公爵兼并列日。比利时后来几经转手，各个地区曾由荷兰、勃艮地、西班牙、奥地利等国统治。拿破仑时期，比利时为法国的一部分，拿破仑一世战败后，比利时并入荷兰，形成荷兰联合王国。1830年，比利时爆发比利时独立运动，从荷兰统治下独立，成为世袭君主立宪王国，并选择了一位德国贵族，萨克森-科堡-哥达公国的王子利奥波德作为比利时的第一任国王。比利时立国后奉行中立政策，但在两次世界大战中先后被德意志帝国及纳粹德国占领。二战以后，比利时放弃中立原则，参加了北约。后来又参加了欧洲经济共同体。比利时殖民帝国时期有两个主要的殖民地以及一个租界：卢旺达-乌隆地及比属刚果，即现在的刚果民主共和国。比属刚果于1885年召开的柏林西非会议上赠给当时的比利时国王利奥波德二世。利奥波德将此地命名为刚果自由邦，并收为自己的私人领地，进行残酷的统治，同时大量种植橡胶，以满足当时世界对橡胶轮胎的需求。在国际舆论的压力下，利奥波德二世于1908年放弃了对刚果的私人统治，把刚果交予比利时政府。后来比属刚果于1960年独立。天津比租界由比利时男爵姚士登于1900年八国联军与大清签定辛丑条约后开辟。1927年将租界交还北洋政府。现代比利时作为一个现代化、高科技的欧洲国家而兴盛，同时也是北约和欧盟的成员国，首都布鲁塞尔亦是这两个组织的总部。但是比利时一直存在国家分裂和解体的可能性，北半部说荷兰语的弗拉芒人（亲荷兰）和南半部讲法语的瓦隆人（亲法国）之间长期关系紧张。2007年6月10日，举行联邦议会选举。经过半年谈判后组成联合政府，但联合政府仅三个月便下台。2010年6月议会选举后，曾经过543天未能组阁，打破组阁权最长的世界纪录。最终导致了宪法修正案，赋予比利时南北两区正式的自治权，首都布鲁塞尔则为联邦辖地，并削弱上议院权力，议会选举2014年起将与欧洲议会选举同期举行，即每五年举行选举，下议院的荷兰语区有87席，法语区有63席，两语区拥有相等的权力。因此比利时现在是一个联邦制国家。2014年10月11日比利时新任总理米歇尔率领中间偏右联合政府的内阁成员，向比利时国王菲利普宣誓就职，终结4个月以来的政治谈判。米歇尔是比利时自1840年以来，最年轻的总理；他也将成为欧洲联盟中，最年轻的领导人之一。2016年3月22日，首都布鲁塞尔遭遇伊斯兰恐怖主义组织伊斯兰国成员实施的爆炸攻击。2019年大选后新政府迟迟未组成，但时任首相米歇尔将于同年12月担任欧洲理事会主席。作为米歇尔的盟友，苏菲·威尔梅斯遂于10月被菲利普国王委任为比利时首位女首相，接替前者带领看守政府。","chars":1298},{"section":"文化","text":"比利时是很多法国作家的安乐窝，如维克多·雨果、大仲马等。比利时也是画家的天堂，弗拉芒画派（英语：Flemish painting）是17世纪最重要的画派。\n此外，在2003年1月30日，比利时成为继荷兰之后全球第二个同性婚姻合法化的国家。","chars":1200},{"section":"饮食","text":"比利时人酷爱薯条，一般在各个小店或火车站都可以买到小包装的炸马铃薯，当地人叫做frieten（荷语）或frites（法语）。比利时人也酷爱喝啤酒，世界上最大的啤酒厂就在比利时。做甜点（Gauffres）是比利时人的特长。比利时巧克力和瑞士巧克力闻名于世，手工制作的饼干、蛋糕等也非常有名。","chars":1200},{"section":"人口","text":"比利时全国总人口为11,568,000（2019年），人口密度（376/km²）仅次于荷兰及一些欧洲小国，为欧洲人口高稠密的国家之一。\n比利时众议院2014年2月13日通过安乐死合法范围扩及未成年人一案，将成为继荷兰之后，全球第2个在严格条件下许可孩童安乐死的国家。","chars":502}],"landmark_images":[{"title":"File:Brusel Grand-Place radnice 1a.jpg","caption_zh":"布鲁塞尔大广场市政厅","caption":"布鲁塞尔大广场市政厅","caption_commons":"Brusel Grand-Place","kw":"Grand Place Brussels","url":"assets/be/L01.webp","thumb_url":"assets/be/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Brusel_Grand-Place_radnice_1a.jpg/1920px-Brusel_Grand-Place_radnice_1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"VitVit","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":52598,"caption_zh_manual":"布鲁塞尔大广场","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15944,"size":{"detail":"760x591","thumb":"386x300"},"encoding":"webp q72/q74 (源 1920x1492 613KB JPEG)"},{"title":"File:Laeken Atomium 06.jpg","caption_zh":"原子球塔","caption":"原子球塔","caption_commons":"Atomium, Brussels, District of Laeken, Region of Brussels, Belgium","kw":"Atomium Brussels","url":"assets/be/L02.webp","thumb_url":"assets/be/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Laeken_Atomium_06.jpg/1920px-Laeken_Atomium_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Zairon","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":52256,"caption_zh_manual":"原子球塔","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12084,"size":{"detail":"760x734","thumb":"311x300"},"encoding":"webp q72/q74 (源 1920x1854 624KB JPEG)"},{"title":"File:Bruges, the Dijver canal, view to the Belfry.JPG","caption_zh":"从迪弗运河望向布鲁日钟楼","caption":"从迪弗运河望向布鲁日钟楼","caption_commons":"Bruges, the Dijver canal, view to the Belfry","kw":"Belfry of Bruges","url":"assets/be/L03.webp","thumb_url":"assets/be/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Bruges%2C_the_Dijver_canal%2C_view_to_the_Belfry.JPG/1920px-Bruges%2C_the_Dijver_canal%2C_view_to_the_Belfry.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Dguendel","license":"CC BY 4.0","license_url":"https://creativecommons.org/licenses/by/4.0","license_status":"ok","load_verified":true,"bytes":51334,"caption_zh_manual":"布鲁日钟楼","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13170,"size":{"detail":"760x536","thumb":"400x282"},"encoding":"webp q72/q74 (源 1920x1355 647KB JPEG)"},{"title":"File:Gent Gravensteen R01.jpg","caption_zh":"根特伯爵城堡外观","caption":"根特伯爵城堡外观","caption_commons":"NOTE: This image is a panorama consisting of multiple frames that were merged or","kw":"Gravensteen Ghent","url":"assets/be/L04.webp","thumb_url":"assets/be/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gent_Gravensteen_R01.jpg/1920px-Gent_Gravensteen_R01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Marc Ryckaert (MJJR)","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":55510,"caption_zh_manual":"根特伯爵城堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15256,"size":{"detail":"760x547","thumb":"400x288"},"encoding":"webp q72/q74 (源 1920x1383 722KB JPEG)"},{"title":"File:Exterior_of_Onze-Lieve-Vrouwekathedraal_(Antwerp)_20180629-1.jpg","caption_zh":"安特卫普圣母主教座堂外观","caption":"安特卫普圣母主教座堂外观","caption_commons":"Exterior of Onze-Lieve-Vrouwekathedraal (Antwerp)","kw":"Cathedral of Our Lady Antwerp","url":"assets/be/L05.webp","thumb_url":"assets/be/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Exterior_of_Onze-Lieve-Vrouwekathedraal_%28Antwerp%29_20180629-1.jpg/1920px-Exterior_of_Onze-Lieve-Vrouwekathedraal_%28Antwerp%29_20180629-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikipedia_lead","pick_tier":"strict","author":"Suicasmo","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":134762,"caption_zh_manual":"安特卫普圣母主教座堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11414,"size":{"detail":"760x1140","thumb":"200x300"},"encoding":"webp q72/q74 (源 1920x2880 1319KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:32:54+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q652 (ita)-Francyskus-Belgio.wav、LL-Q33573 (kin)-Adygrafix250-Ububiligi.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py BE","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 284 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"低地国家","evidence":"被称之为低地国家的沿海低地地区"},{"v":"北海","evidence":"西濒大西洋北海"},{"v":"布鲁塞尔","evidence":"其首都及最大城市为布鲁塞尔"},{"v":"弗拉芒大区","evidence":"北部的弗拉芒大区"},{"v":"瓦隆大区","evidence":"南部的瓦隆大区"},{"v":"布鲁塞尔首都大区","evidence":"中部的布鲁塞尔首都大区"}],"model":"deepseek-flash"},"summary_text_raw":"比利时王国（法语：Royaume de Belgique；荷兰语：Koninkrijk België；德语：Königreich Belgien），通称比利时（法语：Belgique [bɛlʒik] ；荷兰语：België [ˈbɛlɣijə] ；德语：Belgien [ˈbɛlɡi̯ən] ），是一个位于西欧的国家，坐落于被称之为低地国家的沿海低地地区。其领土北部与荷兰接壤，东部与德国相邻，东南毗邻卢森堡，南接法国，西濒大西洋北海。比利时的国土面积为30,689平方千米（11,849平方英里），人口超过1170万；人口密度为383平方千米（148平方英里），在全球排名第22位，在欧洲排名第七位。其首都及最大城市为布鲁塞尔；其他主要城市包括安特卫普、根特、沙勒罗瓦、列日、布鲁日、那慕尔以及鲁汶等。\n比利时是一个实行议会制的君主立宪国家。其具有一个以地区和语言为基础构建的复杂联邦体系。全国分为三个高度自治的大区：分别为北部的弗拉芒大区、南部的瓦隆大区以及中部的布鲁塞尔首都大区。","history_text":"公元前54年，凯尔特人居住的这一地区被凯撒征服，此后罗马帝国崩溃，日耳曼人的一支法兰克人建立墨洛温王朝，其领土包括今比利时。墨洛温王朝后由卡洛林王朝取代，此后几经转手，各地曾由荷兰、勃艮地、西班牙、奥地利统治。拿破仑战败后并入荷兰，1830年爆发独立运动，脱离荷兰成为世袭君主立宪王国，迎德国贵族利奥波德为第一任国王。两次世界大战中先后被德意志帝国与纳粹德国占领，战后放弃中立，加入北约与欧洲经济共同体。","custom_text":"薯条在小店和火车站都能买到小包装，当地人叫frieten或frites，是日常最顺手的一口。啤酒同样是生活里的常客，甜点中的Gauffres是本地人的拿手戏。手工巧克力、饼干与蛋糕做得精细，常被当作体面的伴手礼。街头巷尾的吃食不讲究排场，讲究的是随手可得与手艺的扎实。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":202,"folk":134}},"knowledge_qa":[{"q":"比利时在哪儿啊？周围挨着哪些国家？","a":"比利时位于西欧，处在被称为低地国家的沿海低地地区。它北部与荷兰接壤，东部与德国相邻，东南毗邻卢森堡，南接法国，西边濒临大西洋北海。","tags":["比利时","地理位置","邻国","欧洲"]},{"q":"比利时面积多大？人口多少？","a":"比利时国土面积为30,689平方千米（11,849平方英里），人口超过1170万，人口密度为383平方千米（148平方英里），在全球排名第22位，欧洲排名第七位。","tags":["面积","人口","比利时","多大"]},{"q":"比利时首都是哪？还有哪些大城市？","a":"首都及最大城市是布鲁塞尔。其他主要城市包括安特卫普、根特、沙勒罗瓦、列日、布鲁日、那慕尔以及鲁汶等。","tags":["首都","布鲁塞尔","城市","比利时"]},{"q":"比利时人说什么语言？官方语言有几种？","a":"比利时的官方语言有三种：荷兰语、法语和德语。","tags":["语言","说什么话","官方语言","比利时"]},{"q":"比利时有什么值得看的地标建筑？","a":"值得看的地标包括布鲁塞尔大广场、原子球塔、布鲁日钟楼、根特伯爵城堡和安特卫普圣母主教座堂。","tags":["地标","建筑","景点","比利时"]},{"q":"比利时政治体制是什么样的？","a":"比利时是实行议会制的君主立宪国家，具有以地区和语言为基础构建的复杂联邦体系，全国分为弗拉芒大区、瓦隆大区和布鲁塞尔首都大区三个高度自治的大区。","tags":["政治","体制","联邦","比利时"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[252,5109],[335,5138],[342,5124],[361,5129],[393,5121],[422,5137],[431,5127],[426,5137],[441,5136],[443,5146],[463,5142],[478,5150],[482,5141],[476,5141],[491,5139],[503,5148],[522,5126],[549,5129],[583,5116],[562,5083],[625,5061],[617,5052],[634,5048],[638,5032],[616,5022],[612,5012],[596,5017],[572,4989],[588,4966],[584,4956],[546,4950],[526,4969],[485,4979],[486,4991],[478,4996],[486,5015],[446,4994],[413,4998],[421,5006],[413,5013],[420,5026],[400,5034],[370,5030],[361,5048],[327,5053],[313,5078],[279,5072],[259,5084],[261,5096],[252,5109]]]}
+{
+  "qid": "Q31",
+  "iso_a2": "BE",
+  "iso_a3": "BEL",
+  "name_zh": "比利时",
+  "name_en": "Belgium",
+  "capital": "布鲁塞尔",
+  "continent": "欧洲",
+  "centroid": [
+    4.6681,
+    50.6411
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "nl",
+      "name_zh": "荷兰语",
+      "name_local": "荷兰语",
+      "role": "official",
+      "audio_url": "assets/be/audio/nl.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welkom in België, een land waar de geschiedenis zachtjes ademt; de hoofdstad is Brussel, en wie de Grote Markt betreedt, ziet meteen het hart van deze stad oplichten.",
+      "tts_text_zh": "欢迎来到比利时，一个历史轻声呼吸的国度；首都是布鲁塞尔，走进大广场的人，立刻会看到这座城市的心脏亮起来。",
+      "audio_voice": "nl-BE-DenaNeural",
+      "audio_bytes": 58896
+    },
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/be/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue en Belgique, un pays où l'histoire respire doucement ; sa capitale est Bruxelles, et quiconque s'avance sur la Grand-Place découvre aussitôt le cœur battant de la ville.",
+      "tts_text_zh": "欢迎来到比利时，一个历史轻声呼吸的国度；它的首都是布鲁塞尔，走上大广场的人会立刻发现这座城市跳动的心脏。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 60768
+    },
+    {
+      "code": "de",
+      "name_zh": "德语",
+      "name_local": "德语",
+      "role": "official",
+      "audio_url": "assets/be/audio/de.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Willkommen in Belgien, einem Land, in dem die Geschichte leise atmet; seine Hauptstadt ist Brüssel, und wer den Großen Markt betritt, sieht sogleich das Herz dieser Stadt aufleuchten.",
+      "tts_text_zh": "欢迎来到比利时，一个历史轻声呼吸的国度；它的首都是布鲁塞尔，走进大广场的人会立刻看到这座城市的心脏亮起来。",
+      "audio_voice": "de-AT-IngridNeural",
+      "audio_bytes": 66960
+    }
+  ],
+  "summary_text": "比利时王国通称比利时，是位于西欧的一个国家，坐落于被称为低地国家的沿海低地地区。其领土北部与荷兰接壤，东部与德国相邻，东南毗邻卢森堡，南接法国，西濒大西洋北海。比利时的国土面积为30,689平方千米，人口超过1170万，人口密度为每平方千米383人，在全球排名第22位，在欧洲排名第七位。比利时是一个实行议会制的君主立宪国家，具有一个以地区和语言为基础构建的复杂联邦体系。全国分为三个高度自治的大区，分别为北部的弗拉芒大区、南部的瓦隆大区以及中部的布鲁塞尔首都大区。其首都及最大城市为布鲁塞尔，其他主要城市包括安特卫普、根特、沙勒罗瓦、列日、布鲁日、那慕尔以及鲁汶等。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 284,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%AF%94%E5%88%A9%E6%97%B6",
+    "title": "比利时"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "公元前54年，当时主要由凯尔特人居住的这一地区被罗马共和国将军凯撒征服。罗马帝国崩溃后，日耳曼人于5世纪大举入侵，其中的一支法兰克人随后建立了墨洛温王朝，其领土包括了现在的比利时。墨洛温王朝之后由卡洛林王朝取代。860年，西法兰克国王查理二世任命杜伯安一世为法兰德斯伯爵。979年，布鲁塞尔正式建立。1302年，弗拉芒人在金马刺之战中击败了法国骑兵。1328年，法国人在卡塞勒之役后，确立了对法兰德斯的统治。1425年，鲁汶大学建立。1468年，勃艮第公爵兼并列日。比利时后来几经转手，各个地区曾由荷兰、勃艮地、西班牙、奥地利等国统治。拿破仑时期，比利时为法国的一部分，拿破仑一世战败后，比利时并入荷兰，形成荷兰联合王国。1830年，比利时爆发比利时独立运动，从荷兰统治下独立，成为世袭君主立宪王国，并选择了一位德国贵族，萨克森-科堡-哥达公国的王子利奥波德作为比利时的第一任国王。比利时立国后奉行中立政策，但在两次世界大战中先后被德意志帝国及纳粹德国占领。二战以后，比利时放弃中立原则，参加了北约。后来又参加了欧洲经济共同体。比利时殖民帝国时期有两个主要的殖民地以及一个租界：卢旺达-乌隆地及比属刚果，即现在的刚果民主共和国。比属刚果于1885年召开的柏林西非会议上赠给当时的比利时国王利奥波德二世。利奥波德将此地命名为刚果自由邦，并收为自己的私人领地，进行残酷的统治，同时大量种植橡胶，以满足当时世界对橡胶轮胎的需求。在国际舆论的压力下，利奥波德二世于1908年放弃了对刚果的私人统治，把刚果交予比利时政府。后来比属刚果于1960年独立。天津比租界由比利时男爵姚士登于1900年八国联军与大清签定辛丑条约后开辟。1927年将租界交还北洋政府。现代比利时作为一个现代化、高科技的欧洲国家而兴盛，同时也是北约和欧盟的成员国，首都布鲁塞尔亦是这两个组织的总部。但是比利时一直存在国家分裂和解体的可能性，北半部说荷兰语的弗拉芒人（亲荷兰）和南半部讲法语的瓦隆人（亲法国）之间长期关系紧张。2007年6月10日，举行联邦议会选举。经过半年谈判后组成联合政府，但联合政府仅三个月便下台。2010年6月议会选举后，曾经过543天未能组阁，打破组阁权最长的世界纪录。最终导致了宪法修正案，赋予比利时南北两区正式的自治权，首都布鲁塞尔则为联邦辖地，并削弱上议院权力，议会选举2014年起将与欧洲议会选举同期举行，即每五年举行选举，下议院的荷兰语区有87席，法语区有63席，两语区拥有相等的权力。因此比利时现在是一个联邦制国家。2014年10月11日比利时新任总理米歇尔率领中间偏右联合政府的内阁成员，向比利时国王菲利普宣誓就职，终结4个月以来的政治谈判。米歇尔是比利时自1840年以来，最年轻的总理；他也将成为欧洲联盟中，最年轻的领导人之一。2016年3月22日，首都布鲁塞尔遭遇伊斯兰恐怖主义组织伊斯兰国成员实施的爆炸攻击。2019年大选后新政府迟迟未组成，但时任首相米歇尔将于同年12月担任欧洲理事会主席。作为米歇尔的盟友，苏菲·威尔梅斯遂于10月被菲利普国王委任为比利时首位女首相，接替前者带领看守政府。",
+      "chars": 1298
+    },
+    {
+      "section": "文化",
+      "text": "比利时是很多法国作家的安乐窝，如维克多·雨果、大仲马等。比利时也是画家的天堂，弗拉芒画派（英语：Flemish painting）是17世纪最重要的画派。\n此外，在2003年1月30日，比利时成为继荷兰之后全球第二个同性婚姻合法化的国家。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "比利时人酷爱薯条，一般在各个小店或火车站都可以买到小包装的炸马铃薯，当地人叫做frieten（荷语）或frites（法语）。比利时人也酷爱喝啤酒，世界上最大的啤酒厂就在比利时。做甜点（Gauffres）是比利时人的特长。比利时巧克力和瑞士巧克力闻名于世，手工制作的饼干、蛋糕等也非常有名。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "比利时全国总人口为11,568,000（2019年），人口密度（376/km²）仅次于荷兰及一些欧洲小国，为欧洲人口高稠密的国家之一。\n比利时众议院2014年2月13日通过安乐死合法范围扩及未成年人一案，将成为继荷兰之后，全球第2个在严格条件下许可孩童安乐死的国家。",
+      "chars": 502
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Brusel Grand-Place radnice 1a.jpg",
+      "caption_zh": "布鲁塞尔大广场市政厅",
+      "caption": "布鲁塞尔大广场市政厅",
+      "caption_commons": "Brusel Grand-Place",
+      "kw": "Grand Place Brussels",
+      "url": "assets/be/L01.webp",
+      "thumb_url": "assets/be/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Brusel_Grand-Place_radnice_1a.jpg/1920px-Brusel_Grand-Place_radnice_1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "VitVit",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 101096,
+      "caption_zh_manual": "布鲁塞尔大广场",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7164,
+      "size": {
+        "detail": "1080x839",
+        "thumb": "232x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1492 613KB JPEG)"
+    },
+    {
+      "title": "File:Laeken Atomium 06.jpg",
+      "caption_zh": "原子球塔",
+      "caption": "原子球塔",
+      "caption_commons": "Atomium, Brussels, District of Laeken, Region of Brussels, Belgium",
+      "kw": "Atomium Brussels",
+      "url": "assets/be/L02.webp",
+      "thumb_url": "assets/be/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Laeken_Atomium_06.jpg/1920px-Laeken_Atomium_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 103068,
+      "caption_zh_manual": "原子球塔",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6324,
+      "size": {
+        "detail": "1080x1043",
+        "thumb": "186x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1854 624KB JPEG)"
+    },
+    {
+      "title": "File:Bruges, the Dijver canal, view to the Belfry.JPG",
+      "caption_zh": "从迪弗运河望向布鲁日钟楼",
+      "caption": "从迪弗运河望向布鲁日钟楼",
+      "caption_commons": "Bruges, the Dijver canal, view to the Belfry",
+      "kw": "Belfry of Bruges",
+      "url": "assets/be/L03.webp",
+      "thumb_url": "assets/be/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Bruges%2C_the_Dijver_canal%2C_view_to_the_Belfry.JPG/1920px-Bruges%2C_the_Dijver_canal%2C_view_to_the_Belfry.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Dguendel",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 112694,
+      "caption_zh_manual": "布鲁日钟楼",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5710,
+      "size": {
+        "detail": "1080x762",
+        "thumb": "240x169"
+      },
+      "encoding": "webp q75/q78 (源 1920x1355 647KB JPEG)"
+    },
+    {
+      "title": "File:Gent Gravensteen R01.jpg",
+      "caption_zh": "根特伯爵城堡外观",
+      "caption": "根特伯爵城堡外观",
+      "caption_commons": "NOTE: This image is a panorama consisting of multiple frames that were merged or",
+      "kw": "Gravensteen Ghent",
+      "url": "assets/be/L04.webp",
+      "thumb_url": "assets/be/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Gent_Gravensteen_R01.jpg/1920px-Gent_Gravensteen_R01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Marc Ryckaert (MJJR)",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 122754,
+      "caption_zh_manual": "根特伯爵城堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6966,
+      "size": {
+        "detail": "1080x778",
+        "thumb": "240x173"
+      },
+      "encoding": "webp q75/q78 (源 1920x1383 722KB JPEG)"
+    },
+    {
+      "title": "File:Exterior_of_Onze-Lieve-Vrouwekathedraal_(Antwerp)_20180629-1.jpg",
+      "caption_zh": "安特卫普圣母主教座堂外观",
+      "caption": "安特卫普圣母主教座堂外观",
+      "caption_commons": "Exterior of Onze-Lieve-Vrouwekathedraal (Antwerp)",
+      "kw": "Cathedral of Our Lady Antwerp",
+      "url": "assets/be/L05.webp",
+      "thumb_url": "assets/be/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Exterior_of_Onze-Lieve-Vrouwekathedraal_%28Antwerp%29_20180629-1.jpg/1920px-Exterior_of_Onze-Lieve-Vrouwekathedraal_%28Antwerp%29_20180629-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikipedia_lead",
+      "pick_tier": "strict",
+      "author": "Suicasmo",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 264148,
+      "caption_zh_manual": "安特卫普圣母主教座堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5112,
+      "size": {
+        "detail": "1080x1620",
+        "thumb": "120x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2880 1319KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:32:54+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q652 (ita)-Francyskus-Belgio.wav、LL-Q33573 (kin)-Adygrafix250-Ububiligi.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py BE",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 284 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "低地国家",
+        "evidence": "被称之为低地国家的沿海低地地区"
+      },
+      {
+        "v": "北海",
+        "evidence": "西濒大西洋北海"
+      },
+      {
+        "v": "布鲁塞尔",
+        "evidence": "其首都及最大城市为布鲁塞尔"
+      },
+      {
+        "v": "弗拉芒大区",
+        "evidence": "北部的弗拉芒大区"
+      },
+      {
+        "v": "瓦隆大区",
+        "evidence": "南部的瓦隆大区"
+      },
+      {
+        "v": "布鲁塞尔首都大区",
+        "evidence": "中部的布鲁塞尔首都大区"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "比利时王国（法语：Royaume de Belgique；荷兰语：Koninkrijk België；德语：Königreich Belgien），通称比利时（法语：Belgique [bɛlʒik] ；荷兰语：België [ˈbɛlɣijə] ；德语：Belgien [ˈbɛlɡi̯ən] ），是一个位于西欧的国家，坐落于被称之为低地国家的沿海低地地区。其领土北部与荷兰接壤，东部与德国相邻，东南毗邻卢森堡，南接法国，西濒大西洋北海。比利时的国土面积为30,689平方千米（11,849平方英里），人口超过1170万；人口密度为383平方千米（148平方英里），在全球排名第22位，在欧洲排名第七位。其首都及最大城市为布鲁塞尔；其他主要城市包括安特卫普、根特、沙勒罗瓦、列日、布鲁日、那慕尔以及鲁汶等。\n比利时是一个实行议会制的君主立宪国家。其具有一个以地区和语言为基础构建的复杂联邦体系。全国分为三个高度自治的大区：分别为北部的弗拉芒大区、南部的瓦隆大区以及中部的布鲁塞尔首都大区。",
+  "history_text": "公元前54年，凯尔特人居住的这一地区被凯撒征服，此后罗马帝国崩溃，日耳曼人的一支法兰克人建立墨洛温王朝，其领土包括今比利时。墨洛温王朝后由卡洛林王朝取代，此后几经转手，各地曾由荷兰、勃艮地、西班牙、奥地利统治。拿破仑战败后并入荷兰，1830年爆发独立运动，脱离荷兰成为世袭君主立宪王国，迎德国贵族利奥波德为第一任国王。两次世界大战中先后被德意志帝国与纳粹德国占领，战后放弃中立，加入北约与欧洲经济共同体。",
+  "custom_text": "薯条在小店和火车站都能买到小包装，当地人叫frieten或frites，是日常最顺手的一口。啤酒同样是生活里的常客，甜点中的Gauffres是本地人的拿手戏。手工巧克力、饼干与蛋糕做得精细，常被当作体面的伴手礼。街头巷尾的吃食不讲究排场，讲究的是随手可得与手艺的扎实。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 202,
+      "folk": 134
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "比利时在哪儿啊？周围挨着哪些国家？",
+      "a": "比利时位于西欧，处在被称为低地国家的沿海低地地区。它北部与荷兰接壤，东部与德国相邻，东南毗邻卢森堡，南接法国，西边濒临大西洋北海。",
+      "tags": [
+        "比利时",
+        "地理位置",
+        "邻国",
+        "欧洲"
+      ]
+    },
+    {
+      "q": "比利时面积多大？人口多少？",
+      "a": "比利时国土面积为30,689平方千米（11,849平方英里），人口超过1170万，人口密度为383平方千米（148平方英里），在全球排名第22位，欧洲排名第七位。",
+      "tags": [
+        "面积",
+        "人口",
+        "比利时",
+        "多大"
+      ]
+    },
+    {
+      "q": "比利时首都是哪？还有哪些大城市？",
+      "a": "首都及最大城市是布鲁塞尔。其他主要城市包括安特卫普、根特、沙勒罗瓦、列日、布鲁日、那慕尔以及鲁汶等。",
+      "tags": [
+        "首都",
+        "布鲁塞尔",
+        "城市",
+        "比利时"
+      ]
+    },
+    {
+      "q": "比利时人说什么语言？官方语言有几种？",
+      "a": "比利时的官方语言有三种：荷兰语、法语和德语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言",
+        "比利时"
+      ]
+    },
+    {
+      "q": "比利时有什么值得看的地标建筑？",
+      "a": "值得看的地标包括布鲁塞尔大广场、原子球塔、布鲁日钟楼、根特伯爵城堡和安特卫普圣母主教座堂。",
+      "tags": [
+        "地标",
+        "建筑",
+        "景点",
+        "比利时"
+      ]
+    },
+    {
+      "q": "比利时政治体制是什么样的？",
+      "a": "比利时是实行议会制的君主立宪国家，具有以地区和语言为基础构建的复杂联邦体系，全国分为弗拉芒大区、瓦隆大区和布鲁塞尔首都大区三个高度自治的大区。",
+      "tags": [
+        "政治",
+        "体制",
+        "联邦",
+        "比利时"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        252,
+        5109
+      ],
+      [
+        335,
+        5138
+      ],
+      [
+        342,
+        5124
+      ],
+      [
+        361,
+        5129
+      ],
+      [
+        393,
+        5121
+      ],
+      [
+        422,
+        5137
+      ],
+      [
+        431,
+        5127
+      ],
+      [
+        426,
+        5137
+      ],
+      [
+        441,
+        5136
+      ],
+      [
+        443,
+        5146
+      ],
+      [
+        463,
+        5142
+      ],
+      [
+        478,
+        5150
+      ],
+      [
+        482,
+        5141
+      ],
+      [
+        476,
+        5141
+      ],
+      [
+        491,
+        5139
+      ],
+      [
+        503,
+        5148
+      ],
+      [
+        522,
+        5126
+      ],
+      [
+        549,
+        5129
+      ],
+      [
+        583,
+        5116
+      ],
+      [
+        562,
+        5083
+      ],
+      [
+        625,
+        5061
+      ],
+      [
+        617,
+        5052
+      ],
+      [
+        634,
+        5048
+      ],
+      [
+        638,
+        5032
+      ],
+      [
+        616,
+        5022
+      ],
+      [
+        612,
+        5012
+      ],
+      [
+        596,
+        5017
+      ],
+      [
+        572,
+        4989
+      ],
+      [
+        588,
+        4966
+      ],
+      [
+        584,
+        4956
+      ],
+      [
+        546,
+        4950
+      ],
+      [
+        526,
+        4969
+      ],
+      [
+        485,
+        4979
+      ],
+      [
+        486,
+        4991
+      ],
+      [
+        478,
+        4996
+      ],
+      [
+        486,
+        5015
+      ],
+      [
+        446,
+        4994
+      ],
+      [
+        413,
+        4998
+      ],
+      [
+        421,
+        5006
+      ],
+      [
+        413,
+        5013
+      ],
+      [
+        420,
+        5026
+      ],
+      [
+        400,
+        5034
+      ],
+      [
+        370,
+        5030
+      ],
+      [
+        361,
+        5048
+      ],
+      [
+        327,
+        5053
+      ],
+      [
+        313,
+        5078
+      ],
+      [
+        279,
+        5072
+      ],
+      [
+        259,
+        5084
+      ],
+      [
+        261,
+        5096
+      ],
+      [
+        252,
+        5109
+      ]
+    ]
+  ]
+}

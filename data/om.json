@@ -1,1 +1,677 @@
-{"qid":"Q842","iso_a2":"OM","iso_a3":"OMN","name_zh":"阿曼","name_en":"Oman","capital":"马斯喀特","continent":"亚洲","centroid":[57,21],"centroid_source":"wikidata P625","languages":[{"code":"ar","name_zh":"阿拉伯语","name_local":"阿拉伯语","role":"official","audio_url":"assets/om/audio/ar.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"أهلاً بكم في سلطنة عُمان، حيثُ تلتقي أصالةُ التاريخِ بهدوءِ الصحراء؛ عاصمتُها مسقط، ومن أبرزِ معالمِها قلعةُ نزوى التي تشهدُ على حضارةٍ عريقة.","tts_text_zh":"欢迎来到阿曼苏丹国，这里历史的厚重与沙漠的宁静相遇；首都是马斯喀特，最著名的地标之一是见证悠久文明的尼兹瓦城堡。","audio_voice":"ar-DZ-AminaNeural","audio_bytes":83952}],"summary_text":"阿曼苏丹国简称阿曼，是位于西亚阿拉伯半岛东南沿海的国家。阿曼地处亚洲，南部和东部海岸临阿拉伯海，东北方抵阿曼湾，北部与阿拉伯联合酋长国接壤，西面毗邻沙特阿拉伯，西南靠近也门，国土面积约30万平方公里。阿曼地区在上古时代称作“马干”，南宋《诸蕃志》、元朝《南海志》称其为“瓮蛮”，明朝《坤舆万国全图》作“亚衣漫”。阿曼为君主专制国家，前任苏丹卡布斯·本·赛义德·阿勒赛义德自1970年到2020年一直是阿曼的世袭领袖。阿曼的首都是马斯喀特，人口约452万人，历史上马斯喀特是波斯湾、印度洋地区的主要贸易港口。17世纪晚期，阿曼成为印度洋强国，与葡萄牙、英国争夺波斯湾和印度洋的控制权；19世纪是阿曼的鼎盛时期，领土横跨霍尔木兹海峡，延伸至现今的伊朗和巴基斯坦，南至东非沿海地区及桑给巴尔群岛；20世纪，阿曼逐渐沦为英国保护国。阿曼的石油储量居全球第25位。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":377,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E9%98%BF%E6%9B%BC","title":"阿曼"},"culture_excerpts":[{"section":"历史","text":"阿曼是阿拉伯半岛最古老的国家之一，公元前2000年已经广泛进行海上和陆路贸易活动，并成为阿拉伯半岛的造船中心。公元7世纪成为阿拉伯帝国的一部分。11世纪末独立。1429年，伊巴德教派确立在阿曼的统治。1507年葡萄牙入侵。1649年当地人推翻葡萄牙人统治，建立亚里巴王朝。1742年波斯人侵入。18世纪中叶，阿拉伯人赶走波斯人，建立了赛义德王朝，取国名为“马斯喀特苏丹国”，使其成为印度洋上最强的国家之一。1806年，赛义德·伊本·苏尔坦即位苏丹，在英国支持下先是打败了瓦哈比派穆斯林的入侵，后建立强大舰队，击败印度洋传统强国葡萄牙，夺取了葡属莫桑比克以北的所有据点。作为地区商业帝国，阿曼控制了桑给巴尔岛和斯瓦希里海岸。1834年，赛义德·本·苏尔坦迁都桑给巴尔，称桑给巴尔苏丹国。阿曼一跃成为印度洋的霸主，在非洲的大湖地区殖民地奴隶贸易中获利丰厚，许多家庭移居桑给巴尔。英国宣布奴隶贸易非法之后，阿曼的命运开始逆转，阿曼经济开始崩塌，山区部落起义，成立了阿曼伊斯兰教长国。在1850年代至70年代，马斯喀特的人口从55,000人降至8,000人。1856年，赛义德·本·苏尔坦去世，其两个儿子分别掌管马斯喀特和桑给巴尔，1861年，两地正式分裂，阿曼衰落。1868年，阿曼教长国攻占马斯喀特。1870年，马斯喀特苏丹在英国援助下方才夺回首都复国，自此沦入英国控制。1871年，英国入侵阿曼本土，迫使其接受不平等条约。1891年，英国和马斯喀特苏丹签订条约，苏丹承认英国的保护权。1913年，阿曼山区部落举行反英起义，建立“阿曼伊斯兰谢赫国”。20世纪初，阿曼谢赫国向马斯喀特进攻。1920年英国在马斯喀特同阿曼谢赫国签订了“西卜条约”，承认谢赫国独立，阿曼就分裂为马斯喀特苏丹国和阿曼伊斯兰谢赫国两部分。1932年泰穆尔即位苏丹。1949年，因阿曼谢赫国境内发现石油，英国和马斯喀特苏丹同阿曼谢赫国再度陷入紧张。英国人为了在阿曼内地开采石油。也支持苏丹赛义德，并在1954年末指挥阿曼军队攻入内地，占领了伊卜利和鲁斯塔克，1955年12月15日攻占“谢赫国”的首都尼兹瓦。1957年7月加利布谢赫领导的反英起义失败。1962年，英国和法国发表声明，承认阿曼是独立国家。1965年南部佐法尔省组织了“佐法尔人民阵线”，发动武装起义。1967年苏丹赛义德·本·泰穆尔统一全境，马斯喀特苏丹国改名马斯喀特和阿曼苏丹国。“阿曼伊斯兰谢赫国”支持者组成“阿曼解放军”，以及“阿曼和波斯湾人民民主解放阵线”。1970年7月23日泰穆尔苏丹被宫廷政变推翻，其独生子29岁的合法继承人卡布斯接管政权，同年8月9日宣布国名为阿曼苏丹国。从此，阿曼发生巨大变化。1973年英军撤出阿曼。1996年，在国内各势力的要求下，卡布斯·伊本·赛义德颁布宪制性文件（相当于宪法）的《国家基本法》。","chars":1185},{"section":"人口与民族","text":"2018年人口数量为482万，而根据2010年阿曼人口普查，每年增长率为10%。其中阿曼公民为1,779,318人（76.3%），外籍人口552,073人（23.7%）。外籍人口占人口总数比例从1993年的26%降为10年后的23.7%。阿曼男性公民与女性公民的比例为100：102，女性公民仅比男性公民多1.7万人。巴提奈区人口65万，占全国人口的28%，是人口第一大区。马斯喀特省位居第二，人口63万，占全国人口总数的27%。\n阿曼居民绝大部分是阿拉伯人，属于闪米特人，是高加索人种地中海人种的一支。\n阿曼人的婚姻多由父母包办或受人委托办理，但须征得女方的同意。男青年多半娶自己的堂妹为第一个妻子。原因是因为阿曼人认为娶陌生女子为妻就好比喝了一壶不知为何物的饮料一样；而娶堂妹为妻就如喝了看得见并知为何种饮料那样痛快。由于近亲结婚产生了很多先天畸形的后代，于是阿曼人逐渐扩大了择偶的范围。","chars":1200},{"section":"人口","text":"2018年人口数量为482万，而根据2010年阿曼人口普查，每年增长率为10%。其中阿曼公民为1,779,318人（76.3%），外籍人口552,073人（23.7%）。外籍人口占人口总数比例从1993年的26%降为10年后的23.7%。阿曼男性公民与女性公民的比例为100：102，女性公民仅比男性公民多1.7万人。巴提奈区人口65万，占全国人口的28%，是人口第一大区。马斯喀特省位居第二，人口63万，占全国人口总数的27%。","chars":1200}],"landmark_images":[{"title":"File:Sultan Qaboos Grand Mosque (1).jpg","caption_zh":"苏丹卡布斯大清真寺","caption":"苏丹卡布斯大清真寺","caption_commons":"The Sultan Qaboos Grand Mosque is the main Mosque in the Sultanate of Oman. It i","kw":"Sultan Qaboos Grand Mosque Muscat","url":"assets/om/L01.webp","thumb_url":"assets/om/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Sultan_Qaboos_Grand_Mosque_%281%29.jpg/1920px-Sultan_Qaboos_Grand_Mosque_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Mostafameraji","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":58150,"caption_zh_manual":"苏丹卡布斯大清真寺","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17280,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 606KB JPEG)"},{"title":"File:Nizwa (5).jpg","caption_zh":"尼兹瓦堡","caption":"尼兹瓦堡","caption_commons":"Nizwa, Oman","kw":"Nizwa Fort Oman","url":"assets/om/L02.webp","thumb_url":"assets/om/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nizwa_%285%29.jpg/1920px-Nizwa_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Andries Oudshoorn","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":36000,"caption_zh_manual":"尼兹瓦堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11508,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 642KB JPEG)"},{"title":"File:Wahiba Sands Bidiya, Oman - 2024 2.jpg","caption_zh":"阿曼瓦希巴沙漠比迪耶","caption":"阿曼瓦希巴沙漠比迪耶","caption_commons":"Wahiba Sands Bidiya","kw":"Wahiba Sands Oman","url":"assets/om/L03.webp","thumb_url":"assets/om/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Wahiba_Sands_Bidiya%2C_Oman_-_2024_2.jpg/1920px-Wahiba_Sands_Bidiya%2C_Oman_-_2024_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"dconvertini","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":76238,"caption_zh_manual":"瓦希巴沙漠","caption_zh_source":"llm_from_commons_filename","thumb_bytes":21638,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 872KB JPEG)"},{"title":"File:Oman, Muscat, Mutrah Souq, Kuma.jpg","caption_zh":"阿曼穆特拉集市一角","caption":"阿曼穆特拉集市一角","caption_commons":"Muscat: Muttrah Souk (Kuma)","kw":"Mutrah Souq Muscat","url":"assets/om/L04.webp","thumb_url":"assets/om/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Oman%2C_Muscat%2C_Mutrah_Souq%2C_Kuma.jpg/1920px-Oman%2C_Muscat%2C_Mutrah_Souq%2C_Kuma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Dr. Thomas Liptak","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":127500,"caption_zh_manual":"穆特拉集市","caption_zh_source":"llm_from_commons_filename","thumb_bytes":40902,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 942KB JPEG)"},{"title":"File:Jebel Shams.jpg","caption_zh":"杰贝尔沙姆斯山","caption":"杰贝尔沙姆斯山","caption_commons":"Jebel Shams","kw":"Jebel Shams Oman","url":"assets/om/L05.webp","thumb_url":"assets/om/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Jebel_Shams.jpg/1920px-Jebel_Shams.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Andries Oudshoorn","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":78066,"caption_zh_manual":"杰贝尔沙姆斯山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":20978,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 1003KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:50:28+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Oman.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Oman.wav、LL-Q652 (ita)-Francyskus-Oman.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py OM","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"阿拉伯半岛","evidence":"西亚阿拉伯半岛东南沿海"},{"v":"马斯喀特","evidence":"首都马斯喀特"},{"v":"马干","evidence":"上古时代称作“马干”"},{"v":"瓮蛮","evidence":"称其为“瓮蛮”"},{"v":"霍尔木兹海峡","evidence":"领土横跨霍尔木兹海峡"},{"v":"石油","evidence":"石油储量居全球第25位"}],"model":"deepseek-flash"},"summary_text_raw":"阿曼苏丹国（阿拉伯语：سلطنة عُمان），简称阿曼（عُمان），是位于西亚阿拉伯半岛东南沿海的国家。北部与阿拉伯联合酋长国接壤，西面毗邻沙特阿拉伯，西南靠近也门。其海岸南部和东部临阿拉伯海，东北方则抵阿曼湾。面积约30万平方公里，人口约452万人，首都马斯喀特。\n阿曼地区在上古时代称作“马干”。南宋《诸蕃志》、元朝《南海志》称其为“瓮蛮”，明朝《坤舆万国全图》作“亚衣漫”。17世纪晚期，阿曼成为印度洋强国，与葡萄牙、英国争夺波斯湾和印度洋的控制权。19世纪是阿曼的鼎盛时期，领土横跨霍尔木兹海峡，延伸至现今的伊朗和巴基斯坦，南至东非沿海地区及桑给巴尔群岛。20世纪，阿曼逐渐沦为英国保护国。历史上，阿曼的首都马斯喀特是波斯湾、印度洋地区的主要贸易港口。\n阿曼为君主专制国家，前任苏丹卡布斯·本·赛义德·阿勒赛义德自1970年到2020年一直是阿曼的世袭领袖。自泰国国王普密蓬·阿杜德驾崩至苏丹卡布斯驾崩之时，他是世界上在位时间第三长的现任统治者（仅次于英国女王伊丽莎白二世和文莱苏丹哈桑纳尔·博尔基亚）。\n阿曼的石油储量居全球第25位。","history_text":"阿曼是阿拉伯半岛最古老的国家之一，公元前2000年已广泛进行海上和陆路贸易，并成为造船中心。公元7世纪成为阿拉伯帝国的一部分，11世纪末独立。1507年葡萄牙入侵，1649年当地人推翻葡萄牙统治，建立亚里巴王朝。18世纪中叶阿拉伯人赶走波斯人，建立赛义德王朝，取国名“马斯喀特苏丹国”，一度成为印度洋上最强的国家之一。","custom_text":"阿曼人的婚姻多由父母包办或受人委托办理，但须征得女方同意。男青年多半娶自己的堂妹为第一个妻子，阿曼人认为娶堂妹为妻就如喝了看得见并知为何种饮料那样痛快，娶陌生女子则好比喝了一壶不知为何物的饮料。近亲结婚产生不少先天畸形后代，择偶范围于是逐渐扩大。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":159,"folk":123}},"knowledge_qa":[{"q":"阿曼在哪儿啊？周围都是哪些国家？","a":"阿曼位于西亚阿拉伯半岛东南沿海，北部与阿拉伯联合酋长国接壤，西面毗邻沙特阿拉伯，西南靠近也门。","tags":["阿曼位置","中东国家","周边国家"]},{"q":"阿曼的首都是哪里？","a":"首都马斯喀特。","tags":["首都","马斯喀特"]},{"q":"阿曼面积多大？人口多少？","a":"面积约30万平方公里，人口约452万人。","tags":["面积","人口"]},{"q":"阿曼说什么语言？","a":"官方语言是阿拉伯语。","tags":["语言","阿拉伯语","说什么话"]},{"q":"阿曼有什么值得看的地标或景点？","a":"苏丹卡布斯大清真寺、尼兹瓦堡、瓦希巴沙漠、穆特拉集市、杰贝尔沙姆斯山。","tags":["地标","景点","看什么"]},{"q":"阿曼历史上和中国有什么称呼上的联系？","a":"南宋《诸蕃志》、元朝《南海志》称其为“瓮蛮”，明朝《坤舆万国全图》作“亚衣漫”。","tags":["历史","古称","中国记载"]},{"q":"阿曼以前很厉害吗？领土到过哪里？","a":"19世纪是阿曼鼎盛时期，领土横跨霍尔木兹海峡，延伸至现今的伊朗和巴基斯坦，南至东非沿海地区及桑给巴尔群岛。","tags":["历史","鼎盛时期","领土"]},{"q":"阿曼的石油多不多？","a":"阿曼的石油储量居全球第25位。","tags":["石油","资源","储量"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[5638,2498],[5661,2450],[5718,2393],[5832,2362],[5858,2365],[5876,2354],[5952,2256],[5982,2251],[5981,2224],[5934,2144],[5905,2128],[5868,2083],[5873,2077],[5859,2064],[5852,2042],[5845,2036],[5820,2040],[5826,2059],[5821,2061],[5786,2026],[5769,1973],[5782,1899],[5721,1891],[5681,1875],[5664,1856],[5656,1815],[5636,1794],[5544,1784],[5523,1754],[5530,1742],[5526,1723],[5503,1701],[5481,1695],[5459,1704],[5408,1701],[5362,1676],[5309,1664],[5280,1727],[5272,1730],[5198,1900],[5498,2000],[5564,2198],[5519,2270],[5523,2312],[5554,2377],[5545,2395],[5600,2408],[5593,2422],[5576,2423],[5583,2492],[5601,2496],[5603,2486],[5596,2487],[5610,2473],[5638,2498]],[[5608,2606],[5621,2626],[5621,2621],[5640,2622],[5631,2622],[5636,2639],[5650,2636],[5640,2627],[5649,2624],[5643,2622],[5648,2615],[5633,2617],[5634,2611],[5647,2610],[5638,2604],[5645,2595],[5638,2593],[5628,2563],[5614,2567],[5618,2602],[5608,2606]],[[5891,2063],[5895,2051],[5865,2017],[5865,2037],[5891,2070],[5891,2063]],[[5626,2533],[5634,2527],[5622,2522],[5626,2533]]]}
+{
+  "qid": "Q842",
+  "iso_a2": "OM",
+  "iso_a3": "OMN",
+  "name_zh": "阿曼",
+  "name_en": "Oman",
+  "capital": "马斯喀特",
+  "continent": "亚洲",
+  "centroid": [
+    57,
+    21
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ar",
+      "name_zh": "阿拉伯语",
+      "name_local": "阿拉伯语",
+      "role": "official",
+      "audio_url": "assets/om/audio/ar.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "أهلاً بكم في سلطنة عُمان، حيثُ تلتقي أصالةُ التاريخِ بهدوءِ الصحراء؛ عاصمتُها مسقط، ومن أبرزِ معالمِها قلعةُ نزوى التي تشهدُ على حضارةٍ عريقة.",
+      "tts_text_zh": "欢迎来到阿曼苏丹国，这里历史的厚重与沙漠的宁静相遇；首都是马斯喀特，最著名的地标之一是见证悠久文明的尼兹瓦城堡。",
+      "audio_voice": "ar-DZ-AminaNeural",
+      "audio_bytes": 83952
+    }
+  ],
+  "summary_text": "阿曼苏丹国简称阿曼，是位于西亚阿拉伯半岛东南沿海的国家。阿曼地处亚洲，南部和东部海岸临阿拉伯海，东北方抵阿曼湾，北部与阿拉伯联合酋长国接壤，西面毗邻沙特阿拉伯，西南靠近也门，国土面积约30万平方公里。阿曼地区在上古时代称作“马干”，南宋《诸蕃志》、元朝《南海志》称其为“瓮蛮”，明朝《坤舆万国全图》作“亚衣漫”。阿曼为君主专制国家，前任苏丹卡布斯·本·赛义德·阿勒赛义德自1970年到2020年一直是阿曼的世袭领袖。阿曼的首都是马斯喀特，人口约452万人，历史上马斯喀特是波斯湾、印度洋地区的主要贸易港口。17世纪晚期，阿曼成为印度洋强国，与葡萄牙、英国争夺波斯湾和印度洋的控制权；19世纪是阿曼的鼎盛时期，领土横跨霍尔木兹海峡，延伸至现今的伊朗和巴基斯坦，南至东非沿海地区及桑给巴尔群岛；20世纪，阿曼逐渐沦为英国保护国。阿曼的石油储量居全球第25位。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 377,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%9B%BC",
+    "title": "阿曼"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "阿曼是阿拉伯半岛最古老的国家之一，公元前2000年已经广泛进行海上和陆路贸易活动，并成为阿拉伯半岛的造船中心。公元7世纪成为阿拉伯帝国的一部分。11世纪末独立。1429年，伊巴德教派确立在阿曼的统治。1507年葡萄牙入侵。1649年当地人推翻葡萄牙人统治，建立亚里巴王朝。1742年波斯人侵入。18世纪中叶，阿拉伯人赶走波斯人，建立了赛义德王朝，取国名为“马斯喀特苏丹国”，使其成为印度洋上最强的国家之一。1806年，赛义德·伊本·苏尔坦即位苏丹，在英国支持下先是打败了瓦哈比派穆斯林的入侵，后建立强大舰队，击败印度洋传统强国葡萄牙，夺取了葡属莫桑比克以北的所有据点。作为地区商业帝国，阿曼控制了桑给巴尔岛和斯瓦希里海岸。1834年，赛义德·本·苏尔坦迁都桑给巴尔，称桑给巴尔苏丹国。阿曼一跃成为印度洋的霸主，在非洲的大湖地区殖民地奴隶贸易中获利丰厚，许多家庭移居桑给巴尔。英国宣布奴隶贸易非法之后，阿曼的命运开始逆转，阿曼经济开始崩塌，山区部落起义，成立了阿曼伊斯兰教长国。在1850年代至70年代，马斯喀特的人口从55,000人降至8,000人。1856年，赛义德·本·苏尔坦去世，其两个儿子分别掌管马斯喀特和桑给巴尔，1861年，两地正式分裂，阿曼衰落。1868年，阿曼教长国攻占马斯喀特。1870年，马斯喀特苏丹在英国援助下方才夺回首都复国，自此沦入英国控制。1871年，英国入侵阿曼本土，迫使其接受不平等条约。1891年，英国和马斯喀特苏丹签订条约，苏丹承认英国的保护权。1913年，阿曼山区部落举行反英起义，建立“阿曼伊斯兰谢赫国”。20世纪初，阿曼谢赫国向马斯喀特进攻。1920年英国在马斯喀特同阿曼谢赫国签订了“西卜条约”，承认谢赫国独立，阿曼就分裂为马斯喀特苏丹国和阿曼伊斯兰谢赫国两部分。1932年泰穆尔即位苏丹。1949年，因阿曼谢赫国境内发现石油，英国和马斯喀特苏丹同阿曼谢赫国再度陷入紧张。英国人为了在阿曼内地开采石油。也支持苏丹赛义德，并在1954年末指挥阿曼军队攻入内地，占领了伊卜利和鲁斯塔克，1955年12月15日攻占“谢赫国”的首都尼兹瓦。1957年7月加利布谢赫领导的反英起义失败。1962年，英国和法国发表声明，承认阿曼是独立国家。1965年南部佐法尔省组织了“佐法尔人民阵线”，发动武装起义。1967年苏丹赛义德·本·泰穆尔统一全境，马斯喀特苏丹国改名马斯喀特和阿曼苏丹国。“阿曼伊斯兰谢赫国”支持者组成“阿曼解放军”，以及“阿曼和波斯湾人民民主解放阵线”。1970年7月23日泰穆尔苏丹被宫廷政变推翻，其独生子29岁的合法继承人卡布斯接管政权，同年8月9日宣布国名为阿曼苏丹国。从此，阿曼发生巨大变化。1973年英军撤出阿曼。1996年，在国内各势力的要求下，卡布斯·伊本·赛义德颁布宪制性文件（相当于宪法）的《国家基本法》。",
+      "chars": 1185
+    },
+    {
+      "section": "人口与民族",
+      "text": "2018年人口数量为482万，而根据2010年阿曼人口普查，每年增长率为10%。其中阿曼公民为1,779,318人（76.3%），外籍人口552,073人（23.7%）。外籍人口占人口总数比例从1993年的26%降为10年后的23.7%。阿曼男性公民与女性公民的比例为100：102，女性公民仅比男性公民多1.7万人。巴提奈区人口65万，占全国人口的28%，是人口第一大区。马斯喀特省位居第二，人口63万，占全国人口总数的27%。\n阿曼居民绝大部分是阿拉伯人，属于闪米特人，是高加索人种地中海人种的一支。\n阿曼人的婚姻多由父母包办或受人委托办理，但须征得女方的同意。男青年多半娶自己的堂妹为第一个妻子。原因是因为阿曼人认为娶陌生女子为妻就好比喝了一壶不知为何物的饮料一样；而娶堂妹为妻就如喝了看得见并知为何种饮料那样痛快。由于近亲结婚产生了很多先天畸形的后代，于是阿曼人逐渐扩大了择偶的范围。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "2018年人口数量为482万，而根据2010年阿曼人口普查，每年增长率为10%。其中阿曼公民为1,779,318人（76.3%），外籍人口552,073人（23.7%）。外籍人口占人口总数比例从1993年的26%降为10年后的23.7%。阿曼男性公民与女性公民的比例为100：102，女性公民仅比男性公民多1.7万人。巴提奈区人口65万，占全国人口的28%，是人口第一大区。马斯喀特省位居第二，人口63万，占全国人口总数的27%。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Sultan Qaboos Grand Mosque (1).jpg",
+      "caption_zh": "苏丹卡布斯大清真寺",
+      "caption": "苏丹卡布斯大清真寺",
+      "caption_commons": "The Sultan Qaboos Grand Mosque is the main Mosque in the Sultanate of Oman. It i",
+      "kw": "Sultan Qaboos Grand Mosque Muscat",
+      "url": "assets/om/L01.webp",
+      "thumb_url": "assets/om/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Sultan_Qaboos_Grand_Mosque_%281%29.jpg/1920px-Sultan_Qaboos_Grand_Mosque_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Mostafameraji",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 114948,
+      "caption_zh_manual": "苏丹卡布斯大清真寺",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7620,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 606KB JPEG)"
+    },
+    {
+      "title": "File:Nizwa (5).jpg",
+      "caption_zh": "尼兹瓦堡",
+      "caption": "尼兹瓦堡",
+      "caption_commons": "Nizwa, Oman",
+      "kw": "Nizwa Fort Oman",
+      "url": "assets/om/L02.webp",
+      "thumb_url": "assets/om/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nizwa_%285%29.jpg/1920px-Nizwa_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Andries Oudshoorn",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 78398,
+      "caption_zh_manual": "尼兹瓦堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5858,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 642KB JPEG)"
+    },
+    {
+      "title": "File:Wahiba Sands Bidiya, Oman - 2024 2.jpg",
+      "caption_zh": "阿曼瓦希巴沙漠比迪耶",
+      "caption": "阿曼瓦希巴沙漠比迪耶",
+      "caption_commons": "Wahiba Sands Bidiya",
+      "kw": "Wahiba Sands Oman",
+      "url": "assets/om/L03.webp",
+      "thumb_url": "assets/om/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Wahiba_Sands_Bidiya%2C_Oman_-_2024_2.jpg/1920px-Wahiba_Sands_Bidiya%2C_Oman_-_2024_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "dconvertini",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 162646,
+      "caption_zh_manual": "瓦希巴沙漠",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8844,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 872KB JPEG)"
+    },
+    {
+      "title": "File:Oman, Muscat, Mutrah Souq, Kuma.jpg",
+      "caption_zh": "阿曼穆特拉集市一角",
+      "caption": "阿曼穆特拉集市一角",
+      "caption_commons": "Muscat: Muttrah Souk (Kuma)",
+      "kw": "Mutrah Souq Muscat",
+      "url": "assets/om/L04.webp",
+      "thumb_url": "assets/om/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Oman%2C_Muscat%2C_Mutrah_Souq%2C_Kuma.jpg/1920px-Oman%2C_Muscat%2C_Mutrah_Souq%2C_Kuma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Dr. Thomas Liptak",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 234932,
+      "caption_zh_manual": "穆特拉集市",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 16748,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 942KB JPEG)"
+    },
+    {
+      "title": "File:Jebel Shams.jpg",
+      "caption_zh": "杰贝尔沙姆斯山",
+      "caption": "杰贝尔沙姆斯山",
+      "caption_commons": "Jebel Shams",
+      "kw": "Jebel Shams Oman",
+      "url": "assets/om/L05.webp",
+      "thumb_url": "assets/om/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Jebel_Shams.jpg/1920px-Jebel_Shams.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Andries Oudshoorn",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 178250,
+      "caption_zh_manual": "杰贝尔沙姆斯山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8620,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 1003KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:50:28+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Oman.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Oman.wav、LL-Q652 (ita)-Francyskus-Oman.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py OM",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "阿拉伯半岛",
+        "evidence": "西亚阿拉伯半岛东南沿海"
+      },
+      {
+        "v": "马斯喀特",
+        "evidence": "首都马斯喀特"
+      },
+      {
+        "v": "马干",
+        "evidence": "上古时代称作“马干”"
+      },
+      {
+        "v": "瓮蛮",
+        "evidence": "称其为“瓮蛮”"
+      },
+      {
+        "v": "霍尔木兹海峡",
+        "evidence": "领土横跨霍尔木兹海峡"
+      },
+      {
+        "v": "石油",
+        "evidence": "石油储量居全球第25位"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "阿曼苏丹国（阿拉伯语：سلطنة عُمان），简称阿曼（عُمان），是位于西亚阿拉伯半岛东南沿海的国家。北部与阿拉伯联合酋长国接壤，西面毗邻沙特阿拉伯，西南靠近也门。其海岸南部和东部临阿拉伯海，东北方则抵阿曼湾。面积约30万平方公里，人口约452万人，首都马斯喀特。\n阿曼地区在上古时代称作“马干”。南宋《诸蕃志》、元朝《南海志》称其为“瓮蛮”，明朝《坤舆万国全图》作“亚衣漫”。17世纪晚期，阿曼成为印度洋强国，与葡萄牙、英国争夺波斯湾和印度洋的控制权。19世纪是阿曼的鼎盛时期，领土横跨霍尔木兹海峡，延伸至现今的伊朗和巴基斯坦，南至东非沿海地区及桑给巴尔群岛。20世纪，阿曼逐渐沦为英国保护国。历史上，阿曼的首都马斯喀特是波斯湾、印度洋地区的主要贸易港口。\n阿曼为君主专制国家，前任苏丹卡布斯·本·赛义德·阿勒赛义德自1970年到2020年一直是阿曼的世袭领袖。自泰国国王普密蓬·阿杜德驾崩至苏丹卡布斯驾崩之时，他是世界上在位时间第三长的现任统治者（仅次于英国女王伊丽莎白二世和文莱苏丹哈桑纳尔·博尔基亚）。\n阿曼的石油储量居全球第25位。",
+  "history_text": "阿曼是阿拉伯半岛最古老的国家之一，公元前2000年已广泛进行海上和陆路贸易，并成为造船中心。公元7世纪成为阿拉伯帝国的一部分，11世纪末独立。1507年葡萄牙入侵，1649年当地人推翻葡萄牙统治，建立亚里巴王朝。18世纪中叶阿拉伯人赶走波斯人，建立赛义德王朝，取国名“马斯喀特苏丹国”，一度成为印度洋上最强的国家之一。",
+  "custom_text": "阿曼人的婚姻多由父母包办或受人委托办理，但须征得女方同意。男青年多半娶自己的堂妹为第一个妻子，阿曼人认为娶堂妹为妻就如喝了看得见并知为何种饮料那样痛快，娶陌生女子则好比喝了一壶不知为何物的饮料。近亲结婚产生不少先天畸形后代，择偶范围于是逐渐扩大。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 159,
+      "folk": 123
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "阿曼在哪儿啊？周围都是哪些国家？",
+      "a": "阿曼位于西亚阿拉伯半岛东南沿海，北部与阿拉伯联合酋长国接壤，西面毗邻沙特阿拉伯，西南靠近也门。",
+      "tags": [
+        "阿曼位置",
+        "中东国家",
+        "周边国家"
+      ]
+    },
+    {
+      "q": "阿曼的首都是哪里？",
+      "a": "首都马斯喀特。",
+      "tags": [
+        "首都",
+        "马斯喀特"
+      ]
+    },
+    {
+      "q": "阿曼面积多大？人口多少？",
+      "a": "面积约30万平方公里，人口约452万人。",
+      "tags": [
+        "面积",
+        "人口"
+      ]
+    },
+    {
+      "q": "阿曼说什么语言？",
+      "a": "官方语言是阿拉伯语。",
+      "tags": [
+        "语言",
+        "阿拉伯语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "阿曼有什么值得看的地标或景点？",
+      "a": "苏丹卡布斯大清真寺、尼兹瓦堡、瓦希巴沙漠、穆特拉集市、杰贝尔沙姆斯山。",
+      "tags": [
+        "地标",
+        "景点",
+        "看什么"
+      ]
+    },
+    {
+      "q": "阿曼历史上和中国有什么称呼上的联系？",
+      "a": "南宋《诸蕃志》、元朝《南海志》称其为“瓮蛮”，明朝《坤舆万国全图》作“亚衣漫”。",
+      "tags": [
+        "历史",
+        "古称",
+        "中国记载"
+      ]
+    },
+    {
+      "q": "阿曼以前很厉害吗？领土到过哪里？",
+      "a": "19世纪是阿曼鼎盛时期，领土横跨霍尔木兹海峡，延伸至现今的伊朗和巴基斯坦，南至东非沿海地区及桑给巴尔群岛。",
+      "tags": [
+        "历史",
+        "鼎盛时期",
+        "领土"
+      ]
+    },
+    {
+      "q": "阿曼的石油多不多？",
+      "a": "阿曼的石油储量居全球第25位。",
+      "tags": [
+        "石油",
+        "资源",
+        "储量"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        5638,
+        2498
+      ],
+      [
+        5661,
+        2450
+      ],
+      [
+        5718,
+        2393
+      ],
+      [
+        5832,
+        2362
+      ],
+      [
+        5858,
+        2365
+      ],
+      [
+        5876,
+        2354
+      ],
+      [
+        5952,
+        2256
+      ],
+      [
+        5982,
+        2251
+      ],
+      [
+        5981,
+        2224
+      ],
+      [
+        5934,
+        2144
+      ],
+      [
+        5905,
+        2128
+      ],
+      [
+        5868,
+        2083
+      ],
+      [
+        5873,
+        2077
+      ],
+      [
+        5859,
+        2064
+      ],
+      [
+        5852,
+        2042
+      ],
+      [
+        5845,
+        2036
+      ],
+      [
+        5820,
+        2040
+      ],
+      [
+        5826,
+        2059
+      ],
+      [
+        5821,
+        2061
+      ],
+      [
+        5786,
+        2026
+      ],
+      [
+        5769,
+        1973
+      ],
+      [
+        5782,
+        1899
+      ],
+      [
+        5721,
+        1891
+      ],
+      [
+        5681,
+        1875
+      ],
+      [
+        5664,
+        1856
+      ],
+      [
+        5656,
+        1815
+      ],
+      [
+        5636,
+        1794
+      ],
+      [
+        5544,
+        1784
+      ],
+      [
+        5523,
+        1754
+      ],
+      [
+        5530,
+        1742
+      ],
+      [
+        5526,
+        1723
+      ],
+      [
+        5503,
+        1701
+      ],
+      [
+        5481,
+        1695
+      ],
+      [
+        5459,
+        1704
+      ],
+      [
+        5408,
+        1701
+      ],
+      [
+        5362,
+        1676
+      ],
+      [
+        5309,
+        1664
+      ],
+      [
+        5280,
+        1727
+      ],
+      [
+        5272,
+        1730
+      ],
+      [
+        5198,
+        1900
+      ],
+      [
+        5498,
+        2000
+      ],
+      [
+        5564,
+        2198
+      ],
+      [
+        5519,
+        2270
+      ],
+      [
+        5523,
+        2312
+      ],
+      [
+        5554,
+        2377
+      ],
+      [
+        5545,
+        2395
+      ],
+      [
+        5600,
+        2408
+      ],
+      [
+        5593,
+        2422
+      ],
+      [
+        5576,
+        2423
+      ],
+      [
+        5583,
+        2492
+      ],
+      [
+        5601,
+        2496
+      ],
+      [
+        5603,
+        2486
+      ],
+      [
+        5596,
+        2487
+      ],
+      [
+        5610,
+        2473
+      ],
+      [
+        5638,
+        2498
+      ]
+    ],
+    [
+      [
+        5608,
+        2606
+      ],
+      [
+        5621,
+        2626
+      ],
+      [
+        5621,
+        2621
+      ],
+      [
+        5640,
+        2622
+      ],
+      [
+        5631,
+        2622
+      ],
+      [
+        5636,
+        2639
+      ],
+      [
+        5650,
+        2636
+      ],
+      [
+        5640,
+        2627
+      ],
+      [
+        5649,
+        2624
+      ],
+      [
+        5643,
+        2622
+      ],
+      [
+        5648,
+        2615
+      ],
+      [
+        5633,
+        2617
+      ],
+      [
+        5634,
+        2611
+      ],
+      [
+        5647,
+        2610
+      ],
+      [
+        5638,
+        2604
+      ],
+      [
+        5645,
+        2595
+      ],
+      [
+        5638,
+        2593
+      ],
+      [
+        5628,
+        2563
+      ],
+      [
+        5614,
+        2567
+      ],
+      [
+        5618,
+        2602
+      ],
+      [
+        5608,
+        2606
+      ]
+    ],
+    [
+      [
+        5891,
+        2063
+      ],
+      [
+        5895,
+        2051
+      ],
+      [
+        5865,
+        2017
+      ],
+      [
+        5865,
+        2037
+      ],
+      [
+        5891,
+        2070
+      ],
+      [
+        5891,
+        2063
+      ]
+    ],
+    [
+      [
+        5626,
+        2533
+      ],
+      [
+        5634,
+        2527
+      ],
+      [
+        5622,
+        2522
+      ],
+      [
+        5626,
+        2533
+      ]
+    ]
+  ]
+}

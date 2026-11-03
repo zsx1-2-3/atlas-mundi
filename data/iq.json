@@ -1,1 +1,652 @@
-{"qid":"Q796","iso_a2":"IQ","iso_a3":"IRQ","name_zh":"伊拉克","name_en":"Iraq","capital":"巴格达","continent":"亚洲","centroid":[43,33],"centroid_source":"wikidata P625","languages":[{"code":"ar","name_zh":"阿拉伯语","name_local":"阿拉伯语","role":"official","audio_url":"assets/iq/audio/ar.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"أهلاً بكم في العراق، حيث يقع في قلب بغداد تراثٌ عريق، ومن أبرز معالمه ساحة التحرير التي تروي حكايات المدينة منذ عقود.","tts_text_zh":"欢迎来到伊拉克，古老的文化遗产坐落于巴格达的中心，其中最著名的地标之一是解放广场，数十年来一直诉说着这座城市的故事。","audio_voice":"ar-DZ-AminaNeural","audio_bytes":72000},{"code":"ku","name_zh":"库尔德语","name_local":"库尔德语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"伊拉克共和国通称伊拉克，是位于西亚地区的共和国。其与南方的沙特阿拉伯、科威特，北方的土耳其，西北的叙利亚，东方的伊朗及西方的约旦接壤，面积437,072平方公里，人口4,046万人。伊拉克所在的地区在历史上也被称为美索不达米亚，是人类文明摇篮中历史最悠久的一个，这一地域至少在二十万年前已经有人类活动。伊拉克一词自六世纪前就在使用，对其来源有许多说法，其中一种说法认为这名称来自苏美尔城邦乌鲁克之名，在苏美尔语中uru是城镇的意思；另一种说法则认为这词源自阿拉伯语ʾaraqa，涵盖出汗、根深蒂固、水源充足等意思，这或许是出于阿拉伯人对两河流域土地肥沃的印象。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":280,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%8B%89%E5%85%8B","title":"伊拉克"},"culture_excerpts":[{"section":"历史","text":"伊拉克地域至少在二十万年前已经有人类活动。位于幼发拉底河和底格里斯河之间美索不达米亚平原富饶的土地曾经孕育了几个世界上最古老的文明——苏美尔文明、巴比伦文明、亚述文明和加尔底亚（新巴比伦）文明。656年该地区被阿拉伯人占领。此前相当长的一段时间，这里都是波斯帝国的一部分，但几乎所有政权首都皆建于两河流域，如波斯帝国、亚历山大帝国的巴比伦、塞琉古王朝的塞琉西亚、安息帝国、萨珊王朝的泰西封。762年，哈里发迁到安息帝国、萨珊王朝首都泰西封北郊的巴格达。此后，巴格达一直是阿拉伯世界的中心，直到1258年被蒙古人攻陷为止。随后被奥斯曼帝国统治数百年，期间成为奥斯曼-萨菲战争的主战场。1915年，英国军队占领美索不达米亚，1920年成为英国的“美索不达米亚托管地”，以国联的名义对其进行统治。1921年，英国人从麦加哈希姆家族中选送费萨尔到巴格达建立费萨尔王朝，直至1932年伊拉克独立，成为以哈希姆王朝为统治者的君主制国家伊拉克王国。1958年7月14日以阿卜杜勒·卡里姆·卡赛姆为首的“自由军官组织”发动7月14日革命推翻哈希姆王朝，成立伊拉克共和国。1963年2月8日阿拉伯复兴社会党推翻卡赛姆，建立以该党为主的政权，但由党外人士阿里夫任总统。同年11月，当时总统阿里夫大举缉捕复兴党人于是复兴党转入地下活动。 1968年7月17日，以艾哈迈德·哈桑·贝克尔为首的复兴党军官集团联合阿卜杜勒·拉扎克·纳伊夫青年军官集团推翻了阿里夫的哥哥，复兴党再度掌权，推行阿拉伯“统一、自由、社会主义”的纲领，贝克尔出任总统。1979年7月贝克尔因病辞职，逊尼派萨达姆·侯赛因成为该党的领袖并接任总统。在萨达姆执政其间对什叶派穆斯林实行严酷的独裁统治，大肆打击并杀害持不同政见者。在1980年代，萨达姆在美国的支持下与其邻国伊朗（以什叶派穆斯林为主）进行了长达8年的两伊战争。因为此时伊朗经过伊斯兰革命以后，成为敌视美国的政教合一国家，美国在两伊战争中军事支持伊拉克攻打伊朗。1990年伊拉克军队入侵科威特，海湾战争爆发，科威特由于军事抵抗能力太低而迅速沦陷，萨达姆宣布“科威特成为伊拉克的一个省”，不过迅速遭到了联合国的谴责，以美英为首的多国部队展开沙漠风暴行动，对伊拉克地面部队实施空中打击。次年1月伊拉克被美国领导的多国部队击败并逐出科威特。这导致了以美国为首的国家对伊拉克实行长期制裁。2003年3月20日，美国以伊拥有大规模毁灭性武器为由，组织联军进攻伊拉克，此举非经过联合国表决通过，伊拉克战争爆发。在几周后复兴党政权就被美英联军击败，其间伊拉克军队并未对美军有大的抵抗，大量的伊拉克军人投降，时任伊拉克总统萨达姆·侯赛因也被美军逮捕并被伊拉克法院判处死刑。伊拉克很快处于美国及其盟国军队的控制之下，但是美军并未找到伊拉克拥有大规模毁灭性武器的证据。由美国任命的行政长官保罗·布雷默为美国负责伊拉克事务的最高行政长官，担任伊拉克首脑。一个由各派政治力量组成的伊拉克临时管理委员会在商讨起草宪法和基本建设计划。2004年6月1日，联合国、美、伊三方协商推选产生以阿拉维为总理的伊临时政府。6月28日，美英联军向伊拉克临时政府移交权力。2005年1月30日，伊拉克举行大选。4月6日，贾拉勒·塔拉巴尼当选伊拉克过渡政权总统。2006年5月20日，战后首届正式政府在经议会表决批准后宣誓就职。总理为贾瓦德·马利基。然而恐怖分子和前政府势力为对抗美英的军事占领，进行了针对伊拉克警察、政府机构以及驻伊美军的汽车炸弹袭击。什叶派和逊尼派穆斯林在伊拉克境内的暴力冲突升级也成为伊拉克政府棘手的问题。另外，战后伊拉克北部的亚述基督徒等宗教少数派由于地区动乱而被迫大量外迁，这引起了国际社会的关注和担忧。2014年逊尼派极端恐怖组织伊拉克和黎凡特伊斯兰国趁着中东局势混乱向伊拉克大举进攻，导致伊拉克战火重燃。2014年6月，伊斯兰国攻陷伊拉克西部和北部大片地区，包括伊拉克第二大城市摩苏尔和中部大城提克里特以及北部城市泰勒阿费尔在内的数个伊拉克城市，并进迫首都巴格达。ISIL (或ISIS，即伊斯兰国，ISIL是比ISIS更精确的地理描述) 和伊拉克政府军、北方的库尔德武装在幼发拉底河沿线展开拉锯战。ISIL前锋甚至一度逼近巴格达机场。在美国和伊朗的支援下，伊拉克政府在随后三年里陆续收复失地。2017年11月17日，伊拉克联合行动司令兼发言人拉苏尔（Yahya Rasool）表示，在当地时间星期五（11月17日）黎明时分，部队和部落战士挺近安巴尔省的拉瓦市（Rawah）西部，经过五个小时的战斗，收复了拉瓦市。当天下午伊拉克总理阿巴迪声明，伊拉克将继续军事行动以夺回伊拉克西部沙漠地区。2017年12月9日，伊拉克总理阿巴迪宣布收复被恐怖极端组织占领的全部领土，取得反恐战争的重大胜利。期间2017年9月25日，库尔德地区举行独立公投。伊拉克中央政府强烈反对库区公投，联合伊朗、土耳其等邻国采取系列反制措施。大规模示威活动于2019年10月1日开始，抗议者对16年的腐败，失业和低效的公共服务表示不满。示威者的诉求逐步升级为推翻政府和停止伊朗对伊拉克的干预。 伊拉克政府作出了严厉的反应，到12月12日造成500多人死亡。","chars":2158},{"section":"人口概况","text":"伊拉克人口于2022年估计约4,046万人，于1878年时仅约200万人，大约75%-80%的伊拉克居民为阿拉伯人；居住在北部山区和东北部的库尔德人是另一个主要民族，占总人口大约15%-20%；其他少数民族包括：亚述人、亚美尼亚人、土库曼人、高加索人和波斯人等，组成了5%的伊拉克人口。阿拉伯语和库尔德语是国家的官方语言，前者全国通用，后者在北方广泛使用；现代阿拉米语则在亚述人聚集区内使用。\n伊拉克的国教为伊斯兰教，大多数为穆斯林，其中逊尼派占35%左右，什叶派占55%，在伊拉克信仰伊斯兰教的阿拉伯人大部分都属于什叶派穆斯林，而逊尼派在人口中也占很大比例，大多数库尔德人是逊尼派穆斯林，但他们的语言服装习俗都与阿拉伯人不同。","chars":1200},{"section":"宗教","text":"伊拉克的国教为伊斯兰教，大多数为穆斯林，其中逊尼派占35%左右，什叶派占55%，在伊拉克信仰伊斯兰教的阿拉伯人大部分都属于什叶派穆斯林，而逊尼派在人口中也占很大比例，大多数库尔德人是逊尼派穆斯林，但他们的语言服装习俗都与阿拉伯人不同。\n伊拉克有许多东仪的基督徒，分属于东方亚述教会、迦勒底天主教会、叙利亚正教会、叙利亚天主教会和亚美尼亚使徒教会等各个东方基督教派，其人口一度非常可观。但自从2003年美军占领伊拉克以后，伊拉克安全局势不断恶化，大量亚述基督徒被迫离开伊拉克，逃往邻国或西方国家，导致伊拉克基督徒人口锐减；现在伊拉克的基督徒人口仅剩余60万左右。","chars":842}],"landmark_images":[{"title":"File:001125-Babylon-IMG 8063-2.jpg","caption_zh":"巴比伦古城遗址","caption":"巴比伦古城遗址","caption_commons":"Babylon, the old city, Hillah, Iraq - February 2022 - Photo by: Safa Daneshvar ش","kw":"Babylon Iraq ruins","url":"assets/iq/L01.webp","thumb_url":"assets/iq/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/001125-Babylon-IMG_8063-2.jpg/1920px-001125-Babylon-IMG_8063-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Safa.daneshvar","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":59872,"caption_zh_manual":"巴比伦古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17098,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 807KB JPEG)"},{"title":"File:Ctesiphon Exhibition - Pergamonmuseum Berlin 2017.jpg","caption_zh":"柏林佩加蒙博物馆泰西封拱门展览","caption":"柏林佩加蒙博物馆泰西封拱门展览","caption_commons":"The Exhibition \"Ctesiphon: Persian Sources of Islamic Art\" at Berlin's Museum of","kw":"Taq Kasra Ctesiphon","url":"assets/iq/L03.webp","thumb_url":"assets/iq/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/b/b7/Ctesiphon_Exhibition_-_Pergamonmuseum_Berlin_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"PersianDutchNetwork","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":29416,"caption_zh_manual":"泰西封拱门","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10040,"size":{"detail":"760x426","thumb":"400x224"},"encoding":"webp q72/q74 (源 1000x561 209KB JPEG)"},{"title":"File:001123-ImamAliShrine-Najaf-IMG 7707-2.jpg","caption_zh":"纳杰夫阿里清真寺","caption":"纳杰夫阿里清真寺","caption_commons":"Imam Ali Holy Shrine, Najaf, Iraq - February 2022 - Photo by: Safa Daneshvar","kw":"Imam Ali Shrine Najaf","url":"assets/iq/L04.webp","thumb_url":"assets/iq/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/001123-ImamAliShrine-Najaf-IMG_7707-2.jpg/1920px-001123-ImamAliShrine-Najaf-IMG_7707-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Safa.daneshvar","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":67418,"caption_zh_manual":"纳杰夫阿里清真寺","caption_zh_source":"llm_from_commons_filename","thumb_bytes":24906,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 614KB JPEG)"},{"title":"File:Hatra-109732.jpg","caption_zh":"哈特拉古城遗址","caption":"哈特拉古城遗址","caption_commons":"Hatra (Iraq)","kw":"Hatra ruins Iraq","url":"assets/iq/L05.webp","thumb_url":"assets/iq/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/1/10/Hatra-109732.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Véronique Dauge","license":"CC BY-SA 3.0 igo","license_url":"https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en","license_status":"ok","load_verified":true,"bytes":63536,"caption_zh_manual":"哈特拉古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":21770,"size":{"detail":"760x521","thumb":"400x274"},"encoding":"webp q72/q74 (源 1722x1180 2836KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:28:57+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Irak.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Irak.wav、LL-Q652 (ita)-Francyskus-Iraq.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py IQ","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","萨迈拉螺旋塔：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（4 张，中文图注）","摘要 280 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"美索不达米亚","evidence":"历史上也被称为美索不达米亚"},{"v":"人类文明摇篮","evidence":"是人类文明摇篮中历史最悠久的一个"},{"v":"两河流域","evidence":"阿拉伯人对两河流域土地肥沃的印象"},{"v":"乌鲁克","evidence":"来自于苏美尔城邦乌鲁克"}],"model":"deepseek-flash"},"summary_text_raw":"伊拉克共和国（阿拉伯语：جُمْهُورِيَّة الْعِرَاق，罗马化：Jumhūrīyat al-ʿIrāq；库尔德语：كۆماری عێراق），通称伊拉克（العراق），位于西亚地区的共和国。其与南方的沙特阿拉伯、科威特，北方的土耳其，西北的叙利亚，东方的伊朗及西方的约旦接壤。面积437,072平方公里，人口4,046万人。伊拉克所在的地区在历史上也被称为美索不达米亚，是人类文明摇篮中历史最悠久的一个。\n\n\n== 语源 ==\n伊拉克（阿拉伯语：العراق，罗马化：al-ʿIrāq）一词自六世纪前就在使用。对其来源有许多说法，其中一种说法认为这名称来自于苏美尔城邦乌鲁克（苏美尔语：Unug；阿卡德语：Uruk；阿拉伯语：وركاء，罗马化：Warkāʾ；圣经希伯来语：אֶרֶךְ，罗马化：ʾÉreḵ）之名，在苏美尔语中uru 是城镇的意思。另一种说法则认为这词源自阿拉伯语ʾaraqa，涵盖出汗、根深蒂固、水源充足等意思，这或许是出于阿拉伯人对两河流域土地肥沃的印象。\n\n\n== 历史 ==\n\n伊拉克地域至少在二十万年前已经有人类活动。","history_text":"两河流域的肥沃平原上先后孕育了苏美尔、巴比伦、亚述等古老文明，此后长期处于波斯帝国治下。七世纪中叶阿拉伯人占领此地，巴格达随后成为阿拉伯世界的中心，直至蒙古人攻陷。此后数百年归奥斯曼帝国统治，一战中英军占领美索不达米亚，一九二一年扶立费萨尔王朝，一九三二年独立建国。一九五八年自由军官组织发动革命推翻王朝，成立共和国。","custom_text":"底格里斯河与幼发拉底河之间的平原上，待客先从椰枣与浓甜的红茶开始，街头茶馆里人们围坐抽水烟、谈天消磨长夜。北部山区的库尔德人另有自己的语言与服饰，过节时穿起鲜艳的传统衣装围圈起舞。基督徒社区保留着古老的东方礼仪，节庆与斋期依循各自的历法。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":159,"folk":119}},"knowledge_qa":[{"q":"伊拉克在哪个洲啊？","a":"伊拉克位于亚洲，具体在西亚地区，是一个共和国。","tags":["亚洲","西亚","位置"]},{"q":"伊拉克的首都是哪里？","a":"伊拉克的首都是巴格达。","tags":["首都","巴格达"]},{"q":"伊拉克面积多大？人口多少？","a":"伊拉克面积437,072平方公里，人口约4,046万人。","tags":["面积","人口","多大"]},{"q":"伊拉克周围挨着哪些国家？","a":"伊拉克与南方的沙特阿拉伯、科威特，北方的土耳其，西北的叙利亚，东方的伊朗及西方的约旦接壤。","tags":["邻国","周边","接壤"]},{"q":"伊拉克人说什么语言？","a":"伊拉克的官方语言是阿拉伯语和库尔德语。","tags":["语言","说什么话","官方语言"]},{"q":"伊拉克有什么值得看的地标？","a":"值得看的地标有巴比伦古城、泰西封拱门、纳杰夫阿里清真寺和哈特拉古城。","tags":["地标","景点","看什么"]},{"q":"伊拉克有什么历史渊源？","a":"伊拉克所在的地区历史上被称为美索不达米亚，是人类文明摇篮中历史最悠久的一个，至少二十万年前已有人类活动。","tags":["历史","美索不达米亚","文明"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[4477,3714],[4489,3702],[4483,3679],[4505,3667],[4499,3653],[4508,3641],[4524,3640],[4532,3599],[4554,3599],[4575,3581],[4608,3586],[4633,3580],[4600,3567],[4596,3549],[4612,3532],[4615,3511],[4591,3509],[4585,3491],[4567,3481],[4563,3472],[4570,3455],[4550,3459],[4550,3449],[4542,3444],[4556,3431],[4554,3414],[4538,3397],[4549,3394],[4574,3358],[4589,3363],[4593,3355],[4585,3349],[4597,3349],[4616,3326],[4617,3317],[4603,3311],[4612,3306],[4610,3295],[4648,3289],[4709,3248],[4726,3248],[4741,3240],[4749,3215],[4783,3181],[4768,3141],[4767,3100],[4801,3099],[4801,3046],[4831,3031],[4845,3000],[4856,2995],[4812,3004],[4797,3000],[4794,3011],[4795,2999],[4767,3010],[4720,3003],[4684,2942],[4653,2910],[4469,2920],[4208,3108],[4042,3192],[3915,3212],[3929,3224],[3924,3235],[3903,3233],[3898,3248],[3906,3250],[3878,3337],[4069,3433],[4096,3440],[4120,3479],[4120,3524],[4136,3566],[4124,3606],[4128,3635],[4138,3652],[4184,3662],[4236,3711],[4256,3715],[4272,3736],[4312,3737],[4381,3720],[4409,3731],[4424,3724],[4418,3709],[4428,3697],[4461,3718],[4477,3714]]]}
+{
+  "qid": "Q796",
+  "iso_a2": "IQ",
+  "iso_a3": "IRQ",
+  "name_zh": "伊拉克",
+  "name_en": "Iraq",
+  "capital": "巴格达",
+  "continent": "亚洲",
+  "centroid": [
+    43,
+    33
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ar",
+      "name_zh": "阿拉伯语",
+      "name_local": "阿拉伯语",
+      "role": "official",
+      "audio_url": "assets/iq/audio/ar.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "أهلاً بكم في العراق، حيث يقع في قلب بغداد تراثٌ عريق، ومن أبرز معالمه ساحة التحرير التي تروي حكايات المدينة منذ عقود.",
+      "tts_text_zh": "欢迎来到伊拉克，古老的文化遗产坐落于巴格达的中心，其中最著名的地标之一是解放广场，数十年来一直诉说着这座城市的故事。",
+      "audio_voice": "ar-DZ-AminaNeural",
+      "audio_bytes": 72000
+    },
+    {
+      "code": "ku",
+      "name_zh": "库尔德语",
+      "name_local": "库尔德语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "伊拉克共和国通称伊拉克，是位于西亚地区的共和国。其与南方的沙特阿拉伯、科威特，北方的土耳其，西北的叙利亚，东方的伊朗及西方的约旦接壤，面积437,072平方公里，人口4,046万人。伊拉克所在的地区在历史上也被称为美索不达米亚，是人类文明摇篮中历史最悠久的一个，这一地域至少在二十万年前已经有人类活动。伊拉克一词自六世纪前就在使用，对其来源有许多说法，其中一种说法认为这名称来自苏美尔城邦乌鲁克之名，在苏美尔语中uru是城镇的意思；另一种说法则认为这词源自阿拉伯语ʾaraqa，涵盖出汗、根深蒂固、水源充足等意思，这或许是出于阿拉伯人对两河流域土地肥沃的印象。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 280,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%8B%89%E5%85%8B",
+    "title": "伊拉克"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "伊拉克地域至少在二十万年前已经有人类活动。位于幼发拉底河和底格里斯河之间美索不达米亚平原富饶的土地曾经孕育了几个世界上最古老的文明——苏美尔文明、巴比伦文明、亚述文明和加尔底亚（新巴比伦）文明。656年该地区被阿拉伯人占领。此前相当长的一段时间，这里都是波斯帝国的一部分，但几乎所有政权首都皆建于两河流域，如波斯帝国、亚历山大帝国的巴比伦、塞琉古王朝的塞琉西亚、安息帝国、萨珊王朝的泰西封。762年，哈里发迁到安息帝国、萨珊王朝首都泰西封北郊的巴格达。此后，巴格达一直是阿拉伯世界的中心，直到1258年被蒙古人攻陷为止。随后被奥斯曼帝国统治数百年，期间成为奥斯曼-萨菲战争的主战场。1915年，英国军队占领美索不达米亚，1920年成为英国的“美索不达米亚托管地”，以国联的名义对其进行统治。1921年，英国人从麦加哈希姆家族中选送费萨尔到巴格达建立费萨尔王朝，直至1932年伊拉克独立，成为以哈希姆王朝为统治者的君主制国家伊拉克王国。1958年7月14日以阿卜杜勒·卡里姆·卡赛姆为首的“自由军官组织”发动7月14日革命推翻哈希姆王朝，成立伊拉克共和国。1963年2月8日阿拉伯复兴社会党推翻卡赛姆，建立以该党为主的政权，但由党外人士阿里夫任总统。同年11月，当时总统阿里夫大举缉捕复兴党人于是复兴党转入地下活动。 1968年7月17日，以艾哈迈德·哈桑·贝克尔为首的复兴党军官集团联合阿卜杜勒·拉扎克·纳伊夫青年军官集团推翻了阿里夫的哥哥，复兴党再度掌权，推行阿拉伯“统一、自由、社会主义”的纲领，贝克尔出任总统。1979年7月贝克尔因病辞职，逊尼派萨达姆·侯赛因成为该党的领袖并接任总统。在萨达姆执政其间对什叶派穆斯林实行严酷的独裁统治，大肆打击并杀害持不同政见者。在1980年代，萨达姆在美国的支持下与其邻国伊朗（以什叶派穆斯林为主）进行了长达8年的两伊战争。因为此时伊朗经过伊斯兰革命以后，成为敌视美国的政教合一国家，美国在两伊战争中军事支持伊拉克攻打伊朗。1990年伊拉克军队入侵科威特，海湾战争爆发，科威特由于军事抵抗能力太低而迅速沦陷，萨达姆宣布“科威特成为伊拉克的一个省”，不过迅速遭到了联合国的谴责，以美英为首的多国部队展开沙漠风暴行动，对伊拉克地面部队实施空中打击。次年1月伊拉克被美国领导的多国部队击败并逐出科威特。这导致了以美国为首的国家对伊拉克实行长期制裁。2003年3月20日，美国以伊拥有大规模毁灭性武器为由，组织联军进攻伊拉克，此举非经过联合国表决通过，伊拉克战争爆发。在几周后复兴党政权就被美英联军击败，其间伊拉克军队并未对美军有大的抵抗，大量的伊拉克军人投降，时任伊拉克总统萨达姆·侯赛因也被美军逮捕并被伊拉克法院判处死刑。伊拉克很快处于美国及其盟国军队的控制之下，但是美军并未找到伊拉克拥有大规模毁灭性武器的证据。由美国任命的行政长官保罗·布雷默为美国负责伊拉克事务的最高行政长官，担任伊拉克首脑。一个由各派政治力量组成的伊拉克临时管理委员会在商讨起草宪法和基本建设计划。2004年6月1日，联合国、美、伊三方协商推选产生以阿拉维为总理的伊临时政府。6月28日，美英联军向伊拉克临时政府移交权力。2005年1月30日，伊拉克举行大选。4月6日，贾拉勒·塔拉巴尼当选伊拉克过渡政权总统。2006年5月20日，战后首届正式政府在经议会表决批准后宣誓就职。总理为贾瓦德·马利基。然而恐怖分子和前政府势力为对抗美英的军事占领，进行了针对伊拉克警察、政府机构以及驻伊美军的汽车炸弹袭击。什叶派和逊尼派穆斯林在伊拉克境内的暴力冲突升级也成为伊拉克政府棘手的问题。另外，战后伊拉克北部的亚述基督徒等宗教少数派由于地区动乱而被迫大量外迁，这引起了国际社会的关注和担忧。2014年逊尼派极端恐怖组织伊拉克和黎凡特伊斯兰国趁着中东局势混乱向伊拉克大举进攻，导致伊拉克战火重燃。2014年6月，伊斯兰国攻陷伊拉克西部和北部大片地区，包括伊拉克第二大城市摩苏尔和中部大城提克里特以及北部城市泰勒阿费尔在内的数个伊拉克城市，并进迫首都巴格达。ISIL (或ISIS，即伊斯兰国，ISIL是比ISIS更精确的地理描述) 和伊拉克政府军、北方的库尔德武装在幼发拉底河沿线展开拉锯战。ISIL前锋甚至一度逼近巴格达机场。在美国和伊朗的支援下，伊拉克政府在随后三年里陆续收复失地。2017年11月17日，伊拉克联合行动司令兼发言人拉苏尔（Yahya Rasool）表示，在当地时间星期五（11月17日）黎明时分，部队和部落战士挺近安巴尔省的拉瓦市（Rawah）西部，经过五个小时的战斗，收复了拉瓦市。当天下午伊拉克总理阿巴迪声明，伊拉克将继续军事行动以夺回伊拉克西部沙漠地区。2017年12月9日，伊拉克总理阿巴迪宣布收复被恐怖极端组织占领的全部领土，取得反恐战争的重大胜利。期间2017年9月25日，库尔德地区举行独立公投。伊拉克中央政府强烈反对库区公投，联合伊朗、土耳其等邻国采取系列反制措施。大规模示威活动于2019年10月1日开始，抗议者对16年的腐败，失业和低效的公共服务表示不满。示威者的诉求逐步升级为推翻政府和停止伊朗对伊拉克的干预。 伊拉克政府作出了严厉的反应，到12月12日造成500多人死亡。",
+      "chars": 2158
+    },
+    {
+      "section": "人口概况",
+      "text": "伊拉克人口于2022年估计约4,046万人，于1878年时仅约200万人，大约75%-80%的伊拉克居民为阿拉伯人；居住在北部山区和东北部的库尔德人是另一个主要民族，占总人口大约15%-20%；其他少数民族包括：亚述人、亚美尼亚人、土库曼人、高加索人和波斯人等，组成了5%的伊拉克人口。阿拉伯语和库尔德语是国家的官方语言，前者全国通用，后者在北方广泛使用；现代阿拉米语则在亚述人聚集区内使用。\n伊拉克的国教为伊斯兰教，大多数为穆斯林，其中逊尼派占35%左右，什叶派占55%，在伊拉克信仰伊斯兰教的阿拉伯人大部分都属于什叶派穆斯林，而逊尼派在人口中也占很大比例，大多数库尔德人是逊尼派穆斯林，但他们的语言服装习俗都与阿拉伯人不同。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "伊拉克的国教为伊斯兰教，大多数为穆斯林，其中逊尼派占35%左右，什叶派占55%，在伊拉克信仰伊斯兰教的阿拉伯人大部分都属于什叶派穆斯林，而逊尼派在人口中也占很大比例，大多数库尔德人是逊尼派穆斯林，但他们的语言服装习俗都与阿拉伯人不同。\n伊拉克有许多东仪的基督徒，分属于东方亚述教会、迦勒底天主教会、叙利亚正教会、叙利亚天主教会和亚美尼亚使徒教会等各个东方基督教派，其人口一度非常可观。但自从2003年美军占领伊拉克以后，伊拉克安全局势不断恶化，大量亚述基督徒被迫离开伊拉克，逃往邻国或西方国家，导致伊拉克基督徒人口锐减；现在伊拉克的基督徒人口仅剩余60万左右。",
+      "chars": 842
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:001125-Babylon-IMG 8063-2.jpg",
+      "caption_zh": "巴比伦古城遗址",
+      "caption": "巴比伦古城遗址",
+      "caption_commons": "Babylon, the old city, Hillah, Iraq - February 2022 - Photo by: Safa Daneshvar ش",
+      "kw": "Babylon Iraq ruins",
+      "url": "assets/iq/L01.webp",
+      "thumb_url": "assets/iq/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/001125-Babylon-IMG_8063-2.jpg/1920px-001125-Babylon-IMG_8063-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Safa.daneshvar",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 137406,
+      "caption_zh_manual": "巴比伦古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7528,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 807KB JPEG)"
+    },
+    {
+      "title": "File:Ctesiphon Exhibition - Pergamonmuseum Berlin 2017.jpg",
+      "caption_zh": "柏林佩加蒙博物馆泰西封拱门展览",
+      "caption": "柏林佩加蒙博物馆泰西封拱门展览",
+      "caption_commons": "The Exhibition \"Ctesiphon: Persian Sources of Islamic Art\" at Berlin's Museum of",
+      "kw": "Taq Kasra Ctesiphon",
+      "url": "assets/iq/L03.webp",
+      "thumb_url": "assets/iq/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ctesiphon_Exhibition_-_Pergamonmuseum_Berlin_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "PersianDutchNetwork",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 53756,
+      "caption_zh_manual": "泰西封拱门",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5226,
+      "size": {
+        "detail": "1000x561",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1000x561 209KB JPEG)"
+    },
+    {
+      "title": "File:001123-ImamAliShrine-Najaf-IMG 7707-2.jpg",
+      "caption_zh": "纳杰夫阿里清真寺",
+      "caption": "纳杰夫阿里清真寺",
+      "caption_commons": "Imam Ali Holy Shrine, Najaf, Iraq - February 2022 - Photo by: Safa Daneshvar",
+      "kw": "Imam Ali Shrine Najaf",
+      "url": "assets/iq/L04.webp",
+      "thumb_url": "assets/iq/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/001123-ImamAliShrine-Najaf-IMG_7707-2.jpg/1920px-001123-ImamAliShrine-Najaf-IMG_7707-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Safa.daneshvar",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 119982,
+      "caption_zh_manual": "纳杰夫阿里清真寺",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 12386,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 614KB JPEG)"
+    },
+    {
+      "title": "File:Hatra-109732.jpg",
+      "caption_zh": "哈特拉古城遗址",
+      "caption": "哈特拉古城遗址",
+      "caption_commons": "Hatra (Iraq)",
+      "kw": "Hatra ruins Iraq",
+      "url": "assets/iq/L05.webp",
+      "thumb_url": "assets/iq/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hatra-109732.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Véronique Dauge",
+      "license": "CC BY-SA 3.0 igo",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 115338,
+      "caption_zh_manual": "哈特拉古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9968,
+      "size": {
+        "detail": "1080x740",
+        "thumb": "240x164"
+      },
+      "encoding": "webp q75/q78 (源 1722x1180 2836KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:28:57+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Irak.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Irak.wav、LL-Q652 (ita)-Francyskus-Iraq.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py IQ",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "萨迈拉螺旋塔：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（4 张，中文图注）",
+    "摘要 280 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "美索不达米亚",
+        "evidence": "历史上也被称为美索不达米亚"
+      },
+      {
+        "v": "人类文明摇篮",
+        "evidence": "是人类文明摇篮中历史最悠久的一个"
+      },
+      {
+        "v": "两河流域",
+        "evidence": "阿拉伯人对两河流域土地肥沃的印象"
+      },
+      {
+        "v": "乌鲁克",
+        "evidence": "来自于苏美尔城邦乌鲁克"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "伊拉克共和国（阿拉伯语：جُمْهُورِيَّة الْعِرَاق，罗马化：Jumhūrīyat al-ʿIrāq；库尔德语：كۆماری عێراق），通称伊拉克（العراق），位于西亚地区的共和国。其与南方的沙特阿拉伯、科威特，北方的土耳其，西北的叙利亚，东方的伊朗及西方的约旦接壤。面积437,072平方公里，人口4,046万人。伊拉克所在的地区在历史上也被称为美索不达米亚，是人类文明摇篮中历史最悠久的一个。\n\n\n== 语源 ==\n伊拉克（阿拉伯语：العراق，罗马化：al-ʿIrāq）一词自六世纪前就在使用。对其来源有许多说法，其中一种说法认为这名称来自于苏美尔城邦乌鲁克（苏美尔语：Unug；阿卡德语：Uruk；阿拉伯语：وركاء，罗马化：Warkāʾ；圣经希伯来语：אֶרֶךְ，罗马化：ʾÉreḵ）之名，在苏美尔语中uru 是城镇的意思。另一种说法则认为这词源自阿拉伯语ʾaraqa，涵盖出汗、根深蒂固、水源充足等意思，这或许是出于阿拉伯人对两河流域土地肥沃的印象。\n\n\n== 历史 ==\n\n伊拉克地域至少在二十万年前已经有人类活动。",
+  "history_text": "两河流域的肥沃平原上先后孕育了苏美尔、巴比伦、亚述等古老文明，此后长期处于波斯帝国治下。七世纪中叶阿拉伯人占领此地，巴格达随后成为阿拉伯世界的中心，直至蒙古人攻陷。此后数百年归奥斯曼帝国统治，一战中英军占领美索不达米亚，一九二一年扶立费萨尔王朝，一九三二年独立建国。一九五八年自由军官组织发动革命推翻王朝，成立共和国。",
+  "custom_text": "底格里斯河与幼发拉底河之间的平原上，待客先从椰枣与浓甜的红茶开始，街头茶馆里人们围坐抽水烟、谈天消磨长夜。北部山区的库尔德人另有自己的语言与服饰，过节时穿起鲜艳的传统衣装围圈起舞。基督徒社区保留着古老的东方礼仪，节庆与斋期依循各自的历法。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 159,
+      "folk": 119
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "伊拉克在哪个洲啊？",
+      "a": "伊拉克位于亚洲，具体在西亚地区，是一个共和国。",
+      "tags": [
+        "亚洲",
+        "西亚",
+        "位置"
+      ]
+    },
+    {
+      "q": "伊拉克的首都是哪里？",
+      "a": "伊拉克的首都是巴格达。",
+      "tags": [
+        "首都",
+        "巴格达"
+      ]
+    },
+    {
+      "q": "伊拉克面积多大？人口多少？",
+      "a": "伊拉克面积437,072平方公里，人口约4,046万人。",
+      "tags": [
+        "面积",
+        "人口",
+        "多大"
+      ]
+    },
+    {
+      "q": "伊拉克周围挨着哪些国家？",
+      "a": "伊拉克与南方的沙特阿拉伯、科威特，北方的土耳其，西北的叙利亚，东方的伊朗及西方的约旦接壤。",
+      "tags": [
+        "邻国",
+        "周边",
+        "接壤"
+      ]
+    },
+    {
+      "q": "伊拉克人说什么语言？",
+      "a": "伊拉克的官方语言是阿拉伯语和库尔德语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言"
+      ]
+    },
+    {
+      "q": "伊拉克有什么值得看的地标？",
+      "a": "值得看的地标有巴比伦古城、泰西封拱门、纳杰夫阿里清真寺和哈特拉古城。",
+      "tags": [
+        "地标",
+        "景点",
+        "看什么"
+      ]
+    },
+    {
+      "q": "伊拉克有什么历史渊源？",
+      "a": "伊拉克所在的地区历史上被称为美索不达米亚，是人类文明摇篮中历史最悠久的一个，至少二十万年前已有人类活动。",
+      "tags": [
+        "历史",
+        "美索不达米亚",
+        "文明"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        4477,
+        3714
+      ],
+      [
+        4489,
+        3702
+      ],
+      [
+        4483,
+        3679
+      ],
+      [
+        4505,
+        3667
+      ],
+      [
+        4499,
+        3653
+      ],
+      [
+        4508,
+        3641
+      ],
+      [
+        4524,
+        3640
+      ],
+      [
+        4532,
+        3599
+      ],
+      [
+        4554,
+        3599
+      ],
+      [
+        4575,
+        3581
+      ],
+      [
+        4608,
+        3586
+      ],
+      [
+        4633,
+        3580
+      ],
+      [
+        4600,
+        3567
+      ],
+      [
+        4596,
+        3549
+      ],
+      [
+        4612,
+        3532
+      ],
+      [
+        4615,
+        3511
+      ],
+      [
+        4591,
+        3509
+      ],
+      [
+        4585,
+        3491
+      ],
+      [
+        4567,
+        3481
+      ],
+      [
+        4563,
+        3472
+      ],
+      [
+        4570,
+        3455
+      ],
+      [
+        4550,
+        3459
+      ],
+      [
+        4550,
+        3449
+      ],
+      [
+        4542,
+        3444
+      ],
+      [
+        4556,
+        3431
+      ],
+      [
+        4554,
+        3414
+      ],
+      [
+        4538,
+        3397
+      ],
+      [
+        4549,
+        3394
+      ],
+      [
+        4574,
+        3358
+      ],
+      [
+        4589,
+        3363
+      ],
+      [
+        4593,
+        3355
+      ],
+      [
+        4585,
+        3349
+      ],
+      [
+        4597,
+        3349
+      ],
+      [
+        4616,
+        3326
+      ],
+      [
+        4617,
+        3317
+      ],
+      [
+        4603,
+        3311
+      ],
+      [
+        4612,
+        3306
+      ],
+      [
+        4610,
+        3295
+      ],
+      [
+        4648,
+        3289
+      ],
+      [
+        4709,
+        3248
+      ],
+      [
+        4726,
+        3248
+      ],
+      [
+        4741,
+        3240
+      ],
+      [
+        4749,
+        3215
+      ],
+      [
+        4783,
+        3181
+      ],
+      [
+        4768,
+        3141
+      ],
+      [
+        4767,
+        3100
+      ],
+      [
+        4801,
+        3099
+      ],
+      [
+        4801,
+        3046
+      ],
+      [
+        4831,
+        3031
+      ],
+      [
+        4845,
+        3000
+      ],
+      [
+        4856,
+        2995
+      ],
+      [
+        4812,
+        3004
+      ],
+      [
+        4797,
+        3000
+      ],
+      [
+        4794,
+        3011
+      ],
+      [
+        4795,
+        2999
+      ],
+      [
+        4767,
+        3010
+      ],
+      [
+        4720,
+        3003
+      ],
+      [
+        4684,
+        2942
+      ],
+      [
+        4653,
+        2910
+      ],
+      [
+        4469,
+        2920
+      ],
+      [
+        4208,
+        3108
+      ],
+      [
+        4042,
+        3192
+      ],
+      [
+        3915,
+        3212
+      ],
+      [
+        3929,
+        3224
+      ],
+      [
+        3924,
+        3235
+      ],
+      [
+        3903,
+        3233
+      ],
+      [
+        3898,
+        3248
+      ],
+      [
+        3906,
+        3250
+      ],
+      [
+        3878,
+        3337
+      ],
+      [
+        4069,
+        3433
+      ],
+      [
+        4096,
+        3440
+      ],
+      [
+        4120,
+        3479
+      ],
+      [
+        4120,
+        3524
+      ],
+      [
+        4136,
+        3566
+      ],
+      [
+        4124,
+        3606
+      ],
+      [
+        4128,
+        3635
+      ],
+      [
+        4138,
+        3652
+      ],
+      [
+        4184,
+        3662
+      ],
+      [
+        4236,
+        3711
+      ],
+      [
+        4256,
+        3715
+      ],
+      [
+        4272,
+        3736
+      ],
+      [
+        4312,
+        3737
+      ],
+      [
+        4381,
+        3720
+      ],
+      [
+        4409,
+        3731
+      ],
+      [
+        4424,
+        3724
+      ],
+      [
+        4418,
+        3709
+      ],
+      [
+        4428,
+        3697
+      ],
+      [
+        4461,
+        3718
+      ],
+      [
+        4477,
+        3714
+      ]
+    ]
+  ]
+}

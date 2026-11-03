@@ -1,1 +1,442 @@
-{"qid":"Q822","iso_a2":"LB","iso_a3":"LBN","name_zh":"黎巴嫩","name_en":"Lebanon","capital":"贝鲁特","continent":"亚洲","centroid":[35.7667,33.8333],"centroid_source":"wikidata P625","languages":[{"code":"ar","name_zh":"阿拉伯语","name_local":"阿拉伯语","role":"official","audio_url":"assets/lb/audio/ar.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"أهلاً بكم في لبنان، بلد الجبال والبحر والتاريخ العريق؛ عاصمته بيروت، ومن أبرز معالمه صخرة الروشة الشامخة في وجه الأمواج.","tts_text_zh":"欢迎来到黎巴嫩，这片山、海与悠久历史交织的土地；它的首都是贝鲁特，最著名的地标之一是屹立于海浪之前的鸽子岩。","audio_voice":"ar-DZ-AminaNeural","audio_bytes":73008},{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/lb/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue au Liban, terre de montagnes, de mer et d'histoire ancienne ; sa capitale est Beyrouth, et l'un de ses sites les plus emblématiques est le rocher de la Pigeon, dressé face aux vagues.","tts_text_zh":"欢迎来到黎巴嫩，这片山、海与悠久历史交织的土地；它的首都是贝鲁特，最具代表性的景观之一是迎浪而立的鸽子岩。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":64944}],"summary_text":"黎巴嫩共和国通称黎巴嫩，位于亚洲西南部（西亚）、地中海东岸，习惯上归属于中东国家。其东北部与叙利亚接壤，南部与以色列为邻，西濒地中海。黎巴嫩境内有人类最早一批城市与世界遗产，最古老者有5,000多年的历史，在旅游业中相当著名。黎巴嫩在1943年独立后建立了一个独特的认信主义政府形式，与各大宗教派别分配特定的政治权力。黎巴嫩最初享有政治和经济稳定，但各种政治和教派派别之间的平衡被血腥的黎巴嫩内战（1975年－1990年）打破，战争部分导致叙利亚（1975年－2005年）和以色列（1985年－2000年）的军事占领。黎巴嫩仍然是一个国际化的发展中国家。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":277,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E9%BB%8E%E5%B7%B4%E5%AB%A9","title":"黎巴嫩"},"culture_excerpts":[{"section":"历史","text":"第一次世界大战后，成为法国委任统治地，即法属叙利亚托管地。二战时的1941年6月，英军在自由法国部队协助下，占领了纳粹德国傀儡政权维希法国控制下的黎巴嫩。同年11月，自由法国部队宣布结束对黎的委任统治。1943年11月22日，黎巴嫩摆脱法国托管宣布独立，成立黎巴嫩共和国。1946年12月英、法军全数撤离黎巴嫩。1975年4月，黎巴嫩基督教和伊斯兰教两方爆发内战。叙利亚自1976年10月起，在黎巴嫩驻军，并扶植国内的真主党游击队；而以色列亦控制过南黎巴嫩一段时期作报复。1989年10月，伊、基两派议员达成“塔伊夫协议”，重新分配政治权力。1990年，黎内战结束。2005年4月26日，叙利亚遵照联合国决议，自黎巴嫩撤军，结束29年的直接干预。2006年7月12日，以色列与黎真主党爆发冲突；8月14日，以色列与黎真主党接受联合国安理会通过的第1701号决议，双方实现停火。2009年6月7日，黎巴嫩举行第十四届议会选举，萨阿德·哈里里被任命为总理并于11月9日组成新一届内阁。在内战期间，巴勒斯坦解放组织利用黎巴嫩对以色列发动袭击。以色列国防军分别于1978年和1982年两度入侵并占领黎巴嫩，第二次入侵时，巴勒斯坦解放组织遭到驱逐。2000年之前以色列一直控制着黎巴嫩南部。由于真主党不断发动袭击，而且舆论认为如果以军撤出黎巴嫩，暴力事件将减少并消解，以色列总理埃胡德·巴拉克决定撤军。联合国认为以色列部队撤出蓝色分界线符合联合国安理会第425号决议，但边境地区舍巴农场的所属权仍有争议。真主党宣称它不会停止军事行动直到这一地区获得解放。2006年7月12日，为了转移以军的注意力，真主党向以色列边境城镇发射火箭弹，然后对在以色列边境巡逻的两辆悍马装甲车发射反坦克导弹。两辆悍马中共有7名以色列士兵，2人受伤，3人死亡，另外2人被绑架到黎巴嫩。在以军以失败告终的一次营救行动中，另有5名士兵死亡。在黎巴嫩，空袭造成其民用基础设施严重受损（包括贝鲁特机场），此后，以军地面部队又进入真主党控制的地区。在至少962次袭击中，以军在黎巴嫩南部投放460万枚集束炸弹，其中大部分是在战争结束前的最后3天中投放的，当时以军知道和解即将达成。在以色列，真主党向以色列北部发射3,970枚火箭弹，大部分都是向城区发射的。长达一个月的冲突给以色列和黎巴嫩都造成巨大的人员伤亡，以色列有近160人丧生，黎巴嫩有1,000多人丧生。8月14日，联合国安理会发布1701号决议，要求真主党和以色列停火，冲突正式结束。被绑架的戈德瓦瑟(Goldwasser)和雷格夫(Regev)被关押2年，期间没有任何关于他们的消息。直到2008年7月16日，真主党归还他们的遗体以换取活着的真主党战俘。巴里德河（阿拉伯语：نهر البارد，意为寒冷的河流）是黎巴嫩北部的一个巴勒斯坦难民营，距的黎波里约16公里。大约3万名流离失所的巴勒斯坦人及其后代住在营地及周边地区。巴里德河流过营地南部，营地因此得名。1949年12月红十字会联盟建立这个营地，收留贝卡谷地和的黎波里郊区饱受严冬之苦的巴勒斯坦难民。根据1969年《开罗协议》，黎巴嫩军队不得进入任何巴勒斯坦营地。2007年5月19日，周六深夜，黎巴嫩安全部队包围一座建筑物，据称被控当天早些时候劫持银行的法塔赫武装分子藏身其中。2007年5月20日周日上午，黎巴嫩安全部队对该建筑物发起进攻，双方开始长达一天的交火。出于报复，法塔赫伊斯兰组织成员袭击巴里德河营地的一个军队检查站，杀死数名熟睡中的士兵。黎巴嫩部队则立即对营地轰炸。2007年11月24日，埃米尔·拉胡德的总统任期结束，反对派表示如果不能达成分权协议，就拒绝为继任者投票，这使得黎巴嫩在一段时间内没有总统。由于政府宣布真主党的通信网络为非法，2008年5月9日，真主党和阿迈勒运动部队占领贝鲁特西部，发动自黎巴嫩内战结束以来最糟糕的内乱。据《每日之星》报道，这次暴力事件险些使黎巴嫩再次卷入内战，而黎巴嫩政府则称之为一场有预谋的政变。至少62人在冲突中死亡。2023年10月发生的以哈战争挑起新一轮的以色列—真主党冲突。真主党表示不会停止攻击以色列，除非以色列停止攻击加沙地带。2024年9月，以色列情报机构摩萨德发动传呼机爆炸案，造成大量真主党成员伤亡。同月23日，真主党向以色列发动空袭（英语：September 2024 Lebanon strikes），至少炸死558人，大量民众逃亡。同月27日，以色列对真主党总部发动空袭，精准斩首真主党总书记哈桑·纳斯鲁拉。2024年10月，以色列大举入侵黎巴嫩南部，摧毁属于真主党的基础设施。2024年11月，以色列与真主党签订停战协定，结束双方长达13个月的冲突。2025年1月，黎巴嫩武装部队总司令约瑟夫·奥恩当选新一任黎巴嫩总统，结束总统职位长达两年的空置。2025年2月，前国际法院法官纳瓦夫·萨拉姆组建由24名部长组成的正式内阁。","chars":2040},{"section":"文化","text":"黎巴嫩人的主要食品是各种新鲜的蔬菜、烹饪过的豆类和鸡肉、牛肉、羊肉做成的菜肴。传统家宴和餐厅里供应的菜肴非常相似。周日的午餐是黎巴嫩家人聚会吃传统黎巴嫩料理的时候。\n黎巴嫩菜主要分为前菜梅泽、热菜小吃、生肉、烤肉或者烤鱼、主食、水果或者饭后甜点几个部分。一种用法国香菜做成的塔布勒沙拉是黎餐中沙拉的代表作，由于使用新鲜营养的食材而世界知名。各种酱类食品也是梅泽的主角，比如鹰嘴豆泥、茄子泥酱、酸奶酪酱等。热菜小吃包括柠檬鸡翅、石榴汁鸡肝、生煎小鸟、油炸奶酪卷、基贝等。生肉拼盘里面有生的牛羊肉里脊、生羊肝和生肉糜混合调味料。烤肉是最精彩的部分，有烤牛羊肉串、烤鸡肉串和烤熟的混合了调味料和法国香菜的肉馅。主食主要是皮塔饼面包，有时候会有鸡汤焖出来的米饭混合上各种干果。\n在黎巴嫩的首都贝鲁特，餐厅林立，提供除了黎餐之外的各种国际美食，法国菜、意大利菜、日本料理、印度料理、中餐等。","chars":1200},{"section":"饮食","text":"黎巴嫩人的主要食品是各种新鲜的蔬菜、烹饪过的豆类和鸡肉、牛肉、羊肉做成的菜肴。传统家宴和餐厅里供应的菜肴非常相似。周日的午餐是黎巴嫩家人聚会吃传统黎巴嫩料理的时候。\n黎巴嫩菜主要分为前菜梅泽、热菜小吃、生肉、烤肉或者烤鱼、主食、水果或者饭后甜点几个部分。一种用法国香菜做成的塔布勒沙拉是黎餐中沙拉的代表作，由于使用新鲜营养的食材而世界知名。各种酱类食品也是梅泽的主角，比如鹰嘴豆泥、茄子泥酱、酸奶酪酱等。热菜小吃包括柠檬鸡翅、石榴汁鸡肝、生煎小鸟、油炸奶酪卷、基贝等。生肉拼盘里面有生的牛羊肉里脊、生羊肝和生肉糜混合调味料。烤肉是最精彩的部分，有烤牛羊肉串、烤鸡肉串和烤熟的混合了调味料和法国香菜的肉馅。主食主要是皮塔饼面包，有时候会有鸡汤焖出来的米饭混合上各种干果。\n在黎巴嫩的首都贝鲁特，餐厅林立，提供除了黎餐之外的各种国际美食，法国菜、意大利菜、日本料理、印度料理、中餐等。","chars":960}],"landmark_images":[{"title":"File:Hotel Palmyra (Baalbek) - room.jpg","caption_zh":"巴勒贝克神庙旁的帕尔米拉酒店客房","caption":"巴勒贝克神庙旁的帕尔米拉酒店客房","caption_commons":"Hotel Palmyra (Baalbek) - room","kw":"Baalbek Temple of Bacchus","url":"assets/lb/L01.webp","thumb_url":"assets/lb/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/1/12/Hotel_Palmyra_%28Baalbek%29_-_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Clemens Schmillen","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":36754,"caption_zh_manual":"巴勒贝克神庙","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13420,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1024x683 156KB JPEG)"},{"title":"File:Upper_Jeita_Grotto.jpg","caption_zh":"杰塔石窟上层区域","caption":"杰塔石窟上层区域","caption_commons":"SANYO DIGITAL CAMERA","kw":"Jeita Grotto Lebanon","url":"assets/lb/L02.webp","thumb_url":"assets/lb/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/0/09/Upper_Jeita_Grotto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikipedia_lead","pick_tier":"strict","author":"kcakduman","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":53298,"caption_zh_manual":"杰塔石窟","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18398,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 800x600 174KB JPEG)"},{"title":"File:ByblosSite1.jpg","caption_zh":"比布鲁斯古城遗址","caption":"比布鲁斯古城遗址","caption_commons":"Byblos archaeological site: The spring Ain el-Malik","kw":"Byblos ancient harbor","url":"assets/lb/L03.webp","thumb_url":"assets/lb/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/3/32/ByblosSite1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Clemens Schmillen","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":96948,"caption_zh_manual":"比布鲁斯古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":30466,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1024x683 535KB JPEG)"},{"title":"File:TyreHippodrome2.jpg","caption_zh":"提尔罗马遗址竞技场","caption":"提尔罗马遗址竞技场","caption_commons":"Hippodrome of Tyre: The start boxes","kw":"Tyre Roman hippodrome","url":"assets/lb/L04.webp","thumb_url":"assets/lb/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/0/0a/TyreHippodrome2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Clemens Schmillen","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":58364,"caption_zh_manual":"提尔罗马遗址","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17726,"size":{"detail":"760x583","thumb":"391x300"},"encoding":"webp q72/q74 (源 1002x768 512KB JPEG)"},{"title":"File:Corniche beirut 5.jpg","caption_zh":"贝鲁特滨海大道","caption":"贝鲁特滨海大道","caption_commons":"Corniche","kw":"Beirut Corniche seaside","url":"assets/lb/L05.webp","thumb_url":"assets/lb/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Corniche_beirut_5.jpg/1920px-Corniche_beirut_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Varun Shiv Kapur from Berkeley, United States","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":67758,"caption_zh_manual":"贝鲁特滨海大道","caption_zh_source":"llm_from_commons_filename","thumb_bytes":23162,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 618KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:34:42+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Libanon.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Liban.wav、LL-Q652 (ita)-Francyskus-Libano.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py LB","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 277 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[warn] languages：黎巴嫩官方语言通常仅阿拉伯语，法语非官方 → 将法语 role 改为 widely spoken 或删除"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"认信主义政府","evidence":"独特的认信主义政府的形式"},{"v":"各大宗教派别分配政治权力","evidence":"与各大宗教派别分配特定的政治权力"}],"architecture":[],"heritage":[{"v":"世界遗产","evidence":"境内有人类最早一批城市与世界遗产"}],"keywords":[{"v":"地中海东岸","evidence":"地中海东岸"},{"v":"世界遗产","evidence":"世界遗产"},{"v":"人类最早一批城市","evidence":"人类最早一批城市"},{"v":"黎巴嫩阿拉伯语","evidence":"黎巴嫩阿拉伯语发音"}],"model":"deepseek-flash"},"summary_text_raw":"黎巴嫩共和国（阿拉伯语：الجمهورية اللبنانية，罗马化：al-Jumhūriyya al-Lubnāniyya；法语：La République Libanaise），通称黎巴嫩（阿拉伯语：لُبْنَان，罗马化：Lubnān，黎巴嫩阿拉伯语发音：[lɪbˈneːn]；法语：Liban），位于亚洲西南部（西亚）、地中海东岸，习惯上归属于中东国家。东北部与叙利亚接壤，南部与以色列为邻，西濒地中海。境内有人类最早一批城市与世界遗产，最古老者有5,000多年的历史，在旅游业中相当著名。\n在1943年独立后，黎巴嫩建立了一个独特的认信主义政府的形式，与各大宗教派别分配特定的政治权力。黎巴嫩最初享有政治和经济稳定，但各种政治和教派派别之间的平衡被血腥的黎巴嫩内战（1975年－1990年）打破。战争部分导致叙利亚（1975年－2005年）和以色列（1985年－2000年）的军事占领。黎巴嫩仍然是一个国际化的发展中国家。","history_text":"第一次世界大战后沦为法国委任统治地，二战中英军与自由法国部队进驻，1943年宣布独立、成立共和国。1975年基督教与伊斯兰教两方爆发内战，叙利亚与以色列先后介入，直至1990年内战结束。此后叙利亚长期驻军干预，至2005年撤出。","custom_text":"周日午餐是家人聚在一起吃传统料理的时刻，菜肴从家宴到餐厅做法相近。前菜梅泽以鹰嘴豆泥、茄子泥酱等酱类打头，塔布勒沙拉用法国香菜拌成，是黎餐沙拉的招牌。烤肉最见功夫，牛羊肉串、鸡肉串与拌了香菜的肉馅同列，主食多为皮塔饼面包。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":114,"folk":111}},"knowledge_qa":[{"q":"黎巴嫩在哪儿啊？周围挨着哪些国家？","a":"位于亚洲西南部、地中海东岸，习惯上归中东。东北接叙利亚，南邻以色列，西边就是地中海。","tags":["黎巴嫩位置","中东","地中海","邻国"]},{"q":"黎巴嫩首都是哪个城市？","a":"首都就是贝鲁特。","tags":["贝鲁特","首都"]},{"q":"黎巴嫩人平时说什么语言？","a":"官方语言是阿拉伯语和法语，当地还讲黎巴嫩阿拉伯语。","tags":["语言","阿拉伯语","法语","方言"]},{"q":"黎巴嫩有什么值得看的世界遗产或景点？","a":"有巴勒贝克神庙、杰塔石窟、比布鲁斯古城、提尔罗马遗址，还有贝鲁特滨海大道。","tags":["景点","世界遗产","神庙","滨海大道"]},{"q":"黎巴嫩最古老的城市有多久历史？","a":"境内有人类最早一批城市与世界遗产，最古老者有5,000多年历史，在旅游业中相当著名。","tags":["古城","历史","旅游"]},{"q":"黎巴嫩独立后政治制度有什么特别？","a":"1943年独立后建立了独特的认信主义政府形式，与各大宗教派别分配特定的政治权力。","tags":["政治","教派","独立"]},{"q":"黎巴嫩内战是什么时候的事？","a":"血腥的黎巴嫩内战从1975年打到1990年，打破了各政治和教派派别之间的平衡。","tags":["内战","历史","1975"]},{"q":"黎巴嫩现在还是发展中国家吗？","a":"是的，黎巴嫩仍然是一个国际化的发展中国家。","tags":["发展中国家","现状"]}],"llm_audit":{"issues":[{"field":"languages","severity":"warn","why":"黎巴嫩官方语言通常仅阿拉伯语，法语非官方","suggest":"将法语 role 改为 widely spoken 或删除"}],"overall":"warn"},"audio_meta":{},"outline":[[[3510,3309],[3547,3390],[3564,3400],[3566,3431],[3598,3454],[3597,3465],[3626,3463],[3631,3469],[3644,3463],[3632,3451],[3652,3442],[3660,3420],[3629,3395],[3637,3384],[3605,3382],[3592,3364],[3603,3357],[3560,3324],[3555,3328],[3548,3309],[3510,3309]]]}
+{
+  "qid": "Q822",
+  "iso_a2": "LB",
+  "iso_a3": "LBN",
+  "name_zh": "黎巴嫩",
+  "name_en": "Lebanon",
+  "capital": "贝鲁特",
+  "continent": "亚洲",
+  "centroid": [
+    35.7667,
+    33.8333
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ar",
+      "name_zh": "阿拉伯语",
+      "name_local": "阿拉伯语",
+      "role": "official",
+      "audio_url": "assets/lb/audio/ar.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "أهلاً بكم في لبنان، بلد الجبال والبحر والتاريخ العريق؛ عاصمته بيروت، ومن أبرز معالمه صخرة الروشة الشامخة في وجه الأمواج.",
+      "tts_text_zh": "欢迎来到黎巴嫩，这片山、海与悠久历史交织的土地；它的首都是贝鲁特，最著名的地标之一是屹立于海浪之前的鸽子岩。",
+      "audio_voice": "ar-DZ-AminaNeural",
+      "audio_bytes": 73008
+    },
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/lb/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue au Liban, terre de montagnes, de mer et d'histoire ancienne ; sa capitale est Beyrouth, et l'un de ses sites les plus emblématiques est le rocher de la Pigeon, dressé face aux vagues.",
+      "tts_text_zh": "欢迎来到黎巴嫩，这片山、海与悠久历史交织的土地；它的首都是贝鲁特，最具代表性的景观之一是迎浪而立的鸽子岩。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 64944
+    }
+  ],
+  "summary_text": "黎巴嫩共和国通称黎巴嫩，位于亚洲西南部（西亚）、地中海东岸，习惯上归属于中东国家。其东北部与叙利亚接壤，南部与以色列为邻，西濒地中海。黎巴嫩境内有人类最早一批城市与世界遗产，最古老者有5,000多年的历史，在旅游业中相当著名。黎巴嫩在1943年独立后建立了一个独特的认信主义政府形式，与各大宗教派别分配特定的政治权力。黎巴嫩最初享有政治和经济稳定，但各种政治和教派派别之间的平衡被血腥的黎巴嫩内战（1975年－1990年）打破，战争部分导致叙利亚（1975年－2005年）和以色列（1985年－2000年）的军事占领。黎巴嫩仍然是一个国际化的发展中国家。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 277,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E9%BB%8E%E5%B7%B4%E5%AB%A9",
+    "title": "黎巴嫩"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "第一次世界大战后，成为法国委任统治地，即法属叙利亚托管地。二战时的1941年6月，英军在自由法国部队协助下，占领了纳粹德国傀儡政权维希法国控制下的黎巴嫩。同年11月，自由法国部队宣布结束对黎的委任统治。1943年11月22日，黎巴嫩摆脱法国托管宣布独立，成立黎巴嫩共和国。1946年12月英、法军全数撤离黎巴嫩。1975年4月，黎巴嫩基督教和伊斯兰教两方爆发内战。叙利亚自1976年10月起，在黎巴嫩驻军，并扶植国内的真主党游击队；而以色列亦控制过南黎巴嫩一段时期作报复。1989年10月，伊、基两派议员达成“塔伊夫协议”，重新分配政治权力。1990年，黎内战结束。2005年4月26日，叙利亚遵照联合国决议，自黎巴嫩撤军，结束29年的直接干预。2006年7月12日，以色列与黎真主党爆发冲突；8月14日，以色列与黎真主党接受联合国安理会通过的第1701号决议，双方实现停火。2009年6月7日，黎巴嫩举行第十四届议会选举，萨阿德·哈里里被任命为总理并于11月9日组成新一届内阁。在内战期间，巴勒斯坦解放组织利用黎巴嫩对以色列发动袭击。以色列国防军分别于1978年和1982年两度入侵并占领黎巴嫩，第二次入侵时，巴勒斯坦解放组织遭到驱逐。2000年之前以色列一直控制着黎巴嫩南部。由于真主党不断发动袭击，而且舆论认为如果以军撤出黎巴嫩，暴力事件将减少并消解，以色列总理埃胡德·巴拉克决定撤军。联合国认为以色列部队撤出蓝色分界线符合联合国安理会第425号决议，但边境地区舍巴农场的所属权仍有争议。真主党宣称它不会停止军事行动直到这一地区获得解放。2006年7月12日，为了转移以军的注意力，真主党向以色列边境城镇发射火箭弹，然后对在以色列边境巡逻的两辆悍马装甲车发射反坦克导弹。两辆悍马中共有7名以色列士兵，2人受伤，3人死亡，另外2人被绑架到黎巴嫩。在以军以失败告终的一次营救行动中，另有5名士兵死亡。在黎巴嫩，空袭造成其民用基础设施严重受损（包括贝鲁特机场），此后，以军地面部队又进入真主党控制的地区。在至少962次袭击中，以军在黎巴嫩南部投放460万枚集束炸弹，其中大部分是在战争结束前的最后3天中投放的，当时以军知道和解即将达成。在以色列，真主党向以色列北部发射3,970枚火箭弹，大部分都是向城区发射的。长达一个月的冲突给以色列和黎巴嫩都造成巨大的人员伤亡，以色列有近160人丧生，黎巴嫩有1,000多人丧生。8月14日，联合国安理会发布1701号决议，要求真主党和以色列停火，冲突正式结束。被绑架的戈德瓦瑟(Goldwasser)和雷格夫(Regev)被关押2年，期间没有任何关于他们的消息。直到2008年7月16日，真主党归还他们的遗体以换取活着的真主党战俘。巴里德河（阿拉伯语：نهر البارد，意为寒冷的河流）是黎巴嫩北部的一个巴勒斯坦难民营，距的黎波里约16公里。大约3万名流离失所的巴勒斯坦人及其后代住在营地及周边地区。巴里德河流过营地南部，营地因此得名。1949年12月红十字会联盟建立这个营地，收留贝卡谷地和的黎波里郊区饱受严冬之苦的巴勒斯坦难民。根据1969年《开罗协议》，黎巴嫩军队不得进入任何巴勒斯坦营地。2007年5月19日，周六深夜，黎巴嫩安全部队包围一座建筑物，据称被控当天早些时候劫持银行的法塔赫武装分子藏身其中。2007年5月20日周日上午，黎巴嫩安全部队对该建筑物发起进攻，双方开始长达一天的交火。出于报复，法塔赫伊斯兰组织成员袭击巴里德河营地的一个军队检查站，杀死数名熟睡中的士兵。黎巴嫩部队则立即对营地轰炸。2007年11月24日，埃米尔·拉胡德的总统任期结束，反对派表示如果不能达成分权协议，就拒绝为继任者投票，这使得黎巴嫩在一段时间内没有总统。由于政府宣布真主党的通信网络为非法，2008年5月9日，真主党和阿迈勒运动部队占领贝鲁特西部，发动自黎巴嫩内战结束以来最糟糕的内乱。据《每日之星》报道，这次暴力事件险些使黎巴嫩再次卷入内战，而黎巴嫩政府则称之为一场有预谋的政变。至少62人在冲突中死亡。2023年10月发生的以哈战争挑起新一轮的以色列—真主党冲突。真主党表示不会停止攻击以色列，除非以色列停止攻击加沙地带。2024年9月，以色列情报机构摩萨德发动传呼机爆炸案，造成大量真主党成员伤亡。同月23日，真主党向以色列发动空袭（英语：September 2024 Lebanon strikes），至少炸死558人，大量民众逃亡。同月27日，以色列对真主党总部发动空袭，精准斩首真主党总书记哈桑·纳斯鲁拉。2024年10月，以色列大举入侵黎巴嫩南部，摧毁属于真主党的基础设施。2024年11月，以色列与真主党签订停战协定，结束双方长达13个月的冲突。2025年1月，黎巴嫩武装部队总司令约瑟夫·奥恩当选新一任黎巴嫩总统，结束总统职位长达两年的空置。2025年2月，前国际法院法官纳瓦夫·萨拉姆组建由24名部长组成的正式内阁。",
+      "chars": 2040
+    },
+    {
+      "section": "文化",
+      "text": "黎巴嫩人的主要食品是各种新鲜的蔬菜、烹饪过的豆类和鸡肉、牛肉、羊肉做成的菜肴。传统家宴和餐厅里供应的菜肴非常相似。周日的午餐是黎巴嫩家人聚会吃传统黎巴嫩料理的时候。\n黎巴嫩菜主要分为前菜梅泽、热菜小吃、生肉、烤肉或者烤鱼、主食、水果或者饭后甜点几个部分。一种用法国香菜做成的塔布勒沙拉是黎餐中沙拉的代表作，由于使用新鲜营养的食材而世界知名。各种酱类食品也是梅泽的主角，比如鹰嘴豆泥、茄子泥酱、酸奶酪酱等。热菜小吃包括柠檬鸡翅、石榴汁鸡肝、生煎小鸟、油炸奶酪卷、基贝等。生肉拼盘里面有生的牛羊肉里脊、生羊肝和生肉糜混合调味料。烤肉是最精彩的部分，有烤牛羊肉串、烤鸡肉串和烤熟的混合了调味料和法国香菜的肉馅。主食主要是皮塔饼面包，有时候会有鸡汤焖出来的米饭混合上各种干果。\n在黎巴嫩的首都贝鲁特，餐厅林立，提供除了黎餐之外的各种国际美食，法国菜、意大利菜、日本料理、印度料理、中餐等。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "黎巴嫩人的主要食品是各种新鲜的蔬菜、烹饪过的豆类和鸡肉、牛肉、羊肉做成的菜肴。传统家宴和餐厅里供应的菜肴非常相似。周日的午餐是黎巴嫩家人聚会吃传统黎巴嫩料理的时候。\n黎巴嫩菜主要分为前菜梅泽、热菜小吃、生肉、烤肉或者烤鱼、主食、水果或者饭后甜点几个部分。一种用法国香菜做成的塔布勒沙拉是黎餐中沙拉的代表作，由于使用新鲜营养的食材而世界知名。各种酱类食品也是梅泽的主角，比如鹰嘴豆泥、茄子泥酱、酸奶酪酱等。热菜小吃包括柠檬鸡翅、石榴汁鸡肝、生煎小鸟、油炸奶酪卷、基贝等。生肉拼盘里面有生的牛羊肉里脊、生羊肝和生肉糜混合调味料。烤肉是最精彩的部分，有烤牛羊肉串、烤鸡肉串和烤熟的混合了调味料和法国香菜的肉馅。主食主要是皮塔饼面包，有时候会有鸡汤焖出来的米饭混合上各种干果。\n在黎巴嫩的首都贝鲁特，餐厅林立，提供除了黎餐之外的各种国际美食，法国菜、意大利菜、日本料理、印度料理、中餐等。",
+      "chars": 960
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Hotel Palmyra (Baalbek) - room.jpg",
+      "caption_zh": "巴勒贝克神庙旁的帕尔米拉酒店客房",
+      "caption": "巴勒贝克神庙旁的帕尔米拉酒店客房",
+      "caption_commons": "Hotel Palmyra (Baalbek) - room",
+      "kw": "Baalbek Temple of Bacchus",
+      "url": "assets/lb/L01.webp",
+      "thumb_url": "assets/lb/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Hotel_Palmyra_%28Baalbek%29_-_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Clemens Schmillen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 61824,
+      "caption_zh_manual": "巴勒贝克神庙",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6514,
+      "size": {
+        "detail": "1024x683",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1024x683 156KB JPEG)"
+    },
+    {
+      "title": "File:Upper_Jeita_Grotto.jpg",
+      "caption_zh": "杰塔石窟上层区域",
+      "caption": "杰塔石窟上层区域",
+      "caption_commons": "SANYO DIGITAL CAMERA",
+      "kw": "Jeita Grotto Lebanon",
+      "url": "assets/lb/L02.webp",
+      "thumb_url": "assets/lb/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Upper_Jeita_Grotto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikipedia_lead",
+      "pick_tier": "strict",
+      "author": "kcakduman",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 63808,
+      "caption_zh_manual": "杰塔石窟",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8424,
+      "size": {
+        "detail": "800x600",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 800x600 174KB JPEG)"
+    },
+    {
+      "title": "File:ByblosSite1.jpg",
+      "caption_zh": "比布鲁斯古城遗址",
+      "caption": "比布鲁斯古城遗址",
+      "caption_commons": "Byblos archaeological site: The spring Ain el-Malik",
+      "kw": "Byblos ancient harbor",
+      "url": "assets/lb/L03.webp",
+      "thumb_url": "assets/lb/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/ByblosSite1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Clemens Schmillen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 161654,
+      "caption_zh_manual": "比布鲁斯古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 12024,
+      "size": {
+        "detail": "1024x683",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1024x683 535KB JPEG)"
+    },
+    {
+      "title": "File:TyreHippodrome2.jpg",
+      "caption_zh": "提尔罗马遗址竞技场",
+      "caption": "提尔罗马遗址竞技场",
+      "caption_commons": "Hippodrome of Tyre: The start boxes",
+      "kw": "Tyre Roman hippodrome",
+      "url": "assets/lb/L04.webp",
+      "thumb_url": "assets/lb/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/TyreHippodrome2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Clemens Schmillen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 99314,
+      "caption_zh_manual": "提尔罗马遗址",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7988,
+      "size": {
+        "detail": "1002x768",
+        "thumb": "235x180"
+      },
+      "encoding": "webp q75/q78 (源 1002x768 512KB JPEG)"
+    },
+    {
+      "title": "File:Corniche beirut 5.jpg",
+      "caption_zh": "贝鲁特滨海大道",
+      "caption": "贝鲁特滨海大道",
+      "caption_commons": "Corniche",
+      "kw": "Beirut Corniche seaside",
+      "url": "assets/lb/L05.webp",
+      "thumb_url": "assets/lb/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Corniche_beirut_5.jpg/1920px-Corniche_beirut_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Varun Shiv Kapur from Berkeley, United States",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 122168,
+      "caption_zh_manual": "贝鲁特滨海大道",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10788,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 618KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:34:42+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Libanon.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Liban.wav、LL-Q652 (ita)-Francyskus-Libano.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py LB",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 277 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[warn] languages：黎巴嫩官方语言通常仅阿拉伯语，法语非官方 → 将法语 role 改为 widely spoken 或删除"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "认信主义政府",
+        "evidence": "独特的认信主义政府的形式"
+      },
+      {
+        "v": "各大宗教派别分配政治权力",
+        "evidence": "与各大宗教派别分配特定的政治权力"
+      }
+    ],
+    "architecture": [],
+    "heritage": [
+      {
+        "v": "世界遗产",
+        "evidence": "境内有人类最早一批城市与世界遗产"
+      }
+    ],
+    "keywords": [
+      {
+        "v": "地中海东岸",
+        "evidence": "地中海东岸"
+      },
+      {
+        "v": "世界遗产",
+        "evidence": "世界遗产"
+      },
+      {
+        "v": "人类最早一批城市",
+        "evidence": "人类最早一批城市"
+      },
+      {
+        "v": "黎巴嫩阿拉伯语",
+        "evidence": "黎巴嫩阿拉伯语发音"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "黎巴嫩共和国（阿拉伯语：الجمهورية اللبنانية，罗马化：al-Jumhūriyya al-Lubnāniyya；法语：La République Libanaise），通称黎巴嫩（阿拉伯语：لُبْنَان，罗马化：Lubnān，黎巴嫩阿拉伯语发音：[lɪbˈneːn]；法语：Liban），位于亚洲西南部（西亚）、地中海东岸，习惯上归属于中东国家。东北部与叙利亚接壤，南部与以色列为邻，西濒地中海。境内有人类最早一批城市与世界遗产，最古老者有5,000多年的历史，在旅游业中相当著名。\n在1943年独立后，黎巴嫩建立了一个独特的认信主义政府的形式，与各大宗教派别分配特定的政治权力。黎巴嫩最初享有政治和经济稳定，但各种政治和教派派别之间的平衡被血腥的黎巴嫩内战（1975年－1990年）打破。战争部分导致叙利亚（1975年－2005年）和以色列（1985年－2000年）的军事占领。黎巴嫩仍然是一个国际化的发展中国家。",
+  "history_text": "第一次世界大战后沦为法国委任统治地，二战中英军与自由法国部队进驻，1943年宣布独立、成立共和国。1975年基督教与伊斯兰教两方爆发内战，叙利亚与以色列先后介入，直至1990年内战结束。此后叙利亚长期驻军干预，至2005年撤出。",
+  "custom_text": "周日午餐是家人聚在一起吃传统料理的时刻，菜肴从家宴到餐厅做法相近。前菜梅泽以鹰嘴豆泥、茄子泥酱等酱类打头，塔布勒沙拉用法国香菜拌成，是黎餐沙拉的招牌。烤肉最见功夫，牛羊肉串、鸡肉串与拌了香菜的肉馅同列，主食多为皮塔饼面包。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 114,
+      "folk": 111
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "黎巴嫩在哪儿啊？周围挨着哪些国家？",
+      "a": "位于亚洲西南部、地中海东岸，习惯上归中东。东北接叙利亚，南邻以色列，西边就是地中海。",
+      "tags": [
+        "黎巴嫩位置",
+        "中东",
+        "地中海",
+        "邻国"
+      ]
+    },
+    {
+      "q": "黎巴嫩首都是哪个城市？",
+      "a": "首都就是贝鲁特。",
+      "tags": [
+        "贝鲁特",
+        "首都"
+      ]
+    },
+    {
+      "q": "黎巴嫩人平时说什么语言？",
+      "a": "官方语言是阿拉伯语和法语，当地还讲黎巴嫩阿拉伯语。",
+      "tags": [
+        "语言",
+        "阿拉伯语",
+        "法语",
+        "方言"
+      ]
+    },
+    {
+      "q": "黎巴嫩有什么值得看的世界遗产或景点？",
+      "a": "有巴勒贝克神庙、杰塔石窟、比布鲁斯古城、提尔罗马遗址，还有贝鲁特滨海大道。",
+      "tags": [
+        "景点",
+        "世界遗产",
+        "神庙",
+        "滨海大道"
+      ]
+    },
+    {
+      "q": "黎巴嫩最古老的城市有多久历史？",
+      "a": "境内有人类最早一批城市与世界遗产，最古老者有5,000多年历史，在旅游业中相当著名。",
+      "tags": [
+        "古城",
+        "历史",
+        "旅游"
+      ]
+    },
+    {
+      "q": "黎巴嫩独立后政治制度有什么特别？",
+      "a": "1943年独立后建立了独特的认信主义政府形式，与各大宗教派别分配特定的政治权力。",
+      "tags": [
+        "政治",
+        "教派",
+        "独立"
+      ]
+    },
+    {
+      "q": "黎巴嫩内战是什么时候的事？",
+      "a": "血腥的黎巴嫩内战从1975年打到1990年，打破了各政治和教派派别之间的平衡。",
+      "tags": [
+        "内战",
+        "历史",
+        "1975"
+      ]
+    },
+    {
+      "q": "黎巴嫩现在还是发展中国家吗？",
+      "a": "是的，黎巴嫩仍然是一个国际化的发展中国家。",
+      "tags": [
+        "发展中国家",
+        "现状"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "languages",
+        "severity": "warn",
+        "why": "黎巴嫩官方语言通常仅阿拉伯语，法语非官方",
+        "suggest": "将法语 role 改为 widely spoken 或删除"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        3510,
+        3309
+      ],
+      [
+        3547,
+        3390
+      ],
+      [
+        3564,
+        3400
+      ],
+      [
+        3566,
+        3431
+      ],
+      [
+        3598,
+        3454
+      ],
+      [
+        3597,
+        3465
+      ],
+      [
+        3626,
+        3463
+      ],
+      [
+        3631,
+        3469
+      ],
+      [
+        3644,
+        3463
+      ],
+      [
+        3632,
+        3451
+      ],
+      [
+        3652,
+        3442
+      ],
+      [
+        3660,
+        3420
+      ],
+      [
+        3629,
+        3395
+      ],
+      [
+        3637,
+        3384
+      ],
+      [
+        3605,
+        3382
+      ],
+      [
+        3592,
+        3364
+      ],
+      [
+        3603,
+        3357
+      ],
+      [
+        3560,
+        3324
+      ],
+      [
+        3555,
+        3328
+      ],
+      [
+        3548,
+        3309
+      ],
+      [
+        3510,
+        3309
+      ]
+    ]
+  ]
+}

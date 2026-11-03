@@ -1,1 +1,439 @@
-{"qid":"Q236","iso_a2":"ME","iso_a3":"MNE","name_zh":"黑山","name_en":"Montenegro","capital":"波德戈里察","continent":"欧洲","centroid":[19.2167,42.7667],"centroid_source":"wikidata P625","languages":[{"code":"cnr","name_zh":"黑山语","name_local":"黑山语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"sr","name_zh":"塞尔维亚语","name_local":"塞尔维亚语","role":"official","audio_url":"assets/me/audio/sr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Dobro došli u Crnu Goru, zemlju između mora i planina; njen glavni grad je Podgorica, a među najpoznatijim znamenitostima izdvaja se Boka Kotorska, zaliv koji se uvlači duboko u kopno.","tts_text_zh":"欢迎来到黑山，这片位于大海与群山之间的土地；它的首都是波德戈里察，而最著名的地标之一是科托尔湾，一个深深嵌入内陆的海湾。","audio_voice":"sr-RS-SophieNeural","audio_bytes":80064},{"code":"hr","name_zh":"克罗地亚语","name_local":"克罗地亚语","role":"official","audio_url":"assets/me/audio/hr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Dobro došli u Crnu Goru, zemlju između mora i planina; njezin glavni grad je Podgorica, a među najpoznatijim znamenitostima ističe se Boka kotorska, zaljev koji se duboko uvlači u kopno.","tts_text_zh":"欢迎来到黑山，这片位于大海与群山之间的土地；它的首都是波德戈里察，而最著名的地标之一是科托尔湾，一个深深嵌入内陆的海湾。","audio_voice":"hr-HR-GabrijelaNeural","audio_bytes":73296}],"summary_text":"黑山位于欧洲巴尔干半岛西南部、亚得里亚海东岸，是一个多山国家。其东北与塞尔维亚相邻，东接科索沃，东南连阿尔巴尼亚，西北与波斯尼亚和黑塞哥维那以及克罗地亚接壤，西南濒临亚得里亚海。黑山语称本国为Crna Gora或Црна Гора，直译为“黑色之山”。国土以山地地形为主，是一个多山国家。黑山原为1910年建立的黑山王国，二战后成为南斯拉夫社会主义联邦共和国的六个加盟共和国之一。2003年，南斯拉夫联盟共和国放弃“南斯拉夫”的国名，改称塞尔维亚和黑山。2006年5月21日，黑山举行公民投票，独立派以55.5%的得票比例险胜；同年6月3日，黑山国会正式宣布独立，同时成为联合国会员国。2017年6月5日，黑山加入北约，成为该组织第29个会员国。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":323,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E8%92%99%E7%89%B9%E5%85%A7%E5%93%A5%E7%BE%85","title":"蒙特內哥羅"},"culture_excerpts":[{"section":"历史","text":"在尼曼雅王朝治下，杜克里亚地区又出现了泽塔公国，14世纪中时泽塔脱离了内马尼亚的控制。15世纪起奥斯曼帝国征服了巴尔干半岛大部分地区，泽塔于1498年被征服，并入奥斯曼帝国的斯库台桑扎克（土耳其语：İşkodra Sancağı）。1514年泽塔地区从斯库台桑扎克分离，成为黑山桑扎克（土耳其语：Karadağ Sancağı）。但奥斯曼帝国未能征服泽塔全境，例如洛夫琴山地区保持了独立。1516年，黑山都主教区成为以策提涅为中心的政教合一国家，君主为集政教权利于一身的都主教。1852年，黑山都主教达尼洛二世放弃宗教头衔，成为黑山公国公爵达尼洛一世，黑山正式成为世俗国家。1860年，达尼洛一世被暗杀，尼古拉一世继位。1876年黑山向奥斯曼帝国宣战，并夺得大量土地。黑山于1878年柏林会议中正式被承认为独立国家。1910年，黑山大公尼古拉一世正式称王，建立黑山王国。第一次世界大战期间黑山选择加入协约国，并再次向奥斯曼帝国及中央国宣战以协助盟友塞尔维亚，奥匈帝国亦随即对其发起进攻。奥军前两次攻势失败，但在1916年1月的第三次进攻中，黑山被奥匈帝国彻底击溃完全占领。尼古拉一世逃亡至意大利、法国。1918年，以塞尔维亚为首的协约国军击退奥匈军并重新占领黑山。一战结束后，在塞尔维亚的主导之下，与斯洛文尼亚、克罗地亚联合组成了第一个由南斯拉夫族群联合的国家。同时，塞尔维亚控制下的黑山也召开会议，废除君主制并禁止国王回国，加入新成立塞尔维亚人、克罗地亚人和斯洛文尼亚人王国。1919年，反对派发起圣诞节起义，但是被塞尔维亚军镇压。1929年，国王亚历山大一世正式将王国更名为“南斯拉夫王国”，1939年二战爆发，1941年4月纳粹德国及其盟国入侵南斯拉夫，意大利王国自阿尔巴尼亚入侵黑山，4月17日意大利军队占领黑山全境并成立傀儡政权，黑山重新获得独立国体并成为意大利的保护国。1943年德军取代意大利的占领，1945年第二次世界大战结束，德军撤出南斯拉夫，南斯拉夫反法西斯民族解放委员会宣布民主联邦南斯拉夫，由五个民族共组联邦，再度废除黑山之独立国体。，将其合并成为南斯拉夫社会主义联邦共和国的加盟共和国之一。1990年代，随着南斯拉夫共产主义者联盟解体，南斯拉夫联邦各国纷纷独立，唯有塞尔维亚、黑山两国未独立。黑山于1992年举行独立公投，95.96%认为应继续留在南斯拉夫联邦之内。当时投票率为66%，穆斯林、天主教徒以及倾向独立的黑山人抵制了此次公投，他们认为该次公投的投票环境不够民主，国营媒体过多为亲统一（塞尔维亚）的一方宣传。之后黑山共和国内在独立议题上时有纷争。1996年，米洛·久卡诺维奇政府宣布和米洛塞维奇掌权的塞尔维亚断绝关系，从此以后黑山自行制定经济政策，改用德国马克（后来德国废除马克，采用欧元，黑山亦改为欧元）。从此塞尔维亚第纳尔在黑山不是法定货币，只能在一些度假村使用。2000年南斯拉夫大选后，执政十多年的塞尔维亚强人米洛塞维奇被迫下台，使得欧盟与南斯拉夫联盟共和国恢复外交关系，西方因此由支持黑山独立，暂时转向支持维持现有的联邦状态。但塞尔维亚和黑山间的关系并没有因为西方国家支持维持现状而改善，而1992年南斯拉夫联盟共和国的宪法中又没有提及关于联邦共和国实体独立的权利及过程，从而引发争论。后来在欧盟的调停下，双方于2002年3月14日在贝尔格莱德签署协议，决定将联邦变为由两个各自拥有经济、货币以及关税决定权的半独立（semi-independent）国家所组成，并且更名为“塞尔维亚和黑山”。另外依据此协定通过了联邦的新宪章，明定宪章通过三年后，任何一方都有权提出脱离联邦。黑山国会于2004年7月12日采用新的国旗、国庆日、以及国歌，以推进独立进程。其中国旗基于前黑山王国的国旗，国庆日纪念1878年7月13日签订的柏林条约承认黑山为独立国家，以及1941年7月13日爆发的反意大利占领的起义（英语：Uprising in Montenegro (1941)）。国歌则为黑山著名民歌。2006年5月21日举行独立公投，独派以55.5%的微弱优势决定终止与塞尔维亚的联邦关系，刚刚超过55%欧盟规定的有效结果票数。6月3日，黑山议会正式宣布独立，6月28日黑山正式加入联合国。2006年9月10日，黑山举行独立后首次议会和地方选举。9月12日，选举委员会宣布，亲欧盟的争取实现欧洲的黑山联盟获得议会81个席位中的41个议席，塞族名单联盟获得了12席，由黑山社会主义者人民党、人民党和民主塞尔维亚党组成的竞选联盟和变革运动党分别获得11席，其余6席由一些较小党派分获。11月10日，独立后首届新政府宣誓就职，总理为热利科·什图拉诺维奇。什图拉诺维奇2008年1月因健康原因辞去总理职务。久卡诺维奇至今仍担任执政的黑山社会主义者民主党主席，他在2008－2010年及2012年至2016年出任总理。","chars":2020},{"section":"人口","text":"人口约63万（2018年估计）。黑山族占44.98%、塞尔维亚族28.73%，波斯尼亚克族占8.65%，阿尔巴尼亚族占4.91%。黑山72.07％人口信奉东正教，属于塞尔维亚正教会。1993年又建立了一个黑山正教会，但信徒很少，而且并未得到其他东正教会的承认。19.11%的人口为穆斯林，其中包括阿尔巴尼亚人、波斯尼亚克人等。其中阿尔巴尼亚族主要居住在东南部，在东南部海港乌尔齐尼占多数。波斯尼亚克族主要居住在北部。另外还有聚集在沿海地区的天主教徒。","chars":1200}],"landmark_images":[{"title":"File:Bay of Kotor from Lepetani's road.jpg","caption_zh":"从莱佩塔尼公路眺望科托尔湾","caption":"从莱佩塔尼公路眺望科托尔湾","caption_commons":"The bay of Kotor viewed from Lepetani's road, in Montenegro. In the background, ","kw":"Bay of Kotor Montenegro","url":"assets/me/L01.webp","thumb_url":"assets/me/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Bay_of_Kotor_from_Lepetani%27s_road.jpg/1920px-Bay_of_Kotor_from_Lepetani%27s_road.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Gzzz","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":64478,"caption_zh_manual":"科托尔湾","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16454,"size":{"detail":"760x516","thumb":"400x272"},"encoding":"webp q72/q74 (源 1920x1304 740KB JPEG)"},{"title":"File:Durmitor national park montenegro.jpg","caption_zh":"黑山杜米托尔国家公园","caption":"黑山杜米托尔国家公园","caption_commons":"Tara Gorge, Durmitor National Park, Montenegro","kw":"Durmitor National Park Montenegro","url":"assets/me/L03.webp","thumb_url":"assets/me/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/b/b1/Durmitor_national_park_montenegro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Michael Tyler","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":52580,"caption_zh_manual":"杜米托尔国家公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17894,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1680x1120 714KB JPEG)"},{"title":"File:Diving and rafting on Tara River Canyon, Montenegro-Bosnia border (15079927371).jpg","caption_zh":"塔拉河峡谷潜水与漂流","caption":"塔拉河峡谷潜水与漂流","caption_commons":"Diving and rafting on Tara River Canyon, Montenegro-Bosnia border","kw":"Tara River Canyon Montenegro","url":"assets/me/L04.webp","thumb_url":"assets/me/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Diving_and_rafting_on_Tara_River_Canyon%2C_Montenegro-Bosnia_border_%2815079927371%29.jpg/1920px-Diving_and_rafting_on_Tara_River_Canyon%2C_Montenegro-Bosnia_border_%2815079927371%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Jasmine Halki","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":76464,"caption_zh_manual":"塔拉河峡谷","caption_zh_source":"llm_from_commons_filename","thumb_bytes":28022,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 590KB JPEG)"},{"title":"File:Esplanada del Monasterio de Ostrog, Montenegro, 2014-04-14, DD 08.JPG","caption_zh":"奥斯特罗格修道院前广场","caption":"奥斯特罗格修道院前广场","caption_commons":"Esplanade of the Ostrog monastery, Montenegro","kw":"Ostrog Monastery Montenegro","url":"assets/me/L05.webp","thumb_url":"assets/me/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Esplanada_del_Monasterio_de_Ostrog%2C_Montenegro%2C_2014-04-14%2C_DD_08.JPG/1920px-Esplanada_del_Monasterio_de_Ostrog%2C_Montenegro%2C_2014-04-14%2C_DD_08.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Diego Delso","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":90390,"caption_zh_manual":"奥斯特罗格修道院","caption_zh_source":"llm_from_commons_filename","thumb_bytes":27632,"size":{"detail":"760x531","thumb":"400x280"},"encoding":"webp q72/q74 (源 1920x1342 963KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:39:48+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 返回 5 个语言，去重/去上位概念后保留 3 个：黑山语、塞尔维亚语、克罗地亚语","P443 发音语种不符已弃用：CrnaGora.ogg、Lb-Montenegro.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Muntenegru.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py ME","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","圣斯特凡岛：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（4 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"巴尔干半岛","evidence":"位于欧洲巴尔干半岛西南部"},{"v":"亚得里亚海","evidence":"亚得里亚海东岸上的多山国家"},{"v":"多山国家","evidence":"亚得里亚海东岸上的多山国家"},{"v":"黑山语","evidence":"黑山语：Crna Gora / Црна Гора"}],"model":"deepseek-flash"},"summary_text_raw":"黑山（黑山语：Crna Gora / Црна Гора，直译：“黑色之山”）是一个位于欧洲巴尔干半岛西南部、亚得里亚海东岸上的多山国家。黑山的东北为塞尔维亚，东为科索沃（2008年2月17日单方面宣布独立），东南为阿尔巴尼亚，西北为波斯尼亚和黑塞哥维那以及克罗地亚，西南则为亚得里亚海。\n黑山原为1910年建立的黑山王国，一战后加入新成立的塞尔维亚人、克罗地亚人和斯洛文尼亚人王国，二战时期轴心国入侵南斯拉夫，黑山成为意大利的保护国，后被纳粹德国占领、由盟军解放。二战后成为南斯拉夫社会主义联邦共和国的六个加盟共和国之一，南斯拉夫的四个加盟国（斯洛文尼亚、克罗地亚、波斯尼亚和黑塞哥维那、马其顿）在1990年代初独立后，黑山和塞尔维亚成为了南斯拉夫仅存的两个加盟共和国。2003年，南斯拉夫联盟共和国决定放弃“南斯拉夫”的国名，改称塞尔维亚和黑山。2006年5月21日，黑山举行公民投票，独立派以55.5%的得票比例在投票中险胜；同年6月3日，黑山国会正式宣布独立，同时成为联合国会员国。2017年6月5日，黑山加入北约，成为该组织第29个会员国。","history_text":"泽塔于十五世纪被奥斯曼帝国并入斯库台桑扎克，但洛夫琴山一带始终未被征服。十六世纪初，以策提涅为中心形成政教合一的都主教区，君主兼掌政教。十九世纪中叶，达尼洛二世放弃宗教头衔，黑山成为世俗公国，随后在柏林会议上被承认为独立国家。二十世纪初，尼古拉一世称王建立黑山王国，一战中遭奥匈帝国进攻而全境被占。","custom_text":"东正教家庭过家族守护神节，点蜡烛、切祝圣面包，亲友聚在屋里吃饭。沿海乌尔齐尼一带的阿尔巴尼亚族穆斯林过开斋节，老城街巷里飘出烤肉与甜点的气味。北部山区的波斯尼亚克族人家待客先上咖啡，小杯浓咖啡配一块糖，喝完再谈事。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":149,"folk":107}},"knowledge_qa":[{"q":"黑山在欧洲哪儿啊？周围都是哪些国家？","a":"黑山位于欧洲巴尔干半岛西南部、亚得里亚海东岸。东北是塞尔维亚，东边是科索沃，东南是阿尔巴尼亚，西北是波黑和克罗地亚，西南是亚得里亚海。","tags":["黑山","欧洲","位置","邻国"]},{"q":"黑山首都叫啥？","a":"首都就是波德戈里察。","tags":["黑山","首都","波德戈里察"]},{"q":"黑山说什么语言？","a":"官方语言有三种：黑山语、塞尔维亚语和克罗地亚语。","tags":["黑山","语言","说什么话"]},{"q":"黑山有什么值得看的地标或风景？","a":"值得看的有科托尔湾、杜米托尔国家公园、塔拉河峡谷和奥斯特罗格修道院。","tags":["黑山","地标","风景","旅游"]},{"q":"黑山是哪年独立的？","a":"2006年5月21日公投，独立派以55.5%险胜；同年6月3日国会正式宣布独立，并成为联合国会员国。","tags":["黑山","独立","历史"]},{"q":"黑山加入北约了吗？","a":"加入了。2017年6月5日黑山加入北约，成为该组织第29个会员国。","tags":["黑山","北约","国际组织"]},{"q":"黑山以前是南斯拉夫的一部分吗？","a":"是的。二战后黑山成为南斯拉夫社会主义联邦共和国的六个加盟共和国之一；2003年南斯拉夫联盟共和国改称塞尔维亚和黑山。","tags":["黑山","南斯拉夫","历史"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[1850,4242],[1844,4256],[1855,4267],[1843,4295],[1864,4302],[1866,4323],[1882,4334],[1899,4327],[1907,4331],[1891,4349],[1898,4355],[1920,4353],[1919,4346],[1960,4318],[1993,4311],[2035,4289],[2018,4274],[2003,4274],[2010,4265],[1998,4251],[1980,4247],[1972,4265],[1962,4260],[1927,4219],[1938,4210],[1936,4185],[1917,4194],[1889,4228],[1878,4227],[1855,4242],[1870,4239],[1869,4248],[1850,4242]]]}
+{
+  "qid": "Q236",
+  "iso_a2": "ME",
+  "iso_a3": "MNE",
+  "name_zh": "黑山",
+  "name_en": "Montenegro",
+  "capital": "波德戈里察",
+  "continent": "欧洲",
+  "centroid": [
+    19.2167,
+    42.7667
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "cnr",
+      "name_zh": "黑山语",
+      "name_local": "黑山语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "sr",
+      "name_zh": "塞尔维亚语",
+      "name_local": "塞尔维亚语",
+      "role": "official",
+      "audio_url": "assets/me/audio/sr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Dobro došli u Crnu Goru, zemlju između mora i planina; njen glavni grad je Podgorica, a među najpoznatijim znamenitostima izdvaja se Boka Kotorska, zaliv koji se uvlači duboko u kopno.",
+      "tts_text_zh": "欢迎来到黑山，这片位于大海与群山之间的土地；它的首都是波德戈里察，而最著名的地标之一是科托尔湾，一个深深嵌入内陆的海湾。",
+      "audio_voice": "sr-RS-SophieNeural",
+      "audio_bytes": 80064
+    },
+    {
+      "code": "hr",
+      "name_zh": "克罗地亚语",
+      "name_local": "克罗地亚语",
+      "role": "official",
+      "audio_url": "assets/me/audio/hr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Dobro došli u Crnu Goru, zemlju između mora i planina; njezin glavni grad je Podgorica, a među najpoznatijim znamenitostima ističe se Boka kotorska, zaljev koji se duboko uvlači u kopno.",
+      "tts_text_zh": "欢迎来到黑山，这片位于大海与群山之间的土地；它的首都是波德戈里察，而最著名的地标之一是科托尔湾，一个深深嵌入内陆的海湾。",
+      "audio_voice": "hr-HR-GabrijelaNeural",
+      "audio_bytes": 73296
+    }
+  ],
+  "summary_text": "黑山位于欧洲巴尔干半岛西南部、亚得里亚海东岸，是一个多山国家。其东北与塞尔维亚相邻，东接科索沃，东南连阿尔巴尼亚，西北与波斯尼亚和黑塞哥维那以及克罗地亚接壤，西南濒临亚得里亚海。黑山语称本国为Crna Gora或Црна Гора，直译为“黑色之山”。国土以山地地形为主，是一个多山国家。黑山原为1910年建立的黑山王国，二战后成为南斯拉夫社会主义联邦共和国的六个加盟共和国之一。2003年，南斯拉夫联盟共和国放弃“南斯拉夫”的国名，改称塞尔维亚和黑山。2006年5月21日，黑山举行公民投票，独立派以55.5%的得票比例险胜；同年6月3日，黑山国会正式宣布独立，同时成为联合国会员国。2017年6月5日，黑山加入北约，成为该组织第29个会员国。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 323,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E8%92%99%E7%89%B9%E5%85%A7%E5%93%A5%E7%BE%85",
+    "title": "蒙特內哥羅"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "在尼曼雅王朝治下，杜克里亚地区又出现了泽塔公国，14世纪中时泽塔脱离了内马尼亚的控制。15世纪起奥斯曼帝国征服了巴尔干半岛大部分地区，泽塔于1498年被征服，并入奥斯曼帝国的斯库台桑扎克（土耳其语：İşkodra Sancağı）。1514年泽塔地区从斯库台桑扎克分离，成为黑山桑扎克（土耳其语：Karadağ Sancağı）。但奥斯曼帝国未能征服泽塔全境，例如洛夫琴山地区保持了独立。1516年，黑山都主教区成为以策提涅为中心的政教合一国家，君主为集政教权利于一身的都主教。1852年，黑山都主教达尼洛二世放弃宗教头衔，成为黑山公国公爵达尼洛一世，黑山正式成为世俗国家。1860年，达尼洛一世被暗杀，尼古拉一世继位。1876年黑山向奥斯曼帝国宣战，并夺得大量土地。黑山于1878年柏林会议中正式被承认为独立国家。1910年，黑山大公尼古拉一世正式称王，建立黑山王国。第一次世界大战期间黑山选择加入协约国，并再次向奥斯曼帝国及中央国宣战以协助盟友塞尔维亚，奥匈帝国亦随即对其发起进攻。奥军前两次攻势失败，但在1916年1月的第三次进攻中，黑山被奥匈帝国彻底击溃完全占领。尼古拉一世逃亡至意大利、法国。1918年，以塞尔维亚为首的协约国军击退奥匈军并重新占领黑山。一战结束后，在塞尔维亚的主导之下，与斯洛文尼亚、克罗地亚联合组成了第一个由南斯拉夫族群联合的国家。同时，塞尔维亚控制下的黑山也召开会议，废除君主制并禁止国王回国，加入新成立塞尔维亚人、克罗地亚人和斯洛文尼亚人王国。1919年，反对派发起圣诞节起义，但是被塞尔维亚军镇压。1929年，国王亚历山大一世正式将王国更名为“南斯拉夫王国”，1939年二战爆发，1941年4月纳粹德国及其盟国入侵南斯拉夫，意大利王国自阿尔巴尼亚入侵黑山，4月17日意大利军队占领黑山全境并成立傀儡政权，黑山重新获得独立国体并成为意大利的保护国。1943年德军取代意大利的占领，1945年第二次世界大战结束，德军撤出南斯拉夫，南斯拉夫反法西斯民族解放委员会宣布民主联邦南斯拉夫，由五个民族共组联邦，再度废除黑山之独立国体。，将其合并成为南斯拉夫社会主义联邦共和国的加盟共和国之一。1990年代，随着南斯拉夫共产主义者联盟解体，南斯拉夫联邦各国纷纷独立，唯有塞尔维亚、黑山两国未独立。黑山于1992年举行独立公投，95.96%认为应继续留在南斯拉夫联邦之内。当时投票率为66%，穆斯林、天主教徒以及倾向独立的黑山人抵制了此次公投，他们认为该次公投的投票环境不够民主，国营媒体过多为亲统一（塞尔维亚）的一方宣传。之后黑山共和国内在独立议题上时有纷争。1996年，米洛·久卡诺维奇政府宣布和米洛塞维奇掌权的塞尔维亚断绝关系，从此以后黑山自行制定经济政策，改用德国马克（后来德国废除马克，采用欧元，黑山亦改为欧元）。从此塞尔维亚第纳尔在黑山不是法定货币，只能在一些度假村使用。2000年南斯拉夫大选后，执政十多年的塞尔维亚强人米洛塞维奇被迫下台，使得欧盟与南斯拉夫联盟共和国恢复外交关系，西方因此由支持黑山独立，暂时转向支持维持现有的联邦状态。但塞尔维亚和黑山间的关系并没有因为西方国家支持维持现状而改善，而1992年南斯拉夫联盟共和国的宪法中又没有提及关于联邦共和国实体独立的权利及过程，从而引发争论。后来在欧盟的调停下，双方于2002年3月14日在贝尔格莱德签署协议，决定将联邦变为由两个各自拥有经济、货币以及关税决定权的半独立（semi-independent）国家所组成，并且更名为“塞尔维亚和黑山”。另外依据此协定通过了联邦的新宪章，明定宪章通过三年后，任何一方都有权提出脱离联邦。黑山国会于2004年7月12日采用新的国旗、国庆日、以及国歌，以推进独立进程。其中国旗基于前黑山王国的国旗，国庆日纪念1878年7月13日签订的柏林条约承认黑山为独立国家，以及1941年7月13日爆发的反意大利占领的起义（英语：Uprising in Montenegro (1941)）。国歌则为黑山著名民歌。2006年5月21日举行独立公投，独派以55.5%的微弱优势决定终止与塞尔维亚的联邦关系，刚刚超过55%欧盟规定的有效结果票数。6月3日，黑山议会正式宣布独立，6月28日黑山正式加入联合国。2006年9月10日，黑山举行独立后首次议会和地方选举。9月12日，选举委员会宣布，亲欧盟的争取实现欧洲的黑山联盟获得议会81个席位中的41个议席，塞族名单联盟获得了12席，由黑山社会主义者人民党、人民党和民主塞尔维亚党组成的竞选联盟和变革运动党分别获得11席，其余6席由一些较小党派分获。11月10日，独立后首届新政府宣誓就职，总理为热利科·什图拉诺维奇。什图拉诺维奇2008年1月因健康原因辞去总理职务。久卡诺维奇至今仍担任执政的黑山社会主义者民主党主席，他在2008－2010年及2012年至2016年出任总理。",
+      "chars": 2020
+    },
+    {
+      "section": "人口",
+      "text": "人口约63万（2018年估计）。黑山族占44.98%、塞尔维亚族28.73%，波斯尼亚克族占8.65%，阿尔巴尼亚族占4.91%。黑山72.07％人口信奉东正教，属于塞尔维亚正教会。1993年又建立了一个黑山正教会，但信徒很少，而且并未得到其他东正教会的承认。19.11%的人口为穆斯林，其中包括阿尔巴尼亚人、波斯尼亚克人等。其中阿尔巴尼亚族主要居住在东南部，在东南部海港乌尔齐尼占多数。波斯尼亚克族主要居住在北部。另外还有聚集在沿海地区的天主教徒。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Bay of Kotor from Lepetani's road.jpg",
+      "caption_zh": "从莱佩塔尼公路眺望科托尔湾",
+      "caption": "从莱佩塔尼公路眺望科托尔湾",
+      "caption_commons": "The bay of Kotor viewed from Lepetani's road, in Montenegro. In the background, ",
+      "kw": "Bay of Kotor Montenegro",
+      "url": "assets/me/L01.webp",
+      "thumb_url": "assets/me/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Bay_of_Kotor_from_Lepetani%27s_road.jpg/1920px-Bay_of_Kotor_from_Lepetani%27s_road.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Gzzz",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 141504,
+      "caption_zh_manual": "科托尔湾",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7078,
+      "size": {
+        "detail": "1080x734",
+        "thumb": "240x163"
+      },
+      "encoding": "webp q75/q78 (源 1920x1304 740KB JPEG)"
+    },
+    {
+      "title": "File:Durmitor national park montenegro.jpg",
+      "caption_zh": "黑山杜米托尔国家公园",
+      "caption": "黑山杜米托尔国家公园",
+      "caption_commons": "Tara Gorge, Durmitor National Park, Montenegro",
+      "kw": "Durmitor National Park Montenegro",
+      "url": "assets/me/L03.webp",
+      "thumb_url": "assets/me/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Durmitor_national_park_montenegro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Michael Tyler",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 94716,
+      "caption_zh_manual": "杜米托尔国家公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8044,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1680x1120 714KB JPEG)"
+    },
+    {
+      "title": "File:Diving and rafting on Tara River Canyon, Montenegro-Bosnia border (15079927371).jpg",
+      "caption_zh": "塔拉河峡谷潜水与漂流",
+      "caption": "塔拉河峡谷潜水与漂流",
+      "caption_commons": "Diving and rafting on Tara River Canyon, Montenegro-Bosnia border",
+      "kw": "Tara River Canyon Montenegro",
+      "url": "assets/me/L04.webp",
+      "thumb_url": "assets/me/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Diving_and_rafting_on_Tara_River_Canyon%2C_Montenegro-Bosnia_border_%2815079927371%29.jpg/1920px-Diving_and_rafting_on_Tara_River_Canyon%2C_Montenegro-Bosnia_border_%2815079927371%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Jasmine Halki",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 132270,
+      "caption_zh_manual": "塔拉河峡谷",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 13398,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 590KB JPEG)"
+    },
+    {
+      "title": "File:Esplanada del Monasterio de Ostrog, Montenegro, 2014-04-14, DD 08.JPG",
+      "caption_zh": "奥斯特罗格修道院前广场",
+      "caption": "奥斯特罗格修道院前广场",
+      "caption_commons": "Esplanade of the Ostrog monastery, Montenegro",
+      "kw": "Ostrog Monastery Montenegro",
+      "url": "assets/me/L05.webp",
+      "thumb_url": "assets/me/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Esplanada_del_Monasterio_de_Ostrog%2C_Montenegro%2C_2014-04-14%2C_DD_08.JPG/1920px-Esplanada_del_Monasterio_de_Ostrog%2C_Montenegro%2C_2014-04-14%2C_DD_08.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 187562,
+      "caption_zh_manual": "奥斯特罗格修道院",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 12626,
+      "size": {
+        "detail": "1080x755",
+        "thumb": "240x168"
+      },
+      "encoding": "webp q75/q78 (源 1920x1342 963KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:39:48+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 返回 5 个语言，去重/去上位概念后保留 3 个：黑山语、塞尔维亚语、克罗地亚语",
+    "P443 发音语种不符已弃用：CrnaGora.ogg、Lb-Montenegro.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Muntenegru.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py ME",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "圣斯特凡岛：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（4 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "巴尔干半岛",
+        "evidence": "位于欧洲巴尔干半岛西南部"
+      },
+      {
+        "v": "亚得里亚海",
+        "evidence": "亚得里亚海东岸上的多山国家"
+      },
+      {
+        "v": "多山国家",
+        "evidence": "亚得里亚海东岸上的多山国家"
+      },
+      {
+        "v": "黑山语",
+        "evidence": "黑山语：Crna Gora / Црна Гора"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "黑山（黑山语：Crna Gora / Црна Гора，直译：“黑色之山”）是一个位于欧洲巴尔干半岛西南部、亚得里亚海东岸上的多山国家。黑山的东北为塞尔维亚，东为科索沃（2008年2月17日单方面宣布独立），东南为阿尔巴尼亚，西北为波斯尼亚和黑塞哥维那以及克罗地亚，西南则为亚得里亚海。\n黑山原为1910年建立的黑山王国，一战后加入新成立的塞尔维亚人、克罗地亚人和斯洛文尼亚人王国，二战时期轴心国入侵南斯拉夫，黑山成为意大利的保护国，后被纳粹德国占领、由盟军解放。二战后成为南斯拉夫社会主义联邦共和国的六个加盟共和国之一，南斯拉夫的四个加盟国（斯洛文尼亚、克罗地亚、波斯尼亚和黑塞哥维那、马其顿）在1990年代初独立后，黑山和塞尔维亚成为了南斯拉夫仅存的两个加盟共和国。2003年，南斯拉夫联盟共和国决定放弃“南斯拉夫”的国名，改称塞尔维亚和黑山。2006年5月21日，黑山举行公民投票，独立派以55.5%的得票比例在投票中险胜；同年6月3日，黑山国会正式宣布独立，同时成为联合国会员国。2017年6月5日，黑山加入北约，成为该组织第29个会员国。",
+  "history_text": "泽塔于十五世纪被奥斯曼帝国并入斯库台桑扎克，但洛夫琴山一带始终未被征服。十六世纪初，以策提涅为中心形成政教合一的都主教区，君主兼掌政教。十九世纪中叶，达尼洛二世放弃宗教头衔，黑山成为世俗公国，随后在柏林会议上被承认为独立国家。二十世纪初，尼古拉一世称王建立黑山王国，一战中遭奥匈帝国进攻而全境被占。",
+  "custom_text": "东正教家庭过家族守护神节，点蜡烛、切祝圣面包，亲友聚在屋里吃饭。沿海乌尔齐尼一带的阿尔巴尼亚族穆斯林过开斋节，老城街巷里飘出烤肉与甜点的气味。北部山区的波斯尼亚克族人家待客先上咖啡，小杯浓咖啡配一块糖，喝完再谈事。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 149,
+      "folk": 107
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "黑山在欧洲哪儿啊？周围都是哪些国家？",
+      "a": "黑山位于欧洲巴尔干半岛西南部、亚得里亚海东岸。东北是塞尔维亚，东边是科索沃，东南是阿尔巴尼亚，西北是波黑和克罗地亚，西南是亚得里亚海。",
+      "tags": [
+        "黑山",
+        "欧洲",
+        "位置",
+        "邻国"
+      ]
+    },
+    {
+      "q": "黑山首都叫啥？",
+      "a": "首都就是波德戈里察。",
+      "tags": [
+        "黑山",
+        "首都",
+        "波德戈里察"
+      ]
+    },
+    {
+      "q": "黑山说什么语言？",
+      "a": "官方语言有三种：黑山语、塞尔维亚语和克罗地亚语。",
+      "tags": [
+        "黑山",
+        "语言",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "黑山有什么值得看的地标或风景？",
+      "a": "值得看的有科托尔湾、杜米托尔国家公园、塔拉河峡谷和奥斯特罗格修道院。",
+      "tags": [
+        "黑山",
+        "地标",
+        "风景",
+        "旅游"
+      ]
+    },
+    {
+      "q": "黑山是哪年独立的？",
+      "a": "2006年5月21日公投，独立派以55.5%险胜；同年6月3日国会正式宣布独立，并成为联合国会员国。",
+      "tags": [
+        "黑山",
+        "独立",
+        "历史"
+      ]
+    },
+    {
+      "q": "黑山加入北约了吗？",
+      "a": "加入了。2017年6月5日黑山加入北约，成为该组织第29个会员国。",
+      "tags": [
+        "黑山",
+        "北约",
+        "国际组织"
+      ]
+    },
+    {
+      "q": "黑山以前是南斯拉夫的一部分吗？",
+      "a": "是的。二战后黑山成为南斯拉夫社会主义联邦共和国的六个加盟共和国之一；2003年南斯拉夫联盟共和国改称塞尔维亚和黑山。",
+      "tags": [
+        "黑山",
+        "南斯拉夫",
+        "历史"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        1850,
+        4242
+      ],
+      [
+        1844,
+        4256
+      ],
+      [
+        1855,
+        4267
+      ],
+      [
+        1843,
+        4295
+      ],
+      [
+        1864,
+        4302
+      ],
+      [
+        1866,
+        4323
+      ],
+      [
+        1882,
+        4334
+      ],
+      [
+        1899,
+        4327
+      ],
+      [
+        1907,
+        4331
+      ],
+      [
+        1891,
+        4349
+      ],
+      [
+        1898,
+        4355
+      ],
+      [
+        1920,
+        4353
+      ],
+      [
+        1919,
+        4346
+      ],
+      [
+        1960,
+        4318
+      ],
+      [
+        1993,
+        4311
+      ],
+      [
+        2035,
+        4289
+      ],
+      [
+        2018,
+        4274
+      ],
+      [
+        2003,
+        4274
+      ],
+      [
+        2010,
+        4265
+      ],
+      [
+        1998,
+        4251
+      ],
+      [
+        1980,
+        4247
+      ],
+      [
+        1972,
+        4265
+      ],
+      [
+        1962,
+        4260
+      ],
+      [
+        1927,
+        4219
+      ],
+      [
+        1938,
+        4210
+      ],
+      [
+        1936,
+        4185
+      ],
+      [
+        1917,
+        4194
+      ],
+      [
+        1889,
+        4228
+      ],
+      [
+        1878,
+        4227
+      ],
+      [
+        1855,
+        4242
+      ],
+      [
+        1870,
+        4239
+      ],
+      [
+        1869,
+        4248
+      ],
+      [
+        1850,
+        4242
+      ]
+    ]
+  ]
+}

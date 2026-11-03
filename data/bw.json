@@ -1,1 +1,594 @@
-{"qid":"Q963","iso_a2":"BW","iso_a3":"BWA","name_zh":"博茨瓦纳","name_en":"Botswana","capital":"哈博罗内","continent":"非洲","centroid":[23.7,-22.2],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/bw/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Botswana, a land of open plains and quiet rivers; its capital is Gaborone, and among its best-known landmarks is the Okavango Delta, where waterways wind through the wild.","tts_text_zh":"欢迎来到博茨瓦纳，这片开阔平原与静谧河流交织的土地；首都是哈博罗内，最著名的地标之一是奥卡万戈三角洲，水道在荒野间蜿蜒流淌。","audio_voice":"en-US-AriaNeural","audio_bytes":70848}],"summary_text":"博茨瓦纳共和国通称博茨瓦纳，是位于非洲南部的内陆国家。该国南邻南非，西边为纳米比亚，东北与津巴布韦接壤，其国土北端只有在卡宗古拉附近的卡宗古拉大桥一处与赞比亚在赞比西河边界相接壤。博茨瓦纳面积与法国本土和肯尼亚相略。干燥与平坦的台地地形为该国主要地貌，卡拉哈里沙漠则覆盖了该国大约70%的领土。博茨瓦纳人口略高于241万，人口密度较低，大约11.6%的人口生活在首都和最大的城市哈博罗内。该国实际上是以茨瓦纳族为主体的民族国家，茨瓦纳族约占全国人口的80%，另尚有占11%的卡兰加人，为境内最大的少数民族。博茨瓦纳的经济产业由旅游业和采矿业所主导，其钻石开采业相较于非洲其他地区投资环境较佳，钻石产量位居全球前列。博茨瓦纳以拥有良好的个人自由著称，在新闻自由和个人财产权的保障上具显著优势，皆有助吸引外国投资及促进国际交流。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":362,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%9C%AD%E9%82%A3","title":"波札那"},"culture_excerpts":[{"section":"历史","text":"根据学者估算，原始人类早在更新世时期就曾居住在现今的博茨瓦纳。而出土的石器和动物遗骸则显示至少在 40 万年前就已经有人居住在博茨瓦纳国内所有的地区。自2020年以来，有学者提出现代人类可能来自博茨瓦纳境内，但现代人类确切起源自何地现时尚未有确切和有共识的定论。。在远古时期科伊桑人就已分布于包括博茨瓦纳在内的非洲南部地区，至今尚有科伊桑人定居在博茨瓦纳境内。学者考证到公元三世纪至公元六世纪，班图人在波扎那定居。13－14世纪，茨瓦纳人分批迁徙至今天的博茨瓦纳。19世纪后期，随着新帝国主义时代的来临，欧洲国家开始大规模瓜分非洲。当时的德意志帝国和英国都对博茨瓦纳所在的领土虎视眈眈，为了保障其进军北方，并将博茨瓦纳以南的开普殖民地和北面的殖民地领土连接起来，英国在柏林西非会议结束的1885年随即远征该地，说服当地酋长接受既成事实的统治，并建立了“贝专纳保护国”实施殖民，使其成为联合王国的一部分。1910年，南非联邦成立，包括贝专纳保护国、斯威士兰和巴苏托兰（今天的莱索托）在内的高级事务专员属地均未有并入南非联邦。纵使南非政府一直试图将其并入管辖范围，在英国的一再拖延、设立种族隔离政策的南非国民党在1948年大选中掌权、以及南非在1961年退出英联邦的情况下，合并最终未曾实现。英国中央权力的扩张和土著政府的发展促成了1920年两个分别代表非洲人和欧洲人的咨询委员会的成立。 ，代表非洲人的委员会由八个茨瓦纳部落的领袖和若干选举产生的成员组成 。1934年的公告则规范了部落的统治和权力。1951年贝专纳成立了欧非咨询委员会，1961年的宪法则进一步设立了咨询立法委员会。在前一年六月获得英国方面的同意后，贝专纳在1965年成立民主自治政府，治所自南非梅富根迁至嘉柏隆里，并于该年依1965年版的宪法举行了第一次全国普选，选举出博茨瓦纳首任总统塞雷茨·卡马。在随后一年的1966年2月，独立会议在伦敦举行。9月30日，贝专纳自英国独立，博茨瓦纳共和国成立。1980年塞雷茨逝世后，马西雷接替当选总统直至其在1998年退休为止。费斯图斯·莫加埃在1999年当选后在2004年接棒予塞雷茨的儿子、自1999年起担任其任内副总统一职的伊恩·卡马。莫克维齐·马西西在2018年继任总统直到其在2024年大选当中落败。博茨瓦纳共和国在独立后实施民主化政治，积极的社会政策与丰富的矿藏（尤其是钻石矿，占该国输出利润的八成）带来的财富让博茨瓦纳拥有非洲大部分地区难得一见的开发水准。除此之外，由于该国积极地与国际社会合作，在国内建立为了保护野生动物而设的大面积国家公园，而使得观光业有机会逐渐在该国成长兴盛。","chars":1102},{"section":"文化","text":"博茨瓦纳的音乐主要有声乐和表演两种形式，除了会在演奏中大量使用弦乐，亦偶尔会视乎场合决定是否配鼓演奏。博茨瓦纳的民俗音乐会在演奏中使用诸如类似非洲乐器拇指琴的塞廷卡内琴（Setinkane）、类似二胡琴的塞凡库鲁琴&#8203;（英语）（Segankuru）、鼓（moropa或众数meropa）和哨（phala，茨瓦纳语中也指高角羚，大多在庆典时使用），偶尔亦会以双手增添音乐和节奏，比如在传统的博茨瓦纳音乐舞蹈phathisi里，表演者会在唱歌的同时拍手。\n博茨瓦纳北部的农村妇女擅长用非洲棕榈树和当地的染料制造颜色鲜艳的不同织篮。有盖的大织篮用作储物，无盖的织篮可以储物并顶在头顶移动、或用来扬谷脱粒谷物，小织盘则可用来扬谷碾碎了的谷物。","chars":1200},{"section":"人口","text":"波札那人口增長穩定，2025年人口計為2,562,000人。截至2024年，班图族的札那人为博茨瓦纳的多数民族，占全国人口的70%，紧随为占11%的卡兰加人（英语：Kalanga people）（Kalanga）和占3%的桑人。其余7%分别为博茨瓦纳白人或欧裔博茨瓦纳人、印度人移民及从莫桑比克、肯尼亚、坦桑尼亚、毛里求斯和南非等非洲国家迁来的印度人后代，以及其他规模较小的非洲南部族群。另外自2000年起，数以万计的津巴布韦人因津巴布韦经济状况恶化而进入博茨瓦纳境内。博茨瓦纳有以下八个主要的酋长部落社群：恩瓦托（英语：Ngwato_tribe）（Bangwato）、昆纳（英语：Kwena clan）（Bakwena）、恩瓦凯策（英语：Bangwaketse）（Bangwaketse）、塔瓦纳（英语：Batawana people）（Batawana）、卡特拉（Bakgatla）、莱特（Balete）、罗龙（Barolong）和特罗夸（英语：Tlôkwa people）（Batlokwa）。恩瓦托族最大，约占人口的40％。欧洲人和亚洲人约1万人。\n现时维持狩猎采集传统生活方式的桑人仅剩不足一万人，且桑人等原住民一直面临威胁其共同体文化存续的土地丧失问题。自上世纪九十年代中起，博茨瓦纳中央政府就一直尝试以保护自然生态为由将桑人迁移出其世代居住、被划为卡拉哈里中部野生动物保护区的祖传土地，使桑人被迫放弃传统的生活方式。人权组织质疑博茨瓦纳政府针对桑人的驱逐是为了采矿利益，因桑人居住地为钻石矿产丰富的地区，但博茨瓦纳政府予以否认。\n多数居民信奉新教和天主教，农村地区部分居民信奉传统宗教。 圣公宗、循道宗和非洲南部联合公理宗教会构成了博茨瓦纳基督宗教的多数，此外尚有其他基督宗教的教会宗派。根据 2001 年的人口普查，该国亦有约5,000 名穆斯林（主要来自南亚）、3,000名印度教徒和700名巴哈伊教徒。另外博茨瓦纳境内约20%的人没有宗教信仰。\n博茨瓦纳艾滋病毒高发的潜在原因包括同时发生性伙伴关系，性交易，跨代性行为，以及大量在外地工作的人, 拥有较多的婚外性行为则进一步影响了健康状况。","chars":1200},{"section":"语言","text":"博茨瓦纳的官方语言为英语，而通用语言为茨瓦纳语和英语。茨瓦纳语的前缀比许多语言更为重要，因为塞茨瓦纳语作为一种班图语，名词会以前缀表示该词汇的类别。比如前缀Bo指国家；前缀Ba指人民；前缀Mo指一个人；前缀Se指语言。因此博茨瓦纳人在茨瓦纳语当中称作Motswana（单数）或Batswana（众数），同时又称Tswana。他们的国家称作Botswana，他们的语言则称作Setswana。除了博茨瓦纳语，卡兰加语（英语：Kalanga language）、塞萨尔瓦语（英语：Tshwa language） 、北恩德贝莱语、卡格拉格帝语（英语：Kgalagadi_language）、北索托语、宏语、耶伊语（英语：Yeyi language）、阿非利卡语都有人使用。","chars":698}],"landmark_images":[{"title":"File:Gnus zebras chobe national park.jpg","caption_zh":"乔贝国家公园的角马与斑马","caption":"乔贝国家公园的角马与斑马","caption_commons":"Gnus and Zebras in Chobe National Park, Botswana","kw":"Chobe National Park Botswana","url":"assets/bw/L02.webp","thumb_url":"assets/bw/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Gnus_zebras_chobe_national_park.jpg/1920px-Gnus_zebras_chobe_national_park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Gorgo","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":73626,"caption_zh_manual":"乔贝国家公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":19766,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 847KB JPEG)"},{"title":"File:Flamingo migration Makgadikgadi Pan.jpg","caption_zh":"马卡迪卡迪盐沼火烈鸟迁徙","caption":"马卡迪卡迪盐沼火烈鸟迁徙","caption_commons":"The Makgadikgadi Salt Pans in Botswana are one of the most important breeding si","kw":"Makgadikgadi Pan Botswana","url":"assets/bw/L03.webp","thumb_url":"assets/bw/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/2/29/Flamingo_migration_Makgadikgadi_Pan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"ed glickman from edina, usa","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":46994,"caption_zh_manual":"马卡迪卡迪盐沼","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11416,"size":{"detail":"760x600","thumb":"380x300"},"encoding":"webp q72/q74 (源 1020x805 454KB JPEG)"},{"title":"File:Tsodilo Hills rock paintings1.jpg","caption_zh":"措迪洛山岩画局部","caption":"措迪洛山岩画局部","caption_commons":"Rock paintings in Tsodilo Hills, Botswana","kw":"Tsodilo Hills Botswana","url":"assets/bw/L04.webp","thumb_url":"assets/bw/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Tsodilo_Hills_rock_paintings1.jpg/1920px-Tsodilo_Hills_rock_paintings1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Joachim Huber","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":122692,"caption_zh_manual":"措迪洛山岩画","caption_zh_source":"llm_from_commons_filename","thumb_bytes":30324,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1277 1139KB JPEG)"},{"title":"File:Kalahari.png","caption_zh":"卡拉哈里沙漠","caption":"卡拉哈里沙漠","caption_commons":"NASA World Wind 1.4 used.","kw":"Kalahari Desert Botswana","url":"assets/bw/L05.webp","thumb_url":"assets/bw/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/5/55/Kalahari.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Emilfarb at English Wikipedia","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":33100,"caption_zh_manual":"卡拉哈里沙漠","caption_zh_source":"llm_from_commons_filename","thumb_bytes":6582,"size":{"detail":"608x728","thumb":"251x300"},"encoding":"webp q72/q74 (源 608x728 672KB JPEG)"},{"title":"File:Moremi elephant.jpg","caption_zh":"莫雷米野生动物保护区大象","caption":"莫雷米野生动物保护区大象","caption_commons":"Elephant crossing the road in Moremi Wildlife Reserve, Botswana.","kw":"Moremi Game Reserve Botswana","url":"assets/bw/L06.webp","thumb_url":"assets/bw/L06.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/2/2a/Moremi_elephant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Ian Sewell","license":"CC BY-SA 2.5","license_url":"https://creativecommons.org/licenses/by-sa/2.5","license_status":"ok","load_verified":true,"bytes":95108,"caption_zh_manual":"莫雷米野生动物保护区","caption_zh_source":"llm_from_commons_filename","thumb_bytes":29988,"size":{"detail":"760x501","thumb":"400x264"},"encoding":"webp q72/q74 (源 969x639 609KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:36:53+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Botswana.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Botswana.wav、LL-Q22809485 (apc)-Hassan Hassoon-بوتسوانا.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py BW","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","奥卡万戈三角洲：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"卡拉哈里沙漠","evidence":"卡拉哈里沙漠则覆盖了该国大约70%的领土"},{"v":"台地地形","evidence":"干燥与平坦的台地地形为该国主要地貌"},{"v":"钻石开采","evidence":"钻石产量位居全球前列"},{"v":"茨瓦纳语","evidence":"茨瓦纳语：Lefatshe la Botswana"},{"v":"卡宗古拉大桥","evidence":"卡宗古拉大桥一处与赞比亚"}],"model":"deepseek-flash"},"summary_text_raw":"博茨瓦纳共和国（英语：Republic of Botswana；茨瓦纳语：Lefatshe la Botswana），通称博茨瓦纳（Botswana），是位于非洲南部的内陆国家，干燥与平坦的台地地形为该国主要地貌，卡拉哈里沙漠则覆盖了该国大约70%的领土。博茨瓦纳南邻南非，西边为纳米比亚，东北与津巴布韦接壤，其国土北端只有在卡宗古拉附近的卡宗古拉大桥一处与赞比亚在赞比西河边界相接壤。波扎那自1966年塞雷茨·卡马领导该国从英国独立以来未曾遭遇重大动荡。博茨瓦纳的经济产业由旅游业和采矿业所主导，其钻石开采业相较于非洲其他地区投资环境较佳，钻石产量位居全球前列；另外博茨瓦纳以拥有良好的个人自由著称，在新闻自由和个人财产权的保障上具显著优势，皆有助吸引外国投资及促进国际交流。\n博茨瓦纳面积与法国本土和肯尼亚相略，人口略高于241万，人口密度较低，大约11.6%的人口生活在首都和最大的城市哈博罗内。该国实际上是以茨瓦纳族（Tswana）为主体的民族国家，茨瓦纳族约占全国人口的80%，另尚有占11%的卡兰加人（Kalanga），为境内最大的少数民族。","history_text":"科伊桑人早已分布于非洲南部，三至六世纪班图人在此定居，十三至十四世纪茨瓦纳人分批迁入。十九世纪后期欧洲列强瓜分非洲，英国于柏林西非会议后远征此地，说服酋长接受统治，建立贝专纳保护国。此后南非联邦成立，南非政府屡次图谋将其并入，终未成事。","custom_text":"北部的农村妇女用非洲棕榈树和当地染料编出颜色鲜艳的织篮，有盖的储物，无盖的顶在头上搬运或扬谷脱粒，小织盘用来碾碎谷物。音乐以声乐和表演为主，弦乐之外偶配鼓，塞廷卡内琴、塞凡库鲁琴与哨常在庆典上响起，phathisi 舞里表演者边唱边拍手。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":118,"folk":119}},"knowledge_qa":[{"q":"博茨瓦纳在哪儿啊？周围都是哪些国家？","a":"博茨瓦纳是非洲南部的内陆国家，南边挨着南非，西边是纳米比亚，东北和津巴布韦接壤，北端在卡宗古拉大桥那里和赞比亚隔着赞比西河相连。","tags":["非洲","位置","邻国","内陆国"]},{"q":"博茨瓦纳的首都是哪个城市？","a":"首都是哈博罗内，也是该国最大的城市，大约11.6%的人口住在那儿。","tags":["首都","哈博罗内","城市"]},{"q":"博茨瓦纳面积多大？人口多少？","a":"面积和法国本土、肯尼亚差不多，人口略高于241万，人口密度比较低。","tags":["面积","人口","多大"]},{"q":"博茨瓦纳主要说什么语言？","a":"官方语言是英语，当地茨瓦纳族也讲茨瓦纳语，国名全称里就有这两种语言的写法。","tags":["语言","英语","说什么话","方言"]},{"q":"博茨瓦纳有什么值得去看的自然景观？","a":"有乔贝国家公园、马卡迪卡迪盐沼、措迪洛山岩画、卡拉哈里沙漠和莫雷米野生动物保护区，沙漠覆盖了大约70%的国土。","tags":["景点","看什么","沙漠","国家公园","岩画"]},{"q":"博茨瓦纳的地形和地貌是什么样的？","a":"主要是干燥平坦的台地地形，卡拉哈里沙漠覆盖了大约70%的领土。","tags":["地形","地貌","沙漠","干燥"]},{"q":"博茨瓦纳经济靠什么？","a":"经济由旅游业和采矿业主导，钻石开采业投资环境较好，钻石产量位居全球前列。","tags":["经济","钻石","旅游","矿业"]},{"q":"博茨瓦纳主要民族有哪些？","a":"以茨瓦纳族为主体，约占全国人口的80%，另外卡兰加人约占11%，是境内最大的少数民族。","tags":["民族","茨瓦纳族","卡兰加人","人口构成"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[2526,-1779],[2526,-1800],[2594,-1892],[2595,-1910],[2616,-1954],[2630,-1958],[2631,-1965],[2671,-1993],[2720,-2009],[2727,-2050],[2770,-2051],[2767,-2107],[2799,-2155],[2862,-2165],[2904,-2180],[2904,-2202],[2935,-2219],[2904,-2222],[2893,-2244],[2882,-2249],[2830,-2260],[2775,-2322],[2761,-2322],[2755,-2336],[2713,-2352],[2697,-2372],[2684,-2427],[2653,-2446],[2640,-2463],[2587,-2475],[2566,-2544],[2546,-2571],[2466,-2582],[2434,-2575],[2418,-2563],[2392,-2563],[2346,-2528],[2303,-2530],[2284,-2548],[2271,-2600],[2254,-2621],[2225,-2635],[2206,-2662],[2178,-2668],[2177,-2679],[2166,-2686],[2091,-2680],[2069,-2689],[2060,-2649],[2084,-2613],[2064,-2563],[2066,-2547],[2036,-2503],[1998,-2475],[1998,-2200],[2098,-2196],[2098,-1832],[2329,-1800],[2361,-1848],[2392,-1820],[2435,-1796],[2456,-1805],[2495,-1779],[2526,-1779]]]}
+{
+  "qid": "Q963",
+  "iso_a2": "BW",
+  "iso_a3": "BWA",
+  "name_zh": "博茨瓦纳",
+  "name_en": "Botswana",
+  "capital": "哈博罗内",
+  "continent": "非洲",
+  "centroid": [
+    23.7,
+    -22.2
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/bw/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Botswana, a land of open plains and quiet rivers; its capital is Gaborone, and among its best-known landmarks is the Okavango Delta, where waterways wind through the wild.",
+      "tts_text_zh": "欢迎来到博茨瓦纳，这片开阔平原与静谧河流交织的土地；首都是哈博罗内，最著名的地标之一是奥卡万戈三角洲，水道在荒野间蜿蜒流淌。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 70848
+    }
+  ],
+  "summary_text": "博茨瓦纳共和国通称博茨瓦纳，是位于非洲南部的内陆国家。该国南邻南非，西边为纳米比亚，东北与津巴布韦接壤，其国土北端只有在卡宗古拉附近的卡宗古拉大桥一处与赞比亚在赞比西河边界相接壤。博茨瓦纳面积与法国本土和肯尼亚相略。干燥与平坦的台地地形为该国主要地貌，卡拉哈里沙漠则覆盖了该国大约70%的领土。博茨瓦纳人口略高于241万，人口密度较低，大约11.6%的人口生活在首都和最大的城市哈博罗内。该国实际上是以茨瓦纳族为主体的民族国家，茨瓦纳族约占全国人口的80%，另尚有占11%的卡兰加人，为境内最大的少数民族。博茨瓦纳的经济产业由旅游业和采矿业所主导，其钻石开采业相较于非洲其他地区投资环境较佳，钻石产量位居全球前列。博茨瓦纳以拥有良好的个人自由著称，在新闻自由和个人财产权的保障上具显著优势，皆有助吸引外国投资及促进国际交流。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 362,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B3%A2%E6%9C%AD%E9%82%A3",
+    "title": "波札那"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "根据学者估算，原始人类早在更新世时期就曾居住在现今的博茨瓦纳。而出土的石器和动物遗骸则显示至少在 40 万年前就已经有人居住在博茨瓦纳国内所有的地区。自2020年以来，有学者提出现代人类可能来自博茨瓦纳境内，但现代人类确切起源自何地现时尚未有确切和有共识的定论。。在远古时期科伊桑人就已分布于包括博茨瓦纳在内的非洲南部地区，至今尚有科伊桑人定居在博茨瓦纳境内。学者考证到公元三世纪至公元六世纪，班图人在波扎那定居。13－14世纪，茨瓦纳人分批迁徙至今天的博茨瓦纳。19世纪后期，随着新帝国主义时代的来临，欧洲国家开始大规模瓜分非洲。当时的德意志帝国和英国都对博茨瓦纳所在的领土虎视眈眈，为了保障其进军北方，并将博茨瓦纳以南的开普殖民地和北面的殖民地领土连接起来，英国在柏林西非会议结束的1885年随即远征该地，说服当地酋长接受既成事实的统治，并建立了“贝专纳保护国”实施殖民，使其成为联合王国的一部分。1910年，南非联邦成立，包括贝专纳保护国、斯威士兰和巴苏托兰（今天的莱索托）在内的高级事务专员属地均未有并入南非联邦。纵使南非政府一直试图将其并入管辖范围，在英国的一再拖延、设立种族隔离政策的南非国民党在1948年大选中掌权、以及南非在1961年退出英联邦的情况下，合并最终未曾实现。英国中央权力的扩张和土著政府的发展促成了1920年两个分别代表非洲人和欧洲人的咨询委员会的成立。 ，代表非洲人的委员会由八个茨瓦纳部落的领袖和若干选举产生的成员组成 。1934年的公告则规范了部落的统治和权力。1951年贝专纳成立了欧非咨询委员会，1961年的宪法则进一步设立了咨询立法委员会。在前一年六月获得英国方面的同意后，贝专纳在1965年成立民主自治政府，治所自南非梅富根迁至嘉柏隆里，并于该年依1965年版的宪法举行了第一次全国普选，选举出博茨瓦纳首任总统塞雷茨·卡马。在随后一年的1966年2月，独立会议在伦敦举行。9月30日，贝专纳自英国独立，博茨瓦纳共和国成立。1980年塞雷茨逝世后，马西雷接替当选总统直至其在1998年退休为止。费斯图斯·莫加埃在1999年当选后在2004年接棒予塞雷茨的儿子、自1999年起担任其任内副总统一职的伊恩·卡马。莫克维齐·马西西在2018年继任总统直到其在2024年大选当中落败。博茨瓦纳共和国在独立后实施民主化政治，积极的社会政策与丰富的矿藏（尤其是钻石矿，占该国输出利润的八成）带来的财富让博茨瓦纳拥有非洲大部分地区难得一见的开发水准。除此之外，由于该国积极地与国际社会合作，在国内建立为了保护野生动物而设的大面积国家公园，而使得观光业有机会逐渐在该国成长兴盛。",
+      "chars": 1102
+    },
+    {
+      "section": "文化",
+      "text": "博茨瓦纳的音乐主要有声乐和表演两种形式，除了会在演奏中大量使用弦乐，亦偶尔会视乎场合决定是否配鼓演奏。博茨瓦纳的民俗音乐会在演奏中使用诸如类似非洲乐器拇指琴的塞廷卡内琴（Setinkane）、类似二胡琴的塞凡库鲁琴&#8203;（英语）（Segankuru）、鼓（moropa或众数meropa）和哨（phala，茨瓦纳语中也指高角羚，大多在庆典时使用），偶尔亦会以双手增添音乐和节奏，比如在传统的博茨瓦纳音乐舞蹈phathisi里，表演者会在唱歌的同时拍手。\n博茨瓦纳北部的农村妇女擅长用非洲棕榈树和当地的染料制造颜色鲜艳的不同织篮。有盖的大织篮用作储物，无盖的织篮可以储物并顶在头顶移动、或用来扬谷脱粒谷物，小织盘则可用来扬谷碾碎了的谷物。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "波札那人口增長穩定，2025年人口計為2,562,000人。截至2024年，班图族的札那人为博茨瓦纳的多数民族，占全国人口的70%，紧随为占11%的卡兰加人（英语：Kalanga people）（Kalanga）和占3%的桑人。其余7%分别为博茨瓦纳白人或欧裔博茨瓦纳人、印度人移民及从莫桑比克、肯尼亚、坦桑尼亚、毛里求斯和南非等非洲国家迁来的印度人后代，以及其他规模较小的非洲南部族群。另外自2000年起，数以万计的津巴布韦人因津巴布韦经济状况恶化而进入博茨瓦纳境内。博茨瓦纳有以下八个主要的酋长部落社群：恩瓦托（英语：Ngwato_tribe）（Bangwato）、昆纳（英语：Kwena clan）（Bakwena）、恩瓦凯策（英语：Bangwaketse）（Bangwaketse）、塔瓦纳（英语：Batawana people）（Batawana）、卡特拉（Bakgatla）、莱特（Balete）、罗龙（Barolong）和特罗夸（英语：Tlôkwa people）（Batlokwa）。恩瓦托族最大，约占人口的40％。欧洲人和亚洲人约1万人。\n现时维持狩猎采集传统生活方式的桑人仅剩不足一万人，且桑人等原住民一直面临威胁其共同体文化存续的土地丧失问题。自上世纪九十年代中起，博茨瓦纳中央政府就一直尝试以保护自然生态为由将桑人迁移出其世代居住、被划为卡拉哈里中部野生动物保护区的祖传土地，使桑人被迫放弃传统的生活方式。人权组织质疑博茨瓦纳政府针对桑人的驱逐是为了采矿利益，因桑人居住地为钻石矿产丰富的地区，但博茨瓦纳政府予以否认。\n多数居民信奉新教和天主教，农村地区部分居民信奉传统宗教。 圣公宗、循道宗和非洲南部联合公理宗教会构成了博茨瓦纳基督宗教的多数，此外尚有其他基督宗教的教会宗派。根据 2001 年的人口普查，该国亦有约5,000 名穆斯林（主要来自南亚）、3,000名印度教徒和700名巴哈伊教徒。另外博茨瓦纳境内约20%的人没有宗教信仰。\n博茨瓦纳艾滋病毒高发的潜在原因包括同时发生性伙伴关系，性交易，跨代性行为，以及大量在外地工作的人, 拥有较多的婚外性行为则进一步影响了健康状况。",
+      "chars": 1200
+    },
+    {
+      "section": "语言",
+      "text": "博茨瓦纳的官方语言为英语，而通用语言为茨瓦纳语和英语。茨瓦纳语的前缀比许多语言更为重要，因为塞茨瓦纳语作为一种班图语，名词会以前缀表示该词汇的类别。比如前缀Bo指国家；前缀Ba指人民；前缀Mo指一个人；前缀Se指语言。因此博茨瓦纳人在茨瓦纳语当中称作Motswana（单数）或Batswana（众数），同时又称Tswana。他们的国家称作Botswana，他们的语言则称作Setswana。除了博茨瓦纳语，卡兰加语（英语：Kalanga language）、塞萨尔瓦语（英语：Tshwa language） 、北恩德贝莱语、卡格拉格帝语（英语：Kgalagadi_language）、北索托语、宏语、耶伊语（英语：Yeyi language）、阿非利卡语都有人使用。",
+      "chars": 698
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Gnus zebras chobe national park.jpg",
+      "caption_zh": "乔贝国家公园的角马与斑马",
+      "caption": "乔贝国家公园的角马与斑马",
+      "caption_commons": "Gnus and Zebras in Chobe National Park, Botswana",
+      "kw": "Chobe National Park Botswana",
+      "url": "assets/bw/L02.webp",
+      "thumb_url": "assets/bw/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Gnus_zebras_chobe_national_park.jpg/1920px-Gnus_zebras_chobe_national_park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Gorgo",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 163338,
+      "caption_zh_manual": "乔贝国家公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8326,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 847KB JPEG)"
+    },
+    {
+      "title": "File:Flamingo migration Makgadikgadi Pan.jpg",
+      "caption_zh": "马卡迪卡迪盐沼火烈鸟迁徙",
+      "caption": "马卡迪卡迪盐沼火烈鸟迁徙",
+      "caption_commons": "The Makgadikgadi Salt Pans in Botswana are one of the most important breeding si",
+      "kw": "Makgadikgadi Pan Botswana",
+      "url": "assets/bw/L03.webp",
+      "thumb_url": "assets/bw/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Flamingo_migration_Makgadikgadi_Pan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "ed glickman from edina, usa",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 89024,
+      "caption_zh_manual": "马卡迪卡迪盐沼",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4808,
+      "size": {
+        "detail": "1020x805",
+        "thumb": "228x180"
+      },
+      "encoding": "webp q75/q78 (源 1020x805 454KB JPEG)"
+    },
+    {
+      "title": "File:Tsodilo Hills rock paintings1.jpg",
+      "caption_zh": "措迪洛山岩画局部",
+      "caption": "措迪洛山岩画局部",
+      "caption_commons": "Rock paintings in Tsodilo Hills, Botswana",
+      "kw": "Tsodilo Hills Botswana",
+      "url": "assets/bw/L04.webp",
+      "thumb_url": "assets/bw/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Tsodilo_Hills_rock_paintings1.jpg/1920px-Tsodilo_Hills_rock_paintings1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Joachim Huber",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 272694,
+      "caption_zh_manual": "措迪洛山岩画",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10922,
+      "size": {
+        "detail": "1080x718",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1277 1139KB JPEG)"
+    },
+    {
+      "title": "File:Kalahari.png",
+      "caption_zh": "卡拉哈里沙漠",
+      "caption": "卡拉哈里沙漠",
+      "caption_commons": "NASA World Wind 1.4 used.",
+      "kw": "Kalahari Desert Botswana",
+      "url": "assets/bw/L05.webp",
+      "thumb_url": "assets/bw/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kalahari.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Emilfarb at English Wikipedia",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 35070,
+      "caption_zh_manual": "卡拉哈里沙漠",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3348,
+      "size": {
+        "detail": "608x728",
+        "thumb": "150x180"
+      },
+      "encoding": "webp q75/q78 (源 608x728 672KB JPEG)"
+    },
+    {
+      "title": "File:Moremi elephant.jpg",
+      "caption_zh": "莫雷米野生动物保护区大象",
+      "caption": "莫雷米野生动物保护区大象",
+      "caption_commons": "Elephant crossing the road in Moremi Wildlife Reserve, Botswana.",
+      "kw": "Moremi Game Reserve Botswana",
+      "url": "assets/bw/L06.webp",
+      "thumb_url": "assets/bw/L06.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Moremi_elephant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Ian Sewell",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 144118,
+      "caption_zh_manual": "莫雷米野生动物保护区",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11882,
+      "size": {
+        "detail": "969x639",
+        "thumb": "240x158"
+      },
+      "encoding": "webp q75/q78 (源 969x639 609KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:36:53+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Botswana.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Botswana.wav、LL-Q22809485 (apc)-Hassan Hassoon-بوتسوانا.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py BW",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "奥卡万戈三角洲：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "卡拉哈里沙漠",
+        "evidence": "卡拉哈里沙漠则覆盖了该国大约70%的领土"
+      },
+      {
+        "v": "台地地形",
+        "evidence": "干燥与平坦的台地地形为该国主要地貌"
+      },
+      {
+        "v": "钻石开采",
+        "evidence": "钻石产量位居全球前列"
+      },
+      {
+        "v": "茨瓦纳语",
+        "evidence": "茨瓦纳语：Lefatshe la Botswana"
+      },
+      {
+        "v": "卡宗古拉大桥",
+        "evidence": "卡宗古拉大桥一处与赞比亚"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "博茨瓦纳共和国（英语：Republic of Botswana；茨瓦纳语：Lefatshe la Botswana），通称博茨瓦纳（Botswana），是位于非洲南部的内陆国家，干燥与平坦的台地地形为该国主要地貌，卡拉哈里沙漠则覆盖了该国大约70%的领土。博茨瓦纳南邻南非，西边为纳米比亚，东北与津巴布韦接壤，其国土北端只有在卡宗古拉附近的卡宗古拉大桥一处与赞比亚在赞比西河边界相接壤。波扎那自1966年塞雷茨·卡马领导该国从英国独立以来未曾遭遇重大动荡。博茨瓦纳的经济产业由旅游业和采矿业所主导，其钻石开采业相较于非洲其他地区投资环境较佳，钻石产量位居全球前列；另外博茨瓦纳以拥有良好的个人自由著称，在新闻自由和个人财产权的保障上具显著优势，皆有助吸引外国投资及促进国际交流。\n博茨瓦纳面积与法国本土和肯尼亚相略，人口略高于241万，人口密度较低，大约11.6%的人口生活在首都和最大的城市哈博罗内。该国实际上是以茨瓦纳族（Tswana）为主体的民族国家，茨瓦纳族约占全国人口的80%，另尚有占11%的卡兰加人（Kalanga），为境内最大的少数民族。",
+  "history_text": "科伊桑人早已分布于非洲南部，三至六世纪班图人在此定居，十三至十四世纪茨瓦纳人分批迁入。十九世纪后期欧洲列强瓜分非洲，英国于柏林西非会议后远征此地，说服酋长接受统治，建立贝专纳保护国。此后南非联邦成立，南非政府屡次图谋将其并入，终未成事。",
+  "custom_text": "北部的农村妇女用非洲棕榈树和当地染料编出颜色鲜艳的织篮，有盖的储物，无盖的顶在头上搬运或扬谷脱粒，小织盘用来碾碎谷物。音乐以声乐和表演为主，弦乐之外偶配鼓，塞廷卡内琴、塞凡库鲁琴与哨常在庆典上响起，phathisi 舞里表演者边唱边拍手。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 118,
+      "folk": 119
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "博茨瓦纳在哪儿啊？周围都是哪些国家？",
+      "a": "博茨瓦纳是非洲南部的内陆国家，南边挨着南非，西边是纳米比亚，东北和津巴布韦接壤，北端在卡宗古拉大桥那里和赞比亚隔着赞比西河相连。",
+      "tags": [
+        "非洲",
+        "位置",
+        "邻国",
+        "内陆国"
+      ]
+    },
+    {
+      "q": "博茨瓦纳的首都是哪个城市？",
+      "a": "首都是哈博罗内，也是该国最大的城市，大约11.6%的人口住在那儿。",
+      "tags": [
+        "首都",
+        "哈博罗内",
+        "城市"
+      ]
+    },
+    {
+      "q": "博茨瓦纳面积多大？人口多少？",
+      "a": "面积和法国本土、肯尼亚差不多，人口略高于241万，人口密度比较低。",
+      "tags": [
+        "面积",
+        "人口",
+        "多大"
+      ]
+    },
+    {
+      "q": "博茨瓦纳主要说什么语言？",
+      "a": "官方语言是英语，当地茨瓦纳族也讲茨瓦纳语，国名全称里就有这两种语言的写法。",
+      "tags": [
+        "语言",
+        "英语",
+        "说什么话",
+        "方言"
+      ]
+    },
+    {
+      "q": "博茨瓦纳有什么值得去看的自然景观？",
+      "a": "有乔贝国家公园、马卡迪卡迪盐沼、措迪洛山岩画、卡拉哈里沙漠和莫雷米野生动物保护区，沙漠覆盖了大约70%的国土。",
+      "tags": [
+        "景点",
+        "看什么",
+        "沙漠",
+        "国家公园",
+        "岩画"
+      ]
+    },
+    {
+      "q": "博茨瓦纳的地形和地貌是什么样的？",
+      "a": "主要是干燥平坦的台地地形，卡拉哈里沙漠覆盖了大约70%的领土。",
+      "tags": [
+        "地形",
+        "地貌",
+        "沙漠",
+        "干燥"
+      ]
+    },
+    {
+      "q": "博茨瓦纳经济靠什么？",
+      "a": "经济由旅游业和采矿业主导，钻石开采业投资环境较好，钻石产量位居全球前列。",
+      "tags": [
+        "经济",
+        "钻石",
+        "旅游",
+        "矿业"
+      ]
+    },
+    {
+      "q": "博茨瓦纳主要民族有哪些？",
+      "a": "以茨瓦纳族为主体，约占全国人口的80%，另外卡兰加人约占11%，是境内最大的少数民族。",
+      "tags": [
+        "民族",
+        "茨瓦纳族",
+        "卡兰加人",
+        "人口构成"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        2526,
+        -1779
+      ],
+      [
+        2526,
+        -1800
+      ],
+      [
+        2594,
+        -1892
+      ],
+      [
+        2595,
+        -1910
+      ],
+      [
+        2616,
+        -1954
+      ],
+      [
+        2630,
+        -1958
+      ],
+      [
+        2631,
+        -1965
+      ],
+      [
+        2671,
+        -1993
+      ],
+      [
+        2720,
+        -2009
+      ],
+      [
+        2727,
+        -2050
+      ],
+      [
+        2770,
+        -2051
+      ],
+      [
+        2767,
+        -2107
+      ],
+      [
+        2799,
+        -2155
+      ],
+      [
+        2862,
+        -2165
+      ],
+      [
+        2904,
+        -2180
+      ],
+      [
+        2904,
+        -2202
+      ],
+      [
+        2935,
+        -2219
+      ],
+      [
+        2904,
+        -2222
+      ],
+      [
+        2893,
+        -2244
+      ],
+      [
+        2882,
+        -2249
+      ],
+      [
+        2830,
+        -2260
+      ],
+      [
+        2775,
+        -2322
+      ],
+      [
+        2761,
+        -2322
+      ],
+      [
+        2755,
+        -2336
+      ],
+      [
+        2713,
+        -2352
+      ],
+      [
+        2697,
+        -2372
+      ],
+      [
+        2684,
+        -2427
+      ],
+      [
+        2653,
+        -2446
+      ],
+      [
+        2640,
+        -2463
+      ],
+      [
+        2587,
+        -2475
+      ],
+      [
+        2566,
+        -2544
+      ],
+      [
+        2546,
+        -2571
+      ],
+      [
+        2466,
+        -2582
+      ],
+      [
+        2434,
+        -2575
+      ],
+      [
+        2418,
+        -2563
+      ],
+      [
+        2392,
+        -2563
+      ],
+      [
+        2346,
+        -2528
+      ],
+      [
+        2303,
+        -2530
+      ],
+      [
+        2284,
+        -2548
+      ],
+      [
+        2271,
+        -2600
+      ],
+      [
+        2254,
+        -2621
+      ],
+      [
+        2225,
+        -2635
+      ],
+      [
+        2206,
+        -2662
+      ],
+      [
+        2178,
+        -2668
+      ],
+      [
+        2177,
+        -2679
+      ],
+      [
+        2166,
+        -2686
+      ],
+      [
+        2091,
+        -2680
+      ],
+      [
+        2069,
+        -2689
+      ],
+      [
+        2060,
+        -2649
+      ],
+      [
+        2084,
+        -2613
+      ],
+      [
+        2064,
+        -2563
+      ],
+      [
+        2066,
+        -2547
+      ],
+      [
+        2036,
+        -2503
+      ],
+      [
+        1998,
+        -2475
+      ],
+      [
+        1998,
+        -2200
+      ],
+      [
+        2098,
+        -2196
+      ],
+      [
+        2098,
+        -1832
+      ],
+      [
+        2329,
+        -1800
+      ],
+      [
+        2361,
+        -1848
+      ],
+      [
+        2392,
+        -1820
+      ],
+      [
+        2435,
+        -1796
+      ],
+      [
+        2456,
+        -1805
+      ],
+      [
+        2495,
+        -1779
+      ],
+      [
+        2526,
+        -1779
+      ]
+    ]
+  ]
+}

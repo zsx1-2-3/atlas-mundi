@@ -1,1 +1,393 @@
-{"qid":"Q781","iso_a2":"AG","iso_a3":"ATG","name_zh":"安提瓜和巴布达","name_en":"Antigua and Barbuda","capital":"聖約翰","continent":"北美洲","centroid":[-61.85,17.1167],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/ag/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Antigua and Barbuda, a twin-island nation whose capital, Saint John's, rests on the northwest shore of Antigua, where the historic dockyard at Nelson's Dockyard still recalls the age of sail.","tts_text_zh":"欢迎来到安提瓜和巴布达，这个双岛之国的首都圣约翰位于安提瓜岛西北岸，纳尔逊造船厂的历史船坞至今仍让人想起帆船时代。","audio_voice":"en-US-AriaNeural","audio_bytes":76752},{"code":"es","name_zh":"西班牙语","name_local":"西班牙语","role":"official","audio_url":"assets/ag/audio/es.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenidos a Antigua y Barbuda, una nación de dos islas cuya capital, Saint John's, se asoma a la costa noroeste de Antigua, cerca del histórico astillero de Nelson's Dockyard, que aún evoca la época de la vela.","tts_text_zh":"欢迎来到安提瓜和巴布达，这个双岛之国的首都圣约翰濒临安提瓜岛西北岸，附近的纳尔逊造船厂历史船坞至今仍令人想起帆船时代。","audio_voice":"es-AR-ElenaNeural","audio_bytes":84528}],"summary_text":"安提瓜和巴布达是中美洲的一个岛国，位于加勒比海和大西洋之间，往南邻近法属瓜德罗普，西南方向靠近英属蒙特塞拉特，西面则为圣基茨和尼维斯，其国际代码为AG。安提瓜和巴布达是背风群岛的一部分，有两个主要的岛屿，分别是安提瓜岛和巴布达岛，还有一些更小的岛屿。安提瓜和巴布达是世界上人口最少的国家之一，根据2021年数据，安巴共有人口9.9万，绝大多数为非裔。英语为官方语言和通用语，多数居民信奉基督教。最早在安提瓜岛和巴布达岛定居的人是西波内人，他们早在前25世纪就已经在这里居住了，后来阿拉瓦人把他们排挤掉了。好战的加勒比人后来虽然占据了安提瓜和巴布达周围的岛屿，但没有占据这两个岛。1493年克里斯托弗·哥伦布在他的第二次新世界航行中在安提瓜登陆，他以巴利亚多利德古老的圣玛丽亚教堂将这个岛命名为古老的圣玛丽亚，但西班牙并没有在此殖民，因为安提瓜岛缺乏淡水，还有好战的加勒比人。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":387,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%AE%89%E6%8F%90%E7%93%9C%E5%92%8C%E5%B7%B4%E5%B8%83%E8%BE%BE","title":"安提瓜和巴布达"},"culture_excerpts":[{"section":"历史","text":"最早在安提瓜岛和巴布达岛定居的人是西波内人（Ciboney），他们早在前25世纪就已经在这里居住了。后来阿拉瓦人把他们排挤掉了。好战的加勒比人后来虽然占据了安提瓜和巴布达周围的岛屿，但没有占据这两个岛。1493年克里斯托弗·哥伦布在他的第二次新世界航行中在安提瓜登陆，他以巴利亚多利德古老的圣玛丽亚教堂（英语：Santa_María_La_Antigua）将这个岛命名为古老的圣玛丽亚（西班牙语：Santa María La Antigua）。但西班牙并没有在此殖民，因为安提瓜岛缺乏淡水，还有好战的加勒比人。1632年开始，英国人攻占安提瓜岛，至1634年攻占邻近的巴布达岛，自此开始安提瓜长达三世纪余的殖民历史。1939年，安提瓜商工会组成。1946年，从这个工会中演变出的安提瓜工党参加竞选，至1951年工党始成为长期的执政党，直到2004年大选联合进步党获胜。联合进步党执政到2014年，工党当年再次夺回政权。1981年，安提瓜和巴布达成为英联邦王国中的一个独立国家，国家元首是安提瓜和巴布达君主。","chars":453},{"section":"文化、体育与宗教","text":"安提瓜和巴布达的文化主要受到英国和非洲传统的影响。国球是板球，曾经于2007年举办板球世界杯。足球、帆船等也是很受欢迎的运动。\n布伦丹·克里斯蒂安在2007年泛美运动会夺得100米铜牌和200米金牌。詹姆斯·格雷曼（英语：James Grayman）在跳高夺得铜牌。","chars":1200}],"landmark_images":[{"title":"File:Nelson's_Dockyard.jpg","caption_zh":"纳尔逊船坞","caption":"纳尔逊船坞","caption_commons":"Nelson's Dockyard was built between 1743 and 1889 at English Harbour on the sout","kw":"Nelson's Dockyard Antigua","url":"assets/ag/L01.webp","thumb_url":"assets/ag/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/f/f1/Nelson%27s_Dockyard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikipedia_lead","pick_tier":"strict","author":"David Stanley","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":62278,"caption_zh_manual":"纳尔逊船坞","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22538,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1024x768 125KB JPEG)"},{"title":"File:Shirley Height.jpg","caption_zh":"雪莉高地","caption":"雪莉高地","caption_commons":"Antigua This military complex, within a short distance of the Dockyard, is named","kw":"Shirley Heights Antigua","url":"assets/ag/L02.webp","thumb_url":"assets/ag/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Shirley_Height.jpg/1920px-Shirley_Height.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Thank You (23 Millions+) views","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":53516,"caption_zh_manual":"雪莉高地","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16428,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 624KB JPEG)"},{"title":"File:Antigua_Shirley's_Heights_English_Harbour.jpg","caption_zh":"安提瓜雪莉高地眺望英吉利港","caption":"安提瓜雪莉高地眺望英吉利港","caption_commons":"Antigua: View of English Harbour from Shirley’s Heights","kw":"English Harbour Antigua","url":"assets/ag/L03.webp","thumb_url":"assets/ag/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Antigua_Shirley%27s_Heights_English_Harbour.jpg/1920px-Antigua_Shirley%27s_Heights_English_Harbour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikipedia_lead","pick_tier":"strict","author":"Dr. Thomas Liptak","license":"CC BY 4.0","license_url":"https://creativecommons.org/licenses/by/4.0","license_status":"ok","load_verified":true,"bytes":79236,"caption_zh_manual":"英吉利港","caption_zh_source":"llm_from_commons_filename","thumb_bytes":23420,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 741KB JPEG)"},{"title":"File:Half Moon Bay Antigua and Barbuda.jpg","caption_zh":"安提瓜和巴布达半月湾","caption":"安提瓜和巴布达半月湾","caption_commons":"Half Moon Bay Antigua","kw":"Half Moon Bay Antigua","url":"assets/ag/L04.webp","thumb_url":"assets/ag/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Half_Moon_Bay_Antigua_and_Barbuda.jpg/1920px-Half_Moon_Bay_Antigua_and_Barbuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Dario Item","license":"CC0","license_url":"http://creativecommons.org/publicdomain/zero/1.0/deed.en","license_status":"ok","load_verified":true,"bytes":15580,"caption_zh_manual":"半月湾","caption_zh_source":"llm_from_commons_filename","thumb_bytes":3760,"size":{"detail":"760x466","thumb":"400x245"},"encoding":"webp q72/q74 (源 1920x1176 432KB JPEG)"},{"title":"File:Antigua Pares Betty's Hope Historic Sugar Plantation 1.jpg","caption_zh":"贝蒂海滩历史甘蔗种植园","caption":"贝蒂海滩历史甘蔗种植园","caption_commons":"Antigua: Betty's Hope Historic Sugar Plantation","kw":"Betty's Hope Antigua","url":"assets/ag/L06.webp","thumb_url":"assets/ag/L06.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Antigua_Pares_Betty%27s_Hope_Historic_Sugar_Plantation_1.jpg/1920px-Antigua_Pares_Betty%27s_Hope_Historic_Sugar_Plantation_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Dr. Thomas Liptak","license":"CC BY 4.0","license_url":"https://creativecommons.org/licenses/by/4.0","license_status":"ok","load_verified":true,"bytes":61412,"caption_zh_manual":"贝蒂海滩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18792,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 582KB JPEG)"}],"image_license":"CC BY 2.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:26:04+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Antigua a Barbuda.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Antigua și Barbuda.wav、LL-Q33810 (ori)-Psubhashish-ଆଣ୍ଟିଗୁଆ ଓ ବରବୁଡା.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py AG","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","雪莉高地观景台：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（5 张，中文图注）","LLM 质检[error] languages：西班牙语不是安提瓜和巴布达的官方语言，官方语言只有英语 → 删除西班牙语条目","LLM 质检[warn] summary_head：称其为中美洲国家，与 continent 北美洲及加勒比海定位不一致 → 改为加勒比海地区岛国"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"基督教","evidence":"多数居民信奉基督教"},{"v":"英语为官方语言和通用语","evidence":"英语为官方语言和通用语"}],"architecture":[],"heritage":[],"keywords":[{"v":"加勒比海","evidence":"位于加勒比海和大西洋之间"},{"v":"背风群岛","evidence":"是背风群岛的一部分"},{"v":"安提瓜岛","evidence":"分别是安提瓜岛和巴布达岛"},{"v":"巴布达岛","evidence":"分别是安提瓜岛和巴布达岛"},{"v":"英语","evidence":"英语为官方语言和通用语"}],"model":"deepseek-flash"},"summary_text_raw":"安提瓜和巴布达（英语：Antigua and Barbuda）是中美洲的一个岛国，位于加勒比海和大西洋之间，往南邻近法属瓜德罗普，西南方向靠近英属蒙特塞拉特，西面则为圣基茨和尼维斯，其国际代码为AG。安提瓜和巴布达有两个主要的岛屿，分别是安提瓜岛和巴布达岛，还有一些更小的岛屿。安提瓜和巴布达是背风群岛的一部分。\n安提瓜和巴布达是世界上人口最少的国家之一。根据2021年数据，安巴共有人口9.9万，绝大多数为非裔。英语为官方语言和通用语。多数居民信奉基督教。\n\n\n== 历史 ==\n\n最早在安提瓜岛和巴布达岛定居的人是西波内人（Ciboney），他们早在前25世纪就已经在这里居住了。后来阿拉瓦人把他们排挤掉了。好战的加勒比人后来虽然占据了安提瓜和巴布达周围的岛屿，但没有占据这两个岛。\n1493年克里斯托弗·哥伦布在他的第二次新世界航行中在安提瓜登陆，他以巴利亚多利德古老的圣玛丽亚教堂将这个岛命名为古老的圣玛丽亚（西班牙语：Santa María La Antigua）。但西班牙并没有在此殖民，因为安提瓜岛缺乏淡水，还有好战的加勒比人。","history_text":"西波内人早在前25世纪已定居岛上，阿拉瓦人后来将他们排挤，好战的加勒比人虽占据周边岛屿却未占据这两座岛。1493年哥伦布第二次航行登陆安提瓜，以教堂之名命名，西班牙因缺水与加勒比人未在此殖民。1632年起英国人攻占安提瓜，1634年取巴布达，开启三世纪殖民。1981年成为英联邦王国中的独立国家。","custom_text":"板球是国球，球场与街巷的空地上常有人挥拍投球，国际赛事到来时全岛聚在收音机和看台边。足球与帆船同样受欢迎，海风与港湾让帆船成为日常风景。文化底色由英国传统与非洲传统交织而成，英语通行，多数居民信奉基督教，礼拜日的生活节奏由此展开。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":148,"folk":115}},"knowledge_qa":[{"q":"安提瓜和巴布达在哪儿啊？","a":"位于加勒比海和大西洋之间，属于北美洲，是背风群岛的一部分。南边靠近法属瓜德罗普，西南是英属蒙特塞拉特，西面是圣基茨和尼维斯。","tags":["位置","加勒比海","北美洲"]},{"q":"这个国家首都是哪里？","a":"首都叫聖約翰。","tags":["首都","聖約翰"]},{"q":"他们主要说什么语言？","a":"官方语言是英语和西班牙语，其中英语也是通用语。","tags":["语言","英语","西班牙语"]},{"q":"安提瓜和巴布达有什么好玩的地标？","a":"值得看的有纳尔逊船坞、雪莉高地、英吉利港、半月湾和贝蒂海滩。","tags":["地标","景点","纳尔逊船坞","海滩"]},{"q":"那边人口多吗？","a":"人口很少，2021年数据是9.9万，是世界上人口最少的国家之一，绝大多数是非裔。","tags":["人口","多少人"]},{"q":"当地居民信什么教？","a":"多数居民信奉基督教。","tags":["宗教","基督教"]},{"q":"安提瓜和巴布达由哪些岛组成？","a":"主要有两个大岛：安提瓜岛和巴布达岛，还有一些更小的岛屿。","tags":["岛屿","安提瓜岛","巴布达岛"]},{"q":"这个国家有什么历史故事？","a":"最早是西波内人定居，后来阿拉瓦人排挤他们。1493年哥伦布第二次航行时登陆安提瓜，用教堂名字命名，但西班牙没殖民，因为缺淡水还有好战的加勒比人。","tags":["历史","哥伦布"]}],"llm_audit":{"issues":[{"field":"languages","severity":"error","why":"西班牙语不是安提瓜和巴布达的官方语言，官方语言只有英语","suggest":"删除西班牙语条目"},{"field":"summary_head","severity":"warn","why":"称其为中美洲国家，与 continent 北美洲及加勒比海定位不一致","suggest":"改为加勒比海地区岛国"}],"overall":"fail"},"audio_meta":{},"outline":[[[-6188,1705],[-6182,1717],[-6167,1708],[-6174,1699],[-6188,1705]],[[-6184,1759],[-6184,1773],[-6173,1759],[-6184,1759]]]}
+{
+  "qid": "Q781",
+  "iso_a2": "AG",
+  "iso_a3": "ATG",
+  "name_zh": "安提瓜和巴布达",
+  "name_en": "Antigua and Barbuda",
+  "capital": "聖約翰",
+  "continent": "北美洲",
+  "centroid": [
+    -61.85,
+    17.1167
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/ag/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Antigua and Barbuda, a twin-island nation whose capital, Saint John's, rests on the northwest shore of Antigua, where the historic dockyard at Nelson's Dockyard still recalls the age of sail.",
+      "tts_text_zh": "欢迎来到安提瓜和巴布达，这个双岛之国的首都圣约翰位于安提瓜岛西北岸，纳尔逊造船厂的历史船坞至今仍让人想起帆船时代。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 76752
+    },
+    {
+      "code": "es",
+      "name_zh": "西班牙语",
+      "name_local": "西班牙语",
+      "role": "official",
+      "audio_url": "assets/ag/audio/es.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenidos a Antigua y Barbuda, una nación de dos islas cuya capital, Saint John's, se asoma a la costa noroeste de Antigua, cerca del histórico astillero de Nelson's Dockyard, que aún evoca la época de la vela.",
+      "tts_text_zh": "欢迎来到安提瓜和巴布达，这个双岛之国的首都圣约翰濒临安提瓜岛西北岸，附近的纳尔逊造船厂历史船坞至今仍令人想起帆船时代。",
+      "audio_voice": "es-AR-ElenaNeural",
+      "audio_bytes": 84528
+    }
+  ],
+  "summary_text": "安提瓜和巴布达是中美洲的一个岛国，位于加勒比海和大西洋之间，往南邻近法属瓜德罗普，西南方向靠近英属蒙特塞拉特，西面则为圣基茨和尼维斯，其国际代码为AG。安提瓜和巴布达是背风群岛的一部分，有两个主要的岛屿，分别是安提瓜岛和巴布达岛，还有一些更小的岛屿。安提瓜和巴布达是世界上人口最少的国家之一，根据2021年数据，安巴共有人口9.9万，绝大多数为非裔。英语为官方语言和通用语，多数居民信奉基督教。最早在安提瓜岛和巴布达岛定居的人是西波内人，他们早在前25世纪就已经在这里居住了，后来阿拉瓦人把他们排挤掉了。好战的加勒比人后来虽然占据了安提瓜和巴布达周围的岛屿，但没有占据这两个岛。1493年克里斯托弗·哥伦布在他的第二次新世界航行中在安提瓜登陆，他以巴利亚多利德古老的圣玛丽亚教堂将这个岛命名为古老的圣玛丽亚，但西班牙并没有在此殖民，因为安提瓜岛缺乏淡水，还有好战的加勒比人。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 387,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E6%8F%90%E7%93%9C%E5%92%8C%E5%B7%B4%E5%B8%83%E8%BE%BE",
+    "title": "安提瓜和巴布达"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "最早在安提瓜岛和巴布达岛定居的人是西波内人（Ciboney），他们早在前25世纪就已经在这里居住了。后来阿拉瓦人把他们排挤掉了。好战的加勒比人后来虽然占据了安提瓜和巴布达周围的岛屿，但没有占据这两个岛。1493年克里斯托弗·哥伦布在他的第二次新世界航行中在安提瓜登陆，他以巴利亚多利德古老的圣玛丽亚教堂（英语：Santa_María_La_Antigua）将这个岛命名为古老的圣玛丽亚（西班牙语：Santa María La Antigua）。但西班牙并没有在此殖民，因为安提瓜岛缺乏淡水，还有好战的加勒比人。1632年开始，英国人攻占安提瓜岛，至1634年攻占邻近的巴布达岛，自此开始安提瓜长达三世纪余的殖民历史。1939年，安提瓜商工会组成。1946年，从这个工会中演变出的安提瓜工党参加竞选，至1951年工党始成为长期的执政党，直到2004年大选联合进步党获胜。联合进步党执政到2014年，工党当年再次夺回政权。1981年，安提瓜和巴布达成为英联邦王国中的一个独立国家，国家元首是安提瓜和巴布达君主。",
+      "chars": 453
+    },
+    {
+      "section": "文化、体育与宗教",
+      "text": "安提瓜和巴布达的文化主要受到英国和非洲传统的影响。国球是板球，曾经于2007年举办板球世界杯。足球、帆船等也是很受欢迎的运动。\n布伦丹·克里斯蒂安在2007年泛美运动会夺得100米铜牌和200米金牌。詹姆斯·格雷曼（英语：James Grayman）在跳高夺得铜牌。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Nelson's_Dockyard.jpg",
+      "caption_zh": "纳尔逊船坞",
+      "caption": "纳尔逊船坞",
+      "caption_commons": "Nelson's Dockyard was built between 1743 and 1889 at English Harbour on the sout",
+      "kw": "Nelson's Dockyard Antigua",
+      "url": "assets/ag/L01.webp",
+      "thumb_url": "assets/ag/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Nelson%27s_Dockyard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikipedia_lead",
+      "pick_tier": "strict",
+      "author": "David Stanley",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 98506,
+      "caption_zh_manual": "纳尔逊船坞",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10372,
+      "size": {
+        "detail": "1024x768",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1024x768 125KB JPEG)"
+    },
+    {
+      "title": "File:Shirley Height.jpg",
+      "caption_zh": "雪莉高地",
+      "caption": "雪莉高地",
+      "caption_commons": "Antigua This military complex, within a short distance of the Dockyard, is named",
+      "kw": "Shirley Heights Antigua",
+      "url": "assets/ag/L02.webp",
+      "thumb_url": "assets/ag/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Shirley_Height.jpg/1920px-Shirley_Height.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Thank You (23 Millions+) views",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 109932,
+      "caption_zh_manual": "雪莉高地",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7506,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 624KB JPEG)"
+    },
+    {
+      "title": "File:Antigua_Shirley's_Heights_English_Harbour.jpg",
+      "caption_zh": "安提瓜雪莉高地眺望英吉利港",
+      "caption": "安提瓜雪莉高地眺望英吉利港",
+      "caption_commons": "Antigua: View of English Harbour from Shirley’s Heights",
+      "kw": "English Harbour Antigua",
+      "url": "assets/ag/L03.webp",
+      "thumb_url": "assets/ag/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Antigua_Shirley%27s_Heights_English_Harbour.jpg/1920px-Antigua_Shirley%27s_Heights_English_Harbour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikipedia_lead",
+      "pick_tier": "strict",
+      "author": "Dr. Thomas Liptak",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 157118,
+      "caption_zh_manual": "英吉利港",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9858,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 741KB JPEG)"
+    },
+    {
+      "title": "File:Half Moon Bay Antigua and Barbuda.jpg",
+      "caption_zh": "安提瓜和巴布达半月湾",
+      "caption": "安提瓜和巴布达半月湾",
+      "caption_commons": "Half Moon Bay Antigua",
+      "kw": "Half Moon Bay Antigua",
+      "url": "assets/ag/L04.webp",
+      "thumb_url": "assets/ag/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Half_Moon_Bay_Antigua_and_Barbuda.jpg/1920px-Half_Moon_Bay_Antigua_and_Barbuda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Dario Item",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 44844,
+      "caption_zh_manual": "半月湾",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 1792,
+      "size": {
+        "detail": "1080x662",
+        "thumb": "240x147"
+      },
+      "encoding": "webp q75/q78 (源 1920x1176 432KB JPEG)"
+    },
+    {
+      "title": "File:Antigua Pares Betty's Hope Historic Sugar Plantation 1.jpg",
+      "caption_zh": "贝蒂海滩历史甘蔗种植园",
+      "caption": "贝蒂海滩历史甘蔗种植园",
+      "caption_commons": "Antigua: Betty's Hope Historic Sugar Plantation",
+      "kw": "Betty's Hope Antigua",
+      "url": "assets/ag/L06.webp",
+      "thumb_url": "assets/ag/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Antigua_Pares_Betty%27s_Hope_Historic_Sugar_Plantation_1.jpg/1920px-Antigua_Pares_Betty%27s_Hope_Historic_Sugar_Plantation_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Dr. Thomas Liptak",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 119084,
+      "caption_zh_manual": "贝蒂海滩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8274,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 582KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY 2.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:26:04+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Antigua a Barbuda.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Antigua și Barbuda.wav、LL-Q33810 (ori)-Psubhashish-ଆଣ୍ଟିଗୁଆ ଓ ବରବୁଡା.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py AG",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "雪莉高地观景台：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "LLM 质检[error] languages：西班牙语不是安提瓜和巴布达的官方语言，官方语言只有英语 → 删除西班牙语条目",
+    "LLM 质检[warn] summary_head：称其为中美洲国家，与 continent 北美洲及加勒比海定位不一致 → 改为加勒比海地区岛国"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "基督教",
+        "evidence": "多数居民信奉基督教"
+      },
+      {
+        "v": "英语为官方语言和通用语",
+        "evidence": "英语为官方语言和通用语"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "加勒比海",
+        "evidence": "位于加勒比海和大西洋之间"
+      },
+      {
+        "v": "背风群岛",
+        "evidence": "是背风群岛的一部分"
+      },
+      {
+        "v": "安提瓜岛",
+        "evidence": "分别是安提瓜岛和巴布达岛"
+      },
+      {
+        "v": "巴布达岛",
+        "evidence": "分别是安提瓜岛和巴布达岛"
+      },
+      {
+        "v": "英语",
+        "evidence": "英语为官方语言和通用语"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "安提瓜和巴布达（英语：Antigua and Barbuda）是中美洲的一个岛国，位于加勒比海和大西洋之间，往南邻近法属瓜德罗普，西南方向靠近英属蒙特塞拉特，西面则为圣基茨和尼维斯，其国际代码为AG。安提瓜和巴布达有两个主要的岛屿，分别是安提瓜岛和巴布达岛，还有一些更小的岛屿。安提瓜和巴布达是背风群岛的一部分。\n安提瓜和巴布达是世界上人口最少的国家之一。根据2021年数据，安巴共有人口9.9万，绝大多数为非裔。英语为官方语言和通用语。多数居民信奉基督教。\n\n\n== 历史 ==\n\n最早在安提瓜岛和巴布达岛定居的人是西波内人（Ciboney），他们早在前25世纪就已经在这里居住了。后来阿拉瓦人把他们排挤掉了。好战的加勒比人后来虽然占据了安提瓜和巴布达周围的岛屿，但没有占据这两个岛。\n1493年克里斯托弗·哥伦布在他的第二次新世界航行中在安提瓜登陆，他以巴利亚多利德古老的圣玛丽亚教堂将这个岛命名为古老的圣玛丽亚（西班牙语：Santa María La Antigua）。但西班牙并没有在此殖民，因为安提瓜岛缺乏淡水，还有好战的加勒比人。",
+  "history_text": "西波内人早在前25世纪已定居岛上，阿拉瓦人后来将他们排挤，好战的加勒比人虽占据周边岛屿却未占据这两座岛。1493年哥伦布第二次航行登陆安提瓜，以教堂之名命名，西班牙因缺水与加勒比人未在此殖民。1632年起英国人攻占安提瓜，1634年取巴布达，开启三世纪殖民。1981年成为英联邦王国中的独立国家。",
+  "custom_text": "板球是国球，球场与街巷的空地上常有人挥拍投球，国际赛事到来时全岛聚在收音机和看台边。足球与帆船同样受欢迎，海风与港湾让帆船成为日常风景。文化底色由英国传统与非洲传统交织而成，英语通行，多数居民信奉基督教，礼拜日的生活节奏由此展开。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 148,
+      "folk": 115
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "安提瓜和巴布达在哪儿啊？",
+      "a": "位于加勒比海和大西洋之间，属于北美洲，是背风群岛的一部分。南边靠近法属瓜德罗普，西南是英属蒙特塞拉特，西面是圣基茨和尼维斯。",
+      "tags": [
+        "位置",
+        "加勒比海",
+        "北美洲"
+      ]
+    },
+    {
+      "q": "这个国家首都是哪里？",
+      "a": "首都叫聖約翰。",
+      "tags": [
+        "首都",
+        "聖約翰"
+      ]
+    },
+    {
+      "q": "他们主要说什么语言？",
+      "a": "官方语言是英语和西班牙语，其中英语也是通用语。",
+      "tags": [
+        "语言",
+        "英语",
+        "西班牙语"
+      ]
+    },
+    {
+      "q": "安提瓜和巴布达有什么好玩的地标？",
+      "a": "值得看的有纳尔逊船坞、雪莉高地、英吉利港、半月湾和贝蒂海滩。",
+      "tags": [
+        "地标",
+        "景点",
+        "纳尔逊船坞",
+        "海滩"
+      ]
+    },
+    {
+      "q": "那边人口多吗？",
+      "a": "人口很少，2021年数据是9.9万，是世界上人口最少的国家之一，绝大多数是非裔。",
+      "tags": [
+        "人口",
+        "多少人"
+      ]
+    },
+    {
+      "q": "当地居民信什么教？",
+      "a": "多数居民信奉基督教。",
+      "tags": [
+        "宗教",
+        "基督教"
+      ]
+    },
+    {
+      "q": "安提瓜和巴布达由哪些岛组成？",
+      "a": "主要有两个大岛：安提瓜岛和巴布达岛，还有一些更小的岛屿。",
+      "tags": [
+        "岛屿",
+        "安提瓜岛",
+        "巴布达岛"
+      ]
+    },
+    {
+      "q": "这个国家有什么历史故事？",
+      "a": "最早是西波内人定居，后来阿拉瓦人排挤他们。1493年哥伦布第二次航行时登陆安提瓜，用教堂名字命名，但西班牙没殖民，因为缺淡水还有好战的加勒比人。",
+      "tags": [
+        "历史",
+        "哥伦布"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "languages",
+        "severity": "error",
+        "why": "西班牙语不是安提瓜和巴布达的官方语言，官方语言只有英语",
+        "suggest": "删除西班牙语条目"
+      },
+      {
+        "field": "summary_head",
+        "severity": "warn",
+        "why": "称其为中美洲国家，与 continent 北美洲及加勒比海定位不一致",
+        "suggest": "改为加勒比海地区岛国"
+      }
+    ],
+    "overall": "fail"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -6188,
+        1705
+      ],
+      [
+        -6182,
+        1717
+      ],
+      [
+        -6167,
+        1708
+      ],
+      [
+        -6174,
+        1699
+      ],
+      [
+        -6188,
+        1705
+      ]
+    ],
+    [
+      [
+        -6184,
+        1759
+      ],
+      [
+        -6184,
+        1773
+      ],
+      [
+        -6173,
+        1759
+      ],
+      [
+        -6184,
+        1759
+      ]
+    ]
+  ]
+}

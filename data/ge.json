@@ -1,1 +1,575 @@
-{"qid":"Q230","iso_a2":"GE","iso_a3":"GEO","name_zh":"格鲁吉亚","name_en":"Georgia","capital":"第比利斯","continent":"欧洲","centroid":[44,42],"centroid_source":"wikidata P625","languages":[{"code":"ru","name_zh":"俄语","name_local":"俄语","role":"spoken","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"ka","name_zh":"格鲁吉亚语","name_local":"格鲁吉亚语","role":"official","audio_url":"assets/ge/audio/ka.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"კეთილი იყოს თქვენი მობრძანება საქართველოში, რომლის დედაქალაქია თბილისი, ქალაქი, სადაც ძველი ტაძრები და თბილი ქუჩები ერთმანეთს ხვდება.","tts_text_zh":"欢迎来到格鲁吉亚，它的首都是第比利斯，一座古老教堂与温暖街巷相遇的城市。","_retried":true,"audio_voice":"ka-GE-EkaNeural","audio_bytes":51264}],"summary_text":"格鲁吉亚为跨洲国家，地跨欧亚两洲，主要国土位于亚洲，但因文化上深受欧洲影响，故也被认为是欧洲国家。格鲁吉亚位于南高加索地区的黑海沿岸，北邻俄罗斯，南部与土耳其、亚美尼亚、阿塞拜疆接壤，领土面积有69,700平方公里，包括阿布哈兹和南奥塞梯。人口有3,760,000（2023年人口统计），主要民族为格鲁吉亚族（70.1％），主要少数民族有亚美尼亚族、阿塞拜疆族和俄罗斯族等。官方语言为格鲁吉亚语，居民亦多通晓俄语；多数人信仰东正教，少数信仰伊斯兰教。格鲁吉亚曾经是苏联加盟共和国，是苏联领导人斯大林的故乡，1991年4月9日正式独立，首任总统兹维亚德·加姆萨胡尔季阿，独立后法定国名为“格鲁吉亚共和国”，1995年8月24日该国通过新宪法，国名定为“格鲁吉亚”，曾为独立国家联合体成员，因为俄格战争，格鲁吉亚根据议会2008年8月14日决议退出独联体，并于2009年8月18日完成手续，正式退出。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":398,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%B2%81%E5%90%89%E4%BA%9A","title":"格鲁吉亚"},"culture_excerpts":[{"section":"历史","text":"罗马帝国征服格鲁吉亚的部分地区，此后五、六百年间，罗马帝国与波斯帝国多次开战争夺格鲁吉亚地区的控制权，不过伊比利亚王国的王统持续存在，仅是交替成为罗马或波斯的附庸。公元337年，伊比利亚国王以基督教为国教，之后继于希腊文及叙利亚文的影响之下创制了格鲁吉亚文，促进了格鲁吉亚文艺、社会、民族认同的发展。580年萨珊波斯废黜了伊比利亚国王，之后与拜占庭帝国瓜分格鲁吉亚地区，设立总督以直接统治。645年左右阿拉伯人攻入格鲁吉亚，之后在第比利斯设立总督（埃米尔）开始统治。9世纪阿拉伯帝国走向衰落，格鲁吉亚贵族巴格拉季昂王朝崛起，统治格鲁吉亚西南部，并于888年加冕为王，但第比利斯等领土还在阿拉伯人手中。8世纪，阿布哈兹地区的王公也建立自己的政权，击溃阿拉伯人的入侵，并于778年加冕为王，9世纪走向衰落，最终巴格拉季昂王朝的巴格拉特三世（英语：Bagrat III of Georgia）以联姻兼并阿布哈兹，1010年再兼并了卡赫蒂，一统格鲁吉亚，建立格鲁吉亚王国。1122年，国王大卫四世击败塞尔柱军队，取得第比利斯。12-13世纪，格鲁吉亚王国走向兴盛，并在塔玛尔女王（1184-1213年在位）年间趋于鼎盛，领土扩及今日的亚美尼亚、土耳其西部、阿塞拜疆、伊朗西北部，文化也处于兴盛时期，民族史诗《黑豹皮骑士》也在这一时代写成。塔玛尔女王之后，格鲁吉亚开始衰落。1226年花剌子模的札兰丁曾攻占第比利斯，蒙古大军也随之到达。1243年，格鲁吉亚王国成为蒙古帝国的附庸，之后又成为伊儿汗国的附庸至1327年。此后格鲁吉亚受到黑死病的打击，地方贵族也渐渐不服从国王的号令。1386年以后，帖木儿帝国、黑羊王朝、白羊王朝等游牧王朝多次入侵格鲁吉亚，带来巨大的破坏，也使格鲁吉亚王国一蹶不振。1466年，原本统一的格鲁吉亚王国分裂为三个独立王国（卡尔特利王国、卡赫蒂王国、伊梅雷蒂王国）及五个半独立公国。16世纪后，奥斯曼帝国占领西部，东部则归属伊朗的萨法维王朝及后续王朝的统治。1762年，格鲁吉亚东部的卡尔特利王国与卡赫蒂王国实现统一，之后开始与俄国联系。1783年，沙俄与卡尔特利-卡赫蒂王国签订《乔治亚夫斯克条约》，规定卡尔特利-卡赫蒂成为俄国的保护国，但1801年，俄国违约吞并卡尔特利-卡赫蒂王国。1804年至1864年间，格鲁吉亚其他邦国相继被帝俄兼并，通过与奥斯曼帝国的战争，俄国也夺取了许多奥斯曼帝国治下的格鲁吉亚土地。1917年革命后，俄国陷入混乱。1918年4月成立包含着格鲁吉亚、亚美尼亚、阿塞拜疆的外高加索民主联邦共和国，5月就在奥斯曼帝国入侵下解体，随后在奥斯曼土耳其和德意志帝国保护下，乔治亚民主共和国于1918年5月26日成立。1920年，苏俄在《莫斯科条约》中承认格鲁吉亚独立，但1921年2、3月间，苏俄出兵占领乔治亚民主共和国，格鲁吉亚苏维埃政权建立，作为外高加索社会主义联邦苏维埃共和国与1922年加入苏联。1936年，联邦解散，格鲁吉亚苏维埃社会主义共和国成为苏联的加盟共和国。1985年戈尔巴乔夫出任苏联共产党中央委员会总书记成为苏联最高领导人后，大力提倡开放与改革政策，苏联各加盟共和国相继谋求脱离苏联；1990年，格鲁吉亚最高苏维埃决议苏联之联邦条约违法，并发表主权宣言，更改国名为格鲁吉亚共和国。1991年4月9日，宣布脱离苏联独立，加姆萨胡尔季阿出任首任总统。1991年8月，软禁前苏联领导人戈尔巴乔夫的夺权政变失败后，以俄罗斯为首之十一个苏联加盟共和国组成“独立国家联合体”，格鲁吉亚起初未加入，至1993年12月始加入。1992年1月，格鲁吉亚发生政变，加姆萨胡尔季阿被迫逃往车臣。3月，谢瓦尔德纳泽被指命为格鲁吉亚国家委员会执行主席。1995年11月，格鲁吉亚重建总统制，谢瓦尔德纳泽以70%的选票当选总统。1996年4月，“格鲁吉亚共和国”更名为格鲁吉亚。90年代中后期，由于车臣战争，俄罗斯与格鲁吉亚的关系恶化，俄罗斯指责格鲁吉亚收容车臣武装分子，导致格鲁吉亚倒向欧美。2008年8月12日，因俄罗斯入侵格鲁吉亚而宣布退出“独立国家联合体”。由于贪污腐败和经济萎靡不振，2003年格鲁吉亚发生玫瑰革命，总统爱德华·谢瓦纳兹下台。米哈伊尔·萨卡什维利接续后，继续了民族主义意识形态之外，更转向亲西方的政策。2008年8月7日，格鲁吉亚军队进攻与俄罗斯接邻的南奥塞梯自治区，试图将该地重纳入其政府军管辖之下。南奥塞梯战争由此爆发。2008年8月8日，俄罗斯军队对格鲁吉亚军队发动一系列空袭。据格鲁吉亚总统萨卡什维利表示，在非冲突区亦有平民目标遭受空袭，并一度表示考虑退出奥运，俄罗斯官方则否认发动空袭。欧洲联盟闻讯旋提出和平方案，俄罗斯方面当即表明“不赞成欧美国家介入”。2008年8月28日，俄罗斯宣布承认南奧塞梯和阿布哈兹独立。作为回应，格鲁吉亚于次日决定与俄罗斯断交。2014年，俄罗斯在乌克兰发动顿巴斯战争后，格鲁吉亚加强与乌克兰的合作。由于2022年2月24日俄罗斯发动战争入侵乌克兰，格鲁吉亚于3月3日正式向欧盟递交申请。同时由于担心格鲁吉亚可能被俄罗斯及其代理人进一步入侵，格鲁吉亚政府目前在积极寻求加入北约的机会。2024年11月28日，作为执政党的格鲁吉亚梦想党宣布暂停加入欧盟的谈判直到2028年，此举引起亲欧盟反对派的不满，反","chars":2200},{"section":"文化","text":"过去曾认为格鲁吉亚字母在公元284年由高加索伊比利亚王国国王法尔纳瓦兹一世改革发明，但至今尚未发现最古老的例子，只能证明其字母在5世纪公告中已经形成。\n格鲁吉亚的中世纪文化从4世纪开始，受到东正教和格鲁吉亚东正教教会使徒的强烈影响，并可能因此影响了拜占庭。这许多宗教作品的创作得到了鼓励和支持。其中包括教堂、寺庙、艺术作品，如图标装饰和格鲁吉亚圣人圣徒绘卷。此外，也出现了许多世俗的作品，如写关于国家的历史或神话的。\n乔治亚地处链接欧亚大陆的贸易路线的中继点，因此饮食受到多个地区的影响。乔治亚饮食的特点是做法及食材多样，且较多使用香料，代表性的食品包括奇克美露里、阿贾普桑达利、巴德里亚尼、戈吉纳基、奇希尔图马、查纳基、罗比奥、卡尔乔、卡里饺、丘尔其赫拉、卡查普里等。","chars":1200},{"section":"饮食","text":"乔治亚地处链接欧亚大陆的贸易路线的中继点，因此饮食受到多个地区的影响。乔治亚饮食的特点是做法及食材多样，且较多使用香料，代表性的食品包括奇克美露里、阿贾普桑达利、巴德里亚尼、戈吉纳基、奇希尔图马、查纳基、罗比奥、卡尔乔、卡里饺、丘尔其赫拉、卡查普里等。\n乔治亚葡萄酒在世界享有盛誉。受黑海影响，温和的气候和潮湿的空气，为格鲁吉亚葡萄种植提供了最佳条件。乔治亚人自8000年前就开始酿造葡萄酒。已被联合国教科文组织列为世界非物质文化遗产的一部分。塔尔洪也是当地人民喜爱的饮料。","chars":800}],"landmark_images":[{"title":"File:View of Havlabar (Tbilisi), in the early 1900s, Sergei Mikhailovich Prokudin-Gorskii.jpg","caption_zh":"第比利斯老城哈夫拉巴尔的景致","caption":"第比利斯老城哈夫拉巴尔的景致","caption_commons":"View of Tbilisi (Georgia), in the early 1900s. Early color photograph from Russi","kw":"Tbilisi Old Town Georgia","url":"assets/ge/L01.webp","thumb_url":"assets/ge/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/View_of_Havlabar_%28Tbilisi%29%2C_in_the_early_1900s%2C_Sergei_Mikhailovich_Prokudin-Gorskii.jpg/1920px-View_of_Havlabar_%28Tbilisi%29%2C_in_the_early_1900s%2C_Sergei_Mikhailovich_Prokudin-Gorskii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Sergei Prokudin-Gorskii","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":89172,"caption_zh_manual":"第比利斯老城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22354,"size":{"detail":"760x660","thumb":"345x300"},"encoding":"webp q72/q74 (源 1920x1668 914KB JPEG)"},{"title":"File:Khevi, Georgia — Gergeti Trinity Church.jpg","caption_zh":"卡兹别克圣三一教堂","caption":"卡兹别克圣三一教堂","caption_commons":"Khevi, Georgia — Gergeti Trinity Church","kw":"Gergeti Trinity Church Kazbegi","url":"assets/ge/L02.webp","thumb_url":"assets/ge/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/6/61/Khevi%2C_Georgia_%E2%80%94_Gergeti_Trinity_Church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Levan Gokadze","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":45184,"caption_zh_manual":"卡兹别克圣三一教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14080,"size":{"detail":"760x498","thumb":"400x262"},"encoding":"webp q72/q74 (源 900x590 260KB JPEG)"},{"title":"File:CavesUplistsikhe1.jpg","caption_zh":"乌普利斯齐赫洞穴城洞穴","caption":"乌普利斯齐赫洞穴城洞穴","caption_commons":"Cave dwellings at Uplistsikhe","kw":"Uplistsikhe cave town Georgia","url":"assets/ge/L03.webp","thumb_url":"assets/ge/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/CavesUplistsikhe1.jpg/1920px-CavesUplistsikhe1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"BBCLCD","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":68318,"caption_zh_manual":"乌普利斯齐赫洞穴城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":19332,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 713KB JPEG)"},{"title":"File:2014 Kutaisi, Katedra Bagrati (04).jpg","caption_zh":"巴格拉特大教堂外观","caption":"巴格拉特大教堂外观","caption_commons":"This is a photo of a cultural heritage monument in Georgia identified by the ID","kw":"Bagrati Cathedral Kutaisi","url":"assets/ge/L04.webp","thumb_url":"assets/ge/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/2014_Kutaisi%2C_Katedra_Bagrati_%2804%29.jpg/1920px-2014_Kutaisi%2C_Katedra_Bagrati_%2804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Marcin Konsek","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":41618,"caption_zh_manual":"巴格拉特大教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12444,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 595KB JPEG)"},{"title":"File:Ushguli Svaneti Georgia.JPG","caption_zh":"乌什古里村的斯瓦涅季塔楼","caption":"乌什古里村的斯瓦涅季塔楼","caption_commons":"Ushguli community, Svaneti, Georgia","kw":"Svaneti towers Ushguli","url":"assets/ge/L05.webp","thumb_url":"assets/ge/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Ushguli_Svaneti_Georgia.JPG/1920px-Ushguli_Svaneti_Georgia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Florian Pinel","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":74756,"caption_zh_manual":"斯瓦涅季塔楼","caption_zh_source":"llm_from_commons_filename","thumb_bytes":20250,"size":{"detail":"760x509","thumb":"400x268"},"encoding":"webp q72/q74 (源 1920x1285 866KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:19:48+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 无通行语，从 P2936 补：俄语","P443 发音语种不符已弃用：Pronunciation audio-Georgia-KA.oga、Lb-Georgien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Georgia.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py GE","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","LLM 质检[warn] continent：summary称主要国土在亚洲、跨洲，continent仅填欧洲 → 改为亚洲或注明跨洲","LLM 质检[warn] centroid：坐标44,42偏北，格鲁吉亚中心约在43.5,42.3，尚可 → 核对坐标精度"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"东正教","evidence":"多数人信仰东正教"},{"v":"伊斯兰教","evidence":"少数信仰伊斯兰教"}],"architecture":[],"heritage":[],"keywords":[{"v":"南高加索","evidence":"位于南高加索地区"},{"v":"黑海沿岸","evidence":"黑海沿岸"},{"v":"格鲁吉亚语","evidence":"官方语言为格鲁吉亚语"},{"v":"俄语","evidence":"居民亦多通晓俄语"}],"model":"deepseek-flash"},"summary_text_raw":"格鲁吉亚（格鲁吉亚语：საქართველო，罗马化：sakartvelo，国际音标：[sakʰartʰʷelo] ）为跨洲国家，地跨欧亚两洲，主要国土位于亚洲，但因文化上深受欧洲影响，故也被认为是欧洲国家。格鲁吉亚位于南高加索地区的黑海沿岸，北邻俄罗斯，南部与土耳其、亚美尼亚、阿塞拜疆接壤。格鲁吉亚领土面积有69,700平方公里（包括阿布哈兹和南奥塞梯）；人口有3,760,000（2023年人口统计）；主要民族为格鲁吉亚族（70.1％），主要少数民族有亚美尼亚族、阿塞拜疆族和俄罗斯族等；官方语言为格鲁吉亚语，居民亦多通晓俄语；多数人信仰东正教，少数信仰伊斯兰教。\n格鲁吉亚曾经是苏联加盟共和国，是苏联领导人斯大林的故乡。1991年4月9日正式独立，首任总统兹维亚德·加姆萨胡尔季阿。独立后，法定国名为“格鲁吉亚共和国”。1995年8月24日该国通过新宪法，国名定为“格鲁吉亚”，曾为独立国家联合体成员。因为俄格战争，格鲁吉亚根据议会2008年8月14日决议退出独联体，并于2009年8月18日完成手续，正式退出。","history_text":"格鲁吉亚地区先受罗马与波斯反复争夺，伊比利亚王统在附庸地位下延续。公元337年国王以基督教为国教，继而在希腊文与叙利亚文影响下创制格鲁吉亚文。萨珊波斯废黜伊比利亚国王后，此地被波斯与拜占庭瓜分，阿拉伯人又入主第比利斯设总督。9世纪巴格拉季昂王朝崛起，巴格拉特三世以联姻兼并阿布哈兹、再并卡赫蒂，一统为格鲁吉亚王国；大卫四世夺回第比利斯，塔玛尔女王时国势趋于鼎盛。","custom_text":"饮食处在欧亚贸易路线的中继点上，受多地影响，做法与食材多样，用香料较多，卡查普里、卡里饺、奇克美露里这类吃食是日常代表。酿酒的传统极为久远，温和气候与潮湿空气适宜葡萄生长，葡萄酒被列入世界非物质文化遗产。塔尔洪也是当地人喜爱的饮料。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":181,"folk":116}},"knowledge_qa":[{"q":"格鲁吉亚在哪儿啊？周围都是哪些国家？","a":"格鲁吉亚位于南高加索地区的黑海沿岸，北邻俄罗斯，南部与土耳其、亚美尼亚、阿塞拜疆接壤。它地跨欧亚两洲，主要国土位于亚洲，但因文化上深受欧洲影响，也被认为是欧洲国家。","tags":["格鲁吉亚位置","黑海","邻国","高加索"]},{"q":"格鲁吉亚面积多大？人口多少？","a":"格鲁吉亚领土面积有69,700平方公里（包括阿布哈兹和南奥塞梯）；人口有3,760,000（2023年人口统计）。","tags":["面积","人口","格鲁吉亚大小"]},{"q":"格鲁吉亚的首都是哪里？","a":"首都：第比利斯。","tags":["首都","第比利斯"]},{"q":"格鲁吉亚人说什么语言？","a":"官方语言为格鲁吉亚语，居民亦多通晓俄语。","tags":["语言","格鲁吉亚语","俄语"]},{"q":"格鲁吉亚有什么值得看的建筑或景观？","a":"有第比利斯老城、卡兹别克圣三一教堂、乌普利斯齐赫洞穴城、巴格拉特大教堂、斯瓦涅季塔楼等。","tags":["地标","教堂","老城","洞穴城","塔楼"]},{"q":"格鲁吉亚主要民族和信仰是什么？","a":"主要民族为格鲁吉亚族（70.1％），主要少数民族有亚美尼亚族、阿塞拜疆族和俄罗斯族等；多数人信仰东正教，少数信仰伊斯兰教。","tags":["民族","宗教","东正教","信仰"]},{"q":"格鲁吉亚和苏联有什么关系？","a":"格鲁吉亚曾经是苏联加盟共和国，是苏联领导人斯大林的故乡。1991年4月9日正式独立，首任总统兹维亚德·加姆萨胡尔季阿。","tags":["苏联","斯大林","独立"]},{"q":"格鲁吉亚现在还是独联体成员吗？","a":"不是。因为俄格战争，格鲁吉亚根据议会2008年8月14日决议退出独联体，并于2009年8月18日完成手续，正式退出。","tags":["独联体","俄格战争","退出"]}],"llm_audit":{"issues":[{"field":"continent","severity":"warn","why":"summary称主要国土在亚洲、跨洲，continent仅填欧洲","suggest":"改为亚洲或注明跨洲"},{"field":"centroid","severity":"warn","why":"坐标44,42偏北，格鲁吉亚中心约在43.5,42.3，尚可","suggest":"核对坐标精度"}],"overall":"warn"},"audio_meta":{},"outline":[[[4155,4241],[4142,4274],[4115,4280],[4102,4299],[4086,4306],[4034,4314],[4022,4332],[3999,4339],[4006,4354],[4065,4354],[4158,4322],[4283,4317],[4316,4294],[4380,4275],[4372,4262],[4394,4255],[4451,4275],[4468,4272],[4477,4261],[4486,4276],[4516,4269],[4536,4252],[4570,4251],[4563,4220],[4593,4203],[4641,4192],[4633,4177],[4619,4174],[4619,4161],[4670,4127],[4660,4109],[4648,4104],[4623,4120],[4597,4117],[4571,4127],[4574,4134],[4528,4145],[4496,4126],[4482,4127],[4485,4121],[4418,4123],[4345,4110],[4338,4119],[4310,4125],[4318,4130],[4277,4150],[4280,4158],[4258,4158],[4246,4143],[4195,4151],[4181,4142],[4152,4151],[4177,4182],[4155,4241]]]}
+{
+  "qid": "Q230",
+  "iso_a2": "GE",
+  "iso_a3": "GEO",
+  "name_zh": "格鲁吉亚",
+  "name_en": "Georgia",
+  "capital": "第比利斯",
+  "continent": "欧洲",
+  "centroid": [
+    44,
+    42
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ru",
+      "name_zh": "俄语",
+      "name_local": "俄语",
+      "role": "spoken",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "ka",
+      "name_zh": "格鲁吉亚语",
+      "name_local": "格鲁吉亚语",
+      "role": "official",
+      "audio_url": "assets/ge/audio/ka.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "კეთილი იყოს თქვენი მობრძანება საქართველოში, რომლის დედაქალაქია თბილისი, ქალაქი, სადაც ძველი ტაძრები და თბილი ქუჩები ერთმანეთს ხვდება.",
+      "tts_text_zh": "欢迎来到格鲁吉亚，它的首都是第比利斯，一座古老教堂与温暖街巷相遇的城市。",
+      "_retried": true,
+      "audio_voice": "ka-GE-EkaNeural",
+      "audio_bytes": 51264
+    }
+  ],
+  "summary_text": "格鲁吉亚为跨洲国家，地跨欧亚两洲，主要国土位于亚洲，但因文化上深受欧洲影响，故也被认为是欧洲国家。格鲁吉亚位于南高加索地区的黑海沿岸，北邻俄罗斯，南部与土耳其、亚美尼亚、阿塞拜疆接壤，领土面积有69,700平方公里，包括阿布哈兹和南奥塞梯。人口有3,760,000（2023年人口统计），主要民族为格鲁吉亚族（70.1％），主要少数民族有亚美尼亚族、阿塞拜疆族和俄罗斯族等。官方语言为格鲁吉亚语，居民亦多通晓俄语；多数人信仰东正教，少数信仰伊斯兰教。格鲁吉亚曾经是苏联加盟共和国，是苏联领导人斯大林的故乡，1991年4月9日正式独立，首任总统兹维亚德·加姆萨胡尔季阿，独立后法定国名为“格鲁吉亚共和国”，1995年8月24日该国通过新宪法，国名定为“格鲁吉亚”，曾为独立国家联合体成员，因为俄格战争，格鲁吉亚根据议会2008年8月14日决议退出独联体，并于2009年8月18日完成手续，正式退出。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 398,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%B2%81%E5%90%89%E4%BA%9A",
+    "title": "格鲁吉亚"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "罗马帝国征服格鲁吉亚的部分地区，此后五、六百年间，罗马帝国与波斯帝国多次开战争夺格鲁吉亚地区的控制权，不过伊比利亚王国的王统持续存在，仅是交替成为罗马或波斯的附庸。公元337年，伊比利亚国王以基督教为国教，之后继于希腊文及叙利亚文的影响之下创制了格鲁吉亚文，促进了格鲁吉亚文艺、社会、民族认同的发展。580年萨珊波斯废黜了伊比利亚国王，之后与拜占庭帝国瓜分格鲁吉亚地区，设立总督以直接统治。645年左右阿拉伯人攻入格鲁吉亚，之后在第比利斯设立总督（埃米尔）开始统治。9世纪阿拉伯帝国走向衰落，格鲁吉亚贵族巴格拉季昂王朝崛起，统治格鲁吉亚西南部，并于888年加冕为王，但第比利斯等领土还在阿拉伯人手中。8世纪，阿布哈兹地区的王公也建立自己的政权，击溃阿拉伯人的入侵，并于778年加冕为王，9世纪走向衰落，最终巴格拉季昂王朝的巴格拉特三世（英语：Bagrat III of Georgia）以联姻兼并阿布哈兹，1010年再兼并了卡赫蒂，一统格鲁吉亚，建立格鲁吉亚王国。1122年，国王大卫四世击败塞尔柱军队，取得第比利斯。12-13世纪，格鲁吉亚王国走向兴盛，并在塔玛尔女王（1184-1213年在位）年间趋于鼎盛，领土扩及今日的亚美尼亚、土耳其西部、阿塞拜疆、伊朗西北部，文化也处于兴盛时期，民族史诗《黑豹皮骑士》也在这一时代写成。塔玛尔女王之后，格鲁吉亚开始衰落。1226年花剌子模的札兰丁曾攻占第比利斯，蒙古大军也随之到达。1243年，格鲁吉亚王国成为蒙古帝国的附庸，之后又成为伊儿汗国的附庸至1327年。此后格鲁吉亚受到黑死病的打击，地方贵族也渐渐不服从国王的号令。1386年以后，帖木儿帝国、黑羊王朝、白羊王朝等游牧王朝多次入侵格鲁吉亚，带来巨大的破坏，也使格鲁吉亚王国一蹶不振。1466年，原本统一的格鲁吉亚王国分裂为三个独立王国（卡尔特利王国、卡赫蒂王国、伊梅雷蒂王国）及五个半独立公国。16世纪后，奥斯曼帝国占领西部，东部则归属伊朗的萨法维王朝及后续王朝的统治。1762年，格鲁吉亚东部的卡尔特利王国与卡赫蒂王国实现统一，之后开始与俄国联系。1783年，沙俄与卡尔特利-卡赫蒂王国签订《乔治亚夫斯克条约》，规定卡尔特利-卡赫蒂成为俄国的保护国，但1801年，俄国违约吞并卡尔特利-卡赫蒂王国。1804年至1864年间，格鲁吉亚其他邦国相继被帝俄兼并，通过与奥斯曼帝国的战争，俄国也夺取了许多奥斯曼帝国治下的格鲁吉亚土地。1917年革命后，俄国陷入混乱。1918年4月成立包含着格鲁吉亚、亚美尼亚、阿塞拜疆的外高加索民主联邦共和国，5月就在奥斯曼帝国入侵下解体，随后在奥斯曼土耳其和德意志帝国保护下，乔治亚民主共和国于1918年5月26日成立。1920年，苏俄在《莫斯科条约》中承认格鲁吉亚独立，但1921年2、3月间，苏俄出兵占领乔治亚民主共和国，格鲁吉亚苏维埃政权建立，作为外高加索社会主义联邦苏维埃共和国与1922年加入苏联。1936年，联邦解散，格鲁吉亚苏维埃社会主义共和国成为苏联的加盟共和国。1985年戈尔巴乔夫出任苏联共产党中央委员会总书记成为苏联最高领导人后，大力提倡开放与改革政策，苏联各加盟共和国相继谋求脱离苏联；1990年，格鲁吉亚最高苏维埃决议苏联之联邦条约违法，并发表主权宣言，更改国名为格鲁吉亚共和国。1991年4月9日，宣布脱离苏联独立，加姆萨胡尔季阿出任首任总统。1991年8月，软禁前苏联领导人戈尔巴乔夫的夺权政变失败后，以俄罗斯为首之十一个苏联加盟共和国组成“独立国家联合体”，格鲁吉亚起初未加入，至1993年12月始加入。1992年1月，格鲁吉亚发生政变，加姆萨胡尔季阿被迫逃往车臣。3月，谢瓦尔德纳泽被指命为格鲁吉亚国家委员会执行主席。1995年11月，格鲁吉亚重建总统制，谢瓦尔德纳泽以70%的选票当选总统。1996年4月，“格鲁吉亚共和国”更名为格鲁吉亚。90年代中后期，由于车臣战争，俄罗斯与格鲁吉亚的关系恶化，俄罗斯指责格鲁吉亚收容车臣武装分子，导致格鲁吉亚倒向欧美。2008年8月12日，因俄罗斯入侵格鲁吉亚而宣布退出“独立国家联合体”。由于贪污腐败和经济萎靡不振，2003年格鲁吉亚发生玫瑰革命，总统爱德华·谢瓦纳兹下台。米哈伊尔·萨卡什维利接续后，继续了民族主义意识形态之外，更转向亲西方的政策。2008年8月7日，格鲁吉亚军队进攻与俄罗斯接邻的南奥塞梯自治区，试图将该地重纳入其政府军管辖之下。南奥塞梯战争由此爆发。2008年8月8日，俄罗斯军队对格鲁吉亚军队发动一系列空袭。据格鲁吉亚总统萨卡什维利表示，在非冲突区亦有平民目标遭受空袭，并一度表示考虑退出奥运，俄罗斯官方则否认发动空袭。欧洲联盟闻讯旋提出和平方案，俄罗斯方面当即表明“不赞成欧美国家介入”。2008年8月28日，俄罗斯宣布承认南奧塞梯和阿布哈兹独立。作为回应，格鲁吉亚于次日决定与俄罗斯断交。2014年，俄罗斯在乌克兰发动顿巴斯战争后，格鲁吉亚加强与乌克兰的合作。由于2022年2月24日俄罗斯发动战争入侵乌克兰，格鲁吉亚于3月3日正式向欧盟递交申请。同时由于担心格鲁吉亚可能被俄罗斯及其代理人进一步入侵，格鲁吉亚政府目前在积极寻求加入北约的机会。2024年11月28日，作为执政党的格鲁吉亚梦想党宣布暂停加入欧盟的谈判直到2028年，此举引起亲欧盟反对派的不满，反",
+      "chars": 2200
+    },
+    {
+      "section": "文化",
+      "text": "过去曾认为格鲁吉亚字母在公元284年由高加索伊比利亚王国国王法尔纳瓦兹一世改革发明，但至今尚未发现最古老的例子，只能证明其字母在5世纪公告中已经形成。\n格鲁吉亚的中世纪文化从4世纪开始，受到东正教和格鲁吉亚东正教教会使徒的强烈影响，并可能因此影响了拜占庭。这许多宗教作品的创作得到了鼓励和支持。其中包括教堂、寺庙、艺术作品，如图标装饰和格鲁吉亚圣人圣徒绘卷。此外，也出现了许多世俗的作品，如写关于国家的历史或神话的。\n乔治亚地处链接欧亚大陆的贸易路线的中继点，因此饮食受到多个地区的影响。乔治亚饮食的特点是做法及食材多样，且较多使用香料，代表性的食品包括奇克美露里、阿贾普桑达利、巴德里亚尼、戈吉纳基、奇希尔图马、查纳基、罗比奥、卡尔乔、卡里饺、丘尔其赫拉、卡查普里等。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "乔治亚地处链接欧亚大陆的贸易路线的中继点，因此饮食受到多个地区的影响。乔治亚饮食的特点是做法及食材多样，且较多使用香料，代表性的食品包括奇克美露里、阿贾普桑达利、巴德里亚尼、戈吉纳基、奇希尔图马、查纳基、罗比奥、卡尔乔、卡里饺、丘尔其赫拉、卡查普里等。\n乔治亚葡萄酒在世界享有盛誉。受黑海影响，温和的气候和潮湿的空气，为格鲁吉亚葡萄种植提供了最佳条件。乔治亚人自8000年前就开始酿造葡萄酒。已被联合国教科文组织列为世界非物质文化遗产的一部分。塔尔洪也是当地人民喜爱的饮料。",
+      "chars": 800
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:View of Havlabar (Tbilisi), in the early 1900s, Sergei Mikhailovich Prokudin-Gorskii.jpg",
+      "caption_zh": "第比利斯老城哈夫拉巴尔的景致",
+      "caption": "第比利斯老城哈夫拉巴尔的景致",
+      "caption_commons": "View of Tbilisi (Georgia), in the early 1900s. Early color photograph from Russi",
+      "kw": "Tbilisi Old Town Georgia",
+      "url": "assets/ge/L01.webp",
+      "thumb_url": "assets/ge/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/View_of_Havlabar_%28Tbilisi%29%2C_in_the_early_1900s%2C_Sergei_Mikhailovich_Prokudin-Gorskii.jpg/1920px-View_of_Havlabar_%28Tbilisi%29%2C_in_the_early_1900s%2C_Sergei_Mikhailovich_Prokudin-Gorskii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Sergei Prokudin-Gorskii",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 171676,
+      "caption_zh_manual": "第比利斯老城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9782,
+      "size": {
+        "detail": "1080x938",
+        "thumb": "207x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1668 914KB JPEG)"
+    },
+    {
+      "title": "File:Khevi, Georgia — Gergeti Trinity Church.jpg",
+      "caption_zh": "卡兹别克圣三一教堂",
+      "caption": "卡兹别克圣三一教堂",
+      "caption_commons": "Khevi, Georgia — Gergeti Trinity Church",
+      "kw": "Gergeti Trinity Church Kazbegi",
+      "url": "assets/ge/L02.webp",
+      "thumb_url": "assets/ge/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Khevi%2C_Georgia_%E2%80%94_Gergeti_Trinity_Church.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Levan Gokadze",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 65534,
+      "caption_zh_manual": "卡兹别克圣三一教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6124,
+      "size": {
+        "detail": "900x590",
+        "thumb": "240x157"
+      },
+      "encoding": "webp q75/q78 (源 900x590 260KB JPEG)"
+    },
+    {
+      "title": "File:CavesUplistsikhe1.jpg",
+      "caption_zh": "乌普利斯齐赫洞穴城洞穴",
+      "caption": "乌普利斯齐赫洞穴城洞穴",
+      "caption_commons": "Cave dwellings at Uplistsikhe",
+      "kw": "Uplistsikhe cave town Georgia",
+      "url": "assets/ge/L03.webp",
+      "thumb_url": "assets/ge/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/CavesUplistsikhe1.jpg/1920px-CavesUplistsikhe1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "BBCLCD",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 142344,
+      "caption_zh_manual": "乌普利斯齐赫洞穴城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8048,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 713KB JPEG)"
+    },
+    {
+      "title": "File:2014 Kutaisi, Katedra Bagrati (04).jpg",
+      "caption_zh": "巴格拉特大教堂外观",
+      "caption": "巴格拉特大教堂外观",
+      "caption_commons": "This is a photo of a cultural heritage monument in Georgia identified by the ID",
+      "kw": "Bagrati Cathedral Kutaisi",
+      "url": "assets/ge/L04.webp",
+      "thumb_url": "assets/ge/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/2014_Kutaisi%2C_Katedra_Bagrati_%2804%29.jpg/1920px-2014_Kutaisi%2C_Katedra_Bagrati_%2804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Marcin Konsek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 87624,
+      "caption_zh_manual": "巴格拉特大教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5698,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 595KB JPEG)"
+    },
+    {
+      "title": "File:Ushguli Svaneti Georgia.JPG",
+      "caption_zh": "乌什古里村的斯瓦涅季塔楼",
+      "caption": "乌什古里村的斯瓦涅季塔楼",
+      "caption_commons": "Ushguli community, Svaneti, Georgia",
+      "kw": "Svaneti towers Ushguli",
+      "url": "assets/ge/L05.webp",
+      "thumb_url": "assets/ge/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Ushguli_Svaneti_Georgia.JPG/1920px-Ushguli_Svaneti_Georgia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Florian Pinel",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 164770,
+      "caption_zh_manual": "斯瓦涅季塔楼",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8830,
+      "size": {
+        "detail": "1080x723",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1920x1285 866KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:19:48+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 无通行语，从 P2936 补：俄语",
+    "P443 发音语种不符已弃用：Pronunciation audio-Georgia-KA.oga、Lb-Georgien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Georgia.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py GE",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "LLM 质检[warn] continent：summary称主要国土在亚洲、跨洲，continent仅填欧洲 → 改为亚洲或注明跨洲",
+    "LLM 质检[warn] centroid：坐标44,42偏北，格鲁吉亚中心约在43.5,42.3，尚可 → 核对坐标精度"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "东正教",
+        "evidence": "多数人信仰东正教"
+      },
+      {
+        "v": "伊斯兰教",
+        "evidence": "少数信仰伊斯兰教"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "南高加索",
+        "evidence": "位于南高加索地区"
+      },
+      {
+        "v": "黑海沿岸",
+        "evidence": "黑海沿岸"
+      },
+      {
+        "v": "格鲁吉亚语",
+        "evidence": "官方语言为格鲁吉亚语"
+      },
+      {
+        "v": "俄语",
+        "evidence": "居民亦多通晓俄语"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "格鲁吉亚（格鲁吉亚语：საქართველო，罗马化：sakartvelo，国际音标：[sakʰartʰʷelo] ）为跨洲国家，地跨欧亚两洲，主要国土位于亚洲，但因文化上深受欧洲影响，故也被认为是欧洲国家。格鲁吉亚位于南高加索地区的黑海沿岸，北邻俄罗斯，南部与土耳其、亚美尼亚、阿塞拜疆接壤。格鲁吉亚领土面积有69,700平方公里（包括阿布哈兹和南奥塞梯）；人口有3,760,000（2023年人口统计）；主要民族为格鲁吉亚族（70.1％），主要少数民族有亚美尼亚族、阿塞拜疆族和俄罗斯族等；官方语言为格鲁吉亚语，居民亦多通晓俄语；多数人信仰东正教，少数信仰伊斯兰教。\n格鲁吉亚曾经是苏联加盟共和国，是苏联领导人斯大林的故乡。1991年4月9日正式独立，首任总统兹维亚德·加姆萨胡尔季阿。独立后，法定国名为“格鲁吉亚共和国”。1995年8月24日该国通过新宪法，国名定为“格鲁吉亚”，曾为独立国家联合体成员。因为俄格战争，格鲁吉亚根据议会2008年8月14日决议退出独联体，并于2009年8月18日完成手续，正式退出。",
+  "history_text": "格鲁吉亚地区先受罗马与波斯反复争夺，伊比利亚王统在附庸地位下延续。公元337年国王以基督教为国教，继而在希腊文与叙利亚文影响下创制格鲁吉亚文。萨珊波斯废黜伊比利亚国王后，此地被波斯与拜占庭瓜分，阿拉伯人又入主第比利斯设总督。9世纪巴格拉季昂王朝崛起，巴格拉特三世以联姻兼并阿布哈兹、再并卡赫蒂，一统为格鲁吉亚王国；大卫四世夺回第比利斯，塔玛尔女王时国势趋于鼎盛。",
+  "custom_text": "饮食处在欧亚贸易路线的中继点上，受多地影响，做法与食材多样，用香料较多，卡查普里、卡里饺、奇克美露里这类吃食是日常代表。酿酒的传统极为久远，温和气候与潮湿空气适宜葡萄生长，葡萄酒被列入世界非物质文化遗产。塔尔洪也是当地人喜爱的饮料。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 181,
+      "folk": 116
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "格鲁吉亚在哪儿啊？周围都是哪些国家？",
+      "a": "格鲁吉亚位于南高加索地区的黑海沿岸，北邻俄罗斯，南部与土耳其、亚美尼亚、阿塞拜疆接壤。它地跨欧亚两洲，主要国土位于亚洲，但因文化上深受欧洲影响，也被认为是欧洲国家。",
+      "tags": [
+        "格鲁吉亚位置",
+        "黑海",
+        "邻国",
+        "高加索"
+      ]
+    },
+    {
+      "q": "格鲁吉亚面积多大？人口多少？",
+      "a": "格鲁吉亚领土面积有69,700平方公里（包括阿布哈兹和南奥塞梯）；人口有3,760,000（2023年人口统计）。",
+      "tags": [
+        "面积",
+        "人口",
+        "格鲁吉亚大小"
+      ]
+    },
+    {
+      "q": "格鲁吉亚的首都是哪里？",
+      "a": "首都：第比利斯。",
+      "tags": [
+        "首都",
+        "第比利斯"
+      ]
+    },
+    {
+      "q": "格鲁吉亚人说什么语言？",
+      "a": "官方语言为格鲁吉亚语，居民亦多通晓俄语。",
+      "tags": [
+        "语言",
+        "格鲁吉亚语",
+        "俄语"
+      ]
+    },
+    {
+      "q": "格鲁吉亚有什么值得看的建筑或景观？",
+      "a": "有第比利斯老城、卡兹别克圣三一教堂、乌普利斯齐赫洞穴城、巴格拉特大教堂、斯瓦涅季塔楼等。",
+      "tags": [
+        "地标",
+        "教堂",
+        "老城",
+        "洞穴城",
+        "塔楼"
+      ]
+    },
+    {
+      "q": "格鲁吉亚主要民族和信仰是什么？",
+      "a": "主要民族为格鲁吉亚族（70.1％），主要少数民族有亚美尼亚族、阿塞拜疆族和俄罗斯族等；多数人信仰东正教，少数信仰伊斯兰教。",
+      "tags": [
+        "民族",
+        "宗教",
+        "东正教",
+        "信仰"
+      ]
+    },
+    {
+      "q": "格鲁吉亚和苏联有什么关系？",
+      "a": "格鲁吉亚曾经是苏联加盟共和国，是苏联领导人斯大林的故乡。1991年4月9日正式独立，首任总统兹维亚德·加姆萨胡尔季阿。",
+      "tags": [
+        "苏联",
+        "斯大林",
+        "独立"
+      ]
+    },
+    {
+      "q": "格鲁吉亚现在还是独联体成员吗？",
+      "a": "不是。因为俄格战争，格鲁吉亚根据议会2008年8月14日决议退出独联体，并于2009年8月18日完成手续，正式退出。",
+      "tags": [
+        "独联体",
+        "俄格战争",
+        "退出"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "continent",
+        "severity": "warn",
+        "why": "summary称主要国土在亚洲、跨洲，continent仅填欧洲",
+        "suggest": "改为亚洲或注明跨洲"
+      },
+      {
+        "field": "centroid",
+        "severity": "warn",
+        "why": "坐标44,42偏北，格鲁吉亚中心约在43.5,42.3，尚可",
+        "suggest": "核对坐标精度"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        4155,
+        4241
+      ],
+      [
+        4142,
+        4274
+      ],
+      [
+        4115,
+        4280
+      ],
+      [
+        4102,
+        4299
+      ],
+      [
+        4086,
+        4306
+      ],
+      [
+        4034,
+        4314
+      ],
+      [
+        4022,
+        4332
+      ],
+      [
+        3999,
+        4339
+      ],
+      [
+        4006,
+        4354
+      ],
+      [
+        4065,
+        4354
+      ],
+      [
+        4158,
+        4322
+      ],
+      [
+        4283,
+        4317
+      ],
+      [
+        4316,
+        4294
+      ],
+      [
+        4380,
+        4275
+      ],
+      [
+        4372,
+        4262
+      ],
+      [
+        4394,
+        4255
+      ],
+      [
+        4451,
+        4275
+      ],
+      [
+        4468,
+        4272
+      ],
+      [
+        4477,
+        4261
+      ],
+      [
+        4486,
+        4276
+      ],
+      [
+        4516,
+        4269
+      ],
+      [
+        4536,
+        4252
+      ],
+      [
+        4570,
+        4251
+      ],
+      [
+        4563,
+        4220
+      ],
+      [
+        4593,
+        4203
+      ],
+      [
+        4641,
+        4192
+      ],
+      [
+        4633,
+        4177
+      ],
+      [
+        4619,
+        4174
+      ],
+      [
+        4619,
+        4161
+      ],
+      [
+        4670,
+        4127
+      ],
+      [
+        4660,
+        4109
+      ],
+      [
+        4648,
+        4104
+      ],
+      [
+        4623,
+        4120
+      ],
+      [
+        4597,
+        4117
+      ],
+      [
+        4571,
+        4127
+      ],
+      [
+        4574,
+        4134
+      ],
+      [
+        4528,
+        4145
+      ],
+      [
+        4496,
+        4126
+      ],
+      [
+        4482,
+        4127
+      ],
+      [
+        4485,
+        4121
+      ],
+      [
+        4418,
+        4123
+      ],
+      [
+        4345,
+        4110
+      ],
+      [
+        4338,
+        4119
+      ],
+      [
+        4310,
+        4125
+      ],
+      [
+        4318,
+        4130
+      ],
+      [
+        4277,
+        4150
+      ],
+      [
+        4280,
+        4158
+      ],
+      [
+        4258,
+        4158
+      ],
+      [
+        4246,
+        4143
+      ],
+      [
+        4195,
+        4151
+      ],
+      [
+        4181,
+        4142
+      ],
+      [
+        4152,
+        4151
+      ],
+      [
+        4177,
+        4182
+      ],
+      [
+        4155,
+        4241
+      ]
+    ]
+  ]
+}

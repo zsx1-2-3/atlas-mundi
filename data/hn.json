@@ -1,1 +1,745 @@
-{"qid":"Q783","iso_a2":"HN","iso_a3":"HND","name_zh":"洪都拉斯","name_en":"Honduras","capital":"特古西加尔巴","continent":"北美洲","centroid":[-86.8167,14.6333],"centroid_source":"wikidata P625","languages":[{"code":"es","name_zh":"西班牙语","name_local":"西班牙语","role":"official","audio_url":"assets/hn/audio/es.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenidos a Honduras, un país de contrastes y calidez; su capital es Tegucigalpa, y entre sus lugares más emblemáticos destaca el sitio maya de Copán, con sus estelas y plazas que invitan a recorrer la historia con calma.","tts_text_zh":"欢迎来到洪都拉斯，一个充满对比与温情的国家；它的首都是特古西加尔巴，而在其最具代表性的地标中，科潘玛雅遗址尤为突出，那里的石碑与广场让人从容地走进历史。","audio_voice":"es-AR-ElenaNeural","audio_bytes":82368}],"summary_text":"洪都拉斯共和国通称洪都拉斯，是位于中美洲的共和制国家。其西侧为国界，北半部与危地马拉接壤，南半部与萨尔瓦多相连，南邻尼加拉瓜边界；东、北面滨加勒比海，南面偏西以丰塞卡湾为通向太平洋的出海口。本土以外，加勒比海上还有天鹅群岛、海湾群岛等领土。关于国名，相传西班牙航海家克里斯托弗·哥伦布1502年第四次航海至新大陆时，船队遭遇风暴，脱险后他感叹“感谢上天，终于走出了这片深不可测的水域”，遂以西班牙语中意为深处、底部或深邃之处的“honduras”命名这片土地，洪都拉斯由此得名；不过在哥伦布的著作以及摘要文字中，从未出现过“洪都拉斯”这个名字。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":272,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%B4%AA%E9%83%BD%E6%8B%89%E6%96%AF","title":"洪都拉斯"},"culture_excerpts":[{"section":"历史","text":"4～7世纪，洪都拉斯西部为玛雅文明中心之一，洪都拉斯境内最大、最著名和研究最多的遗址是科潘，该遗址位于玛雅文明的边境地区。在9世纪与其他低地文明中心一起衰落。。1502年哥伦布到达洪都拉斯的海湾群岛，为洪都拉斯与欧洲接触之始，1524年西班牙军队开始征服洪都拉斯，同年沦为西班牙殖民地。洪都拉斯于1821年9月15日宣布独立，但1822年被并入墨西哥第一帝国。1823年加入中美洲联邦，1838年10月退出中美洲联邦，成立共和国；但洪都拉斯对于中美洲联合的想法热情不减。1840年洪都拉斯在危地马拉独裁者拉斐尔·卡雷拉支持下，保守派弗朗西斯科·费雷拉（西班牙语：Francisco Ferrera）建立独裁政府。1853年以后，洪都拉斯国内的自由派和保守派经常发生政变和内战，政权更迭频繁，自1821年独立以来至1978年，共发生139次政变，是拉丁美洲政变最频繁的国家之一。金、银矿业遭到破坏、影响经济发展甚钜。从1840年代起，英国侵占洪都拉斯东部地区和海湾群岛，修建铁路，并取得大片土地的租让权。20世纪初，联合果品公司和标准果品公司攫取北部沿海平原大片土地，发展香蕉种植园。在联合果品公司的控制下，洪都拉斯成为以香蕉种植为主的单一经济国家，到1930年香蕉出口占世界第一位，被称为“香蕉共和国”。1969年，洪都拉斯与邻国萨尔瓦多因1970年世界杯足球赛北美外围赛作为导火线，发生了为时仅6日的战争，原因则为两国的国营传播媒体均煽动仇视对方的国民与政治，使洪都拉斯政府下令将成千上万的萨尔瓦多劳工驱逐出境。最后导致足球战争。1982年，洪都拉斯才结束了连续多年的军人独裁统治，通过了新宪法，开始了民主化进程。但政局仍不稳定，2009年洪都拉斯军事政变后，民选总统曼努埃尔·塞拉亚被军方驱逐出境。2014年1月就任总统的胡安·奥兰多·埃尔南德斯是几十年来一直禁止连任总统的洪都拉斯首位第二任总统，不过他在2017年的连任引发了抗议和暴力事件。2021年11月28日，反对派自由与重建党左翼总统候选人、前第一夫人希奥玛拉·卡斯特罗在总统选举中以53%的得票率成为洪都拉斯首位女总统。","chars":893},{"section":"文化","text":"洪都拉斯有两项世界遗产，为科潘的玛雅遗址与普拉塔诺河生物圈保护区。\n至2004年为止，洪都拉斯的受教育人口大约占83.6%，净小学入学率为94%，。洪都拉斯拥有多所双语（西班牙语和英语）和三语（西班牙语附英语、阿拉伯语和德语）学校。洪都拉斯的高等教育由洪都拉斯国立自治大学管理，其校区位于洪都拉斯多个重要城市。洪都拉斯著名的高等学院除国立自治大学外还有洪都拉斯天主教大学、圣佩德罗苏拉大学、中美洲科技大学、洪都拉斯科技大学等。","chars":1200},{"section":"人口","text":"至2021年止，洪都拉斯的人口总数为10,278,345人。 2010年15岁以下人口的比例为36.8％，15至65岁为58.9％，65岁或以上为4.3％。\n洪都拉斯社会的种族比例为90％的麦士蒂索人，7％的美洲印第安人，2％的黑人和1％的白人（2017年）。","chars":1200}],"landmark_images":[{"title":"File:Copan, Maya ruins - panoramio.jpg","caption_zh":"科潘玛雅遗址全景","caption":"科潘玛雅遗址全景","caption_commons":"Copan (Honduras), Maya ruins","kw":"Copan Maya ruins Honduras","url":"assets/hn/L01.webp","thumb_url":"assets/hn/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/d/d4/Copan%2C_Maya_ruins_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"Frans-Banja Mulder","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":72768,"caption_zh_manual":"科潘玛雅遗址","caption_zh_source":"llm_from_commons_filename","thumb_bytes":21368,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 876x584 612KB JPEG)"},{"title":"File:Utila Hondoras beach.jpg","caption_zh":"乌提拉岛海滩","caption":"乌提拉岛海滩","caption_commons":"A beach on Utila, Honduras","kw":"Utila Island Honduras","url":"assets/hn/L02.webp","thumb_url":"assets/hn/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Utila_Hondoras_beach.jpg/1920px-Utila_Hondoras_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Rythie","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":54008,"caption_zh_manual":"乌提拉岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15168,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 688KB JPEG)"},{"title":"File:Catedral Metropolitana de San Miguel Arcángel de Tegucigalpa.jpg","caption_zh":"特古西加尔巴大教堂","caption":"特古西加尔巴大教堂","caption_commons":"Una de las Catedrales católicas más grandes del país, terminada a finales del si","kw":"Tegucigalpa Cathedral Honduras","url":"assets/hn/L03.webp","thumb_url":"assets/hn/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Catedral_Metropolitana_de_San_Miguel_Arc%C3%A1ngel_de_Tegucigalpa.jpg/1920px-Catedral_Metropolitana_de_San_Miguel_Arc%C3%A1ngel_de_Tegucigalpa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Luis Alfredo Romero","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":55156,"caption_zh_manual":"特古西加尔巴大教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17928,"size":{"detail":"760x517","thumb":"400x272"},"encoding":"webp q72/q74 (源 1920x1305 584KB JPEG)"},{"title":"File:Yojoa Lake.jpg","caption_zh":"约华湖","caption":"约华湖","caption_commons":"¡El hermoso Lago de Yojoa!","kw":"Lake Yojoa Honduras","url":"assets/hn/L04.webp","thumb_url":"assets/hn/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Yojoa_Lake.jpg/1920px-Yojoa_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Frank Domínguez 15","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":12584,"caption_zh_manual":"约华湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":4740,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 241KB JPEG)"}],"image_license":"CC BY 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:25:27+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Honduras.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Honduras.wav、LL-Q652 (ita)-Francyskus-Honduras.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py HN","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（4 张，中文图注）","摘要 272 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[error] summary_head：方位描述错误：洪都拉斯西邻危地马拉，西南邻萨尔瓦多，南邻尼加拉瓜 → 改为西接危地马拉、西南接萨尔瓦多、东南接尼加拉瓜"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"加勒比海","evidence":"东、北面滨加勒比海"},{"v":"丰塞卡湾","evidence":"以丰塞卡湾为通向太平洋的出海口"},{"v":"天鹅群岛","evidence":"加勒比海上还有天鹅群岛"},{"v":"海湾群岛","evidence":"海湾群岛等领土"},{"v":"西班牙语","evidence":"西班牙语：República de Honduras"},{"v":"无底深渊","evidence":"遂以“无底深渊”（honduras）命名"}],"model":"deepseek-flash"},"summary_text_raw":"洪都拉斯共和国（西班牙语：República de Honduras），通称洪都拉斯（Honduras），是位于中美洲的共和制国家，西侧国界，北半部与危地马拉接壤，南半部与萨尔瓦多相连；南邻尼加拉瓜边界；东、北面滨加勒比海；南面（偏西）以丰塞卡湾为通向太平洋的出海口。本土以外加勒比海上还有天鹅群岛、海湾群岛等领土。\n\n\n== 国名 ==\n在15世纪的大航海时代，当西班牙航海家沿海岸线发现的深水区，用西班牙语说就是：las honduras、fondos 或 profundidades，其含义分别为：深处、底部或深邃之处。相传，西班牙航海家克里斯托弗·哥伦布1502年最后一次（第四次）航海至新大陆时，船队遭遇风暴，最终脱险后，他不禁感叹道：¡Gracias a Dios que salimos de estas honduras!（“感谢上天，终于走出了这片深不可测的水域！”）。遂以“无底深渊”（honduras）命名这片土地，“洪都拉斯”由此得名。\n然而，传说终归是传说。在克里斯托弗·哥伦布的著作以及摘要文字中，从未出现过“洪都拉斯”这个名字。","history_text":"西部在4至7世纪是玛雅文明中心之一，科潘遗址位于玛雅边境，9世纪随低地文明中心一同衰落。1502年哥伦布抵达海湾群岛，1524年西班牙军队开始征服，同年沦为殖民地。1821年宣布独立，1823年加入中美洲联邦，1838年退出并成立共和国。此后自由派与保守派频繁政变、内战，政权更迭不断。","custom_text":"科潘的玛雅遗址与普拉塔诺河生物圈保护区是两处世界遗产，石雕与球场遗迹是当地人向外来者讲述过往的凭据。学校多为西班牙语与英语并授的双语制，也有加授阿拉伯语或德语的三语学校，高等教育以国立自治大学为中心。北部沿海平原的香蕉种植园塑造了沿岸村镇的作息与生计。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":143,"folk":126}},"knowledge_qa":[{"q":"洪都拉斯在哪个洲啊？","a":"洪都拉斯位于北美洲，是中美洲的一个共和制国家。","tags":["北美洲","中美洲","在哪"]},{"q":"洪都拉斯首都叫什么？","a":"洪都拉斯的首都是特古西加尔巴。","tags":["首都","特古西加尔巴"]},{"q":"洪都拉斯周围挨着哪些国家？","a":"洪都拉斯北半部与危地马拉接壤，南半部与萨尔瓦多相连，南邻尼加拉瓜，东、北面滨加勒比海，南面以丰塞卡湾通向太平洋。","tags":["邻国","边界","加勒比海"]},{"q":"洪都拉斯说什么语言？","a":"洪都拉斯的官方语言是西班牙语。","tags":["语言","西班牙语","说什么话"]},{"q":"洪都拉斯有什么值得看的地标？","a":"值得看的地标有科潘玛雅遗址、乌提拉岛、特古西加尔巴大教堂和约华湖。","tags":["地标","景点","玛雅遗址","乌提拉岛"]},{"q":"洪都拉斯名字是怎么来的？","a":"相传哥伦布1502年航海遇风暴脱险后感叹“感谢上天，终于走出了这片深不可测的水域”，遂以西班牙语“honduras”（深处）命名这片土地。","tags":["国名","名字由来","哥伦布"]},{"q":"洪都拉斯除了本土还有哪些岛屿？","a":"洪都拉斯本土以外，加勒比海上还有天鹅群岛、海湾群岛等领土。","tags":["岛屿","天鹅群岛","海湾群岛"]}],"llm_audit":{"issues":[{"field":"summary_head","severity":"error","why":"方位描述错误：洪都拉斯西邻危地马拉，西南邻萨尔瓦多，南邻尼加拉瓜","suggest":"改为西接危地马拉、西南接萨尔瓦多、东南接尼加拉瓜"}],"overall":"fail"},"audio_meta":{},"outline":[[[-8936,1442],[-8916,1458],[-8923,1485],[-8916,1506],[-8832,1568],[-8814,1568],[-8795,1587],[-8772,1592],[-8759,1594],[-8748,1579],[-8734,1585],[-8692,1576],[-8638,1577],[-8597,1591],[-8590,1598],[-8601,1603],[-8549,1587],[-8500,1599],[-8468,1588],[-8466,1577],[-8445,1580],[-8464,1586],[-8430,1581],[-8373,1539],[-8400,1554],[-8410,1555],[-8409,1548],[-8421,1555],[-8419,1548],[-8413,1553],[-8408,1536],[-8392,1525],[-8382,1527],[-8400,1536],[-8399,1542],[-8378,1529],[-8376,1520],[-8362,1530],[-8353,1528],[-8362,1518],[-8348,1522],[-8370,1540],[-8336,1523],[-8328,1507],[-8313,1500],[-8351,1501],[-8362,1487],[-8392,1476],[-8411,1479],[-8417,1472],[-8426,1476],[-8427,1468],[-8436,1472],[-8448,1462],[-8470,1468],[-8479,1482],[-8490,1482],[-8505,1466],[-8503,1459],[-8514,1458],[-8517,1432],[-8573,1396],[-8574,1382],[-8593,1391],[-8602,1406],[-8634,1376],[-8677,1374],[-8670,1330],[-8691,1324],[-8692,1309],[-8704,1298],[-8731,1298],[-8730,1310],[-8742,1311],[-8751,1329],[-8740,1341],[-8762,1337],[-8762,1347],[-8769,1337],[-8782,1341],[-8772,1346],[-8779,1353],[-8770,1382],[-8782,1392],[-8802,1387],[-8810,1399],[-8824,1399],[-8828,1391],[-8850,1385],[-8850,1398],[-8884,1410],[-8911,1440],[-8936,1442]],[[-8661,1628],[-8644,1640],[-8618,1643],[-8661,1628]],[[-8591,1646],[-8582,1650],[-8595,1640],[-8591,1646]],[[-8688,1613],[-8687,1612],[-8688,1609],[-8691,1609],[-8696,1607],[-8700,1608],[-8694,1612],[-8688,1613]]]}
+{
+  "qid": "Q783",
+  "iso_a2": "HN",
+  "iso_a3": "HND",
+  "name_zh": "洪都拉斯",
+  "name_en": "Honduras",
+  "capital": "特古西加尔巴",
+  "continent": "北美洲",
+  "centroid": [
+    -86.8167,
+    14.6333
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "es",
+      "name_zh": "西班牙语",
+      "name_local": "西班牙语",
+      "role": "official",
+      "audio_url": "assets/hn/audio/es.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenidos a Honduras, un país de contrastes y calidez; su capital es Tegucigalpa, y entre sus lugares más emblemáticos destaca el sitio maya de Copán, con sus estelas y plazas que invitan a recorrer la historia con calma.",
+      "tts_text_zh": "欢迎来到洪都拉斯，一个充满对比与温情的国家；它的首都是特古西加尔巴，而在其最具代表性的地标中，科潘玛雅遗址尤为突出，那里的石碑与广场让人从容地走进历史。",
+      "audio_voice": "es-AR-ElenaNeural",
+      "audio_bytes": 82368
+    }
+  ],
+  "summary_text": "洪都拉斯共和国通称洪都拉斯，是位于中美洲的共和制国家。其西侧为国界，北半部与危地马拉接壤，南半部与萨尔瓦多相连，南邻尼加拉瓜边界；东、北面滨加勒比海，南面偏西以丰塞卡湾为通向太平洋的出海口。本土以外，加勒比海上还有天鹅群岛、海湾群岛等领土。关于国名，相传西班牙航海家克里斯托弗·哥伦布1502年第四次航海至新大陆时，船队遭遇风暴，脱险后他感叹“感谢上天，终于走出了这片深不可测的水域”，遂以西班牙语中意为深处、底部或深邃之处的“honduras”命名这片土地，洪都拉斯由此得名；不过在哥伦布的著作以及摘要文字中，从未出现过“洪都拉斯”这个名字。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 272,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B4%AA%E9%83%BD%E6%8B%89%E6%96%AF",
+    "title": "洪都拉斯"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "4～7世纪，洪都拉斯西部为玛雅文明中心之一，洪都拉斯境内最大、最著名和研究最多的遗址是科潘，该遗址位于玛雅文明的边境地区。在9世纪与其他低地文明中心一起衰落。。1502年哥伦布到达洪都拉斯的海湾群岛，为洪都拉斯与欧洲接触之始，1524年西班牙军队开始征服洪都拉斯，同年沦为西班牙殖民地。洪都拉斯于1821年9月15日宣布独立，但1822年被并入墨西哥第一帝国。1823年加入中美洲联邦，1838年10月退出中美洲联邦，成立共和国；但洪都拉斯对于中美洲联合的想法热情不减。1840年洪都拉斯在危地马拉独裁者拉斐尔·卡雷拉支持下，保守派弗朗西斯科·费雷拉（西班牙语：Francisco Ferrera）建立独裁政府。1853年以后，洪都拉斯国内的自由派和保守派经常发生政变和内战，政权更迭频繁，自1821年独立以来至1978年，共发生139次政变，是拉丁美洲政变最频繁的国家之一。金、银矿业遭到破坏、影响经济发展甚钜。从1840年代起，英国侵占洪都拉斯东部地区和海湾群岛，修建铁路，并取得大片土地的租让权。20世纪初，联合果品公司和标准果品公司攫取北部沿海平原大片土地，发展香蕉种植园。在联合果品公司的控制下，洪都拉斯成为以香蕉种植为主的单一经济国家，到1930年香蕉出口占世界第一位，被称为“香蕉共和国”。1969年，洪都拉斯与邻国萨尔瓦多因1970年世界杯足球赛北美外围赛作为导火线，发生了为时仅6日的战争，原因则为两国的国营传播媒体均煽动仇视对方的国民与政治，使洪都拉斯政府下令将成千上万的萨尔瓦多劳工驱逐出境。最后导致足球战争。1982年，洪都拉斯才结束了连续多年的军人独裁统治，通过了新宪法，开始了民主化进程。但政局仍不稳定，2009年洪都拉斯军事政变后，民选总统曼努埃尔·塞拉亚被军方驱逐出境。2014年1月就任总统的胡安·奥兰多·埃尔南德斯是几十年来一直禁止连任总统的洪都拉斯首位第二任总统，不过他在2017年的连任引发了抗议和暴力事件。2021年11月28日，反对派自由与重建党左翼总统候选人、前第一夫人希奥玛拉·卡斯特罗在总统选举中以53%的得票率成为洪都拉斯首位女总统。",
+      "chars": 893
+    },
+    {
+      "section": "文化",
+      "text": "洪都拉斯有两项世界遗产，为科潘的玛雅遗址与普拉塔诺河生物圈保护区。\n至2004年为止，洪都拉斯的受教育人口大约占83.6%，净小学入学率为94%，。洪都拉斯拥有多所双语（西班牙语和英语）和三语（西班牙语附英语、阿拉伯语和德语）学校。洪都拉斯的高等教育由洪都拉斯国立自治大学管理，其校区位于洪都拉斯多个重要城市。洪都拉斯著名的高等学院除国立自治大学外还有洪都拉斯天主教大学、圣佩德罗苏拉大学、中美洲科技大学、洪都拉斯科技大学等。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "至2021年止，洪都拉斯的人口总数为10,278,345人。 2010年15岁以下人口的比例为36.8％，15至65岁为58.9％，65岁或以上为4.3％。\n洪都拉斯社会的种族比例为90％的麦士蒂索人，7％的美洲印第安人，2％的黑人和1％的白人（2017年）。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Copan, Maya ruins - panoramio.jpg",
+      "caption_zh": "科潘玛雅遗址全景",
+      "caption": "科潘玛雅遗址全景",
+      "caption_commons": "Copan (Honduras), Maya ruins",
+      "kw": "Copan Maya ruins Honduras",
+      "url": "assets/hn/L01.webp",
+      "thumb_url": "assets/hn/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Copan%2C_Maya_ruins_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Frans-Banja Mulder",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 100724,
+      "caption_zh_manual": "科潘玛雅遗址",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9000,
+      "size": {
+        "detail": "876x584",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 876x584 612KB JPEG)"
+    },
+    {
+      "title": "File:Utila Hondoras beach.jpg",
+      "caption_zh": "乌提拉岛海滩",
+      "caption": "乌提拉岛海滩",
+      "caption_commons": "A beach on Utila, Honduras",
+      "kw": "Utila Island Honduras",
+      "url": "assets/hn/L02.webp",
+      "thumb_url": "assets/hn/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Utila_Hondoras_beach.jpg/1920px-Utila_Hondoras_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Rythie",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 118740,
+      "caption_zh_manual": "乌提拉岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6956,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 688KB JPEG)"
+    },
+    {
+      "title": "File:Catedral Metropolitana de San Miguel Arcángel de Tegucigalpa.jpg",
+      "caption_zh": "特古西加尔巴大教堂",
+      "caption": "特古西加尔巴大教堂",
+      "caption_commons": "Una de las Catedrales católicas más grandes del país, terminada a finales del si",
+      "kw": "Tegucigalpa Cathedral Honduras",
+      "url": "assets/hn/L03.webp",
+      "thumb_url": "assets/hn/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Catedral_Metropolitana_de_San_Miguel_Arc%C3%A1ngel_de_Tegucigalpa.jpg/1920px-Catedral_Metropolitana_de_San_Miguel_Arc%C3%A1ngel_de_Tegucigalpa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Luis Alfredo Romero",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 104238,
+      "caption_zh_manual": "特古西加尔巴大教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8694,
+      "size": {
+        "detail": "1080x734",
+        "thumb": "240x163"
+      },
+      "encoding": "webp q75/q78 (源 1920x1305 584KB JPEG)"
+    },
+    {
+      "title": "File:Yojoa Lake.jpg",
+      "caption_zh": "约华湖",
+      "caption": "约华湖",
+      "caption_commons": "¡El hermoso Lago de Yojoa!",
+      "kw": "Lake Yojoa Honduras",
+      "url": "assets/hn/L04.webp",
+      "thumb_url": "assets/hn/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Yojoa_Lake.jpg/1920px-Yojoa_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Frank Domínguez 15",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 23162,
+      "caption_zh_manual": "约华湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 2614,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 241KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:25:27+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Honduras.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Honduras.wav、LL-Q652 (ita)-Francyskus-Honduras.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py HN",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（4 张，中文图注）",
+    "摘要 272 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[error] summary_head：方位描述错误：洪都拉斯西邻危地马拉，西南邻萨尔瓦多，南邻尼加拉瓜 → 改为西接危地马拉、西南接萨尔瓦多、东南接尼加拉瓜"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "加勒比海",
+        "evidence": "东、北面滨加勒比海"
+      },
+      {
+        "v": "丰塞卡湾",
+        "evidence": "以丰塞卡湾为通向太平洋的出海口"
+      },
+      {
+        "v": "天鹅群岛",
+        "evidence": "加勒比海上还有天鹅群岛"
+      },
+      {
+        "v": "海湾群岛",
+        "evidence": "海湾群岛等领土"
+      },
+      {
+        "v": "西班牙语",
+        "evidence": "西班牙语：República de Honduras"
+      },
+      {
+        "v": "无底深渊",
+        "evidence": "遂以“无底深渊”（honduras）命名"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "洪都拉斯共和国（西班牙语：República de Honduras），通称洪都拉斯（Honduras），是位于中美洲的共和制国家，西侧国界，北半部与危地马拉接壤，南半部与萨尔瓦多相连；南邻尼加拉瓜边界；东、北面滨加勒比海；南面（偏西）以丰塞卡湾为通向太平洋的出海口。本土以外加勒比海上还有天鹅群岛、海湾群岛等领土。\n\n\n== 国名 ==\n在15世纪的大航海时代，当西班牙航海家沿海岸线发现的深水区，用西班牙语说就是：las honduras、fondos 或 profundidades，其含义分别为：深处、底部或深邃之处。相传，西班牙航海家克里斯托弗·哥伦布1502年最后一次（第四次）航海至新大陆时，船队遭遇风暴，最终脱险后，他不禁感叹道：¡Gracias a Dios que salimos de estas honduras!（“感谢上天，终于走出了这片深不可测的水域！”）。遂以“无底深渊”（honduras）命名这片土地，“洪都拉斯”由此得名。\n然而，传说终归是传说。在克里斯托弗·哥伦布的著作以及摘要文字中，从未出现过“洪都拉斯”这个名字。",
+  "history_text": "西部在4至7世纪是玛雅文明中心之一，科潘遗址位于玛雅边境，9世纪随低地文明中心一同衰落。1502年哥伦布抵达海湾群岛，1524年西班牙军队开始征服，同年沦为殖民地。1821年宣布独立，1823年加入中美洲联邦，1838年退出并成立共和国。此后自由派与保守派频繁政变、内战，政权更迭不断。",
+  "custom_text": "科潘的玛雅遗址与普拉塔诺河生物圈保护区是两处世界遗产，石雕与球场遗迹是当地人向外来者讲述过往的凭据。学校多为西班牙语与英语并授的双语制，也有加授阿拉伯语或德语的三语学校，高等教育以国立自治大学为中心。北部沿海平原的香蕉种植园塑造了沿岸村镇的作息与生计。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 143,
+      "folk": 126
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "洪都拉斯在哪个洲啊？",
+      "a": "洪都拉斯位于北美洲，是中美洲的一个共和制国家。",
+      "tags": [
+        "北美洲",
+        "中美洲",
+        "在哪"
+      ]
+    },
+    {
+      "q": "洪都拉斯首都叫什么？",
+      "a": "洪都拉斯的首都是特古西加尔巴。",
+      "tags": [
+        "首都",
+        "特古西加尔巴"
+      ]
+    },
+    {
+      "q": "洪都拉斯周围挨着哪些国家？",
+      "a": "洪都拉斯北半部与危地马拉接壤，南半部与萨尔瓦多相连，南邻尼加拉瓜，东、北面滨加勒比海，南面以丰塞卡湾通向太平洋。",
+      "tags": [
+        "邻国",
+        "边界",
+        "加勒比海"
+      ]
+    },
+    {
+      "q": "洪都拉斯说什么语言？",
+      "a": "洪都拉斯的官方语言是西班牙语。",
+      "tags": [
+        "语言",
+        "西班牙语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "洪都拉斯有什么值得看的地标？",
+      "a": "值得看的地标有科潘玛雅遗址、乌提拉岛、特古西加尔巴大教堂和约华湖。",
+      "tags": [
+        "地标",
+        "景点",
+        "玛雅遗址",
+        "乌提拉岛"
+      ]
+    },
+    {
+      "q": "洪都拉斯名字是怎么来的？",
+      "a": "相传哥伦布1502年航海遇风暴脱险后感叹“感谢上天，终于走出了这片深不可测的水域”，遂以西班牙语“honduras”（深处）命名这片土地。",
+      "tags": [
+        "国名",
+        "名字由来",
+        "哥伦布"
+      ]
+    },
+    {
+      "q": "洪都拉斯除了本土还有哪些岛屿？",
+      "a": "洪都拉斯本土以外，加勒比海上还有天鹅群岛、海湾群岛等领土。",
+      "tags": [
+        "岛屿",
+        "天鹅群岛",
+        "海湾群岛"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "summary_head",
+        "severity": "error",
+        "why": "方位描述错误：洪都拉斯西邻危地马拉，西南邻萨尔瓦多，南邻尼加拉瓜",
+        "suggest": "改为西接危地马拉、西南接萨尔瓦多、东南接尼加拉瓜"
+      }
+    ],
+    "overall": "fail"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -8936,
+        1442
+      ],
+      [
+        -8916,
+        1458
+      ],
+      [
+        -8923,
+        1485
+      ],
+      [
+        -8916,
+        1506
+      ],
+      [
+        -8832,
+        1568
+      ],
+      [
+        -8814,
+        1568
+      ],
+      [
+        -8795,
+        1587
+      ],
+      [
+        -8772,
+        1592
+      ],
+      [
+        -8759,
+        1594
+      ],
+      [
+        -8748,
+        1579
+      ],
+      [
+        -8734,
+        1585
+      ],
+      [
+        -8692,
+        1576
+      ],
+      [
+        -8638,
+        1577
+      ],
+      [
+        -8597,
+        1591
+      ],
+      [
+        -8590,
+        1598
+      ],
+      [
+        -8601,
+        1603
+      ],
+      [
+        -8549,
+        1587
+      ],
+      [
+        -8500,
+        1599
+      ],
+      [
+        -8468,
+        1588
+      ],
+      [
+        -8466,
+        1577
+      ],
+      [
+        -8445,
+        1580
+      ],
+      [
+        -8464,
+        1586
+      ],
+      [
+        -8430,
+        1581
+      ],
+      [
+        -8373,
+        1539
+      ],
+      [
+        -8400,
+        1554
+      ],
+      [
+        -8410,
+        1555
+      ],
+      [
+        -8409,
+        1548
+      ],
+      [
+        -8421,
+        1555
+      ],
+      [
+        -8419,
+        1548
+      ],
+      [
+        -8413,
+        1553
+      ],
+      [
+        -8408,
+        1536
+      ],
+      [
+        -8392,
+        1525
+      ],
+      [
+        -8382,
+        1527
+      ],
+      [
+        -8400,
+        1536
+      ],
+      [
+        -8399,
+        1542
+      ],
+      [
+        -8378,
+        1529
+      ],
+      [
+        -8376,
+        1520
+      ],
+      [
+        -8362,
+        1530
+      ],
+      [
+        -8353,
+        1528
+      ],
+      [
+        -8362,
+        1518
+      ],
+      [
+        -8348,
+        1522
+      ],
+      [
+        -8370,
+        1540
+      ],
+      [
+        -8336,
+        1523
+      ],
+      [
+        -8328,
+        1507
+      ],
+      [
+        -8313,
+        1500
+      ],
+      [
+        -8351,
+        1501
+      ],
+      [
+        -8362,
+        1487
+      ],
+      [
+        -8392,
+        1476
+      ],
+      [
+        -8411,
+        1479
+      ],
+      [
+        -8417,
+        1472
+      ],
+      [
+        -8426,
+        1476
+      ],
+      [
+        -8427,
+        1468
+      ],
+      [
+        -8436,
+        1472
+      ],
+      [
+        -8448,
+        1462
+      ],
+      [
+        -8470,
+        1468
+      ],
+      [
+        -8479,
+        1482
+      ],
+      [
+        -8490,
+        1482
+      ],
+      [
+        -8505,
+        1466
+      ],
+      [
+        -8503,
+        1459
+      ],
+      [
+        -8514,
+        1458
+      ],
+      [
+        -8517,
+        1432
+      ],
+      [
+        -8573,
+        1396
+      ],
+      [
+        -8574,
+        1382
+      ],
+      [
+        -8593,
+        1391
+      ],
+      [
+        -8602,
+        1406
+      ],
+      [
+        -8634,
+        1376
+      ],
+      [
+        -8677,
+        1374
+      ],
+      [
+        -8670,
+        1330
+      ],
+      [
+        -8691,
+        1324
+      ],
+      [
+        -8692,
+        1309
+      ],
+      [
+        -8704,
+        1298
+      ],
+      [
+        -8731,
+        1298
+      ],
+      [
+        -8730,
+        1310
+      ],
+      [
+        -8742,
+        1311
+      ],
+      [
+        -8751,
+        1329
+      ],
+      [
+        -8740,
+        1341
+      ],
+      [
+        -8762,
+        1337
+      ],
+      [
+        -8762,
+        1347
+      ],
+      [
+        -8769,
+        1337
+      ],
+      [
+        -8782,
+        1341
+      ],
+      [
+        -8772,
+        1346
+      ],
+      [
+        -8779,
+        1353
+      ],
+      [
+        -8770,
+        1382
+      ],
+      [
+        -8782,
+        1392
+      ],
+      [
+        -8802,
+        1387
+      ],
+      [
+        -8810,
+        1399
+      ],
+      [
+        -8824,
+        1399
+      ],
+      [
+        -8828,
+        1391
+      ],
+      [
+        -8850,
+        1385
+      ],
+      [
+        -8850,
+        1398
+      ],
+      [
+        -8884,
+        1410
+      ],
+      [
+        -8911,
+        1440
+      ],
+      [
+        -8936,
+        1442
+      ]
+    ],
+    [
+      [
+        -8661,
+        1628
+      ],
+      [
+        -8644,
+        1640
+      ],
+      [
+        -8618,
+        1643
+      ],
+      [
+        -8661,
+        1628
+      ]
+    ],
+    [
+      [
+        -8591,
+        1646
+      ],
+      [
+        -8582,
+        1650
+      ],
+      [
+        -8595,
+        1640
+      ],
+      [
+        -8591,
+        1646
+      ]
+    ],
+    [
+      [
+        -8688,
+        1613
+      ],
+      [
+        -8687,
+        1612
+      ],
+      [
+        -8688,
+        1609
+      ],
+      [
+        -8691,
+        1609
+      ],
+      [
+        -8696,
+        1607
+      ],
+      [
+        -8700,
+        1608
+      ],
+      [
+        -8694,
+        1612
+      ],
+      [
+        -8688,
+        1613
+      ]
+    ]
+  ]
+}

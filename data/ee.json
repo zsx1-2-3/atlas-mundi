@@ -1,1 +1,731 @@
-{"qid":"Q191","iso_a2":"EE","iso_a3":"EST","name_zh":"爱沙尼亚","name_en":"Estonia","capital":"塔林","continent":"欧洲","centroid":[26,59],"centroid_source":"wikidata P625","languages":[{"code":"ru","name_zh":"俄语","name_local":"俄语","role":"spoken","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"et","name_zh":"爱沙尼亚语","name_local":"爱沙尼亚语","role":"official","audio_url":"assets/ee/audio/et.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Tere tulemast Eestisse, kus avanevad Läänemere kaldad ja keskaegsed tornid; riigi pealinn on Tallinn, kus vanalinn ja Toompea loss ootavad teid rahulikule jalutuskäigule.","tts_text_zh":"欢迎来到爱沙尼亚，这里展现着波罗的海的海岸与中世纪的塔楼；首都是塔林，老城与座堂山城堡正等待着您悠闲漫步。","audio_voice":"et-EE-AnuNeural","audio_bytes":65232}],"summary_text":"爱沙尼亚共和国（爱沙尼亚语：Eesti Vabariik）位于北欧或中东欧，北临芬兰湾，与芬兰隔海相望；西濒波罗的海，与瑞典相对；南接拉脱维亚，东邻俄罗斯。其领土由本土大陆、萨雷马岛和希乌马岛两座较大岛屿以及波罗的海东岸的2,300多个小岛组成。首都为塔林，第二大城市为塔尔图。爱沙尼亚语是官方语言，也是全国近140万居民中大多数人的母语。爱沙尼亚是欧盟和北约人口最少的成员国之一。现今的爱沙尼亚自公元前9000年起就有人类居住，原住民是欧洲最后一批皈依基督教的异教文明之一，直到13世纪北方十字军东征后才接受基督教。19世纪中叶的爱沙尼亚民族觉醒运动推动了民族认同的形成，并在1918年发表《爱沙尼亚独立宣言》之际达至高潮。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":313,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A","title":"爱沙尼亚"},"culture_excerpts":[{"section":"历史","text":"第一次世界大战后期的1918年2月25日，爱沙尼亚的德裔居民在德林斯汉森男爵（Baron Dellingshansen）领导下发动暴动，请求德国军队进入爱沙尼亚。根据1918年3月3日俄罗斯苏维埃联邦社会主义共和国（苏俄）与德意志帝国签订的布列斯特和约，苏俄将芬兰、爱斯特兰（爱沙尼亚）、里夫兰（立窝尼亚和拉脱维亚）、立陶宛和乌克兰地区割让给德国，苏俄红军和俄国赤卫队从这些领土上撤出。之后德国曾试图在被苏俄割让的爱沙尼亚和拉脱维亚地区建立一个从属于德意志帝国的波罗的联合公国，以梅克伦堡的阿道夫·弗里德里希公爵为元首。1918年11月，德国爆发十一月革命，随后于11月11日宣布投降。苏俄借机宣布废除《布列斯特和约》，试图收回割让给德国的领土。在这种情况下，爱沙尼亚于1918年11月28日宣布独立，国内的德裔居民及部分德军组建了志愿军团，和新组建的爱沙尼亚军队一道抵抗苏俄红军和赤卫队的进攻。1919年2月1日，曾经率兵参加芬兰内战的德国将军吕迪格·冯·德·戈尔茨率领由德国军人组成的“自由军团”（Freikorps）前往爱沙尼亚援战，最终令苏俄政府在1920年2月2日与爱沙尼亚签署《塔尔图和约》，苏俄“无保留地承认爱沙尼亚国的独立，并自动地永远放弃俄国……对爱沙尼亚人民和领土所持有的主权权利”。根据这一秘密附件，苏联于9月25日与爱沙尼亚开始谈判，9月28日与其签订条约，取得了在战争期间占领某些港口和军事设施、并在有关地区驻军的权利。1940年6月16日，苏联向爱沙尼亚提出所谓“保证实施互助条约和防止反苏挑衅行为”的要求，随后出兵占领了爱沙尼亚全境，逮捕其政府官员，废除宪法，建立了共产党政府。1941年6月14日，爱沙尼亚被苏联吞并，成为苏联的加盟共和国，是为爱沙尼亚苏维埃社会主义共和国。苏联的占领和吞并没有得到美国和西方国家的承认，美国还冻结了爱沙尼亚国家银行存放在美国的黄金储备。6月22日，德国入侵苏联，3个星期后即占领了爱沙尼亚全境。爱沙尼亚人视德国军队为“解放者”，并与其展开合作，在武装亲卫队中还成立了一个爱沙尼亚师。1944年9月德军从爱沙尼亚撤退时，苏联再度占领爱沙尼亚，原爱沙尼亚共和国总理于里·乌卢奥茨宣布成为总统（原总统康斯坦丁·佩茨已于1940年被苏联逮捕），并在瑞典首都斯德哥尔摩组建了流亡政府，该政府一直延续到1992年。第二次世界大战中，爱沙尼亚损失了22万人，相当于战前人口的1/5。有8万人流亡到西方。由于爱沙尼亚人与德国合作，因此在第二次世界大战后期遭到苏联的强烈报复。苏联红军轰炸了塔林和纳尔瓦等城市，造成大量平民伤亡。苏联重新占领爱沙尼亚后还进行了大规模的逮捕和处决。反抗苏联占领的爱沙尼亚游击队“森林兄弟”一直战斗到1948年（立陶宛、西乌克兰的类似游击队战斗至1950年代），最后一名游击队员在1978年才被逮捕。为了报复爱沙尼亚人参与苏德战争，苏联还调整了该加盟共和国的边界，把一部分领土转给了俄罗斯。从1949年5月起，苏联开始向西伯利亚流放爱沙尼亚人，并迁入俄罗斯人，以改变该共和国的人口构成。至1952年，爱沙尼亚人在该共和国内的比例已从1941年的90%下降至48%。斯大林去世后，苏联对爱沙尼亚的控制有所放松。从1950年代后期开始，爱沙尼亚人被允许与外国联系，1960年开通了塔林至赫尔辛基的轮渡。在爱沙尼亚可以接收到芬兰的电视节目，但电视要经过特殊改造。戈尔巴乔夫时代，对爱沙尼亚的控制进一步放松，该国开始出现持不同政见的政治团体及政党，例如爱沙尼亚人民阵线、绿党、爱沙尼亚民族独立党等。1988年11月16日，爱沙尼亚最高苏维埃通过了关于共和国享有独立于苏联的主权的声明，1989年1月通过了将爱沙尼亚语定为官方语言的法令，同年2月24日恢复了第一共和国时期的蓝黑白三色国旗，8月和11月通过了新的选举法。1989年8月23日，爱沙尼亚、拉脱维亚和立陶宛发起了“波罗的海之路”人链，纪念三国同在二战中被苏联非法占领，追求恢复独立。1990年2月24日，爱沙尼亚公民经选举产生了成员为464人（包括1940年后被流放的爱沙尼亚人代表35人）组成的爱沙尼亚国会。同年3月选举产生的新一届爱沙尼亚最高苏维埃宣布恢复爱沙尼亚主权，并进入独立前的“过渡时期”。该年5月，最高苏维埃宣布恢复“爱沙尼亚共和国”的国号，并且规定只有经该苏维埃批准通过的法律才可在爱沙尼亚施行。1991年8月19日苏联发生8·19政变，爱沙尼亚于8月20日宣布独立。最高苏维埃主席阿诺德·吕特尔指示正在芬兰访问的外交部长，在得到政府特别指令前留在那里，以便必要时建立流亡政府。俄罗斯于8月26日发表声明，承认波罗的海三国和其他加盟共和国的独立要求，并且特别指明俄罗斯对三国放弃要求修改边界的权利。八一九政变失败后，苏联国务委员会第一次会议在9月6日决定承认爱沙尼亚、拉脱维亚和立陶宛三国的独立，并委托苏联外交部发表声明，支持这三个共和国加入联合国和以平等的成员身份参加欧洲安全与合作会议。爱沙尼亚领土上的俄罗斯军队于1994年全部撤出，爱沙尼亚于2004年加入了欧盟和北大西洋公约组织，在2007年12月21日成为申根公约会员国。","chars":2138},{"section":"人口和宗教","text":"根据人口统计网站的统计显示，爱沙尼亚共和国截至2020年3月5日的总人口有1,291,232人。比上次爱沙尼亚官方统计数据下降了一些，出现了负增长状态。总人口中，男性60.3万人，占比46.4%，女性68.8万人，占比53.6%。爱沙尼亚族占68.7%，俄罗斯族占24.8%，其他民族占4.9%，不明国籍人口占1.5%。人口的年龄构成上，与第一次普查时相比，儿童（0-14岁）占比由18%下降至15%，65岁以上老年人口由15%上升至18%，劳动人口（15-65岁）比例与上一次持平，占67%。此次人口普查的起止日期为2011年12月31日至2012年3月31日。\n爱沙尼亚官方语言为爱沙尼亚语，与芬兰语有很密切的联系。俄语也是重要语言。在爱沙尼亚较大的城镇里，英语知识相当普及。多数俄罗斯族人也通爱沙尼亚语，从2007年起，俄语学校也逐步增加爱沙尼亚语课程。德语也很常用。\n爱沙尼亚人宗教信仰不强烈，不到1/3的人口信教，其中大多数为基督徒，主要为东正教及新教路德宗。源于古代拜物教的宗教传统也有一定的保留。","chars":1200},{"section":"教育","text":"爱沙尼亚正规教育的历史可追溯到13和14世纪，当第一所修道院和教堂学校成立时。爱沙尼亚语的第一本启蒙读本出版于1575年。最古老的大学是塔尔图大学，由瑞典国王古斯塔夫二世·阿道夫在1632年建立。在1919年，大学课程第一次以爱沙尼亚语教学。\n爱沙尼亚今天的教育分为普通、职业和业余爱好。教育制度基于四个层次：学前教育、基础教育、中等教育和高等教育。建立了广泛的学校网络和配套的教育机构。爱沙尼亚教育体系由国立、市立、公立和私立机构组成。爱沙尼亚目前有589所学校。","chars":862}],"landmark_images":[{"title":"File:Old Town of Tallinn, Tallinn, Estonia - panoramio (58).jpg","caption_zh":"塔林老城","caption":"塔林老城","caption_commons":"Old Town of Tallinn, Tallinn, Estonia","kw":"Tallinn Old Town","url":"assets/ee/L01.webp","thumb_url":"assets/ee/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Old_Town_of_Tallinn%2C_Tallinn%2C_Estonia_-_panoramio_%2858%29.jpg/1920px-Old_Town_of_Tallinn%2C_Tallinn%2C_Estonia_-_panoramio_%2858%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Ben Bender","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":60468,"caption_zh_manual":"塔林老城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":20330,"size":{"detail":"760x510","thumb":"400x269"},"encoding":"webp q72/q74 (源 1920x1289 563KB JPEG)"},{"title":"File:Alexander Nevsky Cathedral - Mosaic (2001).jpg","caption_zh":"亚历山大·涅夫斯基主教座堂马赛克","caption":"亚历山大·涅夫斯基主教座堂马赛克","caption_commons":"Gilded mosaic, Alexander Nevsky Cathedral, Tallinn, Estonia.","kw":"Alexander Nevsky Cathedral Tallinn","url":"assets/ee/L02.webp","thumb_url":"assets/ee/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Alexander_Nevsky_Cathedral_-_Mosaic_%282001%29.jpg/1920px-Alexander_Nevsky_Cathedral_-_Mosaic_%282001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Godot13","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":53736,"caption_zh_manual":"亚历山大·涅夫斯基主教座堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17384,"size":{"detail":"760x514","thumb":"400x270"},"encoding":"webp q72/q74 (源 1920x1298 656KB JPEG)"},{"title":"File:Raekoja plats 2.jpg","caption_zh":"塔林市政厅广场2号","caption":"塔林市政厅广场2号","caption_commons":"The Town Hall Square (Raekoja plats) in Tallinn, Estonia.","kw":"Tallinn Town Hall Square","url":"assets/ee/L03.webp","thumb_url":"assets/ee/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Raekoja_plats_2.jpg/1920px-Raekoja_plats_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"kallerna","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":76300,"caption_zh_manual":"塔林市政厅广场","caption_zh_source":"llm_from_commons_filename","thumb_bytes":24146,"size":{"detail":"760x530","thumb":"400x279"},"encoding":"webp q72/q74 (源 1920x1338 775KB JPEG)"},{"title":"File:Tallinn asv2022-04 img55 Kadriorg Palace.jpg","caption_zh":"卡德里奥宫","caption":"卡德里奥宫","caption_commons":"Kadriorg Palace (west facade) in Tallinn, Estonia","kw":"Kadriorg Palace Tallinn","url":"assets/ee/L04.webp","thumb_url":"assets/ee/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tallinn_asv2022-04_img55_Kadriorg_Palace.jpg/1920px-Tallinn_asv2022-04_img55_Kadriorg_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"A.Savin","license":"FAL","license_url":"http://artlibre.org/licence/lal/en","license_status":"ok","load_verified":true,"bytes":59674,"caption_zh_manual":"卡德里奥宫","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18596,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 682KB JPEG)"},{"title":"File:Toompea Castle.jpg","caption_zh":"图姆佩亚城堡","caption":"图姆佩亚城堡","caption_commons":"Toompea Castle.","kw":"Toompea Castle Tallinn","url":"assets/ee/L05.webp","thumb_url":"assets/ee/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Toompea_Castle.jpg/1920px-Toompea_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Williamson.est","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":75684,"caption_zh_manual":"图姆佩亚城堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22196,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 983KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T16:37:06+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 无通行语，从 P2936 补：俄语","P443 发音语种不符已弃用：Lb-Estland.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Estonia.wav、De-Estland.ogg（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py EE","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"基督教","evidence":"接受基督教"}],"architecture":[],"heritage":[],"keywords":[{"v":"芬兰湾","evidence":"北临芬兰湾"},{"v":"波罗的海","evidence":"西濒波罗的海"},{"v":"萨雷马岛","evidence":"萨雷马岛"},{"v":"希乌马岛","evidence":"希乌马岛"},{"v":"爱沙尼亚语","evidence":"爱沙尼亚语是该国的官方语言"},{"v":"塔林","evidence":"塔林是爱沙尼亚的首都"}],"model":"deepseek-flash"},"summary_text_raw":"爱沙尼亚（爱沙尼亚语：Eesti），正式名称为爱沙尼亚共和国（爱沙尼亚语：Eesti Vabariik），是一个位于北欧或中东欧的国家。其北临芬兰湾，与芬兰隔海相望；西濒波罗的海与瑞典相对；南接拉脱维亚；东邻俄罗斯。爱沙尼亚的领土由本土大陆、两座较大的岛屿——萨雷马岛和希乌马岛，以及波罗的海东岸的2,300多个小岛组成。塔林是爱沙尼亚的首都，塔尔图是该国第二大城市。爱沙尼亚语是该国的官方语言，也是全国近140万居民中大多数人的母语。爱沙尼亚还是欧盟和北约人口最少的成员国之一。\n现今的爱沙尼亚自公元前9000年起就有人类居住。在中世纪时期，爱沙尼亚的原住民是欧洲最后一批皈依基督教的异教文明之一，直到13世纪的北方十字军东征后才接受基督教。此后几个世纪，爱沙尼亚先后受到条顿骑士团、丹麦、波兰、瑞典和俄罗斯帝国的统治。19世纪中叶的爱沙尼亚民族觉醒运动推动了爱沙尼亚民族认同的形成，并最终在1918年发表《爱沙尼亚独立宣言》之际达至高潮。在两次世界大战之间的大部分时期，爱沙尼亚奉行民主体制。尽管在第二次世界大战爆发时宣布中立，该国仍多次遭到入侵和占领，最终被并入苏联。","history_text":"中世纪的原住民是欧洲最后一批皈依基督教的异教文明，13世纪北方十字军东征后接受基督教。此后数百年间，这片土地先后受条顿骑士团、丹麦、波兰、瑞典和俄罗斯帝国统治。19世纪中叶民族觉醒运动兴起，1918年发表《爱沙尼亚独立宣言》。两次世界大战之间多行民主体制，二战时虽宣布中立仍遭入侵占领，最终并入苏联。","custom_text":"信教的人不多，基督徒以东正教和路德宗为主，古代拜物教的宗教传统仍有留存。较大的城镇里英语相当普及，俄语也是重要语言，德语常用。饮食与节庆的细节在材料中未及展开，日常生活的底色更多落在语言与信仰的并存上。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":150,"folk":101}},"knowledge_qa":[{"q":"爱沙尼亚在哪儿啊？周围都是些什么地方？","a":"爱沙尼亚位于北欧或中东欧，北临芬兰湾与芬兰隔海相望，西濒波罗的海与瑞典相对，南接拉脱维亚，东邻俄罗斯。","tags":["地理位置","欧洲","邻国","波罗的海"]},{"q":"爱沙尼亚的首都是哪座城市？","a":"塔林是爱沙尼亚的首都，塔尔图是该国第二大城市。","tags":["首都","塔林","城市"]},{"q":"爱沙尼亚说什么语言？","a":"爱沙尼亚语是该国的官方语言，也是全国近140万居民中大多数人的母语；俄语也有人使用。","tags":["语言","爱沙尼亚语","俄语","说什么话"]},{"q":"爱沙尼亚有什么值得看的地标建筑？","a":"值得看的有塔林老城、亚历山大·涅夫斯基主教座堂、塔林市政厅广场、卡德里奥宫和图姆佩亚城堡。","tags":["地标","建筑","塔林老城","景点"]},{"q":"爱沙尼亚的领土是怎么构成的？","a":"爱沙尼亚领土由本土大陆、两座较大的岛屿——萨雷马岛和希乌马岛，以及波罗的海东岸的2,300多个小岛组成。","tags":["领土","岛屿","面积","地理"]},{"q":"爱沙尼亚有什么历史背景？","a":"自公元前9000年起就有人类居住，中世纪原住民是欧洲最后一批皈依基督教的异教文明之一，13世纪北方十字军东征后接受基督教，此后先后受条顿骑士团、丹麦、波兰、瑞典和俄罗斯帝国统治。","tags":["历史","中世纪","基督教","统治"]},{"q":"爱沙尼亚现在是什么国际组织的成员？","a":"爱沙尼亚是欧盟和北约人口最少的成员国之一。","tags":["欧盟","北约","国际组织","成员国"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[2431,5787],[2455,5833],[2436,5840],[2411,5824],[2374,5834],[2368,5852],[2350,5856],[2350,5870],[2387,5877],[2343,5876],[2353,5882],[2342,5893],[2363,5898],[2356,5905],[2361,5901],[2355,5897],[2341,5903],[2352,5907],[2347,5921],[2408,5927],[2404,5939],[2422,5936],[2416,5940],[2433,5947],[2477,5945],[2480,5957],[2541,5949],[2554,5954],[2548,5967],[2568,5957],[2570,5967],[2583,5958],[2600,5963],[2694,5945],[2787,5941],[2802,5948],[2819,5938],[2788,5928],[2771,5899],[2748,5888],[2741,5876],[2756,5840],[2750,5822],[2763,5809],[2766,5792],[2780,5786],[2752,5781],[2733,5758],[2735,5753],[2687,5763],[2650,5752],[2602,5777],[2602,5784],[2558,5792],[2528,5807],[2523,5798],[2509,5807],[2431,5787]],[[2323,5850],[2332,5844],[2316,5848],[2272,5822],[2232,5821],[2220,5799],[2205,5792],[2196,5798],[2220,5815],[2184,5829],[2201,5835],[2183,5851],[2200,5851],[2209,5842],[2219,5854],[2227,5850],[2232,5858],[2255,5863],[2292,5862],[2323,5850]],[[2229,5890],[2204,5894],[2246,5897],[2267,5908],[2274,5900],[2293,5898],[2304,5884],[2284,5878],[2278,5882],[2256,5869],[2246,5872],[2243,5885],[2229,5890]],[[2338,5858],[2322,5854],[2306,5860],[2320,5868],[2338,5858]]]}
+{
+  "qid": "Q191",
+  "iso_a2": "EE",
+  "iso_a3": "EST",
+  "name_zh": "爱沙尼亚",
+  "name_en": "Estonia",
+  "capital": "塔林",
+  "continent": "欧洲",
+  "centroid": [
+    26,
+    59
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ru",
+      "name_zh": "俄语",
+      "name_local": "俄语",
+      "role": "spoken",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "et",
+      "name_zh": "爱沙尼亚语",
+      "name_local": "爱沙尼亚语",
+      "role": "official",
+      "audio_url": "assets/ee/audio/et.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Tere tulemast Eestisse, kus avanevad Läänemere kaldad ja keskaegsed tornid; riigi pealinn on Tallinn, kus vanalinn ja Toompea loss ootavad teid rahulikule jalutuskäigule.",
+      "tts_text_zh": "欢迎来到爱沙尼亚，这里展现着波罗的海的海岸与中世纪的塔楼；首都是塔林，老城与座堂山城堡正等待着您悠闲漫步。",
+      "audio_voice": "et-EE-AnuNeural",
+      "audio_bytes": 65232
+    }
+  ],
+  "summary_text": "爱沙尼亚共和国（爱沙尼亚语：Eesti Vabariik）位于北欧或中东欧，北临芬兰湾，与芬兰隔海相望；西濒波罗的海，与瑞典相对；南接拉脱维亚，东邻俄罗斯。其领土由本土大陆、萨雷马岛和希乌马岛两座较大岛屿以及波罗的海东岸的2,300多个小岛组成。首都为塔林，第二大城市为塔尔图。爱沙尼亚语是官方语言，也是全国近140万居民中大多数人的母语。爱沙尼亚是欧盟和北约人口最少的成员国之一。现今的爱沙尼亚自公元前9000年起就有人类居住，原住民是欧洲最后一批皈依基督教的异教文明之一，直到13世纪北方十字军东征后才接受基督教。19世纪中叶的爱沙尼亚民族觉醒运动推动了民族认同的形成，并在1918年发表《爱沙尼亚独立宣言》之际达至高潮。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 313,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A",
+    "title": "爱沙尼亚"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "第一次世界大战后期的1918年2月25日，爱沙尼亚的德裔居民在德林斯汉森男爵（Baron Dellingshansen）领导下发动暴动，请求德国军队进入爱沙尼亚。根据1918年3月3日俄罗斯苏维埃联邦社会主义共和国（苏俄）与德意志帝国签订的布列斯特和约，苏俄将芬兰、爱斯特兰（爱沙尼亚）、里夫兰（立窝尼亚和拉脱维亚）、立陶宛和乌克兰地区割让给德国，苏俄红军和俄国赤卫队从这些领土上撤出。之后德国曾试图在被苏俄割让的爱沙尼亚和拉脱维亚地区建立一个从属于德意志帝国的波罗的联合公国，以梅克伦堡的阿道夫·弗里德里希公爵为元首。1918年11月，德国爆发十一月革命，随后于11月11日宣布投降。苏俄借机宣布废除《布列斯特和约》，试图收回割让给德国的领土。在这种情况下，爱沙尼亚于1918年11月28日宣布独立，国内的德裔居民及部分德军组建了志愿军团，和新组建的爱沙尼亚军队一道抵抗苏俄红军和赤卫队的进攻。1919年2月1日，曾经率兵参加芬兰内战的德国将军吕迪格·冯·德·戈尔茨率领由德国军人组成的“自由军团”（Freikorps）前往爱沙尼亚援战，最终令苏俄政府在1920年2月2日与爱沙尼亚签署《塔尔图和约》，苏俄“无保留地承认爱沙尼亚国的独立，并自动地永远放弃俄国……对爱沙尼亚人民和领土所持有的主权权利”。根据这一秘密附件，苏联于9月25日与爱沙尼亚开始谈判，9月28日与其签订条约，取得了在战争期间占领某些港口和军事设施、并在有关地区驻军的权利。1940年6月16日，苏联向爱沙尼亚提出所谓“保证实施互助条约和防止反苏挑衅行为”的要求，随后出兵占领了爱沙尼亚全境，逮捕其政府官员，废除宪法，建立了共产党政府。1941年6月14日，爱沙尼亚被苏联吞并，成为苏联的加盟共和国，是为爱沙尼亚苏维埃社会主义共和国。苏联的占领和吞并没有得到美国和西方国家的承认，美国还冻结了爱沙尼亚国家银行存放在美国的黄金储备。6月22日，德国入侵苏联，3个星期后即占领了爱沙尼亚全境。爱沙尼亚人视德国军队为“解放者”，并与其展开合作，在武装亲卫队中还成立了一个爱沙尼亚师。1944年9月德军从爱沙尼亚撤退时，苏联再度占领爱沙尼亚，原爱沙尼亚共和国总理于里·乌卢奥茨宣布成为总统（原总统康斯坦丁·佩茨已于1940年被苏联逮捕），并在瑞典首都斯德哥尔摩组建了流亡政府，该政府一直延续到1992年。第二次世界大战中，爱沙尼亚损失了22万人，相当于战前人口的1/5。有8万人流亡到西方。由于爱沙尼亚人与德国合作，因此在第二次世界大战后期遭到苏联的强烈报复。苏联红军轰炸了塔林和纳尔瓦等城市，造成大量平民伤亡。苏联重新占领爱沙尼亚后还进行了大规模的逮捕和处决。反抗苏联占领的爱沙尼亚游击队“森林兄弟”一直战斗到1948年（立陶宛、西乌克兰的类似游击队战斗至1950年代），最后一名游击队员在1978年才被逮捕。为了报复爱沙尼亚人参与苏德战争，苏联还调整了该加盟共和国的边界，把一部分领土转给了俄罗斯。从1949年5月起，苏联开始向西伯利亚流放爱沙尼亚人，并迁入俄罗斯人，以改变该共和国的人口构成。至1952年，爱沙尼亚人在该共和国内的比例已从1941年的90%下降至48%。斯大林去世后，苏联对爱沙尼亚的控制有所放松。从1950年代后期开始，爱沙尼亚人被允许与外国联系，1960年开通了塔林至赫尔辛基的轮渡。在爱沙尼亚可以接收到芬兰的电视节目，但电视要经过特殊改造。戈尔巴乔夫时代，对爱沙尼亚的控制进一步放松，该国开始出现持不同政见的政治团体及政党，例如爱沙尼亚人民阵线、绿党、爱沙尼亚民族独立党等。1988年11月16日，爱沙尼亚最高苏维埃通过了关于共和国享有独立于苏联的主权的声明，1989年1月通过了将爱沙尼亚语定为官方语言的法令，同年2月24日恢复了第一共和国时期的蓝黑白三色国旗，8月和11月通过了新的选举法。1989年8月23日，爱沙尼亚、拉脱维亚和立陶宛发起了“波罗的海之路”人链，纪念三国同在二战中被苏联非法占领，追求恢复独立。1990年2月24日，爱沙尼亚公民经选举产生了成员为464人（包括1940年后被流放的爱沙尼亚人代表35人）组成的爱沙尼亚国会。同年3月选举产生的新一届爱沙尼亚最高苏维埃宣布恢复爱沙尼亚主权，并进入独立前的“过渡时期”。该年5月，最高苏维埃宣布恢复“爱沙尼亚共和国”的国号，并且规定只有经该苏维埃批准通过的法律才可在爱沙尼亚施行。1991年8月19日苏联发生8·19政变，爱沙尼亚于8月20日宣布独立。最高苏维埃主席阿诺德·吕特尔指示正在芬兰访问的外交部长，在得到政府特别指令前留在那里，以便必要时建立流亡政府。俄罗斯于8月26日发表声明，承认波罗的海三国和其他加盟共和国的独立要求，并且特别指明俄罗斯对三国放弃要求修改边界的权利。八一九政变失败后，苏联国务委员会第一次会议在9月6日决定承认爱沙尼亚、拉脱维亚和立陶宛三国的独立，并委托苏联外交部发表声明，支持这三个共和国加入联合国和以平等的成员身份参加欧洲安全与合作会议。爱沙尼亚领土上的俄罗斯军队于1994年全部撤出，爱沙尼亚于2004年加入了欧盟和北大西洋公约组织，在2007年12月21日成为申根公约会员国。",
+      "chars": 2138
+    },
+    {
+      "section": "人口和宗教",
+      "text": "根据人口统计网站的统计显示，爱沙尼亚共和国截至2020年3月5日的总人口有1,291,232人。比上次爱沙尼亚官方统计数据下降了一些，出现了负增长状态。总人口中，男性60.3万人，占比46.4%，女性68.8万人，占比53.6%。爱沙尼亚族占68.7%，俄罗斯族占24.8%，其他民族占4.9%，不明国籍人口占1.5%。人口的年龄构成上，与第一次普查时相比，儿童（0-14岁）占比由18%下降至15%，65岁以上老年人口由15%上升至18%，劳动人口（15-65岁）比例与上一次持平，占67%。此次人口普查的起止日期为2011年12月31日至2012年3月31日。\n爱沙尼亚官方语言为爱沙尼亚语，与芬兰语有很密切的联系。俄语也是重要语言。在爱沙尼亚较大的城镇里，英语知识相当普及。多数俄罗斯族人也通爱沙尼亚语，从2007年起，俄语学校也逐步增加爱沙尼亚语课程。德语也很常用。\n爱沙尼亚人宗教信仰不强烈，不到1/3的人口信教，其中大多数为基督徒，主要为东正教及新教路德宗。源于古代拜物教的宗教传统也有一定的保留。",
+      "chars": 1200
+    },
+    {
+      "section": "教育",
+      "text": "爱沙尼亚正规教育的历史可追溯到13和14世纪，当第一所修道院和教堂学校成立时。爱沙尼亚语的第一本启蒙读本出版于1575年。最古老的大学是塔尔图大学，由瑞典国王古斯塔夫二世·阿道夫在1632年建立。在1919年，大学课程第一次以爱沙尼亚语教学。\n爱沙尼亚今天的教育分为普通、职业和业余爱好。教育制度基于四个层次：学前教育、基础教育、中等教育和高等教育。建立了广泛的学校网络和配套的教育机构。爱沙尼亚教育体系由国立、市立、公立和私立机构组成。爱沙尼亚目前有589所学校。",
+      "chars": 862
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Old Town of Tallinn, Tallinn, Estonia - panoramio (58).jpg",
+      "caption_zh": "塔林老城",
+      "caption": "塔林老城",
+      "caption_commons": "Old Town of Tallinn, Tallinn, Estonia",
+      "kw": "Tallinn Old Town",
+      "url": "assets/ee/L01.webp",
+      "thumb_url": "assets/ee/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Old_Town_of_Tallinn%2C_Tallinn%2C_Estonia_-_panoramio_%2858%29.jpg/1920px-Old_Town_of_Tallinn%2C_Tallinn%2C_Estonia_-_panoramio_%2858%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Ben Bender",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 115046,
+      "caption_zh_manual": "塔林老城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9658,
+      "size": {
+        "detail": "1080x725",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1920x1289 563KB JPEG)"
+    },
+    {
+      "title": "File:Alexander Nevsky Cathedral - Mosaic (2001).jpg",
+      "caption_zh": "亚历山大·涅夫斯基主教座堂马赛克",
+      "caption": "亚历山大·涅夫斯基主教座堂马赛克",
+      "caption_commons": "Gilded mosaic, Alexander Nevsky Cathedral, Tallinn, Estonia.",
+      "kw": "Alexander Nevsky Cathedral Tallinn",
+      "url": "assets/ee/L02.webp",
+      "thumb_url": "assets/ee/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Alexander_Nevsky_Cathedral_-_Mosaic_%282001%29.jpg/1920px-Alexander_Nevsky_Cathedral_-_Mosaic_%282001%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Godot13",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 105290,
+      "caption_zh_manual": "亚历山大·涅夫斯基主教座堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8244,
+      "size": {
+        "detail": "1080x730",
+        "thumb": "240x162"
+      },
+      "encoding": "webp q75/q78 (源 1920x1298 656KB JPEG)"
+    },
+    {
+      "title": "File:Raekoja plats 2.jpg",
+      "caption_zh": "塔林市政厅广场2号",
+      "caption": "塔林市政厅广场2号",
+      "caption_commons": "The Town Hall Square (Raekoja plats) in Tallinn, Estonia.",
+      "kw": "Tallinn Town Hall Square",
+      "url": "assets/ee/L03.webp",
+      "thumb_url": "assets/ee/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Raekoja_plats_2.jpg/1920px-Raekoja_plats_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "kallerna",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 151548,
+      "caption_zh_manual": "塔林市政厅广场",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10826,
+      "size": {
+        "detail": "1080x753",
+        "thumb": "240x167"
+      },
+      "encoding": "webp q75/q78 (源 1920x1338 775KB JPEG)"
+    },
+    {
+      "title": "File:Tallinn asv2022-04 img55 Kadriorg Palace.jpg",
+      "caption_zh": "卡德里奥宫",
+      "caption": "卡德里奥宫",
+      "caption_commons": "Kadriorg Palace (west facade) in Tallinn, Estonia",
+      "kw": "Kadriorg Palace Tallinn",
+      "url": "assets/ee/L04.webp",
+      "thumb_url": "assets/ee/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Tallinn_asv2022-04_img55_Kadriorg_Palace.jpg/1920px-Tallinn_asv2022-04_img55_Kadriorg_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "A.Savin",
+      "license": "FAL",
+      "license_url": "http://artlibre.org/licence/lal/en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 121458,
+      "caption_zh_manual": "卡德里奥宫",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8328,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 682KB JPEG)"
+    },
+    {
+      "title": "File:Toompea Castle.jpg",
+      "caption_zh": "图姆佩亚城堡",
+      "caption": "图姆佩亚城堡",
+      "caption_commons": "Toompea Castle.",
+      "kw": "Toompea Castle Tallinn",
+      "url": "assets/ee/L05.webp",
+      "thumb_url": "assets/ee/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Toompea_Castle.jpg/1920px-Toompea_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Williamson.est",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 161202,
+      "caption_zh_manual": "图姆佩亚城堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10088,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 983KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T16:37:06+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 无通行语，从 P2936 补：俄语",
+    "P443 发音语种不符已弃用：Lb-Estland.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Estonia.wav、De-Estland.ogg（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py EE",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "基督教",
+        "evidence": "接受基督教"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "芬兰湾",
+        "evidence": "北临芬兰湾"
+      },
+      {
+        "v": "波罗的海",
+        "evidence": "西濒波罗的海"
+      },
+      {
+        "v": "萨雷马岛",
+        "evidence": "萨雷马岛"
+      },
+      {
+        "v": "希乌马岛",
+        "evidence": "希乌马岛"
+      },
+      {
+        "v": "爱沙尼亚语",
+        "evidence": "爱沙尼亚语是该国的官方语言"
+      },
+      {
+        "v": "塔林",
+        "evidence": "塔林是爱沙尼亚的首都"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "爱沙尼亚（爱沙尼亚语：Eesti），正式名称为爱沙尼亚共和国（爱沙尼亚语：Eesti Vabariik），是一个位于北欧或中东欧的国家。其北临芬兰湾，与芬兰隔海相望；西濒波罗的海与瑞典相对；南接拉脱维亚；东邻俄罗斯。爱沙尼亚的领土由本土大陆、两座较大的岛屿——萨雷马岛和希乌马岛，以及波罗的海东岸的2,300多个小岛组成。塔林是爱沙尼亚的首都，塔尔图是该国第二大城市。爱沙尼亚语是该国的官方语言，也是全国近140万居民中大多数人的母语。爱沙尼亚还是欧盟和北约人口最少的成员国之一。\n现今的爱沙尼亚自公元前9000年起就有人类居住。在中世纪时期，爱沙尼亚的原住民是欧洲最后一批皈依基督教的异教文明之一，直到13世纪的北方十字军东征后才接受基督教。此后几个世纪，爱沙尼亚先后受到条顿骑士团、丹麦、波兰、瑞典和俄罗斯帝国的统治。19世纪中叶的爱沙尼亚民族觉醒运动推动了爱沙尼亚民族认同的形成，并最终在1918年发表《爱沙尼亚独立宣言》之际达至高潮。在两次世界大战之间的大部分时期，爱沙尼亚奉行民主体制。尽管在第二次世界大战爆发时宣布中立，该国仍多次遭到入侵和占领，最终被并入苏联。",
+  "history_text": "中世纪的原住民是欧洲最后一批皈依基督教的异教文明，13世纪北方十字军东征后接受基督教。此后数百年间，这片土地先后受条顿骑士团、丹麦、波兰、瑞典和俄罗斯帝国统治。19世纪中叶民族觉醒运动兴起，1918年发表《爱沙尼亚独立宣言》。两次世界大战之间多行民主体制，二战时虽宣布中立仍遭入侵占领，最终并入苏联。",
+  "custom_text": "信教的人不多，基督徒以东正教和路德宗为主，古代拜物教的宗教传统仍有留存。较大的城镇里英语相当普及，俄语也是重要语言，德语常用。饮食与节庆的细节在材料中未及展开，日常生活的底色更多落在语言与信仰的并存上。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 150,
+      "folk": 101
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "爱沙尼亚在哪儿啊？周围都是些什么地方？",
+      "a": "爱沙尼亚位于北欧或中东欧，北临芬兰湾与芬兰隔海相望，西濒波罗的海与瑞典相对，南接拉脱维亚，东邻俄罗斯。",
+      "tags": [
+        "地理位置",
+        "欧洲",
+        "邻国",
+        "波罗的海"
+      ]
+    },
+    {
+      "q": "爱沙尼亚的首都是哪座城市？",
+      "a": "塔林是爱沙尼亚的首都，塔尔图是该国第二大城市。",
+      "tags": [
+        "首都",
+        "塔林",
+        "城市"
+      ]
+    },
+    {
+      "q": "爱沙尼亚说什么语言？",
+      "a": "爱沙尼亚语是该国的官方语言，也是全国近140万居民中大多数人的母语；俄语也有人使用。",
+      "tags": [
+        "语言",
+        "爱沙尼亚语",
+        "俄语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "爱沙尼亚有什么值得看的地标建筑？",
+      "a": "值得看的有塔林老城、亚历山大·涅夫斯基主教座堂、塔林市政厅广场、卡德里奥宫和图姆佩亚城堡。",
+      "tags": [
+        "地标",
+        "建筑",
+        "塔林老城",
+        "景点"
+      ]
+    },
+    {
+      "q": "爱沙尼亚的领土是怎么构成的？",
+      "a": "爱沙尼亚领土由本土大陆、两座较大的岛屿——萨雷马岛和希乌马岛，以及波罗的海东岸的2,300多个小岛组成。",
+      "tags": [
+        "领土",
+        "岛屿",
+        "面积",
+        "地理"
+      ]
+    },
+    {
+      "q": "爱沙尼亚有什么历史背景？",
+      "a": "自公元前9000年起就有人类居住，中世纪原住民是欧洲最后一批皈依基督教的异教文明之一，13世纪北方十字军东征后接受基督教，此后先后受条顿骑士团、丹麦、波兰、瑞典和俄罗斯帝国统治。",
+      "tags": [
+        "历史",
+        "中世纪",
+        "基督教",
+        "统治"
+      ]
+    },
+    {
+      "q": "爱沙尼亚现在是什么国际组织的成员？",
+      "a": "爱沙尼亚是欧盟和北约人口最少的成员国之一。",
+      "tags": [
+        "欧盟",
+        "北约",
+        "国际组织",
+        "成员国"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        2431,
+        5787
+      ],
+      [
+        2455,
+        5833
+      ],
+      [
+        2436,
+        5840
+      ],
+      [
+        2411,
+        5824
+      ],
+      [
+        2374,
+        5834
+      ],
+      [
+        2368,
+        5852
+      ],
+      [
+        2350,
+        5856
+      ],
+      [
+        2350,
+        5870
+      ],
+      [
+        2387,
+        5877
+      ],
+      [
+        2343,
+        5876
+      ],
+      [
+        2353,
+        5882
+      ],
+      [
+        2342,
+        5893
+      ],
+      [
+        2363,
+        5898
+      ],
+      [
+        2356,
+        5905
+      ],
+      [
+        2361,
+        5901
+      ],
+      [
+        2355,
+        5897
+      ],
+      [
+        2341,
+        5903
+      ],
+      [
+        2352,
+        5907
+      ],
+      [
+        2347,
+        5921
+      ],
+      [
+        2408,
+        5927
+      ],
+      [
+        2404,
+        5939
+      ],
+      [
+        2422,
+        5936
+      ],
+      [
+        2416,
+        5940
+      ],
+      [
+        2433,
+        5947
+      ],
+      [
+        2477,
+        5945
+      ],
+      [
+        2480,
+        5957
+      ],
+      [
+        2541,
+        5949
+      ],
+      [
+        2554,
+        5954
+      ],
+      [
+        2548,
+        5967
+      ],
+      [
+        2568,
+        5957
+      ],
+      [
+        2570,
+        5967
+      ],
+      [
+        2583,
+        5958
+      ],
+      [
+        2600,
+        5963
+      ],
+      [
+        2694,
+        5945
+      ],
+      [
+        2787,
+        5941
+      ],
+      [
+        2802,
+        5948
+      ],
+      [
+        2819,
+        5938
+      ],
+      [
+        2788,
+        5928
+      ],
+      [
+        2771,
+        5899
+      ],
+      [
+        2748,
+        5888
+      ],
+      [
+        2741,
+        5876
+      ],
+      [
+        2756,
+        5840
+      ],
+      [
+        2750,
+        5822
+      ],
+      [
+        2763,
+        5809
+      ],
+      [
+        2766,
+        5792
+      ],
+      [
+        2780,
+        5786
+      ],
+      [
+        2752,
+        5781
+      ],
+      [
+        2733,
+        5758
+      ],
+      [
+        2735,
+        5753
+      ],
+      [
+        2687,
+        5763
+      ],
+      [
+        2650,
+        5752
+      ],
+      [
+        2602,
+        5777
+      ],
+      [
+        2602,
+        5784
+      ],
+      [
+        2558,
+        5792
+      ],
+      [
+        2528,
+        5807
+      ],
+      [
+        2523,
+        5798
+      ],
+      [
+        2509,
+        5807
+      ],
+      [
+        2431,
+        5787
+      ]
+    ],
+    [
+      [
+        2323,
+        5850
+      ],
+      [
+        2332,
+        5844
+      ],
+      [
+        2316,
+        5848
+      ],
+      [
+        2272,
+        5822
+      ],
+      [
+        2232,
+        5821
+      ],
+      [
+        2220,
+        5799
+      ],
+      [
+        2205,
+        5792
+      ],
+      [
+        2196,
+        5798
+      ],
+      [
+        2220,
+        5815
+      ],
+      [
+        2184,
+        5829
+      ],
+      [
+        2201,
+        5835
+      ],
+      [
+        2183,
+        5851
+      ],
+      [
+        2200,
+        5851
+      ],
+      [
+        2209,
+        5842
+      ],
+      [
+        2219,
+        5854
+      ],
+      [
+        2227,
+        5850
+      ],
+      [
+        2232,
+        5858
+      ],
+      [
+        2255,
+        5863
+      ],
+      [
+        2292,
+        5862
+      ],
+      [
+        2323,
+        5850
+      ]
+    ],
+    [
+      [
+        2229,
+        5890
+      ],
+      [
+        2204,
+        5894
+      ],
+      [
+        2246,
+        5897
+      ],
+      [
+        2267,
+        5908
+      ],
+      [
+        2274,
+        5900
+      ],
+      [
+        2293,
+        5898
+      ],
+      [
+        2304,
+        5884
+      ],
+      [
+        2284,
+        5878
+      ],
+      [
+        2278,
+        5882
+      ],
+      [
+        2256,
+        5869
+      ],
+      [
+        2246,
+        5872
+      ],
+      [
+        2243,
+        5885
+      ],
+      [
+        2229,
+        5890
+      ]
+    ],
+    [
+      [
+        2338,
+        5858
+      ],
+      [
+        2322,
+        5854
+      ],
+      [
+        2306,
+        5860
+      ],
+      [
+        2320,
+        5868
+      ],
+      [
+        2338,
+        5858
+      ]
+    ]
+  ]
+}

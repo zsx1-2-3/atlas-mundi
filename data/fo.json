@@ -1,1 +1,629 @@
-{"qid":"Q4628","iso_a2":"FO","iso_a3":"FRO","name_zh":"法罗群岛","name_en":"Faroe Islands","capital":"托爾斯港","continent":"欧洲","centroid":[-6.8445,61.9699],"centroid_source":"wikidata P625","languages":[{"code":"fo","name_zh":"法罗语","name_local":"法罗语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"da","name_zh":"丹麦语","name_local":"丹麦语","role":"official","audio_url":"assets/fo/audio/da.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Velkommen til Færøerne, et land af grønne dale og tågeklædte fjelde. Hovedstaden er Tórshavn, og et af de mest kendte vartegn er den gamle bydel Tinganes med sine røde træhuse.","tts_text_zh":"欢迎来到法罗群岛，这片遍布绿色山谷与云雾山峰的土地。首都是托尔斯港，最著名的地标之一是拥有红色木屋的老城区廷加内斯。","audio_voice":"da-DK-ChristelNeural","audio_bytes":68256}],"summary_text":"法罗群岛是丹麦王国的海外自治领地，地理位置介乎挪威海和北大西洋中间，处于挪威到冰岛之间距离一半的位置。法罗群岛陆地面积1,399平方公里，由17个有人岛和若干个无人岛组成，居民共52,337人（2020年）。法罗群岛属于温带海洋性气候，虽然位处北方，因受北大西洋暖流影响，气温长年在零度以上。法罗群岛居民通过投票选出自治议会成员，继而由自治议会选出总理，丹麦政府派出高级专员代表国王，并协助处理群岛的对外事务。法罗群岛的官方语言为法罗语和丹麦语。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":223,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%B3%95%E7%BD%97%E7%BE%A4%E5%B2%9B","title":"法罗群岛"},"culture_excerpts":[{"section":"民生","text":"1999年社会福利开支为11.8亿丹麦克朗。有医院3所，病床296张，医生82名，牙医38名，护理人员320名。各种汽车1.82万辆，其中私人小轿车1.47万辆。","chars":1200},{"section":"教育","text":"1965年在托尔斯港建立了法罗群岛大学，是群岛上唯一的大学，也是世界上唯一使用法罗语教学的大学。","chars":1200}],"landmark_images":[{"title":"File:Kallur kalsoy 2.jpg","caption_zh":"卡尔斯岛灯塔","caption":"卡尔斯岛灯塔","caption_commons":"Kallur lighthouse on the northern tip of Kalsoy, Faroe Islands","kw":"Kalsoy Kallur Lighthouse","url":"assets/fo/L01.webp","thumb_url":"assets/fo/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Kallur_kalsoy_2.jpg/1920px-Kallur_kalsoy_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Ekrem Canli","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":42916,"caption_zh_manual":"卡尔斯岛灯塔","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13420,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 539KB JPEG)"},{"title":"File:Drangarnir and Tindholmur, Faroe Islands.jpg","caption_zh":"德朗加尼尔海蚀柱与廷德霍尔穆尔","caption":"德朗加尼尔海蚀柱与廷德霍尔穆尔","caption_commons":"Drangarnir and Tindhólmur, Faroe Islands, October 2005","kw":"Drangarnir Sea Arch Faroe","url":"assets/fo/L02.webp","thumb_url":"assets/fo/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/3/3b/Drangarnir_and_Tindholmur%2C_Faroe_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Erik Christensen, Porkeri.","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":26722,"caption_zh_manual":"德朗加尼尔海蚀柱","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12078,"size":{"detail":"640x426","thumb":"400x266"},"encoding":"webp q72/q74 (源 640x426 54KB JPEG)"},{"title":"File:Vágar.Mykines.1.jpg","caption_zh":"米基内斯岛海鹦崖","caption":"米基内斯岛海鹦崖","caption_commons":"Drangarnir, Tindhólmur and Mykines. Faroe Islands","kw":"Mykines Puffin Cliffs Faroe","url":"assets/fo/L03.webp","thumb_url":"assets/fo/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/V%C3%A1gar.Mykines.1.jpg/1920px-V%C3%A1gar.Mykines.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Erik Christensen","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":10542,"caption_zh_manual":"米基内斯岛海鹦崖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":3876,"size":{"detail":"760x509","thumb":"400x268"},"encoding":"webp q72/q74 (源 1920x1285 278KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:18:02+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q33573 (kin)-Adygrafix250-Ibirwa bya Farowe.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py FO","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（3 张，中文图注）","摘要 223 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"爱尔兰僧侣","evidence":"一批爱尔兰僧侣到此定居"}],"architecture":[],"heritage":[],"keywords":[{"v":"温带海洋性气候","evidence":"属于温带海洋性气候"},{"v":"北大西洋暖流","evidence":"因受北大西洋暖流影响"},{"v":"法罗语","evidence":"官方语言为法罗语和丹麦语"},{"v":"维京人","evidence":"维京人进攻并占领法罗群岛"},{"v":"自治议会","evidence":"投票选出自治议会成员"}],"model":"deepseek-flash"},"summary_text_raw":"法罗群岛（法罗语：Føroyar，发音：[ˈfœɹjaɹ] ；丹麦语：Færøerne，发音：[ˈfeɐ̯ˌøˀɐnə]）又译富乐群岛，是丹麦王国的海外自治领地。地理位置介乎挪威海和北大西洋中间，处于挪威到冰岛之间距离一半的位置。\n法罗群岛陆地面积1,399平方公里，由17个有人岛和若干个无人岛组成，居民共52,337人（2020年），官方语言为法罗语和丹麦语。法罗群岛属于温带海洋性气候，虽然位处北方，因受北大西洋暖流影响，气温长年在零度以上。法罗群岛居民通过投票选出自治议会成员，继而由自治议会选出总理，丹麦政府派出高级专员代表国王，并协助处理群岛的对外事务。\n\n\n== 历史 ==\n\n公元600年左右：一批爱尔兰僧侣到此定居。\n公元9世纪：维京人进攻并占领法罗群岛。\n970年：一度成立共和制，但实为苏格兰奥克尼伯爵（Earl of Orkney）的附庸国。\n1280年：随奥克尼群岛成为挪威占领地。\n1388年：随挪威并入丹麦。\n1650年：成为丹麦冯·加贝尔家族的封建领地。\n1720年：法罗群岛被划分为丹属冰岛辖地。","history_text":"爱尔兰僧侣在公元600年左右最先定居于此，随后维京人于9世纪攻占群岛。970年一度成立共和制，实为苏格兰奥克尼伯爵的附庸。1280年随奥克尼群岛成为挪威占领地，1388年又随挪威并入丹麦，此后长期处于丹麦治下，1650年更成为冯·加贝尔家族的封建领地。","custom_text":"群岛上的日常生活围绕海洋与牧草展开，晾晒风干的羊肉和鱼肉是家家户户储存食物的老办法，海鸟蛋与根茎类作物也常出现在餐桌上。托尔斯港的夏季节庆里，人们围成圆圈唱古老的法罗歌谣，跳起传统的链舞，这种歌舞传统在村落间代代相传。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":126,"folk":109}},"knowledge_qa":[{"q":"法罗群岛在哪儿啊？","a":"在欧洲，位于挪威海和北大西洋中间，正好在挪威到冰岛距离一半的位置。","tags":["欧洲","位置","北大西洋"]},{"q":"法罗群岛有多大？住了多少人？","a":"陆地面积1,399平方公里，由17个有人岛和若干无人岛组成，2020年居民共52,337人。","tags":["面积","人口","岛屿"]},{"q":"法罗群岛的首都是哪里？","a":"首都叫托爾斯港。","tags":["首都","托尔斯港"]},{"q":"法罗群岛说什么语言？","a":"官方语言是法罗语和丹麦语。","tags":["语言","法罗语","丹麦语"]},{"q":"法罗群岛有什么值得看的地标或景观？","a":"有卡尔斯岛灯塔、德朗加尼尔海蚀柱和米基内斯岛海鹦崖。","tags":["地标","灯塔","海蚀柱","海鹦崖"]},{"q":"法罗群岛的历史大概什么样？","a":"公元600年左右爱尔兰僧侣定居，9世纪维京人占领，后来随挪威并入丹麦，1720年划为丹属冰岛辖地。","tags":["历史","维京","丹麦"]},{"q":"法罗群岛气候怎么样？冷吗？","a":"属于温带海洋性气候，虽然位置偏北，但受北大西洋暖流影响，气温长年在零度以上。","tags":["气候","气温","暖流"]},{"q":"法罗群岛是谁管的？","a":"是丹麦王国的海外自治领地，有自治议会和总理，丹麦政府派高级专员代表国王并协助对外事务。","tags":["自治","丹麦","政治"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-722,6217],[-720,6232],[-707,6229],[-678,6207],[-685,6205],[-672,6203],[-670,6194],[-722,6217]],[[-706,6229],[-693,6234],[-691,6224],[-681,6229],[-656,6214],[-667,6215],[-659,6212],[-666,6206],[-675,6218],[-681,6219],[-674,6210],[-706,6229]],[[-666,6140],[-696,6163],[-672,6157],[-681,6155],[-668,6148],[-678,6146],[-666,6140]],[[-738,6210],[-743,6215],[-722,6216],[-704,6209],[-720,6202],[-738,6210]],[[-661,6182],[-666,6175],[-691,6191],[-661,6182]],[[-654,6219],[-654,6237],[-639,6226],[-650,6225],[-641,6219],[-654,6219]],[[-666,6226],[-664,6225],[-664,6224],[-666,6224],[-669,6225],[-671,6228],[-677,6234],[-679,6238],[-676,6237],[-666,6226]],[[-641,6232],[-640,6231],[-641,6229],[-646,6230],[-651,6233],[-653,6237],[-656,6239],[-654,6240],[-650,6239],[-645,6232],[-641,6232]],[[-658,6229],[-658,6227],[-659,6226],[-664,6228],[-667,6232],[-668,6234],[-668,6237],[-666,6237],[-665,6237],[-658,6229]],[[-632,6231],[-629,6231],[-628,6230],[-631,6228],[-630,6226],[-636,6225],[-638,6228],[-632,6231]]]}
+{
+  "qid": "Q4628",
+  "iso_a2": "FO",
+  "iso_a3": "FRO",
+  "name_zh": "法罗群岛",
+  "name_en": "Faroe Islands",
+  "capital": "托爾斯港",
+  "continent": "欧洲",
+  "centroid": [
+    -6.8445,
+    61.9699
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "fo",
+      "name_zh": "法罗语",
+      "name_local": "法罗语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "da",
+      "name_zh": "丹麦语",
+      "name_local": "丹麦语",
+      "role": "official",
+      "audio_url": "assets/fo/audio/da.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Velkommen til Færøerne, et land af grønne dale og tågeklædte fjelde. Hovedstaden er Tórshavn, og et af de mest kendte vartegn er den gamle bydel Tinganes med sine røde træhuse.",
+      "tts_text_zh": "欢迎来到法罗群岛，这片遍布绿色山谷与云雾山峰的土地。首都是托尔斯港，最著名的地标之一是拥有红色木屋的老城区廷加内斯。",
+      "audio_voice": "da-DK-ChristelNeural",
+      "audio_bytes": 68256
+    }
+  ],
+  "summary_text": "法罗群岛是丹麦王国的海外自治领地，地理位置介乎挪威海和北大西洋中间，处于挪威到冰岛之间距离一半的位置。法罗群岛陆地面积1,399平方公里，由17个有人岛和若干个无人岛组成，居民共52,337人（2020年）。法罗群岛属于温带海洋性气候，虽然位处北方，因受北大西洋暖流影响，气温长年在零度以上。法罗群岛居民通过投票选出自治议会成员，继而由自治议会选出总理，丹麦政府派出高级专员代表国王，并协助处理群岛的对外事务。法罗群岛的官方语言为法罗语和丹麦语。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 223,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E7%BD%97%E7%BE%A4%E5%B2%9B",
+    "title": "法罗群岛"
+  },
+  "culture_excerpts": [
+    {
+      "section": "民生",
+      "text": "1999年社会福利开支为11.8亿丹麦克朗。有医院3所，病床296张，医生82名，牙医38名，护理人员320名。各种汽车1.82万辆，其中私人小轿车1.47万辆。",
+      "chars": 1200
+    },
+    {
+      "section": "教育",
+      "text": "1965年在托尔斯港建立了法罗群岛大学，是群岛上唯一的大学，也是世界上唯一使用法罗语教学的大学。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Kallur kalsoy 2.jpg",
+      "caption_zh": "卡尔斯岛灯塔",
+      "caption": "卡尔斯岛灯塔",
+      "caption_commons": "Kallur lighthouse on the northern tip of Kalsoy, Faroe Islands",
+      "kw": "Kalsoy Kallur Lighthouse",
+      "url": "assets/fo/L01.webp",
+      "thumb_url": "assets/fo/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Kallur_kalsoy_2.jpg/1920px-Kallur_kalsoy_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Ekrem Canli",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 88048,
+      "caption_zh_manual": "卡尔斯岛灯塔",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6270,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 539KB JPEG)"
+    },
+    {
+      "title": "File:Drangarnir and Tindholmur, Faroe Islands.jpg",
+      "caption_zh": "德朗加尼尔海蚀柱与廷德霍尔穆尔",
+      "caption": "德朗加尼尔海蚀柱与廷德霍尔穆尔",
+      "caption_commons": "Drangarnir and Tindhólmur, Faroe Islands, October 2005",
+      "kw": "Drangarnir Sea Arch Faroe",
+      "url": "assets/fo/L02.webp",
+      "thumb_url": "assets/fo/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Drangarnir_and_Tindholmur%2C_Faroe_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Erik Christensen, Porkeri.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 27852,
+      "caption_zh_manual": "德朗加尼尔海蚀柱",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5656,
+      "size": {
+        "detail": "640x426",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 640x426 54KB JPEG)"
+    },
+    {
+      "title": "File:Vágar.Mykines.1.jpg",
+      "caption_zh": "米基内斯岛海鹦崖",
+      "caption": "米基内斯岛海鹦崖",
+      "caption_commons": "Drangarnir, Tindhólmur and Mykines. Faroe Islands",
+      "kw": "Mykines Puffin Cliffs Faroe",
+      "url": "assets/fo/L03.webp",
+      "thumb_url": "assets/fo/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/V%C3%A1gar.Mykines.1.jpg/1920px-V%C3%A1gar.Mykines.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Erik Christensen",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 23658,
+      "caption_zh_manual": "米基内斯岛海鹦崖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 2216,
+      "size": {
+        "detail": "1080x723",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1920x1285 278KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:18:02+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q33573 (kin)-Adygrafix250-Ibirwa bya Farowe.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py FO",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（3 张，中文图注）",
+    "摘要 223 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "爱尔兰僧侣",
+        "evidence": "一批爱尔兰僧侣到此定居"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "温带海洋性气候",
+        "evidence": "属于温带海洋性气候"
+      },
+      {
+        "v": "北大西洋暖流",
+        "evidence": "因受北大西洋暖流影响"
+      },
+      {
+        "v": "法罗语",
+        "evidence": "官方语言为法罗语和丹麦语"
+      },
+      {
+        "v": "维京人",
+        "evidence": "维京人进攻并占领法罗群岛"
+      },
+      {
+        "v": "自治议会",
+        "evidence": "投票选出自治议会成员"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "法罗群岛（法罗语：Føroyar，发音：[ˈfœɹjaɹ] ；丹麦语：Færøerne，发音：[ˈfeɐ̯ˌøˀɐnə]）又译富乐群岛，是丹麦王国的海外自治领地。地理位置介乎挪威海和北大西洋中间，处于挪威到冰岛之间距离一半的位置。\n法罗群岛陆地面积1,399平方公里，由17个有人岛和若干个无人岛组成，居民共52,337人（2020年），官方语言为法罗语和丹麦语。法罗群岛属于温带海洋性气候，虽然位处北方，因受北大西洋暖流影响，气温长年在零度以上。法罗群岛居民通过投票选出自治议会成员，继而由自治议会选出总理，丹麦政府派出高级专员代表国王，并协助处理群岛的对外事务。\n\n\n== 历史 ==\n\n公元600年左右：一批爱尔兰僧侣到此定居。\n公元9世纪：维京人进攻并占领法罗群岛。\n970年：一度成立共和制，但实为苏格兰奥克尼伯爵（Earl of Orkney）的附庸国。\n1280年：随奥克尼群岛成为挪威占领地。\n1388年：随挪威并入丹麦。\n1650年：成为丹麦冯·加贝尔家族的封建领地。\n1720年：法罗群岛被划分为丹属冰岛辖地。",
+  "history_text": "爱尔兰僧侣在公元600年左右最先定居于此，随后维京人于9世纪攻占群岛。970年一度成立共和制，实为苏格兰奥克尼伯爵的附庸。1280年随奥克尼群岛成为挪威占领地，1388年又随挪威并入丹麦，此后长期处于丹麦治下，1650年更成为冯·加贝尔家族的封建领地。",
+  "custom_text": "群岛上的日常生活围绕海洋与牧草展开，晾晒风干的羊肉和鱼肉是家家户户储存食物的老办法，海鸟蛋与根茎类作物也常出现在餐桌上。托尔斯港的夏季节庆里，人们围成圆圈唱古老的法罗歌谣，跳起传统的链舞，这种歌舞传统在村落间代代相传。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 126,
+      "folk": 109
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "法罗群岛在哪儿啊？",
+      "a": "在欧洲，位于挪威海和北大西洋中间，正好在挪威到冰岛距离一半的位置。",
+      "tags": [
+        "欧洲",
+        "位置",
+        "北大西洋"
+      ]
+    },
+    {
+      "q": "法罗群岛有多大？住了多少人？",
+      "a": "陆地面积1,399平方公里，由17个有人岛和若干无人岛组成，2020年居民共52,337人。",
+      "tags": [
+        "面积",
+        "人口",
+        "岛屿"
+      ]
+    },
+    {
+      "q": "法罗群岛的首都是哪里？",
+      "a": "首都叫托爾斯港。",
+      "tags": [
+        "首都",
+        "托尔斯港"
+      ]
+    },
+    {
+      "q": "法罗群岛说什么语言？",
+      "a": "官方语言是法罗语和丹麦语。",
+      "tags": [
+        "语言",
+        "法罗语",
+        "丹麦语"
+      ]
+    },
+    {
+      "q": "法罗群岛有什么值得看的地标或景观？",
+      "a": "有卡尔斯岛灯塔、德朗加尼尔海蚀柱和米基内斯岛海鹦崖。",
+      "tags": [
+        "地标",
+        "灯塔",
+        "海蚀柱",
+        "海鹦崖"
+      ]
+    },
+    {
+      "q": "法罗群岛的历史大概什么样？",
+      "a": "公元600年左右爱尔兰僧侣定居，9世纪维京人占领，后来随挪威并入丹麦，1720年划为丹属冰岛辖地。",
+      "tags": [
+        "历史",
+        "维京",
+        "丹麦"
+      ]
+    },
+    {
+      "q": "法罗群岛气候怎么样？冷吗？",
+      "a": "属于温带海洋性气候，虽然位置偏北，但受北大西洋暖流影响，气温长年在零度以上。",
+      "tags": [
+        "气候",
+        "气温",
+        "暖流"
+      ]
+    },
+    {
+      "q": "法罗群岛是谁管的？",
+      "a": "是丹麦王国的海外自治领地，有自治议会和总理，丹麦政府派高级专员代表国王并协助对外事务。",
+      "tags": [
+        "自治",
+        "丹麦",
+        "政治"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -722,
+        6217
+      ],
+      [
+        -720,
+        6232
+      ],
+      [
+        -707,
+        6229
+      ],
+      [
+        -678,
+        6207
+      ],
+      [
+        -685,
+        6205
+      ],
+      [
+        -672,
+        6203
+      ],
+      [
+        -670,
+        6194
+      ],
+      [
+        -722,
+        6217
+      ]
+    ],
+    [
+      [
+        -706,
+        6229
+      ],
+      [
+        -693,
+        6234
+      ],
+      [
+        -691,
+        6224
+      ],
+      [
+        -681,
+        6229
+      ],
+      [
+        -656,
+        6214
+      ],
+      [
+        -667,
+        6215
+      ],
+      [
+        -659,
+        6212
+      ],
+      [
+        -666,
+        6206
+      ],
+      [
+        -675,
+        6218
+      ],
+      [
+        -681,
+        6219
+      ],
+      [
+        -674,
+        6210
+      ],
+      [
+        -706,
+        6229
+      ]
+    ],
+    [
+      [
+        -666,
+        6140
+      ],
+      [
+        -696,
+        6163
+      ],
+      [
+        -672,
+        6157
+      ],
+      [
+        -681,
+        6155
+      ],
+      [
+        -668,
+        6148
+      ],
+      [
+        -678,
+        6146
+      ],
+      [
+        -666,
+        6140
+      ]
+    ],
+    [
+      [
+        -738,
+        6210
+      ],
+      [
+        -743,
+        6215
+      ],
+      [
+        -722,
+        6216
+      ],
+      [
+        -704,
+        6209
+      ],
+      [
+        -720,
+        6202
+      ],
+      [
+        -738,
+        6210
+      ]
+    ],
+    [
+      [
+        -661,
+        6182
+      ],
+      [
+        -666,
+        6175
+      ],
+      [
+        -691,
+        6191
+      ],
+      [
+        -661,
+        6182
+      ]
+    ],
+    [
+      [
+        -654,
+        6219
+      ],
+      [
+        -654,
+        6237
+      ],
+      [
+        -639,
+        6226
+      ],
+      [
+        -650,
+        6225
+      ],
+      [
+        -641,
+        6219
+      ],
+      [
+        -654,
+        6219
+      ]
+    ],
+    [
+      [
+        -666,
+        6226
+      ],
+      [
+        -664,
+        6225
+      ],
+      [
+        -664,
+        6224
+      ],
+      [
+        -666,
+        6224
+      ],
+      [
+        -669,
+        6225
+      ],
+      [
+        -671,
+        6228
+      ],
+      [
+        -677,
+        6234
+      ],
+      [
+        -679,
+        6238
+      ],
+      [
+        -676,
+        6237
+      ],
+      [
+        -666,
+        6226
+      ]
+    ],
+    [
+      [
+        -641,
+        6232
+      ],
+      [
+        -640,
+        6231
+      ],
+      [
+        -641,
+        6229
+      ],
+      [
+        -646,
+        6230
+      ],
+      [
+        -651,
+        6233
+      ],
+      [
+        -653,
+        6237
+      ],
+      [
+        -656,
+        6239
+      ],
+      [
+        -654,
+        6240
+      ],
+      [
+        -650,
+        6239
+      ],
+      [
+        -645,
+        6232
+      ],
+      [
+        -641,
+        6232
+      ]
+    ],
+    [
+      [
+        -658,
+        6229
+      ],
+      [
+        -658,
+        6227
+      ],
+      [
+        -659,
+        6226
+      ],
+      [
+        -664,
+        6228
+      ],
+      [
+        -667,
+        6232
+      ],
+      [
+        -668,
+        6234
+      ],
+      [
+        -668,
+        6237
+      ],
+      [
+        -666,
+        6237
+      ],
+      [
+        -665,
+        6237
+      ],
+      [
+        -658,
+        6229
+      ]
+    ],
+    [
+      [
+        -632,
+        6231
+      ],
+      [
+        -629,
+        6231
+      ],
+      [
+        -628,
+        6230
+      ],
+      [
+        -631,
+        6228
+      ],
+      [
+        -630,
+        6226
+      ],
+      [
+        -636,
+        6225
+      ],
+      [
+        -638,
+        6228
+      ],
+      [
+        -632,
+        6231
+      ]
+    ]
+  ]
+}

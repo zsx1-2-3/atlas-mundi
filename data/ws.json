@@ -1,1 +1,320 @@
-{"qid":"Q683","iso_a2":"WS","iso_a3":"WSM","name_zh":"萨摩亚","name_en":"Samoa","capital":"阿皮亚","continent":"大洋洲","centroid":[-172.2175,-13.745],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/ws/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Samoa, a nation of warm shores and open hearts; its capital is Apia, and among its storied landmarks you will find the sacred site of Mulinu'u, where the quiet dignity of the country's history still rests by the sea.","tts_text_zh":"欢迎来到萨摩亚，一个海岸温暖、人心开放的国度；它的首都是阿皮亚，在众多富有历史的地标中，您会看到穆利努乌圣地，那里国家的历史仍以沉静的尊严临海而立。","audio_voice":"en-US-AriaNeural","audio_bytes":83520},{"code":"sm","name_zh":"萨摩亚语","name_local":"萨摩亚语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"萨摩亚独立国简称萨摩亚，是一个南太平洋岛国，约位于夏威夷与新西兰的中间、美属萨摩亚的西方，为波利尼西亚群岛的中心。早在公元前1000年，萨摩亚便已有人定居，1962年独立。萨摩亚群岛在1900年后被一分为二，东部岛屿成为现美属萨摩亚，西部岛屿则先后由德国、新西兰管理，直至1962年1月1日“西萨摩亚独立国”成立；1997年7月4日，政府修改宪法，将国名改为“萨摩亚独立国”。萨摩亚以萨摩亚语和英语为国名表述语言，其历史可追溯至以萨摩亚为核心区域的图伊马努阿邦联，以及后来由酋长统治的独立政治实体。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":249,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E8%90%A8%E6%91%A9%E4%BA%9A","title":"萨摩亚"},"culture_excerpts":[{"section":"历史","text":"早在公元前1000年，萨摩亚便已有人定居。后来，出现以萨摩亚为核心区域的图伊马努阿邦联。约1000年，萨摩亚被图伊汤加帝国征服。1250年，马列托亚家族赶走入侵者，萨摩亚成为由酋长统治的独立政治实体。在第二次萨摩亚内战后的1900年，萨摩亚群岛被一分为二，东部岛屿由美国统治成为现美属萨摩亚，而西部岛屿则成为德国殖民地。第一次世界大战刚开始，1914年8月，新西兰占领德属萨摩亚，以防止德国用它作为太平洋的海军基地。岛上的德国军队没有投降，但是也没有反抗。1919年，依照凡尔赛条约，德国把西萨摩亚让给新西兰委任统治。新西兰先后以国际联盟和联合国名义托管西萨摩亚，直到1962年1月1日“西萨摩亚独立国”成立；1997年7月4日，政府修改宪法，将国名改为“萨摩亚独立国”。西萨摩亚是波利尼西亚岛国中第一个在20世纪独立的国家。2006年3月31日，萨摩亚议会选举举行，执政的人权保护党再次赢得大选，赢得议会49席中的30个席位。","chars":414},{"section":"文化","text":"萨摩亚是联合国教科文组织世界遗产公约的成员国。然而，截至2023年，尚未有任何遗址被联合国教科文组织认定为世界遗产。","chars":1200},{"section":"人口","text":"约20万人。90%为萨摩亚人，属波利尼西亚语族；其余为混血族群、欧洲人和华人等。","chars":1200},{"section":"体育","text":"萨摩亚的主要体育运动是英式橄榄球与萨摩亚板球。英式橄榄球可称作是萨摩亚的国球。联盟式橄榄球在萨摩亚也很流行。2000年联盟式橄榄球世界杯上萨摩亚国家队进入了四分之一决赛。","chars":1200}],"landmark_images":[{"title":"File:To Sua Ocean Trench - Lotofaga village - Samoa.jpg","caption_zh":"萨摩亚洛托法加村的托苏阿海沟","caption":"萨摩亚洛托法加村的托苏阿海沟","caption_commons":"To Sua (ocean trench), one of two large holes in the ground by the coast in Loto","kw":"To Sua Ocean Trench Samoa","url":"assets/ws/L01.webp","thumb_url":"assets/ws/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/To_Sua_Ocean_Trench_-_Lotofaga_village_-_Samoa.jpg/1920px-To_Sua_Ocean_Trench_-_Lotofaga_village_-_Samoa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Neil","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":100124,"caption_zh_manual":"托苏阿海沟","caption_zh_source":"llm_from_commons_filename","thumb_bytes":30200,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 801KB JPEG)"},{"title":"File:Nu'utele island seen from Lalomanu beach, Upolu, Samoa - August 2016.jpg","caption_zh":"从阿洛法加海滩远眺努乌特莱岛","caption":"从阿洛法加海滩远眺努乌特莱岛","caption_commons":"Nu'utele island seen from Lalomanu beach, Upolu, Samoa. August 2016.","kw":"Lalomanu Beach Samoa","url":"assets/ws/L02.webp","thumb_url":"assets/ws/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nu%27utele_island_seen_from_Lalomanu_beach%2C_Upolu%2C_Samoa_-_August_2016.jpg/1920px-Nu%27utele_island_seen_from_Lalomanu_beach%2C_Upolu%2C_Samoa_-_August_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Rickard Törnblad","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":28308,"caption_zh_manual":"阿洛法加海滩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8782,"size":{"detail":"760x547","thumb":"400x288"},"encoding":"webp q72/q74 (源 1920x1382 426KB JPEG)"},{"title":"File:Apia clock tower, Samoa - August 2016.jpg","caption_zh":"阿皮亚钟楼","caption":"阿皮亚钟楼","caption_commons":"Apia clock tower, Samoa. August 2016.","kw":"Apia Clock Tower Samoa","url":"assets/ws/L06.webp","thumb_url":"assets/ws/L06.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Apia_clock_tower%2C_Samoa_-_August_2016.jpg/1920px-Apia_clock_tower%2C_Samoa_-_August_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Rickard Törnblad","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":31020,"caption_zh_manual":"阿皮亚钟楼","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11396,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 467KB JPEG)"}],"image_license":"CC BY 2.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:15:04+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q5146 (por)-NMaia-Samoa.wav、Lb-Samoa.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Samoa.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py WS","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","萨瓦伊岛喷水洞：Wikidata / 维基 / Commons 都没有可用图","阿皮亚圣母无染原罪堂：Wikidata / 维基 / Commons 都没有可用图","马塔法瀑布：检索接口全部失败（英文维基：英文维基无合适条目）","地标图改为人工指定清单（3 张，中文图注）","摘要 249 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"南太平洋岛国","evidence":"是一个南太平洋岛国"},{"v":"波利尼西亚群岛","evidence":"为波利尼西亚群岛的中心"},{"v":"图伊马努阿邦联","evidence":"以萨摩亚为核心区域的图伊马努阿邦联"},{"v":"图伊汤加帝国","evidence":"萨摩亚被图伊汤加帝国征服"},{"v":"酋长统治","evidence":"成为由酋长统治的独立政治实体"}],"model":"deepseek-flash"},"summary_text_raw":"萨摩亚独立国（萨摩亚语：Malo Saʻoloto Tutoʻatasi o Sāmoa，英语：Independent State of Samoa），简称萨摩亚，是一个南太平洋岛国，约位于夏威夷与新西兰的中间、美属萨摩亚的西方，为波利尼西亚群岛的中心。1962年独立。\n\n\n== 历史 ==\n\n早在公元前1000年，萨摩亚便已有人定居。后来，出现以萨摩亚为核心区域的图伊马努阿邦联。约1000年，萨摩亚被图伊汤加帝国征服。1250年，马列托亚家族赶走入侵者，萨摩亚成为由酋长统治的独立政治实体。在第二次萨摩亚内战后的1900年，萨摩亚群岛被一分为二，东部岛屿由美国统治成为现美属萨摩亚，而西部岛屿则成为德国殖民地。第一次世界大战刚开始，1914年8月，新西兰占领德属萨摩亚，以防止德国用它作为太平洋的海军基地。岛上的德国军队没有投降，但是也没有反抗。1919年，依照凡尔赛条约，德国把西萨摩亚让给新西兰委任统治。\n新西兰先后以国际联盟和联合国名义托管西萨摩亚，直到1962年1月1日“西萨摩亚独立国”成立；1997年7月4日，政府修改宪法，将国名改为“萨摩亚独立国”。","history_text":"早在公元前1000年，萨摩亚便已有人定居，后来形成以萨摩亚为核心的图伊马努阿邦联，约1000年被图伊汤加帝国征服。1250年，马列托亚家族赶走入侵者，萨摩亚成为由酋长统治的独立政治实体。1900年第二次萨摩亚内战后，群岛被一分为二，西部岛屿沦为德国殖民地。第一次世界大战刚开始，新西兰占领德属萨摩亚，战后依凡尔赛条约取得委任统治权，直到1962年西萨摩亚独立国成立，成为波利尼西亚岛国中第一个在20世纪独立的国家。","custom_text":"岛上最热闹的场面多与英式橄榄球有关，这项运动被视作国球，联盟式橄榄球同样流行，村与村之间的较量常引来众人围观。萨摩亚板球也是常见的运动，规则与英式板球不同，打法自成一格。日常生活里，村落以酋长为中心组织，家族与邻里之间的往来讲究礼数，聚会时人们席地而坐，共享食物与歌舞。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":207,"folk":135}},"knowledge_qa":[{"q":"萨摩亚在哪儿啊？周围有什么？","a":"萨摩亚是南太平洋岛国，大约在夏威夷和新西兰中间，位于美属萨摩亚的西边，是波利尼西亚群岛的中心。","tags":["萨摩亚","位置","太平洋"]},{"q":"萨摩亚的首都是哪里？","a":"萨摩亚的首都是阿皮亚。","tags":["首都","阿皮亚"]},{"q":"萨摩亚说什么语言？","a":"萨摩亚的官方语言是英语和萨摩亚语。","tags":["语言","说什么话","官方语言"]},{"q":"萨摩亚有什么值得看的地标或景点？","a":"萨摩亚值得看的地标有托苏阿海沟、阿洛法加海滩和阿皮亚钟楼。","tags":["景点","地标","旅游"]},{"q":"萨摩亚有什么历史故事？","a":"萨摩亚早在公元前1000年就有人定居，后来被图伊汤加帝国征服，1250年马列托亚家族赶走入侵者成为独立实体，1962年独立。","tags":["历史","独立"]},{"q":"萨摩亚什么时候独立的？","a":"萨摩亚于1962年1月1日成立“西萨摩亚独立国”，1997年7月4日改国名为“萨摩亚独立国”。","tags":["独立","建国"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-17220,-1359],[-17222,-1380],[-17252,-1380],[-17278,-1352],[-17234,-1346],[-17220,-1359]],[[-17156,-1395],[-17144,-1405],[-17175,-1405],[-17206,-1388],[-17184,-1381],[-17156,-1395]]]}
+{
+  "qid": "Q683",
+  "iso_a2": "WS",
+  "iso_a3": "WSM",
+  "name_zh": "萨摩亚",
+  "name_en": "Samoa",
+  "capital": "阿皮亚",
+  "continent": "大洋洲",
+  "centroid": [
+    -172.2175,
+    -13.745
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/ws/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Samoa, a nation of warm shores and open hearts; its capital is Apia, and among its storied landmarks you will find the sacred site of Mulinu'u, where the quiet dignity of the country's history still rests by the sea.",
+      "tts_text_zh": "欢迎来到萨摩亚，一个海岸温暖、人心开放的国度；它的首都是阿皮亚，在众多富有历史的地标中，您会看到穆利努乌圣地，那里国家的历史仍以沉静的尊严临海而立。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 83520
+    },
+    {
+      "code": "sm",
+      "name_zh": "萨摩亚语",
+      "name_local": "萨摩亚语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "萨摩亚独立国简称萨摩亚，是一个南太平洋岛国，约位于夏威夷与新西兰的中间、美属萨摩亚的西方，为波利尼西亚群岛的中心。早在公元前1000年，萨摩亚便已有人定居，1962年独立。萨摩亚群岛在1900年后被一分为二，东部岛屿成为现美属萨摩亚，西部岛屿则先后由德国、新西兰管理，直至1962年1月1日“西萨摩亚独立国”成立；1997年7月4日，政府修改宪法，将国名改为“萨摩亚独立国”。萨摩亚以萨摩亚语和英语为国名表述语言，其历史可追溯至以萨摩亚为核心区域的图伊马努阿邦联，以及后来由酋长统治的独立政治实体。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 249,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E8%90%A8%E6%91%A9%E4%BA%9A",
+    "title": "萨摩亚"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "早在公元前1000年，萨摩亚便已有人定居。后来，出现以萨摩亚为核心区域的图伊马努阿邦联。约1000年，萨摩亚被图伊汤加帝国征服。1250年，马列托亚家族赶走入侵者，萨摩亚成为由酋长统治的独立政治实体。在第二次萨摩亚内战后的1900年，萨摩亚群岛被一分为二，东部岛屿由美国统治成为现美属萨摩亚，而西部岛屿则成为德国殖民地。第一次世界大战刚开始，1914年8月，新西兰占领德属萨摩亚，以防止德国用它作为太平洋的海军基地。岛上的德国军队没有投降，但是也没有反抗。1919年，依照凡尔赛条约，德国把西萨摩亚让给新西兰委任统治。新西兰先后以国际联盟和联合国名义托管西萨摩亚，直到1962年1月1日“西萨摩亚独立国”成立；1997年7月4日，政府修改宪法，将国名改为“萨摩亚独立国”。西萨摩亚是波利尼西亚岛国中第一个在20世纪独立的国家。2006年3月31日，萨摩亚议会选举举行，执政的人权保护党再次赢得大选，赢得议会49席中的30个席位。",
+      "chars": 414
+    },
+    {
+      "section": "文化",
+      "text": "萨摩亚是联合国教科文组织世界遗产公约的成员国。然而，截至2023年，尚未有任何遗址被联合国教科文组织认定为世界遗产。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "约20万人。90%为萨摩亚人，属波利尼西亚语族；其余为混血族群、欧洲人和华人等。",
+      "chars": 1200
+    },
+    {
+      "section": "体育",
+      "text": "萨摩亚的主要体育运动是英式橄榄球与萨摩亚板球。英式橄榄球可称作是萨摩亚的国球。联盟式橄榄球在萨摩亚也很流行。2000年联盟式橄榄球世界杯上萨摩亚国家队进入了四分之一决赛。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:To Sua Ocean Trench - Lotofaga village - Samoa.jpg",
+      "caption_zh": "萨摩亚洛托法加村的托苏阿海沟",
+      "caption": "萨摩亚洛托法加村的托苏阿海沟",
+      "caption_commons": "To Sua (ocean trench), one of two large holes in the ground by the coast in Loto",
+      "kw": "To Sua Ocean Trench Samoa",
+      "url": "assets/ws/L01.webp",
+      "thumb_url": "assets/ws/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/To_Sua_Ocean_Trench_-_Lotofaga_village_-_Samoa.jpg/1920px-To_Sua_Ocean_Trench_-_Lotofaga_village_-_Samoa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Neil",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 190886,
+      "caption_zh_manual": "托苏阿海沟",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 12172,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 801KB JPEG)"
+    },
+    {
+      "title": "File:Nu'utele island seen from Lalomanu beach, Upolu, Samoa - August 2016.jpg",
+      "caption_zh": "从阿洛法加海滩远眺努乌特莱岛",
+      "caption": "从阿洛法加海滩远眺努乌特莱岛",
+      "caption_commons": "Nu'utele island seen from Lalomanu beach, Upolu, Samoa. August 2016.",
+      "kw": "Lalomanu Beach Samoa",
+      "url": "assets/ws/L02.webp",
+      "thumb_url": "assets/ws/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Nu%27utele_island_seen_from_Lalomanu_beach%2C_Upolu%2C_Samoa_-_August_2016.jpg/1920px-Nu%27utele_island_seen_from_Lalomanu_beach%2C_Upolu%2C_Samoa_-_August_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Rickard Törnblad",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 57300,
+      "caption_zh_manual": "阿洛法加海滩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4362,
+      "size": {
+        "detail": "1080x777",
+        "thumb": "240x173"
+      },
+      "encoding": "webp q75/q78 (源 1920x1382 426KB JPEG)"
+    },
+    {
+      "title": "File:Apia clock tower, Samoa - August 2016.jpg",
+      "caption_zh": "阿皮亚钟楼",
+      "caption": "阿皮亚钟楼",
+      "caption_commons": "Apia clock tower, Samoa. August 2016.",
+      "kw": "Apia Clock Tower Samoa",
+      "url": "assets/ws/L06.webp",
+      "thumb_url": "assets/ws/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Apia_clock_tower%2C_Samoa_-_August_2016.jpg/1920px-Apia_clock_tower%2C_Samoa_-_August_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Rickard Törnblad",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 59756,
+      "caption_zh_manual": "阿皮亚钟楼",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6026,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 467KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY 2.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:15:04+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q5146 (por)-NMaia-Samoa.wav、Lb-Samoa.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Samoa.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py WS",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "萨瓦伊岛喷水洞：Wikidata / 维基 / Commons 都没有可用图",
+    "阿皮亚圣母无染原罪堂：Wikidata / 维基 / Commons 都没有可用图",
+    "马塔法瀑布：检索接口全部失败（英文维基：英文维基无合适条目）",
+    "地标图改为人工指定清单（3 张，中文图注）",
+    "摘要 249 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "南太平洋岛国",
+        "evidence": "是一个南太平洋岛国"
+      },
+      {
+        "v": "波利尼西亚群岛",
+        "evidence": "为波利尼西亚群岛的中心"
+      },
+      {
+        "v": "图伊马努阿邦联",
+        "evidence": "以萨摩亚为核心区域的图伊马努阿邦联"
+      },
+      {
+        "v": "图伊汤加帝国",
+        "evidence": "萨摩亚被图伊汤加帝国征服"
+      },
+      {
+        "v": "酋长统治",
+        "evidence": "成为由酋长统治的独立政治实体"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "萨摩亚独立国（萨摩亚语：Malo Saʻoloto Tutoʻatasi o Sāmoa，英语：Independent State of Samoa），简称萨摩亚，是一个南太平洋岛国，约位于夏威夷与新西兰的中间、美属萨摩亚的西方，为波利尼西亚群岛的中心。1962年独立。\n\n\n== 历史 ==\n\n早在公元前1000年，萨摩亚便已有人定居。后来，出现以萨摩亚为核心区域的图伊马努阿邦联。约1000年，萨摩亚被图伊汤加帝国征服。1250年，马列托亚家族赶走入侵者，萨摩亚成为由酋长统治的独立政治实体。在第二次萨摩亚内战后的1900年，萨摩亚群岛被一分为二，东部岛屿由美国统治成为现美属萨摩亚，而西部岛屿则成为德国殖民地。第一次世界大战刚开始，1914年8月，新西兰占领德属萨摩亚，以防止德国用它作为太平洋的海军基地。岛上的德国军队没有投降，但是也没有反抗。1919年，依照凡尔赛条约，德国把西萨摩亚让给新西兰委任统治。\n新西兰先后以国际联盟和联合国名义托管西萨摩亚，直到1962年1月1日“西萨摩亚独立国”成立；1997年7月4日，政府修改宪法，将国名改为“萨摩亚独立国”。",
+  "history_text": "早在公元前1000年，萨摩亚便已有人定居，后来形成以萨摩亚为核心的图伊马努阿邦联，约1000年被图伊汤加帝国征服。1250年，马列托亚家族赶走入侵者，萨摩亚成为由酋长统治的独立政治实体。1900年第二次萨摩亚内战后，群岛被一分为二，西部岛屿沦为德国殖民地。第一次世界大战刚开始，新西兰占领德属萨摩亚，战后依凡尔赛条约取得委任统治权，直到1962年西萨摩亚独立国成立，成为波利尼西亚岛国中第一个在20世纪独立的国家。",
+  "custom_text": "岛上最热闹的场面多与英式橄榄球有关，这项运动被视作国球，联盟式橄榄球同样流行，村与村之间的较量常引来众人围观。萨摩亚板球也是常见的运动，规则与英式板球不同，打法自成一格。日常生活里，村落以酋长为中心组织，家族与邻里之间的往来讲究礼数，聚会时人们席地而坐，共享食物与歌舞。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 207,
+      "folk": 135
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "萨摩亚在哪儿啊？周围有什么？",
+      "a": "萨摩亚是南太平洋岛国，大约在夏威夷和新西兰中间，位于美属萨摩亚的西边，是波利尼西亚群岛的中心。",
+      "tags": [
+        "萨摩亚",
+        "位置",
+        "太平洋"
+      ]
+    },
+    {
+      "q": "萨摩亚的首都是哪里？",
+      "a": "萨摩亚的首都是阿皮亚。",
+      "tags": [
+        "首都",
+        "阿皮亚"
+      ]
+    },
+    {
+      "q": "萨摩亚说什么语言？",
+      "a": "萨摩亚的官方语言是英语和萨摩亚语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言"
+      ]
+    },
+    {
+      "q": "萨摩亚有什么值得看的地标或景点？",
+      "a": "萨摩亚值得看的地标有托苏阿海沟、阿洛法加海滩和阿皮亚钟楼。",
+      "tags": [
+        "景点",
+        "地标",
+        "旅游"
+      ]
+    },
+    {
+      "q": "萨摩亚有什么历史故事？",
+      "a": "萨摩亚早在公元前1000年就有人定居，后来被图伊汤加帝国征服，1250年马列托亚家族赶走入侵者成为独立实体，1962年独立。",
+      "tags": [
+        "历史",
+        "独立"
+      ]
+    },
+    {
+      "q": "萨摩亚什么时候独立的？",
+      "a": "萨摩亚于1962年1月1日成立“西萨摩亚独立国”，1997年7月4日改国名为“萨摩亚独立国”。",
+      "tags": [
+        "独立",
+        "建国"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -17220,
+        -1359
+      ],
+      [
+        -17222,
+        -1380
+      ],
+      [
+        -17252,
+        -1380
+      ],
+      [
+        -17278,
+        -1352
+      ],
+      [
+        -17234,
+        -1346
+      ],
+      [
+        -17220,
+        -1359
+      ]
+    ],
+    [
+      [
+        -17156,
+        -1395
+      ],
+      [
+        -17144,
+        -1405
+      ],
+      [
+        -17175,
+        -1405
+      ],
+      [
+        -17206,
+        -1388
+      ],
+      [
+        -17184,
+        -1381
+      ],
+      [
+        -17156,
+        -1395
+      ]
+    ]
+  ]
+}

@@ -1,1 +1,420 @@
-{"qid":"Q945","iso_a2":"TG","iso_a3":"TGO","name_zh":"多哥","name_en":"Togo","capital":"洛美","continent":"非洲","centroid":[1.1833,8.25],"centroid_source":"wikidata P625","languages":[{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/tg/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue au Togo, un pays d'Afrique de l'Ouest où la chaleur des paysages accompagne celle de ses habitants ; sa capitale, Lomé, s'étend au bord du golfe de Guinée, et le monument de l'Indépendance, dressé au cœur de la ville, rappelle avec dignité l'histoire de la nation.","tts_text_zh":"欢迎来到多哥，这个西非国家的风景与人心同样温暖；首都洛美坐落于几内亚湾畔，市中心的独立纪念碑庄重地诉说着这个国家的历史。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":97056}],"summary_text":"多哥共和国通称多哥，是位于西非的国家。多哥东部毗邻贝宁，北部接壤布基纳法索，西部邻接加纳，南部有一小段海岸线面向几内亚湾。多哥首都及最大城市为洛美。从15世纪起，葡萄牙、英国、法国等殖民者侵入沿岸贩卖奴隶，这一带被称为“奴隶海岸”。1856年德国势力侵入，1884年多哥成为德国保护国，称为多哥兰，直到1918年。一战后，东、西两部分分别成为英国、法国的委任统治地；二战后成为托管地，法国根据联合国授权对包括加纳等地区的法属多哥兰进行托管。1957年西部并入加纳，1960年4月27日东部托管到期，多哥独立并成立多哥共和国。1990年代多哥确立多党制。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":276,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%A4%9A%E5%93%A5","title":"多哥"},"culture_excerpts":[{"section":"历史","text":"从15世纪起，葡萄牙、英国、法国等殖民者侵入沿岸贩卖奴隶，称为“奴隶海岸”。1856年德国势力侵入，1884年成为德国保护国（殖民地），称为多哥兰，直到1918年。一战后，东、西两部分成为英国、法国的委任统治地；二战后成为托管地，法国根据联合国授权对包括加纳等地区的法属多哥兰进行托管，1957年西部并入加纳，1960年4月27日东部托管到期，独立并成立多哥共和国。1990年代确立多党制，但是军队仍未失去自1967年起几乎持续的执政地位。斯尔法纳斯·奥林匹欧（1901—1963）在1960年多哥独立时就成为总统。当他拒绝626名大部分参加过在印度支那和阿尔及利亚的战争的多哥籍法国退伍军人加入多哥军队时，被那些军人在1963年1月13日发动的政变推翻，他在第二天被杀。非军人出身的总统尼古拉斯·格鲁尼兹奇（1913—1969）上台。但就在四年以后，另一次武装政变发生，格鲁尼兹奇逃离多哥并在科特迪瓦的一次车祸中身亡。其中一名发动1963年政变的退伍军人纳辛贝·埃亚德马（1937—2005）于1967年成为总统，直到2005年逝世。他在1998年的选举中几乎被斯尔法纳斯·奥林匹欧的儿子吉尔克里斯特·奥林匹欧击败。2003年，宪法中对总统连任次数的限制被取消后，埃亚德马再次被选为总统。根据埃亚德马的逝世公告，他的儿子福雷·纳辛贝被军队指定为国家元首。非洲联盟形容这次接管为一次武装政变。2005年4月24日，多哥总统选举举行。4月26日，独立选举委员会宣布多哥人民联盟候选人福雷·纳辛贝获胜。6月20日，组成由埃德姆·科乔为总理的政府。2006年9月20日，组成以总理阿博伊博为首的政府。","chars":697},{"section":"人口","text":"多哥1998年全国人口约433万，2007年全国人口达到571万，年人口增长率约为2.7%，为世界上人口增长率最高的国家之一。男性平均寿命60.4岁，女性平均寿命63.9岁。\n约47.8％的人口宗教是基督教，有33％是当地原始信仰(巫毒教)，18.4％的人信奉伊斯兰教。","chars":1200},{"section":"宗教","text":"约47.8％的人口宗教是基督教，有33％是当地原始信仰(巫毒教)，18.4％的人信奉伊斯兰教。","chars":1200},{"section":"教育","text":"政府每年教育经费占政府支出预算25%左右。政府重视高等教育改革。多哥有两所大学——-洛美大学（以前称为贝宁大学）和卡拉大学。教育制度分一级教育（小学）、二级教育（初中）、三级教育（高中）和四级教育（大学）。其中小学教育使用法语和本土语言教学，而中高等教育则多使用法语教学。","chars":1103}],"landmark_images":[{"title":"File:Lagune in Aného.jpg","caption_zh":"阿内霍的多哥湖","caption":"阿内霍的多哥湖","caption_commons":"View over the lagoon in Aného, Togo","kw":"Lake Togo Togo","url":"assets/tg/L01.webp","thumb_url":"assets/tg/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/3/31/Lagune_in_An%C3%A9ho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"MaHeHoe","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":29820,"caption_zh_manual":"多哥湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11306,"size":{"detail":"760x504","thumb":"400x265"},"encoding":"webp q72/q74 (源 1727x1145 311KB JPEG)"},{"title":"File:Paysage du Parc National Fazao-Malfakassa 02.jpg","caption_zh":"法扎奥马卡萨国家公园景观","caption":"法扎奥马卡萨国家公园景观","caption_commons":"Parc National Fazao-Malfakassa","kw":"Fazao Malfakassa National Park","url":"assets/tg/L02.webp","thumb_url":"assets/tg/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Paysage_du_Parc_National_Fazao-Malfakassa_02.jpg/1920px-Paysage_du_Parc_National_Fazao-Malfakassa_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Layéniba","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":117890,"caption_zh_manual":"法扎奥马卡萨","caption_zh_source":"llm_from_commons_filename","thumb_bytes":29326,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 1104KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:06:12+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Togo.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Togo.wav、LL-Q22809485 (apc)-Hassan Hassoon-توغو.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py TG","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","摘要 276 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[error] summary_head：方位描述错误：多哥东邻贝宁、西邻加纳，原文东西颠倒 → 改为东部接壤贝宁、西部邻接加纳","地标图改为人工指定清单（2 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 2 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"奴隶海岸","evidence":"称为“奴隶海岸”"},{"v":"几内亚湾","evidence":"面向几内亚湾"},{"v":"洛美","evidence":"首都及最大城市为洛美"},{"v":"多哥兰","evidence":"称为多哥兰"}],"model":"deepseek-flash"},"summary_text_raw":"多哥共和国（法语：République togolaise），通称多哥（法语：Togo），是位于西非的国家。多哥东部毗邻贝宁、北部接壤布基纳法索、西部邻接加纳。此外，南部有一小段海岸线面向几内亚湾。多哥首都及最大城市为洛美。\n\n\n== 历史 ==\n\n从15世纪起，葡萄牙、英国、法国等殖民者侵入沿岸贩卖奴隶，称为“奴隶海岸”。1856年德国势力侵入，1884年成为德国保护国（殖民地），称为多哥兰，直到1918年。一战后，东、西两部分成为英国、法国的委任统治地；二战后成为托管地，法国根据联合国授权对包括加纳等地区的法属多哥兰进行托管，1957年西部并入加纳，1960年4月27日东部托管到期，独立并成立多哥共和国。\n1990年代确立多党制，但是军队仍未失去自1967年起几乎持续的执政地位。斯尔法纳斯·奥林匹欧（1901—1963）在1960年多哥独立时就成为总统。当他拒绝626名大部分参加过在印度支那和阿尔及利亚的战争的多哥籍法国退伍军人加入多哥军队时，被那些军人在1963年1月13日发动的政变推翻，他在第二天被杀。非军人出身的总统尼古拉斯·格鲁尼兹奇（1913—1969）上台。","history_text":"十五世纪起，葡萄牙、英国、法国殖民者侵入沿岸贩卖奴隶，这一带被称为“奴隶海岸”。十九世纪中叶德国势力进入，多哥兰成为德国保护国，直至一战结束。战后东西两部分分别交由英国、法国委任统治，二战后转为托管地，西部并入加纳。一九六〇年东部托管到期，多哥共和国独立，斯尔法纳斯·奥林匹欧出任总统。此后政变接连发生，纳辛贝·埃亚德马于一九六七年掌权，直至二〇〇五年逝世。","custom_text":"南部沿海与中部高地的村落里，巫毒教信仰渗入日常：路边常见供奉神灵的小龛，祭日里鼓声彻夜，信众以歌舞与献祭与神灵沟通。基督教与伊斯兰教也各有信众，三者在同一片街区比邻而居。法语是学校与市集之外行政场合的通用语，小学课堂上则同时使用本土语言。洛美与卡拉各有一所大学，中高等教育多以法语授课，教育经费在政府预算中占去可观的一份。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":179,"folk":161}},"knowledge_qa":[{"q":"多哥在哪儿啊？周围都是哪些国家？","a":"多哥位于西非，东部毗邻贝宁，北部接壤布基纳法索，西部邻接加纳，南部有一小段海岸线面向几内亚湾。","tags":["西非","位置","邻国","地理"]},{"q":"多哥的首都是哪个城市？","a":"多哥的首都是洛美，它也是多哥的最大城市。","tags":["首都","洛美","城市"]},{"q":"多哥人平时说什么语言？","a":"多哥的官方语言是法语。","tags":["语言","法语","说什么话"]},{"q":"多哥有什么值得一看的景点？","a":"多哥有两大知名地标：多哥湖和法扎奥马卡萨。","tags":["景点","地标","多哥湖","法扎奥马卡萨"]},{"q":"多哥有什么传统节日或者习俗吗？","a":"根据现有资料，多哥的民俗和节日信息暂未收录。","tags":["节日","习俗","传统"]},{"q":"多哥有什么特色美食或饮食文化？","a":"根据现有资料，多哥的饮食和风物信息暂未收录。","tags":["美食","吃什么","特产"]},{"q":"多哥这个国家是怎么独立的？","a":"1960年4月27日东部托管到期，多哥独立并成立多哥共和国。","tags":["历史","独立","建国"]},{"q":"多哥以前是哪个国家的殖民地？","a":"多哥曾为德国保护国（殖民地），一战后东西两部分分别成为英国、法国的委任统治地，二战后成为托管地。","tags":["殖民","历史","德国","法国"]}],"llm_audit":{"issues":[{"field":"summary_head","severity":"error","why":"方位描述错误：多哥东邻贝宁、西邻加纳，原文东西颠倒","suggest":"改为东部接壤贝宁、西部邻接加纳"}],"overall":"fail"},"audio_meta":{},"outline":[[[-17,1114],[49,1100],[49,1093],[90,1099],[76,1038],[134,996],[133,952],[160,908],[164,849],[163,700],[153,699],[157,668],[178,628],[162,621],[118,610],[98,632],[75,644],[52,683],[50,697],[60,703],[65,732],[50,750],[61,770],[57,820],[71,830],[37,876],[51,887],[43,903],[53,940],[41,949],[23,943],[30,951],[23,958],[38,959],[26,966],[35,966],[40,1028],[-9,1063],[2,1106],[-17,1114]]]}
+{
+  "qid": "Q945",
+  "iso_a2": "TG",
+  "iso_a3": "TGO",
+  "name_zh": "多哥",
+  "name_en": "Togo",
+  "capital": "洛美",
+  "continent": "非洲",
+  "centroid": [
+    1.1833,
+    8.25
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/tg/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue au Togo, un pays d'Afrique de l'Ouest où la chaleur des paysages accompagne celle de ses habitants ; sa capitale, Lomé, s'étend au bord du golfe de Guinée, et le monument de l'Indépendance, dressé au cœur de la ville, rappelle avec dignité l'histoire de la nation.",
+      "tts_text_zh": "欢迎来到多哥，这个西非国家的风景与人心同样温暖；首都洛美坐落于几内亚湾畔，市中心的独立纪念碑庄重地诉说着这个国家的历史。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 97056
+    }
+  ],
+  "summary_text": "多哥共和国通称多哥，是位于西非的国家。多哥东部毗邻贝宁，北部接壤布基纳法索，西部邻接加纳，南部有一小段海岸线面向几内亚湾。多哥首都及最大城市为洛美。从15世纪起，葡萄牙、英国、法国等殖民者侵入沿岸贩卖奴隶，这一带被称为“奴隶海岸”。1856年德国势力侵入，1884年多哥成为德国保护国，称为多哥兰，直到1918年。一战后，东、西两部分分别成为英国、法国的委任统治地；二战后成为托管地，法国根据联合国授权对包括加纳等地区的法属多哥兰进行托管。1957年西部并入加纳，1960年4月27日东部托管到期，多哥独立并成立多哥共和国。1990年代多哥确立多党制。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 276,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E5%93%A5",
+    "title": "多哥"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "从15世纪起，葡萄牙、英国、法国等殖民者侵入沿岸贩卖奴隶，称为“奴隶海岸”。1856年德国势力侵入，1884年成为德国保护国（殖民地），称为多哥兰，直到1918年。一战后，东、西两部分成为英国、法国的委任统治地；二战后成为托管地，法国根据联合国授权对包括加纳等地区的法属多哥兰进行托管，1957年西部并入加纳，1960年4月27日东部托管到期，独立并成立多哥共和国。1990年代确立多党制，但是军队仍未失去自1967年起几乎持续的执政地位。斯尔法纳斯·奥林匹欧（1901—1963）在1960年多哥独立时就成为总统。当他拒绝626名大部分参加过在印度支那和阿尔及利亚的战争的多哥籍法国退伍军人加入多哥军队时，被那些军人在1963年1月13日发动的政变推翻，他在第二天被杀。非军人出身的总统尼古拉斯·格鲁尼兹奇（1913—1969）上台。但就在四年以后，另一次武装政变发生，格鲁尼兹奇逃离多哥并在科特迪瓦的一次车祸中身亡。其中一名发动1963年政变的退伍军人纳辛贝·埃亚德马（1937—2005）于1967年成为总统，直到2005年逝世。他在1998年的选举中几乎被斯尔法纳斯·奥林匹欧的儿子吉尔克里斯特·奥林匹欧击败。2003年，宪法中对总统连任次数的限制被取消后，埃亚德马再次被选为总统。根据埃亚德马的逝世公告，他的儿子福雷·纳辛贝被军队指定为国家元首。非洲联盟形容这次接管为一次武装政变。2005年4月24日，多哥总统选举举行。4月26日，独立选举委员会宣布多哥人民联盟候选人福雷·纳辛贝获胜。6月20日，组成由埃德姆·科乔为总理的政府。2006年9月20日，组成以总理阿博伊博为首的政府。",
+      "chars": 697
+    },
+    {
+      "section": "人口",
+      "text": "多哥1998年全国人口约433万，2007年全国人口达到571万，年人口增长率约为2.7%，为世界上人口增长率最高的国家之一。男性平均寿命60.4岁，女性平均寿命63.9岁。\n约47.8％的人口宗教是基督教，有33％是当地原始信仰(巫毒教)，18.4％的人信奉伊斯兰教。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "约47.8％的人口宗教是基督教，有33％是当地原始信仰(巫毒教)，18.4％的人信奉伊斯兰教。",
+      "chars": 1200
+    },
+    {
+      "section": "教育",
+      "text": "政府每年教育经费占政府支出预算25%左右。政府重视高等教育改革。多哥有两所大学——-洛美大学（以前称为贝宁大学）和卡拉大学。教育制度分一级教育（小学）、二级教育（初中）、三级教育（高中）和四级教育（大学）。其中小学教育使用法语和本土语言教学，而中高等教育则多使用法语教学。",
+      "chars": 1103
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Lagune in Aného.jpg",
+      "caption_zh": "阿内霍的多哥湖",
+      "caption": "阿内霍的多哥湖",
+      "caption_commons": "View over the lagoon in Aného, Togo",
+      "kw": "Lake Togo Togo",
+      "url": "assets/tg/L01.webp",
+      "thumb_url": "assets/tg/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Lagune_in_An%C3%A9ho.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "MaHeHoe",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 51172,
+      "caption_zh_manual": "多哥湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5292,
+      "size": {
+        "detail": "1080x716",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1727x1145 311KB JPEG)"
+    },
+    {
+      "title": "File:Paysage du Parc National Fazao-Malfakassa 02.jpg",
+      "caption_zh": "法扎奥马卡萨国家公园景观",
+      "caption": "法扎奥马卡萨国家公园景观",
+      "caption_commons": "Parc National Fazao-Malfakassa",
+      "kw": "Fazao Malfakassa National Park",
+      "url": "assets/tg/L02.webp",
+      "thumb_url": "assets/tg/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Paysage_du_Parc_National_Fazao-Malfakassa_02.jpg/1920px-Paysage_du_Parc_National_Fazao-Malfakassa_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Layéniba",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 252920,
+      "caption_zh_manual": "法扎奥马卡萨",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11452,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 1104KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:06:12+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Togo.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Togo.wav、LL-Q22809485 (apc)-Hassan Hassoon-توغو.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py TG",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "摘要 276 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[error] summary_head：方位描述错误：多哥东邻贝宁、西邻加纳，原文东西颠倒 → 改为东部接壤贝宁、西部邻接加纳",
+    "地标图改为人工指定清单（2 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 2 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "奴隶海岸",
+        "evidence": "称为“奴隶海岸”"
+      },
+      {
+        "v": "几内亚湾",
+        "evidence": "面向几内亚湾"
+      },
+      {
+        "v": "洛美",
+        "evidence": "首都及最大城市为洛美"
+      },
+      {
+        "v": "多哥兰",
+        "evidence": "称为多哥兰"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "多哥共和国（法语：République togolaise），通称多哥（法语：Togo），是位于西非的国家。多哥东部毗邻贝宁、北部接壤布基纳法索、西部邻接加纳。此外，南部有一小段海岸线面向几内亚湾。多哥首都及最大城市为洛美。\n\n\n== 历史 ==\n\n从15世纪起，葡萄牙、英国、法国等殖民者侵入沿岸贩卖奴隶，称为“奴隶海岸”。1856年德国势力侵入，1884年成为德国保护国（殖民地），称为多哥兰，直到1918年。一战后，东、西两部分成为英国、法国的委任统治地；二战后成为托管地，法国根据联合国授权对包括加纳等地区的法属多哥兰进行托管，1957年西部并入加纳，1960年4月27日东部托管到期，独立并成立多哥共和国。\n1990年代确立多党制，但是军队仍未失去自1967年起几乎持续的执政地位。斯尔法纳斯·奥林匹欧（1901—1963）在1960年多哥独立时就成为总统。当他拒绝626名大部分参加过在印度支那和阿尔及利亚的战争的多哥籍法国退伍军人加入多哥军队时，被那些军人在1963年1月13日发动的政变推翻，他在第二天被杀。非军人出身的总统尼古拉斯·格鲁尼兹奇（1913—1969）上台。",
+  "history_text": "十五世纪起，葡萄牙、英国、法国殖民者侵入沿岸贩卖奴隶，这一带被称为“奴隶海岸”。十九世纪中叶德国势力进入，多哥兰成为德国保护国，直至一战结束。战后东西两部分分别交由英国、法国委任统治，二战后转为托管地，西部并入加纳。一九六〇年东部托管到期，多哥共和国独立，斯尔法纳斯·奥林匹欧出任总统。此后政变接连发生，纳辛贝·埃亚德马于一九六七年掌权，直至二〇〇五年逝世。",
+  "custom_text": "南部沿海与中部高地的村落里，巫毒教信仰渗入日常：路边常见供奉神灵的小龛，祭日里鼓声彻夜，信众以歌舞与献祭与神灵沟通。基督教与伊斯兰教也各有信众，三者在同一片街区比邻而居。法语是学校与市集之外行政场合的通用语，小学课堂上则同时使用本土语言。洛美与卡拉各有一所大学，中高等教育多以法语授课，教育经费在政府预算中占去可观的一份。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 179,
+      "folk": 161
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "多哥在哪儿啊？周围都是哪些国家？",
+      "a": "多哥位于西非，东部毗邻贝宁，北部接壤布基纳法索，西部邻接加纳，南部有一小段海岸线面向几内亚湾。",
+      "tags": [
+        "西非",
+        "位置",
+        "邻国",
+        "地理"
+      ]
+    },
+    {
+      "q": "多哥的首都是哪个城市？",
+      "a": "多哥的首都是洛美，它也是多哥的最大城市。",
+      "tags": [
+        "首都",
+        "洛美",
+        "城市"
+      ]
+    },
+    {
+      "q": "多哥人平时说什么语言？",
+      "a": "多哥的官方语言是法语。",
+      "tags": [
+        "语言",
+        "法语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "多哥有什么值得一看的景点？",
+      "a": "多哥有两大知名地标：多哥湖和法扎奥马卡萨。",
+      "tags": [
+        "景点",
+        "地标",
+        "多哥湖",
+        "法扎奥马卡萨"
+      ]
+    },
+    {
+      "q": "多哥有什么传统节日或者习俗吗？",
+      "a": "根据现有资料，多哥的民俗和节日信息暂未收录。",
+      "tags": [
+        "节日",
+        "习俗",
+        "传统"
+      ]
+    },
+    {
+      "q": "多哥有什么特色美食或饮食文化？",
+      "a": "根据现有资料，多哥的饮食和风物信息暂未收录。",
+      "tags": [
+        "美食",
+        "吃什么",
+        "特产"
+      ]
+    },
+    {
+      "q": "多哥这个国家是怎么独立的？",
+      "a": "1960年4月27日东部托管到期，多哥独立并成立多哥共和国。",
+      "tags": [
+        "历史",
+        "独立",
+        "建国"
+      ]
+    },
+    {
+      "q": "多哥以前是哪个国家的殖民地？",
+      "a": "多哥曾为德国保护国（殖民地），一战后东西两部分分别成为英国、法国的委任统治地，二战后成为托管地。",
+      "tags": [
+        "殖民",
+        "历史",
+        "德国",
+        "法国"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "summary_head",
+        "severity": "error",
+        "why": "方位描述错误：多哥东邻贝宁、西邻加纳，原文东西颠倒",
+        "suggest": "改为东部接壤贝宁、西部邻接加纳"
+      }
+    ],
+    "overall": "fail"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -17,
+        1114
+      ],
+      [
+        49,
+        1100
+      ],
+      [
+        49,
+        1093
+      ],
+      [
+        90,
+        1099
+      ],
+      [
+        76,
+        1038
+      ],
+      [
+        134,
+        996
+      ],
+      [
+        133,
+        952
+      ],
+      [
+        160,
+        908
+      ],
+      [
+        164,
+        849
+      ],
+      [
+        163,
+        700
+      ],
+      [
+        153,
+        699
+      ],
+      [
+        157,
+        668
+      ],
+      [
+        178,
+        628
+      ],
+      [
+        162,
+        621
+      ],
+      [
+        118,
+        610
+      ],
+      [
+        98,
+        632
+      ],
+      [
+        75,
+        644
+      ],
+      [
+        52,
+        683
+      ],
+      [
+        50,
+        697
+      ],
+      [
+        60,
+        703
+      ],
+      [
+        65,
+        732
+      ],
+      [
+        50,
+        750
+      ],
+      [
+        61,
+        770
+      ],
+      [
+        57,
+        820
+      ],
+      [
+        71,
+        830
+      ],
+      [
+        37,
+        876
+      ],
+      [
+        51,
+        887
+      ],
+      [
+        43,
+        903
+      ],
+      [
+        53,
+        940
+      ],
+      [
+        41,
+        949
+      ],
+      [
+        23,
+        943
+      ],
+      [
+        30,
+        951
+      ],
+      [
+        23,
+        958
+      ],
+      [
+        38,
+        959
+      ],
+      [
+        26,
+        966
+      ],
+      [
+        35,
+        966
+      ],
+      [
+        40,
+        1028
+      ],
+      [
+        -9,
+        1063
+      ],
+      [
+        2,
+        1106
+      ],
+      [
+        -17,
+        1114
+      ]
+    ]
+  ]
+}

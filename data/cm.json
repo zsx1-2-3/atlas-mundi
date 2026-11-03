@@ -1,1 +1,878 @@
-{"qid":"Q1009","iso_a2":"CM","iso_a3":"CMR","name_zh":"喀麦隆","name_en":"Cameroon","capital":"雅温得","continent":"非洲","centroid":[12.65,5.1333],"centroid_source":"wikidata P625","languages":[{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/cm/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue au Cameroun, un pays d'une grande richesse culturelle dont la capitale est Yaoundé ; parmi ses sites remarquables, le mont Cameroun, volcan majestueux qui domine la côte, offre un panorama saisissant.","tts_text_zh":"欢迎来到喀麦隆，一个文化底蕴深厚的国家，首都是雅温得；在其著名地标中，雄伟的喀麦隆火山俯瞰海岸，景色令人震撼。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":73728},{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/cm/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Cameroon, a country of remarkable cultural diversity whose capital is Yaoundé; among its notable landmarks, Mount Cameroon, a majestic volcano rising above the coast, offers a striking panorama.","tts_text_zh":"欢迎来到喀麦隆，一个文化多样性极为丰富的国家，首都是雅温得；在其著名地标中，雄伟的喀麦隆火山耸立于海岸之上，景色壮丽。","audio_voice":"en-US-AriaNeural","audio_bytes":82656}],"summary_text":"喀麦隆共和国通称喀麦隆，是位于非洲中西部的单一制共和国。喀麦隆西方与尼日利亚接壤，东北与东边分别和乍德与中非共和国相靠，南方则与赤道几内亚、加蓬及刚果共和国毗邻。喀麦隆的海岸线紧依邦尼湾，其属于几内亚湾及大西洋的一部分。喀麦隆由于其地质与文化的多样性，而有“小非洲”美誉，其自然地理风貌包括海滩、沙漠、高山、雨林及热带莽原等。当地的最高峰是西南部的喀麦隆火山，大城市则有杜阿拉、雅温得及加鲁阿等。喀麦隆栖居了超过200个种族与语言族群，官方语言为英语与法语。喀麦隆以其国家足球队及本土音乐风格著名，其中又以马库萨与比库西最为人知。喀麦隆最早的居民是俾格米人的巴卡部落，说班图语的族裔最早起源于喀麦隆的高地地区，但在欧洲人入侵前大部分已经迁走。到1884年为止，杜阿拉国王是喀麦隆当地最具有权力的来自非洲本土的君主。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":357,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%96%80%E9%BA%A6%E9%9A%86","title":"喀麦隆"},"culture_excerpts":[{"section":"历史","text":"喀麦隆最早的居民是俾格米人的巴卡部落。说班图语的族裔最也早起源于喀麦隆的高地地区，但在欧洲人入侵前，大部分已经迁走。到1884年为止，国王—杜阿拉（Douala）是喀麦隆当地最具有权力的来自非洲本土的君主。早在1472年，来自欧洲的葡萄牙海员已经开始在喀麦隆的海岸登陆。喀麦隆这个名字源自于盛产虾的武里河，以前这条河曾经被命名为虾河（Rio de Camarões）。从1520年起，这里开始与葡萄牙进行象牙、棕榈油、原料糖贸易交易。这期间，贩卖黑人的奴隶交易在这里从未兴起。直至1820年，贩卖黑人奴隶贸易在喀麦隆也开始相继兴盛起来。最终在1840年7月10日，国王杜阿拉与英国签署在世界范围内全面禁止贩卖人口、奴隶的公民条约。作为对比，美国在1865年、巴西在1888年才全面禁止贩卖人口、奴隶。从1868年起由于汉堡沃尔曼商会（德语：Woermann-Linie）在武里河口开始建立分号，有越来越多的德国人来到喀麦隆。1884年7月14日，德国总领事古斯塔夫·纳赫蒂加尔（英语：Gustav Nachtigal）博士作为德皇特使同鲁道夫·杜阿拉国王以及喀麦隆其他地方的藩王一起签署保护条约，由此宣布喀麦隆成为德国所谓的“保护地”，实质上就是德国海外殖民地。1911年，德国通过与法国签订的《摩洛哥-刚果条约》（法属殖民地割让给德国），成功的将自己在中部非洲殖民地的版图扩大，形成新喀麦隆。可是，德国所获得这一切还是因不久之后的《凡尔赛条约》全部丢失了。第一次世界大战，那些被严格控制数量和少量被允保留的德国殖民地保护军只可以在喀麦隆停留两年。1916年，最后一个位于莫拉的德国要塞向英国殖民地军队投降。在1919年签订的《凡尔赛条约》中，尽管喀麦隆在国联中正式获得一个议席，但这个席位还是被交给英国、法国托管。不久，喀麦隆领土的5分之4被法国所托管，余下的地区归为英国。第二次世界大战结束以后，当时英、法托管的被分割为两部分的喀麦隆转为由联合国托管。联合国的目标是：希望逐渐使喀麦隆达到实现自治。但从这后直到1957年的时间段里，喀麦隆的局势一直非常混乱，法国托管区一直在为争取独立斗争。终于在1957年5月10日，任命安德烈-马里·姆比达（英语：André Marie Mbida）为总统。1960年1月1日，法属喀麦隆托管区在联合国授权的托管协议结束后进行一次全民投票，确定脱离法国控制，国名定为“喀麦隆共和国”。与此同时，英国托管的喀麦隆同样也进行一场全民投票，位于英属区的北部地区决定与尼日利亚合并，南部地区决定与喀麦隆合并（1961年10月1日），国名改为“喀麦隆联邦共和国”。1984年国名再改为“喀麦隆共和国”。这就是今天喀麦隆使用两种官方语言（英语、法语）的背景原因。喀麦隆独立后上任的总统：芙拉人—阿赫马杜·阿希乔建立起一个血腥的独裁统治，并对一切反对者进行镇压。这期间阿希乔通过法国顾问的帮助，为了确保他的政权稳定，一直在进行血腥的镇压。1966年9月1日，建立起一支名叫喀麦隆民族联盟Union Nationale Camerounaise（缩写：UNC）的统一党，并从1985年起改名为喀麦隆人民民主运动（Cameroon People's Democratic Movement缩写：RDPC）。1972年喀麦隆通过改革，国家由原来的联邦制改为联合一体的共和制。1982年11月6日总统—阿希乔退位，继任者政府前总理保罗·比亚成为新的喀麦隆国家元首，以及统一党喀麦隆民族联盟（UNC）的主席。1984年比亚赢得大选，并挫败一场可能发生的政变。在之后建立起的新统一党喀麦隆人民民主运动（RDPC）中，比亚承诺要使喀麦隆全国实现更多的社会公平以及民主。在1988年的大选中，比亚又一次赢得多数，这期间他没有遇到任何竞争对手、候选人。由于1980年代他的政府遇到前所未有的经济危机、社会问题，这些事情重创比亚和他腐败的内阁。慢慢的喀麦隆国内对新闻、出版自由的呼声越来越大。在允许新闻、出版自由化之后，喀麦隆诞生许多批评类的报纸，而且反对派也逐渐强大起来，使得在1990年代初期，喀麦隆的局势变得非常动荡，并经常出现军队政变。由于受到反对党派的压力，总统比亚决定在1992年实行自由大选，结果是：比亚再次赢得大选。因为国际选举观察家受到阻碍影响，反对派怀疑大选舞弊。但实际上是因为参与选举的反对党数量众多（多达32个党），使得票数被分散。大选结果表明，统一党RDPC获得89个议席，必须与最大的反对党UNPD（65个议席）联合执政。1997年通过法国帮助送给他的反对派竞争者，比亚巧妙的利用这名法国派来的反对派候选人获得大选的绝对多数议席，并在大选后的第二年得到确定。","chars":1946},{"section":"文化","text":"喀麦隆国内知名的作家有：Francis Bebey，Mongo Beti，Calixthe Beyala，Bole Butake，Papé Mongo, 费迪南·奥约诺和René Philombe。其中Mongo Beti在1950年代开始以他修道院写的抨击、批评的作品（他在1956年出版的小说《Le pauvre Christ de Bomba（Bomba贫困的基督徒）》）受到关注。","chars":1200},{"section":"人口","text":"人口约3,013.5万(2023年)，分为200多个部族。主要有班图语族的各族和俾格米人。主要宗教有基督宗教、伊斯兰教和原始宗教。\n2008年喀麦隆的婴儿出生率为4.7个婴儿/每名妇女，但另一方面，仅有13%的已婚妇女使用现代避孕工具。每1000人的出生率是36人（世界平均水平：21人），每1000人的人口死亡率是13人（世纪平均水位：8人）。42%的喀麦隆人口年龄在15岁以下，4%的人口年龄在65岁以上。","chars":1054}],"landmark_images":[{"title":"File:Le Char des Dieux - Fako Mountain - Mount Cameroon National Park - Région du Sud-ouest.jpg","caption_zh":"喀麦隆火山（Fako山）","caption":"喀麦隆火山（Fako山）","caption_commons":"Mount Fako/Cameroon is an important mountain of Central Africa that is 4,090 met","kw":"Mount Cameroon Buea","url":"assets/cm/L01.webp","thumb_url":"assets/cm/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Le_Char_des_Dieux_-_Fako_Mountain_-_Mount_Cameroon_National_Park_-_R%C3%A9gion_du_Sud-ouest.jpg/1920px-Le_Char_des_Dieux_-_Fako_Mountain_-_Mount_Cameroon_National_Park_-_R%C3%A9gion_du_Sud-ouest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"relaxed","author":"Eric Joel MAMA NKE","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":27502,"caption_zh_manual":"喀麦隆火山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8322,"size":{"detail":"760x343","thumb":"400x180"},"encoding":"webp q72/q74 (源 1920x866 438KB JPEG)"},{"title":"File:River Benue (in Makurdi showing OLD Bridge).jpg","caption_zh":"马库尔迪贝努埃河旧桥","caption":"马库尔迪贝努埃河旧桥","caption_commons":"The River Benue flowing through MAKURDI. Taken by Bandele Femi","kw":"Benue River Cameroon","url":"assets/cm/L03.webp","thumb_url":"assets/cm/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/River_Benue_%28in_Makurdi_showing_OLD_Bridge%29.jpg/1920px-River_Benue_%28in_Makurdi_showing_OLD_Bridge%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Ashinze","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":30512,"caption_zh_manual":"贝努埃河","caption_zh_source":"llm_from_commons_filename","thumb_bytes":9624,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 428KB JPEG)"},{"title":"File:Entree de la ville de Foumban - 02.jpg","caption_zh":"丰班苏丹王宫城市入口","caption":"丰班苏丹王宫城市入口","caption_commons":"A view of the entrance to the city of Foumban in May 2021","kw":"Foumban Royal Palace Bamoun","url":"assets/cm/L04.webp","thumb_url":"assets/cm/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Entree_de_la_ville_de_Foumban_-_02.jpg/1920px-Entree_de_la_ville_de_Foumban_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Mndetatsin","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":32276,"caption_zh_manual":"丰班苏丹王宫","caption_zh_source":"llm_from_commons_filename","thumb_bytes":9636,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 614KB JPEG)"},{"title":"File:Mantelmangabe Dja.JPG","caption_zh":"德贾动物保护区内的白颈狐猴","caption":"德贾动物保护区内的白颈狐猴","caption_commons":"Nördliche Zwergmeerkatze (Miopithecus ogouensis). Wildtierreservat Dja","kw":"Dja Faunal Reserve","url":"assets/cm/L05.webp","thumb_url":"assets/cm/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Mantelmangabe_Dja.JPG/1920px-Mantelmangabe_Dja.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Earwig at German Wikipedia","license":"Attribution","license_url":null,"license_status":"ok","load_verified":true,"bytes":64080,"caption_zh_manual":"德贾动物保护区","caption_zh_source":"llm_from_commons_filename","thumb_bytes":23298,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 567KB JPEG)"},{"title":"File:Des pêcheurs au travail à Kribi 4.jpg","caption_zh":"克里比海滩渔民劳作场景","caption":"克里比海滩渔民劳作场景","caption_commons":"This is an image of \"African people at work\" from","kw":"Kribi beach Cameroon","url":"assets/cm/L06.webp","thumb_url":"assets/cm/L06.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Des_p%C3%AAcheurs_au_travail_%C3%A0_Kribi_4.jpg/1920px-Des_p%C3%AAcheurs_au_travail_%C3%A0_Kribi_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Rifoeblaise","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":70082,"caption_zh_manual":"克里比海滩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":19218,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1277 714KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:40:51+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q5146 (por)-NMaia-Camarões.wav、Lb-Kamerun.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Camerun.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py CM","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","林贝黑沙滩：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"小非洲","evidence":"而有“小非洲”美誉"},{"v":"喀麦隆火山","evidence":"最高峰是西南部的喀麦隆火山"},{"v":"马库萨","evidence":"其中又以马库萨与比库西最为人知"},{"v":"比库西","evidence":"其中又以马库萨与比库西最为人知"},{"v":"邦尼湾","evidence":"海岸线紧依邦尼湾"},{"v":"国家足球队","evidence":"以其国家足球队及本土音乐风格著名"}],"model":"deepseek-flash"},"summary_text_raw":"喀麦隆共和国（法语：République du Cameroun；英语：Republic of Cameroon），通称喀麦隆（法语：Cameroun；英语：Cameroon），是位于非洲中西部的单一制共和国。喀麦隆西方与尼日利亚接壤，东北与东边分别和乍德与中非共和国相靠，南方则与赤道几内亚、加蓬及刚果共和国毗邻。喀麦隆的海岸线紧依邦尼湾，其属于几内亚湾及大西洋的一部分。喀麦隆由于其地质与文化的多样性，而有“小非洲”美誉，其自然地理风貌包括海滩、沙漠、高山、雨林及热带莽原等。当地的最高峰是西南部的喀麦隆火山，大城市则有杜阿拉、雅温得及加鲁阿等，并栖居了超过200个种族与语言族群。喀麦隆以其国家足球队及本土音乐风格著名，其中又以马库萨与比库西最为人知。喀麦隆的官方语言为英语与法语。\n\n\n== 历史 ==\n\n喀麦隆最早的居民是俾格米人的巴卡部落。说班图语的族裔最也早起源于喀麦隆的高地地区，但在欧洲人入侵前，大部分已经迁走。到1884年为止，国王—杜阿拉（Douala）是喀麦隆当地最具有权力的来自非洲本土的君主。","history_text":"喀麦隆高地最早居住着俾格米人的巴卡部落，说班图语的族裔亦发源于此，后大多迁走。十五世纪起葡萄牙海员在海岸登陆，与当地进行象牙、棕榈油贸易，国名即源自盛产虾的武里河。十九世纪中叶杜阿拉国王与英国签约禁止贩卖奴隶，随后德国特使与杜阿拉国王等签署保护条约，喀麦隆沦为德国“保护地”。","custom_text":"喀麦隆的作家群在非洲文坛声名显著，Mongo Beti 以修道院中写就的抨击性作品受到关注，费迪南·奥约诺亦在其中。本土音乐以马库萨与比库西最为人知，节奏明快，常伴舞步。家庭中多代同堂，节庆时以木薯、棕榈油烹制的饭菜待客。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":138,"folk":111}},"knowledge_qa":[{"q":"喀麦隆在非洲的哪个位置？","a":"位于非洲中西部，西边挨着尼日利亚，东北和东边分别与乍得、中非共和国相邻，南边接赤道几内亚、加蓬和刚果共和国，海岸线紧依邦尼湾。","tags":["非洲","位置","邻国"]},{"q":"喀麦隆的首都是哪里？","a":"首都是雅温得。","tags":["首都","雅温得"]},{"q":"喀麦隆说什么语言？","a":"官方语言是法语和英语，当地还栖居了超过200个种族与语言族群。","tags":["语言","法语","英语","方言"]},{"q":"喀麦隆有什么出名的文化特色？","a":"有“小非洲”美誉，地质与文化多样，国家足球队和本土音乐风格马库萨、比库西都很有名。","tags":["文化","足球","音乐","小非洲"]},{"q":"喀麦隆有什么值得看的地标？","a":"有喀麦隆火山、贝努埃河、丰班苏丹王宫、德贾动物保护区、克里比海滩等。","tags":["地标","火山","海滩","王宫"]},{"q":"喀麦隆的自然风光怎么样？","a":"自然地理风貌包括海滩、沙漠、高山、雨林及热带莽原等，最高峰是西南部的喀麦隆火山。","tags":["风景","自然","火山","雨林"]},{"q":"喀麦隆有哪些大城市？","a":"大城市有杜阿拉、雅温得及加鲁阿等。","tags":["城市","杜阿拉","雅温得","加鲁阿"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[1132,217],[999,217],[981,226],[996,305],[993,327],[964,354],[982,363],[963,360],[955,382],[962,375],[962,388],[974,382],[968,391],[976,396],[962,396],[976,414],[958,401],[948,411],[952,397],[944,403],[948,392],[934,392],[933,403],[921,396],[897,410],[894,455],[885,464],[887,454],[880,460],[879,454],[865,474],[872,451],[851,453],[860,488],[880,516],[890,560],[882,570],[885,583],[934,631],[969,653],[979,680],[988,679],[1014,701],[1021,688],[1050,688],[1058,713],[1083,694],[1091,678],[1104,674],[1110,645],[1126,643],[1153,664],[1156,688],[1187,708],[1174,726],[1202,758],[1202,772],[1219,796],[1223,839],[1240,850],[1237,861],[1256,861],[1280,879],[1290,926],[1286,938],[1320,954],[1323,1004],[1344,1015],[1354,1062],[1376,1102],[1398,1128],[1416,1124],[1461,1152],[1462,1163],[1454,1171],[1467,1218],[1449,1234],[1419,1237],[1406,1308],[1442,1308],[1456,1277],[1482,1264],[1490,1215],[1505,1208],[1508,1197],[1507,1166],[1514,1153],[1502,1118],[1514,1052],[1568,999],[1477,992],[1418,998],[1395,965],[1435,917],[1505,864],[1544,784],[1556,779],[1543,739],[1522,725],[1477,632],[1439,604],[1462,586],[1462,550],[1452,529],[1466,516],[1472,462],[1499,441],[1509,412],[1519,406],[1503,403],[1508,389],[1609,286],[1609,251],[1621,222],[1610,219],[1606,202],[1616,172],[1607,166],[1601,177],[1571,193],[1548,198],[1534,192],[1521,204],[1489,201],[1486,212],[1476,206],[1456,221],[1443,213],[1330,216],[1327,226],[1316,228],[1275,224],[1166,232],[1135,230],[1132,217]]]}
+{
+  "qid": "Q1009",
+  "iso_a2": "CM",
+  "iso_a3": "CMR",
+  "name_zh": "喀麦隆",
+  "name_en": "Cameroon",
+  "capital": "雅温得",
+  "continent": "非洲",
+  "centroid": [
+    12.65,
+    5.1333
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/cm/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue au Cameroun, un pays d'une grande richesse culturelle dont la capitale est Yaoundé ; parmi ses sites remarquables, le mont Cameroun, volcan majestueux qui domine la côte, offre un panorama saisissant.",
+      "tts_text_zh": "欢迎来到喀麦隆，一个文化底蕴深厚的国家，首都是雅温得；在其著名地标中，雄伟的喀麦隆火山俯瞰海岸，景色令人震撼。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 73728
+    },
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/cm/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Cameroon, a country of remarkable cultural diversity whose capital is Yaoundé; among its notable landmarks, Mount Cameroon, a majestic volcano rising above the coast, offers a striking panorama.",
+      "tts_text_zh": "欢迎来到喀麦隆，一个文化多样性极为丰富的国家，首都是雅温得；在其著名地标中，雄伟的喀麦隆火山耸立于海岸之上，景色壮丽。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 82656
+    }
+  ],
+  "summary_text": "喀麦隆共和国通称喀麦隆，是位于非洲中西部的单一制共和国。喀麦隆西方与尼日利亚接壤，东北与东边分别和乍德与中非共和国相靠，南方则与赤道几内亚、加蓬及刚果共和国毗邻。喀麦隆的海岸线紧依邦尼湾，其属于几内亚湾及大西洋的一部分。喀麦隆由于其地质与文化的多样性，而有“小非洲”美誉，其自然地理风貌包括海滩、沙漠、高山、雨林及热带莽原等。当地的最高峰是西南部的喀麦隆火山，大城市则有杜阿拉、雅温得及加鲁阿等。喀麦隆栖居了超过200个种族与语言族群，官方语言为英语与法语。喀麦隆以其国家足球队及本土音乐风格著名，其中又以马库萨与比库西最为人知。喀麦隆最早的居民是俾格米人的巴卡部落，说班图语的族裔最早起源于喀麦隆的高地地区，但在欧洲人入侵前大部分已经迁走。到1884年为止，杜阿拉国王是喀麦隆当地最具有权力的来自非洲本土的君主。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 357,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%96%80%E9%BA%A6%E9%9A%86",
+    "title": "喀麦隆"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "喀麦隆最早的居民是俾格米人的巴卡部落。说班图语的族裔最也早起源于喀麦隆的高地地区，但在欧洲人入侵前，大部分已经迁走。到1884年为止，国王—杜阿拉（Douala）是喀麦隆当地最具有权力的来自非洲本土的君主。早在1472年，来自欧洲的葡萄牙海员已经开始在喀麦隆的海岸登陆。喀麦隆这个名字源自于盛产虾的武里河，以前这条河曾经被命名为虾河（Rio de Camarões）。从1520年起，这里开始与葡萄牙进行象牙、棕榈油、原料糖贸易交易。这期间，贩卖黑人的奴隶交易在这里从未兴起。直至1820年，贩卖黑人奴隶贸易在喀麦隆也开始相继兴盛起来。最终在1840年7月10日，国王杜阿拉与英国签署在世界范围内全面禁止贩卖人口、奴隶的公民条约。作为对比，美国在1865年、巴西在1888年才全面禁止贩卖人口、奴隶。从1868年起由于汉堡沃尔曼商会（德语：Woermann-Linie）在武里河口开始建立分号，有越来越多的德国人来到喀麦隆。1884年7月14日，德国总领事古斯塔夫·纳赫蒂加尔（英语：Gustav Nachtigal）博士作为德皇特使同鲁道夫·杜阿拉国王以及喀麦隆其他地方的藩王一起签署保护条约，由此宣布喀麦隆成为德国所谓的“保护地”，实质上就是德国海外殖民地。1911年，德国通过与法国签订的《摩洛哥-刚果条约》（法属殖民地割让给德国），成功的将自己在中部非洲殖民地的版图扩大，形成新喀麦隆。可是，德国所获得这一切还是因不久之后的《凡尔赛条约》全部丢失了。第一次世界大战，那些被严格控制数量和少量被允保留的德国殖民地保护军只可以在喀麦隆停留两年。1916年，最后一个位于莫拉的德国要塞向英国殖民地军队投降。在1919年签订的《凡尔赛条约》中，尽管喀麦隆在国联中正式获得一个议席，但这个席位还是被交给英国、法国托管。不久，喀麦隆领土的5分之4被法国所托管，余下的地区归为英国。第二次世界大战结束以后，当时英、法托管的被分割为两部分的喀麦隆转为由联合国托管。联合国的目标是：希望逐渐使喀麦隆达到实现自治。但从这后直到1957年的时间段里，喀麦隆的局势一直非常混乱，法国托管区一直在为争取独立斗争。终于在1957年5月10日，任命安德烈-马里·姆比达（英语：André Marie Mbida）为总统。1960年1月1日，法属喀麦隆托管区在联合国授权的托管协议结束后进行一次全民投票，确定脱离法国控制，国名定为“喀麦隆共和国”。与此同时，英国托管的喀麦隆同样也进行一场全民投票，位于英属区的北部地区决定与尼日利亚合并，南部地区决定与喀麦隆合并（1961年10月1日），国名改为“喀麦隆联邦共和国”。1984年国名再改为“喀麦隆共和国”。这就是今天喀麦隆使用两种官方语言（英语、法语）的背景原因。喀麦隆独立后上任的总统：芙拉人—阿赫马杜·阿希乔建立起一个血腥的独裁统治，并对一切反对者进行镇压。这期间阿希乔通过法国顾问的帮助，为了确保他的政权稳定，一直在进行血腥的镇压。1966年9月1日，建立起一支名叫喀麦隆民族联盟Union Nationale Camerounaise（缩写：UNC）的统一党，并从1985年起改名为喀麦隆人民民主运动（Cameroon People's Democratic Movement缩写：RDPC）。1972年喀麦隆通过改革，国家由原来的联邦制改为联合一体的共和制。1982年11月6日总统—阿希乔退位，继任者政府前总理保罗·比亚成为新的喀麦隆国家元首，以及统一党喀麦隆民族联盟（UNC）的主席。1984年比亚赢得大选，并挫败一场可能发生的政变。在之后建立起的新统一党喀麦隆人民民主运动（RDPC）中，比亚承诺要使喀麦隆全国实现更多的社会公平以及民主。在1988年的大选中，比亚又一次赢得多数，这期间他没有遇到任何竞争对手、候选人。由于1980年代他的政府遇到前所未有的经济危机、社会问题，这些事情重创比亚和他腐败的内阁。慢慢的喀麦隆国内对新闻、出版自由的呼声越来越大。在允许新闻、出版自由化之后，喀麦隆诞生许多批评类的报纸，而且反对派也逐渐强大起来，使得在1990年代初期，喀麦隆的局势变得非常动荡，并经常出现军队政变。由于受到反对党派的压力，总统比亚决定在1992年实行自由大选，结果是：比亚再次赢得大选。因为国际选举观察家受到阻碍影响，反对派怀疑大选舞弊。但实际上是因为参与选举的反对党数量众多（多达32个党），使得票数被分散。大选结果表明，统一党RDPC获得89个议席，必须与最大的反对党UNPD（65个议席）联合执政。1997年通过法国帮助送给他的反对派竞争者，比亚巧妙的利用这名法国派来的反对派候选人获得大选的绝对多数议席，并在大选后的第二年得到确定。",
+      "chars": 1946
+    },
+    {
+      "section": "文化",
+      "text": "喀麦隆国内知名的作家有：Francis Bebey，Mongo Beti，Calixthe Beyala，Bole Butake，Papé Mongo, 费迪南·奥约诺和René Philombe。其中Mongo Beti在1950年代开始以他修道院写的抨击、批评的作品（他在1956年出版的小说《Le pauvre Christ de Bomba（Bomba贫困的基督徒）》）受到关注。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "人口约3,013.5万(2023年)，分为200多个部族。主要有班图语族的各族和俾格米人。主要宗教有基督宗教、伊斯兰教和原始宗教。\n2008年喀麦隆的婴儿出生率为4.7个婴儿/每名妇女，但另一方面，仅有13%的已婚妇女使用现代避孕工具。每1000人的出生率是36人（世界平均水平：21人），每1000人的人口死亡率是13人（世纪平均水位：8人）。42%的喀麦隆人口年龄在15岁以下，4%的人口年龄在65岁以上。",
+      "chars": 1054
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Le Char des Dieux - Fako Mountain - Mount Cameroon National Park - Région du Sud-ouest.jpg",
+      "caption_zh": "喀麦隆火山（Fako山）",
+      "caption": "喀麦隆火山（Fako山）",
+      "caption_commons": "Mount Fako/Cameroon is an important mountain of Central Africa that is 4,090 met",
+      "kw": "Mount Cameroon Buea",
+      "url": "assets/cm/L01.webp",
+      "thumb_url": "assets/cm/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Le_Char_des_Dieux_-_Fako_Mountain_-_Mount_Cameroon_National_Park_-_R%C3%A9gion_du_Sud-ouest.jpg/1920px-Le_Char_des_Dieux_-_Fako_Mountain_-_Mount_Cameroon_National_Park_-_R%C3%A9gion_du_Sud-ouest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "relaxed",
+      "author": "Eric Joel MAMA NKE",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 64678,
+      "caption_zh_manual": "喀麦隆火山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4116,
+      "size": {
+        "detail": "1080x487",
+        "thumb": "240x108"
+      },
+      "encoding": "webp q75/q78 (源 1920x866 438KB JPEG)"
+    },
+    {
+      "title": "File:River Benue (in Makurdi showing OLD Bridge).jpg",
+      "caption_zh": "马库尔迪贝努埃河旧桥",
+      "caption": "马库尔迪贝努埃河旧桥",
+      "caption_commons": "The River Benue flowing through MAKURDI. Taken by Bandele Femi",
+      "kw": "Benue River Cameroon",
+      "url": "assets/cm/L03.webp",
+      "thumb_url": "assets/cm/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/River_Benue_%28in_Makurdi_showing_OLD_Bridge%29.jpg/1920px-River_Benue_%28in_Makurdi_showing_OLD_Bridge%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Ashinze",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 62074,
+      "caption_zh_manual": "贝努埃河",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4496,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 428KB JPEG)"
+    },
+    {
+      "title": "File:Entree de la ville de Foumban - 02.jpg",
+      "caption_zh": "丰班苏丹王宫城市入口",
+      "caption": "丰班苏丹王宫城市入口",
+      "caption_commons": "A view of the entrance to the city of Foumban in May 2021",
+      "kw": "Foumban Royal Palace Bamoun",
+      "url": "assets/cm/L04.webp",
+      "thumb_url": "assets/cm/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Entree_de_la_ville_de_Foumban_-_02.jpg/1920px-Entree_de_la_ville_de_Foumban_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Mndetatsin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 75616,
+      "caption_zh_manual": "丰班苏丹王宫",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4628,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 614KB JPEG)"
+    },
+    {
+      "title": "File:Mantelmangabe Dja.JPG",
+      "caption_zh": "德贾动物保护区内的白颈狐猴",
+      "caption": "德贾动物保护区内的白颈狐猴",
+      "caption_commons": "Nördliche Zwergmeerkatze (Miopithecus ogouensis). Wildtierreservat Dja",
+      "kw": "Dja Faunal Reserve",
+      "url": "assets/cm/L05.webp",
+      "thumb_url": "assets/cm/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Mantelmangabe_Dja.JPG/1920px-Mantelmangabe_Dja.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Earwig at German Wikipedia",
+      "license": "Attribution",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 111844,
+      "caption_zh_manual": "德贾动物保护区",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11150,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 567KB JPEG)"
+    },
+    {
+      "title": "File:Des pêcheurs au travail à Kribi 4.jpg",
+      "caption_zh": "克里比海滩渔民劳作场景",
+      "caption": "克里比海滩渔民劳作场景",
+      "caption_commons": "This is an image of \"African people at work\" from",
+      "kw": "Kribi beach Cameroon",
+      "url": "assets/cm/L06.webp",
+      "thumb_url": "assets/cm/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Des_p%C3%AAcheurs_au_travail_%C3%A0_Kribi_4.jpg/1920px-Des_p%C3%AAcheurs_au_travail_%C3%A0_Kribi_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Rifoeblaise",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 152164,
+      "caption_zh_manual": "克里比海滩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8740,
+      "size": {
+        "detail": "1080x718",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1277 714KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:40:51+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q5146 (por)-NMaia-Camarões.wav、Lb-Kamerun.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Camerun.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py CM",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "林贝黑沙滩：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "小非洲",
+        "evidence": "而有“小非洲”美誉"
+      },
+      {
+        "v": "喀麦隆火山",
+        "evidence": "最高峰是西南部的喀麦隆火山"
+      },
+      {
+        "v": "马库萨",
+        "evidence": "其中又以马库萨与比库西最为人知"
+      },
+      {
+        "v": "比库西",
+        "evidence": "其中又以马库萨与比库西最为人知"
+      },
+      {
+        "v": "邦尼湾",
+        "evidence": "海岸线紧依邦尼湾"
+      },
+      {
+        "v": "国家足球队",
+        "evidence": "以其国家足球队及本土音乐风格著名"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "喀麦隆共和国（法语：République du Cameroun；英语：Republic of Cameroon），通称喀麦隆（法语：Cameroun；英语：Cameroon），是位于非洲中西部的单一制共和国。喀麦隆西方与尼日利亚接壤，东北与东边分别和乍德与中非共和国相靠，南方则与赤道几内亚、加蓬及刚果共和国毗邻。喀麦隆的海岸线紧依邦尼湾，其属于几内亚湾及大西洋的一部分。喀麦隆由于其地质与文化的多样性，而有“小非洲”美誉，其自然地理风貌包括海滩、沙漠、高山、雨林及热带莽原等。当地的最高峰是西南部的喀麦隆火山，大城市则有杜阿拉、雅温得及加鲁阿等，并栖居了超过200个种族与语言族群。喀麦隆以其国家足球队及本土音乐风格著名，其中又以马库萨与比库西最为人知。喀麦隆的官方语言为英语与法语。\n\n\n== 历史 ==\n\n喀麦隆最早的居民是俾格米人的巴卡部落。说班图语的族裔最也早起源于喀麦隆的高地地区，但在欧洲人入侵前，大部分已经迁走。到1884年为止，国王—杜阿拉（Douala）是喀麦隆当地最具有权力的来自非洲本土的君主。",
+  "history_text": "喀麦隆高地最早居住着俾格米人的巴卡部落，说班图语的族裔亦发源于此，后大多迁走。十五世纪起葡萄牙海员在海岸登陆，与当地进行象牙、棕榈油贸易，国名即源自盛产虾的武里河。十九世纪中叶杜阿拉国王与英国签约禁止贩卖奴隶，随后德国特使与杜阿拉国王等签署保护条约，喀麦隆沦为德国“保护地”。",
+  "custom_text": "喀麦隆的作家群在非洲文坛声名显著，Mongo Beti 以修道院中写就的抨击性作品受到关注，费迪南·奥约诺亦在其中。本土音乐以马库萨与比库西最为人知，节奏明快，常伴舞步。家庭中多代同堂，节庆时以木薯、棕榈油烹制的饭菜待客。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 138,
+      "folk": 111
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "喀麦隆在非洲的哪个位置？",
+      "a": "位于非洲中西部，西边挨着尼日利亚，东北和东边分别与乍得、中非共和国相邻，南边接赤道几内亚、加蓬和刚果共和国，海岸线紧依邦尼湾。",
+      "tags": [
+        "非洲",
+        "位置",
+        "邻国"
+      ]
+    },
+    {
+      "q": "喀麦隆的首都是哪里？",
+      "a": "首都是雅温得。",
+      "tags": [
+        "首都",
+        "雅温得"
+      ]
+    },
+    {
+      "q": "喀麦隆说什么语言？",
+      "a": "官方语言是法语和英语，当地还栖居了超过200个种族与语言族群。",
+      "tags": [
+        "语言",
+        "法语",
+        "英语",
+        "方言"
+      ]
+    },
+    {
+      "q": "喀麦隆有什么出名的文化特色？",
+      "a": "有“小非洲”美誉，地质与文化多样，国家足球队和本土音乐风格马库萨、比库西都很有名。",
+      "tags": [
+        "文化",
+        "足球",
+        "音乐",
+        "小非洲"
+      ]
+    },
+    {
+      "q": "喀麦隆有什么值得看的地标？",
+      "a": "有喀麦隆火山、贝努埃河、丰班苏丹王宫、德贾动物保护区、克里比海滩等。",
+      "tags": [
+        "地标",
+        "火山",
+        "海滩",
+        "王宫"
+      ]
+    },
+    {
+      "q": "喀麦隆的自然风光怎么样？",
+      "a": "自然地理风貌包括海滩、沙漠、高山、雨林及热带莽原等，最高峰是西南部的喀麦隆火山。",
+      "tags": [
+        "风景",
+        "自然",
+        "火山",
+        "雨林"
+      ]
+    },
+    {
+      "q": "喀麦隆有哪些大城市？",
+      "a": "大城市有杜阿拉、雅温得及加鲁阿等。",
+      "tags": [
+        "城市",
+        "杜阿拉",
+        "雅温得",
+        "加鲁阿"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        1132,
+        217
+      ],
+      [
+        999,
+        217
+      ],
+      [
+        981,
+        226
+      ],
+      [
+        996,
+        305
+      ],
+      [
+        993,
+        327
+      ],
+      [
+        964,
+        354
+      ],
+      [
+        982,
+        363
+      ],
+      [
+        963,
+        360
+      ],
+      [
+        955,
+        382
+      ],
+      [
+        962,
+        375
+      ],
+      [
+        962,
+        388
+      ],
+      [
+        974,
+        382
+      ],
+      [
+        968,
+        391
+      ],
+      [
+        976,
+        396
+      ],
+      [
+        962,
+        396
+      ],
+      [
+        976,
+        414
+      ],
+      [
+        958,
+        401
+      ],
+      [
+        948,
+        411
+      ],
+      [
+        952,
+        397
+      ],
+      [
+        944,
+        403
+      ],
+      [
+        948,
+        392
+      ],
+      [
+        934,
+        392
+      ],
+      [
+        933,
+        403
+      ],
+      [
+        921,
+        396
+      ],
+      [
+        897,
+        410
+      ],
+      [
+        894,
+        455
+      ],
+      [
+        885,
+        464
+      ],
+      [
+        887,
+        454
+      ],
+      [
+        880,
+        460
+      ],
+      [
+        879,
+        454
+      ],
+      [
+        865,
+        474
+      ],
+      [
+        872,
+        451
+      ],
+      [
+        851,
+        453
+      ],
+      [
+        860,
+        488
+      ],
+      [
+        880,
+        516
+      ],
+      [
+        890,
+        560
+      ],
+      [
+        882,
+        570
+      ],
+      [
+        885,
+        583
+      ],
+      [
+        934,
+        631
+      ],
+      [
+        969,
+        653
+      ],
+      [
+        979,
+        680
+      ],
+      [
+        988,
+        679
+      ],
+      [
+        1014,
+        701
+      ],
+      [
+        1021,
+        688
+      ],
+      [
+        1050,
+        688
+      ],
+      [
+        1058,
+        713
+      ],
+      [
+        1083,
+        694
+      ],
+      [
+        1091,
+        678
+      ],
+      [
+        1104,
+        674
+      ],
+      [
+        1110,
+        645
+      ],
+      [
+        1126,
+        643
+      ],
+      [
+        1153,
+        664
+      ],
+      [
+        1156,
+        688
+      ],
+      [
+        1187,
+        708
+      ],
+      [
+        1174,
+        726
+      ],
+      [
+        1202,
+        758
+      ],
+      [
+        1202,
+        772
+      ],
+      [
+        1219,
+        796
+      ],
+      [
+        1223,
+        839
+      ],
+      [
+        1240,
+        850
+      ],
+      [
+        1237,
+        861
+      ],
+      [
+        1256,
+        861
+      ],
+      [
+        1280,
+        879
+      ],
+      [
+        1290,
+        926
+      ],
+      [
+        1286,
+        938
+      ],
+      [
+        1320,
+        954
+      ],
+      [
+        1323,
+        1004
+      ],
+      [
+        1344,
+        1015
+      ],
+      [
+        1354,
+        1062
+      ],
+      [
+        1376,
+        1102
+      ],
+      [
+        1398,
+        1128
+      ],
+      [
+        1416,
+        1124
+      ],
+      [
+        1461,
+        1152
+      ],
+      [
+        1462,
+        1163
+      ],
+      [
+        1454,
+        1171
+      ],
+      [
+        1467,
+        1218
+      ],
+      [
+        1449,
+        1234
+      ],
+      [
+        1419,
+        1237
+      ],
+      [
+        1406,
+        1308
+      ],
+      [
+        1442,
+        1308
+      ],
+      [
+        1456,
+        1277
+      ],
+      [
+        1482,
+        1264
+      ],
+      [
+        1490,
+        1215
+      ],
+      [
+        1505,
+        1208
+      ],
+      [
+        1508,
+        1197
+      ],
+      [
+        1507,
+        1166
+      ],
+      [
+        1514,
+        1153
+      ],
+      [
+        1502,
+        1118
+      ],
+      [
+        1514,
+        1052
+      ],
+      [
+        1568,
+        999
+      ],
+      [
+        1477,
+        992
+      ],
+      [
+        1418,
+        998
+      ],
+      [
+        1395,
+        965
+      ],
+      [
+        1435,
+        917
+      ],
+      [
+        1505,
+        864
+      ],
+      [
+        1544,
+        784
+      ],
+      [
+        1556,
+        779
+      ],
+      [
+        1543,
+        739
+      ],
+      [
+        1522,
+        725
+      ],
+      [
+        1477,
+        632
+      ],
+      [
+        1439,
+        604
+      ],
+      [
+        1462,
+        586
+      ],
+      [
+        1462,
+        550
+      ],
+      [
+        1452,
+        529
+      ],
+      [
+        1466,
+        516
+      ],
+      [
+        1472,
+        462
+      ],
+      [
+        1499,
+        441
+      ],
+      [
+        1509,
+        412
+      ],
+      [
+        1519,
+        406
+      ],
+      [
+        1503,
+        403
+      ],
+      [
+        1508,
+        389
+      ],
+      [
+        1609,
+        286
+      ],
+      [
+        1609,
+        251
+      ],
+      [
+        1621,
+        222
+      ],
+      [
+        1610,
+        219
+      ],
+      [
+        1606,
+        202
+      ],
+      [
+        1616,
+        172
+      ],
+      [
+        1607,
+        166
+      ],
+      [
+        1601,
+        177
+      ],
+      [
+        1571,
+        193
+      ],
+      [
+        1548,
+        198
+      ],
+      [
+        1534,
+        192
+      ],
+      [
+        1521,
+        204
+      ],
+      [
+        1489,
+        201
+      ],
+      [
+        1486,
+        212
+      ],
+      [
+        1476,
+        206
+      ],
+      [
+        1456,
+        221
+      ],
+      [
+        1443,
+        213
+      ],
+      [
+        1330,
+        216
+      ],
+      [
+        1327,
+        226
+      ],
+      [
+        1316,
+        228
+      ],
+      [
+        1275,
+        224
+      ],
+      [
+        1166,
+        232
+      ],
+      [
+        1135,
+        230
+      ],
+      [
+        1132,
+        217
+      ]
+    ]
+  ]
+}

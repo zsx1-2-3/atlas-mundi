@@ -1,1 +1,596 @@
-{"qid":"Q39","iso_a2":"CH","iso_a3":"CHE","name_zh":"瑞士","name_en":"Switzerland","capital":"伯尔尼","continent":"欧洲","centroid":[8.232,46.7986],"centroid_source":"wikidata P625","languages":[{"code":"de","name_zh":"德语","name_local":"德语","role":"official","audio_url":"assets/ch/audio/de.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Willkommen in der Schweiz, einem Land der Berge und Seen. Die Hauptstadt ist Bern, und eines der bekanntesten Wahrzeichen ist das Bundeshaus, dessen Kuppel über die Altstadt blickt.","tts_text_zh":"欢迎来到瑞士，一个群山与湖泊之国。首都是伯尔尼，最著名的地标之一是联邦宫，其穹顶俯瞰着老城。","audio_voice":"de-AT-IngridNeural","audio_bytes":66240},{"code":"it","name_zh":"意大利语","name_local":"意大利语","role":"official","audio_url":"assets/ch/audio/it.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Benvenuti in Svizzera, un paese di laghi e montagne: la capitale è Berna, e tra i suoi simboli più noti spicca la Torre dell'Orologio, che da secoli segna le ore nel cuore della città vecchia.","tts_text_zh":"欢迎来到瑞士，一个湖泊与群山之国：首都是伯尔尼，其最著名的地标之一是钟楼，数百年来在老城中心报时。","audio_voice":"it-IT-ElsaNeural","audio_bytes":72720},{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/ch/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue en Suisse, pays de lacs et de montagnes : la capitale est Berne, et parmi ses monuments les plus connus se dresse la Tour de l'Horloge, qui rythme depuis des siècles le cœur de la vieille ville.","tts_text_zh":"欢迎来到瑞士，一个湖泊与群山之国：首都是伯尔尼，其最著名的地标之一是钟楼，数百年来为老城中心报时。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":67968}],"summary_text":"瑞士联邦通称瑞士，是位于欧洲的国家，由26个州组成。瑞士北靠德国，西邻法国，南接意大利，东临奥地利和列支敦士登。瑞士为典型的分权自治型联邦委员会制国家，组成联邦的各州拥有广泛的地方自治权力，而且瑞士的国家元首为瑞士联邦委员会全体成员，并非联邦主席或其他特定的人。伯尔尼是联邦政府所在地兼事实上的首都，日内瓦、苏黎世也是该国的重要城市，且是多个国际组织的总部驻地。瑞士的官方语言包括德语、法语、意大利语和罗曼什语，拉丁语名称亦见于其国名表述之中。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":222,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%91%9E%E5%A3%AB","title":"瑞士"},"culture_excerpts":[{"section":"历史","text":"瑞士高原于1200年时由萨伏依、哲林根、基堡（德语：Kyburg (Adelsgeschlecht)）及哈布斯堡家族王朝所控制，部分地区，如乌里、施维茨及下瓦尔登等在内的“森林州”获神圣罗马帝国予以自治特许状，森林州为神圣罗马帝国中自主性最高的居民，而该特许状为森林州获取自由的法律基础。基堡王朝于于1264年覆亡后，鲁道夫一世（1273年被选为神圣罗马皇帝）将其势力延伸至瑞士高原东部。至1353年，最初的三森林州已与格拉鲁斯州、楚格州、卢塞恩、苏黎世及伯尔尼等州结盟，邦联扩张后，权力及财富皆有所增加，此后至15世纪末期才有新州加入联邦。邦联在卡珀尔战争（Guerres de Kappel）及奈弗尔斯战役（Bataille de Näfels）中对哈布斯堡作战胜利，至1460年已控制侏罗山脉至阿尔卑斯山间的大部分地区。而后于1470年代以瑞士佣兵协助打败勃艮第公国大胆的查理。瑞士于1499年在士瓦本战争战胜马克西米利安一世后，各州获得神圣罗马帝国皇帝所默许的自治权，神圣罗马帝国几乎被迫承认瑞士独立自主。瑞士邦联在战争中取得辉煌战果，因而其善战名声闻名于欧洲。邦联的领土扩张仅于马里尼亚诺战役遭受挫败，也终结了瑞士历史上的英勇时代，邦联自此放弃以武力扩张领土。慈运理在瑞士北部州成功进行宗教改革，但却引发各州间的宗教冲突，并于1529年及1531年爆发两次卡珀尔战争（Guerres de Kappel）。于1648年欧洲各国签定《威斯特伐利亚和约》，承认瑞士为一独立国家并确认其为中立国。三十年战争结束后，由于经济困难、贵族垄断政权且滥用特权，而于1653年爆发农民起义。至18世纪，天主教及新教各州的冲突仍然存在，于1656年及1712年分别发生两次维尔梅根战役（Batailles de Villmergen ），第一次天主教各州战胜，第二次则由新教各州战胜，伯恩及苏黎世两州的政治影响力则与其经济实力相符。1815年在维也纳会议上，瑞士重获独立，并确认为永久中立国。但瑞士军队直至1860年加埃塔包围战（Siège de Gaète）后才终止协助外国政府作战。瓦莱州、纳沙泰尔州及日内瓦州先后于1815年加入联邦，瑞士的领土从1815年起即未再变更。法国大革命“自由、平等、博爱”的理念对瑞士各州由寡头贵族所支配的政治体制具有明显的冲击，演变成激进与保守州的对立。瑞士于1839年爆发苏黎世保守派叛乱（Züriputsch），部分保守天主教州于1845年结盟为“分离同盟”，于1847年与联邦军爆发分离同盟战争（Sonderbundskrieg），战争持续不到1个月，死亡人数为104人，且大多是受到友军误伤。分离同盟战争与欧洲各国发生的动乱类似，但对瑞士社会及心理层面皆有重大影响。瑞士于两次世界大战期间皆未受战火波及，在第一次世界大战期间，俄罗斯革命者列宁于1914年至1917年间留居于瑞士。战争间发生格林-霍夫曼事件的政治丑闻也使瑞士的中立性受到质疑。瑞士在免除参与国际联盟军队的条件下，于1920年经公民投票后加入国际联盟，其总部设于日内瓦。瑞士妇女自1959年起才拥有在州层级选举中投票的权利，而在联邦层级选举中投票的权利则是从1971年开始向妇女开放，内阿彭策尔州为妇女最晚获得选举权的州，自1990年妇女才有投票权。妇女在获得联邦层级选举权后，女性在政治上重要性也有所提升，第一位女性瑞士联邦委员会委员伊丽莎白·科普（Elisabeth Kopp）任职于于1984至1989年；露特·德莱富斯于1999年成为第一位女性联邦总统。瑞士于1963年加入欧洲委员会。1979年汝拉州自伯恩州分出，成为新的一州。瑞士于1999年4月18日对联邦宪法进行了全面的修改。二十世纪九十年代初期的一系列丑闻迫使瑞士银行业进行改革。1995年，瑞士的银行在犹太团体的压力下声明他们发现了存于1945年以前旧账户中数以百万元计的“沉睡的存款”（大部分属于纳粹大屠杀的受难者和幸存者）。由于被指坐拥如此财富而从未尝试寻找其主人，瑞士最大的两家银行在1998年同意向纳粹大屠杀幸存者及其家属支付12.5亿美元的补偿金。","chars":1714},{"section":"文化","text":"瑞士使用四种官方语言，文化相当多样，也反应在瑞士广泛的传统文化上。瑞士各地区与相同语言的周边国家文化具有高度关联性。瑞士也为西欧文化圈的一部分。\n瑞士在文学、艺术、建筑、音乐及科技等领域有相当成就，瑞士于欧洲动乱及战争时吸引外国人才移居。瑞士有九百多座博物馆，数量达1950年的三倍。每年最重要的文化活动为琉森音乐节、蒙特勒爵士节（Montreux Jazz Festival）及洛迦诺电影节。\n阿尔卑斯山在瑞士历史上有相当重要的地位，是瑞士国家认同形成过程中的重要部分。瑞士高山地区在冬季时为滑雪场，夏季则可进行健行及登山自行车活动；其他地区也相当适于旅游，春季及秋季则属旅游淡季。传统农业及放牧文化在许多地方仍被保留，城市以外地区存在小型牧场。阿尔卑斯长号为木制类似喇叭形状的乐器，与约德尔唱法及瑞士手风琴成为瑞士传统音乐的缩影。瑞士在 2023 年的人类自由指数中位居榜首。\n瑞士的传统音乐形式包括约德尔小调和阿尔卑斯长号。约德尔小调是一种源于阿尔卑斯山地区的歌唱方式，起初是呼喊羊群或不同山头上的人相互联络时使用，十九世纪初开始被引入音乐创作中。其特点是反复地在胸部发音的低音曲调和头部发音的高音曲调之间进行的大跨度的音阶转换。阿尔卑斯长号也是源自管理牧群的手段，为木制乐器，其长度介于2米到4米之间，底部弯曲，如同烟斗。\n瑞士饮食相当多元，如芝士火锅、拉可雷特芝士及瑞士薯饼在瑞士各地皆相当普遍，并在不同气候及语言区下发展出不同的烹调方式。瑞士传统饮食与其他欧洲国家所采用的食材差异不大，不过会搭配独特的奶制品及起司，如格吕耶尔及埃默河谷的格吕耶尔芝士及埃曼塔尔干酪。瑞士境内有不少优秀餐馆，主要位于瑞士西部。\n瑞士各州能够决定该州节日，元旦、耶稣升天节、瑞士国庆日及圣诞节为各州皆存在的节日。","chars":1200},{"section":"饮食","text":"瑞士饮食相当多元，如芝士火锅、拉可雷特芝士及瑞士薯饼在瑞士各地皆相当普遍，并在不同气候及语言区下发展出不同的烹调方式。瑞士传统饮食与其他欧洲国家所采用的食材差异不大，不过会搭配独特的奶制品及起司，如格吕耶尔及埃默河谷的格吕耶尔芝士及埃曼塔尔干酪。瑞士境内有不少优秀餐馆，主要位于瑞士西部。\n瑞士人自18世纪起制作巧克力，至19世纪发明磨制（conching）及温制（tempering）技术后，瑞士所生产的高品质巧克力知名度也大为提高。丹尼尔·彼得于1875年发明了牛奶巧克力。瑞士也是世界最主要的巧克力消费国之一，译为瑞士莲的Lindt、造型象征瑞士马特洪峰的Toblerone等皆为知名巧克力品牌。","chars":1200}],"landmark_images":[{"title":"File:Matterhorn from Domhütte - 2.jpg","caption_zh":"从多姆小屋看马特洪峰","caption":"从多姆小屋看马特洪峰","caption_commons":"The Matterhorn seen from the Domhütte (Valais). Elevation points from Swisstopo.","kw":"Matterhorn Zermatt","url":"assets/ch/L01.webp","thumb_url":"assets/ch/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Photo: chil, on Camptocamp.org Derivative work:Zacharie Grossen","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":32432,"caption_zh_manual":"马特洪峰","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11372,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1610x1073 1099KB JPEG)"},{"title":"File:Jungfrau.jpg","caption_zh":"少女峰","caption":"少女峰","caption_commons":"Jungfrau with Jungfraujoch - Grindelwald, A mountain in the alps in Switzerland","kw":"Jungfrau mountain Switzerland","url":"assets/ch/L02.webp","thumb_url":"assets/ch/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/6/6a/Jungfrau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Roland Zumbühl, Arlesheim","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":45124,"caption_zh_manual":"少女峰","caption_zh_source":"llm_from_commons_filename","thumb_bytes":23512,"size":{"detail":"590x400","thumb":"400x271"},"encoding":"webp q72/q74 (源 590x400 81KB JPEG)"},{"title":"File:Albula Bernina.png","caption_zh":"圣莫里茨/伯尔尼纳快车","caption":"圣莫里茨/伯尔尼纳快车","caption_commons":"Map of Switzerland with the Bernina Express line. Map from Wikimedia Commons (Fi","kw":"Bernina Express Landwasser Viaduct","url":"assets/ch/03.webp","thumb_url":"assets/ch/03.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/3/3c/Albula_Bernina.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Zacharie Grossen","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":477256,"caption_zh_manual":"圣莫里茨/伯尔尼纳快车","caption_zh_source":"llm_from_commons_filename"},{"title":"File:Chutes du Rhin - Octobre 2021.jpg","caption_zh":"十月莱茵瀑布","caption":"十月莱茵瀑布","caption_commons":"Les chutes du Rhin en octobre 2021.","kw":"Rhine Falls Schaffhausen","url":"assets/ch/L04.webp","thumb_url":"assets/ch/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chutes_du_Rhin_-_Octobre_2021.jpg/1920px-Chutes_du_Rhin_-_Octobre_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Christian David","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":60134,"caption_zh_manual":"莱茵瀑布","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17166,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 709KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T14:50:33+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Rm-sursilv-Svizra.flac、Roh-Svizra.ogg、Lb-Schwäiz.ogg（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py CH","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（4 张，中文图注）","摘要 222 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[error] languages：瑞士官方语言含法语和罗曼什语，此处缺失 → 补充 fr 法语、rm 罗曼什语，role 为 official"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"伯尔尼","evidence":"伯尔尼是联邦政府所在地"},{"v":"日内瓦","evidence":"日内瓦、苏黎世也是该国的重要城市"},{"v":"苏黎世","evidence":"日内瓦、苏黎世也是该国的重要城市"},{"v":"德语","evidence":"德语：Schweizerische Eidgenossenschaft"},{"v":"法语","evidence":"法语：Confédération suisse"},{"v":"罗曼什语","evidence":"罗曼什语：Confederaziun svizra"}],"model":"deepseek-flash"},"summary_text_raw":"瑞士联邦（德语：Schweizerische Eidgenossenschaft；法语：Confédération suisse；意大利语：Confederazione Svizzera；罗曼什语：Confederaziun svizra；拉丁语：Confœderatio Helvetica），通称瑞士（德语：Schweiz，发音：[ʃvaɪ̯ts] ；法语：Suisse，发音：[sɥis] ；意大利语：Svizzera，发音：[ˈzvittsera] ；罗曼什语：Svizra，发音：[ˈʒviːtsrɐ]、[ˈʒviːtsʁːɐ]；拉丁语：Helvetia），为一欧洲国家，由26个州组成。瑞士为典型的分权自治型联邦委员会制国家，组成联邦的各州拥有广泛的地方自治权力，而且瑞士的国家元首为瑞士联邦委员会全体成员，并非联邦主席或其他特定的人。伯尔尼是联邦政府所在地兼事实上的首都，日内瓦、苏黎世也是该国的重要城市，且是多个国际组织的总部驻地。瑞士北靠德国，西邻法国，南接意大利，东临奥地利和列支敦士登。","history_text":"瑞士高原早期由萨伏依、哈布斯堡等家族控制，乌里、施维茨、下瓦尔登等森林州获神圣罗马帝国自治特许状，成为日后自由的法律基础。1353年前，三森林州与格拉鲁斯、楚格、卢塞恩、苏黎世、伯尔尼结盟，邦联由此扩张。邦联在卡珀尔战争与奈弗尔斯战役中击败哈布斯堡，1470年代又以佣兵助战勃艮第，1499年士瓦本战争后获皇帝默许自治，善战之名传遍欧洲。","custom_text":"阿尔卑斯山塑造了日常的声响与吃食。牧人隔着山头呼喊羊群，催生出约德尔唱法，木制的阿尔卑斯长号与手风琴一同构成传统音乐的底色。餐桌上是芝士火锅、拉可雷特芝士与瑞士薯饼，搭配格吕耶尔和埃曼塔尔干酪。自十八世纪起制作巧克力，牛奶巧克力问世后，瑞士的高品质巧克力声名远播。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":169,"folk":132}},"knowledge_qa":[{"q":"瑞士在哪儿啊？周围都是哪些国家？","a":"瑞士是欧洲国家，北靠德国，西邻法国，南接意大利，东临奥地利和列支敦士登。","tags":["欧洲","邻国","地理位置"]},{"q":"瑞士的首都是哪个城市？","a":"伯尔尼是联邦政府所在地兼事实上的首都。","tags":["首都","伯尔尼","城市"]},{"q":"瑞士人平时说什么语言？","a":"瑞士的官方语言包括德语和意大利语，简介中还提到法语、罗曼什语等语言名称。","tags":["语言","德语","意大利语","说什么话"]},{"q":"瑞士有什么值得看的地标或自然景观？","a":"值得看的有马特洪峰、少女峰、圣莫里茨/伯尔尼纳快车和莱茵瀑布。","tags":["地标","看山","马特洪峰","少女峰"]},{"q":"瑞士的国家元首是谁？","a":"瑞士的国家元首为瑞士联邦委员会全体成员，并非联邦主席或其他特定的人。","tags":["元首","联邦委员会","政治"]},{"q":"瑞士是由多少个州组成的？","a":"瑞士由26个州组成，是典型的分权自治型联邦委员会制国家，各州拥有广泛的地方自治权力。","tags":["州","联邦制","行政区划"]},{"q":"瑞士除了伯尔尼还有哪些重要城市？","a":"日内瓦和苏黎世也是瑞士的重要城市，并且是多个国际组织的总部驻地。","tags":["城市","日内瓦","苏黎世","国际组织"]}],"llm_audit":{"issues":[{"field":"languages","severity":"error","why":"瑞士官方语言含法语和罗曼什语，此处缺失","suggest":"补充 fr 法语、rm 罗曼什语，role 为 official"}],"overall":"warn"},"audio_meta":{},"outline":[[[1045,4686],[1037,4667],[1046,4662],[1044,4654],[1019,4663],[1003,4653],[1003,4645],[1014,4640],[1012,4623],[1004,4622],[992,4637],[954,4630],[944,4650],[926,4648],[922,4623],[900,4604],[906,4590],[900,4582],[890,4583],[887,4595],[877,4598],[881,4609],[844,4624],[840,4645],[809,4627],[811,4613],[783,4591],[754,4598],[707,4589],[677,4614],[679,4641],[661,4646],[630,4639],[621,4632],[628,4624],[596,4613],[596,4621],[609,4625],[614,4636],[605,4642],[612,4658],[643,4676],[644,4694],[666,4702],[704,4733],[687,4735],[697,4749],[718,4749],[724,4742],[764,4760],[768,4754],[856,4759],[861,4766],[839,4766],[856,4780],[872,4770],[918,4767],[955,4754],[965,4741],[949,4721],[948,4706],[986,4702],[988,4693],[1011,4685],[1038,4700],[1045,4686]]]}
+{
+  "qid": "Q39",
+  "iso_a2": "CH",
+  "iso_a3": "CHE",
+  "name_zh": "瑞士",
+  "name_en": "Switzerland",
+  "capital": "伯尔尼",
+  "continent": "欧洲",
+  "centroid": [
+    8.232,
+    46.7986
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "de",
+      "name_zh": "德语",
+      "name_local": "德语",
+      "role": "official",
+      "audio_url": "assets/ch/audio/de.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Willkommen in der Schweiz, einem Land der Berge und Seen. Die Hauptstadt ist Bern, und eines der bekanntesten Wahrzeichen ist das Bundeshaus, dessen Kuppel über die Altstadt blickt.",
+      "tts_text_zh": "欢迎来到瑞士，一个群山与湖泊之国。首都是伯尔尼，最著名的地标之一是联邦宫，其穹顶俯瞰着老城。",
+      "audio_voice": "de-AT-IngridNeural",
+      "audio_bytes": 66240
+    },
+    {
+      "code": "it",
+      "name_zh": "意大利语",
+      "name_local": "意大利语",
+      "role": "official",
+      "audio_url": "assets/ch/audio/it.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Benvenuti in Svizzera, un paese di laghi e montagne: la capitale è Berna, e tra i suoi simboli più noti spicca la Torre dell'Orologio, che da secoli segna le ore nel cuore della città vecchia.",
+      "tts_text_zh": "欢迎来到瑞士，一个湖泊与群山之国：首都是伯尔尼，其最著名的地标之一是钟楼，数百年来在老城中心报时。",
+      "audio_voice": "it-IT-ElsaNeural",
+      "audio_bytes": 72720
+    },
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/ch/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue en Suisse, pays de lacs et de montagnes : la capitale est Berne, et parmi ses monuments les plus connus se dresse la Tour de l'Horloge, qui rythme depuis des siècles le cœur de la vieille ville.",
+      "tts_text_zh": "欢迎来到瑞士，一个湖泊与群山之国：首都是伯尔尼，其最著名的地标之一是钟楼，数百年来为老城中心报时。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 67968
+    }
+  ],
+  "summary_text": "瑞士联邦通称瑞士，是位于欧洲的国家，由26个州组成。瑞士北靠德国，西邻法国，南接意大利，东临奥地利和列支敦士登。瑞士为典型的分权自治型联邦委员会制国家，组成联邦的各州拥有广泛的地方自治权力，而且瑞士的国家元首为瑞士联邦委员会全体成员，并非联邦主席或其他特定的人。伯尔尼是联邦政府所在地兼事实上的首都，日内瓦、苏黎世也是该国的重要城市，且是多个国际组织的总部驻地。瑞士的官方语言包括德语、法语、意大利语和罗曼什语，拉丁语名称亦见于其国名表述之中。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 222,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%91%9E%E5%A3%AB",
+    "title": "瑞士"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "瑞士高原于1200年时由萨伏依、哲林根、基堡（德语：Kyburg (Adelsgeschlecht)）及哈布斯堡家族王朝所控制，部分地区，如乌里、施维茨及下瓦尔登等在内的“森林州”获神圣罗马帝国予以自治特许状，森林州为神圣罗马帝国中自主性最高的居民，而该特许状为森林州获取自由的法律基础。基堡王朝于于1264年覆亡后，鲁道夫一世（1273年被选为神圣罗马皇帝）将其势力延伸至瑞士高原东部。至1353年，最初的三森林州已与格拉鲁斯州、楚格州、卢塞恩、苏黎世及伯尔尼等州结盟，邦联扩张后，权力及财富皆有所增加，此后至15世纪末期才有新州加入联邦。邦联在卡珀尔战争（Guerres de Kappel）及奈弗尔斯战役（Bataille de Näfels）中对哈布斯堡作战胜利，至1460年已控制侏罗山脉至阿尔卑斯山间的大部分地区。而后于1470年代以瑞士佣兵协助打败勃艮第公国大胆的查理。瑞士于1499年在士瓦本战争战胜马克西米利安一世后，各州获得神圣罗马帝国皇帝所默许的自治权，神圣罗马帝国几乎被迫承认瑞士独立自主。瑞士邦联在战争中取得辉煌战果，因而其善战名声闻名于欧洲。邦联的领土扩张仅于马里尼亚诺战役遭受挫败，也终结了瑞士历史上的英勇时代，邦联自此放弃以武力扩张领土。慈运理在瑞士北部州成功进行宗教改革，但却引发各州间的宗教冲突，并于1529年及1531年爆发两次卡珀尔战争（Guerres de Kappel）。于1648年欧洲各国签定《威斯特伐利亚和约》，承认瑞士为一独立国家并确认其为中立国。三十年战争结束后，由于经济困难、贵族垄断政权且滥用特权，而于1653年爆发农民起义。至18世纪，天主教及新教各州的冲突仍然存在，于1656年及1712年分别发生两次维尔梅根战役（Batailles de Villmergen ），第一次天主教各州战胜，第二次则由新教各州战胜，伯恩及苏黎世两州的政治影响力则与其经济实力相符。1815年在维也纳会议上，瑞士重获独立，并确认为永久中立国。但瑞士军队直至1860年加埃塔包围战（Siège de Gaète）后才终止协助外国政府作战。瓦莱州、纳沙泰尔州及日内瓦州先后于1815年加入联邦，瑞士的领土从1815年起即未再变更。法国大革命“自由、平等、博爱”的理念对瑞士各州由寡头贵族所支配的政治体制具有明显的冲击，演变成激进与保守州的对立。瑞士于1839年爆发苏黎世保守派叛乱（Züriputsch），部分保守天主教州于1845年结盟为“分离同盟”，于1847年与联邦军爆发分离同盟战争（Sonderbundskrieg），战争持续不到1个月，死亡人数为104人，且大多是受到友军误伤。分离同盟战争与欧洲各国发生的动乱类似，但对瑞士社会及心理层面皆有重大影响。瑞士于两次世界大战期间皆未受战火波及，在第一次世界大战期间，俄罗斯革命者列宁于1914年至1917年间留居于瑞士。战争间发生格林-霍夫曼事件的政治丑闻也使瑞士的中立性受到质疑。瑞士在免除参与国际联盟军队的条件下，于1920年经公民投票后加入国际联盟，其总部设于日内瓦。瑞士妇女自1959年起才拥有在州层级选举中投票的权利，而在联邦层级选举中投票的权利则是从1971年开始向妇女开放，内阿彭策尔州为妇女最晚获得选举权的州，自1990年妇女才有投票权。妇女在获得联邦层级选举权后，女性在政治上重要性也有所提升，第一位女性瑞士联邦委员会委员伊丽莎白·科普（Elisabeth Kopp）任职于于1984至1989年；露特·德莱富斯于1999年成为第一位女性联邦总统。瑞士于1963年加入欧洲委员会。1979年汝拉州自伯恩州分出，成为新的一州。瑞士于1999年4月18日对联邦宪法进行了全面的修改。二十世纪九十年代初期的一系列丑闻迫使瑞士银行业进行改革。1995年，瑞士的银行在犹太团体的压力下声明他们发现了存于1945年以前旧账户中数以百万元计的“沉睡的存款”（大部分属于纳粹大屠杀的受难者和幸存者）。由于被指坐拥如此财富而从未尝试寻找其主人，瑞士最大的两家银行在1998年同意向纳粹大屠杀幸存者及其家属支付12.5亿美元的补偿金。",
+      "chars": 1714
+    },
+    {
+      "section": "文化",
+      "text": "瑞士使用四种官方语言，文化相当多样，也反应在瑞士广泛的传统文化上。瑞士各地区与相同语言的周边国家文化具有高度关联性。瑞士也为西欧文化圈的一部分。\n瑞士在文学、艺术、建筑、音乐及科技等领域有相当成就，瑞士于欧洲动乱及战争时吸引外国人才移居。瑞士有九百多座博物馆，数量达1950年的三倍。每年最重要的文化活动为琉森音乐节、蒙特勒爵士节（Montreux Jazz Festival）及洛迦诺电影节。\n阿尔卑斯山在瑞士历史上有相当重要的地位，是瑞士国家认同形成过程中的重要部分。瑞士高山地区在冬季时为滑雪场，夏季则可进行健行及登山自行车活动；其他地区也相当适于旅游，春季及秋季则属旅游淡季。传统农业及放牧文化在许多地方仍被保留，城市以外地区存在小型牧场。阿尔卑斯长号为木制类似喇叭形状的乐器，与约德尔唱法及瑞士手风琴成为瑞士传统音乐的缩影。瑞士在 2023 年的人类自由指数中位居榜首。\n瑞士的传统音乐形式包括约德尔小调和阿尔卑斯长号。约德尔小调是一种源于阿尔卑斯山地区的歌唱方式，起初是呼喊羊群或不同山头上的人相互联络时使用，十九世纪初开始被引入音乐创作中。其特点是反复地在胸部发音的低音曲调和头部发音的高音曲调之间进行的大跨度的音阶转换。阿尔卑斯长号也是源自管理牧群的手段，为木制乐器，其长度介于2米到4米之间，底部弯曲，如同烟斗。\n瑞士饮食相当多元，如芝士火锅、拉可雷特芝士及瑞士薯饼在瑞士各地皆相当普遍，并在不同气候及语言区下发展出不同的烹调方式。瑞士传统饮食与其他欧洲国家所采用的食材差异不大，不过会搭配独特的奶制品及起司，如格吕耶尔及埃默河谷的格吕耶尔芝士及埃曼塔尔干酪。瑞士境内有不少优秀餐馆，主要位于瑞士西部。\n瑞士各州能够决定该州节日，元旦、耶稣升天节、瑞士国庆日及圣诞节为各州皆存在的节日。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "瑞士饮食相当多元，如芝士火锅、拉可雷特芝士及瑞士薯饼在瑞士各地皆相当普遍，并在不同气候及语言区下发展出不同的烹调方式。瑞士传统饮食与其他欧洲国家所采用的食材差异不大，不过会搭配独特的奶制品及起司，如格吕耶尔及埃默河谷的格吕耶尔芝士及埃曼塔尔干酪。瑞士境内有不少优秀餐馆，主要位于瑞士西部。\n瑞士人自18世纪起制作巧克力，至19世纪发明磨制（conching）及温制（tempering）技术后，瑞士所生产的高品质巧克力知名度也大为提高。丹尼尔·彼得于1875年发明了牛奶巧克力。瑞士也是世界最主要的巧克力消费国之一，译为瑞士莲的Lindt、造型象征瑞士马特洪峰的Toblerone等皆为知名巧克力品牌。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Matterhorn from Domhütte - 2.jpg",
+      "caption_zh": "从多姆小屋看马特洪峰",
+      "caption": "从多姆小屋看马特洪峰",
+      "caption_commons": "The Matterhorn seen from the Domhütte (Valais). Elevation points from Swisstopo.",
+      "kw": "Matterhorn Zermatt",
+      "url": "assets/ch/L01.webp",
+      "thumb_url": "assets/ch/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Photo: chil, on Camptocamp.org Derivative work:Zacharie Grossen",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 62252,
+      "caption_zh_manual": "马特洪峰",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5642,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1610x1073 1099KB JPEG)"
+    },
+    {
+      "title": "File:Jungfrau.jpg",
+      "caption_zh": "少女峰",
+      "caption": "少女峰",
+      "caption_commons": "Jungfrau with Jungfraujoch - Grindelwald, A mountain in the alps in Switzerland",
+      "kw": "Jungfrau mountain Switzerland",
+      "url": "assets/ch/L02.webp",
+      "thumb_url": "assets/ch/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jungfrau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Roland Zumbühl, Arlesheim",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 46482,
+      "caption_zh_manual": "少女峰",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10734,
+      "size": {
+        "detail": "590x400",
+        "thumb": "240x163"
+      },
+      "encoding": "webp q75/q78 (源 590x400 81KB JPEG)"
+    },
+    {
+      "title": "File:Albula Bernina.png",
+      "caption_zh": "圣莫里茨/伯尔尼纳快车",
+      "caption": "圣莫里茨/伯尔尼纳快车",
+      "caption_commons": "Map of Switzerland with the Bernina Express line. Map from Wikimedia Commons (Fi",
+      "kw": "Bernina Express Landwasser Viaduct",
+      "url": "assets/ch/03.webp",
+      "thumb_url": "assets/ch/03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Albula_Bernina.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Zacharie Grossen",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 42414,
+      "caption_zh_manual": "圣莫里茨/伯尔尼纳快车",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4360,
+      "size": {
+        "detail": "1080x733",
+        "thumb": "240x163"
+      },
+      "encoding": "webp q75/q78 (源 1359x922 466KB JPEG)"
+    },
+    {
+      "title": "File:Chutes du Rhin - Octobre 2021.jpg",
+      "caption_zh": "十月莱茵瀑布",
+      "caption": "十月莱茵瀑布",
+      "caption_commons": "Les chutes du Rhin en octobre 2021.",
+      "kw": "Rhine Falls Schaffhausen",
+      "url": "assets/ch/L04.webp",
+      "thumb_url": "assets/ch/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Chutes_du_Rhin_-_Octobre_2021.jpg/1920px-Chutes_du_Rhin_-_Octobre_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Christian David",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 128952,
+      "caption_zh_manual": "莱茵瀑布",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7762,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 709KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T14:50:33+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Rm-sursilv-Svizra.flac、Roh-Svizra.ogg、Lb-Schwäiz.ogg（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py CH",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（4 张，中文图注）",
+    "摘要 222 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[error] languages：瑞士官方语言含法语和罗曼什语，此处缺失 → 补充 fr 法语、rm 罗曼什语，role 为 official"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "伯尔尼",
+        "evidence": "伯尔尼是联邦政府所在地"
+      },
+      {
+        "v": "日内瓦",
+        "evidence": "日内瓦、苏黎世也是该国的重要城市"
+      },
+      {
+        "v": "苏黎世",
+        "evidence": "日内瓦、苏黎世也是该国的重要城市"
+      },
+      {
+        "v": "德语",
+        "evidence": "德语：Schweizerische Eidgenossenschaft"
+      },
+      {
+        "v": "法语",
+        "evidence": "法语：Confédération suisse"
+      },
+      {
+        "v": "罗曼什语",
+        "evidence": "罗曼什语：Confederaziun svizra"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "瑞士联邦（德语：Schweizerische Eidgenossenschaft；法语：Confédération suisse；意大利语：Confederazione Svizzera；罗曼什语：Confederaziun svizra；拉丁语：Confœderatio Helvetica），通称瑞士（德语：Schweiz，发音：[ʃvaɪ̯ts] ；法语：Suisse，发音：[sɥis] ；意大利语：Svizzera，发音：[ˈzvittsera] ；罗曼什语：Svizra，发音：[ˈʒviːtsrɐ]、[ˈʒviːtsʁːɐ]；拉丁语：Helvetia），为一欧洲国家，由26个州组成。瑞士为典型的分权自治型联邦委员会制国家，组成联邦的各州拥有广泛的地方自治权力，而且瑞士的国家元首为瑞士联邦委员会全体成员，并非联邦主席或其他特定的人。伯尔尼是联邦政府所在地兼事实上的首都，日内瓦、苏黎世也是该国的重要城市，且是多个国际组织的总部驻地。瑞士北靠德国，西邻法国，南接意大利，东临奥地利和列支敦士登。",
+  "history_text": "瑞士高原早期由萨伏依、哈布斯堡等家族控制，乌里、施维茨、下瓦尔登等森林州获神圣罗马帝国自治特许状，成为日后自由的法律基础。1353年前，三森林州与格拉鲁斯、楚格、卢塞恩、苏黎世、伯尔尼结盟，邦联由此扩张。邦联在卡珀尔战争与奈弗尔斯战役中击败哈布斯堡，1470年代又以佣兵助战勃艮第，1499年士瓦本战争后获皇帝默许自治，善战之名传遍欧洲。",
+  "custom_text": "阿尔卑斯山塑造了日常的声响与吃食。牧人隔着山头呼喊羊群，催生出约德尔唱法，木制的阿尔卑斯长号与手风琴一同构成传统音乐的底色。餐桌上是芝士火锅、拉可雷特芝士与瑞士薯饼，搭配格吕耶尔和埃曼塔尔干酪。自十八世纪起制作巧克力，牛奶巧克力问世后，瑞士的高品质巧克力声名远播。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 169,
+      "folk": 132
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "瑞士在哪儿啊？周围都是哪些国家？",
+      "a": "瑞士是欧洲国家，北靠德国，西邻法国，南接意大利，东临奥地利和列支敦士登。",
+      "tags": [
+        "欧洲",
+        "邻国",
+        "地理位置"
+      ]
+    },
+    {
+      "q": "瑞士的首都是哪个城市？",
+      "a": "伯尔尼是联邦政府所在地兼事实上的首都。",
+      "tags": [
+        "首都",
+        "伯尔尼",
+        "城市"
+      ]
+    },
+    {
+      "q": "瑞士人平时说什么语言？",
+      "a": "瑞士的官方语言包括德语和意大利语，简介中还提到法语、罗曼什语等语言名称。",
+      "tags": [
+        "语言",
+        "德语",
+        "意大利语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "瑞士有什么值得看的地标或自然景观？",
+      "a": "值得看的有马特洪峰、少女峰、圣莫里茨/伯尔尼纳快车和莱茵瀑布。",
+      "tags": [
+        "地标",
+        "看山",
+        "马特洪峰",
+        "少女峰"
+      ]
+    },
+    {
+      "q": "瑞士的国家元首是谁？",
+      "a": "瑞士的国家元首为瑞士联邦委员会全体成员，并非联邦主席或其他特定的人。",
+      "tags": [
+        "元首",
+        "联邦委员会",
+        "政治"
+      ]
+    },
+    {
+      "q": "瑞士是由多少个州组成的？",
+      "a": "瑞士由26个州组成，是典型的分权自治型联邦委员会制国家，各州拥有广泛的地方自治权力。",
+      "tags": [
+        "州",
+        "联邦制",
+        "行政区划"
+      ]
+    },
+    {
+      "q": "瑞士除了伯尔尼还有哪些重要城市？",
+      "a": "日内瓦和苏黎世也是瑞士的重要城市，并且是多个国际组织的总部驻地。",
+      "tags": [
+        "城市",
+        "日内瓦",
+        "苏黎世",
+        "国际组织"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "languages",
+        "severity": "error",
+        "why": "瑞士官方语言含法语和罗曼什语，此处缺失",
+        "suggest": "补充 fr 法语、rm 罗曼什语，role 为 official"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        1045,
+        4686
+      ],
+      [
+        1037,
+        4667
+      ],
+      [
+        1046,
+        4662
+      ],
+      [
+        1044,
+        4654
+      ],
+      [
+        1019,
+        4663
+      ],
+      [
+        1003,
+        4653
+      ],
+      [
+        1003,
+        4645
+      ],
+      [
+        1014,
+        4640
+      ],
+      [
+        1012,
+        4623
+      ],
+      [
+        1004,
+        4622
+      ],
+      [
+        992,
+        4637
+      ],
+      [
+        954,
+        4630
+      ],
+      [
+        944,
+        4650
+      ],
+      [
+        926,
+        4648
+      ],
+      [
+        922,
+        4623
+      ],
+      [
+        900,
+        4604
+      ],
+      [
+        906,
+        4590
+      ],
+      [
+        900,
+        4582
+      ],
+      [
+        890,
+        4583
+      ],
+      [
+        887,
+        4595
+      ],
+      [
+        877,
+        4598
+      ],
+      [
+        881,
+        4609
+      ],
+      [
+        844,
+        4624
+      ],
+      [
+        840,
+        4645
+      ],
+      [
+        809,
+        4627
+      ],
+      [
+        811,
+        4613
+      ],
+      [
+        783,
+        4591
+      ],
+      [
+        754,
+        4598
+      ],
+      [
+        707,
+        4589
+      ],
+      [
+        677,
+        4614
+      ],
+      [
+        679,
+        4641
+      ],
+      [
+        661,
+        4646
+      ],
+      [
+        630,
+        4639
+      ],
+      [
+        621,
+        4632
+      ],
+      [
+        628,
+        4624
+      ],
+      [
+        596,
+        4613
+      ],
+      [
+        596,
+        4621
+      ],
+      [
+        609,
+        4625
+      ],
+      [
+        614,
+        4636
+      ],
+      [
+        605,
+        4642
+      ],
+      [
+        612,
+        4658
+      ],
+      [
+        643,
+        4676
+      ],
+      [
+        644,
+        4694
+      ],
+      [
+        666,
+        4702
+      ],
+      [
+        704,
+        4733
+      ],
+      [
+        687,
+        4735
+      ],
+      [
+        697,
+        4749
+      ],
+      [
+        718,
+        4749
+      ],
+      [
+        724,
+        4742
+      ],
+      [
+        764,
+        4760
+      ],
+      [
+        768,
+        4754
+      ],
+      [
+        856,
+        4759
+      ],
+      [
+        861,
+        4766
+      ],
+      [
+        839,
+        4766
+      ],
+      [
+        856,
+        4780
+      ],
+      [
+        872,
+        4770
+      ],
+      [
+        918,
+        4767
+      ],
+      [
+        955,
+        4754
+      ],
+      [
+        965,
+        4741
+      ],
+      [
+        949,
+        4721
+      ],
+      [
+        948,
+        4706
+      ],
+      [
+        986,
+        4702
+      ],
+      [
+        988,
+        4693
+      ],
+      [
+        1011,
+        4685
+      ],
+      [
+        1038,
+        4700
+      ],
+      [
+        1045,
+        4686
+      ]
+    ]
+  ]
+}

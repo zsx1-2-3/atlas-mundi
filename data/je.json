@@ -1,1 +1,333 @@
-{"qid":"Q785","iso_a2":"JE","iso_a3":"JEY","name_zh":"泽西","name_en":"Jersey","capital":"圣赫利尔","continent":"欧洲","centroid":[-2.11,49.19],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/je/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Jersey, an island of green lanes and quiet coves; its capital is Saint Helier, and from the harbour you can look out toward Elizabeth Castle, rising from the sea at low tide.","tts_text_zh":"欢迎来到泽西，这座绿荫小径与静谧海湾环绕的岛屿；首都是圣赫利尔，从港口望去，退潮时伊丽莎白城堡便从海中浮现。","audio_voice":"en-US-AriaNeural","audio_bytes":69696}],"summary_text":"泽西行政区简称泽西，又译哲尔赛、泽尔西，是英国王室的一个王室属地，位于诺曼底半岛外海20公里处的海面上，是英吉利海峡靠近法国海岸线的海峡群岛的一部分。泽西行政区由泽西岛和周边两座无人岛群——曼基耶岛与埃克雷乌岛共同组成，国际上视为由英国负责的领土，而法律上非英国的一部分。泽西行政区是王室属地，与英国共戴同一个君主，首长称为行政官。泽西行政区的历史最早可以回溯到933年，当时海峡群岛被诺曼底公爵长剑威廉并吞，成为诺曼底公国的一部分；其后裔征服者威廉成为英格兰国王，海峡群岛也成为英格兰王国的一部分。1204年法国人收复诺曼底地区时并未同时收回海峡群岛，使这些岛屿成为这段史迹的见证。第二次世界大战期间，泽西岛与根西岛曾遭德军占领，占领期自1940年5月1日到1945年5月9日止，是二战期间唯一被德国掌控过的英国领土。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":360,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%BE%A4%E8%A5%BF","title":"澤西"},"culture_excerpts":[{"section":"历史","text":"泽西行政区的历史最早可以回溯到933年时，海峡群岛被诺曼底公爵长剑威廉并吞成为诺曼底公国的一部分，其后裔征服者威廉成为英格兰国王，海峡群岛也成为英格兰王国的一部分。虽然在1204年时法国人收复诺曼底地区，但并没有在同时将海峡群岛收回，使得这些岛屿成为这段史迹的见证。第二次世界大战时泽西岛与根西岛曾遭德军占领过，占领期自1940年5月1日到1945年5月9日止，是二战期间唯一被德国掌控过的英国领土。","chars":200},{"section":"宗教","text":"泽西行政区的首府为圣赫利尔。岛上居民除了以英语作为官方语言外，也有许多人口是以法语为母语，因此法文也是该行政区的官方语言之一。行政上，泽西岛分为12个堂区。所有堂区均有其海岸，并以不同的基督教圣人取名，以纪念区教堂的主保圣人。这12个堂区分别如下：","chars":1200}],"landmark_images":[{"title":"File:Elizabeth Castle Jersey 2.jpg","caption_zh":"伊丽莎白城堡","caption":"伊丽莎白城堡","caption_commons":"Elizabeth Castle, Jersey.","kw":"Elizabeth Castle Jersey","url":"assets/je/L01.webp","thumb_url":"assets/je/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Elizabeth_Castle_Jersey_2.jpg/1920px-Elizabeth_Castle_Jersey_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Dan Marsh","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":17742,"caption_zh_manual":"伊丽莎白城堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":5056,"size":{"detail":"760x501","thumb":"400x264"},"encoding":"webp q72/q74 (源 1920x1265 365KB JPEG)"},{"title":"File:Mont Orgueil and Gorey harbour, Jersey.jpg","caption_zh":"蒙特奥盖尔城堡与戈里港","caption":"蒙特奥盖尔城堡与戈里港","caption_commons":"castle of Mont Orgueil overlooking the harbour of Gorey in the parish of St. Mar","kw":"Mont Orgueil Castle Gorey","url":"assets/je/L02.webp","thumb_url":"assets/je/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/0/03/Mont_Orgueil_and_Gorey_harbour%2C_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"No machine-readable author provided. Man vyi assumed (based on copyright claims).","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":42030,"caption_zh_manual":"蒙特奥盖尔城堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13468,"size":{"detail":"760x521","thumb":"400x274"},"encoding":"webp q72/q74 (源 1549x1062 1088KB JPEG)"},{"title":"File:Crapaud St Helier Jersey.jpg","caption_zh":"圣赫利尔港的Crapaud","caption":"圣赫利尔港的Crapaud","caption_commons":"","kw":"Saint Helier Harbour Jersey","url":"assets/je/L03.webp","thumb_url":"assets/je/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/0/02/Crapaud_St_Helier_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":null,"license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":18736,"caption_zh_manual":"圣赫利尔港","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7868,"size":{"detail":"760x527","thumb":"400x277"},"encoding":"webp q72/q74 (源 1038x720 410KB JPEG)"},{"title":"File:Corbiere Lighthouse, Jersey (300161) (9450837949).jpg","caption_zh":"拉科比耶灯塔","caption":"拉科比耶灯塔","caption_commons":"Corbiere Lighthouse, Jersey, Channel Islands","kw":"La Corbiere Lighthouse Jersey","url":"assets/je/L04.webp","thumb_url":"assets/je/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg/1920px-Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Robert Linsdell from St. Andrews, Canada","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":33324,"caption_zh_manual":"拉科比耶灯塔","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11070,"size":{"detail":"760x492","thumb":"400x259"},"encoding":"webp q72/q74 (源 1920x1243 512KB JPEG)"},{"title":"File:Tunnel under Pier Road, St Helier, Jersey.JPG","caption_zh":"泽西战争隧道：皮尔路下的隧道","caption":"泽西战争隧道：皮尔路下的隧道","caption_commons":"Tunnel under Pier Road, St Helier, Jersey.","kw":"Jersey War Tunnels","url":"assets/je/L05.webp","thumb_url":"assets/je/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Tunnel_under_Pier_Road%2C_St_Helier%2C_Jersey.JPG/1920px-Tunnel_under_Pier_Road%2C_St_Helier%2C_Jersey.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Danrok","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":74536,"caption_zh_manual":"泽西战争隧道","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18904,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 881KB JPEG)"}],"image_license":"CC BY 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:30:04+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["语言代码未解析，已剔除：Jersey Legal French、泽西方言","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"海峡群岛","evidence":"海峡群岛的一部分"},{"v":"泽西方言","evidence":"泽西方言：Jèrri"},{"v":"曼基耶岛","evidence":"曼基耶岛（Minquiers）"},{"v":"埃克雷乌岛","evidence":"埃克雷乌岛（Ecréhous）"},{"v":"诺曼底半岛","evidence":"诺曼底半岛外海20公里处"}],"model":"deepseek-flash"},"summary_text_raw":"泽西行政区（英语：Bailiwick of Jersey），简称泽西（英语：Jersey /ˈdʒɜːrzi/；泽西方言：Jèrri ʒɛri），又译哲尔赛、泽尔西，是英国王室的一个王室属地，位于诺曼底半岛外海20公里处的海面上，是英吉利海峡靠近法国海岸线的海峡群岛的一部分。泽西行政区由泽西岛和周边两座无人岛群——曼基耶岛（Minquiers）与埃克雷乌岛（Ecréhous）共同组成，国际上视为由英国负责的领土而法律上非英国的一部分。\n\n\n== 历史 ==\n泽西行政区的历史最早可以回溯到933年时，海峡群岛被诺曼底公爵长剑威廉并吞成为诺曼底公国的一部分，其后裔征服者威廉成为英格兰国王，海峡群岛也成为英格兰王国的一部分。虽然在1204年时法国人收复诺曼底地区，但并没有在同时将海峡群岛收回，使得这些岛屿成为这段史迹的见证。第二次世界大战时泽西岛与根西岛曾遭德军占领过，占领期自1940年5月1日到1945年5月9日止，是二战期间唯一被德国掌控过的英国领土。\n\n\n== 政治 ==\n泽西行政区是王室属地，与英国共戴同一个君主，而首长则称为行政官（Bailiff）。","history_text":"海峡群岛在933年被诺曼底公爵长剑威廉并吞，成为诺曼底公国的一部分；其后裔征服者威廉成为英格兰国王，群岛随之归入英格兰王国。1204年法国人收复诺曼底地区，却没有同时收回海峡群岛，这些岛屿便留在英王治下，成为那段历史变迁的见证。第二次世界大战期间，泽西岛与根西岛自1940年5月1日至1945年5月9日遭德军占领，是二战中唯一被德国掌控过的英国领土。","custom_text":"岛上的十二个堂区各有海岸，堂区之名取自不同的基督教圣人，用以纪念各自区教堂的主保圣人。首府圣赫利尔是岛上的中心，居民日常以英语为官方语言，也有许多人以法语为母语，法文因此同样是官方语言之一。堂区与圣人的对应关系，至今仍留在岛民对地方的称呼和教堂的纪念日里。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":175,"folk":128}},"knowledge_qa":[{"q":"泽西在哪儿啊？周围是什么？","a":"泽西位于诺曼底半岛外海20公里处的海面上，是英吉利海峡靠近法国海岸线的海峡群岛的一部分，属于欧洲。","tags":["泽西","在哪","地理位置"]},{"q":"泽西的首都是哪里？","a":"泽西的首都是圣赫利尔。","tags":["泽西","首都","圣赫利尔"]},{"q":"泽西说什么话？有方言吗？","a":"泽西的官方语言是英语，当地还有泽西方言（Jèrri）。","tags":["泽西","语言","方言"]},{"q":"泽西有什么值得看的城堡或地标？","a":"泽西有伊丽莎白城堡、蒙特奥盖尔城堡、圣赫利尔港、拉科比耶灯塔和泽西战争隧道等值得一看的地方。","tags":["泽西","地标","城堡","景点"]},{"q":"泽西有什么历史遗迹或战争相关的地方？","a":"泽西战争隧道是二战相关遗迹，二战时泽西岛曾被德军占领，占领期从1940年5月1日到1945年5月9日。","tags":["泽西","战争","历史","隧道"]},{"q":"泽西岛和周边还有别的岛吗？","a":"泽西行政区由泽西岛和周边两座无人岛群——曼基耶岛与埃克雷乌岛共同组成。","tags":["泽西","岛屿","周边"]},{"q":"泽西历史上被谁占领过？","a":"第二次世界大战时泽西岛曾遭德军占领，占领期自1940年5月1日到1945年5月9日止，是二战期间唯一被德国掌控过的英国领土。","tags":["泽西","二战","历史","占领"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-208,4926],[-202,4917],[-223,4918],[-224,4926],[-208,4926]]]}
+{
+  "qid": "Q785",
+  "iso_a2": "JE",
+  "iso_a3": "JEY",
+  "name_zh": "泽西",
+  "name_en": "Jersey",
+  "capital": "圣赫利尔",
+  "continent": "欧洲",
+  "centroid": [
+    -2.11,
+    49.19
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/je/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Jersey, an island of green lanes and quiet coves; its capital is Saint Helier, and from the harbour you can look out toward Elizabeth Castle, rising from the sea at low tide.",
+      "tts_text_zh": "欢迎来到泽西，这座绿荫小径与静谧海湾环绕的岛屿；首都是圣赫利尔，从港口望去，退潮时伊丽莎白城堡便从海中浮现。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 69696
+    }
+  ],
+  "summary_text": "泽西行政区简称泽西，又译哲尔赛、泽尔西，是英国王室的一个王室属地，位于诺曼底半岛外海20公里处的海面上，是英吉利海峡靠近法国海岸线的海峡群岛的一部分。泽西行政区由泽西岛和周边两座无人岛群——曼基耶岛与埃克雷乌岛共同组成，国际上视为由英国负责的领土，而法律上非英国的一部分。泽西行政区是王室属地，与英国共戴同一个君主，首长称为行政官。泽西行政区的历史最早可以回溯到933年，当时海峡群岛被诺曼底公爵长剑威廉并吞，成为诺曼底公国的一部分；其后裔征服者威廉成为英格兰国王，海峡群岛也成为英格兰王国的一部分。1204年法国人收复诺曼底地区时并未同时收回海峡群岛，使这些岛屿成为这段史迹的见证。第二次世界大战期间，泽西岛与根西岛曾遭德军占领，占领期自1940年5月1日到1945年5月9日止，是二战期间唯一被德国掌控过的英国领土。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 360,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%BE%A4%E8%A5%BF",
+    "title": "澤西"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "泽西行政区的历史最早可以回溯到933年时，海峡群岛被诺曼底公爵长剑威廉并吞成为诺曼底公国的一部分，其后裔征服者威廉成为英格兰国王，海峡群岛也成为英格兰王国的一部分。虽然在1204年时法国人收复诺曼底地区，但并没有在同时将海峡群岛收回，使得这些岛屿成为这段史迹的见证。第二次世界大战时泽西岛与根西岛曾遭德军占领过，占领期自1940年5月1日到1945年5月9日止，是二战期间唯一被德国掌控过的英国领土。",
+      "chars": 200
+    },
+    {
+      "section": "宗教",
+      "text": "泽西行政区的首府为圣赫利尔。岛上居民除了以英语作为官方语言外，也有许多人口是以法语为母语，因此法文也是该行政区的官方语言之一。行政上，泽西岛分为12个堂区。所有堂区均有其海岸，并以不同的基督教圣人取名，以纪念区教堂的主保圣人。这12个堂区分别如下：",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Elizabeth Castle Jersey 2.jpg",
+      "caption_zh": "伊丽莎白城堡",
+      "caption": "伊丽莎白城堡",
+      "caption_commons": "Elizabeth Castle, Jersey.",
+      "kw": "Elizabeth Castle Jersey",
+      "url": "assets/je/L01.webp",
+      "thumb_url": "assets/je/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Elizabeth_Castle_Jersey_2.jpg/1920px-Elizabeth_Castle_Jersey_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Dan Marsh",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 41064,
+      "caption_zh_manual": "伊丽莎白城堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 2224,
+      "size": {
+        "detail": "1080x712",
+        "thumb": "240x158"
+      },
+      "encoding": "webp q75/q78 (源 1920x1265 365KB JPEG)"
+    },
+    {
+      "title": "File:Mont Orgueil and Gorey harbour, Jersey.jpg",
+      "caption_zh": "蒙特奥盖尔城堡与戈里港",
+      "caption": "蒙特奥盖尔城堡与戈里港",
+      "caption_commons": "castle of Mont Orgueil overlooking the harbour of Gorey in the parish of St. Mar",
+      "kw": "Mont Orgueil Castle Gorey",
+      "url": "assets/je/L02.webp",
+      "thumb_url": "assets/je/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Mont_Orgueil_and_Gorey_harbour%2C_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "No machine-readable author provided. Man vyi assumed (based on copyright claims).",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 75732,
+      "caption_zh_manual": "蒙特奥盖尔城堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6220,
+      "size": {
+        "detail": "1080x740",
+        "thumb": "240x165"
+      },
+      "encoding": "webp q75/q78 (源 1549x1062 1088KB JPEG)"
+    },
+    {
+      "title": "File:Crapaud St Helier Jersey.jpg",
+      "caption_zh": "圣赫利尔港的Crapaud",
+      "caption": "圣赫利尔港的Crapaud",
+      "caption_commons": "",
+      "kw": "Saint Helier Harbour Jersey",
+      "url": "assets/je/L03.webp",
+      "thumb_url": "assets/je/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Crapaud_St_Helier_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": null,
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 29312,
+      "caption_zh_manual": "圣赫利尔港",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4062,
+      "size": {
+        "detail": "1038x720",
+        "thumb": "240x166"
+      },
+      "encoding": "webp q75/q78 (源 1038x720 410KB JPEG)"
+    },
+    {
+      "title": "File:Corbiere Lighthouse, Jersey (300161) (9450837949).jpg",
+      "caption_zh": "拉科比耶灯塔",
+      "caption": "拉科比耶灯塔",
+      "caption_commons": "Corbiere Lighthouse, Jersey, Channel Islands",
+      "kw": "La Corbiere Lighthouse Jersey",
+      "url": "assets/je/L04.webp",
+      "thumb_url": "assets/je/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg/1920px-Corbiere_Lighthouse%2C_Jersey_%28300161%29_%289450837949%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Robert Linsdell from St. Andrews, Canada",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 65728,
+      "caption_zh_manual": "拉科比耶灯塔",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5092,
+      "size": {
+        "detail": "1080x699",
+        "thumb": "240x155"
+      },
+      "encoding": "webp q75/q78 (源 1920x1243 512KB JPEG)"
+    },
+    {
+      "title": "File:Tunnel under Pier Road, St Helier, Jersey.JPG",
+      "caption_zh": "泽西战争隧道：皮尔路下的隧道",
+      "caption": "泽西战争隧道：皮尔路下的隧道",
+      "caption_commons": "Tunnel under Pier Road, St Helier, Jersey.",
+      "kw": "Jersey War Tunnels",
+      "url": "assets/je/L05.webp",
+      "thumb_url": "assets/je/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Tunnel_under_Pier_Road%2C_St_Helier%2C_Jersey.JPG/1920px-Tunnel_under_Pier_Road%2C_St_Helier%2C_Jersey.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Danrok",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 170906,
+      "caption_zh_manual": "泽西战争隧道",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7720,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 881KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:30:04+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "语言代码未解析，已剔除：Jersey Legal French、泽西方言",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "海峡群岛",
+        "evidence": "海峡群岛的一部分"
+      },
+      {
+        "v": "泽西方言",
+        "evidence": "泽西方言：Jèrri"
+      },
+      {
+        "v": "曼基耶岛",
+        "evidence": "曼基耶岛（Minquiers）"
+      },
+      {
+        "v": "埃克雷乌岛",
+        "evidence": "埃克雷乌岛（Ecréhous）"
+      },
+      {
+        "v": "诺曼底半岛",
+        "evidence": "诺曼底半岛外海20公里处"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "泽西行政区（英语：Bailiwick of Jersey），简称泽西（英语：Jersey /ˈdʒɜːrzi/；泽西方言：Jèrri ʒɛri），又译哲尔赛、泽尔西，是英国王室的一个王室属地，位于诺曼底半岛外海20公里处的海面上，是英吉利海峡靠近法国海岸线的海峡群岛的一部分。泽西行政区由泽西岛和周边两座无人岛群——曼基耶岛（Minquiers）与埃克雷乌岛（Ecréhous）共同组成，国际上视为由英国负责的领土而法律上非英国的一部分。\n\n\n== 历史 ==\n泽西行政区的历史最早可以回溯到933年时，海峡群岛被诺曼底公爵长剑威廉并吞成为诺曼底公国的一部分，其后裔征服者威廉成为英格兰国王，海峡群岛也成为英格兰王国的一部分。虽然在1204年时法国人收复诺曼底地区，但并没有在同时将海峡群岛收回，使得这些岛屿成为这段史迹的见证。第二次世界大战时泽西岛与根西岛曾遭德军占领过，占领期自1940年5月1日到1945年5月9日止，是二战期间唯一被德国掌控过的英国领土。\n\n\n== 政治 ==\n泽西行政区是王室属地，与英国共戴同一个君主，而首长则称为行政官（Bailiff）。",
+  "history_text": "海峡群岛在933年被诺曼底公爵长剑威廉并吞，成为诺曼底公国的一部分；其后裔征服者威廉成为英格兰国王，群岛随之归入英格兰王国。1204年法国人收复诺曼底地区，却没有同时收回海峡群岛，这些岛屿便留在英王治下，成为那段历史变迁的见证。第二次世界大战期间，泽西岛与根西岛自1940年5月1日至1945年5月9日遭德军占领，是二战中唯一被德国掌控过的英国领土。",
+  "custom_text": "岛上的十二个堂区各有海岸，堂区之名取自不同的基督教圣人，用以纪念各自区教堂的主保圣人。首府圣赫利尔是岛上的中心，居民日常以英语为官方语言，也有许多人以法语为母语，法文因此同样是官方语言之一。堂区与圣人的对应关系，至今仍留在岛民对地方的称呼和教堂的纪念日里。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 175,
+      "folk": 128
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "泽西在哪儿啊？周围是什么？",
+      "a": "泽西位于诺曼底半岛外海20公里处的海面上，是英吉利海峡靠近法国海岸线的海峡群岛的一部分，属于欧洲。",
+      "tags": [
+        "泽西",
+        "在哪",
+        "地理位置"
+      ]
+    },
+    {
+      "q": "泽西的首都是哪里？",
+      "a": "泽西的首都是圣赫利尔。",
+      "tags": [
+        "泽西",
+        "首都",
+        "圣赫利尔"
+      ]
+    },
+    {
+      "q": "泽西说什么话？有方言吗？",
+      "a": "泽西的官方语言是英语，当地还有泽西方言（Jèrri）。",
+      "tags": [
+        "泽西",
+        "语言",
+        "方言"
+      ]
+    },
+    {
+      "q": "泽西有什么值得看的城堡或地标？",
+      "a": "泽西有伊丽莎白城堡、蒙特奥盖尔城堡、圣赫利尔港、拉科比耶灯塔和泽西战争隧道等值得一看的地方。",
+      "tags": [
+        "泽西",
+        "地标",
+        "城堡",
+        "景点"
+      ]
+    },
+    {
+      "q": "泽西有什么历史遗迹或战争相关的地方？",
+      "a": "泽西战争隧道是二战相关遗迹，二战时泽西岛曾被德军占领，占领期从1940年5月1日到1945年5月9日。",
+      "tags": [
+        "泽西",
+        "战争",
+        "历史",
+        "隧道"
+      ]
+    },
+    {
+      "q": "泽西岛和周边还有别的岛吗？",
+      "a": "泽西行政区由泽西岛和周边两座无人岛群——曼基耶岛与埃克雷乌岛共同组成。",
+      "tags": [
+        "泽西",
+        "岛屿",
+        "周边"
+      ]
+    },
+    {
+      "q": "泽西历史上被谁占领过？",
+      "a": "第二次世界大战时泽西岛曾遭德军占领，占领期自1940年5月1日到1945年5月9日止，是二战期间唯一被德国掌控过的英国领土。",
+      "tags": [
+        "泽西",
+        "二战",
+        "历史",
+        "占领"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -208,
+        4926
+      ],
+      [
+        -202,
+        4917
+      ],
+      [
+        -223,
+        4918
+      ],
+      [
+        -224,
+        4926
+      ],
+      [
+        -208,
+        4926
+      ]
+    ]
+  ]
+}

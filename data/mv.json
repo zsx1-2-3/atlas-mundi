@@ -1,1 +1,742 @@
-{"qid":"Q826","iso_a2":"MV","iso_a3":"MDV","name_zh":"马尔代夫","name_en":"Maldives","capital":"马累","continent":"亚洲","centroid":[73.51,4.18],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"spoken","audio_url":"assets/mv/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to the Maldives, a nation of coral atolls scattered across the Indian Ocean, where the capital, Malé, sits at its heart and the surrounding turquoise lagoons and white sandbanks offer the country's most memorable sights.","tts_text_zh":"欢迎来到马尔代夫，这个由散布在印度洋上的珊瑚环礁组成的国家，首都马累位于其中心，周围碧绿的潟湖与白沙洲构成了全国最令人难忘的景致。","audio_voice":"en-US-AriaNeural","audio_bytes":81504},{"code":"dv","name_zh":"迪维希语","name_local":"迪维希语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"马尔代夫共和国通称马尔代夫，是南亚的一个群岛国家，位于斯里兰卡及印度西南偏南的印度洋水域约500公里处，面积为298平方公里，为亚洲面积最小的国家之一。马尔代夫由一系列南北长820公里、东西宽120公里的珊瑚礁岛组成，包含26个环礁的约1,192座珊瑚礁岛。该国平均土地高度仅海拔1.5米，为海拔最低的国家之一，最高点也仅2.4米。马尔代夫人口为515,132人，首都及最大城市为马累，传统上称之为“国王之岛”。马尔代夫为南亚区域合作联盟的创始会员国，同时为联合国、伊斯兰合作组织、不结盟运动的成员国。世界银行将马尔代夫归为中高收入经济体，渔业为该国最主要的经济活动，旅游业为成长最迅速的产业。马尔代夫与斯里兰卡为南亚唯二人类发展指数为“高”的国家，其人均收入为南亚国家中最高者。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":340,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%B0%94%E4%BB%A3%E5%A4%AB","title":"马尔代夫"},"culture_excerpts":[{"section":"历史","text":"历史上，马尔代夫是一个非常重要的战略地，因为它位于印度洋主要的航线位置上，马尔代夫附近的邻国是斯里兰卡及印度，这两国的文化及商业和马尔代夫紧密的连系在一起近好几个世纪，马尔代夫提供了当时遍及亚洲及部分东非沿海地区作为货币的贝壳主要来源。16世纪之后，在殖民浪潮下，欧洲人占领了许多印度洋上的贸易地点，马尔代夫当然也无法置身于事外，第一个先来到的是葡萄牙人，再来是荷兰人和法国人偶尔也来干预当地的政治，然而在前几个外来欧洲人的干预之后，在19世纪时，马尔代夫成为英国的保护国，而英国人对于马尔代夫君主的统治，亦给予充分的认受性。马尔代夫在1965年时脱离英国独立，然而，独立之后该国仍将阿杜环礁（Addu Atoll）内的甘岛（Gan Island）上的空军基地提供给英国人使用至1976年。当英国在1976年完全撤出该空军基地时，刚好是冷战一触即发的高峰期，国际上都在关注此空军基地未来的动向。苏联当局曾研拟向马尔代夫当局租借此空军基地，但都遭到马尔代夫政府多次的拒绝。马尔代夫共和国在1990年之前所面临的挑战是快速的经济发展和现代化的步伐来提供国家在有限的渔业、农业、旅游业的基础资源；马尔代夫亦被誉为“上帝抛洒人间的项链”，“印度洋上人间最后的乐园”。正是由于这些优美的自然环境，近年来马尔代夫逐渐受到广大游客的喜爱，中国游客也经常光顾马尔代夫。另外一方面更令人关心的项目就是长期的因温室效应导致海平面的上升，因为马尔代夫当地低洼的珊瑚岛很多，所以将造成灾难性的伤害，这也是未来政府所要面临的重大课题。马尔代夫于2004年印度洋大地震中受到海啸的破坏，仅有9个岛屿未受洪水侵袭，57个岛屿的基础设施严重损坏，6个岛屿被摧毁。共有21个度假村因海啸破坏而关闭，经济损失达4亿美元，即该国62%的国内生产总额，造成102名马尔代夫人及6名外国人丧生。","chars":776},{"section":"文化","text":"马尔代夫是个穆斯林国家。着装比较保守，妇女上街要着遮体长裙，男人要着长裤。马尔代夫虽然是著名的海岛旅游目的地，但是裸泳在马尔代夫是违法的。\n在饮食文化上按照清真教规不吃猪肉以及螃蟹和贝类，平时常用肉类有家禽、羊肉、蛋和鱼。咖尔迪亚是用来招待客人和宴会食物，它包含有主食—面糕、薯类和蒸香蕉；汤—椰肉、洋葱、柠檬汁和鱼片汤。","chars":1200},{"section":"人口","text":"马尔代夫人口以迪维希人为主要组成族群，该族群在历史上活动范围包括现今马尔代夫诸岛及印度的米尼科伊岛、拉克沙群岛。迪维希人有着共通的文化，并以迪维西语作为沟通媒介，其属于印度-雅利安人，与僧伽罗人有密切关系，在基因学分析上，与中东、南亚、南岛民族与非洲之痕迹。\n于2006年人口普查，马尔代夫人口为298,968人，马尔代夫人口成长率于1985年达到最高，为3.4%，而2000年的人口普查显示该国人口成长率为1.9%。1978年预期寿命为46岁，现已增至72岁。婴儿死亡率亦由1977年的12.7%降至今日的1.2%。于马尔代夫有超过4万名孟加拉人，为该国最大的外来劳动力来源国。其他移民包括菲律宾外籍劳工及少数西方国家人士移居。","chars":1200},{"section":"语言","text":"迪维西语为马尔代夫官方语言及通用语言，属印度-雅利安语支，与僧伽罗语有相似之处。最早以迪维西语记载的文献为Eveyla Akuru，系针对国王的记载。而称为Dhives Akuru的书写系统则在相当长的一段期间被使用，今日使用的它拿字母，则是由右向左书写。英语在马尔代夫亦常被当地人所使用。","chars":1024}],"landmark_images":[{"title":"File:View from the water villas at Medhufushi Island Resort in the Maldives1.jpg","caption_zh":"马尔代夫水上别墅","caption":"马尔代夫水上别墅","caption_commons":"View from the water villas at Medhufushi Island Resort in the Maldives","kw":"Maldives water villa resort","url":"assets/mv/L01.webp","thumb_url":"assets/mv/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/View_from_the_water_villas_at_Medhufushi_Island_Resort_in_the_Maldives1.jpg/1920px-View_from_the_water_villas_at_Medhufushi_Island_Resort_in_the_Maldives1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Priyaflorenceshah","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":44274,"thumb_bytes":12804,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 699KB JPEG)"},{"title":"File:Aerial view of Hoarafushi, Haa Alif Atoll, Maldives.jpg","caption_zh":"马尔代夫环礁航拍","caption":"马尔代夫环礁航拍","caption_commons":"Image of hoarafushi","kw":"Maldives atoll aerial view","url":"assets/mv/L02.webp","thumb_url":"assets/mv/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/e/ef/Aerial_view_of_Hoarafushi%2C_Haa_Alif_Atoll%2C_Maldives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"Ahmedidn","license":"CC0","license_url":"http://creativecommons.org/publicdomain/zero/1.0/deed.en","license_status":"ok","load_verified":true,"bytes":77316,"thumb_bytes":25324,"size":{"detail":"760x517","thumb":"400x272"},"encoding":"webp q72/q74 (源 894x608 285KB JPEG)"},{"title":"File:Bathala (Maldives) 8.JPG","caption_zh":"马尔代夫白沙滩","caption":"马尔代夫白沙滩","caption_commons":"A beach of Bathala island (Maldives).","kw":"Maldives white sand beach","url":"assets/mv/L03.webp","thumb_url":"assets/mv/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Bathala_%28Maldives%29_8.JPG/1920px-Bathala_%28Maldives%29_8.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Gzzz","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":31450,"thumb_bytes":9530,"size":{"detail":"760x504","thumb":"400x265"},"encoding":"webp q72/q74 (源 1920x1272 455KB JPEG)"},{"title":"File:Male' Hukuru Miskiy Friedhof 03.jpg","caption_zh":"马累清真寺","caption":"马累清真寺","caption_commons":"Cemetry of the Friday Mosque, Malé, Maldives","kw":"Male Friday Mosque Maldives","url":"assets/mv/L04.webp","thumb_url":"assets/mv/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Male%27_Hukuru_Miskiy_Friedhof_03.jpg/1920px-Male%27_Hukuru_Miskiy_Friedhof_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Zairon","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":86126,"thumb_bytes":26996,"size":{"detail":"760x534","thumb":"400x281"},"encoding":"webp q72/q74 (源 1920x1349 810KB JPEG)"},{"title":"File:Ithaa inside.JPG","caption_zh":"马尔代夫水下餐厅","caption":"马尔代夫水下餐厅","caption_commons":"Inside Ithaa restaurant","kw":"Ithaa Undersea Restaurant","url":"assets/mv/L05.webp","thumb_url":"assets/mv/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ithaa_inside.JPG/1920px-Ithaa_inside.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Alexey Potov - Noblige","license":"CC BY-SA 2.5","license_url":"https://creativecommons.org/licenses/by-sa/2.5","license_status":"ok","load_verified":true,"bytes":42848,"thumb_bytes":15432,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 578KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:44:46+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 无通行语，从 P2936 补：英语","P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Maldive.wav、LL-Q9288 (heb)-YaronSh-האיים המלדיביים.wav、LL-Q652 (ita)-Francyskus-Maldive.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py MV","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","香蕉礁潜水点：检索接口全部失败（英文维基：英文维基无合适条目）","阿里环礁蝠鲼点：Wikidata / 维基 / Commons 都没有可用图","香蕉礁潜水点：Wikidata / 维基 / Commons 都没有可用图","阿里环礁蝠鲼点：Wikidata / 维基 / Commons 都没有可用图","香蕉礁潜水点：Wikidata / 维基 / Commons 都没有可用图","阿里环礁蝠鲼点：Wikidata / 维基 / Commons 都没有可用图","马尔代夫水上别墅：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 0 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"伊斯兰合作组织","evidence":"伊斯兰合作组织的成员国"}],"architecture":[],"heritage":[],"keywords":[{"v":"印度洋","evidence":"印度洋水域约500公里处"},{"v":"珊瑚礁岛","evidence":"约1,192座珊瑚礁岛"},{"v":"环礁","evidence":"包含了26个环礁"},{"v":"国王之岛","evidence":"传统上称之为“国王之岛”"},{"v":"渔业","evidence":"渔业为马尔代夫最主要的经济活动"},{"v":"迪维希语","evidence":"迪维希语"}],"model":"deepseek-flash"},"summary_text_raw":"马尔代夫共和国（迪维希语：ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ，罗马化：Dhivehi Raajjeyge Jumhooriyya），通称马尔代夫（ދިވެހިރާއްޖެ），是南亚的一个群岛国家，位于斯里兰卡及印度西南偏南的印度洋水域约500公里处。马尔代夫面积为298平方公里，为亚洲面积最小的国家之一，人口为515,132人，马累为该国首都及最大城市，传统上称之为“国王之岛”（King's Island）。\n马尔代夫由一系列南北长820公里，东西宽120公里，包含了26个环礁的约1,192座珊瑚礁岛组成。平均土地高度仅海拔1.5米（4英尺11英寸），为海拔最低的国家之一；最高点亦为最低的国家之一，仅2.4米（7英尺10英寸）。\n马尔代夫为南亚区域合作联盟的创始会员国，同时为联合国、伊斯兰合作组织、不结盟运动的成员国。世界银行将马尔代夫归为中高收入经济体，渔业为马尔代夫最主要的经济活动，而旅游业为成长最迅速的产业。马尔代夫与斯里兰卡为南亚唯二人类发展指数为“高”的国家，其人均收入为南亚国家中最高者。","history_text":"地处印度洋主航线上，自古便是商旅往来的要冲，贝壳曾由此输往亚洲各地乃至东非沿海。十六世纪起葡萄牙人、荷兰人与法国人相继涉足，十九世纪沦为英国保护国。一九六五年脱离英国独立，此后仍将甘岛空军基地供英方使用至一九七六年，英军撤出后冷战各方关注此地，苏联曾谋求租借而遭拒绝。","custom_text":"按教规，猪肉、螃蟹与贝类都不上桌，日常荤食多为家禽、羊肉、蛋与鱼。待客宴席上必有咖尔迪亚：面糕、薯类与蒸香蕉作主食，配一碗椰肉、洋葱、柠檬汁煮鱼片的汤。着装偏于保守，妇女上街着遮体长裙，男子着长裤，裸泳属违法之举。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":134,"folk":107}},"knowledge_qa":[{"q":"马尔代夫在哪儿啊？","a":"马尔代夫是南亚的群岛国家，位于斯里兰卡及印度西南偏南的印度洋水域约500公里处。","tags":["位置","南亚","印度洋"]},{"q":"马尔代夫有多大？","a":"马尔代夫面积298平方公里，是亚洲面积最小的国家之一。","tags":["面积","多大","亚洲最小"]},{"q":"马尔代夫首都叫啥？","a":"首都马累，也是该国最大城市，传统上称为“国王之岛”。","tags":["首都","马累","最大城市"]},{"q":"马尔代夫说什么语言？","a":"官方语言是迪维希语，英语也通用。","tags":["语言","说什么话","官方语言"]},{"q":"马尔代夫有什么值得看的地标？","a":"有马尔代夫水下餐厅，是当地特色地标。","tags":["地标","水下餐厅","景点"]},{"q":"马尔代夫主要靠什么产业？","a":"渔业是最主要的经济活动，旅游业是成长最迅速的产业。","tags":["经济","渔业","旅游"]},{"q":"马尔代夫最高点多高？","a":"最高点仅2.4米，是海拔最低的国家之一，平均土地高度只有1.5米。","tags":["海拔","最高点","地势低"]},{"q":"马尔代夫由多少个岛组成？","a":"由约1,192座珊瑚礁岛组成，包含26个环礁，南北长820公里，东西宽120公里。","tags":["岛屿","环礁","珊瑚礁"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[7355,424],[7351,416],[7343,418],[7355,424]],[[7316,679],[7317,678],[7313,672],[7316,679]],[[7310,-60],[7312,-64],[7311,-64],[7310,-60],[7309,-59],[7310,-58],[7310,-60]],[[7335,244],[7337,241],[7336,238],[7335,244]],[[7296,444],[7296,442],[7295,442],[7294,443],[7296,444]],[[7321,692],[7320,688],[7320,690],[7321,692]],[[7325,-59],[7324,-61],[7324,-59],[7325,-58],[7325,-59]],[[7363,542],[7364,540],[7363,539],[7363,542]],[[7324,-63],[7323,-64],[7323,-62],[7324,-63]],[[7336,179],[7338,179],[7337,178],[7336,179]],[[7357,211],[7358,211],[7356,210],[7357,211]],[[7318,683],[7320,683],[7318,682],[7318,683]],[[7321,24],[7322,24],[7321,23],[7321,24]],[[7279,352],[7280,351],[7279,351],[7279,352]],[[7351,410],[7351,409],[7350,410],[7351,410]],[[7332,537],[7333,536],[7332,536],[7332,537]],[[7340,181],[7340,180],[7339,180],[7340,181]],[[7345,183],[7346,183],[7346,182],[7345,183]],[[7339,597],[7340,596],[7339,596],[7339,597]],[[7287,269],[7287,268],[7287,269],[7287,269]],[[7291,709],[7291,708],[7291,709],[7291,709]]]}
+{
+  "qid": "Q826",
+  "iso_a2": "MV",
+  "iso_a3": "MDV",
+  "name_zh": "马尔代夫",
+  "name_en": "Maldives",
+  "capital": "马累",
+  "continent": "亚洲",
+  "centroid": [
+    73.51,
+    4.18
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "spoken",
+      "audio_url": "assets/mv/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to the Maldives, a nation of coral atolls scattered across the Indian Ocean, where the capital, Malé, sits at its heart and the surrounding turquoise lagoons and white sandbanks offer the country's most memorable sights.",
+      "tts_text_zh": "欢迎来到马尔代夫，这个由散布在印度洋上的珊瑚环礁组成的国家，首都马累位于其中心，周围碧绿的潟湖与白沙洲构成了全国最令人难忘的景致。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 81504
+    },
+    {
+      "code": "dv",
+      "name_zh": "迪维希语",
+      "name_local": "迪维希语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "马尔代夫共和国通称马尔代夫，是南亚的一个群岛国家，位于斯里兰卡及印度西南偏南的印度洋水域约500公里处，面积为298平方公里，为亚洲面积最小的国家之一。马尔代夫由一系列南北长820公里、东西宽120公里的珊瑚礁岛组成，包含26个环礁的约1,192座珊瑚礁岛。该国平均土地高度仅海拔1.5米，为海拔最低的国家之一，最高点也仅2.4米。马尔代夫人口为515,132人，首都及最大城市为马累，传统上称之为“国王之岛”。马尔代夫为南亚区域合作联盟的创始会员国，同时为联合国、伊斯兰合作组织、不结盟运动的成员国。世界银行将马尔代夫归为中高收入经济体，渔业为该国最主要的经济活动，旅游业为成长最迅速的产业。马尔代夫与斯里兰卡为南亚唯二人类发展指数为“高”的国家，其人均收入为南亚国家中最高者。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 340,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E5%B0%94%E4%BB%A3%E5%A4%AB",
+    "title": "马尔代夫"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "历史上，马尔代夫是一个非常重要的战略地，因为它位于印度洋主要的航线位置上，马尔代夫附近的邻国是斯里兰卡及印度，这两国的文化及商业和马尔代夫紧密的连系在一起近好几个世纪，马尔代夫提供了当时遍及亚洲及部分东非沿海地区作为货币的贝壳主要来源。16世纪之后，在殖民浪潮下，欧洲人占领了许多印度洋上的贸易地点，马尔代夫当然也无法置身于事外，第一个先来到的是葡萄牙人，再来是荷兰人和法国人偶尔也来干预当地的政治，然而在前几个外来欧洲人的干预之后，在19世纪时，马尔代夫成为英国的保护国，而英国人对于马尔代夫君主的统治，亦给予充分的认受性。马尔代夫在1965年时脱离英国独立，然而，独立之后该国仍将阿杜环礁（Addu Atoll）内的甘岛（Gan Island）上的空军基地提供给英国人使用至1976年。当英国在1976年完全撤出该空军基地时，刚好是冷战一触即发的高峰期，国际上都在关注此空军基地未来的动向。苏联当局曾研拟向马尔代夫当局租借此空军基地，但都遭到马尔代夫政府多次的拒绝。马尔代夫共和国在1990年之前所面临的挑战是快速的经济发展和现代化的步伐来提供国家在有限的渔业、农业、旅游业的基础资源；马尔代夫亦被誉为“上帝抛洒人间的项链”，“印度洋上人间最后的乐园”。正是由于这些优美的自然环境，近年来马尔代夫逐渐受到广大游客的喜爱，中国游客也经常光顾马尔代夫。另外一方面更令人关心的项目就是长期的因温室效应导致海平面的上升，因为马尔代夫当地低洼的珊瑚岛很多，所以将造成灾难性的伤害，这也是未来政府所要面临的重大课题。马尔代夫于2004年印度洋大地震中受到海啸的破坏，仅有9个岛屿未受洪水侵袭，57个岛屿的基础设施严重损坏，6个岛屿被摧毁。共有21个度假村因海啸破坏而关闭，经济损失达4亿美元，即该国62%的国内生产总额，造成102名马尔代夫人及6名外国人丧生。",
+      "chars": 776
+    },
+    {
+      "section": "文化",
+      "text": "马尔代夫是个穆斯林国家。着装比较保守，妇女上街要着遮体长裙，男人要着长裤。马尔代夫虽然是著名的海岛旅游目的地，但是裸泳在马尔代夫是违法的。\n在饮食文化上按照清真教规不吃猪肉以及螃蟹和贝类，平时常用肉类有家禽、羊肉、蛋和鱼。咖尔迪亚是用来招待客人和宴会食物，它包含有主食—面糕、薯类和蒸香蕉；汤—椰肉、洋葱、柠檬汁和鱼片汤。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "马尔代夫人口以迪维希人为主要组成族群，该族群在历史上活动范围包括现今马尔代夫诸岛及印度的米尼科伊岛、拉克沙群岛。迪维希人有着共通的文化，并以迪维西语作为沟通媒介，其属于印度-雅利安人，与僧伽罗人有密切关系，在基因学分析上，与中东、南亚、南岛民族与非洲之痕迹。\n于2006年人口普查，马尔代夫人口为298,968人，马尔代夫人口成长率于1985年达到最高，为3.4%，而2000年的人口普查显示该国人口成长率为1.9%。1978年预期寿命为46岁，现已增至72岁。婴儿死亡率亦由1977年的12.7%降至今日的1.2%。于马尔代夫有超过4万名孟加拉人，为该国最大的外来劳动力来源国。其他移民包括菲律宾外籍劳工及少数西方国家人士移居。",
+      "chars": 1200
+    },
+    {
+      "section": "语言",
+      "text": "迪维西语为马尔代夫官方语言及通用语言，属印度-雅利安语支，与僧伽罗语有相似之处。最早以迪维西语记载的文献为Eveyla Akuru，系针对国王的记载。而称为Dhives Akuru的书写系统则在相当长的一段期间被使用，今日使用的它拿字母，则是由右向左书写。英语在马尔代夫亦常被当地人所使用。",
+      "chars": 1024
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:View from the water villas at Medhufushi Island Resort in the Maldives1.jpg",
+      "caption_zh": "马尔代夫水上别墅",
+      "caption": "马尔代夫水上别墅",
+      "caption_commons": "View from the water villas at Medhufushi Island Resort in the Maldives",
+      "kw": "Maldives water villa resort",
+      "url": "assets/mv/L01.webp",
+      "thumb_url": "assets/mv/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/View_from_the_water_villas_at_Medhufushi_Island_Resort_in_the_Maldives1.jpg/1920px-View_from_the_water_villas_at_Medhufushi_Island_Resort_in_the_Maldives1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Priyaflorenceshah",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 107260,
+      "thumb_bytes": 5780,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 699KB JPEG)"
+    },
+    {
+      "title": "File:Aerial view of Hoarafushi, Haa Alif Atoll, Maldives.jpg",
+      "caption_zh": "马尔代夫环礁航拍",
+      "caption": "马尔代夫环礁航拍",
+      "caption_commons": "Image of hoarafushi",
+      "kw": "Maldives atoll aerial view",
+      "url": "assets/mv/L02.webp",
+      "thumb_url": "assets/mv/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Aerial_view_of_Hoarafushi%2C_Haa_Alif_Atoll%2C_Maldives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Ahmedidn",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 107012,
+      "thumb_bytes": 11568,
+      "size": {
+        "detail": "894x608",
+        "thumb": "240x163"
+      },
+      "encoding": "webp q75/q78 (源 894x608 285KB JPEG)"
+    },
+    {
+      "title": "File:Bathala (Maldives) 8.JPG",
+      "caption_zh": "马尔代夫白沙滩",
+      "caption": "马尔代夫白沙滩",
+      "caption_commons": "A beach of Bathala island (Maldives).",
+      "kw": "Maldives white sand beach",
+      "url": "assets/mv/L03.webp",
+      "thumb_url": "assets/mv/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Bathala_%28Maldives%29_8.JPG/1920px-Bathala_%28Maldives%29_8.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Gzzz",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 67036,
+      "thumb_bytes": 4518,
+      "size": {
+        "detail": "1080x716",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1272 455KB JPEG)"
+    },
+    {
+      "title": "File:Male' Hukuru Miskiy Friedhof 03.jpg",
+      "caption_zh": "马累清真寺",
+      "caption": "马累清真寺",
+      "caption_commons": "Cemetry of the Friday Mosque, Malé, Maldives",
+      "kw": "Male Friday Mosque Maldives",
+      "url": "assets/mv/L04.webp",
+      "thumb_url": "assets/mv/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Male%27_Hukuru_Miskiy_Friedhof_03.jpg/1920px-Male%27_Hukuru_Miskiy_Friedhof_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Zairon",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 169810,
+      "thumb_bytes": 11896,
+      "size": {
+        "detail": "1080x759",
+        "thumb": "240x169"
+      },
+      "encoding": "webp q75/q78 (源 1920x1349 810KB JPEG)"
+    },
+    {
+      "title": "File:Ithaa inside.JPG",
+      "caption_zh": "马尔代夫水下餐厅",
+      "caption": "马尔代夫水下餐厅",
+      "caption_commons": "Inside Ithaa restaurant",
+      "kw": "Ithaa Undersea Restaurant",
+      "url": "assets/mv/L05.webp",
+      "thumb_url": "assets/mv/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ithaa_inside.JPG/1920px-Ithaa_inside.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Alexey Potov - Noblige",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 79784,
+      "thumb_bytes": 7902,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 578KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:44:46+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 无通行语，从 P2936 补：英语",
+    "P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Maldive.wav、LL-Q9288 (heb)-YaronSh-האיים המלדיביים.wav、LL-Q652 (ita)-Francyskus-Maldive.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py MV",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "香蕉礁潜水点：检索接口全部失败（英文维基：英文维基无合适条目）",
+    "阿里环礁蝠鲼点：Wikidata / 维基 / Commons 都没有可用图",
+    "香蕉礁潜水点：Wikidata / 维基 / Commons 都没有可用图",
+    "阿里环礁蝠鲼点：Wikidata / 维基 / Commons 都没有可用图",
+    "香蕉礁潜水点：Wikidata / 维基 / Commons 都没有可用图",
+    "阿里环礁蝠鲼点：Wikidata / 维基 / Commons 都没有可用图",
+    "马尔代夫水上别墅：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 0 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "伊斯兰合作组织",
+        "evidence": "伊斯兰合作组织的成员国"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "印度洋",
+        "evidence": "印度洋水域约500公里处"
+      },
+      {
+        "v": "珊瑚礁岛",
+        "evidence": "约1,192座珊瑚礁岛"
+      },
+      {
+        "v": "环礁",
+        "evidence": "包含了26个环礁"
+      },
+      {
+        "v": "国王之岛",
+        "evidence": "传统上称之为“国王之岛”"
+      },
+      {
+        "v": "渔业",
+        "evidence": "渔业为马尔代夫最主要的经济活动"
+      },
+      {
+        "v": "迪维希语",
+        "evidence": "迪维希语"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "马尔代夫共和国（迪维希语：ދިވެހިރާއްޖޭގެ ޖުމުހޫރިއްޔާ，罗马化：Dhivehi Raajjeyge Jumhooriyya），通称马尔代夫（ދިވެހިރާއްޖެ），是南亚的一个群岛国家，位于斯里兰卡及印度西南偏南的印度洋水域约500公里处。马尔代夫面积为298平方公里，为亚洲面积最小的国家之一，人口为515,132人，马累为该国首都及最大城市，传统上称之为“国王之岛”（King's Island）。\n马尔代夫由一系列南北长820公里，东西宽120公里，包含了26个环礁的约1,192座珊瑚礁岛组成。平均土地高度仅海拔1.5米（4英尺11英寸），为海拔最低的国家之一；最高点亦为最低的国家之一，仅2.4米（7英尺10英寸）。\n马尔代夫为南亚区域合作联盟的创始会员国，同时为联合国、伊斯兰合作组织、不结盟运动的成员国。世界银行将马尔代夫归为中高收入经济体，渔业为马尔代夫最主要的经济活动，而旅游业为成长最迅速的产业。马尔代夫与斯里兰卡为南亚唯二人类发展指数为“高”的国家，其人均收入为南亚国家中最高者。",
+  "history_text": "地处印度洋主航线上，自古便是商旅往来的要冲，贝壳曾由此输往亚洲各地乃至东非沿海。十六世纪起葡萄牙人、荷兰人与法国人相继涉足，十九世纪沦为英国保护国。一九六五年脱离英国独立，此后仍将甘岛空军基地供英方使用至一九七六年，英军撤出后冷战各方关注此地，苏联曾谋求租借而遭拒绝。",
+  "custom_text": "按教规，猪肉、螃蟹与贝类都不上桌，日常荤食多为家禽、羊肉、蛋与鱼。待客宴席上必有咖尔迪亚：面糕、薯类与蒸香蕉作主食，配一碗椰肉、洋葱、柠檬汁煮鱼片的汤。着装偏于保守，妇女上街着遮体长裙，男子着长裤，裸泳属违法之举。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 134,
+      "folk": 107
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "马尔代夫在哪儿啊？",
+      "a": "马尔代夫是南亚的群岛国家，位于斯里兰卡及印度西南偏南的印度洋水域约500公里处。",
+      "tags": [
+        "位置",
+        "南亚",
+        "印度洋"
+      ]
+    },
+    {
+      "q": "马尔代夫有多大？",
+      "a": "马尔代夫面积298平方公里，是亚洲面积最小的国家之一。",
+      "tags": [
+        "面积",
+        "多大",
+        "亚洲最小"
+      ]
+    },
+    {
+      "q": "马尔代夫首都叫啥？",
+      "a": "首都马累，也是该国最大城市，传统上称为“国王之岛”。",
+      "tags": [
+        "首都",
+        "马累",
+        "最大城市"
+      ]
+    },
+    {
+      "q": "马尔代夫说什么语言？",
+      "a": "官方语言是迪维希语，英语也通用。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言"
+      ]
+    },
+    {
+      "q": "马尔代夫有什么值得看的地标？",
+      "a": "有马尔代夫水下餐厅，是当地特色地标。",
+      "tags": [
+        "地标",
+        "水下餐厅",
+        "景点"
+      ]
+    },
+    {
+      "q": "马尔代夫主要靠什么产业？",
+      "a": "渔业是最主要的经济活动，旅游业是成长最迅速的产业。",
+      "tags": [
+        "经济",
+        "渔业",
+        "旅游"
+      ]
+    },
+    {
+      "q": "马尔代夫最高点多高？",
+      "a": "最高点仅2.4米，是海拔最低的国家之一，平均土地高度只有1.5米。",
+      "tags": [
+        "海拔",
+        "最高点",
+        "地势低"
+      ]
+    },
+    {
+      "q": "马尔代夫由多少个岛组成？",
+      "a": "由约1,192座珊瑚礁岛组成，包含26个环礁，南北长820公里，东西宽120公里。",
+      "tags": [
+        "岛屿",
+        "环礁",
+        "珊瑚礁"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        7355,
+        424
+      ],
+      [
+        7351,
+        416
+      ],
+      [
+        7343,
+        418
+      ],
+      [
+        7355,
+        424
+      ]
+    ],
+    [
+      [
+        7316,
+        679
+      ],
+      [
+        7317,
+        678
+      ],
+      [
+        7313,
+        672
+      ],
+      [
+        7316,
+        679
+      ]
+    ],
+    [
+      [
+        7310,
+        -60
+      ],
+      [
+        7312,
+        -64
+      ],
+      [
+        7311,
+        -64
+      ],
+      [
+        7310,
+        -60
+      ],
+      [
+        7309,
+        -59
+      ],
+      [
+        7310,
+        -58
+      ],
+      [
+        7310,
+        -60
+      ]
+    ],
+    [
+      [
+        7335,
+        244
+      ],
+      [
+        7337,
+        241
+      ],
+      [
+        7336,
+        238
+      ],
+      [
+        7335,
+        244
+      ]
+    ],
+    [
+      [
+        7296,
+        444
+      ],
+      [
+        7296,
+        442
+      ],
+      [
+        7295,
+        442
+      ],
+      [
+        7294,
+        443
+      ],
+      [
+        7296,
+        444
+      ]
+    ],
+    [
+      [
+        7321,
+        692
+      ],
+      [
+        7320,
+        688
+      ],
+      [
+        7320,
+        690
+      ],
+      [
+        7321,
+        692
+      ]
+    ],
+    [
+      [
+        7325,
+        -59
+      ],
+      [
+        7324,
+        -61
+      ],
+      [
+        7324,
+        -59
+      ],
+      [
+        7325,
+        -58
+      ],
+      [
+        7325,
+        -59
+      ]
+    ],
+    [
+      [
+        7363,
+        542
+      ],
+      [
+        7364,
+        540
+      ],
+      [
+        7363,
+        539
+      ],
+      [
+        7363,
+        542
+      ]
+    ],
+    [
+      [
+        7324,
+        -63
+      ],
+      [
+        7323,
+        -64
+      ],
+      [
+        7323,
+        -62
+      ],
+      [
+        7324,
+        -63
+      ]
+    ],
+    [
+      [
+        7336,
+        179
+      ],
+      [
+        7338,
+        179
+      ],
+      [
+        7337,
+        178
+      ],
+      [
+        7336,
+        179
+      ]
+    ],
+    [
+      [
+        7357,
+        211
+      ],
+      [
+        7358,
+        211
+      ],
+      [
+        7356,
+        210
+      ],
+      [
+        7357,
+        211
+      ]
+    ],
+    [
+      [
+        7318,
+        683
+      ],
+      [
+        7320,
+        683
+      ],
+      [
+        7318,
+        682
+      ],
+      [
+        7318,
+        683
+      ]
+    ],
+    [
+      [
+        7321,
+        24
+      ],
+      [
+        7322,
+        24
+      ],
+      [
+        7321,
+        23
+      ],
+      [
+        7321,
+        24
+      ]
+    ],
+    [
+      [
+        7279,
+        352
+      ],
+      [
+        7280,
+        351
+      ],
+      [
+        7279,
+        351
+      ],
+      [
+        7279,
+        352
+      ]
+    ],
+    [
+      [
+        7351,
+        410
+      ],
+      [
+        7351,
+        409
+      ],
+      [
+        7350,
+        410
+      ],
+      [
+        7351,
+        410
+      ]
+    ],
+    [
+      [
+        7332,
+        537
+      ],
+      [
+        7333,
+        536
+      ],
+      [
+        7332,
+        536
+      ],
+      [
+        7332,
+        537
+      ]
+    ],
+    [
+      [
+        7340,
+        181
+      ],
+      [
+        7340,
+        180
+      ],
+      [
+        7339,
+        180
+      ],
+      [
+        7340,
+        181
+      ]
+    ],
+    [
+      [
+        7345,
+        183
+      ],
+      [
+        7346,
+        183
+      ],
+      [
+        7346,
+        182
+      ],
+      [
+        7345,
+        183
+      ]
+    ],
+    [
+      [
+        7339,
+        597
+      ],
+      [
+        7340,
+        596
+      ],
+      [
+        7339,
+        596
+      ],
+      [
+        7339,
+        597
+      ]
+    ],
+    [
+      [
+        7287,
+        269
+      ],
+      [
+        7287,
+        268
+      ],
+      [
+        7287,
+        269
+      ],
+      [
+        7287,
+        269
+      ]
+    ],
+    [
+      [
+        7291,
+        709
+      ],
+      [
+        7291,
+        708
+      ],
+      [
+        7291,
+        709
+      ],
+      [
+        7291,
+        709
+      ]
+    ]
+  ]
+}

@@ -1,1 +1,770 @@
-{"qid":"Q424","iso_a2":"KH","iso_a3":"KHM","name_zh":"柬埔寨","name_en":"Cambodia","capital":"金边","continent":"亚洲","centroid":[105,12.5],"centroid_source":"wikidata P625","languages":[{"code":"km","name_zh":"高棉语","name_local":"高棉语","role":"official","audio_url":"assets/kh/audio/km.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"សូមស្វាគមន៍មកកាន់ប្រទេសកម្ពុជា ដែលមានរាជធានីគឺក្រុងភ្នំពេញ ហើយលោកអ្នកអាចទស្សនាប្រាសាទអង្គរវត្តដ៏អស្ចារ្យនៅខេត្តសៀមរាប។","tts_text_zh":"欢迎来到柬埔寨，首都是金边，您还可以在暹粒省参观宏伟的吴哥窟。","audio_voice":"km-KH-SreymomNeural","audio_bytes":52128}],"summary_text":"柬埔寨王国通称柬埔寨，是位于东南亚中南半岛的君主立宪制国家，首都为金边。柬埔寨地处中南半岛南部，西部及西北部与泰国接壤，东北部与老挝交界，东部及东南部与越南毗邻，南部则面向暹罗湾，国土面积约181,035平方公里。地形呈碟状盆地特征，三面被丘陵与山脉环绕，中部为广阔的湄公河冲积平原，约占全国面积四分之三，是主要农业产区。境内主要水系包括贯穿全境的湄公河及东南亚最大淡水湖洞里萨湖，又称金边湖，该湖具有独特的季节性逆流现象，对当地渔业及农业灌溉具有重要意义。官方语言为高棉语，佛教为国教。经济以农业、纺织业和旅游业为支柱，吴哥窟等世界遗产吸引大量国际游客。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":278,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%9F%AC%E5%9F%94%E5%AF%A8","title":"柬埔寨"},"culture_excerpts":[{"section":"历史","text":"公元787年前后，水真腊太阳王朝的都城桑比补罗被夏连特拉王朝攻陷，国王摩希婆提跋摩被杀，王子（后来的阇耶跋摩二世）被虏。水真腊由此受到爪哇的夏连特拉王朝（山帝王朝）统治，直至阇耶跋摩二世从爪哇逃回，称王独立。阇耶跋摩二世统一了水、陆真腊，定都吴哥东北约三十公里的荔枝山，建立了吴哥王朝。吴哥王朝，又称高棉帝国，至12世纪国势臻盛，文化灿烂，版图包括今日柬埔寨全境以及泰、寮、越三国之部分地区。13世纪，上座部佛教由斯里兰卡传来。明宣德五年（1430年）暹罗入侵柬埔寨，包围吴哥城七个月，最后攻破吴哥。由于吴哥太近于暹罗，故放弃吴哥，迁都金边。此后，柬埔寨国势衰败，备受越南、暹罗（泰国）这两个邻国的侵略，史称柬埔寨黑暗时代。下柬埔寨（即湄公河三角洲）亦在这个时期为越南所占据，衍生柬、越长年的世仇。公元1296年，元朝派遣周达观探查吴哥王朝， 访问时间近一年。归国后，周著有《真腊风土记》一书，全面介绍了王朝政经、社会、地理和民俗等方面。全书除介绍章外，另有40个主题章节，后于19世纪被译成法德英等多种文字。该书是吴哥王朝至法国统治前， 最重要或者是唯一的柬埔寨历史文献。欧美列强侵略殖民地时期，1863年沦为法国保护国。第二次世界大战，1942至1945年，日军占领柬埔寨。战后柬埔寨于1953年11月9日脱离法国独立。初时仍为君权体制，即柬埔寨第一王国，西哈努克在位期间奉行中立的政策。1960年代中开始，中、美、苏三国均进驻印度支那半岛侵略与扩张势力。政治博弈下加上越战的影响，柬埔寨开始发生内战。1970年3月18日，由亲美的郎诺将军发动政变，成立高棉共和国，废止君主制，亲中共的西哈努克亲王流亡于北京，其时为越战期间，南越军、美军、龙诺政府军和北越军赤柬军交战导致柬埔寨国内民不聊生。1975年4月17日，由柬埔寨共产党总书记波尔布特领导的红色高棉（或称赤柬）在美军撤离柬埔寨首都金边后予以攻占，建立民主柬埔寨政权，西哈努克亲王重新自朝鲜平壤归国，不过迅速遭到红色高棉软禁。1976年，红色高棉波布当权后宣布废除货币，把全国所有城镇居民驱赶到乡郊，强迫集体务农，并屠杀所有知识分子。当政的三年八个月期间，实行恐怖统治，全国五分一以上人口死于饥荒、劳役、疾病或迫害等原因，是20世纪中最血腥暴力的人为灾难之一。对外方面，红色高棉波布政权由于和越南政权因历史疆界土地纠纷屡起龃龉，甚至出兵进攻越南领土、屠杀越南村民。而又因和中华人民共和国友好且交流密切，时值中苏交恶冲突紧张对抗期间，所以形成柬联中以对抗越苏态势。民主柬埔寨还受到西方国家的拥护，获得联合国代表席次。1978年12月，越南出兵柬埔寨并于1979年1月7日攻陷金边，原高棉人民革命党成员与柬共党内反对势力联合成立柬埔寨人民革命党，建立柬埔寨人民共和国，终结了红色高棉大屠杀。红色高棉败走柬埔寨西北泰国边境，不过柬埔寨人民共和国被视为越南的卫星国，因此未获国际社会多数国家承认，因此红色高棉暂时保住了民主柬埔寨在联合国的席位。但红色高棉随着其暴行证据被越军发现并公开，失去国际社会支持。1989年1月6日，越南人民军从柬埔寨全数撤军。柬埔寨人民共和国更改国名为柬埔寨国，以获得更多的国际认同。1991年，冷战结束，柬埔寨放弃一党制的政治体制和马克思列宁主义，柬埔寨人民革命党改名为柬埔寨人民党。1993年，柬埔寨获联合国援助，举行全国大选，亲王室的奉辛比克党赢得45.5%的选票成为第一大党，洪森领导的人民党居第二。经洪森威胁，两党组织大联合政府。1993年9月24日，柬埔寨制宪议会通过新宪法，恢复君主制及国名柬埔寨王国，三度回国的西哈努克重新登基为国王。后来1997年7月5日洪森发动政变，人民党全面控制新政府。红色高棉的武装势力最终于1998年12月投降。近年来，柬埔寨社会日趋安定，经济恢复，旅游业发展迅速。2008年8月，柬埔寨人民党赢得第四届国会选举（90席）。2013年7月，人民党赢得123个议席中的68个，延续洪森28年来的执政和第五个首相任期，反对党救国党赢得55个议席，比上届大选的29个议席几乎多一倍。2017年10月，柬埔寨政府于最高法院起诉柬埔寨救国党，11月正式解散该党。2018年3月3日，据柬埔寨国家选举委员会公布的第四届参议院选举正式结果，执政党柬埔寨人民党赢得参议院全部58个议席。由于柬埔寨救国党是唯一能够挑战人民党执政地位的反对党，因该党被解散，意味着柬埔寨进入“一党制”。","chars":1843},{"section":"饮食","text":"柬埔寨拥有特别的高棉菜，口味较偏甜及较辛辣，该国出产胡椒、鱼露。用上大量香料、辣椒、胡椒和鱼露等烹调，口味与泰菜接近。由于受到法国殖民统治，所以菜肴有混入了法国的元素，也受到中国和越南等地的口味影响。","chars":1200},{"section":"人口","text":"柬埔寨人口超过1,550万人，其中90%左右为高棉族，而少数民族则包括1%的华人、9%的京族、佬族、泰族、占族等20余部，当中有一小部分属于深居山地的原住民部落。柬埔寨的人均寿命目前是71.41岁。","chars":1157}],"landmark_images":[{"title":"File:Angkor wat temple.jpg","caption_zh":"吴哥窟寺庙","caption":"吴哥窟寺庙","caption_commons":"Angkor Wat temple, by Andrew Lih","kw":"Angkor Wat temple","url":"assets/kh/L01.webp","thumb_url":"assets/kh/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/7/72/Angkor_wat_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"The original uploader was Fuzheado at English Wikipedia.","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":30142,"caption_zh_manual":"吴哥窟","caption_zh_source":"llm_from_commons_filename","thumb_bytes":24218,"size":{"detail":"448x336","thumb":"400x300"},"encoding":"webp q72/q74 (源 448x336 36KB JPEG)"},{"title":"File:Angkor Thom, Bayon 08.jpg","caption_zh":"巴戎寺","caption":"巴戎寺","caption_commons":"Detail of the basrelief of Tonle-Sap battle at the Bayon [Bayon Prasat]. Angkor ","kw":"Bayon Temple Angkor","url":"assets/kh/L02.webp","thumb_url":"assets/kh/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Angkor_Thom%2C_Bayon_08.jpg/1920px-Angkor_Thom%2C_Bayon_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"LBM1948","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":112922,"caption_zh_manual":"巴戎寺","caption_zh_source":"llm_from_commons_filename","thumb_bytes":29932,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1275 1415KB JPEG)"},{"title":"File:Ta Prohm.JPG","caption_zh":"塔布茏寺","caption":"塔布茏寺","caption_commons":"Ta Prohm","kw":"Ta Prohm temple","url":"assets/kh/L03.webp","thumb_url":"assets/kh/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/2/24/Ta_Prohm.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Dmitry A. Mottl","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":162504,"caption_zh_manual":"塔布茏寺","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14268,"size":{"detail":"760x1140","thumb":"200x300"},"encoding":"webp q72/q74 (源 1365x2048 755KB JPEG)"},{"title":"File:Silverpagoda.jpg","caption_zh":"银塔","caption":"银塔","caption_commons":"Silver Pagoda in Phnom Penh,Cambodia.","kw":"Silver Pagoda Phnom Penh","url":"assets/kh/L05.webp","thumb_url":"assets/kh/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Silverpagoda.jpg/1920px-Silverpagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"plusgood","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":72934,"caption_zh_manual":"银塔","caption_zh_source":"llm_from_commons_filename","thumb_bytes":21748,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 754KB JPEG)"},{"title":"File:Cambodia, Tonle Sap IMG 3324.JPG","caption_zh":"洞里萨湖","caption":"洞里萨湖","caption_commons":"The Tonlé Sap (Khmer: Large Fresh Water River, more commonly translated as Great","kw":"Tonle Sap lake","url":"assets/kh/L06.webp","thumb_url":"assets/kh/L06.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Cambodia%2C_Tonle_Sap_IMG_3324.JPG/1920px-Cambodia%2C_Tonle_Sap_IMG_3324.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Deror_avi","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":25878,"caption_zh_manual":"洞里萨湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7598,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 378KB JPEG)"}],"image_license":"CC BY-SA 2.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:31:46+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q5146 (por)-NMaia-Camboja.wav、LL-Q7913 (ron)-KlaudiuMihaila-Cambodgia.wav、LL-Q652 (ita)-Francyskus-Cambogia.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py KH","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","金边王宫：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（5 张，中文图注）","摘要 278 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"佛教","evidence":"佛教为国教"}],"architecture":[],"heritage":[{"v":"吴哥窟","evidence":"吴哥窟等世界遗产"}],"keywords":[{"v":"湄公河","evidence":"贯穿全境的湄公河"},{"v":"洞里萨湖","evidence":"东南亚最大淡水湖洞里萨湖"},{"v":"高棉语","evidence":"官方语言为高棉语"},{"v":"吴哥窟","evidence":"吴哥窟等世界遗产"},{"v":"暹罗湾","evidence":"南部则面向暹罗湾"}],"model":"deepseek-flash"},"summary_text_raw":"柬埔寨王国（高棉语：ព្រះរាជាណាចក្រកម្ពុជា，罗马化：Preăh Réachéanachâk Kâmpŭchéa），通称柬埔寨（高棉语：កម្ពុជា，罗马化：Kâmpŭchéa），是位于东南亚中南半岛的君主立宪制国家，首都为金边。为联合国会员国及东南亚国家联盟创始成员国，并参与世界贸易组织、不结盟运动等国际组织。根据世界银行数据，柬埔寨国土面积约181,035平方公里，2025年人口约1,670万，官方语言为高棉语，佛教为国教。\n柬埔寨地处中南半岛南部，西部及西北部与泰国接壤，东北部与老挝交界，东部及东南部与越南毗邻，南部则面向暹罗湾。地形呈碟状盆地特征，三面被丘陵与山脉环绕；中部为广阔的湄公河冲积平原，约占全国面积四分之三，是主要农业产区。境内主要水系包括贯穿全境的湄公河及东南亚最大淡水湖洞里萨湖（又称金边湖），该湖具有独特的季节性逆流现象，对当地渔业及农业灌溉具有重要意义。\n柬埔寨实行君主立宪制，现任国王为诺罗敦·西哈莫尼，首相为洪马内。尽管宪法规定为多党制，但柬埔寨人民党长期主导政坛。经济以农业、纺织业和旅游业为支柱，吴哥窟等世界遗产吸引大量国际游客。","history_text":"水真腊都城被夏连特拉王朝攻陷、王子被掳，阇耶跋摩二世自爪哇返回称王，统一水陆真腊，建吴哥王朝。至十二世纪国势臻盛，版图远及今泰、老、越部分地区。暹罗入侵攻破吴哥后，因吴哥逼近暹罗而迁都金边，国势自此衰败，下柬埔寨为越南占据。十九世纪沦为法国保护国。","custom_text":"高棉菜偏甜偏辣，大量使用香料、辣椒、胡椒与鱼露，口味接近泰菜；因法国殖民之故混入法国元素，也受中国与越南口味影响。当地出产胡椒与鱼露，是灶间常备之物。上座部佛教自斯里兰卡传入后扎根乡里，寺庙至今是村社生活的中心。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":124,"folk":106}},"knowledge_qa":[{"q":"柬埔寨在哪儿啊？周围都是些什么地方？","a":"柬埔寨位于东南亚中南半岛南部，西部及西北部与泰国接壤，东北部与老挝交界，东部及东南部与越南毗邻，南部面向暹罗湾。","tags":["东南亚","邻国","位置"]},{"q":"柬埔寨的首都是哪里？","a":"首都是金边。","tags":["首都","金边"]},{"q":"柬埔寨面积多大？人口多少？","a":"国土面积约181,035平方公里，2025年人口约1,670万。","tags":["面积","人口"]},{"q":"柬埔寨人说什么话？","a":"官方语言是高棉语。","tags":["语言","高棉语","说什么话"]},{"q":"柬埔寨有什么值得看的地标或景点？","a":"值得看的有吴哥窟、巴戎寺、塔布茏寺、银塔和洞里萨湖。","tags":["景点","吴哥窟","地标","洞里萨湖"]},{"q":"柬埔寨有什么特别的自然景观？","a":"有洞里萨湖，又称金边湖，是东南亚最大淡水湖，具有独特的季节性逆流现象，对渔业和农业灌溉很重要。","tags":["自然景观","洞里萨湖","湖泊"]},{"q":"柬埔寨的政治体制是什么样的？","a":"柬埔寨是君主立宪制国家，现任国王为诺罗敦·西哈莫尼，首相为洪马内。宪法规定多党制，但柬埔寨人民党长期主导政坛。","tags":["政治","国王","首相"]},{"q":"柬埔寨经济靠什么？","a":"经济以农业、纺织业和旅游业为支柱，吴哥窟等世界遗产吸引大量国际游客。","tags":["经济","产业","旅游"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[10752,1470],[10732,1412],[10760,1350],[10746,1302],[10756,1261],[10752,1237],[10742,1225],[10721,1231],[10670,1197],[10639,1197],[10643,1166],[10602,1177],[10593,1164],[10580,1162],[10584,1129],[10616,1105],[10618,1077],[10593,1090],[10588,1083],[10575,1102],[10541,1096],[10532,1084],[10508,1095],[10501,1088],[10504,1069],[10485,1053],[10457,1053],[10447,1042],[10425,1057],[10395,1059],[10387,1070],[10382,1054],[10362,1050],[10350,1062],[10357,1073],[10369,1074],[10372,1090],[10368,1106],[10353,1116],[10347,1115],[10340,1088],[10328,1093],[10313,1088],[10306,1122],[10315,1132],[10306,1145],[10317,1143],[10304,1160],[10296,1156],[10304,1162],[10297,1164],[10299,1170],[10308,1173],[10298,1171],[10289,1183],[10296,1157],[10270,1214],[10276,1244],[10249,1266],[10249,1300],[10233,1328],[10231,1354],[10260,1360],[10254,1367],[10270,1376],[10293,1420],[10364,1444],[10388,1434],[10418,1440],[10454,1436],[10477,1444],[10497,1438],[10505,1421],[10518,1435],[10534,1411],[10553,1416],[10574,1409],[10590,1392],[10607,1392],[10615,1405],[10597,1437],[10617,1437],[10623,1449],[10642,1447],[10651,1459],[10681,1431],[10693,1432],[10729,1460],[10742,1454],[10752,1470]],[[10330,1073],[10328,1067],[10320,1076],[10330,1073]],[[10304,1136],[10301,1126],[10299,1143],[10304,1136]],[[10303,1150],[10305,1147],[10303,1143],[10302,1143],[10302,1146],[10300,1151],[10301,1153],[10303,1152],[10303,1150]]]}
+{
+  "qid": "Q424",
+  "iso_a2": "KH",
+  "iso_a3": "KHM",
+  "name_zh": "柬埔寨",
+  "name_en": "Cambodia",
+  "capital": "金边",
+  "continent": "亚洲",
+  "centroid": [
+    105,
+    12.5
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "km",
+      "name_zh": "高棉语",
+      "name_local": "高棉语",
+      "role": "official",
+      "audio_url": "assets/kh/audio/km.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "សូមស្វាគមន៍មកកាន់ប្រទេសកម្ពុជា ដែលមានរាជធានីគឺក្រុងភ្នំពេញ ហើយលោកអ្នកអាចទស្សនាប្រាសាទអង្គរវត្តដ៏អស្ចារ្យនៅខេត្តសៀមរាប។",
+      "tts_text_zh": "欢迎来到柬埔寨，首都是金边，您还可以在暹粒省参观宏伟的吴哥窟。",
+      "audio_voice": "km-KH-SreymomNeural",
+      "audio_bytes": 52128
+    }
+  ],
+  "summary_text": "柬埔寨王国通称柬埔寨，是位于东南亚中南半岛的君主立宪制国家，首都为金边。柬埔寨地处中南半岛南部，西部及西北部与泰国接壤，东北部与老挝交界，东部及东南部与越南毗邻，南部则面向暹罗湾，国土面积约181,035平方公里。地形呈碟状盆地特征，三面被丘陵与山脉环绕，中部为广阔的湄公河冲积平原，约占全国面积四分之三，是主要农业产区。境内主要水系包括贯穿全境的湄公河及东南亚最大淡水湖洞里萨湖，又称金边湖，该湖具有独特的季节性逆流现象，对当地渔业及农业灌溉具有重要意义。官方语言为高棉语，佛教为国教。经济以农业、纺织业和旅游业为支柱，吴哥窟等世界遗产吸引大量国际游客。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 278,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%9F%AC%E5%9F%94%E5%AF%A8",
+    "title": "柬埔寨"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "公元787年前后，水真腊太阳王朝的都城桑比补罗被夏连特拉王朝攻陷，国王摩希婆提跋摩被杀，王子（后来的阇耶跋摩二世）被虏。水真腊由此受到爪哇的夏连特拉王朝（山帝王朝）统治，直至阇耶跋摩二世从爪哇逃回，称王独立。阇耶跋摩二世统一了水、陆真腊，定都吴哥东北约三十公里的荔枝山，建立了吴哥王朝。吴哥王朝，又称高棉帝国，至12世纪国势臻盛，文化灿烂，版图包括今日柬埔寨全境以及泰、寮、越三国之部分地区。13世纪，上座部佛教由斯里兰卡传来。明宣德五年（1430年）暹罗入侵柬埔寨，包围吴哥城七个月，最后攻破吴哥。由于吴哥太近于暹罗，故放弃吴哥，迁都金边。此后，柬埔寨国势衰败，备受越南、暹罗（泰国）这两个邻国的侵略，史称柬埔寨黑暗时代。下柬埔寨（即湄公河三角洲）亦在这个时期为越南所占据，衍生柬、越长年的世仇。公元1296年，元朝派遣周达观探查吴哥王朝， 访问时间近一年。归国后，周著有《真腊风土记》一书，全面介绍了王朝政经、社会、地理和民俗等方面。全书除介绍章外，另有40个主题章节，后于19世纪被译成法德英等多种文字。该书是吴哥王朝至法国统治前， 最重要或者是唯一的柬埔寨历史文献。欧美列强侵略殖民地时期，1863年沦为法国保护国。第二次世界大战，1942至1945年，日军占领柬埔寨。战后柬埔寨于1953年11月9日脱离法国独立。初时仍为君权体制，即柬埔寨第一王国，西哈努克在位期间奉行中立的政策。1960年代中开始，中、美、苏三国均进驻印度支那半岛侵略与扩张势力。政治博弈下加上越战的影响，柬埔寨开始发生内战。1970年3月18日，由亲美的郎诺将军发动政变，成立高棉共和国，废止君主制，亲中共的西哈努克亲王流亡于北京，其时为越战期间，南越军、美军、龙诺政府军和北越军赤柬军交战导致柬埔寨国内民不聊生。1975年4月17日，由柬埔寨共产党总书记波尔布特领导的红色高棉（或称赤柬）在美军撤离柬埔寨首都金边后予以攻占，建立民主柬埔寨政权，西哈努克亲王重新自朝鲜平壤归国，不过迅速遭到红色高棉软禁。1976年，红色高棉波布当权后宣布废除货币，把全国所有城镇居民驱赶到乡郊，强迫集体务农，并屠杀所有知识分子。当政的三年八个月期间，实行恐怖统治，全国五分一以上人口死于饥荒、劳役、疾病或迫害等原因，是20世纪中最血腥暴力的人为灾难之一。对外方面，红色高棉波布政权由于和越南政权因历史疆界土地纠纷屡起龃龉，甚至出兵进攻越南领土、屠杀越南村民。而又因和中华人民共和国友好且交流密切，时值中苏交恶冲突紧张对抗期间，所以形成柬联中以对抗越苏态势。民主柬埔寨还受到西方国家的拥护，获得联合国代表席次。1978年12月，越南出兵柬埔寨并于1979年1月7日攻陷金边，原高棉人民革命党成员与柬共党内反对势力联合成立柬埔寨人民革命党，建立柬埔寨人民共和国，终结了红色高棉大屠杀。红色高棉败走柬埔寨西北泰国边境，不过柬埔寨人民共和国被视为越南的卫星国，因此未获国际社会多数国家承认，因此红色高棉暂时保住了民主柬埔寨在联合国的席位。但红色高棉随着其暴行证据被越军发现并公开，失去国际社会支持。1989年1月6日，越南人民军从柬埔寨全数撤军。柬埔寨人民共和国更改国名为柬埔寨国，以获得更多的国际认同。1991年，冷战结束，柬埔寨放弃一党制的政治体制和马克思列宁主义，柬埔寨人民革命党改名为柬埔寨人民党。1993年，柬埔寨获联合国援助，举行全国大选，亲王室的奉辛比克党赢得45.5%的选票成为第一大党，洪森领导的人民党居第二。经洪森威胁，两党组织大联合政府。1993年9月24日，柬埔寨制宪议会通过新宪法，恢复君主制及国名柬埔寨王国，三度回国的西哈努克重新登基为国王。后来1997年7月5日洪森发动政变，人民党全面控制新政府。红色高棉的武装势力最终于1998年12月投降。近年来，柬埔寨社会日趋安定，经济恢复，旅游业发展迅速。2008年8月，柬埔寨人民党赢得第四届国会选举（90席）。2013年7月，人民党赢得123个议席中的68个，延续洪森28年来的执政和第五个首相任期，反对党救国党赢得55个议席，比上届大选的29个议席几乎多一倍。2017年10月，柬埔寨政府于最高法院起诉柬埔寨救国党，11月正式解散该党。2018年3月3日，据柬埔寨国家选举委员会公布的第四届参议院选举正式结果，执政党柬埔寨人民党赢得参议院全部58个议席。由于柬埔寨救国党是唯一能够挑战人民党执政地位的反对党，因该党被解散，意味着柬埔寨进入“一党制”。",
+      "chars": 1843
+    },
+    {
+      "section": "饮食",
+      "text": "柬埔寨拥有特别的高棉菜，口味较偏甜及较辛辣，该国出产胡椒、鱼露。用上大量香料、辣椒、胡椒和鱼露等烹调，口味与泰菜接近。由于受到法国殖民统治，所以菜肴有混入了法国的元素，也受到中国和越南等地的口味影响。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "柬埔寨人口超过1,550万人，其中90%左右为高棉族，而少数民族则包括1%的华人、9%的京族、佬族、泰族、占族等20余部，当中有一小部分属于深居山地的原住民部落。柬埔寨的人均寿命目前是71.41岁。",
+      "chars": 1157
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Angkor wat temple.jpg",
+      "caption_zh": "吴哥窟寺庙",
+      "caption": "吴哥窟寺庙",
+      "caption_commons": "Angkor Wat temple, by Andrew Lih",
+      "kw": "Angkor Wat temple",
+      "url": "assets/kh/L01.webp",
+      "thumb_url": "assets/kh/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Angkor_wat_temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "The original uploader was Fuzheado at English Wikipedia.",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 31022,
+      "caption_zh_manual": "吴哥窟",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10610,
+      "size": {
+        "detail": "448x336",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 448x336 36KB JPEG)"
+    },
+    {
+      "title": "File:Angkor Thom, Bayon 08.jpg",
+      "caption_zh": "巴戎寺",
+      "caption": "巴戎寺",
+      "caption_commons": "Detail of the basrelief of Tonle-Sap battle at the Bayon [Bayon Prasat]. Angkor ",
+      "kw": "Bayon Temple Angkor",
+      "url": "assets/kh/L02.webp",
+      "thumb_url": "assets/kh/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Angkor_Thom%2C_Bayon_08.jpg/1920px-Angkor_Thom%2C_Bayon_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "LBM1948",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 274952,
+      "caption_zh_manual": "巴戎寺",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 12848,
+      "size": {
+        "detail": "1080x717",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1275 1415KB JPEG)"
+    },
+    {
+      "title": "File:Ta Prohm.JPG",
+      "caption_zh": "塔布茏寺",
+      "caption": "塔布茏寺",
+      "caption_commons": "Ta Prohm",
+      "kw": "Ta Prohm temple",
+      "url": "assets/kh/L03.webp",
+      "thumb_url": "assets/kh/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ta_Prohm.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Dmitry A. Mottl",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 306126,
+      "caption_zh_manual": "塔布茏寺",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6274,
+      "size": {
+        "detail": "1080x1620",
+        "thumb": "120x180"
+      },
+      "encoding": "webp q75/q78 (源 1365x2048 755KB JPEG)"
+    },
+    {
+      "title": "File:Silverpagoda.jpg",
+      "caption_zh": "银塔",
+      "caption": "银塔",
+      "caption_commons": "Silver Pagoda in Phnom Penh,Cambodia.",
+      "kw": "Silver Pagoda Phnom Penh",
+      "url": "assets/kh/L05.webp",
+      "thumb_url": "assets/kh/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Silverpagoda.jpg/1920px-Silverpagoda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "plusgood",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 144262,
+      "caption_zh_manual": "银塔",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8880,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 754KB JPEG)"
+    },
+    {
+      "title": "File:Cambodia, Tonle Sap IMG 3324.JPG",
+      "caption_zh": "洞里萨湖",
+      "caption": "洞里萨湖",
+      "caption_commons": "The Tonlé Sap (Khmer: Large Fresh Water River, more commonly translated as Great",
+      "kw": "Tonle Sap lake",
+      "url": "assets/kh/L06.webp",
+      "thumb_url": "assets/kh/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Cambodia%2C_Tonle_Sap_IMG_3324.JPG/1920px-Cambodia%2C_Tonle_Sap_IMG_3324.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Deror_avi",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 54900,
+      "caption_zh_manual": "洞里萨湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3454,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 378KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 2.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:31:46+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q5146 (por)-NMaia-Camboja.wav、LL-Q7913 (ron)-KlaudiuMihaila-Cambodgia.wav、LL-Q652 (ita)-Francyskus-Cambogia.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py KH",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "金边王宫：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 278 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "佛教",
+        "evidence": "佛教为国教"
+      }
+    ],
+    "architecture": [],
+    "heritage": [
+      {
+        "v": "吴哥窟",
+        "evidence": "吴哥窟等世界遗产"
+      }
+    ],
+    "keywords": [
+      {
+        "v": "湄公河",
+        "evidence": "贯穿全境的湄公河"
+      },
+      {
+        "v": "洞里萨湖",
+        "evidence": "东南亚最大淡水湖洞里萨湖"
+      },
+      {
+        "v": "高棉语",
+        "evidence": "官方语言为高棉语"
+      },
+      {
+        "v": "吴哥窟",
+        "evidence": "吴哥窟等世界遗产"
+      },
+      {
+        "v": "暹罗湾",
+        "evidence": "南部则面向暹罗湾"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "柬埔寨王国（高棉语：ព្រះរាជាណាចក្រកម្ពុជា，罗马化：Preăh Réachéanachâk Kâmpŭchéa），通称柬埔寨（高棉语：កម្ពុជា，罗马化：Kâmpŭchéa），是位于东南亚中南半岛的君主立宪制国家，首都为金边。为联合国会员国及东南亚国家联盟创始成员国，并参与世界贸易组织、不结盟运动等国际组织。根据世界银行数据，柬埔寨国土面积约181,035平方公里，2025年人口约1,670万，官方语言为高棉语，佛教为国教。\n柬埔寨地处中南半岛南部，西部及西北部与泰国接壤，东北部与老挝交界，东部及东南部与越南毗邻，南部则面向暹罗湾。地形呈碟状盆地特征，三面被丘陵与山脉环绕；中部为广阔的湄公河冲积平原，约占全国面积四分之三，是主要农业产区。境内主要水系包括贯穿全境的湄公河及东南亚最大淡水湖洞里萨湖（又称金边湖），该湖具有独特的季节性逆流现象，对当地渔业及农业灌溉具有重要意义。\n柬埔寨实行君主立宪制，现任国王为诺罗敦·西哈莫尼，首相为洪马内。尽管宪法规定为多党制，但柬埔寨人民党长期主导政坛。经济以农业、纺织业和旅游业为支柱，吴哥窟等世界遗产吸引大量国际游客。",
+  "history_text": "水真腊都城被夏连特拉王朝攻陷、王子被掳，阇耶跋摩二世自爪哇返回称王，统一水陆真腊，建吴哥王朝。至十二世纪国势臻盛，版图远及今泰、老、越部分地区。暹罗入侵攻破吴哥后，因吴哥逼近暹罗而迁都金边，国势自此衰败，下柬埔寨为越南占据。十九世纪沦为法国保护国。",
+  "custom_text": "高棉菜偏甜偏辣，大量使用香料、辣椒、胡椒与鱼露，口味接近泰菜；因法国殖民之故混入法国元素，也受中国与越南口味影响。当地出产胡椒与鱼露，是灶间常备之物。上座部佛教自斯里兰卡传入后扎根乡里，寺庙至今是村社生活的中心。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 124,
+      "folk": 106
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "柬埔寨在哪儿啊？周围都是些什么地方？",
+      "a": "柬埔寨位于东南亚中南半岛南部，西部及西北部与泰国接壤，东北部与老挝交界，东部及东南部与越南毗邻，南部面向暹罗湾。",
+      "tags": [
+        "东南亚",
+        "邻国",
+        "位置"
+      ]
+    },
+    {
+      "q": "柬埔寨的首都是哪里？",
+      "a": "首都是金边。",
+      "tags": [
+        "首都",
+        "金边"
+      ]
+    },
+    {
+      "q": "柬埔寨面积多大？人口多少？",
+      "a": "国土面积约181,035平方公里，2025年人口约1,670万。",
+      "tags": [
+        "面积",
+        "人口"
+      ]
+    },
+    {
+      "q": "柬埔寨人说什么话？",
+      "a": "官方语言是高棉语。",
+      "tags": [
+        "语言",
+        "高棉语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "柬埔寨有什么值得看的地标或景点？",
+      "a": "值得看的有吴哥窟、巴戎寺、塔布茏寺、银塔和洞里萨湖。",
+      "tags": [
+        "景点",
+        "吴哥窟",
+        "地标",
+        "洞里萨湖"
+      ]
+    },
+    {
+      "q": "柬埔寨有什么特别的自然景观？",
+      "a": "有洞里萨湖，又称金边湖，是东南亚最大淡水湖，具有独特的季节性逆流现象，对渔业和农业灌溉很重要。",
+      "tags": [
+        "自然景观",
+        "洞里萨湖",
+        "湖泊"
+      ]
+    },
+    {
+      "q": "柬埔寨的政治体制是什么样的？",
+      "a": "柬埔寨是君主立宪制国家，现任国王为诺罗敦·西哈莫尼，首相为洪马内。宪法规定多党制，但柬埔寨人民党长期主导政坛。",
+      "tags": [
+        "政治",
+        "国王",
+        "首相"
+      ]
+    },
+    {
+      "q": "柬埔寨经济靠什么？",
+      "a": "经济以农业、纺织业和旅游业为支柱，吴哥窟等世界遗产吸引大量国际游客。",
+      "tags": [
+        "经济",
+        "产业",
+        "旅游"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        10752,
+        1470
+      ],
+      [
+        10732,
+        1412
+      ],
+      [
+        10760,
+        1350
+      ],
+      [
+        10746,
+        1302
+      ],
+      [
+        10756,
+        1261
+      ],
+      [
+        10752,
+        1237
+      ],
+      [
+        10742,
+        1225
+      ],
+      [
+        10721,
+        1231
+      ],
+      [
+        10670,
+        1197
+      ],
+      [
+        10639,
+        1197
+      ],
+      [
+        10643,
+        1166
+      ],
+      [
+        10602,
+        1177
+      ],
+      [
+        10593,
+        1164
+      ],
+      [
+        10580,
+        1162
+      ],
+      [
+        10584,
+        1129
+      ],
+      [
+        10616,
+        1105
+      ],
+      [
+        10618,
+        1077
+      ],
+      [
+        10593,
+        1090
+      ],
+      [
+        10588,
+        1083
+      ],
+      [
+        10575,
+        1102
+      ],
+      [
+        10541,
+        1096
+      ],
+      [
+        10532,
+        1084
+      ],
+      [
+        10508,
+        1095
+      ],
+      [
+        10501,
+        1088
+      ],
+      [
+        10504,
+        1069
+      ],
+      [
+        10485,
+        1053
+      ],
+      [
+        10457,
+        1053
+      ],
+      [
+        10447,
+        1042
+      ],
+      [
+        10425,
+        1057
+      ],
+      [
+        10395,
+        1059
+      ],
+      [
+        10387,
+        1070
+      ],
+      [
+        10382,
+        1054
+      ],
+      [
+        10362,
+        1050
+      ],
+      [
+        10350,
+        1062
+      ],
+      [
+        10357,
+        1073
+      ],
+      [
+        10369,
+        1074
+      ],
+      [
+        10372,
+        1090
+      ],
+      [
+        10368,
+        1106
+      ],
+      [
+        10353,
+        1116
+      ],
+      [
+        10347,
+        1115
+      ],
+      [
+        10340,
+        1088
+      ],
+      [
+        10328,
+        1093
+      ],
+      [
+        10313,
+        1088
+      ],
+      [
+        10306,
+        1122
+      ],
+      [
+        10315,
+        1132
+      ],
+      [
+        10306,
+        1145
+      ],
+      [
+        10317,
+        1143
+      ],
+      [
+        10304,
+        1160
+      ],
+      [
+        10296,
+        1156
+      ],
+      [
+        10304,
+        1162
+      ],
+      [
+        10297,
+        1164
+      ],
+      [
+        10299,
+        1170
+      ],
+      [
+        10308,
+        1173
+      ],
+      [
+        10298,
+        1171
+      ],
+      [
+        10289,
+        1183
+      ],
+      [
+        10296,
+        1157
+      ],
+      [
+        10270,
+        1214
+      ],
+      [
+        10276,
+        1244
+      ],
+      [
+        10249,
+        1266
+      ],
+      [
+        10249,
+        1300
+      ],
+      [
+        10233,
+        1328
+      ],
+      [
+        10231,
+        1354
+      ],
+      [
+        10260,
+        1360
+      ],
+      [
+        10254,
+        1367
+      ],
+      [
+        10270,
+        1376
+      ],
+      [
+        10293,
+        1420
+      ],
+      [
+        10364,
+        1444
+      ],
+      [
+        10388,
+        1434
+      ],
+      [
+        10418,
+        1440
+      ],
+      [
+        10454,
+        1436
+      ],
+      [
+        10477,
+        1444
+      ],
+      [
+        10497,
+        1438
+      ],
+      [
+        10505,
+        1421
+      ],
+      [
+        10518,
+        1435
+      ],
+      [
+        10534,
+        1411
+      ],
+      [
+        10553,
+        1416
+      ],
+      [
+        10574,
+        1409
+      ],
+      [
+        10590,
+        1392
+      ],
+      [
+        10607,
+        1392
+      ],
+      [
+        10615,
+        1405
+      ],
+      [
+        10597,
+        1437
+      ],
+      [
+        10617,
+        1437
+      ],
+      [
+        10623,
+        1449
+      ],
+      [
+        10642,
+        1447
+      ],
+      [
+        10651,
+        1459
+      ],
+      [
+        10681,
+        1431
+      ],
+      [
+        10693,
+        1432
+      ],
+      [
+        10729,
+        1460
+      ],
+      [
+        10742,
+        1454
+      ],
+      [
+        10752,
+        1470
+      ]
+    ],
+    [
+      [
+        10330,
+        1073
+      ],
+      [
+        10328,
+        1067
+      ],
+      [
+        10320,
+        1076
+      ],
+      [
+        10330,
+        1073
+      ]
+    ],
+    [
+      [
+        10304,
+        1136
+      ],
+      [
+        10301,
+        1126
+      ],
+      [
+        10299,
+        1143
+      ],
+      [
+        10304,
+        1136
+      ]
+    ],
+    [
+      [
+        10303,
+        1150
+      ],
+      [
+        10305,
+        1147
+      ],
+      [
+        10303,
+        1143
+      ],
+      [
+        10302,
+        1143
+      ],
+      [
+        10302,
+        1146
+      ],
+      [
+        10300,
+        1151
+      ],
+      [
+        10301,
+        1153
+      ],
+      [
+        10303,
+        1152
+      ],
+      [
+        10303,
+        1150
+      ]
+    ]
+  ]
+}

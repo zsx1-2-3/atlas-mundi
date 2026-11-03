@@ -1,1 +1,627 @@
-{"qid":"Q1030","iso_a2":"NA","iso_a3":"NAM","name_zh":"纳米比亚","name_en":"Namibia","capital":"温得和克","continent":"非洲","centroid":[17,-23],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/na/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Namibia, a land of vast horizons and quiet beauty; its capital is Windhoek, and among its landmarks the red dunes of Sossusvlei rise like waves of light in the desert.","tts_text_zh":"欢迎来到纳米比亚，这片视野辽阔、宁静美丽的土地；它的首都是温得和克，而代表地标之一，是索苏斯维利那如沙漠中光之波浪般升起的红色沙丘。","audio_voice":"en-US-AriaNeural","audio_bytes":68688}],"summary_text":"纳米比亚共和国通称纳米比亚，是位于南部非洲西面的共和国。它西部濒临大西洋，北部接壤赞比亚和安哥拉，东部连接博茨瓦纳，南部与南非相邻；虽然纳米比亚与津巴布韦无领土接壤，但两国在赞比西河河岸仅相隔200余米相望。纳米比亚海拔在1,000米至2,000米之间，干旱少雨，属于亚热带和半干旱气候，是撒哈拉沙漠以南非洲最干旱的国家。纳米比亚分为13个行政区和50个地方政府，首都和最大城市是温得和克。最早居住在纳米比亚的是桑人、达马拉人和纳马人；自大约14世纪以来，随着班图人的扩张，班图人的一部分移民抵达纳米比亚，此后班图人的其中一个分支奥万博人占据了纳米比亚，自19世纪后期以来，奥万博人就已经成为纳米比亚的多数人口。纳米比亚于1990年3月21日从南非统治下获得独立，也是联合国、英联邦、非洲联盟和南共体的成员国。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":355,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%BA%B3%E7%B1%B3%E6%AF%94%E4%BA%9A","title":"纳米比亚"},"culture_excerpts":[{"section":"历史","text":"国家的名字来自于纳米布沙漠，这是世界上最古老的沙漠。纳米布这个名字本身源自科伊科伊语，意思是“广阔的地方”。这个词是由Mburumba Kerina选择的，他最初提出了“纳米布共和国”这个名字。 在1990年独立之前，该地区首先被称为德属西南非洲，然后是西南非洲，反映了德国人和南非人的殖民占领。从18世纪末开始，来自南非开普殖民地的奥兰姆人（Oorlam people）越过奥兰治河，进入今天的纳米比亚南部地区。 他们与游牧的纳马部落的接触基本上是和平的。他们很好地接待了陪同奥兰姆的传教士，允许他们使用水坑并且按年支付放牧的费用。 然而，在进一步向北的路上，奥兰姆在温得和克、戈巴比斯和奥卡汉贾遇到了奥瓦-赫雷罗的部族，他们抵制他们的侵占行为。纳马-赫雷罗战争于1880年爆发，在德意志帝国向有争议的地方部署军队并巩固了纳马人、奥拉姆人和赫雷罗人之间的现状后，敌对行动才有所缓和。1878年，当时是英国殖民地的好望角吞并了鲸湾港和近海企鹅群岛；这些地方在1910年新的南非联邦成立时成为其不可分割的一部分。第一个登岸并探索该地区的欧洲人是葡萄牙航海家迪奥戈·康（1485年）和巴尔托洛梅乌·迪亚士（1486年），但葡萄牙人并没有试图占领该地区。与撒哈拉以南非洲的大部分内陆地区一样，纳米比亚直到19世纪才被欧洲人广泛地探索。当时，商人和定居者主要来自德国和瑞典。1870年，芬兰传教士来到纳米比亚北部地区，在奥万博人（Ovambo）和卡万戈人（Kavango）中传播路德教。 19世纪末，Dorsland跋涉者在从德兰士瓦到安哥拉的路上穿过该地区。他们中的一些人在纳米比亚定居，而不是继续他们的旅程。1884年，在奥托·冯·俾斯麦的领导下，纳米比亚成为德国的殖民地，以防止英国的侵占，被称为德属西南非洲。开普敦的英国总督帕尔格雷夫通过委员会（Palgrave Commission）确定，只有鲸湾港这个天然深水港值得占领，因此将其并入英属南非的开普省。从1904年到1907年，赫雷罗人和纳马人拿起武器反对残酷的德国殖民统治。在德国占领者精心策划的惩罚行动中，政府官员下令在奥瓦-赫雷罗和纳马人的种族灭绝行动中消灭土著人。在这场被称为“20世纪第一场种族灭绝”的行动中，德国人系统地杀害了1万名纳马人（占人口的一半）和大约6.5万名赫雷罗人（约占人口的80%）。幸存者在最终从拘留所释放时，受到了剥夺财产、驱逐出境、强迫劳动、种族隔离和歧视的政策，这种制度在许多方面预示了南非1948年建立的种族隔离制度。大多数非洲人被限制在所谓的土著领域上，1949年后在南非的统治下，这些地区变成了“家园”（班图斯坦）。一些历史学家推测，德国在纳米比亚的种族灭绝是纳粹在大屠杀中的典范。种族灭绝的记忆仍然与独立的纳米比亚的民族身份和与德国的关系有关。一战期间的1915年，英军入侵该地，人数不多的德国驻军很快就向南非军队投降，西南非洲被南非占领。1919年，国际联盟将西南非洲交给南非进行委任统治。1946年，联合国托管理事会要求南非将西南非洲作为联合国托管领地，却遭到南非政府拒绝。1949年4月，南非议会通过《西南非洲事务修正法》，将西南非洲作为本国领土对待，并推行种族隔离政策。1958年至1964年间，纳米比亚黑人先后成立西南非洲民族联盟、西南非洲人民组织及西南非洲民族统一民主组织，1966年起，这些组织开始展开反抗南非统治的游击战。1968年6月，联合国大会决议将西南非洲更名为纳米比亚。1980年代，随着国际社会压力增大和南非逐渐实现民主化和种族平等，南非终于同意纳米比亚独立。1990年2月9日，纳米比亚制订了其宪法（英语：Constitution of Namibia）。3月21日，纳米比亚正式宣布独立，萨姆·努乔马成为首任总统。1994年，南非与纳米比亚签订条约，将鲸湾港归还纳米比亚。","chars":1600},{"section":"人口和语言","text":"由于地理环境原因，纳米比亚人口分布极不均衡，40%的人口居住在北方的埃托沙盐湖附近，盐湖附近几个区的人口密度比首都温得和克所在的霍马斯区还高。\n纳米比亚的大部分人是非白种人（84％），其中大部分为奥万博族，约占总人口的一半，主要集中在北部地区。除了占大多数的黑人班图族外，还有大群的科伊桑族（例如纳马族（Nama）和布什曼族），这些人都是南非原住民的后裔。科伊桑族人在外表上与班图族人和白人分别颇大。另外还有共占总人口约8%的“有色人”（Coloureds）和“巴斯特人”（Basters）。以拥有荷兰人、德国人、英国人、法国人或葡萄牙人血统为主的白人占纳米比亚总人口的8%，在撒哈拉沙漠以南的非洲仅次于南非。2011年人口约210万，人口增长率0.873%。","chars":1200}],"landmark_images":[{"title":"File:Namibie Sossusvlei 06.JPG","caption_zh":"索苏斯维利沙丘","caption":"索苏斯维利沙丘","caption_commons":"The clay pan at Sossusvlei filled with water, as it can be seen once in a decade","kw":"Sossusvlei Dunes Namibia","url":"assets/na/L01.webp","thumb_url":"assets/na/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Namibie_Sossusvlei_06.JPG/1920px-Namibie_Sossusvlei_06.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"GIRAUD Patrick","license":"CC BY 2.5","license_url":"https://creativecommons.org/licenses/by/2.5","license_status":"ok","load_verified":true,"bytes":19522,"caption_zh_manual":"索苏斯维利沙丘","caption_zh_source":"llm_from_commons_filename","thumb_bytes":6458,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 382KB JPEG)"},{"title":"File:Dust Cloud in Etosha National Park.jpg","caption_zh":"埃托沙国家公园的尘云","caption":"埃托沙国家公园的尘云","caption_commons":"Dust cloud at the Nebrownii waterhole in Etosha National Park","kw":"Etosha National Park waterhole","url":"assets/na/L02.webp","thumb_url":"assets/na/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Dust_Cloud_in_Etosha_National_Park.jpg/1920px-Dust_Cloud_in_Etosha_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Yathin S Krishnappa","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":36024,"caption_zh_manual":"埃托沙国家公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":9836,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 494KB JPEG)"},{"title":"File:Fish River Canyon - Sand at descend.jpg","caption_zh":"鱼河峡谷下坡处的沙地","caption":"鱼河峡谷下坡处的沙地","caption_commons":"Sandy beach","kw":"Fish River Canyon Namibia","url":"assets/na/L03.webp","thumb_url":"assets/na/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Fish_River_Canyon_-_Sand_at_descend.jpg/1920px-Fish_River_Canyon_-_Sand_at_descend.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"RudiBosbouer","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":81650,"caption_zh_manual":"鱼河峡谷","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22810,"size":{"detail":"760x521","thumb":"400x274"},"encoding":"webp q72/q74 (源 1920x1316 1064KB JPEG)"},{"title":"File:Spitzkoppe Campingplatz.jpg","caption_zh":"斯皮茨科佩岩石露营地","caption":"斯皮茨科佩岩石露营地","caption_commons":"Hügellandschaft rund um die Spitzkoppe, Namibia","kw":"Spitzkoppe Namibia","url":"assets/na/L04.webp","thumb_url":"assets/na/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Spitzkoppe_Campingplatz.jpg/1920px-Spitzkoppe_Campingplatz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Ikiwaner","license":"GFDL 1.2","license_url":"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html","license_status":"ok","load_verified":true,"bytes":49122,"caption_zh_manual":"斯皮茨科佩岩石","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15346,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 692KB JPEG)"},{"title":"File:Namibie Skeleton Coast 01.JPG","caption_zh":"骷髅海岸","caption":"骷髅海岸","caption_commons":"Namibie Skeleton Coast Photographie prise par GIRAUD Patrick","kw":"Skeleton Coast Namibia","url":"assets/na/L05.webp","thumb_url":"assets/na/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Namibie_Skeleton_Coast_01.JPG/1920px-Namibie_Skeleton_Coast_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"GIRAUD Patrick","license":"CC BY 2.5","license_url":"https://creativecommons.org/licenses/by/2.5","license_status":"ok","load_verified":true,"bytes":45860,"caption_zh_manual":"骷髅海岸","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13442,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1277 569KB JPEG)"}],"image_license":"CC BY 2.5","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:46:45+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Namibia.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Namibia.wav、LL-Q33810 (ori)-Psubhashish-ନାମିବିଆ.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py NA","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"大西洋","evidence":"西部濒临大西洋"},{"v":"赞比西河","evidence":"在赞比西河河岸仅相隔200余米相望"},{"v":"亚热带和半干旱气候","evidence":"属于亚热带和半干旱气候"},{"v":"温得和克","evidence":"它的首都和最大城市是温得和克"},{"v":"鲸湾港","evidence":"吞并了鲸湾港港口和企鹅群岛"}],"model":"deepseek-flash"},"summary_text_raw":"纳米比亚共和国（英语：Republic of Namibia），通称纳米比亚（Namibia），是位于南部非洲西面的共和国。它西部濒临大西洋，北部接壤赞比亚和安哥拉，东部连接博茨瓦纳，而在南部则与南非相邻，虽然纳米比亚与津巴布韦无领土接壤，但两国在赞比西河河岸仅相隔200余米相望。纳米比亚海拔在1,000米至2,000米之间，干旱少雨，属于亚热带和半干旱气候。纳米比亚分为13个行政区和50个地方政府，它的首都和最大城市是温得和克。在纳米比亚独立战争之后，纳米比亚于1990年3月21日从南非统治下获得独立。它也是联合国、英联邦、非洲联盟和南共体的成员国。\n纳米比亚是撒哈拉沙漠以南非洲最干旱的国家，最早居住在纳米比亚的是桑人、达马拉人和纳马人。自大约14世纪以来，随着班图人的扩张，班图人的一部分移民抵达纳米比亚。从那时起，班图人的其中一个分支──奥万博人就占据了纳米比亚。自19世纪后期以来，奥万博人就已经成为纳米比亚的多数人口。\n1878年，当时属于英国的开普殖民地吞并了鲸湾港港口和企鹅群岛，而这些地区亦成为南非联邦于1910年成立时的其中一部分。","history_text":"国名取自纳米布沙漠，源自科伊科伊语，意为“广阔的地方”。18世纪末，奥兰姆人自开普殖民地越过奥兰治河进入南部，与游牧的纳马部落和平相处，北上至温得和克一带时遭奥瓦-赫雷罗部族抵制，纳马-赫雷罗战争于1880年爆发，德意志帝国出兵后敌对行动缓和。此后该地先后称德属西南非洲、西南非洲，1990年独立。","custom_text":"北方埃托沙盐湖一带聚居着全国最多的人口，奥万博族多住于此。科伊桑族的纳马人与布什曼人是南非原住民后裔，外表与班图族人、白人差别明显。另有荷兰、德国、英国等血统的白人与有色人、巴斯特人，各自保留着祖辈带来的生活习俗。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":149,"folk":107}},"knowledge_qa":[{"q":"纳米比亚在哪儿啊？周围都是哪些国家？","a":"纳米比亚位于南部非洲西面，西部濒临大西洋，北部接壤赞比亚和安哥拉，东部连接博茨瓦纳，南部与南非相邻。","tags":["非洲","地理位置","邻国","大西洋"]},{"q":"纳米比亚的首都是哪里？","a":"首都和最大城市是温得和克。","tags":["首都","温得和克","城市"]},{"q":"纳米比亚说什么语言？","a":"官方语言是英语。","tags":["语言","英语","官方语言"]},{"q":"纳米比亚有什么值得去看的自然景观？","a":"值得看的有索苏斯维利沙丘、埃托沙国家公园、鱼河峡谷、斯皮茨科佩岩石和骷髅海岸。","tags":["景点","沙漠","国家公园","自然风光"]},{"q":"纳米比亚的气候怎么样？","a":"海拔在1,000米至2,000米之间，干旱少雨，属于亚热带和半干旱气候，是撒哈拉沙漠以南非洲最干旱的国家。","tags":["气候","干旱","天气","温度"]},{"q":"纳米比亚什么时候独立的？","a":"在纳米比亚独立战争之后，于1990年3月21日从南非统治下获得独立。","tags":["独立","历史","1990年"]},{"q":"纳米比亚最早住着哪些人？","a":"最早居住在纳米比亚的是桑人、达马拉人和纳马人。后来班图人的一部分移民抵达，其中奥万博人自19世纪后期以来成为多数人口。","tags":["民族","原住民","历史","人口"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[1649,-2857],[1635,-2856],[1575,-2802],[1530,-2732],[1523,-2695],[1508,-2670],[1517,-2659],[1511,-2642],[1497,-2634],[1498,-2606],[1484,-2575],[1485,-2506],[1446,-2410],[1451,-2389],[1443,-2342],[1449,-2331],[1441,-2297],[1444,-2288],[1446,-2300],[1453,-2290],[1451,-2255],[1340,-2085],[1318,-2019],[1304,-2006],[1245,-1890],[1203,-1850],[1180,-1796],[1172,-1755],[1176,-1727],[1209,-1714],[1224,-1723],[1257,-1724],[1317,-1695],[1348,-1701],[1352,-1712],[1398,-1742],[1845,-1739],[1875,-1774],[1889,-1780],[1977,-1789],[2034,-1786],[2081,-1803],[2116,-1793],[2139,-1801],[2422,-1748],[2504,-1758],[2526,-1779],[2495,-1779],[2456,-1805],[2435,-1796],[2392,-1820],[2361,-1848],[2329,-1800],[2098,-1832],[2098,-2196],[1998,-2200],[1998,-2842],[1957,-2853],[1945,-2870],[1928,-2873],[1929,-2888],[1912,-2896],[1875,-2884],[1817,-2890],[1791,-2878],[1761,-2876],[1758,-2868],[1740,-2870],[1742,-2859],[1732,-2847],[1740,-2840],[1735,-2823],[1721,-2823],[1708,-2803],[1689,-2808],[1677,-2826],[1674,-2848],[1649,-2857]]]}
+{
+  "qid": "Q1030",
+  "iso_a2": "NA",
+  "iso_a3": "NAM",
+  "name_zh": "纳米比亚",
+  "name_en": "Namibia",
+  "capital": "温得和克",
+  "continent": "非洲",
+  "centroid": [
+    17,
+    -23
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/na/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Namibia, a land of vast horizons and quiet beauty; its capital is Windhoek, and among its landmarks the red dunes of Sossusvlei rise like waves of light in the desert.",
+      "tts_text_zh": "欢迎来到纳米比亚，这片视野辽阔、宁静美丽的土地；它的首都是温得和克，而代表地标之一，是索苏斯维利那如沙漠中光之波浪般升起的红色沙丘。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 68688
+    }
+  ],
+  "summary_text": "纳米比亚共和国通称纳米比亚，是位于南部非洲西面的共和国。它西部濒临大西洋，北部接壤赞比亚和安哥拉，东部连接博茨瓦纳，南部与南非相邻；虽然纳米比亚与津巴布韦无领土接壤，但两国在赞比西河河岸仅相隔200余米相望。纳米比亚海拔在1,000米至2,000米之间，干旱少雨，属于亚热带和半干旱气候，是撒哈拉沙漠以南非洲最干旱的国家。纳米比亚分为13个行政区和50个地方政府，首都和最大城市是温得和克。最早居住在纳米比亚的是桑人、达马拉人和纳马人；自大约14世纪以来，随着班图人的扩张，班图人的一部分移民抵达纳米比亚，此后班图人的其中一个分支奥万博人占据了纳米比亚，自19世纪后期以来，奥万博人就已经成为纳米比亚的多数人口。纳米比亚于1990年3月21日从南非统治下获得独立，也是联合国、英联邦、非洲联盟和南共体的成员国。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 355,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%BA%B3%E7%B1%B3%E6%AF%94%E4%BA%9A",
+    "title": "纳米比亚"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "国家的名字来自于纳米布沙漠，这是世界上最古老的沙漠。纳米布这个名字本身源自科伊科伊语，意思是“广阔的地方”。这个词是由Mburumba Kerina选择的，他最初提出了“纳米布共和国”这个名字。 在1990年独立之前，该地区首先被称为德属西南非洲，然后是西南非洲，反映了德国人和南非人的殖民占领。从18世纪末开始，来自南非开普殖民地的奥兰姆人（Oorlam people）越过奥兰治河，进入今天的纳米比亚南部地区。 他们与游牧的纳马部落的接触基本上是和平的。他们很好地接待了陪同奥兰姆的传教士，允许他们使用水坑并且按年支付放牧的费用。 然而，在进一步向北的路上，奥兰姆在温得和克、戈巴比斯和奥卡汉贾遇到了奥瓦-赫雷罗的部族，他们抵制他们的侵占行为。纳马-赫雷罗战争于1880年爆发，在德意志帝国向有争议的地方部署军队并巩固了纳马人、奥拉姆人和赫雷罗人之间的现状后，敌对行动才有所缓和。1878年，当时是英国殖民地的好望角吞并了鲸湾港和近海企鹅群岛；这些地方在1910年新的南非联邦成立时成为其不可分割的一部分。第一个登岸并探索该地区的欧洲人是葡萄牙航海家迪奥戈·康（1485年）和巴尔托洛梅乌·迪亚士（1486年），但葡萄牙人并没有试图占领该地区。与撒哈拉以南非洲的大部分内陆地区一样，纳米比亚直到19世纪才被欧洲人广泛地探索。当时，商人和定居者主要来自德国和瑞典。1870年，芬兰传教士来到纳米比亚北部地区，在奥万博人（Ovambo）和卡万戈人（Kavango）中传播路德教。 19世纪末，Dorsland跋涉者在从德兰士瓦到安哥拉的路上穿过该地区。他们中的一些人在纳米比亚定居，而不是继续他们的旅程。1884年，在奥托·冯·俾斯麦的领导下，纳米比亚成为德国的殖民地，以防止英国的侵占，被称为德属西南非洲。开普敦的英国总督帕尔格雷夫通过委员会（Palgrave Commission）确定，只有鲸湾港这个天然深水港值得占领，因此将其并入英属南非的开普省。从1904年到1907年，赫雷罗人和纳马人拿起武器反对残酷的德国殖民统治。在德国占领者精心策划的惩罚行动中，政府官员下令在奥瓦-赫雷罗和纳马人的种族灭绝行动中消灭土著人。在这场被称为“20世纪第一场种族灭绝”的行动中，德国人系统地杀害了1万名纳马人（占人口的一半）和大约6.5万名赫雷罗人（约占人口的80%）。幸存者在最终从拘留所释放时，受到了剥夺财产、驱逐出境、强迫劳动、种族隔离和歧视的政策，这种制度在许多方面预示了南非1948年建立的种族隔离制度。大多数非洲人被限制在所谓的土著领域上，1949年后在南非的统治下，这些地区变成了“家园”（班图斯坦）。一些历史学家推测，德国在纳米比亚的种族灭绝是纳粹在大屠杀中的典范。种族灭绝的记忆仍然与独立的纳米比亚的民族身份和与德国的关系有关。一战期间的1915年，英军入侵该地，人数不多的德国驻军很快就向南非军队投降，西南非洲被南非占领。1919年，国际联盟将西南非洲交给南非进行委任统治。1946年，联合国托管理事会要求南非将西南非洲作为联合国托管领地，却遭到南非政府拒绝。1949年4月，南非议会通过《西南非洲事务修正法》，将西南非洲作为本国领土对待，并推行种族隔离政策。1958年至1964年间，纳米比亚黑人先后成立西南非洲民族联盟、西南非洲人民组织及西南非洲民族统一民主组织，1966年起，这些组织开始展开反抗南非统治的游击战。1968年6月，联合国大会决议将西南非洲更名为纳米比亚。1980年代，随着国际社会压力增大和南非逐渐实现民主化和种族平等，南非终于同意纳米比亚独立。1990年2月9日，纳米比亚制订了其宪法（英语：Constitution of Namibia）。3月21日，纳米比亚正式宣布独立，萨姆·努乔马成为首任总统。1994年，南非与纳米比亚签订条约，将鲸湾港归还纳米比亚。",
+      "chars": 1600
+    },
+    {
+      "section": "人口和语言",
+      "text": "由于地理环境原因，纳米比亚人口分布极不均衡，40%的人口居住在北方的埃托沙盐湖附近，盐湖附近几个区的人口密度比首都温得和克所在的霍马斯区还高。\n纳米比亚的大部分人是非白种人（84％），其中大部分为奥万博族，约占总人口的一半，主要集中在北部地区。除了占大多数的黑人班图族外，还有大群的科伊桑族（例如纳马族（Nama）和布什曼族），这些人都是南非原住民的后裔。科伊桑族人在外表上与班图族人和白人分别颇大。另外还有共占总人口约8%的“有色人”（Coloureds）和“巴斯特人”（Basters）。以拥有荷兰人、德国人、英国人、法国人或葡萄牙人血统为主的白人占纳米比亚总人口的8%，在撒哈拉沙漠以南的非洲仅次于南非。2011年人口约210万，人口增长率0.873%。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Namibie Sossusvlei 06.JPG",
+      "caption_zh": "索苏斯维利沙丘",
+      "caption": "索苏斯维利沙丘",
+      "caption_commons": "The clay pan at Sossusvlei filled with water, as it can be seen once in a decade",
+      "kw": "Sossusvlei Dunes Namibia",
+      "url": "assets/na/L01.webp",
+      "thumb_url": "assets/na/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Namibie_Sossusvlei_06.JPG/1920px-Namibie_Sossusvlei_06.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "GIRAUD Patrick",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 38978,
+      "caption_zh_manual": "索苏斯维利沙丘",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3264,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 382KB JPEG)"
+    },
+    {
+      "title": "File:Dust Cloud in Etosha National Park.jpg",
+      "caption_zh": "埃托沙国家公园的尘云",
+      "caption": "埃托沙国家公园的尘云",
+      "caption_commons": "Dust cloud at the Nebrownii waterhole in Etosha National Park",
+      "kw": "Etosha National Park waterhole",
+      "url": "assets/na/L02.webp",
+      "thumb_url": "assets/na/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Dust_Cloud_in_Etosha_National_Park.jpg/1920px-Dust_Cloud_in_Etosha_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Yathin S Krishnappa",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 76514,
+      "caption_zh_manual": "埃托沙国家公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4174,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 494KB JPEG)"
+    },
+    {
+      "title": "File:Fish River Canyon - Sand at descend.jpg",
+      "caption_zh": "鱼河峡谷下坡处的沙地",
+      "caption": "鱼河峡谷下坡处的沙地",
+      "caption_commons": "Sandy beach",
+      "kw": "Fish River Canyon Namibia",
+      "url": "assets/na/L03.webp",
+      "thumb_url": "assets/na/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Fish_River_Canyon_-_Sand_at_descend.jpg/1920px-Fish_River_Canyon_-_Sand_at_descend.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "RudiBosbouer",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 190460,
+      "caption_zh_manual": "鱼河峡谷",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9934,
+      "size": {
+        "detail": "1080x740",
+        "thumb": "240x164"
+      },
+      "encoding": "webp q75/q78 (源 1920x1316 1064KB JPEG)"
+    },
+    {
+      "title": "File:Spitzkoppe Campingplatz.jpg",
+      "caption_zh": "斯皮茨科佩岩石露营地",
+      "caption": "斯皮茨科佩岩石露营地",
+      "caption_commons": "Hügellandschaft rund um die Spitzkoppe, Namibia",
+      "kw": "Spitzkoppe Namibia",
+      "url": "assets/na/L04.webp",
+      "thumb_url": "assets/na/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Spitzkoppe_Campingplatz.jpg/1920px-Spitzkoppe_Campingplatz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Ikiwaner",
+      "license": "GFDL 1.2",
+      "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 108428,
+      "caption_zh_manual": "斯皮茨科佩岩石",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7232,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 692KB JPEG)"
+    },
+    {
+      "title": "File:Namibie Skeleton Coast 01.JPG",
+      "caption_zh": "骷髅海岸",
+      "caption": "骷髅海岸",
+      "caption_commons": "Namibie Skeleton Coast Photographie prise par GIRAUD Patrick",
+      "kw": "Skeleton Coast Namibia",
+      "url": "assets/na/L05.webp",
+      "thumb_url": "assets/na/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Namibie_Skeleton_Coast_01.JPG/1920px-Namibie_Skeleton_Coast_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "GIRAUD Patrick",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 95862,
+      "caption_zh_manual": "骷髅海岸",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5928,
+      "size": {
+        "detail": "1080x718",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1277 569KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY 2.5",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:46:45+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Namibia.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Namibia.wav、LL-Q33810 (ori)-Psubhashish-ନାମିବିଆ.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py NA",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "大西洋",
+        "evidence": "西部濒临大西洋"
+      },
+      {
+        "v": "赞比西河",
+        "evidence": "在赞比西河河岸仅相隔200余米相望"
+      },
+      {
+        "v": "亚热带和半干旱气候",
+        "evidence": "属于亚热带和半干旱气候"
+      },
+      {
+        "v": "温得和克",
+        "evidence": "它的首都和最大城市是温得和克"
+      },
+      {
+        "v": "鲸湾港",
+        "evidence": "吞并了鲸湾港港口和企鹅群岛"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "纳米比亚共和国（英语：Republic of Namibia），通称纳米比亚（Namibia），是位于南部非洲西面的共和国。它西部濒临大西洋，北部接壤赞比亚和安哥拉，东部连接博茨瓦纳，而在南部则与南非相邻，虽然纳米比亚与津巴布韦无领土接壤，但两国在赞比西河河岸仅相隔200余米相望。纳米比亚海拔在1,000米至2,000米之间，干旱少雨，属于亚热带和半干旱气候。纳米比亚分为13个行政区和50个地方政府，它的首都和最大城市是温得和克。在纳米比亚独立战争之后，纳米比亚于1990年3月21日从南非统治下获得独立。它也是联合国、英联邦、非洲联盟和南共体的成员国。\n纳米比亚是撒哈拉沙漠以南非洲最干旱的国家，最早居住在纳米比亚的是桑人、达马拉人和纳马人。自大约14世纪以来，随着班图人的扩张，班图人的一部分移民抵达纳米比亚。从那时起，班图人的其中一个分支──奥万博人就占据了纳米比亚。自19世纪后期以来，奥万博人就已经成为纳米比亚的多数人口。\n1878年，当时属于英国的开普殖民地吞并了鲸湾港港口和企鹅群岛，而这些地区亦成为南非联邦于1910年成立时的其中一部分。",
+  "history_text": "国名取自纳米布沙漠，源自科伊科伊语，意为“广阔的地方”。18世纪末，奥兰姆人自开普殖民地越过奥兰治河进入南部，与游牧的纳马部落和平相处，北上至温得和克一带时遭奥瓦-赫雷罗部族抵制，纳马-赫雷罗战争于1880年爆发，德意志帝国出兵后敌对行动缓和。此后该地先后称德属西南非洲、西南非洲，1990年独立。",
+  "custom_text": "北方埃托沙盐湖一带聚居着全国最多的人口，奥万博族多住于此。科伊桑族的纳马人与布什曼人是南非原住民后裔，外表与班图族人、白人差别明显。另有荷兰、德国、英国等血统的白人与有色人、巴斯特人，各自保留着祖辈带来的生活习俗。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 149,
+      "folk": 107
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "纳米比亚在哪儿啊？周围都是哪些国家？",
+      "a": "纳米比亚位于南部非洲西面，西部濒临大西洋，北部接壤赞比亚和安哥拉，东部连接博茨瓦纳，南部与南非相邻。",
+      "tags": [
+        "非洲",
+        "地理位置",
+        "邻国",
+        "大西洋"
+      ]
+    },
+    {
+      "q": "纳米比亚的首都是哪里？",
+      "a": "首都和最大城市是温得和克。",
+      "tags": [
+        "首都",
+        "温得和克",
+        "城市"
+      ]
+    },
+    {
+      "q": "纳米比亚说什么语言？",
+      "a": "官方语言是英语。",
+      "tags": [
+        "语言",
+        "英语",
+        "官方语言"
+      ]
+    },
+    {
+      "q": "纳米比亚有什么值得去看的自然景观？",
+      "a": "值得看的有索苏斯维利沙丘、埃托沙国家公园、鱼河峡谷、斯皮茨科佩岩石和骷髅海岸。",
+      "tags": [
+        "景点",
+        "沙漠",
+        "国家公园",
+        "自然风光"
+      ]
+    },
+    {
+      "q": "纳米比亚的气候怎么样？",
+      "a": "海拔在1,000米至2,000米之间，干旱少雨，属于亚热带和半干旱气候，是撒哈拉沙漠以南非洲最干旱的国家。",
+      "tags": [
+        "气候",
+        "干旱",
+        "天气",
+        "温度"
+      ]
+    },
+    {
+      "q": "纳米比亚什么时候独立的？",
+      "a": "在纳米比亚独立战争之后，于1990年3月21日从南非统治下获得独立。",
+      "tags": [
+        "独立",
+        "历史",
+        "1990年"
+      ]
+    },
+    {
+      "q": "纳米比亚最早住着哪些人？",
+      "a": "最早居住在纳米比亚的是桑人、达马拉人和纳马人。后来班图人的一部分移民抵达，其中奥万博人自19世纪后期以来成为多数人口。",
+      "tags": [
+        "民族",
+        "原住民",
+        "历史",
+        "人口"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        1649,
+        -2857
+      ],
+      [
+        1635,
+        -2856
+      ],
+      [
+        1575,
+        -2802
+      ],
+      [
+        1530,
+        -2732
+      ],
+      [
+        1523,
+        -2695
+      ],
+      [
+        1508,
+        -2670
+      ],
+      [
+        1517,
+        -2659
+      ],
+      [
+        1511,
+        -2642
+      ],
+      [
+        1497,
+        -2634
+      ],
+      [
+        1498,
+        -2606
+      ],
+      [
+        1484,
+        -2575
+      ],
+      [
+        1485,
+        -2506
+      ],
+      [
+        1446,
+        -2410
+      ],
+      [
+        1451,
+        -2389
+      ],
+      [
+        1443,
+        -2342
+      ],
+      [
+        1449,
+        -2331
+      ],
+      [
+        1441,
+        -2297
+      ],
+      [
+        1444,
+        -2288
+      ],
+      [
+        1446,
+        -2300
+      ],
+      [
+        1453,
+        -2290
+      ],
+      [
+        1451,
+        -2255
+      ],
+      [
+        1340,
+        -2085
+      ],
+      [
+        1318,
+        -2019
+      ],
+      [
+        1304,
+        -2006
+      ],
+      [
+        1245,
+        -1890
+      ],
+      [
+        1203,
+        -1850
+      ],
+      [
+        1180,
+        -1796
+      ],
+      [
+        1172,
+        -1755
+      ],
+      [
+        1176,
+        -1727
+      ],
+      [
+        1209,
+        -1714
+      ],
+      [
+        1224,
+        -1723
+      ],
+      [
+        1257,
+        -1724
+      ],
+      [
+        1317,
+        -1695
+      ],
+      [
+        1348,
+        -1701
+      ],
+      [
+        1352,
+        -1712
+      ],
+      [
+        1398,
+        -1742
+      ],
+      [
+        1845,
+        -1739
+      ],
+      [
+        1875,
+        -1774
+      ],
+      [
+        1889,
+        -1780
+      ],
+      [
+        1977,
+        -1789
+      ],
+      [
+        2034,
+        -1786
+      ],
+      [
+        2081,
+        -1803
+      ],
+      [
+        2116,
+        -1793
+      ],
+      [
+        2139,
+        -1801
+      ],
+      [
+        2422,
+        -1748
+      ],
+      [
+        2504,
+        -1758
+      ],
+      [
+        2526,
+        -1779
+      ],
+      [
+        2495,
+        -1779
+      ],
+      [
+        2456,
+        -1805
+      ],
+      [
+        2435,
+        -1796
+      ],
+      [
+        2392,
+        -1820
+      ],
+      [
+        2361,
+        -1848
+      ],
+      [
+        2329,
+        -1800
+      ],
+      [
+        2098,
+        -1832
+      ],
+      [
+        2098,
+        -2196
+      ],
+      [
+        1998,
+        -2200
+      ],
+      [
+        1998,
+        -2842
+      ],
+      [
+        1957,
+        -2853
+      ],
+      [
+        1945,
+        -2870
+      ],
+      [
+        1928,
+        -2873
+      ],
+      [
+        1929,
+        -2888
+      ],
+      [
+        1912,
+        -2896
+      ],
+      [
+        1875,
+        -2884
+      ],
+      [
+        1817,
+        -2890
+      ],
+      [
+        1791,
+        -2878
+      ],
+      [
+        1761,
+        -2876
+      ],
+      [
+        1758,
+        -2868
+      ],
+      [
+        1740,
+        -2870
+      ],
+      [
+        1742,
+        -2859
+      ],
+      [
+        1732,
+        -2847
+      ],
+      [
+        1740,
+        -2840
+      ],
+      [
+        1735,
+        -2823
+      ],
+      [
+        1721,
+        -2823
+      ],
+      [
+        1708,
+        -2803
+      ],
+      [
+        1689,
+        -2808
+      ],
+      [
+        1677,
+        -2826
+      ],
+      [
+        1674,
+        -2848
+      ],
+      [
+        1649,
+        -2857
+      ]
+    ]
+  ]
+}

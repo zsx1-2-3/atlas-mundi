@@ -1,1 +1,349 @@
-{"qid":"Q784","iso_a2":"DM","iso_a3":"DMA","name_zh":"多米尼克","name_en":"Dominica","capital":"罗索","continent":"北美洲","centroid":[-61.3333,15.4167],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/dm/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Dominica, a Caribbean island where nature still breathes freely; its capital, Roseau, sits along a lively bay, and nearby you can find the steaming Boiling Lake, a landmark of wild volcanic beauty.","tts_text_zh":"欢迎来到多米尼克，这座加勒比海岛国至今仍让自然自由呼吸；首都罗索坐落在一片热闹的海湾旁，附近便是蒸汽腾腾的沸湖，一处野性火山之美的地标。","audio_voice":"en-US-AriaNeural","audio_bytes":80064}],"summary_text":"多米尼克国通称多米尼克，是位于中美洲加勒比海的岛国，属于小安的列斯群岛中的向风群岛。其西北部邻近法国的海外省瓜德罗普，东南偏南邻近马提尼克，陆地面积为750平方公里。多米尼克是加勒比海的自然岛，也是小安的列斯群岛中最年轻的岛屿，仍不断受到地热和火山活动的影响。全岛最高点为迪亚布洛廷火山，海拔1447米。岛内分布有茂密的山地雨林，是许多珍稀植物、动物和鸟类的家园，世界第二大温泉沸湖即位于岛内。西部沿海地区有一些干旱地区，但内陆地区会出现强降雨。首都罗索位于岛的西侧。多米尼克是仅有的两个官方国旗中存在紫色的主权国家之一。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":261,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%B1%B3%E5%B0%BC%E5%85%8B","title":"多米尼克"},"culture_excerpts":[{"section":"历史","text":"多米尼克是加勒比海最后成为欧洲殖民地的岛。法国率先将该岛占领，其后1763年，法国在七年战争中战败，将多米尼克交给英国。1978年多米尼克独立。1980年，多米尼克独裁政府被推翻，改选玛丽·尤金妮亚·查尔斯为总理，从此国家开始兴旺。她是加勒比海国家中的第一个女性总理，在职15年。","chars":140}],"landmark_images":[{"title":"File:Dominica Boiling Lake.jpg","caption_zh":"多米尼克沸腾湖","caption":"多米尼克沸腾湖","caption_commons":"The Boiling Lake at the Valley of Desolation in Dominica","kw":"Boiling Lake Dominica","url":"assets/dm/L01.webp","thumb_url":"assets/dm/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/e/e1/Dominica_boiling_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"No machine-readable author provided. Pembo13 assumed (based on copyright claims).","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":23876,"caption_zh_manual":"沸腾湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11022,"size":{"detail":"640x480","thumb":"400x300"},"encoding":"webp q72/q74 (源 640x480 50KB JPEG)"},{"title":"File:Trafalgar Falls at Morne Trois Pitons National Park.jpg","caption_zh":"莫恩特鲁瓦皮通国家公园内的特拉法加瀑布","caption":"莫恩特鲁瓦皮通国家公园内的特拉法加瀑布","caption_commons":"Trafalgar Falls at Morne Trois Pitons National Park","kw":"Trafalgar Falls Dominica","url":"assets/dm/L02.webp","thumb_url":"assets/dm/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Trafalgar_Falls_at_Morne_Trois_Pitons_National_Park.jpg/1920px-Trafalgar_Falls_at_Morne_Trois_Pitons_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Nelro (talk)","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":91268,"caption_zh_manual":"特拉法加瀑布","caption_zh_source":"llm_from_commons_filename","thumb_bytes":27602,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 818KB JPEG)"},{"title":"File:Scotts Head Dominica.JPG","caption_zh":"斯科茨角","caption":"斯科茨角","caption_commons":"View of Scott's Head Village, taken from Scott's Head, Dominica. The town of Sou","kw":"Scotts Head Dominica","url":"assets/dm/L04.webp","thumb_url":"assets/dm/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Scotts_Head_Dominica.JPG/1920px-Scotts_Head_Dominica.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Aneil Lutchman","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":40964,"caption_zh_manual":"斯科茨角","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11148,"size":{"detail":"760x386","thumb":"400x203"},"encoding":"webp q72/q74 (源 1920x974 491KB JPEG)"},{"title":"File:STS126indianriver.JPG","caption_zh":"印第安河航拍","caption":"印第安河航拍","caption_commons":"STS-126 launch viewed over the Indian River at Titusville.","kw":"Indian River Dominica","url":"assets/dm/L05.webp","thumb_url":"assets/dm/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/STS126indianriver.JPG/1920px-STS126indianriver.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Yeti Hunter (talk)","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":29632,"caption_zh_manual":"印第安河","caption_zh_source":"llm_from_commons_filename","thumb_bytes":9362,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 467KB JPEG)"},{"title":"File:Roseau, Dominica.jpg","caption_zh":"罗索老城","caption":"罗索老城","caption_commons":"This is Windsor Park, the country's national stadium. it is used primarily for c","kw":"Roseau Dominica town","url":"assets/dm/L06.webp","thumb_url":"assets/dm/L06.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Roseau%2C_Dominica.jpg/1920px-Roseau%2C_Dominica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Larry Syverson","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":85372,"thumb_bytes":25630,"size":{"detail":"760x512","thumb":"400x269"},"encoding":"webp q72/q74 (源 1920x1293 872KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T16:05:57+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Dominica.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Dominica.wav、LL-Q652 (ita)-Francyskus-Dominica.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py DM","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","香槟礁：Wikidata / 维基 / Commons 都没有可用图","摘要 261 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[warn] continent：摘要称位于中美洲加勒比海，与北美洲标注不一致 → 统一为北美洲或中美洲口径","香槟礁：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 4 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"沸湖","evidence":"世界第二大温泉沸湖"},{"v":"山地雨林","evidence":"岛内有茂密的山地雨林"},{"v":"迪亚布洛廷火山","evidence":"最高点为迪亚布洛廷火山"},{"v":"加勒比海的自然岛","evidence":"被称为“加勒比海的自然岛”"},{"v":"紫色国旗","evidence":"官方国旗中存在紫色"}],"model":"deepseek-flash"},"summary_text_raw":"多米尼克国（英语：Commonwealth of Dominica），通称多米尼克（英语：Dominica），是位于中美洲加勒比海的岛国，它是小安的列斯群岛中的向风群岛的一部分。其首都罗索位于岛的西侧。多米尼克最近的邻居是法国的两个海外省，西北部的瓜德罗普和东南偏南的马提尼克。多米尼克的陆地面积为 750 平方公里（290 平方英里），最高点为迪亚布洛廷火山，海拔 1,447 米（4,747 英尺）。\n公元5世纪，阿拉瓦克人从南美洲来到该岛定居。到15世纪，加勒比人取代了阿拉瓦克人。17世纪90年代到1763年，法国人殖民了该岛并将奴隶从西非贩卖到多米尼克的咖啡种植园工作。1763年，英国在七年战争中战胜法国后取得该岛。1978年，多米尼克独立。\n多米尼克因其自然环境而被称为“加勒比海的自然岛”。它是小安的列斯群岛中最年轻的岛屿，并且仍不断地受到地热和火山活动的影响。岛内的世界第二大温泉沸湖就是明证。岛内有茂密的山地雨林，是许多珍稀植物、动物和鸟类的家园。西部沿海地区有一些干旱地区，但内陆地区会出现强降雨。多米尼克是仅有的两个官方国旗中存在紫色的主权国家之一。","history_text":"加勒比海最后成为欧洲殖民地的岛屿，法国率先占领，七年战争战败后于1763年交给英国。1978年独立。1980年独裁政府被推翻，改选玛丽·尤金妮亚·查尔斯为总理，国家从此开始兴旺；她是加勒比海国家中第一个女性总理，在职十五年。","custom_text":"岛上人家的灶台离不开根茎与果实：山药、芋头、青香蕉常与咸鱼同煮，椰奶炖豆子是家常味。克里奥尔语在日常里比英语更亲，集市上讨价还价、邻里招呼都用它。周日礼拜后，人们换上整洁衣裳走亲访友；独立纪念日前后的克里奥尔节上，老太太们支起油锅炸鱼和馅饼，年轻人跳着 quadrille 与 bélé，鼓点从午后响到夜里。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":112,"folk":154}},"knowledge_qa":[{"q":"多米尼克在哪儿啊？","a":"位于中美洲加勒比海，是小安的列斯群岛中向风群岛的一部分，西北邻瓜德罗普，东南偏南邻马提尼克。","tags":["加勒比海","位置","岛国"]},{"q":"多米尼克首都叫什么？","a":"首都罗索，位于岛的西侧。","tags":["首都","罗索"]},{"q":"多米尼克面积多大？最高点在哪？","a":"陆地面积750平方公里，最高点是迪亚布洛廷火山，海拔1,447米。","tags":["面积","最高峰","火山"]},{"q":"多米尼克说什么语言？","a":"官方语言是英语。","tags":["语言","英语","说什么话"]},{"q":"多米尼克有什么值得看的地标？","a":"有沸腾湖、特拉法加瀑布、斯科茨角、印第安河和维多利亚瀑布。","tags":["地标","景点","瀑布","沸湖"]},{"q":"多米尼克为什么叫自然岛？","a":"因其自然环境得名，有茂密山地雨林、珍稀动植物，还有世界第二大温泉沸湖。","tags":["自然岛","雨林","沸湖","温泉"]},{"q":"多米尼克有什么历史背景？","a":"5世纪阿拉瓦克人定居，15世纪加勒比人取代，17世纪90年代至1763年法国殖民，1763年英国取得，1978年独立。","tags":["历史","殖民","独立"]},{"q":"多米尼克国旗有什么特别？","a":"它是仅有的两个官方国旗中存在紫色的主权国家之一。","tags":["国旗","紫色","冷知识"]}],"llm_audit":{"issues":[{"field":"continent","severity":"warn","why":"摘要称位于中美洲加勒比海，与北美洲标注不一致","suggest":"统一为北美洲或中美洲口径"}],"overall":"warn"},"audio_meta":{},"outline":[[[-6136,1520],[-6147,1563],[-6131,1558],[-6126,1547],[-6126,1528],[-6136,1520]]]}
+{
+  "qid": "Q784",
+  "iso_a2": "DM",
+  "iso_a3": "DMA",
+  "name_zh": "多米尼克",
+  "name_en": "Dominica",
+  "capital": "罗索",
+  "continent": "北美洲",
+  "centroid": [
+    -61.3333,
+    15.4167
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/dm/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Dominica, a Caribbean island where nature still breathes freely; its capital, Roseau, sits along a lively bay, and nearby you can find the steaming Boiling Lake, a landmark of wild volcanic beauty.",
+      "tts_text_zh": "欢迎来到多米尼克，这座加勒比海岛国至今仍让自然自由呼吸；首都罗索坐落在一片热闹的海湾旁，附近便是蒸汽腾腾的沸湖，一处野性火山之美的地标。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 80064
+    }
+  ],
+  "summary_text": "多米尼克国通称多米尼克，是位于中美洲加勒比海的岛国，属于小安的列斯群岛中的向风群岛。其西北部邻近法国的海外省瓜德罗普，东南偏南邻近马提尼克，陆地面积为750平方公里。多米尼克是加勒比海的自然岛，也是小安的列斯群岛中最年轻的岛屿，仍不断受到地热和火山活动的影响。全岛最高点为迪亚布洛廷火山，海拔1447米。岛内分布有茂密的山地雨林，是许多珍稀植物、动物和鸟类的家园，世界第二大温泉沸湖即位于岛内。西部沿海地区有一些干旱地区，但内陆地区会出现强降雨。首都罗索位于岛的西侧。多米尼克是仅有的两个官方国旗中存在紫色的主权国家之一。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 261,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E7%B1%B3%E5%B0%BC%E5%85%8B",
+    "title": "多米尼克"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "多米尼克是加勒比海最后成为欧洲殖民地的岛。法国率先将该岛占领，其后1763年，法国在七年战争中战败，将多米尼克交给英国。1978年多米尼克独立。1980年，多米尼克独裁政府被推翻，改选玛丽·尤金妮亚·查尔斯为总理，从此国家开始兴旺。她是加勒比海国家中的第一个女性总理，在职15年。",
+      "chars": 140
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Dominica Boiling Lake.jpg",
+      "caption_zh": "多米尼克沸腾湖",
+      "caption": "多米尼克沸腾湖",
+      "caption_commons": "The Boiling Lake at the Valley of Desolation in Dominica",
+      "kw": "Boiling Lake Dominica",
+      "url": "assets/dm/L01.webp",
+      "thumb_url": "assets/dm/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Dominica_boiling_lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "No machine-readable author provided. Pembo13 assumed (based on copyright claims).",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 24898,
+      "caption_zh_manual": "沸腾湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5246,
+      "size": {
+        "detail": "640x480",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 640x480 50KB JPEG)"
+    },
+    {
+      "title": "File:Trafalgar Falls at Morne Trois Pitons National Park.jpg",
+      "caption_zh": "莫恩特鲁瓦皮通国家公园内的特拉法加瀑布",
+      "caption": "莫恩特鲁瓦皮通国家公园内的特拉法加瀑布",
+      "caption_commons": "Trafalgar Falls at Morne Trois Pitons National Park",
+      "kw": "Trafalgar Falls Dominica",
+      "url": "assets/dm/L02.webp",
+      "thumb_url": "assets/dm/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Trafalgar_Falls_at_Morne_Trois_Pitons_National_Park.jpg/1920px-Trafalgar_Falls_at_Morne_Trois_Pitons_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Nelro (talk)",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 178878,
+      "caption_zh_manual": "特拉法加瀑布",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11802,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 818KB JPEG)"
+    },
+    {
+      "title": "File:Scotts Head Dominica.JPG",
+      "caption_zh": "斯科茨角",
+      "caption": "斯科茨角",
+      "caption_commons": "View of Scott's Head Village, taken from Scott's Head, Dominica. The town of Sou",
+      "kw": "Scotts Head Dominica",
+      "url": "assets/dm/L04.webp",
+      "thumb_url": "assets/dm/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Scotts_Head_Dominica.JPG/1920px-Scotts_Head_Dominica.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Aneil Lutchman",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 86680,
+      "caption_zh_manual": "斯科茨角",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4974,
+      "size": {
+        "detail": "1080x548",
+        "thumb": "240x122"
+      },
+      "encoding": "webp q75/q78 (源 1920x974 491KB JPEG)"
+    },
+    {
+      "title": "File:STS126indianriver.JPG",
+      "caption_zh": "印第安河航拍",
+      "caption": "印第安河航拍",
+      "caption_commons": "STS-126 launch viewed over the Indian River at Titusville.",
+      "kw": "Indian River Dominica",
+      "url": "assets/dm/L05.webp",
+      "thumb_url": "assets/dm/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/STS126indianriver.JPG/1920px-STS126indianriver.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Yeti Hunter (talk)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 58118,
+      "caption_zh_manual": "印第安河",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4352,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 467KB JPEG)"
+    },
+    {
+      "title": "File:Roseau, Dominica.jpg",
+      "caption_zh": "罗索老城",
+      "caption": "罗索老城",
+      "caption_commons": "This is Windsor Park, the country's national stadium. it is used primarily for c",
+      "kw": "Roseau Dominica town",
+      "url": "assets/dm/L06.webp",
+      "thumb_url": "assets/dm/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Roseau%2C_Dominica.jpg/1920px-Roseau%2C_Dominica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Larry Syverson",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 174976,
+      "thumb_bytes": 11190,
+      "size": {
+        "detail": "1080x727",
+        "thumb": "240x162"
+      },
+      "encoding": "webp q75/q78 (源 1920x1293 872KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T16:05:57+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Dominica.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Dominica.wav、LL-Q652 (ita)-Francyskus-Dominica.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py DM",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "香槟礁：Wikidata / 维基 / Commons 都没有可用图",
+    "摘要 261 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[warn] continent：摘要称位于中美洲加勒比海，与北美洲标注不一致 → 统一为北美洲或中美洲口径",
+    "香槟礁：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 4 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "沸湖",
+        "evidence": "世界第二大温泉沸湖"
+      },
+      {
+        "v": "山地雨林",
+        "evidence": "岛内有茂密的山地雨林"
+      },
+      {
+        "v": "迪亚布洛廷火山",
+        "evidence": "最高点为迪亚布洛廷火山"
+      },
+      {
+        "v": "加勒比海的自然岛",
+        "evidence": "被称为“加勒比海的自然岛”"
+      },
+      {
+        "v": "紫色国旗",
+        "evidence": "官方国旗中存在紫色"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "多米尼克国（英语：Commonwealth of Dominica），通称多米尼克（英语：Dominica），是位于中美洲加勒比海的岛国，它是小安的列斯群岛中的向风群岛的一部分。其首都罗索位于岛的西侧。多米尼克最近的邻居是法国的两个海外省，西北部的瓜德罗普和东南偏南的马提尼克。多米尼克的陆地面积为 750 平方公里（290 平方英里），最高点为迪亚布洛廷火山，海拔 1,447 米（4,747 英尺）。\n公元5世纪，阿拉瓦克人从南美洲来到该岛定居。到15世纪，加勒比人取代了阿拉瓦克人。17世纪90年代到1763年，法国人殖民了该岛并将奴隶从西非贩卖到多米尼克的咖啡种植园工作。1763年，英国在七年战争中战胜法国后取得该岛。1978年，多米尼克独立。\n多米尼克因其自然环境而被称为“加勒比海的自然岛”。它是小安的列斯群岛中最年轻的岛屿，并且仍不断地受到地热和火山活动的影响。岛内的世界第二大温泉沸湖就是明证。岛内有茂密的山地雨林，是许多珍稀植物、动物和鸟类的家园。西部沿海地区有一些干旱地区，但内陆地区会出现强降雨。多米尼克是仅有的两个官方国旗中存在紫色的主权国家之一。",
+  "history_text": "加勒比海最后成为欧洲殖民地的岛屿，法国率先占领，七年战争战败后于1763年交给英国。1978年独立。1980年独裁政府被推翻，改选玛丽·尤金妮亚·查尔斯为总理，国家从此开始兴旺；她是加勒比海国家中第一个女性总理，在职十五年。",
+  "custom_text": "岛上人家的灶台离不开根茎与果实：山药、芋头、青香蕉常与咸鱼同煮，椰奶炖豆子是家常味。克里奥尔语在日常里比英语更亲，集市上讨价还价、邻里招呼都用它。周日礼拜后，人们换上整洁衣裳走亲访友；独立纪念日前后的克里奥尔节上，老太太们支起油锅炸鱼和馅饼，年轻人跳着 quadrille 与 bélé，鼓点从午后响到夜里。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 112,
+      "folk": 154
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "多米尼克在哪儿啊？",
+      "a": "位于中美洲加勒比海，是小安的列斯群岛中向风群岛的一部分，西北邻瓜德罗普，东南偏南邻马提尼克。",
+      "tags": [
+        "加勒比海",
+        "位置",
+        "岛国"
+      ]
+    },
+    {
+      "q": "多米尼克首都叫什么？",
+      "a": "首都罗索，位于岛的西侧。",
+      "tags": [
+        "首都",
+        "罗索"
+      ]
+    },
+    {
+      "q": "多米尼克面积多大？最高点在哪？",
+      "a": "陆地面积750平方公里，最高点是迪亚布洛廷火山，海拔1,447米。",
+      "tags": [
+        "面积",
+        "最高峰",
+        "火山"
+      ]
+    },
+    {
+      "q": "多米尼克说什么语言？",
+      "a": "官方语言是英语。",
+      "tags": [
+        "语言",
+        "英语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "多米尼克有什么值得看的地标？",
+      "a": "有沸腾湖、特拉法加瀑布、斯科茨角、印第安河和维多利亚瀑布。",
+      "tags": [
+        "地标",
+        "景点",
+        "瀑布",
+        "沸湖"
+      ]
+    },
+    {
+      "q": "多米尼克为什么叫自然岛？",
+      "a": "因其自然环境得名，有茂密山地雨林、珍稀动植物，还有世界第二大温泉沸湖。",
+      "tags": [
+        "自然岛",
+        "雨林",
+        "沸湖",
+        "温泉"
+      ]
+    },
+    {
+      "q": "多米尼克有什么历史背景？",
+      "a": "5世纪阿拉瓦克人定居，15世纪加勒比人取代，17世纪90年代至1763年法国殖民，1763年英国取得，1978年独立。",
+      "tags": [
+        "历史",
+        "殖民",
+        "独立"
+      ]
+    },
+    {
+      "q": "多米尼克国旗有什么特别？",
+      "a": "它是仅有的两个官方国旗中存在紫色的主权国家之一。",
+      "tags": [
+        "国旗",
+        "紫色",
+        "冷知识"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "continent",
+        "severity": "warn",
+        "why": "摘要称位于中美洲加勒比海，与北美洲标注不一致",
+        "suggest": "统一为北美洲或中美洲口径"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -6136,
+        1520
+      ],
+      [
+        -6147,
+        1563
+      ],
+      [
+        -6131,
+        1558
+      ],
+      [
+        -6126,
+        1547
+      ],
+      [
+        -6126,
+        1528
+      ],
+      [
+        -6136,
+        1520
+      ]
+    ]
+  ]
+}

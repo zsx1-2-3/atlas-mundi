@@ -1,1 +1,347 @@
-{"qid":"Q244","iso_a2":"BB","iso_a3":"BRB","name_zh":"巴巴多斯","name_en":"Barbados","capital":"布里奇顿","continent":"北美洲","centroid":[-59.5525,13.17],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/bb/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Barbados, an island nation where the Atlantic meets the Caribbean; our capital, Bridgetown, is a historic port city, and one landmark you should not miss is the UNESCO-listed Bridgetown and its Garrison, with its colonial-era fortifications and the lively Careenage waterfront.","tts_text_zh":"欢迎来到巴巴多斯，这个位于大西洋与加勒比海交汇处的岛国；我们的首都布里奇顿是一座历史悠久的港口城市，不可错过的一处地标是列入联合国教科文组织名录的布里奇顿及其驻军区，那里有殖民时期的防御工事和热闹的卡里内奇海滨。","audio_voice":"en-US-AriaNeural","audio_bytes":105408}],"summary_text":"巴巴多斯是位于加勒比海与大西洋边界上的岛国，地处西印度群岛最东端，位于北纬13度、西经59度及其附近，距委内瑞拉东北约434.5公里。岛屿面积430平方公里。岛上地形以低地为主，在内陆地区分布有一些山丘。巴巴多斯首都为布里奇敦。巴巴多斯国名来自葡萄牙语“Os Barbados”或西班牙语“Los Barbados”，本意皆为“有胡子的”，意指岛上遍地都是的野生榕树。巴巴多斯曾为英国殖民地，1966年获得独立，伊丽莎白二世女王曾为国家元首；2021年11月30日共和化议案正式生效，巴巴多斯结束作为英联邦王国的身份，以非王国成员继续留在英联邦，类似于新加坡。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":280,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%B7%B4%E5%A4%9A%E6%96%AF","title":"巴巴多斯"},"culture_excerpts":[{"section":"历史","text":"17世纪，英格兰人在巴巴多斯上建立永久殖民地，此后为英国殖民地。1966年，巴巴多斯获得独立，伊丽莎白二世女王为国家元首。巴巴多斯政府于2020年9月16日宣布，准备取消英女王伊丽莎白二世的国家元首地位；国会在2021年通过，同年11月退出英联邦王国正式成为共和国，并仍为英联邦成员。美国中央情报局的情报及英国下议院外交事务委员会（英语：Affairs Select Committee）主席董勤达皆指此事是中华人民共和国以一带一路作为债务陷阱外交向巴巴多斯政府施压的结果，旨在破坏巴巴多斯和英国之间的关系。巴巴多斯众议院和参议院分别于2021年9月28日和10月6日通过法案，废除英国女王的巴巴多斯国家元首地位。桑德拉·梅森于10月20日当选成为该国首任总统，11月30日生效。","chars":340}],"landmark_images":[{"title":"File:Harrisoncave1.JPG","caption_zh":"哈里森洞穴","caption":"哈里森洞穴","caption_commons":"The limestone formations in Harrison's Cave, Barbados.","kw":"Harrison's Cave Barbados","url":"assets/bb/L01.webp","thumb_url":"assets/bb/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/7/75/Harrisoncave1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"NeilEvans at English Wikipedia","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":39094,"caption_zh_manual":"哈里森洞穴","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18182,"size":{"detail":"650x488","thumb":"400x300"},"encoding":"webp q72/q74 (源 650x488 56KB JPEG)"},{"title":"File:Bathsheba, Barbados 08.jpg","caption_zh":"拔示巴海滩","caption":"拔示巴海滩","caption_commons":"Bathsheba, Saint Joseph, Barbados.","kw":"Bathsheba Beach Barbados","url":"assets/bb/L02.webp","thumb_url":"assets/bb/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Bathsheba%2C_Barbados_08.jpg/1920px-Bathsheba%2C_Barbados_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Postdlf","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":75020,"caption_zh_manual":"拔示巴海滩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":21746,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 819KB JPEG)"},{"title":"File:Carlisle Bay, Barbados.jpg","caption_zh":"卡莱尔湾","caption":"卡莱尔湾","caption_commons":"Carlilse Bay, Barbados, with Bridgetown to the left and the pier of Barbados Yac","kw":"Carlisle Bay Barbados","url":"assets/bb/L03.webp","thumb_url":"assets/bb/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Carlisle_Bay%2C_Barbados.jpg/1920px-Carlisle_Bay%2C_Barbados.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Pontificalibus","license":"CC0","license_url":"http://creativecommons.org/publicdomain/zero/1.0/deed.en","license_status":"ok","load_verified":true,"bytes":55500,"caption_zh_manual":"卡莱尔湾","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16484,"size":{"detail":"760x572","thumb":"399x300"},"encoding":"webp q72/q74 (源 1920x1445 606KB JPEG)"},{"title":"File:Bridgetown barbados parliament building.jpg","caption_zh":"布里奇敦议会大厦","caption":"布里奇敦议会大厦","caption_commons":"Parliament building (west wing) in Bridgetown, Barbados Housing the Parliament M","kw":"Parliament Buildings Bridgetown Barbados","url":"assets/bb/L04.webp","thumb_url":"assets/bb/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Bridgetown_barbados_parliament_building.jpg/1920px-Bridgetown_barbados_parliament_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"regani","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":76710,"caption_zh_manual":"布里奇敦议会大厦","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22382,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 709KB JPEG)"},{"title":"File:Cemetery of St. John's Barbados.jpg","caption_zh":"圣约翰教区教堂墓地","caption":"圣约翰教区教堂墓地","caption_commons":"Friedhof der Saint John's Church im gleichnamigen Bezirk (Parish) auf Barbados.","kw":"St John's Parish Church Barbados","url":"assets/bb/L05.webp","thumb_url":"assets/bb/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/0/06/Cemetery_of_St._John%27s_Barbados.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Rennboot","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":70758,"caption_zh_manual":"圣约翰教区教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":20982,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1500x1000 750KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:32:01+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["语言代码未解析，已剔除：巴詹克里奧爾語","P443 发音语种不符已弃用：Lb-Barbados.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Barbados.wav、LL-Q652 (ita)-Francyskus-Barbados.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py BB","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 280 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[warn] capital：capital 为“布里奇顿”，summary 中为“布里奇敦”，同一城市译名不一致 → 统一为“布里奇顿”","LLM 质检[warn] continent：巴巴多斯属加勒比/西印度群岛，归为北美洲可接受但易生歧义 → 可标注为“北美洲（加勒比地区）”"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"加勒比海","evidence":"位于加勒比海与大西洋边界上"},{"v":"低地","evidence":"主要是低地"},{"v":"山丘","evidence":"内陆有一些山丘"},{"v":"榕树","evidence":"遍地都是的野生的榕树"}],"model":"deepseek-flash"},"summary_text_raw":"巴巴多斯（英语：Barbados，/bɑːrˈbeɪdɒs/，台湾称为巴贝多）是位于加勒比海与大西洋边界上的岛国，是西印度群岛最东端的岛屿，首都布里奇敦。岛屿面积430平方公里，主要是低地，在岛的内陆有一些山丘。巴巴多斯岛位于13ºN、59ºW及其附近。距委内瑞拉的东北约434.5公里。\n巴巴多斯有稳定的民主政体，独立于1966年11月30日。1998年巴巴多斯宪法审阅委员会建议采取共和制，轮番执政的巴巴多斯工党和民主工党分别于2005年和2015年声明推进共和化，2007年曾计划将大选和脱离英联邦成员国捆绑公投。巴巴多斯议会于2021年10月通过巴巴多斯共和化议案，并于2021年11月30日正式生效，结束作为英联邦王国的身份，并以非王国成员继续留在英联邦，类似于新加坡。\n巴巴多斯的名字来自于葡萄牙语“Os Barbados”或西班牙语“Los Barbados”，本意皆为“有胡子的”，意指遍地都是的野生的榕树。\n\n\n== 历史 ==\n\n17世纪，英格兰人在巴巴多斯上建立永久殖民地，此后为英国殖民地。1966年，巴巴多斯获得独立，伊丽莎白二世女王为国家元首。","history_text":"十七世纪，英格兰人在岛上建立永久殖民地，此后长期为英国殖民地。一九六六年获得独立，伊丽莎白二世女王为国家元首。二零二零年九月，政府宣布准备取消英女王的国家元首地位；国会于二零二一年通过相关法案，同年十一月三十日生效，正式成为共和国，仍留在英联邦。桑德拉·梅森于十月二十日当选首任总统。","custom_text":"岛名来自葡萄牙语与西班牙语中“有胡子的”一词，说的是遍地生长的野生榕树。布里奇顿的街市上，飞鱼是家常菜，人们把它裹上面糊炸了配米饭和豌豆吃；甘蔗田从海岸一直铺到内陆的缓坡，朗姆酒坊就散落在田间。收获季里，人们用甘蔗汁熬糖、蒸馏酒，节庆时敲着铁鼓沿街走，歌声和鼓点混在一起。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":142,"folk":136}},"knowledge_qa":[{"q":"巴巴多斯在哪儿啊？","a":"位于加勒比海与大西洋边界上的岛国，是西印度群岛最东端的岛屿，距委内瑞拉东北约434.5公里。","tags":["加勒比海","岛国","位置"]},{"q":"巴巴多斯面积多大？","a":"岛屿面积430平方公里，主要是低地，内陆有一些山丘。","tags":["面积","多大","平方公里"]},{"q":"巴巴多斯首都是哪里？","a":"首都布里奇顿。","tags":["首都","布里奇顿"]},{"q":"巴巴多斯说什么语言？","a":"官方语言是英语。","tags":["语言","英语","说什么话"]},{"q":"巴巴多斯有什么值得看的地标？","a":"有哈里森洞穴、拔示巴海滩、卡莱尔湾、布里奇敦议会大厦、圣约翰教区教堂等。","tags":["地标","景点","值得看"]},{"q":"巴巴多斯有什么历史背景？","a":"17世纪英格兰人建立永久殖民地，此后为英国殖民地。1966年获得独立，伊丽莎白二世女王为国家元首。","tags":["历史","殖民地","独立"]},{"q":"巴巴多斯现在还是英联邦王国吗？","a":"不是了。2021年11月30日共和化正式生效，结束英联邦王国身份，以非王国成员继续留在英联邦。","tags":["共和化","英联邦","政体"]},{"q":"巴巴多斯名字是怎么来的？","a":"来自葡萄牙语“Os Barbados”或西班牙语“Los Barbados”，本意是“有胡子的”，指遍地野生的榕树。","tags":["名字由来","榕树","有胡子的"]}],"llm_audit":{"issues":[{"field":"capital","severity":"warn","why":"capital 为“布里奇顿”，summary 中为“布里奇敦”，同一城市译名不一致","suggest":"统一为“布里奇顿”"},{"field":"continent","severity":"warn","why":"巴巴多斯属加勒比/西印度群岛，归为北美洲可接受但易生歧义","suggest":"可标注为“北美洲（加勒比地区）”"}],"overall":"warn"},"audio_meta":{},"outline":[[[-5943,1316],[-5951,1306],[-5962,1309],[-5964,1332],[-5943,1316]]]}
+{
+  "qid": "Q244",
+  "iso_a2": "BB",
+  "iso_a3": "BRB",
+  "name_zh": "巴巴多斯",
+  "name_en": "Barbados",
+  "capital": "布里奇顿",
+  "continent": "北美洲",
+  "centroid": [
+    -59.5525,
+    13.17
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/bb/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Barbados, an island nation where the Atlantic meets the Caribbean; our capital, Bridgetown, is a historic port city, and one landmark you should not miss is the UNESCO-listed Bridgetown and its Garrison, with its colonial-era fortifications and the lively Careenage waterfront.",
+      "tts_text_zh": "欢迎来到巴巴多斯，这个位于大西洋与加勒比海交汇处的岛国；我们的首都布里奇顿是一座历史悠久的港口城市，不可错过的一处地标是列入联合国教科文组织名录的布里奇顿及其驻军区，那里有殖民时期的防御工事和热闹的卡里内奇海滨。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 105408
+    }
+  ],
+  "summary_text": "巴巴多斯是位于加勒比海与大西洋边界上的岛国，地处西印度群岛最东端，位于北纬13度、西经59度及其附近，距委内瑞拉东北约434.5公里。岛屿面积430平方公里。岛上地形以低地为主，在内陆地区分布有一些山丘。巴巴多斯首都为布里奇敦。巴巴多斯国名来自葡萄牙语“Os Barbados”或西班牙语“Los Barbados”，本意皆为“有胡子的”，意指岛上遍地都是的野生榕树。巴巴多斯曾为英国殖民地，1966年获得独立，伊丽莎白二世女王曾为国家元首；2021年11月30日共和化议案正式生效，巴巴多斯结束作为英联邦王国的身份，以非王国成员继续留在英联邦，类似于新加坡。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 280,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%B7%B4%E5%A4%9A%E6%96%AF",
+    "title": "巴巴多斯"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "17世纪，英格兰人在巴巴多斯上建立永久殖民地，此后为英国殖民地。1966年，巴巴多斯获得独立，伊丽莎白二世女王为国家元首。巴巴多斯政府于2020年9月16日宣布，准备取消英女王伊丽莎白二世的国家元首地位；国会在2021年通过，同年11月退出英联邦王国正式成为共和国，并仍为英联邦成员。美国中央情报局的情报及英国下议院外交事务委员会（英语：Affairs Select Committee）主席董勤达皆指此事是中华人民共和国以一带一路作为债务陷阱外交向巴巴多斯政府施压的结果，旨在破坏巴巴多斯和英国之间的关系。巴巴多斯众议院和参议院分别于2021年9月28日和10月6日通过法案，废除英国女王的巴巴多斯国家元首地位。桑德拉·梅森于10月20日当选成为该国首任总统，11月30日生效。",
+      "chars": 340
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Harrisoncave1.JPG",
+      "caption_zh": "哈里森洞穴",
+      "caption": "哈里森洞穴",
+      "caption_commons": "The limestone formations in Harrison's Cave, Barbados.",
+      "kw": "Harrison's Cave Barbados",
+      "url": "assets/bb/L01.webp",
+      "thumb_url": "assets/bb/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Harrisoncave1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "NeilEvans at English Wikipedia",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 40480,
+      "caption_zh_manual": "哈里森洞穴",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8808,
+      "size": {
+        "detail": "650x488",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 650x488 56KB JPEG)"
+    },
+    {
+      "title": "File:Bathsheba, Barbados 08.jpg",
+      "caption_zh": "拔示巴海滩",
+      "caption": "拔示巴海滩",
+      "caption_commons": "Bathsheba, Saint Joseph, Barbados.",
+      "kw": "Bathsheba Beach Barbados",
+      "url": "assets/bb/L02.webp",
+      "thumb_url": "assets/bb/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Bathsheba%2C_Barbados_08.jpg/1920px-Bathsheba%2C_Barbados_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Postdlf",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 158184,
+      "caption_zh_manual": "拔示巴海滩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9748,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 819KB JPEG)"
+    },
+    {
+      "title": "File:Carlisle Bay, Barbados.jpg",
+      "caption_zh": "卡莱尔湾",
+      "caption": "卡莱尔湾",
+      "caption_commons": "Carlilse Bay, Barbados, with Bridgetown to the left and the pier of Barbados Yac",
+      "kw": "Carlisle Bay Barbados",
+      "url": "assets/bb/L03.webp",
+      "thumb_url": "assets/bb/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Carlisle_Bay%2C_Barbados.jpg/1920px-Carlisle_Bay%2C_Barbados.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Pontificalibus",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 108596,
+      "caption_zh_manual": "卡莱尔湾",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7178,
+      "size": {
+        "detail": "1080x813",
+        "thumb": "239x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1445 606KB JPEG)"
+    },
+    {
+      "title": "File:Bridgetown barbados parliament building.jpg",
+      "caption_zh": "布里奇敦议会大厦",
+      "caption": "布里奇敦议会大厦",
+      "caption_commons": "Parliament building (west wing) in Bridgetown, Barbados Housing the Parliament M",
+      "kw": "Parliament Buildings Bridgetown Barbados",
+      "url": "assets/bb/L04.webp",
+      "thumb_url": "assets/bb/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Bridgetown_barbados_parliament_building.jpg/1920px-Bridgetown_barbados_parliament_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "regani",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 154986,
+      "caption_zh_manual": "布里奇敦议会大厦",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10076,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 709KB JPEG)"
+    },
+    {
+      "title": "File:Cemetery of St. John's Barbados.jpg",
+      "caption_zh": "圣约翰教区教堂墓地",
+      "caption": "圣约翰教区教堂墓地",
+      "caption_commons": "Friedhof der Saint John's Church im gleichnamigen Bezirk (Parish) auf Barbados.",
+      "kw": "St John's Parish Church Barbados",
+      "url": "assets/bb/L05.webp",
+      "thumb_url": "assets/bb/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Cemetery_of_St._John%27s_Barbados.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Rennboot",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 139924,
+      "caption_zh_manual": "圣约翰教区教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8912,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1500x1000 750KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:32:01+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "语言代码未解析，已剔除：巴詹克里奧爾語",
+    "P443 发音语种不符已弃用：Lb-Barbados.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Barbados.wav、LL-Q652 (ita)-Francyskus-Barbados.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py BB",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 280 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[warn] capital：capital 为“布里奇顿”，summary 中为“布里奇敦”，同一城市译名不一致 → 统一为“布里奇顿”",
+    "LLM 质检[warn] continent：巴巴多斯属加勒比/西印度群岛，归为北美洲可接受但易生歧义 → 可标注为“北美洲（加勒比地区）”"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "加勒比海",
+        "evidence": "位于加勒比海与大西洋边界上"
+      },
+      {
+        "v": "低地",
+        "evidence": "主要是低地"
+      },
+      {
+        "v": "山丘",
+        "evidence": "内陆有一些山丘"
+      },
+      {
+        "v": "榕树",
+        "evidence": "遍地都是的野生的榕树"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "巴巴多斯（英语：Barbados，/bɑːrˈbeɪdɒs/，台湾称为巴贝多）是位于加勒比海与大西洋边界上的岛国，是西印度群岛最东端的岛屿，首都布里奇敦。岛屿面积430平方公里，主要是低地，在岛的内陆有一些山丘。巴巴多斯岛位于13ºN、59ºW及其附近。距委内瑞拉的东北约434.5公里。\n巴巴多斯有稳定的民主政体，独立于1966年11月30日。1998年巴巴多斯宪法审阅委员会建议采取共和制，轮番执政的巴巴多斯工党和民主工党分别于2005年和2015年声明推进共和化，2007年曾计划将大选和脱离英联邦成员国捆绑公投。巴巴多斯议会于2021年10月通过巴巴多斯共和化议案，并于2021年11月30日正式生效，结束作为英联邦王国的身份，并以非王国成员继续留在英联邦，类似于新加坡。\n巴巴多斯的名字来自于葡萄牙语“Os Barbados”或西班牙语“Los Barbados”，本意皆为“有胡子的”，意指遍地都是的野生的榕树。\n\n\n== 历史 ==\n\n17世纪，英格兰人在巴巴多斯上建立永久殖民地，此后为英国殖民地。1966年，巴巴多斯获得独立，伊丽莎白二世女王为国家元首。",
+  "history_text": "十七世纪，英格兰人在岛上建立永久殖民地，此后长期为英国殖民地。一九六六年获得独立，伊丽莎白二世女王为国家元首。二零二零年九月，政府宣布准备取消英女王的国家元首地位；国会于二零二一年通过相关法案，同年十一月三十日生效，正式成为共和国，仍留在英联邦。桑德拉·梅森于十月二十日当选首任总统。",
+  "custom_text": "岛名来自葡萄牙语与西班牙语中“有胡子的”一词，说的是遍地生长的野生榕树。布里奇顿的街市上，飞鱼是家常菜，人们把它裹上面糊炸了配米饭和豌豆吃；甘蔗田从海岸一直铺到内陆的缓坡，朗姆酒坊就散落在田间。收获季里，人们用甘蔗汁熬糖、蒸馏酒，节庆时敲着铁鼓沿街走，歌声和鼓点混在一起。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 142,
+      "folk": 136
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "巴巴多斯在哪儿啊？",
+      "a": "位于加勒比海与大西洋边界上的岛国，是西印度群岛最东端的岛屿，距委内瑞拉东北约434.5公里。",
+      "tags": [
+        "加勒比海",
+        "岛国",
+        "位置"
+      ]
+    },
+    {
+      "q": "巴巴多斯面积多大？",
+      "a": "岛屿面积430平方公里，主要是低地，内陆有一些山丘。",
+      "tags": [
+        "面积",
+        "多大",
+        "平方公里"
+      ]
+    },
+    {
+      "q": "巴巴多斯首都是哪里？",
+      "a": "首都布里奇顿。",
+      "tags": [
+        "首都",
+        "布里奇顿"
+      ]
+    },
+    {
+      "q": "巴巴多斯说什么语言？",
+      "a": "官方语言是英语。",
+      "tags": [
+        "语言",
+        "英语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "巴巴多斯有什么值得看的地标？",
+      "a": "有哈里森洞穴、拔示巴海滩、卡莱尔湾、布里奇敦议会大厦、圣约翰教区教堂等。",
+      "tags": [
+        "地标",
+        "景点",
+        "值得看"
+      ]
+    },
+    {
+      "q": "巴巴多斯有什么历史背景？",
+      "a": "17世纪英格兰人建立永久殖民地，此后为英国殖民地。1966年获得独立，伊丽莎白二世女王为国家元首。",
+      "tags": [
+        "历史",
+        "殖民地",
+        "独立"
+      ]
+    },
+    {
+      "q": "巴巴多斯现在还是英联邦王国吗？",
+      "a": "不是了。2021年11月30日共和化正式生效，结束英联邦王国身份，以非王国成员继续留在英联邦。",
+      "tags": [
+        "共和化",
+        "英联邦",
+        "政体"
+      ]
+    },
+    {
+      "q": "巴巴多斯名字是怎么来的？",
+      "a": "来自葡萄牙语“Os Barbados”或西班牙语“Los Barbados”，本意是“有胡子的”，指遍地野生的榕树。",
+      "tags": [
+        "名字由来",
+        "榕树",
+        "有胡子的"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "capital",
+        "severity": "warn",
+        "why": "capital 为“布里奇顿”，summary 中为“布里奇敦”，同一城市译名不一致",
+        "suggest": "统一为“布里奇顿”"
+      },
+      {
+        "field": "continent",
+        "severity": "warn",
+        "why": "巴巴多斯属加勒比/西印度群岛，归为北美洲可接受但易生歧义",
+        "suggest": "可标注为“北美洲（加勒比地区）”"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -5943,
+        1316
+      ],
+      [
+        -5951,
+        1306
+      ],
+      [
+        -5962,
+        1309
+      ],
+      [
+        -5964,
+        1332
+      ],
+      [
+        -5943,
+        1316
+      ]
+    ]
+  ]
+}

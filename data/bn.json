@@ -1,1 +1,377 @@
-{"qid":"Q921","iso_a2":"BN","iso_a3":"BRN","name_zh":"文莱","name_en":"Brunei","capital":"斯里巴加湾市","continent":"亚洲","centroid":[114.5667,4.4],"centroid_source":"wikidata P625","languages":[{"code":"ms","name_zh":"马来语","name_local":"马来语","role":"official","audio_url":"assets/bn/audio/ms.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Selamat datang ke Brunei Darussalam, sebuah negara kecil yang tenang di pesisir Borneo, dengan Bandar Seri Begawan sebagai ibu kotanya dan Masjid Sultan Omar Ali Saifuddien yang berdiri megah di tepi air menjadi mercu tanda yang paling dikenali.","tts_text_zh":"欢迎来到文莱达鲁萨兰国，这个位于婆罗洲海岸的宁静小国，首都为斯里巴加湾市，而矗立水畔的苏丹奥马尔·阿里·赛义夫丁清真寺是最为人熟知的地标。","audio_voice":"ms-MY-YasminNeural","audio_bytes":93024}],"summary_text":"文莱达鲁萨兰国，也译作文莱和平之国，简称汶莱或文莱，旧亦称婆罗乃，是位于加里曼丹岛北岸的东南亚国家。文莱是北婆三邦之一，位于南海南岸，整个国土被砂拉越所分割、环绕。1984年1月1日文莱脱离英国和平独立，1月7日加入东盟。文莱从8世纪开始有人定居，在唐朝史籍中称婆利，明朝史籍中称汶莱，亦有古籍称之为勃泥或渤泥。梁时，文莱国王Pinka和他的家人是一名佛教徒，据载他统治了136个区域，用金造皇座，用银造踏板，用钻石造皇冠，相传其皇冠有1尺高；他曾经在518年派遣使者去中国，并进贡地毯给皇帝，在523年也派使者去了其他国家。在隋代，文莱国王Hu Lu Na Po和他的家人在616年也派了使者去中国。文莱经济状况颇佳，石油和天然气的生产和出口约占国内生产总值的67%，社会福利之程度与范围皆非常完善，更以不需要缴税而闻名。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":362,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%B1%B6%E8%8E%B1","title":"汶莱"},"culture_excerpts":[{"section":"历史","text":"宋朝年间，一个据载叫Hiang Ta的国王拥有过百只船和一些士兵。在宋太宗年间，Hiang Ta派遣使者去中国，使者有阿布阿里，Sheikh Noh和Kadhi Kasim。在北宋元丰年间1082年2月，他也曾派遣过使者去中国。根据传说，这位使者叫Seri Maharaja，他的继承者是Raha Makatunaw和Sang Aji，而Sang Aji也就是后来苏丹马合谟沙的祖父。19世纪中期，英国人开始干涉文莱的各种事务。1846年，英国以苏丹王位继承导致的内部纠纷为理由，入侵文莱。1880年代起，文莱帝国持续衰退。苏丹将部分领土（今砂拉越）赠与帮助他平乱的詹姆斯·布鲁克，并准许他成立砂拉越王国。在那之后，布鲁克和他的后继侄子们多次租借或并吞更多土地。文莱割让许多领土给白人拉者布鲁克与他的王朝。为了对抗布鲁克家族的入侵，苏丹哈欣·再如·阿南·阿马汀（英语：Hashim Jalilul Alam Aqamaddin）寻求英国的协助。1888年9月17日，在休·罗爵士的协商之下，文莱和英国签署保护国条约。条约规定“苏丹不得在未经英国同意下，径自割让或租借任何领土给外国势力”；此条约让英国实质控制了文莱的外交，文莱沦为英国保护国（直到1984年）。然而，当沙拉越于1890年并吞文莱的班达鲁安区时，英国并未做出任何阻止的动作；这是因为英国并不将沙拉越王国视为“外国”势力，因此保护国条约并不适用。最后的一次并吞导致文莱剩下现今的小范围土地，并被分割为两个部分。1941年12月16日，在珍珠港事件爆发8天后，日本入侵文莱。日军从金兰湾派遣了1万名士兵的川口支队于马来奕登陆。经过6天的战斗，日军占领了文莱全境。附近唯一的盟军部队为驻扎于砂拉越古晋的英国第15旁遮普军团。苏丹依旧保有其王位，并得到日军的补助与礼遇。在日占时期的后半段，苏丹住在林梦Tantuya，并与日军少有往来。日军留用多数马来人政府官员。文莱与砂拉越王国还有英属北婆罗洲一起重新划分为5个行政区。文莱被划为美里州文莱县。木村强被认命为县知事。日本占领期间，易卜拉辛将许多重要的政府文件藏起来，不让日军所用。日军也将尤拉·哈林和其他许多文莱人，以南方特别留学生的身份送至日本受训。日占期间，学校教授日语，政府官员被要求学习日语。当地货币被改为俗称香蕉票的马来亚和婆罗洲军票。第二次世界大战结束后，英国军事管制区成立。该政府主要由澳洲官员与公务员组成。1946年7月6日军事管制区政府将政权交还，文莱议会也于该年恢复。军事管制区政府扑灭了日军在战败前撤离诗里亚油田时所放的火，并致力于恢复被日军破坏的当地经济。1962年12月8日至17日，与文莱人民党有关联的北加里曼丹国民军发动反对文莱苏丹统治的武装起义，以失败告终。1971年，文莱实现内部自治；1984年1月1日，文莱获得独立，但仍然是英联邦成员国。","chars":1192},{"section":"早期历史","text":"文莱从8世纪开始有人定居，在唐朝史籍中称婆利，明朝史籍中称汶莱，亦有古籍称之为勃泥或渤泥。\n梁时，文莱国王Pinka和他的家人（即Kaundinya）是一名佛教徒。据载他统治了136个区域，用金造皇座，用银造踏板，用钻石造皇冠，相传其皇冠有1尺高。他曾经在518年派遣使者去中国，并进贡地毯给皇帝。在523年，他也派使者去了其他国家。\n文莱长期受中国文化影响，13世纪后伊斯兰化。当代文莱由渤泥国苏丹马合谟沙（英语：Sultan Muhammad Shah）和福建移民黄森屏率领的华人势力联合组建而成。明代永乐年间浡泥王麻那惹加那曾经亲自率使臣来中国拜见明成祖，不幸病故，葬于南京，即今渤泥国王墓。历史上文莱王室便奉黄森屏为始祖，至今文莱仍有所谓“黄总兵墓”。","chars":1200},{"section":"历史","text":"1959年9月29日颁布第一部宪法。1971年和1984年曾进行重大修改。宪法规定，苏丹为国家元首和宗教领袖，拥有全部最高行政权力和颁布法律的权力。设宗教委员会、继承与册封委员会、枢密院、立法院和内阁部长会议协助苏丹理政。\n2004年9月，立法院第一届会议审议并通过宪法修正案，内容涉及司法、宗教、民俗等多个方面，共13项内容，包括赋予苏丹无须经立法院同意而自行颁布紧急法令等法令的权利；制定选举法令，让人民参选从政；增加立法院议员人数；伊斯兰教仍为国教，但人民有宗教信仰自由；仍以马来语作为官方语言，英语可作为法庭办案语言等。","chars":1200},{"section":"宗教","text":"文莱国教为伊斯兰教，苏丹是文莱伊斯兰教的领袖。穆斯林占人口的81%，佛教徒占7%，基督教徒占7.1%。","chars":608}],"landmark_images":[{"title":"File:Istana Nurul Iman.jpg","caption_zh":"努鲁伊曼皇宫","caption":"努鲁伊曼皇宫","caption_commons":"Großer Festsaal der Istana Nurul Iman","kw":"Istana Nurul Iman Brunei","url":"assets/bn/L01.webp","thumb_url":"assets/bn/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/a/aa/Istana_Nurul_Iman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"de:Benutzer:Chtrede","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":59610,"caption_zh_manual":"努鲁伊曼皇宫","caption_zh_source":"llm_from_commons_filename","thumb_bytes":20456,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 900x600 114KB JPEG)"},{"title":"File:Kampong Ayer 17 December 2023 01.jpg","caption_zh":"甘榜亚逸水上村","caption":"甘榜亚逸水上村","caption_commons":"Kampong Ayer on 17 December 2023.","kw":"Kampong Ayer Brunei","url":"assets/bn/L02.webp","thumb_url":"assets/bn/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Kampong_Ayer_17_December_2023_01.jpg/1920px-Kampong_Ayer_17_December_2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Pangalau","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":48832,"caption_zh_manual":"甘榜亚逸水上村","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15696,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 536KB JPEG)"},{"title":"File:Jame'asr Hassanil Bolkiah Mosque interior. Bandar Seri Begawan, Brunei, Southeast Asia-2.jpg","caption_zh":"杰米清真寺内部","caption":"杰米清真寺内部","caption_commons":"Jame'asr Hassanil Bolkiah Mosque interior. Bandar Seri Begawan, Brunei, Southeas","kw":"Jame' Asr Hassanil Bolkiah Mosque","url":"assets/bn/L03.webp","thumb_url":"assets/bn/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Jame%27asr_Hassanil_Bolkiah_Mosque_interior._Bandar_Seri_Begawan%2C_Brunei%2C_Southeast_Asia-2.jpg/1920px-Jame%27asr_Hassanil_Bolkiah_Mosque_interior._Bandar_Seri_Begawan%2C_Brunei%2C_Southeast_Asia-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Mstyslav Chernov","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":47710,"caption_zh_manual":"杰米清真寺","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15954,"size":{"detail":"760x506","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1278 570KB JPEG)"},{"title":"File:The Empire Hotel 06.jpg","caption_zh":"文莱帝国酒店","caption":"文莱帝国酒店","caption_commons":"The Empire Hotel in Jerudong on 3 May 2022","kw":"Empire Hotel and Country Club Brunei","url":"assets/bn/L05.webp","thumb_url":"assets/bn/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/The_Empire_Hotel_06.jpg/1920px-The_Empire_Hotel_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Pangalau","license":"CC0","license_url":"http://creativecommons.org/publicdomain/zero/1.0/deed.en","license_status":"ok","load_verified":true,"bytes":75416,"caption_zh_manual":"文莱帝国酒店","caption_zh_source":"llm_from_commons_filename","thumb_bytes":23242,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 741KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:35:49+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["语言代码未解析，已剔除：英国英语","P443 发音语种不符已弃用：Lb-Brunei.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Brunei.wav、LL-Q652 (ita)-Francyskus-Brunei.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py BN","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","乌鲁淡布隆国家公园：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（4 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"佛教","evidence":"是一名佛教徒"}],"architecture":[],"heritage":[],"keywords":[{"v":"加里曼丹岛","evidence":"位于加里曼丹岛北岸"},{"v":"南海南岸","evidence":"位于南海南岸"},{"v":"石油和天然气","evidence":"石油和天然气的生产和出口"},{"v":"爪夷文","evidence":"爪夷文"}],"model":"deepseek-flash"},"summary_text_raw":"文莱达鲁萨兰国（马来语：Negara Brunei Darussalam；爪夷文：نڬارا بروني دارالسلام），也译作文莱和平之国，简称汶莱或文莱，旧亦称婆罗乃，是位于加里曼丹岛北岸的东南亚国家。文莱是北婆三邦之一，位于南海南岸，整个国土被砂拉越所分割、环绕。1984年1月1日文莱脱离英国和平独立，1月7日加入东盟。文莱经济状况颇佳，石油和天然气的生产和出口约占国内生产总值的67%，社会福利之程度与范围皆非常完善，更以不需要缴税而闻名。\n\n\n== 历史 ==\n\n\n=== 早期历史 ===\n文莱从8世纪开始有人定居，在唐朝史籍中称婆利，明朝史籍中称汶莱，亦有古籍称之为勃泥或渤泥。\n梁时，文莱国王Pinka和他的家人（即Kaundinya）是一名佛教徒。据载他统治了136个区域，用金造皇座，用银造踏板，用钻石造皇冠，相传其皇冠有1尺高。他曾经在518年派遣使者去中国，并进贡地毯给皇帝。在523年，他也派使者去了其他国家。\n在隋代，文莱国王Hu Lu Na Po和他的家人（即Chiari Ya Ka）在616年也派了使者去中国。","history_text":"八世纪起已有人定居，唐宋史籍称其为婆利或渤泥，长期受中国文化影响，十三世纪后伊斯兰化。十九世纪中期英国人开始干涉其事务，一八四六年以王位继承纠纷为由入侵，此后苏丹不断割让领土给布鲁克家族。一八八八年与英国签署保护国条约，外交实权落入英方。一九八四年脱离英国和平独立。","custom_text":"国教为伊斯兰教，苏丹是宗教领袖，穆斯林在人口中占多数，佛教徒与基督教徒各有小规模社群。宪法规定伊斯兰教为国教，人民保有信仰自由，马来语为官方语言，英语可在法庭使用。日常里宗教节律与王室礼仪交织，开斋节期间人们走亲访友、互致问候。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":133,"folk":114}},"knowledge_qa":[{"q":"文莱在哪儿啊？周围是什么地方？","a":"文莱位于加里曼丹岛北岸，是东南亚国家，在南海南岸，整个国土被砂拉越分割、环绕。","tags":["文莱","在哪","地理位置"]},{"q":"文莱的首都是哪里？","a":"首都叫斯里巴加湾市。","tags":["首都","斯里巴加湾市"]},{"q":"文莱说什么话？","a":"官方语言是马来语。","tags":["语言","说什么话","马来语"]},{"q":"文莱有什么值得看的建筑或景点？","a":"可以去努鲁伊曼皇宫、甘榜亚逸水上村、杰米清真寺和文莱帝国酒店看看。","tags":["景点","地标","皇宫","清真寺"]},{"q":"文莱有什么特别的习俗或文化？","a":"文莱社会福利完善，以不需要缴税而闻名，这是它比较特别的地方。","tags":["文化","习俗","福利"]},{"q":"文莱经济靠什么？","a":"石油和天然气的生产和出口约占国内生产总值的67%，经济状况颇佳。","tags":["经济","石油","天然气"]},{"q":"文莱什么时候独立的？","a":"1984年1月1日脱离英国和平独立，1月7日加入东盟。","tags":["独立","历史","东盟"]},{"q":"文莱有什么好吃的或特产？","a":"现有资料没有提到文莱的饮食或特产信息。","tags":["吃什么","特产","饮食"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[11498,489],[11474,473],[11485,439],[11477,413],[11463,402],[11442,426],[11428,426],[11425,448],[11400,460],[11433,461],[11510,505],[11498,489]],[[11515,491],[11535,431],[11509,440],[11503,482],[11515,491]]]}
+{
+  "qid": "Q921",
+  "iso_a2": "BN",
+  "iso_a3": "BRN",
+  "name_zh": "文莱",
+  "name_en": "Brunei",
+  "capital": "斯里巴加湾市",
+  "continent": "亚洲",
+  "centroid": [
+    114.5667,
+    4.4
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ms",
+      "name_zh": "马来语",
+      "name_local": "马来语",
+      "role": "official",
+      "audio_url": "assets/bn/audio/ms.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Selamat datang ke Brunei Darussalam, sebuah negara kecil yang tenang di pesisir Borneo, dengan Bandar Seri Begawan sebagai ibu kotanya dan Masjid Sultan Omar Ali Saifuddien yang berdiri megah di tepi air menjadi mercu tanda yang paling dikenali.",
+      "tts_text_zh": "欢迎来到文莱达鲁萨兰国，这个位于婆罗洲海岸的宁静小国，首都为斯里巴加湾市，而矗立水畔的苏丹奥马尔·阿里·赛义夫丁清真寺是最为人熟知的地标。",
+      "audio_voice": "ms-MY-YasminNeural",
+      "audio_bytes": 93024
+    }
+  ],
+  "summary_text": "文莱达鲁萨兰国，也译作文莱和平之国，简称汶莱或文莱，旧亦称婆罗乃，是位于加里曼丹岛北岸的东南亚国家。文莱是北婆三邦之一，位于南海南岸，整个国土被砂拉越所分割、环绕。1984年1月1日文莱脱离英国和平独立，1月7日加入东盟。文莱从8世纪开始有人定居，在唐朝史籍中称婆利，明朝史籍中称汶莱，亦有古籍称之为勃泥或渤泥。梁时，文莱国王Pinka和他的家人是一名佛教徒，据载他统治了136个区域，用金造皇座，用银造踏板，用钻石造皇冠，相传其皇冠有1尺高；他曾经在518年派遣使者去中国，并进贡地毯给皇帝，在523年也派使者去了其他国家。在隋代，文莱国王Hu Lu Na Po和他的家人在616年也派了使者去中国。文莱经济状况颇佳，石油和天然气的生产和出口约占国内生产总值的67%，社会福利之程度与范围皆非常完善，更以不需要缴税而闻名。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 362,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B1%B6%E8%8E%B1",
+    "title": "汶莱"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "宋朝年间，一个据载叫Hiang Ta的国王拥有过百只船和一些士兵。在宋太宗年间，Hiang Ta派遣使者去中国，使者有阿布阿里，Sheikh Noh和Kadhi Kasim。在北宋元丰年间1082年2月，他也曾派遣过使者去中国。根据传说，这位使者叫Seri Maharaja，他的继承者是Raha Makatunaw和Sang Aji，而Sang Aji也就是后来苏丹马合谟沙的祖父。19世纪中期，英国人开始干涉文莱的各种事务。1846年，英国以苏丹王位继承导致的内部纠纷为理由，入侵文莱。1880年代起，文莱帝国持续衰退。苏丹将部分领土（今砂拉越）赠与帮助他平乱的詹姆斯·布鲁克，并准许他成立砂拉越王国。在那之后，布鲁克和他的后继侄子们多次租借或并吞更多土地。文莱割让许多领土给白人拉者布鲁克与他的王朝。为了对抗布鲁克家族的入侵，苏丹哈欣·再如·阿南·阿马汀（英语：Hashim Jalilul Alam Aqamaddin）寻求英国的协助。1888年9月17日，在休·罗爵士的协商之下，文莱和英国签署保护国条约。条约规定“苏丹不得在未经英国同意下，径自割让或租借任何领土给外国势力”；此条约让英国实质控制了文莱的外交，文莱沦为英国保护国（直到1984年）。然而，当沙拉越于1890年并吞文莱的班达鲁安区时，英国并未做出任何阻止的动作；这是因为英国并不将沙拉越王国视为“外国”势力，因此保护国条约并不适用。最后的一次并吞导致文莱剩下现今的小范围土地，并被分割为两个部分。1941年12月16日，在珍珠港事件爆发8天后，日本入侵文莱。日军从金兰湾派遣了1万名士兵的川口支队于马来奕登陆。经过6天的战斗，日军占领了文莱全境。附近唯一的盟军部队为驻扎于砂拉越古晋的英国第15旁遮普军团。苏丹依旧保有其王位，并得到日军的补助与礼遇。在日占时期的后半段，苏丹住在林梦Tantuya，并与日军少有往来。日军留用多数马来人政府官员。文莱与砂拉越王国还有英属北婆罗洲一起重新划分为5个行政区。文莱被划为美里州文莱县。木村强被认命为县知事。日本占领期间，易卜拉辛将许多重要的政府文件藏起来，不让日军所用。日军也将尤拉·哈林和其他许多文莱人，以南方特别留学生的身份送至日本受训。日占期间，学校教授日语，政府官员被要求学习日语。当地货币被改为俗称香蕉票的马来亚和婆罗洲军票。第二次世界大战结束后，英国军事管制区成立。该政府主要由澳洲官员与公务员组成。1946年7月6日军事管制区政府将政权交还，文莱议会也于该年恢复。军事管制区政府扑灭了日军在战败前撤离诗里亚油田时所放的火，并致力于恢复被日军破坏的当地经济。1962年12月8日至17日，与文莱人民党有关联的北加里曼丹国民军发动反对文莱苏丹统治的武装起义，以失败告终。1971年，文莱实现内部自治；1984年1月1日，文莱获得独立，但仍然是英联邦成员国。",
+      "chars": 1192
+    },
+    {
+      "section": "早期历史",
+      "text": "文莱从8世纪开始有人定居，在唐朝史籍中称婆利，明朝史籍中称汶莱，亦有古籍称之为勃泥或渤泥。\n梁时，文莱国王Pinka和他的家人（即Kaundinya）是一名佛教徒。据载他统治了136个区域，用金造皇座，用银造踏板，用钻石造皇冠，相传其皇冠有1尺高。他曾经在518年派遣使者去中国，并进贡地毯给皇帝。在523年，他也派使者去了其他国家。\n文莱长期受中国文化影响，13世纪后伊斯兰化。当代文莱由渤泥国苏丹马合谟沙（英语：Sultan Muhammad Shah）和福建移民黄森屏率领的华人势力联合组建而成。明代永乐年间浡泥王麻那惹加那曾经亲自率使臣来中国拜见明成祖，不幸病故，葬于南京，即今渤泥国王墓。历史上文莱王室便奉黄森屏为始祖，至今文莱仍有所谓“黄总兵墓”。",
+      "chars": 1200
+    },
+    {
+      "section": "历史",
+      "text": "1959年9月29日颁布第一部宪法。1971年和1984年曾进行重大修改。宪法规定，苏丹为国家元首和宗教领袖，拥有全部最高行政权力和颁布法律的权力。设宗教委员会、继承与册封委员会、枢密院、立法院和内阁部长会议协助苏丹理政。\n2004年9月，立法院第一届会议审议并通过宪法修正案，内容涉及司法、宗教、民俗等多个方面，共13项内容，包括赋予苏丹无须经立法院同意而自行颁布紧急法令等法令的权利；制定选举法令，让人民参选从政；增加立法院议员人数；伊斯兰教仍为国教，但人民有宗教信仰自由；仍以马来语作为官方语言，英语可作为法庭办案语言等。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "文莱国教为伊斯兰教，苏丹是文莱伊斯兰教的领袖。穆斯林占人口的81%，佛教徒占7%，基督教徒占7.1%。",
+      "chars": 608
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Istana Nurul Iman.jpg",
+      "caption_zh": "努鲁伊曼皇宫",
+      "caption": "努鲁伊曼皇宫",
+      "caption_commons": "Großer Festsaal der Istana Nurul Iman",
+      "kw": "Istana Nurul Iman Brunei",
+      "url": "assets/bn/L01.webp",
+      "thumb_url": "assets/bn/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Istana_Nurul_Iman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "de:Benutzer:Chtrede",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 79710,
+      "caption_zh_manual": "努鲁伊曼皇宫",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8556,
+      "size": {
+        "detail": "900x600",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 900x600 114KB JPEG)"
+    },
+    {
+      "title": "File:Kampong Ayer 17 December 2023 01.jpg",
+      "caption_zh": "甘榜亚逸水上村",
+      "caption": "甘榜亚逸水上村",
+      "caption_commons": "Kampong Ayer on 17 December 2023.",
+      "kw": "Kampong Ayer Brunei",
+      "url": "assets/bn/L02.webp",
+      "thumb_url": "assets/bn/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Kampong_Ayer_17_December_2023_01.jpg/1920px-Kampong_Ayer_17_December_2023_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Pangalau",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 96130,
+      "caption_zh_manual": "甘榜亚逸水上村",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7174,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 536KB JPEG)"
+    },
+    {
+      "title": "File:Jame'asr Hassanil Bolkiah Mosque interior. Bandar Seri Begawan, Brunei, Southeast Asia-2.jpg",
+      "caption_zh": "杰米清真寺内部",
+      "caption": "杰米清真寺内部",
+      "caption_commons": "Jame'asr Hassanil Bolkiah Mosque interior. Bandar Seri Begawan, Brunei, Southeas",
+      "kw": "Jame' Asr Hassanil Bolkiah Mosque",
+      "url": "assets/bn/L03.webp",
+      "thumb_url": "assets/bn/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Jame%27asr_Hassanil_Bolkiah_Mosque_interior._Bandar_Seri_Begawan%2C_Brunei%2C_Southeast_Asia-2.jpg/1920px-Jame%27asr_Hassanil_Bolkiah_Mosque_interior._Bandar_Seri_Begawan%2C_Brunei%2C_Southeast_Asia-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Mstyslav Chernov",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 96008,
+      "caption_zh_manual": "杰米清真寺",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7552,
+      "size": {
+        "detail": "1080x719",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1278 570KB JPEG)"
+    },
+    {
+      "title": "File:The Empire Hotel 06.jpg",
+      "caption_zh": "文莱帝国酒店",
+      "caption": "文莱帝国酒店",
+      "caption_commons": "The Empire Hotel in Jerudong on 3 May 2022",
+      "kw": "Empire Hotel and Country Club Brunei",
+      "url": "assets/bn/L05.webp",
+      "thumb_url": "assets/bn/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/The_Empire_Hotel_06.jpg/1920px-The_Empire_Hotel_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Pangalau",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 150182,
+      "caption_zh_manual": "文莱帝国酒店",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10512,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 741KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:35:49+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "语言代码未解析，已剔除：英国英语",
+    "P443 发音语种不符已弃用：Lb-Brunei.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Brunei.wav、LL-Q652 (ita)-Francyskus-Brunei.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py BN",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "乌鲁淡布隆国家公园：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（4 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "佛教",
+        "evidence": "是一名佛教徒"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "加里曼丹岛",
+        "evidence": "位于加里曼丹岛北岸"
+      },
+      {
+        "v": "南海南岸",
+        "evidence": "位于南海南岸"
+      },
+      {
+        "v": "石油和天然气",
+        "evidence": "石油和天然气的生产和出口"
+      },
+      {
+        "v": "爪夷文",
+        "evidence": "爪夷文"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "文莱达鲁萨兰国（马来语：Negara Brunei Darussalam；爪夷文：نڬارا بروني دارالسلام），也译作文莱和平之国，简称汶莱或文莱，旧亦称婆罗乃，是位于加里曼丹岛北岸的东南亚国家。文莱是北婆三邦之一，位于南海南岸，整个国土被砂拉越所分割、环绕。1984年1月1日文莱脱离英国和平独立，1月7日加入东盟。文莱经济状况颇佳，石油和天然气的生产和出口约占国内生产总值的67%，社会福利之程度与范围皆非常完善，更以不需要缴税而闻名。\n\n\n== 历史 ==\n\n\n=== 早期历史 ===\n文莱从8世纪开始有人定居，在唐朝史籍中称婆利，明朝史籍中称汶莱，亦有古籍称之为勃泥或渤泥。\n梁时，文莱国王Pinka和他的家人（即Kaundinya）是一名佛教徒。据载他统治了136个区域，用金造皇座，用银造踏板，用钻石造皇冠，相传其皇冠有1尺高。他曾经在518年派遣使者去中国，并进贡地毯给皇帝。在523年，他也派使者去了其他国家。\n在隋代，文莱国王Hu Lu Na Po和他的家人（即Chiari Ya Ka）在616年也派了使者去中国。",
+  "history_text": "八世纪起已有人定居，唐宋史籍称其为婆利或渤泥，长期受中国文化影响，十三世纪后伊斯兰化。十九世纪中期英国人开始干涉其事务，一八四六年以王位继承纠纷为由入侵，此后苏丹不断割让领土给布鲁克家族。一八八八年与英国签署保护国条约，外交实权落入英方。一九八四年脱离英国和平独立。",
+  "custom_text": "国教为伊斯兰教，苏丹是宗教领袖，穆斯林在人口中占多数，佛教徒与基督教徒各有小规模社群。宪法规定伊斯兰教为国教，人民保有信仰自由，马来语为官方语言，英语可在法庭使用。日常里宗教节律与王室礼仪交织，开斋节期间人们走亲访友、互致问候。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 133,
+      "folk": 114
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "文莱在哪儿啊？周围是什么地方？",
+      "a": "文莱位于加里曼丹岛北岸，是东南亚国家，在南海南岸，整个国土被砂拉越分割、环绕。",
+      "tags": [
+        "文莱",
+        "在哪",
+        "地理位置"
+      ]
+    },
+    {
+      "q": "文莱的首都是哪里？",
+      "a": "首都叫斯里巴加湾市。",
+      "tags": [
+        "首都",
+        "斯里巴加湾市"
+      ]
+    },
+    {
+      "q": "文莱说什么话？",
+      "a": "官方语言是马来语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "马来语"
+      ]
+    },
+    {
+      "q": "文莱有什么值得看的建筑或景点？",
+      "a": "可以去努鲁伊曼皇宫、甘榜亚逸水上村、杰米清真寺和文莱帝国酒店看看。",
+      "tags": [
+        "景点",
+        "地标",
+        "皇宫",
+        "清真寺"
+      ]
+    },
+    {
+      "q": "文莱有什么特别的习俗或文化？",
+      "a": "文莱社会福利完善，以不需要缴税而闻名，这是它比较特别的地方。",
+      "tags": [
+        "文化",
+        "习俗",
+        "福利"
+      ]
+    },
+    {
+      "q": "文莱经济靠什么？",
+      "a": "石油和天然气的生产和出口约占国内生产总值的67%，经济状况颇佳。",
+      "tags": [
+        "经济",
+        "石油",
+        "天然气"
+      ]
+    },
+    {
+      "q": "文莱什么时候独立的？",
+      "a": "1984年1月1日脱离英国和平独立，1月7日加入东盟。",
+      "tags": [
+        "独立",
+        "历史",
+        "东盟"
+      ]
+    },
+    {
+      "q": "文莱有什么好吃的或特产？",
+      "a": "现有资料没有提到文莱的饮食或特产信息。",
+      "tags": [
+        "吃什么",
+        "特产",
+        "饮食"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        11498,
+        489
+      ],
+      [
+        11474,
+        473
+      ],
+      [
+        11485,
+        439
+      ],
+      [
+        11477,
+        413
+      ],
+      [
+        11463,
+        402
+      ],
+      [
+        11442,
+        426
+      ],
+      [
+        11428,
+        426
+      ],
+      [
+        11425,
+        448
+      ],
+      [
+        11400,
+        460
+      ],
+      [
+        11433,
+        461
+      ],
+      [
+        11510,
+        505
+      ],
+      [
+        11498,
+        489
+      ]
+    ],
+    [
+      [
+        11515,
+        491
+      ],
+      [
+        11535,
+        431
+      ],
+      [
+        11509,
+        440
+      ],
+      [
+        11503,
+        482
+      ],
+      [
+        11515,
+        491
+      ]
+    ]
+  ]
+}

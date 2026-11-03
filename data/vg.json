@@ -1,1 +1,434 @@
-{"qid":"Q25305","iso_a2":"VG","iso_a3":"VGB","name_zh":"英属维尔京群岛","name_en":"British Virgin Islands","capital":"罗德城","continent":"北美洲","centroid":[-64.54,18.445],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/vg/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to the British Virgin Islands, a Caribbean archipelago whose capital is Road Town on Tortola, and where the famous Baths at Virgin Gorda invite you to walk among granite boulders beside clear turquoise water.","tts_text_zh":"欢迎来到英属维尔京群岛，这片加勒比群岛的首都是托尔托拉岛上的罗德城，著名的维尔京戈尔达岛“浴场”邀请您在清澈的碧水旁漫步于花岗岩巨石之间。","audio_voice":"en-US-AriaNeural","audio_bytes":78048}],"summary_text":"英属维尔京群岛（英语：British Virgin Islands，缩写：BVI），正式名称为维尔京群岛（Virgin Islands），是英国海外领土，位于加勒比海地区，处于波多黎各以东。英属维尔京群岛与邻近的美属维尔京群岛和波多黎各维尔京群岛合称为维尔京群岛。英属维尔京群岛主要由托土拉岛、维尔京戈尔达岛、阿内加达岛和约斯特·范代克岛四大岛所组成，此外还包括50多座细小的岛屿和岩礁，当中大约有15个岛屿无人居住。托尔托拉岛是英属维尔京群岛内最大的岛屿，全岛大约长20公里，阔5公里。群岛一共有人口28,000人，其首府罗德城座落于托土拉岛。大约在公元前100年的时候，阿拉瓦克印第安人最先从南美洲迁移到维尔京群岛定居，但亦有证据显示美洲印第安人早于公元前1500年在群岛上活动。阿拉瓦克印第安人一直在群岛上居住至15世纪的时候，被来自小安的列斯群岛的加勒比人赶走，而加勒比海就正以加勒比人命名。不过，有些历史学家对于“好战的加勒比人把和善的阿拉瓦克人赶离加勒比海”的说法不表赞同，他们认为这说法是欧洲人一直简化了的版本，背后的真相应该更加复杂。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":475,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%B1%AC%E7%B6%AD%E7%88%BE%E4%BA%AC%E7%BE%A4%E5%B3%B6","title":"英屬維爾京群島"},"culture_excerpts":[{"section":"历史","text":"大约在公元前100年的时候，阿拉瓦克印第安人最先从南美洲迁移到处女群岛定居（但亦有证据显示美洲印第安人早于公元前1500年在群岛上活动）。阿拉瓦克印第安人一直在群岛上居住至15世纪的时候，被来自小安地列斯群岛的加勒比人赶走，而加勒比海就正以加勒比人命名。不过，有些历史学家对于“好战的加勒比人把和善的阿拉瓦克人赶离加勒比海”的说法不表赞同，他们认为这说法是欧洲人一直简化了的版本，背后的真相应该更加复杂。在1493年，航海家哥伦布在第二次前往美洲的途中发现了处女群岛，成为首位发现群岛的欧洲人。哥伦布将群岛命名为“Santa Ursula y las Once Mil Vírgenes”，即“圣乌苏拉与她的11,000名处女”；简称则是“Las Vírgenes”，指“处女们”的意思，也就是“处女群岛”（音译作“维尔京群岛”）一名的起源。这个名称取自有关圣乌苏拉与她的11,000名处女侍婢由英格兰出发前往科隆朝圣途中，被匈人杀害的传说。西班牙帝国在16世纪初期占领了群岛，并在维尔京戈尔达岛上采铜。期后，英国人、荷兰人、法国人、西班牙人和丹麦人相继进占该地区，由此逐渐发展为一带海盗活跃的区域。在殖民化的同时，印第安原居民遭受天花流行病影响，以及被大幅度屠杀，几近绝迹。在1648年，荷兰人在托土拉岛建立了一个永久聚落。但到1672年的时候，英格兰人从荷兰人的手上夺取该岛，稍后在1683年又相继占夺得阿内加达岛和维尔京戈尔达岛，属于英国的处女群岛殖民地遂由此成形。在1672年至1733年的时候，丹麦人先后夺得邻近的圣托马斯岛、圣约翰岛和圣克洛伊岛，复至1917年，美国出价2,500万美元购入三岛，属于英国的处女群岛遂改称为英属处女群岛，以区别美属处女群岛。总体来说，英国人是按部就班地建立起英属处女群岛的。他们最先把甘蔗引进该地，并大力发展甘蔗业，从非洲购买奴隶来当地的甘蔗农场工作。结果，甘蔗业的蓬勃发展为群岛立下经贸基石，而甘蔗更曾成为当地最大宗的贸易出口。直至近代，欧洲和美国先后自行种植糖用甜菜，对甘蔗的需求减少，群岛甘蔗业的繁荣期方才告一段落。英属处女群岛在历史上不同时期，曾分别隶属于背风群岛殖民地和圣基斯和尼维斯，并由英国政府派驻一名行政官在群岛上主管政务。在1960年，英属处女群岛获赋予殖民地地位，实行分治；复于1967年获准自治。由1960年代开始，英属处女群岛的经济开始转营，由以往传统农业作主导，逐渐变得经济多元化，以金融服务和旅游业为主导，成为加勒比海区内最富有的地区之一。","chars":1056},{"section":"人口统计","text":"在2003年时，群岛共计有21,730名居民。当中83%人口为非裔加勒比海人，这批人的祖先主要是以奴隶的身份从非洲迁入。而群岛的其他主要种族计有英国人和其他具欧洲血统的人士。\n群岛上以新教为主流（约占86%的人口）。其中以派别计，主要的基督宗教派别分别是卫理宗（33%）和圣公会（17%）；天主教是当第二大宗教（10%）。","chars":1200},{"section":"音乐","text":"英属处女群岛上的传统音乐叫作“fungi”，是以当地一种以秋葵为材料，同名的玉米粉而得名。这种传统音乐由于结合了非洲和西方，所以营造出特别的声响。作为与本地历史和民俗的媒介，它一直被视为文化的重要部分，而当地的学校也时常举办有关的活动。“fungi”的乐队又名叫“刮擦乐队”（scratch bands），这些乐队采用的乐器种类十分广泛，计有葫芦、邦哥鼓、乌克丽丽，以至更西化的键盘乐器、五弦琴、吉他、低音乐器、三角铁和萨克斯管等等。除了是富节日气氛的跳舞音乐外，“fungi”在英属处女群岛内，也起有口述历史的作用。","chars":1200}],"landmark_images":[{"title":"File:CaveAtTheBaths01.JPG","caption_zh":"巴斯海滩的洞穴","caption":"巴斯海滩的洞穴","caption_commons":"Beneath the boulder in the very center of this image, taken from the water off t","kw":"The Baths Virgin Gorda","url":"assets/vg/L01.webp","thumb_url":"assets/vg/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/CaveAtTheBaths01.JPG/1920px-CaveAtTheBaths01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Bnordlund","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":45970,"caption_zh_manual":"巴斯海滩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12760,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 556KB JPEG)"},{"title":"File:Norman Island 01.jpg","caption_zh":"诺曼岛","caption":"诺曼岛","caption_commons":"Photograph of Norman Islands (taken from Mount Sage, Tortola) (December 2006)","kw":"Norman Island BVI","url":"assets/vg/L02.webp","thumb_url":"assets/vg/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/5/5c/Norman_Island_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Legis at English Wikipedia","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":5304,"caption_zh_manual":"诺曼岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":2118,"size":{"detail":"760x502","thumb":"400x264"},"encoding":"webp q72/q74 (源 947x625 78KB JPEG)"},{"title":"File:White Bay Jost Van Dyke.jpg","caption_zh":"约斯特范代克岛白湾","caption":"约斯特范代克岛白湾","caption_commons":"View of White Bay from the hills of Jost Van Dyke, BVI","kw":"Jost Van Dyke","url":"assets/vg/L03.webp","thumb_url":"assets/vg/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/a/a1/White_Bay_Jost_Van_Dyke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Cemerp","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":46872,"caption_zh_manual":"约斯特范代克岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14888,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 800x600 128KB JPEG)"},{"title":"File:Anegada Palms.jpg","caption_zh":"阿内加达岛的棕榈树","caption":"阿内加达岛的棕榈树","caption_commons":"","kw":"Anegada Island","url":"assets/vg/L04.webp","thumb_url":"assets/vg/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/1/19/Anegada_Palms.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":null,"license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":12704,"caption_zh_manual":"阿内加达岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":4858,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 799x533 135KB JPEG)"},{"title":"File:Roadtown, Tortola.jpg","caption_zh":"托尔托拉岛罗德城","caption":"托尔托拉岛罗德城","caption_commons":"Road Town, Tortola, British Virgin Islands","kw":"Tortola Island","url":"assets/vg/L05.webp","thumb_url":"assets/vg/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/8/89/Roadtown%2C_Tortola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Photo: Henry A-W (Henry aw 23:34, 10 July 2006 (UTC))","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":56898,"caption_zh_manual":"托尔托拉岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18324,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1080x810 298KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:13:33+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q143 (epo)-Robin van der Vliet-Britaj Virgulinsuloj.wav、LL-Q7411 (nld)-Robin van der Vliet-Britse Maagdeneilanden.wav、De-Britische Jungferninseln.ogg（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py VG","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 2 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"托土拉岛","evidence":"托尔托拉岛是英属维尔京群岛内最大的岛屿"},{"v":"罗德城","evidence":"其首府罗德城座落于托土拉岛"},{"v":"加勒比海","evidence":"位于加勒比海地区"},{"v":"维尔京群岛","evidence":"合称为维尔京群岛"}],"model":"deepseek-flash"},"summary_text_raw":"英属维尔京群岛（英语：British Virgin Islands，缩写：BVI），正式名称为维尔京群岛（Virgin Islands），是英国海外领土，位于加勒比海地区，处于波多黎各以东。英属维尔京群岛与邻近的美属维尔京群岛和波多黎各维尔京群岛合称为维尔京群岛。\n英属维尔京群岛主要由托土拉岛、维尔京戈尔达岛、阿内加达岛和约斯特·范代克岛四大岛所组成外，还包括有50多座细小的岛屿和岩礁，当中大约有15个岛屿无人居住。托尔托拉岛是英属维尔京群岛内最大的岛屿，全岛大约长20公里，阔5公里。群岛一共有人口28,000人，其首府罗德城座落于托土拉岛。\n\n\n== 历史 ==\n大约在公元前100年的时候，阿拉瓦克印第安人最先从南美洲迁移到维尔京群岛定居（但亦有证据显示美洲印第安人早于公元前1500年在群岛上活动）。阿拉瓦克印第安人一直在群岛上居住至15世纪的时候，被来自小安的列斯群岛的加勒比人赶走，而加勒比海就正以加勒比人命名。不过，有些历史学家对于“好战的加勒比人把和善的阿拉瓦克人赶离加勒比海”的说法不表赞同，他们认为这说法是欧洲人一直简化了的版本，背后的真相应该更加复杂。","history_text":"约公元前100年，阿拉瓦克印第安人从南美洲迁来定居，至15世纪被小安的列斯群岛的加勒比人赶走。1493年哥伦布第二次远航美洲时发现群岛，以圣乌苏拉与一万一千名处女的传说命名。16世纪初西班牙占领，在维尔京戈尔达岛采铜，此后英、荷、法、丹麦人相继进入，一带渐成海盗活跃之区，原住民则在天花流行中凋零。","custom_text":"传统音乐叫“fungi”，名字取自当地一种以秋葵为材料、同名的玉米粉。乐队又称“刮擦乐队”，乐器从葫芦、邦哥鼓、乌克丽丽到吉他、三角铁、萨克斯管都有，声响里混着非洲与西方。它既是节庆里跳舞的音乐，也承担口述历史的功能，学校常办相关活动。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":149,"folk":118}},"knowledge_qa":[{"q":"英属维尔京群岛在哪儿啊？","a":"位于加勒比海地区，在波多黎各以东，是英国海外领土，属于北美洲。","tags":["加勒比海","位置","北美洲"]},{"q":"英属维尔京群岛的首都是哪里？","a":"首都是罗德城，座落于托土拉岛。","tags":["首都","罗德城","托土拉岛"]},{"q":"英属维尔京群岛由哪些主要岛屿组成？","a":"主要由托土拉岛、维尔京戈尔达岛、阿内加达岛和约斯特·范代克岛四大岛组成，还包括50多座细小岛屿和岩礁，其中约15个岛屿无人居住。","tags":["岛屿","组成","托土拉岛"]},{"q":"英属维尔京群岛说什么语言？","a":"官方语言是英语。","tags":["语言","英语","说什么话"]},{"q":"英属维尔京群岛有什么历史故事？","a":"大约公元前100年，阿拉瓦克印第安人从南美洲迁移到维尔京群岛定居，一直居住到15世纪被来自小安的列斯群岛的加勒比人赶走。","tags":["历史","印第安人","加勒比人"]},{"q":"英属维尔京群岛有什么值得去的景点？","a":"有巴斯海滩、诺曼岛、约斯特范代克岛、阿内加达岛和托尔托拉岛等。","tags":["景点","海滩","岛屿"]},{"q":"英属维尔京群岛最大的岛是哪个？","a":"托尔托拉岛是英属维尔京群岛内最大的岛屿，全岛大约长20公里，阔5公里。","tags":["最大岛","托尔托拉岛","面积"]},{"q":"英属维尔京群岛人口多少？","a":"群岛一共有人口28,000人。","tags":["人口","多少人"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-6464,1841],[-6471,1839],[-6452,1844],[-6464,1841]],[[-6438,1848],[-6444,1844],[-6433,1851],[-6438,1848]],[[-6434,1872],[-6441,1874],[-6427,1870],[-6434,1872]],[[-6457,1836],[-6457,1834],[-6460,1836],[-6457,1836]],[[-6473,1845],[-6472,1844],[-6473,1844],[-6477,1844],[-6477,1845],[-6473,1845]],[[-6453,1849],[-6453,1848],[-6454,1846],[-6453,1849]]]}
+{
+  "qid": "Q25305",
+  "iso_a2": "VG",
+  "iso_a3": "VGB",
+  "name_zh": "英属维尔京群岛",
+  "name_en": "British Virgin Islands",
+  "capital": "罗德城",
+  "continent": "北美洲",
+  "centroid": [
+    -64.54,
+    18.445
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/vg/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to the British Virgin Islands, a Caribbean archipelago whose capital is Road Town on Tortola, and where the famous Baths at Virgin Gorda invite you to walk among granite boulders beside clear turquoise water.",
+      "tts_text_zh": "欢迎来到英属维尔京群岛，这片加勒比群岛的首都是托尔托拉岛上的罗德城，著名的维尔京戈尔达岛“浴场”邀请您在清澈的碧水旁漫步于花岗岩巨石之间。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 78048
+    }
+  ],
+  "summary_text": "英属维尔京群岛（英语：British Virgin Islands，缩写：BVI），正式名称为维尔京群岛（Virgin Islands），是英国海外领土，位于加勒比海地区，处于波多黎各以东。英属维尔京群岛与邻近的美属维尔京群岛和波多黎各维尔京群岛合称为维尔京群岛。英属维尔京群岛主要由托土拉岛、维尔京戈尔达岛、阿内加达岛和约斯特·范代克岛四大岛所组成，此外还包括50多座细小的岛屿和岩礁，当中大约有15个岛屿无人居住。托尔托拉岛是英属维尔京群岛内最大的岛屿，全岛大约长20公里，阔5公里。群岛一共有人口28,000人，其首府罗德城座落于托土拉岛。大约在公元前100年的时候，阿拉瓦克印第安人最先从南美洲迁移到维尔京群岛定居，但亦有证据显示美洲印第安人早于公元前1500年在群岛上活动。阿拉瓦克印第安人一直在群岛上居住至15世纪的时候，被来自小安的列斯群岛的加勒比人赶走，而加勒比海就正以加勒比人命名。不过，有些历史学家对于“好战的加勒比人把和善的阿拉瓦克人赶离加勒比海”的说法不表赞同，他们认为这说法是欧洲人一直简化了的版本，背后的真相应该更加复杂。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 475,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%B1%AC%E7%B6%AD%E7%88%BE%E4%BA%AC%E7%BE%A4%E5%B3%B6",
+    "title": "英屬維爾京群島"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "大约在公元前100年的时候，阿拉瓦克印第安人最先从南美洲迁移到处女群岛定居（但亦有证据显示美洲印第安人早于公元前1500年在群岛上活动）。阿拉瓦克印第安人一直在群岛上居住至15世纪的时候，被来自小安地列斯群岛的加勒比人赶走，而加勒比海就正以加勒比人命名。不过，有些历史学家对于“好战的加勒比人把和善的阿拉瓦克人赶离加勒比海”的说法不表赞同，他们认为这说法是欧洲人一直简化了的版本，背后的真相应该更加复杂。在1493年，航海家哥伦布在第二次前往美洲的途中发现了处女群岛，成为首位发现群岛的欧洲人。哥伦布将群岛命名为“Santa Ursula y las Once Mil Vírgenes”，即“圣乌苏拉与她的11,000名处女”；简称则是“Las Vírgenes”，指“处女们”的意思，也就是“处女群岛”（音译作“维尔京群岛”）一名的起源。这个名称取自有关圣乌苏拉与她的11,000名处女侍婢由英格兰出发前往科隆朝圣途中，被匈人杀害的传说。西班牙帝国在16世纪初期占领了群岛，并在维尔京戈尔达岛上采铜。期后，英国人、荷兰人、法国人、西班牙人和丹麦人相继进占该地区，由此逐渐发展为一带海盗活跃的区域。在殖民化的同时，印第安原居民遭受天花流行病影响，以及被大幅度屠杀，几近绝迹。在1648年，荷兰人在托土拉岛建立了一个永久聚落。但到1672年的时候，英格兰人从荷兰人的手上夺取该岛，稍后在1683年又相继占夺得阿内加达岛和维尔京戈尔达岛，属于英国的处女群岛殖民地遂由此成形。在1672年至1733年的时候，丹麦人先后夺得邻近的圣托马斯岛、圣约翰岛和圣克洛伊岛，复至1917年，美国出价2,500万美元购入三岛，属于英国的处女群岛遂改称为英属处女群岛，以区别美属处女群岛。总体来说，英国人是按部就班地建立起英属处女群岛的。他们最先把甘蔗引进该地，并大力发展甘蔗业，从非洲购买奴隶来当地的甘蔗农场工作。结果，甘蔗业的蓬勃发展为群岛立下经贸基石，而甘蔗更曾成为当地最大宗的贸易出口。直至近代，欧洲和美国先后自行种植糖用甜菜，对甘蔗的需求减少，群岛甘蔗业的繁荣期方才告一段落。英属处女群岛在历史上不同时期，曾分别隶属于背风群岛殖民地和圣基斯和尼维斯，并由英国政府派驻一名行政官在群岛上主管政务。在1960年，英属处女群岛获赋予殖民地地位，实行分治；复于1967年获准自治。由1960年代开始，英属处女群岛的经济开始转营，由以往传统农业作主导，逐渐变得经济多元化，以金融服务和旅游业为主导，成为加勒比海区内最富有的地区之一。",
+      "chars": 1056
+    },
+    {
+      "section": "人口统计",
+      "text": "在2003年时，群岛共计有21,730名居民。当中83%人口为非裔加勒比海人，这批人的祖先主要是以奴隶的身份从非洲迁入。而群岛的其他主要种族计有英国人和其他具欧洲血统的人士。\n群岛上以新教为主流（约占86%的人口）。其中以派别计，主要的基督宗教派别分别是卫理宗（33%）和圣公会（17%）；天主教是当第二大宗教（10%）。",
+      "chars": 1200
+    },
+    {
+      "section": "音乐",
+      "text": "英属处女群岛上的传统音乐叫作“fungi”，是以当地一种以秋葵为材料，同名的玉米粉而得名。这种传统音乐由于结合了非洲和西方，所以营造出特别的声响。作为与本地历史和民俗的媒介，它一直被视为文化的重要部分，而当地的学校也时常举办有关的活动。“fungi”的乐队又名叫“刮擦乐队”（scratch bands），这些乐队采用的乐器种类十分广泛，计有葫芦、邦哥鼓、乌克丽丽，以至更西化的键盘乐器、五弦琴、吉他、低音乐器、三角铁和萨克斯管等等。除了是富节日气氛的跳舞音乐外，“fungi”在英属处女群岛内，也起有口述历史的作用。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:CaveAtTheBaths01.JPG",
+      "caption_zh": "巴斯海滩的洞穴",
+      "caption": "巴斯海滩的洞穴",
+      "caption_commons": "Beneath the boulder in the very center of this image, taken from the water off t",
+      "kw": "The Baths Virgin Gorda",
+      "url": "assets/vg/L01.webp",
+      "thumb_url": "assets/vg/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/CaveAtTheBaths01.JPG/1920px-CaveAtTheBaths01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Bnordlund",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 97980,
+      "caption_zh_manual": "巴斯海滩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5466,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 556KB JPEG)"
+    },
+    {
+      "title": "File:Norman Island 01.jpg",
+      "caption_zh": "诺曼岛",
+      "caption": "诺曼岛",
+      "caption_commons": "Photograph of Norman Islands (taken from Mount Sage, Tortola) (December 2006)",
+      "kw": "Norman Island BVI",
+      "url": "assets/vg/L02.webp",
+      "thumb_url": "assets/vg/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Norman_Island_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Legis at English Wikipedia",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 7912,
+      "caption_zh_manual": "诺曼岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 1280,
+      "size": {
+        "detail": "947x625",
+        "thumb": "240x158"
+      },
+      "encoding": "webp q75/q78 (源 947x625 78KB JPEG)"
+    },
+    {
+      "title": "File:White Bay Jost Van Dyke.jpg",
+      "caption_zh": "约斯特范代克岛白湾",
+      "caption": "约斯特范代克岛白湾",
+      "caption_commons": "View of White Bay from the hills of Jost Van Dyke, BVI",
+      "kw": "Jost Van Dyke",
+      "url": "assets/vg/L03.webp",
+      "thumb_url": "assets/vg/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/White_Bay_Jost_Van_Dyke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Cemerp",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 55782,
+      "caption_zh_manual": "约斯特范代克岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6668,
+      "size": {
+        "detail": "800x600",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 800x600 128KB JPEG)"
+    },
+    {
+      "title": "File:Anegada Palms.jpg",
+      "caption_zh": "阿内加达岛的棕榈树",
+      "caption": "阿内加达岛的棕榈树",
+      "caption_commons": "",
+      "kw": "Anegada Island",
+      "url": "assets/vg/L04.webp",
+      "thumb_url": "assets/vg/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Anegada_Palms.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": null,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 14298,
+      "caption_zh_manual": "阿内加达岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 2670,
+      "size": {
+        "detail": "799x533",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 799x533 135KB JPEG)"
+    },
+    {
+      "title": "File:Roadtown, Tortola.jpg",
+      "caption_zh": "托尔托拉岛罗德城",
+      "caption": "托尔托拉岛罗德城",
+      "caption_commons": "Road Town, Tortola, British Virgin Islands",
+      "kw": "Tortola Island",
+      "url": "assets/vg/L05.webp",
+      "thumb_url": "assets/vg/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Roadtown%2C_Tortola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Photo: Henry A-W (Henry aw 23:34, 10 July 2006 (UTC))",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 103880,
+      "caption_zh_manual": "托尔托拉岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8238,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1080x810 298KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:13:33+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q143 (epo)-Robin van der Vliet-Britaj Virgulinsuloj.wav、LL-Q7411 (nld)-Robin van der Vliet-Britse Maagdeneilanden.wav、De-Britische Jungferninseln.ogg（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py VG",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 2 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "托土拉岛",
+        "evidence": "托尔托拉岛是英属维尔京群岛内最大的岛屿"
+      },
+      {
+        "v": "罗德城",
+        "evidence": "其首府罗德城座落于托土拉岛"
+      },
+      {
+        "v": "加勒比海",
+        "evidence": "位于加勒比海地区"
+      },
+      {
+        "v": "维尔京群岛",
+        "evidence": "合称为维尔京群岛"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "英属维尔京群岛（英语：British Virgin Islands，缩写：BVI），正式名称为维尔京群岛（Virgin Islands），是英国海外领土，位于加勒比海地区，处于波多黎各以东。英属维尔京群岛与邻近的美属维尔京群岛和波多黎各维尔京群岛合称为维尔京群岛。\n英属维尔京群岛主要由托土拉岛、维尔京戈尔达岛、阿内加达岛和约斯特·范代克岛四大岛所组成外，还包括有50多座细小的岛屿和岩礁，当中大约有15个岛屿无人居住。托尔托拉岛是英属维尔京群岛内最大的岛屿，全岛大约长20公里，阔5公里。群岛一共有人口28,000人，其首府罗德城座落于托土拉岛。\n\n\n== 历史 ==\n大约在公元前100年的时候，阿拉瓦克印第安人最先从南美洲迁移到维尔京群岛定居（但亦有证据显示美洲印第安人早于公元前1500年在群岛上活动）。阿拉瓦克印第安人一直在群岛上居住至15世纪的时候，被来自小安的列斯群岛的加勒比人赶走，而加勒比海就正以加勒比人命名。不过，有些历史学家对于“好战的加勒比人把和善的阿拉瓦克人赶离加勒比海”的说法不表赞同，他们认为这说法是欧洲人一直简化了的版本，背后的真相应该更加复杂。",
+  "history_text": "约公元前100年，阿拉瓦克印第安人从南美洲迁来定居，至15世纪被小安的列斯群岛的加勒比人赶走。1493年哥伦布第二次远航美洲时发现群岛，以圣乌苏拉与一万一千名处女的传说命名。16世纪初西班牙占领，在维尔京戈尔达岛采铜，此后英、荷、法、丹麦人相继进入，一带渐成海盗活跃之区，原住民则在天花流行中凋零。",
+  "custom_text": "传统音乐叫“fungi”，名字取自当地一种以秋葵为材料、同名的玉米粉。乐队又称“刮擦乐队”，乐器从葫芦、邦哥鼓、乌克丽丽到吉他、三角铁、萨克斯管都有，声响里混着非洲与西方。它既是节庆里跳舞的音乐，也承担口述历史的功能，学校常办相关活动。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 149,
+      "folk": 118
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "英属维尔京群岛在哪儿啊？",
+      "a": "位于加勒比海地区，在波多黎各以东，是英国海外领土，属于北美洲。",
+      "tags": [
+        "加勒比海",
+        "位置",
+        "北美洲"
+      ]
+    },
+    {
+      "q": "英属维尔京群岛的首都是哪里？",
+      "a": "首都是罗德城，座落于托土拉岛。",
+      "tags": [
+        "首都",
+        "罗德城",
+        "托土拉岛"
+      ]
+    },
+    {
+      "q": "英属维尔京群岛由哪些主要岛屿组成？",
+      "a": "主要由托土拉岛、维尔京戈尔达岛、阿内加达岛和约斯特·范代克岛四大岛组成，还包括50多座细小岛屿和岩礁，其中约15个岛屿无人居住。",
+      "tags": [
+        "岛屿",
+        "组成",
+        "托土拉岛"
+      ]
+    },
+    {
+      "q": "英属维尔京群岛说什么语言？",
+      "a": "官方语言是英语。",
+      "tags": [
+        "语言",
+        "英语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "英属维尔京群岛有什么历史故事？",
+      "a": "大约公元前100年，阿拉瓦克印第安人从南美洲迁移到维尔京群岛定居，一直居住到15世纪被来自小安的列斯群岛的加勒比人赶走。",
+      "tags": [
+        "历史",
+        "印第安人",
+        "加勒比人"
+      ]
+    },
+    {
+      "q": "英属维尔京群岛有什么值得去的景点？",
+      "a": "有巴斯海滩、诺曼岛、约斯特范代克岛、阿内加达岛和托尔托拉岛等。",
+      "tags": [
+        "景点",
+        "海滩",
+        "岛屿"
+      ]
+    },
+    {
+      "q": "英属维尔京群岛最大的岛是哪个？",
+      "a": "托尔托拉岛是英属维尔京群岛内最大的岛屿，全岛大约长20公里，阔5公里。",
+      "tags": [
+        "最大岛",
+        "托尔托拉岛",
+        "面积"
+      ]
+    },
+    {
+      "q": "英属维尔京群岛人口多少？",
+      "a": "群岛一共有人口28,000人。",
+      "tags": [
+        "人口",
+        "多少人"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -6464,
+        1841
+      ],
+      [
+        -6471,
+        1839
+      ],
+      [
+        -6452,
+        1844
+      ],
+      [
+        -6464,
+        1841
+      ]
+    ],
+    [
+      [
+        -6438,
+        1848
+      ],
+      [
+        -6444,
+        1844
+      ],
+      [
+        -6433,
+        1851
+      ],
+      [
+        -6438,
+        1848
+      ]
+    ],
+    [
+      [
+        -6434,
+        1872
+      ],
+      [
+        -6441,
+        1874
+      ],
+      [
+        -6427,
+        1870
+      ],
+      [
+        -6434,
+        1872
+      ]
+    ],
+    [
+      [
+        -6457,
+        1836
+      ],
+      [
+        -6457,
+        1834
+      ],
+      [
+        -6460,
+        1836
+      ],
+      [
+        -6457,
+        1836
+      ]
+    ],
+    [
+      [
+        -6473,
+        1845
+      ],
+      [
+        -6472,
+        1844
+      ],
+      [
+        -6473,
+        1844
+      ],
+      [
+        -6477,
+        1844
+      ],
+      [
+        -6477,
+        1845
+      ],
+      [
+        -6473,
+        1845
+      ]
+    ],
+    [
+      [
+        -6453,
+        1849
+      ],
+      [
+        -6453,
+        1848
+      ],
+      [
+        -6454,
+        1846
+      ],
+      [
+        -6453,
+        1849
+      ]
+    ]
+  ]
+}

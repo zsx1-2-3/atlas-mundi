@@ -1,1 +1,597 @@
-{"qid":"Q854","iso_a2":"LK","iso_a3":"LKA","name_zh":"斯里兰卡","name_en":"Sri Lanka","capital":"斯里賈亞瓦德納普拉科特","continent":"亚洲","centroid":[81,7],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"spoken","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"si","name_zh":"僧伽罗语","name_local":"僧伽罗语","role":"official","audio_url":"assets/lk/audio/si.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"ශ්‍රී ලංකාවට සාදරයෙන් පිළිගනිමු. අපගේ අගනුවර වන ශ්‍රී ජයවර්ධනපුර කෝට්ටේ නගරයෙන් පසු, අපගේ රටේ ආත්මය නියෝජනය කරන සීගිරිය පර්වතය දැකගන්නට ඔබට හැකිය.","tts_text_zh":"欢迎来到斯里兰卡。我们的首都位于斯里贾亚瓦德纳普拉科特，在那里您还可以看到代表我国精神的狮子岩。","audio_voice":"si-LK-ThiliniNeural","audio_bytes":65088},{"code":"ta","name_zh":"泰米尔语","name_local":"泰米尔语","role":"official","audio_url":"assets/lk/audio/ta.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"இலங்கைக்கு வருக. எங்கள் தலைநகரம் ஸ்ரீ ஜயவர்தனபுர கோட்டே ஆகும்; அங்கிருந்து நாட்டின் ஆன்மாவைப் பிரதிபலிக்கும் சிகிரியா மலையைக் காணலாம்.","tts_text_zh":"欢迎来到斯里兰卡。我们的首都是斯里贾亚瓦德纳普拉科特，从那里可以望见象征国家灵魂的狮子岩。","audio_voice":"ta-IN-PallaviNeural","audio_bytes":60048}],"summary_text":"斯里兰卡民主社会主义共和国通称斯里兰卡，1972年之前称锡兰，是一个位于南亚—印度次大陆东南方外海的岛国，属于亚洲。其行政和司法首都是科伦坡，也是该国最大城市及政治、金融和文化中心；立法首都为邻近的斯里贾亚瓦德纳普拉科特。斯里兰卡的地理位置和深水港使其具有重要的战略意义，从最早的古代丝绸之路贸易路线到今天海上丝绸之路均扮演关键角色。斯里兰卡有文献记载的历史可以追溯到3,000年前，史前人类住区的证据可以追溯到至少125,000年前。已知最早的斯里兰卡佛教著作——统称为巴利经典——可追溯到公元前29年举行的第四次佛教会议。16世纪，葡萄牙帝国在科特王国政治动荡时期建立了殖民地，并面临邻国康提和锡塔瓦卡的攻击；僧伽罗-葡萄牙战争后，荷兰殖民帝国控制了沿海地区。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":332,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%96%AF%E9%87%8C%E8%98%AD%E5%8D%A1","title":"斯里蘭卡"},"culture_excerpts":[{"section":"历史","text":"阿努拉德普勒时期（公元前377年—公元1017年）始于公元前380年潘杜卡巴亚统治期间阿努拉德普勒王国的建立。此后，阿努拉德普勒作为国家首都近1,400年。在提婆南毗耶·帝沙统治期间，随着佛教从印度的传入，社会发生了重大变革。公元前250年，孔雀帝国皇帝阿育王之子摩哂陀抵达密亨达勒传播佛教。斯里兰卡的近现代史始于葡萄牙探险家洛伦索·德·阿尔梅达于1505年到达。1517年，葡萄牙人在科伦坡港修建堡垒，并逐渐扩大对沿海地区的控制。1592年，维摩罗·达摩·苏里亚一世将王国迁至内陆城市康提。1619年，贾夫纳王国的独立存在终结。斯里兰卡现代时期的开端以1833年的科尔布鲁克-卡梅伦改革为标志。1869年，毁灭性的叶病咖啡锈病袭击了咖啡种植园，在15年内摧毁了整个产业。英国人迅速找到替代品：放弃咖啡，开始种植茶叶。斯里兰卡茶叶生产在随后的几十年中蓬勃发展。S·W·R·D·班达拉奈克于1956年当选总理。他推出了备受争议的僧伽罗语唯一法案，承认僧伽罗语为政府唯一的官方语言。班达拉奈克于1959年被一名极端佛教僧侣刺杀。西丽玛沃·班达拉奈克（班达拉奈克遗孀）于1960年就任总理，成为世界上第一位民选女性政府首脑。1971年，锡兰经历了一场马克思主义起义，很快被镇压。1972年，该国成为名为斯里兰卡的共和国。J·R·贾亚瓦德纳政府于1977年上台。贾亚瓦德纳引入了新宪法，以及自由市场经济和以法国为蓝本的强大行政总统制。1983年，民族紧张局势表现为猛虎组织对政府的断续起义。猛虎组织对13名士兵的袭击引发了内战，作为回应，反泰米尔种族骚乱发生，导致超过15万泰米尔平民逃离该岛。2009年，在马欣达·拉贾帕克萨总统任内，斯里兰卡武装部队击败了猛虎组织，于2009年5月19日结束了长达26年的内战。冲突期间总计有60,000至100,000人丧生。2019年斯里兰卡复活节爆炸案由恐怖组织“全国认主学大会”于2019年4月21日实施，造成261名无辜者死亡。斯里兰卡的经济困境始于2019年，一场严重的经济危机因外债迅速增加、大规模政府预算赤字、外汇汇款下降、强制有机耕作导致的粮食危机以及化学肥料禁令等多种因素引发。斯里兰卡政府正式宣布这场危机为该国73年来最严重的经济危机。2022年6月，总理拉尼尔·维克拉马辛哈在议会宣布斯里兰卡经济“崩溃”。危机导致斯里兰卡历史上首次对其510亿美元主权债务违约。大规模街头抗议在全国爆发，抗议者要求总统戈塔巴雅·拉贾帕克萨辞职。抗议高潮是2022年7月9日冲击和围攻总统府，戈塔巴雅·拉贾帕克萨逃往新加坡。2024年9月23日，左翼候选人阿努拉·库马拉·迪萨纳亚克在赢得总统选举后宣誓就任斯里兰卡新总统。2024年11月14日，迪萨纳亚克的国家人民力量联盟在议会选举中获得三分之二多数。","chars":1169},{"section":"文化","text":"斯里兰卡文化主要受佛教和印度教影响。斯里兰卡是两种主要传统文化的家园：僧伽罗文化（以康提和阿努拉德普勒为中心）和泰米尔文化（以贾夫纳为中心）。\n斯里兰卡文学至少有两千年历史。巴利藏经于公元前29年在凯格勒的阿卢勒纳石窟寺举行的第四次佛教结集期间被书写下来。6世纪的《大史》生动描述了斯里兰卡王朝。第一部现代小说是西蒙·德·席尔瓦于1905年出版的《米娜》，马丁·维克拉马辛哈被认为是斯里兰卡文学的标志性人物。\n斯里兰卡古典舞蹈有三种主要风格：康提舞、低地舞和萨伯勒格穆沃舞。康提风格最为突出，是一种复杂的舞蹈形式。","chars":1200},{"section":"人口与宗教","text":"斯里兰卡约有2,196万人，年人口增长率0.5%。僧伽罗人是最大族群，占总人口的74.8%。斯里兰卡泰米尔人是第二大族群，占11.2%；摩尔人占9.2%。\n佛教是最大宗教，根据宪法第二章第9条被视为“官方宗教”。69.8%的斯里兰卡人信奉佛教，大多属于上座部佛教传统。","chars":1200},{"section":"文学与表演艺术","text":"斯里兰卡文学至少有两千年历史。巴利藏经于公元前29年在凯格勒的阿卢勒纳石窟寺举行的第四次佛教结集期间被书写下来。6世纪的《大史》生动描述了斯里兰卡王朝。第一部现代小说是西蒙·德·席尔瓦于1905年出版的《米娜》，马丁·维克拉马辛哈被认为是斯里兰卡文学的标志性人物。\n斯里兰卡古典舞蹈有三种主要风格：康提舞、低地舞和萨伯勒格穆沃舞。康提风格最为突出，是一种复杂的舞蹈形式。","chars":631}],"landmark_images":[{"title":"File:Sigiriya, Wolkenmädchen 3.jpg","caption_zh":"锡吉里耶狮子岩云中少女壁画","caption":"锡吉里耶狮子岩云中少女壁画","caption_commons":"Wolkenmädchen in Sigiriya, Sri Lanka, aufgenommen 1970","kw":"Sigiriya Lion Rock","url":"assets/lk/L01.webp","thumb_url":"assets/lk/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Sigiriya%2C_Wolkenm%C3%A4dchen_3.jpg/1920px-Sigiriya%2C_Wolkenm%C3%A4dchen_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Schnobby","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":55880,"caption_zh_manual":"锡吉里耶狮子岩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16524,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 862KB JPEG)"},{"title":"File:Elephants of Kandy Esala Perahera (2).jpg","caption_zh":"康提佛牙寺的大象游行","caption":"康提佛牙寺的大象游行","caption_commons":"Éléphants caparaçonnés.","kw":"Temple of the Tooth Kandy","url":"assets/lk/L02.webp","thumb_url":"assets/lk/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Elephants_of_Kandy_Esala_Perahera_%282%29.jpg/1920px-Elephants_of_Kandy_Esala_Perahera_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Daniel Liabeuf","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":65310,"caption_zh_manual":"康提佛牙寺","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22770,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 762KB JPEG)"},{"title":"File:Dambulla-temple daurat1.jpg","caption_zh":"丹布勒石窟寺金色外观","caption":"丹布勒石窟寺金色外观","caption_commons":"Temple daurat de Dambulla, foto feta per J. Ollé el juliol del 2006","kw":"Dambulla Cave Temple","url":"assets/lk/L03.webp","thumb_url":"assets/lk/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/4/46/Dambulla-temple_daurat1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"No machine-readable author provided. Jolle~commonswiki assumed (based on copyright claims).","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":50240,"caption_zh_manual":"丹布勒石窟寺","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17120,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1600x1200 324KB JPEG)"},{"title":"File:SL Galle Fort asv2020-01 img24.jpg","caption_zh":"加勒古堡","caption":"加勒古堡","caption_commons":"Lighthouse in the Dutch Fort of Galle, Sri Lanka","kw":"Galle Fort lighthouse","url":"assets/lk/L04.webp","thumb_url":"assets/lk/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/SL_Galle_Fort_asv2020-01_img24.jpg/1920px-SL_Galle_Fort_asv2020-01_img24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"A.Savin","license":"FAL","license_url":"http://artlibre.org/licence/lal/en","license_status":"ok","load_verified":true,"bytes":57874,"caption_zh_manual":"加勒古堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":15042,"size":{"detail":"760x608","thumb":"375x300"},"encoding":"webp q72/q74 (源 1920x1536 716KB JPEG)"},{"title":"File:Polonnaruwa Vatadage.jpg","caption_zh":"波隆纳鲁沃古城圆形佛殿","caption":"波隆纳鲁沃古城圆形佛殿","caption_commons":"The Polonnaruwa Vatadage, in the ancient city of Polonnaruwa, Sri Lanka.","kw":"Polonnaruwa Vatadage","url":"assets/lk/L05.webp","thumb_url":"assets/lk/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Polonnaruwa_Vatadage.jpg/1920px-Polonnaruwa_Vatadage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Simon Frost","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":77424,"caption_zh_manual":"波隆纳鲁沃古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22052,"size":{"detail":"760x509","thumb":"400x268"},"encoding":"webp q72/q74 (源 1920x1285 799KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:35:47+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 无通行语，从 P2936 补：英语","P443 发音语种不符已弃用：Lb-Sri Lanka.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Sri Lanka.wav、LL-Q652 (ita)-Francyskus-Sri Lanka.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py LK","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"佛教","evidence":"斯里兰卡佛教著作"}],"architecture":[],"heritage":[],"keywords":[{"v":"锡兰","evidence":"1972年之前称锡兰"},{"v":"科伦坡","evidence":"行政和司法首都是科伦坡"},{"v":"巴利经典","evidence":"统称为巴利经典"},{"v":"海上丝绸之路","evidence":"今天海上丝绸之路均扮演关键角色"},{"v":"深水港","evidence":"地理位置和深水港"}],"model":"deepseek-flash"},"summary_text_raw":"斯里兰卡民主社会主义共和国（僧伽罗语：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；泰米尔语：இலங்கை சனநாயக சோசலிசக் குடியரசு；英语：Democratic Socialist Republic of Sri Lanka），通称斯里兰卡（僧伽罗语：ශ්‍රී ලංකාව；泰米尔语：இலங்கை），1972年之前称锡兰，是一个位于南亚—印度次大陆东南方外海的岛国，属于亚洲。其行政和司法首都是科伦坡，也是该国最大城市及政治、金融和文化中心；立法首都为邻近的斯里贾亚瓦德纳普拉科特。\n斯里兰卡有文献记载的历史可以追溯到3,000年前，史前人类住区的证据可以追溯到至少125,000年前。已知最早的斯里兰卡佛教著作——统称为巴利经典——可追溯到公元前29年举行的第四次佛教会议。斯里兰卡的地理位置和深水港使其具有重要的战略意义，从最早的古代丝绸之路贸易路线到今天海上丝绸之路均扮演关键角色。\n葡萄牙帝国于16世纪在科特王国政治动荡时期建立了殖民地，并面临邻国康提和锡塔瓦卡的攻击。僧伽罗-葡萄牙战争后，荷兰殖民帝国控制了沿海地区。","history_text":"公元前380年前后，阿努拉德普勒王国建立，此后作为都城近一千四百年；提婆南毗耶·帝沙在位时佛教自印度传入，社会随之大变。1592年，维摩罗·达摩·苏里亚一世将王国迁往内陆的康提。1505年葡萄牙探险家抵达，此后葡萄牙人筑堡控制沿海。1869年咖啡锈病摧毁种植园，英国人改种茶叶，茶叶生产在此后数十年间兴盛起来。","custom_text":"康提舞是古典舞蹈中最突出的一种，动作复杂，舞者依鼓点腾挪旋转。佛寺与佛塔遍布城乡，人们清晨携花供佛，卫塞节夜里街巷点起纸灯笼。饮食以米饭配咖喱为主，椰浆入菜，薄饼与椰丝点心常见于日常餐桌。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":155,"folk":94}},"knowledge_qa":[{"q":"斯里兰卡在哪儿啊？","a":"位于南亚—印度次大陆东南方外海的岛国，属于亚洲。","tags":["斯里兰卡","位置","亚洲"]},{"q":"斯里兰卡的首都是哪里？","a":"行政和司法首都是科伦坡，立法首都是斯里贾亚瓦德纳普拉科特。","tags":["首都","科伦坡","斯里贾亚瓦德纳普拉科特"]},{"q":"斯里兰卡说什么语言？","a":"僧伽罗语和泰米尔语是官方语言，英语也通用。","tags":["语言","僧伽罗语","泰米尔语","英语"]},{"q":"斯里兰卡有什么值得看的地标？","a":"有锡吉里耶狮子岩、康提佛牙寺、丹布勒石窟寺、加勒古堡和波隆纳鲁沃古城。","tags":["地标","狮子岩","佛牙寺","古堡"]},{"q":"斯里兰卡有什么历史遗迹？","a":"有锡吉里耶狮子岩、丹布勒石窟寺、加勒古堡和波隆纳鲁沃古城等。","tags":["历史","遗迹","古城"]},{"q":"斯里兰卡以前叫什么？","a":"1972年之前称锡兰。","tags":["锡兰","旧称","历史"]},{"q":"斯里兰卡的历史有多久？","a":"文献记载的历史可追溯到3,000年前，史前人类住区证据至少125,000年前。","tags":["历史","古代","史前"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[8188,709],[8178,661],[8132,620],[8059,592],[8020,603],[8010,613],[7986,681],[7970,822],[7978,835],[7973,801],[7981,799],[7981,824],[7994,864],[7992,894],[8005,903],[8011,919],[8005,939],[8020,947],[8005,960],[8029,945],[8061,945],[7996,969],[7991,977],[7997,982],[8012,982],[8044,958],[8014,980],[8025,983],[8082,927],[8083,914],[8096,902],[8088,904],[8092,894],[8098,898],[8123,865],[8125,855],[8113,850],[8137,848],[8145,813],[8140,819],[8140,814],[8156,800],[8171,771],[8160,773],[8175,762],[8177,746],[8186,741],[8188,709]],[[8174,766],[8172,774],[8181,748],[8174,766]],[[7971,908],[7984,908],[7991,897],[7971,908]],[[7990,962],[7988,976],[7998,962],[7990,962]]]}
+{
+  "qid": "Q854",
+  "iso_a2": "LK",
+  "iso_a3": "LKA",
+  "name_zh": "斯里兰卡",
+  "name_en": "Sri Lanka",
+  "capital": "斯里賈亞瓦德納普拉科特",
+  "continent": "亚洲",
+  "centroid": [
+    81,
+    7
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "spoken",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "si",
+      "name_zh": "僧伽罗语",
+      "name_local": "僧伽罗语",
+      "role": "official",
+      "audio_url": "assets/lk/audio/si.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "ශ්‍රී ලංකාවට සාදරයෙන් පිළිගනිමු. අපගේ අගනුවර වන ශ්‍රී ජයවර්ධනපුර කෝට්ටේ නගරයෙන් පසු, අපගේ රටේ ආත්මය නියෝජනය කරන සීගිරිය පර්වතය දැකගන්නට ඔබට හැකිය.",
+      "tts_text_zh": "欢迎来到斯里兰卡。我们的首都位于斯里贾亚瓦德纳普拉科特，在那里您还可以看到代表我国精神的狮子岩。",
+      "audio_voice": "si-LK-ThiliniNeural",
+      "audio_bytes": 65088
+    },
+    {
+      "code": "ta",
+      "name_zh": "泰米尔语",
+      "name_local": "泰米尔语",
+      "role": "official",
+      "audio_url": "assets/lk/audio/ta.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "இலங்கைக்கு வருக. எங்கள் தலைநகரம் ஸ்ரீ ஜயவர்தனபுர கோட்டே ஆகும்; அங்கிருந்து நாட்டின் ஆன்மாவைப் பிரதிபலிக்கும் சிகிரியா மலையைக் காணலாம்.",
+      "tts_text_zh": "欢迎来到斯里兰卡。我们的首都是斯里贾亚瓦德纳普拉科特，从那里可以望见象征国家灵魂的狮子岩。",
+      "audio_voice": "ta-IN-PallaviNeural",
+      "audio_bytes": 60048
+    }
+  ],
+  "summary_text": "斯里兰卡民主社会主义共和国通称斯里兰卡，1972年之前称锡兰，是一个位于南亚—印度次大陆东南方外海的岛国，属于亚洲。其行政和司法首都是科伦坡，也是该国最大城市及政治、金融和文化中心；立法首都为邻近的斯里贾亚瓦德纳普拉科特。斯里兰卡的地理位置和深水港使其具有重要的战略意义，从最早的古代丝绸之路贸易路线到今天海上丝绸之路均扮演关键角色。斯里兰卡有文献记载的历史可以追溯到3,000年前，史前人类住区的证据可以追溯到至少125,000年前。已知最早的斯里兰卡佛教著作——统称为巴利经典——可追溯到公元前29年举行的第四次佛教会议。16世纪，葡萄牙帝国在科特王国政治动荡时期建立了殖民地，并面临邻国康提和锡塔瓦卡的攻击；僧伽罗-葡萄牙战争后，荷兰殖民帝国控制了沿海地区。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 332,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E9%87%8C%E8%98%AD%E5%8D%A1",
+    "title": "斯里蘭卡"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "阿努拉德普勒时期（公元前377年—公元1017年）始于公元前380年潘杜卡巴亚统治期间阿努拉德普勒王国的建立。此后，阿努拉德普勒作为国家首都近1,400年。在提婆南毗耶·帝沙统治期间，随着佛教从印度的传入，社会发生了重大变革。公元前250年，孔雀帝国皇帝阿育王之子摩哂陀抵达密亨达勒传播佛教。斯里兰卡的近现代史始于葡萄牙探险家洛伦索·德·阿尔梅达于1505年到达。1517年，葡萄牙人在科伦坡港修建堡垒，并逐渐扩大对沿海地区的控制。1592年，维摩罗·达摩·苏里亚一世将王国迁至内陆城市康提。1619年，贾夫纳王国的独立存在终结。斯里兰卡现代时期的开端以1833年的科尔布鲁克-卡梅伦改革为标志。1869年，毁灭性的叶病咖啡锈病袭击了咖啡种植园，在15年内摧毁了整个产业。英国人迅速找到替代品：放弃咖啡，开始种植茶叶。斯里兰卡茶叶生产在随后的几十年中蓬勃发展。S·W·R·D·班达拉奈克于1956年当选总理。他推出了备受争议的僧伽罗语唯一法案，承认僧伽罗语为政府唯一的官方语言。班达拉奈克于1959年被一名极端佛教僧侣刺杀。西丽玛沃·班达拉奈克（班达拉奈克遗孀）于1960年就任总理，成为世界上第一位民选女性政府首脑。1971年，锡兰经历了一场马克思主义起义，很快被镇压。1972年，该国成为名为斯里兰卡的共和国。J·R·贾亚瓦德纳政府于1977年上台。贾亚瓦德纳引入了新宪法，以及自由市场经济和以法国为蓝本的强大行政总统制。1983年，民族紧张局势表现为猛虎组织对政府的断续起义。猛虎组织对13名士兵的袭击引发了内战，作为回应，反泰米尔种族骚乱发生，导致超过15万泰米尔平民逃离该岛。2009年，在马欣达·拉贾帕克萨总统任内，斯里兰卡武装部队击败了猛虎组织，于2009年5月19日结束了长达26年的内战。冲突期间总计有60,000至100,000人丧生。2019年斯里兰卡复活节爆炸案由恐怖组织“全国认主学大会”于2019年4月21日实施，造成261名无辜者死亡。斯里兰卡的经济困境始于2019年，一场严重的经济危机因外债迅速增加、大规模政府预算赤字、外汇汇款下降、强制有机耕作导致的粮食危机以及化学肥料禁令等多种因素引发。斯里兰卡政府正式宣布这场危机为该国73年来最严重的经济危机。2022年6月，总理拉尼尔·维克拉马辛哈在议会宣布斯里兰卡经济“崩溃”。危机导致斯里兰卡历史上首次对其510亿美元主权债务违约。大规模街头抗议在全国爆发，抗议者要求总统戈塔巴雅·拉贾帕克萨辞职。抗议高潮是2022年7月9日冲击和围攻总统府，戈塔巴雅·拉贾帕克萨逃往新加坡。2024年9月23日，左翼候选人阿努拉·库马拉·迪萨纳亚克在赢得总统选举后宣誓就任斯里兰卡新总统。2024年11月14日，迪萨纳亚克的国家人民力量联盟在议会选举中获得三分之二多数。",
+      "chars": 1169
+    },
+    {
+      "section": "文化",
+      "text": "斯里兰卡文化主要受佛教和印度教影响。斯里兰卡是两种主要传统文化的家园：僧伽罗文化（以康提和阿努拉德普勒为中心）和泰米尔文化（以贾夫纳为中心）。\n斯里兰卡文学至少有两千年历史。巴利藏经于公元前29年在凯格勒的阿卢勒纳石窟寺举行的第四次佛教结集期间被书写下来。6世纪的《大史》生动描述了斯里兰卡王朝。第一部现代小说是西蒙·德·席尔瓦于1905年出版的《米娜》，马丁·维克拉马辛哈被认为是斯里兰卡文学的标志性人物。\n斯里兰卡古典舞蹈有三种主要风格：康提舞、低地舞和萨伯勒格穆沃舞。康提风格最为突出，是一种复杂的舞蹈形式。",
+      "chars": 1200
+    },
+    {
+      "section": "人口与宗教",
+      "text": "斯里兰卡约有2,196万人，年人口增长率0.5%。僧伽罗人是最大族群，占总人口的74.8%。斯里兰卡泰米尔人是第二大族群，占11.2%；摩尔人占9.2%。\n佛教是最大宗教，根据宪法第二章第9条被视为“官方宗教”。69.8%的斯里兰卡人信奉佛教，大多属于上座部佛教传统。",
+      "chars": 1200
+    },
+    {
+      "section": "文学与表演艺术",
+      "text": "斯里兰卡文学至少有两千年历史。巴利藏经于公元前29年在凯格勒的阿卢勒纳石窟寺举行的第四次佛教结集期间被书写下来。6世纪的《大史》生动描述了斯里兰卡王朝。第一部现代小说是西蒙·德·席尔瓦于1905年出版的《米娜》，马丁·维克拉马辛哈被认为是斯里兰卡文学的标志性人物。\n斯里兰卡古典舞蹈有三种主要风格：康提舞、低地舞和萨伯勒格穆沃舞。康提风格最为突出，是一种复杂的舞蹈形式。",
+      "chars": 631
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Sigiriya, Wolkenmädchen 3.jpg",
+      "caption_zh": "锡吉里耶狮子岩云中少女壁画",
+      "caption": "锡吉里耶狮子岩云中少女壁画",
+      "caption_commons": "Wolkenmädchen in Sigiriya, Sri Lanka, aufgenommen 1970",
+      "kw": "Sigiriya Lion Rock",
+      "url": "assets/lk/L01.webp",
+      "thumb_url": "assets/lk/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Sigiriya%2C_Wolkenm%C3%A4dchen_3.jpg/1920px-Sigiriya%2C_Wolkenm%C3%A4dchen_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Schnobby",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 134708,
+      "caption_zh_manual": "锡吉里耶狮子岩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7660,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 862KB JPEG)"
+    },
+    {
+      "title": "File:Elephants of Kandy Esala Perahera (2).jpg",
+      "caption_zh": "康提佛牙寺的大象游行",
+      "caption": "康提佛牙寺的大象游行",
+      "caption_commons": "Éléphants caparaçonnés.",
+      "kw": "Temple of the Tooth Kandy",
+      "url": "assets/lk/L02.webp",
+      "thumb_url": "assets/lk/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Elephants_of_Kandy_Esala_Perahera_%282%29.jpg/1920px-Elephants_of_Kandy_Esala_Perahera_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Daniel Liabeuf",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 125054,
+      "caption_zh_manual": "康提佛牙寺",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10722,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 762KB JPEG)"
+    },
+    {
+      "title": "File:Dambulla-temple daurat1.jpg",
+      "caption_zh": "丹布勒石窟寺金色外观",
+      "caption": "丹布勒石窟寺金色外观",
+      "caption_commons": "Temple daurat de Dambulla, foto feta per J. Ollé el juliol del 2006",
+      "kw": "Dambulla Cave Temple",
+      "url": "assets/lk/L03.webp",
+      "thumb_url": "assets/lk/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Dambulla-temple_daurat1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "No machine-readable author provided. Jolle~commonswiki assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 87752,
+      "caption_zh_manual": "丹布勒石窟寺",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7918,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1600x1200 324KB JPEG)"
+    },
+    {
+      "title": "File:SL Galle Fort asv2020-01 img24.jpg",
+      "caption_zh": "加勒古堡",
+      "caption": "加勒古堡",
+      "caption_commons": "Lighthouse in the Dutch Fort of Galle, Sri Lanka",
+      "kw": "Galle Fort lighthouse",
+      "url": "assets/lk/L04.webp",
+      "thumb_url": "assets/lk/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/SL_Galle_Fort_asv2020-01_img24.jpg/1920px-SL_Galle_Fort_asv2020-01_img24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "A.Savin",
+      "license": "FAL",
+      "license_url": "http://artlibre.org/licence/lal/en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 122904,
+      "caption_zh_manual": "加勒古堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6818,
+      "size": {
+        "detail": "1080x864",
+        "thumb": "225x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1536 716KB JPEG)"
+    },
+    {
+      "title": "File:Polonnaruwa Vatadage.jpg",
+      "caption_zh": "波隆纳鲁沃古城圆形佛殿",
+      "caption": "波隆纳鲁沃古城圆形佛殿",
+      "caption_commons": "The Polonnaruwa Vatadage, in the ancient city of Polonnaruwa, Sri Lanka.",
+      "kw": "Polonnaruwa Vatadage",
+      "url": "assets/lk/L05.webp",
+      "thumb_url": "assets/lk/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Polonnaruwa_Vatadage.jpg/1920px-Polonnaruwa_Vatadage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Simon Frost",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 163086,
+      "caption_zh_manual": "波隆纳鲁沃古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9548,
+      "size": {
+        "detail": "1080x723",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1920x1285 799KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:35:47+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 无通行语，从 P2936 补：英语",
+    "P443 发音语种不符已弃用：Lb-Sri Lanka.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Sri Lanka.wav、LL-Q652 (ita)-Francyskus-Sri Lanka.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py LK",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "佛教",
+        "evidence": "斯里兰卡佛教著作"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "锡兰",
+        "evidence": "1972年之前称锡兰"
+      },
+      {
+        "v": "科伦坡",
+        "evidence": "行政和司法首都是科伦坡"
+      },
+      {
+        "v": "巴利经典",
+        "evidence": "统称为巴利经典"
+      },
+      {
+        "v": "海上丝绸之路",
+        "evidence": "今天海上丝绸之路均扮演关键角色"
+      },
+      {
+        "v": "深水港",
+        "evidence": "地理位置和深水港"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "斯里兰卡民主社会主义共和国（僧伽罗语：ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය；泰米尔语：இலங்கை சனநாயக சோசலிசக் குடியரசு；英语：Democratic Socialist Republic of Sri Lanka），通称斯里兰卡（僧伽罗语：ශ්‍රී ලංකාව；泰米尔语：இலங்கை），1972年之前称锡兰，是一个位于南亚—印度次大陆东南方外海的岛国，属于亚洲。其行政和司法首都是科伦坡，也是该国最大城市及政治、金融和文化中心；立法首都为邻近的斯里贾亚瓦德纳普拉科特。\n斯里兰卡有文献记载的历史可以追溯到3,000年前，史前人类住区的证据可以追溯到至少125,000年前。已知最早的斯里兰卡佛教著作——统称为巴利经典——可追溯到公元前29年举行的第四次佛教会议。斯里兰卡的地理位置和深水港使其具有重要的战略意义，从最早的古代丝绸之路贸易路线到今天海上丝绸之路均扮演关键角色。\n葡萄牙帝国于16世纪在科特王国政治动荡时期建立了殖民地，并面临邻国康提和锡塔瓦卡的攻击。僧伽罗-葡萄牙战争后，荷兰殖民帝国控制了沿海地区。",
+  "history_text": "公元前380年前后，阿努拉德普勒王国建立，此后作为都城近一千四百年；提婆南毗耶·帝沙在位时佛教自印度传入，社会随之大变。1592年，维摩罗·达摩·苏里亚一世将王国迁往内陆的康提。1505年葡萄牙探险家抵达，此后葡萄牙人筑堡控制沿海。1869年咖啡锈病摧毁种植园，英国人改种茶叶，茶叶生产在此后数十年间兴盛起来。",
+  "custom_text": "康提舞是古典舞蹈中最突出的一种，动作复杂，舞者依鼓点腾挪旋转。佛寺与佛塔遍布城乡，人们清晨携花供佛，卫塞节夜里街巷点起纸灯笼。饮食以米饭配咖喱为主，椰浆入菜，薄饼与椰丝点心常见于日常餐桌。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 155,
+      "folk": 94
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "斯里兰卡在哪儿啊？",
+      "a": "位于南亚—印度次大陆东南方外海的岛国，属于亚洲。",
+      "tags": [
+        "斯里兰卡",
+        "位置",
+        "亚洲"
+      ]
+    },
+    {
+      "q": "斯里兰卡的首都是哪里？",
+      "a": "行政和司法首都是科伦坡，立法首都是斯里贾亚瓦德纳普拉科特。",
+      "tags": [
+        "首都",
+        "科伦坡",
+        "斯里贾亚瓦德纳普拉科特"
+      ]
+    },
+    {
+      "q": "斯里兰卡说什么语言？",
+      "a": "僧伽罗语和泰米尔语是官方语言，英语也通用。",
+      "tags": [
+        "语言",
+        "僧伽罗语",
+        "泰米尔语",
+        "英语"
+      ]
+    },
+    {
+      "q": "斯里兰卡有什么值得看的地标？",
+      "a": "有锡吉里耶狮子岩、康提佛牙寺、丹布勒石窟寺、加勒古堡和波隆纳鲁沃古城。",
+      "tags": [
+        "地标",
+        "狮子岩",
+        "佛牙寺",
+        "古堡"
+      ]
+    },
+    {
+      "q": "斯里兰卡有什么历史遗迹？",
+      "a": "有锡吉里耶狮子岩、丹布勒石窟寺、加勒古堡和波隆纳鲁沃古城等。",
+      "tags": [
+        "历史",
+        "遗迹",
+        "古城"
+      ]
+    },
+    {
+      "q": "斯里兰卡以前叫什么？",
+      "a": "1972年之前称锡兰。",
+      "tags": [
+        "锡兰",
+        "旧称",
+        "历史"
+      ]
+    },
+    {
+      "q": "斯里兰卡的历史有多久？",
+      "a": "文献记载的历史可追溯到3,000年前，史前人类住区证据至少125,000年前。",
+      "tags": [
+        "历史",
+        "古代",
+        "史前"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        8188,
+        709
+      ],
+      [
+        8178,
+        661
+      ],
+      [
+        8132,
+        620
+      ],
+      [
+        8059,
+        592
+      ],
+      [
+        8020,
+        603
+      ],
+      [
+        8010,
+        613
+      ],
+      [
+        7986,
+        681
+      ],
+      [
+        7970,
+        822
+      ],
+      [
+        7978,
+        835
+      ],
+      [
+        7973,
+        801
+      ],
+      [
+        7981,
+        799
+      ],
+      [
+        7981,
+        824
+      ],
+      [
+        7994,
+        864
+      ],
+      [
+        7992,
+        894
+      ],
+      [
+        8005,
+        903
+      ],
+      [
+        8011,
+        919
+      ],
+      [
+        8005,
+        939
+      ],
+      [
+        8020,
+        947
+      ],
+      [
+        8005,
+        960
+      ],
+      [
+        8029,
+        945
+      ],
+      [
+        8061,
+        945
+      ],
+      [
+        7996,
+        969
+      ],
+      [
+        7991,
+        977
+      ],
+      [
+        7997,
+        982
+      ],
+      [
+        8012,
+        982
+      ],
+      [
+        8044,
+        958
+      ],
+      [
+        8014,
+        980
+      ],
+      [
+        8025,
+        983
+      ],
+      [
+        8082,
+        927
+      ],
+      [
+        8083,
+        914
+      ],
+      [
+        8096,
+        902
+      ],
+      [
+        8088,
+        904
+      ],
+      [
+        8092,
+        894
+      ],
+      [
+        8098,
+        898
+      ],
+      [
+        8123,
+        865
+      ],
+      [
+        8125,
+        855
+      ],
+      [
+        8113,
+        850
+      ],
+      [
+        8137,
+        848
+      ],
+      [
+        8145,
+        813
+      ],
+      [
+        8140,
+        819
+      ],
+      [
+        8140,
+        814
+      ],
+      [
+        8156,
+        800
+      ],
+      [
+        8171,
+        771
+      ],
+      [
+        8160,
+        773
+      ],
+      [
+        8175,
+        762
+      ],
+      [
+        8177,
+        746
+      ],
+      [
+        8186,
+        741
+      ],
+      [
+        8188,
+        709
+      ]
+    ],
+    [
+      [
+        8174,
+        766
+      ],
+      [
+        8172,
+        774
+      ],
+      [
+        8181,
+        748
+      ],
+      [
+        8174,
+        766
+      ]
+    ],
+    [
+      [
+        7971,
+        908
+      ],
+      [
+        7984,
+        908
+      ],
+      [
+        7991,
+        897
+      ],
+      [
+        7971,
+        908
+      ]
+    ],
+    [
+      [
+        7990,
+        962
+      ],
+      [
+        7988,
+        976
+      ],
+      [
+        7998,
+        962
+      ],
+      [
+        7990,
+        962
+      ]
+    ]
+  ]
+}

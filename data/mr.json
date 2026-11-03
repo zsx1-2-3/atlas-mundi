@@ -1,1 +1,707 @@
-{"qid":"Q1025","iso_a2":"MR","iso_a3":"MRT","name_zh":"毛里塔尼亚","name_en":"Mauritania","capital":"努瓦克肖特","continent":"非洲","centroid":[-11,21],"centroid_source":"wikidata P625","languages":[{"code":"ar","name_zh":"阿拉伯语","name_local":"阿拉伯语","role":"official","audio_url":"assets/mr/audio/ar.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"أهلاً بكم في موريتانيا، بلاد الصحراء الممتدة على شاطئ المحيط الأطلسي، وعاصمتها نواكشوط، حيث يقع ميناء الصداقة الذي يفتح المدينة على العالم.","tts_text_zh":"欢迎来到毛里塔尼亚，这片沿大西洋海岸延伸的沙漠之国，首都是努瓦克肖特，友谊港就坐落于此，让这座城市向世界敞开。","_retried":true,"audio_voice":"ar-DZ-AminaNeural","audio_bytes":79488},{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/mr/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue en Mauritanie, ce pays où le désert rejoint l'océan Atlantique ; sa capitale, Nouakchott, s'étend le long de la côte, et vous pourrez y découvrir le phare du Port de l'Amitié, qui guide les navires depuis plus d'un siècle.","tts_text_zh":"欢迎来到毛里塔尼亚，这片沙漠与大西洋相接的国度；首都努瓦克肖特沿海岸延伸，您可以在那里参观一个多世纪以来为船只指引方向的友谊港灯塔。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":82944}],"summary_text":"毛里塔尼亚伊斯兰共和国通称毛里塔尼亚，是位于西非的国家，也是非洲的马格里布阿拉伯国家之一，与阿尔及利亚、马里、塞内加尔和西撒哈拉争议地区接壤。中文语境中，中华民国将其音译为“茅利塔尼亚”，简称“茅国”；中华人民共和国将其音译为“毛里塔尼亚”，简称“毛塔”。毛里塔尼亚最早的居民是巴富尔黑人民族，北非柏柏尔人后来迁入毛里塔尼亚北部。7世纪阿拉伯人传入伊斯兰教，10世纪北非的穆拉比特王朝统治毛里塔尼亚大部分地区。12世纪后毛里塔尼亚南部先后成为马里和桑海帝国的外省。15世纪开始，毛里塔尼亚先后被葡萄牙、荷兰和英国殖民。1912年毛里塔尼亚成为法国殖民地，1920年成为法属西非洲的一部分，1957年获得半自治共和国地位，1958年成为法兰西共同体的一个自治共和国。1960年11月28日，毛里塔尼亚宣布独立，改名毛里塔尼亚伊斯兰共和国，并退出共同体，独立后经历多起政变。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":385,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%AF%9B%E9%87%8C%E5%A1%94%E5%B0%BC%E4%BA%9A","title":"毛里塔尼亚"},"culture_excerpts":[{"section":"历史","text":"毛最早的居民是巴富尔黑人民族。北非柏柏尔人迁入毛北部。 7世纪阿拉伯人传入伊斯兰教，10世纪北非的穆拉比特王朝统治毛大部分地区。12世纪后毛里塔尼亚南部先后成为马里和桑海帝国的外省。15世纪开始，先后被葡萄牙、荷兰和英国殖民。1912年成为法国殖民地；1920年成为法属西非洲的一部分；1957年获得半自治共和国地位；1958年成为法兰西共同体的一个自治共和国；1960年11月28日宣布独立，改名毛里塔尼亚伊斯兰共和国，并退出共同体。独立后经历多起政变。","chars":228},{"section":"文化","text":"毛里塔尼亚是一个传统上的伊斯兰国家，沙里亚法影响巨大，毛里塔尼亚的穆斯林不食猪肉、不饮酒。因阿拉伯语是各部族之间的通用语言，故属于阿拉伯国家。与摩洛哥等马格里布国家一样，该地的居民早期也被欧洲人称为“摩尔人”。摩尔人分为阿拉伯半岛后裔的“白摩尔人”和黑人血统的“黑摩尔人”。他们女儿的婚事都是由母亲做主，父亲不能干预。小伙子看中哪位姑娘，男方母亲便带礼物到姑娘的母亲那提亲，姑娘的母亲如同意婚事便定下来。婚礼时，新郎身崭新白色或蓝色的肥大长袍，头上缠一条长达三米多的白头巾。新娘穿着色泽鲜艳的花裙子，头上缠同裙子一色的布围巾。婚礼结束后，夫妇共度一星期，便各自回父母家。两个月后，再共同生活几天，随后再分开。这样持续两年时间。然后，新郎同亲朋好友一道，牵着数头骆驼来到新娘家，将新娘接回去。从此互不分开。过去，毛里塔尼亚人结婚都很早，女孩十多岁就出嫁。婚后每隔几天回娘家，将新婚各种事情讲述给母亲，母亲则仔细教导她。两年后，新娘长大成人，分居两地生活结束。\n毛里塔尼亚的摩尔人女人审美观是腰身粗、脖子短、臀部突出、乳房高耸。肥胖女人是财富的象征。小伙子娶肥胖超群的妻子，其婚礼必然异常隆重，亲人会远道赶来一睹新娘芳容。母亲总是竞相研究肥胖之道。富贵人家女子，从七八岁开始，每日喝羊奶，吃富含脂肪的食物，很少参加户外活动，由女仆人在身上抹油脂。普通人家父母要求女儿喝下大量骆驼的骆驼奶。此外，女孩几乎每天还要定时脱去衣服在软沙上转动打滚， 将身体上凹凸不平的地方磨平，只见肉不见骨。","chars":1200},{"section":"人口","text":"近336万（2012年人口普查结果），平均寿命61岁（2011年估计）。\n民族组成为40%的白摩尔人（为阿拉伯－柏柏尔血统，属于高加索人种地中海类型），另外黑摩尔人（阿拉伯文化语言传统的哈拉廷人）和非洲黑人各占30%。主要部族是图库洛尔人、富拉尼人、索宁克人、沃洛夫人和班巴拉人 。\n国民中有高达75%居住于都市地区如首都努瓦克肖特、西北部之诺瓦迪布（Nouadhibou）及塞内加尔河沿岸地区。另外25%之民众则过着游牧生活，因气候炎热干燥，生活条件恶劣。","chars":1200}],"landmark_images":[{"title":"File:Chinguetti-Vue Goblale Vieille ville.jpg","caption_zh":"欣盖提古城老城全景","caption":"欣盖提古城老城全景","caption_commons":"Vue Generale de la vieille ville de Chinguetti en Mauritanie","kw":"Chinguetti old town","url":"assets/mr/L01.webp","thumb_url":"assets/mr/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Chinguetti-Vue_Goblale_Vieille_ville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"François COLIN","license":"CC BY-SA 2.5","license_url":"https://creativecommons.org/licenses/by-sa/2.5","license_status":"ok","load_verified":true,"bytes":60864,"caption_zh_manual":"欣盖提古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16236,"size":{"detail":"760x509","thumb":"400x268"},"encoding":"webp q72/q74 (源 1700x1138 355KB JPEG)"},{"title":"File:Oualata Decorative Entrance 1.jpg","caption_zh":"瓦丹古城装饰性入口","caption":"瓦丹古城装饰性入口","caption_commons":"","kw":"Oualata old town","url":"assets/mr/L02.webp","thumb_url":"assets/mr/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Oualata_Decorative_Entrance_1.jpg/1920px-Oualata_Decorative_Entrance_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Kurt Dundy at English Wikipedia","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":41422,"caption_zh_manual":"瓦丹古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13524,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 541KB JPEG)"},{"title":"File:OuadaneOldTown1.jpg","caption_zh":"瓦拉塔古城旧城区一角","caption":"瓦拉塔古城旧城区一角","caption_commons":"Ouadane: View of old town","kw":"Ouadane old town","url":"assets/mr/L03.webp","thumb_url":"assets/mr/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/2/29/OuadaneOldTown1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Clemens Schmillen","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":57640,"caption_zh_manual":"瓦拉塔古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17812,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1024x683 198KB JPEG)"},{"title":"File:RichatStructure.jpg","caption_zh":"撒哈拉之眼理查特结构","caption":"撒哈拉之眼理查特结构","caption_commons":"Guelb er Richât, Mauritania","kw":"Richat Structure Mauritania","url":"assets/mr/L04.webp","thumb_url":"assets/mr/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/1/1d/RichatStructure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Clemens Schmillen","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":38550,"caption_zh_manual":"撒哈拉之眼","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11160,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1024x683 156KB JPEG)"},{"title":"File:Conchero Arguin.jpg","caption_zh":"阿尔金海滩国家公园内的贝壳堆","caption":"阿尔金海滩国家公园内的贝壳堆","caption_commons":"Huge shell heap at Bacn d'Arguin National Park, Mauritania","kw":"Banc d'Arguin National Park","url":"assets/mr/L05.webp","thumb_url":"assets/mr/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Conchero_Arguin.jpg/1920px-Conchero_Arguin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Kokopelado","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":99888,"caption_zh_manual":"阿尔金海滩国家公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":27716,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 801KB JPEG)"}],"image_license":"CC BY-SA 2.5","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:43:00+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Mauretanien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Mauritania.wav、LL-Q9610 (ben)-Tahmid-মৌরিতানিয়া.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py MR","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","LLM 质检[warn] languages：法语在毛里塔尼亚无官方地位，官方语言为阿拉伯语 → 将法语 role 改为非官方或删除"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"伊斯兰教","evidence":"7世纪阿拉伯人传入伊斯兰教"}],"architecture":[],"heritage":[],"keywords":[{"v":"马格里布","evidence":"非洲的马格里布阿拉伯国家之一"},{"v":"西非","evidence":"位于西非的国家"},{"v":"穆拉比特王朝","evidence":"穆拉比特王朝统治毛大部分地区"},{"v":"巴富尔黑人","evidence":"最早的居民是巴富尔黑人民族"}],"model":"deepseek-flash"},"summary_text_raw":"毛里塔尼亚伊斯兰共和国（阿拉伯语：الجمهورية الإسلامية الموريتانية；法语：République islamique de Mauritanie），通称毛里塔尼亚（阿拉伯语：موريتانيا；法语：Mauritanie），是位于西非的国家，也是非洲的马格里布阿拉伯国家之一。与阿尔及利亚、马里、塞内加尔和西撒哈拉争议地区接壤。\n\n\n== 中文名称 ==\n中华民国将其音译为“茅利塔尼亚”，简称“茅国”；中华人民共和国将其音译为“毛里塔尼亚”，简称“毛塔”。\n\n\n== 历史 ==\n\n毛最早的居民是巴富尔黑人民族。北非柏柏尔人迁入毛北部。 7世纪阿拉伯人传入伊斯兰教，10世纪北非的穆拉比特王朝统治毛大部分地区。12世纪后毛里塔尼亚南部先后成为马里和桑海帝国的外省。15世纪开始，先后被葡萄牙、荷兰和英国殖民。1912年成为法国殖民地；1920年成为法属西非洲的一部分；1957年获得半自治共和国地位；1958年成为法兰西共同体的一个自治共和国；1960年11月28日宣布独立，改名毛里塔尼亚伊斯兰共和国，并退出共同体。独立后经历多起政变。","history_text":"最早的居民是巴富尔黑人民族，柏柏尔人随后迁入北部。七世纪阿拉伯人传入伊斯兰教，十世纪穆拉比特王朝统治大部分地区。十二世纪后南部先后归属马里和桑海帝国。十五世纪起葡萄牙、荷兰、英国相继到来，一九一二年沦为法国殖民地，一九六〇年独立为毛里塔尼亚伊斯兰共和国，此后经历多起政变。","custom_text":"穆斯林不食猪肉、不饮酒，沙里亚法影响深远。摩尔人嫁女由母亲做主，男方母亲携礼登门提亲，父亲不干预。婚礼上新郎裹白色或蓝色肥大长袍、缠三米多长的白头巾，新娘穿色泽鲜艳的花裙、头缠同色围巾。礼后夫妇同住一周便各回父母家，如此分合两年，新郎才牵骆驼接回新娘。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":136,"folk":126}},"knowledge_qa":[{"q":"毛里塔尼亚在哪儿啊？","a":"位于西非，是非洲的马格里布阿拉伯国家之一，与阿尔及利亚、马里、塞内加尔和西撒哈拉争议地区接壤。","tags":["西非","非洲","位置","在哪"]},{"q":"毛里塔尼亚的首都是哪？","a":"首都努瓦克肖特。","tags":["首都","努瓦克肖特","城市"]},{"q":"毛里塔尼亚说什么语言？","a":"官方语言是阿拉伯语和法语。","tags":["语言","阿拉伯语","法语","说什么话"]},{"q":"毛里塔尼亚有什么值得看的地方？","a":"有欣盖提古城、瓦丹古城、瓦拉塔古城、撒哈拉之眼和阿尔金海滩国家公园。","tags":["景点","古城","撒哈拉之眼","国家公园","旅游"]},{"q":"毛里塔尼亚有什么历史遗迹？","a":"欣盖提古城、瓦丹古城和瓦拉塔古城都是当地的历史遗迹。","tags":["历史","古城","遗迹","欣盖提"]},{"q":"毛里塔尼亚的自然景观有哪些？","a":"有撒哈拉之眼和阿尔金海滩国家公园等自然景观。","tags":["自然","景观","撒哈拉之眼","海滩"]},{"q":"毛里塔尼亚什么时候独立的？","a":"1960年11月28日宣布独立，改名毛里塔尼亚伊斯兰共和国，并退出共同体。","tags":["独立","历史","1960年"]}],"llm_audit":{"issues":[{"field":"languages","severity":"warn","why":"法语在毛里塔尼亚无官方地位，官方语言为阿拉伯语","suggest":"将法语 role 改为非官方或删除"}],"overall":"warn"},"audio_meta":{},"outline":[[[-868,2728],[-482,2500],[-659,2499],[-562,1653],[-535,1631],[-551,1549],[-935,1550],[-936,1570],[-945,1559],[-942,1544],[-1007,1536],[-1072,1543],[-1092,1510],[-1153,1564],[-1164,1553],[-1173,1554],[-1185,1518],[-1182,1490],[-1207,1473],[-1238,1485],[-1248,1502],[-1289,1525],[-1283,1528],[-1296,1551],[-1308,1549],[-1310,1559],[-1324,1562],[-1332,1593],[-1348,1616],[-1368,1611],[-1373,1619],[-1384,1612],[-1398,1634],[-1441,1666],[-1497,1669],[-1511,1666],[-1512,1658],[-1546,1658],[-1567,1648],[-1627,1652],[-1646,1619],[-1654,1581],[-1653,1633],[-1608,1755],[-1604,1814],[-1621,1900],[-1654,1938],[-1636,1942],[-1628,1953],[-1639,1946],[-1636,1954],[-1647,1941],[-1623,1979],[-1625,1990],[-1631,1989],[-1622,2000],[-1626,2014],[-1620,2023],[-1647,2065],[-1641,2068],[-1653,2074],[-1654,2056],[-1667,2068],[-1692,2116],[-1706,2077],[-1697,2132],[-1302,2133],[-1315,2282],[-1302,2302],[-1262,2327],[-1202,2346],[-1202,2600],[-869,2600],[-868,2728]],[[-1638,1981],[-1635,1987],[-1643,1960],[-1646,1968],[-1638,1981]],[[-1632,1973],[-1630,1972],[-1640,1960],[-1632,1973]],[[-1648,1973],[-1647,1972],[-1648,1968],[-1650,1971],[-1649,1973],[-1648,1973]]]}
+{
+  "qid": "Q1025",
+  "iso_a2": "MR",
+  "iso_a3": "MRT",
+  "name_zh": "毛里塔尼亚",
+  "name_en": "Mauritania",
+  "capital": "努瓦克肖特",
+  "continent": "非洲",
+  "centroid": [
+    -11,
+    21
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ar",
+      "name_zh": "阿拉伯语",
+      "name_local": "阿拉伯语",
+      "role": "official",
+      "audio_url": "assets/mr/audio/ar.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "أهلاً بكم في موريتانيا، بلاد الصحراء الممتدة على شاطئ المحيط الأطلسي، وعاصمتها نواكشوط، حيث يقع ميناء الصداقة الذي يفتح المدينة على العالم.",
+      "tts_text_zh": "欢迎来到毛里塔尼亚，这片沿大西洋海岸延伸的沙漠之国，首都是努瓦克肖特，友谊港就坐落于此，让这座城市向世界敞开。",
+      "_retried": true,
+      "audio_voice": "ar-DZ-AminaNeural",
+      "audio_bytes": 79488
+    },
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/mr/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue en Mauritanie, ce pays où le désert rejoint l'océan Atlantique ; sa capitale, Nouakchott, s'étend le long de la côte, et vous pourrez y découvrir le phare du Port de l'Amitié, qui guide les navires depuis plus d'un siècle.",
+      "tts_text_zh": "欢迎来到毛里塔尼亚，这片沙漠与大西洋相接的国度；首都努瓦克肖特沿海岸延伸，您可以在那里参观一个多世纪以来为船只指引方向的友谊港灯塔。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 82944
+    }
+  ],
+  "summary_text": "毛里塔尼亚伊斯兰共和国通称毛里塔尼亚，是位于西非的国家，也是非洲的马格里布阿拉伯国家之一，与阿尔及利亚、马里、塞内加尔和西撒哈拉争议地区接壤。中文语境中，中华民国将其音译为“茅利塔尼亚”，简称“茅国”；中华人民共和国将其音译为“毛里塔尼亚”，简称“毛塔”。毛里塔尼亚最早的居民是巴富尔黑人民族，北非柏柏尔人后来迁入毛里塔尼亚北部。7世纪阿拉伯人传入伊斯兰教，10世纪北非的穆拉比特王朝统治毛里塔尼亚大部分地区。12世纪后毛里塔尼亚南部先后成为马里和桑海帝国的外省。15世纪开始，毛里塔尼亚先后被葡萄牙、荷兰和英国殖民。1912年毛里塔尼亚成为法国殖民地，1920年成为法属西非洲的一部分，1957年获得半自治共和国地位，1958年成为法兰西共同体的一个自治共和国。1960年11月28日，毛里塔尼亚宣布独立，改名毛里塔尼亚伊斯兰共和国，并退出共同体，独立后经历多起政变。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 385,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%AF%9B%E9%87%8C%E5%A1%94%E5%B0%BC%E4%BA%9A",
+    "title": "毛里塔尼亚"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "毛最早的居民是巴富尔黑人民族。北非柏柏尔人迁入毛北部。 7世纪阿拉伯人传入伊斯兰教，10世纪北非的穆拉比特王朝统治毛大部分地区。12世纪后毛里塔尼亚南部先后成为马里和桑海帝国的外省。15世纪开始，先后被葡萄牙、荷兰和英国殖民。1912年成为法国殖民地；1920年成为法属西非洲的一部分；1957年获得半自治共和国地位；1958年成为法兰西共同体的一个自治共和国；1960年11月28日宣布独立，改名毛里塔尼亚伊斯兰共和国，并退出共同体。独立后经历多起政变。",
+      "chars": 228
+    },
+    {
+      "section": "文化",
+      "text": "毛里塔尼亚是一个传统上的伊斯兰国家，沙里亚法影响巨大，毛里塔尼亚的穆斯林不食猪肉、不饮酒。因阿拉伯语是各部族之间的通用语言，故属于阿拉伯国家。与摩洛哥等马格里布国家一样，该地的居民早期也被欧洲人称为“摩尔人”。摩尔人分为阿拉伯半岛后裔的“白摩尔人”和黑人血统的“黑摩尔人”。他们女儿的婚事都是由母亲做主，父亲不能干预。小伙子看中哪位姑娘，男方母亲便带礼物到姑娘的母亲那提亲，姑娘的母亲如同意婚事便定下来。婚礼时，新郎身崭新白色或蓝色的肥大长袍，头上缠一条长达三米多的白头巾。新娘穿着色泽鲜艳的花裙子，头上缠同裙子一色的布围巾。婚礼结束后，夫妇共度一星期，便各自回父母家。两个月后，再共同生活几天，随后再分开。这样持续两年时间。然后，新郎同亲朋好友一道，牵着数头骆驼来到新娘家，将新娘接回去。从此互不分开。过去，毛里塔尼亚人结婚都很早，女孩十多岁就出嫁。婚后每隔几天回娘家，将新婚各种事情讲述给母亲，母亲则仔细教导她。两年后，新娘长大成人，分居两地生活结束。\n毛里塔尼亚的摩尔人女人审美观是腰身粗、脖子短、臀部突出、乳房高耸。肥胖女人是财富的象征。小伙子娶肥胖超群的妻子，其婚礼必然异常隆重，亲人会远道赶来一睹新娘芳容。母亲总是竞相研究肥胖之道。富贵人家女子，从七八岁开始，每日喝羊奶，吃富含脂肪的食物，很少参加户外活动，由女仆人在身上抹油脂。普通人家父母要求女儿喝下大量骆驼的骆驼奶。此外，女孩几乎每天还要定时脱去衣服在软沙上转动打滚， 将身体上凹凸不平的地方磨平，只见肉不见骨。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "近336万（2012年人口普查结果），平均寿命61岁（2011年估计）。\n民族组成为40%的白摩尔人（为阿拉伯－柏柏尔血统，属于高加索人种地中海类型），另外黑摩尔人（阿拉伯文化语言传统的哈拉廷人）和非洲黑人各占30%。主要部族是图库洛尔人、富拉尼人、索宁克人、沃洛夫人和班巴拉人 。\n国民中有高达75%居住于都市地区如首都努瓦克肖特、西北部之诺瓦迪布（Nouadhibou）及塞内加尔河沿岸地区。另外25%之民众则过着游牧生活，因气候炎热干燥，生活条件恶劣。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Chinguetti-Vue Goblale Vieille ville.jpg",
+      "caption_zh": "欣盖提古城老城全景",
+      "caption": "欣盖提古城老城全景",
+      "caption_commons": "Vue Generale de la vieille ville de Chinguetti en Mauritanie",
+      "kw": "Chinguetti old town",
+      "url": "assets/mr/L01.webp",
+      "thumb_url": "assets/mr/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Chinguetti-Vue_Goblale_Vieille_ville.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "François COLIN",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 129016,
+      "caption_zh_manual": "欣盖提古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6662,
+      "size": {
+        "detail": "1080x723",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1700x1138 355KB JPEG)"
+    },
+    {
+      "title": "File:Oualata Decorative Entrance 1.jpg",
+      "caption_zh": "瓦丹古城装饰性入口",
+      "caption": "瓦丹古城装饰性入口",
+      "caption_commons": "",
+      "kw": "Oualata old town",
+      "url": "assets/mr/L02.webp",
+      "thumb_url": "assets/mr/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Oualata_Decorative_Entrance_1.jpg/1920px-Oualata_Decorative_Entrance_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Kurt Dundy at English Wikipedia",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 78812,
+      "caption_zh_manual": "瓦丹古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6258,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 541KB JPEG)"
+    },
+    {
+      "title": "File:OuadaneOldTown1.jpg",
+      "caption_zh": "瓦拉塔古城旧城区一角",
+      "caption": "瓦拉塔古城旧城区一角",
+      "caption_commons": "Ouadane: View of old town",
+      "kw": "Ouadane old town",
+      "url": "assets/mr/L03.webp",
+      "thumb_url": "assets/mr/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/OuadaneOldTown1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Clemens Schmillen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 105814,
+      "caption_zh_manual": "瓦拉塔古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7538,
+      "size": {
+        "detail": "1024x683",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1024x683 198KB JPEG)"
+    },
+    {
+      "title": "File:RichatStructure.jpg",
+      "caption_zh": "撒哈拉之眼理查特结构",
+      "caption": "撒哈拉之眼理查特结构",
+      "caption_commons": "Guelb er Richât, Mauritania",
+      "kw": "Richat Structure Mauritania",
+      "url": "assets/mr/L04.webp",
+      "thumb_url": "assets/mr/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/RichatStructure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Clemens Schmillen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 75708,
+      "caption_zh_manual": "撒哈拉之眼",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4804,
+      "size": {
+        "detail": "1024x683",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1024x683 156KB JPEG)"
+    },
+    {
+      "title": "File:Conchero Arguin.jpg",
+      "caption_zh": "阿尔金海滩国家公园内的贝壳堆",
+      "caption": "阿尔金海滩国家公园内的贝壳堆",
+      "caption_commons": "Huge shell heap at Bacn d'Arguin National Park, Mauritania",
+      "kw": "Banc d'Arguin National Park",
+      "url": "assets/mr/L05.webp",
+      "thumb_url": "assets/mr/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Conchero_Arguin.jpg/1920px-Conchero_Arguin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Kokopelado",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 194630,
+      "caption_zh_manual": "阿尔金海滩国家公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10196,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 801KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 2.5",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:43:00+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Mauretanien.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Mauritania.wav、LL-Q9610 (ben)-Tahmid-মৌরিতানিয়া.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py MR",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "LLM 质检[warn] languages：法语在毛里塔尼亚无官方地位，官方语言为阿拉伯语 → 将法语 role 改为非官方或删除"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "伊斯兰教",
+        "evidence": "7世纪阿拉伯人传入伊斯兰教"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "马格里布",
+        "evidence": "非洲的马格里布阿拉伯国家之一"
+      },
+      {
+        "v": "西非",
+        "evidence": "位于西非的国家"
+      },
+      {
+        "v": "穆拉比特王朝",
+        "evidence": "穆拉比特王朝统治毛大部分地区"
+      },
+      {
+        "v": "巴富尔黑人",
+        "evidence": "最早的居民是巴富尔黑人民族"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "毛里塔尼亚伊斯兰共和国（阿拉伯语：الجمهورية الإسلامية الموريتانية；法语：République islamique de Mauritanie），通称毛里塔尼亚（阿拉伯语：موريتانيا；法语：Mauritanie），是位于西非的国家，也是非洲的马格里布阿拉伯国家之一。与阿尔及利亚、马里、塞内加尔和西撒哈拉争议地区接壤。\n\n\n== 中文名称 ==\n中华民国将其音译为“茅利塔尼亚”，简称“茅国”；中华人民共和国将其音译为“毛里塔尼亚”，简称“毛塔”。\n\n\n== 历史 ==\n\n毛最早的居民是巴富尔黑人民族。北非柏柏尔人迁入毛北部。 7世纪阿拉伯人传入伊斯兰教，10世纪北非的穆拉比特王朝统治毛大部分地区。12世纪后毛里塔尼亚南部先后成为马里和桑海帝国的外省。15世纪开始，先后被葡萄牙、荷兰和英国殖民。1912年成为法国殖民地；1920年成为法属西非洲的一部分；1957年获得半自治共和国地位；1958年成为法兰西共同体的一个自治共和国；1960年11月28日宣布独立，改名毛里塔尼亚伊斯兰共和国，并退出共同体。独立后经历多起政变。",
+  "history_text": "最早的居民是巴富尔黑人民族，柏柏尔人随后迁入北部。七世纪阿拉伯人传入伊斯兰教，十世纪穆拉比特王朝统治大部分地区。十二世纪后南部先后归属马里和桑海帝国。十五世纪起葡萄牙、荷兰、英国相继到来，一九一二年沦为法国殖民地，一九六〇年独立为毛里塔尼亚伊斯兰共和国，此后经历多起政变。",
+  "custom_text": "穆斯林不食猪肉、不饮酒，沙里亚法影响深远。摩尔人嫁女由母亲做主，男方母亲携礼登门提亲，父亲不干预。婚礼上新郎裹白色或蓝色肥大长袍、缠三米多长的白头巾，新娘穿色泽鲜艳的花裙、头缠同色围巾。礼后夫妇同住一周便各回父母家，如此分合两年，新郎才牵骆驼接回新娘。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 136,
+      "folk": 126
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "毛里塔尼亚在哪儿啊？",
+      "a": "位于西非，是非洲的马格里布阿拉伯国家之一，与阿尔及利亚、马里、塞内加尔和西撒哈拉争议地区接壤。",
+      "tags": [
+        "西非",
+        "非洲",
+        "位置",
+        "在哪"
+      ]
+    },
+    {
+      "q": "毛里塔尼亚的首都是哪？",
+      "a": "首都努瓦克肖特。",
+      "tags": [
+        "首都",
+        "努瓦克肖特",
+        "城市"
+      ]
+    },
+    {
+      "q": "毛里塔尼亚说什么语言？",
+      "a": "官方语言是阿拉伯语和法语。",
+      "tags": [
+        "语言",
+        "阿拉伯语",
+        "法语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "毛里塔尼亚有什么值得看的地方？",
+      "a": "有欣盖提古城、瓦丹古城、瓦拉塔古城、撒哈拉之眼和阿尔金海滩国家公园。",
+      "tags": [
+        "景点",
+        "古城",
+        "撒哈拉之眼",
+        "国家公园",
+        "旅游"
+      ]
+    },
+    {
+      "q": "毛里塔尼亚有什么历史遗迹？",
+      "a": "欣盖提古城、瓦丹古城和瓦拉塔古城都是当地的历史遗迹。",
+      "tags": [
+        "历史",
+        "古城",
+        "遗迹",
+        "欣盖提"
+      ]
+    },
+    {
+      "q": "毛里塔尼亚的自然景观有哪些？",
+      "a": "有撒哈拉之眼和阿尔金海滩国家公园等自然景观。",
+      "tags": [
+        "自然",
+        "景观",
+        "撒哈拉之眼",
+        "海滩"
+      ]
+    },
+    {
+      "q": "毛里塔尼亚什么时候独立的？",
+      "a": "1960年11月28日宣布独立，改名毛里塔尼亚伊斯兰共和国，并退出共同体。",
+      "tags": [
+        "独立",
+        "历史",
+        "1960年"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "languages",
+        "severity": "warn",
+        "why": "法语在毛里塔尼亚无官方地位，官方语言为阿拉伯语",
+        "suggest": "将法语 role 改为非官方或删除"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -868,
+        2728
+      ],
+      [
+        -482,
+        2500
+      ],
+      [
+        -659,
+        2499
+      ],
+      [
+        -562,
+        1653
+      ],
+      [
+        -535,
+        1631
+      ],
+      [
+        -551,
+        1549
+      ],
+      [
+        -935,
+        1550
+      ],
+      [
+        -936,
+        1570
+      ],
+      [
+        -945,
+        1559
+      ],
+      [
+        -942,
+        1544
+      ],
+      [
+        -1007,
+        1536
+      ],
+      [
+        -1072,
+        1543
+      ],
+      [
+        -1092,
+        1510
+      ],
+      [
+        -1153,
+        1564
+      ],
+      [
+        -1164,
+        1553
+      ],
+      [
+        -1173,
+        1554
+      ],
+      [
+        -1185,
+        1518
+      ],
+      [
+        -1182,
+        1490
+      ],
+      [
+        -1207,
+        1473
+      ],
+      [
+        -1238,
+        1485
+      ],
+      [
+        -1248,
+        1502
+      ],
+      [
+        -1289,
+        1525
+      ],
+      [
+        -1283,
+        1528
+      ],
+      [
+        -1296,
+        1551
+      ],
+      [
+        -1308,
+        1549
+      ],
+      [
+        -1310,
+        1559
+      ],
+      [
+        -1324,
+        1562
+      ],
+      [
+        -1332,
+        1593
+      ],
+      [
+        -1348,
+        1616
+      ],
+      [
+        -1368,
+        1611
+      ],
+      [
+        -1373,
+        1619
+      ],
+      [
+        -1384,
+        1612
+      ],
+      [
+        -1398,
+        1634
+      ],
+      [
+        -1441,
+        1666
+      ],
+      [
+        -1497,
+        1669
+      ],
+      [
+        -1511,
+        1666
+      ],
+      [
+        -1512,
+        1658
+      ],
+      [
+        -1546,
+        1658
+      ],
+      [
+        -1567,
+        1648
+      ],
+      [
+        -1627,
+        1652
+      ],
+      [
+        -1646,
+        1619
+      ],
+      [
+        -1654,
+        1581
+      ],
+      [
+        -1653,
+        1633
+      ],
+      [
+        -1608,
+        1755
+      ],
+      [
+        -1604,
+        1814
+      ],
+      [
+        -1621,
+        1900
+      ],
+      [
+        -1654,
+        1938
+      ],
+      [
+        -1636,
+        1942
+      ],
+      [
+        -1628,
+        1953
+      ],
+      [
+        -1639,
+        1946
+      ],
+      [
+        -1636,
+        1954
+      ],
+      [
+        -1647,
+        1941
+      ],
+      [
+        -1623,
+        1979
+      ],
+      [
+        -1625,
+        1990
+      ],
+      [
+        -1631,
+        1989
+      ],
+      [
+        -1622,
+        2000
+      ],
+      [
+        -1626,
+        2014
+      ],
+      [
+        -1620,
+        2023
+      ],
+      [
+        -1647,
+        2065
+      ],
+      [
+        -1641,
+        2068
+      ],
+      [
+        -1653,
+        2074
+      ],
+      [
+        -1654,
+        2056
+      ],
+      [
+        -1667,
+        2068
+      ],
+      [
+        -1692,
+        2116
+      ],
+      [
+        -1706,
+        2077
+      ],
+      [
+        -1697,
+        2132
+      ],
+      [
+        -1302,
+        2133
+      ],
+      [
+        -1315,
+        2282
+      ],
+      [
+        -1302,
+        2302
+      ],
+      [
+        -1262,
+        2327
+      ],
+      [
+        -1202,
+        2346
+      ],
+      [
+        -1202,
+        2600
+      ],
+      [
+        -869,
+        2600
+      ],
+      [
+        -868,
+        2728
+      ]
+    ],
+    [
+      [
+        -1638,
+        1981
+      ],
+      [
+        -1635,
+        1987
+      ],
+      [
+        -1643,
+        1960
+      ],
+      [
+        -1646,
+        1968
+      ],
+      [
+        -1638,
+        1981
+      ]
+    ],
+    [
+      [
+        -1632,
+        1973
+      ],
+      [
+        -1630,
+        1972
+      ],
+      [
+        -1640,
+        1960
+      ],
+      [
+        -1632,
+        1973
+      ]
+    ],
+    [
+      [
+        -1648,
+        1973
+      ],
+      [
+        -1647,
+        1972
+      ],
+      [
+        -1648,
+        1968
+      ],
+      [
+        -1650,
+        1971
+      ],
+      [
+        -1649,
+        1973
+      ],
+      [
+        -1648,
+        1973
+      ]
+    ]
+  ]
+}

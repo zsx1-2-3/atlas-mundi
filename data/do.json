@@ -1,1 +1,556 @@
-{"qid":"Q786","iso_a2":"DO","iso_a3":"DOM","name_zh":"多米尼加","name_en":"Dominican Republic","capital":"圣多明各","continent":"北美洲","centroid":[-70.2,18.8],"centroid_source":"wikidata P625","languages":[{"code":"es","name_zh":"西班牙语","name_local":"西班牙语","role":"official","audio_url":"assets/do/audio/es.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenidos a la República Dominicana, un país de ritmo y color; su capital es Santo Domingo, y la Zona Colonial, con su catedral centenaria, los invita a caminar despacio y mirar.","tts_text_zh":"欢迎来到多米尼加共和国，一个充满节奏与色彩的国度；首都是圣多明各，殖民城区与那座百年大教堂，邀请您放慢脚步细细端详。","_retried":true,"audio_voice":"es-AR-ElenaNeural","audio_bytes":72864}],"summary_text":"多米尼加共和国是位于加勒比海的岛国，地处伊斯帕尼奥拉岛东部，与西侧的海地共处一岛，陆地面积48,670平方公里。首都与最大都市为圣多明各，官方语言为西班牙语，货币为多米尼加比索。据美国中央情报局统计，2023年人口约1133万，已超越古巴成为加勒比海第二大人口国，仅次于海地；同年人均生产总值约为10000美元。现任总统是路易斯·阿比纳迪尔。多米尼加共和国原为泰诺族等阿拉瓦克人世居之地，当地主要种族为西班牙殖民者与当地原住民混血的后代。1821年11月30日，多米尼加脱离西班牙统治，以西班牙海地的名义宣布独立；但只过了9星期，即1822年2月就被岛上西边脱离法国统治的海地吞并。由于两者文明差异太大以致难以联合，多米尼加于1844年2月27日脱离海地统治，再度宣布独立，这一天也是现代多米尼加的国庆日。1865年，多米尼加击退了西班牙的入侵，确保其独立性。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":380,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%A4%9A%E6%98%8E%E5%B0%BC%E5%8A%A0","title":"多明尼加"},"culture_excerpts":[{"section":"历史","text":"1802年，法国领导者拿破仑派遣勒克莱尔指挥的军队回到岛上制服图桑-卢韦蒂尔并将他遣送到法国判刑，图桑-卢韦蒂尔最后于1803年因肺炎死于法国地牢中。之后法军试图夺回西班牙岛，但是受到追随图桑-卢韦蒂尔的反抗军和当地的黄热病侵袭下，一直无法攻占岛上西北边的圣多明城。反抗军最后获得胜利并于1804年宣布独立，成立海地共和国，不过法国仍占有着东边的圣多明哥区域。法军于1808年侵略西班牙的同时，岛上东部圣多明哥地区的反抗军受到当时与西班牙同盟的英国和海地的援助，终于击退法国的部队，让圣多明哥地区重新成为西班牙的殖民地。出生于首都圣多明哥城，25岁的胡安·巴勃罗·杜瓦特为了争取家乡圣多明哥的独立，于1838年秘密成立了La Trinitaria（三位一体会，三位一体即是多米尼加共和国现在的国家格言“上帝”、“故乡”、“自由”）。马蒂亚斯·雷蒙·梅亚和弗朗西斯科·罗萨里奥·桑切斯在三位一体会的草创时期并没有加入，但是他们后来在争取多米尼加共和国独立的过程中扮演了重要的角色。上述这三位后来皆被称为多米尼加共和国开国的国父。1844年2月27日，多米尼加共和国人民对海地展开了独立战争并同时宣告多米尼加共和国独立。多米尼加共和国的草创的宪法仿效于美国宪章，于1844年11月6日完成宣布。多米尼加共和国在独立成功后的数十年间，国内的经政起起伏伏，对外从1844年到1856年间不断的遭到邻国海地的侵袭，这段期间可以说是内忧外患不断。同时期佩卓·桑坦纳（为抗战创国初期的军队统帅，后来成为首任、第四届、第八届总统）、拜亚兹（Buenaventura Báez，曾参与独立战争，曾五次当选多国总统）两人在掌握政权时各都刚愎自用而互不相让，桑坦纳坚信多米尼加必须依附在西班牙帝国的保护伞之下才能免于海地的侵略，拜亚兹在期望法国来保卫多米尼加的计划不成后，转向希望多米尼加能并入美国，最后也功败垂成。桑坦纳在当选总统后，逐渐展现出自己独裁的一面，他马上把和自己理念不和的杜瓦特全家人赶出多国，同时将其他反对自己的人士拘留或是驱逐出境。桑坦纳总统担心西边海地侵略的威胁，在1861年和西班牙皇室签署协定，让多米尼加并为西班牙的属国。但是反对者的声浪一直不断，并于1863年掀起了复国战争，其中以罗里盖兹（Santiago Rodríguez）、孟席欧（Benito Monción）和卢伯龙将军（Gregorio Luperón）为领导人物。当时位处西边的海地政权担心西班牙返回多米尼加后将会威胁到海地，于是积极的支援反抗军。正处于南北战争状态的美国也强烈抗议西班牙重返多米尼加进行殖民政策。复国战争持续不到三年，西班牙军队于1865年完全从岛上撤离。拜亚兹政权于1874年被推翻，但在两年后又被选为总统，最后于1878年下台。尤里西斯·赫雷兹（英语：Ulises Heureaux）将军于1882年掌握政权后，让多米尼加多年来不安的政局也逐渐的稳定下来。赫雷兹总统在位期间政局稳定，使得多国经济得到喘息的机会，蔗糖产业技术不断的改良，造成许多欧洲和美洲移民进入多国寻找工作。但是赫雷兹私底下却将国家经费用于私欲，并且建立起自己的御用警卫队，这使得国家的外债逐渐增高。这些引起了人民对他行为的不满，在使用高压政策无效后，赫雷兹于1899年遭到谋杀。多米尼加1902年后又回复了群雄割据的时代，各地草莽独霸一方，使得当时多国的国库已完全掏空。使得法国和欧洲等债权国开始对多米尼加虎视眈眈。当时的多米尼加总统拉蒙·卡塞雷斯在执政六年之后，于1911年遭到暗杀，结果造成往后多年多米尼加政治上的不稳定并引发内战。美国政府多次斡旋无效后，最后由美国威尔逊总统协助多米尼加于1914年举行总统选举并选出曾经担任（1899-1902）过多国总统的胡安·希门尼斯回任。希门尼斯总统为了获得当时政治上相关人员的支持，选定当时的反对政党作为内阁阁员。后来的计划并不顺利，又有国防大臣Desiderio Arias在后操弄政治，结果导致希门尼斯总统自己于1916年5月辞职。此消息造成美国威尔逊总统大为不满，另外为防止当时德国势力趁此机会渗透到加勒比海地区，决定于1916年5月派遣美国海军陆战队前往多米尼加，于两个月后完全占领多国。当时美国海军少将Knapp领导的军事政府严格控管当时多米尼加人民的自由，造成了当地中上阶层人士非常的不满，另在多国东部地区的农民组成反抗军持续不断和美军抗战。虽然抵抗的意识普遍存在于民间，但是军事政府也平息了多米尼加多年来不稳定的政治状态，多国的经济开始成长和外债也逐渐减少，军事政府在各地广建现代化的道路连结各城镇，并成立了多米尼加初期的国民军，美军在多米尼加的建设和政策也造成了楚希略于1920年代在军中的崛起，并让楚希略掌政多米尼加达30年之久。美国哈丁总统执政时期改变了美国的拉丁美洲政策，于1922年10月撤除军事政府并于1924年三月举行总统选举。亲美派的霍拉西奥·巴斯克斯（1902-1903担任过总统）最后胜出，并于当年七月登位，同年九月美军完全撤出多米尼加。霍拉西奥·巴斯克斯总统在位六年期间让多米尼加呈现了少有的和平状态，让全国的政治、人权和经济方面一片向荣。霍拉西奥·巴斯克斯总统于1930年2月欲竞选连任时期，由于受到反对者的激烈抗争，私底下和当时国家陆军（前身为国民军","chars":2200},{"section":"文化","text":"2月份La Vega的嘉年华（鬼节）会在多国最受到瞩目，二月和三月份的周末在全国各地大城市都会有类似的节庆。\n多米尼加各大城镇都设有斗鸡场，每周三和周末都有斗鸡比赛，赌博合法且金额颇大，斗鸡场旁边还设有跳舞吧台，算是当地人民的传统休闲活动之一。","chars":1200},{"section":"饮食","text":"多米尼加饮食受到数世纪来传统塔诺族、西班牙和非洲人口混合的结果，多米尼加饮食虽然和拉丁美洲其他国家非常类似，但是口味和菜肴名称稍微有不一样的地方。多米尼加传统的早餐包含了煎蛋和水煮过的泥状大蕉（香蕉的一种），另加煎烤过的火腿片。午餐是最重要的一餐，主要有饭配肉类、豆子和沙拉。豆子饭（La Bandera）也是多米尼加人常吃的午餐。近年来比萨、意大利面、炸鸡、薯条也是受欢迎的食物，各镇上多有中国人开的Pica Pollo炸鸡店，中国简餐店也很受欢迎。\n多米尼加的一餐中多包含了下面的四大类食物：海鲜或是肉类、饭、马铃薯或是大蕉（可以是整条水煮，泥状，整条煎烤或块状油炸）、蔬菜或是沙拉。多国人比较爱吃肉类和淀粉类食物和米饭、海鲜、乳酪。木薯和甜薯类食物也是多米尼加人食物的材料之一。路边小吃可以看到有Empanada（炸牛角饼），内含乳酪，牛肉，鸡肉或是猪肉、炸，木薯球、烤肉串、刨冰和各种热带水果饮料，由于当地的自来水不能生饮，建议路边饮料冰品类除了椰子汁外，其他最好在店铺里面购买。多国人嗜吃甜食，arroz con dulce布丁（粉状米和牛奶制品）、凤梨水果蛋糕（bizcocho dominicano）、椰子豆奶（habichuelas con dulce）、焦糖牛奶酱、花生糖、羊羹都是常见的点心。多米尼加盛产咖啡和可可，多国人喜欢喝小杯咖啡，放入许多白糖，为拉美及加勒比国家特有的文化。\n由于多米尼加盛产甘蔗，当地由甘蔗加工出来的朗姆酒也非常有名。多米尼加独特的Mama Juana是当地家庭自己调配的药酒，主要是把朗姆酒、蜂蜜、红酒混合后，并在酒瓶里加入树皮或是树根和草药，主要为壮阳药酒。Mabi为树薯制的饮料，Malta为大麦饮料，译为大麦汁，很甜，各种朗姆水果酒都是在多米尼加常见的饮料。多米尼加的咖啡和雪茄也是世界有名。","chars":800}],"landmark_images":[{"title":"File:Dominicana-Punta Cana.jpg","caption_zh":"蓬塔卡纳海滩","caption":"蓬塔卡纳海滩","caption_commons":"Punta Cana beach, Dominicana","kw":"Punta Cana beach Dominican Republic","url":"assets/do/L01.webp","thumb_url":"assets/do/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/7/70/Dominicana-Punta_Cana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Original uploader was Niedźwiadek78 (Michał Sulczyński) at pl.wikipedia","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":51690,"caption_zh_manual":"蓬塔卡纳海滩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17448,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1024x683 707KB JPEG)"},{"title":"File:Zona Colonial - Santo Domingo, Dominican Republic.jpg","caption_zh":"圣多明各殖民城","caption":"圣多明各殖民城","caption_commons":"Zona Colonial - Santo Domingo, Dominican Republic. east end (Ozama port side) of","kw":"Zona Colonial Santo Domingo","url":"assets/do/L02.webp","thumb_url":"assets/do/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/2/24/Zona_Colonial_-_Santo_Domingo%2C_Dominican_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"https://www.flickr.com/photos/luilui01/","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":72996,"caption_zh_manual":"圣多明各殖民城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":23626,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1200x800 1292KB JPEG)"},{"title":"File:Catedral Primada CCSD 09 2018 1668.jpg","caption_zh":"美洲大教堂","caption":"美洲大教堂","caption_commons":"Lado oeste de la Catedral Primada de América, Ciudad Colonial Santo Domingo, Rep","kw":"Catedral Primada de America Santo Domingo","url":"assets/do/L03.webp","thumb_url":"assets/do/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Catedral_Primada_CCSD_09_2018_1668.jpg/1920px-Catedral_Primada_CCSD_09_2018_1668.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Mariordo (Mario Roberto Durán Ortiz)","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":61492,"caption_zh_manual":"美洲大教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18488,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 715KB JPEG)"},{"title":"File:Samana-Laslovarga (65).jpg","caption_zh":"萨马纳湾局部景象","caption":"萨马纳湾局部景象","caption_commons":"Santa Bárbara de Samaná, Dominican Republic. Bay, Hotel and surrounding area","kw":"Samana Bay Dominican Republic","url":"assets/do/L04.webp","thumb_url":"assets/do/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Samana-Laslovarga_%2865%29.jpg/1920px-Samana-Laslovarga_%2865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Laslovarga","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":36788,"caption_zh_manual":"萨马纳湾","caption_zh_source":"llm_from_commons_filename","thumb_bytes":9286,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 599KB JPEG)"},{"title":"File:Dominican Republic Los Haitises birds island.jpeg","caption_zh":"洛斯海蒂塞斯国家公园鸟岛","caption":"洛斯海蒂塞斯国家公园鸟岛","caption_commons":"An island with nesting birds in San Lorenzo bay (Los Haitises National Park, Dom","kw":"Los Haitises National Park","url":"assets/do/L05.webp","thumb_url":"assets/do/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/e/e5/Dominican_Republic_Los_Haitises_birds_island.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Anton Bielousov","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":57844,"caption_zh_manual":"洛斯海蒂塞斯国家公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16722,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 1452KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T16:06:22+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Dominikanesch Republik.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Republica Dominicană.wav、LL-Q652 (ita)-Francyskus-Repubblica Dominicana.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py DO","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[{"v":"国庆日","evidence":"这也是现代多米尼加的国庆日"}],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"伊斯帕尼奥拉岛","evidence":"共处于伊斯帕尼奥拉岛"},{"v":"加勒比海","evidence":"位于加勒比海的岛国"},{"v":"西班牙语","evidence":"官方语言为西班牙语"},{"v":"多米尼加比索","evidence":"货币为多米尼加比索"},{"v":"泰诺族","evidence":"原为泰诺族等阿拉瓦克人世居之地"}],"model":"deepseek-flash"},"summary_text_raw":"多米尼加共和国（西班牙语：República Dominicana）是位于加勒比海的岛国，与西侧的海地共处于伊斯帕尼奥拉岛，陆地面积48,670平方公里，首都与最大都市为圣多明各，官方语言为西班牙语，货币为多米尼加比索。据美国中央情报局的统计，2023年人均生产总值约为10000美元，2023年人口约1133万，现已超越古巴成为加勒比海第二大人口国，仅次于海地。现任总统是路易斯·阿比纳迪尔。\n多米尼加共和国原为泰诺族等阿拉瓦克人世居之地，哥伦布于1492年踏上西班牙岛后，现今多米尼加的部分被西班牙统治了三百多年直到1821年为止，期间曾在1795年至1809年间短暂被法国统治，而当地主要种族为西班牙殖民者与当地原住民混血的后代。\n1821年11月30日，多米尼加脱离西班牙统治，以西班牙海地的名义宣布独立；但只过了9星期，即1822年2月就被岛上西边脱离法国统治的海地吞并。不过两者文明差异太大以致难以联合，使多米尼加于1844年2月27日脱离海地统治，再度宣布独立，这也是现代多米尼加的国庆日。1865年，多米尼加击退了西班牙的入侵确保其独立性。","history_text":"伊斯帕尼奥拉岛东部原为泰诺族等阿拉瓦克人世居之地，哥伦布到来后，这片区域被西班牙统治三百余年，其间一度短暂归于法国。1808年，当地反抗军在英、海地援助下击退法军，圣多明哥重归西班牙殖民。1838年，胡安·巴勃罗·杜瓦特秘密成立三位一体会，争取独立；1844年2月27日，多米尼加对海地展开独立战争并宣告独立，这一天成为国庆日。","custom_text":"二月里，拉维加的嘉年华最受瞩目，二、三月的周末，各地大城市也接连办起类似的节庆。城镇里设斗鸡场，周三与周末开赛，场边还有跳舞吧台，是当地人惯常的消遣。早餐常见煎蛋配水煮捣成泥的大蕉，再加煎烤火腿片；午餐最要紧，饭配肉类、豆子和沙拉，豆子饭是常吃的一道。街头有炸牛角饼，包乳酪、牛肉、鸡肉或猪肉，也有木薯球、烤肉串和刨冰。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":164,"folk":160}},"knowledge_qa":[{"q":"多米尼加在哪儿啊？","a":"位于加勒比海的岛国，与西侧的海地共处于伊斯帕尼奥拉岛，属于北美洲。","tags":["加勒比海","位置","北美洲"]},{"q":"多米尼加面积多大？","a":"陆地面积48,670平方公里。","tags":["面积","多大"]},{"q":"多米尼加首都是哪？","a":"首都与最大都市为圣多明各。","tags":["首都","圣多明各"]},{"q":"多米尼加说什么语言？","a":"官方语言为西班牙语。","tags":["语言","西班牙语","说什么话"]},{"q":"多米尼加有什么值得看的地标？","a":"有蓬塔卡纳海滩、圣多明各殖民城、美洲大教堂、萨马纳湾和洛斯海蒂塞斯国家公园。","tags":["地标","景点","海滩"]},{"q":"多米尼加国庆日是哪天？","a":"1844年2月27日脱离海地统治再度宣布独立，这也是现代多米尼加的国庆日。","tags":["国庆日","节日","独立"]},{"q":"多米尼加用什么货币？","a":"货币为多米尼加比索。","tags":["货币","钱","比索"]},{"q":"多米尼加现在总统是谁？","a":"现任总统是路易斯·阿比纳迪尔。","tags":["总统","领导人"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-7176,1971],[-7166,1989],[-7117,1983],[-7100,1994],[-7062,1977],[-7043,1977],[-7028,1965],[-6995,1968],[-6977,1930],[-6934,1929],[-6923,1936],[-6925,1930],[-6916,1931],[-6925,1918],[-6962,1923],[-6963,1911],[-6874,1896],[-6833,1858],[-6846,1836],[-6859,1838],[-6865,1822],[-6874,1820],[-6892,1841],[-6985,1847],[-7002,1841],[-7017,1823],[-7055,1820],[-7058,1839],[-7070,1843],[-7093,1826],[-7108,1830],[-7106,1814],[-7142,1760],[-7153,1776],[-7168,1776],[-7166,1795],[-7178,1804],[-7171,1831],[-7191,1843],[-7201,1860],[-7184,1862],[-7172,1876],[-7173,1888],[-7186,1896],[-7164,1915],[-7178,1933],[-7170,1942],[-7176,1971]],[[-6866,1817],[-6857,1811],[-6879,1820],[-6866,1817]],[[-7152,1755],[-7152,1762],[-7147,1758],[-7152,1755]]]}
+{
+  "qid": "Q786",
+  "iso_a2": "DO",
+  "iso_a3": "DOM",
+  "name_zh": "多米尼加",
+  "name_en": "Dominican Republic",
+  "capital": "圣多明各",
+  "continent": "北美洲",
+  "centroid": [
+    -70.2,
+    18.8
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "es",
+      "name_zh": "西班牙语",
+      "name_local": "西班牙语",
+      "role": "official",
+      "audio_url": "assets/do/audio/es.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenidos a la República Dominicana, un país de ritmo y color; su capital es Santo Domingo, y la Zona Colonial, con su catedral centenaria, los invita a caminar despacio y mirar.",
+      "tts_text_zh": "欢迎来到多米尼加共和国，一个充满节奏与色彩的国度；首都是圣多明各，殖民城区与那座百年大教堂，邀请您放慢脚步细细端详。",
+      "_retried": true,
+      "audio_voice": "es-AR-ElenaNeural",
+      "audio_bytes": 72864
+    }
+  ],
+  "summary_text": "多米尼加共和国是位于加勒比海的岛国，地处伊斯帕尼奥拉岛东部，与西侧的海地共处一岛，陆地面积48,670平方公里。首都与最大都市为圣多明各，官方语言为西班牙语，货币为多米尼加比索。据美国中央情报局统计，2023年人口约1133万，已超越古巴成为加勒比海第二大人口国，仅次于海地；同年人均生产总值约为10000美元。现任总统是路易斯·阿比纳迪尔。多米尼加共和国原为泰诺族等阿拉瓦克人世居之地，当地主要种族为西班牙殖民者与当地原住民混血的后代。1821年11月30日，多米尼加脱离西班牙统治，以西班牙海地的名义宣布独立；但只过了9星期，即1822年2月就被岛上西边脱离法国统治的海地吞并。由于两者文明差异太大以致难以联合，多米尼加于1844年2月27日脱离海地统治，再度宣布独立，这一天也是现代多米尼加的国庆日。1865年，多米尼加击退了西班牙的入侵，确保其独立性。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 380,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%A4%9A%E6%98%8E%E5%B0%BC%E5%8A%A0",
+    "title": "多明尼加"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "1802年，法国领导者拿破仑派遣勒克莱尔指挥的军队回到岛上制服图桑-卢韦蒂尔并将他遣送到法国判刑，图桑-卢韦蒂尔最后于1803年因肺炎死于法国地牢中。之后法军试图夺回西班牙岛，但是受到追随图桑-卢韦蒂尔的反抗军和当地的黄热病侵袭下，一直无法攻占岛上西北边的圣多明城。反抗军最后获得胜利并于1804年宣布独立，成立海地共和国，不过法国仍占有着东边的圣多明哥区域。法军于1808年侵略西班牙的同时，岛上东部圣多明哥地区的反抗军受到当时与西班牙同盟的英国和海地的援助，终于击退法国的部队，让圣多明哥地区重新成为西班牙的殖民地。出生于首都圣多明哥城，25岁的胡安·巴勃罗·杜瓦特为了争取家乡圣多明哥的独立，于1838年秘密成立了La Trinitaria（三位一体会，三位一体即是多米尼加共和国现在的国家格言“上帝”、“故乡”、“自由”）。马蒂亚斯·雷蒙·梅亚和弗朗西斯科·罗萨里奥·桑切斯在三位一体会的草创时期并没有加入，但是他们后来在争取多米尼加共和国独立的过程中扮演了重要的角色。上述这三位后来皆被称为多米尼加共和国开国的国父。1844年2月27日，多米尼加共和国人民对海地展开了独立战争并同时宣告多米尼加共和国独立。多米尼加共和国的草创的宪法仿效于美国宪章，于1844年11月6日完成宣布。多米尼加共和国在独立成功后的数十年间，国内的经政起起伏伏，对外从1844年到1856年间不断的遭到邻国海地的侵袭，这段期间可以说是内忧外患不断。同时期佩卓·桑坦纳（为抗战创国初期的军队统帅，后来成为首任、第四届、第八届总统）、拜亚兹（Buenaventura Báez，曾参与独立战争，曾五次当选多国总统）两人在掌握政权时各都刚愎自用而互不相让，桑坦纳坚信多米尼加必须依附在西班牙帝国的保护伞之下才能免于海地的侵略，拜亚兹在期望法国来保卫多米尼加的计划不成后，转向希望多米尼加能并入美国，最后也功败垂成。桑坦纳在当选总统后，逐渐展现出自己独裁的一面，他马上把和自己理念不和的杜瓦特全家人赶出多国，同时将其他反对自己的人士拘留或是驱逐出境。桑坦纳总统担心西边海地侵略的威胁，在1861年和西班牙皇室签署协定，让多米尼加并为西班牙的属国。但是反对者的声浪一直不断，并于1863年掀起了复国战争，其中以罗里盖兹（Santiago Rodríguez）、孟席欧（Benito Monción）和卢伯龙将军（Gregorio Luperón）为领导人物。当时位处西边的海地政权担心西班牙返回多米尼加后将会威胁到海地，于是积极的支援反抗军。正处于南北战争状态的美国也强烈抗议西班牙重返多米尼加进行殖民政策。复国战争持续不到三年，西班牙军队于1865年完全从岛上撤离。拜亚兹政权于1874年被推翻，但在两年后又被选为总统，最后于1878年下台。尤里西斯·赫雷兹（英语：Ulises Heureaux）将军于1882年掌握政权后，让多米尼加多年来不安的政局也逐渐的稳定下来。赫雷兹总统在位期间政局稳定，使得多国经济得到喘息的机会，蔗糖产业技术不断的改良，造成许多欧洲和美洲移民进入多国寻找工作。但是赫雷兹私底下却将国家经费用于私欲，并且建立起自己的御用警卫队，这使得国家的外债逐渐增高。这些引起了人民对他行为的不满，在使用高压政策无效后，赫雷兹于1899年遭到谋杀。多米尼加1902年后又回复了群雄割据的时代，各地草莽独霸一方，使得当时多国的国库已完全掏空。使得法国和欧洲等债权国开始对多米尼加虎视眈眈。当时的多米尼加总统拉蒙·卡塞雷斯在执政六年之后，于1911年遭到暗杀，结果造成往后多年多米尼加政治上的不稳定并引发内战。美国政府多次斡旋无效后，最后由美国威尔逊总统协助多米尼加于1914年举行总统选举并选出曾经担任（1899-1902）过多国总统的胡安·希门尼斯回任。希门尼斯总统为了获得当时政治上相关人员的支持，选定当时的反对政党作为内阁阁员。后来的计划并不顺利，又有国防大臣Desiderio Arias在后操弄政治，结果导致希门尼斯总统自己于1916年5月辞职。此消息造成美国威尔逊总统大为不满，另外为防止当时德国势力趁此机会渗透到加勒比海地区，决定于1916年5月派遣美国海军陆战队前往多米尼加，于两个月后完全占领多国。当时美国海军少将Knapp领导的军事政府严格控管当时多米尼加人民的自由，造成了当地中上阶层人士非常的不满，另在多国东部地区的农民组成反抗军持续不断和美军抗战。虽然抵抗的意识普遍存在于民间，但是军事政府也平息了多米尼加多年来不稳定的政治状态，多国的经济开始成长和外债也逐渐减少，军事政府在各地广建现代化的道路连结各城镇，并成立了多米尼加初期的国民军，美军在多米尼加的建设和政策也造成了楚希略于1920年代在军中的崛起，并让楚希略掌政多米尼加达30年之久。美国哈丁总统执政时期改变了美国的拉丁美洲政策，于1922年10月撤除军事政府并于1924年三月举行总统选举。亲美派的霍拉西奥·巴斯克斯（1902-1903担任过总统）最后胜出，并于当年七月登位，同年九月美军完全撤出多米尼加。霍拉西奥·巴斯克斯总统在位六年期间让多米尼加呈现了少有的和平状态，让全国的政治、人权和经济方面一片向荣。霍拉西奥·巴斯克斯总统于1930年2月欲竞选连任时期，由于受到反对者的激烈抗争，私底下和当时国家陆军（前身为国民军",
+      "chars": 2200
+    },
+    {
+      "section": "文化",
+      "text": "2月份La Vega的嘉年华（鬼节）会在多国最受到瞩目，二月和三月份的周末在全国各地大城市都会有类似的节庆。\n多米尼加各大城镇都设有斗鸡场，每周三和周末都有斗鸡比赛，赌博合法且金额颇大，斗鸡场旁边还设有跳舞吧台，算是当地人民的传统休闲活动之一。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "多米尼加饮食受到数世纪来传统塔诺族、西班牙和非洲人口混合的结果，多米尼加饮食虽然和拉丁美洲其他国家非常类似，但是口味和菜肴名称稍微有不一样的地方。多米尼加传统的早餐包含了煎蛋和水煮过的泥状大蕉（香蕉的一种），另加煎烤过的火腿片。午餐是最重要的一餐，主要有饭配肉类、豆子和沙拉。豆子饭（La Bandera）也是多米尼加人常吃的午餐。近年来比萨、意大利面、炸鸡、薯条也是受欢迎的食物，各镇上多有中国人开的Pica Pollo炸鸡店，中国简餐店也很受欢迎。\n多米尼加的一餐中多包含了下面的四大类食物：海鲜或是肉类、饭、马铃薯或是大蕉（可以是整条水煮，泥状，整条煎烤或块状油炸）、蔬菜或是沙拉。多国人比较爱吃肉类和淀粉类食物和米饭、海鲜、乳酪。木薯和甜薯类食物也是多米尼加人食物的材料之一。路边小吃可以看到有Empanada（炸牛角饼），内含乳酪，牛肉，鸡肉或是猪肉、炸，木薯球、烤肉串、刨冰和各种热带水果饮料，由于当地的自来水不能生饮，建议路边饮料冰品类除了椰子汁外，其他最好在店铺里面购买。多国人嗜吃甜食，arroz con dulce布丁（粉状米和牛奶制品）、凤梨水果蛋糕（bizcocho dominicano）、椰子豆奶（habichuelas con dulce）、焦糖牛奶酱、花生糖、羊羹都是常见的点心。多米尼加盛产咖啡和可可，多国人喜欢喝小杯咖啡，放入许多白糖，为拉美及加勒比国家特有的文化。\n由于多米尼加盛产甘蔗，当地由甘蔗加工出来的朗姆酒也非常有名。多米尼加独特的Mama Juana是当地家庭自己调配的药酒，主要是把朗姆酒、蜂蜜、红酒混合后，并在酒瓶里加入树皮或是树根和草药，主要为壮阳药酒。Mabi为树薯制的饮料，Malta为大麦饮料，译为大麦汁，很甜，各种朗姆水果酒都是在多米尼加常见的饮料。多米尼加的咖啡和雪茄也是世界有名。",
+      "chars": 800
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Dominicana-Punta Cana.jpg",
+      "caption_zh": "蓬塔卡纳海滩",
+      "caption": "蓬塔卡纳海滩",
+      "caption_commons": "Punta Cana beach, Dominicana",
+      "kw": "Punta Cana beach Dominican Republic",
+      "url": "assets/do/L01.webp",
+      "thumb_url": "assets/do/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Dominicana-Punta_Cana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Original uploader was Niedźwiadek78 (Michał Sulczyński) at pl.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 88182,
+      "caption_zh_manual": "蓬塔卡纳海滩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8510,
+      "size": {
+        "detail": "1024x683",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1024x683 707KB JPEG)"
+    },
+    {
+      "title": "File:Zona Colonial - Santo Domingo, Dominican Republic.jpg",
+      "caption_zh": "圣多明各殖民城",
+      "caption": "圣多明各殖民城",
+      "caption_commons": "Zona Colonial - Santo Domingo, Dominican Republic. east end (Ozama port side) of",
+      "kw": "Zona Colonial Santo Domingo",
+      "url": "assets/do/L02.webp",
+      "thumb_url": "assets/do/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Zona_Colonial_-_Santo_Domingo%2C_Dominican_Republic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "https://www.flickr.com/photos/luilui01/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 138950,
+      "caption_zh_manual": "圣多明各殖民城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10306,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1200x800 1292KB JPEG)"
+    },
+    {
+      "title": "File:Catedral Primada CCSD 09 2018 1668.jpg",
+      "caption_zh": "美洲大教堂",
+      "caption": "美洲大教堂",
+      "caption_commons": "Lado oeste de la Catedral Primada de América, Ciudad Colonial Santo Domingo, Rep",
+      "kw": "Catedral Primada de America Santo Domingo",
+      "url": "assets/do/L03.webp",
+      "thumb_url": "assets/do/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Catedral_Primada_CCSD_09_2018_1668.jpg/1920px-Catedral_Primada_CCSD_09_2018_1668.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Mariordo (Mario Roberto Durán Ortiz)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 128544,
+      "caption_zh_manual": "美洲大教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8456,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 715KB JPEG)"
+    },
+    {
+      "title": "File:Samana-Laslovarga (65).jpg",
+      "caption_zh": "萨马纳湾局部景象",
+      "caption": "萨马纳湾局部景象",
+      "caption_commons": "Santa Bárbara de Samaná, Dominican Republic. Bay, Hotel and surrounding area",
+      "kw": "Samana Bay Dominican Republic",
+      "url": "assets/do/L04.webp",
+      "thumb_url": "assets/do/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Samana-Laslovarga_%2865%29.jpg/1920px-Samana-Laslovarga_%2865%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Laslovarga",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 91562,
+      "caption_zh_manual": "萨马纳湾",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4024,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 599KB JPEG)"
+    },
+    {
+      "title": "File:Dominican Republic Los Haitises birds island.jpeg",
+      "caption_zh": "洛斯海蒂塞斯国家公园鸟岛",
+      "caption": "洛斯海蒂塞斯国家公园鸟岛",
+      "caption_commons": "An island with nesting birds in San Lorenzo bay (Los Haitises National Park, Dom",
+      "kw": "Los Haitises National Park",
+      "url": "assets/do/L05.webp",
+      "thumb_url": "assets/do/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Dominican_Republic_Los_Haitises_birds_island.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Anton Bielousov",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 119788,
+      "caption_zh_manual": "洛斯海蒂塞斯国家公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7270,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 1452KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T16:06:22+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Dominikanesch Republik.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Republica Dominicană.wav、LL-Q652 (ita)-Francyskus-Repubblica Dominicana.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py DO",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [
+      {
+        "v": "国庆日",
+        "evidence": "这也是现代多米尼加的国庆日"
+      }
+    ],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "伊斯帕尼奥拉岛",
+        "evidence": "共处于伊斯帕尼奥拉岛"
+      },
+      {
+        "v": "加勒比海",
+        "evidence": "位于加勒比海的岛国"
+      },
+      {
+        "v": "西班牙语",
+        "evidence": "官方语言为西班牙语"
+      },
+      {
+        "v": "多米尼加比索",
+        "evidence": "货币为多米尼加比索"
+      },
+      {
+        "v": "泰诺族",
+        "evidence": "原为泰诺族等阿拉瓦克人世居之地"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "多米尼加共和国（西班牙语：República Dominicana）是位于加勒比海的岛国，与西侧的海地共处于伊斯帕尼奥拉岛，陆地面积48,670平方公里，首都与最大都市为圣多明各，官方语言为西班牙语，货币为多米尼加比索。据美国中央情报局的统计，2023年人均生产总值约为10000美元，2023年人口约1133万，现已超越古巴成为加勒比海第二大人口国，仅次于海地。现任总统是路易斯·阿比纳迪尔。\n多米尼加共和国原为泰诺族等阿拉瓦克人世居之地，哥伦布于1492年踏上西班牙岛后，现今多米尼加的部分被西班牙统治了三百多年直到1821年为止，期间曾在1795年至1809年间短暂被法国统治，而当地主要种族为西班牙殖民者与当地原住民混血的后代。\n1821年11月30日，多米尼加脱离西班牙统治，以西班牙海地的名义宣布独立；但只过了9星期，即1822年2月就被岛上西边脱离法国统治的海地吞并。不过两者文明差异太大以致难以联合，使多米尼加于1844年2月27日脱离海地统治，再度宣布独立，这也是现代多米尼加的国庆日。1865年，多米尼加击退了西班牙的入侵确保其独立性。",
+  "history_text": "伊斯帕尼奥拉岛东部原为泰诺族等阿拉瓦克人世居之地，哥伦布到来后，这片区域被西班牙统治三百余年，其间一度短暂归于法国。1808年，当地反抗军在英、海地援助下击退法军，圣多明哥重归西班牙殖民。1838年，胡安·巴勃罗·杜瓦特秘密成立三位一体会，争取独立；1844年2月27日，多米尼加对海地展开独立战争并宣告独立，这一天成为国庆日。",
+  "custom_text": "二月里，拉维加的嘉年华最受瞩目，二、三月的周末，各地大城市也接连办起类似的节庆。城镇里设斗鸡场，周三与周末开赛，场边还有跳舞吧台，是当地人惯常的消遣。早餐常见煎蛋配水煮捣成泥的大蕉，再加煎烤火腿片；午餐最要紧，饭配肉类、豆子和沙拉，豆子饭是常吃的一道。街头有炸牛角饼，包乳酪、牛肉、鸡肉或猪肉，也有木薯球、烤肉串和刨冰。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 164,
+      "folk": 160
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "多米尼加在哪儿啊？",
+      "a": "位于加勒比海的岛国，与西侧的海地共处于伊斯帕尼奥拉岛，属于北美洲。",
+      "tags": [
+        "加勒比海",
+        "位置",
+        "北美洲"
+      ]
+    },
+    {
+      "q": "多米尼加面积多大？",
+      "a": "陆地面积48,670平方公里。",
+      "tags": [
+        "面积",
+        "多大"
+      ]
+    },
+    {
+      "q": "多米尼加首都是哪？",
+      "a": "首都与最大都市为圣多明各。",
+      "tags": [
+        "首都",
+        "圣多明各"
+      ]
+    },
+    {
+      "q": "多米尼加说什么语言？",
+      "a": "官方语言为西班牙语。",
+      "tags": [
+        "语言",
+        "西班牙语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "多米尼加有什么值得看的地标？",
+      "a": "有蓬塔卡纳海滩、圣多明各殖民城、美洲大教堂、萨马纳湾和洛斯海蒂塞斯国家公园。",
+      "tags": [
+        "地标",
+        "景点",
+        "海滩"
+      ]
+    },
+    {
+      "q": "多米尼加国庆日是哪天？",
+      "a": "1844年2月27日脱离海地统治再度宣布独立，这也是现代多米尼加的国庆日。",
+      "tags": [
+        "国庆日",
+        "节日",
+        "独立"
+      ]
+    },
+    {
+      "q": "多米尼加用什么货币？",
+      "a": "货币为多米尼加比索。",
+      "tags": [
+        "货币",
+        "钱",
+        "比索"
+      ]
+    },
+    {
+      "q": "多米尼加现在总统是谁？",
+      "a": "现任总统是路易斯·阿比纳迪尔。",
+      "tags": [
+        "总统",
+        "领导人"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -7176,
+        1971
+      ],
+      [
+        -7166,
+        1989
+      ],
+      [
+        -7117,
+        1983
+      ],
+      [
+        -7100,
+        1994
+      ],
+      [
+        -7062,
+        1977
+      ],
+      [
+        -7043,
+        1977
+      ],
+      [
+        -7028,
+        1965
+      ],
+      [
+        -6995,
+        1968
+      ],
+      [
+        -6977,
+        1930
+      ],
+      [
+        -6934,
+        1929
+      ],
+      [
+        -6923,
+        1936
+      ],
+      [
+        -6925,
+        1930
+      ],
+      [
+        -6916,
+        1931
+      ],
+      [
+        -6925,
+        1918
+      ],
+      [
+        -6962,
+        1923
+      ],
+      [
+        -6963,
+        1911
+      ],
+      [
+        -6874,
+        1896
+      ],
+      [
+        -6833,
+        1858
+      ],
+      [
+        -6846,
+        1836
+      ],
+      [
+        -6859,
+        1838
+      ],
+      [
+        -6865,
+        1822
+      ],
+      [
+        -6874,
+        1820
+      ],
+      [
+        -6892,
+        1841
+      ],
+      [
+        -6985,
+        1847
+      ],
+      [
+        -7002,
+        1841
+      ],
+      [
+        -7017,
+        1823
+      ],
+      [
+        -7055,
+        1820
+      ],
+      [
+        -7058,
+        1839
+      ],
+      [
+        -7070,
+        1843
+      ],
+      [
+        -7093,
+        1826
+      ],
+      [
+        -7108,
+        1830
+      ],
+      [
+        -7106,
+        1814
+      ],
+      [
+        -7142,
+        1760
+      ],
+      [
+        -7153,
+        1776
+      ],
+      [
+        -7168,
+        1776
+      ],
+      [
+        -7166,
+        1795
+      ],
+      [
+        -7178,
+        1804
+      ],
+      [
+        -7171,
+        1831
+      ],
+      [
+        -7191,
+        1843
+      ],
+      [
+        -7201,
+        1860
+      ],
+      [
+        -7184,
+        1862
+      ],
+      [
+        -7172,
+        1876
+      ],
+      [
+        -7173,
+        1888
+      ],
+      [
+        -7186,
+        1896
+      ],
+      [
+        -7164,
+        1915
+      ],
+      [
+        -7178,
+        1933
+      ],
+      [
+        -7170,
+        1942
+      ],
+      [
+        -7176,
+        1971
+      ]
+    ],
+    [
+      [
+        -6866,
+        1817
+      ],
+      [
+        -6857,
+        1811
+      ],
+      [
+        -6879,
+        1820
+      ],
+      [
+        -6866,
+        1817
+      ]
+    ],
+    [
+      [
+        -7152,
+        1755
+      ],
+      [
+        -7152,
+        1762
+      ],
+      [
+        -7147,
+        1758
+      ],
+      [
+        -7152,
+        1755
+      ]
+    ]
+  ]
+}

@@ -1,1 +1,1307 @@
-{"qid":"Q712","iso_a2":"FJ","iso_a3":"FJI","name_zh":"斐济","name_en":"Fiji","capital":"苏瓦","continent":"太平洋岛国","centroid":[178,-18],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/fj/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Fiji, a Pacific nation of turquoise lagoons and warm island hospitality; its capital is Suva, and among its best-known landmarks is the Sigatoka Sand Dunes, where ancient pottery and oral tradition meet the sea.","tts_text_zh":"欢迎来到斐济，这个拥有碧蓝潟湖与温暖岛屿人情的太平洋国度；首都是苏瓦，最具代表性的地标之一是辛加东加沙丘，古老的陶器与口述传统在此与大海相遇。","audio_voice":"en-US-AriaNeural","audio_bytes":85968},{"code":"fj","name_zh":"斐济语","name_local":"斐济语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"斐济共和国通称斐济，是位于南太平洋的群岛国家，地处瓦努阿图以东、汤加以西、图瓦卢以南，由322个岛屿组成，其中一半为无人岛，维提岛和瓦努阿岛两个主要岛屿的人口占全国的87%。国家名称源自斐济语“Viti”的汤加语发音。早在17世纪，便有东南亚裔人士抵达斐济定居，比欧洲探险家更早。1643年，荷兰探险家阿贝尔·塔斯曼抵达斐济，是首位踏足此地的欧洲人。1871年，塞鲁·埃佩尼萨·萨空鲍建立斐济王国，这是首个统一斐济群岛的政权。斐济于1970年从英国独立，国名为“斐济”，为英联邦内的自治领。1987年发生两起军事政变，第二次要求废除君主立宪、实施共和制，以总统取代总督，国家名称也改为“斐济共和国”。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":300,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%96%90%E6%BF%9F","title":"斐濟"},"culture_excerpts":[{"section":"历史","text":"斐济于1970年从英国独立，国名为“斐济”，为英联邦内的自治领。1987年，发生了两起军事政变，第一次是有人不满政府由当地的印度裔垄断，第二次是要求废除君主立宪，实施共和制，以总统取代总督，其国家名称也从当时的“斐济”改为“斐济共和国”。1990年，改名为“斐济主权民主共和国”。1998年，又改名为“斐济群岛共和国”。2006年5月6日，议会选举举行。5月18日，选举委员会确认，在众议院的71个议席中，斐济团结党获得36个席位，斐济工党得到31个议席，联合人民党获得两个议席，其余两个议席为独立竞选人获得。斐济团结党领导人莱塞尼亚·恩加拉塞宣誓就职总理。2006年12月5日，斐济武装部队司令弗兰克·姆拜尼马拉马称，军方已完全接管政府并控制了全国，解除总理恩加拉塞的职务，他本人暂时代行总统职务。12月6日，过渡政府总理乔纳·塞尼兰加卡利宣誓就职。2007年1月4日，姆拜尼马拉马宣布将总统职务交还给约瑟法·伊洛伊洛 。1月5日，姆拜尼马拉马宣誓就任过渡政府总理。","chars":434},{"section":"人口","text":"2003年的统计数据显示斐济有人口837,000人。人口密度45.8人/平方公里。人均寿命72.1岁。从二十世纪三十年代开始，每年人口增长率为1.1%。斐济人口主要由15-64岁的青壮年组成，年龄中位数为27.9岁。人口性别比为103（女性=100）。\n斐济的宪法规定了三个语言为官方语言，分别是英语、斐济语和印度斯坦语（Hindustani）。其中，印度斯坦语是居住在斐济的印度族裔的主要语言，而斐济语则是斐济本民族的语言。据斐济宪法规定，斐济公民有权利使用其中任何一种语言同政府机构沟通，需要的话政府应及时提供翻译人员。英语是斐济本民族和印度族裔最常用的语言。不同族群间沟通一般是用英语，政府机构、教育机构、金融和法律机构也一般以英语为主。","chars":1200},{"section":"语言","text":"斐济的宪法规定了三个语言为官方语言，分别是英语、斐济语和印度斯坦语（Hindustani）。其中，印度斯坦语是居住在斐济的印度族裔的主要语言，而斐济语则是斐济本民族的语言。据斐济宪法规定，斐济公民有权利使用其中任何一种语言同政府机构沟通，需要的话政府应及时提供翻译人员。英语是斐济本民族和印度族裔最常用的语言。不同族群间沟通一般是用英语，政府机构、教育机构、金融和法律机构也一般以英语为主。\n斐济语是斐济的民族语言，属于南岛语系。与同属南岛语系的美拉尼西亚语较为接近，但由于长期与波利尼西亚民族接触，因此也受到马来-波利尼西亚语族中的汤加语的影响。","chars":1200},{"section":"宗教","text":"信奉基督宗教的人占52.9％，而信奉印度教和信奉伊斯兰教的人各占38.1％和7.8％。","chars":1200}],"landmark_images":[{"title":"File:Tivua Island, Mamanucas Islands, Fiji, 2011.jpg","caption_zh":"玛玛努卡群岛蒂武阿岛","caption":"玛玛努卡群岛蒂武阿岛","caption_commons":"Tivua Island, in the Mamanucas Islands, Fiji, February 2011","kw":"Mamanuca Islands Fiji","url":"assets/fj/L01.webp","thumb_url":"assets/fj/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/d/d4/Tivua_Island%2C_Mamanucas_Islands%2C_Fiji%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"http://www.amazing-fiji-vacations.com","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":22894,"caption_zh_manual":"玛玛努卡群岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8366,"size":{"detail":"760x355","thumb":"400x187"},"encoding":"webp q72/q74 (源 1397x653 258KB JPEG)"},{"title":"File:WayaYalobi.jpg","caption_zh":"亚萨瓦群岛的Waya岛Yalobi村","caption":"亚萨瓦群岛的Waya岛Yalobi村","caption_commons":"Bay of Yalobi, Waya Island, Yasawa Group, Fiji.","kw":"Yasawa Islands Fiji","url":"assets/fj/L02.webp","thumb_url":"assets/fj/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/8/80/WayaYalobi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"User:Doron","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":68938,"caption_zh_manual":"亚萨瓦群岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22738,"size":{"detail":"760x515","thumb":"400x271"},"encoding":"webp q72/q74 (源 1745x1183 556KB JPEG)"},{"title":"File:Taveuni, Fiji looking toward Matagi.jpg","caption_zh":"塔韦乌尼岛望向马塔吉","caption":"塔韦乌尼岛望向马塔吉","caption_commons":"Taveuni, Fiji looking toward Matagi.","kw":"Taveuni Island Fiji","url":"assets/fj/L03.webp","thumb_url":"assets/fj/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taveuni%2C_Fiji_looking_toward_Matagi.jpg/1920px-Taveuni%2C_Fiji_looking_toward_Matagi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Barry Peters`","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":60712,"caption_zh_manual":"塔韦乌尼岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":17372,"size":{"detail":"760x511","thumb":"400x269"},"encoding":"webp q72/q74 (源 1920x1292 975KB JPEG)"},{"title":"File:Garden of the sleeping giant, Fiji (5).jpg","caption_zh":"斐济沉睡巨人花园","caption":"斐济沉睡巨人花园","caption_commons":"Garden of the sleeping giant, Fiji","kw":"Garden of the Sleeping Giant Fiji","url":"assets/fj/L04.webp","thumb_url":"assets/fj/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Garden_of_the_sleeping_giant%2C_Fiji_%285%29.jpg/1920px-Garden_of_the_sleeping_giant%2C_Fiji_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Radosław Botev","license":"CC BY 3.0 pl","license_url":"https://creativecommons.org/licenses/by/3.0/pl/deed.en","license_status":"ok","load_verified":true,"bytes":168434,"caption_zh_manual":"沉睡巨人花园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":44428,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 1543KB JPEG)"},{"title":"File:Sri Siva Subramaniya Temple.jpg","caption_zh":"斯里希瓦苏布拉马尼亚庙","caption":"斯里希瓦苏布拉马尼亚庙","caption_commons":"The Sri Siva Subramaniya Hindu temple in Nadi, Fiji","kw":"Sri Siva Subramaniya Temple Nadi","url":"assets/fj/L05.webp","thumb_url":"assets/fj/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Sri_Siva_Subramaniya_Temple.jpg/1920px-Sri_Siva_Subramaniya_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"JerryDP","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":45144,"caption_zh_manual":"斯里希瓦苏布拉马尼亚庙","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16834,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 449KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:17:01+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["语言代码未解析，已剔除：斐濟印地語","P443 发音语种不符已弃用：Lb-Fidschi.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Fiji.wav、LL-Q652 (ita)-Francyskus-Figi.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py FJ","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"南太平洋","evidence":"位于南太平洋"},{"v":"群岛国家","evidence":"图瓦卢以南的群岛国家"},{"v":"维提岛","evidence":"维提岛和瓦努阿岛两个主要岛屿"},{"v":"瓦努阿岛","evidence":"维提岛和瓦努阿岛两个主要岛屿"},{"v":"斐济语","evidence":"源自斐济语“Viti”"}],"model":"deepseek-flash"},"summary_text_raw":"斐济共和国（英语：Republic of Fiji；斐济语：Matanitu Tugalala o Viti；斐济印地语：रिपब्लिक ऑफ फीजी），通称斐济，是位于南太平洋，瓦努阿图以东、汤加以西、图瓦卢以南的群岛国家，由322个岛屿组成（一半为无人岛，而维提岛和瓦努阿岛两个主要岛屿的人口占全国的87%）。国家名称是源自斐济语“Viti”的汤加语发音。\n\n\n== 历史 ==\n\n公元前晚期至公元800年，被称为“图伊普洛图”的部落首领统治着斐济群岛。\n早在17世纪，便有东南亚裔人士抵达斐济定居，比欧洲的探险家要早一些。\n1643年，荷兰探险家阿贝尔·塔斯曼抵达斐济，是首位踏足此地的欧洲人。\n1871年，塞鲁·埃佩尼萨·萨空鲍建立斐济王国，这是首个统一斐济群岛的政权。\n1874年，英国吞并斐济，成立斐济殖民地。\n斐济于1970年从英国独立，国名为“斐济”，为英联邦内的自治领。1987年，发生了两起军事政变，第一次是有人不满政府由当地的印度裔垄断，第二次是要求废除君主立宪，实施共和制，以总统取代总督，其国家名称也从当时的“斐济”改为“斐济共和国”。","history_text":"斐济群岛早期的部落首领统治延续至公元800年前后，17世纪已有东南亚裔人士先于欧洲探险家抵达定居。1871年，塞鲁·埃佩尼萨·萨空鲍建立斐济王国，首次统一群岛；1874年英国吞并此地，成立斐济殖民地。1970年斐济从英国独立，为英联邦内的自治领。1987年两起军事政变后废除君主立宪、改行共和制，国名改为“斐济共和国”，此后又几度更名。","custom_text":"岛上人家日常说话常要跨过几道语言：斐济语属南岛语系，因长期与波利尼西亚人往来而带上汤加语的痕迹；印度族裔家庭多用印度斯坦语，不同族群碰面则讲英语，政府、学校、金融与法律场合也以英语为主。信仰同样并立，教堂、印度教庙宇与清真寺各安一隅，节庆与饮食随之分成几路，又在一处市场上彼此照面。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":168,"folk":141}},"knowledge_qa":[{"q":"斐济在哪儿啊？周围都有哪些国家？","a":"斐济是南太平洋的群岛国家，位于瓦努阿图以东、汤加以西、图瓦卢以南。","tags":["斐济位置","南太平洋","周边国家"]},{"q":"斐济首都是哪里？","a":"首都苏瓦。","tags":["斐济首都","苏瓦"]},{"q":"斐济由多少个岛屿组成？","a":"由322个岛屿组成，其中一半是无人岛，维提岛和瓦努阿岛两个主要岛屿的人口占全国的87%。","tags":["斐济岛屿","岛屿数量","维提岛"]},{"q":"斐济人说什么语言？","a":"官方语言是英语和斐济语。","tags":["斐济语言","说什么话","官方语言"]},{"q":"斐济有什么历史故事？","a":"1643年荷兰探险家阿贝尔·塔斯曼是首位踏足斐济的欧洲人；1871年塞鲁·埃佩尼萨·萨空鲍建立首个统一斐济群岛的政权；1874年英国吞并斐济；1970年斐济独立；1987年发生两起军事政变后改为斐济共和国。","tags":["斐济历史","独立","政变"]},{"q":"斐济有什么值得去的地方？","a":"玛玛努卡群岛、亚萨瓦群岛、塔韦乌尼岛、沉睡巨人花园、斯里希瓦苏布拉马尼亚庙。","tags":["斐济景点","海岛","地标"]},{"q":"斐济有什么好吃的或者特产？","a":"斐济的饮食和特产信息暂未收录。","tags":["斐济美食","特产","吃什么"]},{"q":"斐济有什么传统节日或习俗？","a":"斐济的节日和传统习俗信息暂未收录。","tags":["斐济节日","传统习俗","文化"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[17871,-1799],[17859,-1814],[17839,-1810],[17817,-1825],[17789,-1827],[17734,-1811],[17725,-1795],[17727,-1786],[17743,-1775],[17739,-1764],[17752,-1750],[17819,-1730],[17829,-1738],[17824,-1747],[17835,-1744],[17859,-1763],[17860,-1793],[17871,-1799]],[[18000,-1615],[17948,-1670],[17955,-1677],[17994,-1646],[17985,-1666],[17994,-1675],[17973,-1672],[17958,-1681],[17930,-1681],[17935,-1673],[17927,-1669],[17906,-1680],[17903,-1692],[17891,-1685],[17873,-1701],[17864,-1681],[17849,-1679],[17859,-1666],[17853,-1663],[17880,-1664],[17894,-1646],[17940,-1641],[17938,-1636],[17957,-1622],[17986,-1623],[18000,-1615]],[[17843,-1895],[17850,-1901],[17828,-1901],[17818,-1916],[17795,-1913],[17823,-1896],[17843,-1895]],[[-18000,-1696],[-18000,-1679],[-17986,-1668],[-17982,-1677],[-18000,-1696]],[[17756,-1668],[17759,-1669],[17759,-1670],[17758,-1673],[17749,-1680],[17747,-1683],[17746,-1683],[17744,-1684],[17743,-1683],[17744,-1679],[17746,-1681],[17748,-1680],[17756,-1672],[17757,-1670],[17756,-1668]],[[17934,-1800],[17935,-1812],[17923,-1794],[17934,-1800]],[[18000,-1678],[18000,-1696],[17992,-1700],[18000,-1678]],[[-17896,-1718],[-17891,-1722],[-17899,-1731],[-17902,-1715],[-17896,-1718]],[[17727,-1708],[17729,-1705],[17729,-1708],[17727,-1711],[17724,-1713],[17724,-1715],[17722,-1714],[17721,-1715],[17720,-1717],[17718,-1716],[17719,-1716],[17719,-1712],[17720,-1711],[17722,-1707],[17725,-1705],[17727,-1708]],[[-18000,-1654],[-18000,-1649],[-17999,-1648],[-17995,-1644],[-17990,-1643],[-17991,-1644],[-17990,-1646],[-17993,-1646],[-17994,-1648],[-17992,-1650],[-17995,-1652],[-18000,-1654]],[[17994,-1856],[17988,-1866],[17983,-1859],[17994,-1856]],[[17945,-1729],[17938,-1739],[17937,-1726],[17945,-1729]],[[17878,-1763],[17884,-1769],[17877,-1775],[17878,-1763]],[[-17986,-1897],[-17985,-1892],[-17981,-1893],[-17979,-1895],[-17981,-1899],[-17982,-1895],[-17984,-1895],[-17986,-1896],[-17984,-1900],[-17986,-1901],[-17987,-1899],[-17986,-1897]],[[-17829,-1788],[-17825,-1795],[-17835,-1795],[-17829,-1788]],[[-17859,-1912],[-17857,-1915],[-17853,-1916],[-17854,-1918],[-17856,-1918],[-17860,-1915],[-17858,-1911],[-17855,-1911],[-17856,-1912],[-17859,-1912]],[[17853,-1888],[17854,-1889],[17853,-1891],[17852,-1891],[17851,-1893],[17847,-1891],[17850,-1886],[17853,-1886],[17853,-1888]],[[17873,-1773],[17874,-1775],[17878,-1777],[17877,-1778],[17874,-1777],[17871,-1771],[17873,-1773]],[[17709,-1724],[17716,-1727],[17711,-1731],[17709,-1724]],[[17744,-1687],[17740,-1690],[17742,-1691],[17740,-1694],[17737,-1690],[17740,-1688],[17740,-1687],[17744,-1687]],[[-17877,-1819],[-17876,-1825],[-17884,-1822],[-17877,-1819]],[[17712,-1249],[17713,-1250],[17711,-1251],[17707,-1252],[17701,-1251],[17701,-1249],[17703,-1249],[17706,-1248],[17712,-1249]],[[17978,-1912],[17979,-1913],[17980,-1918],[17975,-1919],[17974,-1918],[17975,-1916],[17977,-1917],[17976,-1913],[17978,-1912]],[[17765,-1849],[17766,-1859],[17764,-1856],[17762,-1851],[17764,-1849],[17765,-1849]],[[17992,-1666],[17988,-1666],[17991,-1665],[17991,-1663],[17994,-1662],[17995,-1661],[17995,-1664],[17992,-1666]],[[-18000,-1617],[-18000,-1615],[-17999,-1614],[-17994,-1612],[-17996,-1616],[-18000,-1617]],[[-17905,-1796],[-17903,-1797],[-17903,-1799],[-17903,-1800],[-17905,-1801],[-17907,-1799],[-17908,-1797],[-17906,-1795],[-17905,-1796]]]}
+{
+  "qid": "Q712",
+  "iso_a2": "FJ",
+  "iso_a3": "FJI",
+  "name_zh": "斐济",
+  "name_en": "Fiji",
+  "capital": "苏瓦",
+  "continent": "太平洋岛国",
+  "centroid": [
+    178,
+    -18
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/fj/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Fiji, a Pacific nation of turquoise lagoons and warm island hospitality; its capital is Suva, and among its best-known landmarks is the Sigatoka Sand Dunes, where ancient pottery and oral tradition meet the sea.",
+      "tts_text_zh": "欢迎来到斐济，这个拥有碧蓝潟湖与温暖岛屿人情的太平洋国度；首都是苏瓦，最具代表性的地标之一是辛加东加沙丘，古老的陶器与口述传统在此与大海相遇。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 85968
+    },
+    {
+      "code": "fj",
+      "name_zh": "斐济语",
+      "name_local": "斐济语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "斐济共和国通称斐济，是位于南太平洋的群岛国家，地处瓦努阿图以东、汤加以西、图瓦卢以南，由322个岛屿组成，其中一半为无人岛，维提岛和瓦努阿岛两个主要岛屿的人口占全国的87%。国家名称源自斐济语“Viti”的汤加语发音。早在17世纪，便有东南亚裔人士抵达斐济定居，比欧洲探险家更早。1643年，荷兰探险家阿贝尔·塔斯曼抵达斐济，是首位踏足此地的欧洲人。1871年，塞鲁·埃佩尼萨·萨空鲍建立斐济王国，这是首个统一斐济群岛的政权。斐济于1970年从英国独立，国名为“斐济”，为英联邦内的自治领。1987年发生两起军事政变，第二次要求废除君主立宪、实施共和制，以总统取代总督，国家名称也改为“斐济共和国”。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 300,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%96%90%E6%BF%9F",
+    "title": "斐濟"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "斐济于1970年从英国独立，国名为“斐济”，为英联邦内的自治领。1987年，发生了两起军事政变，第一次是有人不满政府由当地的印度裔垄断，第二次是要求废除君主立宪，实施共和制，以总统取代总督，其国家名称也从当时的“斐济”改为“斐济共和国”。1990年，改名为“斐济主权民主共和国”。1998年，又改名为“斐济群岛共和国”。2006年5月6日，议会选举举行。5月18日，选举委员会确认，在众议院的71个议席中，斐济团结党获得36个席位，斐济工党得到31个议席，联合人民党获得两个议席，其余两个议席为独立竞选人获得。斐济团结党领导人莱塞尼亚·恩加拉塞宣誓就职总理。2006年12月5日，斐济武装部队司令弗兰克·姆拜尼马拉马称，军方已完全接管政府并控制了全国，解除总理恩加拉塞的职务，他本人暂时代行总统职务。12月6日，过渡政府总理乔纳·塞尼兰加卡利宣誓就职。2007年1月4日，姆拜尼马拉马宣布将总统职务交还给约瑟法·伊洛伊洛 。1月5日，姆拜尼马拉马宣誓就任过渡政府总理。",
+      "chars": 434
+    },
+    {
+      "section": "人口",
+      "text": "2003年的统计数据显示斐济有人口837,000人。人口密度45.8人/平方公里。人均寿命72.1岁。从二十世纪三十年代开始，每年人口增长率为1.1%。斐济人口主要由15-64岁的青壮年组成，年龄中位数为27.9岁。人口性别比为103（女性=100）。\n斐济的宪法规定了三个语言为官方语言，分别是英语、斐济语和印度斯坦语（Hindustani）。其中，印度斯坦语是居住在斐济的印度族裔的主要语言，而斐济语则是斐济本民族的语言。据斐济宪法规定，斐济公民有权利使用其中任何一种语言同政府机构沟通，需要的话政府应及时提供翻译人员。英语是斐济本民族和印度族裔最常用的语言。不同族群间沟通一般是用英语，政府机构、教育机构、金融和法律机构也一般以英语为主。",
+      "chars": 1200
+    },
+    {
+      "section": "语言",
+      "text": "斐济的宪法规定了三个语言为官方语言，分别是英语、斐济语和印度斯坦语（Hindustani）。其中，印度斯坦语是居住在斐济的印度族裔的主要语言，而斐济语则是斐济本民族的语言。据斐济宪法规定，斐济公民有权利使用其中任何一种语言同政府机构沟通，需要的话政府应及时提供翻译人员。英语是斐济本民族和印度族裔最常用的语言。不同族群间沟通一般是用英语，政府机构、教育机构、金融和法律机构也一般以英语为主。\n斐济语是斐济的民族语言，属于南岛语系。与同属南岛语系的美拉尼西亚语较为接近，但由于长期与波利尼西亚民族接触，因此也受到马来-波利尼西亚语族中的汤加语的影响。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "信奉基督宗教的人占52.9％，而信奉印度教和信奉伊斯兰教的人各占38.1％和7.8％。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Tivua Island, Mamanucas Islands, Fiji, 2011.jpg",
+      "caption_zh": "玛玛努卡群岛蒂武阿岛",
+      "caption": "玛玛努卡群岛蒂武阿岛",
+      "caption_commons": "Tivua Island, in the Mamanucas Islands, Fiji, February 2011",
+      "kw": "Mamanuca Islands Fiji",
+      "url": "assets/fj/L01.webp",
+      "thumb_url": "assets/fj/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Tivua_Island%2C_Mamanucas_Islands%2C_Fiji%2C_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "http://www.amazing-fiji-vacations.com",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 41364,
+      "caption_zh_manual": "玛玛努卡群岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4026,
+      "size": {
+        "detail": "1080x505",
+        "thumb": "240x112"
+      },
+      "encoding": "webp q75/q78 (源 1397x653 258KB JPEG)"
+    },
+    {
+      "title": "File:WayaYalobi.jpg",
+      "caption_zh": "亚萨瓦群岛的Waya岛Yalobi村",
+      "caption": "亚萨瓦群岛的Waya岛Yalobi村",
+      "caption_commons": "Bay of Yalobi, Waya Island, Yasawa Group, Fiji.",
+      "kw": "Yasawa Islands Fiji",
+      "url": "assets/fj/L02.webp",
+      "thumb_url": "assets/fj/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/WayaYalobi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "User:Doron",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 116768,
+      "caption_zh_manual": "亚萨瓦群岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10076,
+      "size": {
+        "detail": "1080x732",
+        "thumb": "240x163"
+      },
+      "encoding": "webp q75/q78 (源 1745x1183 556KB JPEG)"
+    },
+    {
+      "title": "File:Taveuni, Fiji looking toward Matagi.jpg",
+      "caption_zh": "塔韦乌尼岛望向马塔吉",
+      "caption": "塔韦乌尼岛望向马塔吉",
+      "caption_commons": "Taveuni, Fiji looking toward Matagi.",
+      "kw": "Taveuni Island Fiji",
+      "url": "assets/fj/L03.webp",
+      "thumb_url": "assets/fj/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taveuni%2C_Fiji_looking_toward_Matagi.jpg/1920px-Taveuni%2C_Fiji_looking_toward_Matagi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Barry Peters`",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 147732,
+      "caption_zh_manual": "塔韦乌尼岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7552,
+      "size": {
+        "detail": "1080x727",
+        "thumb": "240x162"
+      },
+      "encoding": "webp q75/q78 (源 1920x1292 975KB JPEG)"
+    },
+    {
+      "title": "File:Garden of the sleeping giant, Fiji (5).jpg",
+      "caption_zh": "斐济沉睡巨人花园",
+      "caption": "斐济沉睡巨人花园",
+      "caption_commons": "Garden of the sleeping giant, Fiji",
+      "kw": "Garden of the Sleeping Giant Fiji",
+      "url": "assets/fj/L04.webp",
+      "thumb_url": "assets/fj/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Garden_of_the_sleeping_giant%2C_Fiji_%285%29.jpg/1920px-Garden_of_the_sleeping_giant%2C_Fiji_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Radosław Botev",
+      "license": "CC BY 3.0 pl",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/pl/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 366842,
+      "caption_zh_manual": "沉睡巨人花园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 16690,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 1543KB JPEG)"
+    },
+    {
+      "title": "File:Sri Siva Subramaniya Temple.jpg",
+      "caption_zh": "斯里希瓦苏布拉马尼亚庙",
+      "caption": "斯里希瓦苏布拉马尼亚庙",
+      "caption_commons": "The Sri Siva Subramaniya Hindu temple in Nadi, Fiji",
+      "kw": "Sri Siva Subramaniya Temple Nadi",
+      "url": "assets/fj/L05.webp",
+      "thumb_url": "assets/fj/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Sri_Siva_Subramaniya_Temple.jpg/1920px-Sri_Siva_Subramaniya_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "JerryDP",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 81040,
+      "caption_zh_manual": "斯里希瓦苏布拉马尼亚庙",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8486,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 449KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:17:01+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "语言代码未解析，已剔除：斐濟印地語",
+    "P443 发音语种不符已弃用：Lb-Fidschi.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Fiji.wav、LL-Q652 (ita)-Francyskus-Figi.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py FJ",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "南太平洋",
+        "evidence": "位于南太平洋"
+      },
+      {
+        "v": "群岛国家",
+        "evidence": "图瓦卢以南的群岛国家"
+      },
+      {
+        "v": "维提岛",
+        "evidence": "维提岛和瓦努阿岛两个主要岛屿"
+      },
+      {
+        "v": "瓦努阿岛",
+        "evidence": "维提岛和瓦努阿岛两个主要岛屿"
+      },
+      {
+        "v": "斐济语",
+        "evidence": "源自斐济语“Viti”"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "斐济共和国（英语：Republic of Fiji；斐济语：Matanitu Tugalala o Viti；斐济印地语：रिपब्लिक ऑफ फीजी），通称斐济，是位于南太平洋，瓦努阿图以东、汤加以西、图瓦卢以南的群岛国家，由322个岛屿组成（一半为无人岛，而维提岛和瓦努阿岛两个主要岛屿的人口占全国的87%）。国家名称是源自斐济语“Viti”的汤加语发音。\n\n\n== 历史 ==\n\n公元前晚期至公元800年，被称为“图伊普洛图”的部落首领统治着斐济群岛。\n早在17世纪，便有东南亚裔人士抵达斐济定居，比欧洲的探险家要早一些。\n1643年，荷兰探险家阿贝尔·塔斯曼抵达斐济，是首位踏足此地的欧洲人。\n1871年，塞鲁·埃佩尼萨·萨空鲍建立斐济王国，这是首个统一斐济群岛的政权。\n1874年，英国吞并斐济，成立斐济殖民地。\n斐济于1970年从英国独立，国名为“斐济”，为英联邦内的自治领。1987年，发生了两起军事政变，第一次是有人不满政府由当地的印度裔垄断，第二次是要求废除君主立宪，实施共和制，以总统取代总督，其国家名称也从当时的“斐济”改为“斐济共和国”。",
+  "history_text": "斐济群岛早期的部落首领统治延续至公元800年前后，17世纪已有东南亚裔人士先于欧洲探险家抵达定居。1871年，塞鲁·埃佩尼萨·萨空鲍建立斐济王国，首次统一群岛；1874年英国吞并此地，成立斐济殖民地。1970年斐济从英国独立，为英联邦内的自治领。1987年两起军事政变后废除君主立宪、改行共和制，国名改为“斐济共和国”，此后又几度更名。",
+  "custom_text": "岛上人家日常说话常要跨过几道语言：斐济语属南岛语系，因长期与波利尼西亚人往来而带上汤加语的痕迹；印度族裔家庭多用印度斯坦语，不同族群碰面则讲英语，政府、学校、金融与法律场合也以英语为主。信仰同样并立，教堂、印度教庙宇与清真寺各安一隅，节庆与饮食随之分成几路，又在一处市场上彼此照面。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 168,
+      "folk": 141
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "斐济在哪儿啊？周围都有哪些国家？",
+      "a": "斐济是南太平洋的群岛国家，位于瓦努阿图以东、汤加以西、图瓦卢以南。",
+      "tags": [
+        "斐济位置",
+        "南太平洋",
+        "周边国家"
+      ]
+    },
+    {
+      "q": "斐济首都是哪里？",
+      "a": "首都苏瓦。",
+      "tags": [
+        "斐济首都",
+        "苏瓦"
+      ]
+    },
+    {
+      "q": "斐济由多少个岛屿组成？",
+      "a": "由322个岛屿组成，其中一半是无人岛，维提岛和瓦努阿岛两个主要岛屿的人口占全国的87%。",
+      "tags": [
+        "斐济岛屿",
+        "岛屿数量",
+        "维提岛"
+      ]
+    },
+    {
+      "q": "斐济人说什么语言？",
+      "a": "官方语言是英语和斐济语。",
+      "tags": [
+        "斐济语言",
+        "说什么话",
+        "官方语言"
+      ]
+    },
+    {
+      "q": "斐济有什么历史故事？",
+      "a": "1643年荷兰探险家阿贝尔·塔斯曼是首位踏足斐济的欧洲人；1871年塞鲁·埃佩尼萨·萨空鲍建立首个统一斐济群岛的政权；1874年英国吞并斐济；1970年斐济独立；1987年发生两起军事政变后改为斐济共和国。",
+      "tags": [
+        "斐济历史",
+        "独立",
+        "政变"
+      ]
+    },
+    {
+      "q": "斐济有什么值得去的地方？",
+      "a": "玛玛努卡群岛、亚萨瓦群岛、塔韦乌尼岛、沉睡巨人花园、斯里希瓦苏布拉马尼亚庙。",
+      "tags": [
+        "斐济景点",
+        "海岛",
+        "地标"
+      ]
+    },
+    {
+      "q": "斐济有什么好吃的或者特产？",
+      "a": "斐济的饮食和特产信息暂未收录。",
+      "tags": [
+        "斐济美食",
+        "特产",
+        "吃什么"
+      ]
+    },
+    {
+      "q": "斐济有什么传统节日或习俗？",
+      "a": "斐济的节日和传统习俗信息暂未收录。",
+      "tags": [
+        "斐济节日",
+        "传统习俗",
+        "文化"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        17871,
+        -1799
+      ],
+      [
+        17859,
+        -1814
+      ],
+      [
+        17839,
+        -1810
+      ],
+      [
+        17817,
+        -1825
+      ],
+      [
+        17789,
+        -1827
+      ],
+      [
+        17734,
+        -1811
+      ],
+      [
+        17725,
+        -1795
+      ],
+      [
+        17727,
+        -1786
+      ],
+      [
+        17743,
+        -1775
+      ],
+      [
+        17739,
+        -1764
+      ],
+      [
+        17752,
+        -1750
+      ],
+      [
+        17819,
+        -1730
+      ],
+      [
+        17829,
+        -1738
+      ],
+      [
+        17824,
+        -1747
+      ],
+      [
+        17835,
+        -1744
+      ],
+      [
+        17859,
+        -1763
+      ],
+      [
+        17860,
+        -1793
+      ],
+      [
+        17871,
+        -1799
+      ]
+    ],
+    [
+      [
+        18000,
+        -1615
+      ],
+      [
+        17948,
+        -1670
+      ],
+      [
+        17955,
+        -1677
+      ],
+      [
+        17994,
+        -1646
+      ],
+      [
+        17985,
+        -1666
+      ],
+      [
+        17994,
+        -1675
+      ],
+      [
+        17973,
+        -1672
+      ],
+      [
+        17958,
+        -1681
+      ],
+      [
+        17930,
+        -1681
+      ],
+      [
+        17935,
+        -1673
+      ],
+      [
+        17927,
+        -1669
+      ],
+      [
+        17906,
+        -1680
+      ],
+      [
+        17903,
+        -1692
+      ],
+      [
+        17891,
+        -1685
+      ],
+      [
+        17873,
+        -1701
+      ],
+      [
+        17864,
+        -1681
+      ],
+      [
+        17849,
+        -1679
+      ],
+      [
+        17859,
+        -1666
+      ],
+      [
+        17853,
+        -1663
+      ],
+      [
+        17880,
+        -1664
+      ],
+      [
+        17894,
+        -1646
+      ],
+      [
+        17940,
+        -1641
+      ],
+      [
+        17938,
+        -1636
+      ],
+      [
+        17957,
+        -1622
+      ],
+      [
+        17986,
+        -1623
+      ],
+      [
+        18000,
+        -1615
+      ]
+    ],
+    [
+      [
+        17843,
+        -1895
+      ],
+      [
+        17850,
+        -1901
+      ],
+      [
+        17828,
+        -1901
+      ],
+      [
+        17818,
+        -1916
+      ],
+      [
+        17795,
+        -1913
+      ],
+      [
+        17823,
+        -1896
+      ],
+      [
+        17843,
+        -1895
+      ]
+    ],
+    [
+      [
+        -18000,
+        -1696
+      ],
+      [
+        -18000,
+        -1679
+      ],
+      [
+        -17986,
+        -1668
+      ],
+      [
+        -17982,
+        -1677
+      ],
+      [
+        -18000,
+        -1696
+      ]
+    ],
+    [
+      [
+        17756,
+        -1668
+      ],
+      [
+        17759,
+        -1669
+      ],
+      [
+        17759,
+        -1670
+      ],
+      [
+        17758,
+        -1673
+      ],
+      [
+        17749,
+        -1680
+      ],
+      [
+        17747,
+        -1683
+      ],
+      [
+        17746,
+        -1683
+      ],
+      [
+        17744,
+        -1684
+      ],
+      [
+        17743,
+        -1683
+      ],
+      [
+        17744,
+        -1679
+      ],
+      [
+        17746,
+        -1681
+      ],
+      [
+        17748,
+        -1680
+      ],
+      [
+        17756,
+        -1672
+      ],
+      [
+        17757,
+        -1670
+      ],
+      [
+        17756,
+        -1668
+      ]
+    ],
+    [
+      [
+        17934,
+        -1800
+      ],
+      [
+        17935,
+        -1812
+      ],
+      [
+        17923,
+        -1794
+      ],
+      [
+        17934,
+        -1800
+      ]
+    ],
+    [
+      [
+        18000,
+        -1678
+      ],
+      [
+        18000,
+        -1696
+      ],
+      [
+        17992,
+        -1700
+      ],
+      [
+        18000,
+        -1678
+      ]
+    ],
+    [
+      [
+        -17896,
+        -1718
+      ],
+      [
+        -17891,
+        -1722
+      ],
+      [
+        -17899,
+        -1731
+      ],
+      [
+        -17902,
+        -1715
+      ],
+      [
+        -17896,
+        -1718
+      ]
+    ],
+    [
+      [
+        17727,
+        -1708
+      ],
+      [
+        17729,
+        -1705
+      ],
+      [
+        17729,
+        -1708
+      ],
+      [
+        17727,
+        -1711
+      ],
+      [
+        17724,
+        -1713
+      ],
+      [
+        17724,
+        -1715
+      ],
+      [
+        17722,
+        -1714
+      ],
+      [
+        17721,
+        -1715
+      ],
+      [
+        17720,
+        -1717
+      ],
+      [
+        17718,
+        -1716
+      ],
+      [
+        17719,
+        -1716
+      ],
+      [
+        17719,
+        -1712
+      ],
+      [
+        17720,
+        -1711
+      ],
+      [
+        17722,
+        -1707
+      ],
+      [
+        17725,
+        -1705
+      ],
+      [
+        17727,
+        -1708
+      ]
+    ],
+    [
+      [
+        -18000,
+        -1654
+      ],
+      [
+        -18000,
+        -1649
+      ],
+      [
+        -17999,
+        -1648
+      ],
+      [
+        -17995,
+        -1644
+      ],
+      [
+        -17990,
+        -1643
+      ],
+      [
+        -17991,
+        -1644
+      ],
+      [
+        -17990,
+        -1646
+      ],
+      [
+        -17993,
+        -1646
+      ],
+      [
+        -17994,
+        -1648
+      ],
+      [
+        -17992,
+        -1650
+      ],
+      [
+        -17995,
+        -1652
+      ],
+      [
+        -18000,
+        -1654
+      ]
+    ],
+    [
+      [
+        17994,
+        -1856
+      ],
+      [
+        17988,
+        -1866
+      ],
+      [
+        17983,
+        -1859
+      ],
+      [
+        17994,
+        -1856
+      ]
+    ],
+    [
+      [
+        17945,
+        -1729
+      ],
+      [
+        17938,
+        -1739
+      ],
+      [
+        17937,
+        -1726
+      ],
+      [
+        17945,
+        -1729
+      ]
+    ],
+    [
+      [
+        17878,
+        -1763
+      ],
+      [
+        17884,
+        -1769
+      ],
+      [
+        17877,
+        -1775
+      ],
+      [
+        17878,
+        -1763
+      ]
+    ],
+    [
+      [
+        -17986,
+        -1897
+      ],
+      [
+        -17985,
+        -1892
+      ],
+      [
+        -17981,
+        -1893
+      ],
+      [
+        -17979,
+        -1895
+      ],
+      [
+        -17981,
+        -1899
+      ],
+      [
+        -17982,
+        -1895
+      ],
+      [
+        -17984,
+        -1895
+      ],
+      [
+        -17986,
+        -1896
+      ],
+      [
+        -17984,
+        -1900
+      ],
+      [
+        -17986,
+        -1901
+      ],
+      [
+        -17987,
+        -1899
+      ],
+      [
+        -17986,
+        -1897
+      ]
+    ],
+    [
+      [
+        -17829,
+        -1788
+      ],
+      [
+        -17825,
+        -1795
+      ],
+      [
+        -17835,
+        -1795
+      ],
+      [
+        -17829,
+        -1788
+      ]
+    ],
+    [
+      [
+        -17859,
+        -1912
+      ],
+      [
+        -17857,
+        -1915
+      ],
+      [
+        -17853,
+        -1916
+      ],
+      [
+        -17854,
+        -1918
+      ],
+      [
+        -17856,
+        -1918
+      ],
+      [
+        -17860,
+        -1915
+      ],
+      [
+        -17858,
+        -1911
+      ],
+      [
+        -17855,
+        -1911
+      ],
+      [
+        -17856,
+        -1912
+      ],
+      [
+        -17859,
+        -1912
+      ]
+    ],
+    [
+      [
+        17853,
+        -1888
+      ],
+      [
+        17854,
+        -1889
+      ],
+      [
+        17853,
+        -1891
+      ],
+      [
+        17852,
+        -1891
+      ],
+      [
+        17851,
+        -1893
+      ],
+      [
+        17847,
+        -1891
+      ],
+      [
+        17850,
+        -1886
+      ],
+      [
+        17853,
+        -1886
+      ],
+      [
+        17853,
+        -1888
+      ]
+    ],
+    [
+      [
+        17873,
+        -1773
+      ],
+      [
+        17874,
+        -1775
+      ],
+      [
+        17878,
+        -1777
+      ],
+      [
+        17877,
+        -1778
+      ],
+      [
+        17874,
+        -1777
+      ],
+      [
+        17871,
+        -1771
+      ],
+      [
+        17873,
+        -1773
+      ]
+    ],
+    [
+      [
+        17709,
+        -1724
+      ],
+      [
+        17716,
+        -1727
+      ],
+      [
+        17711,
+        -1731
+      ],
+      [
+        17709,
+        -1724
+      ]
+    ],
+    [
+      [
+        17744,
+        -1687
+      ],
+      [
+        17740,
+        -1690
+      ],
+      [
+        17742,
+        -1691
+      ],
+      [
+        17740,
+        -1694
+      ],
+      [
+        17737,
+        -1690
+      ],
+      [
+        17740,
+        -1688
+      ],
+      [
+        17740,
+        -1687
+      ],
+      [
+        17744,
+        -1687
+      ]
+    ],
+    [
+      [
+        -17877,
+        -1819
+      ],
+      [
+        -17876,
+        -1825
+      ],
+      [
+        -17884,
+        -1822
+      ],
+      [
+        -17877,
+        -1819
+      ]
+    ],
+    [
+      [
+        17712,
+        -1249
+      ],
+      [
+        17713,
+        -1250
+      ],
+      [
+        17711,
+        -1251
+      ],
+      [
+        17707,
+        -1252
+      ],
+      [
+        17701,
+        -1251
+      ],
+      [
+        17701,
+        -1249
+      ],
+      [
+        17703,
+        -1249
+      ],
+      [
+        17706,
+        -1248
+      ],
+      [
+        17712,
+        -1249
+      ]
+    ],
+    [
+      [
+        17978,
+        -1912
+      ],
+      [
+        17979,
+        -1913
+      ],
+      [
+        17980,
+        -1918
+      ],
+      [
+        17975,
+        -1919
+      ],
+      [
+        17974,
+        -1918
+      ],
+      [
+        17975,
+        -1916
+      ],
+      [
+        17977,
+        -1917
+      ],
+      [
+        17976,
+        -1913
+      ],
+      [
+        17978,
+        -1912
+      ]
+    ],
+    [
+      [
+        17765,
+        -1849
+      ],
+      [
+        17766,
+        -1859
+      ],
+      [
+        17764,
+        -1856
+      ],
+      [
+        17762,
+        -1851
+      ],
+      [
+        17764,
+        -1849
+      ],
+      [
+        17765,
+        -1849
+      ]
+    ],
+    [
+      [
+        17992,
+        -1666
+      ],
+      [
+        17988,
+        -1666
+      ],
+      [
+        17991,
+        -1665
+      ],
+      [
+        17991,
+        -1663
+      ],
+      [
+        17994,
+        -1662
+      ],
+      [
+        17995,
+        -1661
+      ],
+      [
+        17995,
+        -1664
+      ],
+      [
+        17992,
+        -1666
+      ]
+    ],
+    [
+      [
+        -18000,
+        -1617
+      ],
+      [
+        -18000,
+        -1615
+      ],
+      [
+        -17999,
+        -1614
+      ],
+      [
+        -17994,
+        -1612
+      ],
+      [
+        -17996,
+        -1616
+      ],
+      [
+        -18000,
+        -1617
+      ]
+    ],
+    [
+      [
+        -17905,
+        -1796
+      ],
+      [
+        -17903,
+        -1797
+      ],
+      [
+        -17903,
+        -1799
+      ],
+      [
+        -17903,
+        -1800
+      ],
+      [
+        -17905,
+        -1801
+      ],
+      [
+        -17907,
+        -1799
+      ],
+      [
+        -17908,
+        -1797
+      ],
+      [
+        -17906,
+        -1795
+      ],
+      [
+        -17905,
+        -1796
+      ]
+    ]
+  ]
+}

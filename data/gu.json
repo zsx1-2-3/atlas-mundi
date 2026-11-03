@@ -1,1 +1,352 @@
-{"qid":"Q16635","iso_a2":"GU","iso_a3":"GUM","name_zh":"关岛","name_en":"Guam","capital":"阿加尼亚","continent":"大洋洲","centroid":[144.8,13.5],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/gu/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Guam, an island in the western Pacific where the capital, Hagåtña, sits by the sea, and where the cliffs of Two Lovers Point look out over the bright blue water.","tts_text_zh":"欢迎来到关岛，这座西太平洋岛屿的首府阿加尼亚临海而建，情人崖的峭壁俯瞰着湛蓝的海水。","audio_voice":"en-US-AriaNeural","audio_bytes":61920},{"code":"ch","name_zh":"查莫罗语","name_local":"查莫罗语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"关岛位于西太平洋，是马里亚纳群岛最大及最南端的岛屿，也是密克罗尼西亚群岛的最大岛屿。关岛面积544平方公里，人口密度为每平方公里297人，2015年人口约为16.2万。关岛的最高点为闪电山，海拔高度为406米。关岛属美国四个已通过《组织法》的非建制属地之一，其首府为阿加尼亚，最大城市则为迪迪多。关岛原住民为查莫罗人，四千年前即居住于岛上。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":170,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E9%97%9C%E5%B3%B6","title":"關島"},"culture_excerpts":[{"section":"历史","text":"关岛及北马里亚纳群岛的原住民最早可溯及至公元前2000年的东南亚南岛民族，成为后来的查莫罗人。古代查莫罗社会分为四个阶层酋长（chamorri）、上层阶级（matua）、中层阶级（achaot）及下层阶级（mana'chang）。斐迪南·麦哲伦为西班牙国王效力进行环航地球冒险时，于1521年3月6日发现关岛。但至1565年1月26日米格尔·洛佩斯·德莱加斯皮将军才主张对关岛的主权。1565年至1815年间，关岛和北马里亚纳群岛为西班牙于菲律宾东方仅有的停泊点，关岛为马尼拉邮船的重要中继站，该邮船营运阿卡普尔科至马尼拉航线。。由于1670年7月23日至1695年7月间间歇性战争（英语：Spanish–Chamorro Wars），以及1671年和1693年台风侵袭，1688年爆发天花疫情，造成查莫洛人数量由50,000减少到5,000人。多恩·马里亚诺·陶比斯（Don Mariano Tobias）于1771年9月15日就任马里亚纳省长后，开始进行农业改革，向原住民提供土地，鼓励发展，自马尼拉引进鹿及水牛，自阿卡普尔科引进驴和骡子，建设棉花厂及盐田。拿破仑战争后，许多西班牙西半球殖民地独立，关岛经济重心由墨西哥转向菲律宾。1856年爆发天花疫情（英语：1856 Guam smallpox epidemic），造成3,644名关岛人死亡，因而允许加罗林人及日本人于马里亚纳群岛定居。美国1898年的美西战争期间占领关岛（英语：Capture of Guam），西班牙基于巴黎条约，于1898年12月23日，依据执行命令108-A将关岛移交予美国海军，关岛成为美国船只航行至菲律宾的中继站，而北马里亚纳群岛则被售予德意志帝国以筹措战争赔款。美国海军于1899年在皮蒂（英语：Piti, Guam）建设码头，于1901年在Sumay建筑海军军营。美菲战争后，埃米利奥·阿奎纳多、阿波里纳里奥·马比尼于1901年被流放至关岛。1918年，德国于一战战败投降，国际联盟翌年依凡尔赛条约将北马里亚纳群岛交予日本托管。来自北马里亚纳群岛的查莫洛人被带至关岛担任翻译或为日本人从事其他工作，日本军队则视关岛查莫洛人为敌人。战后，关岛与北马里亚纳群岛查莫洛人相互不满，关岛查莫洛人认为北马里亚纳查莫洛人应给予同情，而北马里亚纳查莫洛人受日本统治了30年，效忠日本政府。1941年，日本于二战珍珠港事件后旋即发动战役占领关岛并将其更名为“大宫岛”，占领期前后长达两年半；期间关岛原住民被强制劳动、家庭分离、监禁、处死，约有1,000人于该期间死亡，另有认为战争期间杀害关岛人口的10%，当时岛上约有20,000人。美国于1944年8月10日夺回关岛，日本军队死亡人数超过18,000人，仅485人投降，横井庄一中士于1972年1月投降，为关岛上最后一位残留日本兵。美国同时取得并占领北马里亚纳群岛。水上飞机于1921至1930年间进驻关岛，为太平洋首个水上飞机航点。 泛美航空经营旧金山-马尼拉-香港的水上飞机航线，太平洋商业电缆公司（英语：Commercial Pacific Cable Company）则在1903年建设电话、电报站。。北方机场（North Field）于1944年建立，为纪念詹姆斯·罗伊·安德森（英语：James Roy Andersen）而改名为安德森空军基地。第二次世界大战后，根据1950年关岛组织法（英语：Guam Organic Act of 1950）关岛成为美国非合并领土，确立岛上平民政府架构，并赋予美国公民权，关岛政府于1968年以前为联邦政府指派，关岛总督选举法（英语：Guam Elective Governor Act）施行后则改为民选。因关岛并非美国一州，故关岛居民无法票选总统，关岛国会代表在国会亦无投票权。但仍可对政党初选提名的总统候选人进行投票。安德森空军基地在越战中发挥重要作用，其后改组为第36联队（英语：36th Wing#Pacific Air Forces） (36 WG)，分配予美国太平洋空军 (PACAF)及美国第十三航空队 (13AF)。2012年9月，13 AF停止运作并合并至美国太平洋空军。一年一度的对抗北方军事演习为年度盛事。关岛为1997年8月6日大韩航空801号班机空难的发生地，一架波音747于降落时撞击尼米兹山，造成机上254人中229人死亡。关岛国家史迹名录（英语：National Register of Historic Places listings in Guam）自1974年起被纳入美国国家史迹名录。关岛于1975年曾暂时安置100,000名越南难民，1996年则安置6,600名库尔德难民。","chars":1947},{"section":"人口","text":"根据2010年估算，关岛原住民查莫罗人为最大种族，约占总人口的37.3%，其他主要种族则为菲律宾人（29.3%）、美国白人（7.1%）及楚克人（7%），其他则为太平洋岛屿或亚洲人种。天主教为主要宗教，约85%的人口信仰天主教。另外，也有少数犹太人（英语：History of the Jews in Guam）。关岛官方语言为英语及查莫罗语。","chars":1200}],"landmark_images":[{"title":"File:Two Lovers Point from Tumon Bay.JPG","caption_zh":"从杜梦湾眺望恋人崖","caption":"从杜梦湾眺望恋人崖","caption_commons":"Two Lovers Point from Tumon Bay","kw":"Two Lovers Point Guam","url":"assets/gu/L01.webp","thumb_url":"assets/gu/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Two_Lovers_Point_from_Tumon_Bay.JPG/1920px-Two_Lovers_Point_from_Tumon_Bay.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Abasaa","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":30282,"caption_zh_manual":"恋人崖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10018,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 419KB JPEG)"},{"title":"File:Talofofo Falls 2025.jpg","caption_zh":"塔洛福福瀑布","caption":"塔洛福福瀑布","caption_commons":"The Talofofo Falls on the Ugum River in Inalahan, Guam.","kw":"Talofofo Falls Guam","url":"assets/gu/L02.webp","thumb_url":"assets/gu/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Talofofo_Falls_2025.jpg/1920px-Talofofo_Falls_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Gage Skidmore","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":99678,"caption_zh_manual":"塔洛福福瀑布","caption_zh_source":"llm_from_commons_filename","thumb_bytes":26182,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1281 1063KB JPEG)"},{"title":"File:War in the Pacific National Historical Park - northern units.png","caption_zh":"太平洋战争国家历史公园北部单元","caption":"太平洋战争国家历史公园北部单元","caption_commons":"Crop of brochure map indicating the properties owned by the War in the Pacific N","kw":"War in the Pacific National Historical Park Guam","url":"assets/gu/L03.webp","thumb_url":"assets/gu/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/d/d9/War_in_the_Pacific_National_Historical_Park_-_northern_units.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"U.S. National Park Service","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":14912,"caption_zh_manual":"太平洋战争国家历史公园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10282,"size":{"detail":"510x300","thumb":"400x235"},"encoding":"webp q72/q74 (源 510x300 136KB JPEG)"},{"title":"File:Plaza de España de Madrid - 02.jpg","caption_zh":"马德里西班牙广场一角","caption":"马德里西班牙广场一角","caption_commons":"Plaza de España, Madrid, Spain.","kw":"Plaza de Espana Hagatna Guam","url":"assets/gu/L04.webp","thumb_url":"assets/gu/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Plaza_de_Espa%C3%B1a_de_Madrid_-_02.jpg/1920px-Plaza_de_Espa%C3%B1a_de_Madrid_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Carlos Delgado","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":73738,"caption_zh_manual":"西班牙广场","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22370,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 859KB JPEG)"},{"title":"File:Dulce Nombre de Maria Cathedral Basilica.JPG","caption_zh":"阿加尼亚圣母玛利亚圣殿","caption":"阿加尼亚圣母玛利亚圣殿","caption_commons":"Dulce Nombre de Maria Cathedral Basilica","kw":"Dulce Nombre de Maria Cathedral Basilica Guam","url":"assets/gu/L05.webp","thumb_url":"assets/gu/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Dulce_Nombre_de_Maria_Cathedral_Basilica.JPG/1920px-Dulce_Nombre_de_Maria_Cathedral_Basilica.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Abasaa","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":34864,"caption_zh_manual":"阿加尼亚圣母玛利亚圣殿","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14780,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 399KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:24:03+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：En-us-Guam.ogg、LL-Q33573 (kin)-Adygrafix250-Gwami.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py GU","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 170 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[warn] languages：查莫罗语代码应为 ch 吗？ISO 639 中查莫罗语为 ch（旧码），但通常用 ch 可接受；不确定不报 → 核实代码"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"查莫罗语","evidence":"查莫罗语：Guåhån"},{"v":"闪电山","evidence":"最高点为闪电山"},{"v":"马里亚纳群岛","evidence":"马里亚纳群岛最大及最南端"},{"v":"密克罗尼西亚群岛","evidence":"密克罗尼西亚群岛的最大岛屿"},{"v":"马尼拉邮船中转补给站","evidence":"用作马尼拉邮船的重要中转补给站"}],"model":"deepseek-flash"},"summary_text_raw":"关岛（英语：Guam；查莫罗语：Guåhån）为西太平洋一岛屿，属美国四个已通过《组织法》的非建制属地之一，其首府为阿加尼亚，最大城市则为迪迪多。关岛2015年人口约为16.2万，面积544平方公里，人口密度为每平方公里297人，为马里亚纳群岛最大及最南端的岛屿，也是密克罗尼西亚群岛的最大岛屿。关岛的最高点为闪电山，海拔高度为406米 。\n关岛原住民为查莫罗人，四千年前即居住于岛上。1521年3月6日，葡萄牙王国探险家斐迪南·麦哲伦发现关岛并成为首位登岛的非原住民。1668年，西班牙帝国以菲律宾为基地出发殖民关岛，并将其用作马尼拉邮船的重要中转补给站。1898年美西战争爆发，美军于6月21日占领关岛；最终西班牙战败，于12月10日签订巴黎和约将关岛割让予美国，与其他四个地区（美属萨摩亚、夏威夷、威克岛及菲律宾）一同成为美国太平洋属地。\n1941年12月7日珍珠港事件爆发，大日本帝国旋即于三天后占领关岛并将其更名为“大宫岛”（おおみやとう）；日军于占领约两年半期间持续系统性奴役岛上原住民，直至美军于1944年7月21日夺回关岛为止。","history_text":"约公元前2000年，南岛民族自东南亚迁来，成为查莫罗人的祖先，社会分为酋长、上层、中层与下层四个阶层。1521年麦哲伦抵岛，1565年西班牙主张主权，关岛此后长期作为马尼拉邮船的中继站。十七世纪后期间歇性战争与疫病使查莫罗人口锐减。1898年美西战争后由西班牙割让予美国，1941年被日军占领并改名，1944年美军夺回。","custom_text":"岛上多数人信仰天主教，教堂节庆与家族聚会构成日常节奏。查莫罗语与英语并用，长辈在家庭中受敬重。饮食以米饭、根茎作物与海产为主，烤肉与酸腌瓜果常出现在聚会桌上，共享食物是待客的基本礼节。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":160,"folk":92}},"knowledge_qa":[{"q":"关岛在哪儿啊？","a":"关岛位于西太平洋，是马里亚纳群岛最大及最南端的岛屿，也是密克罗尼西亚群岛的最大岛屿，属于大洋洲。","tags":["关岛","西太平洋","大洋洲","岛屿"]},{"q":"关岛首都是哪里？","a":"关岛的首府是阿加尼亚，最大城市则是迪迪多。","tags":["首都","阿加尼亚","迪迪多"]},{"q":"关岛面积多大？人口多少？","a":"关岛面积544平方公里，2015年人口约为16.2万，人口密度为每平方公里297人。","tags":["面积","人口","多大"]},{"q":"关岛说什么语言？","a":"关岛的官方语言是英语和查莫罗语。","tags":["语言","英语","查莫罗语","说什么话"]},{"q":"关岛有什么值得看的景点？","a":"关岛有恋人崖、塔洛福福瀑布、太平洋战争国家历史公园、西班牙广场和阿加尼亚圣母玛利亚圣殿等景点。","tags":["景点","地标","恋人崖","看什么"]},{"q":"关岛原住民是什么人？","a":"关岛原住民为查莫罗人，四千年前即居住于岛上。","tags":["原住民","查莫罗人","文化"]},{"q":"关岛最高点在哪？","a":"关岛的最高点为闪电山，海拔高度为406米。","tags":["最高点","闪电山","海拔"]}],"llm_audit":{"issues":[{"field":"languages","severity":"warn","why":"查莫罗语代码应为 ch 吗？ISO 639 中查莫罗语为 ch（旧码），但通常用 ch 可接受；不确定不报","suggest":"核实代码"}],"overall":"pass"},"audio_meta":{},"outline":[[[14489,1364],[14495,1359],[14468,1325],[14462,1343],[14489,1364]]]}
+{
+  "qid": "Q16635",
+  "iso_a2": "GU",
+  "iso_a3": "GUM",
+  "name_zh": "关岛",
+  "name_en": "Guam",
+  "capital": "阿加尼亚",
+  "continent": "大洋洲",
+  "centroid": [
+    144.8,
+    13.5
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/gu/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Guam, an island in the western Pacific where the capital, Hagåtña, sits by the sea, and where the cliffs of Two Lovers Point look out over the bright blue water.",
+      "tts_text_zh": "欢迎来到关岛，这座西太平洋岛屿的首府阿加尼亚临海而建，情人崖的峭壁俯瞰着湛蓝的海水。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 61920
+    },
+    {
+      "code": "ch",
+      "name_zh": "查莫罗语",
+      "name_local": "查莫罗语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "关岛位于西太平洋，是马里亚纳群岛最大及最南端的岛屿，也是密克罗尼西亚群岛的最大岛屿。关岛面积544平方公里，人口密度为每平方公里297人，2015年人口约为16.2万。关岛的最高点为闪电山，海拔高度为406米。关岛属美国四个已通过《组织法》的非建制属地之一，其首府为阿加尼亚，最大城市则为迪迪多。关岛原住民为查莫罗人，四千年前即居住于岛上。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 170,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E9%97%9C%E5%B3%B6",
+    "title": "關島"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "关岛及北马里亚纳群岛的原住民最早可溯及至公元前2000年的东南亚南岛民族，成为后来的查莫罗人。古代查莫罗社会分为四个阶层酋长（chamorri）、上层阶级（matua）、中层阶级（achaot）及下层阶级（mana'chang）。斐迪南·麦哲伦为西班牙国王效力进行环航地球冒险时，于1521年3月6日发现关岛。但至1565年1月26日米格尔·洛佩斯·德莱加斯皮将军才主张对关岛的主权。1565年至1815年间，关岛和北马里亚纳群岛为西班牙于菲律宾东方仅有的停泊点，关岛为马尼拉邮船的重要中继站，该邮船营运阿卡普尔科至马尼拉航线。。由于1670年7月23日至1695年7月间间歇性战争（英语：Spanish–Chamorro Wars），以及1671年和1693年台风侵袭，1688年爆发天花疫情，造成查莫洛人数量由50,000减少到5,000人。多恩·马里亚诺·陶比斯（Don Mariano Tobias）于1771年9月15日就任马里亚纳省长后，开始进行农业改革，向原住民提供土地，鼓励发展，自马尼拉引进鹿及水牛，自阿卡普尔科引进驴和骡子，建设棉花厂及盐田。拿破仑战争后，许多西班牙西半球殖民地独立，关岛经济重心由墨西哥转向菲律宾。1856年爆发天花疫情（英语：1856 Guam smallpox epidemic），造成3,644名关岛人死亡，因而允许加罗林人及日本人于马里亚纳群岛定居。美国1898年的美西战争期间占领关岛（英语：Capture of Guam），西班牙基于巴黎条约，于1898年12月23日，依据执行命令108-A将关岛移交予美国海军，关岛成为美国船只航行至菲律宾的中继站，而北马里亚纳群岛则被售予德意志帝国以筹措战争赔款。美国海军于1899年在皮蒂（英语：Piti, Guam）建设码头，于1901年在Sumay建筑海军军营。美菲战争后，埃米利奥·阿奎纳多、阿波里纳里奥·马比尼于1901年被流放至关岛。1918年，德国于一战战败投降，国际联盟翌年依凡尔赛条约将北马里亚纳群岛交予日本托管。来自北马里亚纳群岛的查莫洛人被带至关岛担任翻译或为日本人从事其他工作，日本军队则视关岛查莫洛人为敌人。战后，关岛与北马里亚纳群岛查莫洛人相互不满，关岛查莫洛人认为北马里亚纳查莫洛人应给予同情，而北马里亚纳查莫洛人受日本统治了30年，效忠日本政府。1941年，日本于二战珍珠港事件后旋即发动战役占领关岛并将其更名为“大宫岛”，占领期前后长达两年半；期间关岛原住民被强制劳动、家庭分离、监禁、处死，约有1,000人于该期间死亡，另有认为战争期间杀害关岛人口的10%，当时岛上约有20,000人。美国于1944年8月10日夺回关岛，日本军队死亡人数超过18,000人，仅485人投降，横井庄一中士于1972年1月投降，为关岛上最后一位残留日本兵。美国同时取得并占领北马里亚纳群岛。水上飞机于1921至1930年间进驻关岛，为太平洋首个水上飞机航点。 泛美航空经营旧金山-马尼拉-香港的水上飞机航线，太平洋商业电缆公司（英语：Commercial Pacific Cable Company）则在1903年建设电话、电报站。。北方机场（North Field）于1944年建立，为纪念詹姆斯·罗伊·安德森（英语：James Roy Andersen）而改名为安德森空军基地。第二次世界大战后，根据1950年关岛组织法（英语：Guam Organic Act of 1950）关岛成为美国非合并领土，确立岛上平民政府架构，并赋予美国公民权，关岛政府于1968年以前为联邦政府指派，关岛总督选举法（英语：Guam Elective Governor Act）施行后则改为民选。因关岛并非美国一州，故关岛居民无法票选总统，关岛国会代表在国会亦无投票权。但仍可对政党初选提名的总统候选人进行投票。安德森空军基地在越战中发挥重要作用，其后改组为第36联队（英语：36th Wing#Pacific Air Forces） (36 WG)，分配予美国太平洋空军 (PACAF)及美国第十三航空队 (13AF)。2012年9月，13 AF停止运作并合并至美国太平洋空军。一年一度的对抗北方军事演习为年度盛事。关岛为1997年8月6日大韩航空801号班机空难的发生地，一架波音747于降落时撞击尼米兹山，造成机上254人中229人死亡。关岛国家史迹名录（英语：National Register of Historic Places listings in Guam）自1974年起被纳入美国国家史迹名录。关岛于1975年曾暂时安置100,000名越南难民，1996年则安置6,600名库尔德难民。",
+      "chars": 1947
+    },
+    {
+      "section": "人口",
+      "text": "根据2010年估算，关岛原住民查莫罗人为最大种族，约占总人口的37.3%，其他主要种族则为菲律宾人（29.3%）、美国白人（7.1%）及楚克人（7%），其他则为太平洋岛屿或亚洲人种。天主教为主要宗教，约85%的人口信仰天主教。另外，也有少数犹太人（英语：History of the Jews in Guam）。关岛官方语言为英语及查莫罗语。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Two Lovers Point from Tumon Bay.JPG",
+      "caption_zh": "从杜梦湾眺望恋人崖",
+      "caption": "从杜梦湾眺望恋人崖",
+      "caption_commons": "Two Lovers Point from Tumon Bay",
+      "kw": "Two Lovers Point Guam",
+      "url": "assets/gu/L01.webp",
+      "thumb_url": "assets/gu/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Two_Lovers_Point_from_Tumon_Bay.JPG/1920px-Two_Lovers_Point_from_Tumon_Bay.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Abasaa",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 56582,
+      "caption_zh_manual": "恋人崖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4824,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 419KB JPEG)"
+    },
+    {
+      "title": "File:Talofofo Falls 2025.jpg",
+      "caption_zh": "塔洛福福瀑布",
+      "caption": "塔洛福福瀑布",
+      "caption_commons": "The Talofofo Falls on the Ugum River in Inalahan, Guam.",
+      "kw": "Talofofo Falls Guam",
+      "url": "assets/gu/L02.webp",
+      "thumb_url": "assets/gu/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Talofofo_Falls_2025.jpg/1920px-Talofofo_Falls_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Gage Skidmore",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 218672,
+      "caption_zh_manual": "塔洛福福瀑布",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10404,
+      "size": {
+        "detail": "1080x721",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1281 1063KB JPEG)"
+    },
+    {
+      "title": "File:War in the Pacific National Historical Park - northern units.png",
+      "caption_zh": "太平洋战争国家历史公园北部单元",
+      "caption": "太平洋战争国家历史公园北部单元",
+      "caption_commons": "Crop of brochure map indicating the properties owned by the War in the Pacific N",
+      "kw": "War in the Pacific National Historical Park Guam",
+      "url": "assets/gu/L03.webp",
+      "thumb_url": "assets/gu/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/War_in_the_Pacific_National_Historical_Park_-_northern_units.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "U.S. National Park Service",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 15342,
+      "caption_zh_manual": "太平洋战争国家历史公园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5440,
+      "size": {
+        "detail": "510x300",
+        "thumb": "240x141"
+      },
+      "encoding": "webp q75/q78 (源 510x300 136KB JPEG)"
+    },
+    {
+      "title": "File:Plaza de España de Madrid - 02.jpg",
+      "caption_zh": "马德里西班牙广场一角",
+      "caption": "马德里西班牙广场一角",
+      "caption_commons": "Plaza de España, Madrid, Spain.",
+      "kw": "Plaza de Espana Hagatna Guam",
+      "url": "assets/gu/L04.webp",
+      "thumb_url": "assets/gu/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Plaza_de_Espa%C3%B1a_de_Madrid_-_02.jpg/1920px-Plaza_de_Espa%C3%B1a_de_Madrid_-_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Carlos Delgado",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 152468,
+      "caption_zh_manual": "西班牙广场",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9240,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 859KB JPEG)"
+    },
+    {
+      "title": "File:Dulce Nombre de Maria Cathedral Basilica.JPG",
+      "caption_zh": "阿加尼亚圣母玛利亚圣殿",
+      "caption": "阿加尼亚圣母玛利亚圣殿",
+      "caption_commons": "Dulce Nombre de Maria Cathedral Basilica",
+      "kw": "Dulce Nombre de Maria Cathedral Basilica Guam",
+      "url": "assets/gu/L05.webp",
+      "thumb_url": "assets/gu/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Dulce_Nombre_de_Maria_Cathedral_Basilica.JPG/1920px-Dulce_Nombre_de_Maria_Cathedral_Basilica.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Abasaa",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 57232,
+      "caption_zh_manual": "阿加尼亚圣母玛利亚圣殿",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8244,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 399KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:24:03+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：En-us-Guam.ogg、LL-Q33573 (kin)-Adygrafix250-Gwami.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py GU",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 170 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[warn] languages：查莫罗语代码应为 ch 吗？ISO 639 中查莫罗语为 ch（旧码），但通常用 ch 可接受；不确定不报 → 核实代码"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "查莫罗语",
+        "evidence": "查莫罗语：Guåhån"
+      },
+      {
+        "v": "闪电山",
+        "evidence": "最高点为闪电山"
+      },
+      {
+        "v": "马里亚纳群岛",
+        "evidence": "马里亚纳群岛最大及最南端"
+      },
+      {
+        "v": "密克罗尼西亚群岛",
+        "evidence": "密克罗尼西亚群岛的最大岛屿"
+      },
+      {
+        "v": "马尼拉邮船中转补给站",
+        "evidence": "用作马尼拉邮船的重要中转补给站"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "关岛（英语：Guam；查莫罗语：Guåhån）为西太平洋一岛屿，属美国四个已通过《组织法》的非建制属地之一，其首府为阿加尼亚，最大城市则为迪迪多。关岛2015年人口约为16.2万，面积544平方公里，人口密度为每平方公里297人，为马里亚纳群岛最大及最南端的岛屿，也是密克罗尼西亚群岛的最大岛屿。关岛的最高点为闪电山，海拔高度为406米 。\n关岛原住民为查莫罗人，四千年前即居住于岛上。1521年3月6日，葡萄牙王国探险家斐迪南·麦哲伦发现关岛并成为首位登岛的非原住民。1668年，西班牙帝国以菲律宾为基地出发殖民关岛，并将其用作马尼拉邮船的重要中转补给站。1898年美西战争爆发，美军于6月21日占领关岛；最终西班牙战败，于12月10日签订巴黎和约将关岛割让予美国，与其他四个地区（美属萨摩亚、夏威夷、威克岛及菲律宾）一同成为美国太平洋属地。\n1941年12月7日珍珠港事件爆发，大日本帝国旋即于三天后占领关岛并将其更名为“大宫岛”（おおみやとう）；日军于占领约两年半期间持续系统性奴役岛上原住民，直至美军于1944年7月21日夺回关岛为止。",
+  "history_text": "约公元前2000年，南岛民族自东南亚迁来，成为查莫罗人的祖先，社会分为酋长、上层、中层与下层四个阶层。1521年麦哲伦抵岛，1565年西班牙主张主权，关岛此后长期作为马尼拉邮船的中继站。十七世纪后期间歇性战争与疫病使查莫罗人口锐减。1898年美西战争后由西班牙割让予美国，1941年被日军占领并改名，1944年美军夺回。",
+  "custom_text": "岛上多数人信仰天主教，教堂节庆与家族聚会构成日常节奏。查莫罗语与英语并用，长辈在家庭中受敬重。饮食以米饭、根茎作物与海产为主，烤肉与酸腌瓜果常出现在聚会桌上，共享食物是待客的基本礼节。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 160,
+      "folk": 92
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "关岛在哪儿啊？",
+      "a": "关岛位于西太平洋，是马里亚纳群岛最大及最南端的岛屿，也是密克罗尼西亚群岛的最大岛屿，属于大洋洲。",
+      "tags": [
+        "关岛",
+        "西太平洋",
+        "大洋洲",
+        "岛屿"
+      ]
+    },
+    {
+      "q": "关岛首都是哪里？",
+      "a": "关岛的首府是阿加尼亚，最大城市则是迪迪多。",
+      "tags": [
+        "首都",
+        "阿加尼亚",
+        "迪迪多"
+      ]
+    },
+    {
+      "q": "关岛面积多大？人口多少？",
+      "a": "关岛面积544平方公里，2015年人口约为16.2万，人口密度为每平方公里297人。",
+      "tags": [
+        "面积",
+        "人口",
+        "多大"
+      ]
+    },
+    {
+      "q": "关岛说什么语言？",
+      "a": "关岛的官方语言是英语和查莫罗语。",
+      "tags": [
+        "语言",
+        "英语",
+        "查莫罗语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "关岛有什么值得看的景点？",
+      "a": "关岛有恋人崖、塔洛福福瀑布、太平洋战争国家历史公园、西班牙广场和阿加尼亚圣母玛利亚圣殿等景点。",
+      "tags": [
+        "景点",
+        "地标",
+        "恋人崖",
+        "看什么"
+      ]
+    },
+    {
+      "q": "关岛原住民是什么人？",
+      "a": "关岛原住民为查莫罗人，四千年前即居住于岛上。",
+      "tags": [
+        "原住民",
+        "查莫罗人",
+        "文化"
+      ]
+    },
+    {
+      "q": "关岛最高点在哪？",
+      "a": "关岛的最高点为闪电山，海拔高度为406米。",
+      "tags": [
+        "最高点",
+        "闪电山",
+        "海拔"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "languages",
+        "severity": "warn",
+        "why": "查莫罗语代码应为 ch 吗？ISO 639 中查莫罗语为 ch（旧码），但通常用 ch 可接受；不确定不报",
+        "suggest": "核实代码"
+      }
+    ],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        14489,
+        1364
+      ],
+      [
+        14495,
+        1359
+      ],
+      [
+        14468,
+        1325
+      ],
+      [
+        14462,
+        1343
+      ],
+      [
+        14489,
+        1364
+      ]
+    ]
+  ]
+}

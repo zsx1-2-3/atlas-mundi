@@ -1,1 +1,420 @@
-{"qid":"Q16641","iso_a2":"AS","iso_a3":"ASM","name_zh":"美属萨摩亚","name_en":"American Samoa","capital":"帕果帕果","continent":"太平洋岛国","centroid":[-170.7075,-14.2958],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/as/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to American Samoa, a quiet island territory in the South Pacific whose capital is Pago Pago, where you can see the dramatic harbor of Pago Pago Bay framed by steep green mountains.","tts_text_zh":"欢迎来到美属萨摩亚，这是南太平洋上一片宁静的岛屿领地，首都是帕果帕果，在那里可以看到被陡峭青山环抱的帕果帕果湾壮丽景色。","audio_voice":"en-US-AriaNeural","audio_bytes":71424},{"code":"sm","name_zh":"萨摩亚语","name_local":"萨摩亚语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"美属萨摩亚又称东萨摩亚，是美国在南太平洋的属地，在美国法律中定位为“未通过组织法的未合并属地”。自公元前1000年就有人定居，欧洲探险家在18世纪到达萨摩亚。首府帕果帕果，是太平洋上天然良港之一。主要的岛是图图伊拉岛，为最大和人口最多的岛屿，其余岛屿为马努阿群岛、罗斯环礁和斯温斯岛。该属地由五个火山岛与两个珊瑚礁组成。美国于1929年2月20日通过一项国会法案，正式接受将这些岛屿割让给美国的契约，该法案规定当地居民享有美国国民地位，并设立美属萨摩亚政府，其一切民政、司法和军事方面的权力属于美国总统指定的人。由于美国在该地区的利益主要是军事利益，该领土由美国海军管辖；1951年一项行政命令把对该领土的权力移交给内政部。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":312,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%B1%AC%E8%96%A9%E6%91%A9%E4%BA%9E","title":"美屬薩摩亞"},"culture_excerpts":[{"section":"人口","text":"大约有91.6%的人口是萨摩亚人，2.8%是亚洲人，1%白人，4.2%混血，0.3%其他。大部分人具双语言能力，能讲英语与萨摩亚语。美属萨摩亚基督教徒众多，50%的人口是公理会，20%属于天主教，30%属于基督新教的其他支派或非基督徒。","chars":1200}],"landmark_images":[{"title":"File:Fagatogo Dock.jpg","caption_zh":"帕果帕果港","caption":"帕果帕果港","caption_commons":"Portion of the dock area at Fagatogo, Pago Pago Harbor, American Samoa with Rain","kw":"Pago Pago Harbor","url":"assets/as/L01.webp","thumb_url":"assets/as/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/1/1b/Fagatogo_Dock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"Eric Guinther","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":55086,"thumb_bytes":17522,"size":{"detail":"760x547","thumb":"400x288"},"encoding":"webp q72/q74 (源 1571x1131 582KB JPEG)"},{"title":"File:American Samoa tramway remains.jpg","caption_zh":"国家公园图图伊拉","caption":"国家公园图图伊拉","caption_commons":"Remains of the historic tramway on the World War II Heritage Trail managed by th","kw":"National Park of American Samoa Tutuila","url":"assets/as/L02.webp","thumb_url":"assets/as/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/American_Samoa_tramway_remains.jpg/1920px-American_Samoa_tramway_remains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Eddy23","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":81834,"thumb_bytes":22298,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 804KB JPEG)"},{"title":"File:Aunu'u Island National National Landmark.jpg","caption_zh":"波拉岛","caption":"波拉岛","caption_commons":"Aunu'u Island, offshore of the island of Tutuila, American Samoa","kw":"Aunu'u Island American Samoa","url":"assets/as/L03.webp","thumb_url":"assets/as/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/c/c4/Aunu%27u_Island_National_National_Landmark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Unknown authorUnknown author","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":3526,"thumb_bytes":3586,"size":{"detail":"300x225","thumb":"300x225"},"encoding":"webp q72/q74 (源 300x225 44KB JPEG)"},{"title":"File:Islands of Manua (Manu'a), Ofoo (Ofu) & Oloosinga (Olosega), Samoan Group, U.S.Ex.Ex. 1839. Island of Tutuila (American Samoa) (IA dr islands-of-manua-manua-ofoo-ofu-oloosinga-olosega-samoan-group-6974000).jpg","caption_zh":"马努阿群岛","caption":"马努阿群岛","caption_commons":"Zoomable full resolution image available at davidrumsey.com.This image 6974.000 ","kw":"Manu'a Islands Ofu Olosega","url":"assets/as/L04.webp","thumb_url":"assets/as/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/7/7a/Islands_of_Manua_%28Manu%27a%29%2C_Ofoo_%28Ofu%29_%26_Oloosinga_%28Olosega%29%2C_Samoan_Group%2C_U.S.Ex.Ex._1839._Island_of_Tutuila_%28American_Samoa%29_%28IA_dr_islands-of-manua-manua-ofoo-ofu-oloosinga-olosega-samoan-group-6974000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"Wilkes, Charles United States Exploring Expedition Sherman & Smith C. Sherman","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":20376,"thumb_bytes":2642,"size":{"detail":"760x1008","thumb":"226x300"},"encoding":"webp q72/q74 (源 1158x1536 280KB JPEG)"},{"title":"File:TF American Samoa Tutuila.jpg","caption_zh":"图图伊拉雨林","caption":"图图伊拉雨林","caption_commons":"American Samoa, Tutuila, 3D image using OpenStreetMap and SRTM data","kw":"Tutuila rainforest American Samoa","url":"assets/as/L06.webp","thumb_url":"assets/as/L06.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/TF_American_Samoa_Tutuila.jpg/1920px-TF_American_Samoa_Tutuila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Rtmi1","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":22162,"thumb_bytes":6632,"size":{"detail":"760x428","thumb":"400x225"},"encoding":"webp q72/q74 (源 1920x1080 212KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:29:02+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：En-us-American Samoa.ogg（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py AS","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","拉尼奥托山：Wikidata / 维基 / Commons 都没有可用图","拉尼奥托山：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 0 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"帕果帕果","evidence":"首府帕果帕果，是太平洋上天然良港之一"},{"v":"图图伊拉岛","evidence":"主要的岛是图图伊拉岛（最大和人口最多）"},{"v":"马努阿群岛","evidence":"其余岛屿为马努阿群岛、罗斯环礁和斯温斯岛"},{"v":"罗斯环礁","evidence":"其余岛屿为马努阿群岛、罗斯环礁和斯温斯岛"},{"v":"斯温斯岛","evidence":"其余岛屿为马努阿群岛、罗斯环礁和斯温斯岛"},{"v":"萨摩亚语","evidence":"美属萨摩亚（萨摩亚语：Amelika Sāmoa"}],"model":"deepseek-flash"},"summary_text_raw":"美属萨摩亚（萨摩亚语：Amelika Sāmoa；英语：American Samoa），又称东萨摩亚，是美国在南太平洋的属地，在美国法律中定位为“未通过组织法的未合并属地”。自公元前1000年就有人定居，欧洲探险家在18世纪到达萨摩亚。首府帕果帕果，是太平洋上天然良港之一。主要的岛是图图伊拉岛（最大和人口最多），其余岛屿为马努阿群岛、罗斯环礁和斯温斯岛。\n19世纪后半叶，德国、英国和美国为争夺萨摩亚群岛发生了严重的国际对抗。最后，根据1899年条约规定，德国和美国分割萨摩亚群岛。次年美国正式占领群岛东半部，由五个火山岛与两个珊瑚礁组成。西萨摩亚现在是萨摩亚独立国。\n美国于1929年2月20日通过一项国会法案，正式接受将这些岛屿割让给美国的契约。该法案规定，当地居民享有美国国民地位。该法案规定设立美属萨摩亚政府，其一切民政、司法和军事方面的权力属于美国总统指定的人。由于美国在该地区的利益主要是军事利益，该领土由美国海军管辖。1951年一项行政命令把对该领土的权力移交给内政部。","history_text":"萨摩亚群岛早在公元前就有定居者，欧洲探险家在十八世纪抵达。十九世纪后半叶，德国、英国与美国为争夺群岛发生严重对抗，最终按条约由德国与美国分割，美国于次年占领东半部，西半部后来成为萨摩亚独立国。美国随后通过国会法案正式接受割让，当地居民享有美国国民地位，领土先由海军管辖，后移交内政部。","custom_text":"岛上绝大多数居民是萨摩亚人，多数人能同时讲萨摩亚语与英语。基督教深入日常，公理会信众最多，天主教与基督新教其他支派各有其群。村落生活围绕教堂与家族展开，礼拜日的唱诗与聚餐是周而复始的节奏。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":142,"folk":94}},"knowledge_qa":[{"q":"美属萨摩亚在哪儿啊？","a":"美属萨摩亚位于南太平洋，是美国属地，又称东萨摩亚。首府帕果帕果是太平洋天然良港之一。","tags":["南太平洋","美国属地","在哪"]},{"q":"美属萨摩亚的首都是哪里？","a":"首府是帕果帕果，它是太平洋上天然良港之一。","tags":["首都","帕果帕果","首府"]},{"q":"美属萨摩亚主要有哪些岛？","a":"主要岛屿是图图伊拉岛（最大且人口最多），其余有马努阿群岛、罗斯环礁和斯温斯岛。","tags":["岛屿","图图伊拉","马努阿"]},{"q":"美属萨摩亚说什么语言？","a":"官方语言是英语和萨摩亚语。","tags":["语言","说什么话","方言"]},{"q":"美属萨摩亚有什么值得看的地标？","a":"值得看的有帕果帕果港、国家公园图图伊拉、波拉岛、马努阿群岛和图图伊拉雨林。","tags":["地标","景点","国家公园"]},{"q":"美属萨摩亚有什么自然景观？","a":"有帕果帕果港、图图伊拉雨林、国家公园图图伊拉，以及马努阿群岛和波拉岛等。","tags":["自然景观","雨林","港口"]},{"q":"美属萨摩亚是怎么成为美国属地的？","a":"19世纪末德英美争夺萨摩亚群岛，1899年条约规定德美分割，次年美国占领东半部；1929年美国国会法案正式接受割让。","tags":["历史","美国属地","殖民"]}],"llm_audit":{"issues":[{"field":"image_captions","severity":"error","why":"波拉岛（Bora Bora）属法属波利尼西亚，不在美属萨摩亚","suggest":"删除或替换为美属萨摩亚地标"}],"overall":"warn"},"audio_meta":{},"outline":[[[-17059,-1426],[-17075,-1438],[-17083,-1432],[-17059,-1426]],[[-16946,-1422],[-16944,-1423],[-16945,-1426],[-16946,-1425],[-16948,-1426],[-16950,-1426],[-16950,-1427],[-16952,-1427],[-16954,-1424],[-16951,-1422],[-16946,-1422]],[[-16968,-1418],[-16966,-1417],[-16964,-1418],[-16966,-1419],[-16968,-1418]],[[-17107,-1105],[-17108,-1107],[-17109,-1105],[-17107,-1105]]]}
+{
+  "qid": "Q16641",
+  "iso_a2": "AS",
+  "iso_a3": "ASM",
+  "name_zh": "美属萨摩亚",
+  "name_en": "American Samoa",
+  "capital": "帕果帕果",
+  "continent": "太平洋岛国",
+  "centroid": [
+    -170.7075,
+    -14.2958
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/as/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to American Samoa, a quiet island territory in the South Pacific whose capital is Pago Pago, where you can see the dramatic harbor of Pago Pago Bay framed by steep green mountains.",
+      "tts_text_zh": "欢迎来到美属萨摩亚，这是南太平洋上一片宁静的岛屿领地，首都是帕果帕果，在那里可以看到被陡峭青山环抱的帕果帕果湾壮丽景色。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 71424
+    },
+    {
+      "code": "sm",
+      "name_zh": "萨摩亚语",
+      "name_local": "萨摩亚语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "美属萨摩亚又称东萨摩亚，是美国在南太平洋的属地，在美国法律中定位为“未通过组织法的未合并属地”。自公元前1000年就有人定居，欧洲探险家在18世纪到达萨摩亚。首府帕果帕果，是太平洋上天然良港之一。主要的岛是图图伊拉岛，为最大和人口最多的岛屿，其余岛屿为马努阿群岛、罗斯环礁和斯温斯岛。该属地由五个火山岛与两个珊瑚礁组成。美国于1929年2月20日通过一项国会法案，正式接受将这些岛屿割让给美国的契约，该法案规定当地居民享有美国国民地位，并设立美属萨摩亚政府，其一切民政、司法和军事方面的权力属于美国总统指定的人。由于美国在该地区的利益主要是军事利益，该领土由美国海军管辖；1951年一项行政命令把对该领土的权力移交给内政部。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 312,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%B1%AC%E8%96%A9%E6%91%A9%E4%BA%9E",
+    "title": "美屬薩摩亞"
+  },
+  "culture_excerpts": [
+    {
+      "section": "人口",
+      "text": "大约有91.6%的人口是萨摩亚人，2.8%是亚洲人，1%白人，4.2%混血，0.3%其他。大部分人具双语言能力，能讲英语与萨摩亚语。美属萨摩亚基督教徒众多，50%的人口是公理会，20%属于天主教，30%属于基督新教的其他支派或非基督徒。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Fagatogo Dock.jpg",
+      "caption_zh": "帕果帕果港",
+      "caption": "帕果帕果港",
+      "caption_commons": "Portion of the dock area at Fagatogo, Pago Pago Harbor, American Samoa with Rain",
+      "kw": "Pago Pago Harbor",
+      "url": "assets/as/L01.webp",
+      "thumb_url": "assets/as/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Fagatogo_Dock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Eric Guinther",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 98716,
+      "thumb_bytes": 7680,
+      "size": {
+        "detail": "1080x778",
+        "thumb": "240x173"
+      },
+      "encoding": "webp q75/q78 (源 1571x1131 582KB JPEG)"
+    },
+    {
+      "title": "File:American Samoa tramway remains.jpg",
+      "caption_zh": "国家公园图图伊拉",
+      "caption": "国家公园图图伊拉",
+      "caption_commons": "Remains of the historic tramway on the World War II Heritage Trail managed by th",
+      "kw": "National Park of American Samoa Tutuila",
+      "url": "assets/as/L02.webp",
+      "thumb_url": "assets/as/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/American_Samoa_tramway_remains.jpg/1920px-American_Samoa_tramway_remains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Eddy23",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 173802,
+      "thumb_bytes": 9340,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 804KB JPEG)"
+    },
+    {
+      "title": "File:Aunu'u Island National National Landmark.jpg",
+      "caption_zh": "波拉岛",
+      "caption": "波拉岛",
+      "caption_commons": "Aunu'u Island, offshore of the island of Tutuila, American Samoa",
+      "kw": "Aunu'u Island American Samoa",
+      "url": "assets/as/L03.webp",
+      "thumb_url": "assets/as/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Aunu%27u_Island_National_National_Landmark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 3736,
+      "thumb_bytes": 3056,
+      "size": {
+        "detail": "300x225",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 300x225 44KB JPEG)"
+    },
+    {
+      "title": "File:Islands of Manua (Manu'a), Ofoo (Ofu) & Oloosinga (Olosega), Samoan Group, U.S.Ex.Ex. 1839. Island of Tutuila (American Samoa) (IA dr islands-of-manua-manua-ofoo-ofu-oloosinga-olosega-samoan-group-6974000).jpg",
+      "caption_zh": "马努阿群岛",
+      "caption": "马努阿群岛",
+      "caption_commons": "Zoomable full resolution image available at davidrumsey.com.This image 6974.000 ",
+      "kw": "Manu'a Islands Ofu Olosega",
+      "url": "assets/as/L04.webp",
+      "thumb_url": "assets/as/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Islands_of_Manua_%28Manu%27a%29%2C_Ofoo_%28Ofu%29_%26_Oloosinga_%28Olosega%29%2C_Samoan_Group%2C_U.S.Ex.Ex._1839._Island_of_Tutuila_%28American_Samoa%29_%28IA_dr_islands-of-manua-manua-ofoo-ofu-oloosinga-olosega-samoan-group-6974000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Wilkes, Charles United States Exploring Expedition Sherman & Smith C. Sherman",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 44634,
+      "thumb_bytes": 1508,
+      "size": {
+        "detail": "1080x1433",
+        "thumb": "136x180"
+      },
+      "encoding": "webp q75/q78 (源 1158x1536 280KB JPEG)"
+    },
+    {
+      "title": "File:TF American Samoa Tutuila.jpg",
+      "caption_zh": "图图伊拉雨林",
+      "caption": "图图伊拉雨林",
+      "caption_commons": "American Samoa, Tutuila, 3D image using OpenStreetMap and SRTM data",
+      "kw": "Tutuila rainforest American Samoa",
+      "url": "assets/as/L06.webp",
+      "thumb_url": "assets/as/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/TF_American_Samoa_Tutuila.jpg/1920px-TF_American_Samoa_Tutuila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Rtmi1",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 41166,
+      "thumb_bytes": 2930,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 212KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:29:02+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：En-us-American Samoa.ogg（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py AS",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "拉尼奥托山：Wikidata / 维基 / Commons 都没有可用图",
+    "拉尼奥托山：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 0 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "帕果帕果",
+        "evidence": "首府帕果帕果，是太平洋上天然良港之一"
+      },
+      {
+        "v": "图图伊拉岛",
+        "evidence": "主要的岛是图图伊拉岛（最大和人口最多）"
+      },
+      {
+        "v": "马努阿群岛",
+        "evidence": "其余岛屿为马努阿群岛、罗斯环礁和斯温斯岛"
+      },
+      {
+        "v": "罗斯环礁",
+        "evidence": "其余岛屿为马努阿群岛、罗斯环礁和斯温斯岛"
+      },
+      {
+        "v": "斯温斯岛",
+        "evidence": "其余岛屿为马努阿群岛、罗斯环礁和斯温斯岛"
+      },
+      {
+        "v": "萨摩亚语",
+        "evidence": "美属萨摩亚（萨摩亚语：Amelika Sāmoa"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "美属萨摩亚（萨摩亚语：Amelika Sāmoa；英语：American Samoa），又称东萨摩亚，是美国在南太平洋的属地，在美国法律中定位为“未通过组织法的未合并属地”。自公元前1000年就有人定居，欧洲探险家在18世纪到达萨摩亚。首府帕果帕果，是太平洋上天然良港之一。主要的岛是图图伊拉岛（最大和人口最多），其余岛屿为马努阿群岛、罗斯环礁和斯温斯岛。\n19世纪后半叶，德国、英国和美国为争夺萨摩亚群岛发生了严重的国际对抗。最后，根据1899年条约规定，德国和美国分割萨摩亚群岛。次年美国正式占领群岛东半部，由五个火山岛与两个珊瑚礁组成。西萨摩亚现在是萨摩亚独立国。\n美国于1929年2月20日通过一项国会法案，正式接受将这些岛屿割让给美国的契约。该法案规定，当地居民享有美国国民地位。该法案规定设立美属萨摩亚政府，其一切民政、司法和军事方面的权力属于美国总统指定的人。由于美国在该地区的利益主要是军事利益，该领土由美国海军管辖。1951年一项行政命令把对该领土的权力移交给内政部。",
+  "history_text": "萨摩亚群岛早在公元前就有定居者，欧洲探险家在十八世纪抵达。十九世纪后半叶，德国、英国与美国为争夺群岛发生严重对抗，最终按条约由德国与美国分割，美国于次年占领东半部，西半部后来成为萨摩亚独立国。美国随后通过国会法案正式接受割让，当地居民享有美国国民地位，领土先由海军管辖，后移交内政部。",
+  "custom_text": "岛上绝大多数居民是萨摩亚人，多数人能同时讲萨摩亚语与英语。基督教深入日常，公理会信众最多，天主教与基督新教其他支派各有其群。村落生活围绕教堂与家族展开，礼拜日的唱诗与聚餐是周而复始的节奏。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 142,
+      "folk": 94
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "美属萨摩亚在哪儿啊？",
+      "a": "美属萨摩亚位于南太平洋，是美国属地，又称东萨摩亚。首府帕果帕果是太平洋天然良港之一。",
+      "tags": [
+        "南太平洋",
+        "美国属地",
+        "在哪"
+      ]
+    },
+    {
+      "q": "美属萨摩亚的首都是哪里？",
+      "a": "首府是帕果帕果，它是太平洋上天然良港之一。",
+      "tags": [
+        "首都",
+        "帕果帕果",
+        "首府"
+      ]
+    },
+    {
+      "q": "美属萨摩亚主要有哪些岛？",
+      "a": "主要岛屿是图图伊拉岛（最大且人口最多），其余有马努阿群岛、罗斯环礁和斯温斯岛。",
+      "tags": [
+        "岛屿",
+        "图图伊拉",
+        "马努阿"
+      ]
+    },
+    {
+      "q": "美属萨摩亚说什么语言？",
+      "a": "官方语言是英语和萨摩亚语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "方言"
+      ]
+    },
+    {
+      "q": "美属萨摩亚有什么值得看的地标？",
+      "a": "值得看的有帕果帕果港、国家公园图图伊拉、波拉岛、马努阿群岛和图图伊拉雨林。",
+      "tags": [
+        "地标",
+        "景点",
+        "国家公园"
+      ]
+    },
+    {
+      "q": "美属萨摩亚有什么自然景观？",
+      "a": "有帕果帕果港、图图伊拉雨林、国家公园图图伊拉，以及马努阿群岛和波拉岛等。",
+      "tags": [
+        "自然景观",
+        "雨林",
+        "港口"
+      ]
+    },
+    {
+      "q": "美属萨摩亚是怎么成为美国属地的？",
+      "a": "19世纪末德英美争夺萨摩亚群岛，1899年条约规定德美分割，次年美国占领东半部；1929年美国国会法案正式接受割让。",
+      "tags": [
+        "历史",
+        "美国属地",
+        "殖民"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "image_captions",
+        "severity": "error",
+        "why": "波拉岛（Bora Bora）属法属波利尼西亚，不在美属萨摩亚",
+        "suggest": "删除或替换为美属萨摩亚地标"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -17059,
+        -1426
+      ],
+      [
+        -17075,
+        -1438
+      ],
+      [
+        -17083,
+        -1432
+      ],
+      [
+        -17059,
+        -1426
+      ]
+    ],
+    [
+      [
+        -16946,
+        -1422
+      ],
+      [
+        -16944,
+        -1423
+      ],
+      [
+        -16945,
+        -1426
+      ],
+      [
+        -16946,
+        -1425
+      ],
+      [
+        -16948,
+        -1426
+      ],
+      [
+        -16950,
+        -1426
+      ],
+      [
+        -16950,
+        -1427
+      ],
+      [
+        -16952,
+        -1427
+      ],
+      [
+        -16954,
+        -1424
+      ],
+      [
+        -16951,
+        -1422
+      ],
+      [
+        -16946,
+        -1422
+      ]
+    ],
+    [
+      [
+        -16968,
+        -1418
+      ],
+      [
+        -16966,
+        -1417
+      ],
+      [
+        -16964,
+        -1418
+      ],
+      [
+        -16966,
+        -1419
+      ],
+      [
+        -16968,
+        -1418
+      ]
+    ],
+    [
+      [
+        -17107,
+        -1105
+      ],
+      [
+        -17108,
+        -1107
+      ],
+      [
+        -17109,
+        -1105
+      ],
+      [
+        -17107,
+        -1105
+      ]
+    ]
+  ]
+}

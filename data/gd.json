@@ -1,1 +1,351 @@
-{"qid":"Q769","iso_a2":"GD","iso_a3":"GRD","name_zh":"格林纳达","name_en":"Grenada","capital":"圣乔治","continent":"北美洲","centroid":[-61.7,12.1],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/gd/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Grenada, an island nation where the scent of nutmeg drifts on the sea breeze; its capital, St. George's, wraps around a horseshoe-shaped harbor, and just offshore lies the underwater sculpture park at Molinere Bay, a sight that draws divers from around the world.","tts_text_zh":"欢迎来到格林纳达，这个岛国的海风里飘着肉豆蔻的香气；首都圣乔治环抱着一座马蹄形港湾，近海的莫利内尔湾水下雕塑公园，是吸引世界各地潜水者的名胜。","audio_voice":"en-US-AriaNeural","audio_bytes":98784}],"summary_text":"格林纳达是美洲西印度群岛中向风群岛南部的英联邦国家，首都为圣乔治。农业和旅游业是经济的基础，主要农产品肉豆蔻产量约占世界总产量的三分之一，仅次于印度尼西亚而居世界第二位。格林纳达于1498年8月15日为哥伦布发现，命名为“La Concepción”，1609年被英国占领，1650年沦入法国之手，1762年又被英国夺回，1779年法国再度占领，1783年依凡尔赛条约正式划归英国版图。1958年起逐渐获得自治，1967年为联系邦，内政自主，外交国防由英国代掌。1974年2月7日宣布独立，但仍为英联邦成员，奉英国君主为格林纳达君主，并由总督代表至今。立国时由联合劳工党领袖埃里克·盖里出任总理。1979年3月13日，左派人民革命党发动政变，驱逐埃里克·盖里，该党领袖莫里斯·毕晓普建立共产政权担任总理，其后废止宪法、解散国会。1983年10月13日激进派副总理柯尔联合陆军司令奥斯汀发动政变，毕晓普及三位部长遭杀害，美国联合地区盟友趁乱入侵格林纳达，后扶持亲美反共的临时政府。1984年12月3日国会大选，由三派联合的新国家党以14比1多数获胜。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":474,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%9E%97%E7%BA%B3%E8%BE%BE","title":"格林纳达"},"culture_excerpts":[{"section":"历史","text":"格林纳达于1498年8月15日为哥伦布发现，命名为“La Concepción”，1609年被英国占领，1650年沦入法国之手，1762年又被英国夺回，1779年法国再度占领，1783年依凡尔赛条约正式划归英国版图。1958年起逐渐获得自治。1967年为联系邦，内政自主，外交国防由英国代掌。1974年2月7日宣布独立，但仍为英联邦成员、奉英国君主为格林纳达君主，并由总督代表至今。立国时由联合劳工党领袖埃里克·盖里出任总理。1979年3月13日，左派人民革命党发动政变，驱逐埃里克盖，该党领袖莫里斯·毕晓普建立共产政权担任总理，其后废止宪法、解散国会。1983年10月13日激进派副总理柯尔联合陆军司令奥斯汀发动政变，毕晓普及三位部长遭杀害。美国联合地区盟友趁乱入侵格林纳达。后扶持亲美反共的临时政府。1984年12月3日国会大选，由三派联合的新国家党以14比1多数获胜。此后由新国家党和民族民主大会党轮流执政。","chars":407},{"section":"体育","text":"2012年伦敦奥运会上，在美国读大学的格林纳达男运动员基拉尼·詹姆斯在400米短跑跑出43.94秒，夺得该国史上第一金，也是该国的首枚奖牌。之后他又在里约奥运会和东京奥运会上分别获得银牌和铜牌。","chars":1200}],"landmark_images":[{"title":"File:Grand Anse Beach Grenada.jpg","caption_zh":"格林纳达大安斯海滩","caption":"格林纳达大安斯海滩","caption_commons":"Grand Anse Beach, St. George's, Grenada, West Indies (Caribbean)","kw":"Grand Anse Beach Grenada","url":"assets/gd/L01.webp","thumb_url":"assets/gd/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Grand_Anse_Beach_Grenada.jpg/1920px-Grand_Anse_Beach_Grenada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Varun Kapoor / Vkap","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":39562,"caption_zh_manual":"大安斯海滩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12292,"size":{"detail":"760x510","thumb":"400x269"},"encoding":"webp q72/q74 (源 1920x1289 516KB JPEG)"},{"title":"File:Monte Castello - Castel San Giorgio.jpg","caption_zh":"蒙特卡斯特洛的圣乔治堡","caption":"蒙特卡斯特洛的圣乔治堡","caption_commons":"Monte Castello - Castel San Giorgio","kw":"Fort George St George's Grenada","url":"assets/gd/L02.webp","thumb_url":"assets/gd/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Monte_Castello_-_Castel_San_Giorgio.jpg/1920px-Monte_Castello_-_Castel_San_Giorgio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"ItalianDG Gaetano Galluzzo","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":56426,"caption_zh_manual":"圣乔治堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16032,"size":{"detail":"760x510","thumb":"400x269"},"encoding":"webp q72/q74 (源 1920x1289 626KB JPEG)"},{"title":"File:Seven Sisters Falls - panoramio.jpg","caption_zh":"七姐妹瀑布全景","caption":"七姐妹瀑布全景","caption_commons":"Seven Sisters Falls, Grenada","kw":"Seven Sisters Falls Grenada","url":"assets/gd/L03.webp","thumb_url":"assets/gd/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Seven_Sisters_Falls_-_panoramio.jpg/1920px-Seven_Sisters_Falls_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"FishSpeaker","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":188972,"caption_zh_manual":"七姐妹瀑布","caption_zh_source":"llm_from_commons_filename","thumb_bytes":21018,"size":{"detail":"760x1005","thumb":"227x300"},"encoding":"webp q72/q74 (源 1920x2538 1361KB JPEG)"},{"title":"File:Annandale Falls (2).jpg","caption_zh":"安南代尔瀑布（2）","caption":"安南代尔瀑布（2）","caption_commons":"View of Annandale Falls in Grenada.","kw":"Annandale Falls Grenada","url":"assets/gd/L04.webp","thumb_url":"assets/gd/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Annandale_Falls_%282%29.jpg/1920px-Annandale_Falls_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"dpursoo","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":70922,"caption_zh_manual":"安南代尔瀑布","caption_zh_source":"llm_from_commons_filename","thumb_bytes":22258,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 680KB JPEG)"},{"title":"File:Grenada, Karibik - St. George's - Cathedral of the Immaculate Conception – view from Church Street - panoramio.jpg","caption_zh":"从教堂街看圣乔治教堂","caption":"从教堂街看圣乔治教堂","caption_commons":"Grenada, Karibik - St. George's - Cathedral of the Immaculate Conception – view ","kw":"St George's Church Grenada","url":"assets/gd/L05.webp","thumb_url":"assets/gd/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Grenada%2C_Karibik_-_St._George%27s_-_Cathedral_of_the_Immaculate_Conception_%E2%80%93_view_from_Church_Street_-_panoramio.jpg/1920px-Grenada%2C_Karibik_-_St._George%27s_-_Cathedral_of_the_Immaculate_Conception_%E2%80%93_view_from_Church_Street_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"giggel","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":131886,"caption_zh_manual":"圣乔治教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11652,"size":{"detail":"760x1013","thumb":"225x300"},"encoding":"webp q72/q74 (源 1920x2560 1363KB JPEG)"}],"image_license":"CC BY 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:19:19+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["语言代码未解析，已剔除：格林納達克里奧爾語英語","P443 发音语种不符已弃用：Lb-Grenada.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Grenada.wav、LL-Q9027 (swe)-Moonhouse-Grenada.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py GD","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[{"v":"肉豆蔻","evidence":"主要农产品肉豆蔻产量约占世界总产量的三分之一"}],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"肉豆蔻","evidence":"主要农产品肉豆蔻"},{"v":"西印度群岛","evidence":"美洲西印度群岛中向风群岛南部"},{"v":"向风群岛","evidence":"向风群岛南部"},{"v":"圣乔治","evidence":"首都圣乔治"}],"model":"deepseek-flash"},"summary_text_raw":"格林纳达（英语：Grenada）是美洲西印度群岛中向风群岛南部的英联邦国家。首都圣乔治。农业和旅游业是经济的基础，主要农产品肉豆蔻产量约占世界总产量的三分之一，仅次于印度尼西亚而居世界第二位。\n\n\n== 历史 ==\n\n格林纳达于1498年8月15日为哥伦布发现，命名为“La Concepción”，1609年被英国占领，1650年沦入法国之手，1762年又被英国夺回，1779年法国再度占领，1783年依凡尔赛条约正式划归英国版图。1958年起逐渐获得自治。1967年为联系邦，内政自主，外交国防由英国代掌。\n1974年2月7日宣布独立，但仍为英联邦成员、奉英国君主为格林纳达君主，并由总督代表至今。立国时由联合劳工党领袖埃里克·盖里出任总理。\n1979年3月13日，左派人民革命党发动政变，驱逐埃里克盖，该党领袖莫里斯·毕晓普建立共产政权担任总理，其后废止宪法、解散国会。1983年10月13日激进派副总理柯尔联合陆军司令奥斯汀发动政变，毕晓普及三位部长遭杀害。美国联合地区盟友趁乱入侵格林纳达。后扶持亲美反共的临时政府。1984年12月3日国会大选，由三派联合的新国家党以14比1多数获胜。","history_text":"1498年哥伦布抵达并命名，此后英法反复争夺，1783年依凡尔赛条约归英国。1958年起逐步自治，1974年2月7日宣布独立，仍奉英国君主、设总督。1979年人民革命党政变建立共产政权，1983年内部政变后美国联合地区盟友入侵，扶持临时政府，1984年大选后新国家党与民族民主大会党轮流执政。","custom_text":"厨房里最要紧的香气来自肉豆蔻，这种香料被磨进甜点、饮品与炖菜，果核外的红色假种皮也常入菜。田径是岛上最受关注的运动，短跑选手在奥运赛场上为这个岛赢得举国欢腾的荣誉，跑道边的欢呼成了公共记忆的一部分。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":146,"folk":99}},"knowledge_qa":[{"q":"格林纳达在哪儿啊？","a":"格林纳达是美洲西印度群岛中向风群岛南部的英联邦国家，位于北美洲。","tags":["地理位置","西印度群岛","北美洲"]},{"q":"格林纳达的首都是哪里？","a":"首都圣乔治。","tags":["首都","圣乔治"]},{"q":"格林纳达说什么语言？","a":"官方语言是英语。","tags":["语言","英语","说什么话"]},{"q":"格林纳达有什么好玩的地标景点？","a":"有大安斯海滩、圣乔治堡、七姐妹瀑布、安南代尔瀑布和圣乔治教堂。","tags":["景点","地标","海滩","瀑布"]},{"q":"格林纳达有什么特产？","a":"肉豆蔻是主要农产品，产量约占世界总产量的三分之一，仅次于印度尼西亚居世界第二位。","tags":["特产","肉豆蔻","农产品"]},{"q":"格林纳达经济靠什么？","a":"农业和旅游业是经济的基础，主要农产品是肉豆蔻。","tags":["经济","农业","旅游业"]},{"q":"格林纳达什么时候独立的？","a":"1974年2月7日宣布独立，但仍为英联邦成员，奉英国君主为格林纳达君主。","tags":["历史","独立","英联邦"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-6161,1221],[-6163,1204],[-6179,1201],[-6167,1224],[-6161,1221]],[[-6143,1246],[-6150,1244],[-6143,1253],[-6143,1246]]]}
+{
+  "qid": "Q769",
+  "iso_a2": "GD",
+  "iso_a3": "GRD",
+  "name_zh": "格林纳达",
+  "name_en": "Grenada",
+  "capital": "圣乔治",
+  "continent": "北美洲",
+  "centroid": [
+    -61.7,
+    12.1
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/gd/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Grenada, an island nation where the scent of nutmeg drifts on the sea breeze; its capital, St. George's, wraps around a horseshoe-shaped harbor, and just offshore lies the underwater sculpture park at Molinere Bay, a sight that draws divers from around the world.",
+      "tts_text_zh": "欢迎来到格林纳达，这个岛国的海风里飘着肉豆蔻的香气；首都圣乔治环抱着一座马蹄形港湾，近海的莫利内尔湾水下雕塑公园，是吸引世界各地潜水者的名胜。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 98784
+    }
+  ],
+  "summary_text": "格林纳达是美洲西印度群岛中向风群岛南部的英联邦国家，首都为圣乔治。农业和旅游业是经济的基础，主要农产品肉豆蔻产量约占世界总产量的三分之一，仅次于印度尼西亚而居世界第二位。格林纳达于1498年8月15日为哥伦布发现，命名为“La Concepción”，1609年被英国占领，1650年沦入法国之手，1762年又被英国夺回，1779年法国再度占领，1783年依凡尔赛条约正式划归英国版图。1958年起逐渐获得自治，1967年为联系邦，内政自主，外交国防由英国代掌。1974年2月7日宣布独立，但仍为英联邦成员，奉英国君主为格林纳达君主，并由总督代表至今。立国时由联合劳工党领袖埃里克·盖里出任总理。1979年3月13日，左派人民革命党发动政变，驱逐埃里克·盖里，该党领袖莫里斯·毕晓普建立共产政权担任总理，其后废止宪法、解散国会。1983年10月13日激进派副总理柯尔联合陆军司令奥斯汀发动政变，毕晓普及三位部长遭杀害，美国联合地区盟友趁乱入侵格林纳达，后扶持亲美反共的临时政府。1984年12月3日国会大选，由三派联合的新国家党以14比1多数获胜。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 474,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%9E%97%E7%BA%B3%E8%BE%BE",
+    "title": "格林纳达"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "格林纳达于1498年8月15日为哥伦布发现，命名为“La Concepción”，1609年被英国占领，1650年沦入法国之手，1762年又被英国夺回，1779年法国再度占领，1783年依凡尔赛条约正式划归英国版图。1958年起逐渐获得自治。1967年为联系邦，内政自主，外交国防由英国代掌。1974年2月7日宣布独立，但仍为英联邦成员、奉英国君主为格林纳达君主，并由总督代表至今。立国时由联合劳工党领袖埃里克·盖里出任总理。1979年3月13日，左派人民革命党发动政变，驱逐埃里克盖，该党领袖莫里斯·毕晓普建立共产政权担任总理，其后废止宪法、解散国会。1983年10月13日激进派副总理柯尔联合陆军司令奥斯汀发动政变，毕晓普及三位部长遭杀害。美国联合地区盟友趁乱入侵格林纳达。后扶持亲美反共的临时政府。1984年12月3日国会大选，由三派联合的新国家党以14比1多数获胜。此后由新国家党和民族民主大会党轮流执政。",
+      "chars": 407
+    },
+    {
+      "section": "体育",
+      "text": "2012年伦敦奥运会上，在美国读大学的格林纳达男运动员基拉尼·詹姆斯在400米短跑跑出43.94秒，夺得该国史上第一金，也是该国的首枚奖牌。之后他又在里约奥运会和东京奥运会上分别获得银牌和铜牌。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Grand Anse Beach Grenada.jpg",
+      "caption_zh": "格林纳达大安斯海滩",
+      "caption": "格林纳达大安斯海滩",
+      "caption_commons": "Grand Anse Beach, St. George's, Grenada, West Indies (Caribbean)",
+      "kw": "Grand Anse Beach Grenada",
+      "url": "assets/gd/L01.webp",
+      "thumb_url": "assets/gd/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Grand_Anse_Beach_Grenada.jpg/1920px-Grand_Anse_Beach_Grenada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Varun Kapoor / Vkap",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 81682,
+      "caption_zh_manual": "大安斯海滩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5954,
+      "size": {
+        "detail": "1080x725",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1920x1289 516KB JPEG)"
+    },
+    {
+      "title": "File:Monte Castello - Castel San Giorgio.jpg",
+      "caption_zh": "蒙特卡斯特洛的圣乔治堡",
+      "caption": "蒙特卡斯特洛的圣乔治堡",
+      "caption_commons": "Monte Castello - Castel San Giorgio",
+      "kw": "Fort George St George's Grenada",
+      "url": "assets/gd/L02.webp",
+      "thumb_url": "assets/gd/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Monte_Castello_-_Castel_San_Giorgio.jpg/1920px-Monte_Castello_-_Castel_San_Giorgio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "ItalianDG Gaetano Galluzzo",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 121182,
+      "caption_zh_manual": "圣乔治堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7250,
+      "size": {
+        "detail": "1080x725",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1920x1289 626KB JPEG)"
+    },
+    {
+      "title": "File:Seven Sisters Falls - panoramio.jpg",
+      "caption_zh": "七姐妹瀑布全景",
+      "caption": "七姐妹瀑布全景",
+      "caption_commons": "Seven Sisters Falls, Grenada",
+      "kw": "Seven Sisters Falls Grenada",
+      "url": "assets/gd/L03.webp",
+      "thumb_url": "assets/gd/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Seven_Sisters_Falls_-_panoramio.jpg/1920px-Seven_Sisters_Falls_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "FishSpeaker",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 338208,
+      "caption_zh_manual": "七姐妹瀑布",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8654,
+      "size": {
+        "detail": "1080x1428",
+        "thumb": "136x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2538 1361KB JPEG)"
+    },
+    {
+      "title": "File:Annandale Falls (2).jpg",
+      "caption_zh": "安南代尔瀑布（2）",
+      "caption": "安南代尔瀑布（2）",
+      "caption_commons": "View of Annandale Falls in Grenada.",
+      "kw": "Annandale Falls Grenada",
+      "url": "assets/gd/L04.webp",
+      "thumb_url": "assets/gd/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Annandale_Falls_%282%29.jpg/1920px-Annandale_Falls_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "dpursoo",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 137374,
+      "caption_zh_manual": "安南代尔瀑布",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 9534,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 680KB JPEG)"
+    },
+    {
+      "title": "File:Grenada, Karibik - St. George's - Cathedral of the Immaculate Conception – view from Church Street - panoramio.jpg",
+      "caption_zh": "从教堂街看圣乔治教堂",
+      "caption": "从教堂街看圣乔治教堂",
+      "caption_commons": "Grenada, Karibik - St. George's - Cathedral of the Immaculate Conception – view ",
+      "kw": "St George's Church Grenada",
+      "url": "assets/gd/L05.webp",
+      "thumb_url": "assets/gd/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Grenada%2C_Karibik_-_St._George%27s_-_Cathedral_of_the_Immaculate_Conception_%E2%80%93_view_from_Church_Street_-_panoramio.jpg/1920px-Grenada%2C_Karibik_-_St._George%27s_-_Cathedral_of_the_Immaculate_Conception_%E2%80%93_view_from_Church_Street_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "giggel",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 275122,
+      "caption_zh_manual": "圣乔治教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5478,
+      "size": {
+        "detail": "1080x1440",
+        "thumb": "135x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2560 1363KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:19:19+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "语言代码未解析，已剔除：格林納達克里奧爾語英語",
+    "P443 发音语种不符已弃用：Lb-Grenada.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Grenada.wav、LL-Q9027 (swe)-Moonhouse-Grenada.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py GD",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [
+      {
+        "v": "肉豆蔻",
+        "evidence": "主要农产品肉豆蔻产量约占世界总产量的三分之一"
+      }
+    ],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "肉豆蔻",
+        "evidence": "主要农产品肉豆蔻"
+      },
+      {
+        "v": "西印度群岛",
+        "evidence": "美洲西印度群岛中向风群岛南部"
+      },
+      {
+        "v": "向风群岛",
+        "evidence": "向风群岛南部"
+      },
+      {
+        "v": "圣乔治",
+        "evidence": "首都圣乔治"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "格林纳达（英语：Grenada）是美洲西印度群岛中向风群岛南部的英联邦国家。首都圣乔治。农业和旅游业是经济的基础，主要农产品肉豆蔻产量约占世界总产量的三分之一，仅次于印度尼西亚而居世界第二位。\n\n\n== 历史 ==\n\n格林纳达于1498年8月15日为哥伦布发现，命名为“La Concepción”，1609年被英国占领，1650年沦入法国之手，1762年又被英国夺回，1779年法国再度占领，1783年依凡尔赛条约正式划归英国版图。1958年起逐渐获得自治。1967年为联系邦，内政自主，外交国防由英国代掌。\n1974年2月7日宣布独立，但仍为英联邦成员、奉英国君主为格林纳达君主，并由总督代表至今。立国时由联合劳工党领袖埃里克·盖里出任总理。\n1979年3月13日，左派人民革命党发动政变，驱逐埃里克盖，该党领袖莫里斯·毕晓普建立共产政权担任总理，其后废止宪法、解散国会。1983年10月13日激进派副总理柯尔联合陆军司令奥斯汀发动政变，毕晓普及三位部长遭杀害。美国联合地区盟友趁乱入侵格林纳达。后扶持亲美反共的临时政府。1984年12月3日国会大选，由三派联合的新国家党以14比1多数获胜。",
+  "history_text": "1498年哥伦布抵达并命名，此后英法反复争夺，1783年依凡尔赛条约归英国。1958年起逐步自治，1974年2月7日宣布独立，仍奉英国君主、设总督。1979年人民革命党政变建立共产政权，1983年内部政变后美国联合地区盟友入侵，扶持临时政府，1984年大选后新国家党与民族民主大会党轮流执政。",
+  "custom_text": "厨房里最要紧的香气来自肉豆蔻，这种香料被磨进甜点、饮品与炖菜，果核外的红色假种皮也常入菜。田径是岛上最受关注的运动，短跑选手在奥运赛场上为这个岛赢得举国欢腾的荣誉，跑道边的欢呼成了公共记忆的一部分。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 146,
+      "folk": 99
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "格林纳达在哪儿啊？",
+      "a": "格林纳达是美洲西印度群岛中向风群岛南部的英联邦国家，位于北美洲。",
+      "tags": [
+        "地理位置",
+        "西印度群岛",
+        "北美洲"
+      ]
+    },
+    {
+      "q": "格林纳达的首都是哪里？",
+      "a": "首都圣乔治。",
+      "tags": [
+        "首都",
+        "圣乔治"
+      ]
+    },
+    {
+      "q": "格林纳达说什么语言？",
+      "a": "官方语言是英语。",
+      "tags": [
+        "语言",
+        "英语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "格林纳达有什么好玩的地标景点？",
+      "a": "有大安斯海滩、圣乔治堡、七姐妹瀑布、安南代尔瀑布和圣乔治教堂。",
+      "tags": [
+        "景点",
+        "地标",
+        "海滩",
+        "瀑布"
+      ]
+    },
+    {
+      "q": "格林纳达有什么特产？",
+      "a": "肉豆蔻是主要农产品，产量约占世界总产量的三分之一，仅次于印度尼西亚居世界第二位。",
+      "tags": [
+        "特产",
+        "肉豆蔻",
+        "农产品"
+      ]
+    },
+    {
+      "q": "格林纳达经济靠什么？",
+      "a": "农业和旅游业是经济的基础，主要农产品是肉豆蔻。",
+      "tags": [
+        "经济",
+        "农业",
+        "旅游业"
+      ]
+    },
+    {
+      "q": "格林纳达什么时候独立的？",
+      "a": "1974年2月7日宣布独立，但仍为英联邦成员，奉英国君主为格林纳达君主。",
+      "tags": [
+        "历史",
+        "独立",
+        "英联邦"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -6161,
+        1221
+      ],
+      [
+        -6163,
+        1204
+      ],
+      [
+        -6179,
+        1201
+      ],
+      [
+        -6167,
+        1224
+      ],
+      [
+        -6161,
+        1221
+      ]
+    ],
+    [
+      [
+        -6143,
+        1246
+      ],
+      [
+        -6150,
+        1244
+      ],
+      [
+        -6143,
+        1253
+      ],
+      [
+        -6143,
+        1246
+      ]
+    ]
+  ]
+}

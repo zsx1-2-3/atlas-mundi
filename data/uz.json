@@ -1,1 +1,1084 @@
-{"qid":"Q265","iso_a2":"UZ","iso_a3":"UZB","name_zh":"乌兹别克斯坦","name_en":"Uzbekistan","capital":"塔什干","continent":"亚洲","centroid":[66,41],"centroid_source":"wikidata P625","languages":[{"code":"ru","name_zh":"俄语","name_local":"俄语","role":"spoken","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"uz","name_zh":"乌孜别克语","name_local":"乌孜别克语","role":"official","audio_url":"assets/uz/audio/uz.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Oʻzbekistonga xush kelibsiz — bu yurtning poytaxti Toshkent shahri boʻlib, uning eng mashhur maskanlaridan biri mustaqillik maydoni hisoblanadi.","tts_text_zh":"欢迎来到乌兹别克斯坦——这个国家的首都是塔什干市，其最著名的地标之一是独立广场。","audio_voice":"uz-UZ-MadinaNeural","audio_bytes":55152}],"summary_text":"乌兹别克斯坦共和国通称乌兹别克斯坦，是位于中亚的内陆国家，也是全球两个双重内陆国之一，另一个为列支敦士登。该国西南部与土库曼斯坦接壤，南部与阿富汗接壤，东部与塔吉克斯坦和吉尔吉斯斯坦接壤，北部和西部与哈萨克斯坦毗邻。锡尔河和阿姆河贯穿大部分国土，古代称这一地区为河中地区。首都所在的费尔干纳盆地是中亚人口最为稠密的地区。首都和最大城市为塔什干。乌兹别克斯坦于1991年从原苏联独立。该国是世界第六大棉花生产国、第二大棉花出口国，也是世界第七大黄金生产国。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":227,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%85%B9%E5%88%AB%E5%85%8B%E6%96%AF%E5%9D%A6","title":"乌兹别克斯坦"},"culture_excerpts":[{"section":"文化","text":"乌兹别克斯坦拥有广泛的民族和文化，主体民族为乌孜别克族。1995年，约有71％的乌兹别克斯坦人口是乌孜别克族。主要民族有俄罗斯人（8％），塔吉克人（3-4.7％），哈萨克人（4％），鞑靼人（2.5％）和卡拉卡尔帕克人（2％）。非乌孜别克族的人口正在减少，因为乌兹别克人从前苏联其他地区返回，俄罗斯人和其他少数民族正在慢慢离开。当乌兹别克斯坦于1991年独立时，人们担心伊斯兰原教旨主义会在整个乌兹别克斯坦蔓延。截至1994年，乌兹别克斯坦人口中有一半以上是穆斯林，在官方调查中，乌兹别克斯坦的穆斯林很少真正了解宗教传统。但是，伊斯兰教信徒（穆斯林）在该地区的遵循传统教义情况正在增加。\n中亚古典音乐被称为莎什木卡姆，它于16世纪晚期在布哈拉出现，当时该城市是一个地区首府。莎什木卡姆与阿塞拜疆木卡姆（英语：Mugam）和维吾尔木卡姆密切相关。莎什木卡姆包括六个不同的音乐调式，类似于波斯传统音乐（英语：Persian traditional music）。\n与大多数国家一样，乌兹别克斯坦饮食受当地农业的影响。乌兹别克斯坦有大量的农作物种植，有大量面包和面条生产，乌兹别克斯坦饮食的特点是“面条丰富”。此外，羊肉也是乌兹别克斯坦饮食很重要的一部分。乌兹别克斯坦的招牌菜是抓饭，通常由米饭，肉和磨碎的胡萝卜和洋葱制成，通常在大型宴会出现。另外一道有代表性的乌兹别克斯坦饮食为shurpa（英语：shurpa）（羊汤），由羊肉和蔬菜制做而成。拉条子为一道面食饮食，可以作为主菜；烤串也常常在乌兹别克斯坦饮食出现。\n在乌兹别克斯坦，绿茶是很常见的饮品，茶馆（chaikhanas）具有文化重要性。塔什干地区的人民除了绿茶外，也喜爱红茶。茶饮为乌兹别克斯坦人经常招待客人的饮品。杜格酸奶为夏季一种消暑饮品，但其地位无法取代茶。乌兹别克斯坦人对酒的饮用并不像西方国家那么普遍，但葡萄酒在乌兹别克斯坦比在其他穆斯林国家更受欢迎，因为乌兹别克斯坦基本上是世俗国家。","chars":1200},{"section":"饮食","text":"与大多数国家一样，乌兹别克斯坦饮食受当地农业的影响。乌兹别克斯坦有大量的农作物种植，有大量面包和面条生产，乌兹别克斯坦饮食的特点是“面条丰富”。此外，羊肉也是乌兹别克斯坦饮食很重要的一部分。乌兹别克斯坦的招牌菜是抓饭，通常由米饭，肉和磨碎的胡萝卜和洋葱制成，通常在大型宴会出现。另外一道有代表性的乌兹别克斯坦饮食为shurpa（英语：shurpa）（羊汤），由羊肉和蔬菜制做而成。拉条子为一道面食饮食，可以作为主菜；烤串也常常在乌兹别克斯坦饮食出现。\n在乌兹别克斯坦，绿茶是很常见的饮品，茶馆（chaikhanas）具有文化重要性。塔什干地区的人民除了绿茶外，也喜爱红茶。茶饮为乌兹别克斯坦人经常招待客人的饮品。杜格酸奶为夏季一种消暑饮品，但其地位无法取代茶。乌兹别克斯坦人对酒的饮用并不像西方国家那么普遍，但葡萄酒在乌兹别克斯坦比在其他穆斯林国家更受欢迎，因为乌兹别克斯坦基本上是世俗国家。","chars":1200},{"section":"人口","text":"乌兹别克斯坦是中亚人口最多的国家，2025年估计人口达3800万，大约相当于中亚地区的一半。乌兹别克斯坦的人口年龄组成非常年轻，但仍有缓慢老龄化趋势，2020年估计有23.1%的人口年龄小于16岁。乌兹别克斯坦至少有10%的劳动力在国外工作，主要在俄罗斯和哈萨克斯坦。乌兹别克斯坦的成年人（15岁以上）识字率达到100%。预期寿命为男性72岁，女性78岁。\n2020年3月，总统米尔济约耶夫签署通过人口普查法，规定至少每十年举行一次人口普查，惟2020年11月的首次人口普查因新型冠状病毒疫情而延后到2025年至2026年。","chars":1200},{"section":"宗教","text":"乌兹别克斯坦为世俗国家，宪法规定政教分离，各宗教在法律上平等，政府对宗教组织不加干涉。乌兹别克斯坦以伊斯兰教为主要宗教。根据2020年皮尤研究中心的报告，乌兹别克斯坦的穆斯林人口占比高达96.7%；基督教徒占比2.3%，主要是东正教。另有约7,400名琐罗亚斯德教信徒，主要是苦盏等地的塔吉克族。\n伊斯兰教在乌兹别克斯坦历史悠久，又历经20世纪的改革运动和世俗化进程，信仰形式丰富多样。在苏联加盟国时代，伊斯兰教遭到抑制，但在独立建国后逐步迎来复兴，亦并未如外界预测般很快滋生原教旨主义运动，国内的恐怖主义威胁仍处较低水平，惟2015年以来有些微的伊斯兰主义组织活动，如乌兹别克斯坦伊斯兰运动，曾同中东伊斯兰国合作。","chars":600}],"landmark_images":[{"title":"File:Registan 02.jpg","caption_zh":"列吉斯坦广场","caption":"列吉斯坦广场","caption_commons":"Registan at night in Samarkand, Uzbekistan","kw":"Registan Samarkand","url":"assets/uz/L01.webp","thumb_url":"assets/uz/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Registan_02.jpg/1920px-Registan_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Bgag","license":"CC0","license_url":"http://creativecommons.org/publicdomain/zero/1.0/deed.en","license_status":"ok","load_verified":true,"bytes":39568,"caption_zh_manual":"列吉斯坦广场","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13112,"size":{"detail":"760x436","thumb":"400x229"},"encoding":"webp q72/q74 (源 1920x1101 453KB JPEG)"},{"title":"File:Church of Archangel Michael in Bukhara 15-03.JPG","caption_zh":"布哈拉历史中心天使长米迦勒教堂","caption":"布哈拉历史中心天使长米迦勒教堂","caption_commons":"Church of Archangel Michael in Bukhara","kw":"Bukhara historic centre","url":"assets/uz/L02.webp","thumb_url":"assets/uz/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Church_of_Archangel_Michael_in_Bukhara_15-03.JPG/1920px-Church_of_Archangel_Michael_in_Bukhara_15-03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Bobyrr","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":59196,"caption_zh_manual":"布哈拉历史中心","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18062,"size":{"detail":"760x570","thumb":"400x300"},"encoding":"webp q72/q74 (源 1920x1440 592KB JPEG)"},{"title":"File:Palvan Gate Of Khiva (230164765).jpeg","caption_zh":"希瓦古城帕尔万门","caption":"希瓦古城帕尔万门","caption_commons":"500px provided description: One of the busiest places of medieval Khiva was the ","kw":"Itchan Kala Khiva","url":"assets/uz/L03.webp","thumb_url":"assets/uz/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Palvan_Gate_Of_Khiva_%28230164765%29.jpeg/1920px-Palvan_Gate_Of_Khiva_%28230164765%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Angshuman Chatterjee","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":50244,"caption_zh_manual":"希瓦古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14688,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 551KB JPEG)"},{"title":"File:Shah-i-Zinda 03.jpg","caption_zh":"沙赫静达陵墓群","caption":"沙赫静达陵墓群","caption_commons":"Shah-i-Zinda, Samarkand, Uzbekistan","kw":"Shah-i-Zinda Samarkand","url":"assets/uz/L04.webp","thumb_url":"assets/uz/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Shah-i-Zinda_03.jpg/1920px-Shah-i-Zinda_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Bgag","license":"CC0","license_url":"http://creativecommons.org/publicdomain/zero/1.0/deed.en","license_status":"ok","load_verified":true,"bytes":44654,"caption_zh_manual":"沙赫静达陵墓群","caption_zh_source":"llm_from_commons_filename","thumb_bytes":12540,"size":{"detail":"760x466","thumb":"400x245"},"encoding":"webp q72/q74 (源 1920x1176 490KB JPEG)"},{"title":"File:Bibi Khanym Mosque in Samarkand from north.jpg","caption_zh":"撒马尔罕比比哈努姆清真寺北侧视角","caption":"撒马尔罕比比哈努姆清真寺北侧视角","caption_commons":"Bibi Khanym Mosque in Samarkand (Uzbekistan) from north. Spring, 2010.","kw":"Bibi-Khanym Mosque Samarkand","url":"assets/uz/L05.webp","thumb_url":"assets/uz/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/c/c0/Bibi_Khanym_Mosque_in_Samarkand_from_north.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"Ilya Varlamov","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":64270,"caption_zh_manual":"比比哈努姆清真寺","caption_zh_source":"llm_from_commons_filename","thumb_bytes":16808,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 918x612 258KB JPEG)"}],"image_license":"CC0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:12:28+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 无通行语，从 P2936 补：俄语","P443 发音语种不符已弃用：Lb-Usbekistan.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Uzbekistan.wav、LL-Q652 (ita)-Francyskus-Uzbekistan.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py UZ","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 227 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"伊斯兰教","evidence":"居民皈依伊斯兰教"}],"architecture":[{"v":"灌溉系统","evidence":"建立了灌溉系统"},{"v":"城镇","evidence":"在布哈拉和撒马尔罕建立了城镇"}],"heritage":[],"keywords":[{"v":"河中地区","evidence":"古代称河中地区"},{"v":"锡尔河","evidence":"锡尔河和阿姆河贯穿"},{"v":"阿姆河","evidence":"锡尔河和阿姆河贯穿"},{"v":"费尔干纳盆地","evidence":"首都所在的费尔干纳盆地"},{"v":"棉花","evidence":"世界第六大棉花生产国"},{"v":"黄金","evidence":"世界第七大黄金生产国"}],"model":"deepseek-flash"},"summary_text_raw":"乌兹别克斯坦共和国（乌兹别克语：O'zbekiston Respublikasi；Ўзбекистон Республикаси），通称乌兹别克斯坦，是一个位于中亚的内陆国家，也是全球的两个双重内陆国之一（另一个为列支敦士登）。乌兹别克斯坦西南部与土库曼斯坦接壤，南部与阿富汗接壤，东部与塔吉克斯坦和吉尔吉斯斯坦接壤，北部和西部与哈萨克斯坦毗邻。1991年从原苏联独立。首都跟最大城市为塔什干。\n古代称河中地区，锡尔河和阿姆河贯穿大部分国土，首都所在的费尔干纳盆地，为中亚人口最为稠密的地区。\n乌兹别克斯坦是世界第六大棉花生产国，第二大棉花出口国，也是世界第七大黄金生产国。\n\n\n== 历史 ==\n\n约公元前70000年，尼安德特人在乌兹别克斯坦的塔什聚居（ 资料来源：乌兹别克斯坦历史 维基百科 ）\n约公元前1000年，伊朗游牧民族由今属哈萨克斯坦的北部草原地带向南迁徙，沿着中亚的河流建立了灌溉系统，并在布哈拉和撒马尔罕建立了城镇。\n公元前328年，亚历山大大帝将此地纳入他的马其顿帝国管辖之内。\n公元7世纪中期以后，阿拉伯人开始征讨河中地区，此地成为阿拉伯帝国的领土，居民皈依伊斯兰教。","history_text":"河中地区的锡尔河与阿姆河滋养出早期灌溉农业，布哈拉、撒马尔罕等城镇随之兴起。公元前四世纪，亚历山大大帝将此地纳入马其顿帝国版图。七世纪中期起，阿拉伯人征讨河中地区，此地归入阿拉伯帝国，居民皈依伊斯兰教。此后历经变迁，1991年从原苏联独立，定都塔什干。","custom_text":"抓饭是待客的招牌，米饭与羊肉、胡萝卜、洋葱同焖，常在大宴上出现；羊汤配蔬菜，拉条子可作主菜，烤串也常见于餐桌。绿茶最普遍，茶馆是聚人议事的地方，塔什干一带也爱红茶，茶是待客首选。杜格酸奶消夏，却取代不了茶的位置。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":126,"folk":106}},"knowledge_qa":[{"q":"乌兹别克斯坦在哪儿啊？周围都是哪些国家？","a":"它在中亚，是个内陆国，也是全球两个双重内陆国之一。西南接土库曼斯坦，南边是阿富汗，东边挨着塔吉克斯坦和吉尔吉斯斯坦，北边和西边是哈萨克斯坦。","tags":["中亚","内陆国","邻国","在哪"]},{"q":"乌兹别克斯坦的首都是哪座城市？","a":"首都是塔什干，它同时也是这个国家最大的城市。","tags":["首都","塔什干","最大城市"]},{"q":"乌兹别克斯坦说什么话？","a":"官方语言是乌孜别克语，俄语也有人说。","tags":["语言","说什么话","官方语言","俄语"]},{"q":"乌兹别克斯坦有什么值得看的地标建筑？","a":"列吉斯坦广场、布哈拉历史中心、希瓦古城、沙赫静达陵墓群和比比哈努姆清真寺都挺有名的。","tags":["地标","建筑","景点","古城"]},{"q":"乌兹别克斯坦有什么特产？","a":"它是世界第六大棉花生产国、第二大棉花出口国，也是世界第七大黄金生产国。","tags":["特产","棉花","黄金","出口"]},{"q":"乌兹别克斯坦是内陆国吗？","a":"是的，它是中亚的内陆国家，而且是全球两个双重内陆国之一，另一个是列支敦士登。","tags":["内陆国","双重内陆国","地理"]},{"q":"乌兹别克斯坦什么时候独立的？","a":"1991年从原苏联独立。","tags":["独立","历史","苏联"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[7096,4024],[7062,4020],[7052,4034],[7037,4036],[7037,4048],[7077,4074],[7064,4077],[7070,4081],[7045,4103],[7036,4103],[7028,4088],[6972,4064],[6951,4078],[6936,4078],[6931,4060],[6920,4057],[6931,4034],[6921,4030],[6928,4020],[6858,4016],[6899,4009],[6878,4008],[6888,3988],[6876,3998],[6879,3988],[6874,3982],[6863,3985],[6852,3955],[6772,3962],[6743,3948],[6738,3920],[6767,3913],[6769,3899],[6810,3898],[6817,3884],[6807,3879],[6806,3854],[6836,3821],[6825,3795],[6812,3791],[6783,3753],[6778,3719],[6750,3728],[6726,3718],[6701,3738],[6652,3736],[6652,3778],[6662,3799],[6588,3827],[6560,3824],[6434,3897],[6415,3895],[6371,3919],[6348,3940],[6245,4001],[6235,4043],[6213,4058],[6188,4112],[6143,4130],[6128,4116],[6086,4125],[6048,4121],[6009,4139],[6007,4151],[6016,4158],[6005,4175],[6025,4178],[5991,4197],[6000,4201],[6003,4220],[5987,4230],[5929,4234],[5915,4253],[5889,4255],[5859,4279],[5854,4266],[5826,4269],[5812,4262],[5831,4253],[5849,4230],[5840,4229],[5832,4243],[5802,4250],[5791,4243],[5785,4219],[5738,4216],[5698,4190],[5702,4147],[5716,4137],[5703,4126],[5598,4132],[5598,4500],[5856,4556],[6104,4438],[6116,4417],[6203,4348],[6321,4363],[6443,4355],[6492,4372],[6552,4330],[6580,4288],[6610,4299],[6601,4200],[6650,4199],[6673,4116],[6794,4120],[6803,4104],[6813,4103],[6799,4081],[6846,4058],[6861,4061],[6857,4091],[6903,4121],[6904,4138],[6940,4147],[6939,4154],[6962,4167],[6991,4171],[7036,4206],[7047,4209],[7058,4202],[7073,4220],[7105,4229],[7124,4216],[7084,4203],[7081,4192],[7065,4189],[7017,4152],[7045,4140],[7067,4147],[7077,4124],[7118,4111],[7121,4119],[7128,4111],[7142,4113],[7142,4135],[7159,4132],[7160,4149],[7167,4155],[7167,4142],[7174,4145],[7185,4134],[7187,4119],[7216,4119],[7217,4100],[7233,4107],[7266,4087],[7315,4081],[7278,4067],[7262,4051],[7235,4060],[7239,4039],[7217,4045],[7196,4032],[7202,4024],[7184,4025],[7171,4014],[7163,4026],[7152,4020],[7125,4032],[7096,4024]],[[7118,4004],[7124,4005],[7118,3999],[7121,3989],[7102,3988],[7105,3999],[7095,4010],[7101,4016],[7118,4004]],[[7179,3999],[7176,3990],[7167,3994],[7179,3999]],[[7057,4102],[7055,4102],[7056,4100],[7061,4095],[7064,4094],[7062,4099],[7057,4102]]]}
+{
+  "qid": "Q265",
+  "iso_a2": "UZ",
+  "iso_a3": "UZB",
+  "name_zh": "乌兹别克斯坦",
+  "name_en": "Uzbekistan",
+  "capital": "塔什干",
+  "continent": "亚洲",
+  "centroid": [
+    66,
+    41
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ru",
+      "name_zh": "俄语",
+      "name_local": "俄语",
+      "role": "spoken",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "uz",
+      "name_zh": "乌孜别克语",
+      "name_local": "乌孜别克语",
+      "role": "official",
+      "audio_url": "assets/uz/audio/uz.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Oʻzbekistonga xush kelibsiz — bu yurtning poytaxti Toshkent shahri boʻlib, uning eng mashhur maskanlaridan biri mustaqillik maydoni hisoblanadi.",
+      "tts_text_zh": "欢迎来到乌兹别克斯坦——这个国家的首都是塔什干市，其最著名的地标之一是独立广场。",
+      "audio_voice": "uz-UZ-MadinaNeural",
+      "audio_bytes": 55152
+    }
+  ],
+  "summary_text": "乌兹别克斯坦共和国通称乌兹别克斯坦，是位于中亚的内陆国家，也是全球两个双重内陆国之一，另一个为列支敦士登。该国西南部与土库曼斯坦接壤，南部与阿富汗接壤，东部与塔吉克斯坦和吉尔吉斯斯坦接壤，北部和西部与哈萨克斯坦毗邻。锡尔河和阿姆河贯穿大部分国土，古代称这一地区为河中地区。首都所在的费尔干纳盆地是中亚人口最为稠密的地区。首都和最大城市为塔什干。乌兹别克斯坦于1991年从原苏联独立。该国是世界第六大棉花生产国、第二大棉花出口国，也是世界第七大黄金生产国。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 227,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E4%B9%8C%E5%85%B9%E5%88%AB%E5%85%8B%E6%96%AF%E5%9D%A6",
+    "title": "乌兹别克斯坦"
+  },
+  "culture_excerpts": [
+    {
+      "section": "文化",
+      "text": "乌兹别克斯坦拥有广泛的民族和文化，主体民族为乌孜别克族。1995年，约有71％的乌兹别克斯坦人口是乌孜别克族。主要民族有俄罗斯人（8％），塔吉克人（3-4.7％），哈萨克人（4％），鞑靼人（2.5％）和卡拉卡尔帕克人（2％）。非乌孜别克族的人口正在减少，因为乌兹别克人从前苏联其他地区返回，俄罗斯人和其他少数民族正在慢慢离开。当乌兹别克斯坦于1991年独立时，人们担心伊斯兰原教旨主义会在整个乌兹别克斯坦蔓延。截至1994年，乌兹别克斯坦人口中有一半以上是穆斯林，在官方调查中，乌兹别克斯坦的穆斯林很少真正了解宗教传统。但是，伊斯兰教信徒（穆斯林）在该地区的遵循传统教义情况正在增加。\n中亚古典音乐被称为莎什木卡姆，它于16世纪晚期在布哈拉出现，当时该城市是一个地区首府。莎什木卡姆与阿塞拜疆木卡姆（英语：Mugam）和维吾尔木卡姆密切相关。莎什木卡姆包括六个不同的音乐调式，类似于波斯传统音乐（英语：Persian traditional music）。\n与大多数国家一样，乌兹别克斯坦饮食受当地农业的影响。乌兹别克斯坦有大量的农作物种植，有大量面包和面条生产，乌兹别克斯坦饮食的特点是“面条丰富”。此外，羊肉也是乌兹别克斯坦饮食很重要的一部分。乌兹别克斯坦的招牌菜是抓饭，通常由米饭，肉和磨碎的胡萝卜和洋葱制成，通常在大型宴会出现。另外一道有代表性的乌兹别克斯坦饮食为shurpa（英语：shurpa）（羊汤），由羊肉和蔬菜制做而成。拉条子为一道面食饮食，可以作为主菜；烤串也常常在乌兹别克斯坦饮食出现。\n在乌兹别克斯坦，绿茶是很常见的饮品，茶馆（chaikhanas）具有文化重要性。塔什干地区的人民除了绿茶外，也喜爱红茶。茶饮为乌兹别克斯坦人经常招待客人的饮品。杜格酸奶为夏季一种消暑饮品，但其地位无法取代茶。乌兹别克斯坦人对酒的饮用并不像西方国家那么普遍，但葡萄酒在乌兹别克斯坦比在其他穆斯林国家更受欢迎，因为乌兹别克斯坦基本上是世俗国家。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "与大多数国家一样，乌兹别克斯坦饮食受当地农业的影响。乌兹别克斯坦有大量的农作物种植，有大量面包和面条生产，乌兹别克斯坦饮食的特点是“面条丰富”。此外，羊肉也是乌兹别克斯坦饮食很重要的一部分。乌兹别克斯坦的招牌菜是抓饭，通常由米饭，肉和磨碎的胡萝卜和洋葱制成，通常在大型宴会出现。另外一道有代表性的乌兹别克斯坦饮食为shurpa（英语：shurpa）（羊汤），由羊肉和蔬菜制做而成。拉条子为一道面食饮食，可以作为主菜；烤串也常常在乌兹别克斯坦饮食出现。\n在乌兹别克斯坦，绿茶是很常见的饮品，茶馆（chaikhanas）具有文化重要性。塔什干地区的人民除了绿茶外，也喜爱红茶。茶饮为乌兹别克斯坦人经常招待客人的饮品。杜格酸奶为夏季一种消暑饮品，但其地位无法取代茶。乌兹别克斯坦人对酒的饮用并不像西方国家那么普遍，但葡萄酒在乌兹别克斯坦比在其他穆斯林国家更受欢迎，因为乌兹别克斯坦基本上是世俗国家。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "乌兹别克斯坦是中亚人口最多的国家，2025年估计人口达3800万，大约相当于中亚地区的一半。乌兹别克斯坦的人口年龄组成非常年轻，但仍有缓慢老龄化趋势，2020年估计有23.1%的人口年龄小于16岁。乌兹别克斯坦至少有10%的劳动力在国外工作，主要在俄罗斯和哈萨克斯坦。乌兹别克斯坦的成年人（15岁以上）识字率达到100%。预期寿命为男性72岁，女性78岁。\n2020年3月，总统米尔济约耶夫签署通过人口普查法，规定至少每十年举行一次人口普查，惟2020年11月的首次人口普查因新型冠状病毒疫情而延后到2025年至2026年。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "乌兹别克斯坦为世俗国家，宪法规定政教分离，各宗教在法律上平等，政府对宗教组织不加干涉。乌兹别克斯坦以伊斯兰教为主要宗教。根据2020年皮尤研究中心的报告，乌兹别克斯坦的穆斯林人口占比高达96.7%；基督教徒占比2.3%，主要是东正教。另有约7,400名琐罗亚斯德教信徒，主要是苦盏等地的塔吉克族。\n伊斯兰教在乌兹别克斯坦历史悠久，又历经20世纪的改革运动和世俗化进程，信仰形式丰富多样。在苏联加盟国时代，伊斯兰教遭到抑制，但在独立建国后逐步迎来复兴，亦并未如外界预测般很快滋生原教旨主义运动，国内的恐怖主义威胁仍处较低水平，惟2015年以来有些微的伊斯兰主义组织活动，如乌兹别克斯坦伊斯兰运动，曾同中东伊斯兰国合作。",
+      "chars": 600
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Registan 02.jpg",
+      "caption_zh": "列吉斯坦广场",
+      "caption": "列吉斯坦广场",
+      "caption_commons": "Registan at night in Samarkand, Uzbekistan",
+      "kw": "Registan Samarkand",
+      "url": "assets/uz/L01.webp",
+      "thumb_url": "assets/uz/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Registan_02.jpg/1920px-Registan_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Bgag",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 73254,
+      "caption_zh_manual": "列吉斯坦广场",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6280,
+      "size": {
+        "detail": "1080x619",
+        "thumb": "240x138"
+      },
+      "encoding": "webp q75/q78 (源 1920x1101 453KB JPEG)"
+    },
+    {
+      "title": "File:Church of Archangel Michael in Bukhara 15-03.JPG",
+      "caption_zh": "布哈拉历史中心天使长米迦勒教堂",
+      "caption": "布哈拉历史中心天使长米迦勒教堂",
+      "caption_commons": "Church of Archangel Michael in Bukhara",
+      "kw": "Bukhara historic centre",
+      "url": "assets/uz/L02.webp",
+      "thumb_url": "assets/uz/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Church_of_Archangel_Michael_in_Bukhara_15-03.JPG/1920px-Church_of_Archangel_Michael_in_Bukhara_15-03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Bobyrr",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 114316,
+      "caption_zh_manual": "布哈拉历史中心",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8036,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 592KB JPEG)"
+    },
+    {
+      "title": "File:Palvan Gate Of Khiva (230164765).jpeg",
+      "caption_zh": "希瓦古城帕尔万门",
+      "caption": "希瓦古城帕尔万门",
+      "caption_commons": "500px provided description: One of the busiest places of medieval Khiva was the ",
+      "kw": "Itchan Kala Khiva",
+      "url": "assets/uz/L03.webp",
+      "thumb_url": "assets/uz/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Palvan_Gate_Of_Khiva_%28230164765%29.jpeg/1920px-Palvan_Gate_Of_Khiva_%28230164765%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Angshuman Chatterjee",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 103540,
+      "caption_zh_manual": "希瓦古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6528,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 551KB JPEG)"
+    },
+    {
+      "title": "File:Shah-i-Zinda 03.jpg",
+      "caption_zh": "沙赫静达陵墓群",
+      "caption": "沙赫静达陵墓群",
+      "caption_commons": "Shah-i-Zinda, Samarkand, Uzbekistan",
+      "kw": "Shah-i-Zinda Samarkand",
+      "url": "assets/uz/L04.webp",
+      "thumb_url": "assets/uz/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Shah-i-Zinda_03.jpg/1920px-Shah-i-Zinda_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Bgag",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 94594,
+      "caption_zh_manual": "沙赫静达陵墓群",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6106,
+      "size": {
+        "detail": "1080x662",
+        "thumb": "240x147"
+      },
+      "encoding": "webp q75/q78 (源 1920x1176 490KB JPEG)"
+    },
+    {
+      "title": "File:Bibi Khanym Mosque in Samarkand from north.jpg",
+      "caption_zh": "撒马尔罕比比哈努姆清真寺北侧视角",
+      "caption": "撒马尔罕比比哈努姆清真寺北侧视角",
+      "caption_commons": "Bibi Khanym Mosque in Samarkand (Uzbekistan) from north. Spring, 2010.",
+      "kw": "Bibi-Khanym Mosque Samarkand",
+      "url": "assets/uz/L05.webp",
+      "thumb_url": "assets/uz/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Bibi_Khanym_Mosque_in_Samarkand_from_north.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Ilya Varlamov",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 103422,
+      "caption_zh_manual": "比比哈努姆清真寺",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6722,
+      "size": {
+        "detail": "918x612",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 918x612 258KB JPEG)"
+    }
+  ],
+  "image_license": "CC0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:12:28+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 无通行语，从 P2936 补：俄语",
+    "P443 发音语种不符已弃用：Lb-Usbekistan.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Uzbekistan.wav、LL-Q652 (ita)-Francyskus-Uzbekistan.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py UZ",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 227 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "伊斯兰教",
+        "evidence": "居民皈依伊斯兰教"
+      }
+    ],
+    "architecture": [
+      {
+        "v": "灌溉系统",
+        "evidence": "建立了灌溉系统"
+      },
+      {
+        "v": "城镇",
+        "evidence": "在布哈拉和撒马尔罕建立了城镇"
+      }
+    ],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "河中地区",
+        "evidence": "古代称河中地区"
+      },
+      {
+        "v": "锡尔河",
+        "evidence": "锡尔河和阿姆河贯穿"
+      },
+      {
+        "v": "阿姆河",
+        "evidence": "锡尔河和阿姆河贯穿"
+      },
+      {
+        "v": "费尔干纳盆地",
+        "evidence": "首都所在的费尔干纳盆地"
+      },
+      {
+        "v": "棉花",
+        "evidence": "世界第六大棉花生产国"
+      },
+      {
+        "v": "黄金",
+        "evidence": "世界第七大黄金生产国"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "乌兹别克斯坦共和国（乌兹别克语：O'zbekiston Respublikasi；Ўзбекистон Республикаси），通称乌兹别克斯坦，是一个位于中亚的内陆国家，也是全球的两个双重内陆国之一（另一个为列支敦士登）。乌兹别克斯坦西南部与土库曼斯坦接壤，南部与阿富汗接壤，东部与塔吉克斯坦和吉尔吉斯斯坦接壤，北部和西部与哈萨克斯坦毗邻。1991年从原苏联独立。首都跟最大城市为塔什干。\n古代称河中地区，锡尔河和阿姆河贯穿大部分国土，首都所在的费尔干纳盆地，为中亚人口最为稠密的地区。\n乌兹别克斯坦是世界第六大棉花生产国，第二大棉花出口国，也是世界第七大黄金生产国。\n\n\n== 历史 ==\n\n约公元前70000年，尼安德特人在乌兹别克斯坦的塔什聚居（ 资料来源：乌兹别克斯坦历史 维基百科 ）\n约公元前1000年，伊朗游牧民族由今属哈萨克斯坦的北部草原地带向南迁徙，沿着中亚的河流建立了灌溉系统，并在布哈拉和撒马尔罕建立了城镇。\n公元前328年，亚历山大大帝将此地纳入他的马其顿帝国管辖之内。\n公元7世纪中期以后，阿拉伯人开始征讨河中地区，此地成为阿拉伯帝国的领土，居民皈依伊斯兰教。",
+  "history_text": "河中地区的锡尔河与阿姆河滋养出早期灌溉农业，布哈拉、撒马尔罕等城镇随之兴起。公元前四世纪，亚历山大大帝将此地纳入马其顿帝国版图。七世纪中期起，阿拉伯人征讨河中地区，此地归入阿拉伯帝国，居民皈依伊斯兰教。此后历经变迁，1991年从原苏联独立，定都塔什干。",
+  "custom_text": "抓饭是待客的招牌，米饭与羊肉、胡萝卜、洋葱同焖，常在大宴上出现；羊汤配蔬菜，拉条子可作主菜，烤串也常见于餐桌。绿茶最普遍，茶馆是聚人议事的地方，塔什干一带也爱红茶，茶是待客首选。杜格酸奶消夏，却取代不了茶的位置。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 126,
+      "folk": 106
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "乌兹别克斯坦在哪儿啊？周围都是哪些国家？",
+      "a": "它在中亚，是个内陆国，也是全球两个双重内陆国之一。西南接土库曼斯坦，南边是阿富汗，东边挨着塔吉克斯坦和吉尔吉斯斯坦，北边和西边是哈萨克斯坦。",
+      "tags": [
+        "中亚",
+        "内陆国",
+        "邻国",
+        "在哪"
+      ]
+    },
+    {
+      "q": "乌兹别克斯坦的首都是哪座城市？",
+      "a": "首都是塔什干，它同时也是这个国家最大的城市。",
+      "tags": [
+        "首都",
+        "塔什干",
+        "最大城市"
+      ]
+    },
+    {
+      "q": "乌兹别克斯坦说什么话？",
+      "a": "官方语言是乌孜别克语，俄语也有人说。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言",
+        "俄语"
+      ]
+    },
+    {
+      "q": "乌兹别克斯坦有什么值得看的地标建筑？",
+      "a": "列吉斯坦广场、布哈拉历史中心、希瓦古城、沙赫静达陵墓群和比比哈努姆清真寺都挺有名的。",
+      "tags": [
+        "地标",
+        "建筑",
+        "景点",
+        "古城"
+      ]
+    },
+    {
+      "q": "乌兹别克斯坦有什么特产？",
+      "a": "它是世界第六大棉花生产国、第二大棉花出口国，也是世界第七大黄金生产国。",
+      "tags": [
+        "特产",
+        "棉花",
+        "黄金",
+        "出口"
+      ]
+    },
+    {
+      "q": "乌兹别克斯坦是内陆国吗？",
+      "a": "是的，它是中亚的内陆国家，而且是全球两个双重内陆国之一，另一个是列支敦士登。",
+      "tags": [
+        "内陆国",
+        "双重内陆国",
+        "地理"
+      ]
+    },
+    {
+      "q": "乌兹别克斯坦什么时候独立的？",
+      "a": "1991年从原苏联独立。",
+      "tags": [
+        "独立",
+        "历史",
+        "苏联"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        7096,
+        4024
+      ],
+      [
+        7062,
+        4020
+      ],
+      [
+        7052,
+        4034
+      ],
+      [
+        7037,
+        4036
+      ],
+      [
+        7037,
+        4048
+      ],
+      [
+        7077,
+        4074
+      ],
+      [
+        7064,
+        4077
+      ],
+      [
+        7070,
+        4081
+      ],
+      [
+        7045,
+        4103
+      ],
+      [
+        7036,
+        4103
+      ],
+      [
+        7028,
+        4088
+      ],
+      [
+        6972,
+        4064
+      ],
+      [
+        6951,
+        4078
+      ],
+      [
+        6936,
+        4078
+      ],
+      [
+        6931,
+        4060
+      ],
+      [
+        6920,
+        4057
+      ],
+      [
+        6931,
+        4034
+      ],
+      [
+        6921,
+        4030
+      ],
+      [
+        6928,
+        4020
+      ],
+      [
+        6858,
+        4016
+      ],
+      [
+        6899,
+        4009
+      ],
+      [
+        6878,
+        4008
+      ],
+      [
+        6888,
+        3988
+      ],
+      [
+        6876,
+        3998
+      ],
+      [
+        6879,
+        3988
+      ],
+      [
+        6874,
+        3982
+      ],
+      [
+        6863,
+        3985
+      ],
+      [
+        6852,
+        3955
+      ],
+      [
+        6772,
+        3962
+      ],
+      [
+        6743,
+        3948
+      ],
+      [
+        6738,
+        3920
+      ],
+      [
+        6767,
+        3913
+      ],
+      [
+        6769,
+        3899
+      ],
+      [
+        6810,
+        3898
+      ],
+      [
+        6817,
+        3884
+      ],
+      [
+        6807,
+        3879
+      ],
+      [
+        6806,
+        3854
+      ],
+      [
+        6836,
+        3821
+      ],
+      [
+        6825,
+        3795
+      ],
+      [
+        6812,
+        3791
+      ],
+      [
+        6783,
+        3753
+      ],
+      [
+        6778,
+        3719
+      ],
+      [
+        6750,
+        3728
+      ],
+      [
+        6726,
+        3718
+      ],
+      [
+        6701,
+        3738
+      ],
+      [
+        6652,
+        3736
+      ],
+      [
+        6652,
+        3778
+      ],
+      [
+        6662,
+        3799
+      ],
+      [
+        6588,
+        3827
+      ],
+      [
+        6560,
+        3824
+      ],
+      [
+        6434,
+        3897
+      ],
+      [
+        6415,
+        3895
+      ],
+      [
+        6371,
+        3919
+      ],
+      [
+        6348,
+        3940
+      ],
+      [
+        6245,
+        4001
+      ],
+      [
+        6235,
+        4043
+      ],
+      [
+        6213,
+        4058
+      ],
+      [
+        6188,
+        4112
+      ],
+      [
+        6143,
+        4130
+      ],
+      [
+        6128,
+        4116
+      ],
+      [
+        6086,
+        4125
+      ],
+      [
+        6048,
+        4121
+      ],
+      [
+        6009,
+        4139
+      ],
+      [
+        6007,
+        4151
+      ],
+      [
+        6016,
+        4158
+      ],
+      [
+        6005,
+        4175
+      ],
+      [
+        6025,
+        4178
+      ],
+      [
+        5991,
+        4197
+      ],
+      [
+        6000,
+        4201
+      ],
+      [
+        6003,
+        4220
+      ],
+      [
+        5987,
+        4230
+      ],
+      [
+        5929,
+        4234
+      ],
+      [
+        5915,
+        4253
+      ],
+      [
+        5889,
+        4255
+      ],
+      [
+        5859,
+        4279
+      ],
+      [
+        5854,
+        4266
+      ],
+      [
+        5826,
+        4269
+      ],
+      [
+        5812,
+        4262
+      ],
+      [
+        5831,
+        4253
+      ],
+      [
+        5849,
+        4230
+      ],
+      [
+        5840,
+        4229
+      ],
+      [
+        5832,
+        4243
+      ],
+      [
+        5802,
+        4250
+      ],
+      [
+        5791,
+        4243
+      ],
+      [
+        5785,
+        4219
+      ],
+      [
+        5738,
+        4216
+      ],
+      [
+        5698,
+        4190
+      ],
+      [
+        5702,
+        4147
+      ],
+      [
+        5716,
+        4137
+      ],
+      [
+        5703,
+        4126
+      ],
+      [
+        5598,
+        4132
+      ],
+      [
+        5598,
+        4500
+      ],
+      [
+        5856,
+        4556
+      ],
+      [
+        6104,
+        4438
+      ],
+      [
+        6116,
+        4417
+      ],
+      [
+        6203,
+        4348
+      ],
+      [
+        6321,
+        4363
+      ],
+      [
+        6443,
+        4355
+      ],
+      [
+        6492,
+        4372
+      ],
+      [
+        6552,
+        4330
+      ],
+      [
+        6580,
+        4288
+      ],
+      [
+        6610,
+        4299
+      ],
+      [
+        6601,
+        4200
+      ],
+      [
+        6650,
+        4199
+      ],
+      [
+        6673,
+        4116
+      ],
+      [
+        6794,
+        4120
+      ],
+      [
+        6803,
+        4104
+      ],
+      [
+        6813,
+        4103
+      ],
+      [
+        6799,
+        4081
+      ],
+      [
+        6846,
+        4058
+      ],
+      [
+        6861,
+        4061
+      ],
+      [
+        6857,
+        4091
+      ],
+      [
+        6903,
+        4121
+      ],
+      [
+        6904,
+        4138
+      ],
+      [
+        6940,
+        4147
+      ],
+      [
+        6939,
+        4154
+      ],
+      [
+        6962,
+        4167
+      ],
+      [
+        6991,
+        4171
+      ],
+      [
+        7036,
+        4206
+      ],
+      [
+        7047,
+        4209
+      ],
+      [
+        7058,
+        4202
+      ],
+      [
+        7073,
+        4220
+      ],
+      [
+        7105,
+        4229
+      ],
+      [
+        7124,
+        4216
+      ],
+      [
+        7084,
+        4203
+      ],
+      [
+        7081,
+        4192
+      ],
+      [
+        7065,
+        4189
+      ],
+      [
+        7017,
+        4152
+      ],
+      [
+        7045,
+        4140
+      ],
+      [
+        7067,
+        4147
+      ],
+      [
+        7077,
+        4124
+      ],
+      [
+        7118,
+        4111
+      ],
+      [
+        7121,
+        4119
+      ],
+      [
+        7128,
+        4111
+      ],
+      [
+        7142,
+        4113
+      ],
+      [
+        7142,
+        4135
+      ],
+      [
+        7159,
+        4132
+      ],
+      [
+        7160,
+        4149
+      ],
+      [
+        7167,
+        4155
+      ],
+      [
+        7167,
+        4142
+      ],
+      [
+        7174,
+        4145
+      ],
+      [
+        7185,
+        4134
+      ],
+      [
+        7187,
+        4119
+      ],
+      [
+        7216,
+        4119
+      ],
+      [
+        7217,
+        4100
+      ],
+      [
+        7233,
+        4107
+      ],
+      [
+        7266,
+        4087
+      ],
+      [
+        7315,
+        4081
+      ],
+      [
+        7278,
+        4067
+      ],
+      [
+        7262,
+        4051
+      ],
+      [
+        7235,
+        4060
+      ],
+      [
+        7239,
+        4039
+      ],
+      [
+        7217,
+        4045
+      ],
+      [
+        7196,
+        4032
+      ],
+      [
+        7202,
+        4024
+      ],
+      [
+        7184,
+        4025
+      ],
+      [
+        7171,
+        4014
+      ],
+      [
+        7163,
+        4026
+      ],
+      [
+        7152,
+        4020
+      ],
+      [
+        7125,
+        4032
+      ],
+      [
+        7096,
+        4024
+      ]
+    ],
+    [
+      [
+        7118,
+        4004
+      ],
+      [
+        7124,
+        4005
+      ],
+      [
+        7118,
+        3999
+      ],
+      [
+        7121,
+        3989
+      ],
+      [
+        7102,
+        3988
+      ],
+      [
+        7105,
+        3999
+      ],
+      [
+        7095,
+        4010
+      ],
+      [
+        7101,
+        4016
+      ],
+      [
+        7118,
+        4004
+      ]
+    ],
+    [
+      [
+        7179,
+        3999
+      ],
+      [
+        7176,
+        3990
+      ],
+      [
+        7167,
+        3994
+      ],
+      [
+        7179,
+        3999
+      ]
+    ],
+    [
+      [
+        7057,
+        4102
+      ],
+      [
+        7055,
+        4102
+      ],
+      [
+        7056,
+        4100
+      ],
+      [
+        7061,
+        4095
+      ],
+      [
+        7064,
+        4094
+      ],
+      [
+        7062,
+        4099
+      ],
+      [
+        7057,
+        4102
+      ]
+    ]
+  ]
+}

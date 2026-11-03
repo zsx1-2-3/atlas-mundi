@@ -1,1 +1,841 @@
-{"qid":"Q79","iso_a2":"EG","iso_a3":"EGY","name_zh":"埃及","name_en":"Egypt","capital":"开罗","continent":"非洲","centroid":[29,27],"centroid_source":"wikidata P625","languages":[{"code":"ar","name_zh":"阿拉伯语","name_local":"阿拉伯语","role":"official","audio_url":"assets/eg/audio/ar.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"أهلاً بكم في مصر، حيث يلتقي التاريخ العريق بنهر النيل الخالد؛ تبدأ رحلتكم من العاصمة القاهرة، ولا تنسوا أن تزوروا أهرامات الجيزة الشامخة التي تحرس ذاكرة الحضارة منذ آلاف السنين.","tts_text_zh":"欢迎来到埃及，在这里悠久的历史与永恒的尼罗河交汇；您的旅程从首都开罗开始，也请不要忘记参观巍然矗立的吉萨金字塔，它们守护着数千年的文明记忆。","audio_voice":"ar-DZ-AminaNeural","audio_bytes":99072}],"summary_text":"阿拉伯埃及共和国通称埃及，是位于北非的国家，地跨亚非两洲，大部分国土位于北非地区，惟西奈半岛位于西南亚。伊斯兰教为国教，官方语言为阿拉伯语。埃及人大部分信仰伊斯兰教逊尼派，最大的宗教少数派为科普特正教，另外还有基督教其他教派和伊斯兰教什叶派。古埃及曾是文明摇篮，是世界上最早出现文明的地区之一，古埃及经历了早王朝、古王国、中王国、新王国和后王朝时期，共三十王朝。古王国时期埃及人开始大规模建金字塔，中王国时期埃及经济发展、文化昌盛，至新王国埃及国力显著提高，开始对外扩张，成为军事帝国。但到后王朝时期，因内乱和外族入侵，古埃及日渐衰落。公元前525年，埃及沦为波斯帝国的一个行省，在此后的一千多年间，埃及相继被希腊和罗马征服。公元641年阿拉伯人入侵埃及地区，埃及逐渐伊斯兰化。1517年埃及被土耳其人征服，成为奥斯曼帝国的行省，1882年埃及被英军占领后成为英国“保护国”。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":388,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/埃及","title":"埃及"},"landmark_images":[{"title":"File:Pyramids of the Giza Necropolis.jpg","caption_zh":"吉萨金字塔群","caption":"吉萨金字塔群","caption_commons":"Pyramids of the Giza Necropolis.","kw":"Great Pyramids of Giza","url":"assets/eg/L01.webp","thumb_url":"assets/eg/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/1920px-Pyramids_of_the_Giza_Necropolis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"relaxed","author":"KennyOMG","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":28280,"thumb_bytes":7204,"size":{"detail":"760x317","thumb":"400x167"},"encoding":"webp q72/q74 (源 1920x800 401KB JPEG)"},{"title":"File:Great Sphinx of Giza May 2015.JPG","caption_zh":"吉萨狮身人面像","caption":"吉萨狮身人面像","caption_commons":"The Great Sphinx of Giza in May 2015","kw":"Great Sphinx of Giza","url":"assets/eg/L02.webp","thumb_url":"assets/eg/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Great_Sphinx_of_Giza_May_2015.JPG/1920px-Great_Sphinx_of_Giza_May_2015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","author":"MusikAnimal","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":27712,"thumb_bytes":8602,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 422KB JPEG)","caption_zh_manual":"狮身人面像","caption_zh_source":"llm_from_commons_filename"},{"title":"File:Abu_Simbel_Main_Temple_(2346939149).jpg","caption_zh":"阿布辛贝神庙主庙","caption":"阿布辛贝神庙主庙","caption_commons":"Abu Simbel Main Temple","kw":"Abu Simbel Temple Ramses","url":"assets/eg/L03.webp","thumb_url":"assets/eg/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Abu_Simbel_Main_Temple_%282346939149%29.jpg/1920px-Abu_Simbel_Main_Temple_%282346939149%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikipedia_lead","author":"Francisco Anzola","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":75324,"thumb_bytes":23534,"size":{"detail":"760x532","thumb":"400x280"},"encoding":"webp q72/q74 (源 1920x1345 869KB JPEG)","caption_zh_manual":"阿布辛贝神庙","caption_zh_source":"llm_from_commons_filename"},{"title":"File:Luxor, Egypt, Karnak.jpg","caption_zh":"埃及卡纳克神庙","caption":"埃及卡纳克神庙","caption_commons":"The Karnak Temple. The Great Hypostyle Hall, Precinct of Amun-Re. The structure ","kw":"Karnak Temple Luxor","url":"assets/eg/L04.webp","thumb_url":"assets/eg/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Luxor%2C_Egypt%2C_Karnak.jpg/1920px-Luxor%2C_Egypt%2C_Karnak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","author":"Vyacheslav Argenberg","license":"CC BY 4.0","license_url":"https://creativecommons.org/licenses/by/4.0","license_status":"ok","load_verified":true,"bytes":30402,"thumb_bytes":9794,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 502KB JPEG)","caption_zh_manual":"卡纳克神庙","caption_zh_source":"llm_from_commons_filename"},{"title":"File:Luxor, Tal der Könige (1995, 860x605).jpg","caption_zh":"帝王谷全景","caption":"帝王谷全景","caption_commons":"Luxor (Egypt): Valley of the Kings","kw":"Valley of the Kings Luxor","url":"assets/eg/L05.webp","thumb_url":"assets/eg/L05.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/0/0c/Luxor%2C_Tal_der_K%C3%B6nige_%281995%2C_860x605%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","author":"Fotograf/Photographer: Peter J. Bubenik (1995)","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":75318,"thumb_bytes":26520,"size":{"detail":"760x535","thumb":"400x281"},"encoding":"webp q72/q74 (源 860x605 155KB JPEG)","caption_zh_manual":"帝王谷","caption_zh_source":"llm_from_commons_filename"}],"image_license":"CC BY-SA 4.0","schema_version":"0.1","collected_at":"2026-10-28T16:21:41+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Egipt.wav、LL-Q9610 (ben)-Tahmid-মিশর.wav、LL-Q22809485 (apc)-Hassan Hassoon-مصر.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py EG","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","吉萨金字塔群：1 个候选全部未通过筛选：Pyramids of the Giza Necropolis.jpg（宽高比 2.4 过宽（全景））","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 5 张已被替换","audio_meta":{},"custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"伊斯兰教","evidence":"伊斯兰教为国教"},{"v":"逊尼派","evidence":"大部分信仰伊斯兰教逊尼派"},{"v":"科普特正教","evidence":"最大的宗教少数派为科普特正教"},{"v":"什叶派","evidence":"伊斯兰教什叶派"}],"architecture":[{"v":"金字塔","evidence":"大规模建金字塔"}],"heritage":[],"keywords":[{"v":"金字塔","evidence":"大规模建金字塔"},{"v":"西奈半岛","evidence":"西奈半岛位于西南亚"},{"v":"阿拉伯语","evidence":"官方语言为阿拉伯语"},{"v":"古埃及文明","evidence":"古埃及曾是文明摇篮"}],"model":"deepseek-flash"},"summary_text_raw":"阿拉伯埃及共和国（埃及阿拉伯语：جمهورية مصر العربية，罗马化：Jumhūriyyat Miṣr al-ʻArabiyyah），通称埃及（مصر，Miṣr），是位于北非的国家。地跨亚非两洲，大部分国土位于北非地区，惟西奈半岛位于西南亚。伊斯兰教为国教。埃及人大部分信仰伊斯兰教逊尼派，最大的宗教少数派为科普特正教。另外还有基督教其他教派和伊斯兰教什叶派。官方语言为阿拉伯语。\n古埃及曾是文明摇篮，是世界上最早出现文明的地区之一，古埃及经历了早王朝、古王国、中王国、新王国和后王朝时期，共三十王朝。古王国时期埃及人开始大规模建金字塔。中王国时期埃及经济发展、文化昌盛。至新王国埃及国力显著提高，开始对外扩张，成为军事帝国。但到后王朝时期，因内乱和外族入侵，古埃及日渐衰落。公元前525年，埃及沦为波斯帝国的一个行省。在此后的一千多年间，埃及相继被希腊和罗马征服。公元641年阿拉伯人入侵埃及地区，埃及逐渐伊斯兰化。1517年埃及被土耳其人征服，成为奥斯曼帝国的行省。1882年埃及被英军占领后成为英国“保护国”。","custom_text":"宗教传统在日常生活中根基深厚。穆斯林每天在清真寺周围生活、交往，许多民间组织直接把“伊斯兰”“穆斯林”写进名称，以清真寺为活动基地，表达在真主旗帜下开展社会活动的愿望。科普特人的教堂里，礼仪仍用由古埃及语演变而来的科普特语诵读，这种语言在别处早已听不到了。开斋节与宰牲节是全年最热闹的日子，家家备甜食、走亲访友；斋月里白天禁食，日落后街巷才活起来。日常饮食以豆类、面饼和烤肉为主，蚕豆泥、杂豆饼是街头巷尾的寻常吃食，红茶里放糖，水烟馆里坐满闲聊的人。婚嫁讲究热闹，鼓乐与歌声彻夜不停。金字塔脚下，赶骆驼的人和兜售手工艺品的小贩，与几千年前的石头一同构成游客眼中的埃及。","custom_text_source":{"source":"llm_compose_from_summary_facets","sections":["历史","生活","人口","宗教"],"split_from_merged":true},"knowledge_qa":[{"q":"埃及在哪个洲啊？","a":"埃及位于北非，地跨亚非两洲，大部分国土在北非，西奈半岛在西南亚。","tags":["非洲","北非","地理位置"]},{"q":"埃及的首都是哪里？","a":"开罗。","tags":["首都","开罗"]},{"q":"埃及人平时说什么语言？","a":"官方语言是阿拉伯语。","tags":["语言","阿拉伯语","说什么话"]},{"q":"埃及有什么宗教？","a":"伊斯兰教为国教，大部分埃及人信仰伊斯兰教逊尼派，最大的宗教少数派是科普特正教，还有基督教其他教派和伊斯兰教什叶派。","tags":["宗教","伊斯兰教","信仰"]},{"q":"埃及有哪些值得看的神庙和古迹？","a":"有狮身人面像、阿布辛贝神庙、卡纳克神庙、帝王谷和卢克索神庙。","tags":["地标","神庙","金字塔","古迹"]},{"q":"古埃及文明有什么历史？","a":"古埃及是文明摇篮之一，经历早王朝、古王国、中王国、新王国和后王朝共三十王朝。古王国时期开始大规模建金字塔，中王国经济文化昌盛，新王国对外扩张成军事帝国，后王朝因内乱和外族入侵衰落。","tags":["历史","古埃及","文明"]},{"q":"埃及后来被哪些国家征服过？","a":"公元前525年沦为波斯帝国行省，此后一千多年相继被希腊和罗马征服。公元641年阿拉伯人入侵，逐渐伊斯兰化。1517年被土耳其人征服成为奥斯曼帝国行省，1882年被英军占领后成为英国“保护国”。","tags":["历史","征服","殖民"]}],"llm_audit":{"issues":[],"overall":"pass"},"geometry_status":"naturalearth_50m_chunked","culture_excerpts":[{"section":"历史","text":"古埃及的历史悠久，是四大文明古国之一。古埃及文明和文化知识在古埃及灭国后并没有被传承下来，直到现代才被考古学发现后重新被世人认知。虽然有许多考古遗址的发掘，人们对古埃及历史的了解却仍然非常有限。埃及在经过土耳其人统治数百年后，先后被法国和英国等国家侵略占领，期间也有穆罕默德·阿里帕夏等本土王朝崛起。","chars":150},{"section":"生活","text":"埃及国内现代化程度颇高，有大量的外国企业投资，每年平均以4.5%至6%增长，但2010-2011年度只得2.6%增长，2010年人均GDP（购买力平价）为6,539美元，但贫富悬殊问题十分严重，很多的经济活动对国民的生活改善不足，所以国民的生活仍然很差。全国有40%（2007年埃及总人口约8,290万）的国民，每月的收入只有约六十至六十五美元的水平，部分人更依赖食物补助，情况大大影响埃及经济，亦是2011年埃及革命的导火线之一。","chars":1200},{"section":"人口","text":"主要人种有东方哈姆族（埃及阿拉伯人、科普特人、贝都因人、柏柏尔人）占99％，努比亚人、希腊人、亚美尼亚人、意大利人后裔和法国人后裔占1%。\n埃及约有6成人口为30岁以下。穆巴拉克执政时期，埃及政府加强推动抑制人口增长的措施。穆巴拉克在2011年下台，穆斯林兄弟会其后上台执政，不再把控制人口增长视为重点工作，2012年埃及的出生率增至每千人32人，创下1991年以来的新高。\n宗教传统在埃及具有深厚的民众基础，埃及约85-90%的人口信仰伊斯兰教逊尼派，约10-15%的人口信仰基督教的亚历山大科普特正教会，其他基督教教派占1%，其他基督教教派包括科普特礼天主教会、埃及福音教会 (尼罗大会)、默基特希腊礼天主教会、马龙尼礼教会和希腊正教会等教派。亚历山大科普特正教会为东方正统教会中的一个部分，埃及科普特人多属于此教派。伊斯兰公民社会尤其是非政府组织往往在其组织名称中包含伊斯兰、穆斯林等字样，或者与伊斯兰的文化、思想、历史密切相关，如青年穆斯林协会（Young Men’s Muslim Association），清晰地表达了它要求在真主的旗帜下开展社会活动的愿望，并以清真寺为基地。\n埃及官方语言为阿拉伯语，大多数国民亦视作母语；科普特语（由古埃及语演变而来）仅在埃及的科普特人基督教堂的仪式中使用。另外，英语及法语在大城市及旅游区通用。\n原始的埃及语（象形文字）在公元3-4世纪完全被科普特语（希腊字母变体）取代。公元7世纪后期阿拉伯穆斯林征服埃及后，阿拉伯语开始逐渐成为通用语言，而科普特语仍被广泛使用。但科普特语在15世纪便已不再被使用于日常生活了，而后科普特语使用者全都改用阿拉伯语。","chars":1200},{"section":"宗教","text":"宗教传统在埃及具有深厚的民众基础，埃及约85-90%的人口信仰伊斯兰教逊尼派，约10-15%的人口信仰基督教的亚历山大科普特正教会，其他基督教教派占1%，其他基督教教派包括科普特礼天主教会、埃及福音教会 (尼罗大会)、默基特希腊礼天主教会、马龙尼礼教会和希腊正教会等教派。亚历山大科普特正教会为东方正统教会中的一个部分，埃及科普特人多属于此教派。伊斯兰公民社会尤其是非政府组织往往在其组织名称中包含伊斯兰、穆斯林等字样，或者与伊斯兰的文化、思想、历史密切相关，如青年穆斯林协会（Young Men’s Muslim Association），清晰地表达了它要求在真主的旗帜下开展社会活动的愿望，并以清真寺为基地。","chars":1200}],"history_text":"古埃及文明是四大文明古国之一，但它的文化知识在灭国后并未被传承下来，直到现代才经考古学发掘重新被世人认知。此后数百年间，这片土地先后受土耳其人统治，又被法国、英国等国家侵略占领，其间也有穆罕默德·阿里帕夏等本土王朝崛起。更早的时候，阿拉伯人进入这片地区，语言与信仰随之改变，阿拉伯语逐渐取代了日常使用的科普特语，科普特语退守到教堂仪式之中。","outline":[[[3425,3121],[3489,2949],[3474,2931],[3462,2874],[3441,2832],[3444,2798],[3421,2779],[3426,2773],[3376,2802],[3323,2857],[3318,2899],[3272,2946],[3258,3001],[3234,2959],[3259,2935],[3262,2897],[3281,2878],[3287,2858],[3355,2790],[3359,2779],[3347,2782],[3359,2765],[3350,2765],[3384,2724],[3384,2712],[3400,2690],[3394,2665],[3455,2572],[3515,2450],[3549,2411],[3579,2390],[3549,2395],[3549,2350],[3562,2314],[3521,2279],[3562,2314],[3585,2276],[3623,2264],[3644,2236],[3690,2207],[3688,2200],[3144,2200],[3149,2217],[3142,2223],[3125,2199],[2498,2200],[2498,2918],[2469,3014],[2500,3078],[2485,3135],[2509,3161],[2515,3166],[2519,3153],[2540,3150],[2597,3162],[2732,3138],[2745,3122],[2766,3118],[2785,3124],[2793,3110],[2842,3108],[2903,3083],[2950,3096],[3007,3133],[3016,3122],[3029,3124],[3018,3128],[3031,3135],[3034,3150],[3040,3144],[3036,3151],[3054,3146],[3097,3159],[3054,3140],[3073,3139],[3112,3149],[3098,3158],[3110,3161],[3156,3144],[3194,3152],[3220,3130],[3189,3153],[3186,3135],[3177,3128],[3193,3119],[3204,3122],[3202,3113],[3211,3105],[3228,3114],[3228,3126],[3221,3130],[3260,3106],[3293,3116],[3270,3104],[3293,3111],[3301,3106],[3306,3114],[3295,3111],[3311,3120],[3313,3105],[3341,3116],[3385,3116],[3420,3131],[3425,3121]],[[3308,3123],[3326,3122],[3294,3115],[3308,3123]],[[3338,3119],[3348,3114],[3327,3122],[3338,3119]],[[3458,2796],[3462,2792],[3455,2792],[3452,2793],[3450,2796],[3449,2800],[3452,2802],[3454,2800],[3451,2799],[3450,2798],[3451,2797],[3457,2797],[3458,2796]]]}
+{
+  "qid": "Q79",
+  "iso_a2": "EG",
+  "iso_a3": "EGY",
+  "name_zh": "埃及",
+  "name_en": "Egypt",
+  "capital": "开罗",
+  "continent": "非洲",
+  "centroid": [
+    29,
+    27
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ar",
+      "name_zh": "阿拉伯语",
+      "name_local": "阿拉伯语",
+      "role": "official",
+      "audio_url": "assets/eg/audio/ar.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "أهلاً بكم في مصر، حيث يلتقي التاريخ العريق بنهر النيل الخالد؛ تبدأ رحلتكم من العاصمة القاهرة، ولا تنسوا أن تزوروا أهرامات الجيزة الشامخة التي تحرس ذاكرة الحضارة منذ آلاف السنين.",
+      "tts_text_zh": "欢迎来到埃及，在这里悠久的历史与永恒的尼罗河交汇；您的旅程从首都开罗开始，也请不要忘记参观巍然矗立的吉萨金字塔，它们守护着数千年的文明记忆。",
+      "audio_voice": "ar-DZ-AminaNeural",
+      "audio_bytes": 99072
+    }
+  ],
+  "summary_text": "阿拉伯埃及共和国通称埃及，是位于北非的国家，地跨亚非两洲，大部分国土位于北非地区，惟西奈半岛位于西南亚。伊斯兰教为国教，官方语言为阿拉伯语。埃及人大部分信仰伊斯兰教逊尼派，最大的宗教少数派为科普特正教，另外还有基督教其他教派和伊斯兰教什叶派。古埃及曾是文明摇篮，是世界上最早出现文明的地区之一，古埃及经历了早王朝、古王国、中王国、新王国和后王朝时期，共三十王朝。古王国时期埃及人开始大规模建金字塔，中王国时期埃及经济发展、文化昌盛，至新王国埃及国力显著提高，开始对外扩张，成为军事帝国。但到后王朝时期，因内乱和外族入侵，古埃及日渐衰落。公元前525年，埃及沦为波斯帝国的一个行省，在此后的一千多年间，埃及相继被希腊和罗马征服。公元641年阿拉伯人入侵埃及地区，埃及逐渐伊斯兰化。1517年埃及被土耳其人征服，成为奥斯曼帝国的行省，1882年埃及被英军占领后成为英国“保护国”。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 388,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/埃及",
+    "title": "埃及"
+  },
+  "landmark_images": [
+    {
+      "title": "File:Pyramids of the Giza Necropolis.jpg",
+      "caption_zh": "吉萨金字塔群",
+      "caption": "吉萨金字塔群",
+      "caption_commons": "Pyramids of the Giza Necropolis.",
+      "kw": "Great Pyramids of Giza",
+      "url": "assets/eg/L01.webp",
+      "thumb_url": "assets/eg/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Pyramids_of_the_Giza_Necropolis.jpg/1920px-Pyramids_of_the_Giza_Necropolis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "relaxed",
+      "author": "KennyOMG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 66336,
+      "thumb_bytes": 3040,
+      "size": {
+        "detail": "1080x450",
+        "thumb": "240x100"
+      },
+      "encoding": "webp q75/q78 (源 1920x800 401KB JPEG)"
+    },
+    {
+      "title": "File:Great Sphinx of Giza May 2015.JPG",
+      "caption_zh": "吉萨狮身人面像",
+      "caption": "吉萨狮身人面像",
+      "caption_commons": "The Great Sphinx of Giza in May 2015",
+      "kw": "Great Sphinx of Giza",
+      "url": "assets/eg/L02.webp",
+      "thumb_url": "assets/eg/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Great_Sphinx_of_Giza_May_2015.JPG/1920px-Great_Sphinx_of_Giza_May_2015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "author": "MusikAnimal",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 58952,
+      "thumb_bytes": 4130,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 422KB JPEG)",
+      "caption_zh_manual": "狮身人面像",
+      "caption_zh_source": "llm_from_commons_filename"
+    },
+    {
+      "title": "File:Abu_Simbel_Main_Temple_(2346939149).jpg",
+      "caption_zh": "阿布辛贝神庙主庙",
+      "caption": "阿布辛贝神庙主庙",
+      "caption_commons": "Abu Simbel Main Temple",
+      "kw": "Abu Simbel Temple Ramses",
+      "url": "assets/eg/L03.webp",
+      "thumb_url": "assets/eg/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Abu_Simbel_Main_Temple_%282346939149%29.jpg/1920px-Abu_Simbel_Main_Temple_%282346939149%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikipedia_lead",
+      "author": "Francisco Anzola",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 157616,
+      "thumb_bytes": 10736,
+      "size": {
+        "detail": "1080x757",
+        "thumb": "240x168"
+      },
+      "encoding": "webp q75/q78 (源 1920x1345 869KB JPEG)",
+      "caption_zh_manual": "阿布辛贝神庙",
+      "caption_zh_source": "llm_from_commons_filename"
+    },
+    {
+      "title": "File:Luxor, Egypt, Karnak.jpg",
+      "caption_zh": "埃及卡纳克神庙",
+      "caption": "埃及卡纳克神庙",
+      "caption_commons": "The Karnak Temple. The Great Hypostyle Hall, Precinct of Amun-Re. The structure ",
+      "kw": "Karnak Temple Luxor",
+      "url": "assets/eg/L04.webp",
+      "thumb_url": "assets/eg/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Luxor%2C_Egypt%2C_Karnak.jpg/1920px-Luxor%2C_Egypt%2C_Karnak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 62954,
+      "thumb_bytes": 4620,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 502KB JPEG)",
+      "caption_zh_manual": "卡纳克神庙",
+      "caption_zh_source": "llm_from_commons_filename"
+    },
+    {
+      "title": "File:Luxor, Tal der Könige (1995, 860x605).jpg",
+      "caption_zh": "帝王谷全景",
+      "caption": "帝王谷全景",
+      "caption_commons": "Luxor (Egypt): Valley of the Kings",
+      "kw": "Valley of the Kings Luxor",
+      "url": "assets/eg/L05.webp",
+      "thumb_url": "assets/eg/L05.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Luxor%2C_Tal_der_K%C3%B6nige_%281995%2C_860x605%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "author": "Fotograf/Photographer: Peter J. Bubenik (1995)",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 94366,
+      "thumb_bytes": 11776,
+      "size": {
+        "detail": "860x605",
+        "thumb": "240x169"
+      },
+      "encoding": "webp q75/q78 (源 860x605 155KB JPEG)",
+      "caption_zh_manual": "帝王谷",
+      "caption_zh_source": "llm_from_commons_filename"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-28T16:21:41+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Egipt.wav、LL-Q9610 (ben)-Tahmid-মিশর.wav、LL-Q22809485 (apc)-Hassan Hassoon-مصر.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py EG",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "吉萨金字塔群：1 个候选全部未通过筛选：Pyramids of the Giza Necropolis.jpg（宽高比 2.4 过宽（全景））",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 5 张已被替换",
+  "audio_meta": {},
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "伊斯兰教",
+        "evidence": "伊斯兰教为国教"
+      },
+      {
+        "v": "逊尼派",
+        "evidence": "大部分信仰伊斯兰教逊尼派"
+      },
+      {
+        "v": "科普特正教",
+        "evidence": "最大的宗教少数派为科普特正教"
+      },
+      {
+        "v": "什叶派",
+        "evidence": "伊斯兰教什叶派"
+      }
+    ],
+    "architecture": [
+      {
+        "v": "金字塔",
+        "evidence": "大规模建金字塔"
+      }
+    ],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "金字塔",
+        "evidence": "大规模建金字塔"
+      },
+      {
+        "v": "西奈半岛",
+        "evidence": "西奈半岛位于西南亚"
+      },
+      {
+        "v": "阿拉伯语",
+        "evidence": "官方语言为阿拉伯语"
+      },
+      {
+        "v": "古埃及文明",
+        "evidence": "古埃及曾是文明摇篮"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "阿拉伯埃及共和国（埃及阿拉伯语：جمهورية مصر العربية，罗马化：Jumhūriyyat Miṣr al-ʻArabiyyah），通称埃及（مصر，Miṣr），是位于北非的国家。地跨亚非两洲，大部分国土位于北非地区，惟西奈半岛位于西南亚。伊斯兰教为国教。埃及人大部分信仰伊斯兰教逊尼派，最大的宗教少数派为科普特正教。另外还有基督教其他教派和伊斯兰教什叶派。官方语言为阿拉伯语。\n古埃及曾是文明摇篮，是世界上最早出现文明的地区之一，古埃及经历了早王朝、古王国、中王国、新王国和后王朝时期，共三十王朝。古王国时期埃及人开始大规模建金字塔。中王国时期埃及经济发展、文化昌盛。至新王国埃及国力显著提高，开始对外扩张，成为军事帝国。但到后王朝时期，因内乱和外族入侵，古埃及日渐衰落。公元前525年，埃及沦为波斯帝国的一个行省。在此后的一千多年间，埃及相继被希腊和罗马征服。公元641年阿拉伯人入侵埃及地区，埃及逐渐伊斯兰化。1517年埃及被土耳其人征服，成为奥斯曼帝国的行省。1882年埃及被英军占领后成为英国“保护国”。",
+  "custom_text": "宗教传统在日常生活中根基深厚。穆斯林每天在清真寺周围生活、交往，许多民间组织直接把“伊斯兰”“穆斯林”写进名称，以清真寺为活动基地，表达在真主旗帜下开展社会活动的愿望。科普特人的教堂里，礼仪仍用由古埃及语演变而来的科普特语诵读，这种语言在别处早已听不到了。开斋节与宰牲节是全年最热闹的日子，家家备甜食、走亲访友；斋月里白天禁食，日落后街巷才活起来。日常饮食以豆类、面饼和烤肉为主，蚕豆泥、杂豆饼是街头巷尾的寻常吃食，红茶里放糖，水烟馆里坐满闲聊的人。婚嫁讲究热闹，鼓乐与歌声彻夜不停。金字塔脚下，赶骆驼的人和兜售手工艺品的小贩，与几千年前的石头一同构成游客眼中的埃及。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "sections": [
+      "历史",
+      "生活",
+      "人口",
+      "宗教"
+    ],
+    "split_from_merged": true
+  },
+  "knowledge_qa": [
+    {
+      "q": "埃及在哪个洲啊？",
+      "a": "埃及位于北非，地跨亚非两洲，大部分国土在北非，西奈半岛在西南亚。",
+      "tags": [
+        "非洲",
+        "北非",
+        "地理位置"
+      ]
+    },
+    {
+      "q": "埃及的首都是哪里？",
+      "a": "开罗。",
+      "tags": [
+        "首都",
+        "开罗"
+      ]
+    },
+    {
+      "q": "埃及人平时说什么语言？",
+      "a": "官方语言是阿拉伯语。",
+      "tags": [
+        "语言",
+        "阿拉伯语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "埃及有什么宗教？",
+      "a": "伊斯兰教为国教，大部分埃及人信仰伊斯兰教逊尼派，最大的宗教少数派是科普特正教，还有基督教其他教派和伊斯兰教什叶派。",
+      "tags": [
+        "宗教",
+        "伊斯兰教",
+        "信仰"
+      ]
+    },
+    {
+      "q": "埃及有哪些值得看的神庙和古迹？",
+      "a": "有狮身人面像、阿布辛贝神庙、卡纳克神庙、帝王谷和卢克索神庙。",
+      "tags": [
+        "地标",
+        "神庙",
+        "金字塔",
+        "古迹"
+      ]
+    },
+    {
+      "q": "古埃及文明有什么历史？",
+      "a": "古埃及是文明摇篮之一，经历早王朝、古王国、中王国、新王国和后王朝共三十王朝。古王国时期开始大规模建金字塔，中王国经济文化昌盛，新王国对外扩张成军事帝国，后王朝因内乱和外族入侵衰落。",
+      "tags": [
+        "历史",
+        "古埃及",
+        "文明"
+      ]
+    },
+    {
+      "q": "埃及后来被哪些国家征服过？",
+      "a": "公元前525年沦为波斯帝国行省，此后一千多年相继被希腊和罗马征服。公元641年阿拉伯人入侵，逐渐伊斯兰化。1517年被土耳其人征服成为奥斯曼帝国行省，1882年被英军占领后成为英国“保护国”。",
+      "tags": [
+        "历史",
+        "征服",
+        "殖民"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "geometry_status": "naturalearth_50m_chunked",
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "古埃及的历史悠久，是四大文明古国之一。古埃及文明和文化知识在古埃及灭国后并没有被传承下来，直到现代才被考古学发现后重新被世人认知。虽然有许多考古遗址的发掘，人们对古埃及历史的了解却仍然非常有限。埃及在经过土耳其人统治数百年后，先后被法国和英国等国家侵略占领，期间也有穆罕默德·阿里帕夏等本土王朝崛起。",
+      "chars": 150
+    },
+    {
+      "section": "生活",
+      "text": "埃及国内现代化程度颇高，有大量的外国企业投资，每年平均以4.5%至6%增长，但2010-2011年度只得2.6%增长，2010年人均GDP（购买力平价）为6,539美元，但贫富悬殊问题十分严重，很多的经济活动对国民的生活改善不足，所以国民的生活仍然很差。全国有40%（2007年埃及总人口约8,290万）的国民，每月的收入只有约六十至六十五美元的水平，部分人更依赖食物补助，情况大大影响埃及经济，亦是2011年埃及革命的导火线之一。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "主要人种有东方哈姆族（埃及阿拉伯人、科普特人、贝都因人、柏柏尔人）占99％，努比亚人、希腊人、亚美尼亚人、意大利人后裔和法国人后裔占1%。\n埃及约有6成人口为30岁以下。穆巴拉克执政时期，埃及政府加强推动抑制人口增长的措施。穆巴拉克在2011年下台，穆斯林兄弟会其后上台执政，不再把控制人口增长视为重点工作，2012年埃及的出生率增至每千人32人，创下1991年以来的新高。\n宗教传统在埃及具有深厚的民众基础，埃及约85-90%的人口信仰伊斯兰教逊尼派，约10-15%的人口信仰基督教的亚历山大科普特正教会，其他基督教教派占1%，其他基督教教派包括科普特礼天主教会、埃及福音教会 (尼罗大会)、默基特希腊礼天主教会、马龙尼礼教会和希腊正教会等教派。亚历山大科普特正教会为东方正统教会中的一个部分，埃及科普特人多属于此教派。伊斯兰公民社会尤其是非政府组织往往在其组织名称中包含伊斯兰、穆斯林等字样，或者与伊斯兰的文化、思想、历史密切相关，如青年穆斯林协会（Young Men’s Muslim Association），清晰地表达了它要求在真主的旗帜下开展社会活动的愿望，并以清真寺为基地。\n埃及官方语言为阿拉伯语，大多数国民亦视作母语；科普特语（由古埃及语演变而来）仅在埃及的科普特人基督教堂的仪式中使用。另外，英语及法语在大城市及旅游区通用。\n原始的埃及语（象形文字）在公元3-4世纪完全被科普特语（希腊字母变体）取代。公元7世纪后期阿拉伯穆斯林征服埃及后，阿拉伯语开始逐渐成为通用语言，而科普特语仍被广泛使用。但科普特语在15世纪便已不再被使用于日常生活了，而后科普特语使用者全都改用阿拉伯语。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "宗教传统在埃及具有深厚的民众基础，埃及约85-90%的人口信仰伊斯兰教逊尼派，约10-15%的人口信仰基督教的亚历山大科普特正教会，其他基督教教派占1%，其他基督教教派包括科普特礼天主教会、埃及福音教会 (尼罗大会)、默基特希腊礼天主教会、马龙尼礼教会和希腊正教会等教派。亚历山大科普特正教会为东方正统教会中的一个部分，埃及科普特人多属于此教派。伊斯兰公民社会尤其是非政府组织往往在其组织名称中包含伊斯兰、穆斯林等字样，或者与伊斯兰的文化、思想、历史密切相关，如青年穆斯林协会（Young Men’s Muslim Association），清晰地表达了它要求在真主的旗帜下开展社会活动的愿望，并以清真寺为基地。",
+      "chars": 1200
+    }
+  ],
+  "history_text": "古埃及文明是四大文明古国之一，但它的文化知识在灭国后并未被传承下来，直到现代才经考古学发掘重新被世人认知。此后数百年间，这片土地先后受土耳其人统治，又被法国、英国等国家侵略占领，其间也有穆罕默德·阿里帕夏等本土王朝崛起。更早的时候，阿拉伯人进入这片地区，语言与信仰随之改变，阿拉伯语逐渐取代了日常使用的科普特语，科普特语退守到教堂仪式之中。",
+  "outline": [
+    [
+      [
+        3425,
+        3121
+      ],
+      [
+        3489,
+        2949
+      ],
+      [
+        3474,
+        2931
+      ],
+      [
+        3462,
+        2874
+      ],
+      [
+        3441,
+        2832
+      ],
+      [
+        3444,
+        2798
+      ],
+      [
+        3421,
+        2779
+      ],
+      [
+        3426,
+        2773
+      ],
+      [
+        3376,
+        2802
+      ],
+      [
+        3323,
+        2857
+      ],
+      [
+        3318,
+        2899
+      ],
+      [
+        3272,
+        2946
+      ],
+      [
+        3258,
+        3001
+      ],
+      [
+        3234,
+        2959
+      ],
+      [
+        3259,
+        2935
+      ],
+      [
+        3262,
+        2897
+      ],
+      [
+        3281,
+        2878
+      ],
+      [
+        3287,
+        2858
+      ],
+      [
+        3355,
+        2790
+      ],
+      [
+        3359,
+        2779
+      ],
+      [
+        3347,
+        2782
+      ],
+      [
+        3359,
+        2765
+      ],
+      [
+        3350,
+        2765
+      ],
+      [
+        3384,
+        2724
+      ],
+      [
+        3384,
+        2712
+      ],
+      [
+        3400,
+        2690
+      ],
+      [
+        3394,
+        2665
+      ],
+      [
+        3455,
+        2572
+      ],
+      [
+        3515,
+        2450
+      ],
+      [
+        3549,
+        2411
+      ],
+      [
+        3579,
+        2390
+      ],
+      [
+        3549,
+        2395
+      ],
+      [
+        3549,
+        2350
+      ],
+      [
+        3562,
+        2314
+      ],
+      [
+        3521,
+        2279
+      ],
+      [
+        3562,
+        2314
+      ],
+      [
+        3585,
+        2276
+      ],
+      [
+        3623,
+        2264
+      ],
+      [
+        3644,
+        2236
+      ],
+      [
+        3690,
+        2207
+      ],
+      [
+        3688,
+        2200
+      ],
+      [
+        3144,
+        2200
+      ],
+      [
+        3149,
+        2217
+      ],
+      [
+        3142,
+        2223
+      ],
+      [
+        3125,
+        2199
+      ],
+      [
+        2498,
+        2200
+      ],
+      [
+        2498,
+        2918
+      ],
+      [
+        2469,
+        3014
+      ],
+      [
+        2500,
+        3078
+      ],
+      [
+        2485,
+        3135
+      ],
+      [
+        2509,
+        3161
+      ],
+      [
+        2515,
+        3166
+      ],
+      [
+        2519,
+        3153
+      ],
+      [
+        2540,
+        3150
+      ],
+      [
+        2597,
+        3162
+      ],
+      [
+        2732,
+        3138
+      ],
+      [
+        2745,
+        3122
+      ],
+      [
+        2766,
+        3118
+      ],
+      [
+        2785,
+        3124
+      ],
+      [
+        2793,
+        3110
+      ],
+      [
+        2842,
+        3108
+      ],
+      [
+        2903,
+        3083
+      ],
+      [
+        2950,
+        3096
+      ],
+      [
+        3007,
+        3133
+      ],
+      [
+        3016,
+        3122
+      ],
+      [
+        3029,
+        3124
+      ],
+      [
+        3018,
+        3128
+      ],
+      [
+        3031,
+        3135
+      ],
+      [
+        3034,
+        3150
+      ],
+      [
+        3040,
+        3144
+      ],
+      [
+        3036,
+        3151
+      ],
+      [
+        3054,
+        3146
+      ],
+      [
+        3097,
+        3159
+      ],
+      [
+        3054,
+        3140
+      ],
+      [
+        3073,
+        3139
+      ],
+      [
+        3112,
+        3149
+      ],
+      [
+        3098,
+        3158
+      ],
+      [
+        3110,
+        3161
+      ],
+      [
+        3156,
+        3144
+      ],
+      [
+        3194,
+        3152
+      ],
+      [
+        3220,
+        3130
+      ],
+      [
+        3189,
+        3153
+      ],
+      [
+        3186,
+        3135
+      ],
+      [
+        3177,
+        3128
+      ],
+      [
+        3193,
+        3119
+      ],
+      [
+        3204,
+        3122
+      ],
+      [
+        3202,
+        3113
+      ],
+      [
+        3211,
+        3105
+      ],
+      [
+        3228,
+        3114
+      ],
+      [
+        3228,
+        3126
+      ],
+      [
+        3221,
+        3130
+      ],
+      [
+        3260,
+        3106
+      ],
+      [
+        3293,
+        3116
+      ],
+      [
+        3270,
+        3104
+      ],
+      [
+        3293,
+        3111
+      ],
+      [
+        3301,
+        3106
+      ],
+      [
+        3306,
+        3114
+      ],
+      [
+        3295,
+        3111
+      ],
+      [
+        3311,
+        3120
+      ],
+      [
+        3313,
+        3105
+      ],
+      [
+        3341,
+        3116
+      ],
+      [
+        3385,
+        3116
+      ],
+      [
+        3420,
+        3131
+      ],
+      [
+        3425,
+        3121
+      ]
+    ],
+    [
+      [
+        3308,
+        3123
+      ],
+      [
+        3326,
+        3122
+      ],
+      [
+        3294,
+        3115
+      ],
+      [
+        3308,
+        3123
+      ]
+    ],
+    [
+      [
+        3338,
+        3119
+      ],
+      [
+        3348,
+        3114
+      ],
+      [
+        3327,
+        3122
+      ],
+      [
+        3338,
+        3119
+      ]
+    ],
+    [
+      [
+        3458,
+        2796
+      ],
+      [
+        3462,
+        2792
+      ],
+      [
+        3455,
+        2792
+      ],
+      [
+        3452,
+        2793
+      ],
+      [
+        3450,
+        2796
+      ],
+      [
+        3449,
+        2800
+      ],
+      [
+        3452,
+        2802
+      ],
+      [
+        3454,
+        2800
+      ],
+      [
+        3451,
+        2799
+      ],
+      [
+        3450,
+        2798
+      ],
+      [
+        3451,
+        2797
+      ],
+      [
+        3457,
+        2797
+      ],
+      [
+        3458,
+        2796
+      ]
+    ]
+  ]
+}

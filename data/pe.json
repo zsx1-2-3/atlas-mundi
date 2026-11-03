@@ -1,1 +1,1296 @@
-{"qid":"Q419","iso_a2":"PE","iso_a3":"PER","name_zh":"秘鲁","name_en":"Peru","capital":"利马","continent":"南美洲","centroid":[-76,-9.4],"centroid_source":"wikidata P625","languages":[{"code":"es","name_zh":"西班牙语","name_local":"西班牙语","role":"official","audio_url":"assets/pe/audio/es.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenidos al Perú, un país de contrastes donde el océano, la cordillera y la selva se encuentran; su capital es Lima, ciudad de balcones y niebla costera, y entre sus lugares más emblemáticos destaca Machu Picchu, la ciudadela inca suspendida entre montañas.","tts_text_zh":"欢迎来到秘鲁，这是一个海洋、山脉与雨林交汇的国度；它的首都是利马，一座遍布阳台、笼罩着海岸薄雾的城市，而在其最具代表性的名胜中，马丘比丘尤为瞩目——那座悬于群山之间的印加古城。","audio_voice":"es-AR-ElenaNeural","audio_bytes":98352},{"code":"ay","name_zh":"艾馬拉語","name_local":"艾馬拉語","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"qu","name_zh":"克丘亚语","name_local":"克丘亚语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"秘鲁共和国通称秘鲁，是南美洲西部的一个国家，西濒太平洋，北邻厄瓜多尔和哥伦比亚，东与巴西和玻利维亚接壤，南接智利。安第斯山脉纵贯国土南北，西部沿海地区为干旱的平原，东部有亚马孙盆地的热带雨林。全国划分为25个地区。秘鲁人口估计为3,200万，民族包括美洲原住民、欧洲人、非洲人和亚洲人。秘鲁孕育了美洲最早人类文明之一的小北史前文明，以及前哥伦布时期美洲的最大国家印加帝国。现在的秘鲁国体采用半总统制共和制。秘鲁是发展中国家，人类发展指数为中等，全国约有50%人口生活在贫穷之中，主要经济活动有农业、渔业、矿业以及制造业（如纺织品）。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":266,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E7%A7%98%E9%B2%81","title":"秘鲁"},"culture_excerpts":[{"section":"历史","text":"证据表明，秘鲁在大约公元前11,000年开始有人类的足迹。当地最早出现的复杂社会结构是公元前3,000至1,800年在沿海地区形成的小北史前文明，其后又相继出现查文文明、帕拉卡斯文明、纳斯卡文明、瓦里文明、奇穆文明和莫切文明。在公元15世纪，印加人建立了印加帝国，并维持了一个世纪。该帝国是前哥伦布时期美洲的最大国家。印第安社会建基于农业，使用灌溉和梯田等种植法；美洲驼饲养和渔业也十分重要。因为没有市场或金钱的概念，社群的维系依赖互惠和再分配等机制。1532年，弗朗西斯科·皮萨罗带领的征服者击败印加帝国皇帝阿塔瓦尔帕，西班牙自此开始对当地的统治。10年后，西班牙王国宣布成立秘鲁总督区，包含了西班牙在南美洲的大部分殖民地。总督福朗西斯科·托莱多于1570年代重组该国，银矿开采成为主要经济活动，被奴役的印第安人是主要的劳动力。秘鲁的矿藏为西班牙王国带来收入，也引发了一个伸延远至欧洲和菲律宾的贸易网络。但是，到了18世纪，减少中的银产量以及经济多样化大大削减了王国的收入。对此，王国实行波旁改革，增加税收，分割秘鲁总督区。新法例触发了图帕克·阿马鲁二世等人的起义，但他们全都被击败。19世纪初期，独立战争在南美洲各地暴发，但秘鲁仍是君主主义者的大本营。因为菁英分子在独立与继续效忠西班牙王室两个选项之间发生分化，秘鲁的独立要到何塞·德·圣马丁和西蒙·玻利瓦尔发起军事行动后才成事。共和国成立初期，各地区军事领袖之间的权力斗争导致政局不稳。随着玻利瓦尔组建拉丁美洲联盟的计划遭遇失败，秘鲁-玻利维亚邦联成立不久后又告瓦解，秘鲁的国家认同也开始建立。从1840到1860年代，在总统拉蒙·卡斯蒂利亚的统治之下，海鸟粪出口带动国家收入增加，秘鲁随之稳定发展。但直到1870年代，这些资源逐渐被耗尽，国家严重负债，政客的内斗重新展开。秘鲁在1879年至1883年间发生的太平洋战争被智利击败，在《安孔条约》和《利马条约》中割让阿里卡和塔拉帕卡省两省。保守主义政党公民党（Partido Civil）的执政暂缓了秘鲁战后的内部斗争，该党一直维持到独裁者奥古斯托·B·莱吉纳掌权。大萧条拖垮了莱吉纳政权，也引发了新一轮的政局混乱，秘鲁人民党随之而冒起。在往后的30年，秘鲁的政治形势都围绕着菁英分子联合军人与人民党的斗争发展。1968年，胡安·贝拉斯科·阿尔瓦拉多将军带领武装部队对费尔南多·贝朗德·特里总统发动政变。贝拉斯科夺权后进行激进的改革以促进发展，但无法获得广泛支持。 1975年，贝拉斯科被总理兼陆军部长弗朗西斯科·莫拉莱斯·贝穆德斯发动军事政变推翻，莫拉莱斯停止了贝拉斯科的改革进程，重新建立民主制度。 1980年代，秘鲁面临巨额外债、高速通货膨胀、猖獗的毒品走私活动以及大范围政治暴力。在阿尔韦托·藤森（本名藤森谦也）的统治下，国家开始复苏；但独裁、贪污和侵犯人权等指控迫使藤森在2000年备受争议的总统选举后辞职。藤森时代结束后，秘鲁尝试在打击贪污的同时保持经济增长，现任总统是藤森惠子。","chars":1249},{"section":"文化","text":"秘鲁是闻名世界的古印加文化发祥地，文化事务原由秘鲁国家文化局负责，2010年7月14日，秘鲁国会通过法案设立文化部，负责管理国家博物馆、广播电视局以及国家文化研究所等机构。秘鲁首位文化部长，着名的人类学家和历史学家胡安·马丁·奥西奥在9月4日宣誓就职。\n秘鲁文化主要来源于印第安和西班牙传统，但也被非洲、亚洲和欧洲族群影响。秘鲁早期的艺术可追溯至前印加文明的陶器、纺织品、首饰和雕塑。印加人维持了这些工艺的制作，并在建筑等领域取得较大的成就，其中包括马丘比丘古城的兴建。巴洛克艺术是殖民时期的主要艺术，但在一定程度受到当地传统的影响。这时宗教事物是艺术作品的主要描绘对象，当时大量兴建的教堂和库斯科画派就是当中的代表。独立后秘鲁艺术的发展停滞，直至20世纪初期印第安主义运动的兴起。自从1950年代，秘鲁艺术倾向折衷，且受到外国和当地潮流的冲击。\n秘鲁文学则起源于前哥伦布时期的口述传统。西班牙人在16世纪引入文字，殖民时期文学体裁有编年史和宗教文学。独立后，风俗主义和浪漫主义成为主要的文学流派，代表作家有里卡多·帕尔马。 20世纪初期印第安主义运动造就了西罗·阿莱格里亚、何塞·马里亚·阿格达斯、和塞萨尔·巴列霍等作家。 20世纪中期在拉丁美洲文学爆炸代表作家之一马里奥·巴尔加斯·略萨等人影响下，秘鲁文学变得更广为人知。\n秘鲁菜肴混合了印第安和西班牙特色，也受到非洲、阿拉伯、意大利、中国和日本等地的煮食方法的影响。尤其是一种与中国广东粤式料理与当地料理融和的秘鲁中餐在当地非常流行，在首都利马市内，一条街上至少有一个“Chifa”的招牌，chifa的名称由来据说是语自中国话“吃饭”的意思，虽然在当地这种料理被当作中国菜，并且中国餐馆遍步秘鲁各地，然而其料理却早已成为当地秘鲁式特色的饮食，已非原本的中国菜，而其他秘鲁著名菜式包括秘鲁炒牛柳、塞比切、丘佩和桑科恰多（西班牙语：Sancochado）。秘鲁丰富的气候特征为当地提供不同种类的植物和动物作煮食用途。最近，秘鲁菜肴因为其使用材料和煮食方法的多样式获得称誉。\n秘鲁音乐源于印第安、西班牙和非洲传统。西班牙人到达之前，不同宗教有不同的音乐表现方式，吹管乐器“quena”和敲击乐器“tinya”都比较常见。西班牙人引入了新型乐器如吉他和竖琴，之后又发展出传统乐器与新型乐器的混合体如“charango”。非洲传统对秘鲁音乐的贡献包括节奏以及敲击乐器“cajón”的引入。秘鲁传统舞蹈有“marinera”、“tondero”、“danza de tijeras”和“huayno”。","chars":1200},{"section":"人口","text":"秘鲁2020年人口约3,280万，是南美洲人口第4多的国家。 1950年到2000年间，该国的人口增长率从2.6%下降到1.6%；2050年估计人口将达到4,200万。截至2005年，72.6%人口居于城市地区，27.4%居于郊区。 1993年人口普查人口超过200,000的城市有利马、阿雷基帕、特鲁希略、奇克拉约、皮乌拉、伊基托斯、钦博特、库斯科和万卡约。\n秘鲁是多种族国家，在过去5个世纪由不同族群融合而成。印第安人原住民在西班牙人殖民统治之前已在秘鲁土地聚居数千年，但由于西班牙殖民者的大规模屠杀以及其带来的传染病散播，印第安人原住民的人口从1520年代的估计约900万下降到1620年的60万。西班牙人和非洲人在西班牙殖民统治期间大量涌入，与原住民互相融合。秘鲁独立后逐渐有来自英国、法国、德国、意大利和西班牙的欧洲移民定居。奴隶制度取消后，中国人在1850年代开始进入该国工作，并成为有较大影响力的族群。 2008年秘鲁华人约占1%，多为广东和福建等省的中国移民，部分华人已不懂中文了。其他移民包括阿拉伯人和日本人。","chars":1200}],"landmark_images":[{"title":"File:Machu Picchu seen from Huayna Picchu.jpg","caption_zh":"从瓦伊纳比丘俯瞰马丘比丘","caption":"从瓦伊纳比丘俯瞰马丘比丘","caption_commons":"Machu Picchu (The old mountain) seen from the Huayna Picchu (The young mountain)","kw":"Machu Picchu Peru","url":"assets/pe/L01.webp","thumb_url":"assets/pe/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/e/e3/Machu_Picchu_seen_from_Huayna_Picchu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"No machine-readable author provided. Xauxa assumed (based on copyright claims).","license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":127460,"caption_zh_manual":"马丘比丘","caption_zh_source":"llm_from_commons_filename","thumb_bytes":34832,"size":{"detail":"760x512","thumb":"400x269"},"encoding":"webp q72/q74 (源 1769x1191 1060KB JPEG)"},{"title":"File:Líneas de Nazca, Nazca, Perú, 2015-07-29, DD 44.JPG","caption_zh":"纳斯卡线条航拍","caption":"纳斯卡线条航拍","caption_commons":"Nazca Lines, Nazca, Peru","kw":"Nazca Lines Peru","url":"assets/pe/L02.webp","thumb_url":"assets/pe/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_44.JPG/1920px-L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_44.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Diego Delso","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":64524,"caption_zh_manual":"纳斯卡线条","caption_zh_source":"llm_from_commons_filename","thumb_bytes":19350,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 804KB JPEG)"},{"title":"File:00 1635 Reed Islands of Lake Titicaca.jpg","caption_zh":"的的喀喀湖芦苇岛","caption":"的的喀喀湖芦苇岛","caption_commons":"Titicacasee (liegt auf einer Höhe von 3.812 Metern auf der Altiplano-Hochebene):","kw":"Lake Titicaca Peru","url":"assets/pe/L03.webp","thumb_url":"assets/pe/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/00_1635_Reed_Islands_of_Lake_Titicaca.jpg/1920px-00_1635_Reed_Islands_of_Lake_Titicaca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"W. Bulach","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":96384,"caption_zh_manual":"的的喀喀湖","caption_zh_source":"llm_from_commons_filename","thumb_bytes":26904,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1280 846KB JPEG)"},{"title":"File:Catedral de la ciudad del Cusco.jpg","caption_zh":"库斯科古城大教堂","caption":"库斯科古城大教堂","caption_commons":"This is a photo of a monument in Peru, identified by ID","kw":"Cusco Plaza de Armas","url":"assets/pe/L04.webp","thumb_url":"assets/pe/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Catedral_de_la_ciudad_del_Cusco.jpg/1920px-Catedral_de_la_ciudad_del_Cusco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"PoolPs","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":61932,"caption_zh_manual":"库斯科古城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":18204,"size":{"detail":"760x507","thumb":"400x267"},"encoding":"webp q72/q74 (源 1920x1282 706KB JPEG)"},{"title":"File:Colca Canyon Puno.jpg","caption_zh":"科尔卡峡谷","caption":"科尔卡峡谷","caption_commons":"On way from Colca Canyon to Puno in Peru.","kw":"Colca Canyon Peru","url":"assets/pe/L05.webp","thumb_url":"assets/pe/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Colca_Canyon_Puno.jpg/1920px-Colca_Canyon_Puno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"world-wide-gifts.com","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":103586,"caption_zh_manual":"科尔卡峡谷","caption_zh_source":"llm_from_commons_filename","thumb_bytes":32638,"size":{"detail":"760x505","thumb":"400x266"},"encoding":"webp q72/q74 (源 1920x1277 754KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T14:52:18+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Peru.wav、Lb-Peru.ogg、LL-Q652 (ita)-Francyskus-Perù.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py PE","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 266 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节","LLM 质检[error] languages：艾马拉语条目名称写为“艾馬拉語”，与代码 ay 对应，但秘鲁官方语言应为克丘亚语(qu)，此处缺克丘亚语 → 补充 qu 克丘亚语为 official"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"安第斯山脉","evidence":"安第斯山脉纵贯国土南北"},{"v":"亚马孙盆地热带雨林","evidence":"东部又有亚马孙盆地的热带雨林"},{"v":"印加帝国","evidence":"前哥伦布时期美洲的最大国家印加帝国"},{"v":"小北史前文明","evidence":"美洲最早人类文明之一的小北史前文明"},{"v":"奇楚瓦语","evidence":"奇楚瓦语：Piruw"},{"v":"艾马拉语","evidence":"艾马拉语：Piruw"}],"model":"deepseek-flash"},"summary_text_raw":"秘（bì）鲁共和国（西班牙语：República del Perú；奇楚瓦语：Piruw Ripuwlika；艾马拉语：Piruwxa Ripuwlika），通称秘鲁（西班牙语：Perú ；奇楚瓦语：Piruw；艾马拉语：Piruw），是南美洲西部的一个国家，北邻厄瓜多尔和哥伦比亚，东与巴西和玻利维亚接壤，南接智利，西濒太平洋，是南美洲国家联盟的成员国（被暂停资格）。\n秘鲁孕育了美洲最早人类文明之一的小北史前文明，以及前哥伦布时期美洲的最大国家印加帝国。16世纪，西班牙帝国征服印加帝国，建立秘鲁总督区，包含西班牙在南美洲的大部分殖民地。1821年独立后，秘鲁既经历了政治动荡、财政危机，也有出现政局稳定、经济发展的时期。\n现在的秘鲁国体采用半总统制共和制，全国划分为25个地区。安第斯山脉纵贯国土南北，西部沿海地区则为干旱的平原，东部又有亚马孙盆地的热带雨林。秘鲁是发展中国家，人类发展指数为中等，全国约有50%人口生活在贫穷之中，主要经济活动有农业、渔业、矿业以及制造业（如纺织品）。\n秘鲁人口估计为3,200万，民族包括美洲原住民、欧洲人、非洲人和亚洲人。","history_text":"约公元前11,000年已有人类足迹，沿海先后兴起小北史前文明与查文、纳斯卡、莫切等文化。15世纪印加人建立前哥伦布时期美洲最大国家，1532年皮萨罗击败印加皇帝阿塔瓦尔帕，西班牙自此统治并设秘鲁总督区，银矿开采成为经济支柱。19世纪初独立战争席卷南美，秘鲁于1821年独立，此后经历政治动荡与财政危机，也有稳定发展的时期。","custom_text":"陶器、纺织品、首饰与雕塑的工艺可追溯至前印加文明，印加人延续制作并在建筑上留下马丘比丘古城。殖民时期大量兴建教堂，宗教题材主导艺术，形成库斯科画派。文学起于前哥伦布时期的口述传统，西班牙人带来文字后，编年史与宗教文学盛行，独立后风俗主义与浪漫主义成为主流。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":161,"folk":128}},"knowledge_qa":[{"q":"秘鲁在哪儿啊？周围都是哪些国家？","a":"秘鲁在南美洲西部，北边挨着厄瓜多尔和哥伦比亚，东边是巴西和玻利维亚，南边接智利，西边就是太平洋。","tags":["南美洲","地理位置","邻国","太平洋"]},{"q":"秘鲁的首都是哪里？","a":"首都就是利马。","tags":["首都","利马","城市"]},{"q":"秘鲁人平时说什么语言？","a":"官方语言是西班牙语和艾马拉语，另外简介里还提到奇楚瓦语。","tags":["语言","西班牙语","艾马拉语","方言"]},{"q":"秘鲁有什么值得去看的景点？","a":"马丘比丘、纳斯卡线条、的的喀喀湖、库斯科古城和科尔卡峡谷都挺有名的。","tags":["景点","马丘比丘","纳斯卡线条","旅游"]},{"q":"秘鲁有什么好吃的或者特产？","a":"主要经济活动有农业、渔业、矿业和制造业，比如纺织品，但具体吃什么资料里没细说。","tags":["吃什么","特产","渔业","农业"]},{"q":"秘鲁有什么传统节日或者习俗？","a":"资料里没提具体的节日和习俗，只说了民族包括美洲原住民、欧洲人、非洲人和亚洲人。","tags":["节日","习俗","文化","民族"]},{"q":"秘鲁的地形是什么样的？","a":"安第斯山脉纵贯南北，西部沿海是干旱平原，东部有亚马孙盆地的热带雨林。","tags":["地形","安第斯山脉","雨林","沿海"]},{"q":"秘鲁人口大概多少？都有哪些民族？","a":"人口估计3200万，民族有美洲原住民、欧洲人、非洲人和亚洲人。","tags":["人口","民族","多少人"]}],"llm_audit":{"issues":[{"field":"languages","severity":"error","why":"艾马拉语条目名称写为“艾馬拉語”，与代码 ay 对应，但秘鲁官方语言应为克丘亚语(qu)，此处缺克丘亚语","suggest":"补充 qu 克丘亚语为 official"}],"overall":"warn"},"audio_meta":{},"outline":[[[-6951,-1751],[-6985,-1769],[-6978,-1798],[-6997,-1825],[-7040,-1834],[-7138,-1770],[-7140,-1740],[-7152,-1728],[-7212,-1702],[-7244,-1671],[-7278,-1663],[-7342,-1629],[-7370,-1624],[-7405,-1596],[-7505,-1546],[-7551,-1492],[-7592,-1466],[-7615,-1422],[-7629,-1417],[-7629,-1390],[-7639,-1391],[-7636,-1380],[-7625,-1385],[-7618,-1354],[-7622,-1336],[-7680,-1251],[-7679,-1238],[-7718,-1207],[-7721,-1165],[-7765,-1129],[-7760,-1116],[-7767,-1093],[-7818,-1011],[-7823,-979],[-7837,-962],[-7842,-936],[-7853,-927],[-7850,-919],[-7855,-924],[-7861,-918],[-7856,-913],[-7876,-878],[-7876,-861],[-7894,-844],[-7899,-822],[-7947,-772],[-7961,-727],[-7999,-676],[-8113,-604],[-8112,-585],[-8108,-579],[-8094,-585],[-8086,-565],[-8093,-546],[-8120,-521],[-8116,-507],[-8106,-502],[-8134,-468],[-8133,-448],[-8126,-425],[-8081,-374],[-8054,-350],[-8039,-348],[-8034,-339],[-8027,-343],[-8017,-389],[-8033,-401],[-8049,-401],[-8047,-421],[-8034,-420],[-8048,-443],[-8038,-448],[-8014,-428],[-7983,-448],[-7966,-444],[-7951,-453],[-7945,-481],[-7930,-496],[-7906,-501],[-7890,-484],[-7890,-469],[-7867,-455],[-7868,-433],[-7842,-379],[-7835,-339],[-7823,-351],[-7816,-348],[-7820,-336],[-7787,-299],[-7662,-254],[-7609,-213],[-7557,-154],[-7541,-92],[-7523,-96],[-7530,-75],[-7526,-54],[-7564,-11],[-7534,-15],[-7521,-3],[-7493,-21],[-7482,-17],[-7479,-31],[-7464,-34],[-7442,-54],[-7427,-97],[-7408,-99],[-7386,-121],[-7364,-125],[-7350,-148],[-7353,-167],[-7335,-179],[-7319,-179],[-7311,-207],[-7320,-221],[-7294,-242],[-7273,-237],[-7270,-242],[-7264,-233],[-7238,-245],[-7218,-241],[-7195,-232],[-7175,-213],[-7154,-222],[-7150,-232],[-7146,-226],[-7142,-238],[-7099,-220],[-7071,-233],[-7065,-245],[-7058,-240],[-7036,-249],[-7036,-256],[-7027,-255],[-7015,-267],[-7011,-262],[-7005,-271],[-7073,-378],[-7049,-388],[-7031,-383],[-7001,-416],[-6999,-432],[-7014,-426],[-7021,-434],[-7033,-414],[-7058,-420],[-7065,-412],[-7083,-418],[-7097,-438],[-7126,-438],[-7136,-446],[-7191,-452],[-7239,-479],[-7264,-506],[-7292,-513],[-7298,-565],[-7324,-608],[-7315,-648],[-7376,-689],[-7381,-710],[-7371,-730],[-7398,-736],[-7394,-745],[-7402,-754],[-7371,-779],[-7378,-794],[-7367,-801],[-7354,-836],[-7336,-848],[-7335,-860],[-7298,-898],[-7297,-913],[-7322,-941],[-7281,-941],[-7231,-953],[-7216,-989],[-7220,-1001],[-7130,-999],[-7053,-943],[-7062,-957],[-7054,-971],[-7064,-985],[-7064,-1101],[-7053,-1094],[-7029,-1106],[-6996,-1092],[-6958,-1095],[-6868,-1250],[-6879,-1262],[-6877,-1271],[-6898,-1287],[-6897,-1350],[-6910,-1367],[-6886,-1419],[-6901,-1425],[-6899,-1438],[-6924,-1457],[-6927,-1475],[-6937,-1480],[-6938,-1498],[-6915,-1523],[-6943,-1563],[-6918,-1620],[-6898,-1621],[-6883,-1633],[-6903,-1645],[-6904,-1667],[-6918,-1673],[-6943,-1709],[-6962,-1719],[-6967,-1729],[-6952,-1737],[-6951,-1751]],[[-7723,-1206],[-7718,-1212],[-7720,-1212],[-7724,-1209],[-7725,-1206],[-7723,-1206]],[[-8084,-638],[-8086,-641],[-8084,-643],[-8084,-648],[-8086,-648],[-8088,-643],[-8085,-638],[-8084,-638]],[[-7619,-1426],[-7618,-1429],[-7618,-1430],[-7622,-1428],[-7621,-1426],[-7619,-1426]]]}
+{
+  "qid": "Q419",
+  "iso_a2": "PE",
+  "iso_a3": "PER",
+  "name_zh": "秘鲁",
+  "name_en": "Peru",
+  "capital": "利马",
+  "continent": "南美洲",
+  "centroid": [
+    -76,
+    -9.4
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "es",
+      "name_zh": "西班牙语",
+      "name_local": "西班牙语",
+      "role": "official",
+      "audio_url": "assets/pe/audio/es.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenidos al Perú, un país de contrastes donde el océano, la cordillera y la selva se encuentran; su capital es Lima, ciudad de balcones y niebla costera, y entre sus lugares más emblemáticos destaca Machu Picchu, la ciudadela inca suspendida entre montañas.",
+      "tts_text_zh": "欢迎来到秘鲁，这是一个海洋、山脉与雨林交汇的国度；它的首都是利马，一座遍布阳台、笼罩着海岸薄雾的城市，而在其最具代表性的名胜中，马丘比丘尤为瞩目——那座悬于群山之间的印加古城。",
+      "audio_voice": "es-AR-ElenaNeural",
+      "audio_bytes": 98352
+    },
+    {
+      "code": "ay",
+      "name_zh": "艾馬拉語",
+      "name_local": "艾馬拉語",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "qu",
+      "name_zh": "克丘亚语",
+      "name_local": "克丘亚语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "秘鲁共和国通称秘鲁，是南美洲西部的一个国家，西濒太平洋，北邻厄瓜多尔和哥伦比亚，东与巴西和玻利维亚接壤，南接智利。安第斯山脉纵贯国土南北，西部沿海地区为干旱的平原，东部有亚马孙盆地的热带雨林。全国划分为25个地区。秘鲁人口估计为3,200万，民族包括美洲原住民、欧洲人、非洲人和亚洲人。秘鲁孕育了美洲最早人类文明之一的小北史前文明，以及前哥伦布时期美洲的最大国家印加帝国。现在的秘鲁国体采用半总统制共和制。秘鲁是发展中国家，人类发展指数为中等，全国约有50%人口生活在贫穷之中，主要经济活动有农业、渔业、矿业以及制造业（如纺织品）。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 266,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E7%A7%98%E9%B2%81",
+    "title": "秘鲁"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "证据表明，秘鲁在大约公元前11,000年开始有人类的足迹。当地最早出现的复杂社会结构是公元前3,000至1,800年在沿海地区形成的小北史前文明，其后又相继出现查文文明、帕拉卡斯文明、纳斯卡文明、瓦里文明、奇穆文明和莫切文明。在公元15世纪，印加人建立了印加帝国，并维持了一个世纪。该帝国是前哥伦布时期美洲的最大国家。印第安社会建基于农业，使用灌溉和梯田等种植法；美洲驼饲养和渔业也十分重要。因为没有市场或金钱的概念，社群的维系依赖互惠和再分配等机制。1532年，弗朗西斯科·皮萨罗带领的征服者击败印加帝国皇帝阿塔瓦尔帕，西班牙自此开始对当地的统治。10年后，西班牙王国宣布成立秘鲁总督区，包含了西班牙在南美洲的大部分殖民地。总督福朗西斯科·托莱多于1570年代重组该国，银矿开采成为主要经济活动，被奴役的印第安人是主要的劳动力。秘鲁的矿藏为西班牙王国带来收入，也引发了一个伸延远至欧洲和菲律宾的贸易网络。但是，到了18世纪，减少中的银产量以及经济多样化大大削减了王国的收入。对此，王国实行波旁改革，增加税收，分割秘鲁总督区。新法例触发了图帕克·阿马鲁二世等人的起义，但他们全都被击败。19世纪初期，独立战争在南美洲各地暴发，但秘鲁仍是君主主义者的大本营。因为菁英分子在独立与继续效忠西班牙王室两个选项之间发生分化，秘鲁的独立要到何塞·德·圣马丁和西蒙·玻利瓦尔发起军事行动后才成事。共和国成立初期，各地区军事领袖之间的权力斗争导致政局不稳。随着玻利瓦尔组建拉丁美洲联盟的计划遭遇失败，秘鲁-玻利维亚邦联成立不久后又告瓦解，秘鲁的国家认同也开始建立。从1840到1860年代，在总统拉蒙·卡斯蒂利亚的统治之下，海鸟粪出口带动国家收入增加，秘鲁随之稳定发展。但直到1870年代，这些资源逐渐被耗尽，国家严重负债，政客的内斗重新展开。秘鲁在1879年至1883年间发生的太平洋战争被智利击败，在《安孔条约》和《利马条约》中割让阿里卡和塔拉帕卡省两省。保守主义政党公民党（Partido Civil）的执政暂缓了秘鲁战后的内部斗争，该党一直维持到独裁者奥古斯托·B·莱吉纳掌权。大萧条拖垮了莱吉纳政权，也引发了新一轮的政局混乱，秘鲁人民党随之而冒起。在往后的30年，秘鲁的政治形势都围绕着菁英分子联合军人与人民党的斗争发展。1968年，胡安·贝拉斯科·阿尔瓦拉多将军带领武装部队对费尔南多·贝朗德·特里总统发动政变。贝拉斯科夺权后进行激进的改革以促进发展，但无法获得广泛支持。 1975年，贝拉斯科被总理兼陆军部长弗朗西斯科·莫拉莱斯·贝穆德斯发动军事政变推翻，莫拉莱斯停止了贝拉斯科的改革进程，重新建立民主制度。 1980年代，秘鲁面临巨额外债、高速通货膨胀、猖獗的毒品走私活动以及大范围政治暴力。在阿尔韦托·藤森（本名藤森谦也）的统治下，国家开始复苏；但独裁、贪污和侵犯人权等指控迫使藤森在2000年备受争议的总统选举后辞职。藤森时代结束后，秘鲁尝试在打击贪污的同时保持经济增长，现任总统是藤森惠子。",
+      "chars": 1249
+    },
+    {
+      "section": "文化",
+      "text": "秘鲁是闻名世界的古印加文化发祥地，文化事务原由秘鲁国家文化局负责，2010年7月14日，秘鲁国会通过法案设立文化部，负责管理国家博物馆、广播电视局以及国家文化研究所等机构。秘鲁首位文化部长，着名的人类学家和历史学家胡安·马丁·奥西奥在9月4日宣誓就职。\n秘鲁文化主要来源于印第安和西班牙传统，但也被非洲、亚洲和欧洲族群影响。秘鲁早期的艺术可追溯至前印加文明的陶器、纺织品、首饰和雕塑。印加人维持了这些工艺的制作，并在建筑等领域取得较大的成就，其中包括马丘比丘古城的兴建。巴洛克艺术是殖民时期的主要艺术，但在一定程度受到当地传统的影响。这时宗教事物是艺术作品的主要描绘对象，当时大量兴建的教堂和库斯科画派就是当中的代表。独立后秘鲁艺术的发展停滞，直至20世纪初期印第安主义运动的兴起。自从1950年代，秘鲁艺术倾向折衷，且受到外国和当地潮流的冲击。\n秘鲁文学则起源于前哥伦布时期的口述传统。西班牙人在16世纪引入文字，殖民时期文学体裁有编年史和宗教文学。独立后，风俗主义和浪漫主义成为主要的文学流派，代表作家有里卡多·帕尔马。 20世纪初期印第安主义运动造就了西罗·阿莱格里亚、何塞·马里亚·阿格达斯、和塞萨尔·巴列霍等作家。 20世纪中期在拉丁美洲文学爆炸代表作家之一马里奥·巴尔加斯·略萨等人影响下，秘鲁文学变得更广为人知。\n秘鲁菜肴混合了印第安和西班牙特色，也受到非洲、阿拉伯、意大利、中国和日本等地的煮食方法的影响。尤其是一种与中国广东粤式料理与当地料理融和的秘鲁中餐在当地非常流行，在首都利马市内，一条街上至少有一个“Chifa”的招牌，chifa的名称由来据说是语自中国话“吃饭”的意思，虽然在当地这种料理被当作中国菜，并且中国餐馆遍步秘鲁各地，然而其料理却早已成为当地秘鲁式特色的饮食，已非原本的中国菜，而其他秘鲁著名菜式包括秘鲁炒牛柳、塞比切、丘佩和桑科恰多（西班牙语：Sancochado）。秘鲁丰富的气候特征为当地提供不同种类的植物和动物作煮食用途。最近，秘鲁菜肴因为其使用材料和煮食方法的多样式获得称誉。\n秘鲁音乐源于印第安、西班牙和非洲传统。西班牙人到达之前，不同宗教有不同的音乐表现方式，吹管乐器“quena”和敲击乐器“tinya”都比较常见。西班牙人引入了新型乐器如吉他和竖琴，之后又发展出传统乐器与新型乐器的混合体如“charango”。非洲传统对秘鲁音乐的贡献包括节奏以及敲击乐器“cajón”的引入。秘鲁传统舞蹈有“marinera”、“tondero”、“danza de tijeras”和“huayno”。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "秘鲁2020年人口约3,280万，是南美洲人口第4多的国家。 1950年到2000年间，该国的人口增长率从2.6%下降到1.6%；2050年估计人口将达到4,200万。截至2005年，72.6%人口居于城市地区，27.4%居于郊区。 1993年人口普查人口超过200,000的城市有利马、阿雷基帕、特鲁希略、奇克拉约、皮乌拉、伊基托斯、钦博特、库斯科和万卡约。\n秘鲁是多种族国家，在过去5个世纪由不同族群融合而成。印第安人原住民在西班牙人殖民统治之前已在秘鲁土地聚居数千年，但由于西班牙殖民者的大规模屠杀以及其带来的传染病散播，印第安人原住民的人口从1520年代的估计约900万下降到1620年的60万。西班牙人和非洲人在西班牙殖民统治期间大量涌入，与原住民互相融合。秘鲁独立后逐渐有来自英国、法国、德国、意大利和西班牙的欧洲移民定居。奴隶制度取消后，中国人在1850年代开始进入该国工作，并成为有较大影响力的族群。 2008年秘鲁华人约占1%，多为广东和福建等省的中国移民，部分华人已不懂中文了。其他移民包括阿拉伯人和日本人。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Machu Picchu seen from Huayna Picchu.jpg",
+      "caption_zh": "从瓦伊纳比丘俯瞰马丘比丘",
+      "caption": "从瓦伊纳比丘俯瞰马丘比丘",
+      "caption_commons": "Machu Picchu (The old mountain) seen from the Huayna Picchu (The young mountain)",
+      "kw": "Machu Picchu Peru",
+      "url": "assets/pe/L01.webp",
+      "thumb_url": "assets/pe/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Machu_Picchu_seen_from_Huayna_Picchu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "No machine-readable author provided. Xauxa assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 249062,
+      "caption_zh_manual": "马丘比丘",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 13480,
+      "size": {
+        "detail": "1080x727",
+        "thumb": "240x162"
+      },
+      "encoding": "webp q75/q78 (源 1769x1191 1060KB JPEG)"
+    },
+    {
+      "title": "File:Líneas de Nazca, Nazca, Perú, 2015-07-29, DD 44.JPG",
+      "caption_zh": "纳斯卡线条航拍",
+      "caption": "纳斯卡线条航拍",
+      "caption_commons": "Nazca Lines, Nazca, Peru",
+      "kw": "Nazca Lines Peru",
+      "url": "assets/pe/L02.webp",
+      "thumb_url": "assets/pe/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_44.JPG/1920px-L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_44.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 137084,
+      "caption_zh_manual": "纳斯卡线条",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8026,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 804KB JPEG)"
+    },
+    {
+      "title": "File:00 1635 Reed Islands of Lake Titicaca.jpg",
+      "caption_zh": "的的喀喀湖芦苇岛",
+      "caption": "的的喀喀湖芦苇岛",
+      "caption_commons": "Titicacasee (liegt auf einer Höhe von 3.812 Metern auf der Altiplano-Hochebene):",
+      "kw": "Lake Titicaca Peru",
+      "url": "assets/pe/L03.webp",
+      "thumb_url": "assets/pe/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/00_1635_Reed_Islands_of_Lake_Titicaca.jpg/1920px-00_1635_Reed_Islands_of_Lake_Titicaca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 191606,
+      "caption_zh_manual": "的的喀喀湖",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10070,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 846KB JPEG)"
+    },
+    {
+      "title": "File:Catedral de la ciudad del Cusco.jpg",
+      "caption_zh": "库斯科古城大教堂",
+      "caption": "库斯科古城大教堂",
+      "caption_commons": "This is a photo of a monument in Peru, identified by ID",
+      "kw": "Cusco Plaza de Armas",
+      "url": "assets/pe/L04.webp",
+      "thumb_url": "assets/pe/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Catedral_de_la_ciudad_del_Cusco.jpg/1920px-Catedral_de_la_ciudad_del_Cusco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "PoolPs",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 128500,
+      "caption_zh_manual": "库斯科古城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7866,
+      "size": {
+        "detail": "1080x721",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1282 706KB JPEG)"
+    },
+    {
+      "title": "File:Colca Canyon Puno.jpg",
+      "caption_zh": "科尔卡峡谷",
+      "caption": "科尔卡峡谷",
+      "caption_commons": "On way from Colca Canyon to Puno in Peru.",
+      "kw": "Colca Canyon Peru",
+      "url": "assets/pe/L05.webp",
+      "thumb_url": "assets/pe/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Colca_Canyon_Puno.jpg/1920px-Colca_Canyon_Puno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "world-wide-gifts.com",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 187846,
+      "caption_zh_manual": "科尔卡峡谷",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 13204,
+      "size": {
+        "detail": "1080x718",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1277 754KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T14:52:18+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Peru.wav、Lb-Peru.ogg、LL-Q652 (ita)-Francyskus-Perù.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py PE",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 266 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节",
+    "LLM 质检[error] languages：艾马拉语条目名称写为“艾馬拉語”，与代码 ay 对应，但秘鲁官方语言应为克丘亚语(qu)，此处缺克丘亚语 → 补充 qu 克丘亚语为 official"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "安第斯山脉",
+        "evidence": "安第斯山脉纵贯国土南北"
+      },
+      {
+        "v": "亚马孙盆地热带雨林",
+        "evidence": "东部又有亚马孙盆地的热带雨林"
+      },
+      {
+        "v": "印加帝国",
+        "evidence": "前哥伦布时期美洲的最大国家印加帝国"
+      },
+      {
+        "v": "小北史前文明",
+        "evidence": "美洲最早人类文明之一的小北史前文明"
+      },
+      {
+        "v": "奇楚瓦语",
+        "evidence": "奇楚瓦语：Piruw"
+      },
+      {
+        "v": "艾马拉语",
+        "evidence": "艾马拉语：Piruw"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "秘（bì）鲁共和国（西班牙语：República del Perú；奇楚瓦语：Piruw Ripuwlika；艾马拉语：Piruwxa Ripuwlika），通称秘鲁（西班牙语：Perú ；奇楚瓦语：Piruw；艾马拉语：Piruw），是南美洲西部的一个国家，北邻厄瓜多尔和哥伦比亚，东与巴西和玻利维亚接壤，南接智利，西濒太平洋，是南美洲国家联盟的成员国（被暂停资格）。\n秘鲁孕育了美洲最早人类文明之一的小北史前文明，以及前哥伦布时期美洲的最大国家印加帝国。16世纪，西班牙帝国征服印加帝国，建立秘鲁总督区，包含西班牙在南美洲的大部分殖民地。1821年独立后，秘鲁既经历了政治动荡、财政危机，也有出现政局稳定、经济发展的时期。\n现在的秘鲁国体采用半总统制共和制，全国划分为25个地区。安第斯山脉纵贯国土南北，西部沿海地区则为干旱的平原，东部又有亚马孙盆地的热带雨林。秘鲁是发展中国家，人类发展指数为中等，全国约有50%人口生活在贫穷之中，主要经济活动有农业、渔业、矿业以及制造业（如纺织品）。\n秘鲁人口估计为3,200万，民族包括美洲原住民、欧洲人、非洲人和亚洲人。",
+  "history_text": "约公元前11,000年已有人类足迹，沿海先后兴起小北史前文明与查文、纳斯卡、莫切等文化。15世纪印加人建立前哥伦布时期美洲最大国家，1532年皮萨罗击败印加皇帝阿塔瓦尔帕，西班牙自此统治并设秘鲁总督区，银矿开采成为经济支柱。19世纪初独立战争席卷南美，秘鲁于1821年独立，此后经历政治动荡与财政危机，也有稳定发展的时期。",
+  "custom_text": "陶器、纺织品、首饰与雕塑的工艺可追溯至前印加文明，印加人延续制作并在建筑上留下马丘比丘古城。殖民时期大量兴建教堂，宗教题材主导艺术，形成库斯科画派。文学起于前哥伦布时期的口述传统，西班牙人带来文字后，编年史与宗教文学盛行，独立后风俗主义与浪漫主义成为主流。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 161,
+      "folk": 128
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "秘鲁在哪儿啊？周围都是哪些国家？",
+      "a": "秘鲁在南美洲西部，北边挨着厄瓜多尔和哥伦比亚，东边是巴西和玻利维亚，南边接智利，西边就是太平洋。",
+      "tags": [
+        "南美洲",
+        "地理位置",
+        "邻国",
+        "太平洋"
+      ]
+    },
+    {
+      "q": "秘鲁的首都是哪里？",
+      "a": "首都就是利马。",
+      "tags": [
+        "首都",
+        "利马",
+        "城市"
+      ]
+    },
+    {
+      "q": "秘鲁人平时说什么语言？",
+      "a": "官方语言是西班牙语和艾马拉语，另外简介里还提到奇楚瓦语。",
+      "tags": [
+        "语言",
+        "西班牙语",
+        "艾马拉语",
+        "方言"
+      ]
+    },
+    {
+      "q": "秘鲁有什么值得去看的景点？",
+      "a": "马丘比丘、纳斯卡线条、的的喀喀湖、库斯科古城和科尔卡峡谷都挺有名的。",
+      "tags": [
+        "景点",
+        "马丘比丘",
+        "纳斯卡线条",
+        "旅游"
+      ]
+    },
+    {
+      "q": "秘鲁有什么好吃的或者特产？",
+      "a": "主要经济活动有农业、渔业、矿业和制造业，比如纺织品，但具体吃什么资料里没细说。",
+      "tags": [
+        "吃什么",
+        "特产",
+        "渔业",
+        "农业"
+      ]
+    },
+    {
+      "q": "秘鲁有什么传统节日或者习俗？",
+      "a": "资料里没提具体的节日和习俗，只说了民族包括美洲原住民、欧洲人、非洲人和亚洲人。",
+      "tags": [
+        "节日",
+        "习俗",
+        "文化",
+        "民族"
+      ]
+    },
+    {
+      "q": "秘鲁的地形是什么样的？",
+      "a": "安第斯山脉纵贯南北，西部沿海是干旱平原，东部有亚马孙盆地的热带雨林。",
+      "tags": [
+        "地形",
+        "安第斯山脉",
+        "雨林",
+        "沿海"
+      ]
+    },
+    {
+      "q": "秘鲁人口大概多少？都有哪些民族？",
+      "a": "人口估计3200万，民族有美洲原住民、欧洲人、非洲人和亚洲人。",
+      "tags": [
+        "人口",
+        "民族",
+        "多少人"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [
+      {
+        "field": "languages",
+        "severity": "error",
+        "why": "艾马拉语条目名称写为“艾馬拉語”，与代码 ay 对应，但秘鲁官方语言应为克丘亚语(qu)，此处缺克丘亚语",
+        "suggest": "补充 qu 克丘亚语为 official"
+      }
+    ],
+    "overall": "warn"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -6951,
+        -1751
+      ],
+      [
+        -6985,
+        -1769
+      ],
+      [
+        -6978,
+        -1798
+      ],
+      [
+        -6997,
+        -1825
+      ],
+      [
+        -7040,
+        -1834
+      ],
+      [
+        -7138,
+        -1770
+      ],
+      [
+        -7140,
+        -1740
+      ],
+      [
+        -7152,
+        -1728
+      ],
+      [
+        -7212,
+        -1702
+      ],
+      [
+        -7244,
+        -1671
+      ],
+      [
+        -7278,
+        -1663
+      ],
+      [
+        -7342,
+        -1629
+      ],
+      [
+        -7370,
+        -1624
+      ],
+      [
+        -7405,
+        -1596
+      ],
+      [
+        -7505,
+        -1546
+      ],
+      [
+        -7551,
+        -1492
+      ],
+      [
+        -7592,
+        -1466
+      ],
+      [
+        -7615,
+        -1422
+      ],
+      [
+        -7629,
+        -1417
+      ],
+      [
+        -7629,
+        -1390
+      ],
+      [
+        -7639,
+        -1391
+      ],
+      [
+        -7636,
+        -1380
+      ],
+      [
+        -7625,
+        -1385
+      ],
+      [
+        -7618,
+        -1354
+      ],
+      [
+        -7622,
+        -1336
+      ],
+      [
+        -7680,
+        -1251
+      ],
+      [
+        -7679,
+        -1238
+      ],
+      [
+        -7718,
+        -1207
+      ],
+      [
+        -7721,
+        -1165
+      ],
+      [
+        -7765,
+        -1129
+      ],
+      [
+        -7760,
+        -1116
+      ],
+      [
+        -7767,
+        -1093
+      ],
+      [
+        -7818,
+        -1011
+      ],
+      [
+        -7823,
+        -979
+      ],
+      [
+        -7837,
+        -962
+      ],
+      [
+        -7842,
+        -936
+      ],
+      [
+        -7853,
+        -927
+      ],
+      [
+        -7850,
+        -919
+      ],
+      [
+        -7855,
+        -924
+      ],
+      [
+        -7861,
+        -918
+      ],
+      [
+        -7856,
+        -913
+      ],
+      [
+        -7876,
+        -878
+      ],
+      [
+        -7876,
+        -861
+      ],
+      [
+        -7894,
+        -844
+      ],
+      [
+        -7899,
+        -822
+      ],
+      [
+        -7947,
+        -772
+      ],
+      [
+        -7961,
+        -727
+      ],
+      [
+        -7999,
+        -676
+      ],
+      [
+        -8113,
+        -604
+      ],
+      [
+        -8112,
+        -585
+      ],
+      [
+        -8108,
+        -579
+      ],
+      [
+        -8094,
+        -585
+      ],
+      [
+        -8086,
+        -565
+      ],
+      [
+        -8093,
+        -546
+      ],
+      [
+        -8120,
+        -521
+      ],
+      [
+        -8116,
+        -507
+      ],
+      [
+        -8106,
+        -502
+      ],
+      [
+        -8134,
+        -468
+      ],
+      [
+        -8133,
+        -448
+      ],
+      [
+        -8126,
+        -425
+      ],
+      [
+        -8081,
+        -374
+      ],
+      [
+        -8054,
+        -350
+      ],
+      [
+        -8039,
+        -348
+      ],
+      [
+        -8034,
+        -339
+      ],
+      [
+        -8027,
+        -343
+      ],
+      [
+        -8017,
+        -389
+      ],
+      [
+        -8033,
+        -401
+      ],
+      [
+        -8049,
+        -401
+      ],
+      [
+        -8047,
+        -421
+      ],
+      [
+        -8034,
+        -420
+      ],
+      [
+        -8048,
+        -443
+      ],
+      [
+        -8038,
+        -448
+      ],
+      [
+        -8014,
+        -428
+      ],
+      [
+        -7983,
+        -448
+      ],
+      [
+        -7966,
+        -444
+      ],
+      [
+        -7951,
+        -453
+      ],
+      [
+        -7945,
+        -481
+      ],
+      [
+        -7930,
+        -496
+      ],
+      [
+        -7906,
+        -501
+      ],
+      [
+        -7890,
+        -484
+      ],
+      [
+        -7890,
+        -469
+      ],
+      [
+        -7867,
+        -455
+      ],
+      [
+        -7868,
+        -433
+      ],
+      [
+        -7842,
+        -379
+      ],
+      [
+        -7835,
+        -339
+      ],
+      [
+        -7823,
+        -351
+      ],
+      [
+        -7816,
+        -348
+      ],
+      [
+        -7820,
+        -336
+      ],
+      [
+        -7787,
+        -299
+      ],
+      [
+        -7662,
+        -254
+      ],
+      [
+        -7609,
+        -213
+      ],
+      [
+        -7557,
+        -154
+      ],
+      [
+        -7541,
+        -92
+      ],
+      [
+        -7523,
+        -96
+      ],
+      [
+        -7530,
+        -75
+      ],
+      [
+        -7526,
+        -54
+      ],
+      [
+        -7564,
+        -11
+      ],
+      [
+        -7534,
+        -15
+      ],
+      [
+        -7521,
+        -3
+      ],
+      [
+        -7493,
+        -21
+      ],
+      [
+        -7482,
+        -17
+      ],
+      [
+        -7479,
+        -31
+      ],
+      [
+        -7464,
+        -34
+      ],
+      [
+        -7442,
+        -54
+      ],
+      [
+        -7427,
+        -97
+      ],
+      [
+        -7408,
+        -99
+      ],
+      [
+        -7386,
+        -121
+      ],
+      [
+        -7364,
+        -125
+      ],
+      [
+        -7350,
+        -148
+      ],
+      [
+        -7353,
+        -167
+      ],
+      [
+        -7335,
+        -179
+      ],
+      [
+        -7319,
+        -179
+      ],
+      [
+        -7311,
+        -207
+      ],
+      [
+        -7320,
+        -221
+      ],
+      [
+        -7294,
+        -242
+      ],
+      [
+        -7273,
+        -237
+      ],
+      [
+        -7270,
+        -242
+      ],
+      [
+        -7264,
+        -233
+      ],
+      [
+        -7238,
+        -245
+      ],
+      [
+        -7218,
+        -241
+      ],
+      [
+        -7195,
+        -232
+      ],
+      [
+        -7175,
+        -213
+      ],
+      [
+        -7154,
+        -222
+      ],
+      [
+        -7150,
+        -232
+      ],
+      [
+        -7146,
+        -226
+      ],
+      [
+        -7142,
+        -238
+      ],
+      [
+        -7099,
+        -220
+      ],
+      [
+        -7071,
+        -233
+      ],
+      [
+        -7065,
+        -245
+      ],
+      [
+        -7058,
+        -240
+      ],
+      [
+        -7036,
+        -249
+      ],
+      [
+        -7036,
+        -256
+      ],
+      [
+        -7027,
+        -255
+      ],
+      [
+        -7015,
+        -267
+      ],
+      [
+        -7011,
+        -262
+      ],
+      [
+        -7005,
+        -271
+      ],
+      [
+        -7073,
+        -378
+      ],
+      [
+        -7049,
+        -388
+      ],
+      [
+        -7031,
+        -383
+      ],
+      [
+        -7001,
+        -416
+      ],
+      [
+        -6999,
+        -432
+      ],
+      [
+        -7014,
+        -426
+      ],
+      [
+        -7021,
+        -434
+      ],
+      [
+        -7033,
+        -414
+      ],
+      [
+        -7058,
+        -420
+      ],
+      [
+        -7065,
+        -412
+      ],
+      [
+        -7083,
+        -418
+      ],
+      [
+        -7097,
+        -438
+      ],
+      [
+        -7126,
+        -438
+      ],
+      [
+        -7136,
+        -446
+      ],
+      [
+        -7191,
+        -452
+      ],
+      [
+        -7239,
+        -479
+      ],
+      [
+        -7264,
+        -506
+      ],
+      [
+        -7292,
+        -513
+      ],
+      [
+        -7298,
+        -565
+      ],
+      [
+        -7324,
+        -608
+      ],
+      [
+        -7315,
+        -648
+      ],
+      [
+        -7376,
+        -689
+      ],
+      [
+        -7381,
+        -710
+      ],
+      [
+        -7371,
+        -730
+      ],
+      [
+        -7398,
+        -736
+      ],
+      [
+        -7394,
+        -745
+      ],
+      [
+        -7402,
+        -754
+      ],
+      [
+        -7371,
+        -779
+      ],
+      [
+        -7378,
+        -794
+      ],
+      [
+        -7367,
+        -801
+      ],
+      [
+        -7354,
+        -836
+      ],
+      [
+        -7336,
+        -848
+      ],
+      [
+        -7335,
+        -860
+      ],
+      [
+        -7298,
+        -898
+      ],
+      [
+        -7297,
+        -913
+      ],
+      [
+        -7322,
+        -941
+      ],
+      [
+        -7281,
+        -941
+      ],
+      [
+        -7231,
+        -953
+      ],
+      [
+        -7216,
+        -989
+      ],
+      [
+        -7220,
+        -1001
+      ],
+      [
+        -7130,
+        -999
+      ],
+      [
+        -7053,
+        -943
+      ],
+      [
+        -7062,
+        -957
+      ],
+      [
+        -7054,
+        -971
+      ],
+      [
+        -7064,
+        -985
+      ],
+      [
+        -7064,
+        -1101
+      ],
+      [
+        -7053,
+        -1094
+      ],
+      [
+        -7029,
+        -1106
+      ],
+      [
+        -6996,
+        -1092
+      ],
+      [
+        -6958,
+        -1095
+      ],
+      [
+        -6868,
+        -1250
+      ],
+      [
+        -6879,
+        -1262
+      ],
+      [
+        -6877,
+        -1271
+      ],
+      [
+        -6898,
+        -1287
+      ],
+      [
+        -6897,
+        -1350
+      ],
+      [
+        -6910,
+        -1367
+      ],
+      [
+        -6886,
+        -1419
+      ],
+      [
+        -6901,
+        -1425
+      ],
+      [
+        -6899,
+        -1438
+      ],
+      [
+        -6924,
+        -1457
+      ],
+      [
+        -6927,
+        -1475
+      ],
+      [
+        -6937,
+        -1480
+      ],
+      [
+        -6938,
+        -1498
+      ],
+      [
+        -6915,
+        -1523
+      ],
+      [
+        -6943,
+        -1563
+      ],
+      [
+        -6918,
+        -1620
+      ],
+      [
+        -6898,
+        -1621
+      ],
+      [
+        -6883,
+        -1633
+      ],
+      [
+        -6903,
+        -1645
+      ],
+      [
+        -6904,
+        -1667
+      ],
+      [
+        -6918,
+        -1673
+      ],
+      [
+        -6943,
+        -1709
+      ],
+      [
+        -6962,
+        -1719
+      ],
+      [
+        -6967,
+        -1729
+      ],
+      [
+        -6952,
+        -1737
+      ],
+      [
+        -6951,
+        -1751
+      ]
+    ],
+    [
+      [
+        -7723,
+        -1206
+      ],
+      [
+        -7718,
+        -1212
+      ],
+      [
+        -7720,
+        -1212
+      ],
+      [
+        -7724,
+        -1209
+      ],
+      [
+        -7725,
+        -1206
+      ],
+      [
+        -7723,
+        -1206
+      ]
+    ],
+    [
+      [
+        -8084,
+        -638
+      ],
+      [
+        -8086,
+        -641
+      ],
+      [
+        -8084,
+        -643
+      ],
+      [
+        -8084,
+        -648
+      ],
+      [
+        -8086,
+        -648
+      ],
+      [
+        -8088,
+        -643
+      ],
+      [
+        -8085,
+        -638
+      ],
+      [
+        -8084,
+        -638
+      ]
+    ],
+    [
+      [
+        -7619,
+        -1426
+      ],
+      [
+        -7618,
+        -1429
+      ],
+      [
+        -7618,
+        -1430
+      ],
+      [
+        -7622,
+        -1428
+      ],
+      [
+        -7621,
+        -1426
+      ],
+      [
+        -7619,
+        -1426
+      ]
+    ]
+  ]
+}

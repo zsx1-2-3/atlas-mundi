@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-U">
+<meta name="build" content="2026-11-03-V">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1246,6 +1246,13 @@ body.panel-open #globe-stage{
    旗子模式下可以连点好几处，每个各钉一根、互不影响，也不跟着鼠标动；
    退出旗子模式时一起收掉。 */
 #time-pins{position:fixed;inset:0;z-index:32;pointer-events:none}
+/* 时间钉的锚点：零尺寸，每帧用 translate3d 挪到"那个地理位置"投影到屏幕的位置。
+   用 transform 而不是 left/top —— 拖拽和缩放时每帧都在动，走合成层才不抖。 */
+.tpin-anchor{
+  position:absolute;left:0;top:0;width:0;height:0;
+  will-change:transform,opacity;
+  transition:opacity .18s ease;
+}
 .tpin{
   position:absolute;display:flex;flex-direction:column;align-items:center;
   transform:translate(-50%,-100%);
@@ -5309,6 +5316,7 @@ body.panel-open #globe-stage{
 
     var pinLayer = document.getElementById('time-pins');
     var TPIN_MAX = 6;                      // 最多同时钉 6 个，再多就从最早的开始收
+    var pins = [];                         // { anchor, lat, lon } —— 位置靠经纬度每帧重算
 
     function showTimePin(cx, cy, ll) {
       if (!pinLayer) return;
@@ -5325,11 +5333,12 @@ body.panel-open #globe-stage{
       var ew = ll.lon >= 0 ? 'E' : 'W';
 
       /* 每个落点各自一个标记，互不覆盖 —— 连着点三处就有三个时间钉在那儿。
-         气泡里记的是**点击那一刻**的时间，所以定住以后不会再跟着走。 */
+         气泡里的时间是**点击那一刻**的，不会跟着走；但钉子的**位置**必须跟着地球：
+         它记的是经纬度，每帧重新投影到屏幕上，所以缩放、拖拽之后它仍然扎在同一个点上。 */
+      var anchor = document.createElement('div');
+      anchor.className = 'tpin-anchor';
       var d = document.createElement('div');
       d.className = 'tpin' + (cy < 150 ? ' below' : '');
-      d.style.left = cx + 'px';
-      d.style.top = cy + 'px';
       d.innerHTML =
         '<div class="tp-bubble"><b>' + (hh < 10 ? '0' : '') + hh + ':' +
           (mm < 10 ? '0' : '') + mm + '</b>　' +
@@ -5337,11 +5346,40 @@ body.panel-open #globe-stage{
           '<i>' + Math.abs(ll.lat).toFixed(1) + '°' + ns + '　' +
           Math.abs(ll.lon).toFixed(1) + '°' + ew + '</i></div>' +
         '<div class="tp-stem"></div>';
-      pinLayer.appendChild(d);
+      anchor.appendChild(d);
+      pinLayer.appendChild(anchor);
+      pins.push({ anchor: anchor, lat: ll.lat, lon: ll.lon });
 
       var kids = pinLayer.children;
-      while (kids.length > TPIN_MAX) pinLayer.removeChild(kids[0]);
+      while (kids.length > TPIN_MAX) { pinLayer.removeChild(kids[0]); pins.shift(); }
+      placePins();          // 立刻摆到位，别先闪在左上角
     }
+
+    /* 把每个钉子的经纬度投影回屏幕。每帧跑，最多 6 个，开销可以忽略。
+       背面（法线背对相机）直接淡出 —— 否则一个球背面的钉子会"穿"到正面来。 */
+    var _pv = null, _pw = null;
+    function placePins() {
+      if (!pins.length || !globe.sphere || !globe.camera) return;
+      if (!_pv) { _pv = new THREE.Vector3(); _pw = new THREE.Vector3(); }
+      var cam = globe.camera;
+      /* canvas 会跟着面板打开被整体上移（body.panel-open 给 #globe-stage 加了 transform），
+         所以必须用它的实际位置换算，不能拿视口尺寸直接算。 */
+      var r = cv.getBoundingClientRect();
+      for (var i = 0; i < pins.length; i++) {
+        var p = pins[i];
+        llToVec3(p.lon, p.lat, 1.004, _pv);
+        globe.sphere.localToWorld(_pv);
+        _pw.copy(cam.position).sub(_pv).normalize();
+        var facing = _pv.clone().normalize().dot(_pw);
+        var v = _pv.project(cam);
+        var x = r.left + (v.x * 0.5 + 0.5) * r.width;
+        var y = r.top + (-v.y * 0.5 + 0.5) * r.height;
+        p.anchor.style.transform = 'translate3d(' + x.toFixed(1) + 'px,' +
+                                   y.toFixed(1) + 'px,0)';
+        p.anchor.style.opacity = facing > 0.04 ? '' : '0';
+      }
+    }
+    globe.placePins = placePins;
 
     /* 退出旗子模式时全部收掉：先淡出再删，一起消失 */
     globe.hideTimePin = function () {
@@ -5351,6 +5389,7 @@ body.panel-open #globe-stage{
       });
       setTimeout(function () {
         if (pinLayer) pinLayer.innerHTML = '';
+        pins.length = 0;
       }, 180);
     };
 
@@ -5543,6 +5582,7 @@ body.panel-open #globe-stage{
         var lim2 = 78 * D2R;
         tilt.rotation.x = Math.max(-lim2, Math.min(lim2, tilt.rotation.x));
       }
+      if (pins.length) placePins();
       renderer.render(scene, camera);
       /* 每帧都更新。
          之前为了省集显的开销，飞行/拖拽时降到了 30 次/秒 —— 那是错的：

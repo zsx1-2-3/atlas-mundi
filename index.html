@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-AG">
+<meta name="build" content="2026-11-03-AH">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2106,14 +2106,30 @@ body.panel-open #globe-stage{
   var DETAIL_SEQ = 0;
   var DETAIL_ABORT = null;
 
-  /* 面板骨架：只留左边图片的微光。右边不再放灰条 —— 档案 JSON 百毫秒级就到，
-     灰条只会闪一下变成"破玩意"，还不如空着，等文字直接摆出来。
-     用户原话："文字这些不是一瞬间就已经全加载好了吗，那就直接摆好啊，
-     图片自己微光就可以了。" */
-  function buildSkeleton() {
+  /* 面板骨架：左边图片微光 + 右边先用 data/index.json 的轻量元数据
+     （首都/大洲/坐标）把版面填上 —— 这份索引首屏就有，不用等档案 JSON。
+     语言/边界/正文等完整档案到了再补。 */
+  function buildSkeleton(iso) {
     var wrap = el('div', 'dwrap');
     var left = el('div', 'dimg-wrap loading');   // 图片微光骨架
-    var right = el('div');                        // 右栏留空，JSON 到了直接填文字
+    var right = el('div');
+    var m = INDEX_META[String(iso || '').toUpperCase()];
+    if (m && (m.capital || m.cont)) {
+      var dl = el('dl', 'dmeta');
+      if (m.capital) {
+        dl.appendChild(el('dt', null, '首都'));
+        dl.appendChild(el('dd', null, m.capital));
+      }
+      if (m.cont) {
+        dl.appendChild(el('dt', null, '大洲'));
+        dl.appendChild(el('dd', null, m.cont));
+      }
+      if (m.lon != null && m.lat != null && isFinite(m.lon) && isFinite(m.lat)) {
+        dl.appendChild(el('dt', null, '坐标'));
+        dl.appendChild(el('dd', null, Number(m.lat).toFixed(2) + '°N, ' + Number(m.lon).toFixed(2) + '°E'));
+      }
+      right.appendChild(dl);
+    }
     wrap.appendChild(left);
     wrap.appendChild(right);
     return wrap;
@@ -2138,7 +2154,7 @@ body.panel-open #globe-stage{
     dTitle.textContent = (lm && lm.n) || iso;
     dSub.textContent = iso;
     dBody.innerHTML = '';
-    dBody.appendChild(buildSkeleton());
+    dBody.appendChild(buildSkeleton(iso));
     openPanel();
     if (typeof flyToCountry === 'function') flyToCountry(iso);
 
@@ -2168,6 +2184,12 @@ body.panel-open #globe-stage{
   /* 有完整档案的国家（data/index.json 里 status 不是 placeholder）。
      点地名时用它决定"开自己的，还是开归属国的"。 */
   var HAS_DOC = {};
+
+  /* data/index.json 里的轻量元数据（iso → 首都/大洲/坐标）。
+     这份索随首屏就加载好，所以面板一打开就能直接摆出首都/大洲/坐标，
+     不用等那份几十 KB 的完整档案 JSON。用户看到的是"首都大洲瞬间就有"，
+     完整档案到了再把语言、边界、正文补上。 */
+  var INDEX_META = {};
 
   /* 点一个地名之后到底开谁的档案：
      1. 自己有完整档案 → 开自己的
@@ -6306,9 +6328,16 @@ body.panel-open #globe-stage{
   fetchAny('data/index.json')
     .then(function (idx) {
       (idx.countries || []).forEach(function (c) {
-        if (c.status !== 'placeholder') {
-          HAS_DOC[String(c.iso_a2 || '').toUpperCase()] = 1;
-        }
+        var k = String(c.iso_a2 || '').toUpperCase();
+        if (!k) return;
+        if (c.status !== 'placeholder') HAS_DOC[k] = 1;
+        /* 轻量元数据留着：面板打开时先摆首都/大洲/坐标，不等完整档案 */
+        INDEX_META[k] = {
+          cont: c.continent || '',
+          capital: c.capital || '',
+          lon: (c.centroid || [])[0],
+          lat: (c.centroid || [])[1]
+        };
       });
       renderCards(idx.countries || []);
       var total = (idx.countries || []).length;

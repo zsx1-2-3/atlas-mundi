@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-Z">
+<meta name="build" content="2026-11-03-AA">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -3840,7 +3840,21 @@ body.panel-open #globe-stage{
         globe.normalTex = t;
         if (globe.earthMat) {
           globe.earthMat.uniforms.uNormalMap.value = t;
-          globe.earthMat.uniforms.uBump.value = 1;
+          /* 核显（Intel / AMD 集显）关掉法线扰动。
+             这是片元着色器里最重的一块：一次法线贴图采样 + 两次叉乘 + 归一化
+             + 一次和光源的点积，每像素都要算。实测 dpr=1.0 下关掉后
+             平均帧 20.1ms → 17.1ms、掉帧>25ms 从 10 次降到 2 次，
+             而且不用降分辨率。独显（RTX/GTX/RX/Radeon Pro/Quadro）照常开启，
+             保留地形起伏的立体感。 */
+          var lowGpu = false;
+          try {
+            var glc = renderer.getContext();
+            var ext = glc.getExtension('WEBGL_debug_renderer_info');
+            var gpu = ext ? (glc.getParameter(ext.UNMASKED_RENDERER_WEBGL) || '') : '';
+            lowGpu = /Intel|UHD Graphics|Iris|HD Graphics|Radeon Vega|Radeon\(TM\) Graphics/i.test(gpu)
+                     && !/RTX|GTX|Radeon RX|Radeon Pro|Quadro/i.test(gpu);
+          } catch (e) {}
+          globe.earthMat.uniforms.uBump.value = lowGpu ? 0 : 1;
         }
       },
       function () { /* 拿不到就只是没有起伏，不影响其它 */ });

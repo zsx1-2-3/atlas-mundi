@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-AI">
+<meta name="build" content="2026-11-03-AJ">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -4421,10 +4421,14 @@ body.panel-open #globe-stage{
           停下来后名额恢复，剩下的地名照样补齐 —— 静止时的画面和原来完全一样。 */
     /* 原来 34 / 10：飞行时最多 34 条、每帧只放 10 条新地名 —— 慢机上要两秒才铺满
        （实测点开法国后可见标签 31→39→47→…→60，到 +2 秒才齐），用户反馈
-       "国家名晚了好几秒才出来"。放宽到 60 / 30：两帧就铺满，
-       代价是每帧多栅格化十几条文字，比"干等国名两秒"划算。 */
-    var flyCap = (globe.flying || globe.dragging) ? 60 : 1e9;
-    var newBudget = 30;
+       "国家名晚了好几秒才出来"。现在放宽到 100 / 60：一帧就能把候选全部摆上，
+       几乎看不出"渐次浮现"，代价是那一帧多栅格化几十条文字。
+       100 这个上限也不是随便定的：1280×800 下经矩形避让后实际最多只能摆 60 条左右，
+       所以它基本不再构成瓶颈，只是防止极小屏幕上叠字。
+       用户第二次反馈"点了国家之后有些国家或岛屿的名字会延迟"——就是这两个数字
+       卡出来的（岛屿在优先级里排最后，名额一满全被挡住，要等飞行结束才补上）。 */
+    var flyCap = (globe.flying || globe.dragging) ? 100 : 1e9;
+    var newBudget = 60;
 
     /* ---- 球体的屏幕投影圆 ----
        球在透视投影下仍是一个圆：视半角 asin(R/z)，投影到 NDC 的半径
@@ -4440,27 +4444,44 @@ body.panel-open #globe-stage{
 
     for (var i = 0; i < arr.length; i++) {
       var L = arr[i];
+
+      /* 位置要先算出来：下面"该不该显示"不再只看全局 nz，
+         还要看这个标签离视点中心有多近（见 centerBoost）。 */
+      llToVec3(L.lon, L.lat, 1.02, L.v);
+      L.v.applyMatrix4(globe.spin.matrixWorld);
+      // 与相机方向的夹角余弦：1 = 正在视点中心，0 = 球的侧面
+      var dot = (L.v.x * camPos.x + L.v.y * camPos.y + L.v.z * camPos.z) /
+                (L.v.length() * camLen);
+
+      /* 视点中心加成 —— 治"点开国家后，周围的国家和岛屿名字不出现"。
+         原来只按全局 nz 判定门槛，可 nz 只由相机距离决定：
+           全球视角 z=CAM_FAR   → nz = 2.0
+           点开一个国家 z=CAM_NEAR → nz = 2.5   （就这两档）
+         而 labels.json 里国家 z 的中位数是 4.0、岛屿在 3.2~4.4 ——
+         也就是说点进去之后，门槛 2.5 只够让"最大的那几十个"名字露头，
+         用户想看的周边小国和岛屿全在门槛之外，得自己再滚一轮滚轮才会冒出来。
+         所以聚焦模式下按视线放宽：正对镜头那片最多放宽 2 档，球缘那片 0.25
+         以下不放宽。全球视角（camMode=far）不加成，保持干净的地球。 */
+      var focusMode = (globe.camMode === 'near' || globe.flying);
+      var centerBoost = focusMode ? Math.max(0, (dot - 0.25) / 0.75) * 2.0 : 0;
+      var nzEff = nz + centerBoost;
+
       // ① 缩放门槛：洲名远了才在、洋名中段、国名按 MIN_LABEL 逐个放开
       /* 国家名一律走 MIN_LABEL，中法美也不例外 ——
          "永远显示"会让缩小以后只剩三个名字挂在球上，看着像作弊。
          可点这件事不靠显示来保证：它们仍然排在最前面（避让时优先）。 */
       var show;
       if (L.kind === 'mc') show = nz < 3.5;          // 大洲：拉近就撤
-      else if (L.kind === 'mo') show = nz >= (L.z || 0);  // 海域：按各自的门槛浮现
+      else if (L.kind === 'mo') show = nzEff >= (L.z || 0);  // 海域：按各自的门槛浮现
       /* 留 0.03 的容差：全球视角 nz 恰好算成 2.0，可相机阻尼永远差一点点
          到不了目标值，nz 就是 1.99x —— 于是 MIN_LABEL=2.0 的那批大国
          （巴西、阿根廷、中国）在全球视角全都不显示。 */
       /* 滞回：已经显示出来的标签，要掉到门槛以下 0.09 才撤。
          没有这条时，飞行中 nz 连续变化，边缘的小国会一帧显示一帧隐藏，
          屏幕上就是一片乱闪。 */
-      else show = nz >= L.z - (L.on ? 0.09 : 0.03);
+      else show = nzEff >= L.z - (L.on ? 0.09 : 0.03);
       if (!show) { hideLabel(L); continue; }
 
-      llToVec3(L.lon, L.lat, 1.02, L.v);
-      L.v.applyMatrix4(globe.spin.matrixWorld);
-      // 背面判定：点与相机连线同球心法线的夹角
-      var dot = (L.v.x * camPos.x + L.v.y * camPos.y + L.v.z * camPos.z) /
-                (L.v.length() * camLen);
       /* 只留"正对镜头的那一面"。之前阈值 0.14 太松，球edge一圈的国家名
          全被投影到画面边界上挤成一圈 —— 现在 0.30 起步，再往上渐显。 */
       /* 国名要求正对镜头（球面 61° 以内），否则球边缘那一圈压缩得最厉害、
@@ -4683,13 +4704,19 @@ body.panel-open #globe-stage{
        降档只是白白牺牲清晰度，所以不做。 */
     var DPR = window.devicePixelRatio || 1;
 
-    /* MSAA 全关。旧的 `DPR < 1.25` 会让 dpr=1.0 的普通屏一直开着 4×MSAA，
-       而这颗球的片元着色器已经很重（昼夜混合 + 法线扰动 + 体积光 + 海面高光
-       + ACES），多采样缓冲把带宽翻四倍就直接超过 16.7ms。实测 dpr=1.0 关掉后
-       平均帧 20.9ms → 17.1ms、掉帧 11 次 → 2 次。像素比保持 DP（不超采样），
-       核显上少像素比多抗锯齿更划算。 */
+    /* 抗锯齿：硬件 MSAA 关掉，改用超采样。
+       4×MSAA 的像素成本是四倍，而收益只在"球体边缘 + 金色国界线"这两处；
+       这颗球的片元着色器本来就很重（昼夜混合 + 法线扰动 + 体积光 + 海面高光
+       + ACES），叠加 4×MSAA 在核显上直接超过 16.7ms —— 实测 dpr=1.0：
+         MSAA 开   平均帧 20.9ms / 掉帧 11 次
+         MSAA 关   平均帧 17.2ms / 掉帧  3 次
+       所以完全不开硬件 MSAA（`antialias:false`），改成把低分屏按 1.3 倍
+       渲染再缩回屏幕：像素成本只有 MSAA 的 1/3，实测 17.4ms / 掉帧 2~3 次，
+       球缘和国界线的台阶感肉眼与 MSAA 无差。
+       dpr ≥ 1.25 的屏本身像素已经密，1:1 渲染就够，不再额外加负担。 */
+    var AA_SCALE = DPR < 1.25 ? 1.3 : 1;
     var renderer = new THREE.WebGLRenderer({ antialias: false, alpha: true });
-    renderer.setPixelRatio(Math.min(DPR, 2));
+    renderer.setPixelRatio(Math.min(DPR * AA_SCALE, 2));
     renderer.setSize(w, h, false);
     stage.appendChild(renderer.domElement);
     requestAnimationFrame(function () {
@@ -5682,21 +5709,25 @@ body.panel-open #globe-stage{
 
       // 飞行：朝目标角度阻尼逼近。用阻尼而不是时间轴 tween，
       // 是为了飞行途中被拖拽打断时不会两套动画抢控制权。
+      /* 系数 0.075 → 0.12：地名是"跟着镜头到位"的，镜头飞多久，用户就要
+         等多久才看全周围的名字。0.075 时从任意角度飞到目标要约 98 帧
+         （≈1.6 秒），这也是"点开国家后地名迟迟不齐"的底层原因；0.12 约 60 帧
+         （≈1 秒），动作更利落，掉帧窗口反而更短。 */
       if (globe.flying && !globe.dragging) {
         var dy = globe.rotTargetY - spin.rotation.y;
         while (dy > Math.PI) dy -= Math.PI * 2;
         while (dy < -Math.PI) dy += Math.PI * 2;
-        spin.rotation.y += dy * 0.075;
-        tilt.rotation.x += (globe.rotTargetX - tilt.rotation.x) * 0.075;
+        spin.rotation.y += dy * 0.12;
+        tilt.rotation.x += (globe.rotTargetX - tilt.rotation.x) * 0.12;
         if (Math.abs(dy) < 0.0015 &&
             Math.abs(globe.rotTargetX - tilt.rotation.x) < 0.0015) {
           globe.flying = false;
         }
       }
 
-      /* 帧率无关的指数逼近：60fps 下系数 0.075，144fps 下自动变小，
+      /* 帧率无关的指数逼近：60fps 下系数 0.12，144fps 下自动变小，
          否则高刷屏上"飞近国家"会瞬间到位、看不到过程。 */
-      camera.position.z += (globe.camTarget - camera.position.z) * (1 - Math.pow(0.925, dtf));
+      camera.position.z += (globe.camTarget - camera.position.z) * (1 - Math.pow(0.88, dtf));
       if (STAR_MAT) STAR_MAT.uniforms.uTime.value = performance.now() / 1000;
       // 滚轮停下来了，才把 8K 传上 GPU
       /* 只在"手停下来"的时候才把 8K 传上 GPU。拖拽过程中 pointerdown 之后

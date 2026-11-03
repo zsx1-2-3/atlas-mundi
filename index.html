@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-AH">
+<meta name="build" content="2026-11-03-AI">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2109,27 +2109,13 @@ body.panel-open #globe-stage{
   /* 面板骨架：左边图片微光 + 右边先用 data/index.json 的轻量元数据
      （首都/大洲/坐标）把版面填上 —— 这份索引首屏就有，不用等档案 JSON。
      语言/边界/正文等完整档案到了再补。 */
+  /* 兜底骨架：只在 cards.json 还没到手、又确实要开面板时用。
+     只留左边图片的微光，右边什么都不放 —— 拼一半的信息（比如只有首都大洲）
+     和正式版面位置不一致，看起来像"先错一次再改对"，比空着更难受。 */
   function buildSkeleton(iso) {
     var wrap = el('div', 'dwrap');
     var left = el('div', 'dimg-wrap loading');   // 图片微光骨架
     var right = el('div');
-    var m = INDEX_META[String(iso || '').toUpperCase()];
-    if (m && (m.capital || m.cont)) {
-      var dl = el('dl', 'dmeta');
-      if (m.capital) {
-        dl.appendChild(el('dt', null, '首都'));
-        dl.appendChild(el('dd', null, m.capital));
-      }
-      if (m.cont) {
-        dl.appendChild(el('dt', null, '大洲'));
-        dl.appendChild(el('dd', null, m.cont));
-      }
-      if (m.lon != null && m.lat != null && isFinite(m.lon) && isFinite(m.lat)) {
-        dl.appendChild(el('dt', null, '坐标'));
-        dl.appendChild(el('dd', null, Number(m.lat).toFixed(2) + '°N, ' + Number(m.lon).toFixed(2) + '°E'));
-      }
-      right.appendChild(dl);
-    }
     wrap.appendChild(left);
     wrap.appendChild(right);
     return wrap;
@@ -2147,10 +2133,36 @@ body.panel-open #globe-stage{
     });
     if (typeof setActive === 'function') setActive(iso);
 
-    /* 面板一打开就把「国家名 + 框架」摆出来，不要留一句「读取中…」：
-       名字在 labels.json（LABEL_META）里现成就有，不用等档案；
-       正文用灰条骨架、图用微光骨架，JSON 到了再填。 */
-    var lm = LABEL_META && LABEL_META[String(iso).toUpperCase()];
+    var key = String(iso).toUpperCase();
+
+    /* ---------- 主路径：全部档案已经在内存里 ----------
+       cards.json 把 235 国的面板文字合成一份（走 OBS，约 0.5 秒下完，首屏之后
+       空闲时加载）。点开时直接拿对象渲染，标题、首都、大洲、坐标、正文、
+       文化特征、语音、图片清单一上进位 —— 版面一次到位，不存在"先摆一半
+       再改"的位置跳动。
+       以前是逐份 fetch data/xx.json：同源一个请求固定 1.2 秒延迟，所以点过
+       的国家（有缓存）秒出、没点过的空白大半个回合，用户看到的就是
+       "有的国家快、有的国家慢"。 */
+    var card = CARDS[key];
+    if (card) {
+      renderDetail(card, true);          // 里面会设 panelT0、标题、建好整棵树
+      openPanel();
+      if (typeof flyToCountry === 'function') flyToCountry(iso);
+      /* 卡片里不带 outline（235 份合计 446KB，不值当）。它只用来在球面上
+         先画一条粗线，等精细几何到了再覆盖 —— 静默补一次，不碰面板 DOM。 */
+      fetchAny('data/' + iso.toLowerCase() + '.json',
+               DETAIL_ABORT ? { signal: DETAIL_ABORT.signal } : undefined)
+        .then(function (d) {
+          if (seq !== DETAIL_SEQ || !d || !d.outline) return;
+          CARD_OUTLINE[key] = d.outline;
+          if (globe && globe.maybePreempt) globe.maybePreempt(key, d.outline);
+        })
+        .catch(function () { /* 补不到就算了，面板已经是完整的 */ });
+      return;
+    }
+
+    /* ---------- 兜底：卡片还没到，或者这个地区本来就没有档案 ---------- */
+    var lm = LABEL_META && LABEL_META[key];
     dTitle.textContent = (lm && lm.n) || iso;
     dSub.textContent = iso;
     dBody.innerHTML = '';
@@ -2168,7 +2180,7 @@ body.panel-open #globe-stage{
         if (seq !== DETAIL_SEQ || (e && e.name === 'AbortError')) return;
         /* 没有完整档案不等于"没有这个国家"。只要 meta 里有它，
            就给一张基础档案（几何 + 地名 + 人口），而不是一句读取失败。 */
-        if (LABEL_META && LABEL_META[String(iso).toUpperCase()]) {
+        if (LABEL_META && LABEL_META[key]) {
           if (window.console) console.info('[atlas] ' + iso + ' 无完整档案，使用基础档案：' + e.message);
           renderBasic(iso);
           return;
@@ -2185,11 +2197,39 @@ body.panel-open #globe-stage{
      点地名时用它决定"开自己的，还是开归属国的"。 */
   var HAS_DOC = {};
 
-  /* data/index.json 里的轻量元数据（iso → 首都/大洲/坐标）。
-     这份索随首屏就加载好，所以面板一打开就能直接摆出首都/大洲/坐标，
-     不用等那份几十 KB 的完整档案 JSON。用户看到的是"首都大洲瞬间就有"，
-     完整档案到了再把语言、边界、正文补上。 */
-  var INDEX_META = {};
+  /* ---------- 全量卡片：235 国面板文字合并成一份 ----------
+     同源一个请求有 1.2 秒固定延迟（实测 data/fr.json 31KB 也要 1.27 秒），
+     所以逐份取档案时，"点过的国家秒出、没点过的空白半天"。把面板要用的
+     字段全合并成 data/cards.json，首屏之后空闲时取一次，之后就都在内存里。
+     走 OBS：同一份文件 OBS 624KB/s，GitHub Pages 25KB/s，差 20 倍。 */
+  var CARDS = {};
+  var CARDS_LOADING = false;
+
+  function loadCards() {
+    if (CARDS_LOADING) return;
+    CARDS_LOADING = true;
+    var q = BUILD_TAG ? ('?v=' + encodeURIComponent(BUILD_TAG)) : '';
+    var urls = [OBS_BASE + 'data/cards.json' + q, 'data/cards.json' + q];
+    var i = 0;
+    (function next() {
+      if (i >= urls.length) { CARDS_LOADING = false; return; }
+      fetch(urls[i++])
+        .then(function (r) {
+          if (!r.ok) throw new Error('HTTP ' + r.status);
+          return r.json();
+        })
+        .then(function (o) { CARDS = o || {}; CARDS_LOADING = false; })
+        .catch(next);   // OBS 没对象就退回同源
+    })();
+  }
+
+  /* 首屏之后才开始取：地球和贴图先转起来，别和首屏抢带宽。
+     没取到之前用户点国家，走下面那条老路（骨架 + 单份档案），不会卡住。 */
+  function scheduleCards() {
+    setTimeout(loadCards, 300);
+  }
+  if (document.readyState === 'complete') scheduleCards();
+  else window.addEventListener('load', scheduleCards);
 
   /* 点一个地名之后到底开谁的档案：
      1. 自己有完整档案 → 开自己的
@@ -6331,13 +6371,6 @@ body.panel-open #globe-stage{
         var k = String(c.iso_a2 || '').toUpperCase();
         if (!k) return;
         if (c.status !== 'placeholder') HAS_DOC[k] = 1;
-        /* 轻量元数据留着：面板打开时先摆首都/大洲/坐标，不等完整档案 */
-        INDEX_META[k] = {
-          cont: c.continent || '',
-          capital: c.capital || '',
-          lon: (c.centroid || [])[0],
-          lat: (c.centroid || [])[1]
-        };
       });
       renderCards(idx.countries || []);
       var total = (idx.countries || []).length;

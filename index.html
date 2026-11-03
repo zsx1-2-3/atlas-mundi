@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-AE">
+<meta name="build" content="2026-11-03-AF">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2106,18 +2106,14 @@ body.panel-open #globe-stage{
   var DETAIL_SEQ = 0;
   var DETAIL_ABORT = null;
 
-  /* 面板骨架：左图（微光）+ 右文（灰条），撑起和真实内容一致的"左图右文"框架。
-     JSON 还没到时先摆这个，比一句光秃秃的"读取中…"好得多。 */
+  /* 面板骨架：只留左边图片的微光。右边不再放灰条 —— 档案 JSON 百毫秒级就到，
+     灰条只会闪一下变成"破玩意"，还不如空着，等文字直接摆出来。
+     用户原话："文字这些不是一瞬间就已经全加载好了吗，那就直接摆好啊，
+     图片自己微光就可以了。" */
   function buildSkeleton() {
     var wrap = el('div', 'dwrap');
-    var left = el('div', 'dimg-wrap loading');
-    var right = el('div');
-    right.appendChild(el('div', 'sk-line h1'));
-    for (var i = 0; i < 6; i++) {
-      var ln = el('div', 'sk-line');
-      ln.style.width = (52 + ((i * 13) % 44)) + '%';
-      right.appendChild(ln);
-    }
+    var left = el('div', 'dimg-wrap loading');   // 图片微光骨架
+    var right = el('div');                        // 右栏留空，JSON 到了直接填文字
     wrap.appendChild(left);
     wrap.appendChild(right);
     return wrap;
@@ -2523,7 +2519,7 @@ body.panel-open #globe-stage{
        分片里取 —— 那份数据本来就为"球面点亮国界"加载过，多半已在内存里。 */
     var geoBox = el('div', 'geo-box');
     geoBox.appendChild(el('div', 'sub-label', '国界轮廓'));
-    var svgHost = el('div', 'geo-svg', '读取边界数据…');
+    var svgHost = el('div', 'geo-svg');   /* 不再写"读取边界数据…"，等 SVG 直接画 */
     geoBox.appendChild(svgHost);
     right.appendChild(geoBox);
     /* 轮廓是一大串 path 字符串 + 一次布局，放在面板滑入动画之后再算，
@@ -2706,7 +2702,7 @@ body.panel-open #globe-stage{
     var right = el('div');
 
     var geoBox = el('div', 'geo-box');
-    var svgHost = el('div', 'geo-svg', '读取边界数据…');
+    var svgHost = el('div', 'geo-svg');   /* 不再写"读取边界数据…"，等 SVG 直接画 */
     geoBox.appendChild(svgHost);
     geoBox.appendChild(el('div', 'cap dim', '国界轮廓 · Natural Earth 1:50m · 公有领域'));
     left.appendChild(geoBox);

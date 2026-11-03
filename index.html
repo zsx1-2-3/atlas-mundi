@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-V">
+<meta name="build" content="2026-11-03-W">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -3503,7 +3503,44 @@ body.panel-open #globe-stage{
     var mat = new THREE.MeshBasicMaterial({
       map: tex, transparent: true, depthWrite: false, side: THREE.FrontSide
     });
-    return new THREE.Mesh(new THREE.SphereGeometry(radius, 96, 48), mat);
+    var out = new THREE.Mesh(new THREE.SphereGeometry(radius, 96, 48), mat);
+
+    /* 南北极各补一枚小球。
+       等距圆柱贴图在这里有个绕不过去的上限：极点附近所有经度被压进同一个 3D 点，
+       纹理的横向分辨率趋近于零，经线不管画多粗都会被压没 —— 所以贴图上的经线
+       在离极点还有十来度的地方就断了，看着是散开的，不像交汇。
+       两枚小球正好盖住那个缺口，十二条经线看起来就收于一点了。 */
+    /* 光补个点不够 —— 贴图的经线在离极点十二度左右就没了，中间还是空的。
+       所以这一小段（78°→90°）用 3D 线段补，十二条经线的末端都落在同一个极点坐标上，
+       才是真的交汇。线宽 1px 由 GPU 定，和贴图那边被压细的部分正好接得上。 */
+    var segPts = [], va = new THREE.Vector3(), vb = new THREE.Vector3();
+    for (var mlon = -180; mlon < 180; mlon += 30) {
+      for (var mlat = 78; mlat < 90; mlat += 2) {
+        llToVec3(mlon, mlat, radius, va);
+        llToVec3(mlon, mlat + 2, radius, vb);
+        segPts.push(va.x, va.y, va.z, vb.x, vb.y, vb.z);
+        llToVec3(mlon, -mlat, radius, va);
+        llToVec3(mlon, -(mlat + 2), radius, vb);
+        segPts.push(va.x, va.y, va.z, vb.x, vb.y, vb.z);
+      }
+    }
+    var segGeo = new THREE.BufferGeometry();
+    segGeo.setAttribute('position', new THREE.Float32BufferAttribute(segPts, 3));
+    out.add(new THREE.LineSegments(segGeo, new THREE.LineBasicMaterial({
+      color: 0xe2be78, transparent: true, opacity: 0.55, depthWrite: false
+    })));
+
+    /* 极点上再压一枚小球，把贴图与 3D 线的接缝盖住 */
+    var dotGeo = new THREE.SphereGeometry(radius * 0.0065, 10, 8);
+    var dotMat = new THREE.MeshBasicMaterial({
+      color: 0xe6c078, transparent: true, opacity: 0.9, depthWrite: false
+    });
+    [1, -1].forEach(function (sgn) {
+      var dot = new THREE.Mesh(dotGeo, dotMat);
+      dot.position.set(0, sgn * radius * 1.002, 0);
+      out.add(dot);
+    });
+    return out;
   }
 
   /* 世界坐标（球面）→ 经纬度 */

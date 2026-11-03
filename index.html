@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-AJ">
+<meta name="build" content="2026-11-03-AK">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -511,30 +511,56 @@
   }
   .sr-ex:hover{border-color:rgba(148,182,224,.45);color:var(--ink)}
 
-  .search-res{
-    margin-top:12px;border:1px solid var(--line);border-radius:10px;
-    overflow:hidden;background:rgba(255,255,255,.018);
-  }
+  /* 结果区：卡片的下半截（形状见下面 #q-res，样式集中在一处免得两套规则打架） */
+  .search-res{margin-top:0}
+
+  /* ---- 结果行：仿 Google 地图的形状 ----
+     左边一枚圆形图标底（国家=地图针，知识条目=文档），中间两行字
+     （主标题 + 灰色小字说明），右边可选动作。行与行之间不画分隔线 ——
+     Google 那里是靠留白分行的，画上线就变回"表格"了。 */
   .sr-item{
-    padding:11px 14px;border-bottom:1px solid var(--line);cursor:pointer;
-    transition:background .18s ease;
+    display:flex;align-items:center;gap:13px;
+    padding:10px 15px;cursor:pointer;
+    transition:background .16s ease;
   }
-  .sr-item:last-child{border-bottom:0}
-  .sr-item:hover{background:rgba(148,182,224,.06)}
-  .sr-top{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
-  .sr-country{
-    font-size:11px;letter-spacing:.05em;color:rgba(148,182,224,.9);
-    border:1px solid rgba(148,182,224,.3);border-radius:999px;
-    padding:1px 7px;flex:0 0 auto;
+  .sr-item:hover{background:rgba(148,182,224,.07)}
+  .sr-ico{
+    flex:0 0 auto;width:34px;height:34px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    background:rgba(148,182,224,.11);
+    color:rgba(186,212,244,.9);
+    transition:background .16s ease,color .16s ease;
   }
-  .sr-q{font-size:13.5px;color:var(--ink)}
-  .sr-a{font-size:12.5px;color:var(--ink-dim);line-height:1.65;margin-top:4px}
-  .sr-empty{padding:14px;font-size:12.5px;color:var(--ink-faint);line-height:1.6}
-  .sr-country-row{display:flex;align-items:center;gap:9px;padding:10px 14px}
-  /* "基础"标签：表示这个国家只有几何/地名/人口，多模态在队列里 */
+  .sr-item:hover .sr-ico{background:rgba(148,182,224,.18);color:rgba(214,232,252,.98)}
+  .sr-ico svg{
+    width:17px;height:17px;fill:none;stroke:currentColor;
+    stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;
+  }
+  .sr-txt{flex:1 1 auto;min-width:0}
+  .sr-name{
+    font-size:14px;line-height:1.35;color:var(--ink);
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .sr-sub{
+    margin-top:2px;font-size:12px;line-height:1.4;
+    color:rgba(168,190,218,.62);
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .sr-foot{
+    padding:11px 15px 13px;text-align:center;
+    font-size:11.5px;letter-spacing:.03em;
+    color:rgba(160,184,214,.5);
+    border-top:1px solid rgba(120,150,190,.13);
+  }
+  /* 兼容旧的居中行（其余地方还在用 sr-country-row） */
+  .sr-country-row{display:flex;align-items:center;gap:13px;padding:9px 15px}
+  .sr-empty{padding:16px;font-size:12.5px;color:var(--ink-faint);line-height:1.6}
+  /* "基础"标签：表示这个国家只有几何/地名/人口，多模态在队列里。
+     现在它跟在主标题后面（行内），所以要 inline-block 才能吃 padding。 */
   .sr-tag{
-    flex:0 0 auto;margin-left:6px;padding:0 5px;border-radius:4px;
-    font-size:10.5px;line-height:1.5;letter-spacing:.04em;
+    display:inline-block;vertical-align:middle;
+    margin-left:7px;padding:0 5px;border-radius:4px;
+    font-size:10.5px;line-height:1.6;letter-spacing:.04em;font-weight:400;
     color:rgba(174,206,240,.86);
     border:1px solid rgba(150,190,235,.26);
   }
@@ -739,8 +765,9 @@ body.panel-open #globe-stage{
    不会把谁挤得跳来跳去。
    金色只留给地球上的国界，控件一律冷色。 */
 .search-wrap{
-  position:relative;height:34px;flex:0 0 auto;
+  position:relative;height:44px;flex:0 0 auto;
   width:168px;
+  z-index:6;
   transition:width .46s cubic-bezier(.2,.9,.25,1);
 }
 .search-wrap.open{width:min(384px, 46vw)}
@@ -748,7 +775,7 @@ body.panel-open #globe-stage{
 .search-panel{
   position:absolute;inset:0;z-index:4;
   display:flex;align-items:center;
-  height:34px;border-radius:999px;overflow:hidden;
+  height:44px;border-radius:10px;overflow:hidden;
   /* 温润，但必须留在站点的冷色系里：
      上一版改用灰褐（暖）确实不刺眼了，可整站是"深空蓝 + 冷青高亮 + 金色国界"，
      一块暖灰胶囊贴上去像外来的控件。真正要改的是**对比**，不是色相。
@@ -767,7 +794,20 @@ body.panel-open #globe-stage{
     0 9px 26px rgba(0,0,0,.44),
     0 22px 52px rgba(0,0,0,.18);
   /* 没有任何 inset 亮线：近黑底面上那 1px 的内高光看着就像一道划痕。 */
-  transition:border-color .26s ease,background .26s ease,box-shadow .26s ease;
+  transition:border-color .26s ease,background .26s ease,box-shadow .26s ease,border-radius .2s ease;
+}
+/* 结果区一展开，输入行就变成卡片的上半截：只留上半圆角、底边不画线，
+   下半截交给 #q-res —— 两块拼起来是同一张卡片，不是"框 + 浮层"两个东西。
+   Google 地图的搜索就是这个形状：一条搜索行坐落在结果面板顶上。 */
+.search-wrap.card-open .search-panel{
+  border-radius:10px 10px 0 0;
+  border-bottom-color:transparent;
+  /* 上半截也换成实色：卡片是一张纸，不能一半实一半透 */
+  background:linear-gradient(180deg,#0b1119 0%,#070b12 100%);
+  box-shadow:
+    0 1px 2px rgba(0,0,0,.32),
+    0 9px 26px rgba(0,0,0,.30),
+    0 26px 60px rgba(0,0,0,.22);
 }
 .search-wrap.open .search-panel{
   background:linear-gradient(180deg,rgba(11,16,26,.95) 0%,rgba(5,9,16,.97) 100%);
@@ -792,17 +832,17 @@ body.panel-open #globe-stage{
 }
 
 .search-panel .search-icon{
-  position:absolute;left:11px;top:50%;transform:translateY(-50%);
-  width:13.5px;height:13.5px;pointer-events:none;
-  fill:none;stroke:rgba(158,190,228,.48);stroke-width:1.8;
+  position:absolute;left:14px;top:50%;transform:translateY(-50%);
+  width:16px;height:16px;pointer-events:none;
+  fill:none;stroke:rgba(158,190,228,.52);stroke-width:1.8;
   transition:stroke .26s ease;
   stroke-linecap:round;stroke-linejoin:round;
 }
 
 #q{
   flex:1 1 auto;min-width:0;height:100%;box-sizing:border-box;
-  padding:0 6px 0 31px;
-  font-size:13.5px;font-family:inherit;
+  padding:0 6px 0 42px;
+  font-size:14.5px;font-family:inherit;
   color:#dfe9f7;caret-color:#a9cbee;
   background:transparent;border:0;outline:none;
   -webkit-appearance:none;appearance:none;
@@ -862,17 +902,40 @@ body.panel-open #globe-stage{
 .search-wrap.list-open .search-drop{opacity:1}
 .search-wrap.list-open .search-drop svg{transform:rotate(180deg)}
 
-/* 搜索结果 / 国家列表：从搜索框下方浮出 */
+/* 结果区 = 卡片的下半截。紧贴输入行（top:100%，不再留缝），
+   只保留下半圆角，上沿靠一道 1px 内线当分隔 —— 拼起来是同一张卡片。
+   内部拆成"可滚动的列表 + 钉在底部的说明行"：Google 那块面板底下
+   永远挂着一条"更多近期搜索记录"，而不是要滚到第 235 行才看见。 */
 #q-res{
-  position:absolute;top:calc(100% + 8px);left:0;
-  width:100%;
-  max-height:52vh;overflow-y:auto;
-  border-radius:12px;border:1px solid rgba(120,150,190,.28);
-  background:rgba(8,13,23,.96);
-  backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
-  box-shadow:0 18px 48px rgba(0,0,0,.55);
+  position:absolute;top:100%;left:0;
+  width:100%;box-sizing:border-box;
+  max-height:52vh;
+  display:flex;flex-direction:column;
+  border-radius:0 0 10px 10px;
+  border:1px solid rgba(126,158,198,.13);
+  border-top:0;
+  /* 实色，不能留 alpha：97% 不透明时，地球上那几条金色经纬线和地名标签
+     仍然会隐隐透出来（它们对比度太高），读列表像隔着一层毛玻璃。
+     卡片本来就是"盖在地球上的纸"，不透明反而更像 Google 那块面板。 */
+  background:#070b12;
+  box-shadow:
+    0 22px 52px rgba(0,0,0,.5),
+    0 8px 20px rgba(0,0,0,.34);
+}
+.sr-list{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+/* 卡片拼合缝：一像素的冷色分隔线，比两段各自的边框自然 */
+.search-wrap.card-open #q-res{
+  box-shadow:
+    inset 0 1px 0 rgba(126,158,198,.20),
+    0 22px 52px rgba(0,0,0,.5),
+    0 8px 20px rgba(0,0,0,.34);
 }
 #q-res[hidden]{display:none}
+/* 滚动条：默认那条灰白长条在深色卡片上很扎眼 */
+.sr-list::-webkit-scrollbar{width:8px}
+.sr-list::-webkit-scrollbar-thumb{background:rgba(120,150,190,.22);border-radius:4px}
+.sr-list::-webkit-scrollbar-thumb:hover{background:rgba(120,150,190,.36)}
+.sr-list::-webkit-scrollbar-track{background:transparent}
 
 /* --- 底部国家导航 --- */
 #dock{
@@ -1500,8 +1563,12 @@ body.panel-open #globe-stage{
   .brand-en{display:none}
   .brand-cn{font-size:17px}
   .topbar-meta{display:none}
-  .search-wrap{width:128px;height:32px}
-  .search-wrap.open{width:calc(100vw - 126px)}
+  .search-wrap{width:128px;height:42px;flex:0 0 auto}
+  .search-panel{height:42px}
+  /* 展开后交给 flex 撑满剩余宽度，别再写 calc(100vw - 126px)：
+     那个 126 是按品牌宽度估的，logo/字号一变就会算多，卡片右缘直接顶出屏幕
+     （实测 390 宽的手机上超出 19px，最右边的箭头被切掉）。 */
+  .search-wrap.open{width:auto;flex:1 1 auto}
   #globe-stage{inset:0}
   /* 小屏：胶囊窄一点，位置仍在正中 */
   .globe-msg{font-size:11.5px;padding:8px 15px;gap:8px;max-width:calc(100% - 28px)}
@@ -3061,24 +3128,53 @@ body.panel-open #globe-stage{
     return null;
   }
 
+  /* 结果行左侧那枚圆形图标底（Google 地图那种：灰圆 + 线条图标）。
+     国家用地图针，知识条目用文档 —— 一眼能分出"这是个地方"还是"这是句话"。 */
+  var SR_ICON_PATH = {
+    place: '<path d="M12 21s6.2-5.5 6.2-10.4A6.2 6.2 0 0 0 5.8 10.6C5.8 15.5 12 21 12 21z"/>' +
+           '<circle cx="12" cy="10.4" r="2.3"/>',
+    doc: '<path d="M13.5 3.5H7a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9z"/>' +
+         '<path d="M13.5 3.5V9H19"/><path d="M8.5 13.2h7"/><path d="M8.5 16.6h4.5"/>'
+  };
+
+  function srIcon(kind) {
+    var box = el('span', 'sr-ico');
+    var s = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    s.setAttribute('viewBox', '0 0 24 24');
+    s.setAttribute('aria-hidden', 'true');
+    s.innerHTML = SR_ICON_PATH[kind === 'country' ? 'place' : 'doc'];
+    box.appendChild(s);
+    return box;
+  }
+
   function renderResults(q) {
     var hits = bm25(q, 5);
     qRes.innerHTML = '';
     qRes.hidden = false;
+    /* 行都塞进 .sr-list，这样底部的说明行能钉在卡片下沿不动 */
+    var box = el('div', 'sr-list');
+    qRes.appendChild(box);
     if (!hits.length) {
-      qRes.appendChild(el('div', 'sr-empty',
+      box.appendChild(el('div', 'sr-empty',
         '没有匹配内容（知识库共 ' + (IDX ? IDX.N : 0) + ' 条）'));
       return;
     }
     hits.forEach(function (h) {
       var d = h[0];
       var item = el('div', 'sr-item');
-      var top = el('div', 'sr-top');
-      top.appendChild(el('span', 'sr-country', d.name));
-      top.appendChild(el('span', 'sr-q', d.q));
-      if (d.kind === 'country') top.appendChild(el('span', 'sr-tag', '基础'));
-      item.appendChild(top);
-      item.appendChild(el('div', 'sr-a', d.a));
+      /* 形状对齐 Google 地图：圆形图标 + 两行字（主标题 / 灰色副标题）。
+         主标题用命中的那句问法、副标题用答案开头 —— 搜"沙特"会命中同一国的
+         五个问题，若拿国家名当主标题，五行会整齐地重复"沙特阿拉伯"，
+         等于把最有用的信息（到底命中了什么）全藏了起来。 */
+      var isCountry = d.kind === 'country';
+      item.appendChild(srIcon(isCountry ? 'country' : 'doc'));
+      var txt = el('div', 'sr-txt');
+      var nm = el('div', 'sr-name', isCountry ? (d.name || '') : (d.q || d.name || ''));
+      if (isCountry) nm.appendChild(el('span', 'sr-tag', '基础'));
+      txt.appendChild(nm);
+      var sub = d.a || '';
+      if (sub) txt.appendChild(el('div', 'sr-sub', sub));
+      item.appendChild(txt);
       /* 鼠标移到这条结果上就把它的国界分片拉下来（232KB）。
          点下去到"金线出现"之间原本要现取现解析，卡片会先出来、线还在路上 ——
          这一下预热通常能省掉 200~800ms 的空窗。 */
@@ -3101,7 +3197,7 @@ body.panel-open #globe-stage{
         var isNameOnly = !qq || qq === d.name || qq.toLowerCase() === String(d.iso || '').toLowerCase();
         if (d.kind !== 'country' && !isNameOnly) locateInPanel(q);
       });
-      qRes.appendChild(item);
+      box.appendChild(item);
     });
   }
 
@@ -3143,7 +3239,9 @@ body.panel-open #globe-stage{
     if (!IDX || !IDX.docs) {
       qRes.innerHTML = '';
       qRes.hidden = false;
-      qRes.appendChild(el('div', 'sr-empty', '知识库索引尚未就绪'));
+      var emptyBox = el('div', 'sr-list');
+      emptyBox.appendChild(el('div', 'sr-empty', '知识库索引尚未就绪'));
+      qRes.appendChild(emptyBox);
       return;
     }
     var seen = {}, list = [];
@@ -3164,11 +3262,20 @@ body.panel-open #globe-stage{
     });
     qRes.innerHTML = '';
     qRes.hidden = false;
+    var box = el('div', 'sr-list');
+    qRes.appendChild(box);
     list.forEach(function (d) {
-      var item = el('div', 'sr-item sr-country-row');
-      item.appendChild(el('span', 'sr-country', d.iso));
-      item.appendChild(el('span', 'sr-q', d.name));
-      if (d.kind === 'country') item.appendChild(el('span', 'sr-tag', '基础'));
+      var item = el('div', 'sr-item');
+      item.appendChild(srIcon('country'));
+      var txt = el('div', 'sr-txt');
+      var nm = el('div', 'sr-name', d.name || '');
+      if (d.kind === 'country') nm.appendChild(el('span', 'sr-tag', '基础'));
+      txt.appendChild(nm);
+      /* 副标题给英文名 + 大洲，和 Google 地图"家 / China"那种第二行一个位置 */
+      var m = (LABEL_META || {})[String(d.iso || '').toUpperCase()];
+      var sub = [m && m.en, m && m.cont].filter(Boolean).join(' · ');
+      if (sub) txt.appendChild(el('div', 'sr-sub', sub));
+      item.appendChild(txt);
       item.appendChild(el('span', 'sr-arrow', '›'));
       item.addEventListener('click', function () {
         /* 港澳台归到主权国（这个列表里可能带 TW 这类地区码） */
@@ -3178,13 +3285,25 @@ body.panel-open #globe-stage{
         setSearch(false);
         if (qInput) qInput.blur();
       });
-      qRes.appendChild(item);
+      box.appendChild(item);
     });
+    qRes.appendChild(el('div', 'sr-foot', '共 ' + list.length + ' 个国家 / 地区 · 按人口排序'));
   }
 
   var searchWrap = document.getElementById('search-wrap');
   var searchPanel = document.getElementById('search-panel');
   var searchDrop = document.getElementById('search-drop');
+
+  /* 结果区一显示，搜索框就从"一只胶囊"变成"一张连通卡片"（Google 地图那种
+     形状：搜索行坐在结果面板顶上，共用一圈外轮廓）：给 wrap 挂 card-open，
+     输入行只留上半圆角、结果区只留下半圆角，中间由结果区的内阴影当分隔线。
+     用观察器盯 hidden，比在 renderResults / showCountryList / setSearch
+     三四处各补一行 classList 更不容易漏改。 */
+  if (qRes && searchWrap) {
+    new MutationObserver(function () {
+      searchWrap.classList.toggle('card-open', !qRes.hidden);
+    }).observe(qRes, { attributes: true, attributeFilter: ['hidden'] });
+  }
 
   /* ---------- 自绘提示气泡 ----------
      原生 title 要悬停一秒才弹、样式不可控、移动端干脆没有。

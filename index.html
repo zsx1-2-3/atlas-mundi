@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-02-Q">
+<meta name="build" content="2026-11-02-R">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1114,7 +1114,7 @@ body.panel-open #globe-stage{
    现在是一条竖直的工具条：底色与描边都是实的一层，边界在任何背景上都成立；
    开关之间只有 1px 冷色分隔，动作与开关之间是一段 9px 留白。
    曾经在上下两端和动作/开关之间各画过一条金线，三道横线一起看很扎眼，已全部去掉 ——
-   线在球面这种明暗大变的背景上本来就不稳定，分组靠留白更安静。
+   线在球面这种明暗大变的背景上本来就不稳定。现在六颗都是同一类开关，等距、同一条分隔线。
    点亮态同样不发光：左侧 3px 金条 + 图标转金 —— 和全站"细线低饱和"同一路。
 
    中途试过把它做成 184px 的罗盘（环形六按钮 + 方位标注），已撤回：
@@ -1136,8 +1136,8 @@ body.panel-open #globe-stage{
   box-shadow:0 10px 26px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.04);
 }
 /* 上下原来各有一条金线收口，中间还有一条金线把动作和开关分开 —— 三条一起看
-   就是用户说的"三条金线，看得好难受"。线在球面这种明暗大变的背景上本来就不稳，
-   全去掉：条的边界交给圆角与描边，分组交给 9px 的留白（见 .tsep）。 */
+   就是用户说的"三条金线，看得好难受"。线在球面这种明暗大变的背景上本来就不稳，全去掉。
+   条的边界交给圆角与 1px 描边。 */
 
 .tool-btn{
   /* 图标色只在这一处定义，靠变量分状态。
@@ -1163,9 +1163,9 @@ body.panel-open #globe-stage{
 #tools-body .tool-btn:active{background:rgba(150,185,230,.16)}
 /* 开关之间的 1px 分隔线 */
 #tools-body .tool-btn + .tool-btn{box-shadow:inset 0 1px 0 rgba(140,170,210,.11)}
-/* 动作（回中国）/ 开关 的分界：只留一段留白。
-   原来这里画了一道金线，加上上下两条一共三道，是"难受"的直接来源。 */
-.tsep{position:relative;height:9px;flex:0 0 auto}
+/* 六颗按钮之间原来夹着一段 9px 留白（当时为了把"一次性动作"和五个开关分开）。
+   现在六颗都是同一类开关，那段留白就成了唯一的例外：中间不连线、间距也宽一截。
+   直接删掉，靠 `+` 选择器给每两颗之间画同一条 1px 分隔线。 */
 /* 首尾跟着条子的圆角走 */
 #tools-body .tool-btn:first-child{border-radius:12px 12px 0 0}
 #tools-body .tool-btn:last-child{border-radius:0 0 12px 12px}
@@ -1628,7 +1628,6 @@ body.panel-open #globe-stage{
     </svg>
     <span class="tl">常驻中国</span>
   </button>
-  <div class="tsep" aria-hidden="true"></div>
   <button class="tool-btn" id="btn-borders" type="button" aria-label="显示全部国境线" aria-pressed="false">
     <svg viewBox="0 0 24 24" aria-hidden="true">
       <!-- 和其它五个统一成"圆底"：之前这里是个方框，和右边的圆形经纬网放一起，

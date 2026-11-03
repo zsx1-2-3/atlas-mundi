@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-S">
+<meta name="build" content="2026-11-03-T">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -587,7 +587,20 @@
   .ts-item{
     width:64px;height:46px;object-fit:cover;border-radius:6px;
     border:1px solid var(--line);cursor:pointer;opacity:.55;
+    /* 图没到之前是一块同款灰骨架（跟主图 .dimg-wrap.loading 一个色），
+       图片一加载就整个盖住它 —— 不再露出浏览器那个"破图"小图标。
+       以前这里会闪一下 alt 文字（"某某 图片 1"），因为 <img> 在 lazy 未加载
+       或加载失败时就是那个样子；alt 已经置空，见 JS。 */
+    background:linear-gradient(100deg,#0d1322 30%,#1a2433 50%,#0d1322 70%);
+    background-size:220% 100%;
+    animation:tsShimmer 1.35s linear infinite;
+    color:transparent;
     transition:opacity .2s ease,border-color .2s ease;
+  }
+  .ts-item.loaded{animation:none}
+  @keyframes tsShimmer{
+    from{background-position:180% 0}
+    to{background-position:-60% 0}
   }
   .ts-item:hover{opacity:.85}
   .ts-item.active{opacity:1;border-color:rgba(148,182,224,.65)}
@@ -2325,10 +2338,16 @@ body.panel-open #globe-stage{
       if (strip) {
         imgs.forEach(function (it, i) {
           var t = el('img', 'ts-item');
-          t.alt = it.caption_zh || it.caption || (d.name_zh + ' 图片 ' + (i + 1));
-          t.setAttribute('data-tip', t.alt);
+          /* alt 必须留空：浏览器在图片未到/加载失败时会把 alt 文字连同破图图标
+             一起画出来，就是用户说的"冒出来一个图片的图标"。描述改挂 aria-label，
+             读屏照样拿得到，屏幕上则只有一块安静的骨架。 */
+          var label = it.caption_zh || it.caption || (d.name_zh + ' 图片 ' + (i + 1));
+          t.alt = '';
+          t.setAttribute('aria-label', label);
+          t.setAttribute('data-tip', label);
           t.loading = 'lazy';
           t.decoding = 'async';
+          t.addEventListener('load', function () { t.classList.add('loaded'); });
           t.addEventListener('click', function () { showPic(i); });
           items.push(t);
           strip.appendChild(t);

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-AA">
+<meta name="build" content="2026-11-03-AB">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2116,7 +2116,15 @@ body.panel-open #globe-stage{
              DETAIL_ABORT ? { signal: DETAIL_ABORT.signal } : undefined)
       .then(function (d) {
         if (seq !== DETAIL_SEQ) return;      // 已经切到别的国家了，丢掉
-        renderDetail(d, true);
+        /* 完整档案的 DOM（正文 + 文化特征 + 语音 + 国界 SVG）构建极重：
+           实测点开美国时主线程连续阻塞 237ms（165ms 花在样式/布局/绘制上），
+           正好压在镜头飞行那一段，飞行就一顿。等镜头飞稳再建 ——
+           面板先显示「读取中…」的骨架，标题立刻就有，飞行期间主线程不被
+           这堆 DOM 卡住。这是"换哪版代码都卡"的真正原因，跟功能改动无关。 */
+        (globe.whenSettled || function (f) { f(); })(function () {
+          if (seq !== DETAIL_SEQ) return;
+          renderDetail(d, true);
+        });
       })
       .catch(function (e) {
         if (seq !== DETAIL_SEQ || (e && e.name === 'AbortError')) return;
@@ -2183,6 +2191,15 @@ body.panel-open #globe-stage{
       if (!_ac) _ac = new AC();
       if (_ac.state === 'suspended') _ac.resume();
     } catch (e) { /* 不支持就算了，点击时再试 */ }
+  }
+
+  /* 提前把 AudioContext 建好。创建本身实测要 30ms，原来只在第一次
+     pointerdown 时才建 —— 正好压在点击起飞那一帧上，是那次长任务里
+     排第二的一块。页面空闲时先付掉这笔钱，点击时只剩一次 resume（几毫秒）。 */
+  if (window.requestIdleCallback) {
+    requestIdleCallback(function () { warmAudio(); }, { timeout: 3000 });
+  } else {
+    setTimeout(warmAudio, 1500);
   }
 
   /* 点击音：机械键盘的"嗒"。
@@ -4760,7 +4777,10 @@ body.panel-open #globe-stage{
     loadEarthTextures(function (dayTex, nightTex, day8) {
       if (!dayTex) {
         sphere.visible = true;      // 贴图失败才退回素色球
-        grat.visible = true;
+        /* 经纬网是异步建的（prepareGrid 走 setTimeout），此刻可能还没建，
+           也可能还没建完 —— 所以先判空。原来这里写的是 grat，那是个不存在的
+           变量名，一旦真走到"贴图失败"这条分支就抛 ReferenceError。 */
+        if (globe.grid) globe.grid.visible = true;
         landLine.visible = true;
         globeMsg('地表纹理未能加载，已回退为轮廓模式', true);
         return;

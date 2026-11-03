@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-AF">
+<meta name="build" content="2026-11-03-AG">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2280,8 +2280,11 @@ body.panel-open #globe-stage{
        面板会滑出来，再叠一圈扩散的金环会打架。音效在 openDetail 里统一放。 */
     var iso = String(c.iso || '').toUpperCase();
     var par = String(c.parent || '').toUpperCase();
-    var known = Object.keys(HAS_DOC).length > 0;
-    var target = (known && !HAS_DOC[iso] && par) ? par : (iso || par);
+    /* 有完整档案的开自己的；否则落到主权国（港澳台→CN、格陵兰→DK……）。
+       原来靠 `known = Object.keys(HAS_DOC).length > 0` 判断，index.json 还没回来时
+       known 为 false，target 就退成 iso —— 台湾于是打开自己的空档案，显示"档案未就绪"。
+       改用 SOVEREIGN（含港澳台硬兜底）后，不管档案索引到没到，都落到中国。 */
+    var target = HAS_DOC[iso] ? iso : (SOVEREIGN[iso] || par || iso);
     if (!target) return;
     openDetail(target, cardOf(target), false);
   }
@@ -3106,7 +3109,10 @@ body.panel-open #globe-stage{
       if (d.kind === 'country') item.appendChild(el('span', 'sr-tag', '基础'));
       item.appendChild(el('span', 'sr-arrow', '›'));
       item.addEventListener('click', function () {
-        openDetail(d.iso, cardOf(d.iso), false);
+        /* 港澳台归到主权国（这个列表里可能带 TW 这类地区码） */
+        var lIso = String(d.iso || '').toUpperCase();
+        var lTgt = SOVEREIGN[lIso] || d.iso;
+        openDetail(lTgt, cardOf(lTgt), false);
         setSearch(false);
         if (qInput) qInput.blur();
       });
@@ -6276,8 +6282,11 @@ body.panel-open #globe-stage{
         }
       }
       if (!best) return;
-      setActive(best.iso);
-      openDetail(best.iso, cardOf(best.iso), false);
+      /* 2D 地图同样按归属表落到主权国 */
+      var bIso = String(best.iso || '').toUpperCase();
+      var bTgt = SOVEREIGN[bIso] || best.iso;
+      setActive(bTgt);
+      openDetail(bTgt, cardOf(bTgt), false);
     });
 
     window.addEventListener('resize', function () {

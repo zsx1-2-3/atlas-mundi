@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-AD">
+<meta name="build" content="2026-11-03-AE">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -391,6 +391,18 @@
     from{background-position:180% 0}
     to{background-position:-80% 0}
   }
+  /* 面板骨架：JSON 还没到时，先把"左图 + 右文"的框架撑起来，
+     别只留一句"读取中…"。图用和缩略图同款微光，文字用灰条。 */
+  .sk-line{
+    position:relative;overflow:hidden;height:12px;border-radius:6px;
+    margin:0 0 13px;background:linear-gradient(160deg,#0d1322,#0a0f1c);
+  }
+  .sk-line::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(100deg,transparent 20%,rgba(140,165,220,.13) 50%,transparent 80%);
+    background-size:220% 100%;animation:shimmer 1.35s linear infinite;
+  }
+  .sk-line.h1{height:22px;width:46%;margin-bottom:20px}
 
   /* 3D 地球 */
   .globe-wrap{
@@ -2094,6 +2106,23 @@ body.panel-open #globe-stage{
   var DETAIL_SEQ = 0;
   var DETAIL_ABORT = null;
 
+  /* 面板骨架：左图（微光）+ 右文（灰条），撑起和真实内容一致的"左图右文"框架。
+     JSON 还没到时先摆这个，比一句光秃秃的"读取中…"好得多。 */
+  function buildSkeleton() {
+    var wrap = el('div', 'dwrap');
+    var left = el('div', 'dimg-wrap loading');
+    var right = el('div');
+    right.appendChild(el('div', 'sk-line h1'));
+    for (var i = 0; i < 6; i++) {
+      var ln = el('div', 'sk-line');
+      ln.style.width = (52 + ((i * 13) % 44)) + '%';
+      right.appendChild(ln);
+    }
+    wrap.appendChild(left);
+    wrap.appendChild(right);
+    return wrap;
+  }
+
   function openDetail(iso, item, quiet) {
     /* 点击音挂在这里而不是 openCountry：打开档案有三条路（搜索框、球面标签、
        下方卡片），只有"标签"那条经过 openCountry，挂在上面另外两条就没声了。 */
@@ -2106,9 +2135,14 @@ body.panel-open #globe-stage{
     });
     if (typeof setActive === 'function') setActive(iso);
 
-    dTitle.textContent = '读取中…';
+    /* 面板一打开就把「国家名 + 框架」摆出来，不要留一句「读取中…」：
+       名字在 labels.json（LABEL_META）里现成就有，不用等档案；
+       正文用灰条骨架、图用微光骨架，JSON 到了再填。 */
+    var lm = LABEL_META && LABEL_META[String(iso).toUpperCase()];
+    dTitle.textContent = (lm && lm.n) || iso;
     dSub.textContent = iso;
     dBody.innerHTML = '';
+    dBody.appendChild(buildSkeleton());
     openPanel();
     if (typeof flyToCountry === 'function') flyToCountry(iso);
 
@@ -2993,7 +3027,10 @@ body.panel-open #globe-stage{
         });
       }
       item.addEventListener('click', function () {
-        openDetail(d.iso, cardOf(d.iso), false);
+        /* 地区（港澳台）归到主权国：不给台湾单独开卡，搜到也落到中国 */
+        var sIso = String(d.iso || '').toUpperCase();
+        var sTgt = SOVEREIGN[sIso] || d.iso;
+        openDetail(sTgt, cardOf(sTgt), false);
         setSearch(false);              // 选中即收起，视线回到地球
         if (qInput) qInput.blur();
         /* 只有"搜的是内容"才需要滚到命中段落。
@@ -4195,6 +4232,10 @@ body.panel-open #globe-stage{
 
   var LABEL_POP = {};
   var LABEL_META = null;     // geo/meta.json：所有国家的名称/大洲/人口/中心点
+  /* iso → 主权国 iso。港/澳/台这类地区在 labels.json 里带 parent（CN），
+     球面点它们时不能开独立档案卡，要落到主权国（中国）的档案上。
+     从 labels.json 的 countries 提取（40 条：格陵兰→DK、关岛→US、港澳台→CN……）。 */
+  var SOVEREIGN = { TW: 'CN', HK: 'CN', MO: 'CN' };  // 港澳台先硬兜底，labels.json 到了再按数据补齐
 
   function buildLabels(pack) {
     var host = document.getElementById('labels');
@@ -4205,6 +4246,15 @@ body.panel-open #globe-stage{
     /* 各国人口（NE 的 POP_EST），卡片用它决定"要不要列地区语言"：
        小国只留官方语言。数据里没有人口时按 0 处理，等于不筛。 */
     LABEL_POP = pack.pops || {};
+
+    /* 归属表：地区 iso → 主权国 iso（港澳台→CN、格陵兰→DK、法属波利尼西亚→FR……）。
+       球面点击靠它把"点地区"落到"主权国的档案"，不再给台湾这类地区单开一张卡。 */
+    /* 不清空：港澳台的硬兜底必须先留着，labels.json 里有的按 iso 覆盖上来 */
+    (pack.countries || []).forEach(function (c) {
+      if (c.iso && c.parent) {
+        SOVEREIGN[String(c.iso).toUpperCase()] = String(c.parent).toUpperCase();
+      }
+    });
 
     /* 优先级的唯一含义是"抢位顺序"：数字小的先放，后来者撞上就让。
        国家要排在大洲前面 —— 大洲的锚点几乎一定压在大国领土上（南美洲的锚点
@@ -4305,8 +4355,12 @@ body.panel-open #globe-stage{
        ② 镜头在飞/手在拖时，在场地名封顶 34 条（按优先级，也就是 Natural Earth
           的 LABELRANK，重要的先上）。已经在场的永不因这条被撤，所以不会闪。
           停下来后名额恢复，剩下的地名照样补齐 —— 静止时的画面和原来完全一样。 */
-    var flyCap = (globe.flying || globe.dragging) ? 34 : 1e9;
-    var newBudget = 10;
+    /* 原来 34 / 10：飞行时最多 34 条、每帧只放 10 条新地名 —— 慢机上要两秒才铺满
+       （实测点开法国后可见标签 31→39→47→…→60，到 +2 秒才齐），用户反馈
+       "国家名晚了好几秒才出来"。放宽到 60 / 30：两帧就铺满，
+       代价是每帧多栅格化十几条文字，比"干等国名两秒"划算。 */
+    var flyCap = (globe.flying || globe.dragging) ? 60 : 1e9;
+    var newBudget = 30;
 
     /* ---- 球体的屏幕投影圆 ----
        球在透视投影下仍是一个圆：视半角 asin(R/z)，投影到 NDC 的半径
@@ -5543,8 +5597,12 @@ body.panel-open #globe-stage{
       var ll = vec3ToLL(local);
       var c = countryAt(ll.lon, ll.lat);
       if (!c) return;
-      setActive(c.iso);
-      openDetail(c.iso, cardOf(c.iso), false);
+      /* 地区（港/澳/台）落到主权国：不给台湾这类地区单开独立档案卡，
+         点它就开中国。SOVEREIGN 见 buildLabels 里的归属表。 */
+      var isoRaw = String(c.iso || '').toUpperCase();
+      var tgt = SOVEREIGN[isoRaw] || isoRaw;
+      setActive(tgt);
+      openDetail(tgt, cardOf(tgt), false);
     });
 
     // ---- 渲染循环 ----

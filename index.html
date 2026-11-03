@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-AL">
+<meta name="build" content="2026-11-03-AM">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -798,7 +798,11 @@ body.panel-open #globe-stage{
     0 9px 26px rgba(0,0,0,.44),
     0 22px 52px rgba(0,0,0,.18);
   /* 没有任何 inset 亮线：近黑底面上那 1px 的内高光看着就像一道划痕。 */
-  transition:border-color .26s ease,background .26s ease,box-shadow .26s ease,border-radius .13s ease;
+  /* 圆角用和结果区展开同一条曲线、同样时长（0.24s）：
+     之前它自己 0.13s 就把 22px 收到 12px，而结果区是"啪"一下贴上来 ——
+     两个变化各走各的节奏，看到的就是"圆角在变方，面板突然砸下来"。 */
+  transition:border-color .26s ease,background .26s ease,box-shadow .26s ease,
+             border-radius .22s cubic-bezier(.2,.9,.25,1);
 }
 /* 结果区一展开，输入行就变成卡片的上半截：只留上圆角。
    注意**下方那根线一定要留着**（不能像上一版那样改成 transparent）：
@@ -930,6 +934,19 @@ body.panel-open #globe-stage{
     0 8px 20px rgba(0,0,0,.34);
 }
 .sr-list{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+/* 结果区出现时淡入，时长和缓动跟搜索行的圆角收缩完全一致（0.22s）——
+   两件事同时开始、同时结束，看上去就是"胶囊被压成了卡片的上半截"，
+   而不是圆角自己在变、面板"啪"地砸下来。
+   这里用 animation 不用 transition：结果区是同一帧内先 innerHTML='' 重建、
+   再把 hidden 摘掉的，Chrome 在这种"内容与可见性同帧变化"下不给 opacity 插值
+   （rAF 采样实测：0→1 是在 220ms 后直接跳过去的）。animation 由 display 切换
+   触发重放，没这个问题。收起方向仍是瞬消 —— 收起时视线已经离开，够用。
+   不加位移：translateY 会让首行在最初几十毫秒钻到搜索行底下被压掉一截。 */
+#q-res{animation:cardDrop .22s cubic-bezier(.2,.9,.25,1) both}
+@keyframes cardDrop{
+  from{opacity:0}
+  to{opacity:1}
+}
 #q-res[hidden]{display:none}
 /* 滚动条：默认那条灰白长条在深色卡片上很扎眼 */
 .sr-list::-webkit-scrollbar{width:8px}

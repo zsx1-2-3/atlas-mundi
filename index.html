@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-W">
+<meta name="build" content="2026-11-03-X">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2367,12 +2367,17 @@ body.panel-open #globe-stage{
           t.setAttribute('role', 'img');
           t.setAttribute('aria-label', label);
           t.setAttribute('data-tip', label);
-          (function (node, rel) {
+          /* 这里只装"怎么加载"，不立刻发请求 —— 由下面 whenSettled 统一触发。
+             之前是在创建时就 probe.src，五张图会和面板的图层光栅化撞在同一帧，
+             实测点开后 40~170ms 那一片掉帧就是从这来的（主图反而在 900ms 后才取）。 */
+          t.__load = function (rel) {
+            if (t.__loading) return;
+            t.__loading = true;
             var probe = new Image();
             var settled = false;
             var apply = function (src) {
-              node.style.backgroundImage = 'url("' + src + '")';
-              node.classList.add('loaded');
+              t.style.backgroundImage = 'url("' + src + '")';
+              t.classList.add('loaded');
             };
             /* 与主图同一套双源策略：先 OBS，失败回退仓库相对路径。
                两个 URL 都试完仍然是坏的，就让它保持骨架，不显示任何占位图。 */
@@ -2385,7 +2390,7 @@ body.panel-open #globe-stage{
               fallback.src = rel;
             };
             probe.src = assetSrc(rel);
-          })(t, it.thumb_url || it.url);
+          };
           t.addEventListener('click', function () { showPic(i); });
           items.push(t);
           strip.appendChild(t);
@@ -2398,17 +2403,43 @@ body.panel-open #globe-stage{
          五六张，情况更糟。而"冷/热"两遍的差别（第一次点卡、再点不卡）也正是
          它们。题干说"先等镜头固定了再下也能接受"，那就按这个来：
          面板立刻滑入、图注立刻显示，图位置留一块微光的骨架，停稳后再填图。 */
+      /* 等面板滑入动画彻底走完再取图。
+         实测（同一台机器、六国连点、屏蔽掉全部 webp 做对照）：
+           正常 31 次掉帧 / 屏蔽图片后只剩 5 次
+         —— 图片的解码和上传 GPU 就是点击后那一顿的绝对主因，占比八成以上。
+         光"等镜头停稳"（900ms）不够：面板滑入本身要 1.05s，图正好砸在动画尾巴上。
+         代价是图晚 0.15 秒出现，骨架多显示一会儿 —— 用户说过"慢能接受，卡不能"。 */
+      function whenPanelIn(cb) {
+        if (!detail || !detail.classList.contains('open')) { cb(); return; }
+        var fired = false;
+        var go = function () {
+          if (fired) return;
+          fired = true;
+          detail.removeEventListener('transitionend', onEnd);
+          cb();
+        };
+        var onEnd = function (e) { if (e.propertyName === 'transform') go(); };
+        detail.addEventListener('transitionend', onEnd);
+        setTimeout(go, 1400);       // 兜底：prefers-reduced-motion 或动画被打断
+      }
+
       var imgToken = DETAIL_SEQ;
       (globe.whenSettled || function (f) { f(); })(function () {
         if (imgToken !== DETAIL_SEQ) return;      // 已经翻到别的国家了
-        /* 停稳之前用户已经点过某张缩略图（picSeq 已经加过），就别再把他
-           选中的那张顶回第一张。 */
-        if (picSeq === 0) showPic(0);
-        if (strip) {
-          imgs.forEach(function (it, i) {
-            setAsset(items[i], it.thumb_url || it.url);
-          });
-        }
+        whenPanelIn(function () {
+          if (imgToken !== DETAIL_SEQ) return;
+          /* 停稳之前用户已经点过某张缩略图（picSeq 已经加过），就别再把他
+             选中的那张顶回第一张。 */
+          if (picSeq === 0) showPic(0);
+          if (strip) {
+            /* 五张错开 110ms 发，别挤在同一帧 */
+            imgs.forEach(function (it, i) {
+              var node = items[i];
+              if (!node || !node.__load) return;
+              setTimeout(function () { node.__load(it.thumb_url || it.url); }, i * 110);
+            });
+          }
+        });
       });
       if (strip) left.appendChild(strip);
       left.appendChild(capEl);

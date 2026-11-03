@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-X">
+<meta name="build" content="2026-11-03-Y">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2281,7 +2281,13 @@ body.panel-open #globe-stage{
     return { history: '', folk: f };
   }
 
+  var panelT0 = 0;          // 面板开始滑入的时刻（whenPanelIn 用来算剩余时长）
+
   function renderDetail(d, quiet) {
+    /* 记下面板开始滑入的时刻。后面 whenPanelIn 要用它算"动画还剩多久"——
+       光靠 transitionend 会漏：镜头飞行本身就 900ms，若飞行比动画晚结束，
+       监听时动画已经跑完了，事件永远不会再来，只能吃兜底超时（实测 2.87 秒才见图）。 */
+    panelT0 = performance.now();
     dTitle.textContent = d.name_zh;
     dSub.textContent = d.name_en + ' · ' + d.iso_a2 + ' / ' + d.iso_a3 + ' · ' + d.qid;
 
@@ -2410,17 +2416,23 @@ body.panel-open #globe-stage{
          光"等镜头停稳"（900ms）不够：面板滑入本身要 1.05s，图正好砸在动画尾巴上。
          代价是图晚 0.15 秒出现，骨架多显示一会儿 —— 用户说过"慢能接受，卡不能"。 */
       function whenPanelIn(cb) {
-        if (!detail || !detail.classList.contains('open')) { cb(); return; }
-        var fired = false;
-        var go = function () {
-          if (fired) return;
-          fired = true;
-          detail.removeEventListener('transitionend', onEnd);
-          cb();
-        };
-        var onEnd = function (e) { if (e.propertyName === 'transform') go(); };
-        detail.addEventListener('transitionend', onEnd);
-        setTimeout(go, 1400);       // 兜底：prefers-reduced-motion 或动画被打断
+        if (!detail) { cb(); return; }
+        /* 动画时长从 CSS 读，别写死 —— 以后调 1.05s 这里不会失配。 */
+        var dur = 0;
+        try {
+          /* 取所有过渡里最长的那个。桌面是 transform .56s，手机是 1.05s，
+             直接读第一个会有平台差异，取最大值最稳。 */
+          var parts = (getComputedStyle(detail).transitionDuration || '0s').split(',');
+          for (var i = 0; i < parts.length; i++) {
+            var v = parts[i].trim();
+            var n = parseFloat(v) || 0;
+            if (v.slice(-2) !== 'ms') n *= 1000;
+            if (n > dur) dur = n;
+          }
+        } catch (e) { dur = 600; }
+        var left = dur - (performance.now() - panelT0);
+        if (left <= 20) { cb(); return; }
+        setTimeout(cb, left + 60);
       }
 
       var imgToken = DETAIL_SEQ;

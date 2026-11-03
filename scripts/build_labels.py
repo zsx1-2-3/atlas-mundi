@@ -260,6 +260,10 @@ def main() -> int:
         parent = ""
         if iso not in PARENT_SKIP:
             parent = PARENT_FIX.get((p.get("NAME") or "").strip(), "")
+            # 台湾按"中国的一部分"处理：点它直接开中国的档案。
+            # Natural Earth 把它当独立要素、SOVEREIGNT 也不指向中国，只能单列。
+            if not parent and iso == "TW":
+                parent = "CN"
             if not parent:
                 cand = sov_iso.get((p.get("SOVEREIGNT") or "").strip(), "")
                 if cand and cand != iso:

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-03-Y">
+<meta name="build" content="2026-11-02-L">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -587,34 +587,7 @@
   .ts-item{
     width:64px;height:46px;object-fit:cover;border-radius:6px;
     border:1px solid var(--line);cursor:pointer;opacity:.55;
-    /* 图没到之前是一块同款灰骨架：底色和微光都照抄主图 .dimg-wrap.loading
-       （#0d1322 → #0a0f1c，加一道 rgba(140,165,220,.13) 扫光），
-       图片一加载就整个盖住它 —— 不再露出浏览器那个"破图"小图标。
-       以前会闪一下 alt 文字（"某某 图片 1"），alt 已置空，见 JS。
-
-       background-clip:padding-box 是必须的：img 的默认值是 border-box，
-       渐变会一路画到 1px 描边下面，边框是半透明的 rgba(140,165,220,.16)，
-       透出来就是一圈亮线 —— 用户看到的"右边一条白线"就是扫光刚好走到那儿。 */
-    background-image:
-      linear-gradient(100deg,transparent 20%,rgba(140,165,220,.13) 50%,transparent 80%),
-      linear-gradient(160deg,#0d1322,#0a0f1c);
-    background-size:220% 100%,100% 100%;
-    background-position:180% 0,0 0;
-    background-repeat:no-repeat,no-repeat;
-    background-clip:padding-box;
-    animation:tsShimmer 1.35s linear infinite;
     transition:opacity .2s ease,border-color .2s ease;
-  }
-  /* 加载完成后 JS 会往 style 里塞一层 url()，把骨架两整层盖掉。 */
-  .ts-item.loaded{
-    animation:none;
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-  }
-  @keyframes tsShimmer{
-    from{background-position:180% 0,0 0}
-    to{background-position:-60% 0,0 0}
   }
   .ts-item:hover{opacity:.85}
   .ts-item.active{opacity:1;border-color:rgba(148,182,224,.65)}
@@ -655,9 +628,6 @@
 /* 这一层覆盖旧的"长页面"排版：不再有文档流滚动，一切浮在 3D 舞台之上。 */
 html,body{
   height:100%;overflow:hidden;
-  /* 手机上拖到顶部时别触发"下拉刷新"（Android Chrome），
-     也别让整页有橡皮筋回弹 —— 那是浏览器在跟手势抢。 */
-  overscroll-behavior:none;
 }
 body{
   margin:0;padding:0;
@@ -672,13 +642,6 @@ body{
   transform-origin:50% 50%;
   will-change:transform;
   transition:transform 1.05s cubic-bezier(.22,.61,.36,1),opacity .42s ease;
-  /* 手机上必须写这句。没有它，手指在球上滑动会被浏览器当成"滚动页面/缩放页面"，
-     pointermove 中途还会收到一个 pointercancel —— 表现就是"拖两下就断"。
-     有了它，触摸事件全归我们处理，页面不会跟着滚、也不会跟着捏。
-     注意：面板 #detail 不在这里，它自己的滚动不受影响。 */
-  touch-action:none;
-  /* iOS 长按国名会弹"拷贝/查询"菜单，压着球拖到一半弹出来很出戏 */
-  -webkit-touch-callout:none;
 }
 #globe-stage canvas{
   display:block;width:100%;height:100%;cursor:grab;
@@ -999,6 +962,29 @@ body.panel-open #globe-stage{
 }
 .fl-src{font-size:9.5px;opacity:.7}
 
+/* --- 移动端 --- */
+@media (max-width:760px){
+  #topbar{padding:12px 14px;gap:10px;flex-wrap:nowrap}
+  .brand-en{display:none}
+  .brand-cn{font-size:17px}
+  .topbar-meta{display:none}
+  .search-wrap{width:128px;height:32px}
+  .search-wrap.open{width:calc(100vw - 126px)}
+  #globe-stage{inset:0}
+  /* 小屏：胶囊窄一点，位置仍在正中 */
+  .globe-msg{font-size:11.5px;padding:8px 15px;gap:8px;max-width:calc(100% - 28px)}
+  .globe-spin{width:16px;height:16px}
+  #detail{
+    top:auto;left:10px;right:10px;bottom:10px;
+    width:auto;height:82vh;height:82dvh;
+    border-radius:18px;
+    transform:translateY(calc(100% + 20px));
+  }
+  #detail.open{transform:none}
+  body.panel-open #globe-stage{transform:translateY(-11%)}
+  #footline{display:none}
+}
+
 /* ============ 浏览器表面 ============
    这些部件不是画出来的，但一样带设计：选区颜色、滚动条、焦点环。
    它们是最便宜的"这页是被建造的"信号，也是最常被漏掉的一层。 */
@@ -1133,94 +1119,57 @@ body.panel-open #globe-stage{
 }
 .mlabel.mk:hover{color:#cfe6ff}
 
-/* ============ 左下角工具条 ============
-   原来每个按钮各是一个 42px 的圆环，描边 rgba(126,158,198,.18) 实测对比度只有
-   1.22:1 —— 形状几乎靠"背后正好是什么"决定：在星空上剩六个虚浮的圈，在雪原上
-   变成六个暗饼。这是"看着不精致"的根源，不是图标画得不好。
-
-   现在是一条竖直的工具条：底色与描边都是实的一层，边界在任何背景上都成立；
-   开关之间只有 1px 冷色分隔，动作与开关之间是一段 9px 留白。
-   曾经在上下两端和动作/开关之间各画过一条金线，三道横线一起看很扎眼，已全部去掉 ——
-   线在球面这种明暗大变的背景上本来就不稳定。现在六颗都是同一类开关，等距、同一条分隔线。
-   点亮态同样不发光：左侧 3px 金条 + 图标转金 —— 和全站"细线低饱和"同一路。
-
-   中途试过把它做成 184px 的罗盘（环形六按钮 + 方位标注），已撤回：
-   六个标注绕一圈会互相压、还会顶出盘边，整盘占地也比一条 46px 更容易挡球。 */
+/* ============ 左下角工具按钮 ============ */
 #tools{
-  position:fixed;left:22px;bottom:22px;z-index:25;
-  display:flex;flex-direction:column;align-items:flex-start;
+  position:fixed;left:20px;bottom:20px;z-index:25;
+  display:flex;align-items:flex-end;
 }
-/* 只有手机才出现的展开按钮（桌面永远不显示） */
-#tools-toggle{display:none}
-
+/* 不加面板、不加边框：图标直接落在球面上，靠间距和留白组织。
+   深色玻璃框会把球面切掉一块，反而更脏。 */
 #tools-body{
-  position:relative;
-  width:46px;
-  display:flex;flex-direction:column;
-  background:rgba(6,10,17,.74);
-  border:1px solid rgba(140,170,210,.22);
-  border-radius:13px;
-  box-shadow:0 10px 26px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.04);
+  display:flex;flex-direction:column;gap:6px;
 }
-/* 上下原来各有一条金线收口，中间还有一条金线把动作和开关分开 —— 三条一起看
-   就是用户说的"三条金线，看得好难受"。线在球面这种明暗大变的背景上本来就不稳，全去掉。
-   条的边界交给圆角与 1px 描边。 */
-
+/* 每个图标自己带一层极淡的圆底：完全透明会看不清，
+   但也不能再套整块面板 —— 那样等于把球面切掉一角。 */
+#tools-body .tool-btn{
+  background:rgba(7,11,19,.58);
+  border-color:rgba(126,158,198,.18);
+  box-shadow:none;
+}
+#tools-body .tool-btn svg{stroke:rgba(176,202,238,.82)}
+#tools-body .tool-btn:hover{background:rgba(120,160,210,.18);border-color:rgba(150,185,230,.30)}
+#tools-body .tool-btn.on{
+  background:rgba(58,45,22,.82);border-color:rgba(255,215,138,.65);
+  box-shadow:0 0 14px rgba(255,196,96,.18);
+}
+/* 复位按钮不属于开关，和下面那组拉开距离 */
+#tools-body #btn-china{margin-bottom:14px}
 .tool-btn{
-  /* 图标色只在这一处定义，靠变量分状态。
-     原来写成 `.tool-btn.on svg{stroke:金}`，权重 (0,2,1) 被
-     `#tools-body .tool-btn svg` (1,1,1) 压掉 —— 点亮时图标一直是冷蓝的，
-     金圈里躺着一枚蓝图标。改成变量后没有谁能压谁。 */
-  --ico:rgba(200,220,246,.86);
-  position:relative;
-  width:100%;height:40px;padding:0;
+  /* 36px 在触摸屏上偏小（大拇指按不准），提到 42 */
+  width:42px;height:42px;padding:0;border-radius:50%;
   display:flex;align-items:center;justify-content:center;
-  background:transparent;border:0;border-radius:0;
-  cursor:pointer;color:var(--ico);
-  transition:background .18s ease;
-  -webkit-tap-highlight-color:transparent;
+  cursor:pointer;
+  /* 同理：小球现在会顶到屏幕边缘，按钮底色必须做实 */
+  background:rgba(7,11,19,.9);
+  border:1px solid rgba(126,158,198,.26);
+  transition:border-color .2s ease,background .2s ease;
 }
 .tool-btn svg{
-  width:18px;height:18px;
-  fill:none;stroke:var(--ico);
-  stroke-width:1.55;stroke-linecap:round;stroke-linejoin:round;
-  transition:stroke .18s ease;
+  width:15px;height:15px;
+  fill:none;stroke:rgba(158,190,228,.7);
+  stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;
+  transition:stroke .2s ease;
 }
-#tools-body .tool-btn:hover{background:rgba(150,185,230,.10);--ico:#eef6ff}
-#tools-body .tool-btn:active{background:rgba(150,185,230,.16)}
-/* 开关之间的 1px 分隔线 */
-#tools-body .tool-btn + .tool-btn{box-shadow:inset 0 1px 0 rgba(140,170,210,.11)}
-/* 六颗按钮之间原来夹着一段 9px 留白（当时为了把"一次性动作"和五个开关分开）。
-   现在六颗都是同一类开关，那段留白就成了唯一的例外：中间不连线、间距也宽一截。
-   直接删掉，靠 `+` 选择器给每两颗之间画同一条 1px 分隔线。 */
-/* 首尾跟着条子的圆角走 */
-#tools-body .tool-btn:first-child{border-radius:12px 12px 0 0}
-#tools-body .tool-btn:last-child{border-radius:0 0 12px 12px}
-
-/* 点亮：左侧 3px 金条 + 图标转金，不发光 */
-#tools-body .tool-btn.on{
-  --ico:rgba(255,224,152,.98);
-  background:linear-gradient(90deg,rgba(255,205,110,.13),rgba(255,205,110,.015) 72%);
+.tool-btn:hover{border-color:rgba(150,185,230,.55);background:rgba(19,31,50,.88)}
+.tool-btn:hover svg{stroke:rgba(200,222,250,.95)}
+/* 点亮态用金色 —— 和地球上的国界线、晨昏线是同一支色。
+   开关类按钮（国境线 / 经纬线 / 昼夜分界 / 时间指示）点开都是这个状态。 */
+.tool-btn.on{
+  border-color:rgba(255,215,138,.72);
+  background:rgba(58,45,22,.92);
+  box-shadow:0 0 0 1px rgba(255,215,138,.16),0 0 16px rgba(255,196,96,.20);
 }
-#tools-body .tool-btn.on::before{
-  content:'';position:absolute;left:0;top:7px;bottom:7px;width:3px;
-  border-radius:0 2px 2px 0;background:rgba(255,206,112,.92);
-}
-
-/* 名字：只在 hover / 键盘聚焦时从右侧浮出（手机上常显，见媒体查询）。
-   原来靠 data-tip 的气泡，手机上根本没有 hover，等于没有说明。 */
-.tl{
-  position:absolute;left:calc(100% + 9px);top:50%;
-  transform:translate(-5px,-50%);
-  padding:4px 9px;border-radius:7px;
-  font-size:12px;line-height:1.2;letter-spacing:.02em;white-space:nowrap;
-  color:#dfeaf8;background:rgba(6,10,17,.93);
-  border:1px solid rgba(140,170,210,.24);
-  box-shadow:0 6px 18px rgba(0,0,0,.4);
-  opacity:0;pointer-events:none;
-  transition:opacity .16s ease,transform .2s cubic-bezier(.2,.8,.3,1);
-}
-.tool-btn:hover .tl,.tool-btn:focus-visible .tl{opacity:1;transform:translate(0,-50%)}
+.tool-btn.on svg{stroke:rgba(255,224,152,.98)}
 /* 时间指示模式：光标换成一面小旗子，热点在旗杆脚下 */
 #globe-stage.time-mode{cursor:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'%3E%3Cdefs%3E%3ClinearGradient id='f' x1='0' y1='0' x2='.9' y2='1'%3E%3Cstop offset='0' stop-color='%23ffeec2'/%3E%3Cstop offset='.55' stop-color='%23f6c85c'/%3E%3Cstop offset='1' stop-color='%23cd9a2e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M9 31.4V5' stroke='%23e9c987' stroke-width='1.9' stroke-linecap='round'/%3E%3Ccircle cx='9' cy='4.2' r='1.9' fill='%23ffe9b3'/%3E%3Ccircle cx='8.4' cy='3.7' r='.7' fill='%23fffdf2' opacity='.9'/%3E%3Cpath d='M10.2 5.6c5.4-1.7 8.6 1.5 13.6.1.5 2.9.4 5.8-.3 8.7-5 1.3-8.6-1.5-13.3.2z' fill='url(%23f)' stroke='%23a97a1f' stroke-width='.9'/%3E%3Cpath d='M10.2 5.6c5.4-1.7 8.6 1.5 13.6.1' stroke='%23fff6da' stroke-width='1' fill='none' opacity='.85'/%3E%3Cpath d='M12.6 7.2c-.7 2.2-.9 4.4-.6 6.6M16.4 6.7c-.6 2.3-.7 4.6-.4 6.9' stroke='%23b98a24' stroke-width='.7' fill='none' opacity='.55'/%3E%3C/svg%3E") 9 32, crosshair}
 #globe-stage.time-mode canvas{cursor:inherit}
@@ -1246,13 +1195,6 @@ body.panel-open #globe-stage{
    旗子模式下可以连点好几处，每个各钉一根、互不影响，也不跟着鼠标动；
    退出旗子模式时一起收掉。 */
 #time-pins{position:fixed;inset:0;z-index:32;pointer-events:none}
-/* 时间钉的锚点：零尺寸，每帧用 translate3d 挪到"那个地理位置"投影到屏幕的位置。
-   用 transform 而不是 left/top —— 拖拽和缩放时每帧都在动，走合成层才不抖。 */
-.tpin-anchor{
-  position:absolute;left:0;top:0;width:0;height:0;
-  will-change:transform,opacity;
-  transition:opacity .18s ease;
-}
 .tpin{
   position:absolute;display:flex;flex-direction:column;align-items:center;
   transform:translate(-50%,-100%);
@@ -1482,102 +1424,6 @@ body.panel-open #globe-stage{
   font-variant-numeric:tabular-nums;letter-spacing:.02em;
 }
 
-/* --- 移动端 --- */
-@media (max-width:760px){
-  #topbar{padding:12px 14px;gap:10px;flex-wrap:nowrap}
-  .brand-en{display:none}
-  .brand-cn{font-size:17px}
-  .topbar-meta{display:none}
-  .search-wrap{width:128px;height:32px}
-  .search-wrap.open{width:calc(100vw - 126px)}
-  #globe-stage{inset:0}
-  /* 小屏：胶囊窄一点，位置仍在正中 */
-  .globe-msg{font-size:11.5px;padding:8px 15px;gap:8px;max-width:calc(100% - 28px)}
-  .globe-spin{width:16px;height:16px}
-  #detail{
-    top:auto;left:10px;right:10px;
-    /* 手势条（iPhone 底部那条）+ 圆角：贴到底会被系统横条压住 */
-    bottom:calc(10px + env(safe-area-inset-bottom, 0px));
-    width:auto;height:82vh;height:82dvh;
-    border-radius:18px;
-    transform:translateY(calc(100% + 20px));
-  }
-  #detail.open{transform:none}
-  body.panel-open #globe-stage{transform:translateY(-11%)}
-  #footline{display:none}
-
-  /* 刘海屏 / 手势条。viewport-fit=cover 之后浮层会顶到物理边缘，
-     状态栏和 Home 指示条会直接压在上面。 */
-  #topbar{
-    padding:calc(12px + env(safe-area-inset-top, 0px)) calc(14px + env(safe-area-inset-right, 0px))
-            12px calc(14px + env(safe-area-inset-left, 0px));
-  }
-  #tools{
-    left:calc(20px + env(safe-area-inset-left, 0px));
-    bottom:calc(20px + env(safe-area-inset-bottom, 0px));
-  }
-  /* 手机上只留一颗按钮。原来 6 个按钮竖着排在左边缘，占掉 282px 屏高（33%），
-     而手机用户最需要的是看球。点开才展开，点空白或再点一次收起。 */
-  #tools-toggle{
-    display:flex;
-    width:46px;height:46px;border-radius:14px;
-    background:rgba(6,10,17,.8);
-    border:1px solid rgba(140,170,210,.26);
-    box-shadow:0 8px 22px rgba(0,0,0,.42);
-  }
-  #tools-body{
-    position:absolute;left:0;bottom:calc(100% + 10px);
-    opacity:0;transform:translateY(10px) scale(.97);
-    transform-origin:50% 100%;
-    pointer-events:none;
-    transition:opacity .18s ease,transform .24s cubic-bezier(.2,.8,.3,1);
-  }
-  #tools.open #tools-body{opacity:1;transform:none;pointer-events:auto}
-  /* 手机没有 hover，名字常显；但不再是 6 个胶囊 —— 那样太吵，
-     改成贴着条子的浅色小字，像标注而不是按钮 */
-  .tl{
-    opacity:1;transform:translate(0,-50%);
-    padding:0;background:none;border:0;box-shadow:none;
-    color:rgba(224,236,252,.80);
-    text-shadow:0 1px 3px rgba(0,0,0,.92),0 0 8px rgba(0,0,0,.6);
-    left:calc(100% + 10px);
-  }
-  /* 触控目标从 40 提到 44 */
-  .tool-btn{height:44px}
-  #dock{bottom:calc(30px + env(safe-area-inset-bottom, 0px))}
-
-  /* iOS 上输入框字号小于 16px，聚焦时浏览器会自动把整页放大，而且不缩回来。
-     搜索框在手机上"点一下就跳"就是这个原因。16px 是那条线。 */
-  #q{font-size:16px}
-
-  /* 缩略图条：手机上 5 张图会折成两行（4+1），很难看。
-     改成单行横滑，最后一行的空间省下来给正文。 */
-  .thumbstrip{flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;
-              -webkit-overflow-scrolling:touch;scrollbar-width:none}
-  .thumbstrip::-webkit-scrollbar{display:none}
-  .ts-item{flex:0 0 auto}
-}
-
-/* --- 横屏手机（高度很矮）---
-   竖屏那套"从底下抽上来"的抽屉在横屏会把地球整个盖住；
-   这里仍用右侧栏，但要收窄、留白压到 8px，并给主图限高 ——
-   否则一张 16:10 的照片就吃掉整屏，正文要一直往下滑。 */
-@media (max-height:520px) and (orientation:landscape){
-  #detail{
-    top:8px;right:8px;bottom:8px;
-    width:min(56vw, 440px);
-  }
-  #detail .dimg-wrap{aspect-ratio:16/9;max-height:38vh}
-  #topbar{padding:calc(8px + env(safe-area-inset-top, 0px)) calc(12px + env(safe-area-inset-right, 0px))
-                  8px calc(12px + env(safe-area-inset-left, 0px))}
-  .brand-cn{font-size:16px}
-  #tools{left:calc(14px + env(safe-area-inset-left, 0px));
-         bottom:calc(14px + env(safe-area-inset-bottom, 0px))}
-  /* 横屏高度只有 390，整条 249px 还塞得下，但把行高压到 34px 更从容 */
-  #tools-body .tool-btn{height:34px}
-  #tools-body{width:44px}
-}
-
 </style>
 </head>
 <body>
@@ -1646,63 +1492,45 @@ body.panel-open #globe-stage{
 <!-- 工具栏：只留图标本身。之前外面套了层玻璃面板，在深色球面上显得又厚又重，
      干脆去掉容器和折叠把手 —— 六个图标直接浮着，鼠标移上去才有反馈。 -->
 <div id="tools">
-  <!-- 手机端才出现的展开按钮：屏幕上只有一颗，点开才是那一列 -->
-  <button class="tool-btn" id="tools-toggle" type="button" aria-label="展开工具" aria-expanded="false">
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M4 7h7M15 7h5M4 12h3M11 12h9M4 17h10M18 17h2"/>
-      <circle cx="13" cy="7" r="1.9"/><circle cx="9" cy="12" r="1.9"/><circle cx="16" cy="17" r="1.9"/>
-    </svg>
-  </button>
   <div id="tools-body">
-  <button class="tool-btn" id="btn-china" type="button" aria-label="常驻中国上空" aria-pressed="false">
+  <button class="tool-btn" id="btn-china" type="button" aria-label="定位到中国上空" data-tip="回到中国上空">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="8.3"/>
-      <circle cx="12" cy="12" r="2.2"/>
-      <path d="M12 1.9v2.2M12 19.9v2.2M1.9 12h2.2M19.9 12h2.2"/>
+      <circle cx="12" cy="12" r="6.6"/>
+      <circle cx="12" cy="12" r="2.1"/>
+      <path d="M12 2.2v2.6M12 19.2v2.6M2.2 12h2.6M19.2 12h2.6"/>
     </svg>
-    <span class="tl">常驻中国</span>
   </button>
-  <button class="tool-btn" id="btn-borders" type="button" aria-label="显示全部国境线" aria-pressed="false">
+  <button class="tool-btn" id="btn-borders" type="button" aria-label="显示全部国境线" data-tip="显示全部国境线">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <!-- 和其它五个统一成"圆底"：之前这里是个方框，和右边的圆形经纬网放一起，
-           一个方一个圆，风格差得太明显（用户原话"区别好大"）。
-           圆里一条虚线弧 —— 地图图例里国界就是画虚线的，而经纬网是实线网格，
-           "虚 vs 实"比"锯齿 vs 网格"更好分；弧线又避开了"直线虚线像电源符号"。 -->
-      <circle cx="12" cy="12" r="8.3"/>
-      <path d="M9.7 4.3c2.1 2.3 2.9 5 2.3 7.7-.5 2.2-1.8 4.1-3.3 5.6"
-            stroke-width="1.9" stroke-dasharray="2.4 2.1"/>
+      <path d="M3.6 6.2h16.8v11.6H3.6z" stroke-dasharray="2.6 2.2"/>
+      <path d="M8.6 6.2v11.6M15.4 6.2v11.6" stroke-dasharray="2.6 2.2" opacity=".55"/>
     </svg>
-    <span class="tl">全部国境线</span>
   </button>
-  <button class="tool-btn" id="btn-grid" type="button" aria-label="显示经纬线" aria-pressed="false">
+  <button class="tool-btn" id="btn-grid" type="button" aria-label="显示经纬线" data-tip="显示经纬线">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <!-- 球 + 横椭圆（纬线）+ 竖椭圆（经线）。正交两个椭圆才是"网格"，
-           一根竖椭圆加两条横线在 18px 下读成"圆里一道竖杠"。 -->
-      <circle cx="12" cy="12" r="8.3"/>
-      <ellipse cx="12" cy="12" rx="8.3" ry="3.5"/>
-      <ellipse cx="12" cy="12" rx="3.6" ry="8.3"/>
+      <circle cx="12" cy="12" r="8.4"/>
+      <ellipse cx="12" cy="12" rx="3.9" ry="8.4"/>
+      <path d="M3.6 12h16.8M5.2 7.3h13.6M5.2 16.7h13.6"/>
     </svg>
-    <span class="tl">经纬线</span>
   </button>
-  <button class="tool-btn" id="btn-night" type="button" aria-label="切换白天 / 夜晚" aria-pressed="false">
+  <button class="tool-btn" id="btn-night" type="button" aria-label="切换白天 / 夜晚" data-tip="切换到夜晚模式">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M20.2 14.4A8.5 8.5 0 1 1 9.6 3.8a6.7 6.7 0 0 0 10.6 10.6z"/>
+      <path d="M20.4 14.6A8.6 8.6 0 1 1 9.4 3.6a6.8 6.8 0 0 0 11 11z"/>
     </svg>
-    <span class="tl">夜晚模式</span>
   </button>
-  <button class="tool-btn" id="btn-term" type="button" aria-label="按此刻的太阳位置分出昼夜" aria-pressed="false">
+  <button class="tool-btn" id="btn-term" type="button" aria-label="昼夜分界线" data-tip="按此刻的太阳位置分出昼夜两半">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="8.3"/>
-      <path d="M12 3.7a8.3 8.3 0 0 1 0 16.6z" fill="currentColor" fill-opacity=".42" stroke="none"/>
+      <circle cx="12" cy="12" r="8.2"/>
+      <path d="M12 3.8a8.2 8.2 0 0 0 0 16.4z" fill="currentColor" fill-opacity=".22" stroke="none"/>
+      <path d="M7.2 4.9l9.6 14.2" stroke-width="1.5"/>
     </svg>
-    <span class="tl">昼夜分界</span>
   </button>
-  <button class="tool-btn" id="btn-time" type="button" aria-label="时间指示：点地球任意位置看当地时间" aria-pressed="false">
+  <button class="tool-btn" id="btn-time" type="button" aria-label="时间指示" data-tip="点地球任意位置看当地时间">
     <svg viewBox="0 0 24 24" aria-hidden="true">
-      <circle cx="12" cy="12" r="8.3"/>
-      <path d="M12 6.8V12l3.4 2.1"/>
+      <circle cx="12" cy="12" r="8.2"/>
+      <path d="M12 6.9V12l3.4 2.1"/>
+      <path d="M12 3.8v1.5M20.2 12h-1.5M12 20.2v-1.5M3.8 12h1.5" stroke-width="1.3" opacity=".55"/>
     </svg>
-    <span class="tl">时间指示</span>
   </button>
   </div>
 </div>
@@ -2281,13 +2109,7 @@ body.panel-open #globe-stage{
     return { history: '', folk: f };
   }
 
-  var panelT0 = 0;          // 面板开始滑入的时刻（whenPanelIn 用来算剩余时长）
-
   function renderDetail(d, quiet) {
-    /* 记下面板开始滑入的时刻。后面 whenPanelIn 要用它算"动画还剩多久"——
-       光靠 transitionend 会漏：镜头飞行本身就 900ms，若飞行比动画晚结束，
-       监听时动画已经跑完了，事件永远不会再来，只能吃兜底超时（实测 2.87 秒才见图）。 */
-    panelT0 = performance.now();
     dTitle.textContent = d.name_zh;
     dSub.textContent = d.name_en + ' · ' + d.iso_a2 + ' / ' + d.iso_a3 + ' · ' + d.qid;
 
@@ -2364,39 +2186,11 @@ body.panel-open #globe-stage{
       left.appendChild(picWrap);
       if (strip) {
         imgs.forEach(function (it, i) {
-          /* 用 <div> 的背景图，而不是 <img>。
-             <img> 在"还没下到"或"加载失败"时，浏览器会在框里画一个破图小图标
-             （alt 置空也只是去掉文字，图标照画），那个图标没有 CSS 能关掉。
-             背景图没有这个副作用：图没到就是一块干净的骨架，图到了整块盖上。 */
-          var label = it.caption_zh || it.caption || (d.name_zh + ' 图片 ' + (i + 1));
-          var t = el('div', 'ts-item');
-          t.setAttribute('role', 'img');
-          t.setAttribute('aria-label', label);
-          t.setAttribute('data-tip', label);
-          /* 这里只装"怎么加载"，不立刻发请求 —— 由下面 whenSettled 统一触发。
-             之前是在创建时就 probe.src，五张图会和面板的图层光栅化撞在同一帧，
-             实测点开后 40~170ms 那一片掉帧就是从这来的（主图反而在 900ms 后才取）。 */
-          t.__load = function (rel) {
-            if (t.__loading) return;
-            t.__loading = true;
-            var probe = new Image();
-            var settled = false;
-            var apply = function (src) {
-              t.style.backgroundImage = 'url("' + src + '")';
-              t.classList.add('loaded');
-            };
-            /* 与主图同一套双源策略：先 OBS，失败回退仓库相对路径。
-               两个 URL 都试完仍然是坏的，就让它保持骨架，不显示任何占位图。 */
-            probe.onload = function () { settled = true; apply(assetSrc(rel)); };
-            probe.onerror = function () {
-              if (settled) return;
-              settled = true;
-              var fallback = new Image();
-              fallback.onload = function () { apply(rel); };
-              fallback.src = rel;
-            };
-            probe.src = assetSrc(rel);
-          };
+          var t = el('img', 'ts-item');
+          t.alt = it.caption_zh || it.caption || (d.name_zh + ' 图片 ' + (i + 1));
+          t.setAttribute('data-tip', t.alt);
+          t.loading = 'lazy';
+          t.decoding = 'async';
           t.addEventListener('click', function () { showPic(i); });
           items.push(t);
           strip.appendChild(t);
@@ -2409,49 +2203,17 @@ body.panel-open #globe-stage{
          五六张，情况更糟。而"冷/热"两遍的差别（第一次点卡、再点不卡）也正是
          它们。题干说"先等镜头固定了再下也能接受"，那就按这个来：
          面板立刻滑入、图注立刻显示，图位置留一块微光的骨架，停稳后再填图。 */
-      /* 等面板滑入动画彻底走完再取图。
-         实测（同一台机器、六国连点、屏蔽掉全部 webp 做对照）：
-           正常 31 次掉帧 / 屏蔽图片后只剩 5 次
-         —— 图片的解码和上传 GPU 就是点击后那一顿的绝对主因，占比八成以上。
-         光"等镜头停稳"（900ms）不够：面板滑入本身要 1.05s，图正好砸在动画尾巴上。
-         代价是图晚 0.15 秒出现，骨架多显示一会儿 —— 用户说过"慢能接受，卡不能"。 */
-      function whenPanelIn(cb) {
-        if (!detail) { cb(); return; }
-        /* 动画时长从 CSS 读，别写死 —— 以后调 1.05s 这里不会失配。 */
-        var dur = 0;
-        try {
-          /* 取所有过渡里最长的那个。桌面是 transform .56s，手机是 1.05s，
-             直接读第一个会有平台差异，取最大值最稳。 */
-          var parts = (getComputedStyle(detail).transitionDuration || '0s').split(',');
-          for (var i = 0; i < parts.length; i++) {
-            var v = parts[i].trim();
-            var n = parseFloat(v) || 0;
-            if (v.slice(-2) !== 'ms') n *= 1000;
-            if (n > dur) dur = n;
-          }
-        } catch (e) { dur = 600; }
-        var left = dur - (performance.now() - panelT0);
-        if (left <= 20) { cb(); return; }
-        setTimeout(cb, left + 60);
-      }
-
       var imgToken = DETAIL_SEQ;
       (globe.whenSettled || function (f) { f(); })(function () {
         if (imgToken !== DETAIL_SEQ) return;      // 已经翻到别的国家了
-        whenPanelIn(function () {
-          if (imgToken !== DETAIL_SEQ) return;
-          /* 停稳之前用户已经点过某张缩略图（picSeq 已经加过），就别再把他
-             选中的那张顶回第一张。 */
-          if (picSeq === 0) showPic(0);
-          if (strip) {
-            /* 五张错开 110ms 发，别挤在同一帧 */
-            imgs.forEach(function (it, i) {
-              var node = items[i];
-              if (!node || !node.__load) return;
-              setTimeout(function () { node.__load(it.thumb_url || it.url); }, i * 110);
-            });
-          }
-        });
+        /* 停稳之前用户已经点过某张缩略图（picSeq 已经加过），就别再把他
+           选中的那张顶回第一张。 */
+        if (picSeq === 0) showPic(0);
+        if (strip) {
+          imgs.forEach(function (it, i) {
+            setAsset(items[i], it.thumb_url || it.url);
+          });
+        }
       });
       if (strip) left.appendChild(strip);
       left.appendChild(capEl);
@@ -3335,7 +3097,6 @@ body.panel-open #globe-stage{
     matOn: null, matLit: null, matAll: null,
     active: null,
     autoSpin: true,
-    pinCN: false,          // 「常驻中国」：钉住镜头、冻结自转
     inView: false,
     dragging: false,
     last: { x: 0, y: 0 },
@@ -3546,44 +3307,7 @@ body.panel-open #globe-stage{
     var mat = new THREE.MeshBasicMaterial({
       map: tex, transparent: true, depthWrite: false, side: THREE.FrontSide
     });
-    var out = new THREE.Mesh(new THREE.SphereGeometry(radius, 96, 48), mat);
-
-    /* 南北极各补一枚小球。
-       等距圆柱贴图在这里有个绕不过去的上限：极点附近所有经度被压进同一个 3D 点，
-       纹理的横向分辨率趋近于零，经线不管画多粗都会被压没 —— 所以贴图上的经线
-       在离极点还有十来度的地方就断了，看着是散开的，不像交汇。
-       两枚小球正好盖住那个缺口，十二条经线看起来就收于一点了。 */
-    /* 光补个点不够 —— 贴图的经线在离极点十二度左右就没了，中间还是空的。
-       所以这一小段（78°→90°）用 3D 线段补，十二条经线的末端都落在同一个极点坐标上，
-       才是真的交汇。线宽 1px 由 GPU 定，和贴图那边被压细的部分正好接得上。 */
-    var segPts = [], va = new THREE.Vector3(), vb = new THREE.Vector3();
-    for (var mlon = -180; mlon < 180; mlon += 30) {
-      for (var mlat = 78; mlat < 90; mlat += 2) {
-        llToVec3(mlon, mlat, radius, va);
-        llToVec3(mlon, mlat + 2, radius, vb);
-        segPts.push(va.x, va.y, va.z, vb.x, vb.y, vb.z);
-        llToVec3(mlon, -mlat, radius, va);
-        llToVec3(mlon, -(mlat + 2), radius, vb);
-        segPts.push(va.x, va.y, va.z, vb.x, vb.y, vb.z);
-      }
-    }
-    var segGeo = new THREE.BufferGeometry();
-    segGeo.setAttribute('position', new THREE.Float32BufferAttribute(segPts, 3));
-    out.add(new THREE.LineSegments(segGeo, new THREE.LineBasicMaterial({
-      color: 0xe2be78, transparent: true, opacity: 0.55, depthWrite: false
-    })));
-
-    /* 极点上再压一枚小球，把贴图与 3D 线的接缝盖住 */
-    var dotGeo = new THREE.SphereGeometry(radius * 0.0065, 10, 8);
-    var dotMat = new THREE.MeshBasicMaterial({
-      color: 0xe6c078, transparent: true, opacity: 0.9, depthWrite: false
-    });
-    [1, -1].forEach(function (sgn) {
-      var dot = new THREE.Mesh(dotGeo, dotMat);
-      dot.position.set(0, sgn * radius * 1.002, 0);
-      out.add(dot);
-    });
-    return out;
+    return new THREE.Mesh(new THREE.SphereGeometry(radius, 96, 48), mat);
   }
 
   /* 世界坐标（球面）→ 经纬度 */
@@ -3697,8 +3421,6 @@ body.panel-open #globe-stage{
      得 ry = -lon - 90。
      tilt 绕 X：正角度使北极转向相机，故北半球国家用正 lat。 */
   function focusCountry(iso, ms) {
-    /* 飞向别的国家 = 用户不想钉在中国了 */
-    if (iso !== 'CN' && globe.pinCN) setPinChina(false);
     var c = null;
     (globe.data.countries || []).forEach(function (x) { if (x.iso === iso) c = x; });
     if (!c || !globe.spin) return;
@@ -3720,35 +3442,8 @@ body.panel-open #globe-stage{
       globe.spin.rotation.y = fromY + dY * e;
       globe.tilt.rotation.x = fromX + dX * e;
       if (k < 1) requestAnimationFrame(step);
-      else globe.autoSpin = !globe.pinCN;   // 钉住的时候别自己转走
+      else globe.autoSpin = true;
     })();
-  }
-
-  /* ---------- 常驻中国 ----------
-     原来是一颗一次性动作按钮（act）：按下去飞过去，飞完自转照旧，中国又转走了；
-     而且是六个按钮里唯一不会亮的那个 —— 和旁边五个开关明显不是一类。
-     改成开关：点亮 = 镜头钉在中国上空并冻结自转，再点一次解除。
-     六个按钮于是全是 aria-pressed 开关，点亮态、交互、读屏口径都统一了。
-
-     解除的时机有两处：用户手动拖球（dragDown）、或飞向别的国家（focusCountry）。
-     滚轮缩放不算 —— 拉近看中国正是在用它，不该把钉子拔掉。 */
-  function setPinChina(on) {
-    on = !!on;
-    if (globe.pinCN === on) return;
-    globe.pinCN = on;
-    var btn = document.getElementById('btn-china');
-    if (btn) btn.classList.toggle('on', on);   // aria-pressed 由末尾的 MutationObserver 同步
-    if (on) {
-      globe.camMode = 'manual';
-      globe.flying = false;
-      /* 高度回到首屏那个 3.02，否则"定位到中国"会变得很随机 ——
-         上次放大到街道级别的话，点一下还是贴在街道上。只动相机，不开面板。 */
-      globe.camTarget = 3.02;
-      focusCountry('CN', 900);
-    } else {
-      globe.autoSpin = true;
-      globe.idleUntil = performance.now() + 600;
-    }
   }
 
   /* ---------- 地球贴图与材质 ----------
@@ -5028,13 +4723,7 @@ body.panel-open #globe-stage{
         gridVisible: !!(globe.grid && globe.grid.visible),
         bordersBuilt: !!allBorders,
         bordersVisible: !!(allBorders && allBorders.visible),
-        bordersBusy: !!allBusy,
-        /* 调试用：相机距离与球体朝向。手机端捏合/拖拽没法用肉眼验证，
-           靠这两个数确认手势到底有没有生效。 */
-        camZ: globe.camera ? Math.round(globe.camera.position.z * 1000) / 1000 : null,
-        rot: globe.spin ? Math.round(globe.spin.rotation.y * 1000) / 1000 : null,
-        tilt: globe.tilt ? Math.round(globe.tilt.rotation.x * 1000) / 1000 : null,
-        pinCN: !!globe.pinCN
+        bordersBusy: !!allBusy
       };
     };
 
@@ -5241,85 +4930,22 @@ body.panel-open #globe-stage{
        现在 239 个国家的地名都可点，它们盖住了球面相当大一片；如果按住字就拖不动，
        手感会碎得厉害。所以：down 绑在 canvas 和每个地名上，move/up 统一挂 window
        （带 globe.dragging 守卫），这样从字上按下也能直接转球。 */
-    /* ---------- 拖拽旋转 + 双指捏合缩放 ----------
-       以前只有 wheel：手机上根本没有滚轮事件，所以**缩放完全不可用**；
-       而拖拽虽然没有 pointercancel 保护（#globe-stage 少了 touch-action:none），
-       手指划两下就被浏览器抢去滚页面，收到的是一次 pointercancel。
-
-       这里把指针按 id 记账：手机两根手指会同时发 pointermove，
-       不分 id 的话两指的位移互相覆盖，镜头会跳。
-       一根手指 = 转球；两根手指 = 捏合，转动同时停下
-       （否则球会跟着两指中点乱跑）。 */
-    var ptrs = {};          // pointerId -> {x, y}
-    var dragId = null;      // 负责转球的那根
-    var pinching = false;
-    var pinch0 = 0;         // 捏合开始时两指距离（px）
-    var pinchCam0 = 0;      // 捏合开始时的相机距离
-
-    function ptrCount() { return Object.keys(ptrs).length; }
-    function ptrDist() {
-      var ids = Object.keys(ptrs);
-      if (ids.length < 2) return 0;
-      var a = ptrs[ids[0]], b = ptrs[ids[1]];
-      var dx = a.x - b.x, dy = a.y - b.y;
-      return Math.sqrt(dx * dx + dy * dy) || 1;
-    }
-
     function dragDown(e) {
-      /* 鼠标只认左键；触摸和笔没有 button 之分。 */
-      if (e.pointerType === 'mouse' && e.button !== 0) return;
-      ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
-
-      if (ptrCount() === 1) {
-        dragId = e.pointerId;
-        globe.dragging = true;
-        globe.lastInput = performance.now();
-        globe.last.x = e.clientX;
-        globe.last.y = e.clientY;
-        downAt.x = e.clientX;
-        downAt.y = e.clientY;
-        globe.moved = 0;
-        globe.vel.x = globe.vel.y = 0;
-        cv.classList.add('dragging');
-        globe.autoSpin = false;
-        if (globe.pinCN) setPinChina(false);   // 手一转就是要自己看，钉子拔掉
-        globe.flying = false;        // 手动接管，打断正在进行的飞行
-        return;
-      }
-
-      if (ptrCount() === 2) {
-        pinching = true;
-        pinch0 = ptrDist();
-        pinchCam0 = globe.camTarget;
-        globe.dragging = false;
-        globe.vel.x = globe.vel.y = 0;
-        globe.moved = 999;           // 这一串动作不许被当成"点了一下"
-        cv.classList.remove('dragging');
-        globe.camMode = 'manual';
-        globe.flying = false;
-      }
-    }
-
-    function dragMove(e) {
-      var p = ptrs[e.pointerId];
-      if (!p) return;                // 不是我们记过的指针（比如第二根手指之外的多余触点）
-      p.x = e.clientX;
-      p.y = e.clientY;
+      globe.dragging = true;
       globe.lastInput = performance.now();
-
-      /* 双指：只算缩放。两指分开 → 距离变大 → 相机拉近（camZ 变小）。
-         用手势的"倍数"而不是每帧增量，捏多少走多少，松手不飘。 */
-      if (pinching && ptrCount() >= 2) {
-        var d = ptrDist();
-        if (pinch0 > 0 && d > 0) {
-          globe.camTarget = Math.max(CAM_MIN, Math.min(CAM_MAX, pinchCam0 * (pinch0 / d)));
-        }
-        globe.autoSpin = false;
-        globe.idleUntil = performance.now() + 2600;
-        return;
-      }
-
-      if (!globe.dragging || e.pointerId !== dragId) return;
+      globe.last.x = e.clientX;
+      globe.last.y = e.clientY;
+      downAt.x = e.clientX;
+      downAt.y = e.clientY;
+      globe.moved = 0;
+      globe.vel.x = globe.vel.y = 0;
+      cv.classList.add('dragging');
+      globe.autoSpin = false;
+      globe.flying = false;        // 手动接管，打断正在进行的飞行
+    }
+    function dragMove(e) {
+      if (!globe.dragging) return;
+      globe.lastInput = performance.now();
       var dx = e.clientX - globe.last.x;
       var dy = e.clientY - globe.last.y;
       globe.last.x = e.clientX;
@@ -5333,35 +4959,8 @@ body.panel-open #globe-stage{
       var lim = 78 * D2R;
       globe.tilt.rotation.x = Math.max(-lim, Math.min(lim, globe.tilt.rotation.x));
     }
-
-    /* 收尾：抬起一根手指、或整段手势结束。 */
-    function dragUp(e) {
-      if (e && e.pointerId !== undefined) delete ptrs[e.pointerId];
-      var n = ptrCount();
-
-      if (pinching && n < 2) {
-        pinching = false;
-        globe.idleUntil = performance.now() + 2600;
-        if (n === 1) {
-          /* 松掉一根、还剩一根：让留下的那根接着转。
-             基准点重设到它当前的位置，否则球会"跳"一下。 */
-          for (var k in ptrs) { dragId = Number(k); break; }
-          globe.dragging = true;
-          globe.last.x = ptrs[dragId].x;
-          globe.last.y = ptrs[dragId].y;
-          globe.vel.x = globe.vel.y = 0;
-          cv.classList.add('dragging');
-          return;
-        }
-      }
-      if (n > 0) return;
-
-      dragId = null;
-      if (!globe.dragging) {
-        /* 捏合结束时 dragging 已经是 false，但自转要恢复 */
-        globe.autoSpin = true;
-        return;
-      }
+    function dragUp() {
+      if (!globe.dragging) return;
       globe.dragging = false;
       cv.classList.remove('dragging');
       /* 只有真正拖动过才延时恢复自转。
@@ -5396,7 +4995,6 @@ body.panel-open #globe-stage{
 
     var pinLayer = document.getElementById('time-pins');
     var TPIN_MAX = 6;                      // 最多同时钉 6 个，再多就从最早的开始收
-    var pins = [];                         // { anchor, lat, lon } —— 位置靠经纬度每帧重算
 
     function showTimePin(cx, cy, ll) {
       if (!pinLayer) return;
@@ -5413,12 +5011,11 @@ body.panel-open #globe-stage{
       var ew = ll.lon >= 0 ? 'E' : 'W';
 
       /* 每个落点各自一个标记，互不覆盖 —— 连着点三处就有三个时间钉在那儿。
-         气泡里的时间是**点击那一刻**的，不会跟着走；但钉子的**位置**必须跟着地球：
-         它记的是经纬度，每帧重新投影到屏幕上，所以缩放、拖拽之后它仍然扎在同一个点上。 */
-      var anchor = document.createElement('div');
-      anchor.className = 'tpin-anchor';
+         气泡里记的是**点击那一刻**的时间，所以定住以后不会再跟着走。 */
       var d = document.createElement('div');
       d.className = 'tpin' + (cy < 150 ? ' below' : '');
+      d.style.left = cx + 'px';
+      d.style.top = cy + 'px';
       d.innerHTML =
         '<div class="tp-bubble"><b>' + (hh < 10 ? '0' : '') + hh + ':' +
           (mm < 10 ? '0' : '') + mm + '</b>　' +
@@ -5426,40 +5023,11 @@ body.panel-open #globe-stage{
           '<i>' + Math.abs(ll.lat).toFixed(1) + '°' + ns + '　' +
           Math.abs(ll.lon).toFixed(1) + '°' + ew + '</i></div>' +
         '<div class="tp-stem"></div>';
-      anchor.appendChild(d);
-      pinLayer.appendChild(anchor);
-      pins.push({ anchor: anchor, lat: ll.lat, lon: ll.lon });
+      pinLayer.appendChild(d);
 
       var kids = pinLayer.children;
-      while (kids.length > TPIN_MAX) { pinLayer.removeChild(kids[0]); pins.shift(); }
-      placePins();          // 立刻摆到位，别先闪在左上角
+      while (kids.length > TPIN_MAX) pinLayer.removeChild(kids[0]);
     }
-
-    /* 把每个钉子的经纬度投影回屏幕。每帧跑，最多 6 个，开销可以忽略。
-       背面（法线背对相机）直接淡出 —— 否则一个球背面的钉子会"穿"到正面来。 */
-    var _pv = null, _pw = null;
-    function placePins() {
-      if (!pins.length || !globe.sphere || !globe.camera) return;
-      if (!_pv) { _pv = new THREE.Vector3(); _pw = new THREE.Vector3(); }
-      var cam = globe.camera;
-      /* canvas 会跟着面板打开被整体上移（body.panel-open 给 #globe-stage 加了 transform），
-         所以必须用它的实际位置换算，不能拿视口尺寸直接算。 */
-      var r = cv.getBoundingClientRect();
-      for (var i = 0; i < pins.length; i++) {
-        var p = pins[i];
-        llToVec3(p.lon, p.lat, 1.004, _pv);
-        globe.sphere.localToWorld(_pv);
-        _pw.copy(cam.position).sub(_pv).normalize();
-        var facing = _pv.clone().normalize().dot(_pw);
-        var v = _pv.project(cam);
-        var x = r.left + (v.x * 0.5 + 0.5) * r.width;
-        var y = r.top + (-v.y * 0.5 + 0.5) * r.height;
-        p.anchor.style.transform = 'translate3d(' + x.toFixed(1) + 'px,' +
-                                   y.toFixed(1) + 'px,0)';
-        p.anchor.style.opacity = facing > 0.04 ? '' : '0';
-      }
-    }
-    globe.placePins = placePins;
 
     /* 退出旗子模式时全部收掉：先淡出再删，一起消失 */
     globe.hideTimePin = function () {
@@ -5469,7 +5037,6 @@ body.panel-open #globe-stage{
       });
       setTimeout(function () {
         if (pinLayer) pinLayer.innerHTML = '';
-        pins.length = 0;
       }, 180);
     };
 
@@ -5482,18 +5049,10 @@ body.panel-open #globe-stage{
       keyClick();
       showTimePin(e.clientX, e.clientY, ll);
     });
-    /* 指针事件挂在 window 上：手指滑出画布（或滑到面板上）也要继续跟手。
-       pointercancel 必须当成抬起 —— 系统手势、来电、切后台都会发它，
-       不处理的话球会一直"被按住"，自转再也不恢复。 */
     window.addEventListener('pointermove', dragMove);
     window.addEventListener('pointerup', dragUp);
     window.addEventListener('pointercancel', dragUp);
-    /* 切走窗口：把所有指针清掉，别留下"一直按着"的状态 */
-    window.addEventListener('blur', function () {
-      ptrs = {};
-      pinching = false;
-      dragUp({ pointerId: -1 });
-    });
+    window.addEventListener('blur', dragUp);
 
     // ---- 交互：缩放 ----
     cv.addEventListener('wheel', function (e) {
@@ -5644,7 +5203,7 @@ body.panel-open #globe-stage{
         }
       }
 
-      if (globe.autoSpin && !globe.pinCN && !globe.dragging && !globe.flying &&
+      if (globe.autoSpin && !globe.dragging && !globe.flying &&
           nowMs > globe.idleUntil && !(globe.term && globe.term.on) &&
           !globe.timeMode) {
         /* 自转：0.0009 弧度/帧@60fps ≈ 116 秒一圈（原来 0.0013 = 80 秒，偏快）。
@@ -5662,7 +5221,6 @@ body.panel-open #globe-stage{
         var lim2 = 78 * D2R;
         tilt.rotation.x = Math.max(-lim2, Math.min(lim2, tilt.rotation.x));
       }
-      if (pins.length) placePins();
       renderer.render(scene, camera);
       /* 每帧都更新。
          之前为了省集显的开销，飞行/拖拽时降到了 30 次/秒 —— 那是错的：
@@ -5752,57 +5310,27 @@ body.panel-open #globe-stage{
       });
     }
 
-    /* 工具栏收纳（只在手机上生效，桌面永远整条展开）。
-       原来这里也有一段"收起后只留一颗按钮"的代码，但那个按钮和它的样式
-       后来被删掉了 —— toolsToggle 恒为 null，整段是死代码。现在按钮回来了。 */
+    /* 回到中国上空：只动相机，不开面板。高度回到首屏那个 3.02，
+       否则"定位到中国"会变得很随机 —— 上次放大到街道级别的话，
+       点一下还是贴在街道上。 */
+    /* 工具栏收纳：收起后只留一颗按钮，右下角那片球面就露出来了 */
     var toolsWrap = document.getElementById('tools');
     var toolsToggle = document.getElementById('tools-toggle');
     if (toolsWrap && toolsToggle) {
-      var setToolsOpen = function (v) {
-        toolsWrap.classList.toggle('open', v);
-        toolsToggle.setAttribute('aria-expanded', v ? 'true' : 'false');
-        toolsToggle.setAttribute('aria-label', v ? '收起工具' : '展开工具');
-      };
-      toolsToggle.addEventListener('click', function (e) {
-        e.stopPropagation();
-        setToolsOpen(!toolsWrap.classList.contains('open'));
-      });
-      /* 点别处收起。放在捕获段，先于地球的 pointerdown 跑 ——
-         这样"点球面"既能收起工具条，又照常转球。 */
-      document.addEventListener('pointerdown', function (e) {
-        if (!toolsWrap.classList.contains('open')) return;
-        if (toolsWrap.contains(e.target)) return;
-        setToolsOpen(false);
-      }, true);
-      window.addEventListener('resize', function () {
-        if (window.innerWidth > 760) setToolsOpen(false);
+      toolsToggle.addEventListener('click', function () {
+        var collapsed = toolsWrap.classList.toggle('collapsed');
+        toolsToggle.setAttribute('data-tip', collapsed ? '展开工具栏' : '收起工具栏');
+        if (window.__tipHide) window.__tipHide();
       });
     }
-
-    /* 开关状态同步给读屏：这五个是 aria-pressed 开关，复位那颗是动作，不参与。
-       用 MutationObserver 盯 class，比在六处 classList.toggle 后面各补一句可靠 ——
-       漏一处就永远对不上。 */
-    (function () {
-      var all = document.querySelectorAll('#tools .tool-btn[aria-pressed]');
-      var sync = function () {
-        for (var i = 0; i < all.length; i++) {
-          all[i].setAttribute('aria-pressed',
-            all[i].classList.contains('on') ? 'true' : 'false');
-        }
-      };
-      if (window.MutationObserver) {
-        var mo = new MutationObserver(sync);
-        for (var i = 0; i < all.length; i++) {
-          mo.observe(all[i], { attributes: true, attributeFilter: ['class'] });
-        }
-      }
-      sync();
-    })();
 
     var bcn = document.getElementById('btn-china');
     if (bcn) {
       bcn.addEventListener('click', function () {
-        setPinChina(!globe.pinCN);
+        globe.camMode = 'manual';
+        globe.flying = false;
+        globe.camTarget = 3.02;
+        focusCountry('CN', 900);
         if (window.__tipHide) window.__tipHide();
       });
     }

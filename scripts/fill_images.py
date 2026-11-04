@@ -277,7 +277,7 @@ EVENT_RE = re.compile(
 # 兵马俑的英文名就叫 Terracotta Army，一刀切会误伤真地标。
 HARD_BAD_RE = re.compile(
     r"construct|groundbreak|scaffold|postcard|post card|greeting card|"
-    r"battle|battlefield|military|soldier|troops|regiment|"
+    r"battle|battlefield|military|soldier|troops|regiment|marines?|"
     r"butterfl|lepidopter|papilio|swallowtail|moth|dragonfl|beetle|"
     r"museum -|oil on canvas|watercolou?r|gouache|lithograph|woodcut|"
     # 只排「painting process」这种施工彩绘，不排 painting 本身 ——
@@ -353,7 +353,7 @@ QUALITY_CATS = (("featured pictures", 1.5), ("quality images", 0.8))
 # 它是精选图，加上 1.5 分之后直接压过了真正的富士山照片。
 # 这类文件的分类里一定有 PD-Art / Prints of / Engravings，用它认出来。
 ART_REPRO_RE = re.compile(
-    r"pd-art|prints of|engravings?|lithographs?|woodcuts?|etchings?|"
+    r"pd-art|prints of|engravings?|lithographs?|woodcuts?|etchings?|paintings of|"
     r"artworks without wikidata|book illustrations|scanned|postcards", re.I)
 
 

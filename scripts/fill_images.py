@@ -175,7 +175,19 @@ HARD_BAD_RE = re.compile(
     # 措迪洛山岩画（Tsodilo Hills rock paintings）、巴米扬洞窟壁画
     # （GROTTO PAINTINGS）都是真遗产，一刀切会把它们也砍掉。
     r"painting process|painting work in progress|"
-    r"postage stamp|stamp of|admiralty chart|nautical chart", re.I)
+    r"postage stamp|stamp of|admiralty chart|nautical chart|"
+    # 2026-11-04 下午补：用户又报了一批，全是这四类。
+    # 标牌/石碑/告示牌：智利配到「MoaiProtectionSign」（摩艾旁边的木牌）、
+    # 「Placa Cerro San Cristobal」（刻诗的石碑）、布隆迪配到公园入园须知牌。
+    # 这些东西画面主体是文字，不是地标本身。
+    r"protection sign|signboard|signpost|notice board|information board|"
+    r"\bsigns?\b|protectionsign|\bplaca\b|\bplacard\b|"
+    # 维基行政区条目的定位图固定命名成「国家 - 地区.PNG」，全是地图：
+    # Solomon Islands - Santa Isabel.PNG / - Guadalcanal.PNG / Fortuna-Bay.PNG
+    r"\s-\s[^.]*\.PNG$|"
+    # 法国殖民地明信片商的图版号（Helio / Sadag），布基纳法索那张"瀑布"
+    # 实际是 1931 年稻田脱粒的宣传照
+    r"helio\.|sadag\.|postkarte|\b19\d\d\b.*\bpostcard", re.I)
 
 # 文件名层面的同一件事，成本更低，先用它挡一道
 BAD_NAME_RE = re.compile(

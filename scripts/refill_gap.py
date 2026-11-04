@@ -45,37 +45,54 @@ THUMB_W, THUMB_Q, THUMB_H = 240, 78, 180
 # 而罗本岛本身就是监狱博物馆、帕拉马里博那处就是市场建筑 —— 一刀切会误伤，
 # 这里按缺口逐条精确指定。
 GAPS = [
-    dict(iso="ZA", zh="罗本岛", pick="Robben Island-113362.jpg",
-         why="原本与花园大道共用一张图（L04 的 webp 转换失败后回退错了）"),
-
-    dict(iso="MY", zh="黑风洞", pick="Batu Caves stairs 2022-05.jpg",
-         why="原本与下一张重复"),
-
-    dict(iso="AE", zh="哈利法塔", pick="Dubai skyline 2015 (crop).jpg",
-         why="原图是 2008 年施工中，换成含塔的迪拜天际线"),
-
-    dict(iso="AE", zh="迪拜棕榈岛", pick="Palm Jumeirah Beach.jpg",
-         why="原图是美国南卡罗来纳州的 Isle of Palms（同名不同地）"),
-
+    # —— 第一批（2026-11-04 上午删掉的 18 张里能补的 10 张）——
+    dict(iso="ZA", zh="罗本岛", pick="Robben Island-113362.jpg"),
+    dict(iso="MY", zh="黑风洞", pick="Batu Caves stairs 2022-05.jpg"),
+    dict(iso="AE", zh="哈利法塔", pick="Dubai skyline 2015 (crop).jpg"),
+    dict(iso="AE", zh="迪拜棕榈岛", pick="Palm Jumeirah Beach.jpg"),
     dict(iso="CA", zh="尼亚加拉大瀑布",
-         pick="Canadian Horseshoe Falls with city of Niagara Falls, Ontario in background.jpg",
-         why="原图是布鲁克林博物馆藏的油画"),
+         pick="Canadian Horseshoe Falls with city of Niagara Falls, Ontario in background.jpg"),
+    dict(iso="CV", zh="圣菲利佩皇家要塞", pick="CidadeVelha-SaoFelipe1.jpg"),
+    dict(iso="KI", zh="贝蒂奥岛", pick="Kiribati Bairiki Betio Causeway.jpg"),
+    dict(iso="SR", zh="帕拉马里博中央市场", pick="Paramaribo market (33557504165).jpg"),
+    dict(iso="XK", zh="普里什蒂纳新生纪念碑", pick="NEWBORN Monument.jpg"),
+    dict(iso="YE", zh="亚丁港", pick="Green Lighthouse.jpg"),
 
-    dict(iso="CV", zh="圣菲利佩皇家要塞", pick="CidadeVelha-SaoFelipe1.jpg",
-         why="原图是要塞平面图"),
+    # —— 第二批：用户点名的问题图（地图/标牌/告示牌/1931 老照片）——
+    dict(iso="NC", zh="新喀里多尼亚泻湖", pick="Corail Lifou.JPG",
+         why="原第 2 张是菲律宾爱妮岛（完全不是新喀），第 5 张是地图"),
+    dict(iso="SB", zh="圣伊莎贝尔岛", pick="Rainforestt of Isabel Island.jpg",
+         why="原图是维基的区划定位图（Solomon Islands - Santa Isabel.PNG）"),
+    dict(iso="SB", zh="瓜达尔卡纳尔岛", pick="Visale, Solomon Islands.JPG",
+         why="原图是维基的区划定位图（Solomon Islands - Guadalcanal.PNG）"),
+    dict(iso="BF", zh="班福拉瀑布", pick="Cascades de Banfora Burkina Faso.JPG",
+         why="原图是 1931 年法国殖民地宣传照（稻田脱粒），不是瀑布"),
+    dict(iso="BI", zh="基比拉国家公园", pick="L'environnement de Kibira à teza.jpg",
+         why="原图是公园入口的入园须知告示牌"),
+    dict(iso="CL", zh="复活节岛摩艾石像", pick="Kneeled moai Easter Island.jpg",
+         why="原图是摩艾旁边的木制保护告示牌"),
+    dict(iso="CL", zh="圣克里斯托瓦尔山", pick="Cerro San Cristobal Santiago, Chile.jpg",
+         why="原图是刻着诗句的石碑"),
+    dict(iso="GS", zh="福图纳湾", pick="2021-11-17 Fortuna Bay, South Georgia 01.jpg",
+         why="原图是地图（Fortuna-Bay.PNG），另一张是沙克尔顿在蒙得维的亚的葬礼照"),
+    # 用户特别点名：夏威夷是旅游胜地，图要挑好的
+    dict(iso="US", zh="夏威夷威基基海滩", pick="Diamond Head from Waikiki Beach 01.jpg",
+         why="用户要求补夏威夷的图"),
+    dict(iso="US", zh="夏威夷钻石头山", pick="Diamond Head.jpg",
+         why="用户要求补夏威夷的图"),
+    dict(iso="CA", zh="多伦多天际线", pick="Toronto Skyline Summer 2020.jpg",
+         why="原图是 8 Elm Street 施工照；天际线全景被评分器的宽高比上限挡掉了"),
+]
 
-    dict(iso="KI", zh="贝蒂奥岛", pick="Kiribati Bairiki Betio Causeway.jpg",
-         why="原图是塔拉瓦战役黑白照"),
-
-    dict(iso="SR", zh="帕拉马里博中央市场",
-         pick="Paramaribo market (33557504165).jpg",
-         why="原图是城市地图"),
-
-    dict(iso="XK", zh="普里什蒂纳新生纪念碑", pick="NEWBORN Monument.jpg",
-         why="原图是纪念碑彩绘施工过程"),
-
-    dict(iso="YE", zh="亚丁港", pick="Green Lighthouse.jpg",
-         why="原图是 1903 年明信片；Aden harbour.jpg 是黑白老照片，换 2010 年的彩色港口全景"),
+# 查过候选池、Commons 上确实没有可用素材的（保持不显示，宁缺勿错）
+SKIPPED = [
+    ("BD", "孟加拉国国会大厦", "候选只剩「巴基斯坦邮票上的国会大厦」"),
+    ("CG", "奥扎拉-科库阿国家公园", "候选 0 个，条目配图也打不开"),
+    ("IO", "佩罗斯班霍斯环礁", "候选全是 18-19 世纪法文古地图"),
+    ("LR", "布坎南港", "候选 0 个，关键词池 12 张全被判为设施照"),
+    ("NC", "让·马里·吉巴乌文化中心", "Commons 上这个地标只有一张标着位置的区域地图"),
+    ("PW", "洛克群岛", "唯一候选是帕劳科罗尔州的一条街"),
+    ("TZ", "桑给巴尔海滩", "候选全是动物（白鹭/蝴蝶/海豚/织雀）"),
 ]
 
 # 这 7 处查过候选池，Commons 上确实没有能用的素材（全是动物/古地图/别的城市的同名地标），

@@ -87,6 +87,115 @@ SOURCE_BONUS = {"wikidata_p18": 2.5, "wikipedia_lead": 2.0, "article_img": 1.4,
                 "en_wiki": 1.0, "commons_search": 0.0}
 CURATED = ("wikidata_p18", "wikipedia_lead")
 
+# ---------------------------------------------------------------------------
+# 多语言专名（2026-11-04 补）
+# 为什么要有这一段：must 是**一个英文词**，而维基上的照片常常用母语命名 ——
+#   Kölner Dom von Osten.jpg（德语，"科隆主教座堂"）
+#   Chateau Versailles Galerie des Glaces.jpg（法语，"镜厅"）
+#   Ivyo dusanga kugwinjiriro rw'ikibira i bugarama.jpg（基隆迪语）
+# 这些文件名永远不会含 must="cologne" / "mirror"，于是被判成"搜错了的图"。
+# 科隆和凡尔赛当年就是这么丢掉最好那张的。
+# 做法：取该地标在 Wikidata 上的多语言 label + alias，命中任意一个也算过闸门。
+# 两道防误伤：词长 < 4 的丢（"Dom"/"Château" 太泛）；通用词表里的丢
+# （否则 "Cathedral" 会让所有教堂互相冒充 —— 突尼斯凯鲁万冒充阿加德兹就是这么来的）。
+# ---------------------------------------------------------------------------
+ALIAS_CACHE = {}
+ALIAS_LANGS = "zh|en|de|fr|es|ja|ru|it|pt|nl|pl|tr|ar"
+GENERIC_ALIASES = {
+    "cathedral", "church", "mosque", "palace", "castle", "museum", "park",
+    "temple", "garden", "gardens", "tower", "bridge", "island", "islands",
+    "beach", "lake", "mountain", "mountains", "river", "square", "monument",
+    "national", "national park", "old town", "city", "fort", "fortress",
+    "abbey", "monastery", "basilica", "chapel", "ruins", "waterfall",
+    " glaciers", "glacier", "volcano", "desert", "coast", "bay", "harbour",
+    "harbor", "market", "theatre", "theater", "library", "university",
+}
+
+
+# must 如果是"类型词"而不是"专名"，它就没有任何鉴别力：
+#   must="mirror" → 英文维基 "Mirror" 条目的镜子商品照全数通过（凡尔赛就是这么来的）
+#   must="mosque" → 突尼斯凯鲁万大清真寺冒充阿加德兹
+# 这类词只配当"最低门槛"，不能当"身份证明"。命中这张表时改用多语言别名做闸门。
+GENERIC_MUST = {
+    "mirror", "mosque", "cathedral", "church", "chapel", "basilica",
+    "palace", "castle", "fort", "fortress", "abbey", "monastery",
+    "museum", "park", "garden", "square", "tower", "bridge", "island",
+    "beach", "lake", "river", "mountain", "volcano", "glacier", "desert",
+    "bay", "harbour", "harbor", "waterfall", "falls", "temple", "pagoda",
+    "market", "monument", "memorial", "ruins", "old town", "city hall",
+}
+
+
+def aliases_for(zh_name, kw=None):
+    """取这处地标的多语言专名（小写），失败返回空列表 —— 不影响主流程。
+
+    中文名搜不到实体时（"凡尔赛宫镜厅""阿加德兹大清真寺"这种由清单拼出来的名字，
+    Wikidata 上并没有这个中文标签），退回用英文检索词再搜一次。
+    两次都搜不到就算了 —— 这段是"锦上添花"，绝不能让它把主流程拖挂。"""
+    zh_name = (zh_name or "").strip()
+    kw = (kw or "").strip()
+    key = zh_name + "||" + kw
+    if key in ALIAS_CACHE:
+        return ALIAS_CACHE[key]
+    out = set()
+    try:
+        # 用全文检索（list=search）而不是 wbsearchentities（前缀匹配）。
+        # 实测：wbsearchentities 搜 "Hall of Mirrors Versailles" 和
+        # "Agadez Grand Mosque" 都是 0 命中，换个词序/少个词才有；
+        # 而 list=search 这两条都能直接查到 Q1583447 / Q3440333。
+        # 搜两次：先中文名，再英文检索词，两次的 Q 合并。
+        qids = []
+        for term in (zh_name, kw):
+            if not term:
+                continue
+            try:
+                r = C.api_json("https://www.wikidata.org/w/api.php", {
+                    "action": "query", "list": "search", "srsearch": term,
+                    "srlimit": 3, "format": "json", "uselang": "zh"})
+                for h in ((r.get("query") or {}).get("search") or []):
+                    t = h.get("title") or ""
+                    if t.startswith("Q") and t not in qids:
+                        qids.append(t)
+            except Exception:
+                pass
+        qids = qids[:3]
+        if qids:
+            d = C.api_json("https://www.wikidata.org/w/api.php", {
+                "action": "wbgetentities", "ids": "|".join(qids),
+                "props": "labels|aliases", "languages": ALIAS_LANGS,
+                "format": "json"})
+            for _qid, e in (d.get("entities") or {}).items():
+                for _lang, v in (e.get("labels") or {}).items():
+                    out.add((v or {}).get("value") or "")
+                for _lang, arr in (e.get("aliases") or {}).items():
+                    for a in (arr or []):
+                        out.add((a or {}).get("value") or "")
+    except Exception:
+        pass
+
+    keep = []
+    for t in out:
+        t = (t or "").strip().lower()
+        if len(t) < 4 or t in GENERIC_ALIASES:
+            continue
+        if not re.search(r"[a-z]", t):        # 没有拉丁字母（中文/西里尔/阿拉伯）就不留
+            continue
+        if t not in keep:
+            keep.append(t)
+    ALIAS_CACHE[key] = keep
+    return keep
+
+
+def name_hits(name, must=None, aliases=None):
+    """文件名是否命中这处地标：英文 must 或任一多语言别名。"""
+    low = (name or "").replace("_", " ").lower()
+    if must and must.lower() in low:
+        return True
+    for a in (aliases or []):
+        if a and a in low:
+            return True
+    return False
+
 # 关键词命中里混进来的"合影照"：主体是雕塑/展陈/复原模型，地标只是背景。
 # 实测搜 "Great Pyramids of Giza" 的第一名是 Forever is Now 艺术展那件巨型金属手，
 # 金字塔在远处小得像三颗牙。这类文件名直接毙掉，不给它进候选的机会。
@@ -241,7 +350,7 @@ DETAIL_PENALTY = -3.0    # 局部/内部：不是"这张不好看"，而是"这�
 PANORAMA_PENALTY = -1.5  # 2.2~3.2 的超宽幅：降权但留活路（真·天际线靠它）
 
 
-def score(cand, meta, must, tier):
+def score(cand, meta, must, tier, aliases=None):
     """给候选打分。返回 (分数, 说明)；不合格返回 (None, 原因)。
 
     评分分四段，顺序不能换（后面的都建立在"先过闸门"上）：
@@ -251,8 +360,8 @@ def score(cand, meta, must, tier):
       ④ 内容：文件名像局部特写的，直接 -3（这是新版补的，旧版没有）
     """
     name = (cand or "").replace("_", " ").lower()
-    if must and must.lower() not in name:
-        return None, "文件名不含「%s」" % must
+    if must and not name_hits(name, must, aliases):
+        return None, "文件名不含「%s」及任何别名" % must
     w = meta.get("width") or 0
     if w < tier["min_w"]:
         return None, "宽度仅 %d px" % w
@@ -476,7 +585,16 @@ def gather_candidates(entry):
         if arts:
             log("      · %s 条目配图（%s）→ %d 张" % (entry.get("zh"), alang, len(arts)))
 
-    if len(out) < 3:
+    # 只有"少于 3 张"才去搜 Commons，这个闸门太信任条目配图池了 ——
+    # 凡尔赛镜厅的英文条目配图正好 12 张、全是**镜子商品照**
+    # （酒吧镜、相机热镜、望远镜镜片），于是 Commons 那条路根本没跑，
+    # 真正的镜厅照片连上台的机会都没有。
+    # 改成：数量不足 **或** 现有候选没有一个命中这处地标的名字（含多语言别名），
+    # 都要去 Commons 补一轮。
+    _al = aliases_for(entry.get("zh"), entry.get("kw"))
+    _must = (entry.get("must") or "").strip().lower() or None
+    _eff = None if (_must and _must in GENERIC_MUST) else _must
+    if len(out) < 3 or not any(name_hits(n, _eff, _al) for n, _k in out):
         for q in query_variants(entry):
             try:
                 got = search_files(q, limit=12)
@@ -582,7 +700,7 @@ def series_bonus(name):
     return 0.0
 
 
-def rank_pool(pool, info, cats, must, tier, avoid=None):
+def rank_pool(pool, info, cats, must, tier, avoid=None, aliases=None):
     """按档位给一组候选打分，返回 (通过的, 被淘汰的原因)。"""
     scored, rejects = [], []
     for name, kind in pool:
@@ -607,7 +725,7 @@ def rank_pool(pool, info, cats, must, tier, avoid=None):
             rejects.append("%s（%s）" % (name[:38], bad))
             continue
         # P18 / 首图是编辑挑过的，不再用 must 卡它；must 只约束关键词搜索的结果
-        sc, why = score(name, meta, None if kind in CURATED else must, tier)
+        sc, why = score(name, meta, None if kind in CURATED else must, tier, aliases)
         if sc is None:
             rejects.append("%s（%s）" % (name[:38], why))
             continue
@@ -650,6 +768,16 @@ def ranked_picks(entry):
         log("      · %s 关键词命中里滤掉 %d 张（雕塑/展陈/建筑设施）"
             % (entry.get("zh"), len(rest) - len(searched)))
 
+    aliases = aliases_for(entry.get("zh"), entry.get("kw"))
+    # 泛词 must 没有鉴别力，换成"命中任一名语言别名"——
+    # 因为下面的闸门是 must OR aliases，所以把 must 换成任意一个别名之后，
+    # 实际条件就是"必须命中某个语言的真名"，镜子商品照这种就被挡在门外了。
+    if must and must.lower() in GENERIC_MUST and aliases:
+        log("      · %s 的 must「%s」是类型词，改用多语言专名做闸门" % (entry.get("zh"), must))
+        must = aliases[0]
+    if aliases and not name_hits("", must, aliases) and len(aliases) > 1:
+        log("      · %s 多语言专名 %d 个：%s"
+            % (entry.get("zh"), len(aliases), "、".join(aliases[:4])))
     pools = {"curated": curated, "article": article,
              "commons": searched, "late": late}
     tiers = dict(TIERS)
@@ -659,7 +787,7 @@ def ranked_picks(entry):
         if not pool:
             continue
         scored, _rej = rank_pool(pool, info, cats, must, tiers[tier_name],
-                                 entry.get("avoid"))
+                                 entry.get("avoid"), aliases)
         for total, name, meta, ext, kind in scored:
             out.append({"order": idx, "score": total, "name": name, "meta": meta,
                         "ext": ext, "kind": kind, "tier": tier_name})

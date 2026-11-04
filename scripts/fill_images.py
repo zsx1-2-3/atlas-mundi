@@ -341,9 +341,46 @@ def search_files(kw, limit=20):
 # 于是「科隆大教堂窗户细节」（ar=1.50 正好落在甜点）以 7.00 分战胜了
 # 「科隆大教堂+城市全景」（ar=1.77，6.46 分）；凡尔赛那张天顶画同理。
 # 新版把三件事分开：档位闸门（宽度）、软惩罚（极宽/极窄）、内容降权（局部特写）。
+# Commons 自己的质量评级。分类名是这两条（大小写与复数以 Commons 为准）：
+#   "Featured pictures on Wikimedia Commons"、"Quality images"
+# 这是"好看"的现成证据 —— 不用我们判断审美，Commons 的评审已经筛过一轮。
+# 只加成分，不淘汰任何图：评上的是加分项，没评上不代表不好。
+QUALITY_CATS = (("featured pictures", 1.5), ("quality images", 0.8))
+
+# 2D 艺术品的复制品（版画、铜版画、石版画、扫描件）。
+# 为什么单列一条：Commons 的"精选图"里**有大量版画与绘画** ——
+# 实测"富士山"条目配图第一名是葛饰北斋《凯风快晴》（Red Fuji），
+# 它是精选图，加上 1.5 分之后直接压过了真正的富士山照片。
+# 这类文件的分类里一定有 PD-Art / Prints of / Engravings，用它认出来。
+ART_REPRO_RE = re.compile(
+    r"pd-art|prints of|engravings?|lithographs?|woodcuts?|etchings?|"
+    r"artworks without wikidata|book illustrations|scanned|postcards", re.I)
+
+
+def is_artwork(cats):
+    return any(ART_REPRO_RE.search(c or "") for c in (cats or ()))
+
+
+def quality_bonus(cats):
+    """按 Commons 的精选/优质图片评级加分，返回 (分数, 标签)。
+    艺术品的复制品一律不加 —— 再"精选"也不是这处地标的照片。"""
+    if not cats or is_artwork(cats):
+        return 0.0, ""
+    low = " | ".join(c.lower() for c in cats)
+    for key, bonus in QUALITY_CATS:
+        if key in low:
+            return bonus, "精选图" if "featured" in key else "优质图"
+    return 0.0, ""
+
+
 DETAIL_WORDS = re.compile(
     r"detail|window|ceiling|interior|inside\b|stair|corridor|fresco|mosaic|"
-    r"\btile|relief|cropped|close.?up|door handle|knocker|plaque", re.I)
+    r"\btile|relief|cropped|close.?up|door handle|knocker|plaque|"
+    # 实测还有一类："Entrance to Olumo Rock""Yankari Entry Gate"——
+    # 拍的是景区大门/售票口，主体是闸机和告示牌，不是地标本身。
+    # 不敢加 "gate"：勃兰登堡门本身就是 gate。
+    r"entrance|entry gate|entry ticket|visitor cent|ticket office|"
+    r"\bbells?\b|furniture|commode|armchair", re.I)
 
 AR_HARD = 3.2            # 超过这个比例是"长条"，主体被压没了，仍然直接淘汰
 DETAIL_PENALTY = -3.0    # 局部/内部：不是"这张不好看"，而是"这张不是这处地标"
@@ -658,6 +695,8 @@ def bad_kind(name, cats, meta=None):
     if BAD_PREFIX_RE.search(low):
         return "文件名是定位图/地图"
     for c in cats or ():
+        if ART_REPRO_RE.search(c):
+            return "分类是 2D 艺术品复制品「%s」" % c[:36]
         if BAD_CAT_RE.search(c):
             return "分类是「%s」" % c[:40]
         if EVENT_RE.search(c):
@@ -729,7 +768,10 @@ def rank_pool(pool, info, cats, must, tier, avoid=None, aliases=None):
         if sc is None:
             rejects.append("%s（%s）" % (name[:38], why))
             continue
-        total = sc + SOURCE_BONUS.get(kind, 0) + series_bonus(name)
+        qb, qtag = quality_bonus(cats.get(C.norm_title(name)))
+        total = sc + SOURCE_BONUS.get(kind, 0) + series_bonus(name) + qb
+        if qtag:
+            log("        + %s 是 Commons %s（+%.1f）" % (name[:40], qtag, qb))
         # 编辑图也可能配错条目：Wikidata"帕罗宗"条目的 P18 是 Drugyel Dzong（另一座宗堡）。
         # 文件名里连这处地标的专名都没有，就没有证据说明它画的是这处地方 ——
         # 让它退到和关键词命中同一起跑线，让真正命中专名的实搜图赢。

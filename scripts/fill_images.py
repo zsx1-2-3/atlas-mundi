@@ -160,6 +160,23 @@ EVENT_RE = re.compile(
     r"community|villagers|residents|portrait|children|students|"
     r"crowd|people|workers|fishermen|farmers", re.I)
 
+# 不管来自哪个池（Wikidata 编辑图 / 条目配图 / 关键词搜索）都不该出现的东西。
+# 2026-11-04 的教训：这些词之前只写在 JUNK_WORDS 里，而 is_junk() 只作用于
+# 「关键词搜索」这一个池 —— 于是 article_img 池里的施工照、邮票、博物馆藏油画、
+# 蝴蝶特写一张都没被拦住，全部进了正式档案。
+# 注意不要放 prison/office/school/army：罗本岛本身就是监狱博物馆、
+# 兵马俑的英文名就叫 Terracotta Army，一刀切会误伤真地标。
+HARD_BAD_RE = re.compile(
+    r"construct|groundbreak|scaffold|postcard|post card|greeting card|"
+    r"battle|battlefield|military|soldier|troops|regiment|"
+    r"butterfl|lepidopter|papilio|swallowtail|moth|dragonfl|beetle|"
+    r"museum -|oil on canvas|watercolou?r|gouache|lithograph|woodcut|"
+    # 只排「painting process」这种施工彩绘，不排 painting 本身 ——
+    # 措迪洛山岩画（Tsodilo Hills rock paintings）、巴米扬洞窟壁画
+    # （GROTTO PAINTINGS）都是真遗产，一刀切会把它们也砍掉。
+    r"painting process|painting work in progress|"
+    r"postage stamp|stamp of|admiralty chart|nautical chart", re.I)
+
 # 文件名层面的同一件事，成本更低，先用它挡一道
 BAD_NAME_RE = re.compile(
     r"(?<![a-z])(esa|nasa|landsat|sentinel|copernicus|bathymetry|seamount|"
@@ -473,6 +490,9 @@ def fetch_cats(names):
 def bad_kind(name, cats, meta=None):
     """这张图是"卫星影像/地图/示意图/人物照"吗？返回原因或 None。"""
     low = (name or "").replace("_", " ")
+    hard = HARD_BAD_RE.search(low)
+    if hard:
+        return "文件名含禁用词「%s」" % hard.group(0)
     if EVENT_RE.search(low):
         return "文件名像活动照/会议照"
     if BAD_NAME_RE.search(low):

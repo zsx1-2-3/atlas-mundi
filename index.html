@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-04-AP">
+<meta name="build" content="2026-11-04-AQ">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2417,6 +2417,26 @@ body.panel-open #globe-stage{
     } catch (e) { /* 没有 AudioContext 就静默 */ }
   }
 
+  /* 点了某个 iso，到底该开谁的档案 —— 全站唯一一处判定，5 个入口都调它。
+     规则：
+       ① 港澳台按政策固定归中国，不看有没有自己的档案；
+       ② **自己有档案的一律开自己的**（这条是 2026-11-04 补的）；
+       ③ 自己没档案、但 parent 指向主权国的，落到主权国（格陵兰→丹麦、
+          法罗→丹麦、皮特凯恩→英国……）；
+       ④ 都不是就开自己。
+     为什么补 ②：新喀里多尼亚（NC）、南乔治亚（GS）、法属波利尼西亚（PF）这些
+     地区**有自己的完整档案和地标图**，但 parent 指向 FR / GB。旧逻辑只看
+     SOVEREIGN 表，于是搜"新喀"点开结果直接跳到了法国 —— 用户看到的
+     "搜索框有 bug、点结果跑到法国去了"就是这个。 */
+  function targetIso(iso, parent) {
+    var k = String(iso || '').toUpperCase();
+    var par = String(parent || '').toUpperCase();
+    if (!k) return par;
+    if (k === 'TW' || k === 'HK' || k === 'MO') return 'CN';
+    if (HAS_DOC[k] || (CARDS && CARDS[k])) return k;
+    return SOVEREIGN[k] || par || k;
+  }
+
   function openCountry(c) {
     /* 时间指示模式（旗子）下不打开任何档案。标签那边已经关了
        pointer-events，这里再兜一道：大洲/海洋那几个标签走的是 parent 分支，
@@ -2430,7 +2450,7 @@ body.panel-open #globe-stage{
        原来靠 `known = Object.keys(HAS_DOC).length > 0` 判断，index.json 还没回来时
        known 为 false，target 就退成 iso —— 台湾于是打开自己的空档案，显示"档案未就绪"。
        改用 SOVEREIGN（含港澳台硬兜底）后，不管档案索引到没到，都落到中国。 */
-    var target = HAS_DOC[iso] ? iso : (SOVEREIGN[iso] || par || iso);
+    var target = targetIso(iso, par);
     if (!target) return;
     openDetail(target, cardOf(target), false);
   }
@@ -3201,9 +3221,9 @@ body.panel-open #globe-stage{
         });
       }
       item.addEventListener('click', function () {
-        /* 地区（港澳台）归到主权国：不给台湾单独开卡，搜到也落到中国 */
-        var sIso = String(d.iso || '').toUpperCase();
-        var sTgt = SOVEREIGN[sIso] || d.iso;
+        /* 地区归属统一走 targetIso：港澳台→中国，但**有自己档案的地区
+           （新喀、南乔治亚、法属波利尼西亚……）不再被跳去主权国。 */
+        var sTgt = targetIso(d.iso);
         openDetail(sTgt, cardOf(sTgt), false);
         setSearch(false);              // 选中即收起，视线回到地球
         if (qInput) qInput.blur();
@@ -3295,9 +3315,8 @@ body.panel-open #globe-stage{
       item.appendChild(txt);
       item.appendChild(el('span', 'sr-arrow', '›'));
       item.addEventListener('click', function () {
-        /* 港澳台归到主权国（这个列表里可能带 TW 这类地区码） */
-        var lIso = String(d.iso || '').toUpperCase();
-        var lTgt = SOVEREIGN[lIso] || d.iso;
+        /* 同理走 targetIso：有档案的地区开自己的，没档案的才落到主权国 */
+        var lTgt = targetIso(d.iso);
         openDetail(lTgt, cardOf(lTgt), false);
         setSearch(false);
         if (qInput) qInput.blur();
@@ -3469,6 +3488,23 @@ body.panel-open #globe-stage{
         qInput.value = '';
         setSearch(false);
         qInput.blur();
+        return;
+      }
+      /* 回车 = 选中第一条结果。
+         原来这里**完全没有 Enter 处理**（只处理了 Esc），所以搜完按回车
+         什么都没发生 —— 用户报的"输入新喀按回车没反应"就是这个。
+         结果还没出来时（输入有 180ms 防抖）先同步渲染一次再点，
+         不然手快的人按回车会撞在防抖窗口里。 */
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        var v = qInput.value.trim();
+        var first = qRes.querySelector('.sr-item');
+        if (!first && v.length >= 2) {
+          clearTimeout(qTimer);
+          renderResults(v);
+          first = qRes.querySelector('.sr-item');
+        }
+        if (first) first.click();
       }
     });
   }
@@ -5824,10 +5860,10 @@ body.panel-open #globe-stage{
       var ll = vec3ToLL(local);
       var c = countryAt(ll.lon, ll.lat);
       if (!c) return;
-      /* 地区（港/澳/台）落到主权国：不给台湾这类地区单开独立档案卡，
-         点它就开中国。SOVEREIGN 见 buildLabels 里的归属表。 */
+      /* 地区（港/澳/台）落到主权国；有自己档案的地区（新喀/南乔治亚）开自己的。
+         判定统一在 targetIso 里，见 openCountry 上方。 */
       var isoRaw = String(c.iso || '').toUpperCase();
-      var tgt = SOVEREIGN[isoRaw] || isoRaw;
+      var tgt = targetIso(isoRaw, c.parent);
       setActive(tgt);
       openDetail(tgt, cardOf(tgt), false);
     });
@@ -6511,9 +6547,9 @@ body.panel-open #globe-stage{
         }
       }
       if (!best) return;
-      /* 2D 地图同样按归属表落到主权国 */
+      /* 2D 地图同样走 targetIso（有档案的地区开自己的） */
       var bIso = String(best.iso || '').toUpperCase();
-      var bTgt = SOVEREIGN[bIso] || best.iso;
+      var bTgt = targetIso(bIso);
       setActive(bTgt);
       openDetail(bTgt, cardOf(bTgt), false);
     });

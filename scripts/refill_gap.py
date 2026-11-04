@@ -80,6 +80,27 @@ GAPS = [
          why="用户要求补夏威夷的图"),
     dict(iso="US", zh="夏威夷钻石头山", pick="Diamond Head.jpg",
          why="用户要求补夏威夷的图"),
+    # —— 第三批（用户 2026-11-04 再次点名）——
+    dict(iso="GM", zh="阿布科自然保护区林地",
+         pick="Abuko Nature Reserve, Gambia - December 2013.jpg",
+         why="原第 1 张是保护区入口的收费告示牌（ADMISSION FEES 绿牌）"),
+    dict(iso="GM", zh="詹姆斯岛要塞遗迹",
+         pick="Gambia 2010 - St. James island 0003.jpg",
+         why="原第 2 张是老地图（James Island and Fort Gambia 手绘图）"),
+    dict(iso="CN", zh="黄山云海",
+         pick="Sea of clouds viewed from the top of Huangshan.jpg",
+         why="用户要求中国再加一张：原有 5 张偏建筑与人文，缺自然景观"),
+    # —— 梵蒂冈：NE 多边形只有 7 个点，简化后 <MIN_RING 被丢掉，
+    #    index/meta/flat/cards 里全没有它，点标签只能落到「档案未就绪」。
+    #    2026-11-04 手工建档（data/va.json），图从 Commons 人工挑选。
+    dict(iso="VA", zh="圣彼得大教堂正立面",
+         pick="Rome, Vatican, Italy, Facade of St. Peter's Basilica.jpg"),
+    dict(iso="VA", zh="圣彼得广场与柱廊",
+         pick="Saint Peter's Square from the dome.jpg"),
+    dict(iso="VA", zh="西斯廷礼拜堂天顶画",
+         pick="Lightmatter Sistine Chapel ceiling.jpg"),
+    dict(iso="VA", zh="梵蒂冈博物馆螺旋楼梯",
+         pick="Vatican Museums Spiral Staircase 2012.jpg"),
     dict(iso="CA", zh="多伦多天际线", pick="Toronto Skyline Summer 2020.jpg",
          why="原图是 8 Elm Street 施工照；天际线全景被评分器的宽高比上限挡掉了"),
 ]

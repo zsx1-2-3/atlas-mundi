@@ -31,6 +31,10 @@ SKIP = {'index.json', 'search.json', 'landmarks.json', 'cards.json'}
 TEXT_KEYS = (
     'iso_a2', 'iso_a3', 'name_zh', 'name_en', 'qid',
     'capital', 'continent', 'centroid',
+    # geometry 只会是 'geo/xx.geojson' 这样的路径（cn/fr/us + 手工补的 VA），
+    # 几十字节。带上它，面板就能用档案自带的轮廓画出「国界轮廓」那块 SVG，
+    # 不必等 geo/ 分片那条链路 —— 梵蒂冈就是这么补上的。
+    'geometry',
     'summary_text', 'history_text', 'custom_text', 'custom_facets',
     'review_short',
 )

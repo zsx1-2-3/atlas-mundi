@@ -576,7 +576,7 @@
         54.3,
         24.4
       ],
-      "thumb": "assets/ae/L01.thumb.webp",
+      "thumb": "assets/ae/L03.thumb.webp",
       "modalities": {
         "image": true,
         "audio": true,
@@ -1002,7 +1002,7 @@
         89.8667,
         24.0167
       ],
-      "thumb": "assets/bd/L01.thumb.webp",
+      "thumb": "assets/bd/L02.thumb.webp",
       "modalities": {
         "image": true,
         "audio": true,
@@ -1378,7 +1378,7 @@
         -109,
         56
       ],
-      "thumb": "assets/ca/L01.thumb.webp",
+      "thumb": "assets/ca/L02.thumb.webp",
       "modalities": {
         "image": true,
         "audio": true,
@@ -1529,7 +1529,7 @@
         -71,
         -33
       ],
-      "thumb": "assets/cl/L01.thumb.webp",
+      "thumb": "assets/cl/L02.thumb.webp",
       "modalities": {
         "image": true,
         "audio": true,
@@ -2362,7 +2362,7 @@
         -15.5,
         13.5
       ],
-      "thumb": "assets/gm/L02.thumb.webp",
+      "thumb": "assets/gm/L04.thumb.webp",
       "modalities": {
         "image": true,
         "audio": true,
@@ -2464,7 +2464,7 @@
         -36.75,
         -54.25
       ],
-      "thumb": "assets/gs/L02.thumb.webp",
+      "thumb": "assets/gs/L03.thumb.webp",
       "modalities": {
         "image": true,
         "audio": true,
@@ -4528,7 +4528,7 @@
         134.55,
         7.4667
       ],
-      "thumb": "assets/pw/L01.thumb.webp",
+      "thumb": "assets/pw/L02.thumb.webp",
       "modalities": {
         "image": true,
         "audio": true,
@@ -5928,6 +5928,29 @@
       "audio_langs": [
         "en"
       ]
+    },
+    {
+      "iso_a2": "VA",
+      "name_zh": "梵蒂冈",
+      "name_en": "Vatican City",
+      "name_local": "Città del Vaticano",
+      "continent": "欧洲",
+      "capital": "梵蒂冈城",
+      "centroid": [
+        12.4534,
+        41.9029
+      ],
+      "thumb": "assets/va/L01.thumb.webp",
+      "modalities": {
+        "image": true,
+        "audio": false,
+        "text": true,
+        "coords": true,
+        "geometry": true
+      },
+      "status": "partial",
+      "lang_count": 2,
+      "audio_langs": []
     }
   ]
 }

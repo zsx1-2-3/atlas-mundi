@@ -228,10 +228,28 @@ def search_files(kw, limit=20):
     return out
 
 
+# 2026-11-04 重修：旧评分只量宽高比和宽度，**没有"细节 vs 全景"的概念**，
+# 于是「科隆大教堂窗户细节」（ar=1.50 正好落在甜点）以 7.00 分战胜了
+# 「科隆大教堂+城市全景」（ar=1.77，6.46 分）；凡尔赛那张天顶画同理。
+# 新版把三件事分开：档位闸门（宽度）、软惩罚（极宽/极窄）、内容降权（局部特写）。
+DETAIL_WORDS = re.compile(
+    r"detail|window|ceiling|interior|inside\b|stair|corridor|fresco|mosaic|"
+    r"\btile|relief|cropped|close.?up|door handle|knocker|plaque", re.I)
+
+AR_HARD = 3.2            # 超过这个比例是"长条"，主体被压没了，仍然直接淘汰
+DETAIL_PENALTY = -3.0    # 局部/内部：不是"这张不好看"，而是"这张不是这处地标"
+PANORAMA_PENALTY = -1.5  # 2.2~3.2 的超宽幅：降权但留活路（真·天际线靠它）
+
+
 def score(cand, meta, must, tier):
-    """给候选打分。硬性要求（must/宽/长宽比）按档位放宽，不满足直接淘汰。
-    踩过的坑：搜 "Eiffel Tower from Champ de Mars" 拿到一张鸟瞰战神广场、
-    铁塔在画面外的照片；搜"故宫太和殿"拿到 5:1 的全景长条。光靠关键词不够。"""
+    """给候选打分。返回 (分数, 说明)；不合格返回 (None, 原因)。
+
+    评分分四段，顺序不能换（后面的都建立在"先过闸门"上）：
+      ① 闸门：must 子串、最小宽度、极端长条 —— 不过就淘汰
+      ② 构图：离 TARGET_ASPECT(1.45，面板 4:3) 越近越高，钟形衰减
+      ③ 分辨率：1600/1400/1100 三档
+      ④ 内容：文件名像局部特写的，直接 -3（这是新版补的，旧版没有）
+    """
     name = (cand or "").replace("_", " ").lower()
     if must and must.lower() not in name:
         return None, "文件名不含「%s」" % must
@@ -246,17 +264,27 @@ def score(cand, meta, must, tier):
         hh = meta.get("height") or 0
         if w and hh:
             ar = float(w) / hh
-    if ar > tier["max_ar"]:
-        return None, "宽高比 %.1f 过宽（全景）" % ar
-    s = 0.0
+    if ar > AR_HARD or ar < 0.33:
+        return None, "宽高比 %.1f 极端长条" % ar
+
+    # ② 构图：钟形，1.45 满分 3.0，偏离 1.0 归零
+    s = max(0.0, 3.0 - abs(ar - TARGET_ASPECT) * 2.2)
     if 1.15 <= ar <= 1.85:
-        s += 3
-    s += max(0.0, 2 - abs(ar - TARGET_ASPECT) * 2)
-    if w >= 1400:
-        s += 2
+        s += 1.0                      # 甜点区再加一点，鼓励常见构图
+    elif ar > MAX_ASPECT:             # 2.2~3.2：过宽，降权不淘汰
+        s += PANORAMA_PENALTY
+    # ③ 分辨率
+    if w >= 1600:
+        s += 2.0
+    elif w >= 1400:
+        s += 1.5
     elif w >= 1100:
-        s += 1
-    return s, "score=%.1f ar=%.2f w=%d" % (s, ar, w)
+        s += 0.5
+    # ④ 内容：局部特写
+    if DETAIL_WORDS.search(name):
+        s += DETAIL_PENALTY
+    return s, "score=%.1f ar=%.2f w=%d%s" % (
+        s, ar, w, " [局部降权]" if DETAIL_WORDS.search(name) else "")
 
 
 def wikidata_lead_images(zh_name, limit=4):
@@ -587,8 +615,12 @@ def rank_pool(pool, info, cats, must, tier, avoid=None):
         # 编辑图也可能配错条目：Wikidata"帕罗宗"条目的 P18 是 Drugyel Dzong（另一座宗堡）。
         # 文件名里连这处地标的专名都没有，就没有证据说明它画的是这处地方 ——
         # 让它退到和关键词命中同一起跑线，让真正命中专名的实搜图赢。
+        # 2026-11-04：原来扣 3.0，等于把维基 P18 直接打死。可 P18 是编辑按
+        # "最能代表该条目"挑的，文件名常常是本地语言（Kölner Dom von Osten、
+        # Galerie des Glaces），永远不含英文 must —— 科隆和凡尔赛就是这么输的。
+        # 改成温和降权，让它和实搜图公平竞争。
         if kind in CURATED and must and not must_ok(name, must):
-            total -= 3.0
+            total -= 1.5
         scored.append((total, name, meta, ext, kind))
     scored.sort(key=lambda x: -x[0])
     return scored, rejects
@@ -631,7 +663,11 @@ def ranked_picks(entry):
         for total, name, meta, ext, kind in scored:
             out.append({"order": idx, "score": total, "name": name, "meta": meta,
                         "ext": ext, "kind": kind, "tier": tier_name})
-    out.sort(key=lambda x: (x["order"], -x["score"]))
+    # 2026-11-04：原来是 (order, -score) —— 池子序号是**第一关键字**，
+    # 意味着靠前池子里一张烂图也能压死后面池子里最好的图。
+    # 现在改成 score - POOL_WEIGHT*order：池子仍然有先验优势，但高分图能翻盘。
+    POOL_WEIGHT = 0.8
+    out.sort(key=lambda x: -(x["score"] - POOL_WEIGHT * x["order"]))
     # 同一张图会在多个档位都通过（strict 和 relaxed 各算一次），去重只留最先出现的
     dedup, seen = [], set()
     for p in out:
@@ -657,11 +693,12 @@ def pick_for(entry):
     must = (entry.get("must") or "").strip() or None
     fallback = None
     for p in picks:
-        # 编辑图连专名都对不上，先记下当兜底，继续让实搜图去争 ——
+        # 编辑图连专名都对不上：留个兜底，但**不再跳过**（排序里已经降权了）。
+        # 旧逻辑无条件 continue，于是任何一张"文件名不带英文 must"的 P18
+        # 都上不了场，哪怕它是这处地标最标准的那张照片。
         if p["kind"] in CURATED and must and not must_ok(p["name"], must):
             if fallback is None:
                 fallback = p
-            continue
         if p["order"] > 0:
             log("      ! %s 走 %s/%s 档"
                 % (entry.get("zh"), p["kind"], p["tier"]))

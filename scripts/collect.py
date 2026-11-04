@@ -718,14 +718,24 @@ def commons_imageinfo(files, width=900):
             if not ii.get("url"):
                 continue
             meta = ii.get("extmetadata") or {}
-            w = ii.get("thumbwidth") or ii.get("width") or 0
-            h = ii.get("thumbheight") or ii.get("height") or 0
+            # 坑：原图比请求宽度小时，Commons 不做放大，直接回原图，但
+            # thumbwidth 仍然填**我们请求的值**（URL 里带 thumbnail_unscaled）。
+            # 原来 thumbwidth or width 就等于把"宽度门槛"废掉了 ——
+            # 一张 600×394 的水下照能一路通过 width>=900 的检查，就是这么来的。
+            if "thumbnail_unscaled" in (ii.get("thumburl") or ""):
+                tw = th = None
+            else:
+                tw, th = ii.get("thumbwidth"), ii.get("thumbheight")
+            w = tw or ii.get("width") or 0
+            h = th or ii.get("height") or 0
             out[norm_title(page.get("title", ""))] = {
                 "remote_url": ii.get("thumburl") or ii.get("url"),
                 "original_url": ii.get("url"),
                 "mime": ii.get("mime"),
                 "width": w,
                 "height": h,
+                "orig_w": ii.get("width") or 0,
+                "orig_h": ii.get("height") or 0,
                 "aspect": round(float(w) / h, 3) if w and h else 0,
                 "license": strip_html(meta.get("LicenseShortName", {}).get("value")),
                 "bytes": ii.get("size") or 0,

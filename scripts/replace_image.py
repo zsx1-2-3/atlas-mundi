@@ -151,7 +151,7 @@ NOT_REP = re.compile(
     r"black and white|portrait|logo|billboard|monument sign", re.I)
 
 AUTO_JOBS = [
-    dict(iso="AW", old="阿勒科克国家公园游客中心", new="阿勒科克国家公园",
+    dict(iso="AW", old="阿勒科克国家公园游客中心", new="阿勒科克国家公园仙人掌灌丛",
          kw="Arikok National Park Aruba", must="arikok",
          pick="Cactus Scrub Cereus Northern Loop Arikok National Park Santa Cruz Aruba.jpg",
          why="原图是公园游客中心门面，画面里没有公园；换成园内仙人掌灌丛"),
@@ -163,7 +163,7 @@ AUTO_JOBS = [
          kw="Seville Cathedral Giralda", must="sevilla",
          pick="Sevilla Cathedral And Giralda Tower (25573987).jpeg",
          why="原图是大教堂侧门山花，认不出是哪座建筑；换成大教堂与吉拉尔达塔"),
-    dict(iso="FM", old="1931年特鲁克泻湖沉船旁警官", new="特鲁克泻湖沉船",
+    dict(iso="FM", old="1931年特鲁克泻湖沉船旁警官", new="楚克泻湖环礁",
          kw="Chuuk Lagoon shipwreck", must="truk",
          pick="Bow gun of the Fujikawa Maru wreck, Truk Lagoon, Micronesia.jpg",
          why="原图是 1931 年日本托管时期的警察黑白照；换成富士川丸的舰炮"),
@@ -215,12 +215,24 @@ AUTO_JOBS = [
          kw="Plaza de Espana Hagatna Guam", must="guam",
          pick="Plaza de Espana in Guam.JPG",
          why="原图是马德里的西班牙广场（同名不同国），换成阿加尼亚那处遗址广场"),
+
+    # —— 第六批：用户反问「仙人掌灌丛和舰炮真的合理吗」，复核后两张都动了 ——
+    # 阿鲁巴试过沙丘(Boca Prins)/海斯塔克山/Quadirikiri 溶洞/天然泳池/火山岩丘陵五张，
+    # 天然泳池那张主体是一块 NATURAL POOL 告示牌，其余前景比仙人掌更杂；
+    # 结论：这张不是「地标照」而是「地貌照」，留着，但图注改成实际拍到的内容。
+    dict(iso="FM", old="特鲁克泻湖沉船", new="楚克泻湖环礁",
+         kw="Chuuk Lagoon aerial", must="chuuk",
+         pick="Chuuk lagoon (Unachiech reef) aerial view.jpg",
+         why="原图仅 600×394（详情页会糊），珊瑚盖住的炮也看不出是炮；换 4000×3000 环礁航拍"),
 ]
 
 # 查过候选池，Commons 上确实没有能替换的（保持原样，不再折腾）
 AUTO_SKIPPED = [
     ("MV", "马尔代夫水下餐厅",
      "伊塔餐厅在 Commons 只有两张：一张线稿剖面图、一张就是现在的内部照"),
+    ("AW", "阿勒科克国家公园",
+     "沙丘/山/溶洞/岩丘都试过，天然泳池那张主体是告示牌；现有仙人掌地貌是最好的一张，"
+     "但它是「地貌照」不是「地标照」，图注已按实际内容改"),
 ]
 
 
@@ -312,6 +324,11 @@ def auto_pick(job):
         meta = F.C.lookup_meta(info, name)
         if not meta or not meta.get("remote_url"):
             return [], ["指定文件取不到元数据：%s" % name]
+        # 人工指定也要卡尺寸：详情图按 1080 宽输出，原图不到 900 宽就是糊的。
+        # 2026-11-04 那条 600×394 的水下照，就是 handpicked 绕过尺寸闸放进来的。
+        real = meta.get("orig_w") or meta.get("width") or 0
+        if real and real < 900:
+            return [], ["指定文件太小（%dpx 宽，至少要 900）：%s" % (real, name)]
         return [(name, meta, "handpicked")], []
 
     entry = {"zh": job["new"], "kw": job["kw"], "must": job["must"]}

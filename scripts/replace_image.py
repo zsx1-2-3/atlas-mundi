@@ -195,6 +195,19 @@ AUTO_JOBS = [
          kw="Midway Atoll", must="midway",
          pick="Midway Atoll - Aerial photo on Sept. 1, 2016.jpg",
          why="原图是 NSGA 基地的指示牌；换成环礁航拍"),
+    # —— 第五批：换完后全库复检（audit_images.py）又扫出来的 3 处 ——
+    dict(iso="CW", old="艾玛女王桥建设历史标牌", new="艾玛女王桥",
+         kw="Queen Emma Bridge Willemstad", must="emma",
+         pick="Queen Emma Pontoon Bridge, Willemstad, Curaçao (4383517775).jpg",
+         why="原图是桥头一块铜制铭牌，画面主体是文字"),
+    dict(iso="GL", old="东北格陵兰国家公园", new="东北格陵兰国家公园峡湾",
+         kw="Northeast Greenland National Park fjord", must="greenland",
+         pick="Hagen Fjord, Greenland aerial photo.jpg",
+         why="原图文件名里的 bell 是钟形花（Greenland, bell），不是公园"),
+    dict(iso="GU", old="太平洋战争国家历史公园北部单元", new="太平洋战争国家历史公园阿桑海滩",
+         kw="War in the Pacific National Historical Park Guam", must="pacific",
+         pick="General view - War in the Pacific National Historical Park (Asan Beach Unit) - DSC00857.JPG",
+         why="原图是公园的分区示意地图，不是实景"),
 ]
 
 # 查过候选池，Commons 上确实没有能替换的（保持原样，不再折腾）

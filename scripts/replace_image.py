@@ -208,6 +208,13 @@ AUTO_JOBS = [
          kw="War in the Pacific National Historical Park Guam", must="pacific",
          pick="General view - War in the Pacific National Historical Park (Asan Beach Unit) - DSC00857.JPG",
          why="原图是公园的分区示意地图，不是实景"),
+    # 串图的标准样本：关键词是「Plaza de Espana Hagatna Guam」，
+    # 但候选池里同时躺着马德里/塞维利亚/卡拉塔尤德/塔萨科尔特四座同名广场，
+    # 结果选中了马德里那张，图注也照着画面写成了「马德里西班牙广场」。
+    dict(iso="GU", old="马德里西班牙广场一角", new="关岛西班牙广场",
+         kw="Plaza de Espana Hagatna Guam", must="guam",
+         pick="Plaza de Espana in Guam.JPG",
+         why="原图是马德里的西班牙广场（同名不同国），换成阿加尼亚那处遗址广场"),
 ]
 
 # 查过候选池，Commons 上确实没有能替换的（保持原样，不再折腾）

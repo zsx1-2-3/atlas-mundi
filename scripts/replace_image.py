@@ -127,6 +127,57 @@ JOBS = [
     ("VN", "美山圣地寺庙局部细节",
      "2024 - Mỹ Sơn Sanctuary Temple E7 - img 01.jpg", "美山圣地",
      "原图是寺庙雕刻局部"),
+
+    # —— 第七批（2026-11-04 深夜）：低分辨率升级，真宽 <700 的换高清素材 ——
+    # 候选是先自动搜、再按「专名核心词」过一遍、最后逐张肉眼看过的；
+    # 34 张候选里砍掉 19 张（古书扫描、海豚、博物馆骨架、士兵、卫星图…）。
+    ("AF", "贾姆宣礼塔",
+     "Jam minaret ghor province Afghanistan.jpg", "贾姆宣礼塔",
+     "原图仅 600px"),
+    ("EC", "厄瓜多尔基多赤道纪念碑",
+     "Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 15.JPG", "厄瓜多尔基多赤道纪念碑",
+     "原图仅 640px"),
+    ("GA", "甘巴红树林国家公园红树林",
+     "La mangrove Nyonié au Gabon.jpg", "甘巴红树林国家公园红树林",
+     "原图仅 582px"),
+    ("GI", "直布罗陀巨岩",
+     "Clouds covering the walls of Gibraltar Rock.jpg", "直布罗陀巨岩",
+     "原图是 1810 年版画、567px"),
+    ("GR", "雅典卫城夜景",
+     "1029 Acropolis of Athens in Greece at night Photo by Giles Laurent.jpg", "雅典卫城夜景",
+     "原图仅 640px"),
+    ("ID", "普兰巴南神庙1980年代影像",
+     "Candi Prambanan; candi Hindu terindah di Asia Tenggara.jpg", "普兰巴南神庙",
+     "原图是 1980 年代扫描、604px；换夜景"),
+    ("KN", "尼维斯峰",
+     "Nevis Peak, Nevis - panoramio.jpg", "尼维斯峰",
+     "原图仅 604px"),
+    ("NG", "苏库尔文化景观",
+     "Sukur Adamawa Nigeria.jpg", "苏库尔文化景观",
+     "原图仅 550px"),
+    ("SH", "圣赫勒拿悬崖的最后阶段",
+     "Cliffs (41118028371).jpg", "圣赫勒拿悬崖的最后阶段",
+     "原图是油画、532px"),
+    ("SO", "拉阿斯卡德遗址",
+     "Laas Geel rock paintings.JPG", "拉阿斯卡德遗址",
+     "原图仅 500px"),
+    ("UY", "萨尔托宫",
+     "Palacio Salvo 6.JPG", "萨尔托宫",
+     "原图仅 640px"),
+    ("VE", "洛斯罗克斯群岛的灰翅鸥",
+     "Cayo de Agua in Los Roques.jpg", "洛斯罗克斯群岛的沙洲",
+     "原图是海鸥、604px；换群岛沙洲"),
+
+    # —— 第七批（补）：上一条里前缀写错、漏掉的三张 ——
+    ("KH", "吴哥窟寺庙",
+     "Angkor (IV).jpg", "吴哥窟寺庙",
+     "原图仅 448px"),
+    ("LR", "罗伯茨港",
+     "Robertsport Liberia.jpg", "罗伯茨港",
+     "原图是水井特写、736px"),
+    ("ZW", "大津巴布韦遗址",
+     "Great Zimbabwe (Donjon).jpg", "大津巴布韦遗址",
+     "原图仅 384px"),
 ]
 
 
@@ -423,6 +474,12 @@ def main():
             continue
         if err:
             failed.append((iso, err))
+            continue
+        # 旧题注 == 新题注的条目（例如"蒂莫西山"换成另一张蒂莫西山），
+        # find_target 会正常命中，于是每跑一次就重新下载一遍、多出一个 L 号。
+        # 这里按文件名再挡一道：条目里已经是这张图就直接跳过。
+        if (target.get("title") or "").replace("File:", "") == name:
+            print("  · %-3s %-20s 已是这张图，跳过" % (iso, old_cap[:20]))
             continue
 
         if dry:

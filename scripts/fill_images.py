@@ -105,6 +105,18 @@ JUNK_WORDS = (
     "office", "council", "headquarters", "company", "factory", "warehouse",
     "town hall", "city hall", "municipal", "government", "clinic", "hospital",
     "post office", "school building", "prison", "barracks",
+    # 2026-11 补：用户报"多伦多是施工图""亚丁港是明信片""基里巴斯是黑白军队照"，
+    # 这三类在旧名单里一个都没有。
+    "construction", "under construction", "groundbreaking", "scaffolding",
+    "postcard", "post card", "greeting card",
+    "battle", "battlefield", "military", "army", "navy", "soldier", "troops",
+    "regiment", "air force", "war ", "wwii", "world war",
+    # 蝴蝶这类特写：坦桑尼亚"桑给巴尔海滩"配到一只柑橘凤蝶，名字里带 Zanzibar
+    # 所以 must 校验通过了，画面上却是一只虫。
+    "butterfl", "lepidopter", "moth", "dragonfl", "beetle",
+    "papilio", "swallowtail", "birdwing", "danainae",   # 蝴蝶的属名/科名
+    # 博物馆藏画：加拿大"尼亚加拉大瀑布"配到布鲁克林博物馆的油画
+    "museum -", "oil on canvas", "watercolou?r", "gouache", "lithograph",
 )
 
 # 卫星影像 / 地图 / 海底地形 / 科学示意图。尺寸、比例、文件名全都合规，
@@ -154,7 +166,7 @@ BAD_NAME_RE = re.compile(
     r"topographic|geological|iss)(?![a-z])", re.I)
 
 # "LocationBanaba.PNG" 这种不加空格的定位图命名，靠词边界抓不到，只能看前缀
-BAD_PREFIX_RE = re.compile(r"^(location|locations|map|maps|karte|carte)", re.I)
+BAD_PREFIX_RE = re.compile(r"(?:^|[_\s(])(?:location|locations?|maps?|karte|carte|planta|opl|osm)\b|\bmap\b|map\d|map\.\w+$|kaart|\bOSM-", re.I)
 
 # 尝试顺序：先让编辑挑过的图走严格档，不过就放宽一档；关键词命中只接受严格档
 # （放宽它会立刻引来上面那种合影照）；英文维基首图排在关键词之后 —— 它更准，
@@ -465,7 +477,7 @@ def bad_kind(name, cats, meta=None):
         return "文件名像活动照/会议照"
     if BAD_NAME_RE.search(low):
         return "文件名像卫星/科研数据"
-    if BAD_PREFIX_RE.match(low):
+    if BAD_PREFIX_RE.search(low):
         return "文件名是定位图/地图"
     for c in cats or ():
         if BAD_CAT_RE.search(c):

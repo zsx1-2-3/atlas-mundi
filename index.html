@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-05-AW">
+<meta name="build" content="2026-11-05-AX">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -323,11 +323,18 @@
   .dimg-wrap{
     position:relative;width:100%;height:clamp(230px,34vh,372px);overflow:hidden;
     border:1px solid var(--line);border-radius:12px;background:#070b14;
-    /* 切换时用已缓存的 240px 缩略图铺底，大图到了再盖上 —— 手感上就是"秒切" */
-    background-size:cover;background-position:center;background-repeat:no-repeat;
   }
+  /* 垫图层：单独一张 <img>，object-fit:cover。
+     之前用 background-image 铺底，撞上 .dimg-wrap.fit{background:rgba(...)}
+     这个简写 —— 它会重置 background-size/repeat，240px 缩略图在 360px 框里
+     平铺成 2×2，用户看到"四个一模一样的图"。用 img 层不会有这个问题。 */
+  .dimg-wrap .dimgthumb{
+    position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+    opacity:0;transition:opacity .18s ease;pointer-events:none;
+  }
+  .dimg-wrap .dimgthumb.on{opacity:1}
   .dimg-wrap .dimg{
-    display:block;width:100%;height:100%;object-fit:cover;
+    display:block;width:100%;height:100%;object-fit:cover;position:relative;z-index:1;
     /* 0.45s 太长：图在 ~300ms 就位，再淡入半秒，观感就是"切一张卡一下"。
        0.26s 在深色面板上仍然柔和，但不会拖。 */
     opacity:0;transition:opacity .26s ease;
@@ -2618,6 +2625,10 @@ body.panel-open #globe-stage{
          用户看到的就是"点一下顿一下"。decoding=async 让浏览器把解码
          挪到别的线程，主线程只负责布局。 */
       pic.decoding = 'async';
+      var thumbImg = el('img', 'dimgthumb');
+      thumbImg.alt = '';
+      thumbImg.decoding = 'async';
+      picWrap.appendChild(thumbImg);      // 垫在下面：缩略图先上，大图盖上来
       picWrap.appendChild(pic);
       /* 放大提示 + 点击查看大图 */
       picWrap.appendChild(el('div', 'zoomhint', '⤢'));
@@ -2654,10 +2665,16 @@ body.panel-open #globe-stage{
         var seq = ++picSeq;
         picWrap.classList.remove('loaded');
         picWrap.classList.add('loading');
-        /* 只有大图还没预取到时才用缩略图垫底。
-           已经就绪的图直接从内存渲染（~280ms），再垫一层背景反而更慢（实测 400ms）。 */
-        if (it.thumb_url && !it.__ready) {
-          picWrap.style.backgroundImage = 'url("' + assetSrc(it.thumb_url, it.v) + '")';
+        /* 缩略图垫底：不管有没有预取，先让框里"有东西"，再让大图盖上来。
+           之前只在没预取时垫，实测很多情况下用户还是先看到空框 —— 干脆一律垫，
+           反正缩略图本来就已经在内存里（胶片带加载过），不产生新请求。 */
+        if (it.thumb_url) {
+          if (thumbImg.getAttribute('src') !== assetSrc(it.thumb_url, it.v)) {
+            thumbImg.src = assetSrc(it.thumb_url, it.v);
+          }
+          thumbImg.classList.add('on');
+        } else {
+          thumbImg.classList.remove('on');
         }
         picWrap.classList.remove('blank');   // 上一张失败留下的 blank 要清掉，否则 display:none 一直挂着
         pic.alt = it.caption_zh || it.caption || d.name_zh;
@@ -2665,7 +2682,7 @@ body.panel-open #globe-stage{
           picWrap.classList.remove('loading');
           picWrap.classList.add('loaded');
           picWrap.classList.remove('blank');
-          picWrap.style.backgroundImage = '';   // 大图已就位，撤掉缩略图底
+          thumbImg.classList.remove('on');      // 大图已就位，垫图淡出
           // 竖构图（如埃菲尔铁塔 1400x2591）用 cover 会把塔顶塔基裁掉，
           // 改 contain 装下整张，两侧用底色补。横构图仍用 cover 铺满。
           var portrait = pic.naturalHeight > pic.naturalWidth * 1.15;
@@ -2771,22 +2788,32 @@ body.panel-open #globe-stage{
           setTimeout(function () { node.__load(it.thumb_url || it.url, it.v); }, i * 60);
         });
 
-        /* 预取其余几张详情图（1080 宽，60~120KB）。
-           胶片带只预载了 240px 缩略图，所以第一次点第 2 张时那 1080 的原图
-           是现下的 —— 用户感觉"切一张要等一会儿"就是这么来的。
-           面板停稳 1.2 秒后再开始，一张隔 220ms：不和首图抢带宽，
-           也不让首页那一下变慢。流量敏感（saveData）时不预取。 */
+        /* 预取详情图（1080 宽，60~120KB）。
+           胶片带只预载 240px 缩略图，1080 的原图以前是点开才下 —— 这是"切一张等一会儿"的根。
+           两条触发：
+             ① 面板停稳 0.7s 后按 160ms 间隔补一遍（不等用户动手）；
+             ② 鼠标移到某张缩略图上时立刻抓那一张（"急着切"的兜底，命中率最高）。
+           流量敏感（saveData / 2G）不预取。 */
+        var prefetching = {};
+        function prefetchDetail(i) {
+          var it = imgs[i];
+          if (!it || i === 0 || it.__ready || prefetching[i]) return;
+          prefetching[i] = true;
+          var pre = new Image();
+          pre.decoding = 'async';
+          pre.onload = function () { it.__ready = true; };
+          pre.src = assetSrc(it.url || it.thumb_url, it.v);
+        }
         try {
           var conn = navigator.connection || {};
           if (!conn.saveData && !/2g/.test(conn.effectiveType || '')) {
             imgs.forEach(function (it, i) {
               if (i === 0) return;
-              setTimeout(function () {
-                var pre = new Image();
-                pre.decoding = 'async';
-                pre.onload = function () { it.__ready = true; };   // 这张详情图已进内存
-                pre.src = assetSrc(it.url || it.thumb_url, it.v);
-              }, 1200 + i * 220);
+              setTimeout(function () { prefetchDetail(i); }, 700 + i * 160);
+            });
+            items.forEach(function (node, i) {
+              node.addEventListener('mouseenter', function () { prefetchDetail(i); });
+              node.addEventListener('touchstart', function () { prefetchDetail(i); }, { passive: true });
             });
           }
         } catch (e) {}

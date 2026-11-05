@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-05-AU">
+<meta name="build" content="2026-11-05-AV">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1894,10 +1894,14 @@ body.panel-open #globe-stage{
     return m ? (m.getAttribute('content') || '') : '';
   })();
 
-  function assetSrc(rel) {
+  function assetSrc(rel, ver) {
     if (!rel) return '';
     if (/^https?:\/\//i.test(rel)) return rel;
-    var q = BUILD_TAG ? ('?v=' + encodeURIComponent(BUILD_TAG)) : '';
+    /* ver 是「这张图自己的版本号」（build_cards 按文件大小+修改时间算的）。
+       有它就用它 —— 这样改 CSS / 改文案只让 data 失效，不会把 2000 多张图
+       全部打成过期缓存。没有才退回全局 BUILD_TAG。 */
+    var tag = ver || BUILD_TAG;
+    var q = tag ? ('?v=' + encodeURIComponent(tag)) : '';
     if (OBS_MISS[assetDir(rel)]) return rel + q;
     return OBS_BASE + rel.replace(/^\/+/, '') + q;
   }
@@ -1960,7 +1964,7 @@ body.panel-open #globe-stage{
      的 fellBack 已为 true，直接判"彻底失败"，把容器打上 blank（CSS 里是
      display:none），于是从第二张开始整块图永久消失。
      现在改成每个节点只挂一次监听，回退状态记在节点上按当前图算。 */
-  function setAsset(node, rel) {
+  function setAsset(node, rel, ver) {
     if (!node.__assetBound) {
       node.__assetBound = true;
       node.addEventListener('error', function () {
@@ -1975,7 +1979,7 @@ body.panel-open #globe-stage{
     }
     node.__assetRel = rel;
     if (!rel) { node.removeAttribute('src'); return; }
-    node.src = assetSrc(rel);
+    node.src = assetSrc(rel, ver);
   }
 
   function el(tag, cls, text) {
@@ -2527,6 +2531,7 @@ body.panel-open #globe-stage{
      这里做一层最朴素的查看器：同一个 1080 宽的原图铺满视口，不额外请求。
      交互：点图开、点背景/✕/Esc 关。Esc 要先让给这里，否则会把整个档案关掉。 */
   var LB = null, LBimg = null, LBcap = null;
+  var LAST_DETAIL_ISO = '';   // 上一次渲染的是哪个国家，用来判断要不要把阅读位置归零
 
   function ensureLightbox() {
     if (LB) return;
@@ -2571,6 +2576,18 @@ body.panel-open #globe-stage{
     panelT0 = performance.now();
     dTitle.textContent = d.name_zh;
     dSub.textContent = d.name_en + ' · ' + d.iso_a2 + ' / ' + d.iso_a3 + ' · ' + d.qid;
+
+    /* 换国家时把阅读位置拉回顶部。
+       两个调用点都传 quiet=true（它的含义是"别重跑入场动画"，不是"同一个国家"），
+       所以不能拿 quiet 当条件 —— 实测那样写完全不生效，滚动位置还是 420。
+       改成记住上一次渲染的 ISO：只有真的换了国家才归零。
+       放在建 DOM 之前：此时滚动高度还是旧值，归零不会闪一下。 */
+    var _isoNow = String(d.iso_a2 || '').toUpperCase();
+    if (_isoNow && _isoNow !== LAST_DETAIL_ISO) {
+      var sc = document.querySelector('.dscroll');
+      if (sc) sc.scrollTop = 0;
+    }
+    LAST_DETAIL_ISO = _isoNow;
 
     /* 档案里带着粗轮廓 → 记下来，球面上如果还没画线就先拿它顶。
        记在这里而不是 renderDetail 末尾：后面的 DOM 构建还要几十毫秒。 */
@@ -2647,7 +2664,7 @@ body.panel-open #globe-stage{
            原来先挂缩略图、等主图预载好再替换，视觉上是"先糊一下再变清晰"——
            用户明确不要这个过渡。OBS 上主图 50~150KB、0.2 秒就到，
            这点等待比"糊一下"舒服。缩略图只在底下那条胶片带里用。 */
-        setAsset(pic, it.url || it.thumb_url);
+        setAsset(pic, it.url || it.thumb_url, it.v);
         // 换到同一张图时浏览器不会重新触发 load，loaded 就永远加不上，图是透明
         if (pic.complete && pic.naturalWidth) pic.onload();
         setCap(idx);
@@ -2668,7 +2685,7 @@ body.panel-open #globe-stage{
           /* 这里只装"怎么加载"，不立刻发请求 —— 由下面 whenSettled 统一触发。
              之前是在创建时就 probe.src，五张图会和面板的图层光栅化撞在同一帧，
              实测点开后 40~170ms 那一片掉帧就是从这来的（主图反而在 900ms 后才取）。 */
-          t.__load = function (rel) {
+          t.__load = function (rel, ver) {
             if (t.__loading) return;
             t.__loading = true;
             var probe = new Image();
@@ -2679,7 +2696,7 @@ body.panel-open #globe-stage{
             };
             /* 与主图同一套双源策略：先 OBS，失败回退仓库相对路径。
                两个 URL 都试完仍然是坏的，就让它保持骨架，不显示任何占位图。 */
-            probe.onload = function () { settled = true; apply(assetSrc(rel)); };
+            probe.onload = function () { settled = true; apply(assetSrc(rel, ver)); };
             probe.onerror = function () {
               if (settled) return;
               settled = true;
@@ -2736,7 +2753,7 @@ body.panel-open #globe-stage{
         imgs.forEach(function (it, i) {
           var node = items[i];
           if (!node || !node.__load) return;
-          setTimeout(function () { node.__load(it.thumb_url || it.url); }, i * 60);
+          setTimeout(function () { node.__load(it.thumb_url || it.url, it.v); }, i * 60);
         });
       }
       if (strip) left.appendChild(strip);

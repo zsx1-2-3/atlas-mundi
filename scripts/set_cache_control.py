@@ -37,7 +37,6 @@ REGION = "cn-east-3"
 # 数据/页面：必须重新验证，否则改了看不到
 CACHE = {
     ".webp": "public, max-age=604800",
-    ".jpg": "public, max-age=604800",
     ".png": "public, max-age=604800",
     ".svg": "public, max-age=604800",
     ".mp3": "public, max-age=604800",
@@ -90,21 +89,24 @@ def main():
             print("  %-40s %d" % (k, v))
         return 0
 
-    from obs import ObsClient
+    from obs import ObsClient, CopyObjectHeader
     cli = ObsClient(access_key_id=os.environ["HUAWEI_AK"],
                     secret_access_key=os.environ["HUAWEI_SK"],
                     server="https://obs.%s.myhuaweicloud.com" % REGION)
     ok = fail = 0
+    miss = []
     for i, (p, key) in enumerate(files, 1):
         ext = os.path.splitext(key)[1].lower()
         try:
-            with open(p, "rb") as f:
-                data = f.read()
-            r = cli.putContent(
-                BUCKET, key, data,
-                extensionHeaders={"Cache-Control": CACHE[ext],
-                                  "Content-Type": U.ctype_of(key).split(";")[0]})
-            if r.status >= 300:
+            # 自复制 + REPLACE 元数据：只改头，不传文件内容（0.36s/个，实测）。
+            # 走 putContent 要重传整个文件（7s/个），4000 张要跑一晚上。
+            h = CopyObjectHeader(directive="REPLACE",
+                                 cacheControl=CACHE[ext],
+                                 contentType=U.ctype_of(key).split(";")[0])
+            r = cli.copyObject(BUCKET, key, BUCKET, key, headers=h)
+            if r.status == 404:
+                miss.append(key)
+            elif r.status >= 300:
                 fail += 1
                 print("  [x] %s %s" % (key, r.status))
             else:
@@ -115,7 +117,9 @@ def main():
         if i % 100 == 0:
             print("  … %d/%d（成功 %d）" % (i, len(files), ok), flush=True)
     cli.close()
-    print("完成：成功 %d，失败 %d" % (ok, fail))
+    print("完成：成功 %d，失败 %d，线上不存在 %d" % (ok, fail, len(miss)))
+    for k in miss[:10]:
+        print("  · 未上传:", k)
     return 0
 
 

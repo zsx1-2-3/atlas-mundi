@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-05-AX">
+<meta name="build" content="2026-11-05-AY">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -324,15 +324,7 @@
     position:relative;width:100%;height:clamp(230px,34vh,372px);overflow:hidden;
     border:1px solid var(--line);border-radius:12px;background:#070b14;
   }
-  /* 垫图层：单独一张 <img>，object-fit:cover。
-     之前用 background-image 铺底，撞上 .dimg-wrap.fit{background:rgba(...)}
-     这个简写 —— 它会重置 background-size/repeat，240px 缩略图在 360px 框里
-     平铺成 2×2，用户看到"四个一模一样的图"。用 img 层不会有这个问题。 */
-  .dimg-wrap .dimgthumb{
-    position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
-    opacity:0;transition:opacity .18s ease;pointer-events:none;
-  }
-  .dimg-wrap .dimgthumb.on{opacity:1}
+
   .dimg-wrap .dimg{
     display:block;width:100%;height:100%;object-fit:cover;position:relative;z-index:1;
     /* 0.45s 太长：图在 ~300ms 就位，再淡入半秒，观感就是"切一张卡一下"。
@@ -340,6 +332,9 @@
     opacity:0;transition:opacity .26s ease;
   }
   .dimg-wrap.loaded .dimg{opacity:1}
+  /* 已在内存里的图（预取过）直接显示，不做淡入 ——
+     深色底上那 0.26s 的淡入，观感就是"点一下闪一下"。 */
+  .dimg-wrap .dimg.now{transition:none}
   /* 竖构图（埃菲尔铁塔 760×1406、长城烽燧之类）：框改成竖的、整张装进去，
      不再拿 16:10 的死框去裁 —— 那正是"塔被拉平看不到全貌"的来源。 */
   .dimg-wrap.fit{background:rgba(0,0,0,.28)}
@@ -2583,6 +2578,15 @@ body.panel-open #globe-stage{
     }, 260);
   }
 
+  /* 这张图是不是竖构图？要在加载之前就知道，否则框型会先铺后跳（闪）。
+     两个来源都用：cards.json 里带 portrait 标记；直接从 data/xx.json 读时
+     没有这个标记，就按 size.detail（"1080x1398"）现算。 */
+  function isPortraitImage(it) {
+    if (it.portrait != null) return !!it.portrait;
+    var m = /^(\d+)x(\d+)$/.exec((it.size && it.size.detail) || '');
+    return m ? (+m[2] > +m[1] * 1.15) : false;
+  }
+
   function renderDetail(d, quiet) {
     /* 记下面板开始滑入的时刻。后面 whenPanelIn 要用它算"动画还剩多久"——
        光靠 transitionend 会漏：镜头飞行本身就 900ms，若飞行比动画晚结束，
@@ -2625,10 +2629,6 @@ body.panel-open #globe-stage{
          用户看到的就是"点一下顿一下"。decoding=async 让浏览器把解码
          挪到别的线程，主线程只负责布局。 */
       pic.decoding = 'async';
-      var thumbImg = el('img', 'dimgthumb');
-      thumbImg.alt = '';
-      thumbImg.decoding = 'async';
-      picWrap.appendChild(thumbImg);      // 垫在下面：缩略图先上，大图盖上来
       picWrap.appendChild(pic);
       /* 放大提示 + 点击查看大图 */
       picWrap.appendChild(el('div', 'zoomhint', '⤢'));
@@ -2663,30 +2663,27 @@ body.panel-open #globe-stage{
         picIdx = idx;
         var it = imgs[idx];
         var seq = ++picSeq;
-        picWrap.classList.remove('loaded');
+        /* 竖图在**换图之前**就把框型定好。
+           原来是在 onload 里才发现"这是竖的"再切 .fit —— 于是先按 16:10 铺一遍、
+           再跳成 4/5，用户看到的就是"先闪成全屏、再变竖图"。
+           cards.json 里带 portrait 标记（build_cards 按 1080x1398 算好的），
+           加载前就能决定，不跳。 */
+        picWrap.classList.toggle('fit', isPortraitImage(it));
+        picWrap.classList.remove('loaded', 'blank');
         picWrap.classList.add('loading');
-        /* 缩略图垫底：不管有没有预取，先让框里"有东西"，再让大图盖上来。
-           之前只在没预取时垫，实测很多情况下用户还是先看到空框 —— 干脆一律垫，
-           反正缩略图本来就已经在内存里（胶片带加载过），不产生新请求。 */
-        if (it.thumb_url) {
-          if (thumbImg.getAttribute('src') !== assetSrc(it.thumb_url, it.v)) {
-            thumbImg.src = assetSrc(it.thumb_url, it.v);
-          }
-          thumbImg.classList.add('on');
-        } else {
-          thumbImg.classList.remove('on');
-        }
+        /* 预取过（已在内存）就免淡入；没预取才淡 0.26s，避免"闪" */
+        pic.classList.toggle('now', !!it.__ready);
         picWrap.classList.remove('blank');   // 上一张失败留下的 blank 要清掉，否则 display:none 一直挂着
         pic.alt = it.caption_zh || it.caption || d.name_zh;
         pic.onload = function () {
           picWrap.classList.remove('loading');
           picWrap.classList.add('loaded');
           picWrap.classList.remove('blank');
-          thumbImg.classList.remove('on');      // 大图已就位，垫图淡出
-          // 竖构图（如埃菲尔铁塔 1400x2591）用 cover 会把塔顶塔基裁掉，
-          // 改 contain 装下整张，两侧用底色补。横构图仍用 cover 铺满。
-          var portrait = pic.naturalHeight > pic.naturalWidth * 1.15;
-          picWrap.classList.toggle('fit', portrait);
+          /* 兜底：cards.json 里没有 portrait 的老数据，仍按实际尺寸补一次。
+             有标记的不会走到这里改变框型，所以不会跳。 */
+          if (it.portrait == null && !(it.size && it.size.detail)) {
+            picWrap.classList.toggle('fit', pic.naturalHeight > pic.naturalWidth * 1.15);
+          }
         };
         pic.__onfail = function () {
           picWrap.classList.remove('loading');

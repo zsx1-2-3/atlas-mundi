@@ -58,6 +58,15 @@ def slim_image(it):
     # 每张图带一个自己的版本号（文件大小 + 修改时间），前端拼 ?v=。
     # 原来所有资源共用全局 BUILD_TAG：改一行 CSS 也会让 2200 张图全部缓存失效，
     # 换完版本第一次打开明显变慢 —— 就是这个原因。按文件算，只有真换过的图会重下。
+    # 竖图标记：前端要在**图片加载之前**就知道该用竖版框，
+    # 否则先按 16:10 铺一遍、等 onload 发现是竖的再改成 4/5 —— 那一下就是"闪"。
+    sz = ((it.get("size") or {}).get("detail") or "")
+    try:
+        _w, _h = [int(x) for x in sz.split("x")]
+        if _h > _w * 1.15:
+            o["portrait"] = True
+    except Exception:
+        pass
     rel = it.get("url") or ""
     try:
         import os as _os

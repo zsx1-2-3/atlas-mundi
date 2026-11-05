@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-04-AT">
+<meta name="build" content="2026-11-05-AU">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -339,6 +339,44 @@
     background:linear-gradient(160deg,#0d1322,#0a0f1c);
   }
   .dimg-wrap.blank .dimg{display:none}
+  /* 点击看大图：图能装下的框才有意义（blank/加载中不给手型，免得点了没反应） */
+  .dimg-wrap.loaded{cursor:zoom-in}
+  .dimg-wrap .zoomhint{
+    position:absolute;right:9px;bottom:9px;width:26px;height:26px;border-radius:8px;
+    display:flex;align-items:center;justify-content:center;
+    color:#e2ebfa;background:rgba(8,12,22,.55);
+    -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+    border:1px solid rgba(255,255,255,.16);
+    opacity:0;transition:opacity .16s ease;pointer-events:none;
+  }
+  .dimg-wrap.loaded .zoomhint{opacity:0}
+  .dimg-wrap.loaded:hover .zoomhint{opacity:1}
+  /* 大图查看层。和详情面板同一套深色底，不做纯黑，避免跳出视觉体系 */
+  #lightbox{
+    position:fixed;inset:0;z-index:96;display:flex;align-items:center;justify-content:center;
+    padding:4vh 4vw;background:rgba(4,7,14,.9);
+    -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+    opacity:0;pointer-events:none;transition:opacity .22s ease;
+  }
+  #lightbox.on{opacity:1;pointer-events:auto}
+  #lightbox .lb-img{
+    max-width:92vw;max-height:80vh;border-radius:10px;display:block;
+    box-shadow:0 28px 90px rgba(0,0,0,.62);
+    transform:scale(.985);transition:transform .22s cubic-bezier(.2,.9,.25,1);
+  }
+  #lightbox.on .lb-img{transform:scale(1)}
+  #lightbox .lb-cap{
+    position:absolute;left:0;right:0;bottom:18px;text-align:center;
+    font-size:12.5px;line-height:1.6;color:#c6d3e8;padding:0 9vw;
+  }
+  #lightbox .lb-cap i{color:#8595ad;font-style:normal}
+  #lightbox .lb-x{
+    position:absolute;top:16px;right:18px;width:38px;height:38px;border-radius:12px;
+    display:flex;align-items:center;justify-content:center;cursor:pointer;
+    color:#e8eefb;font-size:19px;line-height:1;
+    background:rgba(12,18,30,.62);border:1px solid rgba(255,255,255,.18);
+  }
+  #lightbox .lb-x:hover{background:rgba(24,34,52,.8)}
   .cap{font-size:12px;color:var(--ink-dim);margin-top:9px;line-height:1.65}
   .cap.dim{color:var(--ink-faint)}
 
@@ -2460,7 +2498,9 @@ body.panel-open #globe-stage{
     var btn = document.getElementById('d-close');
     if (btn) btn.addEventListener('click', closePanel);
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && detail.classList.contains('open')) closePanel();
+      if (e.key !== 'Escape') return;
+      if (LB && LB.classList.contains('on')) { closeLightbox(); return; }
+      if (detail.classList.contains('open')) closePanel();
     });
   })();
 
@@ -2481,6 +2521,48 @@ body.panel-open #globe-stage{
   }
 
   var panelT0 = 0;          // 面板开始滑入的时刻（whenPanelIn 用来算剩余时长）
+
+  /* ---- 点击主图看大图 ----------------------------------------------------
+     面板里的图框只有 360 CSS px 宽，油画笔触、岩画线条、纪念碑铭文全看不清。
+     这里做一层最朴素的查看器：同一个 1080 宽的原图铺满视口，不额外请求。
+     交互：点图开、点背景/✕/Esc 关。Esc 要先让给这里，否则会把整个档案关掉。 */
+  var LB = null, LBimg = null, LBcap = null;
+
+  function ensureLightbox() {
+    if (LB) return;
+    LB = el('div');
+    LB.id = 'lightbox';
+    LBimg = el('img', 'lb-img');
+    LBcap = el('div', 'lb-cap');
+    var x = el('div', 'lb-x', '✕');
+    LB.appendChild(LBimg);
+    LB.appendChild(LBcap);
+    LB.appendChild(x);
+    (document.body || document.documentElement).appendChild(LB);
+    x.addEventListener('click', closeLightbox);
+    LB.addEventListener('click', function (e) { if (e.target === LB) closeLightbox(); });
+  }
+
+  function openLightbox(src, capText, lic, author) {
+    if (!src) return;
+    ensureLightbox();
+    LBimg.src = src;
+    LBimg.alt = capText || '';
+    LBcap.textContent = capText || '';
+    if (lic) {
+      var meta = el('i', null, '　授权：' + lic + (author ? ' · ' + author : ''));
+      LBcap.appendChild(meta);
+    }
+    LB.classList.add('on');
+  }
+
+  function closeLightbox() {
+    if (!LB || !LB.classList.contains('on')) return;
+    LB.classList.remove('on');
+    setTimeout(function () {
+      if (!LB.classList.contains('on')) LBimg.removeAttribute('src');
+    }, 260);
+  }
 
   function renderDetail(d, quiet) {
     /* 记下面板开始滑入的时刻。后面 whenPanelIn 要用它算"动画还剩多久"——
@@ -2513,11 +2595,21 @@ body.panel-open #globe-stage{
          挪到别的线程，主线程只负责布局。 */
       pic.decoding = 'async';
       picWrap.appendChild(pic);
+      /* 放大提示 + 点击查看大图 */
+      picWrap.appendChild(el('div', 'zoomhint', '⤢'));
+      picWrap.addEventListener('click', function () {
+        var it = imgs[picIdx];
+        if (!it || !picWrap.classList.contains('loaded')) return;
+        openLightbox(it.url || it.thumb_url,
+                     it.caption_zh || it.caption || d.name_zh,
+                     it.license, it.author);
+      });
       var capEl = el('div', 'cap', '');
       var licEl = el('div', 'cap dim', '');
       var strip = imgs.length > 1 ? el('div', 'thumbstrip') : null;
       var items = [];
       var picSeq = 0;
+      var picIdx = 0;      // 当前主图下标，点击放大时要知道是哪一张
 
       /* 题注和授权是纯文本，立刻就能填 —— 图片要等镜头停稳（见下面 whenSettled），
          这段时间面板不能是空白的，先让图注占住位置，视觉上不跳。 */
@@ -2531,6 +2623,7 @@ body.panel-open #globe-stage{
       }
 
       function showPic(idx) {
+        picIdx = idx;
         var it = imgs[idx];
         var seq = ++picSeq;
         picWrap.classList.remove('loaded');

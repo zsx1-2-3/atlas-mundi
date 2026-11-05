@@ -511,13 +511,13 @@
  },
  "File:St Mary's Church, Cheadle.jpg": {
   "ok": false,
-  "why": "英国石砌教堂，非安圭拉",
-  "at": "2026-11-05 09:48"
+  "why": "主体是堡垒非教堂",
+  "at": "2026-11-05 18:25"
  },
  "File:Little Bay - Montserrat.jpg": {
   "ok": false,
-  "why": "主体为蒙特塞拉特景观",
-  "at": "2026-11-05 09:48"
+  "why": "主体是蒙特塞拉特非安圭拉",
+  "at": "2026-11-05 18:25"
  },
  "File:2011 Berat, Most Gorica 02.JPG": {
   "ok": true,
@@ -686,8 +686,8 @@
  },
  "File:BergiselInnsbruck2.JPG": {
   "ok": false,
-  "why": "主体为缆车站非黄金屋顶",
-  "at": "2026-11-05 09:48"
+  "why": "主体是缆车站非黄金屋顶",
+  "at": "2026-11-05 18:25"
  },
  "File:Sydney Opera House Sails.jpg": {
   "ok": true,
@@ -1092,8 +1092,8 @@
  },
  "File:View of Minsk from the National Library of Belarus 03.JPG": {
   "ok": false,
-  "why": "城市远景，无图书馆主体",
-  "at": "2026-11-05 09:49"
+  "why": "城市远景，未见图书馆主体",
+  "at": "2026-11-05 18:25"
  },
  "File:Belize Blue Hole.jpg": {
   "ok": true,
@@ -1177,8 +1177,8 @@
  },
  "File:Bangui airport 1.jpg": {
   "ok": false,
-  "why": "机场停机坪非教堂",
-  "at": "2026-11-05 09:49"
+  "why": "主体是卡车人群，非教堂",
+  "at": "2026-11-05 18:25"
  },
  "File:Morning mist over the Sangha River near Bayanga.jpg": {
   "ok": true,
@@ -1387,8 +1387,8 @@
  },
  "File:Chalk layers in Cyprus (Paphos-Limassol) 02.jpg": {
   "ok": false,
-  "why": "公路边坡非考古公园",
-  "at": "2026-11-05 09:49"
+  "why": "公路切坡，非考古公园地标",
+  "at": "2026-11-05 18:25"
  },
  "File:Stadium Kourion 1.jpg": {
   "ok": false,
@@ -1557,8 +1557,8 @@
  },
  "File:Dunes at Tassili n'Ajjer.jpg": {
   "ok": false,
-  "why": "航拍沙丘，非岩画主体",
-  "at": "2026-11-05 09:49"
+  "why": "高空航拍，主体难辨",
+  "at": "2026-11-05 18:25"
  },
  "File:Galapagos giant tortoise Geochelone elephantopus.jpg": {
   "ok": true,
@@ -1632,8 +1632,8 @@
  },
  "File:Hospital de navarra tifariti rasd.jpg": {
   "ok": false,
-  "why": "主体为医院建筑非岩画",
-  "at": "2026-11-05 09:49"
+  "why": "照片主体是医院建筑外观",
+  "at": "2026-11-05 18:25"
  },
  "File:Asmara, africa pension 01.JPG": {
   "ok": true,
@@ -1801,9 +1801,9 @@
   "at": "2026-11-05 09:49"
  },
  "File:Chuuk lagoon (Unachiech reef) aerial view.jpg": {
-  "ok": false,
-  "why": "卫星影像",
-  "at": "2026-11-05 09:49"
+  "ok": true,
+  "why": "环礁航拍清晰可辨",
+  "at": "2026-11-05 18:25"
  },
  "File:Kallur kalsoy 2.jpg": {
   "ok": true,
@@ -1833,7 +1833,7 @@
  "File:St. Michaelis Kirche in Lüneburg.jpg": {
   "ok": false,
   "why": "德国教堂，非加蓬地标",
-  "at": "2026-11-05 09:49"
+  "at": "2026-11-05 18:25"
  },
  "File:La mangrove Nyonié au Gabon.jpg": {
   "ok": true,
@@ -2002,9 +2002,9 @@
   "at": "2026-11-05 09:50"
  },
  "File:Hagen Fjord, Greenland aerial photo.jpg": {
-  "ok": false,
-  "why": "机翼遮挡，主体不明确",
-  "at": "2026-11-05 09:50"
+  "ok": true,
+  "why": "航拍峡湾冰面，主体清晰",
+  "at": "2026-11-05 18:25"
  },
  "File:Greenland-scoresby bay hg.jpg": {
   "ok": true,
@@ -2033,13 +2033,13 @@
  },
  "File:Guinee Fouta Djalon Doucky.jpg": {
   "ok": false,
-  "why": "主体是人物合影",
-  "at": "2026-11-05 09:50"
+  "why": "水下特写，无法辨识高原",
+  "at": "2026-11-05 18:25"
  },
  "File:Conakry-Iles de Los.jpg": {
   "ok": false,
   "why": "历史档案图版",
-  "at": "2026-11-05 09:50"
+  "at": "2026-11-05 18:25"
  },
  "File:Southwell minster1.jpg": {
   "ok": false,
@@ -2053,8 +2053,8 @@
  },
  "File:Ayasofya - panoramio - Alen Ištoković.jpg": {
   "ok": false,
-  "why": "主体是圣索菲亚大教堂",
-  "at": "2026-11-05 09:50"
+  "why": "主体是圣索菲亚大教堂，非该地标",
+  "at": "2026-11-05 18:25"
  },
  "File:Bata, 2015-02 -i---i- (15890576434).jpg": {
   "ok": true,
@@ -2159,17 +2159,17 @@
  "File:Mahindra Gambia tractor, Bijagos Archipelago, Guinea-Bissau.jpg": {
   "ok": false,
   "why": "主体是拖拉机与人物",
-  "at": "2026-11-05 09:50"
+  "at": "2026-11-05 18:25"
  },
  "File:Guineabissau oli 2018137 lrg (cropped to Orango, Canogo, Meneque and Orangozinho).jpg": {
   "ok": false,
-  "why": "卫星影像",
-  "at": "2026-11-05 09:50"
+  "why": "卫星影像不合格",
+  "at": "2026-11-05 18:25"
  },
  "File:DC - Cacheu. Arredores - Uma fonte.jpg": {
   "ok": false,
-  "why": "历史档案图版",
-  "at": "2026-11-05 09:50"
+  "why": "主体是古堡雕像非泉眼",
+  "at": "2026-11-05 18:25"
  },
  "File:Edifícios Coloniais em Bolama, Guiné-Bissau 02.jpg": {
   "ok": true,
@@ -2284,8 +2284,8 @@
  },
  "File:Jean Jacques Dessalines.jpg": {
   "ok": false,
-  "why": "历史人物画像非地标",
-  "at": "2026-11-05 09:50"
+  "why": "这是纸币，非地标画像",
+  "at": "2026-11-05 18:25"
  },
  "File:Saut du Baril-St. Yves - panoramio.jpg": {
   "ok": false,
@@ -2414,8 +2414,8 @@
  },
  "File:Mk Berlin Tram 6.jpg": {
   "ok": false,
-  "why": "主体是别处现代电车",
-  "at": "2026-11-05 09:50"
+  "why": "主体为现代有轨电车，非马恩岛电车",
+  "at": "2026-11-05 18:25"
  },
  "File:Taj Mahal, Agra, India edit3.jpg": {
   "ok": true,
@@ -2464,8 +2464,8 @@
  },
  "File:Ctesiphon Exhibition - Pergamonmuseum Berlin 2017.jpg": {
   "ok": false,
-  "why": "博物馆展厅，非伊拉克地标",
-  "at": "2026-11-05 09:50"
+  "why": "主体是伊拉克泰西封拱门遗址",
+  "at": "2026-11-05 18:25"
  },
  "File:001123-ImamAliShrine-Najaf-IMG 7707-2.jpg": {
   "ok": true,
@@ -2574,8 +2574,8 @@
  },
  "File:Bob Marley museum.jpg": {
   "ok": false,
-  "why": "主体是雕像非故居",
-  "at": "2026-11-05 09:50"
+  "why": "主体为工艺品，非地标",
+  "at": "2026-11-05 18:25"
  },
  "File:Al_Khazneh_Petra_edit_2.jpg": {
   "ok": true,
@@ -2665,7 +2665,7 @@
  "File:Residentur-France inAnjouan 1930.jpg": {
   "ok": false,
   "why": "历史档案图版",
-  "at": "2026-11-05 09:50"
+  "at": "2026-11-05 18:25"
  },
  "File:BrimstoneHill01.jpg": {
   "ok": false,
@@ -2808,9 +2808,9 @@
   "at": "2026-11-05 09:51"
  },
  "File:Baikonur (14320417325).jpg": {
-  "ok": false,
-  "why": "室内展馆非发射场主体",
-  "at": "2026-11-05 09:51"
+  "ok": true,
+  "why": "航天器装配厂房内景",
+  "at": "2026-11-05 18:25"
  },
  "File:Pha That Luang Vientiane Laos.jpg": {
   "ok": true,
@@ -2824,8 +2824,8 @@
  },
  "File:Arch of SS 2.jpg": {
   "ok": false,
-  "why": "这是罗马凯旋门",
-  "at": "2026-11-05 09:51"
+  "why": "这是罗马凯旋门，非老挝地标",
+  "at": "2026-11-05 18:25"
  },
  "File:Wat Xieng Thong Laos I.jpg": {
   "ok": true,
@@ -3210,8 +3210,8 @@
  },
  "File:Majuro and Arno Atolls 2.jpg": {
   "ok": false,
-  "why": "地图非实景照片",
-  "at": "2026-11-05 09:51"
+  "why": "主体是军舰，非环礁航拍",
+  "at": "2026-11-05 18:25"
  },
  "File:Ohridsoeen.jpg": {
   "ok": true,
@@ -3220,8 +3220,8 @@
  },
  "File:PlostadMakedonija-Skopje.JPG": {
   "ok": false,
-  "why": "广场街景，未见石桥主体",
-  "at": "2026-11-05 09:51"
+  "why": "画面为广场街景，未见石桥主体",
+  "at": "2026-11-05 18:25"
  },
  "File:Thessaloniki Saint Sophia Church west wall.jpg": {
   "ok": true,
@@ -3345,8 +3345,8 @@
  },
  "File:RichatStructure.jpg": {
   "ok": false,
-  "why": "地面视角非结构主体",
-  "at": "2026-11-05 09:51"
+  "why": "卫星影像，非地面实景",
+  "at": "2026-11-05 18:25"
  },
  "File:Conchero Arguin.jpg": {
   "ok": true,
@@ -3365,13 +3365,13 @@
  },
  "File:Dickinson bay beach antigua.jpg": {
   "ok": false,
-  "why": "沙滩为白砂非黑砂",
-  "at": "2026-11-05 09:51"
+  "why": "沙滩为白沙，非黑沙滩",
+  "at": "2026-11-05 18:25"
  },
  "File:St. Christophers, or St. Kitts, surveyed by Anthony Ravell Esqr., Surveyor General of the islands of St. Christopher (IA dr st-christophers-or-st-kitts-surveyed-by-anthony-ravell-esqr-surveyor-00314060).jpg": {
   "ok": false,
-  "why": "古地图扫描件非教堂",
-  "at": "2026-11-05 09:51"
+  "why": "古地图扫描件，非教堂",
+  "at": "2026-11-05 18:25"
  },
  "File:Mount Garibaldi West Face.jpg": {
   "ok": false,
@@ -3469,9 +3469,9 @@
   "at": "2026-11-05 09:51"
  },
  "File:Zomba Market, Malawi - 4106274543.jpg": {
-  "ok": false,
-  "why": "主体为人物集市",
-  "at": "2026-11-05 09:51"
+  "ok": true,
+  "why": "集市摊位与人群清晰",
+  "at": "2026-11-05 18:25"
  },
  "File:Chichen Itza stadium.jpg": {
   "ok": true,
@@ -3599,9 +3599,9 @@
   "at": "2026-11-05 09:52"
  },
  "File:Hôtel de ville de Niamey 01.jpg": {
-  "ok": false,
-  "why": "普通市政办公楼，非地标",
-  "at": "2026-11-05 09:52"
+  "ok": true,
+  "why": "市政厅建筑清晰可辨",
+  "at": "2026-11-05 18:25"
  },
  "File:Norfolk Island Cathedral Rock2.jpg": {
   "ok": true,
@@ -3690,8 +3690,8 @@
  },
  "File:De Slag bij Waterloo Rijksmuseum SK-A-1115.jpeg": {
   "ok": false,
-  "why": "油画复制品",
-  "at": "2026-11-05 09:52"
+  "why": "油画复制品，非地标本身",
+  "at": "2026-11-05 18:25"
  },
  "File:NL-keukenhof-01.jpg": {
   "ok": true,
@@ -4020,8 +4020,8 @@
  },
  "File:Edward Gennys Fanshawe, John Adams house and grave Pitcairn's Island, Augt 12th 1849.jpg": {
   "ok": false,
-  "why": "水彩画复制品，非实景",
-  "at": "2026-11-05 09:52"
+  "why": "水彩画复制品，非实景照片",
+  "at": "2026-11-05 18:25"
  },
  "File:Pitcairn - Church of Adamstown.jpg": {
   "ok": true,
@@ -4071,7 +4071,7 @@
  "File:Hebron H2 area 2011-ochaopt.jpg": {
   "ok": false,
   "why": "地图示意图非实景",
-  "at": "2026-11-05 09:52"
+  "at": "2026-11-05 18:25"
  },
  "File:Sintra - Palacio da Pena (20332995770).jpg": {
   "ok": true,
@@ -4144,9 +4144,9 @@
   "at": "2026-11-05 09:52"
  },
  "File:National Museum of Qatar 10.jpg": {
-  "ok": false,
-  "why": "室内展陈，非地标主体",
-  "at": "2026-11-05 09:52"
+  "ok": true,
+  "why": "馆内自然历史展陈，主体可辨",
+  "at": "2026-11-05 18:25"
  },
  "File:Souq Waqif2.jpg": {
   "ok": true,
@@ -4265,8 +4265,8 @@
  },
  "File:Diriyah1.jpg": {
   "ok": false,
-  "why": "主体为宣传牌非古城",
-  "at": "2026-11-05 09:52"
+  "why": "主体是宣传牌，非地标本身",
+  "at": "2026-11-05 18:25"
  },
  "File:Rub al Khali 002.JPG": {
   "ok": true,
@@ -4339,9 +4339,9 @@
   "at": "2026-11-05 09:53"
  },
  "File:Ceramics, National Museum of Sudan, Khartoum, Sudan, North-East Africa.jpg": {
-  "ok": false,
-  "why": "展柜陶瓷工艺品，非地标",
-  "at": "2026-11-05 09:53"
+  "ok": true,
+  "why": "博物馆陶瓷展品清晰",
+  "at": "2026-11-05 18:25"
  },
  "File:Bridges across the Blue Nile Gorge.jpg": {
   "ok": true,
@@ -4350,8 +4350,8 @@
  },
  "File:Gamla Stan Tourists.jpg": {
   "ok": false,
-  "why": "主体是游客人群非地标",
-  "at": "2026-11-05 09:53"
+  "why": "主体是人群，非地标",
+  "at": "2026-11-05 18:25"
  },
  "File:Vasa Museum building view from the sea (3).jpg": {
   "ok": true,
@@ -4405,8 +4405,8 @@
  },
  "File:Visite, pg417 Distanz view of Longwood, St. Helena.jpg": {
   "ok": false,
-  "why": "水彩画复制品",
-  "at": "2026-11-05 09:53"
+  "why": "水彩画复制品，非实景照片",
+  "at": "2026-11-05 18:25"
  },
  "File:Cliffs (41118028371).jpg": {
   "ok": true,
@@ -4470,13 +4470,13 @@
  },
  "File:Tokeh Beach.jpg": {
   "ok": false,
-  "why": "海滩椰林非瀑布",
-  "at": "2026-11-05 09:53"
+  "why": "海滩椰树非瀑布",
+  "at": "2026-11-05 18:25"
  },
  "File:The slave fort on Bunce Island, at the mouth of the Sierra Leone River in West Africa.jpg": {
   "ok": false,
-  "why": "历史画作非实景",
-  "at": "2026-11-05 09:53"
+  "why": "水彩画复制品",
+  "at": "2026-11-05 18:25"
  },
  "File:Cotton tree in Freetown, SL - Mapillary (yIBZ74r6IsUFOaWtAPwhWw).jpg": {
   "ok": true,
@@ -4579,9 +4579,9 @@
   "at": "2026-11-05 09:53"
  },
  "File:Opname genomen tijdens de Coppename expeditie van de 'poeleman-kamissa', de grootste waterval van de Raleighvallen (TM-10049534).jpg": {
-  "ok": false,
-  "why": "历史黑白档案照片",
-  "at": "2026-11-05 09:53"
+  "ok": true,
+  "why": "瀑布岩石景观清晰可辨",
+  "at": "2026-11-05 18:25"
  },
  "File:Paramaribo market (33557504165).jpg": {
   "ok": true,
@@ -4766,7 +4766,7 @@
  "File:Reconnaissance de la Terre Adelie, le 20 Janvier 1840.jpg": {
   "ok": false,
   "why": "历史版画复制品",
-  "at": "2026-11-05 09:53"
+  "at": "2026-11-05 18:25"
  },
  "File:Lagune in Aného.jpg": {
   "ok": true,
@@ -4815,8 +4815,8 @@
  },
  "File:Alexei Fedchenko.jpg": {
   "ok": false,
-  "why": "人物肖像非冰川",
-  "at": "2026-11-05 09:53"
+  "why": "卫星影像",
+  "at": "2026-11-05 18:25"
  },
  "File:Gissar (Hisor) fortress - panoramio.jpg": {
   "ok": true,
@@ -4870,8 +4870,8 @@
  },
  "File:2018 01 06 ashgabat etrapy separation 24784.jpg": {
   "ok": false,
-  "why": "地图示意图非地标",
-  "at": "2026-11-05 09:53"
+  "why": "这是行政区划地图，非地标照片",
+  "at": "2026-11-05 18:25"
  },
  "File:St Louis Cathedral - Carthage - Tunisia - 1899.jpg": {
   "ok": false,
@@ -4889,9 +4889,9 @@
   "at": "2026-11-05 09:53"
  },
  "File:Djerba el mouradi menzel hotel pool-2.jpg": {
-  "ok": false,
-  "why": "酒店泳池非地标主体",
-  "at": "2026-11-05 09:53"
+  "ok": true,
+  "why": "酒店泳池与海景清晰可辨",
+  "at": "2026-11-05 18:25"
  },
  "File:Grande Mosquée de Kairouan, vue d'ensemble.jpg": {
   "ok": true,
@@ -4950,8 +4950,8 @@
  },
  "File:Nanumanga STS51B.jpg": {
   "ok": false,
-  "why": "卫星影像",
-  "at": "2026-11-05 09:53"
+  "why": "卫星影像，非实景航拍",
+  "at": "2026-11-05 18:25"
  },
  "File:Manu Folau off Vaitupu Harbour, Tuvalu.JPG": {
   "ok": true,
@@ -5634,9 +5634,9 @@
   "at": "2026-11-05 10:52"
  },
  "File:Drone shots of the Kakum Nationa Park 07.jpg": {
-  "ok": false,
-  "why": "主体是吊桥，非警示牌",
-  "at": "2026-11-05 10:52"
+  "ok": true,
+  "why": "雨林树冠吊桥清晰可辨",
+  "at": "2026-11-05 18:25"
  },
  "File:Greenland 10, Nuuk, harbour, Kilisaatinut.JPG": {
   "ok": true,
@@ -6197,5 +6197,170 @@
   "ok": true,
   "why": "典型萨那老城塔楼建筑",
   "at": "2026-11-05 11:18"
+ },
+ "File:Iguazú Falls 01.jpg": {
+  "ok": true,
+  "why": "航拍伊瓜苏瀑布主体清晰",
+  "at": "2026-11-05 18:12"
+ },
+ "File:Maiden Tower (Baku,Azerbaijan).jpg": {
+  "ok": true,
+  "why": "石砌圆柱塔身，确为少女塔",
+  "at": "2026-11-05 18:13"
+ },
+ "File:BAY STREET, NASSAU, BAHAMAS.jpg": {
+  "ok": true,
+  "why": "拿骚湾街彩色殖民建筑清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Brazzaville - Basilique Sainte-Anne-du-Congo.jpg": {
+  "ok": true,
+  "why": "圣安娜大教堂主体清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:City walls of Cartagena 02.jpg": {
+  "ok": true,
+  "why": "老城城墙炮台清晰可辨",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Episkopi 01-2017 img03 Kourion.jpg": {
+  "ok": true,
+  "why": "清晰可见古剧场看台",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Kronborg Castle - panoramio (5).jpg": {
+  "ok": true,
+  "why": "克伦堡宫主体清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Dominique - Indian River (2).JPG": {
+  "ok": true,
+  "why": "河流雨林景观清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Massawa - Hamal al-Ansari Mosque.jpg": {
+  "ok": true,
+  "why": "马萨瓦老城清真寺建筑清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Big Ben, The Elizabeth Tower, Houses of Parliament, London, UK, KW (15539946147).jpg": {
+  "ok": true,
+  "why": "清晰可见大本钟钟楼",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Mole National Park, West Gonja (P1100445).jpg": {
+  "ok": true,
+  "why": "大象草原生态符合公园特征",
+  "at": "2026-11-05 18:13"
+ },
+ "File:The harbour in Nuuk.JPG": {
+  "ok": true,
+  "why": "港口船只与建筑清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Grande Mosquée Fayçal de Conakry 1.jpg": {
+  "ok": true,
+  "why": "主体清晰，为几内亚大清真寺",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Athina Pronaia Sanctuary at Delphi.jpg": {
+  "ok": true,
+  "why": "德尔斐遗址神庙遗迹清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Bassin Bleu @ Sainte-Anne 03.jpg": {
+  "ok": true,
+  "why": "清澈蓝色水潭与岩石植被，符合瀑布景观",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Gondola on the Canal Grande in Venice.jpg": {
+  "ok": true,
+  "why": "大运河及贡多拉清晰可辨",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Kuwait City Grand Mosque Exterior South Facade 5.jpg": {
+  "ok": true,
+  "why": "主体清晰，大清真寺及宣礼塔可辨",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Kuwait City Kuwait Towers View to the al-Hamra Tower.jpg": {
+  "ok": true,
+  "why": "城市天际线清晰，地标建筑可辨",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Seven Mile Beach Facing West.jpg": {
+  "ok": true,
+  "why": "清澈海水白沙滩，符合七英里海滩",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Sulphur Springs, St Lucia (2015).jpg": {
+  "ok": true,
+  "why": "火山硫磺泉地貌清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:St. Lucia - Pigeon Island.jpg": {
+  "ok": true,
+  "why": "鸽子岛全景清晰可辨",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Madagascar Rova ambohimanga queen summer palace.JPG": {
+  "ok": true,
+  "why": "安布希曼加王宫建筑清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Jaluit.jpg": {
+  "ok": true,
+  "why": "环礁航拍清晰可辨",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Grand Baie, catholic church, (1).JPG": {
+  "ok": true,
+  "why": "大湾著名教堂，主体清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:2020-02-11 Teotihuacan la Avenida de los Muertos y la Pirámide del Sol.jpg": {
+  "ok": true,
+  "why": "太阳金字塔主体清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Anson Bay Norfolk Island View from Reserve.jpg": {
+  "ok": true,
+  "why": "海湾沙滩清晰可辨",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Hooker Valley towards Aoraki Mount Cook at sunset.jpg": {
+  "ok": true,
+  "why": "库克山雪峰主体清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Doha - West Bay Skyline 03.jpg": {
+  "ok": true,
+  "why": "多哈天际线清晰可辨",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Lagoa Azul (São Tomé) (3).jpg": {
+  "ok": true,
+  "why": "蓝湖海湾自然景观清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:2020-11 Kerguelen Islands - PAF from the sea 07.jpg": {
+  "ok": true,
+  "why": "法兰西港聚落景观清晰",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Atauro Island seen from 'Backside' Beach (6898612974).jpg": {
+  "ok": true,
+  "why": "绿色山丘海湾，符合阿陶罗岛景观",
+  "at": "2026-11-05 18:13"
+ },
+ "File:STAPP 114 La Brea Pitch Lake.jpg": {
+  "ok": true,
+  "why": "航拍清晰展示沥青湖主体",
+  "at": "2026-11-05 18:13"
+ },
+ "File:Grand Prismatic Spring, Yellowstone NP.jpg": {
+  "ok": true,
+  "why": "大棱镜泉彩色热泉清晰可辨",
+  "at": "2026-11-05 18:13"
  }
 }

@@ -223,6 +223,54 @@ def iso2_of(qid, cache):
     return iso
 
 
+_SOV = {}
+
+
+def sovereign_isos(iso):
+    """该地区实际可以接受的"主权国"ISO 集合。
+
+    为什么需要：北马里亚纳（MP）的 P17 是 US、波多黎各（PR）也是 US。
+    Commons 上的 P180 只会写 US，于是"这张图在 MP 吗"会被判成冲突——
+    实测就误杀了一张天宁岛的 BANZAI CLIFF。这里把主权国也算作可接受。
+    """
+    if iso in _SOV:
+        return _SOV[iso]
+    out = set()
+    for fn in os.listdir(os.path.join(ROOT, "data")):
+        if len(fn) == 7 and fn[:2].upper() == iso and fn.endswith(".json"):
+            try:
+                rec = json.load(io.open(os.path.join(ROOT, "data", fn), encoding="utf-8"))
+            except Exception:
+                break
+            qid = (rec.get("qid") or "").strip()
+            if qid.startswith("Q"):
+                try:
+                    d = C.api_json(WIKIDATA, {"action": "wbgetentities", "ids": qid,
+                                              "props": "claims", "format": "json"})
+                    e = (d.get("entities") or {}).get(qid) or {}
+                    for c in ((e.get("claims") or {}).get("P17") or []):
+                        try:
+                            sq = c["mainsnak"]["datavalue"]["value"]["id"]
+                        except Exception:
+                            continue
+                        cache = {}
+                        if os.path.exists(ISO2_QID_CACHE):
+                            try:
+                                cache = json.load(io.open(ISO2_QID_CACHE, encoding="utf-8"))
+                            except Exception:
+                                cache = {}
+                        s = iso2_of(sq, cache)
+                        json.dump(cache, io.open(ISO2_QID_CACHE, "w", encoding="utf-8",
+                                                 newline="\n"), ensure_ascii=False, indent=1)
+                        if s and s != iso:
+                            out.add(s)
+                except Exception:
+                    pass
+            break
+    _SOV[iso] = out
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", nargs="*", default=None, help="只查这些 ISO2")
@@ -282,8 +330,9 @@ def main():
         gps = gps_of.get(t)
         verdict, why = "unknown", ""
         if ds:
-            if iso in ds:
-                verdict, why = "ok", "P180 指向本国"
+            accept = {iso} | sovereign_isos(iso)      # 属地：主权国也算对（MP→US 等）
+            if ds & accept:
+                verdict, why = "ok", "P180 指向本国" + ("" if iso in ds else "（主权国）")
             else:
                 verdict, why = "conflict", "P180 指向 %s" % ",".join(sorted(ds)[:3])
         if gps and verdict != "conflict":

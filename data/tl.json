@@ -87,30 +87,30 @@
       "encoding": "webp q75/q78 (源 960x640 40KB JPEG)"
     },
     {
-      "title": "File:Atauro.jpg",
+      "title": "File:Atauro Island seen from 'Backside' Beach (6898612974).jpg",
       "caption_zh": "阿陶罗岛",
       "caption": "阿陶罗岛",
-      "caption_commons": "View looking across to Atauro. View looking at Atauro from Dili.",
+      "caption_commons": "Today for the first time I did the actual 'Daisy Loop' the excellent run many 'h",
       "kw": "Atauro Island Timor-Leste",
-      "url": "assets/tl/L03.webp",
-      "thumb_url": "assets/tl/L03.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Atauro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "wikipedia_lead",
-      "pick_tier": "strict",
-      "author": "Yu Hui",
-      "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "url": "assets/tl/L06.webp",
+      "thumb_url": "assets/tl/L06.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Atauro_Island_seen_from_%27Backside%27_Beach_%286898612974%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "Kate Dixon",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 25624,
+      "bytes": 252395,
       "caption_zh_manual": "阿陶罗岛",
-      "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 4344,
       "size": {
-        "detail": "1023x773",
-        "thumb": "238x180"
+        "detail": "1080x770",
+        "thumb": "240x171"
       },
-      "encoding": "webp q75/q78 (源 1023x773 315KB JPEG)"
+      "encoding": "webp q75/q78 (源 1023x773 315KB JPEG)",
+      "replace_reason": "原图不合格，按画质评分重选（4 分）"
     },
     {
       "title": "File:2017-02-16 Jaco 3.jpg",

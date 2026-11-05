@@ -83,31 +83,31 @@
       "encoding": "webp q75/q78 (源 1920x1371 561KB JPEG)"
     },
     {
-      "title": "File:Greenland 10, Nuuk, harbour, Kilisaatinut.JPG",
+      "title": "File:The harbour in Nuuk.JPG",
       "caption_zh": "努克老港",
       "caption": "努克老港",
-      "caption_commons": "Port of Nuuk (SIKUKI - Nuuk Harbour A/S)",
+      "caption_commons": "The harbour in Nuuk",
       "kw": "Nuuk Old Harbour Greenland",
-      "url": "assets/gl/L03.webp",
-      "thumb_url": "assets/gl/L03.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Greenland_10%2C_Nuuk%2C_harbour%2C_Kilisaatinut.JPG/1920px-Greenland_10%2C_Nuuk%2C_harbour%2C_Kilisaatinut.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "commons_search",
-      "pick_tier": "strict",
-      "author": "Vincent van Zeijst",
+      "url": "assets/gl/L08.webp",
+      "thumb_url": "assets/gl/L08.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/The_harbour_in_Nuuk.JPG/1920px-The_harbour_in_Nuuk.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "Nanopixi",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 152590,
+      "bytes": 694831,
       "caption_zh_manual": "努克老港",
-      "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 11504,
       "encoding": "webp q75/q78 (源 1920x1275 669KB JPEG)",
       "verified": "vision",
       "size": {
-        "detail": "1080x717",
-        "thumb": "240x159"
-      }
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "replace_reason": "原图不合格，按画质评分重选（4 分）"
     },
     {
       "title": "File:Uummannaq.jpg",

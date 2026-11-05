@@ -4,7 +4,7 @@
   "iso_a3": "IOT",
   "name_zh": "英属印度洋领地",
   "name_en": "British Indian Ocean Territory",
-  "capital": "迪戈加西亚岛",
+  "capital": "无常住居民（行政中心：迪戈加西亚）",
   "continent": "非洲",
   "centroid": [
     71.5,
@@ -134,7 +134,8 @@
     "大查戈斯浅滩：Wikidata / 维基 / Commons 都没有可用图",
     "地标图改为人工指定清单（4 张，中文图注）",
     "LLM 质检[warn] capital：BIOT无常住首府，迪戈加西亚是最大岛屿/军事基地 → 标注为行政中心或留空并说明",
-    "LLM 质检[error] summary_head：称迪戈加西亚岛为最南端，实际最南为迭戈加西亚以南诸岛？ → 核实并改为最大岛屿"
+    "LLM 质检[error] summary_head：称迪戈加西亚岛为最南端，实际最南为迭戈加西亚以南诸岛？ → 核实并改为最大岛屿",
+    "2026-11-05 英属印度洋领地是英国海外领地，无首都；原字段的迪戈加西亚是岛名/基地所在地。"
   ],
   "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
   "custom_facets": {

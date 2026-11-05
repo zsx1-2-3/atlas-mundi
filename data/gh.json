@@ -149,26 +149,30 @@
       }
     },
     {
-      "title": "File:Mole National Park, West Gonja (P1100486).jpg",
+      "title": "File:Mole National Park, West Gonja (P1100445).jpg",
       "caption_zh": "莫尔国家公园",
       "caption": "莫尔国家公园",
       "kw": "Mole National Park Ghana",
-      "url": "assets/gh/L04.webp",
-      "thumb_url": "assets/gh/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Mole_National_Park%2C_West_Gonja_%28P1100486%29.jpg/1920px-Mole_National_Park%2C_West_Gonja_%28P1100486%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "commons_search",
-      "pick_tier": "strict",
+      "url": "assets/gh/L07.webp",
+      "thumb_url": "assets/gh/L07.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Mole_National_Park%2C_West_Gonja_%28P1100445%29.jpg/1920px-Mole_National_Park%2C_West_Gonja_%28P1100445%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
       "author": "Matti Blume",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
-      "bytes": 191770,
+      "bytes": 822367,
       "verified": "vision",
       "thumb_bytes": 10094,
       "size": {
         "detail": "1080x810",
         "thumb": "240x180"
       },
-      "encoding": "webp q75/q78 (源 1920x1440 854KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1440 854KB JPEG)",
+      "caption_commons": "African elephant in Mole National Park, Ghana",
+      "license_status": "ok",
+      "load_verified": true,
+      "replace_reason": "原图不合格，按画质评分重选（5 分）"
     }
   ],
   "image_license": "CC BY-SA 3.0",

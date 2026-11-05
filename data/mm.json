@@ -125,12 +125,12 @@
       "caption_zh_manual": "曼德勒乌本桥",
       "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 3932,
+      "encoding": "webp q75/q78 (源 1920x1280 460KB JPEG)",
+      "verified": "vision",
       "size": {
         "detail": "1080x720",
         "thumb": "240x160"
-      },
-      "encoding": "webp q75/q78 (源 1920x1280 460KB JPEG)",
-      "verified": "vision"
+      }
     },
     {
       "title": "File:Fisherman on Inle Lake Myanmar.jpg",

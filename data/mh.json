@@ -117,12 +117,12 @@
       "caption_zh_manual": "夸贾林环礁",
       "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 2956,
+      "encoding": "webp q75/q78 (源 1920x1440 331KB JPEG)",
+      "verified": "vision",
       "size": {
         "detail": "1080x810",
         "thumb": "240x180"
-      },
-      "encoding": "webp q75/q78 (源 1920x1440 331KB JPEG)",
-      "verified": "vision"
+      }
     },
     {
       "title": "File:St. Joseph's School on Jabor, Jaluit.png",

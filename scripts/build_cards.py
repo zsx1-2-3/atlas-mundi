@@ -55,6 +55,17 @@ def slim_image(it):
         v = it.get(k)
         if v:
             o[k] = v
+    # 每张图带一个自己的版本号（文件大小 + 修改时间），前端拼 ?v=。
+    # 原来所有资源共用全局 BUILD_TAG：改一行 CSS 也会让 2200 张图全部缓存失效，
+    # 换完版本第一次打开明显变慢 —— 就是这个原因。按文件算，只有真换过的图会重下。
+    rel = it.get("url") or ""
+    try:
+        import os as _os
+        pth = _os.path.join(ROOT, rel.replace("/", _os.sep))
+        st = _os.stat(pth)
+        o["v"] = "%x" % ((st.st_size * 2654435761 + int(st.st_mtime)) & 0xFFFFFFFF)
+    except Exception:
+        pass
     return o
 
 

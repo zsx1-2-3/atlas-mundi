@@ -86,12 +86,12 @@
       "caption_zh_manual": "巴勒贝克神庙",
       "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 10428,
+      "encoding": "webp q75/q78 (源 1758x1133 1307KB JPEG)",
+      "verified": "vision",
       "size": {
         "detail": "1080x696",
         "thumb": "240x155"
-      },
-      "encoding": "webp q75/q78 (源 1758x1133 1307KB JPEG)",
-      "verified": "vision"
+      }
     },
     {
       "title": "File:Upper_Jeita_Grotto.jpg",

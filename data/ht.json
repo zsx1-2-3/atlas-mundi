@@ -172,31 +172,31 @@
       "encoding": "webp q75/q78 (源 1920x1824 1962KB JPEG)"
     },
     {
-      "title": "File:La Source de St. Yves-Saut du Baril - panoramio.jpg",
+      "title": "File:Bassin Bleu @ Sainte-Anne 03.jpg",
       "caption_zh": "贝松瀑布",
       "caption": "贝松瀑布",
-      "caption_commons": "Saut du Baril/St. Yves",
+      "caption_commons": "Le bassin Bleu de Sainte-Anne, Saint-Benoît, La Réunion, France",
       "kw": "Saut du Baril Haiti",
-      "url": "assets/ht/L05.webp",
-      "thumb_url": "assets/ht/L05.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/La_Source_de_St._Yves-Saut_du_Baril_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "commons_search",
-      "pick_tier": "strict",
-      "author": "Alex Carroll",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "url": "assets/ht/L06.webp",
+      "thumb_url": "assets/ht/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Bassin_Bleu_%40_Sainte-Anne_03.jpg/1920px-Bassin_Bleu_%40_Sainte-Anne_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "Rémih",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 65724,
+      "bytes": 967550,
       "caption_zh_manual": "贝松瀑布",
-      "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 6546,
       "encoding": "webp q75/q78 (源 1600x1200 541KB JPEG)",
       "verified": "vision",
       "size": {
-        "detail": "1080x810",
-        "thumb": "240x180"
-      }
+        "detail": "1080x607",
+        "thumb": "240x135"
+      },
+      "replace_reason": "原图不合格，按画质评分重选（4 分）"
     }
   ],
   "image_license": "Public domain",

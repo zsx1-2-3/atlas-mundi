@@ -194,8 +194,12 @@ def main() -> int:
             # 下载而不是显示图片 —— 这是阻断性问题。
             # 另外 PutObjectHeader.allowedAttr 里**没有** cacheControl，
             # 想设 Cache-Control 必须走 S3 兼容接口（scripts/set_cache_control.py）。
+            # Cache-Control 只能走 extensionHeaders（标准头），
+            # PutObjectHeader 里没有这个属性，硬赋值会被 SDK 静默丢掉 ——
+            # 结果线上 2000 多张图一个缓存头都没有，每次访问都回源。
             hdr = PutObjectHeader(contentType=ctype_of(key))
-            resp = cli.putContent(a.bucket, obj_key, data, headers=hdr)
+            resp = cli.putContent(a.bucket, obj_key, data, headers=hdr,
+                                  extensionHeaders={"Cache-Control": cache_of(key)})
             if resp.status >= 300:
                 fail += 1
                 failed.append((obj_key, resp.status, str(resp.errorMessage)[:80]))

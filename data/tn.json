@@ -54,30 +54,31 @@
   ],
   "landmark_images": [
     {
-      "title": "File:St Louis Cathedral - Carthage - Tunisia - 1899.jpg",
-      "caption_zh": "圣路易主教座堂与迦太基古城遗址",
-      "caption": "圣路易主教座堂与迦太基古城遗址",
+      "title": "File:Carthage cathedrale.jpg",
+      "caption_zh": "迦太基古城遗址",
+      "caption": "迦太基古城遗址",
       "caption_commons": "Photograph of the St Louis Cathedral of Carthage, Tunisia. This color photochrom",
       "kw": "Carthage ruins Tunisia",
       "url": "assets/tn/L01.webp",
       "thumb_url": "assets/tn/L01.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/St_Louis_Cathedral_-_Carthage_-_Tunisia_-_1899.jpg/1920px-St_Louis_Cathedral_-_Carthage_-_Tunisia_-_1899.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Carthage_cathedrale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Detroit Publishing Co.",
-      "license": "Public domain",
+      "author": "The original uploader was Taguelmoust at French Wikipedia.",
+      "license": "Attribution",
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 88934,
+      "bytes": 53828,
       "caption_zh_manual": "迦太基古城遗址",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 7206,
+      "thumb_bytes": 4918,
+      "encoding": "webp q75/q78 (源 1280x760 85KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x799",
-        "thumb": "240x178"
-      },
-      "encoding": "webp q75/q78 (源 1920x1421 642KB JPEG)"
+        "detail": "1080x641",
+        "thumb": "240x142"
+      }
     },
     {
       "title": "File:Amphi El Jem.jpg",

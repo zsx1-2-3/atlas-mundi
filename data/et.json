@@ -158,30 +158,31 @@
       "encoding": "webp q75/q78 (源 1920x1280 743KB JPEG)"
     },
     {
-      "title": "File:2 giugno 2002-Axum.JPG",
+      "title": "File:Rome Stele.jpg",
       "caption_zh": "阿克苏姆方尖碑",
       "caption": "阿克苏姆方尖碑",
       "caption_commons": "The military parade on the Festa della Repubblica passing by the Obelisk of Axum",
       "kw": "Obelisk of Axum",
       "url": "assets/et/L05.webp",
       "thumb_url": "assets/et/L05.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/2_giugno_2002-Axum.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "article_img",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Rome_Stele.jpg/1920px-Rome_Stele.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
       "pick_tier": "strict",
-      "author": "user:Lalupa",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "Ondřej Žváček",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 50614,
+      "bytes": 158866,
       "caption_zh_manual": "阿克苏姆方尖碑",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 6578,
+      "thumb_bytes": 4428,
       "size": {
-        "detail": "800x600",
-        "thumb": "240x180"
+        "detail": "1080x1440",
+        "thumb": "135x180"
       },
-      "encoding": "webp q75/q78 (源 800x600 71KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x2560 1101KB JPEG)",
+      "verified": "vision"
     }
   ],
   "image_license": "CC BY 3.0",

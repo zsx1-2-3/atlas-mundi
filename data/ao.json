@@ -85,30 +85,31 @@
       "encoding": "webp q75/q78 (源 1920x1440 314KB JPEG)"
     },
     {
-      "title": "File:Kissama 001.JPG",
+      "title": "File:Cabo Ledo, Bengo province, Angola.JPG",
       "caption_zh": "基萨马国家公园",
       "caption": "基萨马国家公园",
       "caption_commons": "Kissama National Park.",
       "kw": "Kissama National Park Angola",
       "url": "assets/ao/L02.webp",
       "thumb_url": "assets/ao/L02.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Kissama_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Cabo_Ledo%2C_Bengo_province%2C_Angola.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source": "commons_search",
       "pick_tier": "strict",
-      "author": "Àngel Sàez i Pedrero",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Paulo César Santos",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 17260,
+      "bytes": 69266,
       "caption_zh_manual": "基萨马国家公园",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4324,
+      "thumb_bytes": 6366,
       "size": {
-        "detail": "611x569",
-        "thumb": "193x180"
+        "detail": "1080x810",
+        "thumb": "240x180"
       },
-      "encoding": "webp q75/q78 (源 611x569 33KB JPEG)"
+      "encoding": "webp q75/q78 (源 1600x1200 215KB JPEG)",
+      "verified": "vision"
     },
     {
       "title": "File:Serra da Leba Road, Angola.jpg",

@@ -130,15 +130,15 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 17192,
+      "bytes": 79026,
       "caption_zh_manual": "班吉圣母大教堂",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 2964,
+      "thumb_bytes": 8754,
       "size": {
-        "detail": "800x533",
-        "thumb": "240x160"
+        "detail": "1080x810",
+        "thumb": "240x180"
       },
-      "encoding": "webp q75/q78 (源 800x533 75KB JPEG)"
+      "encoding": "webp q75/q78 (源 1600x1200 315KB JPEG)"
     }
   ],
   "image_license": "CC0",

@@ -95,15 +95,15 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 29706,
+      "bytes": 125864,
       "caption_zh_manual": "蓝湖",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 3430,
+      "thumb_bytes": 5680,
       "size": {
-        "detail": "600x900",
-        "thumb": "120x180"
+        "detail": "1080x720",
+        "thumb": "240x160"
       },
-      "encoding": "webp q75/q78 (源 600x900 71KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1280 765KB JPEG)"
     },
     {
       "title": "File:Sao Tome Cathedral 4 (16223051756).jpg",

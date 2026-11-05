@@ -145,30 +145,31 @@
       "encoding": "webp q75/q78 (源 1840x1232 750KB JPEG)"
     },
     {
-      "title": "File:Grand Baie (2990325541).jpg",
+      "title": "File:Straße grand-Baie 2019-09-27 3.jpg",
       "caption_zh": "大湾",
       "caption": "大湾",
       "caption_commons": "Grand Baie",
       "kw": "Grand Baie Mauritius beach",
       "url": "assets/mu/L04.webp",
       "thumb_url": "assets/mu/L04.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Grand_Baie_%282990325541%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "wikidata_p18",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Stra%C3%9Fe_grand-Baie_2019-09-27_3.jpg/1920px-Stra%C3%9Fe_grand-Baie_2019-09-27_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
       "pick_tier": "strict",
-      "author": "mwanasimba from La Réunion",
-      "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Z thomas",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 147132,
+      "bytes": 219344,
       "caption_zh_manual": "大湾",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 10830,
+      "thumb_bytes": 13408,
+      "encoding": "webp q75/q78 (源 1920x1440 1075KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x734",
-        "thumb": "240x163"
-      },
-      "encoding": "webp q75/q78 (源 1740x1182 614KB JPEG)"
+        "detail": "1080x810",
+        "thumb": "240x180"
+      }
     },
     {
       "title": "File:Aapravasi Ghat Museum, Mauritius (41).jpg",

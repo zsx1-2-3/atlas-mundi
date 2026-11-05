@@ -158,30 +158,31 @@
       "encoding": "webp q75/q78 (源 1280x960 476KB JPEG)"
     },
     {
-      "title": "File:Swedish Delegation Visits the Joint Security Area at Panmunjom (9365364).jpg",
-      "caption_zh": "瑞典代表团访问板门店共同警备区",
-      "caption": "瑞典代表团访问板门店共同警备区",
+      "title": "File:Joint Security Area (3069693747).jpg",
+      "caption_zh": "板门店共同警备区",
+      "caption": "板门店共同警备区",
       "caption_commons": "Crown Princess Victoria and Prince Daniel of Sweden visit the Joint Security Are",
       "kw": "Panmunjom Joint Security Area",
       "url": "assets/kp/L05.webp",
       "thumb_url": "assets/kp/L05.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Swedish_Delegation_Visits_the_Joint_Security_Area_at_Panmunjom_%289365364%29.jpg/1920px-Swedish_Delegation_Visits_the_Joint_Security_Area_at_Panmunjom_%289365364%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Joint_Security_Area_%283069693747%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source": "commons_search",
       "pick_tier": "strict",
-      "author": "U.S. Army photo by Cpl. Joseph Liggio",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "Joop from Amsterdam, Netherlands",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 140662,
+      "bytes": 108238,
       "caption_zh_manual": "板门店共同警备区",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 9628,
+      "thumb_bytes": 9872,
+      "encoding": "webp q75/q78 (源 1894x1161 1344KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x721",
-        "thumb": "240x160"
-      },
-      "encoding": "webp q75/q78 (源 1920x1281 755KB JPEG)"
+        "detail": "1080x662",
+        "thumb": "240x147"
+      }
     }
   ],
   "image_license": "CC BY 2.5",

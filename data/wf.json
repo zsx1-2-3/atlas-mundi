@@ -49,30 +49,31 @@
   ],
   "landmark_images": [
     {
-      "title": "File:Mata'utu Cathedral.jpg",
+      "title": "File:179 Cathédrale de Mata-Utu - side view (36940866791).jpg",
       "caption_zh": "塔拉瓦塔拉大教堂",
       "caption": "塔拉瓦塔拉大教堂",
       "caption_commons": "Description: Illustration from the medical and surgical journal of William Faske",
       "kw": "Cathedral of Our Lady of the Assumption Mata-Utu",
       "url": "assets/wf/L01.webp",
       "thumb_url": "assets/wf/L01.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Mata%27utu_Cathedral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/179_Cath%C3%A9drale_de_Mata-Utu_-_side_view_%2836940866791%29.jpg/1920px-179_Cath%C3%A9drale_de_Mata-Utu_-_side_view_%2836940866791%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "The National Archives UK",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "Brigitte & Heinz",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 31720,
+      "bytes": 103340,
       "caption_zh_manual": "塔拉瓦塔拉大教堂",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 5000,
+      "thumb_bytes": 5590,
       "size": {
-        "detail": "784x628",
-        "thumb": "225x180"
+        "detail": "1080x607",
+        "thumb": "240x135"
       },
-      "encoding": "webp q75/q78 (源 784x628 360KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1079 565KB JPEG)",
+      "verified": "vision"
     },
     {
       "title": "File:Lac Lalolalo 2018 - belvédère (drone) 2.png",
@@ -101,30 +102,31 @@
       "encoding": "webp q75/q78 (源 1920x1080 2754KB JPEG)"
     },
     {
-      "title": "File:Futuna (cropped).png",
-      "caption_zh": "富图纳岛局部裁剪图",
-      "caption": "富图纳岛局部裁剪图",
+      "title": "File:Sérénité - plage d'Alofi (Wallis et Futuna).jpg",
+      "caption_zh": "富图纳岛",
+      "caption": "富图纳岛",
       "caption_commons": "illustration de l'ouvrage \"Le Martyr de Futuna\" de Claude Nicolet",
       "kw": "Futuna Island Wallis and Futuna",
       "url": "assets/wf/L04.webp",
       "thumb_url": "assets/wf/L04.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Futuna_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/S%C3%A9r%C3%A9nit%C3%A9_-_plage_d%27Alofi_%28Wallis_et_Futuna%29.jpg/1920px-S%C3%A9r%C3%A9nit%C3%A9_-_plage_d%27Alofi_%28Wallis_et_Futuna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "commons_search",
       "pick_tier": "strict",
-      "author": "Unknown authorUnknown author",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "Anna Vinet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 109472,
+      "bytes": 89674,
       "caption_zh_manual": "富图纳岛",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 9110,
+      "thumb_bytes": 5176,
+      "encoding": "webp q75/q78 (源 1920x1280 559KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x725",
-        "thumb": "240x161"
-      },
-      "encoding": "webp q75/q78 (源 1109x744 28KB JPEG)"
+        "detail": "1080x720",
+        "thumb": "240x160"
+      }
     },
     {
       "title": "File:Mata-Utu seen from a drone (Wallis and Futuna).png",

@@ -94,30 +94,31 @@
       "encoding": "webp q75/q78 (源 1920x2560 962KB JPEG)"
     },
     {
-      "title": "File:Mount Cooke, Western Australia, June 2019, Image 1.jpg",
+      "title": "File:On Mt. Cook, New Zealand. 1977.jpg",
       "caption_zh": "库克山",
       "caption": "库克山",
       "caption_commons": "Mount Cooke, Western Australia",
       "kw": "Aoraki Mount Cook",
       "url": "assets/nz/L02.webp",
       "thumb_url": "assets/nz/L02.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Mount_Cooke%2C_Western_Australia%2C_June_2019%2C_Image_1.jpg/1920px-Mount_Cooke%2C_Western_Australia%2C_June_2019%2C_Image_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "wikidata_p18",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/On_Mt._Cook%2C_New_Zealand._1977.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
       "pick_tier": "strict",
-      "author": "Calistemon",
+      "author": "John Hill",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 173470,
+      "bytes": 92612,
       "caption_zh_manual": "库克山",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4352,
+      "thumb_bytes": 7094,
+      "encoding": "webp q75/q78 (源 1768x1176 123KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x1440",
-        "thumb": "135x180"
-      },
-      "encoding": "webp q75/q78 (源 1920x2560 1033KB JPEG)"
+        "detail": "1080x718",
+        "thumb": "240x160"
+      }
     },
     {
       "title": "File:Geothermal pools, Rotorua, New Zealand-01.jpg",

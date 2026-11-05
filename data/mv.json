@@ -140,14 +140,14 @@
       "encoding": "webp q75/q78 (源 1920x1272 455KB JPEG)"
     },
     {
-      "title": "File:Male' Hukuru Miskiy Friedhof 03.jpg",
+      "title": "File:Male' Hukuru Miskiy 2.jpg",
       "caption_zh": "马累清真寺",
       "caption": "马累清真寺",
       "caption_commons": "Cemetry of the Friday Mosque, Malé, Maldives",
       "kw": "Male Friday Mosque Maldives",
       "url": "assets/mv/L04.webp",
       "thumb_url": "assets/mv/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Male%27_Hukuru_Miskiy_Friedhof_03.jpg/1920px-Male%27_Hukuru_Miskiy_Friedhof_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Male%27_Hukuru_Miskiy_2.jpg/1920px-Male%27_Hukuru_Miskiy_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "commons_search",
       "pick_tier": "strict",
       "author": "Zairon",
@@ -155,13 +155,14 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 169810,
-      "thumb_bytes": 11896,
+      "bytes": 88150,
+      "thumb_bytes": 6946,
+      "encoding": "webp q75/q78 (源 1920x1294 491KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x759",
-        "thumb": "240x169"
-      },
-      "encoding": "webp q75/q78 (源 1920x1349 810KB JPEG)"
+        "detail": "1080x728",
+        "thumb": "240x162"
+      }
     },
     {
       "title": "File:Ithaa inside.JPG",

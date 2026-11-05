@@ -158,30 +158,31 @@
       "encoding": "webp q75/q78 (源 1920x1280 693KB JPEG)"
     },
     {
-      "title": "File:Tahiti, French Polynesia - Huahine (48083851953).jpg",
+      "title": "File:DSC061 Polynésia Huahiné Island (8105116506).jpg",
       "caption_zh": "胡阿希内岛",
       "caption": "胡阿希内岛",
       "caption_commons": "Ia Orana! I took my first real vacation in 3 years, deciding to turn 50 in beaut",
       "kw": "Huahine island lagoon",
       "url": "assets/pf/L06.webp",
       "thumb_url": "assets/pf/L06.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Tahiti%2C_French_Polynesia_-_Huahine_%2848083851953%29.jpg/1920px-Tahiti%2C_French_Polynesia_-_Huahine_%2848083851953%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "article_img",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/DSC061_Polyn%C3%A9sia_Huahin%C3%A9_Island_%288105116506%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
       "pick_tier": "strict",
-      "author": "Matthew Dillon from Hollywood, CA, USA",
+      "author": "DANIEL JULIE from Paris, France",
       "license": "CC BY 2.0",
       "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 242754,
+      "bytes": 49374,
       "caption_zh_manual": "胡阿希内岛",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 17844,
+      "thumb_bytes": 7798,
+      "encoding": "webp q75/q78 (源 990x768 78KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x809",
-        "thumb": "240x180"
-      },
-      "encoding": "webp q75/q78 (源 1920x1438 1217KB JPEG)"
+        "detail": "990x768",
+        "thumb": "232x180"
+      }
     }
   ],
   "image_license": "CC BY-SA 3.0",

@@ -125,52 +125,54 @@
       "encoding": "webp q75/q78 (源 300x225 44KB JPEG)"
     },
     {
-      "title": "File:Islands of Manua (Manu'a), Ofoo (Ofu) & Oloosinga (Olosega), Samoan Group, U.S.Ex.Ex. 1839. Island of Tutuila (American Samoa) (IA dr islands-of-manua-manua-ofoo-ofu-oloosinga-olosega-samoan-group-6974000).jpg",
+      "title": "File:AmSamoa Ofu 442.jpg",
       "caption_zh": "马努阿群岛",
       "caption": "马努阿群岛",
       "caption_commons": "Zoomable full resolution image available at davidrumsey.com.This image 6974.000 ",
       "kw": "Manu'a Islands Ofu Olosega",
       "url": "assets/as/L04.webp",
       "thumb_url": "assets/as/L04.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Islands_of_Manua_%28Manu%27a%29%2C_Ofoo_%28Ofu%29_%26_Oloosinga_%28Olosega%29%2C_Samoan_Group%2C_U.S.Ex.Ex._1839._Island_of_Tutuila_%28American_Samoa%29_%28IA_dr_islands-of-manua-manua-ofoo-ofu-oloosinga-olosega-samoan-group-6974000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "commons_search",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/AmSamoa_Ofu_442.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
       "pick_tier": "strict",
-      "author": "Wilkes, Charles United States Exploring Expedition Sherman & Smith C. Sherman",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "Eric Guinther (talk · contribs)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 44634,
-      "thumb_bytes": 1508,
+      "bytes": 121120,
+      "thumb_bytes": 8912,
+      "encoding": "webp q75/q78 (源 1600x1125 1448KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x1433",
-        "thumb": "136x180"
-      },
-      "encoding": "webp q75/q78 (源 1158x1536 280KB JPEG)"
+        "detail": "1080x759",
+        "thumb": "240x169"
+      }
     },
     {
-      "title": "File:TF American Samoa Tutuila.jpg",
+      "title": "File:Ofu Beach NPS.jpg",
       "caption_zh": "图图伊拉雨林",
       "caption": "图图伊拉雨林",
       "caption_commons": "American Samoa, Tutuila, 3D image using OpenStreetMap and SRTM data",
       "kw": "Tutuila rainforest American Samoa",
       "url": "assets/as/L06.webp",
       "thumb_url": "assets/as/L06.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/TF_American_Samoa_Tutuila.jpg/1920px-TF_American_Samoa_Tutuila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "commons_search",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Ofu_Beach_NPS.jpg/1920px-Ofu_Beach_NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
       "pick_tier": "strict",
-      "author": "Rtmi1",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Peter Craig, National Park Service",
+      "license": "Public domain",
+      "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 41166,
-      "thumb_bytes": 2930,
+      "bytes": 115294,
+      "thumb_bytes": 8130,
+      "encoding": "webp q75/q78 (源 1920x1342 609KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x608",
-        "thumb": "240x135"
-      },
-      "encoding": "webp q75/q78 (源 1920x1080 212KB JPEG)"
+        "detail": "1080x755",
+        "thumb": "240x168"
+      }
     }
   ],
   "image_license": "CC BY-SA 3.0",

@@ -180,30 +180,31 @@
       "encoding": "webp q75/q78 (源 1920x1272 1210KB JPEG)"
     },
     {
-      "title": "File:Andrew carnegie Palais de la Paix Peace Palace Den Haag The Hague La Haye.jpg",
-      "caption_zh": "安德鲁·卡内基与和平宫",
-      "caption": "安德鲁·卡内基与和平宫",
+      "title": "File:International Court of Justice HQ 2006.jpg",
+      "caption_zh": "和平宫",
+      "caption": "和平宫",
       "caption_commons": "Buste d'Andrew Carnegie se trouvant dans le Palais de la Paix Peace Palace Den H",
       "kw": "Peace Palace The Hague",
       "url": "assets/nl/L05.webp",
       "thumb_url": "assets/nl/L05.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Andrew_carnegie_Palais_de_la_Paix_Peace_Palace_Den_Haag_The_Hague_La_Haye.jpg/1920px-Andrew_carnegie_Palais_de_la_Paix_Peace_Palace_Den_Haag_The_Hague_La_Haye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "article_img",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/International_Court_of_Justice_HQ_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
       "pick_tier": "strict",
-      "author": "Lybil",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "International Court of Justice; originally uploaded by Yeu Ninje at en.wikipedia.",
+      "license": "Public domain",
+      "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 310692,
+      "bytes": 76524,
       "caption_zh_manual": "和平宫",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 6120,
+      "thumb_bytes": 7008,
+      "encoding": "webp q75/q78 (源 1600x1194 298KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x1440",
-        "thumb": "135x180"
-      },
-      "encoding": "webp q75/q78 (源 1920x2560 1672KB JPEG)"
+        "detail": "1080x806",
+        "thumb": "240x179"
+      }
     }
   ],
   "image_license": "CC BY-SA 3.0",

@@ -54,32 +54,6 @@
   ],
   "landmark_images": [
     {
-      "title": "File:Mermaid Last Page.jpg",
-      "caption_zh": "小美人鱼雕像末页",
-      "caption": "小美人鱼雕像末页",
-      "caption_commons": "",
-      "kw": "Little Mermaid Copenhagen",
-      "url": "assets/dk/L01.webp",
-      "thumb_url": "assets/dk/L01.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mermaid_Last_Page.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "article_img",
-      "pick_tier": "strict",
-      "author": null,
-      "license": "Public domain",
-      "license_url": null,
-      "license_status": "ok",
-      "load_verified": true,
-      "bytes": 279354,
-      "caption_zh_manual": "小美人鱼雕像",
-      "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 9398,
-      "size": {
-        "detail": "834x1021",
-        "thumb": "147x180"
-      },
-      "encoding": "webp q75/q78 (源 834x1021 356KB JPEG)"
-    },
-    {
       "title": "File:The Nyhavn Canal 3.jpg",
       "caption_zh": "新港运河",
       "caption": "新港运河",
@@ -132,30 +106,31 @@
       "encoding": "webp q75/q78 (源 1920x1279 1103KB JPEG)"
     },
     {
-      "title": "File:Kronborg by Braun Hogenberg (middle size) (109097077).jpg",
-      "caption_zh": "克伦堡宫中景图",
-      "caption": "克伦堡宫中景图",
+      "title": "File:Tapestries at Kronborg Castle, 1581-86 (6) (35590353333).jpg",
+      "caption_zh": "克伦堡宫",
+      "caption": "克伦堡宫",
       "caption_commons": "Kronborg castle and Oresund from the 1580s geography book Civitates Orbis Terrar",
       "kw": "Kronborg Castle Helsingor",
       "url": "assets/dk/L04.webp",
       "thumb_url": "assets/dk/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Kronborg_by_Braun_Hogenberg_%28middle_size%29_%28109097077%29.jpg/1920px-Kronborg_by_Braun_Hogenberg_%28middle_size%29_%28109097077%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Tapestries_at_Kronborg_Castle%2C_1581-86_%286%29_%2835590353333%29.jpg/1920px-Tapestries_at_Kronborg_Castle%2C_1581-86_%286%29_%2835590353333%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Georg Braun",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "Richard Mortel from Riyadh, Saudi Arabia",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 222490,
+      "bytes": 49914,
       "caption_zh_manual": "克伦堡宫",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 10934,
+      "thumb_bytes": 4898,
+      "encoding": "webp q75/q78 (源 1920x1280 496KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x756",
-        "thumb": "240x168"
-      },
-      "encoding": "webp q75/q78 (源 1920x1344 1248KB JPEG)"
+        "detail": "1080x720",
+        "thumb": "240x160"
+      }
     },
     {
       "title": "File:Copenhagen - Rosenborg Slot v2.jpg",
@@ -182,6 +157,28 @@
         "thumb": "240x180"
       },
       "encoding": "webp q75/q78 (源 1920x1440 839KB JPEG)"
+    },
+    {
+      "title": "File:Lego House Billund.jpg",
+      "caption_zh": "乐高之家",
+      "caption": "乐高之家",
+      "kw": "Legoland Billund",
+      "url": "assets/dk/L01.webp",
+      "thumb_url": "assets/dk/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Lego_House_Billund.jpg/1920px-Lego_House_Billund.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "MPhernambucq",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bytes": 56004,
+      "verified": "vision",
+      "thumb_bytes": 4566,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 443KB JPEG)"
     }
   ],
   "image_license": "Public domain",

@@ -115,30 +115,31 @@
       "encoding": "webp q75/q78 (源 1920x1275 852KB JPEG)"
     },
     {
-      "title": "File:Parliament and Courthouse (15222121087).jpg",
-      "caption_zh": "瑙鲁议会大厦与法院",
-      "caption": "瑙鲁议会大厦与法院",
+      "title": "File:Parliament (15403802091).jpg",
+      "caption_zh": "瑙鲁议会大厦",
+      "caption": "瑙鲁议会大厦",
       "caption_commons": "Parliament and Courthouse",
       "kw": "Nauru Parliament House Yaren",
       "url": "assets/nr/L06.webp",
       "thumb_url": "assets/nr/L06.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Parliament_and_Courthouse_%2815222121087%29.jpg/1920px-Parliament_and_Courthouse_%2815222121087%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "commons_search",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Parliament_%2815403802091%29.jpg/1920px-Parliament_%2815403802091%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
       "pick_tier": "strict",
       "author": "Sean Kelleher from Melbourne, Australia",
       "license": "CC BY-SA 2.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 117096,
+      "bytes": 174168,
       "caption_zh_manual": "瑙鲁议会大厦",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4930,
+      "thumb_bytes": 12326,
+      "encoding": "webp q75/q78 (源 1920x1434 963KB JPEG)",
+      "verified": "vision",
       "size": {
         "detail": "1080x807",
         "thumb": "240x179"
-      },
-      "encoding": "webp q75/q78 (源 1920x1434 862KB JPEG)"
+      }
     }
   ],
   "image_license": "CC BY-SA 3.0",

@@ -106,30 +106,31 @@
       "encoding": "webp q75/q78 (源 1920x1038 446KB JPEG)"
     },
     {
-      "title": "File:MasjidPutra.jpg",
+      "title": "File:Nasir-al molk -1.jpg",
       "caption_zh": "粉红清真寺",
       "caption": "粉红清真寺",
       "caption_commons": "​粉红清真寺",
       "kw": "Nasir al-Mulk Mosque Shiraz",
       "url": "assets/ir/L03.webp",
       "thumb_url": "assets/ir/L03.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/MasjidPutra.jpg/1920px-MasjidPutra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "wikipedia_lead",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Nasir-al_molk_-1.jpg/1920px-Nasir-al_molk_-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
       "pick_tier": "strict",
-      "author": "Gaodanielbo",
-      "license": "CC0",
-      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Ayyoubsabawiki",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 82030,
+      "bytes": 128300,
       "caption_zh_manual": "粉红清真寺",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 5540,
+      "thumb_bytes": 8012,
+      "encoding": "webp q75/q78 (源 1920x1486 694KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x608",
-        "thumb": "240x135"
-      },
-      "encoding": "webp q75/q78 (源 1920x1080 505KB JPEG)"
+        "detail": "1080x836",
+        "thumb": "233x180"
+      }
     },
     {
       "title": "File:Jame mosque in yazd2.jpg",

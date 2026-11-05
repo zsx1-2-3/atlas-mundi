@@ -125,6 +125,50 @@
         "thumb": "240x166"
       },
       "encoding": "webp q75/q78 (源 1920x1330 449KB JPEG)"
+    },
+    {
+      "title": "File:St. Barts Baie de Saint-Jean vegetation.jpg",
+      "caption_zh": "圣让海滩",
+      "caption": "圣让海滩",
+      "kw": "Saint-Jean Beach Saint-Barthelemy",
+      "url": "assets/bl/L03.webp",
+      "thumb_url": "assets/bl/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/St._Barts_Baie_de_Saint-Jean_vegetation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Mike Schinkel",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "bytes": 157366,
+      "verified": "vision",
+      "thumb_bytes": 12372,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1600x1200 438KB JPEG)"
+    },
+    {
+      "title": "File:Anse Colombier anchorage, St. Barths - panoramio.jpg",
+      "caption_zh": "哥伦比亚海滩",
+      "caption": "哥伦比亚海滩",
+      "kw": "Colombier Beach Saint-Barthelemy",
+      "url": "assets/bl/L04.webp",
+      "thumb_url": "assets/bl/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Anse_Colombier_anchorage%2C_St._Barths_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "SV Zanshin",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "bytes": 147328,
+      "verified": "vision",
+      "thumb_bytes": 8404,
+      "size": {
+        "detail": "1080x716",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1272 499KB JPEG)"
     }
   ],
   "image_license": "CC BY 2.0",

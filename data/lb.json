@@ -67,30 +67,31 @@
   ],
   "landmark_images": [
     {
-      "title": "File:Hotel Palmyra (Baalbek) - room.jpg",
-      "caption_zh": "巴勒贝克神庙旁的帕尔米拉酒店客房",
-      "caption": "巴勒贝克神庙旁的帕尔米拉酒店客房",
+      "title": "File:Hotel Palmyra, Baalbek - Lebanon, March 2001.jpg",
+      "caption_zh": "巴勒贝克神庙",
+      "caption": "巴勒贝克神庙",
       "caption_commons": "Hotel Palmyra (Baalbek) - room",
       "kw": "Baalbek Temple of Bacchus",
       "url": "assets/lb/L01.webp",
       "thumb_url": "assets/lb/L01.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Hotel_Palmyra_%28Baalbek%29_-_room.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Hotel_Palmyra%2C_Baalbek_-_Lebanon%2C_March_2001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Clemens Schmillen",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "DIMSFIKAS",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 61824,
+      "bytes": 120384,
       "caption_zh_manual": "巴勒贝克神庙",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 6514,
+      "thumb_bytes": 10428,
       "size": {
-        "detail": "1024x683",
-        "thumb": "240x160"
+        "detail": "1080x696",
+        "thumb": "240x155"
       },
-      "encoding": "webp q75/q78 (源 1024x683 156KB JPEG)"
+      "encoding": "webp q75/q78 (源 1758x1133 1307KB JPEG)",
+      "verified": "vision"
     },
     {
       "title": "File:Upper_Jeita_Grotto.jpg",

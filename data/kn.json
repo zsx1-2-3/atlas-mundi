@@ -1,1 +1,400 @@
-{"qid":"Q763","iso_a2":"KN","iso_a3":"KNA","name_zh":"圣基茨和尼维斯","name_en":"Saint Kitts and Nevis","capital":"巴斯特尔","continent":"北美洲","centroid":[-62.6667,17.2717],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/kn/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Saint Kitts and Nevis, a twin-island nation in the eastern Caribbean where green hills meet the sea; its capital is Basseterre, and one landmark worth pausing for is Brimstone Hill Fortress, a UNESCO World Heritage Site overlooking the coast.","tts_text_zh":"欢迎来到圣基茨和尼维斯，这个位于加勒比海东部的双岛之国，青山与大海相接；它的首都是巴斯特尔，值得驻足的一处地标是硫磺山要塞，这座联合国教科文组织世界遗产俯瞰着海岸。","audio_voice":"en-US-AriaNeural","audio_bytes":92880}],"summary_text":"圣基茨和尼维斯联邦简称圣基茨和尼维斯，是一个由圣基茨岛和尼维斯岛组成的岛屿国家，位于西半球，是英联邦王国的成员，查尔斯三世为其君主和国家元首。该国拥有261平方公里的领土，大约有5万名居民，是西半球面积和人口数皆最小的主权国家，也是全球最小的主权联邦。首都为巴斯特尔，位于面积较大的圣基茨岛；面积较小的尼维斯岛位于圣基茨岛东南方约3公里处，横跨纳罗斯海峡。圣基茨和尼维斯原本的住民为加勒比人。英国属地安圭拉在历史上也是这个联盟的一部分，当时统称为圣基茨-尼维斯-安圭拉。圣基茨岛是英国和法国第一个加勒比海殖民地的所在地，因此也被称为“西印度群岛的母殖民地”。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":279,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E8%81%96%E5%85%8B%E9%87%8C%E6%96%AF%E5%A4%9A%E7%A6%8F%E5%8F%8A%E5%B0%BC%E7%B6%AD%E6%96%AF","title":"聖克里斯多福及尼維斯"},"culture_excerpts":[{"section":"历史","text":"圣基茨和尼维斯原本的住民为加勒比人（Caribs）。1493年哥伦布在他的第二次航海中登上圣克里斯多福岛（圣基茨岛），并且以自己的守护圣人圣克里斯多福（西班牙语：San Cristóbal，英语：St. Christopher）命名该岛。哥伦布也在同一次的航海中发现比较小的尼维斯岛，其命名则是源自西班牙文里的“雪”（Nieves），因为哥伦布认为该岛状似一座山顶顶着皑皑白雪的山头。然而，哥伦布虽然发现了这两座岛，但它们一直到1623年至1624年间，才开始有首批欧洲殖民者前来。英国人首先抵达，其次是法国人，英国人占领圣克里斯多福岛后将其名称简化为圣基茨（St. Kitts，Kitts是Christopher的简略称法），建立起加勒比海地区第一个英国殖民地，并且以该岛作为跳板，继续扩张该国在加勒比海地区的殖民地版图。随后两岛一同被并入英属背风群岛，而英属背风群岛则于1958年被并入西印度群岛联邦，该联邦于1962年解散，两岛与安圭拉组成单一海外领土—圣克里斯多福-尼维斯-安圭拉，直至于1983年9月19日克国正式脱离英国独立，并于同月23日加入联合国；由于安圭拉人不愿与两岛同属一个政治实体而落实分治，圣克里斯多福-尼维斯-安圭拉解散，圣基茨和尼维斯脱离英国独立，但仍奉英国君主至今，安圭拉则继续成为英国海外领土。","chars":563},{"section":"人口","text":"52,715人（2017年）。黑人占94%，另有少量英国人、葡萄牙人和黎巴嫩人。英语为官方语言。居民多为英国圣公会信徒，也有天主教徒。\n最高峰利亚穆伊加山，海拔1,156米。热带海洋性气候，年平均气温26℃，年降水量1,400－2,000毫米。","chars":1200}],"landmark_images":[{"title":"File:BrimstoneHill01.jpg","caption_zh":"硫磺山要塞","caption":"硫磺山要塞","caption_commons":"The Prince of Wales Bastion at the Brimstone Hill Fortress National Park, St Kit","kw":"Brimstone Hill Fortress","url":"assets/kn/L01.webp","thumb_url":"assets/kn/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/BrimstoneHill01.jpg/1920px-BrimstoneHill01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Ukexpat","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":215444,"caption_zh_manual":"硫磺山要塞","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8848,"size":{"detail":"1080x720","thumb":"240x160"},"encoding":"webp q75/q78 (源 1920x1280 1058KB JPEG)"},{"title":"File:Timothy Hill (49950330897).jpg","caption_zh":"蒂莫西山","caption":"蒂莫西山","caption_commons":"Timothy Hill is a prominent feature of southeastern St. Kitts, Eastern Caribbean","kw":"Timothy Hill Saint Kitts","url":"assets/kn/L06.webp","thumb_url":"assets/kn/L06.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/5/50/Timothy_Hill_%2849950330897%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"manual_repick","pick_tier":"handpicked","author":"David Stanley from Nanaimo, Canada","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":195444,"caption_zh_manual":"蒂莫西山","thumb_bytes":2702,"size":{"detail":"1024x768","thumb":"240x180"},"encoding":"webp q75/q78 (源 1666x2222 1913KB JPEG)","replace_reason":"原图是一个叫 Timothy Harris 的人的照片"},{"title":"File:Caribelle Batik at Romney Manor, St Kitts.jpg","caption_zh":"圣基茨罗姆尼庄园的蜡染","caption":"圣基茨罗姆尼庄园的蜡染","caption_commons":"Please note: the description below is from Flickr and predates a license change.","kw":"Romney Manor Saint Kitts","url":"assets/kn/L03.webp","thumb_url":"assets/kn/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Caribelle_Batik_at_Romney_Manor%2C_St_Kitts.jpg/1920px-Caribelle_Batik_at_Romney_Manor%2C_St_Kitts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Heather Cowper","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":239442,"caption_zh_manual":"罗姆尼庄园","caption_zh_source":"llm_from_commons_filename","thumb_bytes":14526,"size":{"detail":"1080x810","thumb":"240x180"},"encoding":"webp q75/q78 (源 1920x1440 1140KB JPEG)"},{"title":"File:Nevis Peak, Nevis - panoramio.jpg","caption_zh":"尼维斯峰","caption":"尼维斯峰","caption_commons":"Nevis Peak, Nevis","kw":"Nevis Peak","url":"assets/kn/L07.webp","thumb_url":"assets/kn/L07.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Nevis_Peak%2C_Nevis_-_panoramio.jpg/1920px-Nevis_Peak%2C_Nevis_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"manual_repick","pick_tier":"handpicked","author":"David Broad","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":495226,"caption_zh_manual":"尼维斯峰","thumb_bytes":3728,"size":{"detail":"1080x717","thumb":"240x159"},"encoding":"webp q75/q78 (源 604x453 47KB JPEG)","replace_reason":"原图仅 604px"},{"title":"File:Nevis Pinney's Beach.jpg","caption_zh":"平尼海滩","caption":"平尼海滩","caption_commons":"Nevis: Pinney's Beach","kw":"Pinney's Beach Nevis","url":"assets/kn/L05.webp","thumb_url":"assets/kn/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Nevis_Pinney%27s_Beach.jpg/1920px-Nevis_Pinney%27s_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Dr. Thomas Liptak","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":154366,"caption_zh_manual":"平尼海滩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10568,"size":{"detail":"1080x608","thumb":"240x135"},"encoding":"webp q75/q78 (源 1920x1080 712KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:32:27+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-St. Kitts an Nevis.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Sfântul Cristofor și Nevis.wav、LL-Q652 (ita)-Francyskus-Saint Kitts e Nevis.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py KN","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 279 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"圣基茨岛","evidence":"由圣基茨岛和尼维斯岛组成"},{"v":"尼维斯岛","evidence":"面积较小的尼维斯岛"},{"v":"纳罗斯海峡","evidence":"横跨纳罗斯海峡"},{"v":"西印度群岛的母殖民地","evidence":"西印度群岛的母殖民地"}],"model":"deepseek-flash"},"summary_text_raw":"圣基茨和尼维斯联邦（英语：Federation of Saint Christopher and Nevis），简称圣基茨和尼维斯（英语：Saint Kitts and Nevis，/-ˈkɪts ... ˈniːvɪs/），是一个由圣基茨岛和尼维斯岛组成的岛屿国家。它拥有261平方公里的领土和大约5万名居民，是西半球面积和人口数皆最小的主权国家，也是全球最小的主权联邦。该国是英联邦王国的成员，查尔斯三世为其君主和国家元首。\n该国首都为巴斯特尔，位于面积较大的圣基茨岛。面积较小的尼维斯岛位于圣基茨岛东南方约3公里处，横跨纳罗斯海峡。\n英国属地安圭拉在历史上也是这个联盟的一部分，当时统称为圣基茨-尼维斯-安圭拉。\n圣基茨岛是英国和法国第一个加勒比海殖民地的所在地，因此也被称为“西印度群岛的母殖民地”（英语：The Mother Colony of the West Indies）。\n\n\n== 历史 ==\n\n圣基茨和尼维斯原本的住民为加勒比人（Caribs）。","history_text":"加勒比人原居于此，哥伦布第二次航海时登上圣克里斯多福岛并以守护圣人命名，较小的岛因状似雪顶山峰得名尼维斯。十七世纪二十年代英国人先到、法国人随后，圣基茨成为加勒比首个英国殖民地，两岛后并入英属背风群岛。一九八三年脱离英国独立并加入联合国，安圭拉人选择分治。","custom_text":"岛上居民多为英国圣公会信徒，也有天主教徒，英语通行于市集与教堂。热带海洋性气候下，年平均气温约二十六摄氏度，年降水量一千四百至两千毫米，日常衣着轻薄，午后阵雨来得急去得也快。黑人占居民绝大多数，另有少量英国人、葡萄牙人和黎巴嫩人，市集上常见克里奥尔式烹饪与海产。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":128,"folk":131}},"knowledge_qa":[{"q":"圣基茨和尼维斯在哪个洲？","a":"位于北美洲，是一个由圣基茨岛和尼维斯岛组成的岛屿国家。","tags":["北美洲","位置","岛国"]},{"q":"这个国家面积多大？人口多少？","a":"领土面积261平方公里，大约有5万名居民，是西半球面积和人口数皆最小的主权国家。","tags":["面积","人口","多大"]},{"q":"圣基茨和尼维斯的首都是哪里？","a":"首都为巴斯特尔，位于面积较大的圣基茨岛。","tags":["首都","巴斯特尔","在哪"]},{"q":"尼维斯岛在圣基茨岛的什么位置？","a":"面积较小的尼维斯岛位于圣基茨岛东南方约3公里处，横跨纳罗斯海峡。","tags":["尼维斯岛","位置","海峡"]},{"q":"他们国家说什么语言？","a":"官方语言是英语。","tags":["语言","英语","说什么话"]},{"q":"圣基茨和尼维斯有什么值得看的地标？","a":"有硫磺山要塞、蒂莫西山、罗姆尼庄园、尼维斯峰和平尼海滩等。","tags":["地标","景点","看什么"]},{"q":"圣基茨岛为什么被称为“西印度群岛的母殖民地”？","a":"因为圣基茨岛是英国和法国第一个加勒比海殖民地的所在地，所以被称为“西印度群岛的母殖民地”。","tags":["母殖民地","历史","圣基茨岛"]},{"q":"这个国家以前和安圭拉有什么关系？","a":"英国属地安圭拉在历史上也是这个联盟的一部分，当时统称为圣基茨-尼维斯-安圭拉。","tags":["安圭拉","历史","联盟"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-6265,1727],[-6262,1724],[-6262,1723],[-6265,1722],[-6266,1723],[-6267,1726],[-6270,1729],[-6276,1729],[-6283,1733],[-6286,1736],[-6285,1740],[-6282,1742],[-6272,1736],[-6270,1733],[-6267,1727],[-6265,1727]],[[-6260,1720],[-6255,1710],[-6261,1710],[-6260,1720]]]}
+{
+  "qid": "Q763",
+  "iso_a2": "KN",
+  "iso_a3": "KNA",
+  "name_zh": "圣基茨和尼维斯",
+  "name_en": "Saint Kitts and Nevis",
+  "capital": "巴斯特尔",
+  "continent": "北美洲",
+  "centroid": [
+    -62.6667,
+    17.2717
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/kn/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Saint Kitts and Nevis, a twin-island nation in the eastern Caribbean where green hills meet the sea; its capital is Basseterre, and one landmark worth pausing for is Brimstone Hill Fortress, a UNESCO World Heritage Site overlooking the coast.",
+      "tts_text_zh": "欢迎来到圣基茨和尼维斯，这个位于加勒比海东部的双岛之国，青山与大海相接；它的首都是巴斯特尔，值得驻足的一处地标是硫磺山要塞，这座联合国教科文组织世界遗产俯瞰着海岸。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 92880
+    }
+  ],
+  "summary_text": "圣基茨和尼维斯联邦简称圣基茨和尼维斯，是一个由圣基茨岛和尼维斯岛组成的岛屿国家，位于西半球，是英联邦王国的成员，查尔斯三世为其君主和国家元首。该国拥有261平方公里的领土，大约有5万名居民，是西半球面积和人口数皆最小的主权国家，也是全球最小的主权联邦。首都为巴斯特尔，位于面积较大的圣基茨岛；面积较小的尼维斯岛位于圣基茨岛东南方约3公里处，横跨纳罗斯海峡。圣基茨和尼维斯原本的住民为加勒比人。英国属地安圭拉在历史上也是这个联盟的一部分，当时统称为圣基茨-尼维斯-安圭拉。圣基茨岛是英国和法国第一个加勒比海殖民地的所在地，因此也被称为“西印度群岛的母殖民地”。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 279,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E8%81%96%E5%85%8B%E9%87%8C%E6%96%AF%E5%A4%9A%E7%A6%8F%E5%8F%8A%E5%B0%BC%E7%B6%AD%E6%96%AF",
+    "title": "聖克里斯多福及尼維斯"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "圣基茨和尼维斯原本的住民为加勒比人（Caribs）。1493年哥伦布在他的第二次航海中登上圣克里斯多福岛（圣基茨岛），并且以自己的守护圣人圣克里斯多福（西班牙语：San Cristóbal，英语：St. Christopher）命名该岛。哥伦布也在同一次的航海中发现比较小的尼维斯岛，其命名则是源自西班牙文里的“雪”（Nieves），因为哥伦布认为该岛状似一座山顶顶着皑皑白雪的山头。然而，哥伦布虽然发现了这两座岛，但它们一直到1623年至1624年间，才开始有首批欧洲殖民者前来。英国人首先抵达，其次是法国人，英国人占领圣克里斯多福岛后将其名称简化为圣基茨（St. Kitts，Kitts是Christopher的简略称法），建立起加勒比海地区第一个英国殖民地，并且以该岛作为跳板，继续扩张该国在加勒比海地区的殖民地版图。随后两岛一同被并入英属背风群岛，而英属背风群岛则于1958年被并入西印度群岛联邦，该联邦于1962年解散，两岛与安圭拉组成单一海外领土—圣克里斯多福-尼维斯-安圭拉，直至于1983年9月19日克国正式脱离英国独立，并于同月23日加入联合国；由于安圭拉人不愿与两岛同属一个政治实体而落实分治，圣克里斯多福-尼维斯-安圭拉解散，圣基茨和尼维斯脱离英国独立，但仍奉英国君主至今，安圭拉则继续成为英国海外领土。",
+      "chars": 563
+    },
+    {
+      "section": "人口",
+      "text": "52,715人（2017年）。黑人占94%，另有少量英国人、葡萄牙人和黎巴嫩人。英语为官方语言。居民多为英国圣公会信徒，也有天主教徒。\n最高峰利亚穆伊加山，海拔1,156米。热带海洋性气候，年平均气温26℃，年降水量1,400－2,000毫米。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Karibik, St. Kitts - Brimstone Hill Fortress National Park - UNESCO World Heritage Site - panoramio (1).jpg",
+      "caption_zh": "硫磺山要塞",
+      "caption": "硫磺山要塞",
+      "caption_commons": "The Prince of Wales Bastion at the Brimstone Hill Fortress National Park, St Kit",
+      "kw": "Brimstone Hill Fortress",
+      "url": "assets/kn/L01.webp",
+      "thumb_url": "assets/kn/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Karibik%2C_St._Kitts_-_Brimstone_Hill_Fortress_National_Park_-_UNESCO_World_Heritage_Site_-_panoramio_%281%29.jpg/1920px-Karibik%2C_St._Kitts_-_Brimstone_Hill_Fortress_National_Park_-_UNESCO_World_Heritage_Site_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "giggel",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 176774,
+      "caption_zh_manual": "硫磺山要塞",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8964,
+      "encoding": "webp q75/q78 (源 1920x1440 935KB JPEG)",
+      "verified": "vision",
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      }
+    },
+    {
+      "title": "File:Timothy Hill (49950330897).jpg",
+      "caption_zh": "蒂莫西山",
+      "caption": "蒂莫西山",
+      "caption_commons": "Timothy Hill is a prominent feature of southeastern St. Kitts, Eastern Caribbean",
+      "kw": "Timothy Hill Saint Kitts",
+      "url": "assets/kn/L06.webp",
+      "thumb_url": "assets/kn/L06.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Timothy_Hill_%2849950330897%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "David Stanley from Nanaimo, Canada",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 61288,
+      "caption_zh_manual": "蒂莫西山",
+      "thumb_bytes": 4454,
+      "size": {
+        "detail": "1024x768",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1024x768 191KB JPEG)",
+      "replace_reason": "原图是一个叫 Timothy Harris 的人的照片"
+    },
+    {
+      "title": "File:Caribelle Batik at Romney Manor, St Kitts.jpg",
+      "caption_zh": "圣基茨罗姆尼庄园的蜡染",
+      "caption": "圣基茨罗姆尼庄园的蜡染",
+      "caption_commons": "Please note: the description below is from Flickr and predates a license change.",
+      "kw": "Romney Manor Saint Kitts",
+      "url": "assets/kn/L03.webp",
+      "thumb_url": "assets/kn/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Caribelle_Batik_at_Romney_Manor%2C_St_Kitts.jpg/1920px-Caribelle_Batik_at_Romney_Manor%2C_St_Kitts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Heather Cowper",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 239442,
+      "caption_zh_manual": "罗姆尼庄园",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 14526,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 1140KB JPEG)"
+    },
+    {
+      "title": "File:Nevis Peak, Nevis - panoramio.jpg",
+      "caption_zh": "尼维斯峰",
+      "caption": "尼维斯峰",
+      "caption_commons": "Nevis Peak, Nevis",
+      "kw": "Nevis Peak",
+      "url": "assets/kn/L07.webp",
+      "thumb_url": "assets/kn/L07.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Nevis_Peak%2C_Nevis_-_panoramio.jpg/1920px-Nevis_Peak%2C_Nevis_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "David Broad",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 495226,
+      "caption_zh_manual": "尼维斯峰",
+      "thumb_bytes": 3728,
+      "size": {
+        "detail": "1080x717",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 604x453 47KB JPEG)",
+      "replace_reason": "原图仅 604px"
+    },
+    {
+      "title": "File:Nevis Pinney's Beach.jpg",
+      "caption_zh": "平尼海滩",
+      "caption": "平尼海滩",
+      "caption_commons": "Nevis: Pinney's Beach",
+      "kw": "Pinney's Beach Nevis",
+      "url": "assets/kn/L05.webp",
+      "thumb_url": "assets/kn/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Nevis_Pinney%27s_Beach.jpg/1920px-Nevis_Pinney%27s_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Dr. Thomas Liptak",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 154366,
+      "caption_zh_manual": "平尼海滩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10568,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1080 712KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:32:27+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-St. Kitts an Nevis.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Sfântul Cristofor și Nevis.wav、LL-Q652 (ita)-Francyskus-Saint Kitts e Nevis.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py KN",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 279 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "圣基茨岛",
+        "evidence": "由圣基茨岛和尼维斯岛组成"
+      },
+      {
+        "v": "尼维斯岛",
+        "evidence": "面积较小的尼维斯岛"
+      },
+      {
+        "v": "纳罗斯海峡",
+        "evidence": "横跨纳罗斯海峡"
+      },
+      {
+        "v": "西印度群岛的母殖民地",
+        "evidence": "西印度群岛的母殖民地"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "圣基茨和尼维斯联邦（英语：Federation of Saint Christopher and Nevis），简称圣基茨和尼维斯（英语：Saint Kitts and Nevis，/-ˈkɪts ... ˈniːvɪs/），是一个由圣基茨岛和尼维斯岛组成的岛屿国家。它拥有261平方公里的领土和大约5万名居民，是西半球面积和人口数皆最小的主权国家，也是全球最小的主权联邦。该国是英联邦王国的成员，查尔斯三世为其君主和国家元首。\n该国首都为巴斯特尔，位于面积较大的圣基茨岛。面积较小的尼维斯岛位于圣基茨岛东南方约3公里处，横跨纳罗斯海峡。\n英国属地安圭拉在历史上也是这个联盟的一部分，当时统称为圣基茨-尼维斯-安圭拉。\n圣基茨岛是英国和法国第一个加勒比海殖民地的所在地，因此也被称为“西印度群岛的母殖民地”（英语：The Mother Colony of the West Indies）。\n\n\n== 历史 ==\n\n圣基茨和尼维斯原本的住民为加勒比人（Caribs）。",
+  "history_text": "加勒比人原居于此，哥伦布第二次航海时登上圣克里斯多福岛并以守护圣人命名，较小的岛因状似雪顶山峰得名尼维斯。十七世纪二十年代英国人先到、法国人随后，圣基茨成为加勒比首个英国殖民地，两岛后并入英属背风群岛。一九八三年脱离英国独立并加入联合国，安圭拉人选择分治。",
+  "custom_text": "岛上居民多为英国圣公会信徒，也有天主教徒，英语通行于市集与教堂。热带海洋性气候下，年平均气温约二十六摄氏度，年降水量一千四百至两千毫米，日常衣着轻薄，午后阵雨来得急去得也快。黑人占居民绝大多数，另有少量英国人、葡萄牙人和黎巴嫩人，市集上常见克里奥尔式烹饪与海产。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 128,
+      "folk": 131
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "圣基茨和尼维斯在哪个洲？",
+      "a": "位于北美洲，是一个由圣基茨岛和尼维斯岛组成的岛屿国家。",
+      "tags": [
+        "北美洲",
+        "位置",
+        "岛国"
+      ]
+    },
+    {
+      "q": "这个国家面积多大？人口多少？",
+      "a": "领土面积261平方公里，大约有5万名居民，是西半球面积和人口数皆最小的主权国家。",
+      "tags": [
+        "面积",
+        "人口",
+        "多大"
+      ]
+    },
+    {
+      "q": "圣基茨和尼维斯的首都是哪里？",
+      "a": "首都为巴斯特尔，位于面积较大的圣基茨岛。",
+      "tags": [
+        "首都",
+        "巴斯特尔",
+        "在哪"
+      ]
+    },
+    {
+      "q": "尼维斯岛在圣基茨岛的什么位置？",
+      "a": "面积较小的尼维斯岛位于圣基茨岛东南方约3公里处，横跨纳罗斯海峡。",
+      "tags": [
+        "尼维斯岛",
+        "位置",
+        "海峡"
+      ]
+    },
+    {
+      "q": "他们国家说什么语言？",
+      "a": "官方语言是英语。",
+      "tags": [
+        "语言",
+        "英语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "圣基茨和尼维斯有什么值得看的地标？",
+      "a": "有硫磺山要塞、蒂莫西山、罗姆尼庄园、尼维斯峰和平尼海滩等。",
+      "tags": [
+        "地标",
+        "景点",
+        "看什么"
+      ]
+    },
+    {
+      "q": "圣基茨岛为什么被称为“西印度群岛的母殖民地”？",
+      "a": "因为圣基茨岛是英国和法国第一个加勒比海殖民地的所在地，所以被称为“西印度群岛的母殖民地”。",
+      "tags": [
+        "母殖民地",
+        "历史",
+        "圣基茨岛"
+      ]
+    },
+    {
+      "q": "这个国家以前和安圭拉有什么关系？",
+      "a": "英国属地安圭拉在历史上也是这个联盟的一部分，当时统称为圣基茨-尼维斯-安圭拉。",
+      "tags": [
+        "安圭拉",
+        "历史",
+        "联盟"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -6265,
+        1727
+      ],
+      [
+        -6262,
+        1724
+      ],
+      [
+        -6262,
+        1723
+      ],
+      [
+        -6265,
+        1722
+      ],
+      [
+        -6266,
+        1723
+      ],
+      [
+        -6267,
+        1726
+      ],
+      [
+        -6270,
+        1729
+      ],
+      [
+        -6276,
+        1729
+      ],
+      [
+        -6283,
+        1733
+      ],
+      [
+        -6286,
+        1736
+      ],
+      [
+        -6285,
+        1740
+      ],
+      [
+        -6282,
+        1742
+      ],
+      [
+        -6272,
+        1736
+      ],
+      [
+        -6270,
+        1733
+      ],
+      [
+        -6267,
+        1727
+      ],
+      [
+        -6265,
+        1727
+      ]
+    ],
+    [
+      [
+        -6260,
+        1720
+      ],
+      [
+        -6255,
+        1710
+      ],
+      [
+        -6261,
+        1710
+      ],
+      [
+        -6260,
+        1720
+      ]
+    ]
+  ]
+}

@@ -141,30 +141,31 @@
       "encoding": "webp q75/q78 (源 800x533 30KB JPEG)"
     },
     {
-      "title": "File:West Point Island in the Falkland Islands 1.jpg",
+      "title": "File:FAL-2017-West Point Island, Falkland Islands-Black-browed albatross (Thalassarche melanophris) 03.jpg",
       "caption_zh": "西角岛信天翁",
       "caption": "西角岛信天翁",
       "caption_commons": "West Point Island is one of the Falkland Islands, lying west of West Falkland. I",
       "kw": "West Point Island Albatross Falkland",
       "url": "assets/fk/L04.webp",
       "thumb_url": "assets/fk/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/West_Point_Island_in_the_Falkland_Islands_1.jpg/1920px-West_Point_Island_in_the_Falkland_Islands_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "article_img",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/FAL-2017-West_Point_Island%2C_Falkland_Islands-Black-browed_albatross_%28Thalassarche_melanophris%29_03.jpg/1920px-FAL-2017-West_Point_Island%2C_Falkland_Islands-Black-browed_albatross_%28Thalassarche_melanophris%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
       "pick_tier": "strict",
-      "author": "Liam Quinn",
-      "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Godot13",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 81142,
+      "bytes": 28962,
       "caption_zh_manual": "西角岛信天翁",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4972,
+      "thumb_bytes": 3492,
+      "encoding": "webp q75/q78 (源 1920x1280 467KB JPEG)",
+      "verified": "vision",
       "size": {
         "detail": "1080x720",
         "thumb": "240x160"
-      },
-      "encoding": "webp q75/q78 (源 1920x1280 529KB JPEG)"
+      }
     },
     {
       "title": "File:2884-saunders-landscape RJ.jpg",

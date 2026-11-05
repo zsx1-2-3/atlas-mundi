@@ -104,15 +104,15 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 53756,
+      "bytes": 133416,
       "caption_zh_manual": "泰西封拱门",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 5226,
+      "thumb_bytes": 6376,
       "size": {
-        "detail": "1000x561",
-        "thumb": "240x135"
+        "detail": "1080x720",
+        "thumb": "240x160"
       },
-      "encoding": "webp q75/q78 (源 1000x561 209KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1280 769KB JPEG)"
     },
     {
       "title": "File:001123-ImamAliShrine-Najaf-IMG 7707-2.jpg",
@@ -165,6 +165,28 @@
         "thumb": "240x164"
       },
       "encoding": "webp q75/q78 (源 1722x1180 2836KB JPEG)"
+    },
+    {
+      "title": "File:001124-MalwiyaMosque-Samerra-IMG 7824-2.jpg",
+      "caption_zh": "萨迈拉螺旋塔",
+      "caption": "萨迈拉螺旋塔",
+      "kw": "Malwiya Minaret Samarra",
+      "url": "assets/iq/L02.webp",
+      "thumb_url": "assets/iq/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/001124-MalwiyaMosque-Samerra-IMG_7824-2.jpg/1920px-001124-MalwiyaMosque-Samerra-IMG_7824-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Safa.daneshvar",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bytes": 41972,
+      "verified": "vision",
+      "thumb_bytes": 3292,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 323KB JPEG)"
     }
   ],
   "image_license": "CC BY-SA 4.0",

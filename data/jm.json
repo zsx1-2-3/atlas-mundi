@@ -85,30 +85,31 @@
       "encoding": "webp q75/q78 (源 1920x1285 897KB JPEG)"
     },
     {
-      "title": "File:Setophaga pharetra Blue Mountains 1.jpg",
+      "title": "File:Blue Mountain Peak.jpg",
       "caption_zh": "蓝山约翰克劳峰",
       "caption": "蓝山约翰克劳峰",
       "caption_commons": "Arrow-headed Warbler Setophaga pharetra, Blue Mountains, Jamaica",
       "kw": "Blue Mountain Peak Jamaica",
       "url": "assets/jm/L02.webp",
       "thumb_url": "assets/jm/L02.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Setophaga_pharetra_Blue_Mountains_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Blue_Mountain_Peak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Ron Knight from Seaford, East Sussex, United Kingdom",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Joerggo (Diskussion)",
+      "license": "Copyrighted free use",
+      "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 71592,
+      "bytes": 143996,
       "caption_zh_manual": "蓝山约翰克劳峰",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 8736,
+      "thumb_bytes": 4612,
       "size": {
-        "detail": "960x640",
-        "thumb": "240x160"
+        "detail": "1064x1636",
+        "thumb": "117x180"
       },
-      "encoding": "webp q75/q78 (源 960x640 317KB JPEG)"
+      "encoding": "webp q75/q78 (源 1064x1636 240KB JPEG)",
+      "verified": "vision"
     },
     {
       "title": "File:Negril Jamaica 2007-09.jpg",
@@ -178,15 +179,15 @@
       "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 54212,
+      "bytes": 17928,
       "caption_zh_manual": "博布马利故居",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 9780,
+      "thumb_bytes": 2936,
       "size": {
-        "detail": "330x440",
-        "thumb": "135x180"
+        "detail": "1080x720",
+        "thumb": "240x160"
       },
-      "encoding": "webp q75/q78 (源 330x440 106KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1280 158KB JPEG)"
     }
   ],
   "image_license": "CC BY-SA 3.0",

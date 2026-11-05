@@ -128,7 +128,7 @@
       "encoding": "webp q75/q78 (源 1920x1231 765KB JPEG)"
     },
     {
-      "title": "File:IMG 9366-Kaindy.jpg",
+      "title": "File:Kaindy lake south-east Kazakhstan.jpg",
       "caption_zh": "康堤湖",
       "caption": "康堤湖",
       "caption_commons": "Kaindy lake in south-east of Kazakhstan. The mountain lakes like this form after",
@@ -147,11 +147,12 @@
       "caption_zh_manual": "康堤湖",
       "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 11488,
+      "encoding": "webp q75/q78 (源 1600x1200 1280KB JPEG)",
+      "verified": "vision",
       "size": {
         "detail": "1080x810",
         "thumb": "240x180"
-      },
-      "encoding": "webp q75/q78 (源 1600x1200 1280KB JPEG)"
+      }
     },
     {
       "title": "File:Baikonur (14320417325).jpg",

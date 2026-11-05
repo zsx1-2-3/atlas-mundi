@@ -173,6 +173,28 @@
         "thumb": "240x168"
       },
       "encoding": "webp q75/q78 (源 1920x1342 963KB JPEG)"
+    },
+    {
+      "title": "File:Aman Sveti Stefan private beach.jpg",
+      "caption_zh": "圣斯特凡岛",
+      "caption": "圣斯特凡岛",
+      "kw": "Sveti Stefan Montenegro",
+      "url": "assets/me/L02.webp",
+      "thumb_url": "assets/me/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Aman_Sveti_Stefan_private_beach.jpg/1920px-Aman_Sveti_Stefan_private_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Jaakko Luttinen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bytes": 77088,
+      "verified": "vision",
+      "thumb_bytes": 3750,
+      "size": {
+        "detail": "1080x359",
+        "thumb": "240x80"
+      },
+      "encoding": "webp q75/q78 (源 1920x638 429KB JPEG)"
     }
   ],
   "image_license": "CC BY-SA 4.0",

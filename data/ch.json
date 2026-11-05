@@ -132,30 +132,31 @@
       "encoding": "webp q75/q78 (源 590x400 81KB JPEG)"
     },
     {
-      "title": "File:Albula Bernina.png",
+      "title": "File:Bernina-Express 1.JPG",
       "caption_zh": "圣莫里茨/伯尔尼纳快车",
       "caption": "圣莫里茨/伯尔尼纳快车",
       "caption_commons": "Map of Switzerland with the Bernina Express line. Map from Wikimedia Commons (Fi",
       "kw": "Bernina Express Landwasser Viaduct",
       "url": "assets/ch/03.webp",
       "thumb_url": "assets/ch/03.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Albula_Bernina.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "article_img",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Bernina-Express_1.JPG/1920px-Bernina-Express_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
       "pick_tier": "strict",
-      "author": "Zacharie Grossen",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Christoph Radtke",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 42414,
+      "bytes": 119514,
       "caption_zh_manual": "圣莫里茨/伯尔尼纳快车",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4360,
+      "thumb_bytes": 8702,
+      "encoding": "webp q75/q78 (源 1920x1440 628KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x733",
-        "thumb": "240x163"
-      },
-      "encoding": "webp q75/q78 (源 1359x922 466KB JPEG)"
+        "detail": "1080x810",
+        "thumb": "240x180"
+      }
     },
     {
       "title": "File:Chutes du Rhin - Octobre 2021.jpg",

@@ -1,1 +1,1040 @@
-{"qid":"Q902","iso_a2":"BD","iso_a3":"BGD","name_zh":"孟加拉国","name_en":"Bangladesh","capital":"达卡","continent":"亚洲","centroid":[89.8667,24.0167],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"spoken","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"bn","name_zh":"孟加拉语","name_local":"孟加拉语","role":"official","audio_url":"assets/bd/audio/bn.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"বাংলাদেশে আপনাকে স্বাগতম; এই দেশের রাজধানী ঢাকা, যেখানে লালবাগ কেল্লার পুরোনো দেয়াল ও গম্বুজ আজও ইতিহাসের গল্প বলে।","tts_text_zh":"欢迎来到孟加拉国；这个国家的首都是达卡，拉尔巴格堡古老的城墙与穹顶至今仍在诉说历史的故事。","audio_voice":"bn-BD-NabanitaNeural","audio_bytes":49968}],"summary_text":"孟加拉人民共和国通称孟加拉国，是位于南亚的国家，为孟加拉地区的东部部分，地处孟加拉湾之北。其东南山区有一小部分与缅甸为邻，其他部分都与印度接壤，位于孟加拉湾的海域面积大致等同于陆地面积。孟加拉国国土绝大部分为贾木纳河冲积平原。首都达卡是第一大城市，第二大城市为吉大港市，吉大港市同时也拥有该国最大的港口。孟加拉国98%的人口使用孟加拉语，国教为伊斯兰教；人口1.7亿，在世界穆斯林国家中排名第三，仅次于印度尼西亚和巴基斯坦，人口密度为每平方公里1138人，世界排名第七。1947年，东孟加拉邦成为巴基斯坦自治领人口最多的省份。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":263,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%AD%9F%E5%8A%A0%E6%8B%89%E5%9B%BD","title":"孟加拉国"},"culture_excerpts":[{"section":"历史","text":"孟加拉族是南亚次大陆古老民族之一。孟加拉地区的最早居民是亚美人。尔后与达罗毗荼人种经过长期融合，逐渐形成今天的孟加拉人。9世纪已有统一的封建国家。孟加拉地区人民早期多信奉佛教、印度教。13世纪受外来影响改信伊斯兰教，16世纪时，该地区已经发展成南亚次大陆上人口最稠密、经济最发达、文化昌盛的地区。17世纪被莫卧儿帝国征服。1757年普拉西战役后遭受英国殖民统治，日后成为英属印度一部分。1765年，以加尔各答为中心的孟加拉管辖区建立。1905年孟加拉地区曾被英国殖民政府分割成东西两部，后来复合。1947年印巴分治时，英属印度分为印度自治领及巴基斯坦自治领。孟加拉地区亦被再次分割：西孟加拉地区归印度自治领（今印度西孟加拉邦），东孟加拉地区归巴基斯坦自治领。东孟加拉地区改称东巴基斯坦，西巴基斯坦即今巴基斯坦。由于地理上的相互隔绝，民族、文化和语言的巨大差异终于使相距约2000公里的东、西巴基斯坦内部矛盾走向不可调和的地步。1970年巴基斯坦大选后，巴基斯坦中央政府未按时将权力移交给赢得绝对性多数的孟加拉人民联盟，引发东巴基斯坦人民不满并出现了抗议和冲突。3月25日，巴基斯坦中央政府军事干预东巴基斯坦，开展探照灯行动。1971年3月26日东巴基斯坦宣布独立（英语：Proclamation of Bangladeshi Independence），并在4月于印度加尔各答成立孟加拉人民共和国临时政府。随后因为探照灯行动的持续升级，东巴基斯坦发生大规模动乱和难民潮，几百万人离开家园涌入邻国印度。西巴基斯坦意识到印度武力干预不可避免，在12月3日发动成吉思汗行动以期先发制人。当天晚上，印度指巴基斯坦已对印度发动战争，并开始武装干预巴基斯坦内战，第三次印巴战争爆发。12月8日，美国驻联合国大使乔治·赫伯特·沃克·布什在联合国安理会提交了一份决议呼吁印巴停火，并被苏联否决。印军于12月16日攻占达卡，东巴驻军无条件投降。1972年1月成立孟加拉人民共和国，巴基斯坦总统佐勒菲卡尔·阿里·布托释放了被以“叛国罪”逮捕的东巴人民联盟领袖谢赫·穆吉布·拉赫曼，此人就任孟加拉国首任总统。马来西亚和其邻国印度尼西亚于1972年2月24日正式承认孟加拉国的独立，也是首批承认孟国的穆斯林居多国家。1999年，马来西亚首相马哈蒂尔·穆罕默德曾经访问孟加拉国，同时孟加拉国总理谢赫·哈西娜也于2000年访问马来西亚。两次访问使得两国开始进行合作，使孟加拉国劳工能够出口至马来西亚。1975年8月15日，孟加拉国人民联盟领袖、首任总统谢赫·穆吉布·拉赫曼遇刺身亡。1981年5月30日，孟加拉国民族主义党领袖、齐亚·拉赫曼总统在吉大港遇刺身亡，阿卜杜勒·萨塔尔出任代总统。1982年3月24日，陆军参谋长侯赛因·穆罕默德·艾尔沙德宣布实行军管，解除萨塔尔的总统职务，自任军法管制首席执行官兼武装部队总司令，后任总统。齐亚·拉赫曼遗孀卡莉达·齐亚领导的民族主义党及穆吉布·拉赫曼长女谢赫·哈西娜领导的人民联盟与艾尔沙德军政府展开斗争，1990年12月6日，艾尔沙德辞职，结束他九年的独裁统治。在1991年大选中，卡莉达·齐亚获胜出任总理。2006年10月31日，无党派看守军政府成立，总统亚杰丁·艾哈迈德兼任看守军政府总理。孟加拉国第九届议会选举原定于2007年1月22日举行，但由于当时两大政党前总理卡莉达·齐亚为首的民族主义党(BNP)和以前总理谢赫·哈西娜为首的人民联盟斗争日趋激烈，政局日益恶化，总统亚杰丁·艾哈迈德被迫于2007年1月11日宣布国家进入紧急状态，取消一切政党活动。2007年1月12日，法赫尔丁·艾哈迈德宣誓就任看守政府总理。他的看守军政府执政两年，在国际压力下，2008年12月29日举办国会大选，结果为孟加拉国人民联盟大胜，赢得国会300席中262席，党主席谢赫·哈西娜于2009年1月6日第二次出任总理。2009年2月12日齐鲁尔·拉赫曼就任第十九任孟加拉国总统，人民联盟持续为孟加拉执政党至今。近年孟加拉国社会较为稳定，经济发展迅速。2024年，孟加拉国发生左翼领导的大规模游行示威以抗议最高法院做出的关于恢复公务员配额录取制度的决定，示威推翻了时任孟加拉国政府，总理谢赫·哈西娜·瓦吉德出逃至印度。在学生领袖建议下，诺贝尔和平奖得主穆罕默德·尤努斯担任临时政府首席顾问。","chars":1797},{"section":"文化","text":"孟加拉国人原本信仰佛教与印度教，12世纪突厥人入侵后，苏菲派传教士进入传播伊斯兰教，到20世纪初6成民众是伊斯兰穆斯林，只有1/3印度教信徒生活在东孟加拉邦。佛教是孟加拉国第三大宗教，大约占全国人口0.7%，主要信仰上座部佛教。65％佛教徒是集中在吉大港山区的藏缅语族地区，而35％的人口是在吉大港古孟加拉语巴鲁阿社区。佛教团体也分布在不同的城市，特别是吉大港和达卡。\n学制为小学五年、中学七年、大学四年。现政府重视教育，规定八年级以下女生享受免费和义务教育。国立大学21所，私立大学53所，国立医学院13所，普通学院1225所，工艺学校77所，伊斯兰学校8410所，专业培训学院64所，中学17386所，小学78000所。5-24岁适龄学生入学率57%，教师人数17万。孟加拉识字率为62.66%，其中男性为65.94%，女性为58.69%，成人识字率为54.80%。\n孟加拉国电视台（国营）开办于1964年，直属中央政府领导。该电视台在达卡和吉大港有二个站点，在全国有11个转播站。设有2个地面卫星转播站。除新闻节目外，电视台还播放一些外国故事片或连续剧及儿童、教育节目。此外还有ATN、Channel-I、N-tv等私营电视台。","chars":1200},{"section":"文化教育","text":"学制为小学五年、中学七年、大学四年。现政府重视教育，规定八年级以下女生享受免费和义务教育。国立大学21所，私立大学53所，国立医学院13所，普通学院1225所，工艺学校77所，伊斯兰学校8410所，专业培训学院64所，中学17386所，小学78000所。5-24岁适龄学生入学率57%，教师人数17万。孟加拉识字率为62.66%，其中男性为65.94%，女性为58.69%，成人识字率为54.80%。\n主要大学有达卡大学、孟加拉工程技术大学（BUET）、拉杰沙希大学等。","chars":1200}],"landmark_images":[{"title":"File:DG 75 - 09 SINGAIR MOSQUE NEAR SAT GAMBUS MOSQUE BAGERHAT IMG 0254.jpg","caption_zh":"巴格尔哈特清真寺城萨特甘布斯清真寺附近的辛盖尔清真寺","caption":"巴格尔哈特清真寺城萨特甘布斯清真寺附近的辛盖尔清真寺","caption_commons":"This is a photo of a monument in Bangladesh identified by the ID","kw":"Mosque City of Bagerhat","url":"assets/bd/L02.webp","thumb_url":"assets/bd/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/DG_75_-_09_SINGAIR_MOSQUE_NEAR_SAT_GAMBUS_MOSQUE_BAGERHAT_IMG_0254.jpg/1920px-DG_75_-_09_SINGAIR_MOSQUE_NEAR_SAT_GAMBUS_MOSQUE_BAGERHAT_IMG_0254.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Babul abdul malek","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":106198,"caption_zh_manual":"巴格尔哈特清真寺城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7658,"size":{"detail":"1080x658","thumb":"240x146"},"encoding":"webp q75/q78 (源 1920x1169 588KB JPEG)"},{"title":"File:Paharpur - DJI 0792.jpg","caption_zh":"航拍帕哈尔普尔佛教遗址","caption":"航拍帕哈尔普尔佛教遗址","caption_commons":"This is a photo of a monument in Bangladesh identified by the ID","kw":"Somapura Mahavihara Paharpur","url":"assets/bd/L03.webp","thumb_url":"assets/bd/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Paharpur_-_DJI_0792.jpg/1920px-Paharpur_-_DJI_0792.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Md. Ahsanul Haque Nayem","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":178180,"caption_zh_manual":"帕哈尔普尔佛教遗址","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10212,"size":{"detail":"1080x747","thumb":"240x166"},"encoding":"webp q75/q78 (源 1920x1328 997KB JPEG)"},{"title":"File:A Sailboat in Sundarbans, West Bengal, India 07.jpg","caption_zh":"印度西孟加拉邦孙德尔本斯红树林中的帆船","caption":"印度西孟加拉邦孙德尔本斯红树林中的帆船","caption_commons":"A sailboat or sailing boat is a boat propelled partly or entirely by sails and i","kw":"Sundarbans mangrove forest Bangladesh","url":"assets/bd/L04.webp","thumb_url":"assets/bd/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/A_Sailboat_in_Sundarbans%2C_West_Bengal%2C_India_07.jpg/1920px-A_Sailboat_in_Sundarbans%2C_West_Bengal%2C_India_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Kingshuk Mondal","license":"CC BY 4.0","license_url":"https://creativecommons.org/licenses/by/4.0","license_status":"ok","load_verified":true,"bytes":104672,"caption_zh_manual":"孙德尔本斯红树林","caption_zh_source":"llm_from_commons_filename","thumb_bytes":6224,"size":{"detail":"1080x720","thumb":"240x160"},"encoding":"webp q75/q78 (源 1920x1280 634KB JPEG)"},{"title":"File:Ahsan Manzil-Front View.jpg","caption_zh":"阿赫桑曼济勒宫正面视角","caption":"阿赫桑曼济勒宫正面视角","caption_commons":"Ahsan Manjil- Front View","kw":"Ahsan Manzil Dhaka","url":"assets/bd/L05.webp","thumb_url":"assets/bd/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Ahsan_Manzil-Front_View.jpg/1920px-Ahsan_Manzil-Front_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Mahbub Hossain Shaheed (mahosha)","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":192834,"caption_zh_manual":"阿赫桑曼济勒宫","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7866,"size":{"detail":"1080x722","thumb":"240x160"},"encoding":"webp q75/q78 (源 1920x1283 988KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T15:32:32+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P37 无通行语，从 P2936 补：英语","P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Bangladesh.wav、Lb-Bangladesch.ogg、LL-Q652 (ita)-Francyskus-Bangladesh.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py BD","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）","摘要 263 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"伊斯兰教","evidence":"国教为伊斯兰教"}],"architecture":[],"heritage":[],"keywords":[{"v":"孟加拉湾","evidence":"位于孟加拉湾之北"},{"v":"贾木纳河冲积平原","evidence":"国土绝大部分为贾木纳河冲积平原"},{"v":"孟加拉语","evidence":"98%的人口使用孟加拉语"},{"v":"达卡","evidence":"第一大城市是首都达卡"},{"v":"吉大港","evidence":"第二大城市为吉大港市"}],"model":"deepseek-flash"},"summary_text_raw":"孟加拉人民共和国（孟加拉语：গণপ্রজাতন্ত্রী বাংলাদেশ，罗马化：Gaṇaprajātantrī Vāṁlādeśa；英语：People's Republic of Bangladesh），通称孟加拉国（孟加拉语：বাংলাদেশ，罗马化：Vāṁlādēśa，[ˈbaŋladeʃ] ；英语：Bangladesh），南亚国家，为孟加拉地区（Bônggôdeś）的东部部分，位于孟加拉湾之北；东南山区一小部分与缅甸为邻，其他部分都与印度接壤。国土绝大部分为贾木纳河冲积平原，位于孟加拉湾的海域面积大致等同于陆地面积。孟加拉国98%的人口使用孟加拉语，国教为伊斯兰教；人口1.7亿，在世界穆斯林国家中排名第三、仅次于印度尼西亚和巴基斯坦，人口密度1,138人/平方公里（世界排名第七）。第一大城市是首都达卡，而第二大城市为吉大港市，吉大港市同时也拥有该国最大的港口。\n1947年，东孟加拉邦成为巴基斯坦自治领人口最多的省份。","history_text":"孟加拉族是南亚次大陆古老民族之一，最早居民为亚美人，后与达罗毗荼人长期融合形成今天的孟加拉人。9世纪已有统一封建国家，早期多信奉佛教、印度教，13世纪受外来影响改信伊斯兰教。17世纪被莫卧儿帝国征服，1757年普拉西战役后遭受英国殖民统治，成为英属印度一部分。1947年印巴分治，东孟加拉归巴基斯坦自治领，后称东巴基斯坦，因地理隔绝与语言文化差异，内部矛盾走向不可调和，最终引发冲突。","custom_text":"清晨的达卡街头，男人裹着笼吉裙，女人披着纱丽，走进清真寺前先净手脱鞋。开斋节时全家换上新衣，街巷摆出甜米糕和油炸面食，亲友互相登门道贺。吉大港山区的佛教徒在卫塞节提着灯笼绕塔而行，诵经声与平日的唤礼声在同一片山谷里交替响起。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":192,"folk":112}},"knowledge_qa":[{"q":"孟加拉国在哪儿啊？周围挨着哪些国家？","a":"孟加拉国在南亚，位于孟加拉湾之北。东南山区一小部分与缅甸为邻，其他部分都与印度接壤。","tags":["孟加拉国","位置","邻国","南亚"]},{"q":"孟加拉国首都是哪？第一大城市是哪里？","a":"首都是达卡，也是第一大城市。第二大城市是吉大港市，那里有该国最大的港口。","tags":["首都","达卡","大城市","吉大港"]},{"q":"孟加拉国说什么语言？","a":"官方语言是孟加拉语，英语也被使用。全国98%的人口使用孟加拉语。","tags":["语言","孟加拉语","英语","说什么话"]},{"q":"孟加拉国有什么值得一看的地标或景点？","a":"有孟加拉国国会大厦、巴格尔哈特清真寺城、帕哈尔普尔佛教遗址、孙德尔本斯红树林和阿赫桑曼济勒宫。","tags":["地标","景点","国会大厦","红树林"]},{"q":"孟加拉国人口多少？密度大不大？","a":"人口1.7亿，在世界穆斯林国家中排名第三，仅次于印度尼西亚和巴基斯坦。人口密度1,138人/平方公里，世界排名第七。","tags":["人口","密度","多少人"]},{"q":"孟加拉国的国土是什么样子的？","a":"国土绝大部分为贾木纳河冲积平原，位于孟加拉湾的海域面积大致等同于陆地面积。","tags":["地形","平原","国土","河流"]},{"q":"孟加拉国的国教是什么？","a":"国教为伊斯兰教。","tags":["宗教","伊斯兰教","国教"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[9258,2198],[9263,2128],[9257,2125],[9252,2136],[9232,2146],[9218,2130],[9233,2074],[9195,2144],[9204,2166],[9195,2170],[9199,2180],[9190,2179],[9195,2188],[9181,2218],[9191,2242],[9179,2224],[9168,2254],[9146,2276],[9149,2290],[9132,2270],[9118,2273],[9126,2264],[9120,2254],[9109,2254],[9102,2268],[9104,2259],[9094,2259],[9063,2306],[9067,2327],[9060,2345],[9072,2354],[9061,2349],[9061,2361],[9048,2358],[9058,2354],[9055,2338],[9025,2346],[9061,2323],[9057,2308],[9045,2306],[9054,2289],[9037,2276],[9049,2271],[9044,2249],[9052,2258],[9061,2247],[9056,2220],[9041,2209],[9039,2229],[9027,2186],[9009,2183],[9013,2193],[9002,2186],[9024,2217],[9003,2199],[9005,2216],[8993,2200],[8988,2226],[9001,2249],[8987,2242],[8987,2209],[8980,2208],[8988,2188],[8971,2183],[8965,2192],[8970,2178],[8959,2170],[8953,2181],[8963,2234],[8953,2198],[8948,2230],[8952,2196],[8947,2178],[8937,2174],[8935,2197],[8930,2168],[8921,2165],[8919,2181],[8910,2182],[8908,2218],[8893,2255],[8894,2285],[8884,2298],[8896,2320],[8870,2325],[8877,2349],[8854,2365],[8858,2386],[8871,2392],[8868,2415],[8874,2429],[8848,2432],[8811,2450],[8802,2465],[8812,2492],[8832,2488],[8844,2519],[8892,2517],[8898,2528],[8884,2533],[8877,2550],[8853,2550],[8826,2579],[8809,2583],[8816,2614],[8850,2635],[8846,2645],[8832,2646],[8838,2662],[8866,2642],[8871,2633],[8866,2626],[8902,2623],[8889,2639],[8894,2644],[8904,2638],[8912,2615],[8934,2600],[8954,2596],[8961,2607],[8956,2614],[8965,2622],[8983,2598],[8982,2528],[9036,2515],[9124,2520],[9164,2512],[9203,2518],[9248,2493],[9238,2484],[9222,2489],[9211,2441],[9190,2434],[9188,2416],[9173,2423],[9170,2414],[9163,2422],[9158,2410],[9136,2410],[9113,2372],[9131,2310],[9137,2306],[9139,2326],[9159,2294],[9180,2309],[9174,2327],[9194,2350],[9192,2372],[9202,2364],[9215,2373],[9219,2365],[9226,2371],[9235,2296],[9250,2270],[9258,2198]],[[9079,2250],[9086,2244],[9084,2218],[9065,2199],[9069,2238],[9056,2260],[9058,2277],[9065,2279],[9079,2250]],[[9115,2236],[9119,2223],[9102,2210],[9108,2239],[9115,2236]],[[9194,2176],[9197,2152],[9188,2148],[9185,2173],[9189,2168],[9194,2176]]]}
+{
+  "qid": "Q902",
+  "iso_a2": "BD",
+  "iso_a3": "BGD",
+  "name_zh": "孟加拉国",
+  "name_en": "Bangladesh",
+  "capital": "达卡",
+  "continent": "亚洲",
+  "centroid": [
+    89.8667,
+    24.0167
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "spoken",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "bn",
+      "name_zh": "孟加拉语",
+      "name_local": "孟加拉语",
+      "role": "official",
+      "audio_url": "assets/bd/audio/bn.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "বাংলাদেশে আপনাকে স্বাগতম; এই দেশের রাজধানী ঢাকা, যেখানে লালবাগ কেল্লার পুরোনো দেয়াল ও গম্বুজ আজও ইতিহাসের গল্প বলে।",
+      "tts_text_zh": "欢迎来到孟加拉国；这个国家的首都是达卡，拉尔巴格堡古老的城墙与穹顶至今仍在诉说历史的故事。",
+      "audio_voice": "bn-BD-NabanitaNeural",
+      "audio_bytes": 49968
+    }
+  ],
+  "summary_text": "孟加拉人民共和国通称孟加拉国，是位于南亚的国家，为孟加拉地区的东部部分，地处孟加拉湾之北。其东南山区有一小部分与缅甸为邻，其他部分都与印度接壤，位于孟加拉湾的海域面积大致等同于陆地面积。孟加拉国国土绝大部分为贾木纳河冲积平原。首都达卡是第一大城市，第二大城市为吉大港市，吉大港市同时也拥有该国最大的港口。孟加拉国98%的人口使用孟加拉语，国教为伊斯兰教；人口1.7亿，在世界穆斯林国家中排名第三，仅次于印度尼西亚和巴基斯坦，人口密度为每平方公里1138人，世界排名第七。1947年，东孟加拉邦成为巴基斯坦自治领人口最多的省份。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 263,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%AD%9F%E5%8A%A0%E6%8B%89%E5%9B%BD",
+    "title": "孟加拉国"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "孟加拉族是南亚次大陆古老民族之一。孟加拉地区的最早居民是亚美人。尔后与达罗毗荼人种经过长期融合，逐渐形成今天的孟加拉人。9世纪已有统一的封建国家。孟加拉地区人民早期多信奉佛教、印度教。13世纪受外来影响改信伊斯兰教，16世纪时，该地区已经发展成南亚次大陆上人口最稠密、经济最发达、文化昌盛的地区。17世纪被莫卧儿帝国征服。1757年普拉西战役后遭受英国殖民统治，日后成为英属印度一部分。1765年，以加尔各答为中心的孟加拉管辖区建立。1905年孟加拉地区曾被英国殖民政府分割成东西两部，后来复合。1947年印巴分治时，英属印度分为印度自治领及巴基斯坦自治领。孟加拉地区亦被再次分割：西孟加拉地区归印度自治领（今印度西孟加拉邦），东孟加拉地区归巴基斯坦自治领。东孟加拉地区改称东巴基斯坦，西巴基斯坦即今巴基斯坦。由于地理上的相互隔绝，民族、文化和语言的巨大差异终于使相距约2000公里的东、西巴基斯坦内部矛盾走向不可调和的地步。1970年巴基斯坦大选后，巴基斯坦中央政府未按时将权力移交给赢得绝对性多数的孟加拉人民联盟，引发东巴基斯坦人民不满并出现了抗议和冲突。3月25日，巴基斯坦中央政府军事干预东巴基斯坦，开展探照灯行动。1971年3月26日东巴基斯坦宣布独立（英语：Proclamation of Bangladeshi Independence），并在4月于印度加尔各答成立孟加拉人民共和国临时政府。随后因为探照灯行动的持续升级，东巴基斯坦发生大规模动乱和难民潮，几百万人离开家园涌入邻国印度。西巴基斯坦意识到印度武力干预不可避免，在12月3日发动成吉思汗行动以期先发制人。当天晚上，印度指巴基斯坦已对印度发动战争，并开始武装干预巴基斯坦内战，第三次印巴战争爆发。12月8日，美国驻联合国大使乔治·赫伯特·沃克·布什在联合国安理会提交了一份决议呼吁印巴停火，并被苏联否决。印军于12月16日攻占达卡，东巴驻军无条件投降。1972年1月成立孟加拉人民共和国，巴基斯坦总统佐勒菲卡尔·阿里·布托释放了被以“叛国罪”逮捕的东巴人民联盟领袖谢赫·穆吉布·拉赫曼，此人就任孟加拉国首任总统。马来西亚和其邻国印度尼西亚于1972年2月24日正式承认孟加拉国的独立，也是首批承认孟国的穆斯林居多国家。1999年，马来西亚首相马哈蒂尔·穆罕默德曾经访问孟加拉国，同时孟加拉国总理谢赫·哈西娜也于2000年访问马来西亚。两次访问使得两国开始进行合作，使孟加拉国劳工能够出口至马来西亚。1975年8月15日，孟加拉国人民联盟领袖、首任总统谢赫·穆吉布·拉赫曼遇刺身亡。1981年5月30日，孟加拉国民族主义党领袖、齐亚·拉赫曼总统在吉大港遇刺身亡，阿卜杜勒·萨塔尔出任代总统。1982年3月24日，陆军参谋长侯赛因·穆罕默德·艾尔沙德宣布实行军管，解除萨塔尔的总统职务，自任军法管制首席执行官兼武装部队总司令，后任总统。齐亚·拉赫曼遗孀卡莉达·齐亚领导的民族主义党及穆吉布·拉赫曼长女谢赫·哈西娜领导的人民联盟与艾尔沙德军政府展开斗争，1990年12月6日，艾尔沙德辞职，结束他九年的独裁统治。在1991年大选中，卡莉达·齐亚获胜出任总理。2006年10月31日，无党派看守军政府成立，总统亚杰丁·艾哈迈德兼任看守军政府总理。孟加拉国第九届议会选举原定于2007年1月22日举行，但由于当时两大政党前总理卡莉达·齐亚为首的民族主义党(BNP)和以前总理谢赫·哈西娜为首的人民联盟斗争日趋激烈，政局日益恶化，总统亚杰丁·艾哈迈德被迫于2007年1月11日宣布国家进入紧急状态，取消一切政党活动。2007年1月12日，法赫尔丁·艾哈迈德宣誓就任看守政府总理。他的看守军政府执政两年，在国际压力下，2008年12月29日举办国会大选，结果为孟加拉国人民联盟大胜，赢得国会300席中262席，党主席谢赫·哈西娜于2009年1月6日第二次出任总理。2009年2月12日齐鲁尔·拉赫曼就任第十九任孟加拉国总统，人民联盟持续为孟加拉执政党至今。近年孟加拉国社会较为稳定，经济发展迅速。2024年，孟加拉国发生左翼领导的大规模游行示威以抗议最高法院做出的关于恢复公务员配额录取制度的决定，示威推翻了时任孟加拉国政府，总理谢赫·哈西娜·瓦吉德出逃至印度。在学生领袖建议下，诺贝尔和平奖得主穆罕默德·尤努斯担任临时政府首席顾问。",
+      "chars": 1797
+    },
+    {
+      "section": "文化",
+      "text": "孟加拉国人原本信仰佛教与印度教，12世纪突厥人入侵后，苏菲派传教士进入传播伊斯兰教，到20世纪初6成民众是伊斯兰穆斯林，只有1/3印度教信徒生活在东孟加拉邦。佛教是孟加拉国第三大宗教，大约占全国人口0.7%，主要信仰上座部佛教。65％佛教徒是集中在吉大港山区的藏缅语族地区，而35％的人口是在吉大港古孟加拉语巴鲁阿社区。佛教团体也分布在不同的城市，特别是吉大港和达卡。\n学制为小学五年、中学七年、大学四年。现政府重视教育，规定八年级以下女生享受免费和义务教育。国立大学21所，私立大学53所，国立医学院13所，普通学院1225所，工艺学校77所，伊斯兰学校8410所，专业培训学院64所，中学17386所，小学78000所。5-24岁适龄学生入学率57%，教师人数17万。孟加拉识字率为62.66%，其中男性为65.94%，女性为58.69%，成人识字率为54.80%。\n孟加拉国电视台（国营）开办于1964年，直属中央政府领导。该电视台在达卡和吉大港有二个站点，在全国有11个转播站。设有2个地面卫星转播站。除新闻节目外，电视台还播放一些外国故事片或连续剧及儿童、教育节目。此外还有ATN、Channel-I、N-tv等私营电视台。",
+      "chars": 1200
+    },
+    {
+      "section": "文化教育",
+      "text": "学制为小学五年、中学七年、大学四年。现政府重视教育，规定八年级以下女生享受免费和义务教育。国立大学21所，私立大学53所，国立医学院13所，普通学院1225所，工艺学校77所，伊斯兰学校8410所，专业培训学院64所，中学17386所，小学78000所。5-24岁适龄学生入学率57%，教师人数17万。孟加拉识字率为62.66%，其中男性为65.94%，女性为58.69%，成人识字率为54.80%。\n主要大学有达卡大学、孟加拉工程技术大学（BUET）、拉杰沙希大学等。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:DG 75 - 09 SINGAIR MOSQUE NEAR SAT GAMBUS MOSQUE BAGERHAT IMG 0254.jpg",
+      "caption_zh": "巴格尔哈特清真寺城萨特甘布斯清真寺附近的辛盖尔清真寺",
+      "caption": "巴格尔哈特清真寺城萨特甘布斯清真寺附近的辛盖尔清真寺",
+      "caption_commons": "This is a photo of a monument in Bangladesh identified by the ID",
+      "kw": "Mosque City of Bagerhat",
+      "url": "assets/bd/L02.webp",
+      "thumb_url": "assets/bd/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/DG_75_-_09_SINGAIR_MOSQUE_NEAR_SAT_GAMBUS_MOSQUE_BAGERHAT_IMG_0254.jpg/1920px-DG_75_-_09_SINGAIR_MOSQUE_NEAR_SAT_GAMBUS_MOSQUE_BAGERHAT_IMG_0254.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Babul abdul malek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 106198,
+      "caption_zh_manual": "巴格尔哈特清真寺城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7658,
+      "size": {
+        "detail": "1080x658",
+        "thumb": "240x146"
+      },
+      "encoding": "webp q75/q78 (源 1920x1169 588KB JPEG)"
+    },
+    {
+      "title": "File:Ruins of Bhuddist Bihara - Somapura Mahavihara.jpg",
+      "caption_zh": "帕哈尔普尔佛教遗址",
+      "caption": "帕哈尔普尔佛教遗址",
+      "caption_commons": "This is a photo of a monument in Bangladesh identified by the ID",
+      "kw": "Somapura Mahavihara Paharpur",
+      "url": "assets/bd/L03.webp",
+      "thumb_url": "assets/bd/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ruins_of_Bhuddist_Bihara_-_Somapura_Mahavihara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Khan-Tanvir",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 89068,
+      "caption_zh_manual": "帕哈尔普尔佛教遗址",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5284,
+      "encoding": "webp q75/q78 (源 1451x1067 1378KB JPEG)",
+      "verified": "vision",
+      "size": {
+        "detail": "1080x794",
+        "thumb": "240x176"
+      }
+    },
+    {
+      "title": "File:A Sailboat in Sundarbans, West Bengal, India 07.jpg",
+      "caption_zh": "印度西孟加拉邦孙德尔本斯红树林中的帆船",
+      "caption": "印度西孟加拉邦孙德尔本斯红树林中的帆船",
+      "caption_commons": "A sailboat or sailing boat is a boat propelled partly or entirely by sails and i",
+      "kw": "Sundarbans mangrove forest Bangladesh",
+      "url": "assets/bd/L04.webp",
+      "thumb_url": "assets/bd/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/A_Sailboat_in_Sundarbans%2C_West_Bengal%2C_India_07.jpg/1920px-A_Sailboat_in_Sundarbans%2C_West_Bengal%2C_India_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Kingshuk Mondal",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 104672,
+      "caption_zh_manual": "孙德尔本斯红树林",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6224,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 634KB JPEG)"
+    },
+    {
+      "title": "File:Ahsan Manzil-Front View.jpg",
+      "caption_zh": "阿赫桑曼济勒宫正面视角",
+      "caption": "阿赫桑曼济勒宫正面视角",
+      "caption_commons": "Ahsan Manjil- Front View",
+      "kw": "Ahsan Manzil Dhaka",
+      "url": "assets/bd/L05.webp",
+      "thumb_url": "assets/bd/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Ahsan_Manzil-Front_View.jpg/1920px-Ahsan_Manzil-Front_View.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Mahbub Hossain Shaheed (mahosha)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 192834,
+      "caption_zh_manual": "阿赫桑曼济勒宫",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7866,
+      "size": {
+        "detail": "1080x722",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1283 988KB JPEG)"
+    },
+    {
+      "title": "File:Cox's Bazar (45206249491).jpg",
+      "caption_zh": "科克斯巴扎尔海滩",
+      "caption": "科克斯巴扎尔海滩",
+      "kw": "Cox's Bazar beach Bangladesh",
+      "url": "assets/bd/L01.webp",
+      "thumb_url": "assets/bd/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cox%27s_Bazar_%2845206249491%29.jpg/1920px-Cox%27s_Bazar_%2845206249491%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Tareq Uddin Ahmed from chittagon, Bangladesh",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "bytes": 20354,
+      "verified": "vision",
+      "thumb_bytes": 1786,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 383KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T15:32:32+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P37 无通行语，从 P2936 补：英语",
+    "P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Bangladesh.wav、Lb-Bangladesch.ogg、LL-Q652 (ita)-Francyskus-Bangladesh.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py BD",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）",
+    "摘要 263 字，低于 300 字要求：剔除政治史后素材不足。补齐办法是采集阶段增取 Wikipedia 的「地理」章节"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 3 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "伊斯兰教",
+        "evidence": "国教为伊斯兰教"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "孟加拉湾",
+        "evidence": "位于孟加拉湾之北"
+      },
+      {
+        "v": "贾木纳河冲积平原",
+        "evidence": "国土绝大部分为贾木纳河冲积平原"
+      },
+      {
+        "v": "孟加拉语",
+        "evidence": "98%的人口使用孟加拉语"
+      },
+      {
+        "v": "达卡",
+        "evidence": "第一大城市是首都达卡"
+      },
+      {
+        "v": "吉大港",
+        "evidence": "第二大城市为吉大港市"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "孟加拉人民共和国（孟加拉语：গণপ্রজাতন্ত্রী বাংলাদেশ，罗马化：Gaṇaprajātantrī Vāṁlādeśa；英语：People's Republic of Bangladesh），通称孟加拉国（孟加拉语：বাংলাদেশ，罗马化：Vāṁlādēśa，[ˈbaŋladeʃ] ；英语：Bangladesh），南亚国家，为孟加拉地区（Bônggôdeś）的东部部分，位于孟加拉湾之北；东南山区一小部分与缅甸为邻，其他部分都与印度接壤。国土绝大部分为贾木纳河冲积平原，位于孟加拉湾的海域面积大致等同于陆地面积。孟加拉国98%的人口使用孟加拉语，国教为伊斯兰教；人口1.7亿，在世界穆斯林国家中排名第三、仅次于印度尼西亚和巴基斯坦，人口密度1,138人/平方公里（世界排名第七）。第一大城市是首都达卡，而第二大城市为吉大港市，吉大港市同时也拥有该国最大的港口。\n1947年，东孟加拉邦成为巴基斯坦自治领人口最多的省份。",
+  "history_text": "孟加拉族是南亚次大陆古老民族之一，最早居民为亚美人，后与达罗毗荼人长期融合形成今天的孟加拉人。9世纪已有统一封建国家，早期多信奉佛教、印度教，13世纪受外来影响改信伊斯兰教。17世纪被莫卧儿帝国征服，1757年普拉西战役后遭受英国殖民统治，成为英属印度一部分。1947年印巴分治，东孟加拉归巴基斯坦自治领，后称东巴基斯坦，因地理隔绝与语言文化差异，内部矛盾走向不可调和，最终引发冲突。",
+  "custom_text": "清晨的达卡街头，男人裹着笼吉裙，女人披着纱丽，走进清真寺前先净手脱鞋。开斋节时全家换上新衣，街巷摆出甜米糕和油炸面食，亲友互相登门道贺。吉大港山区的佛教徒在卫塞节提着灯笼绕塔而行，诵经声与平日的唤礼声在同一片山谷里交替响起。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 192,
+      "folk": 112
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "孟加拉国在哪儿啊？周围挨着哪些国家？",
+      "a": "孟加拉国在南亚，位于孟加拉湾之北。东南山区一小部分与缅甸为邻，其他部分都与印度接壤。",
+      "tags": [
+        "孟加拉国",
+        "位置",
+        "邻国",
+        "南亚"
+      ]
+    },
+    {
+      "q": "孟加拉国首都是哪？第一大城市是哪里？",
+      "a": "首都是达卡，也是第一大城市。第二大城市是吉大港市，那里有该国最大的港口。",
+      "tags": [
+        "首都",
+        "达卡",
+        "大城市",
+        "吉大港"
+      ]
+    },
+    {
+      "q": "孟加拉国说什么语言？",
+      "a": "官方语言是孟加拉语，英语也被使用。全国98%的人口使用孟加拉语。",
+      "tags": [
+        "语言",
+        "孟加拉语",
+        "英语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "孟加拉国有什么值得一看的地标或景点？",
+      "a": "有孟加拉国国会大厦、巴格尔哈特清真寺城、帕哈尔普尔佛教遗址、孙德尔本斯红树林和阿赫桑曼济勒宫。",
+      "tags": [
+        "地标",
+        "景点",
+        "国会大厦",
+        "红树林"
+      ]
+    },
+    {
+      "q": "孟加拉国人口多少？密度大不大？",
+      "a": "人口1.7亿，在世界穆斯林国家中排名第三，仅次于印度尼西亚和巴基斯坦。人口密度1,138人/平方公里，世界排名第七。",
+      "tags": [
+        "人口",
+        "密度",
+        "多少人"
+      ]
+    },
+    {
+      "q": "孟加拉国的国土是什么样子的？",
+      "a": "国土绝大部分为贾木纳河冲积平原，位于孟加拉湾的海域面积大致等同于陆地面积。",
+      "tags": [
+        "地形",
+        "平原",
+        "国土",
+        "河流"
+      ]
+    },
+    {
+      "q": "孟加拉国的国教是什么？",
+      "a": "国教为伊斯兰教。",
+      "tags": [
+        "宗教",
+        "伊斯兰教",
+        "国教"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        9258,
+        2198
+      ],
+      [
+        9263,
+        2128
+      ],
+      [
+        9257,
+        2125
+      ],
+      [
+        9252,
+        2136
+      ],
+      [
+        9232,
+        2146
+      ],
+      [
+        9218,
+        2130
+      ],
+      [
+        9233,
+        2074
+      ],
+      [
+        9195,
+        2144
+      ],
+      [
+        9204,
+        2166
+      ],
+      [
+        9195,
+        2170
+      ],
+      [
+        9199,
+        2180
+      ],
+      [
+        9190,
+        2179
+      ],
+      [
+        9195,
+        2188
+      ],
+      [
+        9181,
+        2218
+      ],
+      [
+        9191,
+        2242
+      ],
+      [
+        9179,
+        2224
+      ],
+      [
+        9168,
+        2254
+      ],
+      [
+        9146,
+        2276
+      ],
+      [
+        9149,
+        2290
+      ],
+      [
+        9132,
+        2270
+      ],
+      [
+        9118,
+        2273
+      ],
+      [
+        9126,
+        2264
+      ],
+      [
+        9120,
+        2254
+      ],
+      [
+        9109,
+        2254
+      ],
+      [
+        9102,
+        2268
+      ],
+      [
+        9104,
+        2259
+      ],
+      [
+        9094,
+        2259
+      ],
+      [
+        9063,
+        2306
+      ],
+      [
+        9067,
+        2327
+      ],
+      [
+        9060,
+        2345
+      ],
+      [
+        9072,
+        2354
+      ],
+      [
+        9061,
+        2349
+      ],
+      [
+        9061,
+        2361
+      ],
+      [
+        9048,
+        2358
+      ],
+      [
+        9058,
+        2354
+      ],
+      [
+        9055,
+        2338
+      ],
+      [
+        9025,
+        2346
+      ],
+      [
+        9061,
+        2323
+      ],
+      [
+        9057,
+        2308
+      ],
+      [
+        9045,
+        2306
+      ],
+      [
+        9054,
+        2289
+      ],
+      [
+        9037,
+        2276
+      ],
+      [
+        9049,
+        2271
+      ],
+      [
+        9044,
+        2249
+      ],
+      [
+        9052,
+        2258
+      ],
+      [
+        9061,
+        2247
+      ],
+      [
+        9056,
+        2220
+      ],
+      [
+        9041,
+        2209
+      ],
+      [
+        9039,
+        2229
+      ],
+      [
+        9027,
+        2186
+      ],
+      [
+        9009,
+        2183
+      ],
+      [
+        9013,
+        2193
+      ],
+      [
+        9002,
+        2186
+      ],
+      [
+        9024,
+        2217
+      ],
+      [
+        9003,
+        2199
+      ],
+      [
+        9005,
+        2216
+      ],
+      [
+        8993,
+        2200
+      ],
+      [
+        8988,
+        2226
+      ],
+      [
+        9001,
+        2249
+      ],
+      [
+        8987,
+        2242
+      ],
+      [
+        8987,
+        2209
+      ],
+      [
+        8980,
+        2208
+      ],
+      [
+        8988,
+        2188
+      ],
+      [
+        8971,
+        2183
+      ],
+      [
+        8965,
+        2192
+      ],
+      [
+        8970,
+        2178
+      ],
+      [
+        8959,
+        2170
+      ],
+      [
+        8953,
+        2181
+      ],
+      [
+        8963,
+        2234
+      ],
+      [
+        8953,
+        2198
+      ],
+      [
+        8948,
+        2230
+      ],
+      [
+        8952,
+        2196
+      ],
+      [
+        8947,
+        2178
+      ],
+      [
+        8937,
+        2174
+      ],
+      [
+        8935,
+        2197
+      ],
+      [
+        8930,
+        2168
+      ],
+      [
+        8921,
+        2165
+      ],
+      [
+        8919,
+        2181
+      ],
+      [
+        8910,
+        2182
+      ],
+      [
+        8908,
+        2218
+      ],
+      [
+        8893,
+        2255
+      ],
+      [
+        8894,
+        2285
+      ],
+      [
+        8884,
+        2298
+      ],
+      [
+        8896,
+        2320
+      ],
+      [
+        8870,
+        2325
+      ],
+      [
+        8877,
+        2349
+      ],
+      [
+        8854,
+        2365
+      ],
+      [
+        8858,
+        2386
+      ],
+      [
+        8871,
+        2392
+      ],
+      [
+        8868,
+        2415
+      ],
+      [
+        8874,
+        2429
+      ],
+      [
+        8848,
+        2432
+      ],
+      [
+        8811,
+        2450
+      ],
+      [
+        8802,
+        2465
+      ],
+      [
+        8812,
+        2492
+      ],
+      [
+        8832,
+        2488
+      ],
+      [
+        8844,
+        2519
+      ],
+      [
+        8892,
+        2517
+      ],
+      [
+        8898,
+        2528
+      ],
+      [
+        8884,
+        2533
+      ],
+      [
+        8877,
+        2550
+      ],
+      [
+        8853,
+        2550
+      ],
+      [
+        8826,
+        2579
+      ],
+      [
+        8809,
+        2583
+      ],
+      [
+        8816,
+        2614
+      ],
+      [
+        8850,
+        2635
+      ],
+      [
+        8846,
+        2645
+      ],
+      [
+        8832,
+        2646
+      ],
+      [
+        8838,
+        2662
+      ],
+      [
+        8866,
+        2642
+      ],
+      [
+        8871,
+        2633
+      ],
+      [
+        8866,
+        2626
+      ],
+      [
+        8902,
+        2623
+      ],
+      [
+        8889,
+        2639
+      ],
+      [
+        8894,
+        2644
+      ],
+      [
+        8904,
+        2638
+      ],
+      [
+        8912,
+        2615
+      ],
+      [
+        8934,
+        2600
+      ],
+      [
+        8954,
+        2596
+      ],
+      [
+        8961,
+        2607
+      ],
+      [
+        8956,
+        2614
+      ],
+      [
+        8965,
+        2622
+      ],
+      [
+        8983,
+        2598
+      ],
+      [
+        8982,
+        2528
+      ],
+      [
+        9036,
+        2515
+      ],
+      [
+        9124,
+        2520
+      ],
+      [
+        9164,
+        2512
+      ],
+      [
+        9203,
+        2518
+      ],
+      [
+        9248,
+        2493
+      ],
+      [
+        9238,
+        2484
+      ],
+      [
+        9222,
+        2489
+      ],
+      [
+        9211,
+        2441
+      ],
+      [
+        9190,
+        2434
+      ],
+      [
+        9188,
+        2416
+      ],
+      [
+        9173,
+        2423
+      ],
+      [
+        9170,
+        2414
+      ],
+      [
+        9163,
+        2422
+      ],
+      [
+        9158,
+        2410
+      ],
+      [
+        9136,
+        2410
+      ],
+      [
+        9113,
+        2372
+      ],
+      [
+        9131,
+        2310
+      ],
+      [
+        9137,
+        2306
+      ],
+      [
+        9139,
+        2326
+      ],
+      [
+        9159,
+        2294
+      ],
+      [
+        9180,
+        2309
+      ],
+      [
+        9174,
+        2327
+      ],
+      [
+        9194,
+        2350
+      ],
+      [
+        9192,
+        2372
+      ],
+      [
+        9202,
+        2364
+      ],
+      [
+        9215,
+        2373
+      ],
+      [
+        9219,
+        2365
+      ],
+      [
+        9226,
+        2371
+      ],
+      [
+        9235,
+        2296
+      ],
+      [
+        9250,
+        2270
+      ],
+      [
+        9258,
+        2198
+      ]
+    ],
+    [
+      [
+        9079,
+        2250
+      ],
+      [
+        9086,
+        2244
+      ],
+      [
+        9084,
+        2218
+      ],
+      [
+        9065,
+        2199
+      ],
+      [
+        9069,
+        2238
+      ],
+      [
+        9056,
+        2260
+      ],
+      [
+        9058,
+        2277
+      ],
+      [
+        9065,
+        2279
+      ],
+      [
+        9079,
+        2250
+      ]
+    ],
+    [
+      [
+        9115,
+        2236
+      ],
+      [
+        9119,
+        2223
+      ],
+      [
+        9102,
+        2210
+      ],
+      [
+        9108,
+        2239
+      ],
+      [
+        9115,
+        2236
+      ]
+    ],
+    [
+      [
+        9194,
+        2176
+      ],
+      [
+        9197,
+        2152
+      ],
+      [
+        9188,
+        2148
+      ],
+      [
+        9185,
+        2173
+      ],
+      [
+        9189,
+        2168
+      ],
+      [
+        9194,
+        2176
+      ]
+    ]
+  ]
+}

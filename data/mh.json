@@ -98,30 +98,31 @@
       "encoding": "webp q75/q78 (源 1080x708 746KB JPEG)"
     },
     {
-      "title": "File:Kwajalein Atoll 2.jpg",
+      "title": "File:Aerial view, Kwajalein Atoll, Marshall Islands.jpg",
       "caption_zh": "夸贾林环礁",
       "caption": "夸贾林环礁",
       "caption_commons": "National Atlas of the United States, page \"Pacific Outlying Areas\", with map ins",
       "kw": "Kwajalein Atoll aerial",
       "url": "assets/mh/L04.webp",
       "thumb_url": "assets/mh/L04.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Kwajalein_Atoll_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "article_img",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Aerial_view%2C_Kwajalein_Atoll%2C_Marshall_Islands.jpg/1920px-Aerial_view%2C_Kwajalein_Atoll%2C_Marshall_Islands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
       "pick_tier": "strict",
-      "author": "United States Department of the Interior",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "Matt Kieffer from London, United Kingdom",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 64406,
+      "bytes": 24752,
       "caption_zh_manual": "夸贾林环礁",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 2972,
+      "thumb_bytes": 2956,
       "size": {
-        "detail": "755x699",
-        "thumb": "194x180"
+        "detail": "1080x810",
+        "thumb": "240x180"
       },
-      "encoding": "webp q75/q78 (源 755x699 197KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1440 331KB JPEG)",
+      "verified": "vision"
     },
     {
       "title": "File:St. Joseph's School on Jabor, Jaluit.png",
@@ -139,15 +140,15 @@
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 12930,
+      "bytes": 92814,
       "caption_zh_manual": "贾卢伊特环礁",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 3246,
+      "thumb_bytes": 4270,
       "size": {
-        "detail": "400x539",
-        "thumb": "134x180"
+        "detail": "1080x811",
+        "thumb": "240x180"
       },
-      "encoding": "webp q75/q78 (源 400x539 517KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1442 643KB JPEG)"
     },
     {
       "title": "File:Majuro and Arno Atolls 2.jpg",
@@ -165,15 +166,15 @@
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 59840,
+      "bytes": 70666,
       "caption_zh_manual": "阿灵inae环礁",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4230,
+      "thumb_bytes": 5024,
       "size": {
-        "detail": "753x493",
-        "thumb": "240x157"
+        "detail": "1080x719",
+        "thumb": "240x160"
       },
-      "encoding": "webp q75/q78 (源 753x493 164KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1278 455KB JPEG)"
     }
   ],
   "image_license": "CC BY-SA 3.0 igo",

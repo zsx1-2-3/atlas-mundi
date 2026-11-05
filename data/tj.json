@@ -130,15 +130,15 @@
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 46922,
+      "bytes": 213962,
       "caption_zh_manual": "费德琴科冰川",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4028,
+      "thumb_bytes": 13734,
       "size": {
-        "detail": "472x590",
-        "thumb": "144x180"
+        "detail": "1080x720",
+        "thumb": "240x160"
       },
-      "encoding": "webp q75/q78 (源 472x590 74KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1280 1004KB JPEG)"
     },
     {
       "title": "File:Gissar (Hisor) fortress - panoramio.jpg",

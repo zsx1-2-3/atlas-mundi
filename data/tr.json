@@ -106,30 +106,31 @@
       "encoding": "webp q75/q78 (源 1920x1289 488KB JPEG)"
     },
     {
-      "title": "File:Achaemenid Cappadocia.jpg",
+      "title": "File:Cappadocia Aerial View (6998755984).jpg",
       "caption_zh": "卡帕多奇亚热气球",
       "caption": "卡帕多奇亚热气球",
       "caption_commons": "Achaemenid Cappadocia",
       "kw": "Cappadocia hot air balloons Goreme",
       "url": "assets/tr/L03.webp",
       "thumb_url": "assets/tr/L03.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Achaemenid_Cappadocia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cappadocia_Aerial_View_%286998755984%29.jpg/1920px-Cappadocia_Aerial_View_%286998755984%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Mossmaps",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Benh LIEU SONG from Torcy, France",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 55580,
+      "bytes": 199494,
       "caption_zh_manual": "卡帕多奇亚热气球",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 7508,
+      "thumb_bytes": 11666,
       "size": {
-        "detail": "996x694",
-        "thumb": "240x167"
+        "detail": "1080x720",
+        "thumb": "240x160"
       },
-      "encoding": "webp q75/q78 (源 996x694 503KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1280 1012KB JPEG)",
+      "verified": "vision"
     },
     {
       "title": "File:Ephesus Terrace Houses.jpg",

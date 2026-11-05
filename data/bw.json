@@ -137,30 +137,31 @@
       "encoding": "webp q75/q78 (源 1920x1277 1139KB JPEG)"
     },
     {
-      "title": "File:Kalahari.png",
+      "title": "File:Kalahari E02 00.jpg",
       "caption_zh": "卡拉哈里沙漠",
       "caption": "卡拉哈里沙漠",
       "caption_commons": "NASA World Wind 1.4 used.",
       "kw": "Kalahari Desert Botswana",
       "url": "assets/bw/L05.webp",
       "thumb_url": "assets/bw/L05.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kalahari.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "wikidata_p18",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Kalahari_E02_00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
       "pick_tier": "strict",
-      "author": "Emilfarb at English Wikipedia",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "Elmar Thiel",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 35070,
+      "bytes": 106432,
       "caption_zh_manual": "卡拉哈里沙漠",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 3348,
+      "thumb_bytes": 8534,
       "size": {
-        "detail": "608x728",
-        "thumb": "150x180"
+        "detail": "1017x682",
+        "thumb": "240x161"
       },
-      "encoding": "webp q75/q78 (源 608x728 672KB JPEG)"
+      "encoding": "webp q75/q78 (源 1017x682 564KB JPEG)",
+      "verified": "vision"
     },
     {
       "title": "File:Moremi elephant.jpg",

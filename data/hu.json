@@ -163,30 +163,31 @@
       "encoding": "webp q75/q78 (源 1920x2555 1186KB JPEG)"
     },
     {
-      "title": "File:Eger G Hoefnagel.jpg",
+      "title": "File:Erődrendszer romjai (17237. számú műemlék).jpg",
       "caption_zh": "埃格尔城堡",
       "caption": "埃格尔城堡",
       "caption_commons": "Eger (Agria) G Hoefnagel metszetén, a XVI. század végén",
       "kw": "Eger Castle Hungary",
       "url": "assets/hu/L05.webp",
       "thumb_url": "assets/hu/L05.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Eger_G_Hoefnagel.jpg/1920px-Eger_G_Hoefnagel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Er%C5%91drendszer_romjai_%2817237._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Joris Hoefnagel",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "krokophoto",
+      "license": "CC BY-SA 2.5 hu",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5/hu/deed.en",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 327168,
+      "bytes": 175244,
       "caption_zh_manual": "埃格尔城堡",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 13768,
+      "thumb_bytes": 4258,
+      "encoding": "webp q75/q78 (源 1200x1600 810KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x777",
-        "thumb": "240x173"
-      },
-      "encoding": "webp q75/q78 (源 1920x1382 1587KB JPEG)"
+        "detail": "1080x1440",
+        "thumb": "135x180"
+      }
     }
   ],
   "image_license": "CC BY-SA 4.0",

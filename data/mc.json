@@ -1,1 +1,359 @@
-{"qid":"Q235","iso_a2":"MC","iso_a3":"MCO","name_zh":"摩纳哥","name_en":"Monaco","capital":"摩纳哥","continent":"欧洲","centroid":[7.42,43.7311],"centroid_source":"wikidata P625","languages":[{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/mc/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue en principauté de Monaco, un État souverain dont la capitale porte le même nom, et où la silhouette du Palais princier se dresse au-dessus de la mer sur le Rocher.","tts_text_zh":"欢迎来到摩纳哥公国，这是一个主权国家，首都与国同名，亲王宫的身影矗立在岩石之上、俯瞰大海。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":57888}],"summary_text":"摩纳哥公国通称摩纳哥，是一个位于西欧或南欧的城邦。摩纳哥地处法国南部，除了靠地中海的南部海岸线之外，全境北、西、东三面皆由法国包围，主要是由摩纳哥旧城和随后建立起来的周遭地区组成。作为世界上人口稠密的国家之一，摩纳哥也是典型的微型国家和城邦，经济得利于蒙特卡洛赌场及观光收入。摩纳哥为君主立宪制国家，君主为摩纳哥亲王。摩纳哥以前作为一个不向国民课税的国家而闻名，有避税天堂之称。摩纳哥的地名源自于约公元前6世纪，由来自希腊福基斯地区的福基斯人于该地区附近所建立的希腊殖民地摩诺伊科。根据希腊神话，相传大力士海格力斯曾途经这里，因此福基斯人在此地建了一个神庙祭祀海克力斯，称为“Monoikos”，意指独栋的房屋或神殿，并逐渐转变成此处的地名。摩纳哥于1215年再次被作为热那亚共和国的殖民地创建。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":348,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%91%A9%E7%BA%B3%E5%93%A5","title":"摩纳哥"},"culture_excerpts":[{"section":"历史","text":"摩纳哥的地名源自于约公元前6世纪，由来自希腊福基斯（Phocaea）地区的福基斯人于该地区附近所建立的希腊殖民地——摩诺伊科（Monoikos）。根据希腊神话，相传大力士海格力斯曾途经这里，因此福基斯人在此地建了一个神庙祭祀海克力斯，称为“Monoikos”（希腊语：Μόνοικος，意指独栋的房屋或神殿），并逐渐转变成此处的地名。摩纳哥于1215年再次被作为热那亚共和国的殖民地创建。自1297年，当弗朗索瓦·格里马尔迪乔装成方济会的修士（在意大利语中称为“monaco”）占领摩纳哥岩要塞后，摩纳哥一直处于格里马尔迪家族统治下，唯一的例外是1793年—1814年，摩纳哥被拿破仑一世的法兰西第一帝国控制。1815年—1860年，维也纳会议指定摩纳哥为萨丁尼亚王国（后来演变为意大利王国）的保护国。1848年5月，芒通和罗克布吕讷两个城市脱离摩纳哥独立，组成“芒通和罗克布吕讷自由城市”，导致摩纳哥失去绝大部分领土。1861年，摩纳哥的主权通过《法国-摩纳哥条约》确定。在1911年第一部宪法颁布前，摩纳哥亲王曾经是至高无上的统治者。1918年7月，签署了一份条约，条约规定法兰西第三共和国在摩纳哥提供有限的保护。这条约被写入《凡尔赛和约》，且摩纳哥的政策应该按照法国的政治、军事和经济利益进行调整。1918年同法国签订的条约规定，一旦国家元首逝世而没有男性后裔，摩纳哥将并入法国。两国于2002年另立新条约，当摩纳哥国家元首无人继承，摩纳哥仍然为独立国家，法国亦继续提供防卫。第二次世界大战时期的1940年6月法国战败后意大利王国得到了法义边界的地区，摩纳哥和意大利接壤。尽管仍为中立，摩纳哥实际上已被意大利从经济上被控制。1942年11月8日，盟军登陆法属北非，使意大利皇家海军在地中海逐渐失去制海权，11月11日意大利借口美国驻摩纳哥领事馆和法国抵抗运动联络，出兵军事占领摩纳哥（英语：Axis occupation of Monaco）。1943年9月8日意大利投降后改由德国占领摩纳哥。1944年9月盟军收复摩纳哥。兰尼埃三世于1949年在其祖父路易二世去世后继承了王位。1962年颁布了一部新的宪法，废除了死刑，保护了女性的投票权，并建立了最高法院以保证基本的自由。1993年，摩纳哥成为联合国的正式成员国，具有完全投票权。2005年3月31日，由于兰尼埃三世长期卧病在床，阿尔贝王子开始负起摄政的任务。2005年4月6日兰尼埃亲王逝世，阿尔贝王子即位，成为阿尔贝二世。阿尔贝二世于2005年7月12日正式成为摩纳哥的统治者，他的即位庆典在他的父亲兰尼埃三世举行葬礼的大教堂举行。他的即位有两次庆典，另一次庆典在2005年的11月9日举行。","chars":1128},{"section":"人口","text":"摩纳哥是现在世界上人口最稠密的国家，常住人口有32,020人，其中6,089是摩纳哥本国人。本国籍的摩纳哥人在自己国家的居民中成为少数派，这种人口状况在世界各国都较为少见。常住人口中最多的是法国人，占32%，其次是意大利人，占20%，本地的摩纳哥人只占19%，剩下的29%人口由来自其他125个国家的侨民组成，这些人构成了摩纳哥的国际人口。\n摩纳哥的人均及单位面积警力为世界上最大的。摩纳哥也是世界上国土面积第二小的国家，仅次于梵蒂冈。","chars":1200}],"landmark_images":[{"title":"File:Casino de Montecarlo, Mónaco, 2016-06-23, DD 06.jpg","caption_zh":"蒙特卡洛赌场","caption":"蒙特卡洛赌场","caption_commons":"View of the south balcony heading to the Mediterranean Sea of the Monte Carlo ca","kw":"Monte Carlo Casino Monaco","url":"assets/mc/L01.webp","thumb_url":"assets/mc/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Casino_de_Montecarlo%2C_M%C3%B3naco%2C_2016-06-23%2C_DD_06.jpg/1920px-Casino_de_Montecarlo%2C_M%C3%B3naco%2C_2016-06-23%2C_DD_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Diego Delso","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":166386,"caption_zh_manual":"蒙特卡洛赌场","caption_zh_source":"llm_from_commons_filename","thumb_bytes":11680,"size":{"detail":"1080x719","thumb":"240x160"},"encoding":"webp q75/q78 (源 1920x1278 905KB JPEG)"},{"title":"File:Monaco, palace.jpg","caption_zh":"摩纳哥亲王宫","caption":"摩纳哥亲王宫","caption_commons":"","kw":"Prince's Palace of Monaco","url":"assets/mc/L02.webp","thumb_url":"assets/mc/L02.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/7/7d/Monaco%2C_palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":null,"license":"CC BY-SA 3.0","license_url":"http://creativecommons.org/licenses/by-sa/3.0/","license_status":"ok","load_verified":true,"bytes":24000,"caption_zh_manual":"摩纳哥亲王宫","caption_zh_source":"llm_from_commons_filename","thumb_bytes":5562,"size":{"detail":"773x524","thumb":"240x163"},"encoding":"webp q75/q78 (源 773x524 82KB JPEG)"},{"title":"File:Cathedrale-Notre-Dame-Immaculee-de-Monaco-byBelleSoeur2Rundvald-2.jpg","caption_zh":"摩纳哥大教堂","caption":"摩纳哥大教堂","caption_commons":"The Notre-Dame-Immaculate Cathedral of Monaco in August 2022, seen from the rue ","kw":"Monaco Cathedral","url":"assets/mc/L06.webp","thumb_url":"assets/mc/L06.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/5/57/Cathedrale-Notre-Dame-Immaculee-de-Monaco-byBelleSoeur2Rundvald-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"manual_repick","pick_tier":"handpicked","author":"Rundvald","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":1913387,"caption_zh_manual":"摩纳哥大教堂","thumb_bytes":5134,"size":{"detail":"1080x810","thumb":"240x180"},"encoding":"webp q75/q78 (源 1920x2889 1643KB JPEG)","replace_reason":"原图是大教堂内部"},{"title":"File:Cafe de Paris - Monte-Carlo - panoramio.jpg","caption_zh":"蒙特卡洛巴黎咖啡馆全景","caption":"蒙特卡洛巴黎咖啡馆全景","caption_commons":"Cafe de Paris - Monte-Carlo","kw":"Cafe de Paris Monte Carlo","url":"assets/mc/L04.webp","thumb_url":"assets/mc/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/b/b5/Cafe_de_Paris_-_Monte-Carlo_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"José Edson Mathias","license":"CC BY 3.0","license_url":"https://creativecommons.org/licenses/by/3.0","license_status":"ok","load_verified":true,"bytes":78958,"caption_zh_manual":"蒙特卡洛巴黎咖啡馆","caption_zh_source":"llm_from_commons_filename","thumb_bytes":6358,"size":{"detail":"1080x723","thumb":"240x161"},"encoding":"webp q75/q78 (源 1192x798 480KB JPEG)"},{"title":"File:Port Hercules, Monaco.jpg","caption_zh":"摩纳哥港","caption":"摩纳哥港","caption_commons":"Port Hercules, Monaco","kw":"Port Hercules Monaco","url":"assets/mc/L05.webp","thumb_url":"assets/mc/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Port_Hercules%2C_Monaco.jpg/1920px-Port_Hercules%2C_Monaco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Uhooep","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":182190,"caption_zh_manual":"摩纳哥港","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10536,"size":{"detail":"1080x720","thumb":"240x160"},"encoding":"webp q75/q78 (源 1920x1280 921KB JPEG)"}],"image_license":"CC BY-SA 4.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:38:59+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Monaco.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Monaco.wav、LL-Q652 (ita)-Francyskus-Principato di Monaco.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py MC","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"祭祀海克力斯的神庙","evidence":"建了一个神庙祭祀海克力斯"}],"architecture":[{"v":"神庙","evidence":"建了一个神庙祭祀海克力斯"},{"v":"摩纳哥旧城","evidence":"主要是由摩纳哥旧城和随后建立起来的周遭地区组成"}],"heritage":[],"keywords":[{"v":"地中海海岸线","evidence":"靠地中海的南部海岸线"},{"v":"蒙特卡洛赌场","evidence":"经济得利于蒙特卡洛赌场及观光收入"},{"v":"摩纳哥旧城","evidence":"主要是由摩纳哥旧城和随后建立起来的周遭地区组成"},{"v":"摩纳哥语","evidence":"摩纳哥语：Principatu de Múnegu"},{"v":"奥克语","evidence":"奥克语：Principat de Mónegue"}],"model":"deepseek-flash"},"summary_text_raw":"摩纳哥公国（法语：Principauté de Monaco；摩纳哥语：Principatu de Múnegu；奥克语：Principat de Mónegue），又称摩纳哥侯国、摩纳哥亲王国，通称摩纳哥，是一个位于西欧或南欧的城邦。摩纳哥地处法国南部，除了靠地中海的南部海岸线之外，全境北、西、东三面皆由法国包围，主要是由摩纳哥旧城和随后建立起来的周遭地区组成。\n作为世界上人口稠密的国家之一，摩纳哥也是典型的微型国家和城邦，经济得利于蒙特卡洛赌场及观光收入。摩纳哥为君主立宪制国家，君主为摩纳哥亲王。摩纳哥以前作为一个不向国民课税的国家而闻名，有避税天堂之称。\n\n\n== 历史 ==\n\n摩纳哥的地名源自于约公元前6世纪，由来自希腊福基斯（Phocaea）地区的福基斯人于该地区附近所建立的希腊殖民地——摩诺伊科（Monoikos）。根据希腊神话，相传大力士海格力斯曾途经这里，因此福基斯人在此地建了一个神庙祭祀海克力斯，称为“Monoikos”（希腊语：Μόνοικος，意指独栋的房屋或神殿），并逐渐转变成此处的地名。\n摩纳哥于1215年再次被作为热那亚共和国的殖民地创建。","history_text":"地名可追溯到希腊福基斯人在此建立的殖民地摩诺伊科，相传因海格力斯途经而建神庙祭祀，遂成地名。1215年作为热那亚共和国殖民地重建。1297年弗朗索瓦·格里马尔迪乔装修士夺取摩纳哥岩要塞，此后家族统治延续，仅拿破仑时期一度被法国控制。1848年芒通与罗克布吕讷脱离，领土大减，1861年主权经条约确定。","custom_text":"旧城与神庙的遗迹仍标记着海格力斯传说留下的地名由来。常住居民中法国人、意大利人等外来者占多数，本国籍的摩纳哥人反倒成了少数派，街巷间通行法语与摩纳哥语，侨民社区各自保留饮食习惯。格里马尔迪家族的形象散见于旧城建筑与节庆装饰之中。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":150,"folk":114}},"knowledge_qa":[{"q":"摩纳哥在哪儿啊？周围是什么？","a":"摩纳哥位于西欧或南欧，地处法国南部，除了南边靠地中海的海岸线，北、西、东三面都被法国包围。","tags":["摩纳哥","地理位置","法国"]},{"q":"摩纳哥首都是哪里？","a":"摩纳哥的首都是摩纳哥。","tags":["首都","摩纳哥"]},{"q":"摩纳哥说什么语言？","a":"摩纳哥的官方语言是法语。","tags":["语言","法语","官方语言"]},{"q":"摩纳哥有什么值得看的建筑或景点？","a":"值得看的有蒙特卡洛赌场、摩纳哥亲王宫、摩纳哥大教堂、蒙特卡洛巴黎咖啡馆和摩纳哥港。","tags":["景点","地标","赌场","亲王宫"]},{"q":"摩纳哥有什么好吃的或特产？","a":"根据现有信息，没有提到摩纳哥的饮食或特产。","tags":["吃什么","特产","饮食"]},{"q":"摩纳哥有什么传统节日或习俗？","a":"根据现有信息，没有提到摩纳哥的节日或传统习俗。","tags":["节日","习俗","传统"]},{"q":"摩纳哥是个什么样的国家？","a":"摩纳哥是位于欧洲的城邦和微型国家，为君主立宪制，君主称摩纳哥亲王，经济靠蒙特卡洛赌场和观光收入，有避税天堂之称。","tags":["摩纳哥","国家概况","城邦","亲王"]},{"q":"摩纳哥为什么叫避税天堂？","a":"摩纳哥以前作为一个不向国民课税的国家而闻名，因此有避税天堂之称。","tags":["避税","税收","摩纳哥"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[744,4374],[740,4372],[737,4372],[737,4375],[741,4376],[744,4374]]]}
+{
+  "qid": "Q235",
+  "iso_a2": "MC",
+  "iso_a3": "MCO",
+  "name_zh": "摩纳哥",
+  "name_en": "Monaco",
+  "capital": "摩纳哥",
+  "continent": "欧洲",
+  "centroid": [
+    7.42,
+    43.7311
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/mc/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue en principauté de Monaco, un État souverain dont la capitale porte le même nom, et où la silhouette du Palais princier se dresse au-dessus de la mer sur le Rocher.",
+      "tts_text_zh": "欢迎来到摩纳哥公国，这是一个主权国家，首都与国同名，亲王宫的身影矗立在岩石之上、俯瞰大海。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 57888
+    }
+  ],
+  "summary_text": "摩纳哥公国通称摩纳哥，是一个位于西欧或南欧的城邦。摩纳哥地处法国南部，除了靠地中海的南部海岸线之外，全境北、西、东三面皆由法国包围，主要是由摩纳哥旧城和随后建立起来的周遭地区组成。作为世界上人口稠密的国家之一，摩纳哥也是典型的微型国家和城邦，经济得利于蒙特卡洛赌场及观光收入。摩纳哥为君主立宪制国家，君主为摩纳哥亲王。摩纳哥以前作为一个不向国民课税的国家而闻名，有避税天堂之称。摩纳哥的地名源自于约公元前6世纪，由来自希腊福基斯地区的福基斯人于该地区附近所建立的希腊殖民地摩诺伊科。根据希腊神话，相传大力士海格力斯曾途经这里，因此福基斯人在此地建了一个神庙祭祀海克力斯，称为“Monoikos”，意指独栋的房屋或神殿，并逐渐转变成此处的地名。摩纳哥于1215年再次被作为热那亚共和国的殖民地创建。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 348,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%91%A9%E7%BA%B3%E5%93%A5",
+    "title": "摩纳哥"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "摩纳哥的地名源自于约公元前6世纪，由来自希腊福基斯（Phocaea）地区的福基斯人于该地区附近所建立的希腊殖民地——摩诺伊科（Monoikos）。根据希腊神话，相传大力士海格力斯曾途经这里，因此福基斯人在此地建了一个神庙祭祀海克力斯，称为“Monoikos”（希腊语：Μόνοικος，意指独栋的房屋或神殿），并逐渐转变成此处的地名。摩纳哥于1215年再次被作为热那亚共和国的殖民地创建。自1297年，当弗朗索瓦·格里马尔迪乔装成方济会的修士（在意大利语中称为“monaco”）占领摩纳哥岩要塞后，摩纳哥一直处于格里马尔迪家族统治下，唯一的例外是1793年—1814年，摩纳哥被拿破仑一世的法兰西第一帝国控制。1815年—1860年，维也纳会议指定摩纳哥为萨丁尼亚王国（后来演变为意大利王国）的保护国。1848年5月，芒通和罗克布吕讷两个城市脱离摩纳哥独立，组成“芒通和罗克布吕讷自由城市”，导致摩纳哥失去绝大部分领土。1861年，摩纳哥的主权通过《法国-摩纳哥条约》确定。在1911年第一部宪法颁布前，摩纳哥亲王曾经是至高无上的统治者。1918年7月，签署了一份条约，条约规定法兰西第三共和国在摩纳哥提供有限的保护。这条约被写入《凡尔赛和约》，且摩纳哥的政策应该按照法国的政治、军事和经济利益进行调整。1918年同法国签订的条约规定，一旦国家元首逝世而没有男性后裔，摩纳哥将并入法国。两国于2002年另立新条约，当摩纳哥国家元首无人继承，摩纳哥仍然为独立国家，法国亦继续提供防卫。第二次世界大战时期的1940年6月法国战败后意大利王国得到了法义边界的地区，摩纳哥和意大利接壤。尽管仍为中立，摩纳哥实际上已被意大利从经济上被控制。1942年11月8日，盟军登陆法属北非，使意大利皇家海军在地中海逐渐失去制海权，11月11日意大利借口美国驻摩纳哥领事馆和法国抵抗运动联络，出兵军事占领摩纳哥（英语：Axis occupation of Monaco）。1943年9月8日意大利投降后改由德国占领摩纳哥。1944年9月盟军收复摩纳哥。兰尼埃三世于1949年在其祖父路易二世去世后继承了王位。1962年颁布了一部新的宪法，废除了死刑，保护了女性的投票权，并建立了最高法院以保证基本的自由。1993年，摩纳哥成为联合国的正式成员国，具有完全投票权。2005年3月31日，由于兰尼埃三世长期卧病在床，阿尔贝王子开始负起摄政的任务。2005年4月6日兰尼埃亲王逝世，阿尔贝王子即位，成为阿尔贝二世。阿尔贝二世于2005年7月12日正式成为摩纳哥的统治者，他的即位庆典在他的父亲兰尼埃三世举行葬礼的大教堂举行。他的即位有两次庆典，另一次庆典在2005年的11月9日举行。",
+      "chars": 1128
+    },
+    {
+      "section": "人口",
+      "text": "摩纳哥是现在世界上人口最稠密的国家，常住人口有32,020人，其中6,089是摩纳哥本国人。本国籍的摩纳哥人在自己国家的居民中成为少数派，这种人口状况在世界各国都较为少见。常住人口中最多的是法国人，占32%，其次是意大利人，占20%，本地的摩纳哥人只占19%，剩下的29%人口由来自其他125个国家的侨民组成，这些人构成了摩纳哥的国际人口。\n摩纳哥的人均及单位面积警力为世界上最大的。摩纳哥也是世界上国土面积第二小的国家，仅次于梵蒂冈。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Casino de Montecarlo, Mónaco, 2016-06-23, DD 06.jpg",
+      "caption_zh": "蒙特卡洛赌场",
+      "caption": "蒙特卡洛赌场",
+      "caption_commons": "View of the south balcony heading to the Mediterranean Sea of the Monte Carlo ca",
+      "kw": "Monte Carlo Casino Monaco",
+      "url": "assets/mc/L01.webp",
+      "thumb_url": "assets/mc/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Casino_de_Montecarlo%2C_M%C3%B3naco%2C_2016-06-23%2C_DD_06.jpg/1920px-Casino_de_Montecarlo%2C_M%C3%B3naco%2C_2016-06-23%2C_DD_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 166386,
+      "caption_zh_manual": "蒙特卡洛赌场",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 11680,
+      "size": {
+        "detail": "1080x719",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1278 905KB JPEG)"
+    },
+    {
+      "title": "File:Monaco, palace.jpg",
+      "caption_zh": "摩纳哥亲王宫",
+      "caption": "摩纳哥亲王宫",
+      "caption_commons": "",
+      "kw": "Prince's Palace of Monaco",
+      "url": "assets/mc/L02.webp",
+      "thumb_url": "assets/mc/L02.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Monaco%2C_palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": null,
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 24000,
+      "caption_zh_manual": "摩纳哥亲王宫",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5562,
+      "size": {
+        "detail": "773x524",
+        "thumb": "240x163"
+      },
+      "encoding": "webp q75/q78 (源 773x524 82KB JPEG)"
+    },
+    {
+      "title": "File:Cathedrale-Notre-Dame-Immaculee-de-Monaco-byBelleSoeur2Rundvald-2.jpg",
+      "caption_zh": "摩纳哥大教堂",
+      "caption": "摩纳哥大教堂",
+      "caption_commons": "The Notre-Dame-Immaculate Cathedral of Monaco in August 2022, seen from the rue ",
+      "kw": "Monaco Cathedral",
+      "url": "assets/mc/L06.webp",
+      "thumb_url": "assets/mc/L06.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cathedrale-Notre-Dame-Immaculee-de-Monaco-byBelleSoeur2Rundvald-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "Rundvald",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 1913387,
+      "caption_zh_manual": "摩纳哥大教堂",
+      "thumb_bytes": 5134,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2889 1643KB JPEG)",
+      "replace_reason": "原图是大教堂内部"
+    },
+    {
+      "title": "File:Cafe de Paris - Monte-Carlo - panoramio.jpg",
+      "caption_zh": "蒙特卡洛巴黎咖啡馆全景",
+      "caption": "蒙特卡洛巴黎咖啡馆全景",
+      "caption_commons": "Cafe de Paris - Monte-Carlo",
+      "kw": "Cafe de Paris Monte Carlo",
+      "url": "assets/mc/L04.webp",
+      "thumb_url": "assets/mc/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cafe_de_Paris_-_Monte-Carlo_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "José Edson Mathias",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 78958,
+      "caption_zh_manual": "蒙特卡洛巴黎咖啡馆",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6358,
+      "size": {
+        "detail": "1080x723",
+        "thumb": "240x161"
+      },
+      "encoding": "webp q75/q78 (源 1192x798 480KB JPEG)"
+    },
+    {
+      "title": "File:Port Hercules, Monaco.jpg",
+      "caption_zh": "摩纳哥港",
+      "caption": "摩纳哥港",
+      "caption_commons": "Port Hercules, Monaco",
+      "kw": "Port Hercules Monaco",
+      "url": "assets/mc/L05.webp",
+      "thumb_url": "assets/mc/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Port_Hercules%2C_Monaco.jpg/1920px-Port_Hercules%2C_Monaco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Uhooep",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 182190,
+      "caption_zh_manual": "摩纳哥港",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10536,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 921KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 4.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:38:59+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Monaco.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Monaco.wav、LL-Q652 (ita)-Francyskus-Principato di Monaco.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py MC",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "祭祀海克力斯的神庙",
+        "evidence": "建了一个神庙祭祀海克力斯"
+      }
+    ],
+    "architecture": [
+      {
+        "v": "神庙",
+        "evidence": "建了一个神庙祭祀海克力斯"
+      },
+      {
+        "v": "摩纳哥旧城",
+        "evidence": "主要是由摩纳哥旧城和随后建立起来的周遭地区组成"
+      }
+    ],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "地中海海岸线",
+        "evidence": "靠地中海的南部海岸线"
+      },
+      {
+        "v": "蒙特卡洛赌场",
+        "evidence": "经济得利于蒙特卡洛赌场及观光收入"
+      },
+      {
+        "v": "摩纳哥旧城",
+        "evidence": "主要是由摩纳哥旧城和随后建立起来的周遭地区组成"
+      },
+      {
+        "v": "摩纳哥语",
+        "evidence": "摩纳哥语：Principatu de Múnegu"
+      },
+      {
+        "v": "奥克语",
+        "evidence": "奥克语：Principat de Mónegue"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "摩纳哥公国（法语：Principauté de Monaco；摩纳哥语：Principatu de Múnegu；奥克语：Principat de Mónegue），又称摩纳哥侯国、摩纳哥亲王国，通称摩纳哥，是一个位于西欧或南欧的城邦。摩纳哥地处法国南部，除了靠地中海的南部海岸线之外，全境北、西、东三面皆由法国包围，主要是由摩纳哥旧城和随后建立起来的周遭地区组成。\n作为世界上人口稠密的国家之一，摩纳哥也是典型的微型国家和城邦，经济得利于蒙特卡洛赌场及观光收入。摩纳哥为君主立宪制国家，君主为摩纳哥亲王。摩纳哥以前作为一个不向国民课税的国家而闻名，有避税天堂之称。\n\n\n== 历史 ==\n\n摩纳哥的地名源自于约公元前6世纪，由来自希腊福基斯（Phocaea）地区的福基斯人于该地区附近所建立的希腊殖民地——摩诺伊科（Monoikos）。根据希腊神话，相传大力士海格力斯曾途经这里，因此福基斯人在此地建了一个神庙祭祀海克力斯，称为“Monoikos”（希腊语：Μόνοικος，意指独栋的房屋或神殿），并逐渐转变成此处的地名。\n摩纳哥于1215年再次被作为热那亚共和国的殖民地创建。",
+  "history_text": "地名可追溯到希腊福基斯人在此建立的殖民地摩诺伊科，相传因海格力斯途经而建神庙祭祀，遂成地名。1215年作为热那亚共和国殖民地重建。1297年弗朗索瓦·格里马尔迪乔装修士夺取摩纳哥岩要塞，此后家族统治延续，仅拿破仑时期一度被法国控制。1848年芒通与罗克布吕讷脱离，领土大减，1861年主权经条约确定。",
+  "custom_text": "旧城与神庙的遗迹仍标记着海格力斯传说留下的地名由来。常住居民中法国人、意大利人等外来者占多数，本国籍的摩纳哥人反倒成了少数派，街巷间通行法语与摩纳哥语，侨民社区各自保留饮食习惯。格里马尔迪家族的形象散见于旧城建筑与节庆装饰之中。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 150,
+      "folk": 114
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "摩纳哥在哪儿啊？周围是什么？",
+      "a": "摩纳哥位于西欧或南欧，地处法国南部，除了南边靠地中海的海岸线，北、西、东三面都被法国包围。",
+      "tags": [
+        "摩纳哥",
+        "地理位置",
+        "法国"
+      ]
+    },
+    {
+      "q": "摩纳哥首都是哪里？",
+      "a": "摩纳哥的首都是摩纳哥。",
+      "tags": [
+        "首都",
+        "摩纳哥"
+      ]
+    },
+    {
+      "q": "摩纳哥说什么语言？",
+      "a": "摩纳哥的官方语言是法语。",
+      "tags": [
+        "语言",
+        "法语",
+        "官方语言"
+      ]
+    },
+    {
+      "q": "摩纳哥有什么值得看的建筑或景点？",
+      "a": "值得看的有蒙特卡洛赌场、摩纳哥亲王宫、摩纳哥大教堂、蒙特卡洛巴黎咖啡馆和摩纳哥港。",
+      "tags": [
+        "景点",
+        "地标",
+        "赌场",
+        "亲王宫"
+      ]
+    },
+    {
+      "q": "摩纳哥有什么好吃的或特产？",
+      "a": "根据现有信息，没有提到摩纳哥的饮食或特产。",
+      "tags": [
+        "吃什么",
+        "特产",
+        "饮食"
+      ]
+    },
+    {
+      "q": "摩纳哥有什么传统节日或习俗？",
+      "a": "根据现有信息，没有提到摩纳哥的节日或传统习俗。",
+      "tags": [
+        "节日",
+        "习俗",
+        "传统"
+      ]
+    },
+    {
+      "q": "摩纳哥是个什么样的国家？",
+      "a": "摩纳哥是位于欧洲的城邦和微型国家，为君主立宪制，君主称摩纳哥亲王，经济靠蒙特卡洛赌场和观光收入，有避税天堂之称。",
+      "tags": [
+        "摩纳哥",
+        "国家概况",
+        "城邦",
+        "亲王"
+      ]
+    },
+    {
+      "q": "摩纳哥为什么叫避税天堂？",
+      "a": "摩纳哥以前作为一个不向国民课税的国家而闻名，因此有避税天堂之称。",
+      "tags": [
+        "避税",
+        "税收",
+        "摩纳哥"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        744,
+        4374
+      ],
+      [
+        740,
+        4372
+      ],
+      [
+        737,
+        4372
+      ],
+      [
+        737,
+        4375
+      ],
+      [
+        741,
+        4376
+      ],
+      [
+        744,
+        4374
+      ]
+    ]
+  ]
+}

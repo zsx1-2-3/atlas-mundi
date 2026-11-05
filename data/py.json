@@ -160,6 +160,28 @@
         "thumb": "240x180"
       },
       "encoding": "webp q75/q78 (源 1920x1440 505KB JPEG)"
+    },
+    {
+      "title": "File:Jesús de Tavarangue - Church ruins 01.jpg",
+      "caption_zh": "恩卡纳西翁耶稣会遗址",
+      "caption": "恩卡纳西翁耶稣会遗址",
+      "kw": "Jesuit Mission Jesus de Tavarangue",
+      "url": "assets/py/L02.webp",
+      "thumb_url": "assets/py/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Jes%C3%BAs_de_Tavarangue_-_Church_ruins_01.jpg/1920px-Jes%C3%BAs_de_Tavarangue_-_Church_ruins_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "P. Hughes",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "bytes": 179746,
+      "verified": "vision",
+      "thumb_bytes": 8876,
+      "size": {
+        "detail": "1080x608",
+        "thumb": "240x135"
+      },
+      "encoding": "webp q75/q78 (源 1920x1081 938KB JPEG)"
     }
   ],
   "image_license": "CC BY-SA 3.0",

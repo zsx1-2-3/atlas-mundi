@@ -94,30 +94,31 @@
       "encoding": "webp q75/q78 (源 1692x1305 1337KB JPEG)"
     },
     {
-      "title": "File:Sani Pass 003.jpg",
+      "title": "File:A vehicle on Sani Pass.jpg",
       "caption_zh": "萨尼山口",
       "caption": "萨尼山口",
       "caption_commons": "Sani Pass Sign",
       "kw": "Sani Pass Lesotho",
       "url": "assets/ls/L02.webp",
       "thumb_url": "assets/ls/L02.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sani_Pass_003.jpg/1920px-Sani_Pass_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/A_vehicle_on_Sani_Pass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Amada44",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "Vaiz Ha",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 62536,
+      "bytes": 125406,
       "caption_zh_manual": "萨尼山口",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 5810,
+      "thumb_bytes": 10574,
+      "encoding": "webp q75/q78 (源 1600x1063 1752KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x751",
-        "thumb": "240x167"
-      },
-      "encoding": "webp q75/q78 (源 1920x1335 428KB JPEG)"
+        "detail": "1080x718",
+        "thumb": "240x159"
+      }
     },
     {
       "title": "File:Katse Dam-001.jpg",

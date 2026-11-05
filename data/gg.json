@@ -102,32 +102,6 @@
       "encoding": "webp q75/q78 (源 1806x1158 78KB JPEG)"
     },
     {
-      "title": "File:Glattjochkapelle Hochweberspitze Ostgrat 20030915.jpg",
-      "caption_zh": "格拉特约赫小教堂与东脊",
-      "caption": "格拉特约赫小教堂与东脊",
-      "caption_commons": "Glattjoch Chapel, Hochweber East Ridge, Donnersbachwald Rottenmanner und Wölzer ",
-      "kw": "Little Chapel Guernsey",
-      "url": "assets/gg/L03.webp",
-      "thumb_url": "assets/gg/L03.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Glattjochkapelle_Hochweberspitze_Ostgrat_20030915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "wikidata_p18",
-      "pick_tier": "strict",
-      "author": "Mayer Bruno",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "license_status": "ok",
-      "load_verified": true,
-      "bytes": 28096,
-      "caption_zh_manual": "小教堂",
-      "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 5980,
-      "size": {
-        "detail": "371x500",
-        "thumb": "134x180"
-      },
-      "encoding": "webp q75/q78 (源 371x500 155KB JPEG)"
-    },
-    {
       "title": "File:Hauteville House (vue depuis le jardin).jpg",
       "caption_zh": "海格特花园中眺望奥特维尔故居",
       "caption": "海格特花园中眺望奥特维尔故居",

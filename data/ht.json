@@ -161,25 +161,25 @@
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 33806,
+      "bytes": 406678,
       "caption_zh_manual": "雅克堡",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4310,
+      "thumb_bytes": 10326,
       "size": {
-        "detail": "651x786",
-        "thumb": "149x180"
+        "detail": "1080x1026",
+        "thumb": "189x180"
       },
-      "encoding": "webp q75/q78 (源 651x786 72KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1824 1962KB JPEG)"
     },
     {
-      "title": "File:Saut du Baril-St. Yves - panoramio.jpg",
-      "caption_zh": "贝松瀑布全景",
-      "caption": "贝松瀑布全景",
+      "title": "File:La Source de St. Yves-Saut du Baril - panoramio.jpg",
+      "caption_zh": "贝松瀑布",
+      "caption": "贝松瀑布",
       "caption_commons": "Saut du Baril/St. Yves",
       "kw": "Saut du Baril Haiti",
       "url": "assets/ht/L05.webp",
       "thumb_url": "assets/ht/L05.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Saut_du_Baril-St._Yves_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/La_Source_de_St._Yves-Saut_du_Baril_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "source": "commons_search",
       "pick_tier": "strict",
       "author": "Alex Carroll",
@@ -187,15 +187,16 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 88514,
+      "bytes": 65724,
       "caption_zh_manual": "贝松瀑布",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 8942,
+      "thumb_bytes": 6546,
+      "encoding": "webp q75/q78 (源 1600x1200 541KB JPEG)",
+      "verified": "vision",
       "size": {
         "detail": "1080x810",
         "thumb": "240x180"
-      },
-      "encoding": "webp q75/q78 (源 1600x1200 635KB JPEG)"
+      }
     }
   ],
   "image_license": "Public domain",

@@ -110,30 +110,31 @@
       "encoding": "webp q75/q78 (源 1920x2880 1397KB JPEG)"
     },
     {
-      "title": "File:Dogon Hunter.JPG",
-      "caption_zh": "多贡人村落中的猎人",
-      "caption": "多贡人村落中的猎人",
+      "title": "File:DogonSatimbe1.JPG",
+      "caption_zh": "多贡人村落",
+      "caption": "多贡人村落",
       "caption_commons": "Hunter in Dogon region, Mali. Flintlock rifle.",
       "kw": "Dogon village Mali",
       "url": "assets/ml/L04.webp",
       "thumb_url": "assets/ml/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Dogon_Hunter.JPG/1920px-Dogon_Hunter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/DogonSatimbe1.JPG/1920px-DogonSatimbe1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "J. Drevet",
+      "author": "BluesyPete",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 99374,
+      "bytes": 127096,
       "caption_zh_manual": "多贡人村落",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 8944,
+      "thumb_bytes": 6974,
+      "encoding": "webp q75/q78 (源 1920x2560 988KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x723",
-        "thumb": "240x161"
-      },
-      "encoding": "webp q75/q78 (源 1920x1285 580KB JPEG)"
+        "detail": "1080x1440",
+        "thumb": "135x180"
+      }
     },
     {
       "title": "File:Askia.jpg",

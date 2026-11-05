@@ -111,30 +111,31 @@
       "encoding": "webp q75/q78 (源 1920x1440 783KB JPEG)"
     },
     {
-      "title": "File:UluruRockWater.jpg",
-      "caption_zh": "乌鲁鲁巨岩与水面",
-      "caption": "乌鲁鲁巨岩与水面",
+      "title": "File:TreesUpUluru.JPG",
+      "caption_zh": "乌鲁鲁巨岩",
+      "caption": "乌鲁鲁巨岩",
       "caption_commons": "Rock formations and water features. Uluru (Ayers Rock), Australia.",
       "kw": "Uluru Ayers Rock",
       "url": "assets/au/L03.webp",
       "thumb_url": "assets/au/L03.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/UluruRockWater.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/TreesUpUluru.JPG/1920px-TreesUpUluru.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Gsh1967",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "User:Mark Andrews",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 103298,
+      "bytes": 143668,
       "caption_zh_manual": "乌鲁鲁巨岩",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 7972,
+      "thumb_bytes": 10614,
+      "encoding": "webp q75/q78 (源 1920x1440 713KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x737",
-        "thumb": "240x164"
-      },
-      "encoding": "webp q75/q78 (源 1278x872 797KB JPEG)"
+        "detail": "1080x810",
+        "thumb": "240x180"
+      }
     },
     {
       "title": "File:Sydney harbour bridge new south wales.jpg",

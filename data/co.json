@@ -69,15 +69,15 @@
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 70198,
+      "bytes": 336938,
       "caption_zh_manual": "卡塔赫纳老城",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 10050,
+      "thumb_bytes": 6332,
       "size": {
-        "detail": "795x600",
-        "thumb": "238x180"
+        "detail": "1080x1440",
+        "thumb": "135x180"
       },
-      "encoding": "webp q75/q78 (源 795x600 390KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x2560 1635KB JPEG)"
     },
     {
       "title": "File:2017 Bogotá Basílica del Señor Caído de Monserrate.jpg",
@@ -132,30 +132,31 @@
       "encoding": "webp q75/q78 (源 1920x1280 312KB JPEG)"
     },
     {
-      "title": "File:Macarthur Bridge Ⅱ 麥帥二橋 - panoramio.jpg",
-      "caption_zh": "麦帅二桥彩虹河",
-      "caption": "麦帅二桥彩虹河",
+      "title": "File:Caño cristales (La Macarena).jpg",
+      "caption_zh": "彩虹河",
+      "caption": "彩虹河",
       "caption_commons": "Macarthur Bridge Ⅱ",
       "kw": "Canio Cristales river",
       "url": "assets/co/L04.webp",
       "thumb_url": "assets/co/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Macarthur_Bridge_%E2%85%A1_%E9%BA%A5%E5%B8%A5%E4%BA%8C%E6%A9%8B_-_panoramio.jpg/1920px-Macarthur_Bridge_%E2%85%A1_%E9%BA%A5%E5%B8%A5%E4%BA%8C%E6%A9%8B_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "wikidata_p18",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Ca%C3%B1o_cristales_%28La_Macarena%29.jpg/1920px-Ca%C3%B1o_cristales_%28La_Macarena%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
       "pick_tier": "strict",
-      "author": "lienyuan lee",
-      "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Ricardo Gonzalez Arango",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 185136,
+      "bytes": 202966,
       "caption_zh_manual": "彩虹河",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 9078,
+      "thumb_bytes": 10708,
+      "encoding": "webp q75/q78 (源 1920x1307 948KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x810",
-        "thumb": "240x180"
-      },
-      "encoding": "webp q75/q78 (源 1920x1440 806KB JPEG)"
+        "detail": "1080x735",
+        "thumb": "240x163"
+      }
     },
     {
       "title": "File:Valle del cocora - general view.jpg",

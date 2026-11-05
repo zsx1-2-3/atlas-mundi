@@ -89,30 +89,31 @@
       "encoding": "webp q75/q78 (源 1920x1176 701KB JPEG)"
     },
     {
-      "title": "File:Istanbul asv2020-02 img53 Maiden's Tower.jpg",
+      "title": "File:Maiden tower Baku 20060624.jpg",
       "caption_zh": "少女塔",
       "caption": "少女塔",
       "caption_commons": "Maiden's Tower in Istanbul, Turkey",
       "kw": "Maiden Tower Baku",
       "url": "assets/az/L02.webp",
       "thumb_url": "assets/az/L02.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Istanbul_asv2020-02_img53_Maiden%27s_Tower.jpg/1920px-Istanbul_asv2020-02_img53_Maiden%27s_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "wikidata_p18",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Maiden_tower_Baku_20060624.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
       "pick_tier": "strict",
-      "author": "A.Savin",
-      "license": "FAL",
-      "license_url": "http://artlibre.org/licence/lal/en",
+      "author": "Fuad2006",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 97456,
+      "bytes": 62256,
       "caption_zh_manual": "少女塔",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 3190,
+      "thumb_bytes": 6534,
+      "encoding": "webp q75/q78 (源 1817x1222 654KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x1080",
-        "thumb": "180x180"
-      },
-      "encoding": "webp q75/q78 (源 1920x1920 609KB JPEG)"
+        "detail": "1080x726",
+        "thumb": "240x161"
+      }
     },
     {
       "title": "File:View From Maidens Tower (221090097).jpeg",

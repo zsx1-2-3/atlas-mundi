@@ -1,1 +1,808 @@
-{"qid":"Q736","iso_a2":"EC","iso_a3":"ECU","name_zh":"厄瓜多尔","name_en":"Ecuador","capital":"基多","continent":"南美洲","centroid":[-78,-1],"centroid_source":"wikidata P625","languages":[{"code":"es","name_zh":"西班牙语","name_local":"西班牙语","role":"official","audio_url":"assets/ec/audio/es.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenidos a Ecuador, un país donde la cordillera de los Andes se encuentra con el océano Pacífico; su capital es Quito, una ciudad colonial suspendida entre montañas, y entre sus lugares más emblemáticos destaca la Mitad del Mundo, el monumento que marca el paso de la línea ecuatorial.","tts_text_zh":"欢迎来到厄瓜多尔，这是一个安第斯山脉与太平洋相遇的国度；它的首都是基多，一座悬于群山之间的殖民风格城市，而最具代表性的地标之一是赤道纪念碑，它标记着赤道线的经过之处。","audio_voice":"es-AR-ElenaNeural","audio_bytes":101808}],"summary_text":"厄瓜多尔共和国通称厄瓜多尔，是位于南美洲西北部的国家，北面与哥伦比亚相邻，南接秘鲁，西面为太平洋，另包括距离厄瓜多尔本土1000公里的加拉帕戈斯群岛。由于赤道横贯了厄瓜多尔的国境，所以以西班牙语中的赤道作为国家名字，因此又拥有“赤道国”的别称，又因为盛产蕉而又称为“香蕉之国”。首都基多位于皮钦查火山的山麓，海拔高达2850米，使该市成为全世界第二高的首都，仅次于玻利维亚的首都拉巴斯。厄瓜多尔于1809年8月10日宣告脱离西班牙独立建国。据现今文献，厄瓜多尔的历史可追溯至三千五百年前，当时在今日沿海地区已有部落散居，1463年成为印加帝国一部分。在西班牙人发现新大陆后，厄瓜多尔于1532年被西班牙人占领，自此变为西班牙海外领土数百年。1809年8月10日厄瓜多尔宣布独立，但很快被西班牙重新占领，挣扎了十数年后，厄瓜多尔在1822年终于彻底摆脱西班牙之控制。1825年厄瓜多尔加入大哥伦比亚共和国，但此国于1830年解体，厄瓜多尔共和国也因此成立。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":427,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%8E%84%E7%93%9C%E5%A4%9A%E5%B0%94","title":"厄瓜多尔"},"culture_excerpts":[{"section":"历史","text":"据现今文献，厄瓜多尔的历史可追溯至三千五百年前。当时在今日沿海地区已有部落散居。1463年成为印加帝国一部分。在西班牙人发现新大陆后，厄瓜多尔于1532年被西班牙人占领，自此变为西班牙海外领土数百年。1809年8月10日厄瓜多尔宣布独立，但很快被西班牙重新占领。挣扎了十数年后，厄瓜多尔在1822年终于彻底摆脱西班牙之控制。1825年厄瓜多尔加入大哥伦比亚共和国，但此国于1830年解体。厄瓜多尔共和国也因此成立。自1925年后，厄瓜多尔政治一直动荡不安，文人与军人政府轮替了足足19次；至1979年该国才正式由文人政府统治，确立宪法，并沿用了二十多年。2019年6月12日，厄瓜多尔最高法院裁定支持同性婚姻，其判决书于2019年7月8日公告让同性婚姻正式生效并开放注册。2019年10月，厄瓜多尔政府为因应取消补贴燃油价格而引发的大规模抗议，一度将政府机关从首都基多移至第一大城瓜亚基尔运作。","chars":397},{"section":"文化","text":"厄瓜多尔是一个多民族和多元文化的国家，整体来说，厄瓜多尔文化深受西班牙殖民文化与美洲原住民的传统的影响。但不同地区具有个别的特色。\n由于地形的多样性，饮食文化也因地区而异，厄国山区以米饭、马铃薯、玉米、豆、面类等配以猪牛肉、牛奶、沙拉等为主食；沿海地区居民则偏好香蕉及海产等食物。","chars":1200},{"section":"饮食","text":"由于地形的多样性，饮食文化也因地区而异，厄国山区以米饭、马铃薯、玉米、豆、面类等配以猪牛肉、牛奶、沙拉等为主食；沿海地区居民则偏好香蕉及海产等食物。","chars":1200},{"section":"人口","text":"厄瓜多尔国土面积28万3560平方公里，人口1724.98万人 （2019年数据），由于曾经是西班牙的殖民地，境内人种复杂，其中印欧混血人口（麦士蒂索人，Mestizos）占总人口的61%，印地安人占34%，白种人占2.2%，除此之外还有被从非洲送至南美洲作为劳动人力的黑人与黑白混血人口。如同拉丁美洲大部分国家，厄瓜多尔的居民信奉的是一种融入部分印地安文化色彩的天主教，官方语言是西班牙语，但印地安族群间则通用克丘亚语。","chars":1200}],"landmark_images":[{"title":"File:Galapagos giant tortoise Geochelone elephantopus.jpg","caption_zh":"加拉帕戈斯群岛象龟","caption":"加拉帕戈斯群岛象龟","caption_commons":"A dome-shelled Galápagos giant tortoise, Chelonoidis nigra","kw":"Galapagos Islands Bartolome","url":"assets/ec/L01.webp","thumb_url":"assets/ec/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg/1920px-Galapagos_giant_tortoise_Geochelone_elephantopus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Mfield, Matthew Field, http://www.photography.mattfield.com","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":158882,"caption_zh_manual":"加拉帕戈斯群岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8988,"size":{"detail":"1080x720","thumb":"240x160"},"encoding":"webp q75/q78 (源 1920x1280 808KB JPEG)"},{"title":"File:Basílica del Voto Nacional, Quito - 4.jpg","caption_zh":"基多老城国家誓言圣殿","caption":"基多老城国家誓言圣殿","caption_commons":"The Basilica of the National Vow (Spanish: Basílica del Voto Nacional) is a Roma","kw":"Quito Old Town colonial","url":"assets/ec/L02.webp","thumb_url":"assets/ec/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Bas%C3%ADlica_del_Voto_Nacional%2C_Quito_-_4.jpg/1920px-Bas%C3%ADlica_del_Voto_Nacional%2C_Quito_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Maros M r a z (Maros)","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":99324,"caption_zh_manual":"基多老城","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7654,"size":{"detail":"1080x720","thumb":"240x160"},"encoding":"webp q75/q78 (源 1920x1280 536KB JPEG)"},{"title":"File:Vólcan Cotopaxi.jpg","caption_zh":"科托帕希火山","caption":"科托帕希火山","caption_commons":"Cara norte del volcán Cotopaxi al amanecer","kw":"Cotopaxi volcano","url":"assets/ec/L03.webp","thumb_url":"assets/ec/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/7/74/V%C3%B3lcan_Cotopaxi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"wikidata_p18","pick_tier":"strict","author":"camilogaleano.com","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":57360,"caption_zh_manual":"科托帕希火山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":4750,"size":{"detail":"1000x650","thumb":"240x156"},"encoding":"webp q75/q78 (源 1000x650 78KB JPEG)"},{"title":"File:Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 15.JPG","caption_zh":"厄瓜多尔基多赤道纪念碑","caption":"厄瓜多尔基多赤道纪念碑","caption_commons":"Mitad del Mundo, Quito, Ecuador","kw":"Mitad del Mundo equator monument","url":"assets/ec/L06.webp","thumb_url":"assets/ec/L06.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_15.JPG/1920px-Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"manual_repick","pick_tier":"handpicked","author":"Diego Delso","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":352160,"caption_zh_manual":"赤道纪念碑","thumb_bytes":11212,"size":{"detail":"1080x813","thumb":"239x180"},"encoding":"webp q75/q78 (源 640x480 176KB JPEG)","replace_reason":"原图仅 640px"},{"title":"File:Volcán Chimborazo desde Riobamba.jpg","caption_zh":"从里奥班巴眺望钦博拉索山","caption":"从里奥班巴眺望钦博拉索山","caption_commons":"Vista del Volcán Chimborazo desde Riobamba por Eduardo Navas","kw":"Chimborazo volcano","url":"assets/ec/L05.webp","thumb_url":"assets/ec/L05.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Volc%C3%A1n_Chimborazo_desde_Riobamba.jpg/1920px-Volc%C3%A1n_Chimborazo_desde_Riobamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"Eduardo Navas","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":71688,"caption_zh_manual":"钦博拉索山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":5484,"size":{"detail":"1080x631","thumb":"240x140"},"encoding":"webp q75/q78 (源 1920x1122 435KB JPEG)"}],"image_license":"CC BY-SA 3.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T16:36:40+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["语言代码未解析，已剔除：奇曲瓦語、舒爾語","P443 发音语种不符已弃用：Lb-Ecuador.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Ecuador.wav、LL-Q652 (ita)-Francyskus-Ecuador.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py EC","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[{"v":"香蕉","evidence":"盛产蕉而又称为“香蕉之国”"}],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"赤道","evidence":"赤道横贯了厄瓜多尔的国境"},{"v":"加拉帕戈斯群岛","evidence":"距离厄瓜多尔本土1,000公里的加拉帕戈斯群岛"},{"v":"香蕉之国","evidence":"盛产蕉而又称为“香蕉之国”"},{"v":"基多","evidence":"首都基多位于皮钦查火山的山麓"},{"v":"皮钦查火山","evidence":"基多位于皮钦查火山的山麓"}],"model":"deepseek-flash"},"summary_text_raw":"厄瓜多尔共和国（西班牙语：República del Ecuador），通称厄瓜多尔（Ecuador），是位于南美洲西北部的国家，北面与哥伦比亚相邻，南接秘鲁，西面为太平洋，另包括距离厄瓜多尔本土1,000公里的加拉帕戈斯群岛。\n厄瓜多尔于1809年8月10日宣告脱离西班牙独立建国。由于赤道横贯了厄瓜多尔的国境，所以以西班牙语中的赤道（ecuador）作为国家名字，因此又拥有“赤道国”的别称，又因为盛产蕉而又称为“香蕉之国”。首都基多位于皮钦查火山的山麓，海拔高达2850米，使该市成为全世界第二高的首都（仅次于玻利维亚的首都拉巴斯）。\n\n\n== 历史 ==\n\n据现今文献，厄瓜多尔的历史可追溯至三千五百年前。当时在今日沿海地区已有部落散居。1463年成为印加帝国一部分。在西班牙人发现新大陆后，厄瓜多尔于1532年被西班牙人占领，自此变为西班牙海外领土数百年。\n1809年8月10日厄瓜多尔宣布独立，但很快被西班牙重新占领。挣扎了十数年后，厄瓜多尔在1822年终于彻底摆脱西班牙之控制。1825年厄瓜多尔加入大哥伦比亚共和国，但此国于1830年解体。厄瓜多尔共和国也因此成立。","history_text":"沿海一带早有部落散居，后来被并入印加帝国。十六世纪三十年代起遭西班牙人占领，此后数百年为海外属地。十九世纪初宣布独立，旋即被重新控制，又挣扎十数年才彻底摆脱。此后一度加入大哥伦比亚共和国，该国解体后，共和国随之成立。二十世纪二十年代以后政局长期动荡，文人政府与军人政府轮替多次，直到七十年代末才确立文人执政与宪法。","custom_text":"吃食随地势分作两路：山区人家以米饭、马铃薯、玉米、豆类和面食为主，配猪肉、牛肉、牛奶与沙拉；沿海居民则偏爱香蕉和海产。香蕉既是日常果腹之物，也随船运往别处，让这片赤道之地得了“香蕉之国”的名号。居民多信奉融入印第安色彩的天主教，印第安族群之间仍通用克丘亚语，节庆与日常里都留着原住民的痕迹。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":157,"folk":145}},"knowledge_qa":[{"q":"厄瓜多尔在哪儿啊？周围都是些什么地方？","a":"位于南美洲西北部，北面与哥伦比亚相邻，南接秘鲁，西面为太平洋，还包括距离本土1,000公里的加拉帕戈斯群岛。","tags":["南美洲","地理位置","邻国","太平洋"]},{"q":"厄瓜多尔的首都是哪里？","a":"首都基多，位于皮钦查火山的山麓，海拔高达2850米，是全世界第二高的首都，仅次于玻利维亚的拉巴斯。","tags":["首都","基多","高海拔"]},{"q":"厄瓜多尔说什么语言？","a":"官方语言是西班牙语。","tags":["语言","西班牙语","说什么话"]},{"q":"厄瓜多尔有什么别称吗？为什么叫这个？","a":"因为赤道横贯国境，以西班牙语中的赤道（ecuador）作为国名，所以有“赤道国”的别称；又因盛产蕉而称为“香蕉之国”。","tags":["别称","赤道国","香蕉之国","国名由来"]},{"q":"厄瓜多尔有什么值得看的地标或景观？","a":"有加拉帕戈斯群岛、基多老城、科托帕希火山、赤道纪念碑和钦博拉索山。","tags":["地标","景点","加拉帕戈斯","火山"]},{"q":"厄瓜多尔有什么特产？","a":"盛产蕉，因此有“香蕉之国”的别称。","tags":["特产","香蕉","吃什么"]},{"q":"厄瓜多尔是怎么独立的？","a":"1809年8月10日宣告脱离西班牙独立建国，但很快被西班牙重新占领，挣扎十数年后，于1822年彻底摆脱西班牙控制。","tags":["历史","独立","西班牙"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-7883,143],[-7812,92],[-7785,81],[-7770,84],[-7765,72],[-7747,65],[-7740,39],[-7656,22],[-7641,26],[-7642,40],[-7630,46],[-7605,36],[-7579,8],[-7563,8],[-7528,-11],[-7564,-13],[-7526,-54],[-7530,-75],[-7523,-97],[-7541,-92],[-7557,-154],[-7609,-213],[-7668,-257],[-7787,-299],[-7820,-336],[-7816,-348],[-7823,-351],[-7835,-339],[-7842,-379],[-7868,-433],[-7867,-455],[-7890,-469],[-7890,-484],[-7906,-501],[-7930,-496],[-7945,-481],[-7951,-453],[-7966,-444],[-7983,-448],[-8014,-428],[-8038,-448],[-8049,-441],[-8034,-420],[-8047,-421],[-8049,-401],[-8033,-401],[-8017,-389],[-8027,-343],[-8034,-337],[-7995,-320],[-7973,-259],[-7987,-216],[-7977,-200],[-7989,-212],[-7990,-254],[-8006,-258],[-7993,-248],[-8003,-247],[-7995,-231],[-8001,-233],[-8018,-259],[-8028,-261],[-8026,-273],[-8066,-242],[-8091,-232],[-8101,-217],[-8087,-220],[-8074,-204],[-8086,-159],[-8074,-134],[-8091,-104],[-8082,-95],[-8059,-93],[-8045,-61],[-8030,-66],[-8039,-62],[-8050,-38],[-8005,9],[-7999,36],[-8011,70],[-8008,82],[-7966,100],[-7961,84],[-7963,99],[-7917,110],[-7906,122],[-7899,112],[-7893,124],[-7881,128],[-7888,132],[-7883,143]],[[-9081,-73],[-9093,-97],[-9144,-100],[-9147,-81],[-9109,-58],[-9138,-28],[-9142,-3],[-9160,-1],[-9150,11],[-9132,14],[-9117,-23],[-9096,-42],[-9099,-58],[-9081,-73]],[[-8006,-266],[-7990,-272],[-8013,-302],[-8025,-303],[-8021,-272],[-8006,-266]],[[-9019,-54],[-9020,-68],[-9034,-78],[-9054,-68],[-9049,-52],[-9026,-48],[-9019,-54]]]}
+{
+  "qid": "Q736",
+  "iso_a2": "EC",
+  "iso_a3": "ECU",
+  "name_zh": "厄瓜多尔",
+  "name_en": "Ecuador",
+  "capital": "基多",
+  "continent": "南美洲",
+  "centroid": [
+    -78,
+    -1
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "es",
+      "name_zh": "西班牙语",
+      "name_local": "西班牙语",
+      "role": "official",
+      "audio_url": "assets/ec/audio/es.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenidos a Ecuador, un país donde la cordillera de los Andes se encuentra con el océano Pacífico; su capital es Quito, una ciudad colonial suspendida entre montañas, y entre sus lugares más emblemáticos destaca la Mitad del Mundo, el monumento que marca el paso de la línea ecuatorial.",
+      "tts_text_zh": "欢迎来到厄瓜多尔，这是一个安第斯山脉与太平洋相遇的国度；它的首都是基多，一座悬于群山之间的殖民风格城市，而最具代表性的地标之一是赤道纪念碑，它标记着赤道线的经过之处。",
+      "audio_voice": "es-AR-ElenaNeural",
+      "audio_bytes": 101808
+    }
+  ],
+  "summary_text": "厄瓜多尔共和国通称厄瓜多尔，是位于南美洲西北部的国家，北面与哥伦比亚相邻，南接秘鲁，西面为太平洋，另包括距离厄瓜多尔本土1000公里的加拉帕戈斯群岛。由于赤道横贯了厄瓜多尔的国境，所以以西班牙语中的赤道作为国家名字，因此又拥有“赤道国”的别称，又因为盛产蕉而又称为“香蕉之国”。首都基多位于皮钦查火山的山麓，海拔高达2850米，使该市成为全世界第二高的首都，仅次于玻利维亚的首都拉巴斯。厄瓜多尔于1809年8月10日宣告脱离西班牙独立建国。据现今文献，厄瓜多尔的历史可追溯至三千五百年前，当时在今日沿海地区已有部落散居，1463年成为印加帝国一部分。在西班牙人发现新大陆后，厄瓜多尔于1532年被西班牙人占领，自此变为西班牙海外领土数百年。1809年8月10日厄瓜多尔宣布独立，但很快被西班牙重新占领，挣扎了十数年后，厄瓜多尔在1822年终于彻底摆脱西班牙之控制。1825年厄瓜多尔加入大哥伦比亚共和国，但此国于1830年解体，厄瓜多尔共和国也因此成立。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 427,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%8E%84%E7%93%9C%E5%A4%9A%E5%B0%94",
+    "title": "厄瓜多尔"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "据现今文献，厄瓜多尔的历史可追溯至三千五百年前。当时在今日沿海地区已有部落散居。1463年成为印加帝国一部分。在西班牙人发现新大陆后，厄瓜多尔于1532年被西班牙人占领，自此变为西班牙海外领土数百年。1809年8月10日厄瓜多尔宣布独立，但很快被西班牙重新占领。挣扎了十数年后，厄瓜多尔在1822年终于彻底摆脱西班牙之控制。1825年厄瓜多尔加入大哥伦比亚共和国，但此国于1830年解体。厄瓜多尔共和国也因此成立。自1925年后，厄瓜多尔政治一直动荡不安，文人与军人政府轮替了足足19次；至1979年该国才正式由文人政府统治，确立宪法，并沿用了二十多年。2019年6月12日，厄瓜多尔最高法院裁定支持同性婚姻，其判决书于2019年7月8日公告让同性婚姻正式生效并开放注册。2019年10月，厄瓜多尔政府为因应取消补贴燃油价格而引发的大规模抗议，一度将政府机关从首都基多移至第一大城瓜亚基尔运作。",
+      "chars": 397
+    },
+    {
+      "section": "文化",
+      "text": "厄瓜多尔是一个多民族和多元文化的国家，整体来说，厄瓜多尔文化深受西班牙殖民文化与美洲原住民的传统的影响。但不同地区具有个别的特色。\n由于地形的多样性，饮食文化也因地区而异，厄国山区以米饭、马铃薯、玉米、豆、面类等配以猪牛肉、牛奶、沙拉等为主食；沿海地区居民则偏好香蕉及海产等食物。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "由于地形的多样性，饮食文化也因地区而异，厄国山区以米饭、马铃薯、玉米、豆、面类等配以猪牛肉、牛奶、沙拉等为主食；沿海地区居民则偏好香蕉及海产等食物。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "厄瓜多尔国土面积28万3560平方公里，人口1724.98万人 （2019年数据），由于曾经是西班牙的殖民地，境内人种复杂，其中印欧混血人口（麦士蒂索人，Mestizos）占总人口的61%，印地安人占34%，白种人占2.2%，除此之外还有被从非洲送至南美洲作为劳动人力的黑人与黑白混血人口。如同拉丁美洲大部分国家，厄瓜多尔的居民信奉的是一种融入部分印地安文化色彩的天主教，官方语言是西班牙语，但印地安族群间则通用克丘亚语。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Galapagos giant tortoise Geochelone elephantopus.jpg",
+      "caption_zh": "加拉帕戈斯群岛象龟",
+      "caption": "加拉帕戈斯群岛象龟",
+      "caption_commons": "A dome-shelled Galápagos giant tortoise, Chelonoidis nigra",
+      "kw": "Galapagos Islands Bartolome",
+      "url": "assets/ec/L01.webp",
+      "thumb_url": "assets/ec/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Galapagos_giant_tortoise_Geochelone_elephantopus.jpg/1920px-Galapagos_giant_tortoise_Geochelone_elephantopus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Mfield, Matthew Field, http://www.photography.mattfield.com",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 158882,
+      "caption_zh_manual": "加拉帕戈斯群岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8988,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 808KB JPEG)"
+    },
+    {
+      "title": "File:Basílica del Voto Nacional, Quito - 4.jpg",
+      "caption_zh": "基多老城国家誓言圣殿",
+      "caption": "基多老城国家誓言圣殿",
+      "caption_commons": "The Basilica of the National Vow (Spanish: Basílica del Voto Nacional) is a Roma",
+      "kw": "Quito Old Town colonial",
+      "url": "assets/ec/L02.webp",
+      "thumb_url": "assets/ec/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Bas%C3%ADlica_del_Voto_Nacional%2C_Quito_-_4.jpg/1920px-Bas%C3%ADlica_del_Voto_Nacional%2C_Quito_-_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Maros M r a z (Maros)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 99324,
+      "caption_zh_manual": "基多老城",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7654,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 536KB JPEG)"
+    },
+    {
+      "title": "File:Vólcan Cotopaxi.jpg",
+      "caption_zh": "科托帕希火山",
+      "caption": "科托帕希火山",
+      "caption_commons": "Cara norte del volcán Cotopaxi al amanecer",
+      "kw": "Cotopaxi volcano",
+      "url": "assets/ec/L03.webp",
+      "thumb_url": "assets/ec/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/74/V%C3%B3lcan_Cotopaxi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "camilogaleano.com",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 57360,
+      "caption_zh_manual": "科托帕希火山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4750,
+      "size": {
+        "detail": "1000x650",
+        "thumb": "240x156"
+      },
+      "encoding": "webp q75/q78 (源 1000x650 78KB JPEG)"
+    },
+    {
+      "title": "File:Mitad del Mundo, Quito, Ecuador, 2015-07-22, DD 15.JPG",
+      "caption_zh": "厄瓜多尔基多赤道纪念碑",
+      "caption": "厄瓜多尔基多赤道纪念碑",
+      "caption_commons": "Mitad del Mundo, Quito, Ecuador",
+      "kw": "Mitad del Mundo equator monument",
+      "url": "assets/ec/L06.webp",
+      "thumb_url": "assets/ec/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_15.JPG/1920px-Mitad_del_Mundo%2C_Quito%2C_Ecuador%2C_2015-07-22%2C_DD_15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 352160,
+      "caption_zh_manual": "赤道纪念碑",
+      "thumb_bytes": 11212,
+      "size": {
+        "detail": "1080x813",
+        "thumb": "239x180"
+      },
+      "encoding": "webp q75/q78 (源 640x480 176KB JPEG)",
+      "replace_reason": "原图仅 640px"
+    },
+    {
+      "title": "File:Volcán Chimborazo desde Riobamba.jpg",
+      "caption_zh": "从里奥班巴眺望钦博拉索山",
+      "caption": "从里奥班巴眺望钦博拉索山",
+      "caption_commons": "Vista del Volcán Chimborazo desde Riobamba por Eduardo Navas",
+      "kw": "Chimborazo volcano",
+      "url": "assets/ec/L05.webp",
+      "thumb_url": "assets/ec/L05.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Volc%C3%A1n_Chimborazo_desde_Riobamba.jpg/1920px-Volc%C3%A1n_Chimborazo_desde_Riobamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "Eduardo Navas",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 71688,
+      "caption_zh_manual": "钦博拉索山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5484,
+      "size": {
+        "detail": "1080x631",
+        "thumb": "240x140"
+      },
+      "encoding": "webp q75/q78 (源 1920x1122 435KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 3.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T16:36:40+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "语言代码未解析，已剔除：奇曲瓦語、舒爾語",
+    "P443 发音语种不符已弃用：Lb-Ecuador.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Ecuador.wav、LL-Q652 (ita)-Francyskus-Ecuador.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py EC",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [
+      {
+        "v": "香蕉",
+        "evidence": "盛产蕉而又称为“香蕉之国”"
+      }
+    ],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "赤道",
+        "evidence": "赤道横贯了厄瓜多尔的国境"
+      },
+      {
+        "v": "加拉帕戈斯群岛",
+        "evidence": "距离厄瓜多尔本土1,000公里的加拉帕戈斯群岛"
+      },
+      {
+        "v": "香蕉之国",
+        "evidence": "盛产蕉而又称为“香蕉之国”"
+      },
+      {
+        "v": "基多",
+        "evidence": "首都基多位于皮钦查火山的山麓"
+      },
+      {
+        "v": "皮钦查火山",
+        "evidence": "基多位于皮钦查火山的山麓"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "厄瓜多尔共和国（西班牙语：República del Ecuador），通称厄瓜多尔（Ecuador），是位于南美洲西北部的国家，北面与哥伦比亚相邻，南接秘鲁，西面为太平洋，另包括距离厄瓜多尔本土1,000公里的加拉帕戈斯群岛。\n厄瓜多尔于1809年8月10日宣告脱离西班牙独立建国。由于赤道横贯了厄瓜多尔的国境，所以以西班牙语中的赤道（ecuador）作为国家名字，因此又拥有“赤道国”的别称，又因为盛产蕉而又称为“香蕉之国”。首都基多位于皮钦查火山的山麓，海拔高达2850米，使该市成为全世界第二高的首都（仅次于玻利维亚的首都拉巴斯）。\n\n\n== 历史 ==\n\n据现今文献，厄瓜多尔的历史可追溯至三千五百年前。当时在今日沿海地区已有部落散居。1463年成为印加帝国一部分。在西班牙人发现新大陆后，厄瓜多尔于1532年被西班牙人占领，自此变为西班牙海外领土数百年。\n1809年8月10日厄瓜多尔宣布独立，但很快被西班牙重新占领。挣扎了十数年后，厄瓜多尔在1822年终于彻底摆脱西班牙之控制。1825年厄瓜多尔加入大哥伦比亚共和国，但此国于1830年解体。厄瓜多尔共和国也因此成立。",
+  "history_text": "沿海一带早有部落散居，后来被并入印加帝国。十六世纪三十年代起遭西班牙人占领，此后数百年为海外属地。十九世纪初宣布独立，旋即被重新控制，又挣扎十数年才彻底摆脱。此后一度加入大哥伦比亚共和国，该国解体后，共和国随之成立。二十世纪二十年代以后政局长期动荡，文人政府与军人政府轮替多次，直到七十年代末才确立文人执政与宪法。",
+  "custom_text": "吃食随地势分作两路：山区人家以米饭、马铃薯、玉米、豆类和面食为主，配猪肉、牛肉、牛奶与沙拉；沿海居民则偏爱香蕉和海产。香蕉既是日常果腹之物，也随船运往别处，让这片赤道之地得了“香蕉之国”的名号。居民多信奉融入印第安色彩的天主教，印第安族群之间仍通用克丘亚语，节庆与日常里都留着原住民的痕迹。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 157,
+      "folk": 145
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "厄瓜多尔在哪儿啊？周围都是些什么地方？",
+      "a": "位于南美洲西北部，北面与哥伦比亚相邻，南接秘鲁，西面为太平洋，还包括距离本土1,000公里的加拉帕戈斯群岛。",
+      "tags": [
+        "南美洲",
+        "地理位置",
+        "邻国",
+        "太平洋"
+      ]
+    },
+    {
+      "q": "厄瓜多尔的首都是哪里？",
+      "a": "首都基多，位于皮钦查火山的山麓，海拔高达2850米，是全世界第二高的首都，仅次于玻利维亚的拉巴斯。",
+      "tags": [
+        "首都",
+        "基多",
+        "高海拔"
+      ]
+    },
+    {
+      "q": "厄瓜多尔说什么语言？",
+      "a": "官方语言是西班牙语。",
+      "tags": [
+        "语言",
+        "西班牙语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "厄瓜多尔有什么别称吗？为什么叫这个？",
+      "a": "因为赤道横贯国境，以西班牙语中的赤道（ecuador）作为国名，所以有“赤道国”的别称；又因盛产蕉而称为“香蕉之国”。",
+      "tags": [
+        "别称",
+        "赤道国",
+        "香蕉之国",
+        "国名由来"
+      ]
+    },
+    {
+      "q": "厄瓜多尔有什么值得看的地标或景观？",
+      "a": "有加拉帕戈斯群岛、基多老城、科托帕希火山、赤道纪念碑和钦博拉索山。",
+      "tags": [
+        "地标",
+        "景点",
+        "加拉帕戈斯",
+        "火山"
+      ]
+    },
+    {
+      "q": "厄瓜多尔有什么特产？",
+      "a": "盛产蕉，因此有“香蕉之国”的别称。",
+      "tags": [
+        "特产",
+        "香蕉",
+        "吃什么"
+      ]
+    },
+    {
+      "q": "厄瓜多尔是怎么独立的？",
+      "a": "1809年8月10日宣告脱离西班牙独立建国，但很快被西班牙重新占领，挣扎十数年后，于1822年彻底摆脱西班牙控制。",
+      "tags": [
+        "历史",
+        "独立",
+        "西班牙"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -7883,
+        143
+      ],
+      [
+        -7812,
+        92
+      ],
+      [
+        -7785,
+        81
+      ],
+      [
+        -7770,
+        84
+      ],
+      [
+        -7765,
+        72
+      ],
+      [
+        -7747,
+        65
+      ],
+      [
+        -7740,
+        39
+      ],
+      [
+        -7656,
+        22
+      ],
+      [
+        -7641,
+        26
+      ],
+      [
+        -7642,
+        40
+      ],
+      [
+        -7630,
+        46
+      ],
+      [
+        -7605,
+        36
+      ],
+      [
+        -7579,
+        8
+      ],
+      [
+        -7563,
+        8
+      ],
+      [
+        -7528,
+        -11
+      ],
+      [
+        -7564,
+        -13
+      ],
+      [
+        -7526,
+        -54
+      ],
+      [
+        -7530,
+        -75
+      ],
+      [
+        -7523,
+        -97
+      ],
+      [
+        -7541,
+        -92
+      ],
+      [
+        -7557,
+        -154
+      ],
+      [
+        -7609,
+        -213
+      ],
+      [
+        -7668,
+        -257
+      ],
+      [
+        -7787,
+        -299
+      ],
+      [
+        -7820,
+        -336
+      ],
+      [
+        -7816,
+        -348
+      ],
+      [
+        -7823,
+        -351
+      ],
+      [
+        -7835,
+        -339
+      ],
+      [
+        -7842,
+        -379
+      ],
+      [
+        -7868,
+        -433
+      ],
+      [
+        -7867,
+        -455
+      ],
+      [
+        -7890,
+        -469
+      ],
+      [
+        -7890,
+        -484
+      ],
+      [
+        -7906,
+        -501
+      ],
+      [
+        -7930,
+        -496
+      ],
+      [
+        -7945,
+        -481
+      ],
+      [
+        -7951,
+        -453
+      ],
+      [
+        -7966,
+        -444
+      ],
+      [
+        -7983,
+        -448
+      ],
+      [
+        -8014,
+        -428
+      ],
+      [
+        -8038,
+        -448
+      ],
+      [
+        -8049,
+        -441
+      ],
+      [
+        -8034,
+        -420
+      ],
+      [
+        -8047,
+        -421
+      ],
+      [
+        -8049,
+        -401
+      ],
+      [
+        -8033,
+        -401
+      ],
+      [
+        -8017,
+        -389
+      ],
+      [
+        -8027,
+        -343
+      ],
+      [
+        -8034,
+        -337
+      ],
+      [
+        -7995,
+        -320
+      ],
+      [
+        -7973,
+        -259
+      ],
+      [
+        -7987,
+        -216
+      ],
+      [
+        -7977,
+        -200
+      ],
+      [
+        -7989,
+        -212
+      ],
+      [
+        -7990,
+        -254
+      ],
+      [
+        -8006,
+        -258
+      ],
+      [
+        -7993,
+        -248
+      ],
+      [
+        -8003,
+        -247
+      ],
+      [
+        -7995,
+        -231
+      ],
+      [
+        -8001,
+        -233
+      ],
+      [
+        -8018,
+        -259
+      ],
+      [
+        -8028,
+        -261
+      ],
+      [
+        -8026,
+        -273
+      ],
+      [
+        -8066,
+        -242
+      ],
+      [
+        -8091,
+        -232
+      ],
+      [
+        -8101,
+        -217
+      ],
+      [
+        -8087,
+        -220
+      ],
+      [
+        -8074,
+        -204
+      ],
+      [
+        -8086,
+        -159
+      ],
+      [
+        -8074,
+        -134
+      ],
+      [
+        -8091,
+        -104
+      ],
+      [
+        -8082,
+        -95
+      ],
+      [
+        -8059,
+        -93
+      ],
+      [
+        -8045,
+        -61
+      ],
+      [
+        -8030,
+        -66
+      ],
+      [
+        -8039,
+        -62
+      ],
+      [
+        -8050,
+        -38
+      ],
+      [
+        -8005,
+        9
+      ],
+      [
+        -7999,
+        36
+      ],
+      [
+        -8011,
+        70
+      ],
+      [
+        -8008,
+        82
+      ],
+      [
+        -7966,
+        100
+      ],
+      [
+        -7961,
+        84
+      ],
+      [
+        -7963,
+        99
+      ],
+      [
+        -7917,
+        110
+      ],
+      [
+        -7906,
+        122
+      ],
+      [
+        -7899,
+        112
+      ],
+      [
+        -7893,
+        124
+      ],
+      [
+        -7881,
+        128
+      ],
+      [
+        -7888,
+        132
+      ],
+      [
+        -7883,
+        143
+      ]
+    ],
+    [
+      [
+        -9081,
+        -73
+      ],
+      [
+        -9093,
+        -97
+      ],
+      [
+        -9144,
+        -100
+      ],
+      [
+        -9147,
+        -81
+      ],
+      [
+        -9109,
+        -58
+      ],
+      [
+        -9138,
+        -28
+      ],
+      [
+        -9142,
+        -3
+      ],
+      [
+        -9160,
+        -1
+      ],
+      [
+        -9150,
+        11
+      ],
+      [
+        -9132,
+        14
+      ],
+      [
+        -9117,
+        -23
+      ],
+      [
+        -9096,
+        -42
+      ],
+      [
+        -9099,
+        -58
+      ],
+      [
+        -9081,
+        -73
+      ]
+    ],
+    [
+      [
+        -8006,
+        -266
+      ],
+      [
+        -7990,
+        -272
+      ],
+      [
+        -8013,
+        -302
+      ],
+      [
+        -8025,
+        -303
+      ],
+      [
+        -8021,
+        -272
+      ],
+      [
+        -8006,
+        -266
+      ]
+    ],
+    [
+      [
+        -9019,
+        -54
+      ],
+      [
+        -9020,
+        -68
+      ],
+      [
+        -9034,
+        -78
+      ],
+      [
+        -9054,
+        -68
+      ],
+      [
+        -9049,
+        -52
+      ],
+      [
+        -9026,
+        -48
+      ],
+      [
+        -9019,
+        -54
+      ]
+    ]
+  ]
+}

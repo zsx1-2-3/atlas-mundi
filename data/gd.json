@@ -75,30 +75,31 @@
       "encoding": "webp q75/q78 (源 1920x1289 516KB JPEG)"
     },
     {
-      "title": "File:Monte Castello - Castel San Giorgio.jpg",
-      "caption_zh": "蒙特卡斯特洛的圣乔治堡",
-      "caption": "蒙特卡斯特洛的圣乔治堡",
+      "title": "File:Villa Calvanese.JPG",
+      "caption_zh": "圣乔治堡",
+      "caption": "圣乔治堡",
       "caption_commons": "Monte Castello - Castel San Giorgio",
       "kw": "Fort George St George's Grenada",
       "url": "assets/gd/L02.webp",
       "thumb_url": "assets/gd/L02.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Monte_Castello_-_Castel_San_Giorgio.jpg/1920px-Monte_Castello_-_Castel_San_Giorgio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Villa_Calvanese.JPG/1920px-Villa_Calvanese.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "wikidata_p18",
       "pick_tier": "strict",
-      "author": "ItalianDG Gaetano Galluzzo",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "IlGrandeame",
+      "license": "Public domain",
+      "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 121182,
+      "bytes": 242978,
       "caption_zh_manual": "圣乔治堡",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 7250,
+      "thumb_bytes": 13990,
+      "encoding": "webp q75/q78 (源 1920x1398 1050KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x725",
-        "thumb": "240x161"
-      },
-      "encoding": "webp q75/q78 (源 1920x1289 626KB JPEG)"
+        "detail": "1080x786",
+        "thumb": "240x175"
+      }
     },
     {
       "title": "File:Seven Sisters Falls - panoramio.jpg",

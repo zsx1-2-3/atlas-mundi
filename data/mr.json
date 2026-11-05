@@ -161,15 +161,15 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 75708,
+      "bytes": 107840,
       "caption_zh_manual": "撒哈拉之眼",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4804,
+      "thumb_bytes": 5770,
       "size": {
-        "detail": "1024x683",
+        "detail": "1080x720",
         "thumb": "240x160"
       },
-      "encoding": "webp q75/q78 (源 1024x683 156KB JPEG)"
+      "encoding": "webp q75/q78 (源 1280x853 232KB JPEG)"
     },
     {
       "title": "File:Conchero Arguin.jpg",

@@ -161,6 +161,28 @@
         "thumb": "240x160"
       },
       "encoding": "webp q75/q78 (源 1920x1277 554KB JPEG)"
+    },
+    {
+      "title": "File:0181-0183a - Wien - Stephansdom.jpg",
+      "caption_zh": "圣斯蒂芬大教堂",
+      "caption": "圣斯蒂芬大教堂",
+      "kw": "St. Stephen's Cathedral Vienna",
+      "url": "assets/at/L02.webp",
+      "thumb_url": "assets/at/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/0181-0183a_-_Wien_-_Stephansdom.jpg/1920px-0181-0183a_-_Wien_-_Stephansdom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Andrew Bossi",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "bytes": 185798,
+      "verified": "vision",
+      "thumb_bytes": 9556,
+      "size": {
+        "detail": "1080x937",
+        "thumb": "208x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1665 1007KB JPEG)"
     }
   ],
   "image_license": "CC BY-SA 4.0",

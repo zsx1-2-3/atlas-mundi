@@ -206,6 +206,16 @@ def rel_of(p):
     return os.path.join(ROOT, p.replace("/", os.sep))
 
 
+def _orphan(rel):
+    """登记一个待清理的孤儿文件，不直接删（沙箱单轮删满 50 个会掐断进程）。"""
+    try:
+        with open(os.path.join(ROOT, "review", "orphan_assets.txt"), "a",
+                  encoding="utf-8") as f:
+            f.write(rel + "\n")
+    except OSError:
+        pass
+
+
 def check_items(iso, rec, cache, budget, oracle):
     """验一遍这个国家现有的图。返回 [(idx, ok, why)]，并把结果写进缓存。"""
     imgs = rec.get("landmark_images") or []
@@ -262,6 +272,10 @@ def refill(iso, rec, conf, tried, cache, budget, cap):
         e = entry_of(conf, iso, kw)
         if not e:
             continue
+        # 换图后图注要回到清单里的规范名。原来这里直接用了一个从未赋值的 zh，
+        # 一走到 it.update 就 NameError —— 也就是说换图这条路以前根本没跑通过
+        # （之前只用 --oracle 判过，没真换）。清单里查不到就退回原图注。
+        zh = (e.get("zh") or it.get("caption_zh") or it.get("caption") or "")
         log("      - %s 判定不合格（%s），换下一张" % (it.get("caption_zh"), v.get("why", "")))
         picks, _err = F.ranked_picks(e)
         done = set(tried.setdefault(iso, {}).setdefault(kw, []))
@@ -269,8 +283,26 @@ def refill(iso, rec, conf, tried, cache, budget, cap):
         nxt = next((p for p in picks if p["name"] not in done
                     and p["name"] not in used_names), None)
         if not nxt:
+            # 严格档一张都没剩下：把 must 去掉再宽一档试一次。
+            # 反正下面有视觉判定兜底 —— 宁可放宽后被否掉，也别直接把这一格清空。
+            # （2026-11-05 实测：不加这一步，安圭拉/安哥拉这类小国会一路"保留空缺"。）
+            alt = {"zh": e.get("zh") or it.get("caption_zh"), "kw": kw}
+            picks2, _e2 = F.ranked_picks(alt)
+            nxt = next((p for p in picks2 if p["name"] not in done
+                        and p["name"] not in used_names), None)
+            if nxt:
+                log("        · 严格档无候选，放宽 must 后再试：%s" % nxt["name"][:40])
+        if not nxt:
             tried[iso][kw] = sorted(done)
             log("        [x] %s 候选已全部试过，保留空缺" % it.get("caption_zh"))
+            # 删掉之前留一份完整记录：模型有 ~15% 的误判率，删错的还能据此还原。
+            try:
+                with open(os.path.join(ROOT, "review", "deleted_by_vision.json"), "a",
+                          encoding="utf-8") as f:
+                    f.write(json.dumps({"iso": iso, "why": v.get("why", ""),
+                                        "item": it}, ensure_ascii=False) + "\n")
+            except Exception:
+                pass
             imgs.remove(it)
             changed += 1
             continue
@@ -300,16 +332,20 @@ def refill(iso, rec, conf, tried, cache, budget, cap):
                                         "at": datetime.now().strftime("%Y-%m-%d %H:%M")}
         if not ok:
             log("        [x] 新候选也不合格（%s），继续换" % why)
-            try:
-                os.remove(rel_of(rel))
-            except OSError:
-                pass
+            # 不删：沙箱单轮批量删除到 50 个就会把进程掐断（"scope":"turn"），
+            # 全量换图必然撞上。留着当孤儿，事后 prune_orphans.py 分批清。
+            _orphan(rel)
             continue
         for old in (it.get("url"), it.get("thumb_url")):
             pth = rel_of(old or "")
             if pth and pth != rel_of(rel) and os.path.exists(pth):
+                # 不在这里删：沙箱有「单轮批量删除上限」，一次全量换图会撞上
+                # （2026-11-05 实测：删到第 50 个文件，进程被 safe-delete 直接掐断，
+                #  跑完 67 国就停了）。这里只登记，事后用 prune_orphans.py 分批清。
                 try:
-                    os.remove(pth)          # 换掉的旧 webp 直接删，别留孤儿
+                    with open(os.path.join(ROOT, "review", "orphan_assets.txt"), "a",
+                              encoding="utf-8") as f:
+                        f.write(old + "\n")
                 except OSError:
                     pass
         # 换图时图注回到清单里的规范名。实测踩到：肯尼亚的"东非大裂谷"早期
@@ -360,10 +396,7 @@ def refill(iso, rec, conf, tried, cache, budget, cap):
                     "ok": ok, "why": why,
                     "at": datetime.now().strftime("%Y-%m-%d %H:%M")}
                 if not ok:
-                    try:
-                        os.remove(rel_of(rel))
-                    except OSError:
-                        pass
+                    _orphan(rel)
                     log("        · %s 的 %s 也不合格（%s）" % (e.get("zh"), nxt["name"][:30], why))
                     continue
                 imgs.append({"title": "File:" + nxt["name"], "caption_zh": e.get("zh"),

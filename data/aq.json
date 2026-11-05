@@ -37,56 +37,31 @@
   ],
   "landmark_images": [
     {
-      "title": "File:Geographic Southpole crop.jpg",
-      "caption_zh": "南极点局部裁剪图",
-      "caption": "南极点局部裁剪图",
-      "caption_commons": "Geographic Southpole",
-      "kw": "South Pole marker Antarctica",
-      "url": "assets/aq/01.webp",
-      "thumb_url": "assets/aq/01.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Geographic_Southpole_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "wikidata_p18",
-      "pick_tier": "strict",
-      "author": "Kuno Lechner; cropped by H Debussy-Jones (talk) 08:31, 14 November 2009 (UTC)",
-      "license": "CC BY-SA 3.0",
-      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-      "license_status": "ok",
-      "load_verified": true,
-      "bytes": 100700,
-      "caption_zh_manual": "南极点",
-      "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 3584,
-      "size": {
-        "detail": "960x960",
-        "thumb": "180x180"
-      },
-      "encoding": "webp q75/q78 (源 960x960 174KB JPEG)"
-    },
-    {
-      "title": "File:Ross Ice Shelf 1997.jpg",
+      "title": "File:Ross Ice-Shelf.jpg",
       "caption_zh": "罗斯冰架",
       "caption": "罗斯冰架",
       "caption_commons": "Ross Ice Shelf, 1997The Ross Ice Shelf from the NATHANIEL B. PALMERRoss Sea, Ant",
       "kw": "Ross Ice Shelf Antarctica",
       "url": "assets/aq/02.webp",
       "thumb_url": "assets/aq/02.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ross_Ice_Shelf_1997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "wikidata_p18",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Ross_Ice-Shelf.jpg/1920px-Ross_Ice-Shelf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
       "pick_tier": "strict",
-      "author": "Michael Van Woert, NOAA NESDIS, ORA",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "lin padgham",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 135920,
+      "bytes": 38452,
       "caption_zh_manual": "罗斯冰架",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 7556,
+      "thumb_bytes": 3834,
       "size": {
-        "detail": "960x637",
-        "thumb": "240x159"
+        "detail": "1080x720",
+        "thumb": "240x160"
       },
-      "encoding": "webp q75/q78 (源 960x637 215KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1280 371KB JPEG)",
+      "verified": "vision"
     },
     {
       "title": "File:McMurdo Station.jpg",
@@ -165,6 +140,28 @@
         "thumb": "240x168"
       },
       "encoding": "webp q75/q78 (源 1920x1348 593KB JPEG)"
+    },
+    {
+      "title": "File:B Deception Island - Whalers Bay.jpg",
+      "caption_zh": "迪塞普申岛",
+      "caption": "迪塞普申岛",
+      "kw": "Deception Island Antarctica",
+      "url": "assets/aq/L01.webp",
+      "thumb_url": "assets/aq/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/B_Deception_Island_-_Whalers_Bay.jpg/1920px-B_Deception_Island_-_Whalers_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bytes": 110756,
+      "verified": "vision",
+      "thumb_bytes": 8508,
+      "size": {
+        "detail": "1080x717",
+        "thumb": "240x159"
+      },
+      "encoding": "webp q75/q78 (源 1920x1275 654KB JPEG)"
     }
   ],
   "image_license": "CC BY-SA 3.0",

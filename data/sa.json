@@ -85,30 +85,31 @@
       "encoding": "webp q75/q78 (源 1920x1280 425KB JPEG)"
     },
     {
-      "title": "File:Hegra Inscription Marcus Aurelius.jpg",
-      "caption_zh": "玛甸沙勒石谷铭文",
-      "caption": "玛甸沙勒石谷铭文",
+      "title": "File:Madain Saleh (6720062703).jpg",
+      "caption_zh": "玛甸沙勒石谷",
+      "caption": "玛甸沙勒石谷",
       "caption_commons": "Hegra (Mada’in Salih) monumental inscription dedicated to Imperator Marcus Aurel",
       "kw": "Hegra Mada'in Salih",
       "url": "assets/sa/L03.webp",
       "thumb_url": "assets/sa/L03.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Hegra_Inscription_Marcus_Aurelius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Madain_Saleh_%286720062703%29.jpg/1920px-Madain_Saleh_%286720062703%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "archive.aramcoworld.com",
-      "license": "CC0",
-      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Sammy Six",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 60390,
+      "bytes": 175720,
       "caption_zh_manual": "玛甸沙勒石谷",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 6886,
+      "thumb_bytes": 9634,
       "size": {
-        "detail": "800x473",
-        "thumb": "240x142"
+        "detail": "1080x720",
+        "thumb": "240x160"
       },
-      "encoding": "webp q75/q78 (源 800x473 102KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1280 925KB JPEG)",
+      "verified": "vision"
     },
     {
       "title": "File:Kingdom Centre Riyadh 2024.jpeg",

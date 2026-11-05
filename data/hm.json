@@ -145,6 +145,28 @@
         "thumb": "240x160"
       },
       "encoding": "webp q75/q78 (源 1920x1280 318KB JPEG)"
+    },
+    {
+      "title": "File:Group of King Penguins on Heard Island.jpg",
+      "caption_zh": "麦克唐纳群岛",
+      "caption": "麦克唐纳群岛",
+      "kw": "McDonald Islands Heard",
+      "url": "assets/hm/L03.webp",
+      "thumb_url": "assets/hm/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Group_of_King_Penguins_on_Heard_Island.jpg/1920px-Group_of_King_Penguins_on_Heard_Island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "laikolosse",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "bytes": 19276,
+      "verified": "vision",
+      "thumb_bytes": 2646,
+      "size": {
+        "detail": "1080x721",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1282 252KB JPEG)"
     }
   ],
   "image_license": "CC BY 2.0",

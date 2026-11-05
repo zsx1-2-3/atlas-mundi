@@ -126,15 +126,15 @@
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 111160,
+      "bytes": 95318,
       "caption_zh_manual": "卡谢乌古堡",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 8592,
+      "thumb_bytes": 7378,
       "size": {
-        "detail": "1020x668",
-        "thumb": "240x157"
+        "detail": "1080x810",
+        "thumb": "240x180"
       },
-      "encoding": "webp q75/q78 (源 1020x668 275KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1440 616KB JPEG)"
     },
     {
       "title": "File:Edifícios Coloniais em Bolama, Guiné-Bissau 02.jpg",

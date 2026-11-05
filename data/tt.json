@@ -69,15 +69,15 @@
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 11178,
+      "bytes": 77552,
       "caption_zh_manual": "皮奇湖沥青湖",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4994,
+      "thumb_bytes": 5188,
       "size": {
-        "detail": "480x360",
-        "thumb": "240x180"
+        "detail": "1080x856",
+        "thumb": "227x180"
       },
-      "encoding": "webp q75/q78 (源 480x360 143KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1522 455KB JPEG)"
     },
     {
       "title": "File:TnT Maracas Bay 2.jpg",
@@ -106,30 +106,31 @@
       "encoding": "webp q75/q78 (源 1920x1440 485KB JPEG)"
     },
     {
-      "title": "File:Tobago nylon pool.jpg",
+      "title": "File:UWI Hiking Club Hike to Cafe Pool 2025 DSC06310 (54279943186).jpg",
       "caption_zh": "尼龙池瀑布",
       "caption": "尼龙池瀑布",
       "caption_commons": "Boat and swimmers at Tobago's Nylon Pool.",
       "kw": "Nylon Pool Tobago",
       "url": "assets/tt/L03.webp",
       "thumb_url": "assets/tt/L03.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Tobago_nylon_pool.jpg/1920px-Tobago_nylon_pool.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "article_img",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/UWI_Hiking_Club_Hike_to_Cafe_Pool_2025_DSC06310_%2854279943186%29.jpg/1920px-UWI_Hiking_Club_Hike_to_Cafe_Pool_2025_DSC06310_%2854279943186%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
       "pick_tier": "strict",
-      "author": "Darkonc",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "anaxmedia from Trinidad and Tobago",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 71258,
+      "bytes": 132880,
       "caption_zh_manual": "尼龙池瀑布",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 5046,
+      "thumb_bytes": 10518,
+      "encoding": "webp q75/q78 (源 1920x1353 716KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x810",
-        "thumb": "240x180"
-      },
-      "encoding": "webp q75/q78 (源 1920x1440 562KB JPEG)"
+        "detail": "1080x761",
+        "thumb": "240x169"
+      }
     },
     {
       "title": "File:Pigeon Point jetty.jpg",

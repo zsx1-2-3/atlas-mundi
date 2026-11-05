@@ -122,30 +122,53 @@
       "encoding": "webp q75/q78 (源 1920x1280 642KB JPEG)"
     },
     {
-      "title": "File:Dataran Merdeka 1.jpg",
+      "title": "File:Black Star Monument, Accra, Ghana.JPG",
       "caption_zh": "独立广场",
       "caption": "独立广场",
       "caption_commons": "Dataran Merdeka (Independence Square) in Kuala Lumpur, Malaysia",
       "kw": "Independence Square Accra Black Star Gate",
       "url": "assets/gh/L06.webp",
       "thumb_url": "assets/gh/L06.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Dataran_Merdeka_1.jpg/1920px-Dataran_Merdeka_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "wikidata_p18",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Black_Star_Monument%2C_Accra%2C_Ghana.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
       "pick_tier": "strict",
-      "author": "Haakon S. Krohn",
+      "author": "Rjruiziii",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 64138,
+      "bytes": 44428,
       "caption_zh_manual": "独立广场",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 5508,
+      "thumb_bytes": 4958,
+      "encoding": "webp q75/q78 (源 1600x1201 510KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x720",
-        "thumb": "240x160"
+        "detail": "1080x811",
+        "thumb": "240x180"
+      }
+    },
+    {
+      "title": "File:Mole National Park, West Gonja (P1100486).jpg",
+      "caption_zh": "莫尔国家公园",
+      "caption": "莫尔国家公园",
+      "kw": "Mole National Park Ghana",
+      "url": "assets/gh/L04.webp",
+      "thumb_url": "assets/gh/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Mole_National_Park%2C_West_Gonja_%28P1100486%29.jpg/1920px-Mole_National_Park%2C_West_Gonja_%28P1100486%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Matti Blume",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "bytes": 191770,
+      "verified": "vision",
+      "thumb_bytes": 10094,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
       },
-      "encoding": "webp q75/q78 (源 1920x1280 427KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1440 854KB JPEG)"
     }
   ],
   "image_license": "CC BY-SA 3.0",

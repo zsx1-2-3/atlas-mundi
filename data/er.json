@@ -102,32 +102,6 @@
       "encoding": "webp q75/q78 (源 1920x1280 818KB JPEG)"
     },
     {
-      "title": "File:Dahlak tombstone.jpg",
-      "caption_zh": "达赫拉克群岛墓碑",
-      "caption": "达赫拉克群岛墓碑",
-      "caption_commons": "From Dahlak in Eritrea, a carved basalt tombstone with Arabic inscriptions, Brit",
-      "kw": "Dahlak Archipelago",
-      "url": "assets/er/L02.webp",
-      "thumb_url": "assets/er/L02.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Dahlak_tombstone.jpg/1920px-Dahlak_tombstone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "article_img",
-      "pick_tier": "strict",
-      "author": "Jononmac46",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "license_status": "ok",
-      "load_verified": true,
-      "bytes": 84848,
-      "caption_zh_manual": "达赫拉克群岛",
-      "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 2972,
-      "size": {
-        "detail": "1080x1440",
-        "thumb": "135x180"
-      },
-      "encoding": "webp q75/q78 (源 1920x2560 636KB JPEG)"
-    },
-    {
       "title": "File:Massawa MKL Bd. 11 1890 (128500553).jpg",
       "caption_zh": "马萨瓦老城",
       "caption": "马萨瓦老城",
@@ -143,15 +117,15 @@
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 111522,
+      "bytes": 95074,
       "caption_zh_manual": "马萨瓦老城",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 11546,
+      "thumb_bytes": 5800,
       "size": {
-        "detail": "1016x680",
-        "thumb": "240x161"
+        "detail": "1080x809",
+        "thumb": "240x180"
       },
-      "encoding": "webp q75/q78 (源 1016x680 225KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1439 643KB JPEG)"
     },
     {
       "title": "File:Fiat tagliero, 08.JPG",

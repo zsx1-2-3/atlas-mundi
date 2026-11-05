@@ -89,30 +89,31 @@
       "encoding": "webp q75/q78 (源 1920x1080 766KB JPEG)"
     },
     {
-      "title": "File:2020-11 Saint-Paul Island 17.jpg",
+      "title": "File:Île Saint-Paul.jpg",
       "caption_zh": "圣保罗岛",
       "caption": "圣保罗岛",
       "caption_commons": "Remains of the 1930s fishery on Saint-Paul island, TAAF, France.",
       "kw": "Saint Paul Island Indian Ocean",
       "url": "assets/tf/L04.webp",
       "thumb_url": "assets/tf/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/2020-11_Saint-Paul_Island_17.jpg/1920px-2020-11_Saint-Paul_Island_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%C3%8Ele_Saint-Paul.jpg/1920px-%C3%8Ele_Saint-Paul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Antoine Lamielle",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "B.navez",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 189042,
+      "bytes": 136808,
       "caption_zh_manual": "圣保罗岛",
       "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 7670,
+      "encoding": "webp q75/q78 (源 1920x1279 737KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x720",
+        "detail": "1080x719",
         "thumb": "240x160"
-      },
-      "encoding": "webp q75/q78 (源 1920x1280 948KB JPEG)"
+      }
     },
     {
       "title": "File:Reconnaissance de la Terre Adelie, le 20 Janvier 1840.jpg",
@@ -139,6 +140,28 @@
         "thumb": "240x172"
       },
       "encoding": "webp q75/q78 (源 1920x1372 707KB JPEG)"
+    },
+    {
+      "title": "File:TAAF - Archipel de Kerguelen - cormoran des Kerguelen en face de la base de Port Aux Français.jpg",
+      "caption_zh": "法兰西港",
+      "caption": "法兰西港",
+      "kw": "Port-aux-Francais Kerguelen",
+      "url": "assets/tf/L02.webp",
+      "thumb_url": "assets/tf/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/TAAF_-_Archipel_de_Kerguelen_-_cormoran_des_Kerguelen_en_face_de_la_base_de_Port_Aux_Fran%C3%A7ais.jpg/1920px-TAAF_-_Archipel_de_Kerguelen_-_cormoran_des_Kerguelen_en_face_de_la_base_de_Port_Aux_Fran%C3%A7ais.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Sylvain JORIS",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bytes": 61618,
+      "verified": "vision",
+      "thumb_bytes": 2746,
+      "size": {
+        "detail": "1080x1080",
+        "thumb": "180x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1920 456KB JPEG)"
     }
   ],
   "image_license": "CC BY-SA 3.0",

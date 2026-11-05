@@ -75,30 +75,31 @@
       "encoding": "webp q75/q78 (源 1920x1280 462KB JPEG)"
     },
     {
-      "title": "File:Collectie NMvWereldculturen, TM-10021315, Repronegatief 'Waterfront van Marigot.', fotograaf niet bekend, 1947.jpg",
+      "title": "File:Gustavia San Barth 001.jpg",
       "caption_zh": "马里戈特海滨",
       "caption": "马里戈特海滨",
       "caption_commons": "Repronegatief'Waterfront van Marigot.'1947Afmetingen van het werk: 9 x 12cm (3 9",
       "kw": "Marigot waterfront Saint-Martin",
       "url": "assets/mf/L02.webp",
       "thumb_url": "assets/mf/L02.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Collectie_NMvWereldculturen%2C_TM-10021315%2C_Repronegatief_%27Waterfront_van_Marigot.%27%2C_fotograaf_niet_bekend%2C_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "commons_search",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gustavia_San_Barth_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
       "pick_tier": "strict",
-      "author": "Unknown authorUnknown author",
+      "author": "Germanramos",
       "license": "Public domain",
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 122050,
+      "bytes": 78354,
       "caption_zh_manual": "马里戈特海滨",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 8936,
+      "thumb_bytes": 8000,
+      "encoding": "webp q75/q78 (源 1544x1026 1097KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x873",
-        "thumb": "223x180"
-      },
-      "encoding": "webp q75/q78 (源 1490x1204 618KB JPEG)"
+        "detail": "1080x718",
+        "thumb": "240x159"
+      }
     },
     {
       "title": "File:Fort St. Louis over Marigot, St. Martin - panoramio.jpg",
@@ -127,30 +128,31 @@
       "encoding": "webp q75/q78 (源 1920x1272 336KB JPEG)"
     },
     {
-      "title": "File:Grand Case 2.jpg",
-      "caption_zh": "格兰德凯斯海滩局部",
-      "caption": "格兰德凯斯海滩局部",
+      "title": "File:Grande Case, SXM island in the Caribbean.JPG",
+      "caption_zh": "格兰德凯斯海滩",
+      "caption": "格兰德凯斯海滩",
       "caption_commons": "Grand Case",
       "kw": "Grand Case Beach Saint-Martin",
       "url": "assets/mf/L04.webp",
       "thumb_url": "assets/mf/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Grand_Case_2.jpg/1920px-Grand_Case_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "article_img",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Grande_Case%2C_SXM_island_in_the_Caribbean.JPG/1920px-Grande_Case%2C_SXM_island_in_the_Caribbean.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
       "pick_tier": "strict",
-      "author": "LittleT889",
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Clavius66",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 112110,
+      "bytes": 50730,
       "caption_zh_manual": "格兰德凯斯海滩",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 8528,
+      "thumb_bytes": 3668,
+      "encoding": "webp q75/q78 (源 1920x1280 402KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x810",
-        "thumb": "240x180"
-      },
-      "encoding": "webp q75/q78 (源 1920x1440 641KB JPEG)"
+        "detail": "1080x720",
+        "thumb": "240x160"
+      }
     }
   ],
   "image_license": "CC BY-SA 3.0",

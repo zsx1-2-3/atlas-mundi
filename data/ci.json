@@ -104,6 +104,28 @@
         "thumb": "240x180"
       },
       "encoding": "webp q75/q78 (源 1920x1440 937KB JPEG)"
+    },
+    {
+      "title": "File:Notre-Dame-de-la-Paix de Yamoussoukro 2.jpg",
+      "caption_zh": "亚穆苏克罗和平圣母大殿",
+      "caption": "亚穆苏克罗和平圣母大殿",
+      "kw": "Basilica of Our Lady of Peace Yamoussoukro",
+      "url": "assets/ci/L01.webp",
+      "thumb_url": "assets/ci/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Notre-Dame-de-la-Paix_de_Yamoussoukro_2.jpg/1920px-Notre-Dame-de-la-Paix_de_Yamoussoukro_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Gregor Rom",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bytes": 49456,
+      "verified": "vision",
+      "thumb_bytes": 3808,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 419KB JPEG)"
     }
   ],
   "image_license": "CC BY-SA 3.0",

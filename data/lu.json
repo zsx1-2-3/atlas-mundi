@@ -159,30 +159,31 @@
       "encoding": "webp q75/q78 (源 1920x1281 475KB JPEG)"
     },
     {
-      "title": "File:J-P-Schmit N-Liez ruines-du-chateau-de-vianden.png",
-      "caption_zh": "维安登城堡废墟",
-      "caption": "维安登城堡废墟",
+      "title": "File:Vianden Castle and town.jpg",
+      "caption_zh": "维安登城堡",
+      "caption": "维安登城堡",
       "caption_commons": "Vue on Vianden castle, Luxembourg. Drawing.",
       "kw": "Vianden Castle Luxembourg",
       "url": "assets/lu/L04.webp",
       "thumb_url": "assets/lu/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/J-P-Schmit_N-Liez_ruines-du-chateau-de-vianden.png/1920px-J-P-Schmit_N-Liez_ruines-du-chateau-de-vianden.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Vianden_Castle_and_town.jpg/1920px-Vianden_Castle_and_town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Nicolas Liez",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "EEJCC",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 262762,
+      "bytes": 163296,
       "caption_zh_manual": "维安登城堡",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 10068,
+      "thumb_bytes": 9444,
+      "encoding": "webp q75/q78 (源 1920x1440 866KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x772",
-        "thumb": "240x172"
-      },
-      "encoding": "webp q75/q78 (源 1920x1372 6844KB JPEG)"
+        "detail": "1080x810",
+        "thumb": "240x180"
+      }
     },
     {
       "title": "File:Mullerthal Hiking Trail C5.jpg",

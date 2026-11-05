@@ -158,30 +158,31 @@
       "encoding": "webp q75/q78 (源 1600x1200 760KB JPEG)"
     },
     {
-      "title": "File:Dominic Serres the Elder - The Capture of Havana, 1762, the English Battery before Morro Castle.jpg",
-      "caption_zh": "英军炮台前眺望莫罗城堡",
-      "caption": "英军炮台前眺望莫罗城堡",
+      "title": "File:El Moro Havanna Cuba.jpg",
+      "caption_zh": "莫罗城堡",
+      "caption": "莫罗城堡",
       "caption_commons": "A depiction of an episode from the last major operation of the Seven Years War, ",
       "kw": "Castillo de los Tres Reyes del Morro Havana",
       "url": "assets/cu/L06.webp",
       "thumb_url": "assets/cu/L06.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Dominic_Serres_the_Elder_-_The_Capture_of_Havana%2C_1762%2C_the_English_Battery_before_Morro_Castle.jpg/1920px-Dominic_Serres_the_Elder_-_The_Capture_of_Havana%2C_1762%2C_the_English_Battery_before_Morro_Castle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "article_img",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/El_Moro_Havanna_Cuba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "wikidata_p18",
       "pick_tier": "strict",
-      "author": "Dominic Serres",
+      "author": "Dr. Anthony R. Picciolo, NOAA NODC",
       "license": "Public domain",
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 33028,
+      "bytes": 38130,
       "caption_zh_manual": "莫罗城堡",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 3224,
+      "thumb_bytes": 4382,
+      "encoding": "webp q75/q78 (源 1702x1080 780KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x754",
-        "thumb": "240x168"
-      },
-      "encoding": "webp q75/q78 (源 1920x1340 306KB JPEG)"
+        "detail": "1080x685",
+        "thumb": "240x152"
+      }
     }
   ],
   "image_license": "CC BY 2.0",

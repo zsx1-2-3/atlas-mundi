@@ -125,32 +125,6 @@
         "thumb": "101x180"
       },
       "encoding": "webp q75/q78 (源 221x395 208KB JPEG)"
-    },
-    {
-      "title": "File:Salt Cay Turk & Caicos aerial Curacao March 2024.jpg",
-      "caption_zh": "盐岛码头遗址航拍",
-      "caption": "盐岛码头遗址航拍",
-      "caption_commons": "Aerial photo of Salt Cay from about 35k feet/10.6km taken from a commercial flig",
-      "kw": "Salt Cay Turks Islands",
-      "url": "assets/tc/L05.webp",
-      "thumb_url": "assets/tc/L05.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Salt_Cay_Turk_%26_Caicos_aerial_Curacao_March_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "article_img",
-      "pick_tier": "strict",
-      "author": "Thudfinger",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "license_status": "ok",
-      "load_verified": true,
-      "bytes": 79300,
-      "caption_zh_manual": "盐岛码头遗址",
-      "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 6538,
-      "size": {
-        "detail": "1080x810",
-        "thumb": "240x180"
-      },
-      "encoding": "webp q75/q78 (源 1920x1440 2260KB JPEG)"
     }
   ],
   "image_license": "CC BY 2.0",

@@ -85,30 +85,31 @@
       "encoding": "webp q75/q78 (源 1920x1280 1061KB JPEG)"
     },
     {
-      "title": "File:Prague Castle Prasny most tunel.jpg",
-      "caption_zh": "布拉格城堡与Prasny桥隧道",
-      "caption": "布拉格城堡与Prasny桥隧道",
+      "title": "File:Castillo de Praga, Praga, República Checa, 2022-07-02, DD 209.jpg",
+      "caption_zh": "布拉格城堡",
+      "caption": "布拉格城堡",
       "caption_commons": "Tunnel under Prašný most at the Prague Castle, designed by Josef Pleskot",
       "kw": "Prague Castle",
       "url": "assets/cz/L02.webp",
       "thumb_url": "assets/cz/L02.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Prague_Castle_Prasny_most_tunel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "article_img",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Castillo_de_Praga%2C_Praga%2C_Rep%C3%BAblica_Checa%2C_2022-07-02%2C_DD_209.jpg/1920px-Castillo_de_Praga%2C_Praga%2C_Rep%C3%BAblica_Checa%2C_2022-07-02%2C_DD_209.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
       "pick_tier": "strict",
-      "author": "che",
-      "license": "CC BY-SA 2.5",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 57676,
+      "bytes": 200392,
       "caption_zh_manual": "布拉格城堡",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4584,
+      "thumb_bytes": 12236,
+      "encoding": "webp q75/q78 (源 1920x1280 986KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x810",
-        "thumb": "240x180"
-      },
-      "encoding": "webp q75/q78 (源 1600x1200 334KB JPEG)"
+        "detail": "1080x720",
+        "thumb": "240x160"
+      }
     },
     {
       "title": "File:Christmas Old Town Square Prague 2007.jpg",

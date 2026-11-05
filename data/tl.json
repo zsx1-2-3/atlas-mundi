@@ -139,30 +139,31 @@
       "encoding": "webp q75/q78 (源 1920x1280 523KB JPEG)"
     },
     {
-      "title": "File:Dili - administração pública.jpg",
-      "caption_zh": "帝力海滨公共行政建筑",
-      "caption": "帝力海滨公共行政建筑",
+      "title": "File:Star Crafts 8, Berlin-Ramelau, Dili, 2023 (01).jpg",
+      "caption_zh": "帝力海滨",
+      "caption": "帝力海滨",
       "caption_commons": "Verwaltungsgebäude in Dili 1901 oder 1903",
       "kw": "Dili waterfront Timor-Leste",
       "url": "assets/tl/L05.webp",
       "thumb_url": "assets/tl/L05.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dili_-_administra%C3%A7%C3%A3o_p%C3%BAblica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Star_Crafts_8%2C_Berlin-Ramelau%2C_Dili%2C_2023_%2801%29.jpg/1920px-Star_Crafts_8%2C_Berlin-Ramelau%2C_Dili%2C_2023_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "article_img",
       "pick_tier": "strict",
-      "author": "Unknown authorUnknown author",
-      "license": "Public domain",
-      "license_url": null,
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 56592,
+      "bytes": 84216,
       "caption_zh_manual": "帝力海滨",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 4264,
+      "thumb_bytes": 5058,
       "size": {
-        "detail": "1000x702",
-        "thumb": "240x168"
+        "detail": "1080x608",
+        "thumb": "240x135"
       },
-      "encoding": "webp q75/q78 (源 1000x702 235KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1080 459KB JPEG)",
+      "verified": "vision"
     }
   ],
   "image_license": "CC BY-SA 4.0",

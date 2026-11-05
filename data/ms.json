@@ -161,28 +161,29 @@
       "encoding": "webp q75/q78 (源 1920x1301 771KB JPEG)"
     },
     {
-      "title": "File:Mount Garibaldi West Face.jpg",
+      "title": "File:From Garibaldi Hill (5809292121).jpg",
       "caption_zh": "加里波第山",
       "caption": "加里波第山",
       "caption_commons": "West Face of Mount Garibaldi",
       "kw": "Garibaldi Hill Montserrat",
       "url": "assets/ms/L06.webp",
       "thumb_url": "assets/ms/L06.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Mount_Garibaldi_West_Face.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "wikidata_p18",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/From_Garibaldi_Hill_%285809292121%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
       "pick_tier": "strict",
-      "author": "Tim Gage",
-      "license": "CC BY-SA 2.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "David Stanley from Nanaimo, Canada",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 51352,
-      "thumb_bytes": 5562,
+      "bytes": 79154,
+      "thumb_bytes": 7274,
+      "encoding": "webp q75/q78 (源 1024x768 132KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x766",
-        "thumb": "240x170"
-      },
-      "encoding": "webp q75/q78 (源 1263x896 300KB JPEG)"
+        "detail": "1024x768",
+        "thumb": "240x180"
+      }
     }
   ],
   "image_license": "CC BY 2.0",

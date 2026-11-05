@@ -111,14 +111,14 @@
       "encoding": "webp q75/q78 (源 1920x1440 938KB JPEG)"
     },
     {
-      "title": "File:Parque Nacional Manuel Antonio 01.jpg",
+      "title": "File:Parque Nacional Manuel Antonio 02.jpg",
       "caption_zh": "曼努埃尔安东尼奥国家公园",
       "caption": "曼努埃尔安东尼奥国家公园",
       "caption_commons": "Manuel Antonio National Park, Costa Rica",
       "kw": "Manuel Antonio National Park beach",
       "url": "assets/cr/L03.webp",
       "thumb_url": "assets/cr/L03.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Parque_Nacional_Manuel_Antonio_01.jpg/1920px-Parque_Nacional_Manuel_Antonio_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Parque_Nacional_Manuel_Antonio_02.jpg/1920px-Parque_Nacional_Manuel_Antonio_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "source": "article_img",
       "pick_tier": "strict",
       "author": "Bernard Gagnon",
@@ -126,15 +126,16 @@
       "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 256934,
+      "bytes": 169678,
       "caption_zh_manual": "曼努埃尔安东尼奥国家公园",
       "caption_zh_source": "llm_from_commons_filename",
-      "thumb_bytes": 12102,
+      "thumb_bytes": 8438,
+      "encoding": "webp q75/q78 (源 1920x1205 868KB JPEG)",
+      "verified": "vision",
       "size": {
-        "detail": "1080x720",
-        "thumb": "240x160"
-      },
-      "encoding": "webp q75/q78 (源 1920x1280 1084KB JPEG)"
+        "detail": "1080x678",
+        "thumb": "240x151"
+      }
     },
     {
       "title": "File:Irazu Volcano.JPG",

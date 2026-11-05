@@ -1,1 +1,367 @@
-{"qid":"Q672","iso_a2":"TV","iso_a3":"TUV","name_zh":"图瓦卢","name_en":"Tuvalu","capital":"富纳富提","continent":"太平洋岛国","centroid":[178.0056,-7.475],"centroid_source":"wikidata P625","languages":[{"code":"tvl","name_zh":"图瓦卢语","name_local":"图瓦卢语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"},{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/tv/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Tuvalu, a quiet Pacific nation whose capital, Funafuti, rests on a slender ring of coral, and where the lagoon and its outlying islets offer the country's most memorable scenery.","tts_text_zh":"欢迎来到图瓦卢，这个宁静的太平洋国家，首都富纳富提坐落在一道细长的珊瑚环礁上，泻湖与外围小岛构成了全国最令人难忘的景致。","audio_voice":"en-US-AriaNeural","audio_bytes":72720}],"summary_text":"图瓦卢是一个由九个环形珊瑚岛群组成的岛国，位于南太平洋，属于大洋洲。图瓦卢面积狭小，仅有二十六平方公里的国土，位居全球主权国家中倒数第四，仅大于瑙鲁、摩纳哥与梵蒂冈。由于地势极低，最高点仅海拔四米，因此全球暖化造成的海平面上升对图瓦卢造成严峻威胁，是全球遭受全海平面上升威胁最严重的国家。图瓦卢群岛早在公元前1世纪已有人定居。来自西班牙的欧洲探险家首次于1568年发现此地，但除了奴隶贩卖者和捕鲸者偶尔登陆之后，欧洲人并没有在岛上殖民的计划。1892年连同吉尔伯特群岛成为了英国的保护地“吉尔伯特和埃利斯群岛”，1915年成为英国的殖民地。1974年，基于种族纷争，属于波利尼西亚人的埃里斯群岛居民要求投票，和密克罗尼西亚人为主的吉尔伯特群岛分开。由于地方偏僻且缺乏旅游资源，图瓦卢是全世界最少游客到访的国家。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":355,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%9C%96%E7%93%A6%E7%9B%A7","title":"圖瓦盧"},"culture_excerpts":[{"section":"历史","text":"图瓦卢群岛早在公元前1世纪已有人定居。来自西班牙的欧洲探险家首次于1568年发现此地，但除了奴隶贩卖者和捕鲸者偶尔登陆之后，欧洲人并没有在岛上殖民的计划。1892年连同吉尔伯特群岛成为了英国的保护地“吉尔伯特和埃利斯群岛”（Gilbert and Ellice Islands）。1915年成为英国的殖民地。1974年，基于种族纷争，属于波利尼西亚人的埃里斯群岛居民要求投票，和密克罗尼西亚人为主的吉尔伯特群岛（Gilbert Islands）分开。之后，吉尔伯特群岛宣告独立，并将国号以本国语言改称基里巴斯；埃里斯群岛在1975年改称图瓦卢群岛，并于1978年获英国准许独立。","chars":289},{"section":"教育","text":"普及小学教育。全国有11所小学，72名教师，在校生1,485人；一所中学，有教师31人，在校生345人。还有一所海员训练学校，52名学生。\n1991年实行教育改革，将中小学学制从6年延长到8年，并实行小学和2年中学义务教育，关闭办学不成功的社区培训中心，扩大海洋职业培训高校；开设有关职业、技术和商业课程，1990年教育支出占预算总支出的16.2%。","chars":1200},{"section":"人口","text":"图瓦卢人属波利尼西亚族，与东加及萨摩亚属同一族。当地主要语言为图瓦卢语，英语为官方语言。居住于北方Nui岛之居民则用基里巴斯方言。","chars":1200}],"landmark_images":[{"title":"File:Manu Folau off Vaitupu Harbour, Tuvalu.JPG","caption_zh":"瓦伊图普岛港口外的马努·福劳号","caption":"瓦伊图普岛港口外的马努·福劳号","caption_commons":"Photo taken from the harbour breakwater on Vaitupu Island. The ship Monu Folau i","kw":"Vaitupu Island Tuvalu","url":"assets/tv/L04.webp","thumb_url":"assets/tv/L04.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/5/50/Manu_Folau_off_Vaitupu_Harbour%2C_Tuvalu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Cesqld","license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":54968,"caption_zh_manual":"瓦伊图普岛","caption_zh_source":"llm_from_commons_filename","thumb_bytes":4234,"size":{"detail":"1080x810","thumb":"240x180"},"encoding":"webp q75/q78 (源 1552x1164 387KB JPEG)"},{"title":"File:Fetu Ao Lima (Morning Star Church), Congregational Christian Church of Tuvalu.jpg","caption_zh":"富纳富提晨星教堂","caption":"富纳富提晨星教堂","caption_commons":"Presbanian Christian Church In Tuvalu","kw":"Funafuti church Tuvalu","url":"assets/tv/L06.webp","thumb_url":"assets/tv/L06.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/b/bf/Fetu_Ao_Lima_%28Morning_Star_Church%29%2C_Congregational_Christian_Church_of_Tuvalu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Jobas","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":52520,"caption_zh_manual":"富纳富提教堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":5966,"size":{"detail":"1024x683","thumb":"240x160"},"encoding":"webp q75/q78 (源 1024x683 125KB JPEG)"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T22:09:52+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Tuvalu.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Tuvalu.wav、LL-Q652 (ita)-Francyskus-Tuvalu.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py TV","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","富纳富提环礁：Wikidata / 维基 / Commons 都没有可用图","图瓦卢泻湖：Wikidata / 维基 / Commons 都没有可用图","尼乌陶泻湖：Wikidata / 维基 / Commons 都没有可用图","地标图改为人工指定清单（3 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"环形珊瑚岛群","evidence":"九个环形珊瑚岛群组成的岛国"},{"v":"南太平洋","evidence":"位于南太平洋，属于大洋洲"},{"v":"海平面上升","evidence":"全球暖化造成的海平面上升"},{"v":"吉尔伯特和埃利斯群岛","evidence":"英国的保护地“吉尔伯特和埃利斯群岛”"}],"model":"deepseek-flash"},"summary_text_raw":"图瓦卢（英语：Tuvalu，/tuːˈvɑːluː/ too-VAH-loo 或 /ˈtuːvəluː/ TOO-və-loo）是一个由九个环形珊瑚岛群组成的岛国，位于南太平洋，属于大洋洲。由于地势极低，最高点仅海拔四米，因此全球暖化造成的海平面上升对图瓦卢造成严峻威胁，是全球遭受全海平面上升威胁最严重的国家。图瓦卢面积狭小，仅有二十六平方公里的国土，位居全球主权国家中倒数第四，仅大于瑙鲁、摩纳哥与梵蒂冈。由于地方偏僻且缺乏旅游资源，图瓦卢是全世界最少游客到访的国家。\n\n\n== 历史 ==\n\n图瓦卢群岛早在公元前1世纪已有人定居。来自西班牙的欧洲探险家首次于1568年发现此地，但除了奴隶贩卖者和捕鲸者偶尔登陆之后，欧洲人并没有在岛上殖民的计划。1892年连同吉尔伯特群岛成为了英国的保护地“吉尔伯特和埃利斯群岛”（Gilbert and Ellice Islands）。1915年成为英国的殖民地。\n1974年，基于种族纷争，属于波利尼西亚人的埃里斯群岛居民要求投票，和密克罗尼西亚人为主的吉尔伯特群岛（Gilbert Islands）分开。","history_text":"图瓦卢群岛早在公元前1世纪已有人定居。1568年欧洲探险家首次发现此地，此后奴隶贩卖者与捕鲸者偶尔登陆，欧洲人并未在岛上殖民。1892年连同吉尔伯特群岛成为英国保护地，1915年成为殖民地。1974年，属波利尼西亚人的埃里斯群岛居民因种族纷争投票，要求与密克罗尼西亚人为主的吉尔伯特群岛分开。埃里斯群岛1975年改称图瓦卢群岛，1978年获英国准许独立。","custom_text":"图瓦卢人属波利尼西亚族，与东加、萨摩亚同族，日常讲图瓦卢语，英语为官方语言。北方Nui岛的居民使用基里巴斯方言，一岛之内语言便与别处不同。岛上普及小学教育，孩子从小学起接触海洋职业培训，出海是许多家庭代代相传的生计。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":177,"folk":108}},"knowledge_qa":[{"q":"图瓦卢在哪儿啊？","a":"图瓦卢位于南太平洋，属于大洋洲，是一个由九个环形珊瑚岛群组成的岛国。","tags":["太平洋","大洋洲","岛国"]},{"q":"图瓦卢的首都是哪里？","a":"图瓦卢的首都是富纳富提。","tags":["首都","富纳富提"]},{"q":"图瓦卢面积有多大？","a":"图瓦卢面积狭小，仅有二十六平方公里的国土，位居全球主权国家中倒数第四，仅大于瑙鲁、摩纳哥与梵蒂冈。","tags":["面积","国土","大小"]},{"q":"图瓦卢说什么语言？","a":"图瓦卢的官方语言是图瓦卢语和英语。","tags":["语言","说什么话","官方语言"]},{"q":"图瓦卢有什么值得看的地方？","a":"图瓦卢有纳努曼加岛、瓦伊图普岛和富纳富提教堂等值得一看的地方。","tags":["景点","地标","看什么"]},{"q":"图瓦卢受海平面上升影响大吗？","a":"图瓦卢地势极低，最高点仅海拔四米，全球暖化造成的海平面上升对图瓦卢造成严峻威胁，是全球遭受全海平面上升威胁最严重的国家。","tags":["海平面上升","全球暖化","威胁"]},{"q":"图瓦卢游客多吗？","a":"由于地方偏僻且缺乏旅游资源，图瓦卢是全世界最少游客到访的国家。","tags":["旅游","游客","冷门"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[17919,-854],[17920,-852],[17920,-846],[17922,-852],[17919,-854]],[[17868,-749],[17866,-745],[17869,-748],[17869,-750],[17868,-749]],[[17614,-569],[17612,-568],[17614,-569],[17615,-571],[17614,-569]],[[17838,-807],[17837,-807],[17838,-806],[17839,-803],[17838,-807]],[[17991,-940],[17990,-942],[17990,-939],[17991,-940]],[[17734,-612],[17734,-611],[17736,-612],[17734,-612]]]}
+{
+  "qid": "Q672",
+  "iso_a2": "TV",
+  "iso_a3": "TUV",
+  "name_zh": "图瓦卢",
+  "name_en": "Tuvalu",
+  "capital": "富纳富提",
+  "continent": "太平洋岛国",
+  "centroid": [
+    178.0056,
+    -7.475
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "tvl",
+      "name_zh": "图瓦卢语",
+      "name_local": "图瓦卢语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    },
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/tv/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Tuvalu, a quiet Pacific nation whose capital, Funafuti, rests on a slender ring of coral, and where the lagoon and its outlying islets offer the country's most memorable scenery.",
+      "tts_text_zh": "欢迎来到图瓦卢，这个宁静的太平洋国家，首都富纳富提坐落在一道细长的珊瑚环礁上，泻湖与外围小岛构成了全国最令人难忘的景致。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 72720
+    }
+  ],
+  "summary_text": "图瓦卢是一个由九个环形珊瑚岛群组成的岛国，位于南太平洋，属于大洋洲。图瓦卢面积狭小，仅有二十六平方公里的国土，位居全球主权国家中倒数第四，仅大于瑙鲁、摩纳哥与梵蒂冈。由于地势极低，最高点仅海拔四米，因此全球暖化造成的海平面上升对图瓦卢造成严峻威胁，是全球遭受全海平面上升威胁最严重的国家。图瓦卢群岛早在公元前1世纪已有人定居。来自西班牙的欧洲探险家首次于1568年发现此地，但除了奴隶贩卖者和捕鲸者偶尔登陆之后，欧洲人并没有在岛上殖民的计划。1892年连同吉尔伯特群岛成为了英国的保护地“吉尔伯特和埃利斯群岛”，1915年成为英国的殖民地。1974年，基于种族纷争，属于波利尼西亚人的埃里斯群岛居民要求投票，和密克罗尼西亚人为主的吉尔伯特群岛分开。由于地方偏僻且缺乏旅游资源，图瓦卢是全世界最少游客到访的国家。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 355,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%9C%96%E7%93%A6%E7%9B%A7",
+    "title": "圖瓦盧"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "图瓦卢群岛早在公元前1世纪已有人定居。来自西班牙的欧洲探险家首次于1568年发现此地，但除了奴隶贩卖者和捕鲸者偶尔登陆之后，欧洲人并没有在岛上殖民的计划。1892年连同吉尔伯特群岛成为了英国的保护地“吉尔伯特和埃利斯群岛”（Gilbert and Ellice Islands）。1915年成为英国的殖民地。1974年，基于种族纷争，属于波利尼西亚人的埃里斯群岛居民要求投票，和密克罗尼西亚人为主的吉尔伯特群岛（Gilbert Islands）分开。之后，吉尔伯特群岛宣告独立，并将国号以本国语言改称基里巴斯；埃里斯群岛在1975年改称图瓦卢群岛，并于1978年获英国准许独立。",
+      "chars": 289
+    },
+    {
+      "section": "教育",
+      "text": "普及小学教育。全国有11所小学，72名教师，在校生1,485人；一所中学，有教师31人，在校生345人。还有一所海员训练学校，52名学生。\n1991年实行教育改革，将中小学学制从6年延长到8年，并实行小学和2年中学义务教育，关闭办学不成功的社区培训中心，扩大海洋职业培训高校；开设有关职业、技术和商业课程，1990年教育支出占预算总支出的16.2%。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "图瓦卢人属波利尼西亚族，与东加及萨摩亚属同一族。当地主要语言为图瓦卢语，英语为官方语言。居住于北方Nui岛之居民则用基里巴斯方言。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Manu Folau off Vaitupu Harbour, Tuvalu.JPG",
+      "caption_zh": "瓦伊图普岛港口外的马努·福劳号",
+      "caption": "瓦伊图普岛港口外的马努·福劳号",
+      "caption_commons": "Photo taken from the harbour breakwater on Vaitupu Island. The ship Monu Folau i",
+      "kw": "Vaitupu Island Tuvalu",
+      "url": "assets/tv/L04.webp",
+      "thumb_url": "assets/tv/L04.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Manu_Folau_off_Vaitupu_Harbour%2C_Tuvalu.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Cesqld",
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 54968,
+      "caption_zh_manual": "瓦伊图普岛",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4234,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1552x1164 387KB JPEG)"
+    },
+    {
+      "title": "File:Fetu Ao Lima (Morning Star Church), Congregational Christian Church of Tuvalu.jpg",
+      "caption_zh": "富纳富提晨星教堂",
+      "caption": "富纳富提晨星教堂",
+      "caption_commons": "Presbanian Christian Church In Tuvalu",
+      "kw": "Funafuti church Tuvalu",
+      "url": "assets/tv/L06.webp",
+      "thumb_url": "assets/tv/L06.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Fetu_Ao_Lima_%28Morning_Star_Church%29%2C_Congregational_Christian_Church_of_Tuvalu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Jobas",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 52520,
+      "caption_zh_manual": "富纳富提教堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 5966,
+      "size": {
+        "detail": "1024x683",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1024x683 125KB JPEG)"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T22:09:52+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Tuvalu.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Tuvalu.wav、LL-Q652 (ita)-Francyskus-Tuvalu.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py TV",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "富纳富提环礁：Wikidata / 维基 / Commons 都没有可用图",
+    "图瓦卢泻湖：Wikidata / 维基 / Commons 都没有可用图",
+    "尼乌陶泻湖：Wikidata / 维基 / Commons 都没有可用图",
+    "地标图改为人工指定清单（3 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "环形珊瑚岛群",
+        "evidence": "九个环形珊瑚岛群组成的岛国"
+      },
+      {
+        "v": "南太平洋",
+        "evidence": "位于南太平洋，属于大洋洲"
+      },
+      {
+        "v": "海平面上升",
+        "evidence": "全球暖化造成的海平面上升"
+      },
+      {
+        "v": "吉尔伯特和埃利斯群岛",
+        "evidence": "英国的保护地“吉尔伯特和埃利斯群岛”"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "图瓦卢（英语：Tuvalu，/tuːˈvɑːluː/ too-VAH-loo 或 /ˈtuːvəluː/ TOO-və-loo）是一个由九个环形珊瑚岛群组成的岛国，位于南太平洋，属于大洋洲。由于地势极低，最高点仅海拔四米，因此全球暖化造成的海平面上升对图瓦卢造成严峻威胁，是全球遭受全海平面上升威胁最严重的国家。图瓦卢面积狭小，仅有二十六平方公里的国土，位居全球主权国家中倒数第四，仅大于瑙鲁、摩纳哥与梵蒂冈。由于地方偏僻且缺乏旅游资源，图瓦卢是全世界最少游客到访的国家。\n\n\n== 历史 ==\n\n图瓦卢群岛早在公元前1世纪已有人定居。来自西班牙的欧洲探险家首次于1568年发现此地，但除了奴隶贩卖者和捕鲸者偶尔登陆之后，欧洲人并没有在岛上殖民的计划。1892年连同吉尔伯特群岛成为了英国的保护地“吉尔伯特和埃利斯群岛”（Gilbert and Ellice Islands）。1915年成为英国的殖民地。\n1974年，基于种族纷争，属于波利尼西亚人的埃里斯群岛居民要求投票，和密克罗尼西亚人为主的吉尔伯特群岛（Gilbert Islands）分开。",
+  "history_text": "图瓦卢群岛早在公元前1世纪已有人定居。1568年欧洲探险家首次发现此地，此后奴隶贩卖者与捕鲸者偶尔登陆，欧洲人并未在岛上殖民。1892年连同吉尔伯特群岛成为英国保护地，1915年成为殖民地。1974年，属波利尼西亚人的埃里斯群岛居民因种族纷争投票，要求与密克罗尼西亚人为主的吉尔伯特群岛分开。埃里斯群岛1975年改称图瓦卢群岛，1978年获英国准许独立。",
+  "custom_text": "图瓦卢人属波利尼西亚族，与东加、萨摩亚同族，日常讲图瓦卢语，英语为官方语言。北方Nui岛的居民使用基里巴斯方言，一岛之内语言便与别处不同。岛上普及小学教育，孩子从小学起接触海洋职业培训，出海是许多家庭代代相传的生计。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 177,
+      "folk": 108
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "图瓦卢在哪儿啊？",
+      "a": "图瓦卢位于南太平洋，属于大洋洲，是一个由九个环形珊瑚岛群组成的岛国。",
+      "tags": [
+        "太平洋",
+        "大洋洲",
+        "岛国"
+      ]
+    },
+    {
+      "q": "图瓦卢的首都是哪里？",
+      "a": "图瓦卢的首都是富纳富提。",
+      "tags": [
+        "首都",
+        "富纳富提"
+      ]
+    },
+    {
+      "q": "图瓦卢面积有多大？",
+      "a": "图瓦卢面积狭小，仅有二十六平方公里的国土，位居全球主权国家中倒数第四，仅大于瑙鲁、摩纳哥与梵蒂冈。",
+      "tags": [
+        "面积",
+        "国土",
+        "大小"
+      ]
+    },
+    {
+      "q": "图瓦卢说什么语言？",
+      "a": "图瓦卢的官方语言是图瓦卢语和英语。",
+      "tags": [
+        "语言",
+        "说什么话",
+        "官方语言"
+      ]
+    },
+    {
+      "q": "图瓦卢有什么值得看的地方？",
+      "a": "图瓦卢有纳努曼加岛、瓦伊图普岛和富纳富提教堂等值得一看的地方。",
+      "tags": [
+        "景点",
+        "地标",
+        "看什么"
+      ]
+    },
+    {
+      "q": "图瓦卢受海平面上升影响大吗？",
+      "a": "图瓦卢地势极低，最高点仅海拔四米，全球暖化造成的海平面上升对图瓦卢造成严峻威胁，是全球遭受全海平面上升威胁最严重的国家。",
+      "tags": [
+        "海平面上升",
+        "全球暖化",
+        "威胁"
+      ]
+    },
+    {
+      "q": "图瓦卢游客多吗？",
+      "a": "由于地方偏僻且缺乏旅游资源，图瓦卢是全世界最少游客到访的国家。",
+      "tags": [
+        "旅游",
+        "游客",
+        "冷门"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        17919,
+        -854
+      ],
+      [
+        17920,
+        -852
+      ],
+      [
+        17920,
+        -846
+      ],
+      [
+        17922,
+        -852
+      ],
+      [
+        17919,
+        -854
+      ]
+    ],
+    [
+      [
+        17868,
+        -749
+      ],
+      [
+        17866,
+        -745
+      ],
+      [
+        17869,
+        -748
+      ],
+      [
+        17869,
+        -750
+      ],
+      [
+        17868,
+        -749
+      ]
+    ],
+    [
+      [
+        17614,
+        -569
+      ],
+      [
+        17612,
+        -568
+      ],
+      [
+        17614,
+        -569
+      ],
+      [
+        17615,
+        -571
+      ],
+      [
+        17614,
+        -569
+      ]
+    ],
+    [
+      [
+        17838,
+        -807
+      ],
+      [
+        17837,
+        -807
+      ],
+      [
+        17838,
+        -806
+      ],
+      [
+        17839,
+        -803
+      ],
+      [
+        17838,
+        -807
+      ]
+    ],
+    [
+      [
+        17991,
+        -940
+      ],
+      [
+        17990,
+        -942
+      ],
+      [
+        17990,
+        -939
+      ],
+      [
+        17991,
+        -940
+      ]
+    ],
+    [
+      [
+        17734,
+        -612
+      ],
+      [
+        17734,
+        -611
+      ],
+      [
+        17736,
+        -612
+      ],
+      [
+        17734,
+        -612
+      ]
+    ]
+  ]
+}

@@ -145,30 +145,30 @@
       "encoding": "webp q75/q78 (源 1920x1280 743KB JPEG)"
     },
     {
-      "title": "File:Bender Fortress. Church 03.JPG",
+      "title": "File:Bender Fortress. Northern side 02.JPG",
       "caption_zh": "本杰尔要塞教堂",
       "caption": "本杰尔要塞教堂",
-      "caption_commons": "Church in the Bender Fortress.",
+      "caption_commons": "Northern side of Bender Fortress.",
       "kw": "Bender Fortress",
-      "url": "assets/md/L04.webp",
-      "thumb_url": "assets/md/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Bender_Fortress._Church_03.JPG/1920px-Bender_Fortress._Church_03.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "article_img",
-      "pick_tier": "strict",
+      "url": "assets/md/L07.webp",
+      "thumb_url": "assets/md/L07.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Bender_Fortress._Northern_side_02.JPG/1920px-Bender_Fortress._Northern_side_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
       "author": "Ivo Kruusamägi",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 82714,
+      "bytes": 631647,
       "caption_zh_manual": "本杰尔要塞",
-      "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 7414,
       "size": {
         "detail": "1080x810",
         "thumb": "240x180"
       },
-      "encoding": "webp q75/q78 (源 1920x1440 525KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1440 525KB JPEG)",
+      "replace_reason": "CLIP 重排：相似度 0.218 → 0.299"
     },
     {
       "title": "File:Caves Milestii Mici Moldavie.jpg",

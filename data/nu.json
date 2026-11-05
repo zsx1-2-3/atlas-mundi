@@ -89,30 +89,30 @@
       "encoding": "webp q75/q78 (源 1920x1280 861KB JPEG)"
     },
     {
-      "title": "File:Red coral rock at base of Talava Arches close-up.jpg",
+      "title": "File:Reef towards Talava Arch at sunset.jpg",
       "caption_zh": "塔拉瓦拱门底部红珊瑚岩特写",
       "caption": "塔拉瓦拱门底部红珊瑚岩特写",
-      "caption_commons": "Pock-marked red coral rock at the base of Talava Arch close-up",
+      "caption_commons": "Talava Arch and reef at sunset",
       "kw": "Talava Arches Niue",
-      "url": "assets/nu/L02.webp",
-      "thumb_url": "assets/nu/L02.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Red_coral_rock_at_base_of_Talava_Arches_close-up.jpg/1920px-Red_coral_rock_at_base_of_Talava_Arches_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "commons_search",
-      "pick_tier": "strict",
+      "url": "assets/nu/L07.webp",
+      "thumb_url": "assets/nu/L07.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Reef_towards_Talava_Arch_at_sunset.jpg/1920px-Reef_towards_Talava_Arch_at_sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
       "author": "Pseudopanax at English Wikipedia",
       "license": "Public domain",
       "license_url": null,
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 280642,
+      "bytes": 948688,
       "caption_zh_manual": "塔拉瓦拱门",
-      "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 14642,
       "size": {
-        "detail": "1080x720",
-        "thumb": "240x160"
+        "detail": "1080x665",
+        "thumb": "240x148"
       },
-      "encoding": "webp q75/q78 (源 1920x1280 1275KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1280 1275KB JPEG)",
+      "replace_reason": "CLIP 重排：相似度 0.193 → 0.326"
     },
     {
       "title": "File:Picnic tables at Matapa Chasm.jpg",

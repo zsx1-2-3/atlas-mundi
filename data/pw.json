@@ -133,30 +133,30 @@
       "encoding": "webp q75/q78 (源 1920x1280 590KB JPEG)"
     },
     {
-      "title": "File:Yangmingshanpohuiwang1.jpg",
+      "title": "File:Milk Lake.jpg",
       "caption_zh": "牛奶湖",
       "caption": "牛奶湖",
-      "caption_commons": "​{| cellspacing=\"0\" style=\"min-width:300px; max-width:500px; text-align:left; co",
+      "caption_commons": "Milk Lake, Yangmingshan National Park, Taiwan 陽明山國家公園冷水坑牛奶湖",
       "kw": "Milky Way Palau",
-      "url": "assets/pw/L04.webp",
-      "thumb_url": "assets/pw/L04.thumb.webp",
-      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Yangmingshanpohuiwang1.jpg/1920px-Yangmingshanpohuiwang1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source": "wikidata_p18",
-      "pick_tier": "strict",
-      "author": "王栢輝",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "assets/pw/L08.webp",
+      "thumb_url": "assets/pw/L08.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Milk_Lake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "Peellden",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_status": "ok",
       "load_verified": true,
-      "bytes": 257126,
+      "bytes": 612506,
       "caption_zh_manual": "牛奶湖",
-      "caption_zh_source": "llm_from_commons_filename",
       "thumb_bytes": 10520,
       "size": {
-        "detail": "1080x810",
-        "thumb": "240x180"
+        "detail": "1080x718",
+        "thumb": "240x160"
       },
-      "encoding": "webp q75/q78 (源 1920x1440 1238KB JPEG)"
+      "encoding": "webp q75/q78 (源 1920x1440 1238KB JPEG)",
+      "replace_reason": "CLIP 重排：相似度 0.170 → 0.191"
     },
     {
       "title": "File:Muzeum peleliu.JPG",

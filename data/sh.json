@@ -1,1 +1,397 @@
-{"qid":"Q192184","iso_a2":"SH","iso_a3":"SHN","name_zh":"圣赫勒拿","name_en":"Saint Helena, Ascension and Tristan da Cunha","capital":"詹姆斯敦","continent":"非洲","centroid":[-5.7181,-15.9245],"centroid_source":"wikidata P625","languages":[{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/sh/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Saint Helena, Ascension and Tristan da Cunha, a remote island territory whose capital is Jamestown, and among its landmarks you will find the historic Jacob's Ladder, a towering flight of steps carved into the hillside above the town.","tts_text_zh":"欢迎来到圣赫勒拿、阿森松和特里斯坦-达库尼亚，这是一片偏远的岛屿领地，首都是詹姆斯敦，在其地标中，您会看到历史悠久的雅各布阶梯，那是一段高耸入云、开凿于小镇上方山坡的石阶。","audio_voice":"en-US-AriaNeural","audio_bytes":89856}],"summary_text":"圣赫勒拿、阿森松和特里斯坦-达库尼亚是英国的海外领地，前称圣赫勒拿及其属地，由圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛组成。2009年9月1日，新颁布的宪法规定三个组成部分享有平等地位。圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛由几个葡萄牙探险家分别于1502年至1504年发现。1657年，英格兰共和国护国公奥利弗·克伦威尔授予英国东印度公司管理圣赫勒拿的特许状，次年该公司决定加固该岛并在岛上建立种植园。第一任总督约翰达顿船长于1659年抵达，从这一天起，圣赫勒拿成为仅次于百慕大的英国第二古老的殖民地。随后岛上建造High Knoll堡垒及许多住房，堡垒及附近城镇之后更名为詹姆斯堡和詹姆斯敦镇，以纪念约克公爵和继承人，即后来的英格兰国王詹姆斯二世。拿破仑于1815年10月被关押在圣赫勒拿岛上，直到他于1821年5月5日去世。1815年10月22日，英国皇家海军派员驻守于无人居住的阿森松岛。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":403,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E5%9C%A3%E8%B5%AB%E5%8B%92%E6%8B%BF%E3%80%81%E9%98%BF%E6%A3%AE%E6%9D%BE%E5%92%8C%E7%89%B9%E9%87%8C%E6%96%AF%E5%9D%A6-%E8%BE%BE%E5%BA%93%E5%B0%BC%E4%BA%9A","title":"圣赫勒拿、阿森松和特里斯坦-达库尼亚"},"culture_excerpts":[{"section":"历史","text":"圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛是由几个葡萄牙探险家分别于1502年—1504年发现。1657年，英格兰共和国护国公奥利弗·克伦威尔授予英国东印度公司管理圣赫勒拿的特许状，次年，该公司决定加固该岛并在岛上建立种植园。第一任总督约翰达顿船长于1659年抵达，从这一天起，圣赫勒拿成为仅次于百慕大的英国第二古老的殖民地。随后建造High Knoll堡垒及许多房屋。堡垒及附近城镇之后更名为詹姆斯堡和詹姆斯敦镇，以纪念约克公爵和继承人，即后来的英格兰国王詹姆斯二世。拿破仑战争结束后的1816年8月14日，特里斯坦-达库尼亚成为开普殖民地的属地。1922年9月12日圣赫勒拿岛，阿森松岛和特里斯坦-达库尼亚领地开始形成，当时阿森松岛通过专利特许证成为了圣赫勒拿岛的属地。而人口稀少的特里斯坦-达库尼亚在1938年1月12日亦成为此属地的组成部分。2009年9月1日，各属地被提升到平等地位，属地名称从“圣赫勒拿及其属地”更改为“圣赫勒拿、阿森松和特里斯坦—达库尼亚”。","chars":437},{"section":"教育","text":"圣赫勒拿有多所学校，包括安德鲁王子学校。阿松森岛有两艘船学校。特里斯坦-达库尼亚也有自己的学校。","chars":1200},{"section":"宗教","text":"圣赫勒拿岛的大多数居民信奉圣公会，该教区拥有自己的主教，其辖区包括阿森松岛。\n罗马天主教徒由圣赫勒拿、阿森松和特里斯坦达库尼亚的自管传教区提供牧灵服务，其教会上级办公室位于福克兰群岛的天主教福克兰群岛宗座监牧区。","chars":1200}],"landmark_images":[{"title":"File:Jacob's Ladder - 1 (39272283420).jpg","caption_zh":"雅各布阶梯","caption":"雅各布阶梯","caption_commons":"The 699 stone steps leading up from Jamestown to Ladder Hill and Half Tree Hollo","kw":"Jacob's Ladder Jamestown Saint Helena","url":"assets/sh/L01.webp","thumb_url":"assets/sh/L01.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Jacob%27s_Ladder_-_1_%2839272283420%29.jpg/1920px-Jacob%27s_Ladder_-_1_%2839272283420%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"commons_search","pick_tier":"strict","author":"Luke McKernan","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":141596,"caption_zh_manual":"雅各布阶梯","caption_zh_source":"llm_from_commons_filename","thumb_bytes":8848,"size":{"detail":"1080x720","thumb":"240x160"},"encoding":"webp q75/q78 (源 1920x1280 737KB JPEG)"},{"title":"File:Cliffs (41118028371).jpg","caption_zh":"圣赫勒拿悬崖的最后阶段","caption":"圣赫勒拿悬崖的最后阶段","caption_commons":"Jamestown, St Helena","kw":"Saint Helena island cliffs","url":"assets/sh/L07.webp","thumb_url":"assets/sh/L07.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cliffs_%2841118028371%29.jpg/1920px-Cliffs_%2841118028371%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"manual_repick","pick_tier":"handpicked","author":"Luke McKernan","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":636374,"caption_zh_manual":"圣赫勒拿悬崖","thumb_bytes":1990,"size":{"detail":"1080x720","thumb":"240x160"},"encoding":"webp q75/q78 (源 532x685 52KB JPEG)","replace_reason":"原图是油画、532px"},{"title":"File:Church059 Anglican-St James' Church Jamestown.jpg","caption_zh":"詹姆斯敦港圣詹姆斯教堂","caption":"詹姆斯敦港圣詹姆斯教堂","caption_commons":"The Anglican Church of St James, Jamestown, Island of St Helena. Image taken dur","kw":"Jamestown harbour Saint Helena","url":"assets/sh/L04.webp","thumb_url":"assets/sh/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Church059_Anglican-St_James%27_Church_Jamestown.jpg/1920px-Church059_Anglican-St_James%27_Church_Jamestown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Peter Neaum","license":"CC BY-SA 3.0","license_url":"https://creativecommons.org/licenses/by-sa/3.0","license_status":"ok","load_verified":true,"bytes":111358,"caption_zh_manual":"詹姆斯敦港","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10462,"size":{"detail":"1080x691","thumb":"240x154"},"encoding":"webp q75/q78 (源 1920x1228 548KB JPEG)"},{"title":"File:St Paul's Anglican Cathedral (16468521732).jpg","caption_zh":"圣保罗大教堂","caption":"圣保罗大教堂","caption_commons":"St Paul's Anglican Cathedral (1851) stands at White Gate near the governor's res","kw":"St Paul's Cathedral Saint Helena","url":"assets/sh/L06.webp","thumb_url":"assets/sh/L06.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/0/0c/St_Paul%27s_Anglican_Cathedral_%2816468521732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"manual_repick","pick_tier":"handpicked","author":"David Stanley from Nanaimo, Canada","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":65846,"caption_zh_manual":"圣保罗大教堂","thumb_bytes":5192,"size":{"detail":"1024x768","thumb":"240x180"},"encoding":"webp q75/q78 (源 1024x768 145KB JPEG)","replace_reason":"原图是古登堡计划的版画（PD-Art）"}],"image_license":"CC BY-SA 2.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:59:38+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q13955 (ara)-Zinou2go-سانت هيلانة وأسينشين وتريستان دا كونا.wav、LL-Q22809485 (apc)-Hassan Hassoon-سانت هيلانة وأسينشين وتريستان دا كونا.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py SH","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[{"v":"High Knoll堡垒","evidence":"建造High Knoll堡垒及许多住房"},{"v":"詹姆斯堡","evidence":"堡垒及附近城镇之后更名为詹姆斯堡"},{"v":"詹姆斯敦镇","evidence":"堡垒及附近城镇之后更名为詹姆斯堡和詹姆斯敦镇"},{"v":"种植园","evidence":"在岛上建立种植园"}],"heritage":[],"keywords":[{"v":"圣赫勒拿岛","evidence":"由圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛组成"},{"v":"阿森松岛","evidence":"英国皇家海军派员驻守于无人居住的阿森松岛"},{"v":"特里斯坦-达库尼亚群岛","evidence":"由圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛组成"},{"v":"拿破仑关押地","evidence":"拿破仑于1815年10月被关押在圣赫勒拿岛上"},{"v":"詹姆斯敦镇","evidence":"更名为詹姆斯堡和詹姆斯敦镇"}],"model":"deepseek-flash"},"summary_text_raw":"圣赫勒拿、阿森松和特里斯坦-达库尼亚（英语：Saint Helena, Ascension and Tristan da Cunha），前称圣赫勒拿及其属地（Saint Helena and Dependencies），是英国的海外领地，由圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛组成。2009年9月1日，新颁布的宪法规定三个组成部分享有平等地位。\n\n\n== 历史 ==\n圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛是由几个葡萄牙探险家分别于1502年—1504年发现。\n1657年，英格兰共和国护国公奥利弗·克伦威尔授予英国东印度公司管理圣赫勒拿的特许状，次年，该公司决定加固该岛并在岛上建立种植园。第一任总督约翰达顿船长于1659年抵达，从这一天起，圣赫勒拿成为仅次于百慕大的英国第二古老的殖民地。随后建造High Knoll堡垒及许多住房。堡垒及附近城镇之后更名为詹姆斯堡和詹姆斯敦镇，以纪念约克公爵和继承人，即后来的英格兰国王詹姆斯二世。\n拿破仑于1815年10月被关押在圣赫勒拿岛上，直到他于1821年5月5日去世。\n1815年10月22日，英国皇家海军派员驻守于无人居住的阿森松岛。","history_text":"葡萄牙探险家在十六世纪初先后发现这几座岛屿，圣赫勒拿自十七世纪中叶起由英国东印度公司设种植园、筑堡垒，詹姆斯敦由此成形。拿破仑战争结束后，特里斯坦-达库尼亚归入开普殖民地，阿森松岛随后以特许证成为圣赫勒拿属地，特里斯坦-达库尼亚亦并入。各属地地位被提升为平等，领地改称今名。","custom_text":"岛上居民多属圣公会，教区自设主教，辖区兼及阿森松岛；天主教徒的牧灵工作由设在福克兰群岛的传教区照管。孩子在本岛学校读书，阿森松岛和特里斯坦-达库尼亚也各有自己的学校，偏远的岛民把上学看作日常生活里固定的一环。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":137,"folk":104}},"knowledge_qa":[{"q":"圣赫勒拿在哪儿啊？","a":"圣赫勒拿位于非洲，是英国的海外领地，由圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛组成。","tags":["非洲","在哪","英国海外领地"]},{"q":"圣赫勒拿的首都是哪里？","a":"首都是詹姆斯敦。","tags":["首都","詹姆斯敦"]},{"q":"圣赫勒拿说什么语言？","a":"官方语言是英语。","tags":["语言","英语","说什么话"]},{"q":"圣赫勒拿有什么值得看的地标？","a":"值得看的地标有雅各布阶梯、拿破仑长木庄园、圣赫勒拿悬崖、詹姆斯敦港和圣保罗大教堂。","tags":["地标","景点","拿破仑长木庄园","雅各布阶梯"]},{"q":"圣赫勒拿有什么历史故事？","a":"拿破仑于1815年10月被关押在圣赫勒拿岛上，直到1821年5月5日去世。","tags":["历史","拿破仑","关押"]},{"q":"圣赫勒拿是怎么被发现的？","a":"圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛是由几个葡萄牙探险家分别于1502年—1504年发现。","tags":["发现","葡萄牙探险家","历史"]},{"q":"圣赫勒拿什么时候成为英国殖民地的？","a":"1659年第一任总督约翰达顿船长抵达，从这一天起，圣赫勒拿成为仅次于百慕大的英国第二古老的殖民地。","tags":["殖民地","英国","1659年"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-993,-4035],[-990,-4039],[-993,-4040],[-996,-4038],[-1004,-4033],[-1002,-4031],[-996,-4030],[-994,-4031],[-993,-4035]],[[-572,-1591],[-565,-1596],[-576,-1602],[-572,-1591]],[[-1436,-788],[-1430,-794],[-1441,-797],[-1436,-788]],[[-1231,-3707],[-1219,-3709],[-1228,-3715],[-1231,-3707]]]}
+{
+  "qid": "Q192184",
+  "iso_a2": "SH",
+  "iso_a3": "SHN",
+  "name_zh": "圣赫勒拿",
+  "name_en": "Saint Helena, Ascension and Tristan da Cunha",
+  "capital": "詹姆斯敦",
+  "continent": "非洲",
+  "centroid": [
+    -5.7181,
+    -15.9245
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/sh/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Saint Helena, Ascension and Tristan da Cunha, a remote island territory whose capital is Jamestown, and among its landmarks you will find the historic Jacob's Ladder, a towering flight of steps carved into the hillside above the town.",
+      "tts_text_zh": "欢迎来到圣赫勒拿、阿森松和特里斯坦-达库尼亚，这是一片偏远的岛屿领地，首都是詹姆斯敦，在其地标中，您会看到历史悠久的雅各布阶梯，那是一段高耸入云、开凿于小镇上方山坡的石阶。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 89856
+    }
+  ],
+  "summary_text": "圣赫勒拿、阿森松和特里斯坦-达库尼亚是英国的海外领地，前称圣赫勒拿及其属地，由圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛组成。2009年9月1日，新颁布的宪法规定三个组成部分享有平等地位。圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛由几个葡萄牙探险家分别于1502年至1504年发现。1657年，英格兰共和国护国公奥利弗·克伦威尔授予英国东印度公司管理圣赫勒拿的特许状，次年该公司决定加固该岛并在岛上建立种植园。第一任总督约翰达顿船长于1659年抵达，从这一天起，圣赫勒拿成为仅次于百慕大的英国第二古老的殖民地。随后岛上建造High Knoll堡垒及许多住房，堡垒及附近城镇之后更名为詹姆斯堡和詹姆斯敦镇，以纪念约克公爵和继承人，即后来的英格兰国王詹姆斯二世。拿破仑于1815年10月被关押在圣赫勒拿岛上，直到他于1821年5月5日去世。1815年10月22日，英国皇家海军派员驻守于无人居住的阿森松岛。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 403,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E8%B5%AB%E5%8B%92%E6%8B%BF%E3%80%81%E9%98%BF%E6%A3%AE%E6%9D%BE%E5%92%8C%E7%89%B9%E9%87%8C%E6%96%AF%E5%9D%A6-%E8%BE%BE%E5%BA%93%E5%B0%BC%E4%BA%9A",
+    "title": "圣赫勒拿、阿森松和特里斯坦-达库尼亚"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛是由几个葡萄牙探险家分别于1502年—1504年发现。1657年，英格兰共和国护国公奥利弗·克伦威尔授予英国东印度公司管理圣赫勒拿的特许状，次年，该公司决定加固该岛并在岛上建立种植园。第一任总督约翰达顿船长于1659年抵达，从这一天起，圣赫勒拿成为仅次于百慕大的英国第二古老的殖民地。随后建造High Knoll堡垒及许多房屋。堡垒及附近城镇之后更名为詹姆斯堡和詹姆斯敦镇，以纪念约克公爵和继承人，即后来的英格兰国王詹姆斯二世。拿破仑战争结束后的1816年8月14日，特里斯坦-达库尼亚成为开普殖民地的属地。1922年9月12日圣赫勒拿岛，阿森松岛和特里斯坦-达库尼亚领地开始形成，当时阿森松岛通过专利特许证成为了圣赫勒拿岛的属地。而人口稀少的特里斯坦-达库尼亚在1938年1月12日亦成为此属地的组成部分。2009年9月1日，各属地被提升到平等地位，属地名称从“圣赫勒拿及其属地”更改为“圣赫勒拿、阿森松和特里斯坦—达库尼亚”。",
+      "chars": 437
+    },
+    {
+      "section": "教育",
+      "text": "圣赫勒拿有多所学校，包括安德鲁王子学校。阿松森岛有两艘船学校。特里斯坦-达库尼亚也有自己的学校。",
+      "chars": 1200
+    },
+    {
+      "section": "宗教",
+      "text": "圣赫勒拿岛的大多数居民信奉圣公会，该教区拥有自己的主教，其辖区包括阿森松岛。\n罗马天主教徒由圣赫勒拿、阿森松和特里斯坦达库尼亚的自管传教区提供牧灵服务，其教会上级办公室位于福克兰群岛的天主教福克兰群岛宗座监牧区。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Jacob's Ladder - 1 (39272283420).jpg",
+      "caption_zh": "雅各布阶梯",
+      "caption": "雅各布阶梯",
+      "caption_commons": "The 699 stone steps leading up from Jamestown to Ladder Hill and Half Tree Hollo",
+      "kw": "Jacob's Ladder Jamestown Saint Helena",
+      "url": "assets/sh/L01.webp",
+      "thumb_url": "assets/sh/L01.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Jacob%27s_Ladder_-_1_%2839272283420%29.jpg/1920px-Jacob%27s_Ladder_-_1_%2839272283420%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Luke McKernan",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 141596,
+      "caption_zh_manual": "雅各布阶梯",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 8848,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 737KB JPEG)"
+    },
+    {
+      "title": "File:Cliffs (41118028371).jpg",
+      "caption_zh": "圣赫勒拿悬崖的最后阶段",
+      "caption": "圣赫勒拿悬崖的最后阶段",
+      "caption_commons": "Jamestown, St Helena",
+      "kw": "Saint Helena island cliffs",
+      "url": "assets/sh/L07.webp",
+      "thumb_url": "assets/sh/L07.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cliffs_%2841118028371%29.jpg/1920px-Cliffs_%2841118028371%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "Luke McKernan",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 636374,
+      "caption_zh_manual": "圣赫勒拿悬崖",
+      "thumb_bytes": 1990,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 532x685 52KB JPEG)",
+      "replace_reason": "原图是油画、532px"
+    },
+    {
+      "title": "File:Church059 Anglican-St James' Church Jamestown.jpg",
+      "caption_zh": "詹姆斯敦港圣詹姆斯教堂",
+      "caption": "詹姆斯敦港圣詹姆斯教堂",
+      "caption_commons": "The Anglican Church of St James, Jamestown, Island of St Helena. Image taken dur",
+      "kw": "Jamestown harbour Saint Helena",
+      "url": "assets/sh/L04.webp",
+      "thumb_url": "assets/sh/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Church059_Anglican-St_James%27_Church_Jamestown.jpg/1920px-Church059_Anglican-St_James%27_Church_Jamestown.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Peter Neaum",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 111358,
+      "caption_zh_manual": "詹姆斯敦港",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10462,
+      "size": {
+        "detail": "1080x691",
+        "thumb": "240x154"
+      },
+      "encoding": "webp q75/q78 (源 1920x1228 548KB JPEG)"
+    },
+    {
+      "title": "File:St Paul's Anglican Cathedral (16468521732).jpg",
+      "caption_zh": "圣保罗大教堂",
+      "caption": "圣保罗大教堂",
+      "caption_commons": "St Paul's Anglican Cathedral (1851) stands at White Gate near the governor's res",
+      "kw": "St Paul's Cathedral Saint Helena",
+      "url": "assets/sh/L06.webp",
+      "thumb_url": "assets/sh/L06.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/St_Paul%27s_Anglican_Cathedral_%2816468521732%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "David Stanley from Nanaimo, Canada",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 65846,
+      "caption_zh_manual": "圣保罗大教堂",
+      "thumb_bytes": 5192,
+      "size": {
+        "detail": "1024x768",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1024x768 145KB JPEG)",
+      "replace_reason": "原图是古登堡计划的版画（PD-Art）"
+    }
+  ],
+  "image_license": "CC BY-SA 2.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:59:38+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q13955 (ara)-Zinou2go-سانت هيلانة وأسينشين وتريستان دا كونا.wav、LL-Q22809485 (apc)-Hassan Hassoon-سانت هيلانة وأسينشين وتريستان دا كونا.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py SH",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [
+      {
+        "v": "High Knoll堡垒",
+        "evidence": "建造High Knoll堡垒及许多住房"
+      },
+      {
+        "v": "詹姆斯堡",
+        "evidence": "堡垒及附近城镇之后更名为詹姆斯堡"
+      },
+      {
+        "v": "詹姆斯敦镇",
+        "evidence": "堡垒及附近城镇之后更名为詹姆斯堡和詹姆斯敦镇"
+      },
+      {
+        "v": "种植园",
+        "evidence": "在岛上建立种植园"
+      }
+    ],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "圣赫勒拿岛",
+        "evidence": "由圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛组成"
+      },
+      {
+        "v": "阿森松岛",
+        "evidence": "英国皇家海军派员驻守于无人居住的阿森松岛"
+      },
+      {
+        "v": "特里斯坦-达库尼亚群岛",
+        "evidence": "由圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛组成"
+      },
+      {
+        "v": "拿破仑关押地",
+        "evidence": "拿破仑于1815年10月被关押在圣赫勒拿岛上"
+      },
+      {
+        "v": "詹姆斯敦镇",
+        "evidence": "更名为詹姆斯堡和詹姆斯敦镇"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "圣赫勒拿、阿森松和特里斯坦-达库尼亚（英语：Saint Helena, Ascension and Tristan da Cunha），前称圣赫勒拿及其属地（Saint Helena and Dependencies），是英国的海外领地，由圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛组成。2009年9月1日，新颁布的宪法规定三个组成部分享有平等地位。\n\n\n== 历史 ==\n圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛是由几个葡萄牙探险家分别于1502年—1504年发现。\n1657年，英格兰共和国护国公奥利弗·克伦威尔授予英国东印度公司管理圣赫勒拿的特许状，次年，该公司决定加固该岛并在岛上建立种植园。第一任总督约翰达顿船长于1659年抵达，从这一天起，圣赫勒拿成为仅次于百慕大的英国第二古老的殖民地。随后建造High Knoll堡垒及许多住房。堡垒及附近城镇之后更名为詹姆斯堡和詹姆斯敦镇，以纪念约克公爵和继承人，即后来的英格兰国王詹姆斯二世。\n拿破仑于1815年10月被关押在圣赫勒拿岛上，直到他于1821年5月5日去世。\n1815年10月22日，英国皇家海军派员驻守于无人居住的阿森松岛。",
+  "history_text": "葡萄牙探险家在十六世纪初先后发现这几座岛屿，圣赫勒拿自十七世纪中叶起由英国东印度公司设种植园、筑堡垒，詹姆斯敦由此成形。拿破仑战争结束后，特里斯坦-达库尼亚归入开普殖民地，阿森松岛随后以特许证成为圣赫勒拿属地，特里斯坦-达库尼亚亦并入。各属地地位被提升为平等，领地改称今名。",
+  "custom_text": "岛上居民多属圣公会，教区自设主教，辖区兼及阿森松岛；天主教徒的牧灵工作由设在福克兰群岛的传教区照管。孩子在本岛学校读书，阿森松岛和特里斯坦-达库尼亚也各有自己的学校，偏远的岛民把上学看作日常生活里固定的一环。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 137,
+      "folk": 104
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "圣赫勒拿在哪儿啊？",
+      "a": "圣赫勒拿位于非洲，是英国的海外领地，由圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛组成。",
+      "tags": [
+        "非洲",
+        "在哪",
+        "英国海外领地"
+      ]
+    },
+    {
+      "q": "圣赫勒拿的首都是哪里？",
+      "a": "首都是詹姆斯敦。",
+      "tags": [
+        "首都",
+        "詹姆斯敦"
+      ]
+    },
+    {
+      "q": "圣赫勒拿说什么语言？",
+      "a": "官方语言是英语。",
+      "tags": [
+        "语言",
+        "英语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "圣赫勒拿有什么值得看的地标？",
+      "a": "值得看的地标有雅各布阶梯、拿破仑长木庄园、圣赫勒拿悬崖、詹姆斯敦港和圣保罗大教堂。",
+      "tags": [
+        "地标",
+        "景点",
+        "拿破仑长木庄园",
+        "雅各布阶梯"
+      ]
+    },
+    {
+      "q": "圣赫勒拿有什么历史故事？",
+      "a": "拿破仑于1815年10月被关押在圣赫勒拿岛上，直到1821年5月5日去世。",
+      "tags": [
+        "历史",
+        "拿破仑",
+        "关押"
+      ]
+    },
+    {
+      "q": "圣赫勒拿是怎么被发现的？",
+      "a": "圣赫勒拿岛、阿森松岛和特里斯坦-达库尼亚群岛是由几个葡萄牙探险家分别于1502年—1504年发现。",
+      "tags": [
+        "发现",
+        "葡萄牙探险家",
+        "历史"
+      ]
+    },
+    {
+      "q": "圣赫勒拿什么时候成为英国殖民地的？",
+      "a": "1659年第一任总督约翰达顿船长抵达，从这一天起，圣赫勒拿成为仅次于百慕大的英国第二古老的殖民地。",
+      "tags": [
+        "殖民地",
+        "英国",
+        "1659年"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -993,
+        -4035
+      ],
+      [
+        -990,
+        -4039
+      ],
+      [
+        -993,
+        -4040
+      ],
+      [
+        -996,
+        -4038
+      ],
+      [
+        -1004,
+        -4033
+      ],
+      [
+        -1002,
+        -4031
+      ],
+      [
+        -996,
+        -4030
+      ],
+      [
+        -994,
+        -4031
+      ],
+      [
+        -993,
+        -4035
+      ]
+    ],
+    [
+      [
+        -572,
+        -1591
+      ],
+      [
+        -565,
+        -1596
+      ],
+      [
+        -576,
+        -1602
+      ],
+      [
+        -572,
+        -1591
+      ]
+    ],
+    [
+      [
+        -1436,
+        -788
+      ],
+      [
+        -1430,
+        -794
+      ],
+      [
+        -1441,
+        -797
+      ],
+      [
+        -1436,
+        -788
+      ]
+    ],
+    [
+      [
+        -1231,
+        -3707
+      ],
+      [
+        -1219,
+        -3709
+      ],
+      [
+        -1228,
+        -3715
+      ],
+      [
+        -1231,
+        -3707
+      ]
+    ]
+  ]
+}

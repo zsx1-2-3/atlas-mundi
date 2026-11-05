@@ -1,1 +1,614 @@
-{"qid":"Q790","iso_a2":"HT","iso_a3":"HTI","name_zh":"海地","name_en":"Haiti","capital":"太子港","continent":"北美洲","centroid":[-72.8,19],"centroid_source":"wikidata P625","languages":[{"code":"fr","name_zh":"法语","name_local":"法语","role":"official","audio_url":"assets/ht/audio/fr.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Bienvenue en Haïti, un pays où l'histoire et la chaleur des couleurs se rencontrent ; sa capitale, Port-au-Prince, vous accueille au bord de la mer des Caraïbes, et la citadelle Laferrière, perchée dans les montagnes du nord, veille encore sur l'île comme un souvenir de liberté.","tts_text_zh":"欢迎来到海地，一个历史与斑斓色彩相遇的国度；首都太子港在加勒比海边迎接您，而耸立在北部群山中的拉费里耶尔城堡，仍像一段自由的记忆般守望着这座岛屿。","audio_voice":"fr-FR-DeniseNeural","audio_bytes":93744},{"code":"ht","name_zh":"海地克里奥尔语","name_local":"海地克里奥尔语","role":"official","audio_url":null,"audio_source":null,"audio_status":"pending"}],"summary_text":"海地共和国通称海地，是位于加勒比海的岛国，全境位于加勒比海第二大岛伊斯帕尼奥拉岛（又称海地岛）西半部，东与多米尼加共和国接壤。海地人的原本种族为印第安民族的阿拉瓦克人，自西班牙入侵并屠杀原居民后，当地的阿拉瓦克人便急速减少到完全灭绝。海地是世上第一个由非裔黑人主导建立的国家，亦是美洲在被殖民地化后第二个独立的国家、加勒比地区第一个独立的地区。海地是美洲黑人人口比例最大（95%以上）的独立共和国，然而该国与人口以拉丁裔为主的邻国多米尼加发展上却有着天壤之别。海地是美洲最贫穷国家，2021年人均年收入1,943美元，处于低人类发展指数，是美洲唯一的最不发达国家。2019年，海地的人均预期寿命为64岁。2022年人口约1158万，为加勒比海第一大人口国。2012年，海地宣布有意寻求在非洲联盟的准会员地位。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":354,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E6%B5%B7%E5%9C%B0","title":"海地"},"culture_excerpts":[{"section":"历史","text":"海地原为印第安人土著部落阿拉瓦克族居住地。1492年12月6日，哥伦布航行至此，将该岛命名为伊斯帕尼奥拉岛（西班牙岛），1502年正式成为西班牙殖民地。受欧洲殖民者带来的天花流行病影响和西班牙殖民者对土著居民的大肆屠杀，当地的阿拉瓦克族人很快便被种族灭绝了。而后西班牙白人殖民者遂从非洲贩运大量黑奴，成为岛上主要的劳动力。1697年根据勒斯维克条约，海地被割让给法国，称为法属圣多明戈。1791年，黑人领袖杜桑·卢维图尔领导海地人发动独立战争，成为拉丁美洲最早争取独立的国家。1804年，起义军攻占太子港并宣布独立，成立了拉丁美洲第一个共和国，同时也是世界首个黑人占主导地位的共和国。海地独立后，未能建立起稳定有效的政治体制和政权机关，政局动荡，独裁者不断上台又不断被推翻；据统计，从海地独立到1915年的一百年间，共有近90位统治者相继上台。1822年至1844年，海地曾占领同岛的东部地区（今多米尼加）。1915年至1934年，受到美国方面军事接管。1957年，依托军队的民间运动领袖弗朗索瓦·杜瓦利埃赢得海地大选，当选为海地总统，并在死后将总统大位传给其子让-克洛德·杜瓦利埃，建立起家族统治，直到1986年被推翻。之后以亨利·南菲将军为首的“全国执政委员会”在海地实行军事统治。1990年，让-贝特朗·阿里斯蒂德被选举为总统，但他的任期亦遭军事政变破坏。1994年，在联合国授权的国际干预下，阿里斯蒂德重返总统职位。1996年，勒内·普雷瓦尔当选总统。2000年，阿里斯蒂德再度当选总统。2004年2月，叛军迫使阿里斯蒂德逃离该国，展开流亡至2011年。之后最高法院大法官博尼法斯·亚历山大根据宪法成为临时总统，联合国派出维和部队。2006年2月7日，总统和议会选举举行，33名候选人竞选总统，另有1,300名候选人角逐议会129个席位。2月16日，临时选举委员会主席宣布，希望党总统候选人普雷瓦尔在总统选举中获得51.15％的选票获胜，任期至2011年。2010年1月12日，海地发生里氏规模7.0的地震，震中距离首都太子港16公里，震源较浅破坏力极强。地震发生在当地时间周二16时53分。随后又相继发生了规模5.9和5.5两次余震。太子港大量建筑倒塌，初步估计死亡规模将达到10万人-20万人。官方收殓了约15万具遇难者尸体，但相信还有20万人埋在废墟中，这意味着死亡人数可能高达35万。2021年7月8日，时任总统弗内尔·摩依士遭遇刺杀身亡，使内定即将卸任的代理总理克劳德·约瑟夫代行总统职务，宣布海地进入戒严状态；7月21日，依照摩依士生前的指派由阿里埃尔·亨利就任总理，并接手代行总统职务，约瑟夫则回任外交部长。同年8月14日，时隔11年海地再度发生里氏规模7.3的地震，造成1,419人死亡、5,700人受伤，当天上午宣布海地进入国家紧急状态，联合国投入当地救援工作、世界卫生组织也评估为提供紧急医疗援助。2024年3月，海地帮派首脑吉姆·切里齐耶发动动乱，同月正出访海外的海地总理亨利宣布请辞；4月底，临时政府的过渡总统委员会成立后代行总统职并直接委派总理。","chars":1290},{"section":"文化","text":"海地人口约94.3%宣称信仰基督教，绝大多数目前从属于天主教，占人口的66.7%。\n海地有相当多虔诚的天主教基督徒，国内亦有不少殖民时期建立的天主堂。另有相当数量海地人信奉海地伏都教（又称巫毒教）。这种起源自非洲的传统多神教，同时融入了一些源于天主教文化传统的元素，因而为传教士所不齿。美国中央情报局《世界概况》报告称，2.1%的海地人口自认为信仰海地伏都教，但同时补充称，“许多海地人除了信仰其他宗教（最常见的是天主教）外，还遵循伏都教的习俗”。尽管天主教会强烈谴责伏都教，但由于海地人经常以融合的方式信仰伏都教，因此伏都教的信仰比例存在争议。海地新教基督徒遵循伏都教习俗的可能性较小，因为他们的教会强烈谴责伏都教是恶魔。 该教因法国人由非洲掳走大量黑人到法国的殖民地做奴隶，从而传入海地。前总统弗·杜瓦利埃就曾利用此崇拜，建立名为“通顿马库特”（意为“吃人魔王”）的私人武装，严格控制人民。\n海地人信仰的伏都教认为音乐是现实世界和理想世界间的桥梁和中介，这对海地音乐影响极为深远，海地流行的各种音乐题材，差不多都与伏都教的宗教仪式以及社会礼仪有关。\n海地的烹饪受法国饮食影响很大，但是也有许多当地特色。大米和豆子是主要的食物。海地人喜食橄榄油饭。其作法为：先把水烧开后下米，然后倒入橄榄油，饭熟后过冷水再涂上牛油，上火焖至水干。海地居民多吃两餐。\n其他常见食物和调料包括猪肉、羊肉、鸡、鱼、玉米粉、秋葵、茄子、番茄、红辣椒、绿辣椒、车前草、芹菜、洋葱、芫荽、大蒜。民族菜有辣椒炸猪肉、玉米粉鲤鱼、豌豆或牛肉大米饭、香蕉、甘薯和山药。城镇居民多喝可口可乐、百事可乐等饮料。农民常食用芒果、山药、 豆类、甘薯和玉米等。只有在节日里，才食用肉、蛋和奶类。","chars":1200},{"section":"饮食","text":"海地的烹饪受法国饮食影响很大，但是也有许多当地特色。大米和豆子是主要的食物。海地人喜食橄榄油饭。其作法为：先把水烧开后下米，然后倒入橄榄油，饭熟后过冷水再涂上牛油，上火焖至水干。海地居民多吃两餐。\n其他常见食物和调料包括猪肉、羊肉、鸡、鱼、玉米粉、秋葵、茄子、番茄、红辣椒、绿辣椒、车前草、芹菜、洋葱、芫荽、大蒜。民族菜有辣椒炸猪肉、玉米粉鲤鱼、豌豆或牛肉大米饭、香蕉、甘薯和山药。城镇居民多喝可口可乐、百事可乐等饮料。农民常食用芒果、山药、 豆类、甘薯和玉米等。只有在节日里，才食用肉、蛋和奶类。","chars":1200},{"section":"人口","text":"根据2023年联合国估计，海地人口约为1,164万，人口密度颇高，居民多聚居于沿海平原及山间谷地。种族构成方面，约95%的海地人为西非黑人后裔，其余多为黑白混血种人（穆拉托人），以及少数欧洲、亚洲及阿拉伯裔移民。海地社会传统上存在以血统划分阶层的观念，一般而言，黑人血统比例愈低者，社会地位愈高。因此，穆拉托人传统上居于相对优势地位，多聚居于首都太子港，活跃于政治及工商业领域；而黑人则多居于乡村以务农为生，或从军及从事低技术工作。目前约56%的海地人居住于城市，其余则散居农村或人口少于2,000人的小镇，劳动人口中约有85%从事农业。\n法语及海地克里奥尔语同为官方语言，惟仅约5%至10%的人口能操流利法语，而几乎所有国民均能使用克里奥尔语。近年来，学习与使用英语的海地年轻人及商界人士日增。宗教方面，约80%人口信奉天主教，惟不少信徒在信奉天主教的同时，亦奉行源自非洲的传统信仰海地伏都教。","chars":510}],"landmark_images":[{"title":"File:Citadelle Laferrière 3.jpg","caption_zh":"拉费里埃城堡","caption":"拉费里埃城堡","caption_commons":"","kw":"Citadelle Laferriere Haiti","url":"assets/ht/L01.webp","thumb_url":"assets/ht/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/0/0c/Citadelle_Laferri%C3%A8re_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":null,"license":"Public domain","license_url":null,"license_status":"ok","load_verified":true,"bytes":53732,"caption_zh_manual":"拉费里埃城堡","caption_zh_source":"llm_from_commons_filename","thumb_bytes":13352,"size":{"detail":"496x323","thumb":"240x156"},"encoding":"webp q75/q78 (源 496x323 63KB JPEG)"},{"title":"File:Sans-Souci Palace, National History Park, Haiti.jpg","caption_zh":"海地国家历史公园无忧宫","caption":"海地国家历史公园无忧宫","caption_commons":"Sans-Souci Palace, National History Park, Haiti","kw":"Sans-Souci Palace Milot","url":"assets/ht/L02.webp","thumb_url":"assets/ht/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Sans-Souci_Palace%2C_National_History_Park%2C_Haiti.jpg/1920px-Sans-Souci_Palace%2C_National_History_Park%2C_Haiti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Didier Moïse","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":198746,"caption_zh_manual":"无忧宫","caption_zh_source":"llm_from_commons_filename","thumb_bytes":10956,"size":{"detail":"1080x720","thumb":"240x160"},"encoding":"webp q75/q78 (源 1920x1280 966KB JPEG)"},{"title":"File:Allure of the Seas dockside in Labadee, Haiti.jpg","caption_zh":"拉巴迪海滩码头停靠的海洋魅力号","caption":"拉巴迪海滩码头停靠的海洋魅力号","caption_commons":"Allure of the Seas dockside in Labadee, Haiti.","kw":"Labadee Beach Haiti","url":"assets/ht/L03.webp","thumb_url":"assets/ht/L03.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Allure_of_the_Seas_dockside_in_Labadee%2C_Haiti.jpg/1920px-Allure_of_the_Seas_dockside_in_Labadee%2C_Haiti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Derek Hatfield","license":"CC BY 2.0","license_url":"https://creativecommons.org/licenses/by/2.0","license_status":"ok","load_verified":true,"bytes":124508,"caption_zh_manual":"拉巴迪海滩","caption_zh_source":"llm_from_commons_filename","thumb_bytes":7156,"size":{"detail":"1080x810","thumb":"240x180"},"encoding":"webp q75/q78 (源 1920x1440 776KB JPEG)"},{"title":"File:Bassin Bleu @ Sainte-Anne 03.jpg","caption_zh":"贝松瀑布","caption":"贝松瀑布","caption_commons":"Le bassin Bleu de Sainte-Anne, Saint-Benoît, La Réunion, France","kw":"Saut du Baril Haiti","url":"assets/ht/L06.webp","thumb_url":"assets/ht/L06.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Bassin_Bleu_%40_Sainte-Anne_03.jpg/1920px-Bassin_Bleu_%40_Sainte-Anne_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"manual_repick","pick_tier":"handpicked","author":"Rémih","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":967550,"caption_zh_manual":"贝松瀑布","thumb_bytes":6546,"encoding":"webp q75/q78 (源 1600x1200 541KB JPEG)","verified":"vision","size":{"detail":"1080x607","thumb":"240x135"},"replace_reason":"原图不合格，按画质评分重选（4 分）"}],"image_license":"Public domain","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:26:10+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：Lb-Haiti.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Haiti.wav、LL-Q652 (ita)-Francyskus-Haiti.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py HT","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[],"architecture":[],"heritage":[],"keywords":[{"v":"加勒比海","evidence":"位于加勒比海的岛国"},{"v":"伊斯帕尼奥拉岛","evidence":"加勒比海第二大岛伊斯帕尼奥拉岛"},{"v":"法语","evidence":"法语：République d'Haïti"},{"v":"海地克里奥尔语","evidence":"海地克里奥尔语：Repiblik d Ayiti"}],"model":"deepseek-flash"},"summary_text_raw":"海地共和国（法语：République d'Haïti；海地克里奥尔语：Repiblik d Ayiti），通称海地（法语：Haïti，发音：[a.iti] ；海地克里奥尔语：Ayiti，发音：[ajiti] ），是位于加勒比海的岛国。全境位于加勒比海第二大岛伊斯帕尼奥拉岛（又称海地岛）西半部，东与多米尼加共和国接壤。\n海地人的原本种族为印第安民族的阿拉瓦克人。自西班牙入侵并屠杀原居民后，当地的阿拉瓦克人便急速减少到完全灭绝。\n海地是世上第一个由非裔黑人主导建立的国家，亦是美洲在被殖民地化后第二个独立的国家、加勒比地区第一个独立的地区。2012年，海地宣布有意寻求在非洲联盟的准会员地位。\n海地是美洲黑人人口比例最大（95%以上）的独立共和国。然而，该国与人口以拉丁裔为主的邻国多米尼加发展上却有着天壤之别，海地是美洲最贫穷国家，2021年人均年收入1,943美元、处于低人类发展指数，是美洲唯一的最不发达国家。2019年，海地的人均预期寿命为64岁。2022年人口约1158万，为加勒比海第一大人口国。\n\n\n== 历史 ==\n\n海地原为印第安人土著部落阿拉瓦克族居住地。","history_text":"伊斯帕尼奥拉岛西半部原为阿拉瓦克族居住地，哥伦布航行至此，后沦为西班牙殖民地，土著因屠杀与天花灭绝，殖民者从非洲贩入黑奴。1697年割让给法国，称法属圣多明戈。1791年杜桑·卢维图尔领导独立战争，1804年起义军攻占太子港宣布独立，成立拉丁美洲第一个共和国。此后政局长期动荡，独裁者不断上台又被推翻。","custom_text":"大米和豆子是日常主食，橄榄油饭的做法是水开后下米、倒入橄榄油，饭熟过冷水、涂上牛油再上火焖干，居民多吃两餐。辣椒炸猪肉、玉米粉鲤鱼、豌豆或牛肉大米饭是民族菜。伏都教认为音乐是现实与理想世界之间的桥梁，这一信仰深深塑造了当地音乐。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":151,"folk":114}},"knowledge_qa":[{"q":"海地在哪儿啊？周围挨着什么国家？","a":"海地位于加勒比海，全境在伊斯帕尼奥拉岛（海地岛）西半部，东边与多米尼加共和国接壤。","tags":["海地","加勒比海","位置","邻国"]},{"q":"海地首都叫什么？","a":"太子港。","tags":["首都","太子港","海地"]},{"q":"海地人平时说什么话？","a":"官方语言是法语和海地克里奥尔语。","tags":["语言","法语","克里奥尔语","说什么话"]},{"q":"海地有什么值得看的城堡或景点？","a":"拉费里埃城堡、无忧宫、雅克堡，还有拉巴迪海滩和贝松瀑布。","tags":["地标","城堡","景点","海滩","瀑布"]},{"q":"海地是哪个洲的？","a":"北美洲。","tags":["海地","北美洲","哪个洲"]},{"q":"海地人口多吗？","a":"2022年人口约1158万，是加勒比海第一大人口国。","tags":["人口","海地","加勒比"]},{"q":"海地穷不穷？","a":"海地是美洲最贫穷国家，2021年人均年收入1,943美元，是美洲唯一的最不发达国家。","tags":["贫穷","经济","海地","收入"]},{"q":"海地有什么历史背景？","a":"海地是世上第一个由非裔黑人主导建立的国家，也是美洲被殖民地化后第二个独立的国家、加勒比地区第一个独立的地区。","tags":["历史","独立","黑人","海地"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[-7176,1971],[-7170,1942],[-7178,1933],[-7164,1915],[-7186,1896],[-7173,1888],[-7172,1876],[-7184,1862],[-7201,1860],[-7191,1843],[-7171,1831],[-7178,1804],[-7207,1824],[-7289,1814],[-7338,1826],[-7366,1821],[-7365,1826],[-7384,1811],[-7379,1803],[-7387,1803],[-7410,1825],[-7437,1830],[-7449,1843],[-7442,1862],[-7427,1867],[-7380,1854],[-7359,1858],[-7372,1855],[-7365,1850],[-7290,1843],[-7272,1844],[-7260,1856],[-7235,1853],[-7233,1868],[-7255,1879],[-7281,1905],[-7271,1912],[-7280,1923],[-7271,1929],[-7277,1938],[-7270,1945],[-7301,1960],[-7342,1964],[-7347,1973],[-7336,1982],[-7342,1982],[-7317,1994],[-7278,1994],[-7239,1981],[-7233,1972],[-7222,1979],[-7182,1966],[-7184,1972],[-7176,1971]],[[-7326,1888],[-7330,1894],[-7320,1897],[-7285,1883],[-7281,1872],[-7326,1888]],[[-7285,2009],[-7263,2001],[-7296,2006],[-7285,2009]],[[-7380,1863],[-7377,1864],[-7374,1864],[-7372,1862],[-7372,1860],[-7374,1859],[-7377,1859],[-7379,1860],[-7380,1863]]]}
+{
+  "qid": "Q790",
+  "iso_a2": "HT",
+  "iso_a3": "HTI",
+  "name_zh": "海地",
+  "name_en": "Haiti",
+  "capital": "太子港",
+  "continent": "北美洲",
+  "centroid": [
+    -72.8,
+    19
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "fr",
+      "name_zh": "法语",
+      "name_local": "法语",
+      "role": "official",
+      "audio_url": "assets/ht/audio/fr.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Bienvenue en Haïti, un pays où l'histoire et la chaleur des couleurs se rencontrent ; sa capitale, Port-au-Prince, vous accueille au bord de la mer des Caraïbes, et la citadelle Laferrière, perchée dans les montagnes du nord, veille encore sur l'île comme un souvenir de liberté.",
+      "tts_text_zh": "欢迎来到海地，一个历史与斑斓色彩相遇的国度；首都太子港在加勒比海边迎接您，而耸立在北部群山中的拉费里耶尔城堡，仍像一段自由的记忆般守望着这座岛屿。",
+      "audio_voice": "fr-FR-DeniseNeural",
+      "audio_bytes": 93744
+    },
+    {
+      "code": "ht",
+      "name_zh": "海地克里奥尔语",
+      "name_local": "海地克里奥尔语",
+      "role": "official",
+      "audio_url": null,
+      "audio_source": null,
+      "audio_status": "pending"
+    }
+  ],
+  "summary_text": "海地共和国通称海地，是位于加勒比海的岛国，全境位于加勒比海第二大岛伊斯帕尼奥拉岛（又称海地岛）西半部，东与多米尼加共和国接壤。海地人的原本种族为印第安民族的阿拉瓦克人，自西班牙入侵并屠杀原居民后，当地的阿拉瓦克人便急速减少到完全灭绝。海地是世上第一个由非裔黑人主导建立的国家，亦是美洲在被殖民地化后第二个独立的国家、加勒比地区第一个独立的地区。海地是美洲黑人人口比例最大（95%以上）的独立共和国，然而该国与人口以拉丁裔为主的邻国多米尼加发展上却有着天壤之别。海地是美洲最贫穷国家，2021年人均年收入1,943美元，处于低人类发展指数，是美洲唯一的最不发达国家。2019年，海地的人均预期寿命为64岁。2022年人口约1158万，为加勒比海第一大人口国。2012年，海地宣布有意寻求在非洲联盟的准会员地位。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 354,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E6%B5%B7%E5%9C%B0",
+    "title": "海地"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "海地原为印第安人土著部落阿拉瓦克族居住地。1492年12月6日，哥伦布航行至此，将该岛命名为伊斯帕尼奥拉岛（西班牙岛），1502年正式成为西班牙殖民地。受欧洲殖民者带来的天花流行病影响和西班牙殖民者对土著居民的大肆屠杀，当地的阿拉瓦克族人很快便被种族灭绝了。而后西班牙白人殖民者遂从非洲贩运大量黑奴，成为岛上主要的劳动力。1697年根据勒斯维克条约，海地被割让给法国，称为法属圣多明戈。1791年，黑人领袖杜桑·卢维图尔领导海地人发动独立战争，成为拉丁美洲最早争取独立的国家。1804年，起义军攻占太子港并宣布独立，成立了拉丁美洲第一个共和国，同时也是世界首个黑人占主导地位的共和国。海地独立后，未能建立起稳定有效的政治体制和政权机关，政局动荡，独裁者不断上台又不断被推翻；据统计，从海地独立到1915年的一百年间，共有近90位统治者相继上台。1822年至1844年，海地曾占领同岛的东部地区（今多米尼加）。1915年至1934年，受到美国方面军事接管。1957年，依托军队的民间运动领袖弗朗索瓦·杜瓦利埃赢得海地大选，当选为海地总统，并在死后将总统大位传给其子让-克洛德·杜瓦利埃，建立起家族统治，直到1986年被推翻。之后以亨利·南菲将军为首的“全国执政委员会”在海地实行军事统治。1990年，让-贝特朗·阿里斯蒂德被选举为总统，但他的任期亦遭军事政变破坏。1994年，在联合国授权的国际干预下，阿里斯蒂德重返总统职位。1996年，勒内·普雷瓦尔当选总统。2000年，阿里斯蒂德再度当选总统。2004年2月，叛军迫使阿里斯蒂德逃离该国，展开流亡至2011年。之后最高法院大法官博尼法斯·亚历山大根据宪法成为临时总统，联合国派出维和部队。2006年2月7日，总统和议会选举举行，33名候选人竞选总统，另有1,300名候选人角逐议会129个席位。2月16日，临时选举委员会主席宣布，希望党总统候选人普雷瓦尔在总统选举中获得51.15％的选票获胜，任期至2011年。2010年1月12日，海地发生里氏规模7.0的地震，震中距离首都太子港16公里，震源较浅破坏力极强。地震发生在当地时间周二16时53分。随后又相继发生了规模5.9和5.5两次余震。太子港大量建筑倒塌，初步估计死亡规模将达到10万人-20万人。官方收殓了约15万具遇难者尸体，但相信还有20万人埋在废墟中，这意味着死亡人数可能高达35万。2021年7月8日，时任总统弗内尔·摩依士遭遇刺杀身亡，使内定即将卸任的代理总理克劳德·约瑟夫代行总统职务，宣布海地进入戒严状态；7月21日，依照摩依士生前的指派由阿里埃尔·亨利就任总理，并接手代行总统职务，约瑟夫则回任外交部长。同年8月14日，时隔11年海地再度发生里氏规模7.3的地震，造成1,419人死亡、5,700人受伤，当天上午宣布海地进入国家紧急状态，联合国投入当地救援工作、世界卫生组织也评估为提供紧急医疗援助。2024年3月，海地帮派首脑吉姆·切里齐耶发动动乱，同月正出访海外的海地总理亨利宣布请辞；4月底，临时政府的过渡总统委员会成立后代行总统职并直接委派总理。",
+      "chars": 1290
+    },
+    {
+      "section": "文化",
+      "text": "海地人口约94.3%宣称信仰基督教，绝大多数目前从属于天主教，占人口的66.7%。\n海地有相当多虔诚的天主教基督徒，国内亦有不少殖民时期建立的天主堂。另有相当数量海地人信奉海地伏都教（又称巫毒教）。这种起源自非洲的传统多神教，同时融入了一些源于天主教文化传统的元素，因而为传教士所不齿。美国中央情报局《世界概况》报告称，2.1%的海地人口自认为信仰海地伏都教，但同时补充称，“许多海地人除了信仰其他宗教（最常见的是天主教）外，还遵循伏都教的习俗”。尽管天主教会强烈谴责伏都教，但由于海地人经常以融合的方式信仰伏都教，因此伏都教的信仰比例存在争议。海地新教基督徒遵循伏都教习俗的可能性较小，因为他们的教会强烈谴责伏都教是恶魔。 该教因法国人由非洲掳走大量黑人到法国的殖民地做奴隶，从而传入海地。前总统弗·杜瓦利埃就曾利用此崇拜，建立名为“通顿马库特”（意为“吃人魔王”）的私人武装，严格控制人民。\n海地人信仰的伏都教认为音乐是现实世界和理想世界间的桥梁和中介，这对海地音乐影响极为深远，海地流行的各种音乐题材，差不多都与伏都教的宗教仪式以及社会礼仪有关。\n海地的烹饪受法国饮食影响很大，但是也有许多当地特色。大米和豆子是主要的食物。海地人喜食橄榄油饭。其作法为：先把水烧开后下米，然后倒入橄榄油，饭熟后过冷水再涂上牛油，上火焖至水干。海地居民多吃两餐。\n其他常见食物和调料包括猪肉、羊肉、鸡、鱼、玉米粉、秋葵、茄子、番茄、红辣椒、绿辣椒、车前草、芹菜、洋葱、芫荽、大蒜。民族菜有辣椒炸猪肉、玉米粉鲤鱼、豌豆或牛肉大米饭、香蕉、甘薯和山药。城镇居民多喝可口可乐、百事可乐等饮料。农民常食用芒果、山药、 豆类、甘薯和玉米等。只有在节日里，才食用肉、蛋和奶类。",
+      "chars": 1200
+    },
+    {
+      "section": "饮食",
+      "text": "海地的烹饪受法国饮食影响很大，但是也有许多当地特色。大米和豆子是主要的食物。海地人喜食橄榄油饭。其作法为：先把水烧开后下米，然后倒入橄榄油，饭熟后过冷水再涂上牛油，上火焖至水干。海地居民多吃两餐。\n其他常见食物和调料包括猪肉、羊肉、鸡、鱼、玉米粉、秋葵、茄子、番茄、红辣椒、绿辣椒、车前草、芹菜、洋葱、芫荽、大蒜。民族菜有辣椒炸猪肉、玉米粉鲤鱼、豌豆或牛肉大米饭、香蕉、甘薯和山药。城镇居民多喝可口可乐、百事可乐等饮料。农民常食用芒果、山药、 豆类、甘薯和玉米等。只有在节日里，才食用肉、蛋和奶类。",
+      "chars": 1200
+    },
+    {
+      "section": "人口",
+      "text": "根据2023年联合国估计，海地人口约为1,164万，人口密度颇高，居民多聚居于沿海平原及山间谷地。种族构成方面，约95%的海地人为西非黑人后裔，其余多为黑白混血种人（穆拉托人），以及少数欧洲、亚洲及阿拉伯裔移民。海地社会传统上存在以血统划分阶层的观念，一般而言，黑人血统比例愈低者，社会地位愈高。因此，穆拉托人传统上居于相对优势地位，多聚居于首都太子港，活跃于政治及工商业领域；而黑人则多居于乡村以务农为生，或从军及从事低技术工作。目前约56%的海地人居住于城市，其余则散居农村或人口少于2,000人的小镇，劳动人口中约有85%从事农业。\n法语及海地克里奥尔语同为官方语言，惟仅约5%至10%的人口能操流利法语，而几乎所有国民均能使用克里奥尔语。近年来，学习与使用英语的海地年轻人及商界人士日增。宗教方面，约80%人口信奉天主教，惟不少信徒在信奉天主教的同时，亦奉行源自非洲的传统信仰海地伏都教。",
+      "chars": 510
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Citadelle Laferrière 3.jpg",
+      "caption_zh": "拉费里埃城堡",
+      "caption": "拉费里埃城堡",
+      "caption_commons": "",
+      "kw": "Citadelle Laferriere Haiti",
+      "url": "assets/ht/L01.webp",
+      "thumb_url": "assets/ht/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Citadelle_Laferri%C3%A8re_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": null,
+      "license": "Public domain",
+      "license_url": null,
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 53732,
+      "caption_zh_manual": "拉费里埃城堡",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 13352,
+      "size": {
+        "detail": "496x323",
+        "thumb": "240x156"
+      },
+      "encoding": "webp q75/q78 (源 496x323 63KB JPEG)"
+    },
+    {
+      "title": "File:Sans-Souci Palace, National History Park, Haiti.jpg",
+      "caption_zh": "海地国家历史公园无忧宫",
+      "caption": "海地国家历史公园无忧宫",
+      "caption_commons": "Sans-Souci Palace, National History Park, Haiti",
+      "kw": "Sans-Souci Palace Milot",
+      "url": "assets/ht/L02.webp",
+      "thumb_url": "assets/ht/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Sans-Souci_Palace%2C_National_History_Park%2C_Haiti.jpg/1920px-Sans-Souci_Palace%2C_National_History_Park%2C_Haiti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Didier Moïse",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 198746,
+      "caption_zh_manual": "无忧宫",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 10956,
+      "size": {
+        "detail": "1080x720",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1920x1280 966KB JPEG)"
+    },
+    {
+      "title": "File:Allure of the Seas dockside in Labadee, Haiti.jpg",
+      "caption_zh": "拉巴迪海滩码头停靠的海洋魅力号",
+      "caption": "拉巴迪海滩码头停靠的海洋魅力号",
+      "caption_commons": "Allure of the Seas dockside in Labadee, Haiti.",
+      "kw": "Labadee Beach Haiti",
+      "url": "assets/ht/L03.webp",
+      "thumb_url": "assets/ht/L03.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Allure_of_the_Seas_dockside_in_Labadee%2C_Haiti.jpg/1920px-Allure_of_the_Seas_dockside_in_Labadee%2C_Haiti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Derek Hatfield",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 124508,
+      "caption_zh_manual": "拉巴迪海滩",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 7156,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 776KB JPEG)"
+    },
+    {
+      "title": "File:Bassin Bleu @ Sainte-Anne 03.jpg",
+      "caption_zh": "贝松瀑布",
+      "caption": "贝松瀑布",
+      "caption_commons": "Le bassin Bleu de Sainte-Anne, Saint-Benoît, La Réunion, France",
+      "kw": "Saut du Baril Haiti",
+      "url": "assets/ht/L06.webp",
+      "thumb_url": "assets/ht/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Bassin_Bleu_%40_Sainte-Anne_03.jpg/1920px-Bassin_Bleu_%40_Sainte-Anne_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "Rémih",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 967550,
+      "caption_zh_manual": "贝松瀑布",
+      "thumb_bytes": 6546,
+      "encoding": "webp q75/q78 (源 1600x1200 541KB JPEG)",
+      "verified": "vision",
+      "size": {
+        "detail": "1080x607",
+        "thumb": "240x135"
+      },
+      "replace_reason": "原图不合格，按画质评分重选（4 分）"
+    }
+  ],
+  "image_license": "Public domain",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:26:10+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：Lb-Haiti.ogg、LL-Q7913 (ron)-KlaudiuMihaila-Haiti.wav、LL-Q652 (ita)-Francyskus-Haiti.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py HT",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "加勒比海",
+        "evidence": "位于加勒比海的岛国"
+      },
+      {
+        "v": "伊斯帕尼奥拉岛",
+        "evidence": "加勒比海第二大岛伊斯帕尼奥拉岛"
+      },
+      {
+        "v": "法语",
+        "evidence": "法语：République d'Haïti"
+      },
+      {
+        "v": "海地克里奥尔语",
+        "evidence": "海地克里奥尔语：Repiblik d Ayiti"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "海地共和国（法语：République d'Haïti；海地克里奥尔语：Repiblik d Ayiti），通称海地（法语：Haïti，发音：[a.iti] ；海地克里奥尔语：Ayiti，发音：[ajiti] ），是位于加勒比海的岛国。全境位于加勒比海第二大岛伊斯帕尼奥拉岛（又称海地岛）西半部，东与多米尼加共和国接壤。\n海地人的原本种族为印第安民族的阿拉瓦克人。自西班牙入侵并屠杀原居民后，当地的阿拉瓦克人便急速减少到完全灭绝。\n海地是世上第一个由非裔黑人主导建立的国家，亦是美洲在被殖民地化后第二个独立的国家、加勒比地区第一个独立的地区。2012年，海地宣布有意寻求在非洲联盟的准会员地位。\n海地是美洲黑人人口比例最大（95%以上）的独立共和国。然而，该国与人口以拉丁裔为主的邻国多米尼加发展上却有着天壤之别，海地是美洲最贫穷国家，2021年人均年收入1,943美元、处于低人类发展指数，是美洲唯一的最不发达国家。2019年，海地的人均预期寿命为64岁。2022年人口约1158万，为加勒比海第一大人口国。\n\n\n== 历史 ==\n\n海地原为印第安人土著部落阿拉瓦克族居住地。",
+  "history_text": "伊斯帕尼奥拉岛西半部原为阿拉瓦克族居住地，哥伦布航行至此，后沦为西班牙殖民地，土著因屠杀与天花灭绝，殖民者从非洲贩入黑奴。1697年割让给法国，称法属圣多明戈。1791年杜桑·卢维图尔领导独立战争，1804年起义军攻占太子港宣布独立，成立拉丁美洲第一个共和国。此后政局长期动荡，独裁者不断上台又被推翻。",
+  "custom_text": "大米和豆子是日常主食，橄榄油饭的做法是水开后下米、倒入橄榄油，饭熟过冷水、涂上牛油再上火焖干，居民多吃两餐。辣椒炸猪肉、玉米粉鲤鱼、豌豆或牛肉大米饭是民族菜。伏都教认为音乐是现实与理想世界之间的桥梁，这一信仰深深塑造了当地音乐。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 151,
+      "folk": 114
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "海地在哪儿啊？周围挨着什么国家？",
+      "a": "海地位于加勒比海，全境在伊斯帕尼奥拉岛（海地岛）西半部，东边与多米尼加共和国接壤。",
+      "tags": [
+        "海地",
+        "加勒比海",
+        "位置",
+        "邻国"
+      ]
+    },
+    {
+      "q": "海地首都叫什么？",
+      "a": "太子港。",
+      "tags": [
+        "首都",
+        "太子港",
+        "海地"
+      ]
+    },
+    {
+      "q": "海地人平时说什么话？",
+      "a": "官方语言是法语和海地克里奥尔语。",
+      "tags": [
+        "语言",
+        "法语",
+        "克里奥尔语",
+        "说什么话"
+      ]
+    },
+    {
+      "q": "海地有什么值得看的城堡或景点？",
+      "a": "拉费里埃城堡、无忧宫、雅克堡，还有拉巴迪海滩和贝松瀑布。",
+      "tags": [
+        "地标",
+        "城堡",
+        "景点",
+        "海滩",
+        "瀑布"
+      ]
+    },
+    {
+      "q": "海地是哪个洲的？",
+      "a": "北美洲。",
+      "tags": [
+        "海地",
+        "北美洲",
+        "哪个洲"
+      ]
+    },
+    {
+      "q": "海地人口多吗？",
+      "a": "2022年人口约1158万，是加勒比海第一大人口国。",
+      "tags": [
+        "人口",
+        "海地",
+        "加勒比"
+      ]
+    },
+    {
+      "q": "海地穷不穷？",
+      "a": "海地是美洲最贫穷国家，2021年人均年收入1,943美元，是美洲唯一的最不发达国家。",
+      "tags": [
+        "贫穷",
+        "经济",
+        "海地",
+        "收入"
+      ]
+    },
+    {
+      "q": "海地有什么历史背景？",
+      "a": "海地是世上第一个由非裔黑人主导建立的国家，也是美洲被殖民地化后第二个独立的国家、加勒比地区第一个独立的地区。",
+      "tags": [
+        "历史",
+        "独立",
+        "黑人",
+        "海地"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        -7176,
+        1971
+      ],
+      [
+        -7170,
+        1942
+      ],
+      [
+        -7178,
+        1933
+      ],
+      [
+        -7164,
+        1915
+      ],
+      [
+        -7186,
+        1896
+      ],
+      [
+        -7173,
+        1888
+      ],
+      [
+        -7172,
+        1876
+      ],
+      [
+        -7184,
+        1862
+      ],
+      [
+        -7201,
+        1860
+      ],
+      [
+        -7191,
+        1843
+      ],
+      [
+        -7171,
+        1831
+      ],
+      [
+        -7178,
+        1804
+      ],
+      [
+        -7207,
+        1824
+      ],
+      [
+        -7289,
+        1814
+      ],
+      [
+        -7338,
+        1826
+      ],
+      [
+        -7366,
+        1821
+      ],
+      [
+        -7365,
+        1826
+      ],
+      [
+        -7384,
+        1811
+      ],
+      [
+        -7379,
+        1803
+      ],
+      [
+        -7387,
+        1803
+      ],
+      [
+        -7410,
+        1825
+      ],
+      [
+        -7437,
+        1830
+      ],
+      [
+        -7449,
+        1843
+      ],
+      [
+        -7442,
+        1862
+      ],
+      [
+        -7427,
+        1867
+      ],
+      [
+        -7380,
+        1854
+      ],
+      [
+        -7359,
+        1858
+      ],
+      [
+        -7372,
+        1855
+      ],
+      [
+        -7365,
+        1850
+      ],
+      [
+        -7290,
+        1843
+      ],
+      [
+        -7272,
+        1844
+      ],
+      [
+        -7260,
+        1856
+      ],
+      [
+        -7235,
+        1853
+      ],
+      [
+        -7233,
+        1868
+      ],
+      [
+        -7255,
+        1879
+      ],
+      [
+        -7281,
+        1905
+      ],
+      [
+        -7271,
+        1912
+      ],
+      [
+        -7280,
+        1923
+      ],
+      [
+        -7271,
+        1929
+      ],
+      [
+        -7277,
+        1938
+      ],
+      [
+        -7270,
+        1945
+      ],
+      [
+        -7301,
+        1960
+      ],
+      [
+        -7342,
+        1964
+      ],
+      [
+        -7347,
+        1973
+      ],
+      [
+        -7336,
+        1982
+      ],
+      [
+        -7342,
+        1982
+      ],
+      [
+        -7317,
+        1994
+      ],
+      [
+        -7278,
+        1994
+      ],
+      [
+        -7239,
+        1981
+      ],
+      [
+        -7233,
+        1972
+      ],
+      [
+        -7222,
+        1979
+      ],
+      [
+        -7182,
+        1966
+      ],
+      [
+        -7184,
+        1972
+      ],
+      [
+        -7176,
+        1971
+      ]
+    ],
+    [
+      [
+        -7326,
+        1888
+      ],
+      [
+        -7330,
+        1894
+      ],
+      [
+        -7320,
+        1897
+      ],
+      [
+        -7285,
+        1883
+      ],
+      [
+        -7281,
+        1872
+      ],
+      [
+        -7326,
+        1888
+      ]
+    ],
+    [
+      [
+        -7285,
+        2009
+      ],
+      [
+        -7263,
+        2001
+      ],
+      [
+        -7296,
+        2006
+      ],
+      [
+        -7285,
+        2009
+      ]
+    ],
+    [
+      [
+        -7380,
+        1863
+      ],
+      [
+        -7377,
+        1864
+      ],
+      [
+        -7374,
+        1864
+      ],
+      [
+        -7372,
+        1862
+      ],
+      [
+        -7372,
+        1860
+      ],
+      [
+        -7374,
+        1859
+      ],
+      [
+        -7377,
+        1859
+      ],
+      [
+        -7379,
+        1860
+      ],
+      [
+        -7380,
+        1863
+      ]
+    ]
+  ]
+}

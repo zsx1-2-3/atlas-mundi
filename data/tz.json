@@ -176,26 +176,30 @@
       "encoding": "webp q75/q78 (源 768x1024 150KB JPEG)"
     },
     {
-      "title": "File:Egretta blanca and negra in Zanzibar.jpg",
+      "title": "File:White sandy beach at Nungwi, Zanzibar.jpg",
       "caption_zh": "桑给巴尔海滩",
       "caption": "桑给巴尔海滩",
       "kw": "Nungwi Beach Zanzibar",
-      "url": "assets/tz/L05.webp",
-      "thumb_url": "assets/tz/L05.thumb.webp",
-      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Egretta_blanca_and_negra_in_Zanzibar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-      "source": "article_img",
-      "pick_tier": "strict",
-      "author": "Valugi",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "bytes": 42220,
+      "url": "assets/tz/L06.webp",
+      "thumb_url": "assets/tz/L06.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/White_sandy_beach_at_Nungwi%2C_Zanzibar.jpg/1920px-White_sandy_beach_at_Nungwi%2C_Zanzibar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "manual_repick",
+      "pick_tier": "handpicked",
+      "author": "ObonyoML",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "bytes": 287374,
       "verified": "vision",
       "thumb_bytes": 6250,
       "size": {
-        "detail": "1080x718",
-        "thumb": "240x160"
+        "detail": "1080x810",
+        "thumb": "240x180"
       },
-      "encoding": "webp q75/q78 (源 1600x1064 165KB JPEG)"
+      "encoding": "webp q75/q78 (源 1600x1064 165KB JPEG)",
+      "caption_commons": "View of the sea from Nungwi Beach, Zanzibar on a calm early afternoon",
+      "license_status": "ok",
+      "load_verified": true,
+      "replace_reason": "CLIP 重排：相似度 0.217 → 0.339"
     }
   ],
   "image_license": "CC BY-SA 3.0",

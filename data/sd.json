@@ -1,1 +1,867 @@
-{"qid":"Q1049","iso_a2":"SD","iso_a3":"SDN","name_zh":"苏丹","name_en":"Sudan","capital":"喀土穆","continent":"非洲","centroid":[32,15],"centroid_source":"wikidata P625","languages":[{"code":"ar","name_zh":"阿拉伯语","name_local":"阿拉伯语","role":"official","audio_url":"assets/sd/audio/ar.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"أهلاً بكم في السودان، حيث يلتقي النيلان عند العاصمة الخرطوم، ومنها تنطلقون لاكتشاف أهرامات مروي التي تشهد على حضارة عريقة.","tts_text_zh":"欢迎来到苏丹，两尼罗河在首都喀土穆交汇，从这里出发去探访见证古老文明的麦罗埃金字塔。","audio_voice":"ar-DZ-AminaNeural","audio_bytes":72864},{"code":"en","name_zh":"英语","name_local":"英语","role":"official","audio_url":"assets/sd/audio/en.mp3","audio_source":"tts_edge","audio_status":"ok","tts_text":"Welcome to Sudan, where the two Niles meet at the capital, Khartoum, and from there you may set out to discover the pyramids of Meroë, standing as witnesses to an ancient civilization.","tts_text_zh":"欢迎来到苏丹，两尼罗河在首都喀土穆交汇，从这里出发去探访见证古老文明的麦罗埃金字塔。","audio_voice":"en-US-AriaNeural","audio_bytes":66960}],"summary_text":"苏丹共和国通称苏丹，南苏丹独立后亦被称为北苏丹，是位于东北非的国家。苏丹东接厄立特里亚和埃塞俄比亚，南邻南苏丹，西连乍得和中非共和国，北毗埃及和利比亚，东北濒临红海。根据2024年估计，苏丹人口约5,000万，国土面积1,886,068平方公里，为非洲面积第三大国。苏丹地区拥有悠久的历史，可追溯至旧石器时代的科尔穆桑文化和哈尔法文化。公元前2500年左右，库施王国在此兴起，后来被新王国时期的埃及征服。公元前785年，库施王国重新独立，并统治该地区近千年。到了公元前751年，库施国王皮耶在埃及底比斯加冕为埃及法老，于埃及建立努比亚王朝。4世纪，努比亚地区形成基督教王国诺巴提亚、马库里亚和阿勒底亚。14至15世纪，阿拉伯游牧民族逐渐迁入，伊斯兰化和阿拉伯化进程加速。苏丹首都及最大城市为喀土穆。","summary_source":{"source":"llm_refined","note":"DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史","chars":349,"derived_from":"wikipedia_extracts","url":"https://zh.wikipedia.org/wiki/%E8%8B%8F%E4%B8%B9","title":"苏丹"},"culture_excerpts":[{"section":"历史","text":"1876年，戈登任整个苏丹的总督。他在苏丹的六年间，致力于打击奴隶贸易。1880年，戈登递交辞呈，离开苏丹。在他的继任拉乌夫治下，苏丹的奴隶贸易又恢复过去的规模。1883年11月，反抗军集中4万多优势兵力，一举歼灭英军1万多人。英国重新起用戈登，戈登再次回到苏丹。1884年2月18日，戈登抵达喀土穆。一个月后，马赫迪军队完成对喀土穆的包围。1885年1月26日，反抗军攻陷首都喀土穆，杀死戈登。1896年6月，英国殖民军队再次向苏丹发动进攻。1898年4月，首都喀土穆陷落，英国重新占领苏丹。阿卜杜拉率残部退守科尔多凡省，直至战死。9月英军在恩图曼战役中获胜。1945年底，苏丹民族党成立，主张通过与英国协商获得独立。1948年，苏丹人民抵制殖民当局所组织的立法会议选举。工人不断展开大规模罢工。1950年11月苏丹工会联合会宣告成立。1951年10月埃及宣布废除1899年英埃共管苏丹协定，苏丹人民示威游行，要求英国撤军和苏丹独立。1954年1月民主统一党在议会选举中获胜，组成苏丹民族政府。1985年4月6日，达哈卜将军发动军事政变推翻尼迈里政权，成立苏丹过渡军事委员会。1985年12月15日，苏丹过渡政权将国名改为“苏丹共和国”。1993年10月，救国革命指挥委员会解散，巴希尔改任总统，废除总理职务，实行总统制。1996年3月，巴希尔连任总统。2011年1月9日举行南苏丹独立公投，98.83%有效票赞成独立。2011年7月9日，南苏丹正式独立，成为一个新的主权国家。原面积约250万平方公里、曾为非洲面积第一大国的苏丹，在南苏丹独立后，苏丹共和国面积已缩减至188万余平方公里，也变成为非洲面积第三大的国家维持至今。2019年4月11日，苏丹发生政变，副总统兼国防部长艾哈迈德·阿瓦德·伊本·奥夫逮捕总统巴希尔，巴希尔随后请辞，艾哈迈德·阿瓦德·伊本·奥夫同时宣布解散政府、暂停宪法，由过渡军事委员会掌权进行两年过渡期，艾哈迈德·阿瓦德·伊本·奥夫同时出任过渡军事委员会主席一职。由于示威活动仍未止，艾哈迈德·阿瓦德·伊本·奥夫于翌日辞职，由督察长阿卜杜勒·法塔赫·阿卜杜勒拉赫曼·布尔汉中将继任过渡军事委员会主席。6月3日，过渡军事委员会镇压要求军政府让出权力的示威群众，导致至少120人死亡。2019年7月之后，阿卜杜勒·法塔赫·阿卜杜勒拉赫曼·布尔汉中将继任联合主权委员会主席。在2019年苏丹军事政变接管之后，全国大会党于2019年4月11日解散。2020年，美国鉴于苏丹和以色列关系正常化，且巴希尔军事独裁政权倒台，美国决定于10月23日将苏丹从“支持恐怖主义的国家”黑名单除名，2021年12月14日，苏丹正式从支持恐怖主义的国家黑名单除名。","chars":1134},{"section":"教育","text":"1988年6月，苏丹共和国教育部决定取消中等和高等教育免费的规定，小学仍为免费教育。各地区教育发展很不平衡，北方教育发展较快。全国人口的64%为文盲，25%的学龄儿童不能入学。2003年全国有中、小学校13,559所，综合大学5所，专科院校11所，在校学生约497万人，其中大学生约24万人，教师约13万人。\n喀土穆大学建于1902年，是苏丹最早建立的高等学校。恩图曼伊斯兰大学建于1912年。","chars":1200}],"landmark_images":[{"title":"File:Sudan Meroe Pyramids 30sep2005 2.jpg","caption_zh":"麦罗埃金字塔","caption":"麦罗埃金字塔","caption_commons":"Pyramids of Meroe in Sudan. In the front from left to right are the pyramids N25","kw":"Meroe Pyramids Sudan","url":"assets/sd/L01.webp","thumb_url":"assets/sd/L01.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/a/aa/Sudan_Meroe_Pyramids_30sep2005_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"commons_search","pick_tier":"strict","author":"Fabrizio Demartis","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":57106,"caption_zh_manual":"麦罗埃金字塔","caption_zh_source":"llm_from_commons_filename","thumb_bytes":4408,"size":{"detail":"1080x632","thumb":"240x140"},"encoding":"webp q75/q78 (源 1161x679 92KB JPEG)"},{"title":"File:Gebel Barkal.jpg","caption_zh":"博尔戈尔山","caption":"博尔戈尔山","caption_commons":"Gebel Barkal in Nubia (Sudan)","kw":"Jebel Barkal Sudan","url":"assets/sd/L02.webp","thumb_url":"assets/sd/L02.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Gebel_Barkal.jpg/1920px-Gebel_Barkal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"wikidata_p18","pick_tier":"strict","author":"LassiHU","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":97338,"caption_zh_manual":"博尔戈尔山","caption_zh_source":"llm_from_commons_filename","thumb_bytes":6044,"size":{"detail":"1080x810","thumb":"240x180"},"encoding":"webp q75/q78 (源 1920x1440 558KB JPEG)"},{"title":"File:NaqaAmunTemple.jpg","caption_zh":"纳卡龙加礼拜堂","caption":"纳卡龙加礼拜堂","caption_commons":"Naqa. Temple of Amun","kw":"Naqa Temple Sudan","url":"assets/sd/L03.webp","thumb_url":"assets/sd/L03.thumb.webp","remote_url":"https://upload.wikimedia.org/wikipedia/commons/c/c5/NaqaAmunTemple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled","source":"article_img","pick_tier":"strict","author":"Clemens Schmillen","license":"CC BY-SA 4.0","license_url":"https://creativecommons.org/licenses/by-sa/4.0","license_status":"ok","load_verified":true,"bytes":106286,"caption_zh_manual":"纳卡龙加礼拜堂","caption_zh_source":"llm_from_commons_filename","thumb_bytes":6796,"size":{"detail":"1024x683","thumb":"240x160"},"encoding":"webp q75/q78 (源 1024x683 470KB JPEG)"},{"title":"File:Ceramics, National Museum of Sudan, Khartoum, Sudan, North-East Africa.jpg","caption_zh":"苏丹国家博物馆陶瓷","caption":"苏丹国家博物馆陶瓷","caption_commons":"Ceramics, National Museum of Sudan, Khartoum, Sudan, North-East Africa This case","kw":"National Museum of Sudan Khartoum","url":"assets/sd/L04.webp","thumb_url":"assets/sd/L04.thumb.webp","remote_url":"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ceramics%2C_National_Museum_of_Sudan%2C_Khartoum%2C_Sudan%2C_North-East_Africa.jpg/1920px-Ceramics%2C_National_Museum_of_Sudan%2C_Khartoum%2C_Sudan%2C_North-East_Africa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail","source":"article_img","pick_tier":"strict","author":"Sue Fleckney","license":"CC BY-SA 2.0","license_url":"https://creativecommons.org/licenses/by-sa/2.0","license_status":"ok","load_verified":true,"bytes":66848,"caption_zh_manual":"苏丹国家博物馆","caption_zh_source":"llm_from_commons_filename","thumb_bytes":3754,"size":{"detail":"1080x1530","thumb":"127x180"},"encoding":"webp q75/q78 (源 1920x2720 947KB JPEG)"}],"image_license":"CC BY-SA 2.0","geometry_status":"naturalearth_50m_chunked","schema_version":"0.1","collected_at":"2026-10-30T21:58:45+08:00","collector":"scripts/collect.py v0.2","needs_review":true,"review_notes":["P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Sudan.wav、LL-Q9610 (ben)-Tahmid-সুদান.wav、LL-Q22809485 (apc)-Hassan Hassoon-السودان.wav（P443 不保证语种，须按文件名筛）","该实体无对应语种发音，语音改跑 python scripts/tts.py SD","Commons 无可用发音，语音走构建期 TTS 兜底（待接）","地标图改为人工指定清单（5 张，中文图注）"],"image_source_note":"人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换","custom_facets":{"festivals":[],"cuisine":[],"religion":[{"v":"基督教","evidence":"努比亚地区形成基督教王国"},{"v":"伊斯兰化","evidence":"伊斯兰化和阿拉伯化进程加速"}],"architecture":[],"heritage":[],"keywords":[{"v":"红海","evidence":"东北濒临红海"},{"v":"喀土穆","evidence":"首都及最大城市为喀土穆"},{"v":"库施王国","evidence":"库施王国在此兴起"},{"v":"科尔穆桑文化","evidence":"旧石器时代的科尔穆桑文化"},{"v":"努比亚王朝","evidence":"于埃及建立努比亚王朝"}],"model":"deepseek-flash"},"summary_text_raw":"苏丹共和国（阿拉伯语：جمهورية السودان；Republic of the Sudan），通称苏丹（阿拉伯语：السودان，罗马化：Sūdān，/suːˈdɑːn/或/suːˈdæn/），南苏丹独立后亦被称为北苏丹，是位于东北非的国家，东接厄立特里亚和埃塞俄比亚，南邻南苏丹，西连乍得和中非共和国，北毗埃及和利比亚，东北濒临红海。根据2024年估计，苏丹人口约5,000万，国土面积1,886,068平方公里，为非洲面积第三大国，首都及最大城市为喀土穆。\n苏丹地区拥有悠久的历史，可追溯至旧石器时代的科尔穆桑文化（约公元前40,000—16,000年）和哈尔法文化（约公元前20,500—17,000年）。公元前2500年左右，库施王国在此兴起，后来被新王国时期的埃及征服。公元前785年，库施王国重新独立，并统治该地区近千年。到了公元前751年，库施国王皮耶在埃及底比斯加冕为埃及法老，于埃及建立努比亚王朝。\n4世纪，努比亚地区形成基督教王国诺巴提亚、马库里亚和阿勒底亚。14至15世纪，阿拉伯游牧民族逐渐迁入，伊斯兰化和阿拉伯化进程加速。","history_text":"苏丹地区的历史可追溯至旧石器时代的科尔穆桑文化与哈尔法文化，公元前2500年左右库施王国在此兴起，后被新王国时期的埃及征服，公元前785年重新独立并统治近千年，公元前751年库施国王皮耶在埃及底比斯加冕为法老，建立努比亚王朝。4世纪努比亚地区形成诺巴提亚、马库里亚和阿勒底亚三个基督教王国，14至15世纪阿拉伯游牧民族逐渐迁入，伊斯兰化和阿拉伯化进程加速。","custom_text":"苏丹人的日常饮食以高粱面为主，家庭常将高粱粉加水揉成团，配炖豆或肉汁食用；待客时煮浓咖啡，用小杯分斟，佐以香料。婚礼上亲友击鼓唱歌，新娘双手涂指甲花，宾客围坐共享大锅饭。北部村落沿尼罗河而居，用棕榈叶编席、陶罐储水，节庆时男子跳棍舞，妇女以拍手和吆喝应和。","custom_text_source":{"source":"llm_compose_from_summary_facets","tier":"minor","note":"模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用","chars":{"history":178,"folk":128}},"knowledge_qa":[{"q":"苏丹在哪儿啊？周围都是些什么国家？","a":"苏丹位于东北非，东接厄立特里亚和埃塞俄比亚，南邻南苏丹，西连乍得和中非共和国，北毗埃及和利比亚，东北濒临红海。","tags":["苏丹位置","非洲东北","邻国"]},{"q":"苏丹的首都是哪里？","a":"首都及最大城市是喀土穆。","tags":["首都","喀土穆"]},{"q":"苏丹面积有多大？","a":"国土面积1,886,068平方公里，是非洲面积第三大国。","tags":["面积","非洲第三"]},{"q":"苏丹人说什么语言？","a":"官方语言是阿拉伯语和英语。","tags":["语言","阿拉伯语","英语"]},{"q":"苏丹有什么值得看的地标或景点？","a":"有麦罗埃金字塔、博尔戈尔山、纳卡龙加礼拜堂、苏丹国家博物馆，还有尼罗河与青白尼罗河交汇处。","tags":["地标","金字塔","博物馆","尼罗河"]},{"q":"苏丹有什么历史遗迹推荐？","a":"麦罗埃金字塔和博尔戈尔山都是著名的历史遗迹，纳卡龙加礼拜堂也值得一看。","tags":["历史遗迹","金字塔","博尔戈尔山"]},{"q":"苏丹人口大概多少？","a":"根据2024年估计，苏丹人口约5,000万。","tags":["人口","5000万"]}],"llm_audit":{"issues":[],"overall":"pass"},"audio_meta":{},"outline":[[[2286,1092],[2295,1125],[2292,1140],[2277,1140],[2254,1163],[2261,1206],[2246,1203],[2248,1216],[2237,1246],[2245,1261],[2220,1274],[2211,1265],[2194,1264],[2181,1279],[2196,1310],[2227,1334],[2208,1378],[2222,1396],[2255,1414],[2243,1426],[2236,1454],[2268,1469],[2266,1486],[2296,1520],[2291,1554],[2310,1570],[2398,1572],[2398,2000],[2498,2000],[2498,2200],[3125,2199],[3142,2223],[3149,2217],[3144,2200],[3318,2200],[3356,2171],[3400,2177],[3408,2200],[3688,2200],[3689,2165],[3731,2106],[3725,2101],[3723,2113],[3710,2121],[3709,2104],[3723,2056],[3717,2035],[3724,1957],[3743,1886],[3754,1872],[3767,1874],[3776,1863],[3793,1858],[3812,1841],[3808,1835],[3815,1825],[3831,1831],[3822,1822],[3839,1822],[3860,1800],[3823,1753],[3812,1755],[3808,1748],[3804,1755],[3750,1731],[3740,1703],[3697,1706],[3700,1684],[3688,1653],[3695,1628],[3667,1572],[3663,1545],[3642,1513],[3653,1426],[3639,1360],[3614,1303],[3612,1272],[3568,1266],[3532,1202],[3507,1182],[3507,1155],[3494,1125],[3495,1087],[3484,1073],[3475,1068],[3458,1088],[3428,1057],[3433,1022],[3407,946],[3388,950],[3397,986],[3392,1018],[3338,1065],[3314,1074],[3308,1160],[3321,1221],[3273,1222],[3275,1200],[3208,1200],[3235,1170],[3235,1131],[3243,1108],[3194,1066],[3166,1021],[3116,976],[3076,972],[3001,1027],[2962,1006],[2961,991],[2948,976],[2891,953],[2884,932],[2804,933],[2790,960],[2708,961],[2663,948],[2590,1018],[2583,1042],[2508,1029],[2498,997],[2480,982],[2479,952],[2468,937],[2456,889],[2411,868],[2349,873],[2357,898],[2344,902],[2347,917],[2363,928],[2364,986],[2329,1044],[2286,1092]],[[3726,2086],[3728,2083],[3727,2077],[3726,2075],[3725,2075],[3724,2080],[3726,2086]]]}
+{
+  "qid": "Q1049",
+  "iso_a2": "SD",
+  "iso_a3": "SDN",
+  "name_zh": "苏丹",
+  "name_en": "Sudan",
+  "capital": "喀土穆",
+  "continent": "非洲",
+  "centroid": [
+    32,
+    15
+  ],
+  "centroid_source": "wikidata P625",
+  "languages": [
+    {
+      "code": "ar",
+      "name_zh": "阿拉伯语",
+      "name_local": "阿拉伯语",
+      "role": "official",
+      "audio_url": "assets/sd/audio/ar.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "أهلاً بكم في السودان، حيث يلتقي النيلان عند العاصمة الخرطوم، ومنها تنطلقون لاكتشاف أهرامات مروي التي تشهد على حضارة عريقة.",
+      "tts_text_zh": "欢迎来到苏丹，两尼罗河在首都喀土穆交汇，从这里出发去探访见证古老文明的麦罗埃金字塔。",
+      "audio_voice": "ar-DZ-AminaNeural",
+      "audio_bytes": 72864
+    },
+    {
+      "code": "en",
+      "name_zh": "英语",
+      "name_local": "英语",
+      "role": "official",
+      "audio_url": "assets/sd/audio/en.mp3",
+      "audio_source": "tts_edge",
+      "audio_status": "ok",
+      "tts_text": "Welcome to Sudan, where the two Niles meet at the capital, Khartoum, and from there you may set out to discover the pyramids of Meroë, standing as witnesses to an ancient civilization.",
+      "tts_text_zh": "欢迎来到苏丹，两尼罗河在首都喀土穆交汇，从这里出发去探访见证古老文明的麦罗埃金字塔。",
+      "audio_voice": "en-US-AriaNeural",
+      "audio_bytes": 66960
+    }
+  ],
+  "summary_text": "苏丹共和国通称苏丹，南苏丹独立后亦被称为北苏丹，是位于东北非的国家。苏丹东接厄立特里亚和埃塞俄比亚，南邻南苏丹，西连乍得和中非共和国，北毗埃及和利比亚，东北濒临红海。根据2024年估计，苏丹人口约5,000万，国土面积1,886,068平方公里，为非洲面积第三大国。苏丹地区拥有悠久的历史，可追溯至旧石器时代的科尔穆桑文化和哈尔法文化。公元前2500年左右，库施王国在此兴起，后来被新王国时期的埃及征服。公元前785年，库施王国重新独立，并统治该地区近千年。到了公元前751年，库施国王皮耶在埃及底比斯加冕为埃及法老，于埃及建立努比亚王朝。4世纪，努比亚地区形成基督教王国诺巴提亚、马库里亚和阿勒底亚。14至15世纪，阿拉伯游牧民族逐渐迁入，伊斯兰化和阿拉伯化进程加速。苏丹首都及最大城市为喀土穆。",
+  "summary_source": {
+    "source": "llm_refined",
+    "note": "DeepSeek 基于 Wikipedia 导语 + 人工民俗文本重写；口径限定地理与文化，剔除政权更迭与战争史",
+    "chars": 349,
+    "derived_from": "wikipedia_extracts",
+    "url": "https://zh.wikipedia.org/wiki/%E8%8B%8F%E4%B8%B9",
+    "title": "苏丹"
+  },
+  "culture_excerpts": [
+    {
+      "section": "历史",
+      "text": "1876年，戈登任整个苏丹的总督。他在苏丹的六年间，致力于打击奴隶贸易。1880年，戈登递交辞呈，离开苏丹。在他的继任拉乌夫治下，苏丹的奴隶贸易又恢复过去的规模。1883年11月，反抗军集中4万多优势兵力，一举歼灭英军1万多人。英国重新起用戈登，戈登再次回到苏丹。1884年2月18日，戈登抵达喀土穆。一个月后，马赫迪军队完成对喀土穆的包围。1885年1月26日，反抗军攻陷首都喀土穆，杀死戈登。1896年6月，英国殖民军队再次向苏丹发动进攻。1898年4月，首都喀土穆陷落，英国重新占领苏丹。阿卜杜拉率残部退守科尔多凡省，直至战死。9月英军在恩图曼战役中获胜。1945年底，苏丹民族党成立，主张通过与英国协商获得独立。1948年，苏丹人民抵制殖民当局所组织的立法会议选举。工人不断展开大规模罢工。1950年11月苏丹工会联合会宣告成立。1951年10月埃及宣布废除1899年英埃共管苏丹协定，苏丹人民示威游行，要求英国撤军和苏丹独立。1954年1月民主统一党在议会选举中获胜，组成苏丹民族政府。1985年4月6日，达哈卜将军发动军事政变推翻尼迈里政权，成立苏丹过渡军事委员会。1985年12月15日，苏丹过渡政权将国名改为“苏丹共和国”。1993年10月，救国革命指挥委员会解散，巴希尔改任总统，废除总理职务，实行总统制。1996年3月，巴希尔连任总统。2011年1月9日举行南苏丹独立公投，98.83%有效票赞成独立。2011年7月9日，南苏丹正式独立，成为一个新的主权国家。原面积约250万平方公里、曾为非洲面积第一大国的苏丹，在南苏丹独立后，苏丹共和国面积已缩减至188万余平方公里，也变成为非洲面积第三大的国家维持至今。2019年4月11日，苏丹发生政变，副总统兼国防部长艾哈迈德·阿瓦德·伊本·奥夫逮捕总统巴希尔，巴希尔随后请辞，艾哈迈德·阿瓦德·伊本·奥夫同时宣布解散政府、暂停宪法，由过渡军事委员会掌权进行两年过渡期，艾哈迈德·阿瓦德·伊本·奥夫同时出任过渡军事委员会主席一职。由于示威活动仍未止，艾哈迈德·阿瓦德·伊本·奥夫于翌日辞职，由督察长阿卜杜勒·法塔赫·阿卜杜勒拉赫曼·布尔汉中将继任过渡军事委员会主席。6月3日，过渡军事委员会镇压要求军政府让出权力的示威群众，导致至少120人死亡。2019年7月之后，阿卜杜勒·法塔赫·阿卜杜勒拉赫曼·布尔汉中将继任联合主权委员会主席。在2019年苏丹军事政变接管之后，全国大会党于2019年4月11日解散。2020年，美国鉴于苏丹和以色列关系正常化，且巴希尔军事独裁政权倒台，美国决定于10月23日将苏丹从“支持恐怖主义的国家”黑名单除名，2021年12月14日，苏丹正式从支持恐怖主义的国家黑名单除名。",
+      "chars": 1134
+    },
+    {
+      "section": "教育",
+      "text": "1988年6月，苏丹共和国教育部决定取消中等和高等教育免费的规定，小学仍为免费教育。各地区教育发展很不平衡，北方教育发展较快。全国人口的64%为文盲，25%的学龄儿童不能入学。2003年全国有中、小学校13,559所，综合大学5所，专科院校11所，在校学生约497万人，其中大学生约24万人，教师约13万人。\n喀土穆大学建于1902年，是苏丹最早建立的高等学校。恩图曼伊斯兰大学建于1912年。",
+      "chars": 1200
+    }
+  ],
+  "landmark_images": [
+    {
+      "title": "File:Sudan Meroe Pyramids 30sep2005 2.jpg",
+      "caption_zh": "麦罗埃金字塔",
+      "caption": "麦罗埃金字塔",
+      "caption_commons": "Pyramids of Meroe in Sudan. In the front from left to right are the pyramids N25",
+      "kw": "Meroe Pyramids Sudan",
+      "url": "assets/sd/L01.webp",
+      "thumb_url": "assets/sd/L01.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sudan_Meroe_Pyramids_30sep2005_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "commons_search",
+      "pick_tier": "strict",
+      "author": "Fabrizio Demartis",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 57106,
+      "caption_zh_manual": "麦罗埃金字塔",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 4408,
+      "size": {
+        "detail": "1080x632",
+        "thumb": "240x140"
+      },
+      "encoding": "webp q75/q78 (源 1161x679 92KB JPEG)"
+    },
+    {
+      "title": "File:Gebel Barkal.jpg",
+      "caption_zh": "博尔戈尔山",
+      "caption": "博尔戈尔山",
+      "caption_commons": "Gebel Barkal in Nubia (Sudan)",
+      "kw": "Jebel Barkal Sudan",
+      "url": "assets/sd/L02.webp",
+      "thumb_url": "assets/sd/L02.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Gebel_Barkal.jpg/1920px-Gebel_Barkal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "wikidata_p18",
+      "pick_tier": "strict",
+      "author": "LassiHU",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 97338,
+      "caption_zh_manual": "博尔戈尔山",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6044,
+      "size": {
+        "detail": "1080x810",
+        "thumb": "240x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x1440 558KB JPEG)"
+    },
+    {
+      "title": "File:NaqaAmunTemple.jpg",
+      "caption_zh": "纳卡龙加礼拜堂",
+      "caption": "纳卡龙加礼拜堂",
+      "caption_commons": "Naqa. Temple of Amun",
+      "kw": "Naqa Temple Sudan",
+      "url": "assets/sd/L03.webp",
+      "thumb_url": "assets/sd/L03.thumb.webp",
+      "remote_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/NaqaAmunTemple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Clemens Schmillen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 106286,
+      "caption_zh_manual": "纳卡龙加礼拜堂",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 6796,
+      "size": {
+        "detail": "1024x683",
+        "thumb": "240x160"
+      },
+      "encoding": "webp q75/q78 (源 1024x683 470KB JPEG)"
+    },
+    {
+      "title": "File:Ceramics, National Museum of Sudan, Khartoum, Sudan, North-East Africa.jpg",
+      "caption_zh": "苏丹国家博物馆陶瓷",
+      "caption": "苏丹国家博物馆陶瓷",
+      "caption_commons": "Ceramics, National Museum of Sudan, Khartoum, Sudan, North-East Africa This case",
+      "kw": "National Museum of Sudan Khartoum",
+      "url": "assets/sd/L04.webp",
+      "thumb_url": "assets/sd/L04.thumb.webp",
+      "remote_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Ceramics%2C_National_Museum_of_Sudan%2C_Khartoum%2C_Sudan%2C_North-East_Africa.jpg/1920px-Ceramics%2C_National_Museum_of_Sudan%2C_Khartoum%2C_Sudan%2C_North-East_Africa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source": "article_img",
+      "pick_tier": "strict",
+      "author": "Sue Fleckney",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_status": "ok",
+      "load_verified": true,
+      "bytes": 66848,
+      "caption_zh_manual": "苏丹国家博物馆",
+      "caption_zh_source": "llm_from_commons_filename",
+      "thumb_bytes": 3754,
+      "size": {
+        "detail": "1080x1530",
+        "thumb": "127x180"
+      },
+      "encoding": "webp q75/q78 (源 1920x2720 947KB JPEG)"
+    }
+  ],
+  "image_license": "CC BY-SA 2.0",
+  "geometry_status": "naturalearth_50m_chunked",
+  "schema_version": "0.1",
+  "collected_at": "2026-10-30T21:58:45+08:00",
+  "collector": "scripts/collect.py v0.2",
+  "needs_review": true,
+  "review_notes": [
+    "P443 发音语种不符已弃用：LL-Q7913 (ron)-KlaudiuMihaila-Sudan.wav、LL-Q9610 (ben)-Tahmid-সুদান.wav、LL-Q22809485 (apc)-Hassan Hassoon-السودان.wav（P443 不保证语种，须按文件名筛）",
+    "该实体无对应语种发音，语音改跑 python scripts/tts.py SD",
+    "Commons 无可用发音，语音走构建期 TTS 兜底（待接）",
+    "地标图改为人工指定清单（5 张，中文图注）"
+  ],
+  "image_source_note": "人工按 data/landmarks.json 指定地标，Commons 关键词检索取图；原先自动获得的 1 张已被替换",
+  "custom_facets": {
+    "festivals": [],
+    "cuisine": [],
+    "religion": [
+      {
+        "v": "基督教",
+        "evidence": "努比亚地区形成基督教王国"
+      },
+      {
+        "v": "伊斯兰化",
+        "evidence": "伊斯兰化和阿拉伯化进程加速"
+      }
+    ],
+    "architecture": [],
+    "heritage": [],
+    "keywords": [
+      {
+        "v": "红海",
+        "evidence": "东北濒临红海"
+      },
+      {
+        "v": "喀土穆",
+        "evidence": "首都及最大城市为喀土穆"
+      },
+      {
+        "v": "库施王国",
+        "evidence": "库施王国在此兴起"
+      },
+      {
+        "v": "科尔穆桑文化",
+        "evidence": "旧石器时代的科尔穆桑文化"
+      },
+      {
+        "v": "努比亚王朝",
+        "evidence": "于埃及建立努比亚王朝"
+      }
+    ],
+    "model": "deepseek-flash"
+  },
+  "summary_text_raw": "苏丹共和国（阿拉伯语：جمهورية السودان；Republic of the Sudan），通称苏丹（阿拉伯语：السودان，罗马化：Sūdān，/suːˈdɑːn/或/suːˈdæn/），南苏丹独立后亦被称为北苏丹，是位于东北非的国家，东接厄立特里亚和埃塞俄比亚，南邻南苏丹，西连乍得和中非共和国，北毗埃及和利比亚，东北濒临红海。根据2024年估计，苏丹人口约5,000万，国土面积1,886,068平方公里，为非洲面积第三大国，首都及最大城市为喀土穆。\n苏丹地区拥有悠久的历史，可追溯至旧石器时代的科尔穆桑文化（约公元前40,000—16,000年）和哈尔法文化（约公元前20,500—17,000年）。公元前2500年左右，库施王国在此兴起，后来被新王国时期的埃及征服。公元前785年，库施王国重新独立，并统治该地区近千年。到了公元前751年，库施国王皮耶在埃及底比斯加冕为埃及法老，于埃及建立努比亚王朝。\n4世纪，努比亚地区形成基督教王国诺巴提亚、马库里亚和阿勒底亚。14至15世纪，阿拉伯游牧民族逐渐迁入，伊斯兰化和阿拉伯化进程加速。",
+  "history_text": "苏丹地区的历史可追溯至旧石器时代的科尔穆桑文化与哈尔法文化，公元前2500年左右库施王国在此兴起，后被新王国时期的埃及征服，公元前785年重新独立并统治近千年，公元前751年库施国王皮耶在埃及底比斯加冕为法老，建立努比亚王朝。4世纪努比亚地区形成诺巴提亚、马库里亚和阿勒底亚三个基督教王国，14至15世纪阿拉伯游牧民族逐渐迁入，伊斯兰化和阿拉伯化进程加速。",
+  "custom_text": "苏丹人的日常饮食以高粱面为主，家庭常将高粱粉加水揉成团，配炖豆或肉汁食用；待客时煮浓咖啡，用小杯分斟，佐以香料。婚礼上亲友击鼓唱歌，新娘双手涂指甲花，宾客围坐共享大锅饭。北部村落沿尼罗河而居，用棕榈叶编席、陶罐储水，节庆时男子跳棍舞，妇女以拍手和吆喝应和。",
+  "custom_text_source": {
+    "source": "llm_compose_from_summary_facets",
+    "tier": "minor",
+    "note": "模型基于维基导语 + 抽取特征成文；只在没有人工稿的国家使用",
+    "chars": {
+      "history": 178,
+      "folk": 128
+    }
+  },
+  "knowledge_qa": [
+    {
+      "q": "苏丹在哪儿啊？周围都是些什么国家？",
+      "a": "苏丹位于东北非，东接厄立特里亚和埃塞俄比亚，南邻南苏丹，西连乍得和中非共和国，北毗埃及和利比亚，东北濒临红海。",
+      "tags": [
+        "苏丹位置",
+        "非洲东北",
+        "邻国"
+      ]
+    },
+    {
+      "q": "苏丹的首都是哪里？",
+      "a": "首都及最大城市是喀土穆。",
+      "tags": [
+        "首都",
+        "喀土穆"
+      ]
+    },
+    {
+      "q": "苏丹面积有多大？",
+      "a": "国土面积1,886,068平方公里，是非洲面积第三大国。",
+      "tags": [
+        "面积",
+        "非洲第三"
+      ]
+    },
+    {
+      "q": "苏丹人说什么语言？",
+      "a": "官方语言是阿拉伯语和英语。",
+      "tags": [
+        "语言",
+        "阿拉伯语",
+        "英语"
+      ]
+    },
+    {
+      "q": "苏丹有什么值得看的地标或景点？",
+      "a": "有麦罗埃金字塔、博尔戈尔山、纳卡龙加礼拜堂、苏丹国家博物馆，还有尼罗河与青白尼罗河交汇处。",
+      "tags": [
+        "地标",
+        "金字塔",
+        "博物馆",
+        "尼罗河"
+      ]
+    },
+    {
+      "q": "苏丹有什么历史遗迹推荐？",
+      "a": "麦罗埃金字塔和博尔戈尔山都是著名的历史遗迹，纳卡龙加礼拜堂也值得一看。",
+      "tags": [
+        "历史遗迹",
+        "金字塔",
+        "博尔戈尔山"
+      ]
+    },
+    {
+      "q": "苏丹人口大概多少？",
+      "a": "根据2024年估计，苏丹人口约5,000万。",
+      "tags": [
+        "人口",
+        "5000万"
+      ]
+    }
+  ],
+  "llm_audit": {
+    "issues": [],
+    "overall": "pass"
+  },
+  "audio_meta": {},
+  "outline": [
+    [
+      [
+        2286,
+        1092
+      ],
+      [
+        2295,
+        1125
+      ],
+      [
+        2292,
+        1140
+      ],
+      [
+        2277,
+        1140
+      ],
+      [
+        2254,
+        1163
+      ],
+      [
+        2261,
+        1206
+      ],
+      [
+        2246,
+        1203
+      ],
+      [
+        2248,
+        1216
+      ],
+      [
+        2237,
+        1246
+      ],
+      [
+        2245,
+        1261
+      ],
+      [
+        2220,
+        1274
+      ],
+      [
+        2211,
+        1265
+      ],
+      [
+        2194,
+        1264
+      ],
+      [
+        2181,
+        1279
+      ],
+      [
+        2196,
+        1310
+      ],
+      [
+        2227,
+        1334
+      ],
+      [
+        2208,
+        1378
+      ],
+      [
+        2222,
+        1396
+      ],
+      [
+        2255,
+        1414
+      ],
+      [
+        2243,
+        1426
+      ],
+      [
+        2236,
+        1454
+      ],
+      [
+        2268,
+        1469
+      ],
+      [
+        2266,
+        1486
+      ],
+      [
+        2296,
+        1520
+      ],
+      [
+        2291,
+        1554
+      ],
+      [
+        2310,
+        1570
+      ],
+      [
+        2398,
+        1572
+      ],
+      [
+        2398,
+        2000
+      ],
+      [
+        2498,
+        2000
+      ],
+      [
+        2498,
+        2200
+      ],
+      [
+        3125,
+        2199
+      ],
+      [
+        3142,
+        2223
+      ],
+      [
+        3149,
+        2217
+      ],
+      [
+        3144,
+        2200
+      ],
+      [
+        3318,
+        2200
+      ],
+      [
+        3356,
+        2171
+      ],
+      [
+        3400,
+        2177
+      ],
+      [
+        3408,
+        2200
+      ],
+      [
+        3688,
+        2200
+      ],
+      [
+        3689,
+        2165
+      ],
+      [
+        3731,
+        2106
+      ],
+      [
+        3725,
+        2101
+      ],
+      [
+        3723,
+        2113
+      ],
+      [
+        3710,
+        2121
+      ],
+      [
+        3709,
+        2104
+      ],
+      [
+        3723,
+        2056
+      ],
+      [
+        3717,
+        2035
+      ],
+      [
+        3724,
+        1957
+      ],
+      [
+        3743,
+        1886
+      ],
+      [
+        3754,
+        1872
+      ],
+      [
+        3767,
+        1874
+      ],
+      [
+        3776,
+        1863
+      ],
+      [
+        3793,
+        1858
+      ],
+      [
+        3812,
+        1841
+      ],
+      [
+        3808,
+        1835
+      ],
+      [
+        3815,
+        1825
+      ],
+      [
+        3831,
+        1831
+      ],
+      [
+        3822,
+        1822
+      ],
+      [
+        3839,
+        1822
+      ],
+      [
+        3860,
+        1800
+      ],
+      [
+        3823,
+        1753
+      ],
+      [
+        3812,
+        1755
+      ],
+      [
+        3808,
+        1748
+      ],
+      [
+        3804,
+        1755
+      ],
+      [
+        3750,
+        1731
+      ],
+      [
+        3740,
+        1703
+      ],
+      [
+        3697,
+        1706
+      ],
+      [
+        3700,
+        1684
+      ],
+      [
+        3688,
+        1653
+      ],
+      [
+        3695,
+        1628
+      ],
+      [
+        3667,
+        1572
+      ],
+      [
+        3663,
+        1545
+      ],
+      [
+        3642,
+        1513
+      ],
+      [
+        3653,
+        1426
+      ],
+      [
+        3639,
+        1360
+      ],
+      [
+        3614,
+        1303
+      ],
+      [
+        3612,
+        1272
+      ],
+      [
+        3568,
+        1266
+      ],
+      [
+        3532,
+        1202
+      ],
+      [
+        3507,
+        1182
+      ],
+      [
+        3507,
+        1155
+      ],
+      [
+        3494,
+        1125
+      ],
+      [
+        3495,
+        1087
+      ],
+      [
+        3484,
+        1073
+      ],
+      [
+        3475,
+        1068
+      ],
+      [
+        3458,
+        1088
+      ],
+      [
+        3428,
+        1057
+      ],
+      [
+        3433,
+        1022
+      ],
+      [
+        3407,
+        946
+      ],
+      [
+        3388,
+        950
+      ],
+      [
+        3397,
+        986
+      ],
+      [
+        3392,
+        1018
+      ],
+      [
+        3338,
+        1065
+      ],
+      [
+        3314,
+        1074
+      ],
+      [
+        3308,
+        1160
+      ],
+      [
+        3321,
+        1221
+      ],
+      [
+        3273,
+        1222
+      ],
+      [
+        3275,
+        1200
+      ],
+      [
+        3208,
+        1200
+      ],
+      [
+        3235,
+        1170
+      ],
+      [
+        3235,
+        1131
+      ],
+      [
+        3243,
+        1108
+      ],
+      [
+        3194,
+        1066
+      ],
+      [
+        3166,
+        1021
+      ],
+      [
+        3116,
+        976
+      ],
+      [
+        3076,
+        972
+      ],
+      [
+        3001,
+        1027
+      ],
+      [
+        2962,
+        1006
+      ],
+      [
+        2961,
+        991
+      ],
+      [
+        2948,
+        976
+      ],
+      [
+        2891,
+        953
+      ],
+      [
+        2884,
+        932
+      ],
+      [
+        2804,
+        933
+      ],
+      [
+        2790,
+        960
+      ],
+      [
+        2708,
+        961
+      ],
+      [
+        2663,
+        948
+      ],
+      [
+        2590,
+        1018
+      ],
+      [
+        2583,
+        1042
+      ],
+      [
+        2508,
+        1029
+      ],
+      [
+        2498,
+        997
+      ],
+      [
+        2480,
+        982
+      ],
+      [
+        2479,
+        952
+      ],
+      [
+        2468,
+        937
+      ],
+      [
+        2456,
+        889
+      ],
+      [
+        2411,
+        868
+      ],
+      [
+        2349,
+        873
+      ],
+      [
+        2357,
+        898
+      ],
+      [
+        2344,
+        902
+      ],
+      [
+        2347,
+        917
+      ],
+      [
+        2363,
+        928
+      ],
+      [
+        2364,
+        986
+      ],
+      [
+        2329,
+        1044
+      ],
+      [
+        2286,
+        1092
+      ]
+    ],
+    [
+      [
+        3726,
+        2086
+      ],
+      [
+        3728,
+        2083
+      ],
+      [
+        3727,
+        2077
+      ],
+      [
+        3726,
+        2075
+      ],
+      [
+        3725,
+        2075
+      ],
+      [
+        3724,
+        2080
+      ],
+      [
+        3726,
+        2086
+      ]
+    ]
+  ]
+}

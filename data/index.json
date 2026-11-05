@@ -3217,7 +3217,7 @@
         35.7667,
         33.8333
       ],
-      "thumb": "assets/lb/L01.thumb.webp",
+      "thumb": "assets/lb/L07.thumb.webp",
       "modalities": {
         "image": true,
         "audio": true,
@@ -4579,7 +4579,7 @@
         51.2128,
         25.2695
       ],
-      "thumb": "assets/qa/L01.thumb.webp",
+      "thumb": "assets/qa/L07.thumb.webp",
       "modalities": {
         "image": true,
         "audio": true,
@@ -5461,7 +5461,7 @@
         178.0056,
         -7.475
       ],
-      "thumb": "assets/tv/L03.thumb.webp",
+      "thumb": "assets/tv/L04.thumb.webp",
       "modalities": {
         "image": true,
         "audio": true,

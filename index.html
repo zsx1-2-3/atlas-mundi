@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-05-AY">
+<meta name="build" content="2026-11-07-AA">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
 <title>寰宇图志 · Atlas Mundi</title>
-<meta name="description" content="寰宇图志：3D 地球上的多模态国家文化图谱。全球 200 多个国家与地区均有基础档案，多模态档案逐国推进。">
+<meta name="description" content="寰宇图志：3D 地球上的多模态国家文化图谱。覆盖 236 个国家与地区、1071 张地标影像，含语言、地理与人文档案，纯静态网页。">
 <!-- 寰宇图志 · Atlas Mundi · zzq1419/atlas-mundi
      数据、图片与文字的来源和授权记录在 data/{iso}.json 的 sources[] 与
      landmark_images[].license 里，转载时请一并保留。 -->
@@ -2271,7 +2271,7 @@ body.panel-open #globe-stage{
     var key = String(iso).toUpperCase();
 
     /* ---------- 主路径：全部档案已经在内存里 ----------
-       cards.json 把 235 国的面板文字合成一份（走 OBS，约 0.5 秒下完，首屏之后
+       cards.json 把 236 国的面板文字合成一份（走 OBS，约 0.5 秒下完，首屏之后
        空闲时加载）。点开时直接拿对象渲染，标题、首都、大洲、坐标、正文、
        文化特征、语音、图片清单一上进位 —— 版面一次到位，不存在"先摆一半
        再改"的位置跳动。
@@ -2283,7 +2283,7 @@ body.panel-open #globe-stage{
       renderDetail(card, true);          // 里面会设 panelT0、标题、建好整棵树
       openPanel();
       if (typeof flyToCountry === 'function') flyToCountry(iso);
-      /* 卡片里不带 outline（235 份合计 446KB，不值当）。它只用来在球面上
+      /* 卡片里不带 outline（236 份合计 446KB，不值当）。它只用来在球面上
          先画一条粗线，等精细几何到了再覆盖 —— 静默补一次，不碰面板 DOM。 */
       fetchAny('data/' + iso.toLowerCase() + '.json',
                DETAIL_ABORT ? { signal: DETAIL_ABORT.signal } : undefined)
@@ -2332,7 +2332,7 @@ body.panel-open #globe-stage{
      点地名时用它决定"开自己的，还是开归属国的"。 */
   var HAS_DOC = {};
 
-  /* ---------- 全量卡片：235 国面板文字合并成一份 ----------
+  /* ---------- 全量卡片：236 国面板文字合并成一份 ----------
      同源一个请求有 1.2 秒固定延迟（实测 data/fr.json 31KB 也要 1.27 秒），
      所以逐份取档案时，"点过的国家秒出、没点过的空白半天"。把面板要用的
      字段全合并成 data/cards.json，首屏之后空闲时取一次，之后就都在内存里。

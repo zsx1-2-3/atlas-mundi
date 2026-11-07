@@ -392,6 +392,12 @@
   .dmeta{display:grid;grid-template-columns:auto 1fr;gap:9px 18px;font-size:13px;margin-bottom:20px}
   .dmeta dt{color:var(--ink-faint);letter-spacing:.06em;white-space:nowrap}
   .dmeta dd{color:var(--ink);font-variant-numeric:tabular-nums}
+ /* 命中词高亮：一段里常常只有半句话跟点的词有关，标出来才知道落点。 */
+ .hit-word{
+   background:rgba(216,178,106,.30);
+   border-radius:2px;
+   box-shadow:0 0 0 2px rgba(216,178,106,.24);
+ }
 
   /* 正文提一档字重：中文黑体在深底上 400 偏细 */
   .dtext p{font-size:14.5px;line-height:2;color:#dde5f3;margin-bottom:12px;font-weight:500;
@@ -935,27 +941,7 @@ body.panel-open #globe-stage{
 #q::-webkit-search-cancel-button,
 #q::-webkit-search-decoration{-webkit-appearance:none;display:none}
 
-/* 展开后才出现的下拉按钮：国家列表由用户自己点开 */
-.search-drop{
-  flex:0 0 auto;width:0;height:22px;margin-right:0;padding:0;
-  opacity:0;pointer-events:none;overflow:hidden;
-  transition:width .2s ease,opacity .2s ease,background .2s ease,border-color .2s ease;
-  display:flex;align-items:center;justify-content:center;
-  border-radius:50%;cursor:pointer;
-  background:transparent;border:1px solid transparent;
-}
-.search-wrap.open .search-drop{
-  width:22px;margin-right:4px;opacity:.9;pointer-events:auto;
-}
-.search-drop svg{
-  width:11px;height:11px;
-  fill:none;stroke:rgba(184,210,242,.95);
-  stroke-width:2;stroke-linecap:round;stroke-linejoin:round;
-  transition:transform .3s cubic-bezier(.2,.9,.25,1);
-}
-.search-drop:hover{opacity:1;border-color:rgba(150,185,230,.42);background:rgba(150,185,230,.1)}
-.search-wrap.list-open .search-drop{opacity:1}
-.search-wrap.list-open .search-drop svg{transform:rotate(180deg)}
+/* 下拉按钮已移除：点搜索框直接列出全部国家。 */
 
 /* 结果区 = 卡片的下半截。紧贴输入行（top:100%，不再留缝），
    只保留下半圆角，上沿靠一道 1px 内线当分隔 —— 拼起来是同一张卡片。
@@ -1271,6 +1257,31 @@ body.panel-open #globe-stage{
               0 1px 3px rgba(0,0,0,.95),0 0 12px rgba(120,170,235,.5);
 }
 .mlabel.mk:hover{color:#cfe6ff}
+
+/* ===== Canvas 标签模式 =====
+   DOM 标签只负责三件事：提供文字宽度（避让算矩形用）、接收点击、被命中测试。
+   文字本身不再由浏览器渲染，改成统一画到一张 canvas 上 ——
+   逐字做 DOM 合成时，文字纹理在亚像素位置被反复插值采样，144Hz 下看起来就是
+   地名在闪；改成 canvas 每帧直接光栅化到屏幕，没有这层插值。
+   文字隐藏用 color:transparent 而不是 display:none —— 后者会让宽度变 0，
+   避让和点击区域一起失效。
+   挂在 body.labels-canvas 下而不是直接写死：canvas 拿不到 2d 上下文时
+   会自动摘掉这个 class，回退成原来的 DOM 文字，不至于整个地名层消失。
+
+   选择器必须写成 #globe-stage #labels-canvas（两个 id）：原站有一条
+   #globe-stage canvas{ opacity:0; ... }（给 three.js 的 WebGL canvas 做淡入用，
+   加 .ready 才显形），它用的是**元素选择器**，会把这张标签画布一起匹配 ——
+   结果是 canvas 建好了、内容也画了，但 opacity 恒为 0，什么都看不见。
+   #globe-stage canvas 的优先级是 (1,0,1)，单写 #labels-canvas 只有 (1,0,0)，
+   压不过它；写成 #globe-stage #labels-canvas 是 (2,0,0)，才盖得住。 */
+body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!important;text-shadow:none!important;}
+#globe-stage #labels-canvas{
+  position:absolute;left:0;top:0;z-index:10;
+  pointer-events:none;
+  opacity:1!important;
+  transition:none!important;
+  width:auto;height:auto;
+}
 
 /* ============ 左下角工具条 ============
    原来每个按钮各是一个 42px 的圆环，描边 rgba(126,158,198,.18) 实测对比度只有
@@ -1743,8 +1754,8 @@ body.panel-open #globe-stage{
     <img class="brand-logo" src="assets/logo.png" alt="" width="28" height="28">
     <span class="brand-cn">寰宇图志</span>
   </div>
-  <!-- 搜索：默认就是一个短输入框，点一下（或聚焦）展开变长。
-       展开后才在右端出现下拉按钮 —— 国家列表要用户自己点，不再一点搜索就糊一脸。 -->
+  <!-- 搜索：默认是一个短输入框，点一下（或键盘聚焦）展开变长，同时直接列出全部国家。
+       不设下拉按钮：点框即出列表，要搜索直接在展开的框里打字。 -->
   <div class="search-wrap" id="search-wrap">
     <div class="search-panel" id="search-panel">
       <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -1760,11 +1771,7 @@ body.panel-open #globe-stage{
           <line x1="17" y1="7" x2="7" y2="17"></line>
         </svg>
       </button>
-      <button class="search-drop" id="search-drop" type="button" aria-label="展开国家列表">
-        <svg viewBox="0 0 24 24" aria-hidden="true">
-          <polyline points="6 9.5 12 15.5 18 9.5"></polyline>
-        </svg>
-      </button>
+
     </div>
     <div class="search-res" id="q-res" hidden></div>
   </div>
@@ -2835,6 +2842,7 @@ body.panel-open #globe-stage{
         : 'Natural Earth 10m · 分片几何']
     ].forEach(function (p) {
       var dd = el('dd', null, p[1]);
+      dd.setAttribute('data-k', p[0]);   /* 定位时把键名算进主题 */
       if (p[0] === '边界') {
         /* 常被当成"边界画偏了"的那段：江苏外海在 2004 年的卫星图上是一大片
            含沙浑水（长江、旧黄河口），颜色和岸上的土一样。国界是矢量、按测绘
@@ -3247,6 +3255,132 @@ body.panel-open #globe-stage{
   var qRes = document.getElementById('q-res');
   var qSub = document.getElementById('search-sub');
 
+  /* ---------- 首都 → 国家 ----------
+     搜「罗马」时，索引只会命中「罗马尼亚」（它的名字里就含这两个字），
+     意大利一条都不出 —— 意大利的条目里根本没有"罗马"这三个字。
+     可用户敲的是一个首都名，想找的就是那个国家。这里建一张首都表：
+     输入正好等于某国首都时，把那个国家顶到第一条（结果里没有就补一条）。 */
+  var CAP_ISO = null;
+  /* 单独一份 8KB 的首都表（iso → [国名, 首都]）。
+     cards.json 有 950KB，本地 http.server 是单线程、还要和贴图抢带宽，
+     经常七八秒才到 —— 那之前搜「罗马」只有罗马尼亚。首都表首屏就到。 */
+  var CAP_MINI = null;
+
+  function buildCapitalIndex() {
+    if (CAP_ISO) return;
+    if (CAP_MINI) {
+      CAP_ISO = {};
+      Object.keys(CAP_MINI).forEach(function (iso) {
+        var cap = String((CAP_MINI[iso] || [])[1] || '').trim();
+        /* 首都重名不止一处（圣乔治、维多利亚…）：只认第一个，
+           后面的国家仍可以靠自己的国名搜到，不会丢。 */
+        if (cap && !CAP_ISO[cap]) CAP_ISO[cap] = String(iso).toUpperCase();
+      });
+      return;
+    }
+    if (!CARDS) return;
+    CAP_ISO = {};
+    Object.keys(CARDS).forEach(function (iso) {
+      var cap = String((CARDS[iso] || {}).capital || '').trim();
+      if (!cap || cap === '—' || cap.length < 2) return;
+      if (!CAP_ISO[cap]) CAP_ISO[cap] = String(iso).toUpperCase();
+    });
+  }
+
+  function loadCapitals() {
+    fetchAny('data/capitals.json')
+      .then(function (d) {
+        if (!d) return;
+        CAP_MINI = d;
+        CAP_ISO = null;            // 重量表优先，用 CARDS 建的那份让位
+        buildCapitalIndex();
+        /* 首都表比用户慢到时补一次重绘：那一秒列表里还只有罗马尼亚 */
+        if (qRes && !qRes.hidden && !searchWrap.classList.contains('list-open') &&
+            performance.now() >= qFreezeUntil) {
+          var cur = qInput ? qInput.value.trim() : '';
+          if (cur) renderResults(cur);
+        }
+      })
+      .catch(function () { /* 拿不到就退回 cards.json 里那份 */ });
+  }
+
+  function capitalIsoOf(q) {
+    buildCapitalIndex();
+    if (!CAP_ISO) return null;
+    var k = String(q || '').trim().replace(/[\s，,。.、？！?!·:：]/g, '');
+    if (k.length < 2 || k.length > 10) return null;
+    return CAP_ISO[k] || null;
+  }
+
+  function boostByCapital(q, hits) {
+    var iso = capitalIsoOf(q);
+    if (!iso) return hits;
+    var i, at = -1;
+    for (i = 0; i < hits.length; i++) {
+      if (String((hits[i][0] || {}).iso || '').toUpperCase() === iso) { at = i; break; }
+    }
+    if (at === 0) return hits;
+    if (at > 0) { hits.unshift(hits.splice(at, 1)[0]); return hits; }
+
+    /* 结果里压根没有这个国家 —— 补一条。左列会显示「意大利 · 首都 · 罗马」，
+       点进去开意大利的档案；右栏的相关搜索也会跟着变成国家名。 */
+    var c = CARDS && CARDS[iso];
+    var nm = (c && c.name_zh) ||
+             ((LABEL_META && LABEL_META[iso]) ? LABEL_META[iso].n : '');
+    if (!nm) return hits;
+    var capName = String(q || '').trim();
+    hits.unshift([{
+      id: 'cap-' + iso,
+      iso: iso,
+      name: nm,
+      kind: 'country',
+      q: '首都 · ' + capName,
+      a: '首都 · ' + capName,
+      noTag: true,
+      index_text: nm
+    }, hits.length ? hits[0][1] : 1]);
+    return hits;
+  }
+
+  /* 问题里点了名的国家，它**得分最高的那条问答**提到第一位，其余不动。
+     长问句里"产业""发展"这类散词能把别的国家顶上来，但用户开口就写了国名，
+     那才是他要找的。只提一条：把该国的条目全部前移会打乱相关性排序，
+     而"某某的国家基础条目"提到第一位又会变成"点了只开卡不定位"。 */
+  function boostByCountry(q, hits) {
+    /* 短查询不参与："中国美食"这种本来就是关键词检索，
+       把"该国得分最高的一条"提上来反而会把最相关的挤掉。 */
+    if (String(q || '').length < 10) return hits;
+    var c = findCountryInQuery(q);
+    if (!c) return hits;
+    var iso = String(c.iso || '').toUpperCase();
+    var at = -1;
+    for (var i = 0; i < hits.length; i++) {
+      var d = (hits[i] && hits[i][0]) || {};
+      if (String(d.iso || '').toUpperCase() === iso && d.kind !== 'country') { at = i; break; }
+    }
+    if (at > 0) hits.unshift(hits.splice(at, 1)[0]);
+    return hits;
+  }
+
+  /* 列表项按下时冻结 400ms 重绘：输入法候选词会触发 input 事件，
+     180ms 防抖后的重建可能正好落在"按下"与"松开"之间，被点的元素被移出
+     DOM，click 就永远不派发（表现为"偶尔点了没反应"）。冻结窗口里被挡下的
+     查询记进 qPending，解冻后补一次重绘，避免列表停在旧内容。 */
+  var qFreezeUntil = 0;
+  var qPending = null;
+  if (qRes) {
+    qRes.addEventListener('pointerdown', function () {
+      qFreezeUntil = performance.now() + 400;
+      setTimeout(function () {
+        if (qPending !== null && performance.now() >= qFreezeUntil) {
+          var q = qPending;
+          qPending = null;
+          renderResults(q);
+        }
+      }, 420);
+    }, { passive: true });
+  }
+
   function tokenize(text) {
     var s = String(text || '').toLowerCase();
     var toks = [], buf = '', mode = null;
@@ -3302,11 +3436,17 @@ body.panel-open #globe-stage{
   var MIN_SCORE = 1.5;   // 绝对阈值：低于此分视为噪声（实测「日本有什么」最高只有 1.74）
   var REL_RATIO = 0.35;  // 相对阈值：只保留最高分的 35% 以上
 
-  function bm25(q, topk) {
+    function bm25(q, topk) {
     if (!IDX) return [];
-    var k1 = 1.5, b = 0.75, score = {};
+    var k1 = 1.5, b = 0.75, score = {}, hit = {};
+    /* 查询词先去重：同一个二元组出现两次不该把分算两遍。
+       qn = 这一句里到底有几个不同的词，用来算"这篇命中了多少"。 */
+    var qset = {}, qn = 0;
     tokenize(q).forEach(function (t) {
-      if (STOP[t]) return;
+      if (STOP[t] || qset[t]) return;
+      qset[t] = 1; qn++;
+    });
+    Object.keys(qset).forEach(function (t) {
       var pl = IDX.postings[t];
       if (!pl) return;
       var n = IDX.df[t] || 0;
@@ -3315,10 +3455,23 @@ body.panel-open #globe-stage{
         var tf = pl[i], dl = IDX.lens[i];
         score[i] = (score[i] || 0) +
           idf * (tf * (k1 + 1)) / (tf + k1 * (1 - b + b * dl / IDX.avgdl));
+        hit[i] = (hit[i] || 0) + 1;
       }
     });
     var arr = [];
-    for (var i in score) { if (score[i] > MIN_SCORE) arr.push([IDX.docs[i], score[i]]); }
+    for (var i in score) {
+      /* 覆盖率因子：这句里有多少个不同的词在这篇里出现。
+         BM25 是"任一命中就加分"，长问句里散落的几个稀有词会把不相干的文档
+         顶上来 —— 实测「沙特阿拉伯现在的发展情况怎么样？…主要靠什么产业？」
+         排第一的是美属维尔京群岛，就因为"产业""发展"那几个词在那篇里也出现。
+         乘上覆盖率，只中一两个词的文档直接被压下去。 */
+      /* 只在长查询上生效：3~4 个词的短查询本来就是关键词检索，
+         用它反而会把最相关的那条压下去（中国美食的第一条会变成
+         中国说什么话）。 */
+      var cov = qn >= 5 ? (hit[i] || 0) / qn : 1;
+      var s = score[i] * (0.45 + 0.55 * cov);
+      if (s > MIN_SCORE) arr.push([IDX.docs[i], s]);
+    }
     arr.sort(function (a, b) { return b[1] - a[1]; });
     if (!arr.length) return [];
     var floor = arr[0][1] * REL_RATIO;
@@ -3354,7 +3507,9 @@ body.panel-open #globe-stage{
   }
 
   function renderResults(q) {
-    var hits = bm25(q, 5);
+    if (performance.now() < qFreezeUntil) { qPending = q; return; }
+    qPending = null;
+    var hits = boostByCapital(q, boostByCountry(q, bm25(q, 5)));
     qRes.innerHTML = '';
     qRes.hidden = false;
     /* 行都塞进 .sr-list，这样底部的说明行能钉在卡片下沿不动 */
@@ -3376,7 +3531,7 @@ body.panel-open #globe-stage{
       item.appendChild(srIcon(isCountry ? 'country' : 'doc'));
       var txt = el('div', 'sr-txt');
       var nm = el('div', 'sr-name', isCountry ? (d.name || '') : (d.q || d.name || ''));
-      if (isCountry) nm.appendChild(el('span', 'sr-tag', '基础'));
+      if (isCountry && !d.noTag) nm.appendChild(el('span', 'sr-tag', '基础'));
       txt.appendChild(nm);
       var sub = d.a || '';
       if (sub) txt.appendChild(el('div', 'sr-sub', sub));
@@ -3392,16 +3547,7 @@ body.panel-open #globe-stage{
       item.addEventListener('click', function () {
         /* 地区归属统一走 targetIso：港澳台→中国，但**有自己档案的地区
            （新喀、南乔治亚、法属波利尼西亚……）不再被跳去主权国。 */
-        var sTgt = targetIso(d.iso);
-        openDetail(sTgt, cardOf(sTgt), false);
-        setSearch(false);              // 选中即收起，视线回到地球
-        if (qInput) qInput.blur();
-        /* 只有"搜的是内容"才需要滚到命中段落。
-           搜国家名（"日本"）时整份档案就是在讲它，滚过去只会把主图顶出可视区 ——
-           实测点开日本，主图和缩略图都被滚到了负坐标。 */
-        var qq = String(q || '').trim();
-        var isNameOnly = !qq || qq === d.name || qq.toLowerCase() === String(d.iso || '').toLowerCase();
-        if (d.kind !== 'country' && !isNameOnly) locateInPanel(q);
+        executeHit(d, d.q || q);
       });
       box.appendChild(item);
     });
@@ -3411,32 +3557,367 @@ body.panel-open #globe-stage{
      这里在渲染完之后按相关度找一段，滚过去并闪一下。
      中文没有空格，所以切成二元组打分（"中国传统节日" → 中国/国传/传统/统节/节日），
      这样"传统节日"也能命中正文里的"是岁首最重要的节日"。 */
-  function locateInPanel(q) {
-    var host = document.getElementById('d-body');
-    if (!host || !q) return;
-    var raw = String(q).trim();
-    var terms = [];
-    if (/[\u4e00-\u9fa5]/.test(raw)) {
-      for (var i = 0; i + 2 <= raw.length; i++) terms.push(raw.substr(i, 2));
-    } else {
-      raw.split(/\s+/).forEach(function (t) { if (t.length >= 2) terms.push(t.toLowerCase()); });
-    }
-    if (!terms.length) return;
-    setTimeout(function () {
-      var nodes = host.querySelectorAll('.prose p, .chip, .cap, dd');
-      var best = null, bestScore = 0;
-      for (var i = 0; i < nodes.length; i++) {
-        var t = (nodes[i].textContent || '');
-        var tl = t.toLowerCase();
-        var score = 0;
-        for (var k = 0; k < terms.length; k++) if (tl.indexOf(terms[k]) >= 0) score += terms[k].length;
-        if (score > bestScore) { bestScore = score; best = nodes[i]; }
+    /* 从查询里认出一个国家（取最长匹配），剩下的部分当话题词。
+     "中国美食" → { iso:'CN', name:'中国', rest:'美食' } */
+  function findCountryInQuery(v) {
+    if (!LABEL_META || !v) return null;
+    var best = null;
+    Object.keys(LABEL_META).forEach(function (iso) {
+      var nm = String((LABEL_META[iso] || {}).n || '');
+      if (nm.length < 2) return;
+      var at = v.indexOf(nm);
+      if (at < 0) return;
+      /* 取最长的那个名字，免得长名字被短名字先吃掉 */
+      if (!best || nm.length > best.name.length) {
+        best = {
+          iso: iso,
+          name: nm,
+          rest: (v.slice(0, at) + v.slice(at + nm.length))
+                  .replace(/^[的之与和及，,、\s]+/, '')
+        };
       }
-      if (!best || bestScore < 2) return;
-      best.scrollIntoView({ block: 'center', behavior: 'smooth' });
-      best.classList.add('hit-flash');
-      setTimeout(function () { best.classList.remove('hit-flash'); }, 1700);
-    }, 260);
+    });
+    return best;
+  }
+
+  /* 打开一条搜索结果：开卡 → 收起搜索 → 定位到命中段。
+     altProbe 是"国家+话题"里拆出来的话题词，用它当定位探针。 */
+  function executeHit(d, q, focus) {
+    /* 地区（港澳台）归到主权国：不给台湾单独开卡，搜到也落到中国 */
+    var iso = String(d.iso || '').toUpperCase();
+    var tgt = targetIso(iso);
+    openDetail(tgt, cardOf(tgt), false);
+    setSearch(false);              // 选中即收起，视线回到地球
+    if (qInput) qInput.blur();
+
+    /* 港澳台这类没有独立档案、归到主权国的地区：开主人国的档案之后，
+       要定位到正文里提到它的那一段 —— 否则点「中国香港」只是弹出一张中国卡，
+       停在最上面，跟用户点的那三个字没有关系。 */
+    if (!focus && d.kind === 'country' && tgt.toUpperCase() !== iso) {
+      var shortName = String(d.name || '').replace(/^中国/, '');
+      if (shortName.length >= 2) focus = { probe: shortName, extra: '' };
+    }
+
+    /* 纯国名不滚：整份档案就是在讲它，滚过去只会把主图顶出可视区 ——
+       实测点开日本，主图和缩略图都被滚到了负坐标。 */
+    var qq = String(q || '').trim();
+    var nm = d.name || '';
+    /* 基础档案那种条目（国家本身）没有"命中段落"可言，只在带话题词时才定位 */
+    if (d.kind === 'country' && !focus) return;
+    /* 开的是自己那张卡，且输入的就是国名本身 → 不滚（整份档案都是它）。
+       港澳台不适用：开的是中国卡，输入框里写的就是"中国澳门"，
+       这时反而必须滚到提到澳门的那一段，否则就是"搜了没反应"。 */
+    var isOwnCard = tgt.toUpperCase() === iso;
+    if (isOwnCard && (!qq || qq === nm || qq.toLowerCase() === iso.toLowerCase())) return;
+
+    if (focus) {
+      /* 主探针：先用话题词本身（"美食""历史"）。它短，二元组只有一两个，
+         只要段落里出现这个词，覆盖率就是 1.0 —— 定位几乎必中。
+         同国高分问答的答案文本只当备选：它动辄上百字，摊进覆盖率里分母太大，
+         分数被压到阈值以下，反而"点了没反应"（实测"中国历史"就卡在这）。 */
+      var primary = focus.probe || focus.extra || '';
+      var secondary = [focus.extra, qq].filter(Boolean).join(' ');
+      locateInPanel({ name: nm, q: secondary, a: primary }, qq);
+    } else if (d.kind !== 'country') {
+      locateInPanel(d, qq);
+    }
+  }
+
+  /* 从搜索结果跳到档案里对应的那一段。
+     旧实现只拿用户敲的词去正文里找二元组，两个问题：
+       ① 用户搜的是**问题**（"法国人吃什么"），正文里未必出现这几个字，
+          真正能对上的是答案里那几个实词；
+       ② scrollIntoView 会被面板滑入动画打断，而且它会把整页一起滚，
+          落点经常偏掉。
+     现在：
+       · 探针用**搜索结果里的答案原文**（它本来就是从整份档案里抽出来的），
+         再补上问题关键词，两者取较高的那一个；
+       · 打分用 Ochiai 系数（交集 / √(|A|×|B|)）：两边一边长一边短也不会被吃掉，
+         "地标/景点"这种答案里全是专有名词，正好能对上图片题注；
+       · 自己算 scrollTop 滚 .dscroll，不碰整页；
+       · 图片到位后再校正一次，用户自己滚过就不再插手。 */
+  var LOCATE_SEQ = 0;
+
+  /* 话题词的说法不止一种。档案里写的是"饮食上大体南米北面，鲁、川、粤、淮扬
+     等菜系各有章法"，用户搜的是"美食" —— 二元组一个都对不上，定位直接失效。
+     这张表只在**定位**时用，不影响搜索排序。左边是用户可能敲的词，
+     右边是档案正文里真正会出现的词。 */
+  var LOCATE_SYN = {
+    '美食': ['饮食', '菜系', '菜', '小吃', '餐', '吃'],
+    '好吃': ['饮食', '菜', '吃'],
+    '饮食': ['饮食', '菜系', '菜', '吃'],
+    '节日': ['节日', '节庆', '习俗', '过年', '节'],
+    '民俗': ['民俗', '习俗', '节序', '岁时', '过年'],
+    '宗教': ['宗教', '信仰', '佛教', '道教', '天主教', '伊斯兰', '教派'],
+    '语言': ['语言', '方言', '语'],
+    '历史': ['历史', '王朝', '世纪', '帝国', '战争'],
+    '地标': ['地标', '景点', '建筑', '遗迹', '塔', '宫'],
+    '景点': ['景点', '地标', '建筑', '遗迹'],
+    '经济': ['经济', '产业', '农业', '工业', '贸易'],
+    '人口': ['人口', '万人'],
+    '位置': ['位于', '地处', '接壤', '邻'],
+    '气候': ['气候', '季风', '降水', '气温']
+  };
+
+  function locateInPanel(doc, q) {
+    var token = ++LOCATE_SEQ;
+    var tries = 0;
+
+    function norm(t) {
+      return String(t == null ? '' : t).toLowerCase()
+        .replace(/[^\u4e00-\u9fa5a-z0-9]/g, '');
+    }
+    /* 中文没有空格，切成二元组。"中国传统节日" → 中国/国传/传统/统节/节日 */
+    function grams(t) {
+      var str = norm(t), map = {}, n = 0;
+      for (var i = 0; i + 1 < str.length; i++) {
+        var g = str.substr(i, 2);
+        if (!map[g]) { map[g] = 1; n++; }
+      }
+      return { g: map, n: n };
+    }
+    function sim(a, b) {
+      if (!a.n || !b.n) return 0;
+      var m = 0;
+      for (var k in a.g) if (b.g[k]) m++;
+      if (!m) return 0;
+      /* 两种口径取大的：
+         Ochiai（交集 / √(|A|×|B|)）适合"长答案 vs 长段落"；
+         覆盖率（交集 / |A|）适合"短探针 vs 长段落" —— 探针只剩两个字时，
+         摊进 √ 里会被段落长度压死，怎么都过不了阈值。 */
+      return Math.max(m / Math.sqrt(a.n * b.n), m / a.n);
+    }
+
+    /* 国名要从问题里剔掉：否则"法国人吃什么"里那两个字会把每一段都点亮 */
+    var nm = (doc && doc.name) || '';
+    var probes = [];
+    if (doc && doc.a) probes.push(grams(doc.a));
+    if (doc && doc.q) probes.push(grams(String(doc.q).split(nm).join('')));
+    if (q) probes.push(grams(String(q).split(nm).join('')));
+    probes = probes.filter(function (p) { return p.n > 0; });
+    if (!probes.length) return;
+
+    /* 段落内定位用的原词（不是二元组）。长段落里命中的词往往在后半截：
+       "经济"落在"宋元之际市镇经济与印刷…"这半句上，而段落开头讲的是
+       "隋唐确立的科举制" —— 只滚到段落顶部，用户会觉得"跳到毫无关系的历史"。 */
+    var words = [];
+    if (doc && doc.a) words.push(String(doc.a));
+    if (doc && doc.q) words.push(String(doc.q).split(nm).join(''));
+    if (q) words.push(String(q).split(nm).join(''));
+    words = words.filter(function (w) { return w && w.length >= 2; });
+
+    /* 话题词的同义扩展（见 LOCATE_SYN）：命中哪一组就按哪一组补分 */
+    var ask = String((doc && doc.q) || '') + ' ' + String(q || '');
+    var syn = null;
+    Object.keys(LOCATE_SYN).forEach(function (k) {
+      if (!syn && ask.indexOf(k) >= 0) syn = LOCATE_SYN[k];
+    });
+
+    function pick() {
+      var host = document.getElementById('d-body');
+      var sc = document.querySelector('.dscroll');
+      if (!host || !sc) return null;
+      /* 「地标 / 景点」直接去图片区：卡片最上面就是主图加缩略图，
+         而正文里能对上的往往只是"宫殿""建筑"这类泛词，落点没有意义
+         （实测印度、挪威、法国点"地标"都落在不相干的段落上）。 */
+      if (/地标|景点/.test(ask)) {
+        var img0 = host.querySelector('.dimg-wrap');
+        if (img0) return { node: img0, sc: sc, words: [] };
+      }
+      /* 候选：正文段落、章节标题（历史 / 民俗 / 文化特征）、
+         元信息的键和值（首都/语言/坐标）、文化特征标签、图片题注。
+         标题必须收进来：搜「中国民俗」，档案里"民俗"两个字只出现在章节标题上，
+         正文写的是"岁时节序构成日常生活的主干……"，只查 p 一个都对不上。
+         dt 也要一起收：问"语言"时，那两个字同样只写在键名上。 */
+      var nodes = host.querySelectorAll('.prose p, .sub-label, .dmeta dt, .dmeta dd, .chip, .cap');
+      if (!nodes.length) return null;        // 骨架屏阶段：还没有可定位的内容
+      var bestNode = null, bestVal = 0, bestWord = '';
+      for (var i = 0; i < nodes.length; i++) {
+        var txt = nodes[i].textContent || '';
+        /* 元信息的键名（首都/语言/坐标…）不在屏幕上，但它是这一行真正的主题：
+           问"法语"要落到"语言 | 法语"，问"语言"同样要落到这一行。
+           把它拼进待匹配文本，两种问法都能对上。 */
+        var kk = nodes[i].getAttribute && nodes[i].getAttribute('data-k');
+        if (kk) txt = kk + ' ' + txt;
+        var ng = grams(txt);
+        var v = 0, hitWord = '';
+        for (var k = 0; k < probes.length; k++) {
+          var t = sim(probes[k], ng) * (k === 0 ? 1 : 0.55);
+          if (t > v) { v = t; hitWord = ''; }   // 二元组命中，段内位置交给原词去找
+        }
+        /* 同义词命中：按词的"具体程度"加权，而不是简单地数个数。
+           "佛教"命中一次比"教"这个单字命中一次可信得多 —— 正文里"教"字
+           到处都有（教育、教会、教派），不加权的话「中国宗教」会被
+           随便一段带"教"字的正文抢走。
+           同时记下"具体命中的是哪个词"：点"美食"落到的段落里写的是
+           "饮食/菜系"，标出来的也应该是这两个字，而不是用户敲的"美食"。 */
+        if (syn) {
+          var hitW = 0, synWord = '';
+          for (var si = 0; si < syn.length; si++) {
+            if (txt.indexOf(syn[si]) >= 0) {
+              hitW += Math.min(1, syn[si].length / 3);   // 单字 0.33 / 双字 0.67 / 三字以上 1
+              if (syn[si].length > synWord.length || !synWord) synWord = syn[si];
+            }
+          }
+          /* 1.6 分算"很确定"：一个三字词（宗教/天主教）+ 一个双字词就够；
+             只有单字命中时 0.17，过不了 0.15 的线，正好当噪声滤掉。 */
+          var sv = 0.8 * Math.min(1, hitW / 1.6);
+          if (sv > v) { v = sv; hitWord = synWord; }
+        }
+        if (v > bestVal) { bestVal = v; bestNode = nodes[i]; bestWord = hitWord; }
+      }
+      /* 0.15 以下基本是巧合命中，宁可不滚 —— 乱滚比停在顶部更让人迷惑。
+         0.15 这条线正好卡在"只有一个单字命中"（0.167）和"什么都没有"之间：
+         「语言」靠一个"语"字就能落到"现代标准汉语 / 粤语"那一行。 */
+      if (!bestNode || bestVal < 0.15) return null;
+      /* 同义词命中时用**实际命中的那个词**去量位置、去打高亮 ——
+         点"美食"落到的段落写的是"饮食/菜系"，拿"美食"去 indexOf 什么都找不到，
+         高亮和段内定位就都失效了。 */
+      return { node: bestNode, sc: sc, words: bestWord ? [bestWord] : words };
+    }
+
+    /* 量出"命中词"在段落里到底落在哪一行。
+       段落动辄两三行到十几行，把段落顶部滚到中间，用户看到的是开头
+       那句无关的话；滚到命中词所在行，才看得见自己点的是什么。 */
+    function wordRect(node, words) {
+      try {
+        var raw = node.textContent || '';
+        var bestAt = -1, bestLen = 0;
+        for (var i = 0; i < words.length; i++) {
+          var at = raw.indexOf(words[i]);
+          if (at >= 0 && (bestAt < 0 || at < bestAt)) { bestAt = at; bestLen = words[i].length; }
+        }
+        if (bestAt < 0) return null;
+        var walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, null);
+        var acc = 0, tn;
+        while ((tn = walker.nextNode())) {
+          var len = tn.nodeValue.length;
+          if (acc + len > bestAt) {
+            var rg = document.createRange();
+            var start = bestAt - acc;
+            /* 只框住命中词的第一个字：整词跨行时 getBoundingClientRect
+               会给出一个横跨两行的大盒子，拿它居中会偏掉。 */
+            rg.setStart(tn, start);
+            rg.setEnd(tn, Math.min(len, start + 1));
+            var rects = rg.getClientRects();
+            var rect = (rects && rects.length) ? rects[0] : rg.getBoundingClientRect();
+            return (rect && rect.height > 4) ? rect : null;
+          }
+          acc += len;
+        }
+      } catch (e) { /* Range 走到奇怪节点就退回按整段算 */ }
+      return null;
+    }
+
+    /* 把命中的那个词本身标出来（1.9 秒后原样还原）。
+       跳到的段落不一定整段都在讲这件事，标出词才能让人看明白落点。 */
+    function flashWord(node, words) {
+      try {
+        var raw = node.textContent || '';
+        var at = -1, bestLen = 2;
+        for (var i = 0; i < words.length; i++) {
+          var w = words[i];
+          if (!w || w.length < 2) continue;
+          var p = raw.indexOf(w);
+          if (p >= 0 && (at < 0 || p < at)) { at = p; bestLen = w.length; }
+        }
+        /* 最新版结果行给的是整句问答，正文里不会原样出现：退化成用
+           二元组找一个真正落在段落里的字眼，否则跳过去了却没标出落点。 */
+        if (at < 0) {
+          for (var wi = 0; wi < words.length && at < 0; wi++) {
+            var w2 = String(words[wi] || '');
+            for (var gi = 0; gi + 2 <= w2.length; gi++) {
+              var gram = w2.substr(gi, 2);
+              if (!/^[\u4e00-\u9fa5]{2}$/.test(gram)) continue;
+              var p2 = raw.indexOf(gram);
+              if (p2 >= 0) { at = p2; bestLen = 2; break; }
+            }
+          }
+        }
+        if (at < 0) return;
+        var walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT, null);
+        var acc = 0, tn;
+        while ((tn = walker.nextNode())) {
+          var len = tn.nodeValue.length;
+          if (acc + len > at) {
+            var start = at - acc;
+            var end = Math.min(len, start + bestLen);
+            if (end <= start) return;
+            var after = tn.splitText(end);
+            var mid = tn.splitText(start);
+            var span = document.createElement('span');
+            span.className = 'hit-word';
+            mid.parentNode.insertBefore(span, mid);
+            span.appendChild(mid);
+            setTimeout(function () {
+              var par = span.parentNode;
+              if (!par) return;
+              par.insertBefore(mid, span);
+              par.removeChild(span);
+              par.normalize();
+            }, 1900);
+            return;
+          }
+          acc += len;
+        }
+      } catch (e) { /* 标不出来也不影响滚动 */ }
+    }
+
+    function centerOn(hit, smooth) {
+      var node = hit.node, sc = hit.sc;
+      var r = wordRect(node, hit.words) || node.getBoundingClientRect();
+      var s = sc.getBoundingClientRect();
+      var target = sc.scrollTop + (r.top - s.top) - (sc.clientHeight - r.height) / 2;
+      var max = sc.scrollHeight - sc.clientHeight;
+      target = Math.max(0, Math.min(max, target));
+      if (Math.abs(target - sc.scrollTop) < 2) return;
+      if (smooth) {
+        try { sc.scrollTo({ top: target, behavior: 'smooth' }); }
+        catch (e) { sc.scrollTop = target; }
+      } else {
+        sc.scrollTop = target;     // 首帧直接到位：面板一出来就已经在命中的那一段
+      }
+    }
+
+    var t0 = -1;
+    function run() {
+      if (token !== LOCATE_SEQ) return;         // 又点开了别的国家，这次作废
+      var hit = pick();
+      if (!hit) {
+        /* 卡片数据（cards.json 950KB）还没到时，#d-body 里是骨架屏，
+           一个候选节点都没有。以前只重试 1.3 秒就放弃 —— 本地这条路要七八秒，
+           于是「刚打开页面就点澳门」会停在卡片顶部，什么也没定位到。
+           现在重试到 13 秒；期间用户自己滚过就放手，别跟他抢。 */
+        var scNow = document.querySelector('.dscroll');
+        if (t0 < 0) t0 = scNow ? scNow.scrollTop : 0;
+        else if (scNow && Math.abs(scNow.scrollTop - t0) > 20) return;
+        if (tries++ < 100) { setTimeout(run, 130); return; }
+        /* 重试到尽头还是没对上：什么都不做，让卡片停在自己该在的位置。
+           打开新卡时 openDetail 已经把它归零了；同一个国家里没对上，
+           就保持用户当前看到的那一段 —— 硬滚回顶部只会像"跳错了地方"。 */
+        return;
+      }
+      centerOn(hit, false);
+      flashWord(hit.node, hit.words);
+      hit.node.classList.add('hit-flash');
+      setTimeout(function () { hit.node.classList.remove('hit-flash'); }, 1700);
+
+      /* 图片和题注是延后加载的，可能把版面推一点：隔一会儿校正两次。
+         用户这期间自己滚过就不再插手，否则会跟他抢滚动条。 */
+      var bumped = false;
+      function bum() { bumped = true; }
+      hit.sc.addEventListener('wheel', bum, { once: true, passive: true });
+      hit.sc.addEventListener('touchstart', bum, { once: true, passive: true });
+      hit.sc.addEventListener('pointerdown', bum, { once: true });
+      [700, 1500].forEach(function (ms) {
+        setTimeout(function () {
+          if (token !== LOCATE_SEQ || bumped) return;
+          centerOn(hit, true);
+        }, ms);
+      });
+    }
+
+    run();
   }
 
   /* 国家列表：由搜索框右端的下拉按钮触发（不自动弹）。
@@ -3497,7 +3978,6 @@ body.panel-open #globe-stage{
 
   var searchWrap = document.getElementById('search-wrap');
   var searchPanel = document.getElementById('search-panel');
-  var searchDrop = document.getElementById('search-drop');
 
   /* 结果区一显示，搜索框就从"一只胶囊"变成"一张连通卡片"（Google 地图那种
      形状：搜索行坐在结果面板顶上，共用一圈外轮廓）：给 wrap 挂 card-open，
@@ -3588,7 +4068,7 @@ body.panel-open #globe-stage{
   if (searchPanel) {
     searchPanel.addEventListener('click', function (e) {
       e.stopPropagation();
-      if (!searchWrap.classList.contains('open')) setSearch(true, false);
+      if (!searchWrap.classList.contains('open')) setSearch(true, true);
       if (qInput && document.activeElement !== qInput) {
         setTimeout(function () { qInput.focus(); }, 130);
       }
@@ -3600,7 +4080,7 @@ body.panel-open #globe-stage{
        举一个例子比写十个字有用。 */
     var PH_LONG = '试试这么问：法国人吃什么？ 埃及有什么宗教？';
     qInput.addEventListener('focus', function () {
-      if (!searchWrap.classList.contains('open')) setSearch(true, false);
+      if (!searchWrap.classList.contains('open')) setSearch(true, true);
       if (!qInput.value) qInput.placeholder = PH_LONG;
     });
     qInput.addEventListener('blur', function () {
@@ -3608,22 +4088,11 @@ body.panel-open #globe-stage{
       // 点了下拉列表的话不收起；空输入离开才收起
       setTimeout(function () {
         if (document.activeElement === qInput) return;
-        if (searchWrap.classList.contains('list-open')) return;
         if (!qInput.value.trim()) setSearch(false);
       }, 140);
     });
   }
 
-  /* 下拉按钮：只有点了它才列国家。搜索钮只管"打开搜索框"。 */
-  if (searchDrop) {
-    searchDrop.addEventListener('click', function (e) {
-      e.stopPropagation();
-      var openList = searchWrap.classList.contains('list-open');
-      if (openList) { setSearch(true, false); return; }
-      if (qInput) qInput.value = '';
-      setSearch(true, true);
-    });
-  }
 
   document.addEventListener('click', function (e) {
     if (searchWrap && !searchWrap.contains(e.target)) setSearch(false);
@@ -3634,9 +4103,8 @@ body.panel-open #globe-stage{
     searchClear.addEventListener('click', function (e) {
       e.stopPropagation();
       if (qInput) { qInput.value = ''; qInput.focus(); }
-      qRes.hidden = true;
-      qRes.innerHTML = '';
-      searchWrap.classList.remove('list-open', 'has-text');
+      searchWrap.classList.remove('has-text');
+      setSearch(true, true);
     });
   }
 
@@ -4740,6 +5208,7 @@ body.panel-open #globe-stage{
     if (!arr || !arr.length) return;
     var stage = globeStage();
     if (!stage) return;
+    var paint = [];                 // 本帧要画的标签：[[x, y, alpha, L], ...]
     if (!_lp) _lp = new THREE.Vector3();
     if (!_lc) _lc = new THREE.Vector3();
     var w = stage.clientWidth, h = stage.clientHeight;
@@ -4917,7 +5386,139 @@ body.panel-open #globe-stage{
         L.el.style.pointerEvents = 'auto';
       }
       L.on = true;
+      paint.push([x, y, alpha, L]);
     }
+    paintLabels(paint, w, h);
+  }
+
+  /* ---------- 地名 Canvas 绘制 ----------
+     所有地名文字画在一张覆盖层 canvas 上，DOM 标签的文字由 CSS 置为透明。
+     为什么不用 DOM 文字：文字作为合成层，在亚像素位置平移时会被反复插值采样，
+     144Hz 下球缘那批（每帧只挪 0.5~2px）清晰度高频跳变，看起来就是在闪。
+     canvas 每帧直接光栅化到屏幕，同一位置只画一次，没有累积插值。 */
+  var _lblCanvas = null, _lblCtx = null;
+
+  /* 各类型地名的字形参数，照抄 CSS 里的 .mlabel / .mc / .mo / .mi / .ml / .ms / .mk。
+     canvas 套不了 class，只能手动对齐；将来改 CSS 记得同步这张表。 */
+  var LBL_FONT = '"Inter","Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif';
+  var LBL_STYLE = {
+    mc: { size: 14.5, weight: 600, color: 'rgba(232,241,254,.92)', italic: false },
+    mo: { size: 13,   weight: 400, color: 'rgba(180,212,246,.78)', italic: true },
+    mi: { size: 12.5, weight: 400, color: 'rgba(214,232,252,.82)', italic: false },
+    ml: { size: 12,   weight: 400, color: 'rgba(148,206,238,.82)', italic: true },
+    ms: { size: 11.5, weight: 400, color: 'rgba(162,202,240,.76)', italic: true },
+    mk: { size: 13.5, weight: 500, color: '#ffffff', italic: false }
+  };
+  var LBL_DEFAULT = { size: 13, weight: 400, color: '#ffffff', italic: false };
+
+  /* sprite 超采样倍率。2 倍分辨率渲染、按 1 倍尺寸绘制：
+     缩小采样本身会平滑边缘，浮点定位时的插值差异因此小得多，
+     文字边缘不会再一帧一个样（否则就是"闪"）。 */
+  var SPR_SS = 2;
+
+  /* 把一个地名栅格化成一张离屏小画布，缓存到 L._spr 上（文字不变，只做一次）。
+     返回 { c: 画布, w/h: CSS 像素尺寸 }。按 dpr 放大渲染，高分屏上不糊。 */
+  function labelSprite(L, dpr) {
+    if (L._txt === undefined) L._txt = (L.el.textContent || '').trim();
+    if (!L._txt) return null;
+    if (L._spr && L._spr.dpr === dpr) return L._spr;
+
+    var st = LBL_STYLE[L.kind] || LBL_DEFAULT;
+    var font = (st.italic ? 'italic ' : '') + st.weight + ' ' + st.size + 'px ' + LBL_FONT;
+
+    var m = document.createElement('canvas').getContext('2d');
+    m.font = font;
+    var tw = m.measureText(L._txt).width;
+    /* 留出描边和斜体的余量 */
+    var pad = Math.ceil(st.size * 0.45);
+    var w = Math.ceil(tw) + pad * 2;
+    var h = Math.ceil(st.size * 1.35) + pad * 2;
+
+    var k = dpr * SPR_SS;
+    var cv = document.createElement('canvas');
+    cv.width = Math.max(1, Math.round(w * k));
+    cv.height = Math.max(1, Math.round(h * k));
+    var cx = cv.getContext('2d');
+    cx.scale(k, k);
+    cx.font = font;
+    cx.textAlign = 'center';
+    cx.textBaseline = 'middle';
+    cx.lineJoin = 'round';
+
+    /* 描边压底：原来靠 4 层 text-shadow 在多背景上都压得住，
+       canvas 用一圈圆角描边近似 —— 白字压在雪原/沙漠上也能看清。 */
+    cx.lineWidth = 2.4;
+    cx.strokeStyle = 'rgba(0,0,0,.72)';
+    cx.strokeText(L._txt, w / 2, h / 2);
+
+    cx.fillStyle = st.color;
+    cx.fillText(L._txt, w / 2, h / 2);
+
+    L._spr = { c: cv, w: w, h: h, dpr: dpr };
+    return L._spr;
+  }
+
+  function paintLabels(paint, w, h) {
+    var stage = globeStage();
+    if (!stage) return;
+
+    if (!_lblCanvas) {
+      _lblCanvas = document.createElement('canvas');
+      _lblCanvas.id = 'labels-canvas';
+      _lblCtx = _lblCanvas.getContext('2d');
+      if (!_lblCtx) {
+        /* 拿不到 2d 上下文（极少数环境禁 canvas）→ 回退成原来的 DOM 文字 */
+        _lblCanvas = null;
+        document.body.classList.remove('labels-canvas');
+        return;
+      }
+      document.body.classList.add('labels-canvas');
+    }
+
+    /* 必须真的挂进 DOM —— 少了这一行，canvas 只是个游离对象：
+       画得再好也不会显示（getBoundingClientRect 返回 0x0、computed style 全空）。
+       挂到 #globe-stage 下、与 #labels 平级，z-index:10 才能压过 #labels 的 5。 */
+    var host = stage;
+    if (_lblCanvas.parentNode !== host) host.appendChild(_lblCanvas);
+
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var cw = Math.round(w * dpr), ch = Math.round(h * dpr);
+    if (_lblCanvas.width !== cw || _lblCanvas.height !== ch) {
+      _lblCanvas.width = cw;
+      _lblCanvas.height = ch;
+      _lblCanvas.style.width = w + 'px';
+      _lblCanvas.style.height = h + 'px';
+    }
+
+    var c = _lblCtx;
+    c.setTransform(dpr, 0, 0, dpr, 0, 0);
+    c.clearRect(0, 0, w, h);
+    c.textAlign = 'center';
+    c.textBaseline = 'middle';
+    c.lineJoin = 'round';
+
+    /* 每个地名先栅格化成一张小位图（sprite），之后每帧只做 drawImage 搬运。
+       为什么不每帧 fillText：canvas 的 fillText 会在当前基线上重新光栅化文字，
+       基线是浮点数，亚像素位置每帧都不同 → 每次得到的字形位图都有细微差别，
+       看起来就是文字在上下跳。sprite 只栅格化一次，之后就固定不变了。
+       （这一步也顺带让每帧开销从"重新排版+光栅化"降到"贴一张图"。） */
+    for (var i = 0; i < paint.length; i++) {
+      var p = paint[i];
+      var x = p[0], y = p[1], a = p[2], L = p[3];
+      if (a <= 0.02) continue;
+
+      var spr = labelSprite(L, dpr);
+      if (!spr) continue;
+
+      c.globalAlpha = a;
+      /* 位置用浮点，不对齐像素。
+         sprite 是高倍超采样的位图，缩小绘制时 GPU 会做平滑采样，
+         文字边缘不会一帧一个样；反过来，对齐到设备像素会让每帧位移
+         0.5~2px 的标签变成 1/dpr 的阶梯（144Hz 下就是明显的一跳一跳）。 */
+      c.drawImage(spr.c, x - spr.w / 2, y - spr.h / 2, spr.w, spr.h);
+    }
+
+    c.globalAlpha = 1;
   }
 
   /* ---------- 相机与飞行动画 ----------
@@ -6752,6 +7353,7 @@ body.panel-open #globe-stage{
       // 注意：这里**不**自动打开任何档案。首屏应该是完整的地球，
       // 由用户点击国土或底部胶囊再展开面板。
       loadSearchIndex();
+      loadCapitals();
       loadCountryMeta();
       /* 以前这里会在开机 4.2 秒后，把 236 个国家的 data/*.json 全部预取一遍
          （每 140ms 一条）。初衷是"第一次点某个国家不要现取现解析"，

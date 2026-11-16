@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-16-BK">
+<meta name="build" content="2026-11-16-BL">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -12108,6 +12108,20 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
             { bubbles: true, cancelable: true, view: window }));
         }, 400);
       }
+      /* 只读 + 焦点守卫：转屏瞬间浏览器会把焦点塞进输入框，键盘跟着弹出、
+         400ms 后才被收走 —— 闪光一下。armGuard 在 1.6s 窗口内让输入框只读，
+         并且任何落进来的 focus 都立刻 blur，键盘没有出场机会。 */
+      function armGuard() {
+        var q = document.getElementById('q');
+        if (!q) return;
+        q.readOnly = true;
+        var h = function (e) { if (e.target === q && q.blur) q.blur(); };
+        document.addEventListener('focusin', h, true);
+        setTimeout(function () {
+          q.readOnly = false;
+          document.removeEventListener('focusin', h, true);
+        }, 1600);
+      }
       if (btn) btn.addEventListener('click', function () {
         var el = document.documentElement;
         var rq = el.requestFullscreen || el.webkitRequestFullscreen;
@@ -12116,9 +12130,10 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
           if (screen.orientation && screen.orientation.lock)
             screen.orientation.lock('landscape').catch(function () {});
         } catch (e) {}
+        armGuard();
         calmDown();
       });
-      window.addEventListener('orientationchange', calmDown);
+      window.addEventListener('orientationchange', function () { armGuard(); calmDown(); });
     })();
   </script>
 

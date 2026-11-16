@@ -607,6 +607,278 @@
   }
   /* 兼容旧的居中行（其余地方还在用 sr-country-row） */
   .sr-country-row{display:flex;align-items:center;gap:13px;padding:9px 15px}
+
+  /* --- 教学层：下拉里的摘要卡 + 右侧面板里的详解卡 --- */
+  .search-wrap.open.tch-open{width:min(560px, 62vw)}
+  .search-wrap.tch-open #q-res{max-height:70vh}
+  .tch{padding:2px 15px 16px}
+  .tch-tip{margin:12px 0 2px;padding:7px 10px;border-radius:7px;font-size:11.5px;line-height:1.6;
+    color:rgba(200,214,236,.82);background:rgba(148,182,224,.07);border:1px solid rgba(148,182,224,.14)}
+  .tch-lv{display:flex;align-items:center;gap:8px;margin:12px 0 13px}
+  .tch-lv b{font-weight:400;font-size:10.5px;letter-spacing:.08em;color:var(--ink-faint)}
+  .tch-seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+  .tch-seg button{font:inherit;font-size:11.5px;padding:3px 11px;background:transparent;border:0;
+    color:var(--ink-dim);cursor:pointer;transition:color .18s ease,background .18s ease}
+  .tch-seg button:hover{color:var(--ink)}
+  .tch-seg button.on{background:rgba(216,178,106,.15);color:rgba(240,214,164,.96)}
+  .tch-hd{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;margin-bottom:8px}
+  .tch-kind{font-size:10px;letter-spacing:.1em;color:rgba(232,196,128,.82);
+    border:1px solid rgba(216,178,106,.3);border-radius:4px;padding:0 5px;line-height:1.7}
+  .tch-name{font-size:16px;color:var(--ink)}
+  .tch-book{font-size:10.5px;color:var(--ink-faint);margin-left:auto}
+  .tch-line{font-size:13.5px;line-height:1.75;color:rgba(226,234,248,.94)}
+  .tch-sec{margin-top:13px;font-size:10.5px;letter-spacing:.08em;color:var(--ink-faint)}
+  .tch-p{margin-top:4px;font-size:12.5px;line-height:1.74;color:var(--ink-dim)}
+  .tch-a{display:flex;align-items:baseline;gap:9px;margin-top:5px;padding:6px 9px;border-radius:7px;
+    background:rgba(255,255,255,.025);cursor:pointer;transition:background .16s ease}
+  .tch-a:hover{background:rgba(148,182,224,.09)}
+  .tch-a b{font-weight:400;font-size:12.5px;color:rgba(206,222,246,.96);flex:0 0 auto}
+  .tch-a span{font-size:12px;line-height:1.5;color:var(--ink-dim)}
+  .tch-a i{margin-left:auto;font-style:normal;font-size:12px;color:rgba(232,196,128,.5)}
+  .tch-c{margin-top:13px;padding:8px 11px;border-left:2px solid rgba(232,150,90,.55);
+    background:rgba(232,150,90,.05);border-radius:0 7px 7px 0}
+  .tch-c b{display:block;font-weight:400;font-size:10.5px;letter-spacing:.08em;
+    color:rgba(240,168,120,.9);margin-bottom:3px}
+  .tch-c p{font-size:12.5px;line-height:1.72;color:rgba(230,218,210,.9);margin:0}
+  .tch-nx{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+  .tch-nx button{font:inherit;font-size:11.5px;padding:3px 10px;border-radius:999px;
+    border:1px solid var(--line);background:transparent;color:var(--ink-dim);cursor:pointer;
+    transition:border-color .18s ease,color .18s ease}
+  .tch-nx button:hover{border-color:rgba(148,182,224,.45);color:var(--ink)}
+  .tch-cite{margin-top:12px;font-size:10.5px;line-height:1.62;color:rgba(120,136,166,.85)}
+  .tch-tb{margin-top:9px;width:100%;border-collapse:collapse;font-size:12.5px}
+  .tch-tb th{font-weight:400;font-size:11.5px;text-align:left;padding:6px 8px;
+    color:var(--ink-faint);border-bottom:1px solid var(--line)}
+  .tch-tb th.h{font-size:13px;color:rgba(226,234,248,.96);cursor:pointer}
+  .tch-tb th.h:hover{color:#fff}
+  .tch-tb td{padding:7px 8px;vertical-align:top;line-height:1.62;color:var(--ink-dim);
+    border-bottom:1px solid rgba(120,150,190,.09)}
+  .tch-tb td.k{color:var(--ink-faint);font-size:11.5px;white-space:nowrap;width:62px}
+  /* 下拉卡底部那颗「展开详解」 */
+  /* ---- 投影模式 ---- */
+  body.class-mode{background:#05070c}
+  body.class-mode #topbar,
+  body.class-mode #tools,
+  body.class-mode #q-res,
+  body.class-mode .search-wrap,
+  body.class-mode #globe-stage,
+  body.class-mode #build-tag,
+  body.class-mode .dclose{display:none !important}
+  body.class-mode #detail{
+    position:fixed;top:2.4vh;bottom:2.4vh;left:50%;right:auto;
+    transform:translateX(-50%);width:min(1180px, 92vw);z-index:60;
+    box-shadow:0 20px 60px rgba(0,0,0,.55), 0 0 0 1px rgba(140,165,220,.1);
+  }
+  #class-exit{display:none;position:fixed;right:18px;top:18px;z-index:80;
+    font:inherit;font-size:13px;padding:8px 15px;border-radius:999px;
+    border:1px solid rgba(216,178,106,.42);background:rgba(10,14,22,.92);
+    color:rgba(240,214,164,.96);cursor:pointer}
+  body.class-mode #class-exit{display:block}
+  #class-exit:hover{background:rgba(216,178,106,.18)}
+  /* 投影字号：按 1180px 宽重排，正文 19px 相当于教室后排可读 */
+  body.class-mode .dhead{padding:26px 34px 18px}
+  body.class-mode .dhead h2{font-size:34px}
+  body.class-mode #d-sub{font-size:14px}
+  body.class-mode .dscroll{padding:26px 34px 40px}
+  body.class-mode .kline{font-size:23px;line-height:1.72}
+  body.class-mode .ksec{margin-top:26px}
+  body.class-mode .ksec h4{font-size:15px;letter-spacing:.1em}
+  body.class-mode .ksec p{font-size:18.5px;line-height:1.95}
+  body.class-mode .ka{padding:12px 14px}
+  body.class-mode .ka b{font-size:18px}
+  body.class-mode .ka span{font-size:16.5px}
+  body.class-mode .kc{padding:14px 16px;margin-top:22px}
+  body.class-mode .kc b{font-size:13px}
+  body.class-mode .kc p{font-size:17.5px;line-height:1.9}
+  body.class-mode .ktb{font-size:15.5px}
+  body.class-mode .ktb th{font-size:15px}
+  body.class-mode .ktb td.k{font-size:14px;width:80px}
+  body.class-mode .kq{padding:16px 18px}
+  body.class-mode .kq-no,.body.class-mode .kq-type{font-size:12px}
+  body.class-mode .kq-q{font-size:18.5px;line-height:1.8}
+  body.class-mode .kq-opt{font-size:16.5px;padding:12px 15px}
+  body.class-mode .kq-ans p{font-size:16.5px;line-height:1.9}
+  body.class-mode .kq-exp{font-size:15px;line-height:1.85}
+  body.class-mode .kmedia{margin-top:22px;padding:20px}
+  body.class-mode .kcite{font-size:12px}
+  body.class-mode .knx button{font-size:14px;padding:8px 15px}
+  body.class-mode .kexit-btn{font-size:14px;padding:8px 15px}
+  body.class-mode .kpath{display:none}
+  body.class-mode .tch-lv{margin:0 0 16px}
+
+  /* 今天一条 */
+  .sr-daily{display:flex;align-items:center;gap:10px;margin-bottom:12px;padding:10px 12px;
+    border-radius:9px;background:rgba(216,178,106,.07);border:1px solid rgba(216,178,106,.2);
+    cursor:pointer;transition:background .18s ease,border-color .18s ease}
+  .sr-daily:hover{background:rgba(216,178,106,.14);border-color:rgba(216,178,106,.38)}
+  .sr-daily-tag{flex:0 0 auto;font-size:10px;letter-spacing:.08em;padding:1px 6px;border-radius:4px;
+    color:rgba(240,214,164,.95);border:1px solid rgba(216,178,106,.4)}
+  .sr-daily-txt{min-width:0;flex:1 1 auto}
+  .sr-daily-name{font-size:13.5px;color:rgba(238,244,254,.98)}
+  .sr-daily-line{margin-top:2px;font-size:11.5px;color:rgba(176,196,222,.9);
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .sr-daily-go{flex:0 0 auto;font-size:11.5px;color:rgba(232,196,128,.9)}
+
+  /* 空输入推荐 / 多结果列表头 */
+  .sr-sug{padding:10px 15px 12px;border-bottom:1px solid rgba(120,150,190,.13)}
+  .sr-sug-h{display:flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.06em;
+    color:var(--ink-faint);margin-bottom:8px}
+  .sr-sug-more{margin-left:auto;font:inherit;font-size:11px;padding:2px 8px;border-radius:999px;
+    border:1px solid var(--line);background:transparent;color:var(--ink-dim);cursor:pointer}
+  .sr-sug-more:hover{border-color:rgba(148,182,224,.45);color:var(--ink)}
+  .sr-sug-chips{display:flex;flex-wrap:wrap;gap:6px}
+  /* 第二组（最近看过）与第一组拉开距离，否则看着像同一块 */
+  .sr-sug-chips + .sr-sug-h{margin-top:13px}
+  .sr-sug-chip{font:inherit;font-size:12px;padding:4px 11px;border-radius:999px;
+    border:1px solid rgba(216,178,106,.24);background:rgba(216,178,106,.07);
+    color:rgba(238,214,170,.95);cursor:pointer;transition:background .18s ease,border-color .18s ease}
+  .sr-sug-chip:hover{background:rgba(216,178,106,.16);border-color:rgba(216,178,106,.45)}
+  .sr-sug-chip.ghost{border-color:rgba(140,165,220,.2);background:transparent;color:rgba(186,204,230,.9)}
+  .sr-sug-chip.ghost:hover{background:rgba(148,182,224,.10);border-color:rgba(148,182,224,.4)}
+  .tch-hook{margin-top:12px;font-size:11px;letter-spacing:.02em;color:rgba(150,172,204,.86)}
+  .tch-more{margin-top:14px;display:flex;align-items:center;gap:6px;width:100%;
+    padding:9px 12px;border-radius:8px;border:1px solid rgba(216,178,106,.28);
+    background:rgba(216,178,106,.08);color:rgba(240,214,164,.95);
+    font:inherit;font-size:12.5px;cursor:pointer;transition:background .18s ease}
+  .tch-more:hover{background:rgba(216,178,106,.16)}
+  .tch-more i{margin-left:auto;font-style:normal;opacity:.7}
+
+  /* --- 右侧面板里的知识卡 --- */
+  .kwrap{padding-bottom:8px}
+  /* 链条回退：走过的路径就摆在标题下面，点哪一跳回哪一跳 */
+  .kpath{display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+    margin:0 0 14px;padding-bottom:12px;border-bottom:1px solid rgba(140,165,220,.14)}
+  .kpath-back{font:inherit;font-size:11.5px;padding:3px 10px;border-radius:999px;
+    border:1px solid rgba(216,178,106,.34);background:rgba(216,178,106,.08);
+    color:rgba(240,214,164,.95);cursor:pointer;transition:background .18s ease}
+  .kpath-back:hover{background:rgba(216,178,106,.18)}
+  .kpath-trail{display:flex;align-items:center;gap:5px;flex-wrap:wrap;min-width:0}
+  .kpath-ste{font:inherit;font-size:11.5px;padding:2px 4px;background:transparent;border:0;
+    color:rgba(166,190,222,.86);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+  .kpath-ste:hover{color:rgba(226,238,252,.98)}
+  .kpath-cur{font-size:11.5px;color:rgba(232,196,128,.92)}
+  .kpath-trail i{font-style:normal;font-size:11px;color:rgba(140,160,190,.6)}
+  .knote{margin-top:12px;padding:9px 12px;border-radius:8px;font-size:12px;line-height:1.65;
+    color:rgba(226,214,196,.95);background:rgba(216,178,106,.10);
+    border:1px solid rgba(216,178,106,.22)}
+  .klv{display:flex;align-items:center;gap:8px;margin:0 0 14px}
+  .klv b{font-weight:400;font-size:10.5px;letter-spacing:.08em;color:rgba(150,170,200,.72)}
+  .kline{font-size:16.5px;line-height:1.9;font-weight:500;color:rgba(238,244,254,.99);margin:0 0 4px}
+  .ksec{margin-top:22px}
+  .ksec h4{margin:0 0 8px;font-size:12.5px;font-weight:500;letter-spacing:.08em;
+    color:rgba(232,196,128,.98)}
+  .ksec p{margin:0;font-size:14.5px;line-height:1.95;color:rgba(222,232,246,.95)}
+  .ka{display:flex;align-items:baseline;gap:10px;margin-top:6px;padding:9px 12px;border-radius:8px;
+    background:rgba(255,255,255,.03);cursor:pointer;transition:background .16s ease,box-shadow .16s ease}
+  .ka:hover{background:rgba(148,182,224,.10)}
+  .ka.on{background:rgba(216,178,106,.12);box-shadow:inset 2px 0 0 rgba(216,178,106,.7)}
+  .ka b{font-weight:500;font-size:14px;color:rgba(234,242,254,.99);flex:0 0 auto}
+  .ka span{font-size:13.5px;line-height:1.62;color:rgba(196,210,232,.94)}
+  .ka i{margin-left:auto;font-style:normal;font-size:12px;color:rgba(232,196,128,.55)}
+  .kc{margin-top:18px;padding:12px 14px;border-left:2px solid rgba(232,150,90,.55);
+    background:rgba(232,150,90,.055);border-radius:0 8px 8px 0}
+  .kc b{display:block;font-weight:500;font-size:11.5px;letter-spacing:.1em;
+    color:rgba(246,178,132,.98);margin-bottom:6px}
+  .kc p{margin:0;font-size:14px;line-height:1.9;color:rgba(238,228,220,.96)}
+  .ktb{margin-top:10px;width:100%;border-collapse:collapse;table-layout:fixed;
+    font-size:13.5px;line-height:1.7}
+  .ktb th{font-weight:500;font-size:13px;text-align:left;padding:8px 6px;
+    color:rgba(232,206,158,.98);border-bottom:1px solid rgba(140,165,220,.2)}
+  .ktb td{padding:9px 6px;vertical-align:top;color:rgba(216,228,244,.95);
+    border-bottom:1px solid rgba(120,150,190,.10);word-break:break-word}
+  .ktb td.k{width:66px;color:rgba(166,186,214,.9);font-size:12.5px;white-space:normal}
+  .ktb th.k{width:62px}
+  .sr-empty-wrap{padding:16px}
+  .sr-empty-wrap .sr-empty{padding:0 0 10px}
+  .kexit{margin-top:20px;padding:13px 14px;border-radius:9px;
+    background:rgba(148,182,224,.055);border:1px solid rgba(148,182,224,.16)}
+  .kexit-h{font-size:11.5px;letter-spacing:.06em;color:rgba(176,200,232,.9);margin-bottom:10px}
+  .kexit-row{display:flex;flex-wrap:wrap;gap:7px}
+  .kexit-btn{font:inherit;font-size:12.5px;padding:6px 13px;border-radius:999px;
+    border:1px solid rgba(216,178,106,.3);background:rgba(216,178,106,.08);
+    color:rgba(240,214,164,.96);cursor:pointer;transition:background .18s ease}
+  .kexit-btn:hover{background:rgba(216,178,106,.18)}
+  /* ---- 打印：只留知识卡本体，白底黑字，题目不被切断 ---- */
+  @media print{
+    @page{margin:14mm}
+    html,body{background:#fff !important}
+    #globe-stage,#topbar,#tools,#q-res,.search-wrap,#tip,#cards,.dclose,.kpath,
+    .tch-seg,.tch-lv,.knx,.knext,.kexit,.kmedia,#build-tag{display:none !important}
+    .ka i{display:none !important}
+    #detail{position:static !important;width:auto !important;max-height:none !important;
+      height:auto !important;background:#fff !important;border:0 !important;
+      box-shadow:none !important;color:#111 !important;display:block !important;overflow:visible !important}
+    #detail *{color:#1a1a1a !important;text-shadow:none !important;background-image:none !important}
+    .dhead{padding:0 0 8pt !important;border-bottom:1pt solid #ddd !important}
+    .dhead h2{font-size:20pt !important}
+    #d-sub{font-size:9pt !important;color:#666 !important}
+    .dscroll{overflow:visible !important;max-height:none !important;padding:0 !important}
+    .kline{font-size:14pt !important;line-height:1.7 !important;margin:10pt 0 !important}
+    .ksec{margin-top:12pt !important;break-inside:avoid}
+    .ksec h4{font-size:10.5pt !important;color:#7a5b16 !important}
+    .ksec p{font-size:11pt !important;line-height:1.75 !important}
+    .ka{background:#f6f6f6 !important;border:0.5pt solid #e2e2e2 !important;break-inside:avoid}
+    .kc{border-left:2pt solid #a35a2a !important;background:#fdf7f2 !important}
+    .ktb{font-size:10pt !important}
+    .ktb th{color:#6b4a12 !important;border-bottom:1pt solid #ccc !important}
+    .ktb td{border-bottom:0.5pt solid #e6e6e6 !important}
+    .kq{border:0.8pt solid #ddd !important;background:#fff !important;
+      break-inside:avoid;page-break-inside:avoid;margin-top:10pt !important}
+    .kq-opt{border:0.8pt solid #ccc !important;break-inside:avoid}
+    .kq-opt.ok{border-color:#2e7d32 !important}
+    .kq-opt.ok::after{content:"  ✓";color:#2e7d32 !important}
+    .kq-opt.bad{border-color:#c62828 !important}
+    .kq-opt.dim{opacity:1 !important}
+    .kq-show{display:none !important}
+    .kq-ans{display:none !important;border-left:2pt solid #999 !important;background:#f7f7f7 !important}
+    .kq-ans.on{display:block !important}
+    .kq-exp{display:none !important}
+    .kq-exp.on{display:block !important}
+    .kcite{color:#777 !important;font-size:8.5pt !important}
+  }
+  .kq{margin-top:14px;padding:12px 13px;border-radius:9px;background:rgba(255,255,255,.025);
+    border:1px solid rgba(140,165,220,.12)}
+  .kq-h{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+  .kq-no{font-size:10.5px;letter-spacing:.08em;color:rgba(216,178,106,.85)}
+  .kq-type{font-size:10px;padding:0 5px;border-radius:4px;line-height:1.7;
+    color:rgba(160,186,220,.9);border:1px solid rgba(140,165,220,.24)}
+  .kq-meta{margin-left:auto;font-size:10.5px;letter-spacing:.06em;color:rgba(150,172,204,.9)}
+  .kq-q{margin:0 0 10px;font-size:14.5px;line-height:1.85;color:rgba(234,242,254,.98)}
+  .kq-opts{display:flex;flex-direction:column;gap:6px}
+  .kq-opt{font:inherit;font-size:13.5px;text-align:left;padding:9px 12px;border-radius:7px;
+    border:1px solid rgba(140,165,220,.18);background:rgba(255,255,255,.02);
+    color:rgba(206,220,240,.92);cursor:pointer;transition:background .16s ease,border-color .16s ease}
+  .kq-opt:hover{background:rgba(148,182,224,.09);border-color:rgba(148,182,224,.34)}
+  .kq-opt.ok{border-color:rgba(95,214,164,.55);background:rgba(95,214,164,.10);color:rgba(200,244,226,.96)}
+  .kq-opt.bad{border-color:rgba(232,121,138,.55);background:rgba(232,121,138,.10);color:rgba(250,214,220,.96)}
+  .kq-opt.dim{opacity:.55}
+  .kq-ans{display:none;margin-top:2px;padding:10px 12px;border-radius:7px;
+    background:rgba(148,182,224,.06);border-left:2px solid rgba(148,182,224,.4)}
+  .kq-ans.on{display:block}
+  .kq-ans b{display:block;font-weight:400;font-size:10.5px;letter-spacing:.08em;
+    color:rgba(176,200,232,.82);margin-bottom:5px}
+  .kq-ans p{margin:0;font-size:13.5px;line-height:1.9;color:rgba(218,230,246,.95)}
+  .kq-show{margin-top:8px;font:inherit;font-size:12px;padding:6px 12px;border-radius:7px;
+    border:1px dashed rgba(148,182,224,.34);background:transparent;
+    color:rgba(196,214,240,.9);cursor:pointer}
+  .kq-show:hover{border-color:rgba(216,178,106,.5);color:rgba(240,214,164,.95)}
+  .kq-exp{display:none;margin-top:10px;padding-top:9px;border-top:1px dashed rgba(140,165,220,.18);
+    font-size:12.5px;line-height:1.85;color:rgba(196,212,234,.94)}
+  .kq-exp.on{display:block}
+  .kquiz-note{margin:4px 0 0;font-size:12px;line-height:1.7;color:rgba(150,170,200,.82)}
+  .kmedia{margin-top:18px;padding:16px 14px;border-radius:9px;border:1px dashed rgba(148,182,224,.24);
+    background:rgba(148,182,224,.04);text-align:center}
+  .kmedia b{display:block;font-weight:400;font-size:11px;letter-spacing:.1em;
+    color:rgba(176,200,232,.82);margin-bottom:6px}
+  .kmedia span{font-size:13px;color:rgba(186,206,234,.95)}
+  .knx{display:flex;flex-wrap:wrap;gap:7px;margin-top:9px}
+  .knx button{font:inherit;font-size:12.5px;padding:6px 13px;border-radius:999px;
+    border:1px solid rgba(140,165,220,.22);background:transparent;color:rgba(186,204,230,.92);
+    cursor:pointer;transition:border-color .18s ease,color .18s ease}
+  .knx button:hover{border-color:rgba(216,178,106,.5);color:rgba(240,214,164,.95)}
+  .knx button.pend{color:rgba(140,158,186,.62);border-style:dashed}
+  .kcite{margin-top:22px;padding-top:12px;border-top:1px solid rgba(140,165,220,.14);
+    font-size:11.5px;line-height:1.72;color:rgba(138,154,182,.92)}
   .sr-empty{padding:16px;font-size:12.5px;color:var(--ink-faint);line-height:1.6}
   /* "基础"标签：表示这个国家只有几何/地名/人口，多模态在队列里。
      现在它跟在主标题后面（行内），所以要 inline-block 才能吃 padding。 */
@@ -808,6 +1080,7 @@ body.panel-open #globe-stage{
   /* 品牌字压在球上也读得清：投影而不是底衬，不遮挡画面 */
   text-shadow:0 2px 10px rgba(0,0,0,.75), 0 0 2px rgba(0,0,0,.6);
 }
+.brand-txt{display:flex;flex-direction:column;min-width:0}
 .brand-en{font-size:10px;letter-spacing:.22em;text-transform:uppercase;
   color:var(--ink-faint);text-shadow:0 1px 6px rgba(0,0,0,.8)}
 
@@ -1898,6 +2171,8 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
   #topbar{padding:12px 14px;gap:10px;flex-wrap:nowrap}
   .brand-en{display:none}
   .brand-cn{font-size:17px}
+  /* 搜索框展开时把品牌文字收起来，宽度让给输入框（见 setSearch） */
+  #topbar.searching .brand-txt{display:none}
   .topbar-meta{display:none}
   .search-wrap{width:128px;height:42px;flex:0 0 auto}
   .search-panel{height:42px}
@@ -1952,6 +2227,12 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
    竖屏那套"从底下抽上来"的抽屉在横屏会把地球整个盖住；
    这里仍用右侧栏，但要收窄、留白压到 8px，并给主图限高 ——
    否则一张 16:10 的照片就吃掉整屏，正文要一直往下滑。 */
+/* 极窄屏（320 一档）：让出品牌文字后还差约 20px，连 logo 一起收起来，
+   否则那句提示最后一个字会被切掉。 */
+@media (max-width:340px){
+  #topbar.searching .brand{display:none}
+}
+
 @media (max-height:520px) and (orientation:landscape){
   #detail{
     top:8px;right:8px;bottom:8px;
@@ -1990,7 +2271,9 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
   <div class="brand">
     <!-- 点阵球：球面均匀采点正交投影，边缘自然密成一圈。见 scripts/make_logo.py -->
     <img class="brand-logo" src="assets/logo.png" alt="" width="28" height="28">
-    <span class="brand-cn">寰宇图志</span>
+    <div class="brand-txt">
+      <span class="brand-cn">寰宇图志</span>
+    </div>
   </div>
   <!-- 搜索：默认是一个短输入框，点一下（或键盘聚焦）展开变长，同时直接列出全部国家。
        不设下拉按钮：点框即出列表，要搜索直接在展开的框里打字。 -->
@@ -2002,7 +2285,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       </svg>
       <input type="search" id="q" autocomplete="off" spellcheck="false"
              placeholder=""
-             aria-label="搜索国家、地标，或直接提问（如：法国人吃什么、埃及有什么宗教）">
+             aria-label="点一个地方，或问一个地理问题">
       <button class="search-clear" id="search-clear" type="button" aria-label="清空搜索">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <line x1="7" y1="7" x2="17" y2="17"></line>
@@ -3943,18 +4226,660 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     return box;
   }
 
+
+  /* ================= 教学层 v2 =================
+     两层：
+     1) 下拉里的摘要卡（快看一眼）—— 原样保留；
+     2) 右侧面板里的详解卡（照档案卡的样式与位置）—— 新增，回车或点「展开详解」进入。
+     不碰 buildIdx / 档案 JSON / 3D 场景。 */
+  var TEACH = [{"id":"monsoon","kind":"concept","name":"季风","alias":["季风气候","季风区","monsoon"],"level":{"jr":"七年级上 · 天气与气候","sr":"必修一 · 大气环流"},"line":"一年之内风向随季节近乎反向的盛行风，由海陆热力差驱动。","why":"夏季陆地升温快、成低压，风从海洋吹向陆地；冬季陆地冷、成高压，风反过来。东亚背靠最大的大陆、面朝最大的大洋，所以季风最强、最典型。","mech":"南亚还叠加了青藏高原的作用：高原夏季像一台加热器把赤道气流吸上来，西南季风因此“爆发式”到来，而不是慢慢加强。","anchors":[{"iso":"CN","where":"中国东部","see":"六月梅雨、七八月伏旱，雨热同期"},{"iso":"IN","where":"印度西南","see":"六月西南季风先到喀拉拉邦，全国等雨开耕"},{"iso":"SO","where":"索马里","see":"夏季同样刮西南风，却是离岸风，干燥少雨"}],"counter":"季风不等于多雨：索马里夏季正处在西南季风里，却因为风从陆地吹向海洋而干旱。把“季风区＝湿润”当通例，是把东亚的经验当成了全世界的规律。","next":[{"q":"中国北方为什么春天总缺水","to":"china-climate"},{"q":"梅雨是谁按住的","to":"fronts"}],"cite":"依据：中国／印度／索马里三份档案的气候问答字段，加自然地理常识；组内整理，未引用教材原文。","cat":"大气","sections":[{"h":"为什么","p":"夏季陆地升温快、成低压，风从海洋吹向陆地；冬季陆地冷、成高压，风反过来。东亚背靠最大的大陆、面朝最大的大洋，所以季风最强、最典型。"}],"media":null,"tags":["季风","夏季风","雨季","海陆热力差","雨热同期"],"quiz":[{"lv":"jr","type":"choice","q":"我国东部季风区夏季盛行的风向主要是","opts":["西北风","东南风","西南风","东北风"],"ans":1,"exp":"夏季风从海洋吹向陆地，我国东部受来自太平洋的东南季风影响，所以降水集中在夏季，形成雨热同期。","diff":1,"tag":["大气","季风","概念辨析"]},{"lv":"sr","type":"short","q":"说明青藏高原对南亚西南季风“爆发式”来临的作用。","ans":"① 夏季高原强烈加热，近地面形成热低压，把赤道以南的西南气流吸上来；② 高原作为高大屏障阻挡北方冷空气南下，使西南季风势力更强；③ 气流受地形抬升，形成大量降水。","exp":"注意高原的作用是“加热 + 阻挡”两件事，不是单纯“挡风”。只写“地形抬升”只答到第三点。","diff":3,"tag":["大气","季风","机制分析"]}]},{"id":"plate","kind":"concept","name":"板块运动","alias":["板块","板块构造","板块边界","plate"],"level":{"jr":"七年级上 · 海陆变迁","sr":"必修一 · 地表形态"},"line":"岩石圈被切成若干刚性板块，它们在软流圈上移动，交界处集中了全球绝大多数地震和火山。","why":"边界分三类：张裂（大洋中脊、东非大裂谷）、碰撞（喜马拉雅）、俯冲（日本海沟、安第斯）。地震带基本就画在这些线上，所以“地震多”往往是一个地方处在什么边界的直接证据。","mech":"板块运动的驱动力至今仍是前沿问题：地幔对流、板片下拉、地幔柱各有支持证据，中学教材只讲“在移动”，不讲“为什么动”——这一点在大学会被推翻重讲。","anchors":[{"iso":"NP","where":"喜马拉雅","see":"印度板块顶到欧亚板块，山还在长高"},{"iso":"JP","where":"日本海沟","see":"太平洋板块俯冲下去，地震与海啸的来源"},{"iso":"KE","where":"东非大裂谷","see":"板块正在张裂，裂谷每年变宽几毫米"}],"counter":"板块边界不是国界，也不是地图上画出来的线：同一片海域可以既有俯冲又有转换断层，判断依据是两侧板块的性质。","next":[{"q":"山脉是怎么挤出来的","to":"structures"},{"q":"为什么山会被削平","to":"exogenic"}],"cite":"依据：地质学通识（板块构造三类边界）；地震带分布与各国档案的地理位置一致。","cat":"地质","sections":[{"h":"为什么","p":"边界分三类：张裂（大洋中脊、东非大裂谷）、碰撞（喜马拉雅）、俯冲（日本海沟、安第斯）。地震带基本就画在这些线上，所以“地震多”往往是一个地方处在什么边界的直接证据。"}],"media":null,"tags":["板块","地震","火山","喜马拉雅","海沟","东非大裂谷"],"quiz":[{"lv":"jr","type":"choice","q":"喜马拉雅山脉形成的主要原因是","opts":["板块张裂","板块碰撞挤压","流水侵蚀","火山堆积"],"ans":1,"exp":"印度板块与欧亚板块碰撞，岩层褶皱抬升，山还在长高。","diff":1,"tag":["地质","板块运动","概念辨析"]},{"lv":"sr","type":"short","q":"说明日本多地震的原因，并指出与我国西南地区地震成因的不同。","ans":"日本位于太平洋板块向欧亚板块俯冲的边界，板片摩擦、破裂频繁，地震多且常有海啸。我国西南为印度板块与欧亚板块碰撞挤压带，以逆冲型地震为主。","exp":"都是“板块边界”，但一个是俯冲、一个是碰撞，机制不同不能混写。","diff":2,"tag":["地质","板块运动","机制分析"]}]},{"id":"current","kind":"concept","name":"洋流与渔场","alias":["洋流","渔场","寒暖流","current"],"level":{"jr":"七年级上 · 海洋","sr":"必修一 · 海水运动"},"line":"表层海水的大规模定向流动；寒暖流交汇处或冷水上升处，最容易形成大渔场。","why":"交汇处海水被搅动，底层的营养盐被带上来，浮游生物爆发，鱼群随之聚集；上升流区是同一机制的另一条路——不用交汇，只要深层冷水能上来。","mech":"渔场位置还受大陆架宽度、河流入海营养、以及历史过度捕捞影响，所以“有渔场”与“现在还有鱼”是两件事。","anchors":[{"iso":"JP","where":"北海道渔场","see":"日本暖流与千岛寒流交汇，世界四大渔场之一"},{"iso":"CA","where":"纽芬兰渔场","see":"墨西哥湾暖流与拉布拉多寒流交汇，曾因滥捕崩溃"},{"iso":"PE","where":"秘鲁沿岸","see":"上升流把营养盐带上来，鳀鱼产量世界前列"}],"counter":"鱼多不等于水暖：秘鲁渔场靠的是冷水上升，水温比同纬度更低。把“渔场＝暖海”记反了，就会解释不了秘鲁和西北非。","next":[{"q":"为什么西欧冬天不冷","to":"oceanic"},{"q":"日本为什么鱼吃得多","to":"cmp-diet"}],"cite":"依据：档案中日本／加拿大／秘鲁的地理位置与洋流常识；纽芬兰崩溃为公认史实（1992 年禁渔）。","cat":"海洋","sections":[{"h":"为什么","p":"交汇处海水被搅动，底层的营养盐被带上来，浮游生物爆发，鱼群随之聚集；上升流区是同一机制的另一条路——不用交汇，只要深层冷水能上来。"}],"media":null,"tags":["洋流","渔场","寒流","暖流","秘鲁","北海道"],"quiz":[{"lv":"jr","type":"choice","q":"北海道渔场形成的主要原因是","opts":["只有单一暖流经过","寒暖流交汇","上升流带来营养盐","河流入海带来养分"],"ans":1,"exp":"日本暖流与千岛寒流交汇，海水搅动把营养盐带到表层。","diff":1,"tag":["海洋","洋流与渔场","概念辨析"]},{"lv":"sr","type":"short","q":"比较秘鲁渔场与纽芬兰渔场成因的异同。","ans":"相同：都是营养盐丰富、浮游生物多，鱼类聚集。不同：秘鲁渔场靠沿岸上升流把深层冷水与营养盐带上来，水温偏低；纽芬兰渔场靠寒暖流交汇搅动海水。","exp":"两者机制不同，答题要分开写，不能一句“寒暖流交汇”套两个。","diff":2,"tag":["海洋","洋流与渔场","机制分析"]}]},{"id":"oceanic","kind":"concept","name":"温带海洋性气候","alias":["海洋性气候","温带海洋气候","oceanic"],"level":{"jr":"七年级上 · 世界气候","sr":"必修一 · 气候类型"},"line":"全年温和、降水季节分配均匀，只出现在南北纬 40°–60° 的大陆西岸。","why":"常年受西风带控制，海洋暖湿气流被带上岸；冬季有暖流增温，最冷月也不太冷。所以它的两个特征词是“均匀”和“西岸”，缺一个就不成立。","mech":"“西岸”不是地理偏见，是环流决定的：同一纬度的大陆东岸是季风或大陆性气候，因为风从陆地吹向海洋，水汽来源相反。","anchors":[{"iso":"GB","where":"英国","see":"西风加北大西洋暖流，同纬度港口冬季不冻"},{"iso":"NZ","where":"新西兰","see":"南半球同纬度西岸，四季温差更小"},{"iso":"CL","where":"智利南部","see":"西风带常年吹，年降水两千毫米以上"}],"counter":"同纬度的大陆东岸完全不是这样：中国东北在同纬度是冬冷夏热、降水集中在夏季。所以看到“温带海洋性”，先确认它在不在西岸——这正是现在搜索会把北马里亚纳群岛排进来的原因，而它在西太平洋热带。","next":[{"q":"同纬度东岸为什么冬冷夏热","to":"monsoon-temperate"},{"q":"暖流到底能暖多少","to":"current"}],"cite":"依据：英国／新西兰／智利档案的气候字段；本条同时用于修正一个现存错答（搜“温带海洋性气候”会命中北马里亚纳群岛）。","cat":"世界气候","sections":[{"h":"为什么","p":"常年受西风带控制，海洋暖湿气流被带上岸；冬季有暖流增温，最冷月也不太冷。所以它的两个特征词是“均匀”和“西岸”，缺一个就不成立。"}],"media":null,"tags":["温带海洋性","西风","全年湿润","不冻港","西欧"],"quiz":[{"lv":"jr","type":"choice","q":"温带海洋性气候主要分布在","opts":["大陆东岸中纬度","大陆西岸 40°—60°","赤道两侧","极圈以内"],"ans":1,"exp":"它是“西岸气候”：常年受西风带控制、冬季有暖流增温。同纬度的东岸是温带季风或大陆性，不属此类。","diff":1,"tag":["世界气候","温带海洋性气候","概念辨析","季风"]},{"lv":"sr","type":"short","q":"说明温带海洋性气候“只出现在大陆西岸”的原因，并解释同纬度东岸为什么不是这种气候。","ans":"西岸位于西风带迎风侧，海洋暖湿气流被带上岸，冬季受暖流增温，全年温和湿润；东岸风从陆地吹向海洋，水汽来源相反，形成冬冷夏热、降水集中夏季的温带季风或温带大陆性气候。","exp":"关键在“风从海吹向陆”还是“从陆吹向海”，不是纬度本身。","diff":2,"tag":["世界气候","温带海洋性气候","机制分析"]}]},{"id":"zonality","kind":"concept","name":"纬度地带性","alias":["地带性","自然带","纬度地带","zonality"],"level":{"jr":"七年级上 · 自然景观","sr":"必修一 · 地理环境差异性"},"line":"热量随纬度递减，自然带从赤道向两极依次更替：雨林—草原—沙漠—温带—针叶林—苔原。","why":"太阳高度角随纬度变化，是这条规律的总开关。它解释的是“大趋势”，不是每一块地方——所以教材讲完地带性，紧接着就讲非地带性。","mech":"非地带性的三类成因：海陆位置（离海远近）、洋流（寒流降温减湿）、地形（背风坡焚风）。任何一条都能把某个地方从它“该在”的带里拽出来。","anchors":[{"iso":"BR","where":"亚马孙","see":"赤道雨林，全年高温多雨"},{"iso":"AR","where":"潘帕斯","see":"同纬度偏南，草原取代雨林"},{"iso":"CL","where":"火地岛以北","see":"温带针叶与苔原过渡"}],"counter":"南美西岸同纬度是阿塔卡马沙漠——秘鲁寒流降温减湿、副高下沉、又在安第斯背风坡，三个因素叠在一起。说明纬度只是必要条件，不是充分条件。","next":[{"q":"同纬度为什么一边雨林一边沙漠","to":"desert"},{"q":"为什么南美西岸是沙漠","to":"current"}],"cite":"依据：巴西／阿根廷／智利档案的气候与地形字段；非地带性三成因为自然地理通识。","cat":"自然带","sections":[{"h":"为什么","p":"太阳高度角随纬度变化，是这条规律的总开关。它解释的是“大趋势”，不是每一块地方——所以教材讲完地带性，紧接着就讲非地带性。"}],"media":null,"tags":["地带性","自然带","纬度","非地带性","沙漠成因"],"quiz":[{"lv":"jr","type":"choice","q":"自然带从赤道向两极依次更替，主导因素是","opts":["热量","水分","地形","洋流"],"ans":0,"exp":"太阳高度随纬度递减，热量是这条规律的总开关；水分更多解释经度方向（沿海到内陆）的差异。","diff":1,"tag":["自然带","纬度地带性","概念辨析"]},{"lv":"sr","type":"short","q":"以阿塔卡马沙漠为例，说明“纬度地带性不是唯一规律”。","ans":"阿塔卡马位于南美西岸，按纬度应属热带或亚热带，但常年受副热带高压控制、沿岸秘鲁寒流降温减湿、又处于安第斯背风坡，三重因素叠加形成世界干极，与同纬度自然带完全不同。这属于非地带性现象。","exp":"要写出三种非地带性成因（环流、洋流、地形），只写“靠海”解释不了它为什么比内陆还干。","diff":2,"tag":["自然带","纬度地带性","机制分析","洋流"]}]},{"id":"diffusion","kind":"concept","name":"文化扩散","alias":["文化传播","文化扩散","diffusion"],"level":{"jr":"七年级上 · 居民与聚落","sr":"必修二 · 人口与文化"},"line":"文化要素会沿着人、货、路移动；落地之后往往被本地条件改写，而不是原样保留。","why":"扩散的通道有三类：迁移（人口带着走）、商贸（货物带着走）、传布（宗教与语言）。改写的原因通常是本地的物产、气候和已有的口味习惯。","mech":"所以“某国文化纯正”几乎不成立：能被追溯来源的要素（作物、宗教、乐器）通常都是扩散来的，本地化的部分才是差异所在。","anchors":[{"iso":"MX","where":"墨西哥","see":"辣椒原产美洲，16 世纪经海路进入中国"},{"iso":"SA","where":"阿拉伯半岛","see":"伊斯兰教沿商路扩散到北非、中亚、东南亚"},{"iso":"IN","where":"印度","see":"印度教与佛教随贸易传向东南亚，吴哥与婆罗浮屠是物证"}],"counter":"扩散不是照搬：辣椒到四川变成麻辣，到泰国变成酸辣，到印度融进咖喱体系——同一种作物，三种完全不同的味型。看文化差异要问“怎么被改写”，不是“从哪来”。","next":[{"q":"辣椒怎么进了川菜","to":"cmp-diet"},{"q":"宗教为什么能传这么远","to":"religion"}],"cite":"依据：墨西哥／沙特／印度档案的文化与饮食字段；辣椒传播路径为公认史实（明代经海路入华）。","cat":"文化","sections":[{"h":"为什么","p":"扩散的通道有三类：迁移（人口带着走）、商贸（货物带着走）、传布（宗教与语言）。改写的原因通常是本地的物产、气候和已有的口味习惯。"}],"media":null,"tags":["文化扩散","文化传播","辣椒","宗教传播","移民"],"quiz":[{"lv":"jr","type":"choice","q":"辣椒原产美洲，传入中国后形成的典型味型是","opts":["酸辣","麻辣","咖喱","甜辣"],"ans":1,"exp":"四川把辣椒与花椒结合成麻辣，泰国是酸辣，印度融进咖喱——同一个作物，三种改写。","diff":1,"tag":["文化","文化扩散","概念辨析"]},{"lv":"sr","type":"short","q":"说明文化扩散中“本地化改写”的原因，并举两例。","ans":"原因：本地物产、气候与既有口味会筛选并改造外来要素，扩散不是原样搬运。例：辣椒入川与花椒结合成麻辣；伊斯兰教传入东南亚后与本地习俗融合，形成不同于阿拉伯半岛的实践。","exp":"答题落点要写“条件改写文化”，而不是“文化自己变化”。","diff":2,"tag":["文化","文化扩散","机制分析"]}]},{"id":"oasis","kind":"concept","name":"绿洲农业","alias":["绿洲","灌溉农业","oasis"],"level":{"jr":"七年级下 · 干旱地区","sr":"必修二 · 农业区位"},"line":"干旱区靠河流、地下水或人工灌溉维持的农业；人口沿水线分布，而不是按面积均匀分布。","why":"干旱区的限制因子是水，不是土地。所以聚落与耕地会挤成一条线：埃及 99% 的人口集中在尼罗河两岸和三角洲，占国土面积不到 5%。","mech":"绿洲的规模由水量决定，不由开垦意愿决定；一旦上游取水增加，下游绿洲会整体退化成盐碱地——咸海就是最典型的例子。","anchors":[{"iso":"EG","where":"尼罗河走廊","see":"一条河养活一亿人，两侧就是沙漠"},{"iso":"UZ","where":"阿姆河下游","see":"大规模棉田灌溉，咸海面积萎缩"},{"iso":"LY","where":"利比亚","see":"无常年河，靠地下水管道输水"}],"counter":"同样干旱，没有稳定水源就没有绿洲：利比亚靠人工输水维持，一旦断供就废。所谓“沙漠里的农业”从来不是靠沙漠，是靠别处来的水。","next":[{"q":"埃及人为什么都住在河边","to":"population"},{"q":"滴灌能改变什么","to":"agri-location"}],"cite":"依据：埃及／乌兹别克斯坦／利比亚档案的地形与人口字段；咸海萎缩为公认环境事件。","cat":"农业","sections":[{"h":"为什么","p":"干旱区的限制因子是水，不是土地。所以聚落与耕地会挤成一条线：埃及 99% 的人口集中在尼罗河两岸和三角洲，占国土面积不到 5%。"}],"media":null,"tags":["绿洲","灌溉","尼罗河","棉花","滴灌","干旱区农业"],"quiz":[{"lv":"jr","type":"choice","q":"埃及的人口与耕地主要集中在","opts":["沙漠腹地","尼罗河沿岸与三角洲","地中海沿岸","西奈半岛"],"ans":1,"exp":"全国绝大部分是沙漠，只有尼罗河走廊与三角洲有水与冲积土，99% 的人口集中于此。","diff":1,"tag":["农业","绿洲农业","概念辨析"]},{"lv":"sr","type":"short","q":"说明绿洲农业的规模由什么决定，并解释咸海萎缩的原因。","ans":"规模由可用水量决定，不由开垦意愿决定。咸海萎缩：阿姆河、锡尔河上游大规模引水灌溉棉田，入湖水量锐减，湖面缩小、盐度上升，周边土地盐碱化。","exp":"要写出“上游取水增加→入湖减少”这条因果链，只写“气候干旱”不成立。","diff":2,"tag":["农业","绿洲农业","机制分析"]}]},{"id":"cmp-diet","kind":"compare","name":"日本 vs 中国 · 饮食","alias":["日本和中国饮食","中日饮食","日本中国饮食","日本 中国 饮食","日本 vs 中国 饮食","日本vs中国饮食","中日饮食对比","中日饮食差异"],"a":"JP","b":"CN","dim":"饮食","rows":[{"k":"位置","a":"岛国，四面环海","b":"大陆东岸，季风区"},{"k":"气候","a":"温带海洋性向亚热带过渡","b":"南亚热带到中温带，南北跨度大"},{"k":"蛋白来源","a":"海产为主，渔场密集","b":"农牧并重，猪肉与豆制品比重大"},{"k":"主食","a":"米饭为主，配菜量小","b":"南稻北麦，两熟制"},{"k":"加工方式","a":"生食、少油、突出原味","b":"熟食为主，发酵与油脂调味"},{"k":"保存手段","a":"腌渍、风干、冷链","b":"酱、腌、腊、酒糟"}],"why":"岛国加寒暖流交汇，渔获多且抵岸新鲜，生食才成立；大陆季风区以农耕为底，谷物充足但肉少，于是发酵（酱、腌、酒）成了提味与保存的主要手段。差异是条件推出来的，不是口味偏好。","counter":"这不是“日本人爱吃生鱼”的性格差异：内陆国家同样临海也未必生食——生食的门槛是冷链与渔场距离，不是文化性格。","next":[{"q":"日本为什么靠海吃海","to":"current"},{"q":"中国南方为什么吃米","to":"agri-china"}],"cite":"依据：两国档案的饮食、农作物与位置字段；日本 cuisine 维度在现有档案中为空，本条为组内补写，需标注来源后入库。","cat":"文化对比","sections":[{"h":"为什么","p":"岛国加寒暖流交汇，渔获多且抵岸新鲜，生食才成立；大陆季风区以农耕为底，谷物充足但肉少，于是发酵（酱、腌、酒）成了提味与保存的主要手段。差异是条件推出来的，不是口味偏好。"}],"media":null,"tags":["日本饮食","生食","海产","生鱼片","中日对比","寿司"],"quiz":[{"lv":"jr","type":"choice","q":"日本饮食中海产比重高，最主要的自然原因是","opts":["气候寒冷","岛国、渔场密集","耕地广阔","河流众多"],"ans":1,"exp":"四面环海且寒暖流交汇，渔获多且抵岸新鲜，生食传统才成立。","diff":1,"tag":["文化对比","日本 vs 中国 · 饮食","概念辨析"]},{"lv":"sr","type":"short","q":"从自然条件比较中日两国饮食结构的差异。","ans":"日本：岛国、渔场密集，海产丰富，山地多耕地少，稻米珍贵，形成“米饭 + 海产 + 少油生食”的结构。中国：大陆性季风气候，南北跨度大，南稻北麦，谷物充足而肉少，发展出以发酵与油脂提味的熟食体系。","exp":"两边都要写“条件→结构”，只写吃什么不得分。","diff":2,"tag":["文化对比","日本 vs 中国 · 饮食","机制分析"]}]},{"id":"cmp-fest","kind":"compare","name":"埃及 vs 巴西 · 节日与宗教","alias":["埃及和巴西节日","埃巴节日","埃及巴西宗教","埃及 巴西 节日","埃及 vs 巴西 节日","埃及vs巴西节日","埃巴节日对比"],"a":"EG","b":"BR","dim":"节日","rows":[{"k":"主要宗教","a":"伊斯兰教（逊尼派为主）","b":"天主教为主"},{"k":"最大节日","a":"开斋节、宰牲节","b":"狂欢节、圣诞节"},{"k":"历法基础","a":"伊斯兰历（纯阴历）","b":"公历＋教会历（锚定复活节）"},{"k":"日期是否浮动","a":"每年提前约 11 天","b":"狂欢节随复活节浮动"},{"k":"节日吃什么","a":"开斋节甜点、宰牲节羊肉","b":"狂欢节街头饮食、圣诞火鸡"},{"k":"节日与气候","a":"与季节无关，会在四季中轮转","b":"固定在夏初（南半球初秋）"}],"why":"节日跟着宗教历法走。伊斯兰历一年比公历短约 11 天，所以开斋节在公历上逐年提前，会在四季里轮转；天主教节日锚在阳历与复活节，日期基本固定在季节里。","counter":"把节日当固定日期记，年年都会错：同一个国家，同一个节，今年的日期明年就不一样。这是“文化差异”里最容易被忽略的一层——历法本身不同。","next":[{"q":"为什么伊斯兰节日每年提前","to":"religion"},{"q":"节日为什么会跟着宗教走","to":"diffusion"}],"cite":"依据：两国档案的宗教与节日字段；伊斯兰历与公历的年差为历法常识（约 11 天）。","cat":"文化对比","sections":[{"h":"为什么","p":"节日跟着宗教历法走。伊斯兰历一年比公历短约 11 天，所以开斋节在公历上逐年提前，会在四季里轮转；天主教节日锚在阳历与复活节，日期基本固定在季节里。"}],"media":null,"tags":["开斋节","狂欢节","宗教节日","节日日期","伊斯兰历"],"quiz":[{"lv":"jr","type":"choice","q":"开斋节属于哪个宗教的节日","opts":["基督教","伊斯兰教","佛教","印度教"],"ans":1,"exp":"伊斯兰教两大节日之一（另一为宰牲节），在斋月结束后的第一天。","diff":1,"tag":["文化对比","埃及 vs 巴西 · 节日与宗教","概念辨析"]},{"lv":"sr","type":"short","q":"说明开斋节在公历上的日期为什么每年提前约 11 天。","ans":"伊斯兰历是纯阴历，一年约 354 天，比公历短约 11 天；节日按伊斯兰历固定日期，所以在公历上逐年提前，约 33 年轮转一周，会在四季中变化。巴西的狂欢节则锚定复活节，日期随复活节浮动。","exp":"要点是“历法长度不同”，不是“宗教规定日期变”。","diff":2,"tag":["文化对比","埃及 vs 巴西 · 节日与宗教","机制分析"]}]},{"id":"cmp-farm","kind":"compare","name":"法国 vs 中国 · 农业与餐桌","alias":["中法农业","法国中国农业","法国 中国 农业","法国和中国农业","法国 vs 中国 农业","法国vs中国农业","中法农业对比"],"a":"FR","b":"CN","dim":"农业","rows":[{"k":"气候","a":"温带海洋性向地中海过渡","b":"季风为主，雨热同期"},{"k":"降水","a":"全年较均匀，夏不酷热","b":"集中在夏季，年际波动大"},{"k":"主要作物","a":"小麦、葡萄、牧草、乳畜","b":"水稻、小麦、蔬菜、玉米"},{"k":"经营规模","a":"农场面积大，商品率高","b":"户均耕地小，精耕细作"},{"k":"餐桌结构","a":"面包＋乳制品＋葡萄酒","b":"主食＋多菜共享，蔬菜比重大"},{"k":"为什么","a":"降水均匀适合牧草与葡萄","b":"雨热同期适合谷物复种"}],"why":"法国降水均匀、夏季不酷热，牧草和葡萄都能长，于是乳畜与葡萄酒成了产业符号；中国季风区雨热同期，谷物可以一年两熟，但降水波动大，蔬菜与复种成了稳产手段。","counter":"“西方吃面包”是简化：法国南部也吃米（卡马格红米），北部以马铃薯为辅。用一国餐桌代表一整个洲，是地理课最常犯的错。","next":[{"q":"葡萄酒为什么长在西岸","to":"mediterranean"},{"q":"季风区为什么旱涝多","to":"china-climate"}],"cite":"依据：两国档案的农业与气候字段；卡马格红米为法国本地事实，需补入档案后生效。","cat":"农业对比","sections":[{"h":"为什么","p":"法国降水均匀、夏季不酷热，牧草和葡萄都能长，于是乳畜与葡萄酒成了产业符号；中国季风区雨热同期，谷物可以一年两熟，但降水波动大，蔬菜与复种成了稳产手段。"}],"media":null,"tags":["法国农业","葡萄酒","乳畜","中法对比","小麦"],"quiz":[{"lv":"jr","type":"choice","q":"法国南部地中海气候区有利于葡萄种植的条件是","opts":["夏季高温多雨","夏季炎热干燥、光照充足","全年低温","降水四季均匀"],"ans":1,"exp":"夏干利于糖分积累、减少病害；冬温湿补足水分。所以葡萄酒产区与地中海气候高度重合。","diff":1,"tag":["农业对比","法国 vs 中国 · 农业与餐桌","概念辨析"]},{"lv":"sr","type":"short","q":"比较法国与中国农业在气候条件与经营方式上的差异。","ans":"气候：法国以温带海洋性为主、南部地中海，降水全年较均匀、夏不酷热；中国以季风为主，雨热同期但年际波动大。经营：法国农场规模大、商品率高、乳畜与葡萄专业化；中国户均耕地小、精耕细作、复种指数高。","exp":"气候与经营要分开写，两边各给一个因果。","diff":2,"tag":["农业对比","法国 vs 中国 · 农业与餐桌","机制分析"]}]},{"id":"graticule","kind":"concept","name":"经纬网","cat":"地球与地图","alias":["经纬度","经纬线","经线纬线","坐标"],"level":{"jr":"七年级上 · 地球和地图","sr":"必修一 · 地球运动"},"line":"用纬线和经线把地表切成网格，任何一点都能用一对数字定位。","why":"纬线指示南北，0° 是赤道，向两极各 90°；经线指示东西，0° 是本初子午线，向东向西各 180°。纬度决定太阳高度，经度决定时差。","sections":[{"h":"怎么读一个坐标","p":"先说纬度再说经度：北纬记 N、南纬记 S、东经记 E、西经记 W。纬度看南北半球，经度看东西半球——20°W 与 160°E 是东西半球的分界，不是 0° 和 180°。"},{"h":"为什么它是地基","p":"同一纬度太阳高度相近，所以自然带沿纬向排布；同一经度地方时相近，所以时区沿经向划分。后面讲气候和时区，全靠这张网。"}],"anchors":[{"iso":"EC","where":"厄瓜多尔","see":"赤道穿国而过，国名就是“赤道”"},{"iso":"KE","where":"肯尼亚","see":"赤道横穿中部，南北方季节相反"},{"iso":"GB","where":"格林尼治","see":"本初子午线起点，0° 经线所在地"}],"counter":"经纬网是角度不是距离：纬度 1° 永远是 111 公里，经度 1° 在赤道是 111 公里、到了两极变成 0。所以极地地图上经线会挤在一起。","media":{"hint":"经纬网展开动画：球面网格 → 平面方格纸"},"next":[{"q":"同一条经线上的人为什么同时看到日出","to":"rotation"},{"q":"为什么跨过太平洋要改日期","to":"timezone"}],"cite":"依据：地球坐标常识；格林尼治天文台位于英国伦敦。","tags":["经度","纬度","赤道","本初子午线","坐标定位","东西半球"],"quiz":[{"lv":"jr","type":"choice","q":"经线指示的方向是","opts":["东西方向","南北方向","东北方向","没有固定方向"],"ans":1,"exp":"纬线指示东西，经线指示南北；两条线在极点汇合。","diff":1,"tag":["地球与地图","经纬网","概念辨析"]},{"lv":"sr","type":"short","q":"说明纬度 1° 与经度 1° 的长度差异及其原因。","ans":"纬度 1° 在任何地方都约 111 千米；经度 1° 的长度随纬度升高而缩短，赤道处约 111 千米，到两极缩为 0。原因是经线向两极汇聚，同样的角度对应的实际弧长变短。","exp":"这是“角度不是距离”的直接应用，也是极地地图上经线挤在一起的原因。","diff":2,"tag":["地球与地图","经纬网","机制分析"]}]},{"id":"rotation","kind":"concept","name":"地球自转","cat":"地球运动","alias":["自转","昼夜交替","时差"],"level":{"jr":"七年级上 · 地球的运动","sr":"必修一 · 地球自转的地理意义"},"line":"地球绕地轴自西向东转，一圈约 24 小时，带来昼夜交替与时差。","why":"自西向东转，所以东边先看到日出；经度每差 15°，地方时差 1 小时。恒星日 23 小时 56 分 4 秒，太阳日才是 24 小时。","sections":[{"h":"昼夜交替不是自转“造成白天”","p":"地球不透明、太阳只照亮一半，昼夜本来就有；自转只是让晨昏线扫过地面，于是有了交替。晨昏线在图上永远与太阳光线垂直。"},{"h":"时差怎么算","p":"东加西减：往东走经度每 15° 加 1 小时。跨过 180° 日界线要改日期——向东减一天，向西加一天。"}],"anchors":[{"iso":"CN","where":"中国","see":"东西跨 5 个时区，却统一用东八区"},{"iso":"US","where":"美国","see":"本土四个时区，横穿一次要改四次表"},{"iso":"RU","where":"俄罗斯","see":"跨 11 个时区，是全球时区最多的国家"}],"counter":"时区是人为划的，不等于太阳：中国统一用北京时间，可喀什的日出比北京晚约两小时。手表时间与天亮时间不是一回事。","media":{"hint":"晨昏线扫描动画：光照半球随自转移动"},"next":[{"q":"为什么新疆十点才上班","to":"timezone"},{"q":"为什么会有昼夜长短的变化","to":"revolution"}],"cite":"依据：自转与时区常识；中国统一东八区、俄罗斯跨 11 时区为公认事实。","tags":["自转","昼夜","时差","晨昏线","东八区","地方时"],"quiz":[{"lv":"jr","type":"choice","q":"地球自转产生的地理现象是","opts":["四季更替","昼夜交替","五带划分","极昼极夜"],"ans":1,"exp":"四季与五带来自公转与地轴倾斜，昼夜交替来自自转。","diff":1,"tag":["地球运动","地球自转","概念辨析"]},{"lv":"sr","type":"short","q":"说明地方时与经度的关系，并计算东八区比中时区早多少小时。","ans":"经度每相差 15°，地方时相差 1 小时，东边时刻早。东八区中央经线为 120°E，中时区为 0°，相差 120°，故东八区比中时区早 8 小时。","exp":"“早”指时刻数值大，不是“先过一天”，两者别混。","diff":2,"tag":["地球运动","地球自转","机制分析","时区"]}]},{"id":"revolution","kind":"concept","name":"公转与四季","cat":"地球运动","alias":["公转","四季","黄赤交角","回归线"],"level":{"jr":"七年级上 · 地球的运动","sr":"必修一 · 地球公转"},"line":"地球绕日公转、地轴倾斜 23°26′，使太阳直射点在南北回归线之间往返，于是有了四季与五带。","why":"关键在倾角：地轴若垂直于公转轨道面，就不会有四季。倾斜让南北半球轮流正对太阳，直射点因此南北移动。","sections":[{"h":"四个节点","p":"春分、秋分直射赤道，全球昼夜等长；夏至直射北回归线，北半球昼最长；冬至直射南回归线，北半球昼最短。"},{"h":"极昼极夜","p":"极圈以内，一年中至少有一天太阳不落或不出。纬度越高，极昼极夜持续越久，极点各半年。"}],"anchors":[{"iso":"CN","where":"中国","see":"夏至白昼最长，冬至最短"},{"iso":"AU","where":"澳大利亚","see":"南半球，季节与北半球正好相反"},{"iso":"NO","where":"挪威","see":"北极圈内，夏季有极昼"}],"counter":"“夏天热是因为离太阳近”是错的：北半球夏季地球反而接近远日点。决定季节的是太阳高度与昼长，不是日地距离。","media":{"hint":"公转轨道动画：直射点在北回归线与南回归线间往返"},"next":[{"q":"为什么北极圈里夏天太阳不落","to":"polar"},{"q":"热带和寒带的界线是怎么定的","to":"zones"}],"cite":"依据：地球运动常识；远日点在 7 月初为天文事实。","tags":["公转","四季","直射点","回归线","极昼极夜","黄赤交角"],"quiz":[{"lv":"jr","type":"choice","q":"我国夏至日，太阳直射点位于","opts":["赤道","北回归线","南回归线","北极圈"],"ans":1,"exp":"夏至直射北回归线，北半球昼最长；冬至直射南回归线。","diff":1,"tag":["地球运动","公转与四季","概念辨析"]},{"lv":"sr","type":"short","q":"说明地轴倾斜对四季形成的意义；若地轴不倾斜，会怎样？","ans":"地轴倾斜使太阳直射点在南北回归线之间往返移动，各地太阳高度与昼长随之变化，形成四季与五带。若地轴垂直于公转轨道面，直射点永在赤道，全球昼夜等长、无四季更替。","exp":"“倾斜”是四季的必要条件，不是“离太阳远近”。","diff":2,"tag":["地球运动","公转与四季","机制分析"]}]},{"id":"zones","kind":"concept","name":"五带划分","cat":"地球运动","alias":["五带","热带","温带","寒带"],"level":{"jr":"七年级上 · 地球的运动","sr":"必修一 · 地球运动的意义"},"line":"按有无太阳直射、有无极昼极夜，地表分成热带、南北温带、南北寒带。","why":"界线是回归线与极圈：回归线之间一年有直射，极圈以内有极昼极夜，两者之间既无直射也无极昼极夜。","sections":[{"h":"五带是热量带","p":"它只回答“一年得到多少太阳热量”，不回答下不下雨。所以五带不是气候类型，两套体系不能互换。"},{"h":"为什么还要学气候类型","p":"热量只是底子，降水由环流、海陆位置、地形决定。同一带里可以有雨林，也可以有沙漠。"}],"anchors":[{"iso":"SG","where":"新加坡","see":"近赤道，热带，终年高温"},{"iso":"GB","where":"英国","see":"北温带，四季分明但温差不大"},{"iso":"IS","where":"冰岛","see":"紧贴北极圈，已属寒带边缘"}],"counter":"撒哈拉与亚马孙都在热带，一个沙漠一个雨林。用五带解释降水，必错。","media":null,"next":[{"q":"为什么同是热带却有沙漠和雨林","to":"desert"},{"q":"温带里为什么还有沙漠","to":"continental"}],"cite":"依据：五带划分常识；三国纬度见档案坐标字段。","tags":["五带","热带","温带","寒带","极圈","热量带"],"quiz":[{"lv":"jr","type":"choice","q":"五带划分的依据是","opts":["降水量多少","有无太阳直射与极昼极夜","距海远近","海拔高低"],"ans":1,"exp":"界线是回归线（有无直射）与极圈（有无极昼极夜），本质是按热量划分。","diff":1,"tag":["地球运动","五带划分","概念辨析"]},{"lv":"sr","type":"short","q":"说明五带与气候类型为什么不能互相替代，并举例。","ans":"五带只反映热量条件，气候类型还要看降水，由环流、海陆位置、地形共同决定。例：撒哈拉与亚马孙同属热带，一个是热带沙漠气候，一个是热带雨林气候。","exp":"两套体系回答不同问题：五带答“热不热”，气候类型答“热不热 + 湿不湿”。","diff":2,"tag":["地球运动","五带划分","机制分析"]}]},{"id":"contour","kind":"concept","name":"等高线地形图","cat":"地图","alias":["等高线","地形图","海拔"],"level":{"jr":"七年级上 · 地图的阅读","sr":"必修一 · 地形剖面"},"line":"把海拔相同的点连成线，就能在平面上读出地形的起伏。","why":"线密代表坡陡，线疏代表坡缓；闭合小圈是山顶或洼地；等高线向高处凸是山谷，向低处凸是山脊。","sections":[{"h":"四句话判读","p":"密陡疏缓、闭合为顶（或洼）、凸高为谷、凸低为脊。河流一定画在山谷里，不会出现在山脊上——这是最快的验算方法。"},{"h":"等高线不是高度图","p":"它只画等高，不画地表覆盖。两条线之间的高度靠插值估计，不是“线上一个高度、线外另一个高度”。"}],"anchors":[{"iso":"NP","where":"尼泊尔","see":"喜马拉雅南坡，等高线密到几乎并成一条"},{"iso":"CH","where":"瑞士","see":"阿尔卑斯山区，铁路全靠展线爬坡"},{"iso":"NL","where":"荷兰","see":"大片土地低于海平面，等高线是负值"}],"counter":"等高线“凸向”容易记反：凸向高处是山谷（水往低处流，谷底低），凸向低处是山脊。记不住就想“水往哪流”。","media":{"hint":"等高线 ↔ 立体地形切换动画"},"next":[{"q":"地图上的比例尺怎么用","to":"scale-legend"},{"q":"峡谷是怎么被水切出来的","to":"exogenic"}],"cite":"依据：等高线判读常识；荷兰低地低于海平面为公认事实。","tags":["等高线","海拔","山脊","山谷","陡坡","地形图"],"quiz":[{"lv":"jr","type":"choice","q":"等高线密集的地方表示","opts":["坡度较缓","坡度较陡","一定是山谷","一定是山顶"],"ans":1,"exp":"等高线越密，同样水平距离内高差越大，坡越陡。","diff":1,"tag":["地图","等高线地形图","概念辨析"]},{"lv":"sr","type":"short","q":"判读等高线地形图时，如何区分山脊与山谷？河流一般发育在哪里？","ans":"等高线凸向低处为山脊（脊线比两侧高），凸向高处为山谷（谷线比两侧低）；河流发育在山谷，因为水往低处汇集。","exp":"记不住就记“水往哪流”：山谷能汇水，山脊是分水岭。","diff":2,"tag":["地图","等高线地形图","机制分析"]}]},{"id":"rainforest","kind":"concept","name":"热带雨林气候","cat":"世界气候","alias":["热带雨林","雨林","雨林气候","赤道气候"],"level":{"jr":"七年级上 · 世界的气候","sr":"必修一 · 气候类型"},"line":"全年高温多雨、没有明显干季，分布在赤道两侧。","why":"终年受赤道低气压带控制，空气上升，对流雨几乎每天下午来一场；年降水 2000 毫米以上，温差比日温差还小。","sections":[{"h":"为什么下午总下雨","p":"上午太阳把地面晒热，湿热空气上升凝结，午后形成对流雨。所以雨林地区的“天气预报”几乎不用改：晴—雨—晴。"},{"h":"土壤其实很瘦","p":"高温高湿让有机质迅速分解并被雨水淋走，养分主要锁在植被里。雨林被砍后地力掉得极快，这就是“烧荒—耕作—弃耕”轮转的原因。"}],"anchors":[{"iso":"BR","where":"亚马孙","see":"全球最大雨林，被称为“地球之肺”"},{"iso":"ID","where":"印度尼西亚","see":"赤道横穿，各岛普遍湿热"},{"iso":"CD","where":"刚果（金）","see":"刚果盆地，非洲最大雨林"}],"counter":"雨林土壤并不肥沃：养分在植物体内而不在土里。所以“砍了树种庄稼”通常只能撑几年。","media":{"hint":"日降水循环动画：蒸发—凝结—午后暴雨"},"next":[{"q":"雨林的土为什么这么瘦","to":"soil"},{"q":"雨林旁边为什么是草原","to":"savanna"}],"cite":"依据：气候学常识；三国位置见档案坐标。","tags":["雨林","赤道多雨","亚马孙","刚果盆地","对流雨","全年高温"],"quiz":[{"lv":"jr","type":"choice","q":"热带雨林地区土壤肥力普遍较低，主要原因是","opts":["降水太少","气温太低","有机质分解快、雨水淋溶强","植被过于稀少"],"ans":2,"exp":"养分主要储存在植物体内而不是土壤里，所以“植被茂密”与“土壤贫瘠”同时成立。","diff":1,"tag":["世界气候","热带雨林气候","概念辨析","土壤"]},{"lv":"sr","type":"short","q":"说明雨林地区“植被茂密但土壤贫瘠”的原因，并指出对农业的影响。","ans":"① 高温高湿使有机质迅速分解；② 降水多、淋溶强，养分被带走；③ 养分主要保存在植被体内。影响：砍伐后地力迅速下降，只能“烧荒—耕作—弃耕”轮转，难以持续耕作。","exp":"影响部分要写“不可持续”，否则只答了成因而没答影响。","diff":3,"tag":["世界气候","热带雨林气候","机制分析","土壤"]}]},{"id":"mediterranean","kind":"concept","name":"地中海气候","cat":"世界气候","alias":["地中海式气候","夏干冬雨"],"level":{"jr":"七年级上 · 世界的气候","sr":"必修一 · 气候类型"},"line":"夏季炎热干燥、冬季温和多雨，只出现在南北纬 30°–40° 的大陆西岸。","why":"夏天副热带高压压在这里，下沉气流不让成云；冬天西风带南移，把海洋水汽带进来。所以雨热不同期。","sections":[{"h":"一句话判读","p":"只看“夏干冬雨”。全世界只有这一种气候是雨热不同期，记住这一条就不会认错。"},{"h":"为什么适合葡萄和橄榄","p":"夏季干热利于糖分积累、减少病害；冬季温和多雨刚好补足水分。所以葡萄酒产区与地中海气候高度重合。"}],"anchors":[{"iso":"IT","where":"意大利","see":"典型地中海气候，橄榄与葡萄遍野"},{"iso":"ES","where":"西班牙","see":"中南部夏干，北部偏海洋性"},{"iso":"CL","where":"智利中部","see":"南半球同纬度西岸，同样夏干冬雨"}],"counter":"它和温带海洋性气候同在西岸，差别在纬度与环流：温海全年吃西风，地中海夏天被副高按住。一个全年湿，一个夏天干。","media":{"hint":"副高与西风带季节移动对比动画"},"next":[{"q":"为什么地中海气候适合种葡萄","to":"agri-location"},{"q":"同纬度的西岸另一种气候是什么","to":"oceanic"}],"cite":"依据：气候类型常识；智利中部为南半球地中海气候的典型区。","tags":["地中海","夏干冬雨","葡萄","橄榄","雨热不同期"],"quiz":[{"lv":"jr","type":"choice","q":"地中海气候的降水特点是","opts":["夏雨冬干","夏干冬雨","全年多雨","全年少雨"],"ans":1,"exp":"全世界只有这一种气候是“雨热不同期”，记住这一条就不会认错。","diff":1,"tag":["世界气候","地中海气候","概念辨析"]},{"lv":"sr","type":"short","q":"从气压带、风带的季节移动解释地中海气候夏干冬雨的原因。","ans":"夏季气压带风带北移，该地受副热带高压控制，下沉气流抑制成云致雨；冬季气压带风带南移，该地受西风带影响，海洋水汽被带上岸形成降水。","exp":"关键是“同一地点一年内先后被两个环流控制”，不是两个地方。","diff":2,"tag":["世界气候","地中海气候","机制分析","气压带"]}]},{"id":"continental","kind":"concept","name":"温带大陆性气候","cat":"世界气候","alias":["大陆性气候","温带大陆气候"],"level":{"jr":"七年级上 · 世界的气候","sr":"必修一 · 气候类型"},"line":"冬冷夏热、年温差大、降水少且集中在夏季，出现在大陆内部。","why":"离海远，水汽到不了；陆地比热小，白天升温快、夜里降温也快。所以年温差与日温差都大。","sections":[{"h":"典型表现","p":"最冷月可到 −20℃ 以下，最热月又能上 25℃；降水 200–400 毫米，七八月占一大半。"},{"h":"为什么同纬度差别这么大","p":"同纬度的西岸是温带海洋性、东岸是温带季风、内陆是温带大陆性。“温带”分三种，分的是海陆位置，不是温度。"}],"anchors":[{"iso":"MN","where":"蒙古","see":"深居内陆，冬季严寒、降水稀少"},{"iso":"KZ","where":"哈萨克斯坦","see":"世界最大内陆国，典型大陆性"},{"iso":"RU","where":"俄罗斯","see":"西伯利亚冬季极冷，年温差全球最大之一"}],"counter":"“降水少”不等于“干旱”：温带大陆性气候下仍有草原，干旱区是另一套判据（蒸发量远大于降水量）。","media":null,"next":[{"q":"为什么西伯利亚比西欧冷这么多","to":"oceanic"},{"q":"大陆性气候和温带季风差在哪","to":"monsoon-temperate"}],"cite":"依据：气候类型常识；哈萨克斯坦为内陆国、蒙古深居内陆均为事实。","tags":["大陆性","年温差大","内陆","西伯利亚","干旱少雨"],"quiz":[{"lv":"jr","type":"choice","q":"温带大陆性气候的典型特征是","opts":["全年温和湿润","冬冷夏热、年温差大","夏干冬雨","全年高温多雨"],"ans":1,"exp":"远离海洋、下垫面比热小，升降温都快；降水少且集中夏季。","diff":1,"tag":["世界气候","温带大陆性气候","概念辨析"]},{"lv":"sr","type":"short","q":"从海陆位置与下垫面性质解释温带大陆性气候年温差大的原因。","ans":"深居内陆，海洋水汽难以到达，降水少、云量少；陆地比热容小，白天升温快、夜间降温快，且缺少海洋调节，冬季受冷高压控制严寒、夏季升温迅速，故年较差与日较差都大。","exp":"两个得分点：水汽到不了（降水少）、陆地比热小（温差大）。","diff":2,"tag":["世界气候","温带大陆性气候","机制分析"]}]},{"id":"population","kind":"concept","name":"人口分布","cat":"居民与聚落","alias":["人口密度","人口分布不均"],"level":{"jr":"七年级上 · 人口与人种","sr":"必修二 · 人口分布"},"line":"人口集中在沿海、平原与河流沿岸；干旱、高寒、湿热雨林区人口稀少。","why":"水、热量、地形、土壤四个条件同时合适，才聚得住人。缺一个就成了“空白区”，而空白区往往最能说明限制因子是什么。","sections":[{"h":"先看空白","p":"读密度图别只看密集区。撒哈拉、青藏、亚马孙、西伯利亚四块空白，正好对应干旱、高寒、湿热、严寒四种限制。"},{"h":"密度是平均数","p":"全国密度会把沙漠与绿洲平均掉。埃及全国约 100 人/km²，去掉沙漠后沿河实际超过 1000——所以看密度要配合分布图。"}],"anchors":[{"iso":"EG","where":"埃及","see":"99% 的人口挤在尼罗河两岸和三角洲"},{"iso":"IN","where":"印度","see":"恒河平原是全球人口最密的大片区域之一"},{"iso":"CA","where":"加拿大","see":"国土世界第二，北部几乎无人"}],"counter":"人口多不等于密度高：加拿大面积比中国大，人口只有三千多万；孟加拉国面积不到中国 1/60，人口过亿。","media":{"hint":"夜间灯光图与人口密度图叠加"},"next":[{"q":"为什么人都挤在沿海和平原","to":"settlement"},{"q":"中国人口为什么东密西疏","to":"china-population"}],"cite":"依据：各国档案的人口与地形字段；埃及人口集中于尼罗河走廊为公认事实。","tags":["人口密度","人口分布","胡焕庸线","沿海","人口集中"],"quiz":[{"lv":"jr","type":"choice","q":"世界人口稠密区主要分布在","opts":["高山地区","中低纬度沿海平原","沙漠地区","热带雨林地区"],"ans":1,"exp":"水、热量、地形、土壤四项条件同时好的地方才聚得住人。","diff":1,"tag":["居民与聚落","人口分布","概念辨析","土壤"]},{"lv":"sr","type":"short","q":"说明埃及人口分布的特点及其自然原因。","ans":"特点：约 99% 的人口集中在尼罗河沿岸和三角洲，国土其余部分几乎无人。原因：全国绝大部分为热带沙漠气候，干旱缺水；尼罗河提供水源、灌溉与肥沃冲积土，形成狭长绿洲带。","exp":"要写出“气候干旱”这个限制因子，只写“沿河”没有解释力。","diff":2,"tag":["居民与聚落","人口分布","机制分析"]}]},{"id":"china-relief","kind":"concept","name":"中国地形三级阶梯","cat":"中国地理","alias":["三级阶梯","中国地势","西高东低"],"level":{"jr":"八年级上 · 中国的地形","sr":"必修一 · 中国地形"},"line":"中国地势西高东低，呈三级阶梯下降，所以大河多向东流。","why":"第一级青藏高原平均 4000 米以上，第二级高原盆地 1000–2000 米，第三级东部平原丘陵 500 米以下。阶梯交界处落差大。","sections":[{"h":"影响一：河流","p":"西高东低决定了长江黄河自西向东流，也决定了阶梯交界处水能集中——大型水电站基本都卡在这两条界线上。"},{"h":"影响二：气候与人口","p":"西高东低让夏季风能深入内陆，但被青藏高原与第二级台阶挡了一部分；人口与耕地也主要落在第三级。"}],"anchors":[{"iso":"CN","where":"青藏高原（第一级）","see":"平均 4000 米以上，长江黄河的发源地"},{"iso":"CN","where":"黄土高原（第二级）","see":"1000–2000 米，水土流失最严重的区域"},{"iso":"CN","where":"长江中下游平原（第三级）","see":"500 米以下，人口与耕地最集中"}],"counter":"三级阶梯不是三条直线：界线是山脉（昆仑山—祁连山—横断山，大兴安岭—太行山—巫山—雪峰山），山脉走向决定了阶梯边界是弯的。","media":{"hint":"中国地形剖面动画：沿北纬 32° 从青藏到东海"},"next":[{"q":"长江黄河为什么都向东流","to":"rivers"},{"q":"为什么夏季风到不了西北","to":"china-climate"}],"cite":"依据：中国地形常识；三级阶梯界线为教材通行表述，未引用原文。","tags":["三级阶梯","西高东低","青藏高原","地势","水能"],"quiz":[{"lv":"jr","type":"choice","q":"我国地势的总特征是","opts":["东高西低","西高东低、呈三级阶梯","南高北低","四周高、中间低"],"ans":1,"exp":"三级阶梯是“西高东低”的具体化，界线是山脉而不是直线。","diff":1,"tag":["中国地理","中国地形三级阶梯","概念辨析"]},{"lv":"sr","type":"short","q":"说明我国地势对河流流向与水能分布的影响。","ans":"① 西高东低决定大河自西向东流，沟通东西；② 阶梯交界处落差大，水能集中，大型水电站多分布在这些河段。","exp":"两句话对应两个得分点：流向由“西高东低”决定，水能由“阶梯交界落差”决定。","diff":2,"tag":["中国地理","中国地形三级阶梯","机制分析"]}]},{"id":"heating","kind":"concept","name":"大气受热过程","cat":"大气","alias":["受热过程","大气受热","温室效应","地面辐射"],"level":{"jr":"七年级上 · 气温","sr":"必修一 · 大气受热过程"},"line":"太阳短波辐射穿过大气到达地面，地面升温后再以长波辐射加热大气——近地面气温由地面决定。","why":"大气对太阳短波辐射吸收很少（几乎“透明”），真正吸收的是地面发出的长波辐射。所以“太阳晒热空气”是错觉，顺序是：太阳晒地、地暖空气。","sections":[{"h":"三步链条","p":"太阳辐射 → 地面吸收升温 → 地面长波辐射 → 大气中的水汽与二氧化碳吸收。任何一步被改动，气温就变。"},{"h":"两个常见应用","p":"晴天昼夜温差大：云少，白天太阳直射强、夜里地面散热快。温室大棚与全球变暖：都是“让长波辐射出不去”。"}],"anchors":[{"iso":"EG","where":"埃及","see":"沙漠晴天多，昼夜温差可到 20℃"},{"iso":"BO","where":"玻利维亚","see":"高原空气稀薄，紫外线强、夜间骤冷"},{"iso":"GB","where":"英国","see":"多云多雨，昼夜温差小"}],"counter":"“大气被太阳直接晒热”是错的：如果真是这样，越高的地方应该越热，可实际每上升 100 米气温降约 0.6℃。","media":{"hint":"短波/长波辐射流程图，可拖动云量滑块看温差"},"next":[{"q":"为什么晴天昼夜温差大","to":"cyclone"},{"q":"为什么沙漠白天烫晚上冷","to":"desert"}],"cite":"依据：大气受热过程常识；气温垂直递减率约 0.6℃/100m 为通行数值。","tags":["大气受热","温室效应","地面辐射","昼夜温差","保温作用"],"quiz":[{"lv":"jr","type":"choice","q":"近地面大气的主要直接热源是","opts":["太阳辐射","地面辐射","大气逆辐射","宇宙射线"],"ans":1,"exp":"大气对太阳短波辐射吸收很少，真正吸收的是地面长波辐射，所以“太阳晒地、地暖空气”。","diff":1,"tag":["大气","大气受热过程","概念辨析"]},{"lv":"sr","type":"short","q":"用大气受热过程解释“晴天昼夜温差大”。","ans":"晴天云量少：白天大气对太阳辐射削弱弱，到达地面的太阳辐射强、气温高；夜晚云少则大气逆辐射弱，保温作用差，地面散热快、气温低。两者叠加使昼夜温差大。","exp":"要同时写“白天削弱弱”和“夜晚保温差”，只写一头只能得一半分。","diff":2,"tag":["大气","大气受热过程","机制分析","昼夜温差"]}]},{"id":"thermal","kind":"concept","name":"热力环流","cat":"大气","alias":["热力环流","海陆风","城市热岛"],"level":{"jr":"七年级上 · 风","sr":"必修一 · 热力环流"},"line":"地面冷热不均→空气上升下沉→同一水平面出现气压差→空气水平流动，形成环流。","why":"顺序不能倒：先有垂直运动，才有水平气压差，才有风。近地面与高空的低压高压正好相反。","sections":[{"h":"两个必考例子","p":"海陆风：白天陆地升温快，风从海洋吹向陆地（海风）；夜里反过来（陆风）。城市热岛：市中心热，风从郊区吹向中心。"},{"h":"风为什么不直吹","p":"水平气压梯度力只是起点，还要受地转偏向力与摩擦力影响，所以实际风向与等压线有夹角，不会垂直吹过去。"}],"anchors":[{"iso":"CN","where":"中国","see":"大城市热岛环流，郊区风往市中心吹"},{"iso":"JP","where":"日本","see":"沿海海陆风明显，渔民按风出海"},{"iso":"SG","where":"新加坡","see":"海风调节，午后常有对流雨"}],"counter":"“风从高压吹向低压”只说了一半：它解释的是初始方向，实际风向还要被地转偏向力掰一个角度。","media":{"hint":"海陆风昼夜切换动画（可拖动时间）"},"next":[{"q":"海风为什么白天从海上吹来","to":"monsoon"},{"q":"城市热岛的风往哪吹","to":"urbanization"}],"cite":"依据：热力环流常识；热岛环流为城市气候学通行结论。","tags":["热力环流","海陆风","城市热岛","山谷风"],"quiz":[{"lv":"jr","type":"choice","q":"白天，海陆之间近地面的风向一般是","opts":["由陆地吹向海洋","由海洋吹向陆地","无风","上下对流"],"ans":1,"exp":"白天陆地升温快、气压低，风从海洋吹向陆地，称为海风。","diff":1,"tag":["大气","热力环流","概念辨析"]},{"lv":"sr","type":"short","q":"说明城市热岛环流的形成过程，并提出两条缓解措施。","ans":"过程：市区人为热排放多、地面硬化、绿地少 → 气温高于郊区 → 空气上升 → 近地面气压降低 → 近地面风由郊区吹向市区，高空相反。措施：增加绿地与水体、预留通风廊道、工业与人口分散布局。","exp":"过程要写出“垂直上升→水平气压差→近地面风”，顺序倒了就说不通。","diff":2,"tag":["大气","热力环流","机制分析"]}]},{"id":"pressure-belts","kind":"concept","name":"气压带与风带","cat":"大气","alias":["三圈环流","气压带","风带","副热带高压"],"level":{"jr":"七年级上 · 气候成因","sr":"必修一 · 气压带和风带"},"line":"全球有七个气压带、六个风带，随太阳直射点南北移动，是气候类型分布的骨架。","why":"赤道低压上升多雨，副热带高压下沉干燥，副极地低压多锋面雨，极地高压冷而干。风从高压吹向低压，被地转偏向力偏成信风、西风、极地东风。","sections":[{"h":"一条记忆线索","p":"低压带＝上升＝多雨，高压带＝下沉＝干燥。所以赤道多雨、副高带多沙漠（撒哈拉、阿拉伯、澳大利亚中部都在 30° 附近）。"},{"h":"季节性移动","p":"夏季北移、冬季南移，幅度约 5°–10°。季风与地中海气候都是“带子挪动了”的结果，不是新机制。"}],"anchors":[{"iso":"ID","where":"印度尼西亚","see":"赤道低压带控制，全年多雨"},{"iso":"EG","where":"埃及","see":"副高带控制，撒哈拉几乎无雨"},{"iso":"GB","where":"英国","see":"西风带控制，全年湿润"}],"counter":"气压带不是固定在地图上的带子：同一地方一年里可能先后被两个带控制，这正是季风气候与地中海气候的成因。","media":{"hint":"气压带风带随季节南北移动的动画"},"next":[{"q":"副高为什么让长江中下游伏旱","to":"cyclone"},{"q":"地中海气候的夏干是谁造成的","to":"mediterranean"}],"cite":"依据：三圈环流与气压带常识；副高带与 30° 沙漠带对应为通行结论。","tags":["气压带","风带","副热带高压","信风","西风带","三圈环流"],"quiz":[{"lv":"jr","type":"choice","q":"常年受副热带高压控制地区的气候特征通常是","opts":["阴雨连绵","晴朗干燥","大风多雨","暴雨频发"],"ans":1,"exp":"副高是下沉气流，抑制成云致雨，所以 30° 附近多沙漠。","diff":1,"tag":["大气","气压带与风带","概念辨析"]},{"lv":"sr","type":"short","q":"气压带风带的季节移动，如何造成地中海气候与季风气候的差异？","ans":"地中海气候：同一地点一年内先后受副高（夏）与西风带（冬）控制，形成夏干冬雨。季风气候：主因是海陆热力差异造成的风向季节反转，气压带风带移动是叠加因素，形成雨热同期。","exp":"关键区别：一个靠“带子南北移动”，一个靠“海陆热力差”，成因不同。","diff":2,"tag":["大气","气压带与风带","机制分析","季风"]}]},{"id":"fronts","kind":"concept","name":"锋面系统","cat":"天气","alias":["冷锋","暖锋","锋面","梅雨"],"level":{"jr":"七年级上 · 天气","sr":"必修一 · 常见天气系统"},"line":"冷暖气团相遇形成锋面；冷锋雨在锋后、暖锋雨在锋前，过境后天气都会转好。","why":"冷锋是冷气团主动推，来得急、雨区窄、常伴大风降温；暖锋是暖气团主动爬升，来得缓、雨区宽、多连续性降水。","sections":[{"h":"判读口诀","p":"过境前：暖（冷锋）或冷（暖锋）；过境时：暴雨大风或连绵细雨；过境后：气温气压反向变化、天气转晴。"},{"h":"我国的例子","p":"冬季寒潮是冷锋，夏季江淮梅雨是准静止锋（冷暖势均力敌，雨带停在那儿一个月）。"}],"anchors":[{"iso":"CN","where":"中国","see":"冬季寒潮是冷锋南下，夏季梅雨是准静止锋"},{"iso":"GB","where":"英国","see":"暖锋过境频繁，阴雨连绵是常态"},{"iso":"JP","where":"日本","see":"梅雨锋（Baiu）自南向北推进"}],"counter":"“下雨就是锋面雨”不成立：对流雨（雨林午后）、地形雨（迎风坡）、台风雨都不是锋面雨。四种成因要能分开。","media":{"hint":"冷锋/暖锋剖面动画，可对比雨区位置"},"next":[{"q":"台风和锋面雨有什么不一样","to":"cyclone"},{"q":"为什么雨带会一路往北推","to":"china-climate"}],"cite":"依据：天气系统常识；梅雨为准静止锋、寒潮为冷锋均为通行表述。","tags":["锋面","冷锋","暖锋","梅雨","寒潮","降温"],"quiz":[{"lv":"jr","type":"choice","q":"冷锋过境后，当地气温和气压的变化通常是","opts":["气温升高、气压降低","气温降低、气压升高","气温气压都升高","气温气压都降低"],"ans":1,"exp":"冷气团取代暖气团，气温下降；冷空气密度大，气压上升，天气转晴。","diff":1,"tag":["天气","锋面系统","概念辨析"]},{"lv":"sr","type":"short","q":"比较冷锋与暖锋在降水位置和天气特征上的差异。","ans":"冷锋：冷气团主动推进，雨区在锋后，降水强度大、时间短，常伴大风、降温。暖锋：暖气团主动爬升，雨区在锋前，降水强度小、时间长，多为连续性降水。","exp":"“雨在锋前还是锋后”是最容易记反的一处，用“谁主动、谁被抬”来推。","diff":2,"tag":["天气","锋面系统","机制分析"]}]},{"id":"water-cycle","kind":"concept","name":"水循环","cat":"水","alias":["水循环","径流","海陆间循环"],"level":{"jr":"七年级上 · 水与生命","sr":"必修一 · 水循环"},"line":"蒸发、水汽输送、降水、径流、下渗五个环节，把海洋与陆地的水连起来。","why":"海陆间循环最重要，因为它把海水变成陆地可用的淡水；陆地内循环与海上内循环量小，但决定了内陆降水。","sections":[{"h":"人类只改得动一段","p":"修水库、跨流域调水、抽取地下水，改的都是径流与下渗环节，改不动降水。所以调水能解近渴，改不了气候。"},{"h":"可用水看径流","p":"决定一个地区有多少水可用的是径流量与储水能力，不是降水量——沙漠也会下暴雨，但留不住。"}],"anchors":[{"iso":"CN","where":"中国","see":"南水北调改的是径流，不是降水"},{"iso":"EG","where":"埃及","see":"阿斯旺大坝拦水，下游三角洲退缩"},{"iso":"ET","where":"埃塞俄比亚","see":"青尼罗河源头，上游降水决定下游水量"}],"counter":"“降水多就不缺水”是错的：降水集中在几个月、又留不住的地方照样缺水。看水要看“降水—蒸发—径流”三者的差。","media":{"hint":"水循环五环节动画，点击环节看人类影响"},"next":[{"q":"沙漠里的人靠什么水","to":"oasis"},{"q":"修大坝改变了哪一环","to":"rivers"}],"cite":"依据：水循环常识；阿斯旺大坝导致三角洲退缩为公认环境问题。","tags":["水循环","蒸发","径流","下渗","南水北调","大坝"],"quiz":[{"lv":"jr","type":"choice","q":"目前人类活动影响最直接的水循环环节是","opts":["蒸发","水汽输送","径流","降水"],"ans":2,"exp":"修水库、调水、抽取地下水改的都是径流与下渗；降水与蒸发人类几乎改不动。","diff":1,"tag":["水","水循环","概念辨析"]},{"lv":"sr","type":"short","q":"说明修建水库与跨流域调水分别改变了哪些环节，为什么改变不了降水。","ans":"水库改变径流的季节分配与蒸发、下渗条件；跨流域调水改变径流的空间分布。降水由大气环流与水汽条件决定，人类只能小范围影响（如人工增雨），无法改变区域降水格局。","exp":"“改得动地表水、改不动天上的水”是这题的落点。","diff":2,"tag":["水","水循环","机制分析"]}]},{"id":"structures","kind":"concept","name":"地质构造","cat":"地质","alias":["褶皱","断层","背斜","向斜"],"level":{"jr":"七年级上 · 地表形态","sr":"必修一 · 地质构造"},"line":"岩层受挤压弯曲成褶皱，断裂错开成断层；背斜成山、向斜成谷只是一般规律，常被侵蚀反转。","why":"判读靠岩层新老关系：背斜中心老、两翼新；向斜中心新、两翼老。断层则看岩层是否错开、有没有断层线。","sections":[{"h":"地形倒置","p":"背斜顶部受张力、岩石破碎，容易被侵蚀成谷；向斜槽部受挤压、岩性紧实，反被留下来成山。所以“看形状判构造”经常错。"},{"h":"工程意义","p":"隧道修在背斜（拱形稳定、不易积水），水库避开断层（易渗漏、诱发地震）。"}],"anchors":[{"iso":"CN","where":"中国","see":"喜马拉雅是褶皱山系，仍在抬升"},{"iso":"US","where":"美国","see":"科罗拉多大峡谷切开岩层，层理一目了然"},{"iso":"TR","where":"土耳其","see":"北安纳托利亚断层，地震频发"}],"counter":"“背斜一定成山”是错的：地形倒置非常常见。判断构造要凭岩层新老，不凭外形。","media":{"hint":"褶皱侵蚀过程动画：背斜顶部被削平成谷"},"next":[{"q":"背斜为什么反而成了谷","to":"exogenic"},{"q":"断层带为什么不能修水库","to":"water-cycle"}],"cite":"依据：地质构造常识；北安纳托利亚断层为全球著名活动断裂带。","tags":["褶皱","断层","背斜","向斜","隧道","水库选址"],"quiz":[{"lv":"jr","type":"choice","q":"背斜顶部常被侵蚀成谷地，主要原因是","opts":["岩层受挤压紧实","顶部受张力、岩石破碎易侵蚀","断层下陷","岩浆侵入"],"ans":1,"exp":"背斜顶部受张力产生裂隙，抗侵蚀能力弱；向斜槽部受挤压紧实，反而保存成山。","diff":1,"tag":["地质","地质构造","概念辨析"]},{"lv":"sr","type":"short","q":"判断背斜与向斜的依据是什么？为什么不能只看地形？","ans":"依据岩层新老关系：背斜中心老、两翼新；向斜中心新、两翼老。因为存在地形倒置——背斜顶部被侵蚀成谷、向斜槽部残留成山，只看地表起伏会把两者判反。","exp":"答题要写“岩层新老”，这是唯一可靠判据。","diff":2,"tag":["地质","地质构造","机制分析"]}]},{"id":"exogenic","kind":"concept","name":"外力作用","cat":"地质","alias":["风化","侵蚀","流水作用","风力作用"],"level":{"jr":"七年级上 · 地表形态","sr":"必修一 · 外力作用"},"line":"风化、侵蚀、搬运、沉积把高处削低、低处填平，流水与风力是最常见的两把刀。","why":"流水在山区切峡谷、出山口堆冲积扇、入海口造三角洲；风力在干旱区磨出雅丹，也把细颗粒吹成黄土与沙丘。","sections":[{"h":"四种作用一条链","p":"风化把岩石弄碎（原地不动）→ 侵蚀把碎屑带走 → 搬运 → 沉积。顺序搞清，判读题就对一半。"},{"h":"黄土是风搬来的","p":"黄土高原的黄土来自西北干旱区的风力搬运，不是本地河流沉积。所以它颗粒均匀、层理不明显。"}],"anchors":[{"iso":"CN","where":"中国","see":"黄土高原（风力沉积）、长江三角洲（流水沉积）"},{"iso":"EG","where":"埃及","see":"尼罗河三角洲，河流搬运的泥沙堆出来的"},{"iso":"US","where":"美国","see":"科罗拉多高原，流水下切形成峡谷"}],"counter":"黄土不是流水沉积：它颗粒细而均匀、没有明显层理，是风力搬来的。把它当“河流冲积”，就解释不了它为什么盖在山顶上。","media":{"hint":"风力/流水两种侵蚀的并排对比动画"},"next":[{"q":"黄土是从哪来的","to":"continental"},{"q":"三角洲为什么会退缩","to":"rivers"}],"cite":"依据：外力作用常识；黄土风成为通行结论。","tags":["风化","侵蚀","沉积","黄土","三角洲","峡谷"],"quiz":[{"lv":"jr","type":"choice","q":"黄土高原的黄土主要来自","opts":["本地岩石风化","风力搬运沉积","河流冲积","冰川堆积"],"ans":1,"exp":"颗粒细而均匀、层理不明显，是西北干旱区风力搬运来的，所以能盖在山顶上。","diff":1,"tag":["地质","外力作用","概念辨析"]},{"lv":"sr","type":"short","q":"说明流水作用在山区、出山口、入海口分别形成什么地貌。","ans":"山区：流水下切侵蚀形成峡谷；出山口：流速骤减，泥沙堆积成冲积扇（洪积扇）；入海口：地势平缓、海水顶托，泥沙沉积成三角洲。","exp":"三段对应三种作用：侵蚀—沉积—沉积，位置决定流速，流速决定地貌。","diff":2,"tag":["地质","外力作用","机制分析"]}]},{"id":"migration","kind":"concept","name":"人口迁移","cat":"人口","alias":["人口迁移","推拉理论","移民"],"level":{"jr":"七年级上 · 人口","sr":"必修二 · 人口迁移"},"line":"人口在空间上的移动，由迁出地的推力与迁入地的拉力共同决定，中间还有迁移障碍。","why":"推力是失业、灾害、战乱；拉力是收入、公共服务、亲属网络。障碍是距离、语言、签证与路费。","sections":[{"h":"谁走得成","p":"最穷的人往往走不了：路费与信息都是门槛。所以迁移多发生在“负担得起”的中间层，这被称为迁移的选择性。"},{"h":"两端都受影响","p":"迁出地：劳动力外流、老人与儿童留守；迁入地：劳动力充足，但住房、教育与融合压力上升。"}],"anchors":[{"iso":"MX","where":"墨西哥","see":"向美国的大规模迁移，形成长年走廊"},{"iso":"PH","where":"菲律宾","see":"劳务输出大国，海员与护理遍全球"},{"iso":"DE","where":"德国","see":"欧洲主要迁入国，缺工行业依赖移民"}],"counter":"“穷就迁移”不成立：战乱与极端贫困反而降低迁移能力。真正推动迁移的是“差距 + 走得动”。","media":null,"next":[{"q":"打工的人为什么都往大城市去","to":"urbanization"},{"q":"为什么穷国的人反而走不了","to":"development"}],"cite":"依据：人口迁移推拉理论；菲律宾劳务输出、德国为主要迁入国均为事实。","tags":["人口迁移","移民","推拉理论","打工","劳务输出"],"quiz":[{"lv":"jr","type":"choice","q":"下列属于人口迁移的是","opts":["每天跨城通勤","春节回老家过年","农村人口进城定居","短期旅游"],"ans":2,"exp":"迁移要满足“改变居住地 + 时间较长”，通勤、探亲、旅游都不算。","diff":1,"tag":["人口","人口迁移","概念辨析"]},{"lv":"sr","type":"short","q":"用推拉理论解释“最穷的人反而走不了”。","ans":"迁移需要支付路费、承担信息与风险成本；极端贫困者缺乏这些能力，也缺少迁入地所需的技能与网络。因此迁移多发生在“有差距且走得动”的中间层，这叫迁移的选择性。","exp":"要点是“推力不等于迁移能力”，两者是两件事。","diff":2,"tag":["人口","人口迁移","机制分析"]}]},{"id":"agri-location","kind":"concept","name":"农业区位因素","cat":"产业","alias":["农业区位","区位因素","滴灌"],"level":{"jr":"八年级上 · 农业","sr":"必修二 · 农业区位选择"},"line":"农业布局由自然条件（气候、地形、土壤、水源）与社会经济条件（市场、交通、政策、技术）共同决定。","why":"自然条件决定“能不能种”，社会经济条件决定“值不值得种”。前者是上限，后者是选择。","sections":[{"h":"技术可以改写自然","p":"以色列用滴灌在沙漠里种出花卉与蔬菜，荷兰用温室在低温多雨的地方种出全球第二大农产品出口额——自然条件不再是硬约束。"},{"h":"市场可以搬走产区","p":"城市近郊种菜、远郊种粮，是因为蔬菜不耐运输；冷链一旦铺开，产区就能往气候更合适的地方挪。"}],"anchors":[{"iso":"NL","where":"荷兰","see":"温室与花卉，靠技术与港口而非气候"},{"iso":"IL","where":"以色列","see":"滴灌技术让沙漠农业成立"},{"iso":"TH","where":"泰国","see":"稻米出口大国，靠季风与湄公河平原"}],"counter":"“自然条件决定农业”已经过时：技术能把约束改写，市场能把产区搬走。区位是算出来的，不是天生的。","media":{"hint":"同一块地的四种经营方案对比（可切换技术与市场条件）"},"next":[{"q":"荷兰为什么能出口那么多农产品","to":"industry-location"},{"q":"中国农业为什么东耕西牧","to":"agri-china"}],"cite":"依据：农业区位理论；荷兰农产品出口额居全球前列、以色列滴灌为公认案例。","tags":["农业区位","温室","滴灌","冷链","市场","荷兰"],"quiz":[{"lv":"jr","type":"choice","q":"荷兰能大量出口花卉，主要依靠","opts":["热带气候","技术与市场","廉价劳动力","广阔耕地"],"ans":1,"exp":"温室技术突破热量限制，港口与冷链对接欧洲市场——自然条件不是决定项。","diff":1,"tag":["产业","农业区位因素","概念辨析"]},{"lv":"sr","type":"short","q":"说明自然条件与社会经济条件在农业区位中的不同作用。","ans":"自然条件（气候、地形、土壤、水源）决定“能不能种”，是上限；社会经济条件（市场、交通、政策、技术）决定“值不值得种”，是选择。技术可以改写自然约束（温室、滴灌），市场可以搬走产区（冷链）。","exp":"答题要体现“上限 vs 选择”的分工，只罗列因素拿不到分。","diff":2,"tag":["产业","农业区位因素","机制分析"]}]},{"id":"urbanization","kind":"concept","name":"城镇化","cat":"城市","alias":["城市化","城镇化率","城市病"],"level":{"jr":"八年级上 · 聚落","sr":"必修二 · 城镇化"},"line":"人口与产业向城市集中；城镇化率超过 70% 后速度放缓，问题从“进城”转为“城市内部”。","why":"30% 以下起步慢，30%–70% 是加速期，70% 以上进入后期。三个阶段对应三种问题：没有城市、城市太挤、城市要更新。","sections":[{"h":"城市病从哪来","p":"硬化地面 + 高人口密度：雨水下不去（内涝）、热量散不掉（热岛）、车流集中（拥堵）。三个问题同一个来源。"},{"h":"城镇化率不等于生活水平","p":"巴西城镇化率很高，但城市贫困与贫民窟同样严重。统计上的“进城”与实际的“落户”是两件事。"}],"anchors":[{"iso":"CN","where":"中国","see":"四十年快速城镇化，常住率超 65%"},{"iso":"BR","where":"巴西","see":"过度城镇化，贫民窟与城市贫困并存"},{"iso":"JP","where":"日本","see":"已进入后期，出现收缩城市与空置房"}],"counter":"“城镇化率高就是发达”是错觉：拉美多国城镇化率接近发达国家，但产业与就业没跟上，结果是“城镇化超前”。","media":{"hint":"同一城市 1970/2000/2020 三期影像对比"},"next":[{"q":"城市为什么一下雨就内涝","to":"water-cycle"},{"q":"人为什么从农村往城市走","to":"migration"}],"cite":"依据：城镇化三阶段规律；巴西贫民窟、日本空置房均为公认现象。","tags":["城镇化","城市化","城市病","内涝","贫民窟","热岛"],"quiz":[{"lv":"jr","type":"choice","q":"城镇化水平超过 70% 后，一般进入","opts":["起步阶段","加速阶段","后期（成熟）阶段","必然出现逆城市化"],"ans":2,"exp":"30% 以下慢、30–70% 加速、70% 以上放缓，进入质量提升阶段。","diff":1,"tag":["城市","城镇化","概念辨析"]},{"lv":"sr","type":"short","q":"说明“城市病”的成因，并提出治理方向。","ans":"成因：人口与产业过度集中，地面硬化率高、绿地不足，交通与排水设施跟不上，导致拥堵、内涝、热岛、住房紧张。治理：分散城市功能、建设公共交通、增加绿地与水系、完善排水系统、推进产城融合。","exp":"成因要落到“密度 + 硬化”两个源头，否则会写成罗列现象。","diff":2,"tag":["城市","城镇化","机制分析"]}]},{"id":"scale-legend","kind":"concept","name":"比例尺与图例","cat":"地图","alias":["比例尺","图例","地图三要素"],"level":{"jr":"七年级上 · 地图的阅读","sr":"必修一 · 地图"},"line":"比例尺是图上距离与实际距离之比；图例是图上符号的说明书，两者加上方向就是地图三要素。","why":"分母越小比例尺越大，图越“近”、内容越细；一张纸画大范围必然损失细节，所以要分幅、要分级。","sections":[{"h":"三种写法与一次量算","p":"数字式（1:50000）、线段式（一段代表 1 公里）、文字式（图上 1 厘米代表 500 米）。量算时先统一单位：图上 1 厘米 × 分母 = 实际距离。"},{"h":"大比例尺小比例尺","p":"1:1 万是大比例尺（内容细、范围小），1:1000 万是小比例尺（内容粗、范围大）。说“比例尺大”指的是分母小，这一点最容易记反。"}],"anchors":[{"iso":"CH","where":"瑞士","see":"1:2.5 万地形图覆盖全国，登山靠它"},{"iso":"NL","where":"荷兰","see":"围海造陆区靠大比例尺图定堤线"},{"iso":"JP","where":"日本","see":"防灾地图细化到街区，标避难路线"}],"counter":"“比例尺大＝范围大”是反的：1:1000 比 1:100 万大，但它画的范围小得多。判断时永远盯分母。","media":{"hint":"同一区域在 1:2.5 万与 1:100 万下的切换对比"},"next":[{"q":"等高线为什么越密越陡","to":"contour"},{"q":"为什么极地地图上经线挤成一团","to":"graticule"}],"cite":"依据：地图三要素常识；瑞士 1:2.5 万地形图为该国官方地图体系。","tags":["比例尺","图例","地图三要素","方向","量算"],"quiz":[{"lv":"jr","type":"choice","q":"下列比例尺中最大的是","opts":["1:5000","1:50000","1:500000","1:5000000"],"ans":0,"exp":"分母越小比例尺越大。1:5000 表示图上 1 厘米代表实际 50 米，是最详的。","diff":1,"tag":["地图","比例尺与图例","概念辨析"]},{"lv":"sr","type":"short","q":"说明比例尺大小与图幅内容详略、覆盖范围的关系。","ans":"比例尺越大（分母越小），图上 1 厘米代表的实际距离越短，内容越详细、覆盖范围越小；比例尺越小，内容越概略、覆盖范围越大。同一张纸画大范围必然牺牲细节，所以要分幅分级。","exp":"记法：大比例尺=“看得近”，小比例尺=“看得广”。","diff":2,"tag":["地图","比例尺与图例","机制分析"]}]},{"id":"timezone","kind":"concept","name":"时区与日界线","cat":"地球运动","alias":["时区","日界线","国际日期变更线","区时"],"level":{"jr":"七年级上 · 地球的运动","sr":"必修一 · 时差计算"},"line":"全球按经线每 15° 划一个时区；180° 附近是日界线，跨过要改日期。","why":"自转 24 小时转 360°，所以每小时 15°。时区的意义是让钟表时间尽量贴近太阳时间，不然“中午”会跑到半夜。","sections":[{"h":"怎么算","p":"东加西减：往东每跨一个时区加 1 小时。跨日界线向东减一天、向西加一天——方向记反，日期就错一天。"},{"h":"日界线为什么是弯的","p":"它为了不把同一个国家或群岛切成两天而绕行：基里巴斯、俄罗斯远东、阿留申群岛都让它拐了弯。所以“过 180° 就换日期”是错的。"}],"anchors":[{"iso":"KI","where":"基里巴斯","see":"日界线为它绕行，全球最早进入新年"},{"iso":"RU","where":"俄罗斯","see":"跨 11 个时区，远东与莫斯科差 9 小时"},{"iso":"WS","where":"萨摩亚","see":"2011 年跳过 12 月 30 日，从东侧换到西侧"}],"counter":"日界线不是 180° 经线本身：它为了避开岛国而弯折，照着经线算日期必然出错。","media":{"hint":"日界线弯折路线动画 + 跨线时刻表变化"},"next":[{"q":"为什么有的国家跨一天要改好几次表","to":"rotation"},{"q":"为什么同一纬度太阳高度相近","to":"graticule"}],"cite":"依据：时区与日界线常识；萨摩亚 2011 年跳过 12 月 30 日为公认事件。","tags":["时区","日界线","日期变更","区时","时差计算"],"quiz":[{"lv":"jr","type":"choice","q":"全球共划分的时区数量是","opts":["12 个","24 个","36 个","48 个"],"ans":1,"exp":"360°÷15°=24，每个时区跨 15 个经度、相差 1 小时。","diff":1,"tag":["地球运动","时区与日界线","概念辨析"]},{"lv":"sr","type":"short","q":"说明日界线为什么不是一条笔直的 180° 经线。","ans":"若沿 180° 直划，会把同一个国家或群岛切成两个日期（如基里巴斯、俄罗斯远东、阿留申群岛）。为保持一国之内日期一致，日界线作了弯折绕行，所以“过 180° 就换日期”会算错。","exp":"要点是“行政完整性优先于几何直线”。","diff":2,"tag":["地球运动","时区与日界线","机制分析"]}]},{"id":"savanna","kind":"concept","name":"热带草原气候","cat":"世界气候","alias":["热带草原","草原","萨瓦纳","干湿两季"],"level":{"jr":"七年级上 · 世界的气候","sr":"必修一 · 气候类型"},"line":"全年高温，干湿两季分明；湿季草木繁茂，干季枯黄落叶。","why":"赤道低压带与副热带高压交替控制：湿季低压带来上升气流与降水，干季副高下沉、几乎不下雨。","sections":[{"h":"为什么有动物大迁徙","p":"湿季降水分散，食草动物散开；干季只有少数水源还有水，于是成群向水源移动。迁徙不是“本能浪漫”，是被水逼出来的路线。"},{"h":"分布","p":"非洲东部与南部、巴西高原、澳大利亚北部与印度半岛部分区域。南北半球各有一片，湿季时间相反。"}],"anchors":[{"iso":"KE","where":"肯尼亚","see":"马赛马拉，角马过马拉河的河段"},{"iso":"TZ","where":"坦桑尼亚","see":"塞伦盖蒂，迁徙的起点与终点"},{"iso":"BR","where":"巴西","see":"巴西高原，南半球的草原干湿季"}],"counter":"草原不是“雨林少一点雨”：关键不是年降水总量，而是有明确的干季。雨林没有干季，所以长不出草原。","media":{"hint":"干湿季切换：同一地点的植被与动物分布变化"},"next":[{"q":"草原的干季为什么一滴雨都没有","to":"pressure-belts"},{"q":"草原和沙漠的分界在哪","to":"desert"}],"cite":"依据：气候类型常识；塞伦盖蒂—马赛马拉迁徙为公认生态现象。","tags":["草原","干湿季","萨瓦纳","角马","迁徙","塞伦盖蒂"],"quiz":[{"lv":"jr","type":"choice","q":"热带草原气候最显著的特征是","opts":["全年多雨","干湿两季分明","夏干冬雨","全年干旱"],"ans":1,"exp":"赤道低压与副高交替控制：湿季多雨、干季几乎无雨，全年高温。","diff":1,"tag":["世界气候","热带草原气候","概念辨析"]},{"lv":"sr","type":"short","q":"说明东非动物大迁徙与干湿季的关系。","ans":"湿季降水分散，食草动物随之分散觅食；干季水源与草场萎缩，动物成群向仍有水源的地区迁移（塞伦盖蒂—马赛马拉）。迁徙路线本质是被水与草逼出来的。","exp":"不要把迁徙写成“本能”，要落到水源与草场的季节变化。","diff":2,"tag":["世界气候","热带草原气候","机制分析"]}]},{"id":"desert","kind":"concept","name":"热带沙漠气候","cat":"世界气候","alias":["热带沙漠","沙漠","沙漠气候","干旱气候"],"level":{"jr":"七年级上 · 世界的气候","sr":"必修一 · 气候类型"},"line":"全年炎热干燥，年降水常少于 200 毫米，昼夜温差大。","why":"常年受副热带高压或信风控制，下沉气流抑制成云；云少则白天暴晒、夜里散热快，于是温差被拉大。","sections":[{"h":"为什么集中在 30° 附近","p":"副高带就在南北纬 30° 上下：撒哈拉、阿拉伯、澳大利亚中部、阿塔卡马都在这条带上。这是“气压带决定气候”的最直观证据。"},{"h":"沿海也会有沙漠","p":"纳米布与阿塔卡马紧贴海岸，却是最干的沙漠——因为寒流让近地面空气稳定，水汽不易上升成雨。冷海岸+沙漠，是同一套机制的两面。"}],"anchors":[{"iso":"EG","where":"埃及","see":"撒哈拉东缘，全国绝大部分是沙漠"},{"iso":"NA","where":"纳米比亚","see":"纳米布沙漠贴着大西洋海岸"},{"iso":"CL","where":"智利","see":"阿塔卡马，被称为世界干极"}],"counter":"沙漠不一定在内陆：纳米布和阿塔卡马都在海边，因为寒流让空气下沉稳定。海边的沙漠比内陆更难解释，也更值得记。","media":{"hint":"副高带 + 寒流沿岸，两种成旱机制叠加图"},"next":[{"q":"沙漠里怎么种出东西","to":"oasis"},{"q":"为什么海边也会有沙漠","to":"current"}],"cite":"依据：气候类型常识；阿塔卡马为世界干极、纳米布沿岸沙漠与寒流相关均为通行结论。","tags":["沙漠","干旱","撒哈拉","昼夜温差","副热带高压","戈壁"],"quiz":[{"lv":"jr","type":"choice","q":"撒哈拉沙漠形成的主要原因是","opts":["深居内陆","常年受副热带高压控制","受寒流影响","地形闭塞"],"ans":1,"exp":"副高下沉气流抑制成云致雨，所以世界大沙漠多分布在南北纬 30° 附近。","diff":1,"tag":["世界气候","热带沙漠气候","概念辨析"]},{"lv":"sr","type":"short","q":"分析南美洲西岸阿塔卡马沙漠的成因。","ans":"① 常年受副热带高压控制，下沉气流干燥；② 沿岸秘鲁寒流降温减湿，近地面空气稳定；③ 位于安第斯山脉西侧背风坡，水汽难以进入。","exp":"三点缺一不可：只写寒流会漏掉副高与背风，只写副高解释不了它为什么比其他同纬度沙漠更干。","diff":3,"tag":["世界气候","热带沙漠气候","机制分析"]}]},{"id":"monsoon-temperate","kind":"concept","name":"温带季风气候","cat":"世界气候","alias":["温带季风","东亚季风气候"],"level":{"jr":"七年级上 · 世界的气候","sr":"必修一 · 气候类型"},"line":"夏季高温多雨、冬季寒冷干燥，出现在中纬度大陆东岸。","why":"海陆热力差造成季风：夏季风从海洋来、带来降水；冬季风从内陆来、干冷。所以它的降水几乎全在夏季。","sections":[{"h":"与亚热带季风的界线","p":"看最冷月：0℃ 上下是分界（秦岭—淮河）。北边冬季要结冰、作物一年一熟或两年三熟；南边可一年两熟。"},{"h":"与同纬度西岸比","p":"同纬度西岸是温带海洋性（全年湿润），东岸是温带季风（雨热同期）。位置换了，气候类型整个换掉。"}],"anchors":[{"iso":"CN","where":"中国华北","see":"夏季暴雨集中，冬季干冷少雪"},{"iso":"KR","where":"韩国","see":"首尔冬冷夏雨，典型的东岸季风"},{"iso":"JP","where":"日本北部","see":"与本州南部差出半个气候带"}],"counter":"“季风气候都湿热”不成立：温带季风的冬季又冷又干，和热带季风完全是两回事。同名不同季。","media":{"hint":"冬夏风向反转 + 降水柱状对比"},"next":[{"q":"中国北方为什么春天缺水","to":"china-climate"},{"q":"东亚季风为什么这么强","to":"monsoon"}],"cite":"依据：气候类型常识；秦岭—淮河以最冷月 0℃ 为界为通行表述。","tags":["温带季风","雨热同期","华北","冬冷夏热","春旱"],"quiz":[{"lv":"jr","type":"choice","q":"温带季风气候的降水主要集中在","opts":["春季","夏季","秋季","冬季"],"ans":1,"exp":"降水主要由夏季风带来，冬季风来自内陆、干冷，所以冬季少雨。","diff":1,"tag":["世界气候","温带季风气候","概念辨析"]},{"lv":"sr","type":"short","q":"比较温带季风气候与温带海洋性气候的成因差异。","ans":"温带季风：海陆热力性质差异导致冬夏风向反转，夏季风带来降水，雨热同期、气温年较差大；温带海洋性：常年受西风带控制并受暖流增温，全年温和湿润、降水季节分配均匀。","exp":"两者同纬度但分处东岸与西岸，答题要落到“环流机制”，不要只写“降水多少”。","diff":2,"tag":["世界气候","温带季风气候","机制分析"]}]},{"id":"polar","kind":"concept","name":"极地气候","cat":"世界气候","alias":["极地气候","苔原","冰原气候"],"level":{"jr":"七年级上 · 世界的气候","sr":"必修一 · 气候类型"},"line":"全年严寒，最热月也在 10℃ 以下，降水极少且多为固态。","why":"太阳高度低、极夜时间长，得到的热量少；冷空气下沉形成高压，不易成云致雨，所以“极地是白色沙漠”。","sections":[{"h":"苔原与冰原的分界","p":"最热月 0–10℃ 能长苔藓地衣，是苔原；终年在 0℃ 以下是冰原。这条界线决定有没有植被，也决定有没有人长期居住。"},{"h":"南极为什么比北极冷","p":"南极是大陆、海拔高、冰雪反射强；北极是海洋，海水把热量带上来。同纬度，下垫面能把温度拉开二十度。"}],"anchors":[{"iso":"GL","where":"格陵兰","see":"冰盖覆盖大部分岛屿，边缘才有苔原"},{"iso":"IS","where":"冰岛","see":"冰川与苔原共存，靠地热住人"},{"iso":"NO","where":"挪威","see":"斯瓦尔巴群岛，北极圈内的定居点"}],"counter":"南极比北极冷，不是因为“更靠南”，而是因为它是大陆、海拔高。同纬度比较，下垫面与海拔比纬度更能决定温度。","media":{"hint":"南极（大陆）与北极（海洋）剖面温度对比"},"next":[{"q":"极昼极夜是怎么来的","to":"revolution"},{"q":"冰川化了会怎样","to":"water-cycle"}],"cite":"依据：气候类型常识；南极年均温低于北极、格陵兰冰盖覆盖率为通行事实。","tags":["极地","苔原","冰原","极昼","冰川","南极"],"quiz":[{"lv":"jr","type":"choice","q":"苔原气候与冰原气候的分界大致是最热月均温","opts":["0℃","10℃","20℃","−10℃"],"ans":0,"exp":"最热月 0—10℃ 能长苔藓地衣为苔原；终年在 0℃ 以下为冰原。","diff":1,"tag":["世界气候","极地气候","概念辨析"]},{"lv":"sr","type":"short","q":"说明南极比北极冷的原因。","ans":"南极是大陆、海拔高（平均约 2350 米），冰雪反射率强，热量难以储存；北极是海洋，海水把热量向上输送，起到调节作用。同纬度下，下垫面与海拔的差异可造成二十度以上的温差。","exp":"三个得分点：大陆/海洋、海拔、反射率。","diff":2,"tag":["世界气候","极地气候","机制分析"]}]},{"id":"ethnic-language","kind":"concept","name":"人种与语言","cat":"居民与聚落","alias":["人种","语言","语系","民族"],"level":{"jr":"七年级上 · 人口与人种","sr":"必修二 · 地域文化与人口"},"line":"人种按体质特征划分，语言按语系划分；两者不重合，也不与国界重合。","why":"人种是长期适应环境的体质差异，语言是历史传播的结果——语言能跨人种传播，体质也会因迁移而混合。","sections":[{"h":"三大人种要打个折","p":"教材分黄、白、黑三大人种，是基于体质特征的粗略划分；实际人群连续过渡，“人种”在学界本身有争议。知道划分，也要知道它是简化。"},{"h":"语系比国家少","p":"汉藏、印欧、阿尔泰、南岛等几大语系覆盖全球多数人口；一个国家常有多语系并存，非洲尤其明显。"}],"anchors":[{"iso":"NG","where":"尼日利亚","see":"两百多个民族、五百多种语言"},{"iso":"IN","where":"印度","see":"印欧与达罗毗荼两大语系并存"},{"iso":"BR","where":"巴西","see":"人种混合最典型，混血人口占比高"}],"counter":"“一国一族一语”几乎不存在：非洲多数国界是殖民时期划的，一国多语是常态，欧洲也有大量双语国家。","media":{"hint":"语言分布图与国界叠加，看两者如何错位"},"next":[{"q":"为什么一个国家会有几十种语言","to":"diffusion"},{"q":"宗教是怎么分布的","to":"religion"}],"cite":"依据：人口与人种常识；尼日利亚语言数量、印度双语系并存为通行事实。","tags":["人种","语言","语系","民族","多语国家"],"quiz":[{"lv":"jr","type":"choice","q":"非洲许多国家有多种官方语言，主要原因是","opts":["人口数量过多","殖民历史与多民族并存","地形阻隔","宗教多样"],"ans":1,"exp":"国界多为殖民时期划定，把不同族群划进同一国家，独立后沿用殖民语言作官方语言，形成多语并存。","diff":1,"tag":["居民与聚落","人种与语言","概念辨析"]},{"lv":"sr","type":"short","q":"说明“人种划分”与“语言划分”为什么不是一回事。","ans":"人种按体质特征（肤色、发形等）划分，是长期适应环境的结果；语言按语系划分，是历史传播与迁移的结果。语言可以跨人种传播（如西班牙语在美洲），体质也会因通婚混合，两者不重合，也不与国界重合。","exp":"关键词是“体质适应”与“历史传播”，两套机制不同。","diff":2,"tag":["居民与聚落","人种与语言","机制分析"]}]},{"id":"religion","kind":"concept","name":"宗教分布","cat":"居民与聚落","alias":["宗教","三大宗教","基督教","伊斯兰教","佛教"],"level":{"jr":"七年级上 · 语言与宗教","sr":"必修二 · 地域文化"},"line":"基督教、伊斯兰教、佛教各有起源地与核心区，扩散路径决定了今天的分布。","why":"宗教沿商路、征服与移民扩散：扩散早的地方成为核心区，扩散晚的地方成为边缘或少数群体。","sections":[{"h":"三块核心区","p":"伊斯兰教起于阿拉伯半岛，核心在西亚北非；基督教起于西亚、核心转到欧洲并随殖民扩散到美洲；佛教起于南亚，核心在东与东南亚。"},{"h":"一国之内的两层","p":"尼日利亚南北分属伊斯兰与基督教；印度以印度教为主却是佛教发源地。国家边界与宗教边界经常错开。"}],"anchors":[{"iso":"SA","where":"沙特阿拉伯","see":"伊斯兰教发源地，麦加与麦地那"},{"iso":"IT","where":"意大利","see":"天主教中心，梵蒂冈在罗马城内"},{"iso":"IN","where":"印度","see":"印度教为主，佛教在此起源后外传"}],"counter":"宗教分布不等于信仰强度：法国天主教文化身份很重，但实际礼拜率很低。看分布图只能看出“归属”，看不出“虔诚”。","media":{"hint":"三大宗教扩散路径动画（商路 → 殖民 → 移民）"},"next":[{"q":"宗教为什么能跨洲传播","to":"diffusion"},{"q":"为什么节日日期每年都不一样","to":"cmp-fest"}],"cite":"依据：宗教地理常识；三国起源与核心区为通行表述。","tags":["宗教","伊斯兰教","基督教","佛教","麦加","梵蒂冈"],"quiz":[{"lv":"jr","type":"choice","q":"伊斯兰教的发源地是","opts":["南亚","阿拉伯半岛","欧洲西部","东南亚"],"ans":1,"exp":"7 世纪起源于阿拉伯半岛，麦加、麦地那是圣城；后沿商路扩散到北非、中亚、东南亚。","diff":1,"tag":["居民与聚落","宗教分布","概念辨析"]},{"lv":"sr","type":"short","q":"说明宗教分布图能看出什么、看不出什么。","ans":"能看出各宗教的核心区与扩散范围、国家内部的宗教构成；看不出信仰强度与实际的宗教实践（如法国天主教文化身份重但礼拜率低），也看不出教派内部差异。","exp":"这题考“地图的局限”，答“看不出虔诚程度”是核心。","diff":2,"tag":["居民与聚落","宗教分布","机制分析"]}]},{"id":"settlement","kind":"concept","name":"聚落形态","cat":"居民与聚落","alias":["聚落","乡村","城市形态","带状聚落"],"level":{"jr":"七年级上 · 聚落","sr":"必修二 · 城乡空间结构"},"line":"聚落分乡村与城市，形态受水源、地形、交通影响：带状、团状、散点。","why":"沿河沿路长成带状，平原中心长成团状，牧区与山区多是散点——因为资源本身是分散的。","sections":[{"h":"三种形态的成因","p":"带状：河谷、公路、海岸线限制横向扩展；团状：平原中心、交通交汇；散点：牧区、山区，逐水草或逐地块居住。"},{"h":"城市为什么爱三角洲","p":"水运便利、地势平坦、水源充足，三者叠加。尼罗河三角洲、长江三角洲、恒河三角洲都是人口最密的地方。"}],"anchors":[{"iso":"EG","where":"埃及","see":"尼罗河两岸的带状聚落，两侧就是沙漠"},{"iso":"NL","where":"荷兰","see":"围海造陆后形成的团状城镇群"},{"iso":"MN","where":"蒙古","see":"牧区的散点与季节性迁移"}],"counter":"城市多半不是“规划出来”的：老城沿着水源与道路自然生长，方格网是近代才加上的。看老城地图能读出地形。","media":{"hint":"三种聚落形态的卫星影像对比"},"next":[{"q":"城市为什么会越来越大","to":"urbanization"},{"q":"为什么大城市都在三角洲","to":"population"}],"cite":"依据：聚落地理常识；三大三角洲人口密集为通行事实。","tags":["聚落","乡村","城市","带状","三角洲","空心化"],"quiz":[{"lv":"jr","type":"choice","q":"沿河谷延伸的聚落形态属于","opts":["团状","带状","散点","环状"],"ans":1,"exp":"河谷与公路限制横向扩展，聚落沿水线或道路拉长成带状。","diff":1,"tag":["居民与聚落","聚落形态","概念辨析"]},{"lv":"sr","type":"short","q":"说明城市多分布在大河三角洲的原因。","ans":"地形平坦便于建设；水源充足；河运便利、便于对外联系；泥沙冲积形成肥沃土壤，农业基础好，能支撑较多人口。四项叠加使三角洲成为人口与城市最密集的区域。","exp":"至少写出地形、水源、交通三项，只写“水源”不完整。","diff":2,"tag":["居民与聚落","聚落形态","机制分析"]}]},{"id":"china-climate","kind":"concept","name":"中国气候特征","cat":"中国地理","alias":["中国气候","季风气候显著","雨带推移"],"level":{"jr":"八年级上 · 中国的气候","sr":"必修一 · 中国气候"},"line":"季风气候显著、大陆性强、类型复杂多样——三个特征由海陆位置、纬度跨度、地形共同决定。","why":"背靠最大大陆、面朝最大大洋，季风最强；南北跨近 50 个纬度，热量差异大；三级阶梯让同一纬度也能长出不同气候。","sections":[{"h":"三条界线要记牢","p":"1 月 0℃ 等温线≈秦岭—淮河（亚热带与暖温带）；400 毫米等降水量线（农耕与牧业）；季风区与非季风区（大兴安岭—阴山—贺兰山—巴颜喀拉山—冈底斯山）。"},{"h":"雨带怎么北推","p":"4—5 月华南、6 月江淮（梅雨）、7—8 月华北东北，9 月南撤。雨带停留久了就涝，走得快了就旱——“南涝北旱”与“北涝南旱”都是它停错位置。"}],"anchors":[{"iso":"CN","where":"华南（4—5 月）","see":"前汛期，雨带最先到这里"},{"iso":"CN","where":"江淮（6 月）","see":"梅雨，一停一个月"},{"iso":"CN","where":"华北（7—8 月）","see":"雨季最晚，也最容易旱涝急转"}],"counter":"“南方一定比北方湿”不成立：云南干热河谷、新疆伊犁河谷都是例外——地形能改写纬度规律，这也是非地带性。","media":{"hint":"雨带 4—9 月北推南撤动画"},"next":[{"q":"梅雨为什么能停一个月","to":"fronts"},{"q":"为什么南方能一年两熟","to":"agri-china"}],"cite":"依据：中国气候常识；三条界线与雨带推进为教材通行表述，未引用原文。","tags":["中国气候","季风气候","秦岭淮河","雨带","梅雨","南涝北旱"],"quiz":[{"lv":"jr","type":"choice","q":"我国 1 月 0℃ 等温线大致经过","opts":["长江一线","秦岭—淮河一线","黄河一线","南岭一线"],"ans":1,"exp":"这条线同时是亚热带与暖温带、湿润区与半湿润区的分界，是必背的一条。","diff":1,"tag":["中国地理","中国气候特征","概念辨析"]},{"lv":"sr","type":"short","q":"说明我国东部雨带的推移规律，并解释“南涝北旱”的成因。","ans":"规律：4—5 月华南、6 月江淮（梅雨）、7—8 月华北东北，9 月南撤。成因：夏季风弱的年份雨带长时间停在南方，北方雨季推迟或偏短，于是南涝北旱；反之则北涝南旱。","exp":"要写出“夏季风强弱决定雨带停留位置”这个机制，只背月份拿不到分。","diff":2,"tag":["中国地理","中国气候特征","机制分析","季风"]}]},{"id":"rivers","kind":"concept","name":"长江与黄河","cat":"中国地理","alias":["长江","黄河","地上河","含沙量"],"level":{"jr":"八年级上 · 中国的河流","sr":"必修一 · 中国河流"},"line":"长江水量大、无冰期，航运价值高；黄河含沙量世界第一，下游淤成“地上河”。","why":"长江流域降水多、支流多、终年不冻；黄河中游穿过黄土高原，把泥沙带到下游沉积，河床逐年抬高。","sections":[{"h":"地上河是怎么来的","p":"泥沙淤积 → 加高堤防 → 继续淤积 → 再加固。河床最终高于两岸地面，一旦决口就是大范围泛滥。所以治黄的关键在“减沙”，不在“加堤”。"},{"h":"长江为什么能当黄金水道","p":"水量大、无冰期、干支流通航里程长、横贯东西经济带。三条凑齐，才配得上“黄金水道”。"}],"anchors":[{"iso":"CN","where":"黄土高原（中游）","see":"泥沙来源，水土流失最严重"},{"iso":"CN","where":"华北平原（下游）","see":"河床高出地面，靠堤防约束"},{"iso":"CN","where":"长江三角洲","see":"航运与港口最密集的河段"}],"counter":"“黄河水少就不会泛滥”是错的：黄河的问题在沙不在水，历史上决口改道频繁。水量小与灾害重，可以同时成立。","media":{"hint":"地上河形成过程动画（淤积—加堤—再淤积）"},"next":[{"q":"黄土高原的土为什么会被冲走","to":"exogenic"},{"q":"土地为什么越种越薄","to":"land-resource"}],"cite":"依据：中国河流常识；黄河含沙量居世界首位、下游为地上河均为通行结论。","tags":["长江","黄河","含沙量","地上河","水土流失","黄金水道"],"quiz":[{"lv":"jr","type":"choice","q":"黄河下游形成“地上河”的直接原因是","opts":["水量大","泥沙淤积使河床抬高","流速快","支流众多"],"ans":1,"exp":"泥沙来自中游黄土高原，下游地势平缓、泥沙沉积，河床逐年抬高。","diff":1,"tag":["中国地理","长江与黄河","概念辨析"]},{"lv":"sr","type":"short","q":"为什么说治理黄河的关键在“减沙”而不是“加堤”？","ans":"泥沙主要来自中游黄土高原的水土流失；加高堤防只是把淤积抬高延后，河床继续上升，风险累积。减沙（水土保持、退耕还林、淤地坝）从源头减少来沙，才是根治。","exp":"要答出“加堤是治标、会累积风险”，否则等于没说清关键在哪。","diff":2,"tag":["中国地理","长江与黄河","机制分析"]}]},{"id":"land-resource","kind":"concept","name":"土地资源","cat":"中国地理","alias":["土地资源","耕地红线","荒漠化","水土流失"],"level":{"jr":"八年级上 · 中国的自然资源","sr":"必修二 · 资源与安全"},"line":"中国耕地少、后备资源不足，草地与林地占比大，且分布不均。","why":"山地多平原少（三级阶梯决定），干旱区广（西北），所以耕地集中在东部平原与河谷。","sections":[{"h":"人均才是真问题","p":"总量大、人均少：人均耕地不到世界平均的一半。所以“18 亿亩红线”守的是人均底线，不是总量。"},{"h":"三种退化","p":"荒漠化（西北，风蚀与水缺）、盐碱化（灌溉不当，蒸发把盐带到表层）、水土流失（黄土高原、南方红壤丘陵）。三种成因不同，治理手段也不同。"}],"anchors":[{"iso":"CN","where":"东北黑土区","see":"最肥沃的耕地，也在退化"},{"iso":"CN","where":"西北干旱区","see":"荒漠化前沿，退耕还林还草"},{"iso":"CN","where":"黄土高原","see":"水土流失，泥沙进黄河"}],"counter":"“地大物博”常被误读：国土面积第三，但人均耕地、人均水都低于世界平均。总量与人均要分开说。","media":{"hint":"耕地分布与人口分布叠加图"},"next":[{"q":"黑土为什么会变薄","to":"soil"},{"q":"耕地为什么集中在东部","to":"agri-china"}],"cite":"依据：中国土地资源常识；人均耕地低于世界平均为通行统计结论。","tags":["土地资源","耕地","18亿亩","荒漠化","盐碱化"],"quiz":[{"lv":"jr","type":"choice","q":"我国耕地资源的基本特点是","opts":["总量小、人均多","总量大、人均少","分布均匀","后备资源充足"],"ans":1,"exp":"国土面积大但山地多平原少，人均耕地不到世界平均的一半，所以有“18 亿亩红线”。","diff":1,"tag":["中国地理","土地资源","概念辨析"]},{"lv":"sr","type":"short","q":"说明荒漠化、盐碱化、水土流失的成因差异。","ans":"荒漠化：干旱区风力侵蚀与过度放牧开垦，植被退化；盐碱化：灌溉不当、地下水位上升，蒸发把盐分带到表层；水土流失：降水集中且植被破坏，坡面径流冲刷表土。三者分别对应风、水盐、水蚀。","exp":"要区分“风蚀”“盐分上移”“径流冲刷”，不能都写“环境破坏”。","diff":2,"tag":["中国地理","土地资源","机制分析"]}]},{"id":"agri-china","kind":"concept","name":"中国农业分布","cat":"中国地理","alias":["农业分布","中国农业","东耕西牧","南稻北麦","商品粮基地"],"level":{"jr":"八年级上 · 中国的农业","sr":"必修二 · 农业地域"},"line":"东耕西牧、南稻北麦；界线大致是 400 毫米等降水量线与秦岭—淮河。","why":"降水决定能不能种（400 毫米以下宜牧），热量决定种什么（秦岭淮河以南可稻作两熟）。","sections":[{"h":"三大农业区","p":"东部季风区（种植业为主）、西北干旱区（灌溉农业与牧业）、青藏高寒区（河谷农业与高寒牧业）。分区看的是水热组合，不是行政区。"},{"h":"商品粮基地在哪","p":"东北平原（地多人少、机械化高）、长江中下游（水热好、单产高）。一个靠规模，一个靠单产。"}],"anchors":[{"iso":"CN","where":"东北平原","see":"春小麦、玉米、大豆，商品率最高"},{"iso":"CN","where":"长江中下游","see":"水稻两熟，鱼米之乡"},{"iso":"CN","where":"内蒙古草原","see":"牧区，400 毫米线以西"}],"counter":"“南方只种稻”不成立：江淮也种小麦，南方还有甘蔗、油菜、柑橘。作物看的是水热组合，不是纬度标签。","media":{"hint":"400mm 等降水量线与主要作物分布叠加"},"next":[{"q":"为什么东北也能种水稻","to":"agri-location"},{"q":"南方为什么吃米北方吃面","to":"cmp-diet"}],"cite":"依据：中国农业分布常识；三大农业区划分为教材通行表述。","tags":["农业分布","南稻北麦","东耕西牧","商品粮","东北大米"],"quiz":[{"lv":"jr","type":"choice","q":"我国“东耕西牧”的分界大致接近","opts":["200 毫米等降水量线","400 毫米等降水量线","800 毫米等降水量线","秦岭—淮河一线"],"ans":1,"exp":"400 毫米线以西降水不足以稳定发展种植业，以牧业为主；秦岭—淮河是南北方的分界。","diff":1,"tag":["中国地理","中国农业分布","概念辨析"]},{"lv":"sr","type":"short","q":"说明东北平原与长江中下游成为商品粮基地的不同原因。","ans":"东北：地多人少、耕地集中连片、机械化程度高，商品率高，靠规模；长江中下游：水热条件好、单产高、一年多熟，靠单产与复种。","exp":"一个靠“规模”，一个靠“单产”，答成同一套理由就错了。","diff":2,"tag":["中国地理","中国农业分布","机制分析"]}]},{"id":"china-population","kind":"concept","name":"中国人口与民族","cat":"中国地理","alias":["胡焕庸线","黑河腾冲线","民族分布","人口东密西疏","人口与民族","民族"],"level":{"jr":"八年级上 · 中国的人口","sr":"必修二 · 人口分布"},"line":"人口东密西疏，胡焕庸线（黑河—腾冲）两侧差异悬殊；56 个民族大杂居、小聚居。","why":"东部平原多、降水多、经济密度高；西部高原沙漠广，承载力低。人口分布本质是“能住的地方有多少”。","sections":[{"h":"胡焕庸线是什么","p":"1935 年提出的一条经验线：东南半壁住了九成以上人口，西北半壁不到一成。它不是政策线，也不是自然分界，但近百年格局没大变。"},{"h":"民族为什么在西南最集中","p":"地形破碎、山谷阻隔，历史上外来人口难以深入，族群得以保留；同时河谷通道又让交流不断，所以是“大杂居、小聚居”。"}],"anchors":[{"iso":"CN","where":"黑河—腾冲线以东","see":"平原与沿海，人口最密集"},{"iso":"CN","where":"西南山区","see":"民族自治地方最集中的区域"},{"iso":"CN","where":"西北干旱区","see":"绿洲与河谷是人口的全部落脚点"}],"counter":"胡焕庸线不是“不能越过”：新疆城镇化在提高，但线的整体格局没变。局部变化与整体稳定可以同时成立。","media":{"hint":"夜间灯光图与胡焕庸线叠加"},"next":[{"q":"胡焕庸线为什么分得这么准","to":"population"},{"q":"进城的人会不会改变这条线","to":"urbanization"}],"cite":"依据：胡焕庸线为 1935 年提出的经验线；东西人口比例约 94:6 为通行表述。","tags":["胡焕庸线","黑河腾冲","人口东密西疏","56个民族","民族分布"],"quiz":[{"lv":"jr","type":"choice","q":"胡焕庸线大致连接的两座城市是","opts":["黑河—腾冲","漠河—广州","北京—上海","兰州—昆明"],"ans":0,"exp":"黑河（黑龙江）到腾冲（云南），东南半壁集中了九成以上人口。","diff":1,"tag":["中国地理","中国人口与民族","概念辨析"]},{"lv":"sr","type":"short","q":"说明胡焕庸线东西差异的自然原因，并解释“经验线”的含义。","ans":"线以东多平原丘陵、降水较多、热量条件好，适宜农耕与居住；线以西多高原沙漠、降水少、生态脆弱，承载力低。“经验线”指它是根据人口分布统计归纳出来的界线，不是政策划定，也不是自然界线。","exp":"“经验线”三个字必须解释，否则等于没答第二问。","diff":2,"tag":["中国地理","中国人口与民族","机制分析"]}]},{"id":"cyclone","kind":"concept","name":"气旋与反气旋","cat":"天气","alias":["气旋","反气旋","低压","高压","伏旱"],"level":{"jr":"七年级上 · 天气","sr":"必修一 · 常见天气系统"},"line":"低压中心气流上升、成云致雨；高压中心下沉、天气晴朗。北半球气旋逆时针、反气旋顺时针。","why":"气压梯度力把空气推向低压，地转偏向力让它偏转成旋转；上升或下沉决定成不成云。","sections":[{"h":"天气差别","p":"台风是强气旋（狂风暴雨）；长江中下游伏旱是副高＝反气旋控制（晴热少雨）。同一个“气压系统”概念，一个带来灾，一个带来旱。"},{"h":"风向怎么判","p":"北半球气旋：东侧偏南风、西侧偏北风；反气旋相反。判风向先画气压梯度力，再顺手偏 30°–45°。"}],"anchors":[{"iso":"CN","where":"长江中下游","see":"七八月伏旱，副高控制"},{"iso":"PH","where":"菲律宾","see":"西北太平洋台风最常登陆的地方之一"},{"iso":"RU","where":"俄罗斯","see":"冬季大陆高压，干冷少雪"}],"counter":"“低压一定下雨”要加条件：水汽不足时低压也只是阴天。沙漠里的低压系统常常只刮风不下雨。","media":{"hint":"气旋/反气旋垂直剖面动画，可切南北半球"},"next":[{"q":"台风为什么在海上生成","to":"heating"},{"q":"伏旱为什么这么难熬","to":"pressure-belts"}],"cite":"依据：天气系统常识；伏旱与副高、台风与热带气旋为通行结论。","tags":["气旋","反气旋","台风","伏旱","低压","高压"],"quiz":[{"lv":"jr","type":"choice","q":"北半球气旋的水平气流方向是","opts":["顺时针辐散","逆时针辐合","顺时针辐合","逆时针辐散"],"ans":1,"exp":"低压中心四周气流向中心辐合，受地转偏向力右偏成逆时针；反气旋相反，顺时针辐散。","diff":1,"tag":["天气","气旋与反气旋","概念辨析"]},{"lv":"sr","type":"short","q":"说明台风与伏旱分别对应哪种气压系统，天气为什么不同。","ans":"台风是强烈发展的热带气旋（低压），中心气流上升，带来狂风暴雨；伏旱是副热带高压（反气旋）控制，下沉气流抑制成云，晴热少雨。上升与下沉决定成不成云。","exp":"落点写“上升/下沉”，比罗列天气现象更能得分。","diff":2,"tag":["天气","气旋与反气旋","机制分析"]}]},{"id":"soil","kind":"concept","name":"土壤与植被","cat":"自然带","alias":["土壤","黑土","红壤","植被"],"level":{"jr":"七年级上 · 自然景观","sr":"必修一 · 土壤与植被"},"line":"土壤是气候、生物、地形、母质、时间共同作用的产物；植被类型与土壤类型大致对应。","why":"气候决定有机质积累与淋溶强度：冷湿环境积累（黑土），热湿环境淋溶（砖红壤），干旱环境积盐（荒漠土）。","sections":[{"h":"三类典型","p":"黑土：冷湿、草甸根系多、有机质厚；砖红壤：高温多雨、淋溶强、酸性贫瘠；荒漠土：蒸发强、盐分上移、有机质少。"},{"h":"土壤与农业","p":"黑土高产不是因为“肥”，而是因为有机质层厚、结构好。反过来，热带雨林下的砖红壤一旦失去植被覆盖，很快就硬结。"}],"anchors":[{"iso":"CN","where":"东北黑土区","see":"有机质层最厚的耕地"},{"iso":"BR","where":"亚马孙","see":"砖红壤，淋溶强、酸性"},{"iso":"EG","where":"埃及西部","see":"荒漠土，盐分聚集"}],"counter":"土壤肥沃不等于降水多：黑土在冷湿环境形成，热带雨林下反而贫瘠。有机质是“积累 vs 分解”的平衡结果。","media":{"hint":"气候带 → 土壤类型的对应动画"},"next":[{"q":"黑土为什么越来越薄","to":"land-resource"},{"q":"热带雨林的土为什么不能种地","to":"rainforest"}],"cite":"依据：土壤地理常识；黑土有机质层厚、砖红壤淋溶强为通行结论。","tags":["土壤","黑土","红壤","有机质","盐碱","土壤肥沃"],"quiz":[{"lv":"jr","type":"choice","q":"我国东北黑土有机质含量高的主要原因是","opts":["气温高、分解快","冷湿环境有机质积累多","降水多、淋溶强","母质本身肥沃"],"ans":1,"exp":"冬季寒冷使有机质分解慢，草甸根系大量积累，形成深厚腐殖质层。","diff":1,"tag":["自然带","土壤与植被","概念辨析"]},{"lv":"sr","type":"short","q":"说明“土壤肥沃与降水多少不成正比”，并用黑土与砖红壤对比。","ans":"肥力取决于有机质积累与分解的平衡：黑土在冷湿环境下分解慢、积累多，土层深厚肥沃；砖红壤在高温多雨下分解快、淋溶强，养分流失、酸性贫瘠。降水多反而更容易贫瘠。","exp":"关键在“积累 vs 分解”，不是“水多就好”。","diff":2,"tag":["自然带","土壤与植被","机制分析"]}]},{"id":"industry-location","kind":"concept","name":"工业区位因素","cat":"产业","alias":["工业区位","产业转移","原料指向","市场指向"],"level":{"jr":"八年级上 · 工业","sr":"必修二 · 工业区位"},"line":"工业选址看原料、市场、动力、劳动力、交通、技术与政策，不同工业的主导因素不同。","why":"原料指向（易腐、运输成本高）、市场指向（体积大、易碎）、劳动力指向（劳动密集）、技术指向（高附加值）。","sections":[{"h":"三类典型","p":"钢铁：靠近原料或交通枢纽；服装：劳动力便宜；芯片：人才与供应链。选址不是“越便宜越好”，是“最贵的那一项在哪里”。"},{"h":"产业转移的路径","p":"先搬到低成本地区（服装、组装），再往技术升级（设计、品牌）。所以“转移”和“升级”往往同时发生，不是二选一。"}],"anchors":[{"iso":"CN","where":"长三角","see":"电子与装备制造，靠近供应链"},{"iso":"VN","where":"越南","see":"服装鞋帽转移的主要承接地"},{"iso":"DE","where":"德国","see":"高端装备，靠技术与技工"}],"counter":"“工厂都往成本低处搬”不完整：芯片、医药反而更集中，因为要靠近人才、专利与供应链。成本不是唯一变量。","media":{"hint":"同一件产品的四段工序分布动画"},"next":[{"q":"港口为什么能带起一片工厂","to":"transport"},{"q":"工厂搬走以后当地怎么办","to":"development"}],"cite":"依据：工业区位理论；越南承接纺织服装转移、德国高端装备为通行事实。","tags":["工业区位","产业转移","工厂选址","劳动力","芯片","服装"],"quiz":[{"lv":"jr","type":"choice","q":"服装加工业布局时最看重的因素是","opts":["原料产地","廉价劳动力","技术人才","气候条件"],"ans":1,"exp":"劳动密集型，人工成本占比高，所以向劳动力便宜的地区转移。","diff":1,"tag":["产业","工业区位因素","概念辨析"]},{"lv":"sr","type":"short","q":"说明产业转移中“转移”与“升级”为什么常同时发生。","ans":"转出地把低附加值环节（加工组装）迁到低成本地区，同时把资源集中到研发、设计、品牌等高附加值环节；承接地获得就业与配套产业，逐步向上游攀升。两者是同一过程的两面，不是二选一。","exp":"答题要体现“环节分工”，而不是“工厂整体搬家”。","diff":2,"tag":["产业","工业区位因素","机制分析"]}]},{"id":"transport","kind":"concept","name":"交通布局","cat":"产业","alias":["交通布局","枢纽","港口","运量"],"level":{"jr":"八年级上 · 交通运输","sr":"必修二 · 交通运输布局"},"line":"交通线沿地形与人口分布铺设，节点（港口、枢纽）决定区域兴衰。","why":"修路成本受地形控制：平原直、山区弯、桥隧贵；运量决定方式：海运大宗、航空轻贵、铁路中长距。","sections":[{"h":"四种方式怎么选","p":"运量：海运 > 铁路 > 公路 > 航空；速度：航空 > 公路 > 铁路 > 海运；成本正相反。所以大宗走海/铁，急件走航空。"},{"h":"枢纽效应","p":"鹿特丹靠莱茵河口吃下欧洲腹地；新加坡卡在马六甲海峡。枢纽不是“位置好”，而是“位置 + 腹地 + 效率”三件事同时成立。"}],"anchors":[{"iso":"NL","where":"鹿特丹","see":"莱茵河口，欧洲最大港口"},{"iso":"SG","where":"新加坡","see":"马六甲海峡，转口贸易枢纽"},{"iso":"CN","where":"中欧班列","see":"陆路通道改写内陆出口路径"}],"counter":"“修路必然带动经济”要打问号：没有产业与人口的线路会闲置。“通道”只是条件，不是红利本身。","media":{"hint":"四种运输方式的运量-成本-速度对比图"},"next":[{"q":"新加坡凭什么当中转站","to":"industry-location"},{"q":"修了路为什么还是穷","to":"human-land"}],"cite":"依据：交通布局常识；鹿特丹、新加坡的枢纽地位为通行事实。","tags":["交通","港口","枢纽","运量","中欧班列","运河"],"quiz":[{"lv":"jr","type":"choice","q":"大宗笨重货物长距离运输最适合的方式是","opts":["航空","公路","水运或铁路","管道"],"ans":2,"exp":"水运运量最大、成本最低但速度慢；铁路适合中长距大宗。航空快但贵，只适合轻贵重。","diff":1,"tag":["产业","交通布局","概念辨析"]},{"lv":"sr","type":"short","q":"说明新加坡成为国际航运枢纽的条件。","ans":"位置：扼守马六甲海峡，是太平洋与印度洋航线的必经之地；港口水深条件好，可停靠大型船舶；腹地转口贸易发达，配套金融、加油、维修服务完善；政策自由、效率高。位置 + 效率 + 服务三者叠加。","exp":"只写“位置好”不完整，要补“港口条件与服务效率”。","diff":2,"tag":["产业","交通布局","机制分析"]}]},{"id":"human-land","kind":"concept","name":"人地关系","cat":"产业","alias":["人地关系","可持续发展","承载力","环境容量"],"level":{"jr":"八年级下 · 可持续发展","sr":"必修二 · 人地关系"},"line":"从“征服自然”到“人地协调”，核心是承认环境有承载力、发展有代价。","why":"承载力由资源与环境容量决定；技术能提高上限，也会制造新约束（污染、碳排放）。所以“技术进步”不是无条件的好消息。","sections":[{"h":"三种观点","p":"地理环境决定论（环境说了算）、可能论（人可以选择）、可持续发展（在不越过底线的范围内选择）。教材从决定论讲到可持续，是观念史。"},{"h":"三条底线","p":"资源可持续、环境可持续、社会公平。少一条都不成立：只讲环保不讲就业，政策推不动；只讲增长不讲环境，代价后移。"}],"anchors":[{"iso":"NL","where":"荷兰","see":"围海造陆，收益与生态代价并存"},{"iso":"AE","where":"阿联酋","see":"沙漠中的城市化，靠淡化与空调"},{"iso":"CR","where":"哥斯达黎加","see":"生态旅游，把保护变成收入"}],"counter":"“可持续＝不发展”是误读：它要求把代价内部化（谁污染谁付费），不是停下来。停下对穷国更不公平。","media":{"hint":"承载力超载与恢复的模拟曲线"},"next":[{"q":"荷兰填海造陆换来了什么","to":"development"},{"q":"沙漠城市靠什么活着","to":"oasis"}],"cite":"依据：人地关系与可持续发展理论；三国案例为通行教材案例类型。","tags":["人地关系","可持续","承载力","环境容量","碳中和"],"quiz":[{"lv":"jr","type":"choice","q":"可持续发展的三个内涵不包括","opts":["生态持续","经济持续","社会持续","无限增长"],"ans":3,"exp":"可持续讲的是在资源与环境承载力之内发展，无限增长恰恰是它的反面。","diff":1,"tag":["产业","人地关系","概念辨析"]},{"lv":"sr","type":"short","q":"说明“可持续不等于不发展”的理由。","ans":"可持续要求把环境代价内部化（谁污染谁付费、谁受益谁补偿），在承载力范围内提高效率与公平；停止发展会让贫困地区失去改善机会，反而加剧对资源的粗放利用。所以是“改变发展方式”，不是“停止发展”。","exp":"答题要落在“内部化代价”与“社会公平”，只写保护环境不完整。","diff":2,"tag":["产业","人地关系","机制分析"]}]},{"id":"development","kind":"concept","name":"发达国家与发展中国家","cat":"居民与聚落","alias":["发达国家","发展中国家","南北差异","新兴经济体"],"level":{"jr":"七年级上 · 发展与合作","sr":"必修二 · 区域发展"},"line":"按经济发展水平分两类，但“发达”的判据不止人均 GDP。","why":"人均 GDP 高不等于发展水平高：还要看产业结构、教育医疗、基础设施与贫富差距。","sections":[{"h":"南北差异从哪来","p":"殖民时期的产业分工：一方提供原料与初级产品，一方掌握加工与金融。独立后分工惯性仍在，这就是“南北对话”的背景。"},{"h":"为什么单列新兴经济体","p":"金砖、东南亚部分国家工业化速度快，人均还不高但产业完整度上来了。二分法解释不了它们，所以要多一档。"}],"anchors":[{"iso":"US","where":"美国","see":"高收入、服务业为主，内部差距也大"},{"iso":"BD","where":"孟加拉国","see":"劳动密集出口导向，人均仍低"},{"iso":"BR","where":"巴西","see":"中等收入陷阱的典型样本"}],"counter":"二分法会失真：海湾产油国人均很高，产业结构却很单一。人均收入、产业复杂度、社会保障是三件不同的事。","media":{"hint":"人均 GDP 与产业复杂度的散点图（国家气泡）"},"next":[{"q":"工厂为什么往东南亚搬","to":"industry-location"},{"q":"为什么有人要跨国打工","to":"migration"}],"cite":"依据：发展经济学常识；巴西中等收入陷阱、孟加拉成衣出口为通行案例。","tags":["发达国家","发展中国家","南北差异","中等收入陷阱","新兴经济体"],"quiz":[{"lv":"jr","type":"choice","q":"划分发达国家与发展中国家最常用的指标是","opts":["国土面积","人口数量","经济发展水平","纬度位置"],"ans":2,"exp":"通常用人均 GDP、产业结构、工业化与城市化水平等综合判断，不是单一指标。","diff":1,"tag":["居民与聚落","发达国家与发展中国家","概念辨析"]},{"lv":"sr","type":"short","q":"说明为什么“人均 GDP 高”不足以判断一个国家是否发达。","ans":"人均 GDP 会被资源出口或单一产业抬高（如海湾产油国），但不代表产业结构完整、技术自主、公共服务与社会保障完善；还要看产业复杂度、教育医疗水平、贫富差距与区域差异。","exp":"要举出“资源型高收入”的反例，否则只是重复题干。","diff":2,"tag":["居民与聚落","发达国家与发展中国家","机制分析"]}]}];
+  var TCH_LV = 'jr';
+  try { TCH_LV = localStorage.getItem('tch-level') || 'jr'; } catch (e) {}
+
+  function tchNorm(s) {
+    return String(s || '').toLowerCase()
+      .replace(/[\s·・、，,。.．/\\|_\-—－:：;；!！?？"'“”‘’（）()【】\[\]]/g, '');
+  }
+
+  function tchFind(id) {
+    for (var i = 0; i < TEACH.length; i++) if (TEACH[i].id === id) return TEACH[i];
+    return null;
+  }
+
+  function tchHit(q) {
+    var s = tchNorm(q);
+    if (s.length < 2) return null;
+    var best = null, bestLen = 0, bestDerived = false;
+    for (var i = 0; i < TEACH.length; i++) {
+      var it = TEACH[i];
+      var keys = [{ v: it.name, d: false }].concat(
+        (it.alias || []).map(function (a) { return { v: a, d: false }; }));
+      if (it.kind === 'compare') {
+        [it.a, it.b].forEach(function (iso) {
+          var nm = (typeof LABEL_META !== 'undefined' && LABEL_META && LABEL_META[iso])
+                   ? LABEL_META[iso].n : '';
+          /* 派生键（国名＋维度）排在后面：同样长度时，条目本名优先。
+             否则搜"中国农业"会先命中"法国 vs 中国 · 农业与餐桌"。 */
+          if (nm) keys.push({ v: nm + (it.dim || ''), d: true });
+        });
+      }
+      for (var k = 0; k < keys.length; k++) {
+        var key = tchNorm(keys[k].v);
+        if (!key || key.length < 2) continue;
+        var forward = s.indexOf(key) === 0;               // 查询以条目名开头
+        var prefix = s.length >= 3 && key.indexOf(s) === 0; // 查询是条目名的前缀
+        var inside = key.length >= 3 && s.length >= 4 && s.indexOf(key) > 0;
+        if (!(forward || prefix || inside)) continue;
+        /* 命中长度取"被认出来的那一段"，追问提示靠它判断多打了几个字 */
+        var mlen = prefix ? s.length : key.length;
+        var better = mlen > bestLen || (mlen === bestLen && bestDerived && !keys[k].d);
+        if (better) { best = it; bestLen = mlen; bestDerived = keys[k].d; }
+      }
+    }
+    return best ? { it: best, len: bestLen } : null;
+  }
+
+  function tchLevelBar() {
+    var lv = el('div', 'tch-lv');
+    lv.appendChild(el('b', '', '课本口径'));
+    var seg = el('div', 'tch-seg');
+    [['jr', '初中'], ['sr', '高中']].forEach(function (p) {
+      var btn = el('button', TCH_LV === p[0] ? 'on' : '', p[1]);
+      btn.type = 'button';
+      btn.addEventListener('mousedown', function (e) { e.preventDefault(); });
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        TCH_LV = p[0];
+        try { localStorage.setItem('tch-level', TCH_LV); } catch (e2) {}
+        /* 面板开着就重画面板，否则重画下拉 —— 两处都能切，状态只有一个 */
+        if (K_OPEN_ID && detail.classList.contains('open')) {
+          var same = tchFind(K_OPEN_ID);
+          if (same) { openKCard(same); return; }
+        }
+        renderResults(qInput ? qInput.value : '');
+      });
+      seg.appendChild(btn);
+    });
+    lv.appendChild(seg);
+    return lv;
+  }
+
+  function tchGo(iso) {
+    var tgt = String((typeof targetIso === 'function' ? targetIso(iso) : iso) || iso).toUpperCase();
+    flyToCountry(tgt);
+    openDetail(tgt, cardOf(tgt), false);
+    setSearch(false);
+    if (qInput) qInput.blur();
+  }
+
+  function tchAsk(txt) {
+    if (!qInput) return;
+    qInput.value = txt;
+    renderResults(txt);
+    qInput.focus();
+  }
+
+  function tchCard(it, extra) {
+    var box = el('div', 'tch');
+    if (extra && extra > 2) {
+      box.appendChild(el('div', 'tch-tip',
+        '这条追问没有单独条目。先用下面这张卡回答：完整讲解里有反例和“接着问”。'));
+    }
+
+    var hd = el('div', 'tch-hd');
+    hd.appendChild(el('span', 'tch-kind', it.kind === 'compare' ? '对比' : '概念'));
+    hd.appendChild(el('span', 'tch-name', it.name));
+    if (it.level) hd.appendChild(el('span', 'tch-book', it.level[TCH_LV] || ''));
+    box.appendChild(hd);
+
+    /* 下拉只给"是什么 + 为什么"两段，其余（地点、反例、追问、依据）都在面板里。
+       理由：下拉是"确认搜对了没有"的地方，不是读长文的地方。 */
+    if (it.kind === 'concept') {
+      box.appendChild(el('div', 'tch-line', it.line));
+      box.appendChild(el('div', 'tch-sec', '为什么'));
+      box.appendChild(el('p', 'tch-p', it.why));
+    } else {
+      /* 对比没有"定义"，用一句话说清差在哪，表格留给面板 */
+      var brief = String(it.why || '').split('。')[0];
+      box.appendChild(el('div', 'tch-line', brief ? brief + '。' : (it.dim + '对比')));
+    }
+
+    /* 说清"点开能得到什么"：只说"展开详解"，用户不知道里面有东西 */
+    var bits = [];
+    if ((it.anchors || []).length) bits.push((it.anchors || []).length + ' 个能飞过去的地方');
+    if (it.counter) bits.push('1 个反例');
+    if (it.media && it.media.hint) bits.push('1 个图示位');
+    if ((it.quiz || []).length) bits.push((it.quiz || []).length + ' 道经典题');
+    if (bits.length) box.appendChild(el('div', 'tch-hook', '卡里还有 ' + bits.join(' · ')));
+
+    var more = el('button', 'tch-more', '完整讲解 · 在右侧打开');
+    more.type = 'button';
+    more.appendChild(el('i', '', '›'));
+    more.addEventListener('mousedown', function (e) { e.preventDefault(); });
+    more.addEventListener('click', function (e) { e.stopPropagation(); openKCard(it); });
+    box.appendChild(more);
+    return box;
+  }
+
+  /* ---------- 关键词兜底：本名/别名没命中时，才查标签 ---------- */
+  function tchTagHit(q) {
+    var s2 = tchNorm(q);
+    if (s2.length < 2) return [];
+    var out = [];
+    for (var i = 0; i < TEACH.length; i++) {
+      var it = TEACH[i], best = 0, hitTag = null;
+      var tg = it.tags || [];
+      for (var j = 0; j < tg.length; j++) {
+        var t = tchNorm(tg[j]);
+        if (!t || t.length < 2) continue;
+        var sc = 0;
+        if (s2 === t) sc = 3;                       // 完全就是这个词
+        else if (s2.indexOf(t) >= 0) sc = 2;         // 输入里带着这个词
+        else if (t.indexOf(s2) >= 0) sc = 1;         // 输入是词的一部分
+        if (sc > best) { best = sc; hitTag = tg[j]; }
+      }
+      if (best) out.push({ it: it, score: best, tag: hitTag });
+    }
+    out.sort(function (a, b) { return b.score - a.score; });
+    return out;
+  }
+
+  /* 一条命中就直接出卡；多条给一张短列表，不把它塞成第二个搜索引擎 */
+  function tchTagBlock(hits) {
+    if (!hits.length) return null;
+    if (hits.length === 1 || hits[0].score >= 3) {
+      var wrap = el('div', 'sr-list');
+      wrap.appendChild(tchCard(hits[0].it, 0));
+      return wrap;
+    }
+    var box = el('div', 'sr-list');
+    var hd = el('div', 'sr-sug-h');
+    hd.appendChild(el('span', '', '相关知识点 · ' + hits.length + ' 条'));
+    box.appendChild(hd);
+    hits.slice(0, 6).forEach(function (h) {
+      var it = h.it;
+      var row = el('div', 'sr-item');
+      row.appendChild(srIcon('doc'));
+      var txt = el('div', 'sr-txt');
+      var nm = el('div', 'sr-name', it.name);
+      nm.appendChild(el('span', 'sr-tag', h.tag));
+      txt.appendChild(nm);
+      txt.appendChild(el('div', 'sr-sub', String(it.line || '').slice(0, 46)));
+      row.appendChild(txt);
+      row.addEventListener('click', function () { openKCard(it); });
+      box.appendChild(row);
+    });
+    if (hits.length > 6) {
+      box.appendChild(el('div', 'sr-foot', '还有 ' + (hits.length - 6) + ' 条，换个更具体的词试试'));
+    }
+    return box;
+  }
+
+  /* ---------- 空输入时的"可以这样问" ---------- */
+  var SUG_PICK = ["monsoon", "desert", "monsoon-temperate", "rivers", "urbanization", "plate", "rainforest", "mediterranean", "china-relief", "cmp-diet"];
+
+  function srSuggest() {
+    var wrap = el('div', 'sr-sug');
+
+    /* 今天一条：按"第几天"取模，同一天打开看到的是同一张卡（不随刷新乱跳） */
+    var poolDaily = TEACH.filter(function (x) { return x.kind === 'concept'; });
+    if (poolDaily.length) {
+      var dayN = Math.floor(Date.now() / 86400000);
+      var daily = poolDaily[dayN % poolDaily.length];
+      var dc = el('div', 'sr-daily');
+      dc.appendChild(el('span', 'sr-daily-tag', '今天'));
+      var dtx = el('div', 'sr-daily-txt');
+      dtx.appendChild(el('div', 'sr-daily-name', daily.name));
+      dtx.appendChild(el('div', 'sr-daily-line', String(daily.line || '').slice(0, 42)));
+      dc.appendChild(dtx);
+      dc.appendChild(el('span', 'sr-daily-go', '看看 ›'));
+      dc.addEventListener('mousedown', function (e) { e.preventDefault(); });
+      dc.addEventListener('click', function (e) { e.stopPropagation(); openKCard(daily); });
+      wrap.appendChild(dc);
+    }
+
+    var hd = el('div', 'sr-sug-h');
+    hd.appendChild(el('span', '', '可以这样问'));
+    var again = el('button', 'sr-sug-more', '换一批');
+    again.type = 'button';
+    hd.appendChild(again);
+    wrap.appendChild(hd);
+
+    var chips = el('div', 'sr-sug-chips');
+    function fill() {
+      chips.innerHTML = '';
+      var pool = SUG_PICK.slice();
+      for (var i = pool.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var t = pool[i]; pool[i] = pool[j]; pool[j] = t;
+      }
+      pool.slice(0, 4).forEach(function (id) {
+        var it = tchFind(id);
+        if (!it) return;
+        var b = el('button', 'sr-sug-chip', it.name);
+        b.type = 'button';
+        if (it.line) b.title = it.line;
+        b.addEventListener('mousedown', function (e) { e.preventDefault(); });
+        b.addEventListener('click', function (e) { e.stopPropagation(); openKCard(it); });
+        chips.appendChild(b);
+      });
+    }
+    fill();
+    wrap.appendChild(chips);      // 先放"可以这样问"的词，再放最近看过
+
+    /* 有历史就在下面补一行"最近看过" —— 比随机推荐准得多 */
+    var rec = (K_RECENT || []).map(tchFind).filter(Boolean).slice(0, 4);
+    if (rec.length) {
+      var h2 = el('div', 'sr-sug-h');
+      h2.appendChild(el('span', '', '最近看过'));
+      wrap.appendChild(h2);
+      var chips2 = el('div', 'sr-sug-chips');
+      rec.forEach(function (it) {
+        var b2 = el('button', 'sr-sug-chip ghost', it.name);
+        b2.type = 'button';
+        b2.addEventListener('mousedown', function (e) { e.preventDefault(); });
+        b2.addEventListener('click', function (e) { e.stopPropagation(); openKCard(it); });
+        chips2.appendChild(b2);
+      });
+      wrap.appendChild(chips2);
+    }
+
+    again.addEventListener('mousedown', function (e) { e.preventDefault(); });
+    again.addEventListener('click', function (e) { e.stopPropagation(); fill(); });
+    return wrap;
+  }
+
+  function tchBlock(q) {
+    var hit = tchHit(q);
+    if (!hit) { if (searchWrap) searchWrap.classList.remove('tch-open'); return null; }
+    if (searchWrap) searchWrap.classList.add('tch-open');
+    var wrap = el('div', 'sr-list');
+    wrap.appendChild(tchCard(hit.it, tchNorm(q).length - hit.len));
+    return wrap;
+  }
+
+  /* ---------- 右侧面板里的详解卡 ---------- */
+  var K_OPEN_ID = null;
+
+  /* 最近看过：本地记 5 条，回访用户第一眼看到自己的痕迹 */
+  var K_RECENT = [];
+  try { K_RECENT = JSON.parse(localStorage.getItem('tch-recent') || '[]') || []; } catch (e) { K_RECENT = []; }
+  function kRemember(id) {
+    if (!id) return;
+    K_RECENT = K_RECENT.filter(function (x) { return x !== id; });
+    K_RECENT.unshift(id);
+    if (K_RECENT.length > 5) K_RECENT.length = 5;
+    try { localStorage.setItem('tch-recent', JSON.stringify(K_RECENT)); } catch (e) {}
+  }
+  /* 走过的知识卡路径。关闭面板、打开国家档案时清空 —— 两条线不能混。 */
+  var K_PATH = [];
+
+  /* 链条走完了给三个出口：回起点 / 换一个知识点 / 看一张对比卡 */
+  function kExit(it) {
+    var nx = (it.next || []).filter(function (n) { return n && n.to; });
+    var exhausted = !nx.length || nx.every(function (n) { return K_PATH.indexOf(n.to) >= 0; });
+    /* 两种时候给出口：真的走到头了（两个追问都走过），或者已经走了 3 跳以上。
+       后者更常见——用户不是没路走，而是怕迷路。 */
+    if (!exhausted && K_PATH.length < 3) return null;
+
+    var box = el('div', 'kexit');
+    box.appendChild(el('div', 'kexit-h',
+      exhausted ? '这条线到这里了' : '已经走了 ' + K_PATH.length + ' 跳'));
+
+    var row = el('div', 'kexit-row');
+
+    if (K_PATH.length > 1) {
+      var back = el('button', 'kexit-btn', '回到起点');
+      back.type = 'button';
+      back.addEventListener('click', function () {
+        var first = tchFind(K_PATH[0]);
+        if (first) openKCard(first, { path: [K_PATH[0]] });
+      });
+      row.appendChild(back);
+    }
+
+    var pool = TEACH.filter(function (x) {
+      return x.kind === 'concept' && K_PATH.indexOf(x.id) < 0;
+    });
+    if (pool.length) {
+      var pick = el('button', 'kexit-btn', '换一个知识点');
+      pick.type = 'button';
+      pick.addEventListener('click', function () {
+        var p = pool[Math.floor(Math.random() * pool.length)];
+        openKCard(p);
+      });
+      row.appendChild(pick);
+    }
+
+    var cmp = null;
+    for (var i = 0; i < TEACH.length; i++) {
+      if (TEACH[i].kind === 'compare' && K_PATH.indexOf(TEACH[i].id) < 0) { cmp = TEACH[i]; break; }
+    }
+    if (cmp) {
+      var cb = el('button', 'kexit-btn', '看一张对比卡');
+      cb.type = 'button';
+      cb.addEventListener('click', function () { openKCard(cmp); });
+      row.appendChild(cb);
+    }
+
+    box.appendChild(row);
+    return box;
+  }
+
+  /* ---------- 经典题目：按当前课本口径出题 ---------- */
+  function kQuiz(it) {
+    var all = it.quiz || [];
+    if (!all.length) return null;
+    var qs = all.filter(function (q) { return q.lv === TCH_LV; });
+    var lvName = TCH_LV === 'jr' ? '初中' : '高中';
+    if (!qs.length) {
+      var empty = el('div', 'ksec');
+      empty.appendChild(el('h4', '', '经典题目'));
+      empty.appendChild(el('p', 'kquiz-note', lvName + '题还在补，先切到另一档看。'));
+      return empty;
+    }
+    var sec = el('div', 'ksec');
+    sec.appendChild(el('h4', '', '经典题目 · ' + lvName));
+
+    qs.forEach(function (q, qi) {
+      var box = el('div', 'kq');
+      var head = el('div', 'kq-h');
+      head.appendChild(el('span', 'kq-no', '题 ' + (qi + 1)));
+      head.appendChild(el('span', 'kq-type', q.type === 'choice' ? '选择' : '简答'));
+      /* S11：难度 + 能力 + 考点，一眼看出这题练什么、有多难 */
+      var difName = (q.diff === 1 ? '易' : q.diff === 3 ? '难' : '中');
+      var meta = el('span', 'kq-meta', difName);
+      meta.title = '难度 ' + difName + '　考点：' + (q.tag || []).join('、');
+      head.appendChild(meta);
+      box.appendChild(head);
+      box.appendChild(el('p', 'kq-q', q.q));
+
+      var exp = el('div', 'kq-exp', q.exp ? '解析：' + q.exp : '');
+
+      if (q.type === 'choice') {
+        var opts = el('div', 'kq-opts');
+        var done = false;
+        (q.opts || []).forEach(function (o, oi) {
+          var btn = el('button', 'kq-opt', String.fromCharCode(65 + oi) + '. ' + o);
+          btn.type = 'button';
+          btn.addEventListener('click', function () {
+            if (done) return;
+            done = true;
+            Array.prototype.forEach.call(opts.children, function (n2, ni) {
+              if (ni === q.ans) n2.classList.add('ok');
+              if (ni === oi && oi !== q.ans) n2.classList.add('bad');
+              if (ni !== oi && ni !== q.ans) n2.classList.add('dim');
+            });
+            exp.classList.add('on');
+          });
+          opts.appendChild(btn);
+        });
+        box.appendChild(opts);
+      } else {
+        var ansBox = el('div', 'kq-ans');
+        ansBox.appendChild(el('b', '', '参考答案'));
+        ansBox.appendChild(el('p', '', q.ans || ''));
+        box.appendChild(ansBox);
+        var showBtn = el('button', 'kq-show', '看参考答案与解析');
+        showBtn.type = 'button';
+        showBtn.addEventListener('click', function () {
+          ansBox.classList.add('on');
+          exp.classList.add('on');
+          showBtn.style.display = 'none';
+        });
+        box.appendChild(showBtn);
+      }
+
+      box.appendChild(exp);
+      sec.appendChild(box);
+    });
+    return sec;
+  }
+
+  /* 就地小提示：3 秒后自己消失，不弹窗、不关面板 */
+  function kNote(msg) {
+    var old = dBody.querySelector('.knote');
+    if (old) old.parentNode.removeChild(old);
+    var n = el('div', 'knote', msg);
+    var wrapEl = dBody.querySelector('.kwrap');
+    (wrapEl || dBody).appendChild(n);
+    setTimeout(function () { if (n.parentNode) n.parentNode.removeChild(n); }, 3200);
+  }
+
+  function kPathBar() {
+    if (K_PATH.length < 2) return null;
+    var bar = el('div', 'kpath');
+    var back = el('button', 'kpath-back', '‹ 返回');
+    back.type = 'button';
+    back.addEventListener('click', function () {
+      var p = K_PATH.slice(0, K_PATH.length - 1);
+      var prev = tchFind(p[p.length - 1]);
+      if (prev) openKCard(prev, { path: p });
+    });
+    bar.appendChild(back);
+
+    var trail = el('div', 'kpath-trail');
+    K_PATH.forEach(function (id, i) {
+      var it = tchFind(id);
+      if (!it) return;
+      if (i) trail.appendChild(el('i', '', '›'));
+      var last = i === K_PATH.length - 1;
+      var node = el(last ? 'span' : 'button', last ? 'kpath-cur' : 'kpath-ste', it.name);
+      if (!last) {
+        node.type = 'button';
+        node.addEventListener('click', function () {
+          openKCard(it, { path: K_PATH.slice(0, i + 1) });
+        });
+      }
+      trail.appendChild(node);
+    });
+    bar.appendChild(trail);
+    return bar;
+  }
+
+  function openKCard(it, opt) {
+    if (!it) return;
+    opt = opt || {};
+    /* 面板本来关着 → 这是新的一条链，从零开始；点面包屑 → 用它给的路径。 */
+    if (!detail.classList.contains('open')) K_PATH = [];
+    if (opt.path) K_PATH = opt.path.slice();
+    else if (K_PATH[K_PATH.length - 1] !== it.id) K_PATH.push(it.id);
+    K_OPEN_ID = it.id;
+    kRemember(it.id);
+    openPanel();
+    if (typeof setActive === 'function') setActive(null);
+
+    dTitle.textContent = it.name;
+    dSub.textContent = (it.cat || '知识点') +
+      (it.level ? ' · ' + (it.level[TCH_LV] || '') : '') + ' · 知识卡';
+    dBody.innerHTML = '';
+
+    var wrap = el('div', 'kwrap');
+
+    var pb = kPathBar();
+    if (pb) wrap.appendChild(pb);
+
+    /* 口径：面板里也能切，不必退回搜索框 */
+    wrap.appendChild(tchLevelBar());
+    if (it.line) wrap.appendChild(el('p', 'kline', it.line));
+
+    if (it.kind === 'compare') {
+      /* 对比卡不另加导语：下面是表格（证据），再来“为什么”（解释），
+         再加一句导语会和“为什么”那段重复。 */
+      var tb2 = el('table', 'ktb');
+      var th2 = el('thead'), tr3 = el('tr');
+      tr3.appendChild(el('th', 'k', '维度'));
+      tr3.appendChild(el('th', '', (LABEL_META[it.a] || {}).n || it.a));
+      tr3.appendChild(el('th', '', (LABEL_META[it.b] || {}).n || it.b));
+      th2.appendChild(tr3); tb2.appendChild(th2);
+      var tb3 = el('tbody');
+      (it.rows || []).forEach(function (r) {
+        var tr4 = el('tr');
+        tr4.appendChild(el('td', 'k', r.k));
+        tr4.appendChild(el('td', '', r.a));
+        tr4.appendChild(el('td', '', r.b));
+        tb3.appendChild(tr4);
+      });
+      tb2.appendChild(tb3);
+      var sw = el('div', 'ksec'); sw.appendChild(tb2); wrap.appendChild(sw);
+
+      /* 对比卡同样给两个可点的国家行，但默认不动镜头 */
+      var as2 = el('div', 'ksec');
+      as2.appendChild(el('h4', '', '在这两个国家能看到'));
+      [it.a, it.b].forEach(function (iso) {
+        var nm = (LABEL_META[iso] || {}).n || iso;
+        var row = el('div', 'ka');
+        row.appendChild(el('b', '', nm));
+        row.appendChild(el('span', '', '看它的位置与气候，再回头看表格里的差异'));
+        row.appendChild(el('i', '', '飞过去 ›'));
+        row.addEventListener('click', function () {
+          var tgt = String((typeof targetIso === 'function' ? targetIso(iso) : iso) || iso).toUpperCase();
+          flyToCountry(tgt);
+          if (typeof setActive === 'function') setActive(tgt);
+          Array.prototype.forEach.call(as2.querySelectorAll('.ka'), function (n2) {
+            n2.classList.toggle('on', n2 === row);
+          });
+        });
+        as2.appendChild(row);
+      });
+      wrap.appendChild(as2);
+    }
+
+    (it.sections || []).forEach(function (s) {
+      var sec = el('div', 'ksec');
+      sec.appendChild(el('h4', '', s.h));
+      sec.appendChild(el('p', '', s.p));
+      wrap.appendChild(sec);
+    });
+    /* 机理那一段只在高中口径出现：初中生看它只会更糊 */
+    if (TCH_LV === 'sr' && it.mech) {
+      var ms = el('div', 'ksec');
+      ms.appendChild(el('h4', '', '高中加一层'));
+      ms.appendChild(el('p', '', it.mech));
+      wrap.appendChild(ms);
+    }
+
+    if (it.anchors && it.anchors.length) {
+      var as = el('div', 'ksec');
+      as.appendChild(el('h4', '', '在这些地方能看到'));
+      it.anchors.forEach(function (a) {
+        var row = el('div', 'ka');
+        row.appendChild(el('b', '', a.where || a.iso));
+        row.appendChild(el('span', '', a.see || ''));
+        row.appendChild(el('i', '', '飞过去 ›'));
+        row.addEventListener('click', function () {
+          var tgt = String((typeof targetIso === 'function' ? targetIso(a.iso) : a.iso) || a.iso).toUpperCase();
+          flyToCountry(tgt);
+          if (typeof setActive === 'function') setActive(tgt);
+          Array.prototype.forEach.call(as.querySelectorAll('.ka'), function (n2) {
+            n2.classList.toggle('on', n2 === row);
+          });
+        });
+        as.appendChild(row);
+      });
+      wrap.appendChild(as);
+    }
+
+    if (it.counter) {
+      var kc = el('div', 'kc');
+      kc.appendChild(el('b', '', it.kind === 'compare' ? '反直觉' : '反例 · 别记反'));
+      kc.appendChild(el('p', '', it.counter));
+      wrap.appendChild(kc);
+    }
+
+    var qz = kQuiz(it);
+    if (qz) wrap.appendChild(qz);
+
+    if (it.media && it.media.hint) {
+      var md = el('div', 'kmedia');
+      md.appendChild(el('b', '', '图示 / 动画位'));
+      md.appendChild(el('span', '', it.media.hint));
+      wrap.appendChild(md);
+    }
+
+    if (it.next && it.next.length) {
+      var nx = el('div', 'ksec knext');
+      nx.appendChild(el('h4', '', '接着可以问'));
+      var row2 = el('div', 'knx');
+      it.next.forEach(function (n) {
+        var tgt = n.to ? tchFind(n.to) : null;
+        var b2 = el('button', tgt ? '' : 'pend', n.q);
+        b2.type = 'button';
+        b2.title = tgt ? '打开：' + tgt.name : '这条还没有条目（待补）';
+        b2.addEventListener('click', function () {
+          if (tgt) { openKCard(tgt); return; }
+          /* 没有目标条目时不要关面板：一关就把刚读到的上下文丢了。
+             就地提示一句，等这批内容补完再连。 */
+          kNote('「' + n.q + '」还没有条目。先按上面这张卡理解，补完再连上。');
+        });
+        row2.appendChild(b2);
+      });
+      nx.appendChild(row2);
+      wrap.appendChild(nx);
+
+      /* 走到链末端（两个追问都已走过）时给出口，否则用户只能关面板 */
+      var ex = kExit(it);
+      if (ex) wrap.appendChild(ex);
+    } else {
+      var ex2 = kExit(it);
+      if (ex2) wrap.appendChild(ex2);
+    }
+
+    if (it.cite) wrap.appendChild(el('div', 'kcite', it.cite));
+
+    dBody.appendChild(wrap);
+    var sc = document.querySelector('.dscroll');
+    if (sc) sc.scrollTop = 0;
+
+    /* 打开卡不动地球：地球保持在用户点开之前的样子。
+       只有点“在这些地方能看到”里的地点，才飞过去 —— 阅读不该把画面拽走。 */
+    if (qInput) qInput.blur();
+    setSearch(false);
+  }
+
+
   function renderResults(q) {
     if (performance.now() < qFreezeUntil) { qPending = q; return; }
     qPending = null;
     var hits = boostByCapital(q, boostByCountry(q, bm25(q, 5)));
     qRes.innerHTML = '';
     qRes.hidden = false;
+    /* 教学层优先：概念词、对比提问命中就直接出卡，不再走 BM25。
+       没命中才落到原来的结果列表 —— 教学层是加在前面的一道筛子，不是替换。 */
+    var tch = tchBlock(q);
+    if (tch) { qRes.appendChild(tch); return; }
+    /* 本名/别名都没命中 → 走标签兜底；再不行才落到 BM25 档案检索。
+       但如果输入就是一个国家名（"日本""中国"），标签不能抢：用户要的是档案。 */
+    var fc = (typeof findCountryInQuery === 'function') ? findCountryInQuery(q) : null;
+    var pureCountry = !!(fc && String(fc.rest || '').replace(/[\s的之与和及，,、]/g, '') === '');
+    var tagHits = pureCountry ? [] : tchTagHit(q);
+    if (tagHits.length) {
+      var tb0 = tchTagBlock(tagHits);
+      if (tb0) { qRes.appendChild(tb0); return; }
+    }
     /* 行都塞进 .sr-list，这样底部的说明行能钉在卡片下沿不动 */
     var box = el('div', 'sr-list');
     qRes.appendChild(box);
     if (!hits.length) {
-      box.appendChild(el('div', 'sr-empty',
-        '没有匹配内容（知识库共 ' + (IDX ? IDX.N : 0) + ' 条）'));
+      /* 空结果是最容易流失的地方：不要报"知识库共 N 条"这种内部数字，
+         直接给几个能点的东西，让用户有下一步。 */
+      var ew = el('div', 'sr-empty-wrap');
+      ew.appendChild(el('div', 'sr-empty', '这个词暂时没有对应内容。换个说法，或者从这些开始：'));
+      var sc2 = el('div', 'sr-sug-chips');
+      ['季风', '地中海气候', '等高线地形图', '人口分布', '土壤与植被', '城镇化'].forEach(function (nm) {
+        var it2 = null;
+        for (var i2 = 0; i2 < TEACH.length; i2++) {
+          if (TEACH[i2].name === nm) { it2 = TEACH[i2]; break; }
+        }
+        if (!it2) return;
+        var b2 = el('button', 'sr-sug-chip', it2.name);
+        b2.type = 'button';
+        b2.addEventListener('mousedown', function (e) { e.preventDefault(); });
+        b2.addEventListener('click', function (e) { e.stopPropagation(); openKCard(it2); });
+        sc2.appendChild(b2);
+      });
+      ew.appendChild(sc2);
+      box.appendChild(ew);
       return;
     }
     hits.forEach(function (h) {
@@ -4504,6 +5429,8 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     qRes.hidden = false;
     var box = el('div', 'sr-list');
     qRes.appendChild(box);
+    /* 235 个国家列表对第一次来的人没有信息量：先在顶部给四个能点的知识点 */
+    box.appendChild(srSuggest());
     list.forEach(function (d) {
       var item = el('div', 'sr-item');
       item.appendChild(srIcon('country'));
@@ -4626,6 +5553,11 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
   /* 开合只有一个入口，避免三处各改一半导致状态对不上 */
   function setSearch(open, list) {
     if (!searchWrap) return;
+    /* 手机上展开时品牌文字要让位：390px 的屏里它占掉约 70px，
+       搜索框只剩 185px，而那句提示在 16px 字号下要 239px —— 一定被裁。
+       只藏文字、保留 logo，顶栏不会变成一条空条。 */
+    var tbEl = document.getElementById('topbar');
+    if (tbEl) tbEl.classList.toggle('searching', !!open);
     searchWrap.classList.toggle('open', !!open);
     if (!open) {
       qRes.hidden = true;
@@ -4692,7 +5624,11 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     /* 没点进去之前不显示任何提示词（框本身够清楚，常驻的灰字只是噪音）。
        点进去、框展开变长之后才给两个真实问句 —— 提示"能提问"这件事，
        举一个例子比写十个字有用。 */
-    var PH_LONG = '试试这么问：法国人吃什么？ 埃及有什么宗教？';
+    /* 收起不显示，点进去才出现 —— 这句只在框展开后可见。
+       先让人知道这里能点、能问；具体例子交给下拉里的「今天一条 / 可以这样问」。
+       文案只有这一句：之前按屏宽给过短的，手机上就只剩"或提问"，
+       看着像被截断。窄屏改成让出品牌文字（见 setSearch），不砍句子。 */
+    var PH_LONG = '点一个地方，或问一个地理问题';
     qInput.addEventListener('focus', function () {
       /* 有字就恢复这轮搜索的结果，别拿 236 国全量列表盖掉它 ——
          否则用户按回车会选中全量列表的第一条（"中国"），
@@ -4801,6 +5737,117 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         }
         if (first) first.click();
       }
+    });
+  }
+
+
+  /* 拼音组词期间不要检索：输入法会为每个字母派发 input，
+     一次"jifeng"能触发 6 次检索 + 6 次重绘，看起来就是"打字卡"。 */
+  var composing = false;
+  if (qInput) {
+    qInput.addEventListener('compositionstart', function () { composing = true; });
+    qInput.addEventListener('compositionend', function () { composing = false; });
+  }
+  var __renderResults = renderResults;
+  renderResults = function (q) {
+    if (composing) return;
+    return __renderResults(q);
+  };
+
+  /* ---------- 投影模式 ----------
+     课堂上要"一屏讲一件事"：卡片放大到 92vw，地球、顶栏、工具箱全收起来。
+     入口按用户要求放在左下角的工具抽屉里（新开一组「课堂」）。 */
+  (function () {
+    var tb = document.getElementById('tools-body');
+    if (!tb) return;
+
+    var sec = el('section', 'tg');
+    sec.appendChild(el('h3', '', '课堂'));
+    var row = el('div', 'tg-r');
+    var btn = el('button', 'tool-btn');
+    btn.id = 'btn-class';
+    btn.type = 'button';
+    btn.setAttribute('aria-pressed', 'false');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">' +
+      '<rect x="3.2" y="4.8" width="17.6" height="11" rx="1.6"/>' +
+      '<path d="M8.6 19.4h6.8M12 15.8v3.6"/></svg>' +
+      '<span class="tl">投影模式</span>';
+    row.appendChild(btn);
+    sec.appendChild(row);
+    tb.appendChild(sec);
+
+    var exit = el('button', '', '退出投影 · Esc');
+    exit.id = 'class-exit';
+    exit.type = 'button';
+    document.body.appendChild(exit);
+
+    function setMode(on) {
+      document.body.classList.toggle('class-mode', on);
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      var sp = btn.querySelector('.tl');
+      if (sp) sp.textContent = on ? '退出投影' : '投影模式';
+      if (on && !detail.classList.contains('open')) {
+        /* 没开卡就进投影，等于对着一片黑；直接打开今天那条 */
+        var pool = TEACH.filter(function (x) { return x.kind === 'concept'; });
+        if (pool.length) {
+          var dayN = Math.floor(Date.now() / 86400000);
+          openKCard(pool[dayN % pool.length]);
+        }
+      }
+    }
+
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      setMode(!document.body.classList.contains('class-mode'));
+    });
+    exit.addEventListener('click', function (e) {
+      e.stopPropagation();
+      setMode(false);
+    });
+    /* 投影里点“飞过去”时，地球是隐藏的，飞了也看不见 ——
+       所以点地点就自动退出投影，让老师立刻看到那颗球。 */
+    document.addEventListener('click', function (e) {
+      if (!document.body.classList.contains('class-mode')) return;
+      var ka = e.target && e.target.closest ? e.target.closest('.ka') : null;
+      if (!ka) return;
+      setTimeout(function () { setMode(false); }, 80);
+    }, false);
+
+    /* Esc 分两级：投影里先退投影，再按一次才关卡片 */
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && document.body.classList.contains('class-mode')) {
+        e.preventDefault();
+        e.stopPropagation();
+        setMode(false);
+      }
+    }, true);
+
+    window.__classMode = setMode;
+  })();
+
+  /* 国家档案与知识卡共用同一个面板，两条线的路径不能串：
+     一开档案就清栈，一关面板也清栈。 */
+  var __openDetail = openDetail;
+  openDetail = function () {
+    K_PATH = [];
+    K_OPEN_ID = null;
+    return __openDetail.apply(null, arguments);
+  };
+  var __closePanel = closePanel;
+  closePanel = function () {
+    K_PATH = [];
+    K_OPEN_ID = null;
+    return __closePanel.apply(null, arguments);
+  };
+
+  /* 回车直接进右侧详解：概念/对比不需要先点一行。 */
+  if (qInput) {
+    qInput.addEventListener('keydown', function (e) {
+      if (e.key !== 'Enter') return;
+      var hit = tchHit(qInput.value);
+      if (!hit) return;
+      e.preventDefault();
+      openKCard(hit.it);
     });
   }
 

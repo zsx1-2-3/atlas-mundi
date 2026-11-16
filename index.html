@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-16-BM">
+<meta name="build" content="2026-11-16-BN">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1735,7 +1735,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
    比档案卡窄一号，浮在右侧；关掉测验后整块 hidden，不留痕迹。 */
 .kit-panel{
   position:fixed;right:18px;top:86px;z-index:38;
-  width:292px;color:#dce9f8;font-size:13px;
+  width:352px;color:#dce9f8;font-size:13.5px;
   background:rgba(9,20,35,.93);
   border:1px solid rgba(140,170,210,.28);border-radius:14px;
   box-shadow:0 16px 40px rgba(0,0,0,.5);
@@ -1756,10 +1756,10 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
 .kit-foot{margin:0;padding:9px 13px 12px;font-size:11.5px;line-height:1.6;
   color:#8fadc9;border-top:1px solid rgba(140,170,210,.14)}
 
-.quiz-ask{margin:0 0 11px;line-height:1.6;color:#c9dcf0;font-size:12.5px}
+.quiz-ask{margin:0 0 12px;line-height:1.65;color:#c9dcf0;font-size:14px}
 .quiz-opts{display:grid;gap:7px}
-.quiz-opt{padding:9px 11px;text-align:left;border:1px solid rgba(140,170,210,.24);
-  border-radius:8px;background:rgba(255,255,255,.04);color:#e2eefb;font-size:13px;cursor:pointer}
+.quiz-opt{padding:11px 13px;text-align:left;border:1px solid rgba(140,170,210,.24);
+  border-radius:8px;background:rgba(255,255,255,.04);color:#e2eefb;font-size:14.5px;cursor:pointer}
 .quiz-opt:hover:not(:disabled){background:rgba(255,205,110,.12);border-color:rgba(255,205,110,.44)}
 .quiz-opt:disabled{cursor:default}
 .quiz-opt.ok{background:rgba(90,190,130,.18);border-color:rgba(120,220,160,.6);color:#d6ffe4}
@@ -1807,8 +1807,6 @@ body.quiz-on #labels-canvas{display:none!important}
   letter-spacing:.08em;color:rgba(198,218,242,.92);
 }
 .tg-r{display:flex;gap:6px}
-/* 定位组三个按钮跨两列，按正常尺寸排开、居中 */
-.tg:last-child .tg-r{justify-content:center}
 
 /* 按钮：竖排图标 + 名字。名字常显 —— 抽屉里空间够，不用再靠 hover 才发现。 */
 .tool-btn{
@@ -2626,7 +2624,6 @@ body.quiz-on #labels-canvas{display:none!important}
     <p class="quiz-fb" id="quiz-fb"></p>
     <button class="kit-next" id="quiz-next" type="button" hidden>下一题 →</button>
   </div>
-  <p class="kit-foot">金色细线是该国国界，不写国名。一轮固定 5 题、不重复；答题时地名临时隐藏，答完收起测验就恢复。只从人口 500 万以上的国家出题。</p>
 </section>
 
 <!-- 旧版遗留的状态位，保留 id 以免脚本取空 -->
@@ -11785,7 +11782,7 @@ body.quiz-on #labels-canvas{display:none!important}
           var em = document.createElement('b'); em.textContent = quiz.answer.n;
           elFb.appendChild(em);
           elFb.appendChild(document.createTextNode('（' + quiz.answer.cont +
-            (quiz.answer.pop ? '，' + fmtPop(quiz.answer.pop) : '') + '）'));
+            (quiz.answer.pop ? ' · 人口 ' + fmtPop(quiz.answer.pop) : '') + '）'));
         }
         if (elNext) {
           elNext.textContent = quiz.queue.length ? '下一题 →' : '查看本轮成绩 →';

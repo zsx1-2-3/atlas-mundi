@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-13-BA">
+<meta name="build" content="2026-11-16-BB">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -811,6 +811,45 @@ body.panel-open #globe-stage{
 .brand-en{font-size:10px;letter-spacing:.22em;text-transform:uppercase;
   color:var(--ink-faint);text-shadow:0 1px 6px rgba(0,0,0,.8)}
 
+/* --- 季节开关：挂在品牌字正下方 ---
+   只在洋流图层打开时淡入。不放进 #topbar 的 flex 里，是为了不改变
+   "品牌 + 搜索"这条横线的基线；绝对定位在品牌下方，谁也挤不动。
+   配色沿用抽屉里的冷色 + 点亮时的暖金，不另起一套。 */
+#season-pick{
+  position:fixed;left:22px;top:56px;z-index:29;
+  display:flex;align-items:center;gap:8px;
+  padding:4px 5px 4px 10px;border-radius:999px;
+  background:rgba(9,16,27,.62);
+  border:1px solid rgba(140,175,220,.16);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  opacity:0;transform:translateY(-5px);pointer-events:none;
+  transition:opacity .3s ease,transform .3s cubic-bezier(.2,.9,.25,1);
+}
+#season-pick.show{opacity:1;transform:none;pointer-events:auto}
+.sp-lab{
+  font-size:10px;letter-spacing:.16em;color:rgba(150,182,218,.62);
+  text-shadow:0 1px 6px rgba(0,0,0,.8);
+}
+.sp-seg{display:flex;gap:2px;padding:2px;border-radius:999px;background:rgba(255,255,255,.05)}
+.sp-btn{
+  appearance:none;-webkit-appearance:none;
+  border:0;background:transparent;color:rgba(190,212,240,.78);
+  font-family:inherit;font-size:11px;line-height:1;letter-spacing:.08em;
+  /* 四季四颗：原来两季时 11px 的左右留白，四颗加起来会把胶囊撑到 200px 宽，
+     压到 9px 正好，触控区仍有 30×21 —— 比 24px 的可点下限还宽一截。 */
+  padding:5px 9px;border-radius:999px;cursor:pointer;
+  transition:background .18s ease,color .18s ease,box-shadow .18s ease;
+  -webkit-tap-highlight-color:transparent;
+}
+.sp-btn:hover{color:#eef6ff}
+.sp-btn.on{
+  background:rgba(255,206,112,.18);color:#ffe6ad;
+  box-shadow:inset 0 0 0 1px rgba(255,206,112,.34);
+}
+@media (max-width:640px){
+  #season-pick{left:14px;top:52px}
+}
+
 /* ============ 搜索：默认就是一只短输入框，点一下展开 ============
    之前做成"圆钮 → 点开才变输入框"，看着不像搜索，倒像工具菜单。
    现在常驻一个短框（150px），聚焦或点击时展开到 360px。
@@ -1075,9 +1114,13 @@ body.panel-open #globe-stage{
   font-size:26px;font-weight:700;letter-spacing:.02em;color:#fff;
 }
 #d-sub{
-  margin-top:6px;font-size:11.5px;letter-spacing:.06em;color:var(--ink-faint);
+  margin-top:7px;font-size:11.5px;letter-spacing:.06em;color:var(--ink-faint);
   font-variant-numeric:tabular-nums;
+  display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px;
 }
+/* 首都常年挂在抬头，跟正文一起滚会滚丢（见 renderDetail 里的注释）。
+   用一点暖色把"这是事实、不是编号"区分出来，和命中高亮同一族色。 */
+#d-sub .dsub-cap{color:rgba(226,199,150,.95);letter-spacing:.04em}
 .dscroll{
   flex:1 1 auto;overflow-y:auto;overflow-x:hidden;
   overscroll-behavior:contain;
@@ -1232,6 +1275,17 @@ body.layer-mode #labels .mlabel{pointer-events:none!important}
 .tlabel.k-plain{color:rgba(206,232,204,.86)}
 .tlabel.k-desert{color:rgba(240,212,158,.9)}
 .tlabel.k-river{color:rgba(150,208,255,.92);font-style:italic}
+/* 洋流名只在洋流层打开时出现，压在海上；暖流偏橙、寒流偏蓝，
+   和球上的光带颜色对应得上，不用回头看图例。 */
+.tlabel.k-ocw{color:rgba(255,196,150,.92);font-size:10.5px;letter-spacing:.05em}
+.tlabel.k-occ{color:rgba(150,220,255,.92);font-size:10.5px;letter-spacing:.05em}
+/* 季风名：夏绿冬紫，和箭头同色；比洋流名再亮一点 —— 它多半压在陆地上，
+   底下的地表纹理比海面杂，字不够亮就糊进去了。 */
+.tlabel.k-mns{color:rgba(150,245,196,.96);font-size:10.5px;letter-spacing:.06em}
+.tlabel.k-mnz{color:rgba(214,180,255,.96);font-size:10.5px;letter-spacing:.06em}
+/* 风带名用金色，气压带名用偏白的冷色：同一层里两类东西，颜色分开才读得快 */
+.tlabel.k-wbw{color:rgba(255,214,150,.96);font-size:10.5px;letter-spacing:.06em}
+.tlabel.k-wbp{color:rgba(216,232,250,.90);font-size:10px;letter-spacing:.05em}
 /* 地形名可以点：点开画出这块地貌的边界。悬停给一点青色的呼应，
    选中后整条变青 —— 和球上那条青线对得上。 */
 .tlabel.tap{cursor:pointer;pointer-events:auto}
@@ -1363,9 +1417,12 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
 /* 抽屉：五组，每组一行小标题 + 一行图标按钮 */
 #tools-body{
   position:absolute;left:0;bottom:calc(100% + 10px);
-  /* 两列网格：五组排成三行（定位那组跨两列），面板从 450px 高降到 210px 左右，
-     展开时只占左下角一小块，挡不住球。 */
+  /* 两列网格：六组排成四行 —— 视图｜界线、光照｜图层两两并排（各两个按钮，95px
+     的列宽正好装得下），环流（三个）、定位（四个）各占一整行。面板从 450px 高
+     降到 320px 左右，展开时只占左下角一小块，挡不住球。 */
   display:grid;grid-template-columns:1fr 1fr;gap:9px 10px;
+  /* 222 是按"一行最多四个 44px 按钮"算的：4×44 + 3×6 间隙 = 194，
+     装进 222-22=200 的内宽刚好。定位组四个、环流组三个都在这一行内。 */
   width:222px;padding:11px 11px 10px;border-radius:15px;
   background:rgba(8,13,22,.90);
   border:1px solid rgba(140,175,220,.22);
@@ -1378,6 +1435,9 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
 #tools.open #tools-body{opacity:1;transform:none;pointer-events:auto}
 
 .tg{min-width:0}
+/* 通栏组：光照 / 图层 / 环流 / 定位。按钮数超过两个的组一律通栏 ——
+   95px 的列宽塞不下三个 44px 按钮，硬挤就会换行把整组顶高、还和邻列错位。 */
+.tg-wide{grid-column:1/-1}
 .tg:last-child{grid-column:1/-1}
 .tg h3{
   margin:0 0 6px;font-size:11px;font-weight:600;
@@ -1617,6 +1677,10 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
 }
 #layer-legend.on{opacity:1;transform:none;pointer-events:auto}
 #layer-legend .lg-head{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+/* 洋流块和上面的图层块同排时中间要一条分隔线；
+   只有洋流一块（它是第一个子元素）时不要这根线。 */
+#layer-legend .oc-head,#layer-legend .mn-head,#layer-legend .wb-head{margin-top:12px;padding-top:10px;border-top:1px solid rgba(150,185,230,.16)}
+#layer-legend .oc-head:first-child,#layer-legend .mn-head:first-child,#layer-legend .wb-head:first-child{margin-top:0;padding-top:0;border-top:0}
 #layer-legend .lg-title{
   font-size:13.5px;font-weight:600;letter-spacing:.04em;color:#f2f8ff;
 }
@@ -1637,6 +1701,10 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
   display:inline-flex;align-items:center;gap:4px;
   font-size:11.5px;color:rgba(232,244,255,.92);white-space:nowrap;
 }
+/* 长句专用：允许折行。.lg-item 一律 nowrap，短标签不会断行，但像
+   "春 · 北移途中 · 赤道低压带在 4°北" 这种会顶出面板右缘被直接切掉 ——
+   给它一个能换行的变体，宁可占两行也别少字。 */
+#layer-legend .lg-wr{white-space:normal;line-height:1.45}
 #layer-legend .lg-item i{
   display:block;width:12px;height:12px;border-radius:2.5px;
   box-shadow:inset 0 0 0 1px rgba(0,0,0,.28), 0 0 0 1px rgba(255,255,255,.06);
@@ -1947,6 +2015,23 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
   </div>
 </header>
 
+<!-- 季节：三层共用（洋流 / 季风 / 气压带与风带），任一层开着就露出来。
+     四颗按钮对应二分二至：春分 · 夏至 · 秋分 · 冬至（见 SEA 表）。
+     对洋流：北印度洋只有夏（顺时针）冬（逆时针）两套；春秋分前后是季风转换期，
+             洋流方向不定，那几支就不画了，图例里写明。
+     对季风：夏西南·东南季风、冬西北·东北季风；春秋画"正在撤退的那一套"，压暗。
+     对气压带与风带：整层沿经线平移，夏至 +8°、冬至 −8°；
+             春秋分直射赤道、位移 0，赤道低压带被 0° 纬线平分。 -->
+<div id="season-pick" aria-hidden="true">
+  <span class="sp-lab">季节</span>
+  <div class="sp-seg" role="group" aria-label="季节">
+    <button class="sp-btn" type="button" data-season="0" aria-pressed="false" title="春分：直射赤道，气压带风带居中">春分</button>
+    <button class="sp-btn on" type="button" data-season="1" aria-pressed="true" title="夏至：直射北回归线，整体北移 8°">夏至</button>
+    <button class="sp-btn" type="button" data-season="2" aria-pressed="false" title="秋分：直射赤道，气压带风带居中">秋分</button>
+    <button class="sp-btn" type="button" data-season="3" aria-pressed="false" title="冬至：直射南回归线，整体南移 8°">冬至</button>
+  </div>
+</div>
+
 <!-- 国家入口已并入搜索框：空输入聚焦时列出已收录国家，
      不再用底部胶囊 —— 那排按钮和搜索框一起把地球压掉一条。 -->
 <div id="cards" hidden></div>
@@ -2055,6 +2140,36 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
             <path d="M2.9 18.9h18.2"/>
           </svg>
           <span class="tl">显示地形起伏</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="tg tg-wide">
+      <h3>环流</h3>
+      <div class="tg-r">
+        <button class="tool-btn" id="btn-current" type="button" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3.2 9.6c2.6-2.5 4.3 2.5 6.9 0s4.3 2.5 6.9 0"/>
+            <path d="M3.2 15.2c2.6-2.5 4.3 2.5 6.9 0s4.3 2.5 6.9 0"/>
+            <path d="M18.6 4.2l3.1 2.1-3.1 2.1z" fill="currentColor" stroke="none"/>
+          </svg>
+          <span class="tl">显示洋流</span>
+        </button>
+        <button class="tool-btn" id="btn-monsoon" type="button" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 8.4c2.4-2.2 4 -.6 5.6-2.2M3 13c2.4-2.2 4-.6 5.6-2.2M3 17.6c2.4-2.2 4-.6 5.6-2.2"/>
+            <path d="M11.2 12.6c3.2-3.2 6-4.4 9.4-4.2"/>
+            <path d="M17.4 5.5l3.6 2.8-3.9 1.9" />
+          </svg>
+          <span class="tl">显示季风带</span>
+        </button>
+        <button class="tool-btn" id="btn-windbelt" type="button" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3.2 7.4h11.2a2.4 2.4 0 1 0-2.4-2.4"/>
+            <path d="M3.2 12.4h15.4a2.3 2.3 0 1 1-2.3 2.3"/>
+            <path d="M3.2 17.4h8.4"/>
+          </svg>
+          <span class="tl">显示气压带与风带</span>
         </button>
       </div>
     </section>
@@ -2876,7 +2991,14 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
        监听时动画已经跑完了，事件永远不会再来，只能吃兜底超时（实测 2.87 秒才见图）。 */
     panelT0 = performance.now();
     dTitle.textContent = d.name_zh;
-    dSub.textContent = d.name_en + ' · ' + d.iso_a2 + ' / ' + d.iso_a3 + ' · ' + d.qid;
+    /* 抬头常驻一行「首都」。图册每页本来就该写这个，而它以前只是元信息表里的一行：
+       滚到「面积」那一段时整张表跟着滚没了，于是"面积多大？首都是哪里？"这种
+       复合问句的后半句就等于没体现 —— 但这不是搜索的问题，是排版把答案放错了地方。
+       放到不滚动的抬头里，任何问题打开都先看见首都，也不用为某一条问句单独写展示逻辑。 */
+    dSub.innerHTML = '';
+    dSub.appendChild(el('span', 'dsub-id',
+      d.name_en + ' · ' + d.iso_a2 + ' / ' + d.iso_a3 + (d.qid ? ' · ' + d.qid : '')));
+    dSub.appendChild(el('span', 'dsub-cap', '首都 ' + (d.capital || '—')));
 
     /* 换国家时把阅读位置拉回顶部。
        两个调用点都传 quiet=true（它的含义是"别重跑入场动画"，不是"同一个国家"），
@@ -3109,8 +3231,9 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     var right = el('div');
 
     var meta = el('dl', 'dmeta');
-    [['首都', d.capital || '—'],
-     ['大洲', d.continent || '—'],
+    /* 首都不在这张表里 —— 它已经常驻抬头（#d-sub .dsub-cap），
+       同一屏出现两次像是没做干净。 */
+    [['大洲', d.continent || '—'],
      ['坐标', d.centroid ? d.centroid[1].toFixed(2) + '°N, ' + d.centroid[0].toFixed(2) + '°E' : '—'],
      ['语言', (d.languages || []).map(function (l) { return l.name_zh; }).join(' / ') || '—'],
      ['边界', d.geometry
@@ -3852,8 +3975,11 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       if (isCountry) {
         if (!d.noTag) nm.appendChild(el('span', 'sr-tag', '基础'));
       } else if (d.name && String(d.q || '').indexOf(d.name) < 0) {
-        /* 问句里没带国名时才补一枚（"首都是哪里？"）。
-           像"朝鲜人说什么语言？"本身已经说明是朝鲜，再挂一枚纯属噪音。 */
+        /* 问句里没有出现全名，就补一枚国名标签。
+           搜「印尼」时问句写的是简称，全名"印度尼西亚"在句子里找不到 ——
+           这一枚正好把左边的简称和右边的全称对上，是有用的信息；
+           搜「中国」时问句本身带着国名，再挂一枚"中国"等于把同一件事
+           说两遍，所以不挂。 */
         nm.appendChild(el('span', 'sr-tag', d.name));
       }
       txt.appendChild(nm);
@@ -3872,9 +3998,23 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         /* 地区归属统一走 targetIso：港澳台→中国，但**有自己档案的地区
            （新喀、南乔治亚、法属波利尼西亚……）不再被跳去主权国。 */
         executeHit(d, d.q || q);
+        /* 点完把这条的字留在框里：联想列表一收，框里只剩刚敲的两个字
+           （"法国"），回头看不知道自己刚点的是哪一条，想接着问还得重敲。
+           这里写回被点那条的标题 —— 问答=问句，国家/简介=国名，
+           首都条目=「首都 · 罗马」这种自带上下文的写法。
+           值必须在 executeHit 之后写：它内部要读框里的原文判断"是不是纯国名"。
+           光标拉到开头，长问句才不会只露出结尾那半截。 */
+        if (qInput) {
+          qInput.value = d.q || d.name || q;
+          searchWrap.classList.add('has-text');
+          try { qInput.setSelectionRange(0, 0); qInput.scrollLeft = 0; } catch (err) {}
+          fitSearchWidth();      // 收起状态也要装得下整条问句
+        }
       });
       box.appendChild(item);
     });
+    /* 结果卡片已经摊开，下限从 168 提到 320：两行结果在窄卡里会挤成一条 */
+    fitSearchWidth();
   }
 
   /* 搜到了却只跳到面板顶部，等于没定位。
@@ -3904,12 +4044,43 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     return best;
   }
 
+  /* 命中的这条问答，是不是用户**问的那件事**？
+     回车选的是排序第一条，它未必对题：搜"中国美食"，排第一的是
+     "中国说什么话？"（同国、高分，但话题不对）。这种时候不能拿它的答案
+     去正文里定位（会把面板滚到语言那一节），得靠「国名 + 话题」的探针。
+     而搜"瑞典在哪儿啊？周围都是些什么地方？"时，第一条就是这句原话，
+     它的答案里写着"位于斯堪的纳维亚半岛""西邻挪威""濒临…海峡" ——
+     这正是正文里真实存在的字，拿它定位最准。
+     所以按"两条问句的二元组重合度"判断：重合度高=对题，反之=不对题。 */
+  function qaMatchesQuery(qaQ, q) {
+    function grams(t) {
+      var s = String(t || '').toLowerCase().replace(/[^\u4e00-\u9fa5a-z0-9]/g, '');
+      var m = {};
+      for (var i = 0; i + 1 < s.length; i++) m[s.substr(i, 2)] = 1;
+      return m;
+    }
+    var a = grams(q), b = grams(qaQ), n = 0, hit = 0;
+    for (var k in a) { n++; if (b[k]) hit++; }
+    return n > 0 && hit / n >= 0.6;
+  }
+
   /* 打开一条搜索结果：开卡 → 收起搜索 → 定位到命中段。
      altProbe 是"国家+话题"里拆出来的话题词，用它当定位探针。 */
-  function executeHit(d, q, focus) {
+  function executeHit(d, q, focus, answerDoc) {
     /* 地区（港澳台）归到主权国：不给台湾单独开卡，搜到也落到中国 */
     var iso = String(d.iso || '').toUpperCase();
     var tgt = targetIso(iso);
+    /* 命中的这条问答，是不是"就是这张卡自己的、而且确实在答用户问的事"。
+       对得上 → 定位时直接拿**答案原文**去正文里找（正文写的就是"…；首都为北京市。"
+       这类实句，复合问句的两个半句能各自命中）；
+       对不上（"中国美食"排第一的是"中国说什么话？"）→ 交给下面的话题探针，
+       免得被一条不相干的答案带偏。
+       两种来源：点结果列表（d 本身就是问答）、回车（d 是合成的国家对象，
+       真正的问答由 answerDoc 带进来）。 */
+    var ansDoc = answerDoc || (d.kind === 'qa' ? d : null);
+    var selfQa = (ansDoc && ansDoc.a &&
+                  String(ansDoc.iso || '').toUpperCase() === tgt.toUpperCase() &&
+                  qaMatchesQuery(ansDoc.q, q || (qInput ? qInput.value : ''))) ? ansDoc : null;
     openDetail(tgt, cardOf(tgt), false);
     setSearch(false);              // 选中即收起，视线回到地球
     /* 框里保留用户敲的词，让他自己清 —— 程序顺手清空会丢掉上下文，
@@ -3943,6 +4114,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     /* 搜的是地区（"中国香港"→ 开的是中国卡）：必须滚到正文里提到它的那一段。
        第一条往往是该国随便一条问答，拿它的答案定位会滚到语言/地理段，
        跟用户要找的东西无关。 */
+    var regionProbe = '';
     if (!focus && cq) {
       var region = '';
       if (tgt.toUpperCase() !== String(cq.iso || '').toUpperCase()) {
@@ -3951,7 +4123,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         var rm = String(cq.rest || '').match(/^(香港|澳门|台湾)/);
         if (rm) region = rm[1];
       }
-      if (region.length >= 2) focus = { probe: region, extra: '' };
+      if (region.length >= 2) { regionProbe = region; focus = { probe: region, extra: '' }; }
     }
     /* 开的是自己那张卡，且输入的就是国名本身 → 不滚（整份档案都是它）。
        港澳台不适用：开的是中国卡，输入框里写的就是"中国澳门"，
@@ -3959,7 +4131,17 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     var isOwnCard = tgt.toUpperCase() === iso;
     if (isOwnCard && (!qq || qq === nm || qq.toLowerCase() === iso.toLowerCase())) return;
 
-    if (focus) {
+    /* 命中的就是这张卡自己的那条问答（d.iso === 目标国）：
+       直接拿**那条答案**去正文里找。答案里的实词（"位于…接壤…海峡"）是正文
+       真的会写的字；而按下面那套「国名 + 话题」的探针，探针会变成
+       "在哪儿啊？周围都是些什么地方"这类问句 —— 二元组在正文里一个都不出现，
+       定位必然失败，面板就停在最上面那一片地标照片上，
+       看起来就像"我问的是位置，怎么跳出来一堆地标"。
+       只有命中的是**别国**的问答时（"法国历史"偏到了加蓬那条），
+       才需要靠探针把话题带到目标国去。 */
+    if (selfQa && !regionProbe) {
+      locateInPanel(selfQa, qq);
+    } else if (focus) {
       /* 主探针：先用话题词本身（"美食""历史"）。它短，二元组只有一两个，
          只要段落里出现这个词，覆盖率就是 1.0 —— 定位几乎必中。
          同国高分问答的答案文本只当备选：它动辄上百字，摊进覆盖率里分母太大，
@@ -4007,6 +4189,17 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     '位置': ['位于', '地处', '接壤', '邻'],
     '气候': ['气候', '季风', '降水', '气温']
   };
+
+  /* 位置类问法单独补一组。中文里问"在哪儿/周围是什么/挨着谁/隔海是哪国"，
+     档案正文写的是"位于斯堪的纳维亚半岛""西邻挪威""濒临…海峡""隔海相望" ——
+     两边一个字都不重叠，只靠二元组永远对不上。
+     放在表尾：话题词（美食/历史/宗教…）先命中就先赢，
+     "瑞典周围有什么好吃的"仍然去饮食那一段，不会被这组抢走。 */
+  ['在哪', '哪儿', '哪里', '什么位置', '位置', '周围', '周边', '四邻', '邻国', '邻邦',
+   '附近', '旁边', '挨着', '隔海', '接壤'].forEach(function (k) {
+    LOCATE_SYN[k] = ['位于', '地处', '接壤', '西邻', '东邻', '南邻', '北邻', '邻',
+                     '边界', '海峡', '相望', '半岛', '内陆', '沿海', '群岛'];
+  });
 
   function locateInPanel(doc, q) {
     var token = ++LOCATE_SEQ;
@@ -4118,7 +4311,18 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       /* 0.15 以下基本是巧合命中，宁可不滚 —— 乱滚比停在顶部更让人迷惑。
          0.15 这条线正好卡在"只有一个单字命中"（0.167）和"什么都没有"之间：
          「语言」靠一个"语"字就能落到"现代标准汉语 / 粤语"那一行。 */
-      if (!bestNode || bestVal < 0.15) return null;
+      if (!bestNode || bestVal < 0.15) {
+        /* 兜底：**退到简介第一段**，而不是什么都不做。
+           档案正文只有简介/历史/民俗/文化特征几节，问答是检索层的东西，
+           正文里没有原文。所以只要问法和正文对不上（问位置、问天气、
+           问"适合什么时候去"这类），以前就直接放弃 —— 面板停在顶部那一片
+           地标照片上，用户看到满屏图，跟问题毫无关系，还以为"搜地点跳出了地标"。
+           简介是整份档案的总述，任何话题都能在里头读到相关的一句；
+           滚动量也小（就在影像区下面一段），不会把人甩到很远处。 */
+        var lead = host.querySelector('.dtext p');
+        if (lead) return { node: lead, sc: sc, words: [] };
+        return null;
+      }
       /* 同义词命中时用**实际命中的那个词**去量位置、去打高亮 ——
          点"美食"落到的段落写的是"饮食/菜系"，拿"美食"去 indexOf 什么都找不到，
          高亮和段内定位就都失效了。 */
@@ -4319,6 +4523,14 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         openDetail(lTgt, cardOf(lTgt), false);
         setSearch(false);
         if (qInput) qInput.blur();
+        /* 和联想条目一致：从全量列表点走的那个国家也留在框里，
+           下次点开搜索框能直接看到"上一次看的是谁"，接着问就行 */
+        if (qInput) {
+          qInput.value = d.name || '';
+          searchWrap.classList.add('has-text');
+          try { qInput.setSelectionRange(0, 0); qInput.scrollLeft = 0; } catch (err) {}
+          fitSearchWidth();
+        }
       });
       box.appendChild(item);
     });
@@ -4418,11 +4630,52 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     if (!open) {
       qRes.hidden = true;
       searchWrap.classList.remove('list-open');
+      fitSearchWidth();          // 收起后下限回到 168，长问句按实测宽度重算
       return;
     }
     searchWrap.classList.toggle('list-open', !!list);
     if (list) showCountryList(); else qRes.hidden = true;
+    fitSearchWidth();
   }
+
+  /* ---------- 框宽跟着内容走 ----------
+     固定宽度是为"空框"设计的：收起 168px、展开 min(384px,46vw)。但现在点完
+     联想会把整条问句留在框里（"法国人吃什么？"），168px 一装只剩前半截，
+     用户看不出自己刚点的到底是哪一条 —— 所以按当前文字实测宽度定框宽：
+       · 空框 → 交回 CSS，两套原样保留
+       · 有字 → 夹在 [168, 384/46vw] 之间；结果卡片摊开时下限提到 320，
+                否则两行结果挤成一条
+     测量用 canvas.measureText，字体取输入框计算后的 font，
+     字号/字重改了也不用同步维护一份常量。 */
+  var qMeasure = null;
+  function fitSearchWidth() {
+    if (!qInput || !searchWrap) return;
+    /* 窄屏交给 flex（@media 里 .search-wrap.open{width:auto}），
+       这时插 inline width 只会和它打架 */
+    if (window.innerWidth <= 760) { searchWrap.style.width = ''; return; }
+    var v = qInput.value || '';
+    if (!v) { searchWrap.style.width = ''; return; }
+    if (!qMeasure) {
+      var cv = document.createElement('canvas');
+      qMeasure = cv.getContext ? cv.getContext('2d') : null;
+      if (!qMeasure) return;
+    }
+    var cs = window.getComputedStyle(qInput);
+    qMeasure.font = (cs.fontWeight || '400') + ' ' + (cs.fontSize || '14.5px') + ' ' +
+                     (cs.fontFamily || 'sans-serif');
+    /* 92 = 左图标占位 42 + 光标后的呼吸位 12 + × 号 20 + 内边距余量 18 */
+    var need = Math.ceil(qMeasure.measureText(v).width) + 92;
+    /* 上限分两档：结果卡片摊开时按原来的 384/46vw（再宽就把地球压没了）；
+       收起后只是一枚胶囊，可以放宽到 560/62vw —— 点完联想留下的整条问句
+       才有机会完整显示，而不是又变回"只看得见前半截"。 */
+    var listOpen = qRes && !qRes.hidden;
+    var max = listOpen ? Math.min(384, window.innerWidth * 0.46)
+                       : Math.min(560, window.innerWidth * 0.62);
+    var min = listOpen ? 320 : 168;
+    searchWrap.style.width = Math.round(Math.max(min, Math.min(max, need))) + 'px';
+  }
+
+  window.addEventListener('resize', function () { fitSearchWidth(); });
 
   /* 框本身常驻：点框内任何位置都算"要输入"，展开并聚焦。
      不再有那个圆钮 —— 一眼看不出是搜索框，反而像工具菜单。 */
@@ -4451,6 +4704,9 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     });
     qInput.addEventListener('blur', function () {
       qInput.placeholder = '';
+      /* 逐字改宽用的 .16s 只在打字时用，失焦还回设计原来的 .46s 缓动，
+         否则下次点开"胶囊拉成卡片"会变快，手感跟别处不一致 */
+      searchWrap.style.transitionDuration = '';
       // 点了下拉列表的话不收起；空输入离开才收起
       setTimeout(function () {
         if (document.activeElement === qInput) return;
@@ -4481,6 +4737,10 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       var v = qInput.value.trim();
       searchWrap.classList.toggle('has-text', !!qInput.value);
       searchWrap.classList.remove('list-open');
+      /* 打字时框宽跟着字走。开合那条 .46s 的缓动是给"胶囊拉成卡片"用的，
+         逐字改宽还沿用它会像橡皮筋，这里临时压到 .16s（失焦时还原）。 */
+      searchWrap.style.transitionDuration = '.16s';
+      fitSearchWidth();
       qTimer = setTimeout(function () {
         if (v.length < 2) { qRes.hidden = true; qRes.innerHTML = ''; return; }
         renderResults(v);
@@ -4504,6 +4764,35 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
            列表第一条（"中国"）—— 那不是一次搜索，只是浏览。 */
         if (searchWrap.classList.contains('list-open')) return;
         var v = qInput.value.trim();
+        /* ---------- 混血：前端用上游，后端用本地那套「国名 + 话题」识别 ----------
+           上游的把回车交给"点列表第一条"，纯国名靠 boostByCountry 把 brief 顶上
+           第一条来兜底。好处是简单，但"中国美食""法国历史""埃及宗教"这类
+           **国名 + 话题**的问法，它只会开出该国档案停在第 1 屏 —— 因为第一条
+           往往是"中国说什么话"，跟"美食"没关系。
+           所以这里接回本地的后端：先认出国家，把国名去掉后的剩余词当探针
+           （"中国澳门"去掉国名后就是"澳门"），再点开档案并滚到对应段落。
+           纯国名（"朝鲜"）交给 executeHit 里的 isOwnCard 分支，不会乱滚。 */
+        var cq = findCountryInQuery(v);
+        if (cq) {
+          var focus = {
+            probe: cq.rest || String(cq.name || '').replace(/^中国/, ''),
+            extra: ''
+          };
+          /* 该国有高分问答时，把它的答案文本当备选探针（本地原逻辑）：
+             "美食"这种两字探针定位几乎必中，答案文本只在探针失手时兜底。 */
+          var hs = bm25(v, 5);
+          var qaDoc = null;
+          if (hs.length && hs[0][1] >= 12) {
+            var hd = hs[0][0];
+            if (hd.kind !== 'country' && hd.a &&
+                String(hd.iso || '').toUpperCase() === String(cq.iso || '').toUpperCase()) {
+              qaDoc = hd;
+              focus.extra = hd.a;
+            }
+          }
+          executeHit({ iso: cq.iso, name: cq.name, kind: 'country' }, v, focus, qaDoc);
+          return;
+        }
         var first = qRes.querySelector('.sr-item');
         if (!first && v.length >= 2) {
           clearTimeout(qTimer);
@@ -5881,12 +6170,55 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     });
   };
 
+  /* 地名层"当前该显示哪些"。图层和洋流各有各的开合：
+       只开图层 → 地形名；只开洋流 → 洋流名；两个都开 → 两套一起
+       （洋流名在海上、地形名在陆地，一般不打架）。
+     只在状态变化时重建一次，不在每帧的循环里拼数组。 */
+  function refreshTActive() {
+    var out = [];
+    var layerOn = !!globe.layerName;
+    /* 风带名排在最前：这一层的信息就是"哪条带在哪"，被国名挤掉就白开了。
+       标签是逐帧按数组顺序抢位置的，排前面就等于优先。 */
+    if (globe.wbOn && globe.wbLabels) out = out.concat(globe.wbLabels);
+
+    /* 底图那一套名字（国名 / 地形名）二选一，规则和 syncLabelLayers 里
+       的 showCountry 必须一致，否则会出现"CSS 让它显示、这里又没把它排进去"
+       —— 结果是开了全部国境线反而一个国名都看不见。三种情况：
+         只开图层            → 地形名（国名让位）
+         图层 + 全部国境线   → 国名（要靠名字对照是哪一国，地形名收起）
+         没开图层            → 国名（洋流/季风/风带只是叠在海上，国名留着当参照）
+       洋流、季风两层同时开时国名也只拼一次。 */
+    var base = (layerOn && !globe.allBordersOn) ? globe.tlabels : globe.labels;
+    if (base) out = out.concat(base);
+
+    if (globe.ocOn && globe.ocLabels) out = out.concat(globe.ocLabels);
+    /* 季风名压在陆地上，和洋流名分处两片，一般不抢位置 */
+    if (globe.mnOn && globe.mnLabels) out = out.concat(globe.mnLabels);
+    globe.tActive = out;
+
+    /* 关掉某一层时，它的名字元素还挂在 DOM 上（几何是淡出移除的，标签不走那条路），
+       每帧只更新 tActive 里的元素 —— 于是这些孤儿名字会一直亮在球面上。
+       症状：开了洋流再关掉，随后点季风，海上凭空浮出一片"加那利寒流"。
+       这里按层的开关直接把整组压暗。 */
+    var mute = function (arr, on) {
+      if (!arr || on) return;
+      for (var i = 0; i < arr.length; i++) if (arr[i]) hideLabel(arr[i]);
+    };
+    mute(globe.ocLabels, globe.ocOn);
+    mute(globe.mnLabels, globe.mnOn);
+    mute(globe.wbLabels, globe.wbOn);
+    mute(globe.tlabels, globe.layerName);
+  }
+  globe.refreshTActive = refreshTActive;
+
   function updateLabels() {
-    /* 图层模式下换一套数据源：国名让位给地形名（两层同时铺满必然糊成一团）。
-       但开了"全部国境线"就得反过来 —— 判国家要靠国名，地形名这时收起来。 */
-    var useTerrain = !!(globe.layerName && !globe.allBordersOn &&
-                        globe.tlabels && globe.tlabels.length);
-    var arr = useTerrain ? globe.tlabels : globe.labels;
+    /* 图层 / 洋流 / 季风 / 风带模式下换一套数据源：国名会让位
+       （两层字同时铺满屏幕必然糊成一团）。但开了"全部国境线"就得反过来 ——
+       判国家要靠国名，地形名这时收起来。
+
+       tActive 由 refreshTActive 统一拼好：当前开着的每一层的名字合在一起，
+       顺带把已经关掉的层的孤儿名字压暗；没有这层缓存时退回国名。 */
+    var arr = (globe.tActive && globe.tActive.length) ? globe.tActive : globe.labels;
     if (!arr || !arr.length) return;
     var stage = globeStage();
     if (!stage) return;
@@ -5939,11 +6271,25 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
 
       /* 位置要先算出来：下面"该不该显示"不再只看全局 nz，
          还要看这个标签离视点中心有多近（见 centerBoost）。 */
-      llToVec3(L.lon, L.lat, 1.02, L.v);
-      L.v.applyMatrix4(globe.spin.matrixWorld);
-      // 与相机方向的夹角余弦：1 = 正在视点中心，0 = 球的侧面
-      var dot = (L.v.x * camPos.x + L.v.y * camPos.y + L.v.z * camPos.z) /
-                (L.v.length() * camLen);
+      var dot;
+      if (L.alts) {
+        /* 洋流名：三个锚点里挑最正对镜头的那个（换的时候留 0.06 的余量，
+           免得两个点分数接近时名字左右横跳）。 */
+        dot = -2;
+        for (var ai = 0; ai < L.alts.length; ai++) {
+          llToVec3(L.alts[ai][0], L.alts[ai][1], 1.02, _lp);
+          _lp.applyMatrix4(globe.spin.matrixWorld);
+          var dv = (_lp.x * camPos.x + _lp.y * camPos.y + _lp.z * camPos.z) /
+                   (_lp.length() * camLen);
+          if (ai === 0 || dv > dot + 0.06) { dot = dv; L.v.copy(_lp); }
+        }
+      } else {
+        llToVec3(L.lon, L.lat, 1.02, L.v);
+        L.v.applyMatrix4(globe.spin.matrixWorld);
+        // 与相机方向的夹角余弦：1 = 正在视点中心，0 = 球的侧面
+        dot = (L.v.x * camPos.x + L.v.y * camPos.y + L.v.z * camPos.z) /
+              (L.v.length() * camLen);
+      }
 
       /* 视点中心加成 —— 治"点开国家后，周围的国家和岛屿名字不出现"。
          原来只按全局 nz 判定门槛，可 nz 只由相机距离决定：
@@ -5993,6 +6339,13 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       var y = (-_lp.y * 0.5 + 0.5) * h;
       /* 岛屿标签抬到点上方：小岛本来就只有几个像素，字压在正中间等于把岛盖住。 */
       if (L.kind === 'mi') y -= L.h * 0.75;
+      /* 洋流名也往上抬一点，否则正好压在光带上，字和带子互相糊 */
+      if (L.kind === 'oc') y -= L.h * 0.62;
+      /* 季风名同理，抬得再高一点：箭头比洋流箭头大一号，字贴太近会顶到箭头上 */
+      if (L.kind === 'mn') y -= L.h * 0.85;
+      /* 风带名压在自己那条箭头带的正上方：箭头就在这一圈上跑，
+         不抬起来就是字压箭头，两边都看不清 */
+      if (L.kind === 'wb') y -= L.h * 0.78;
 
       // 出画一半的地名直接藏：贴着边缘被切一半的字比没有还难看
       var rx = x - L.w / 2, ry = y - L.h / 2;
@@ -6803,6 +7156,25 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       return g;
     }
 
+    /* 经纬网是底图辅助线。气压带/风带、季风带一开，金线就从半透明的带子
+       中间穿过去，把一条条带子切成格子 —— 带子填充只有 0.11，压不住 0.92
+       亮度的金线，看起来就是"金线压在带子上"。
+       与其把带子涂实（会糊掉底图的海岸线和地貌），不如让辅助线让位：这两层
+       在场时网格整体降到 42%，退成背景参考线，带子和箭头才是主角。
+       原亮度存在材质 __baseOp 上，只取一次，关掉图层立即恢复。 */
+    function gridDim() {
+      var g = globe.grid;
+      if (!g) return;
+      var k = (globe.wbOn || globe.mnOn) ? 0.42 : 1;
+      g.traverse(function (o) {
+        var m = o.material;
+        if (!m || m.opacity === undefined) return;
+        if (m.__baseOp === undefined) m.__baseOp = m.opacity;
+        m.opacity = m.__baseOp * k;
+      });
+    }
+    globe.gridDim = gridDim;
+
     /* 排查用：把某个经纬度转到正对相机，并指定相机距离。
        截图比对"金线贴不贴合"时必须能精确复现同一个视角，靠拖鼠标没法复现。 */
     window.__look = function (lon, lat, dist) {
@@ -6975,6 +7347,10 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
           flushAll(false);
         });
     }
+
+    /* 洋流层要拿这套环去画陆地遮罩，但它在另一个闭包里 —— 挂一个只读取的
+       入口出来，共用同一份 Promise，不会多打一次网络。 */
+    globe.loadRings = loadAllRings;
 
     /* 预热：地球转起来之后，趁空闲把 all.json 取回来并把几何建好（visible=false）。
        用户点按钮时就不用等网络，也不用等那一下同步的顶点拼装。
@@ -7652,6 +8028,14 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
          否则高刷屏上"飞近国家"会瞬间到位、看不到过程。 */
       camera.position.z += (globe.camTarget - camera.position.z) * (1 - Math.pow(0.88, dtf));
       if (STAR_MAT) STAR_MAT.uniforms.uTime.value = performance.now() / 1000;
+      /* 洋流：箭头是真的沿着流路往前挪，所以每帧要按时间推进一次。
+         dt 取上一帧的实际间隔（并且封顶 0.06 秒）—— 标签页切回来时
+         那一下巨大的 dt 不会让箭头瞬移半条洋流。
+         接口挂在 globe 上而不是直接引用函数：渲染循环和图层模块不在同一个
+         闭包里，直接写 ocTick() 会 ReferenceError（整帧抛错 → 球直接黑掉）。 */
+      if (globe.ocOn && globe.ocTick) globe.ocTick(Math.min(0.06, dtf / 60));
+      if (globe.mnOn && globe.mnTick) globe.mnTick(Math.min(0.06, dtf / 60));
+      if (globe.wbOn && globe.wbTick) globe.wbTick(Math.min(0.06, dtf / 60));
       // 滚轮停下来了，才把 8K 传上 GPU
       /* 只在"手停下来"的时候才把 8K 传上 GPU。拖拽过程中 pointerdown 之后
          就没有新的输入事件了，所以必须同时看 dragging 标记 ——
@@ -7952,27 +8336,65 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       })();
     }
 
+    /* 图例面板是共用的：气候/地形一块，洋流一块，两块能同时开着。
+       name 为空（没开任何贴图图层）时只画洋流那半块。 */
     function lgLegend(name) {
       if (!lgEl) return;
-      var cfg = LG[name], h = '';
-      h += '<div class="lg-head"><span class="lg-title">' + cfg.title + '</span>' +
-           '<button class="lg-close" type="button" aria-label="关闭图例">×</button></div>';
-      (cfg.rows || []).forEach(function (r) {
-        h += '<div class="lg-line"><span class="lg-key">' + r[0] + '</span><span class="lg-grid">' +
-             r[1].map(function (x) {
-               return '<span class="lg-item"><i style="background:' + x[0] + '"></i>' + x[1] + '</span>';
-             }).join('') + '</span></div>';
-      });
-      if (cfg.band) {
-        h += '<div class="lg-band" style="background:linear-gradient(90deg,' + cfg.band.join(',') + ')"></div>';
-        h += '<div class="lg-ticks">' + cfg.ticks.map(function (t) { return '<span>' + t + '</span>'; }).join('') + '</div>';
+      var cfg = name ? LG[name] : null, h = '';
+      if (cfg) {
+        h += '<div class="lg-head"><span class="lg-title">' + cfg.title + '</span>' +
+             '<button class="lg-close" type="button" aria-label="关闭图例">×</button></div>';
+        (cfg.rows || []).forEach(function (r) {
+          h += '<div class="lg-line"><span class="lg-key">' + r[0] + '</span><span class="lg-grid">' +
+               r[1].map(function (x) {
+                 return '<span class="lg-item"><i style="background:' + x[0] + '"></i>' + x[1] + '</span>';
+               }).join('') + '</span></div>';
+        });
+        if (cfg.band) {
+          h += '<div class="lg-band" style="background:linear-gradient(90deg,' + cfg.band.join(',') + ')"></div>';
+          h += '<div class="lg-ticks">' + cfg.ticks.map(function (t) { return '<span>' + t + '</span>'; }).join('') + '</div>';
+        }
+        h += '<div class="lg-src">' + cfg.src + '</div>';
       }
-      h += '<div class="lg-src">' + cfg.src + '</div>';
+      if (ocOn) h += ocLegendHTML();
+      if (mnOn) h += mnLegendHTML();
+      if (wbOn) h += wbLegendHTML();
+      if (!h) {
+        lgEl.classList.remove('on');
+        lgEl.setAttribute('aria-hidden', 'true');
+        return;
+      }
       lgEl.innerHTML = h;
       lgEl.classList.add('on');
       lgEl.setAttribute('aria-hidden', 'false');
       var cx = lgEl.querySelector('.lg-close');
       if (cx) cx.addEventListener('click', lgClose);
+    }
+
+    /* 季节这一行是动态的：切了按钮要能马上看到现在是哪一季。
+       直接改这一个 span 的文字，不整块重画图例 —— 图例面板带背景模糊，
+       频繁整个 innerHTML 重写既闪又费，而且会把手上的滚动位置弄丢。 */
+    function ocSeasonTip() {
+      var s = sea();
+      if (s.oc === 1) return '夏至 · 西南季风，北印度洋自西向东（顺时针）';
+      if (s.oc === 2) return '冬至 · 东北季风，北印度洋自东向西（逆时针）';
+      return s.jq + ' · 季风转换期，北印度洋洋流方向不定（略去）';
+    }
+
+    function ocLegendHTML() {
+      var h = '';
+      h += '<div class="lg-head oc-head"><span class="lg-title">洋流</span></div>';
+      h += '<div class="lg-line"><span class="lg-key">暖流</span><span class="lg-grid">' +
+           '<span class="lg-item"><i style="background:' + OC_WARM + '"></i>红箭头 · 增温增湿</span></span></div>';
+      h += '<div class="lg-line"><span class="lg-key">寒流</span><span class="lg-grid">' +
+           '<span class="lg-item"><i style="background:' + OC_COLD + '"></i>蓝箭头 · 降温减湿</span></span></div>';
+      h += '<div class="lg-line"><span class="lg-key">流向</span><span class="lg-grid">' +
+           '<span class="lg-item">箭头固定指方向 · 光带亮块顺流推进</span></span></div>';
+      /* 季节这一行是动态的：切了按钮，图例要跟着说清现在看的是哪一季 */
+      h += '<div class="lg-line"><span class="lg-key">季风</span><span class="lg-grid">' +
+           '<span class="lg-item lg-wr" id="lg-season-val">' + ocSeasonTip() + '</span></span></div>';
+      h += '<div class="lg-src">22 支常年洋流 · 北印度洋随季风换向（索马里沿岸夏寒冬暖）；春秋转换期方向不定，暂略去</div>';
+      return h;
     }
 
     function lgSync() {
@@ -7988,9 +8410,32 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         btr.setAttribute('aria-pressed', lgCur === 'terrain' ? 'true' : 'false');
         __setTip(btr, lgCur === 'terrain' ? '关闭地形' : '显示地形');
       }
+      var bcu = document.getElementById('btn-current');
+      if (bcu) {
+        bcu.classList.toggle('on', ocOn);
+        bcu.setAttribute('aria-pressed', ocOn ? 'true' : 'false');
+        __setTip(bcu, ocOn ? '关闭洋流' : '显示洋流');
+      }
+      var bcm = document.getElementById('btn-monsoon');
+      if (bcm) {
+        bcm.classList.toggle('on', mnOn);
+        bcm.setAttribute('aria-pressed', mnOn ? 'true' : 'false');
+        __setTip(bcm, mnOn ? '关闭季风带' : '显示季风带');
+      }
+      var bcw = document.getElementById('btn-windbelt');
+      if (bcw) {
+        bcw.classList.toggle('on', wbOn);
+        bcw.setAttribute('aria-pressed', wbOn ? 'true' : 'false');
+        __setTip(bcw, wbOn ? '关闭气压带与风带' : '显示气压带与风带');
+      }
     }
 
     function lgClose() {
+      /* 图例上的 × 关掉的是"面板里显示的一切"：图层和洋流可能叠在一起，
+         只关一半会剩下一个没有图例、还在球上跑的层。 */
+      if (ocOn) ocApply(false);
+      if (mnOn) mnApply(false);
+      if (wbOn) wbApply(false);
       lgCur = '';
       globe.layerName = '';
       lgFade(0, 260);
@@ -7998,6 +8443,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       lgSync();
       /* 定位不再跟着图层走：查的是本地索引图，关掉图层照样能问 */
       if (globe.syncBorderColor) globe.syncBorderColor();
+      if (globe.refreshTActive) globe.refreshTActive();
       if (globe.syncLabelLayers) globe.syncLabelLayers();
       /* 关了图层，之前画的地形线就没意义了 —— 淡出收掉，不要留在地球上 */
       if (globe.tShapeClear) globe.tShapeClear();
@@ -8018,6 +8464,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         lgLegend(name);
         lgSync();
         if (globe.syncBorderColor) globe.syncBorderColor();
+        if (globe.refreshTActive) globe.refreshTActive();
         if (globe.syncLabelLayers) globe.syncLabelLayers();
         /* 换了图层，气候/高度的气泡就作废了（同一个点问的已经是另一件事）。
            时间气泡与图层无关，留着。 */
@@ -8053,11 +8500,1721 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     }
     globe.lgPrewarm = lgPrewarm;
 
+
+    /* ---------- 洋流：球面上的流动带 ----------
+       没有做成贴图。洋流的知识点一半在"在哪"，另一半在"往哪流"——
+       静态图只能画箭头，动不了；而这里每条洋流是一条贴在球面上的窄带
+       （ribbon）铺出流路，亮块沿带子顺流推进；锥体箭头钉在原地，
+       只负责指方向，和亮块一个速率推进的是"光"不是"箭头"。
+
+       带子只画在海面：国界轮廓在 1.004、地名在 1.02，都比它高，
+       所以打开洋流不会盖住原来那两层。整组只占一次 draw call。 */
+    var OC_WARM = '#ff6a3d', OC_COLD = '#58c4ff';
+    /* [名称, 冷暖(1 暖 / 0 寒), 控制点 [lon, lat]..., 季节(0 常年 / 1 仅夏 / 2 仅冬)]
+
+       控制点按流向排列：起点在上游、终点在下游，箭头就往这个方向走。
+       路径给的是主流路的大致走向（不是精确等值线），做教具够用；
+       跨换日线的地方直接写 -179 / 179，ocDensify 里按最短经度差插值。
+       每条路径都用 geo/borders.json 的海岸线做过压陆检查（scripts/check_currents.py），
+       控制点尽量离岸 0.5° 以上；窄海峡躲不开的，靠陆地遮罩兜底。
+
+       季节：全世界只有北印度洋会随季风反转 —— 夏季西南季风、洋流顺时针
+       （自西向东），冬季东北季风、逆时针（自东向西）。既然要切季节，
+       索马里沿岸那对"夏寒流 / 冬暖流"也一并挂上，切换时最看得出差别。 */
+    var OC_DATA = [
+      ['墨西哥湾暖流', 1, [[-88, 24.5],[-85, 23.8],[-82.6, 23.4],[-80.5, 24.3],[-78.8, 25.6],[-76.6, 27.4],[-74.2, 29.8],[-71.5, 32.4],[-68.5, 35.3],[-64.5, 38.3],[-60, 41],[-54, 43.5],[-48, 45.5]], 0],
+      ['北大西洋暖流', 1, [[-47, 45.5],[-38, 48],[-29, 50.5],[-21, 53.5],[-14, 56.5],[-8, 59.2],[-2, 61.2],[4, 63],[8, 65],[12, 67]], 0],
+      ['北赤道暖流（大西洋）', 1, [[-18, 12],[-30, 12.5],[-42, 13],[-52, 13.5],[-58, 14]], 0],
+      ['南赤道暖流（大西洋）', 1, [[8, -2],[-2, -2.5],[-12, -3],[-22, -3.8],[-28, -4.5],[-33, -5.2]], 0],
+      ['巴西暖流', 1, [[-34.2, -9],[-36, -13],[-38, -17],[-39.6, -21],[-42, -25],[-45.5, -29.5],[-49, -33.5],[-53, -37.5]], 0],
+      ['拉布拉多寒流', 0, [[-60, 67],[-58, 62],[-55.5, 56.5],[-52.5, 51],[-50, 46],[-52, 42],[-56, 40]], 0],
+      ['东格陵兰寒流', 0, [[-6, 78.5],[-11, 75.5],[-16, 72.5],[-20, 69.5],[-25, 66.5],[-31, 63.5],[-38, 61],[-42, 59]], 0],
+      ['加那利寒流', 0, [[-11, 40],[-13.5, 35],[-16.2, 31],[-18.9, 27],[-19.6, 23],[-19.9, 18],[-19.8, 14]], 0],
+      ['本格拉寒流', 0, [[17, -35],[15.5, -31],[13.5, -27],[11.5, -22],[10, -17],[8.5, -11],[8, -6]], 0],
+      ['黑潮（日本暖流）', 1, [[125.5, 21.5],[127.8, 24],[129.5, 26],[130.8, 28],[132, 30],[133.5, 31.4],[135.5, 32.3],[137.5, 32.4],[140.5, 33.8],[144, 35.4],[148, 36.9],[152.5, 38.2]], 0],
+      ['北太平洋暖流', 1, [[153, 38.3],[166, 40],[178, 41.5],[-170, 43],[-158, 44.2],[-146, 45],[-134, 45.5]], 0],
+      ['北赤道暖流（太平洋）', 1, [[-100, 9],[-118, 9.6],[-136, 10.2],[-154, 10.6],[-172, 11],[170, 11.8],[155, 11.8],[140, 12.2],[130, 12.6]], 0],
+      ['南赤道暖流（太平洋）', 1, [[-84, -3],[-102, -3.6],[-122, -4.2],[-142, -4.6],[-162, -5.0],[-178, -5.2],[166, -5.0],[161.5, -6.0]], 0],
+      ['阿拉斯加暖流', 1, [[-139, 50],[-144, 52.8],[-150, 54.2],[-156, 54],[-161, 53.4],[-166, 52.5]], 0],
+      ['东澳大利亚暖流', 1, [[153, -17],[154.5, -22],[155, -27],[154, -32],[152, -36.5],[150, -40]], 0],
+      ['千岛寒流（亲潮）', 0, [[173, 57],[168, 53],[162, 49.5],[156, 46],[151, 43],[146, 40.5]], 0],
+      ['加利福尼亚寒流', 0, [[-133, 45],[-130.5, 41],[-127, 37],[-123.5, 32.5],[-119, 27.5],[-115, 23],[-111, 20]], 0],
+      ['秘鲁寒流', 0, [[-76, -44],[-75.5, -37],[-77.5, -30],[-79.5, -23],[-82, -16],[-85, -9],[-89, -4.5]], 0],
+      ['南赤道暖流（印度洋）', 1, [[100, -9],[87, -10.5],[74, -12],[62, -12.5],[53, -13.5]], 0],
+      ['厄加勒斯暖流', 1, [[41.5, -16.5],[40.5, -20],[38.5, -23.5],[35.5, -26.5],[33, -29.5],[30.5, -32],[28, -34],[24.5, -36],[21, -38]], 0],
+      ['西澳大利亚寒流', 0, [[113, -34],[111, -29],[109, -24],[107, -18],[105, -13]], 0],
+      ['季风洋流（夏季·顺时针）', 1, [[52, 8.5],[58, 8.8],[64, 8.8],[69, 8.4],[72.5, 7.6],[75.5, 7.4]], 1],
+      ['季风洋流（冬季·逆时针）', 1, [[75.5, 8.0],[71, 7.6],[65, 7.0],[58, 7.2],[52, 7.9]], 2],
+      ['索马里寒流（夏季上升流）', 0, [[46.6, 2.2],[48.9, 4.0],[50.0, 5.5],[51.0, 7.5],[52.2, 9.3]], 1],
+      ['索马里暖流（冬季）', 1, [[52.4, 9.6],[51.2, 7.6],[50.1, 5.6],[49.0, 4.0],[46.8, 2.2]], 2],
+      ['西风漂流（南极绕极流）', 0, [[-180, -56],[-150, -56],[-120, -56.5],[-90, -57],[-70, -58],[-60, -57.5],[-30, -55],[0, -53]], 0],
+      ['西风漂流（南极绕极流）', 0, [[0, -53],[40, -52],[80, -52.5],[120, -54.5],[150, -55.5],[180, -56]], 0]
+    ];
+
+    /* ---------- 四季：三层（洋流 / 季风 / 气压带与风带）共用一个季节开关 ----------
+       四颗按钮对应的不是"季节平均"，而是**二分二至**四个位置：春分 · 夏至 ·
+       秋分 · 冬至。这样位移量才有教材依据，也才能画出"0° 纬线正好平分
+       赤道低压带"这个春秋分的标志性关系。
+
+       shift  气压带与风带的整体位移（度，正 = 北移）。跟着太阳直射点走：
+              夏至直射 23.5°N → 整体北移 8°；冬至直射 23.5°S → 南移 8°；
+              春秋分直射赤道 → 位移正好 0，赤道低压带被 0° 纬线平分。
+              春秋两档位移相同，差别在**移动方向**（春分之后北移、秋分之后南移），
+              图例里写明，否则两个按钮看起来会一模一样。
+       oc     北印度洋那几支洋流取哪一套：1 夏（顺时针）/ 2 冬（逆时针）/
+              0 转换期。春秋分前后季风正在换向、洋流方向不定，教材上也不画，
+              这里一并略去，图例里写明 —— 比硬画一个方向诚实。
+       mn     季风层画哪一套风：春季画冬季风（正在撤退）、秋季画夏季风（正在撤退），
+              配上 fade 压暗，读出来就是"上一季的风还没退干净"。
+       fade   季风层亮度系数：转换期 0.42，两个盛行季 1。
+       belt   季风带中线取哪条：1 夏 / 2 冬 / 0 过渡（夏冬两条的中线）。 */
+    var SEA = [
+      { nm: '春', jq: '春分', shift: 0, dir: 1, oc: 0, mn: 2, fade: 0.42, belt: 0 },
+      { nm: '夏', jq: '夏至', shift: 8, dir: -1, oc: 1, mn: 1, fade: 1, belt: 1 },
+      { nm: '秋', jq: '秋分', shift: 0, dir: -1, oc: 0, mn: 1, fade: 0.42, belt: 0 },
+      { nm: '冬', jq: '冬至', shift: -8, dir: 1, oc: 2, mn: 2, fade: 1, belt: 2 }
+    ];
+    /* 当前季节下标。名字沿用 OC_SEASON 是因为它最早只有洋流在乎，
+       现在它是三层共用的一个数，改动面太大不划算。 */
+    var OC_SEASON = 1;
+    function sea() { return SEA[OC_SEASON] || SEA[1]; }
+
+    /* 箭头尺寸都按世界坐标给（球半径 = 1）。默认视距下球半径约 300px，
+       所以 0.082 长约 25px、间距 0.19 约 57px —— 课本上"一串短箭头"的疏密；
+       缩得太小就看不出箭头，太大又成了粗带子。 */
+    var OC_A_LEN = 0.082;          // 锥体长度（沿流向）
+    var OC_A_R = 0.019;            // 锥底半径 → 全宽 0.038，长宽比约 2.2:1 才像箭头
+    var OC_A_FLAT = 0.45;          // 法向压扁系数：锥体"趴"在球面上
+    /* 洋流的间距：光带已经把"流路在哪"讲清楚了，箭头只负责隔一段点一下方向。
+       0.106 时箭头几乎首尾相接，整条流读成一条锯齿状的粗带子；
+       0.19 是拉开后的值 —— 箭头加粗了，密度相应降一档，两者才不打架。 */
+    var OC_STEP = 0.19;
+    /* 箭头三层共用这一个开关：false = 全部钉死在初始位置，只当"方向路标"用。
+       静止时端点淡出（edge 缩放）也要一并关掉 —— 没有进出场要掩饰，
+       反而会把首尾两支缩没，一条流看着像缺了头尾。 */
+    var ARROW_FLOW = false;
+    /* 光带上的亮块顺流推进（uFlow = OC_SPEED * 7，见片元着色器）。
+       流动感全交给光带：亮块往前走，箭头不动。改成 false 回到全静态。 */
+    var RIB_FLOW = true;
+
+    /* 光带亮块的推进速度（弧度/秒）。0.085 ≈ 4.9°/秒：一眼看得出在走，
+       又不至于快到看不清流路。亮块速度 = OC_SPEED*7，改这一个数整体变速。 */
+    var OC_SPEED = 0.085;
+    var OC_R = 1.0026;             // 压在球面之上、国界轮廓（1.004）之下
+
+    /* 光带（ribbon）贴得比箭头低一档：箭头要压在带子上，才像"一枚箭头在流里"，
+       反过来箭头会被带子糊掉半截。 */
+    var OC_RIB_R = 1.0020;
+    /* 半宽 0.0125 ≈ 1.43°（全宽 2.9°）：比箭头的 0.019 半宽略窄一点 ——
+       带子是"路"、箭头是"路标"，箭头两侧探出带子边缘才读得出层次。
+       再窄就成了一条线，再宽整片海都是暖色，反而看不出流路。 */
+    var OC_RIB_HW = 0.0125;
+
+    var ocGroup = null, ocOn = false, ocAnim = 0, ocOp = 0;
+    var ocSets = [], ocMats = [], ocPhase = 0, ocArrow = null;
+    var ocRibMat = null, ocRibMesh = null;   // 光带的材质 / 网格（单独存，拆的时候要 dispose）
+    var ocLandTex = null;                    // 陆地遮罩贴图，给光带做"压陆淡出"
+    var ocDummyTex = null;                   // 遮罩没造好之前顶班的 1×1 全透明贴图
+    var ocLand = null;             // {w, h, bits} 陆地遮罩，逐帧查
+    /* 现在这套几何是按哪一季建的。切季节只在"开着"的时候重建，
+       所以关着的时候季节变了、再打开，得靠这个标记发现几何已经过期。 */
+    var ocBuiltSeason = -1;
+
+    /* 这三个向量是全模块复用的临时量（逐帧要摆两百多个箭头，不能每次都 new）。
+       注意：**不能在这里就 new THREE.Vector3()** —— 这段代码在首屏解析时
+       就会执行，而 three.min.js 是懒加载的，那时 THREE 还不存在，
+       整个脚本会抛 ReferenceError 直接挂掉（表现就是一直停在"正在加载"）。
+       所以推迟到 ocBuild 里第一次用到时再建。 */
+    var _v1, _v2, _v3, _v4, _v5, _m4, _sc;
+    function ocScratch() {
+      if (_v1) return;
+      _v1 = new THREE.Vector3(); _v2 = new THREE.Vector3();
+      _v3 = new THREE.Vector3(); _v4 = new THREE.Vector3();
+      _v5 = new THREE.Vector3();
+      _m4 = new THREE.Matrix4(); _sc = new THREE.Vector3();
+    }
+
+    function ocSeasonOk(row) {
+      var s = row[3] | 0;
+      /* 转换期 oc = 0：那几支季节性洋流（编码 1/2）一条都不匹配，自然全部略去 */
+      return !s || s === sea().oc;
+    }
+
+    /* 折线加密到每段 ≤0.5°：段太长的话，箭头插在两点之间就是"斜着切进球里"，
+       而且曲线转角处切向会突然折一下，看着像卡了一帧。 */
+    function ocDensify(pts) {
+      var out = [];
+      for (var i = 0; i < pts.length - 1; i++) {
+        var a = pts[i], b = pts[i + 1];
+        var dLon = b[0] - a[0];
+        while (dLon > 180) dLon -= 360;
+        while (dLon < -180) dLon += 360;
+        var dLat = b[1] - a[1];
+        var n = Math.max(1, Math.ceil(Math.max(Math.abs(dLon), Math.abs(dLat)) / 0.5));
+        for (var k = 0; k < n; k++) {
+          var t = k / n;
+          out.push([a[0] + dLon * t, a[1] + dLat * t]);
+        }
+      }
+      out.push([pts[pts.length - 1][0], pts[pts.length - 1][1]]);
+      out.forEach(function (p) {
+        while (p[0] > 180) p[0] -= 360;
+        while (p[0] < -180) p[0] += 360;
+      });
+      return out;
+    }
+
+    /* 一条路径换成"单位向量序列 + 累计弧长"。弧长是箭头匀速前进的标尺：
+       不按经纬度、按球面距离算，跨高纬度的那几条才不会忽快忽慢。 */
+    function ocCurve(pts) {
+      pts = ocDensify(pts);
+      if (pts.length < 2) return null;
+      var unit = [], arc = [], acc = 0;
+      for (var i = 0; i < pts.length; i++) {
+        var v = llToVec3(pts[i][0], pts[i][1], 1, new THREE.Vector3()).normalize();
+        if (i > 0) {
+          acc += Math.acos(Math.max(-1, Math.min(1, v.dot(unit[i - 1]))));
+        }
+        unit.push(v);
+        arc.push(acc);
+      }
+      if (acc < 0.02) return null;
+      return { unit: unit, arc: arc, len: acc };
+    }
+
+    /* 按弧长取曲线上的点：二分找到所在段，再对单位向量做球面插值。
+       直接 lerp + normalize 对 ≤0.5° 的段足够准，还省一次三角函数。 */
+    function ocSample(cur, a, out) {
+      var u = cur.unit, arc = cur.arc, n = u.length;
+      if (a <= 0) return out.copy(u[0]);
+      if (a >= arc[n - 1]) return out.copy(u[n - 1]);
+      var lo = 0, hi = n - 1;
+      while (hi - lo > 1) {
+        var mid = (lo + hi) >> 1;
+        if (arc[mid] <= a) lo = mid; else hi = mid;
+      }
+      var f = (a - arc[lo]) / Math.max(1e-9, arc[hi] - arc[lo]);
+      return out.copy(u[lo]).lerp(u[hi], f).normalize();
+    }
+
+    /* 一支箭头：扁平三角锥，锥尖朝 +X（流向）。就是最初那版 ——
+       锥体先绕 Z 转 -90°，把尖从 +Y 掰到 +X，再把法向（Z）压到 0.45。
+       不压扁的话圆锥是立着的，锥尖扎进球里，像插了一根钉子；
+       压扁后是一枚"趴"在球面的小三角，任何角度看都是箭头，近看还有体积感。
+       底面最后抬到 z=0，免得锥底陷进地表被吃掉一圈。 */
+    function ocMakeArrow() {
+      var g = new THREE.ConeGeometry(OC_A_R, OC_A_LEN, 9, 1, false);
+      g.rotateZ(-Math.PI / 2);
+      g.scale(1, 1, OC_A_FLAT);
+      g.translate(0, 0, OC_A_R * OC_A_FLAT);
+      return g;
+    }
+
+    /* 逐帧摆位。ARROW_FLOW 打开时箭头沿流移动，关掉时只在构建后摆一次
+       （钉在相位 0 的位置，纯当方向路标）。数量两百出头，重算矩阵完全够用。 */
+    function ocPose(phase) {
+      for (var si = 0; si < ocSets.length; si++) {
+        var st = ocSets[si], im = st.im, items = st.items;
+        for (var i = 0; i < items.length; i++) {
+          var it = items[i], L = it.len;
+          var a = (it.base + phase) % L;
+          if (a < 0) a += L;
+          ocSample(it.cur, a, _v1);
+          /* 两端各留一格淡出：否则箭头会在流的末端凭空出现／消失，像闪了一下。
+             箭头静止时不做这套 —— 没有进出场要掩饰，反而会把首尾两支缩没，
+             一条流看着像缺了头尾。 */
+          var sc = 1;
+          if (ARROW_FLOW) {
+            var edge = Math.min(a, L - a) / (OC_STEP * 1.1);
+            sc = edge < 1 ? Math.max(0.001, edge) : 1;
+          }
+          if (ocLand && ocIsLand(_v1)) sc = 0.001;
+          /* 切向 = 前后两点的差，再投影回切平面；否则箭头会"往球心扎" */
+          ocSample(it.cur, a - 0.012, _v2);
+          ocSample(it.cur, a + 0.012, _v3);
+          _v3.sub(_v2).normalize();
+          _v3.addScaledVector(_v1, -_v3.dot(_v1)).normalize();
+          _v4.crossVectors(_v1, _v3).normalize();
+          _m4.makeBasis(_v3, _v4, _v1);
+          _sc.set(sc, sc, sc);
+          _m4.scale(_sc);
+          _m4.setPosition(_v1.x * OC_R, _v1.y * OC_R, _v1.z * OC_R);
+          im.setMatrixAt(i, _m4);
+        }
+        im.instanceMatrix.needsUpdate = true;
+      }
+    }
+
+    /* 陆地遮罩查表：经纬度 → 画布像素 → 是不是陆地。
+       逐帧要给两百多个箭头各查一次，所以做成 Uint8Array 直读，
+       不能每帧 getImageData。 */
+    function ocIsLand(v) {
+      var m = ocLand;
+      if (!m) return false;
+      var lat = Math.asin(v.y > 1 ? 1 : (v.y < -1 ? -1 : v.y)) * 57.2957795;
+      var lon = Math.atan2(-v.z, v.x) * 57.2957795;
+      var x = ((lon + 180) * m.kx) | 0;
+      var y = ((90 - lat) * m.ky) | 0;
+      if (x < 0) x = 0; else if (x >= m.w) x = m.w - 1;
+      if (y < 0) y = 0; else if (y >= m.h) y = m.h - 1;
+      return m.bits[y * m.w + x] > 150;
+    }
+
+    /* 光带：每条洋流沿球面铺一条窄带，片元着色器让一段亮块沿着带子推进。
+
+       流动感全在这条带上：亮块以 OC_SPEED rad/s 顺流走，箭头静止指方向 ——
+       "路"在流、"路标"钉在原地，两层不会各说各话地乱跑。
+
+       落点全在海面：国界 1.004、地名 1.02 都比它高，打开洋流不会盖住那两层。
+       19 条并成一次 draw call，frustumCulled 关掉（一条洋流跨半个球，
+       包围球是按整组算的，开着反而会被误剪）。 */
+    function ocBuildRibbon() {
+      /* 洋流路径 → 通用光带路径表。uvScale=1 时 uv.x 直接装弧长：
+         一条洋流不管跨几度，亮块的周期和推进速度在世界尺度上都是
+         同一个值，跨赤道的长流也不会被拉长。 */
+      var paths = [];
+      var cWarm = new THREE.Color(OC_WARM), cCold = new THREE.Color(OC_COLD);
+      OC_DATA.forEach(function (row, ri) {
+        if (!ocSeasonOk(row)) return;
+        var cur = ocCurve(row[2]);
+        if (!cur) return;
+        paths.push({ cur: cur, col: row[1] ? cWarm : cCold, ph: (ri * 0.37) % 1, uvScale: 1 });
+      });
+      var g = ocRibbonGeo(paths, OC_RIB_HW, OC_RIB_R);
+      if (!g) return null;
+
+      ocRibMat = ocRibbonMat(ocOp, true);
+      var mesh = new THREE.Mesh(g, ocRibMat);
+      mesh.frustumCulled = false;
+      /* 在箭头下面一层：两者都 depthWrite=false，靠 renderOrder 定先后 */
+      mesh.renderOrder = 2;
+      ocRibMesh = mesh;
+      return mesh;
+    }
+
+    /* ---------- 光带的两块公共件（洋流 / 季风 / 风带三层同一套） ----------
+
+       ocRibbonGeo：把若干条已参数化的曲线（ocCurve 的产物）
+       各铺一条窄带并成一个几何体。uv.x 装弧长（闭合环传 uvScale 归一化），
+       顶点色逐条给、相位逐条错开 —— 全不错开的话所有亮块同一时刻一起闪，
+       像整屏在呼吸。
+
+       ocRibbonMat：同一套亮块着色器。withLand = 压陆淡出（只有洋流要，
+       风吹过陆地天经地义）；uOpacity 挂在各层自己的淡入淡出回路上。 */
+    function ocRibbonGeo(paths, hw, R) {
+      var pos = [], uvs = [], cols = [], phs = [], idx = [];
+      paths.forEach(function (p) {
+        var unit = p.cur.unit, arc = p.cur.arc, col = p.col, sc = p.uvScale || 1;
+        /* p.r：逐条覆写半径。风带那种多层斜纹会在纬度上互相压到，
+           同半径同面会打架（深度测试过不去就闪），让每层差 0.0002 错开。 */
+        var RR = p.r || R;
+        /* p.taperTail：首端渐细的比例（0/不传就整条等宽）。
+           风带那条拖尾的端头如果直接平切，会是一块方砖，压在深色海面上
+           像"箭头被什么东西堵住了"；收成尖才是流线的收梢。 */
+        var TP = p.taperTail || 0;
+        var base = pos.length / 3;
+        for (var i = 0; i < unit.length; i++) {
+          /* 切向取前后两点连线（首尾各退一格取单边，端点不打结） */
+          var pa = unit[Math.max(0, i - 1)];
+          var pb = unit[Math.min(unit.length - 1, i + 1)];
+          var tan = pb.clone().sub(pa).normalize();
+          /* 横向 = 法向 × 切向，落在切平面里，带子才是"贴"着球的 */
+          var hwI = hw;
+          if (TP > 0) {
+            var uu = i / Math.max(1, unit.length - 1);
+            if (uu < TP) hwI = hw * (0.10 + 0.90 * uu / TP);
+          }
+          var sd = unit[i].clone().cross(tan).normalize().multiplyScalar(hwI);
+          var ctr = unit[i].clone().multiplyScalar(RR);
+          var p1 = ctr.clone().add(sd), p2 = ctr.clone().sub(sd);
+          pos.push(p1.x, p1.y, p1.z, p2.x, p2.y, p2.z);
+          uvs.push(arc[i] * sc, 0, arc[i] * sc, 1);
+          cols.push(col.r, col.g, col.b, col.r, col.g, col.b);
+          phs.push(p.ph, p.ph);
+        }
+        for (i = 0; i < unit.length - 1; i++) {
+          var k0 = base + i * 2;
+          idx.push(k0, k0 + 1, k0 + 2, k0 + 1, k0 + 3, k0 + 2);
+        }
+      });
+      if (!idx.length) return null;
+      var g = new THREE.BufferGeometry();
+      g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+      g.setAttribute('uv', new THREE.Float32BufferAttribute(uvs, 2));
+      g.setAttribute('aCol', new THREE.Float32BufferAttribute(cols, 3));
+      g.setAttribute('aPhase', new THREE.Float32BufferAttribute(phs, 1));
+      g.setIndex(idx);
+      return g;
+    }
+
+    function ocRibbonMat(uOpacity, withLand) {
+      return new THREE.ShaderMaterial({
+        uniforms: {
+          uTime: { value: 0 },
+          uFlow: { value: OC_SPEED * 7 },
+          uPulse: { value: RIB_FLOW ? 1 : 0 },
+          uOpacity: { value: uOpacity },
+          /* 季节位移（度）。只有气压带/风带那层会改它 ——
+             洋流和季风的几何是烘死的，永远保持 0。 */
+          uWbShift: { value: 0 },
+          uLand: { value: withLand ? (ocLandTex || ocDummyLand()) : ocDummyLand() }
+        },
+        vertexShader: [
+          'attribute vec3 aCol;',
+          'attribute float aPhase;',
+          'uniform float uWbShift;',
+          'varying vec2 vUv;',
+          'varying vec3 vCol;',
+          'varying float vPhase;',
+          'varying vec2 vLUv;',
+          'void main(){',
+          /* 先做季节位移，再拿位移后的位置去算其它东西（遮罩 uv、法向）。
+             顺序反了的话，陆地遮罩查的还是原位，带子会按原地的海岸线淡出。 */
+          '  vec3 p = position;',
+          '  {',
+          '    float _wr = length(p);',
+          '    float _wc = length(p.xz);',
+          '    if (_wr > 1e-5 && _wc > 1e-6) {',
+          '      float _wl = atan(p.y, _wc) + uWbShift * 0.0174532925;',
+          '      _wl = clamp(_wl, -1.5522, 1.5522);',
+          '      vec2 _wd = p.xz / _wc;',
+          /* 水平半径 = R·cos(新纬度)，R 就是 _wr；不要再乘 _wc（那是旧的水平半径） */
+          '      float _wn = cos(_wl) * _wr;',
+          '      p = vec3(_wd.x * _wn, sin(_wl) * _wr, _wd.y * _wn);',
+          '    }',
+          '  }',
+          '  vUv = uv; vCol = aCol; vPhase = aPhase;',
+          /* 顶点是单位球上的位置：反解回经纬度，好去遮罩图上查这一片是不是陆地。
+             和 ocIsLand() 用的是同一个反变换（lon = atan2(-z, x)）。 */
+          '  vec3 n = normalize(p);',
+          '  float lon = atan(-n.z, n.x);',
+          '  float lat = asin(clamp(n.y, -1.0, 1.0));',
+          '  vLUv = vec2((lon + 3.14159265) / 6.28318531, (lat + 1.57079633) / 3.14159265);',
+          '  gl_Position = projectionMatrix * modelViewMatrix * vec4(p, 1.0);',
+          '}'
+        ].join('\n'),
+        fragmentShader: [
+          'uniform float uTime;',
+          'uniform float uFlow;',
+          'uniform float uPulse;',      // 1 = 亮块沿带子推进，0 = 均匀铺色
+          'uniform float uOpacity;',
+          'uniform sampler2D uLand;',
+          'varying vec2 vUv;',
+          'varying vec3 vCol;',
+          'varying float vPhase;',
+          'varying vec2 vLUv;',
+          'void main(){',
+          /* 横向轮廓：中间走平台、两边各用 16% 收掉。原来是整条 sin 缓坡，
+             缩远以后整条带子糊成一团光晕；改成"平台 + 窄羽化"才立得出两条边。 */
+          '  float yy = clamp(vUv.y, 0.0, 1.0);',
+          '  float edge = smoothstep(0.0, 0.16, yy) * (1.0 - smoothstep(0.84, 1.0, yy));',
+          /* 沿路径推进的亮块，周期 1/7 弧度。uFlow = OC_SPEED*7（周期/秒），
+             对 uv.x 求导正好是 OC_SPEED rad/s —— 三层光带亮块的推进速度。
+             写成 uniform 而不是硬编码：原来写死 0.385，一改 OC_SPEED 就脱节了。 */
+          '  float s = fract(vUv.x * 7.0 - uTime * uFlow + vPhase);',
+          /* 亮块前后沿各收 6% / 8%：原来 12% / 17% 的缓坡再叠上半透明混合，
+             一块光要走四五度才淡进来，看着就是"糊"。收硬之后是一段有明确
+             起止的亮带，顺着流路往前走。 */
+          '  float seg = smoothstep(0.00, 0.05, s) * (1.0 - smoothstep(0.62, 0.70, s));',
+          /* 暗段底色和箭头同色同亮（vCol 原样出，不再压 0.80）——
+             箭头和光带才像一套的；亮段只靠透明度小幅抬升 + 颜色再提 30%。
+             uPulse=0（光带静止）时后半项消失，整条带子回到均匀半透明色。 */
+          '  float a = (mix(0.52, 0.56, uPulse) + 0.18 * uPulse * seg) * edge * uOpacity;',
+          /* 压到陆地就淡掉：佛罗里达海峡、巴哈马、马六甲这种窄地方，
+             路径再怎么调都会擦到岸。遮罩没造好时 uLand 是 1×1 全透明，等于不生效。 */
+          '  a *= 1.0 - smoothstep(0.55, 0.98, texture2D(uLand, vLUv).a);',
+          '  vec3 c = vCol * (1.0 + 0.30 * uPulse * seg);',
+          '  gl_FragColor = vec4(c, a);',
+          '}'
+        ].join('\n'),
+        transparent: true,
+        depthWrite: false,
+        side: THREE.DoubleSide
+      });
+    }
+
+    /* 陆地遮罩贴图造好之前，先绑一张 1×1 全透明图 —— 采样永远返回 a=0，
+       等于"没有遮罩"。不能留 null 给 sampler，部分驱动上会直接画成黑色。 */
+    function ocDummyLand() {
+      if (ocDummyTex) return ocDummyTex;
+      var d = new Uint8Array([0, 0, 0, 0]);
+      ocDummyTex = new THREE.DataTexture(d, 1, 1, THREE.RGBAFormat);
+      ocDummyTex.needsUpdate = true;
+      return ocDummyTex;
+    }
+
+    function ocBuild() {
+      if (ocGroup) return;
+      ocScratch();
+      ocGroup = new THREE.Group();
+      ocSets = []; ocMats = []; ocPhase = ARROW_FLOW ? ocPhaseNow() : 0;
+      ocBuiltSeason = OC_SEASON;
+      if (!ocArrow) ocArrow = ocMakeArrow();
+
+      var cWarm = new THREE.Color(OC_WARM), cCold = new THREE.Color(OC_COLD);
+      [[1, cWarm], [0, cCold]].forEach(function (pair) {
+        var items = [];
+        OC_DATA.forEach(function (row) {
+          if (!ocSeasonOk(row)) return;
+          if ((row[1] ? 1 : 0) !== pair[0]) return;
+          var cur = ocCurve(row[2]);
+          if (!cur) return;
+          /* 按弧长均分，末段不会空出半个间距 */
+          var n = Math.max(cur.len > 0.12 ? 2 : 1, Math.round(cur.len / OC_STEP));
+          for (var i = 0; i < n; i++) items.push({ cur: cur, base: i * (cur.len / n), len: cur.len });
+        });
+        if (!items.length) return;
+        var mat = new THREE.MeshBasicMaterial({
+          color: pair[1], transparent: true, opacity: ocOp,
+          depthWrite: false, side: THREE.DoubleSide
+        });
+        var im = new THREE.InstancedMesh(ocArrow, mat, items.length);
+        im.frustumCulled = false;
+        im.renderOrder = 3;
+        ocGroup.add(im);
+        ocSets.push({ im: im, items: items });
+        ocMats.push(mat);
+      });
+      /* 光带垫在箭头底下；材质一起进 ocMats，淡入淡出就还是一套 */
+      var rib = ocBuildRibbon();
+      if (rib) {
+        ocGroup.add(rib);
+        ocMats.push(ocRibMat);
+      }
+
+      ocPose(ocPhase);
+      ocBuildLandMask();
+    }
+
+    /* 拆掉重来（切季节时用）。材质要 dispose，共享的那份箭头几何体留着。 */
+    function ocDrop() {
+      if (ocGroup) {
+        if (ocGroup.parent) ocGroup.parent.remove(ocGroup);
+        ocGroup.traverse(function (o) {
+          if (o.material && o.material.dispose) o.material.dispose();
+        });
+        ocGroup = null;
+      }
+      /* 箭头几何体是三层共用的（ocArrow），绝不能在这里 dispose；
+         光带是自己独有的，必须收掉，不然切几次季节就漏几份顶点缓冲。 */
+      if (ocRibMesh && ocRibMesh.geometry) ocRibMesh.geometry.dispose();
+      ocRibMesh = null; ocRibMat = null;
+      ocSets = []; ocMats = [];
+      if (globe.ocLabels) {
+        globe.ocLabels.forEach(function (L) {
+          if (L.el && L.el.parentNode) L.el.parentNode.removeChild(L.el);
+        });
+        globe.ocLabels = null;
+      }
+    }
+
+    /* 陆地遮罩：把所有国家的环按等经纬画到一张离屏画布上，再摊成一张
+       查表用的位图。箭头压到陆地上就缩成 0 —— 佛罗里达海峡、巴哈马、
+       马六甲这种窄地方，路径再怎么调都会擦到岸，有遮罩就不用把流路掰歪。 */
+    function ocBuildLandMask() {
+      if (ocLand || globe.ocLandBusy) return;
+      if (typeof globe.loadRings !== 'function') return;
+      globe.ocLandBusy = true;
+      globe.loadRings().then(function (rings) {
+        if (!rings || !rings.length) return;
+        var W = 1024, H = 512;
+        var cv = document.createElement('canvas');
+        cv.width = W; cv.height = H;
+        var cx = cv.getContext('2d');
+        cx.fillStyle = '#ffffff';
+        var px = function (lon) { return (lon + 180) / 360 * W; };
+        var py = function (lat) { return (90 - lat) / 180 * H; };
+        rings.forEach(function (ring) {
+          var lo = Infinity, hi = -Infinity;
+          for (var i = 0; i < ring.length; i++) {
+            if (ring[i][0] < lo) lo = ring[i][0];
+            if (ring[i][0] > hi) hi = ring[i][0];
+          }
+          /* 跨换日线的环（楚科奇、斐济）左右各补一遍，缝上不会缺一块 */
+          var shifts = (hi - lo > 180) ? [-W, 0, W] : [0];
+          shifts.forEach(function (dx) {
+            cx.beginPath();
+            cx.moveTo(px(ring[0][0]) + dx, py(ring[0][1]));
+            for (var i = 1; i < ring.length; i++) cx.lineTo(px(ring[i][0]) + dx, py(ring[i][1]));
+            cx.closePath();
+            cx.fill();
+          });
+        });
+        var img = cx.getImageData(0, 0, W, H).data;
+        var bits = new Uint8Array(W * H);
+        for (var i = 0, j = 3; i < bits.length; i++, j += 4) bits[i] = img[j];
+        ocLand = { w: W, h: H, kx: W / 360, ky: H / 180, bits: bits };
+        globe.ocLandReady = true;
+        ocPose(ocPhase);
+        /* 同一张画布转成贴图给光带用：箭头靠 bits 逐实例缩放，光带靠它在
+           片元里逐像素淡出 —— 带子边上是柔的，不会切出一条锯齿。 */
+        ocLandTex = new THREE.CanvasTexture(cv);
+        ocLandTex.minFilter = THREE.LinearFilter;
+        ocLandTex.magFilter = THREE.LinearFilter;
+        ocLandTex.generateMipmaps = false;
+        if (ocRibMat) ocRibMat.uniforms.uLand.value = ocLandTex;
+      }).catch(function () {
+        /* 遮罩拿不到就退回"只靠路径避让"，不影响洋流本身显示 */
+      }).then(function () { globe.ocLandBusy = false; });
+    }
+
+    /* 洋流名：走的是和地形名同一套地名层（投影、球缘裁剪、矩形避让都现成），
+       只是数据源和配色不同。位置取路径弧长的中点，太长的不带括号后缀
+       —— "黑潮"比"黑潮（日本暖流）"在球面上好读。 */
+    function ocBuildLabels() {
+      if (globe.ocLabels) return;
+      var host = document.getElementById('tlabels');
+      if (!host) return;
+      globe.ocLabels = [];
+      OC_DATA.forEach(function (row) {
+        if (!ocSeasonOk(row)) return;
+        var pts = ocDensify(row[2]);
+        var at = function (t) {
+          return pts[Math.min(pts.length - 1, Math.round(pts.length * t))];
+        };
+        /* 三个候选锚点。一条洋流动辄跨 60°，中点落在球缘时名字整条就没了，
+           而它两端其实还在视野里 —— 给 1/2、1/4、3/4 三个点，每帧挑最正对
+           镜头的那个，名字就会随视角沿着流带滑到看得见的一段上。 */
+        var mid = at(0.5);
+        var alts = [mid, at(0.25), at(0.75)];
+        /* 名字里的括号：只有"（大西洋/太平洋/印度洋）"这种洋名要留 ——
+           北赤道暖流在三个洋里各有一条，不标出来会出现两个同名标签。
+           其它括号（"黑潮（日本暖流）""季风洋流（夏季·顺时针）"）去掉，
+           "季节"这件事交给图例和季节按钮讲，球面上的字越短越好读。 */
+        var nm = String(row[0]).replace(/（([^）]*)）/g, function (m, inner) {
+          return /洋$/.test(inner) ? '·' + inner : '';
+        });
+        var node = el('div', 'tlabel k-' + (row[1] ? 'ocw' : 'occ'), nm);
+        host.appendChild(node);
+        globe.ocLabels.push({
+          el: node, lon: mid[0], lat: mid[1], z: 0.9, alts: alts,
+          kind: 'oc', pri: 1, src: 'c', tap: false,
+          v: new THREE.Vector3(), w: node.offsetWidth, h: node.offsetHeight, on: false
+        });
+      });
+    }
+
+    /* 相位取绝对时间，而不是逐帧累加 dt。
+       渲染循环递进来的 dt 被封顶在 0.06 秒（防止切标签页回来瞬移），
+       这等于给"箭头速度"设了个 20fps 的下限：帧率掉到 20 以下，箭头就开始
+       按帧率打折，而光带的亮块是在 shader 里读 performance.now() 的，照样全速跑。
+       两者一并排，看到的就是"带子一直在流、箭头钉在原地不动"。
+       改成读时钟之后，箭头速度只和墙上的时间有关，也永远和亮块同步。 */
+    function ocPhaseNow() { return (performance.now() / 1000 * OC_SPEED) % 1e5; }
+
+    function ocTick(dt) {
+      if (!ocSets.length) return;
+      /* 箭头静止：矩阵在建层时摆好一次就够，不用每帧重算 */
+      if (ARROW_FLOW) {
+        ocPhase = ocPhaseNow();
+        ocPose(ocPhase);
+      }
+      /* 亮块停住时不必每帧回传时间：uPulse=0 已经让它不参与着色 */
+      if (ocRibMat && RIB_FLOW) ocRibMat.uniforms.uTime.value = performance.now() / 1000;
+    }
+
+    function ocFadeTo(to, dur) {
+      var from = ocOp, t0 = performance.now();
+      cancelAnimationFrame(ocAnim);
+      (function step() {
+        var k = Math.min(1, (performance.now() - t0) / dur);
+        var e = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+        ocOp = from + (to - from) * e;
+        ocMats.forEach(function (m) {
+          /* 光带是 ShaderMaterial：透明度在 uniform 里，不在 material.opacity 上 */
+          if (m.uniforms && m.uniforms.uOpacity) m.uniforms.uOpacity.value = ocOp;
+          else m.opacity = ocOp;
+        });
+        if (k < 1) ocAnim = requestAnimationFrame(step);
+        else if (!ocOn && ocGroup && ocGroup.parent) ocGroup.parent.remove(ocGroup);
+      })();
+    }
+
+    /* 把按钮的高亮同步到 OC_SEASON。开图层和切季节都调它 ——
+       只在一处改状态，就不会出现"图例写着冬季、按钮还亮着夏"的错位。 */
+    function ocSyncSeasonBtns() {
+      var box = document.getElementById('season-pick');
+      if (!box) return;
+      Array.prototype.forEach.call(box.querySelectorAll('.sp-btn'), function (b) {
+        var on = +b.getAttribute('data-season') === OC_SEASON;
+        b.classList.toggle('on', on);
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+    }
+
+    /* 季节开关是三层共用的：洋流（北印度洋换向）、季风（整层换向）、
+       气压带与风带（整体南北移动）。哪一层开着，它就该露出来。 */
+    function seasonBoxSync() {
+      var sp = document.getElementById('season-pick');
+      if (!sp) return;
+      var on = ocOn || mnOn || wbOn;
+      sp.classList.toggle('show', on);
+      sp.setAttribute('aria-hidden', on ? 'false' : 'true');
+    }
+
+    function ocApply(on) {
+      ocOn = !!on;
+      globe.ocOn = ocOn;
+      seasonBoxSync();
+      if (ocOn) {
+        /* 关着的时候季节可能被切过（季风还开着），几何过期就先拆再建 */
+        if (ocGroup && ocBuiltSeason !== OC_SEASON) ocDrop();
+        ocSyncSeasonBtns();
+        ocBuild();
+        ocBuildLabels();
+      }
+      /* 地名层的成员变了（多了/少了这一批洋流名），重建一次再切显隐 */
+      if (globe.refreshTActive) globe.refreshTActive();
+      if (globe.syncLabelLayers) globe.syncLabelLayers();
+      if (!ocGroup) return;
+      if (ocOn && globe.spin && !ocGroup.parent) globe.spin.add(ocGroup);
+      ocFadeTo(ocOn ? 1 : 0, 320);
+    }
+
+    function ocToggle() {
+      ocApply(!ocOn);
+      /* 图例是共用的：洋流开着时追加一块，关掉就把这块撤掉。
+         只有洋流、没有气候/地形时，lgCur 是空的 —— lgLegend('') 只画洋流块。 */
+      lgLegend(lgCur);
+      lgSync();
+      if (window.__tipHide) window.__tipHide();
+    }
+
+    /* 切季节：北印度洋那几支换向、索马里沿岸换性质，其余不动。
+       做法就是拆了按当前季节重建 —— 两百多个箭头，几毫秒的事，
+       比重算每个实例的曲线简单得多，也不会留下旧季节的残影。 */
+    function ocSetSeason(s) {
+      if (OC_SEASON === s) return;
+      OC_SEASON = s;
+      ocSyncSeasonBtns();
+      if (ocOn) {
+        ocDrop();
+        ocBuild();
+        ocBuildLabels();
+        if (globe.spin && ocGroup && !ocGroup.parent) globe.spin.add(ocGroup);
+        if (globe.refreshTActive) globe.refreshTActive();
+        if (globe.syncLabelLayers) globe.syncLabelLayers();
+      }
+      var tip = document.getElementById('lg-season-val');
+      if (tip) tip.textContent = ocSeasonTip();
+      /* 季风那一层跟着一起换（开没开都调，图例里的文字要同步） */
+      mnSeasonRefresh();
+      /* 气压带与风带不用重建，只改位移目标 —— 由 wbTick 平滑滑过去 */
+      wbSeasonSync();
+    }
+
+    globe.ocTick = ocTick;
+    globe.ocSetSeason = ocSetSeason;
+
+    /* ---------- 季风带：风的方向，不是水的方向 ----------
+       和洋流是同一套画法（窄光带铺流路 + 一串箭头指方向），但三处不同：
+       ① 风在陆地上也要画 —— 洋流那层的"压陆就隐藏"这里必须关掉；
+       ② 抬高到 1.012，压过国界（1.004），不然箭头会被国境线切断；
+       ③ 多一层"带"：季风活跃区铺一条半透明宽带，夏季北推、冬季南退，
+          这条带的南北摆动正是季风的成因（太阳直射点移动），比只画箭头讲得清。
+
+       配色避开洋流的红/蓝：夏季风青绿（来自海洋、暖湿），冬季风紫（来自内陆、干冷）。 */
+    var MN_SUM = '#57e39b', MN_WIN = '#c08bff';
+    /* [名称, 季节(1 仅夏 / 2 仅冬), 控制点 [lon, lat]..., 是否标名字]
+       控制点按风的去向排列；每条都是"教科书上的盛行风"，不是等压线推算。 */
+    var MN_DATA = [
+      ['西南季风（阿拉伯海）', 1, [[43,0],[47,4],[51,8],[56,12],[61,16],[66,19],[70,22]], 1],
+      ['西南季风（孟加拉湾）', 1, [[78,2],[82,6],[86,10],[90,14],[93,18],[96,21]], 0],
+      ['西南季风（南海）', 1, [[107,5],[109,10],[111,15],[113,20],[115,25],[117,30]], 0],
+      ['东南季风（西太平洋）', 1, [[137,15],[133,19],[129,23],[125,27],[121,31],[117,35],[113,38]], 1],
+      ['西非季风（几内亚）', 1, [[-14,2],[-10,4],[-6,6],[-2,9],[3,11],[8,13]], 1],
+      ['西北季风（华北）', 2, [[106,49],[110,44],[114,39],[118,34],[121,29],[123,24]], 1],
+      ['东北季风（南海）', 2, [[115,24],[112,19],[109,14],[106,9],[103,4]], 0],
+      ['东北季风（孟加拉湾）', 2, [[93,23],[90,18],[87,13],[84,8],[81,3]], 1],
+      ['东北季风（阿拉伯海）', 2, [[71,24],[68,19],[65,14],[62,9],[59,4]], 0],
+      ['东北季风（菲律宾）', 2, [[136,21],[131,17],[126,13],[121,9],[116,6]], 0],
+      ['哈马丹风（西非）', 2, [[13,23],[8,19],[3,15],[-2,12],[-7,9]], 1]
+    ];
+
+    /* 季风带中线（南亚—东亚这一段最典型）。夏冬两条只是整体南北错开 5°左右，
+       画出来就是"带子跟着太阳直射点搬家"，一眼能看懂。
+       0 是春秋转换期的中线，取夏冬两条的中值 —— 转换期风还没建立，
+       带子停在两者之间，比"停在某一季的位置上"更符合实际。 */
+    var MN_BELT = {
+      0: [[57,8.5],[69,13.5],[81,17],[93,20],[105,22.5],[117,25.5],[129,28.5],[139.5,31.5]],
+      1: [[56,11],[68,17],[80,21],[92,24],[104,27],[116,30],[128,33],[139,36]],
+      2: [[58,6],[70,10],[82,13],[94,16],[106,18],[118,21],[130,24],[140,27]]
+    };
+
+    var MN_A_SCALE = 1.0;          // 三层同一号箭头，靠颜色区分，不靠大小
+    var MN_SPEED = 0.095;          // 风比水流快，节奏拉开一点
+    var MN_R = 1.012;              // 大气层里：高过国界 1.004
+    var MN_BELT_R = 1.0018;        // 带子贴在地表上、洋流箭头（1.0026）之下
+    var MN_RIB_R = 1.0032;         // 光带：宽带（1.0018）之上、箭头（1.012）之下
+
+    var mnGroup = null, mnOn = false, mnAnim = 0, mnOp = 0, mnPhase = 0;
+    var mnSets = [], mnMats = [], mnRibMat = null;
+    var mnBuiltSeason = -1;        // 同 ocBuiltSeason：关着时切了季节，重开要重建
+
+    function mnSeasonOk(row) {
+      return (row[1] | 0) === sea().mn;
+    }
+    /* 春秋转换期整套风压暗（0.42）。它不是一个整体淡入淡出 ——
+       季节一换就重建，系数直接烘进 base 里，mnFadeTo 照旧乘 mnOp。 */
+    function mnSeaFade() { return sea().fade; }
+
+    /* 带子拆成"填充面 + 两条边线"：
+       填充只做底色（很淡，叠三层做柔边），边线单独亮一档 —— 只靠淡填充，
+       在陆地这块杂色底上根本读不出形状，边线一压上去才有"带"的轮廓。
+
+       横向必须分段（K=24）：一整条 17° 宽的四边形，中间是条平弦，
+       弦会陷进球面 1°（0.017），比抬高的 0.0018 深十倍，结果带子只剩
+       两条边缘能露出来（第一版就栽在这）。分完段，最外那一格（约 0.7°，
+       屏幕上 3～4px）正好当边线用，不必再单独造一份几何。 */
+    function mnRibbon(cur, halfDeg, rimOnly) {
+      var u = cur.unit, n = u.length, K = 24, i, j;
+      var hw0 = halfDeg * Math.PI / 180;
+      var tx = new THREE.Vector3(), sx = new THREE.Vector3();
+      var grid = [];
+      for (i = 0; i < n; i++) {
+        var p = u[i];
+        if (i === 0) tx.copy(u[1]).sub(u[0]);
+        else if (i === n - 1) tx.copy(u[n - 1]).sub(u[n - 2]);
+        else tx.copy(u[i + 1]).sub(u[i - 1]);
+        /* 切向投影回切平面，再做一次叉乘得"侧向" —— 两点几乎重合时兜个底 */
+        tx.addScaledVector(p, -tx.dot(p));
+        if (tx.lengthSq() < 1e-12) tx.set(0, 1, 0).cross(p);
+        tx.normalize();
+        sx.crossVectors(p, tx).normalize();
+        /* 两端收窄成叶尖：不然带子会在 56°E 那头拦腰截断，像贴了块方补丁 */
+        var t = n > 1 ? i / (n - 1) : 0.5;
+        var hw = hw0 * Math.sqrt(Math.min(1, Math.min(t, 1 - t) / 0.12));
+        var row = [];
+        for (j = 0; j <= K; j++) {
+          var a = -hw + 2 * hw * j / K;
+          row.push(p.clone().multiplyScalar(Math.cos(a))
+            .addScaledVector(sx, Math.sin(a)).normalize().multiplyScalar(MN_BELT_R));
+        }
+        grid.push(row);
+      }
+      var out = [], k = 0;
+      var put = function (v) { out[k++] = v.x; out[k++] = v.y; out[k++] = v.z; };
+      for (i = 0; i < n - 1; i++) {
+        for (j = 0; j < K; j++) {
+          var isRim = (j === 0 || j === K - 1);
+          if (rimOnly !== undefined && isRim !== rimOnly) continue;
+          var a1 = grid[i][j], a2 = grid[i][j + 1];
+          var b1 = grid[i + 1][j], b2 = grid[i + 1][j + 1];
+          put(a1); put(a2); put(b1);
+          put(a2); put(b2); put(b1);
+        }
+      }
+      var g = new THREE.BufferGeometry();
+      g.setAttribute('position', new THREE.BufferAttribute(new Float32Array(out), 3));
+      return g;
+    }
+
+    function mnBuildBelt() {
+      var pts = MN_BELT[sea().belt];
+      if (!pts) return;
+      var cur = ocCurve(pts);
+      if (!cur) return;
+      var col = new THREE.Color(sea().mn === 1 ? MN_SUM : MN_WIN);
+      var add = function (geo, base, order) {
+        var mat = new THREE.MeshBasicMaterial({
+          color: col, transparent: true, opacity: base * mnSeaFade() * mnOp,
+          depthWrite: false, side: THREE.DoubleSide
+        });
+        var m = new THREE.Mesh(geo, mat);
+        m.frustumCulled = false;
+        m.renderOrder = order;
+        mnGroup.add(m);
+        mnMats.push({ m: mat, base: base * mnSeaFade() });
+      };
+      /* 三层填充：外宽淡、内窄浓，边自然咬进背景里 */
+      [[8.4, 0.072], [5.8, 0.064], [3.4, 0.056]].forEach(function (l) {
+        add(mnRibbon(cur, l[0], false), l[1], 2);
+      });
+      /* 外沿两条边线：形状靠它立住 */
+      add(mnRibbon(cur, 8.4, true), 0.32, 3);
+    }
+
+    /* 季风的光带：和洋流同一套流动亮块，沿各条盛行风的路径铺一条窄带。
+       风吹过陆地天经地义，不接陆地遮罩（uLand 用 1×1 透明图，着色器恒不过）；
+       宽带讲"季风区的范围"、光带讲"风往哪流"，两层各管一件事。 */
+    function mnBuildRibbon() {
+      var col = new THREE.Color(sea().mn === 1 ? MN_SUM : MN_WIN);
+      var paths = [];
+      MN_DATA.forEach(function (row, ri) {
+        if (!mnSeasonOk(row)) return;
+        var cur = ocCurve(row[2]);
+        if (!cur) return;
+        paths.push({ cur: cur, col: col, ph: (ri * 0.37) % 1, uvScale: 1 });
+      });
+      if (!paths.length) return;
+      var g = ocRibbonGeo(paths, OC_RIB_HW, MN_RIB_R);
+      if (!g) return;
+      mnRibMat = ocRibbonMat(mnOp * mnSeaFade(), false);
+      var mesh = new THREE.Mesh(g, mnRibMat);
+      mesh.frustumCulled = false;
+      mesh.renderOrder = 4;           // 宽带填充(2)/边线(3)之上，箭头(5)之下
+      mnGroup.add(mesh);
+      mnMats.push({ m: mnRibMat, base: mnSeaFade() });
+    }
+
+    function mnBuild() {
+      if (mnGroup) return;
+      ocScratch();
+      mnGroup = new THREE.Group();
+      mnSets = []; mnMats = []; mnPhase = ARROW_FLOW ? mnPhaseNow() : 0;
+      mnBuiltSeason = OC_SEASON;
+      if (!ocArrow) ocArrow = ocMakeArrow();
+      var col = new THREE.Color(sea().mn === 1 ? MN_SUM : MN_WIN);
+      var items = [];
+      MN_DATA.forEach(function (row) {
+        if (!mnSeasonOk(row)) return;
+        var cur = ocCurve(row[2]);
+        if (!cur) return;
+        /* 排布照抄洋流：同间距 OC_STEP，短流至少两支（否则 9° 的一段只剩一支） */
+        var n = Math.max(cur.len > 0.12 ? 2 : 1, Math.round(cur.len / OC_STEP));
+        for (var i = 0; i < n; i++) items.push({ cur: cur, base: i * (cur.len / n), len: cur.len });
+      });
+      if (items.length) {
+        var mat = new THREE.MeshBasicMaterial({
+          color: col, transparent: true, opacity: 0.95 * mnSeaFade() * mnOp,
+          depthWrite: false, side: THREE.DoubleSide
+        });
+        var im = new THREE.InstancedMesh(ocArrow, mat, items.length);
+        im.frustumCulled = false;
+        im.renderOrder = 5;                       // 压在所有地表要素之上
+        mnGroup.add(im);
+        mnSets.push({ im: im, items: items });
+        mnMats.push({ m: mat, base: 0.95 * mnSeaFade() });
+      }
+      mnBuildBelt();
+      mnBuildRibbon();
+      mnPose(mnPhase);
+    }
+
+    function mnDrop() {
+      if (mnGroup) {
+        if (mnGroup.parent) mnGroup.parent.remove(mnGroup);
+        mnGroup.traverse(function (o) {
+          if (o.material && o.material.dispose) o.material.dispose();
+          /* 带子的几何体是每次重建新生成的，得一起回收；
+             箭头那份是共享的（ocArrow），不能 dispose。 */
+          if (o.geometry && o.geometry !== ocArrow && o.geometry.dispose) o.geometry.dispose();
+        });
+        mnGroup = null;
+      }
+      mnSets = []; mnMats = []; mnRibMat = null;
+      if (globe.mnLabels) {
+        globe.mnLabels.forEach(function (L) {
+          if (L.el && L.el.parentNode) L.el.parentNode.removeChild(L.el);
+        });
+        globe.mnLabels = null;
+      }
+    }
+
+    /* 和 ocPose 几乎一样，唯一的差别：**不查陆地遮罩**（风当然吹过陆地）。 */
+    function mnPose(phase) {
+      for (var si = 0; si < mnSets.length; si++) {
+        var st = mnSets[si], im = st.im, items = st.items;
+        for (var i = 0; i < items.length; i++) {
+          var it = items[i], L = it.len;
+          var a = (it.base + phase) % L;
+          if (a < 0) a += L;
+          ocSample(it.cur, a, _v1);
+          var sc = 1;
+          if (ARROW_FLOW) {
+            var edge = Math.min(a, L - a) / (OC_STEP * 1.1);
+            sc = edge < 1 ? Math.max(0.001, edge) : 1;
+          }
+          sc *= MN_A_SCALE;
+          ocSample(it.cur, a - 0.012, _v2);
+          ocSample(it.cur, a + 0.012, _v3);
+          _v3.sub(_v2).normalize();
+          _v3.addScaledVector(_v1, -_v3.dot(_v1)).normalize();
+          _v4.crossVectors(_v1, _v3).normalize();
+          _m4.makeBasis(_v3, _v4, _v1);
+          _sc.set(sc, sc, sc);
+          _m4.scale(_sc);
+          _m4.setPosition(_v1.x * MN_R, _v1.y * MN_R, _v1.z * MN_R);
+          im.setMatrixAt(i, _m4);
+        }
+        im.instanceMatrix.needsUpdate = true;
+      }
+    }
+
+    /* 同 ocPhaseNow：绝对时间，否则掉帧时季风箭头会比洋流还慢 */
+    function mnPhaseNow() { return (performance.now() / 1000 * MN_SPEED) % 1e5; }
+
+    function mnTick(dt) {
+      if (!mnSets.length) return;
+      /* 光带亮块在 shader 里读 uniform 时间，箭头动不动都要每帧回传（同 ocTick） */
+      if (mnRibMat && RIB_FLOW) mnRibMat.uniforms.uTime.value = performance.now() / 1000;
+      if (!ARROW_FLOW) return;          // 同洋流：箭头静止，摆一次就够
+      mnPhase = mnPhaseNow();
+      mnPose(mnPhase);
+    }
+
+    function mnFadeTo(to, dur) {
+      var from = mnOp, t0 = performance.now();
+      cancelAnimationFrame(mnAnim);
+      (function step() {
+        var k = Math.min(1, (performance.now() - t0) / dur);
+        var e = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+        mnOp = from + (to - from) * e;
+        mnMats.forEach(function (o) {
+          /* 光带是 ShaderMaterial：透明度在 uniform 里，不在 material.opacity 上 */
+          if (o.m.uniforms && o.m.uniforms.uOpacity) o.m.uniforms.uOpacity.value = o.base * mnOp;
+          else o.m.opacity = o.base * mnOp;
+        });
+        if (k < 1) mnAnim = requestAnimationFrame(step);
+        else if (!mnOn && mnGroup && mnGroup.parent) mnGroup.parent.remove(mnGroup);
+      })();
+    }
+
+    /* 只给三支主风标名字（每季三条）。全标的话，南亚那一片会和国名叠成一团。 */
+    function mnBuildLabels() {
+      if (globe.mnLabels) return;
+      var host = document.getElementById('tlabels');
+      if (!host) return;
+      globe.mnLabels = [];
+      MN_DATA.forEach(function (row) {
+        if (!mnSeasonOk(row) || !row[3]) return;
+        var pts = ocDensify(row[2]);
+        var at = function (t) {
+          return pts[Math.min(pts.length - 1, Math.round((pts.length - 1) * t))];
+        };
+        var mid = at(0.5);
+        var nm = String(row[0]).replace(/（([^）]*)）/g, '');
+        var node = el('div', 'tlabel ' + (sea().mn === 1 ? 'k-mns' : 'k-mnz'), nm);
+        host.appendChild(node);
+        globe.mnLabels.push({
+          el: node, lon: mid[0], lat: mid[1], z: 0.9, alts: [mid, at(0.3), at(0.72)],
+          kind: 'mn', pri: 1, src: 'c', tap: false,
+          v: new THREE.Vector3(), w: node.offsetWidth, h: node.offsetHeight, on: false
+        });
+      });
+    }
+
+    /* 春秋两季画的是"正在撤退的那一套风"（春 → 冬季风、秋 → 夏季风），
+       图例必须说清这一点，否则压暗的箭头会被当成"颜色淡了"。 */
+    function mnWindTip() {
+      var s = sea();
+      if (s.fade < 1) {
+        return s.mn === 2 ? '春季 · 冬季风撤退中（弱），夏季风尚未建立'
+                          : '秋季 · 夏季风撤退中（弱），东北季风将建立';
+      }
+      return s.mn === 1 ? '西南·东南季风，自海洋吹向陆地'
+                        : '西北·东北季风，自内陆吹向海洋';
+    }
+    function mnBeltTip() {
+      var s = sea();
+      if (s.belt === 0) return '转换期 · 停在 22–26°N 一带（夏冬之间）';
+      return s.belt === 1 ? '北推至 20–30°N（暖湿多雨）' : '南退至 10°N 一带（干冷）';
+    }
+
+    function mnLegendHTML() {
+      var h = '';
+      h += '<div class="lg-head mn-head"><span class="lg-title">季风带</span></div>';
+      h += '<div class="lg-line"><span class="lg-key">盛行风</span><span class="lg-grid">' +
+           '<span class="lg-item lg-wr"><i id="lg-mn-chip" style="background:' +
+           (sea().mn === 1 ? MN_SUM : MN_WIN) + '"></i><span id="lg-mn-wind">' +
+           mnWindTip() + '</span></span></div>';
+      h += '<div class="lg-line"><span class="lg-key">季风带</span><span class="lg-grid">' +
+           '<span class="lg-item lg-wr"><span id="lg-mn-belt">' + mnBeltTip() + '</span></span></div>';
+      h += '<div class="lg-src">季风区：夏季风暖湿、冬季风干冷；宽带随太阳直射点南北移动（春秋为转换期，风向不定，图中压暗）</div>';
+      return h;
+    }
+
+    function mnApply(on) {
+      mnOn = !!on;
+      globe.mnOn = mnOn;
+      seasonBoxSync();
+      if (mnOn) {
+        if (mnGroup && mnBuiltSeason !== OC_SEASON) mnDrop();
+        ocSyncSeasonBtns();
+        mnBuild();
+        mnBuildLabels();
+      }
+      if (globe.refreshTActive) globe.refreshTActive();
+      if (globe.syncLabelLayers) globe.syncLabelLayers();
+      if (globe.gridDim) globe.gridDim();   // 经纬线给这一层让位
+      if (!mnGroup) return;
+      if (mnOn && globe.spin && !mnGroup.parent) globe.spin.add(mnGroup);
+      mnFadeTo(mnOn ? 1 : 0, 320);
+    }
+
+    function mnToggle() {
+      mnApply(!mnOn);
+      lgLegend(lgCur);
+      lgSync();
+      if (window.__tipHide) window.__tipHide();
+    }
+
+    /* 切季节时季风整层重来：风向全反，连带的南北位置也变了，
+       重算每条曲线比逐个改实例省事，也不会留下上一季的箭头。 */
+    function mnSeasonRefresh() {
+      if (mnOn) {
+        mnDrop();
+        mnBuild();
+        mnBuildLabels();
+        if (globe.spin && mnGroup && !mnGroup.parent) globe.spin.add(mnGroup);
+        if (globe.refreshTActive) globe.refreshTActive();
+        if (globe.syncLabelLayers) globe.syncLabelLayers();
+      }
+      /* 图例只改文字和一个小色块，不整块重画（带背景模糊的面板重写会闪） */
+      var w = document.getElementById('lg-mn-wind');
+      if (w) w.textContent = mnWindTip();
+      var b = document.getElementById('lg-mn-belt');
+      if (b) b.textContent = mnBeltTip();
+      var chip = document.getElementById('lg-mn-chip');
+      if (chip) chip.style.background = sea().mn === 1 ? MN_SUM : MN_WIN;
+    }
+
+    globe.mnTick = mnTick;
+
+    /* ---------- 气压带与风带：常年在那儿的三圈环流 ----------
+       季风是"一年两换的区域风"，风带是"不随季节变的行星风"，所以各占一个开关。
+       这一层画三样东西，画法和洋流/季风是同一套：
+       ① 七个气压带的纬度带（赤道低压、副高×2、副极地低压×2、极地高压×2）；
+       ② 六个风带纬圈上的流动光带（和洋流/季风同一份亮块着色器）；
+       ③ 六个风带的光带 + 箭头（低纬信风、中纬西风、高纬极地东风）——
+          和另两层一样**固定不动**，光带的亮块顺着风向推进。
+
+       整层都不用纬圈，改用**斜向的流段**：信风由东北/东南斜着吹向赤道，
+       西风由西南/西北斜着吹向高纬，极地东风由极地斜着吹向副极地低压 ——
+       风本来就不沿纬线横着走。所以一条带子是一段斜弧（斜角≈23°），
+       箭头落在这段弧的中轴上、朝向弧的切向。光带和箭头仍然同轴，
+       带子仍从箭头尾部进去、箭尖钻出来。
+       每条风带铺 WB_ROWS 层：纬度上等距、经度上等距错开，三层合起来正好
+       铺满这条风带。每段的纬度落差只有一层高度的 3/4 —— 落差再大，上一层
+       的尾巴就插进下一层，三行会糊成一片，看不出"三行平行斜纹"。 */
+    var WB_COL = '#ffc65c';        // 风带箭头
+    var WB_LOW = '#ff9450', WB_HIGH = '#5aa8ff';   // 低压带上浮的暖色 / 高压带下沉的冷色
+    /* 箭头贴着光带放（只高 0.0005，和洋流那个 0.0006 一致）：
+       箭头抬得太高时，斜着看会整支"浮"在带子上方，读不出"带子穿在箭头里"。
+       1.0045 仍高过国界（1.004），国境线不会切断箭头（renderOrder 5 也压得住）。 */
+    var WB_R = 1.0045;
+    var WB_BAND_R = 1.0012;        // 气压带贴地，别和季风带（1.0018）抢深度
+    var WB_RIB_R = 1.0035;         // 光带：气压带（1.0012/1.0016）之上、箭头（1.0045）之下
+    /* 光带半宽。箭头现在是"细杆 + 三角尖"，杆只有 0.0055 半宽 ——
+       带子比杆宽太多、又同色，就把三角尖吃掉了，整支箭头读成一条粗带子。
+       压到 0.0095：只在杆两侧各露 4 个千分点，是"杆下面有条流在走"的暗线。 */
+    var WB_RIB_HW = 0.0105;
+    /* 箭头形状：沿斜弧铺一条细杆，杆尾接一个实心三角尖 —— 教科书示意图那种画法。
+       WB_ARR_STEM 是杆占总长的比例，剩下 30% 是三角尖。 */
+    var WB_ARR_STEM = 0.62;
+    var WB_ARR_WS = 0.0068;        // 杆半宽（全宽 0.0136，屏幕上约 5 px —— 教科书的杆就这么细）
+    var WB_ARR_WH = 0.0215;        // 三角尖底半宽（全宽 0.043，约杆宽的 3.2 倍）
+                                   // 风带收窄到 15° 后行距只剩 4.3°，尖底再宽就会
+                                   // 跨到相邻那行里去，三行糊成一片
+    /* 箭头从一段弧的 WB_ARR_T0 处起步、箭尖落在弧的末端（T1 = 1）。
+       尾部留一截只走光带 —— 那是"带子从箭头后面钻进去"；
+       箭尖必须走到头：留出尾巴的话，尖后面会突然接上一条更宽的带子，
+       看着像箭尖被一个方块堵住了。 */
+    var WB_ARR_T0 = 0.16, WB_ARR_T1 = 1.0;
+    /* 每隔几段放一支箭头。光带的斜纹密度是上一轮按"每两条中间加两条"定的，
+       现在一条斜纹长 10°，十几条串起来就是一条黄龙；隔一段放一支，
+       才是一支一支分得开的风矢 —— 空出来的那段只剩光带，正好看得出"带子"。 */
+    var WB_ARR_EVERY = 2;
+    /* 弧的拱度：整支箭头向"上游侧"（高压侧）鼓出去，不是一根直棍。
+       两端 sin=0，端点纬度不变，落差也没变 —— 拱多大都不会顶出风带。
+       上限是 0.5：中间那一拱不能超过半段落差，否则就顶到相邻气压带上了。 */
+    var WB_BOW = 0.46;
+    /* 箭头偏角不用单独给了：箭头就摆在斜弧的中轴上，轴向取弧的切向，
+       斜角由 WB_SLANT 决定（≈23°），和光带天然同轴。 */
+    var WB_SLANT = 23 * Math.PI / 180;              // 斜纹与纬线的夹角
+    var WB_SEG_SIN = Math.sin(WB_SLANT);            // 落差 → 弧长的换算
+    var WB_SEG_GAP = 0.34;         // 段间缝 = 段长 × 0.34（不留缝就得连成锯齿）
+    /* 每个风带铺几层斜纹。3 = 原来两条之间再插两条，密排成一片平行斜纹。
+       层间经度错开 1/3 段，三层互相插空，不会排成三条竖队。 */
+    var WB_ROWS = 3;
+    /* 三层合起来占带宽的比例。留 6% 余量：箭头还有半宽，不然最外一层会顶进气压带。 */
+    var WB_ROW_FILL = 0.94;
+    /* 一段斜弧的落差占一层高度的比例。小于 1 才留得下行与行之间的缝，
+       三行才分得开；等于 1 会首尾相接，糊成一片连续斜纹。 */
+    var WB_DASH_FILL = 0.70;
+    /* 最外层离气压带边线留的视觉余量（度）。数学上贴着边不算入侵，
+       但肉眼看是一排箭头压在线上 —— 留半度空档才读得出"这是两带之间的空档"。 */
+    var WB_EDGE_PAD = 0.8;
+
+    /* ---------- 随季节演变：整层沿经线南北平移 ----------
+       太阳直射点在南北回归线之间来回，气压带、风带跟着整体移动 ——
+       夏至北移、冬至南移，教材给的幅度是 5°～10°，这里取 8°；
+       春分、秋分直射赤道，位移为 0，赤道低压带正好被 0° 纬线平分。
+       四个位移值都在 SEA 表里（sea().shift），这里不再重复定义常量。
+       关键：南北半球是**同向**移动，不是各自对称地散开 —— 赤道低压带夏天
+       跑到 8°N，南半球的信风带也跟着北移、跨过赤道，这正是"南半球东南信风
+       越过赤道变成西南季风"的由来。所以这里只有一个全局位移量。
+
+       实现方式：给这一层所有材质注入一段顶点位移，把每个顶点沿经线挪一个
+       纬度，而不是重建几何 —— 整层十几万个顶点（7 条气压带 × 3 层 + 几百
+       段斜弧 + 两百多支箭头），重建一次要几十毫秒，切季节会硬卡一帧；
+       顶点位移零开销，还能让位移连续滑过去，"演变"才看得出来。
+       位移是整层一起做的，风带与相邻气压带的相对位置一点没变，
+       所以上一轮辛苦调出来的"不越界"依然成立。 */
+    var wbShift = 0;               // 当前位移（度，正 = 北移）
+    var wbShiftTo = 0;             // 目标位移：夏至 +8 / 冬至 −8 / 二分 0
+    var wbShiftLabel = 0;          // 上次同步给地名标签的位移，差 0.05° 才重算
+    /* 顶点阶段把 p 沿经线平移 uWbShift 度。x = −R·cl·cosθ、z = R·cl·sinθ，
+       所以 xz 的方向就是经度方向，长度是 R·cos(lat)，反解纬度不需要知道 R。
+       clamp 到 ±88.9°：极地高压带夏天会被推到 91°，不夹住就翻过极点、
+       在另一侧画出一条倒挂的带子；夹住之后贴着极点收成一条极冠，反而更像。 */
+    var WB_SHIFT_GLSL = [
+      '{',
+      '  float _wr = length(transformed);',
+      '  float _wc = length(transformed.xz);',
+      '  if (_wr > 1e-5 && _wc > 1e-6) {',
+      '    float _wl = atan(transformed.y, _wc) + uWbShift * 0.0174532925;',
+      '    _wl = clamp(_wl, -1.5522, 1.5522);',
+      '    vec2 _wd = transformed.xz / _wc;',
+      /* 新的水平半径 = R·cos(新纬度)：R 就是 _wr，别再乘 _wc（_wc 已经是
+         R·cos(旧纬度) 了）。乘错这一下，纬度每高一点半径就多缩一点 ——
+         30° 缩 13%、60° 缩一半，带子整个陷进球体里，屏幕上只剩赤道那一条。 */
+      '    float _wn = cos(_wl) * _wr;',
+      '    transformed = vec3(_wd.x * _wn, sin(_wl) * _wr, _wd.y * _wn);',
+      '  }',
+      '}'
+    ].join('\n');
+
+    /* 给气压带 / 箭头的 MeshBasicMaterial 注入位移。
+       uniform 对象存在 material.userData 上：onBeforeCompile 只在首次编译时
+       调一次，之后要改值就得拿着那个对象本身，不能再进回调里找。 */
+    function wbShiftPatch(mat) {
+      var u = { value: wbShift };
+      mat.userData.uShift = u;
+      mat.onBeforeCompile = function (sh) {
+        sh.uniforms.uWbShift = u;
+        sh.vertexShader = 'uniform float uWbShift;\n' +
+          sh.vertexShader.replace('#include <begin_vertex>', '#include <begin_vertex>\n' + WB_SHIFT_GLSL);
+      };
+      /* 编译缓存键要带上这段注入：不带的话，和别的 MeshBasicMaterial 共用
+         同一份已编译的 program，位移代码根本不进去。 */
+      mat.customProgramCacheKey = function () { return 'wbShift'; };
+      return mat;
+    }
+
+    /* [名称, 中心纬度, 半宽, 0 低压 / 1 高压] —— 教材上的七个气压带 */
+    var WB_P = [
+      ['赤道低压带', 0, 7, 0],
+      ['副热带高压带（北）', 30, 8, 1],
+      ['副热带高压带（南）', -30, 8, 1],
+      ['副极地低压带（北）', 60, 7, 0],
+      ['副极地低压带（南）', -60, 7, 0],
+      ['极地高压带（北）', 83, 6, 1],
+      ['极地高压带（南）', -83, 6, 1]
+    ];
+
+    /* [名称, 中心纬度, 半宽, 纬向 +1east/-1west, 经向 +1north/-1south]
+       经向那一列不是随便填的：风从高压吹向低压 —— 信风从副高（30°）吹向
+       赤道低压，所以北半球信风是向南的；西风从副高吹向副极地低压，北半球
+       是向北的；极地东风从极地高压吹向副极地低压，北半球也是向南的。
+
+       半宽**必须**等于两条气压带之间空档的一半，不能随意给大 ——
+       上面七个气压带的边界是 ±7 / 22·38 / 53·67 / 77·89：
+         信风带填 7～22（中心 14.5，半宽 7.5）
+         西风带填 38～53（中心 45.5，半宽 7.5）
+         极地东风带填 67～77（中心 72，半宽 5）
+       这里原来写的是 16±12 / 46±13 / 74±11，等于让风带整体骑在气压带上
+       （信风带一直画到 28°，比副高南界 22° 高出 6°），箭头就"入侵"了气压带。 */
+    var WB_W = [
+      ['东北信风带', 14.5, 7.5, -1, -1],
+      ['东南信风带', -14.5, 7.5, -1, 1],
+      ['盛行西风带（北）', 45.5, 7.5, 1, 1],
+      ['盛行西风带（南）', -45.5, 7.5, 1, -1],
+      ['极地东风带（北）', 72, 5, -1, -1],
+      ['极地东风带（南）', -72, 5, -1, 1]
+    ];
+
+    /* 一行斜弧的角度由 WB_SLANT 定死，箭头不再需要 cos/sin 的常量 */
+    var wbGroup = null, wbOn = false, wbAnim = 0, wbOp = 0;
+    var wbMats = [], wbRibMat = null;   // wbRibMat：本层光带材质，折层时置空
+
+    /* 一条纬向环带。经度切 120 段、纬度切 6 段 —— 两个方向都必须分段：
+       不分段时四边形中间是平弦，弦陷进球面 0.0005～0.017，比抬高的
+       0.0012 深，整条带子会被地表吃掉（季风带那一版就栽在这）。
+       ks 传 1 就是一条细线（压力带的两个边沿用）。 */
+    function wbBandGeo(latC, half, R, ks) {
+      var NS = 120, KS = ks || 6, i, j;
+      var pos = new Float32Array(NS * KS * 18), k = 0;
+      var put = function (lon, lat) {
+        var la = lat * Math.PI / 180, th = (lon + 180) * Math.PI / 180;
+        var cl = Math.cos(la);
+        pos[k++] = -R * cl * Math.cos(th);
+        pos[k++] = R * Math.sin(la);
+        pos[k++] = R * cl * Math.sin(th);
+      };
+      for (i = 0; i < NS; i++) {
+        var lon0 = -180 + 360 * i / NS, lon1 = -180 + 360 * (i + 1) / NS;
+        for (j = 0; j < KS; j++) {
+          var la0 = latC - half + 2 * half * j / KS;
+          var la1 = latC - half + 2 * half * (j + 1) / KS;
+          put(lon0, la0); put(lon1, la0); put(lon0, la1);
+          put(lon0, la1); put(lon1, la0); put(lon1, la1);
+        }
+      }
+      var g = new THREE.BufferGeometry();
+      g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+      return g;
+    }
+
+    /* 一段斜弧：t 从 0 到 1，经度从 lon0 走到 lon0 + dLon·spanDeg，
+       纬度从 latC − dLat·spanLat/2 走到 latC + dLat·spanLat/2。
+       dLat 就是这条风带的经向风向 —— 纬度和风向同号，弧的切向就正好是风矢，
+       箭头摆上去不用再单独算偏角。
+       **弧本身是弯的**：中段向 −dLat 那一侧鼓出 WB_BOW×落差 ——
+       北半球信风从东北吹向西南、受地转偏向力右偏，轨迹本来就是往东北凸的弧；
+       教科书示意图用的也是这种弯箭头。两端 sin(πt)=0，端点纬度不变，
+       所以落差没变大，三层的位置关系一点没动。
+       经纬度 → 单位向量的映射和 wbBandGeo 用的是同一个
+       （th = (lon+180)°，x = −cl·cos、z = cl·sin），别自成一套。
+       产物和 ocCurve 同构（unit/arc/len）：箭头和光带都按弧长取点。 */
+    function wbSlantCurve(latC, spanLat, lon0, dLon, dLat, spanDeg) {
+      var NS = 36, unit = [], arc = [], acc = 0;
+      for (var i = 0; i <= NS; i++) {
+        var t = i / NS;
+        var bow = -dLat * WB_BOW * Math.sin(Math.PI * t) * spanLat;
+        var la = (latC + dLat * spanLat * (t - 0.5) + bow) * Math.PI / 180;
+        var th = (lon0 + dLon * spanDeg * t + 180) * Math.PI / 180;
+        var cl = Math.cos(la);
+        unit.push(new THREE.Vector3(-cl * Math.cos(th), Math.sin(la), cl * Math.sin(th)));
+        if (i > 0) acc += Math.acos(Math.max(-1, Math.min(1, unit[i].dot(unit[i - 1]))));
+        arc.push(acc);
+      }
+      return { unit: unit, arc: arc, len: acc };
+    }
+
+    /* 一个风带切成若干段斜弧，并且**铺 rows 层**（每两条中间再加两条）。
+       层数按空档宽度定：15° 宽的信风/西风带铺三层，10° 宽的极地东风带铺两层。
+       各层在纬度上**等距**（rowStep 均匀）、在经度上**等距错开**（每层挪 stepDeg/rows），
+       经纬两个方向都均匀分布；整片的外缘还必须留在风带里，不许压到气压带上
+       （rowStep 的第二个约束，见下）。
+       段数与经度跨度按风带中心纬度算一次、三层共用 —— 斜率一致才是平行线；
+       各层自己算的话，高纬那层折出的经度跨度更大、斜得更平，三条会发散。
+       经度跨度由弧长反算：高纬那圈本来就短，经度跨度自动变大，
+       斜角仍是同一个 23°。段与段之间留缝 —— 一段走完纬度已经落到下一层，
+       下一段只能跳回起点；不留缝就会连成一条锯齿。 */
+    function wbSlantSegs(latC, half, dLon, dLat) {
+      var clC = Math.max(0.06, Math.cos(latC * Math.PI / 180));
+      var circC = 2 * Math.PI * clC;                   // 这条纬圈的实际周长
+      /* 行数：信风带/西风带两条气压带之间有 15° 的空档，铺三行；
+         极地东风带只有 10°，三行会把箭头挤成三角块，改铺两行。 */
+      var rows = half >= 6.5 ? WB_ROWS : 2;
+      /* 箭头半宽在**纬度方向**的投影：箭头横向半宽 0.026 弧度（≈1.49°），
+         流向与纬线成 23°，所以南北方向还占 1.49×cos23° ≈ 1.37°。
+         最外那一层必须把它算进去，否则尖顶还是能探出气压带边线。 */
+      var hwLat = WB_ARR_WH * Math.cos(WB_SLANT) * 57.2957795;
+      /* 层距同时受两个约束：
+         ① 铺满风带：rows 层合起来占 2·half·WB_ROW_FILL；
+         ② **不许顶进气压带**：最外层中心偏离 (rows−1)/2·rowStep，
+            再叠上弧的鼓度（WB_BOW×落差，往高压侧鼓）和箭头半宽 hwLat，
+            全部加起来不能超过 half。这条不满足时以它为准 —— 宁可挤一点，
+            也不能让箭头压到气压带上。 */
+      var rowStep = Math.min(
+        2 * half * WB_ROW_FILL / rows,
+        (half - hwLat - WB_EDGE_PAD) / ((rows - 1) / 2 + WB_BOW * WB_DASH_FILL)
+      );
+      /* 一段斜弧的**纬度落差要小于一层的高度** —— 这是"看得出三行"的关键。
+         落差比层距还大的话，上一层的尾巴就插进下一层，三行糊成一片；
+         等于层距时会首尾相接，成一片连续斜纹；留一点缝才分得出三条线。
+         落差定了，弧长由斜角反算：len = 落差 / sin(23°)。
+         极圈那条纬圈太短，弧长再按周长收缩（至少留四段）。 */
+      var segLen = Math.min(rowStep * WB_DASH_FILL * Math.PI / 180 / WB_SEG_SIN, circC / 3.2);
+      var spanLat = segLen * WB_SEG_SIN * 57.2957795;
+      var latRad = spanLat / 57.2957795;
+      var lonRad = Math.sqrt(Math.max(0.0004, segLen * segLen - latRad * latRad));
+      /* ↓ 以下三个量各层共用，是"首尾对齐"的关键：各层自己算的话，
+         高纬那层 cl 更小、同样弧长折出的经度跨度更大，端点就错开了。 */
+      var spanDeg = lonRad / clC * 57.2957795;         // 这段跨多少经度
+      var n = Math.max(4, Math.round(360 / (spanDeg * (1 + WB_SEG_GAP))));
+      var stepDeg = 360 / n;
+      /* 兜底：段数被 max(4) 抬上去时别让相邻段叠在一起 */
+      var spanNow = Math.min(spanDeg, stepDeg * 0.88);
+      /* 三条平行且双向等距：纬度上 rowStep 等距，经度上每层错开 stepDeg/rows（等距）。
+         错开 + 共用斜率 = 一片均匀的斜纹网格；三层端点完全对齐的话，
+         三条会同时断在同一经度上，那道空白反而更扎眼。 */
+      var out = [];
+      for (var r = 0; r < rows; r++) {
+        var lc = latC + (r - (rows - 1) / 2) * rowStep;
+        var lon0 = -180 + r * stepDeg / rows;
+        for (var i = 0; i < n; i++) {
+          var seg = wbSlantCurve(lc, spanLat, lon0 + i * stepDeg, dLon, dLat, spanNow);
+          seg.row = r;                       // 光带按层错开半径，见 ocRibbonGeo
+          out.push(seg);
+        }
+      }
+      return out;
+    }
+
+    /* 风带箭头：沿每条斜弧铺一片"细杆 + 三角尖"的弯箭头 ——
+       教科书示意图就是这么画的：一条弧线，末端顶一个实心三角。
+       全风带的箭头合成一个几何体，两百多支、一次 draw call。
+
+       为什么不用 InstancedMesh + 共用锥体：这里的箭头必须**贴着球面弯**。
+       直片摆在球面的切平面上，两端会翘出去（一段 15° 弧翘起 0.017，
+       肉眼就是"悬空浮着"）。顶点直接按单位向量生成再乘 R，
+       整支箭头就是一片曲面片，和球面严丝合缝。
+
+       半宽曲线 s ∈ [0,1]（s 是沿弧长的归一化位置）：
+         s ≤ STEM       杆，恒为 WS
+         s = STEM       突跳到 WH —— 三角尖的底边，所以这里要放两个同位置采样点
+         STEM < s ≤ 1   线性收到 0（三角尖）
+    */
+    function wbArrowGeo(segs, R) {
+      var STEM = WB_ARR_STEM, WS = WB_ARR_WS, WH = WB_ARR_WH, NS = 16;
+      var S = [], i;
+      for (i = 0; i <= NS; i++) S.push(STEM * i / NS);
+      S.push(STEM + 1e-4);                         // 台阶：同位置、半宽跳到 WH
+      for (i = 1; i <= NS; i++) S.push(STEM + (1 - STEM) * i / NS);
+      var pos = [], idx = [];
+      segs.forEach(function (cur) {
+        var L = cur.len, A0 = WB_ARR_T0 * L, A1 = WB_ARR_T1 * L;
+        var base = pos.length / 3;
+        for (var k = 0; k < S.length; k++) {
+          var s = S[k], a = A0 + (A1 - A0) * s;
+          var hw = s <= STEM ? WS : WH * (1 - (s - STEM) / (1 - STEM));
+          ocSample(cur, a, _v1);
+          /* 切向取前后各退一点：端点处夹到 0 / L，单边取差，不会打结 */
+          ocSample(cur, Math.max(0, a - 0.008), _v2);
+          ocSample(cur, Math.min(L, a + 0.008), _v3);
+          _v3.sub(_v2).normalize();
+          _v3.addScaledVector(_v1, -_v3.dot(_v1)).normalize();   // 投影回切平面
+          _v4.crossVectors(_v1, _v3).normalize();                // 横向（贴球的）
+          var cx = _v1.x * R, cy = _v1.y * R, cz = _v1.z * R;
+          var sx = _v4.x * hw, sy = _v4.y * hw, sz = _v4.z * hw;
+          pos.push(cx + sx, cy + sy, cz + sz, cx - sx, cy - sy, cz - sz);
+        }
+        for (k = 0; k < S.length - 1; k++) {
+          var b0 = base + k * 2;
+          idx.push(b0, b0 + 1, b0 + 2, b0 + 1, b0 + 3, b0 + 2);
+        }
+      });
+      if (!idx.length) return null;
+      var g = new THREE.BufferGeometry();
+      g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+      g.setIndex(idx);
+      return g;
+    }
+
+    /* 取一条弧的头一段（按弧长比例）。给风带光带当"箭头尾部那一小截拖尾"用 ——
+       整段都铺带子的话，那条暗黄的弯月形状跟箭头几乎一样、只是没尖，
+       远看会被读成"缺了尖的箭头"，把真正的箭头淹掉。 */
+    function wbHead(cur, frac) {
+      var L = cur.len * frac, unit = [], arc = [], i = 0;
+      while (i < cur.arc.length && cur.arc[i] <= L) { unit.push(cur.unit[i]); arc.push(cur.arc[i]); i++; }
+      if (i < cur.unit.length) { unit.push(cur.unit[i]); arc.push(cur.arc[i]); }
+      return { unit: unit, arc: arc, len: arc[arc.length - 1] };
+    }
+
+    /* 风带的光带：和洋流/季风同一套亮块，铺在六个风带那一堆斜弧上。
+       每段一条带子，uvScale=1（uv.x 直接装弧长，同洋流）——
+       段是断开的，闭合环那套"整圈凑整数个周期"的归一化在这儿用不上。
+       段与段之间相位错开，不然整圈几十条带子的亮块会同一时刻一起亮。 */
+    function wbBuildRibbon() {
+      var col = new THREE.Color(WB_COL);
+      var paths = [];
+      WB_W.forEach(function (w, ri) {
+        wbSlantSegs(w[1], w[2], w[3], w[4]).forEach(function (cur, si) {
+          /* 和箭头同样的取段规则：带子只铺在有箭头的那一段上。
+             不筛的话带子是箭头的一倍，满屏暗黄的弯月牙会被读成"缺了尖的箭头"。 */
+          if (si % WB_ARR_EVERY !== 0) return;
+          /* 只取段的头 24%：这一截在箭头起点（16%）之前，露在尾部外面，
+             看起来就是"带子从箭头后面钻进去"。铺满整段的话会伸出箭尖之外。 */
+          var tail = wbHead(cur, 0.24);
+          /* 层与层在纬度上会压到一起，半径各差 0.0002 免得同面打架；
+             最高一层 1.0035+0.0004 仍低于箭头（1.0045）。 */
+          paths.push({
+            cur: tail, col: col, ph: (ri * 0.37 + si * 0.211) % 1, uvScale: 1,
+            r: WB_RIB_R + (cur.row || 0) * 0.0002,
+            taperTail: 0.75                 // 露在箭头外面的那头收成尖，不留方块
+          });
+        });
+      });
+      if (!paths.length) return;
+      var g = ocRibbonGeo(paths, WB_RIB_HW, WB_RIB_R);
+      if (!g) return;
+      wbRibMat = ocRibbonMat(wbOp, false);   // 风吹过陆地天经地义，不接陆地遮罩
+      wbRibMat.uniforms.uWbShift.value = wbShift;   // 打开瞬间就在正确的季节位置
+      var mesh = new THREE.Mesh(g, wbRibMat);
+      mesh.frustumCulled = false;
+      mesh.renderOrder = 4;                  // 气压带填充(2)/边线(3) 之上，箭头(5) 之下
+      wbGroup.add(mesh);
+      /* base 压到 0.6：光带比杆宽，若和箭头一样亮，视觉上杆就被撑粗成一条黄带，
+         三角尖也就显不出来。压暗之后带子是"杆下面的暗流"，箭头才是主角。 */
+      wbMats.push({ m: wbRibMat, base: 0.6 });
+    }
+
+    function wbBuild() {
+      if (wbGroup) return;
+      ocScratch();
+      wbGroup = new THREE.Group();
+      wbMats = [];
+
+      /* ① 气压带。填充很淡（0.075），只有靠两条边线才立得住 ——
+            纯淡色填充压在深蓝海面上会被读成"一道阴影"，
+            边线一上去才认得出是"一条纬度带"。边线半径比填充高 0.0004，
+            不然两片共面会打架。 */
+      WB_P.forEach(function (p) {
+        var col = new THREE.Color(p[3] ? WB_HIGH : WB_LOW);
+        var add = function (geo, base, order) {
+          var mat = new THREE.MeshBasicMaterial({
+            color: col, transparent: true, opacity: base * wbOp,
+            depthWrite: false, side: THREE.DoubleSide
+          });
+          wbShiftPatch(mat);          // 随季节南北平移，见 WB_SHIFT_GLSL
+          var m = new THREE.Mesh(geo, mat);
+          m.frustumCulled = false;
+          m.renderOrder = order;
+          wbGroup.add(m);
+          wbMats.push({ m: mat, base: base });
+        };
+        add(wbBandGeo(p[1], p[2], WB_BAND_R, 6), 0.11, 2);
+        add(wbBandGeo(p[1] - p[2], 0.34, WB_BAND_R + 0.0004, 1), 0.36, 3);
+        add(wbBandGeo(p[1] + p[2], 0.34, WB_BAND_R + 0.0004, 1), 0.36, 3);
+      });
+
+      /* ② 风带的光带：同一套流动亮块，铺在每条风带切出来的那一堆斜弧上。
+            uv.x 直接装弧长（同洋流），段是断的、不用管闭合周期。 */
+      wbBuildRibbon();
+
+      /* ③ 风带箭头：每段斜弧上铺一片"细杆 + 三角尖"的弯箭头。
+            半径比光带高 0.001，压在带子之上 —— 带子从杆尾进去、
+            从杆身下面穿过，还是"带子穿在箭头里"那个穿法。 */
+      var segs = [];
+      WB_W.forEach(function (w) {
+        wbSlantSegs(w[1], w[2], w[3], w[4]).forEach(function (cur, si) {
+          if (si % WB_ARR_EVERY === 0) segs.push(cur);
+        });
+      });
+      if (segs.length) {
+        var ag = wbArrowGeo(segs, WB_R);
+        if (ag) {
+          var mat = new THREE.MeshBasicMaterial({
+            color: new THREE.Color(WB_COL), transparent: true, opacity: 0.95 * wbOp,
+            depthWrite: false, side: THREE.DoubleSide
+          });
+          wbShiftPatch(mat);        // 箭头跟气压带一起南北平移
+          var am = new THREE.Mesh(ag, mat);
+          am.frustumCulled = false;
+          am.renderOrder = 5;                    // 压在光带之上
+          wbGroup.add(am);
+          wbMats.push({ m: mat, base: 0.95 });
+        }
+      }
+    }
+
+    function wbDrop() {
+      if (wbGroup) {
+        if (wbGroup.parent) wbGroup.parent.remove(wbGroup);
+        wbGroup.traverse(function (o) {
+          if (o.material && o.material.dispose) o.material.dispose();
+          /* 本层所有几何体（气压带、光带、箭头片）都是现生成的，一并回收 */
+          if (o.geometry && o.geometry !== ocArrow && o.geometry.dispose) o.geometry.dispose();
+        });
+        wbGroup = null;
+      }
+      wbRibMat = null;
+      wbMats = [];
+      if (globe.wbLabels) {
+        globe.wbLabels.forEach(function (L) {
+          if (L.el && L.el.parentNode) L.el.parentNode.removeChild(L.el);
+        });
+        globe.wbLabels = null;
+      }
+    }
+
+    /* 季节位移一次性刷到所有材质上：气压带/箭头在 userData.uShift，
+       光带在 shader 的 uniforms.uWbShift。地名标签也跟着移动 —— 带子挪了
+       8°，名字还挂在原来的纬度上就成了"标签所指非物"。 */
+    function wbApplyShift() {
+      if (wbRibMat && wbRibMat.uniforms.uWbShift) wbRibMat.uniforms.uWbShift.value = wbShift;
+      for (var i = 0; i < wbMats.length; i++) {
+        var u = wbMats[i].m.userData.uShift;
+        if (u) u.value = wbShift;
+      }
+      wbSyncLabelLat();
+    }
+
+    function wbSyncLabelLat() {
+      if (!globe.wbLabels) return;
+      /* 差不到 0.05° 就别重算：滑动的尾巴上每帧改一次数组没必要，
+         三个锚点全是新建的，白扔对象。 */
+      if (Math.abs(wbShift - wbShiftLabel) < 0.05) return;
+      wbShiftLabel = wbShift;
+      globe.wbLabels.forEach(function (L) {
+        L.lat = L.lat0 + wbShift;
+        if (L.alts) {
+          L.alts[0][1] = L.lat;
+          L.alts[1][1] = L.lat + 4;
+          L.alts[2][1] = L.lat - 4;
+        }
+      });
+    }
+
+    /* 四季各自的位移在 SEA 表里：夏 +8、冬 −8、春 +4、秋 −4。
+       是**整层同向**移动，不是南北半球各自散开 —— 夏天赤道低压带到 8°N，
+       南半球信风带也跟着北上跨过赤道。 */
+    function wbSeasonTarget() { return sea().shift; }
+
+    /* 春分、秋分位移都是 0（直射赤道，赤道低压带被 0° 纬线平分），
+       所以这两档必须靠"接下来往哪边挪"来区分，否则图例文字一模一样、
+       看起来像是按钮坏了。 */
+    function wbSeasonTip() {
+      var s = sea(), a = Math.abs(s.shift);
+      /* 一行放得下才不折行：图例那栏内宽约 230px，11.5px 字号最多 19 个汉字，
+         两种句式都压到 16 字以内，且都把"赤道低压带在哪"说全。 */
+      if (!a) return s.jq + ' · 居中，0° 平分赤道低压带';
+      return s.jq + ' · 最' + (s.shift > 0 ? '北' : '南') +
+        '，赤道低压带 ' + a + '°' + (s.shift > 0 ? 'N' : 'S');
+    }
+
+    /* 切季节：只改目标值，位移由 wbTick 一帧帧滑过去。
+       层没开的时候直接就位，免得下次打开从上一季的纬度慢慢爬过来。 */
+    function wbSeasonSync() {
+      wbShiftTo = wbSeasonTarget();
+      if (!wbOn) { wbShift = wbShiftTo; wbShiftLabel = 1e9; }
+      var tip = document.getElementById('lg-wb-season');
+      if (tip) tip.textContent = wbSeasonTip();
+    }
+
+    function wbTick(dt) {
+      /* 缓动：指数逼近而不是定时 easeInOut —— 滑到一半又切回来也不会跳。
+         dt 由主循环夹在 0.06 以内；首次调用没有 dt 时按 60fps 估。 */
+      var d = wbShiftTo - wbShift;
+      if (d !== 0) {
+        if (Math.abs(d) < 0.02) wbShift = wbShiftTo;
+        else wbShift += d * Math.min(1, (dt || 0.016) * 3.2);
+        wbApplyShift();
+      }
+      if (!wbRibMat) return;
+      /* 这一层只有光带在动：亮块在 shader 里读 uniform 时间，每帧回传一次就够。
+         箭头（现在是贴在球面上的一片几何）和洋流/季风一样固定指方向，不会动。 */
+      if (RIB_FLOW) wbRibMat.uniforms.uTime.value = performance.now() / 1000;
+    }
+
+    function wbFadeTo(to, dur) {
+      var from = wbOp, t0 = performance.now();
+      cancelAnimationFrame(wbAnim);
+      (function step() {
+        var k = Math.min(1, (performance.now() - t0) / dur);
+        var e = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+        wbOp = from + (to - from) * e;
+        wbMats.forEach(function (o) {
+          /* 光带是 ShaderMaterial：透明度在 uniform 里，不在 material.opacity 上 */
+          if (o.m.uniforms && o.m.uniforms.uOpacity) o.m.uniforms.uOpacity.value = o.base * wbOp;
+          else o.m.opacity = o.base * wbOp;
+        });
+        if (k < 1) wbAnim = requestAnimationFrame(step);
+        else if (!wbOn && wbGroup && wbGroup.parent) wbGroup.parent.remove(wbGroup);
+      })();
+    }
+
+    /* 一条带子本来绕满一圈，只标一个经度的话，转到背面就一个名字都没有，
+       容易让人以为这层没标注。所以在相距 120°～180° 的两处各放一个 ——
+       转到哪一面，附近都还有个名字。（和大洋名重名多次是一个道理。） */
+    function wbBuildLabels() {
+      if (globe.wbLabels) return;
+      var host = document.getElementById('tlabels');
+      if (!host) return;
+      globe.wbLabels = [];
+      var put = function (text, lat, cls, lons) {
+        lons.forEach(function (lon) {
+          var node = el('div', 'tlabel ' + cls, text);
+          host.appendChild(node);
+          globe.wbLabels.push({
+            /* lat0 是这条带子在"春秋分"时的纬度：切季节时 wbSyncLabelLat
+               按 lat0 + 位移 重算 lat，名字才不会留在原来的纬度上。 */
+            el: node, lon: lon, lat: lat, lat0: lat, z: 0.9,
+            alts: [[lon, lat], [lon + 16, lat + 4], [lon - 16, lat - 4]],
+            kind: 'wb', pri: 1, src: 'c', tap: false,
+            v: new THREE.Vector3(), w: node.offsetWidth, h: node.offsetHeight, on: false
+          });
+        });
+      };
+      put('赤道低压带', 0, 'k-wbp', [-26, 98]);
+      put('副热带高压带', 30, 'k-wbp', [-62, 58]);
+      put('副热带高压带', -30, 'k-wbp', [-62, 58]);
+      put('副极地低压带', 60, 'k-wbp', [-30, 92]);
+      put('副极地低压带', -60, 'k-wbp', [-30, 92]);
+      put('东北信风带', 14.5, 'k-wbw', [66, -104]);
+      put('东南信风带', -14.5, 'k-wbw', [66, -104]);
+      put('盛行西风带', 45.5, 'k-wbw', [-16, 116]);
+      put('盛行西风带', -45.5, 'k-wbw', [-16, 116]);
+      put('极地东风带', 72, 'k-wbw', [40]);
+      put('极地东风带', -72, 'k-wbw', [40]);
+    }
+
+    function wbLegendHTML() {
+      var h = '';
+      h += '<div class="lg-head wb-head"><span class="lg-title">气压带 · 风带</span></div>';
+      h += '<div class="lg-line"><span class="lg-key">气压</span><span class="lg-grid">' +
+           '<span class="lg-item"><i style="background:' + WB_LOW + '"></i>低压 · 气流上升</span>' +
+           '<span class="lg-item"><i style="background:' + WB_HIGH + '"></i>高压 · 气流下沉</span></span></div>';
+      /* 原来这条是一整句"信风由东北/东南吹向赤道 · 西风由西南/西北吹向高纬"，
+         .lg-item 是 nowrap，长句会被面板右缘直接切掉半截（截图里能看到
+         末尾的"西"字被裁）。拆成两条短的，各占一行，都能完整显示。 */
+      h += '<div class="lg-line"><span class="lg-key">风带</span><span class="lg-grid">' +
+           '<span class="lg-item"><i style="background:' + WB_COL + '"></i>信风：东北/东南 → 赤道</span>' +
+           '<span class="lg-item">西风：西南/西北 → 高纬</span>' +
+           '<span class="lg-item">极地东风：极地 → 副极地低压</span>' +
+           '<span class="lg-item">箭头固定指风向 · 光带亮块顺风推进</span></span></div>';
+      /* 这一行跟着季节按钮变（id 给它，ocSetSeason 直接改文字，不重画图例） */
+      h += '<div class="lg-line"><span class="lg-key">季节</span><span class="lg-grid">' +
+           '<span class="lg-item lg-wr" id="lg-wb-season">' + wbSeasonTip() + '</span></span></div>';
+      h += '<div class="lg-src">7 个气压带、6 个风带南北对称；随太阳直射点整体南北移动：夏至北移 8° · 冬至南移 8° · 春秋分居中（0° 纬线平分赤道低压带），南北半球同向</div>';
+      return h;
+    }
+
+    function wbApply(on) {
+      wbOn = !!on;
+      globe.wbOn = wbOn;
+      /* 这一层也要用季节开关（夏/冬），开关面板的显隐跟着它一起判 */
+      seasonBoxSync();
+      if (wbOn) {
+        /* 首次打开直接就位：从 0 慢慢滑到 ±8° 的话，打开瞬间是"春秋分"的
+           样子，跟季节按钮写着的那一季对不上。之后切季节才走动画。 */
+        if (!wbGroup) {
+          wbShiftTo = wbSeasonTarget();
+          wbShift = wbShiftTo;
+        }
+        wbBuild();
+        wbBuildLabels();
+        wbApplyShift();      // 材质与标签先对到当前季节，别等第一次切季才动
+      }
+      if (globe.refreshTActive) globe.refreshTActive();
+      if (globe.syncLabelLayers) globe.syncLabelLayers();
+      if (globe.gridDim) globe.gridDim();   // 经纬线给这一层让位
+      if (!wbGroup) return;
+      if (wbOn && globe.spin && !wbGroup.parent) globe.spin.add(wbGroup);
+      wbFadeTo(wbOn ? 1 : 0, 320);
+    }
+
+    function wbToggle() {
+      wbApply(!wbOn);
+      lgLegend(lgCur);
+      lgSync();
+      if (window.__tipHide) window.__tipHide();
+    }
+
+    globe.wbTick = wbTick;
+
     (function () {
       var bcl = document.getElementById('btn-climate');
       var btr = document.getElementById('btn-terrain');
+      var bcu = document.getElementById('btn-current');
       if (bcl) bcl.addEventListener('click', function () { lgToggle('climate'); });
       if (btr) btr.addEventListener('click', function () { lgToggle('terrain'); });
+      if (bcu) bcu.addEventListener('click', ocToggle);
+      var bmn = document.getElementById('btn-monsoon');
+      if (bmn) bmn.addEventListener('click', mnToggle);
+      var bw = document.getElementById('btn-windbelt');
+      if (bw) bw.addEventListener('click', wbToggle);
+      /* 季节：两个按钮共用一个处理器，事件委托省得以后加"春秋"再改一遍 */
+      var sp = document.getElementById('season-pick');
+      if (sp) {
+        sp.addEventListener('click', function (e) {
+          var b = e.target.closest ? e.target.closest('.sp-btn') : null;
+          if (b) ocSetSeason(+b.getAttribute('data-season'));
+        });
+      }
       lgSync();
       /* 等地球本体、国名、地形名都到位再预热，别和首屏抢带宽。
          而且必须等淡入播完 —— initTexture 在 8K 上是同步的，
@@ -8141,7 +10298,11 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       if (a) {
         a.style.visibility = showCountry ? '' : 'hidden';
       }
-      if (b) b.style.visibility = (layerOn && !globe.allBordersOn) ? 'visible' : 'hidden';
+      /* 洋流 / 季风 / 风带的名字也住在这个容器里（复用同一套投影与避让），
+         所以三个辅助层任一开着，这一层就得露出来 —— 否则它们只是位置算对了、
+         字却整层不可见。 */
+      var extras = !!(globe.ocOn || globe.mnOn || globe.wbOn);
+      if (b) b.style.visibility = ((layerOn && !globe.allBordersOn) || extras) ? 'visible' : 'hidden';
     }
     globe.syncLabelLayers = syncLabelLayers;
 
@@ -8264,6 +10425,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
            这里不能取反 —— 否则第一次点"显示经纬线"会变成刚开就关。 */
         var on = built ? !globe.grid.visible : true;
         globe.grid.visible = on;
+        if (globe.gridDim) globe.gridDim();   // 保持"让位"的亮度，别一开就顶回去
         bgd.classList.toggle('on', on);
         __setTip(bgd, on ? '隐藏经纬线' : '显示经纬线');
         if (window.__tipHide) window.__tipHide();

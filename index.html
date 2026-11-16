@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-16-BC">
+<meta name="build" content="2026-11-16-BD">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -431,6 +431,13 @@
   /* 加载中骨架：避免录屏时出现纯白或灰块跳动 */
   .thumb-wrap.loading,.dimg-wrap.loading{
     background:linear-gradient(160deg,#0d1322,#0a0f1c);
+  }
+  /* 扫光不能"啪"地消失：图片 onload 之后如果直接把 .loading 摘掉，
+     ::after 那一层瞬间没了，只剩 .dimg-wrap 的深灰底，等 0.26s 淡入走完
+     才看见照片 —— 用户看到的就是"先闪一层灰底"。这里先用 .revealed 把
+     扫光淡出（0.32s，和图片淡入同一区间），再由 JS 收掉 .loading。 */
+  .thumb-wrap.loading.revealed::after,.dimg-wrap.loading.revealed::after{
+    animation:none;opacity:0;transition:opacity .32s ease;
   }
   .thumb-wrap.loading::after,.dimg-wrap.loading::after{
     content:"";position:absolute;inset:0;z-index:2;
@@ -3378,9 +3385,16 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         picWrap.classList.remove('blank');   // 上一张失败留下的 blank 要清掉，否则 display:none 一直挂着
         pic.alt = it.caption_zh || it.caption || d.name_zh;
         pic.onload = function () {
-          picWrap.classList.remove('loading');
+          picWrap.classList.add('revealed');     // 扫光开始淡出（照片同时淡入）
           picWrap.classList.add('loaded');
           picWrap.classList.remove('blank');
+          /* 换图很快时上一张的定时器不能把新图的骨架摘掉，认一下序号 */
+          (function (mySeq) {
+            setTimeout(function () {
+              if (mySeq !== picSeq) return;
+              picWrap.classList.remove('loading', 'revealed');
+            }, 340);
+          })(seq);
           /* 兜底：cards.json 里没有 portrait 的老数据，仍按实际尺寸补一次。
              有标记的不会走到这里改变框型，所以不会跳。 */
           if (it.portrait == null && !(it.size && it.size.detail)) {
@@ -3825,7 +3839,18 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     if (!iso || CARD_PREFETCH[iso]) return;
     CARD_PREFETCH[iso] = true;
     setTimeout(function () {
-      fetchAny('data/' + iso.toLowerCase() + '.json').catch(function () {});
+      fetchAny('data/' + iso.toLowerCase() + '.json')
+        .then(function (d) {
+          /* 顺手把首图也下下来：悬停到国名/结果行上时人还没点，
+             这 200~400ms 正好用来取 50~190KB 的首图，点开基本是缓存命中。
+             注意用同一套 assetSrc（带同一版本号），否则预取和显示会各下一次。 */
+          var im = d && (d.landmark_images || [])[0];
+          if (!im) return;
+          var pre = new Image();
+          pre.decoding = 'async';
+          pre.src = assetSrc(im.url || im.thumb_url, im.v);
+        })
+        .catch(function () {});
     }, 140);
   }
 
@@ -3949,6 +3974,17 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
   var IDX = null;
   var qInput = document.getElementById('q');
   var qRes = document.getElementById('q-res');
+  /* 结果行悬停即预取（档案 + 首图）。搜索是"打几个字 → 点第一条"，
+     从悬停到点下通常有 200~500ms，正好把首图那 50~190KB 先运出去。 */
+  if (qRes) {
+    qRes.addEventListener('pointerover', function (e) {
+      var t = e.target;
+      while (t && t !== qRes && !(t.classList && t.classList.contains('sr-item'))) t = t.parentNode;
+      if (!t || t === qRes) return;
+      var iso = t.getAttribute && t.getAttribute('data-iso');
+      if (iso) prefetchCard(iso);
+    }, { passive: true });
+  }
   var qSub = document.getElementById('search-sub');
 
   /* ---------- 首都 → 国家 ----------
@@ -4904,6 +4940,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
          五个问题，若拿国家名当主标题，五行会整齐地重复"沙特阿拉伯"，
          等于把最有用的信息（到底命中了什么）全藏了起来。 */
       var isCountry = d.kind === 'country';
+      if (d.iso) item.setAttribute('data-iso', String(d.iso).toUpperCase());
       /* brief 是"国家简介"那条：标题写国名就够，"朝鲜 简介"多两个字
          不增加信息量，还把它顶到第一条时显得像条公文。 */
       var headText = isCountry ? (d.name || '')
@@ -5459,6 +5496,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     box.appendChild(srSuggest());
     list.forEach(function (d) {
       var item = el('div', 'sr-item');
+      if (d.iso) item.setAttribute('data-iso', String(d.iso).toUpperCase());
       item.appendChild(srIcon('country'));
       var txt = el('div', 'sr-txt');
       var nm = el('div', 'sr-name', d.name || '');
@@ -8553,6 +8591,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         downAt.y = e.clientY;
         globe.moved = 0;
         globe.vel.x = globe.vel.y = 0;
+        globe.lastMoveT = performance.now();
         cv.classList.add('dragging');
         globe.autoSpin = false;
         if (globe.pinCN) setPinChina(false);   // 手一转就是要自己看，钉子拔掉
@@ -8599,10 +8638,25 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       globe.last.y = e.clientY;
       globe.moved += Math.abs(dx) + Math.abs(dy);
       // 0.0016 弧度/像素：拖满 1200px 约转 110°，手一抖不会转到背面
-      globe.vel.x = dx * 0.0016;
-      globe.vel.y = dy * 0.0016;
-      globe.spin.rotation.y += globe.vel.x;
-      globe.tilt.rotation.x += globe.vel.y;
+      globe.spin.rotation.y += dx * 0.0016;
+      globe.tilt.rotation.x += dy * 0.0016;
+
+      /* 松手后那一段惯性，速度必须是「弧度/毫秒」，不能是「弧度/事件」。
+         原来存的是这一帧的位移量：浏览器把快速划动的 pointermove 合并投递时，
+         一次事件可能带 120px，速度就变成慢速拖动的十几倍 —— 松手后球直接飞出去；
+         反过来慢慢拖时每次只挪 3px，松手几乎立刻停。同一台机器手感忽快忽慢。
+         这里按两次事件的时间差归一，再用 EMA 抖掉抖动。 */
+      var nowV = performance.now();
+      var dtm = Math.max(8, Math.min(64, nowV - (globe.lastMoveT || nowV - 16)));
+      globe.lastMoveT = nowV;
+      var ix = (dx * 0.0016) / dtm;
+      var iy = (dy * 0.0016) / dtm;
+      globe.vel.x = globe.vel.x * 0.62 + ix * 0.38;
+      globe.vel.y = globe.vel.y * 0.62 + iy * 0.38;
+      /* 上限 2.0 弧度/秒：再快就是"甩"，整颗球会糊成一片转影 */
+      var VMAX = 0.0020;
+      globe.vel.x = Math.max(-VMAX, Math.min(VMAX, globe.vel.x));
+      globe.vel.y = Math.max(-VMAX, Math.min(VMAX, globe.vel.y));
       var lim = 78 * D2R;
       globe.tilt.rotation.x = Math.max(-lim, Math.min(lim, globe.tilt.rotation.x));
     }
@@ -8644,6 +8698,11 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
          于是拖动之后自转立刻恢复，和"停 2.4 秒"的意图不符。现在累计整段位移。 */
       globe.autoSpin = true;
       globe.idleUntil = performance.now() + (globe.moved > 6 ? 2400 : 0);
+      /* 手停在原地再松手，是没有"甩"的：最后一次移动离抬起超过 120ms
+         就把速度清掉。否则球会在你已经收手之后才开始加速转，非常怪。 */
+      if (performance.now() - (globe.lastMoveT || 0) > 120) {
+        globe.vel.x = globe.vel.y = 0;
+      }
     }
     globe.dragDown = dragDown;
     cv.addEventListener('pointerdown', dragDown);
@@ -9038,7 +9097,10 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       // 触控板捏合会带 ctrlKey，deltaY 很小，得放大步长才跟手
       /* 0.0026 时一格滚轮只挪一点点，看一个国家要连滚七八下。
          调到 0.0042（一格约 1.6 倍步长）；触控板捏合同比例。 */
-      var d = e.deltaY * (e.ctrlKey ? 0.014 : 0.0042);
+      /* 步长随当前距离缩放：3.02 的远视角一格 0.0042，贴到 1.42 时只有一半。
+         原来固定步长，越靠近一步跨得越多，缩到省级就像"跳"过去的。 */
+      var zk = e.ctrlKey ? 0.014 : 0.0042;
+      var d = e.deltaY * zk * Math.min(1.15, Math.max(0.55, globe.camTarget / CAM_FAR));
       globe.camMode = 'manual';
       globe.lastInput = performance.now();
       globe.camTarget = Math.max(CAM_MIN, Math.min(CAM_MAX, globe.camTarget + d));
@@ -9215,12 +9277,16 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         var spd = 0.0009 * Math.min(1.2, Math.max(0.35, camera.position.z / CAM_FAR));
         spin.rotation.y += spd * dtf;
       }
-      if (!globe.dragging && Math.abs(globe.vel.x) + Math.abs(globe.vel.y) > 0.0002) {
-        var decay = Math.pow(0.93, dtf);
+      if (!globe.dragging && Math.abs(globe.vel.x) + Math.abs(globe.vel.y) > 0.00002) {
+        /* 速度单位是弧度/毫秒，积分也按毫秒；衰减用 exp(-k·dt)，
+           半衰期约 110ms —— 松手后 0.35 秒基本停住，比原来按帧乘 0.93 稳
+           （帧率一低，原来那种写法会"滑很久"）。 */
+        var dtms = Math.min(64, dtf * 16.667);
+        var decay = Math.exp(-0.0062 * dtms);
+        spin.rotation.y += globe.vel.x * dtms;
+        tilt.rotation.x += globe.vel.y * dtms;
         globe.vel.x *= decay;
         globe.vel.y *= decay;
-        spin.rotation.y += globe.vel.x * dtf;
-        tilt.rotation.x += globe.vel.y * dtf;
         var lim2 = 78 * D2R;
         tilt.rotation.x = Math.max(-lim2, Math.min(lim2, tilt.rotation.x));
       }

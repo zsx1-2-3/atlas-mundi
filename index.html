@@ -1731,6 +1731,52 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
   background:linear-gradient(180deg,rgba(255,205,110,.20),rgba(180,130,40,.09));
 }
 
+/* ---- 课堂教具：看图猜国家 ----
+   比档案卡窄一号，浮在右侧；关掉测验后整块 hidden，不留痕迹。 */
+.kit-panel{
+  position:fixed;right:18px;top:86px;z-index:38;
+  width:292px;color:#dce9f8;font-size:13px;
+  background:rgba(9,20,35,.93);
+  border:1px solid rgba(140,170,210,.28);border-radius:14px;
+  box-shadow:0 16px 40px rgba(0,0,0,.5);
+  -webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px);
+  animation:kitIn .16s ease-out both;
+}
+.kit-panel[hidden]{display:none!important}
+@keyframes kitIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+.kit-head{display:flex;align-items:center;gap:8px;padding:11px 13px;
+  border-bottom:1px solid rgba(140,170,210,.18)}
+.kit-head strong{font-size:14px;font-weight:600;letter-spacing:.04em;color:#f3e2bd}
+.kit-head .kit-sub{margin-left:auto;font-size:12px;color:#9dbddc}
+.kit-x{margin-left:auto;width:24px;height:24px;line-height:22px;text-align:center;
+  border:0;border-radius:6px;background:transparent;color:#a9c4e0;font-size:18px;cursor:pointer}
+.kit-x:hover{background:rgba(150,185,230,.16);color:#fff}
+.kit-head .kit-sub + .kit-x{margin-left:0}
+.kit-body{padding:12px 13px}
+.kit-foot{margin:0;padding:9px 13px 12px;font-size:11.5px;line-height:1.6;
+  color:#8fadc9;border-top:1px solid rgba(140,170,210,.14)}
+
+.quiz-ask{margin:0 0 11px;line-height:1.6;color:#c9dcf0;font-size:12.5px}
+.quiz-opts{display:grid;gap:7px}
+.quiz-opt{padding:9px 11px;text-align:left;border:1px solid rgba(140,170,210,.24);
+  border-radius:8px;background:rgba(255,255,255,.04);color:#e2eefb;font-size:13px;cursor:pointer}
+.quiz-opt:hover:not(:disabled){background:rgba(255,205,110,.12);border-color:rgba(255,205,110,.44)}
+.quiz-opt:disabled{cursor:default}
+.quiz-opt.ok{background:rgba(90,190,130,.18);border-color:rgba(120,220,160,.6);color:#d6ffe4}
+.quiz-opt.bad{background:rgba(220,100,100,.16);border-color:rgba(240,130,130,.55);color:#ffdede}
+.quiz-fb{margin:11px 0 0;min-height:18px;line-height:1.6;font-size:12px;color:#adccdf}
+.quiz-fb b{color:#f3e2bd}
+.kit-next{margin-top:10px;width:100%;padding:9px;border:1px solid rgba(255,205,110,.42);
+  border-radius:8px;background:rgba(255,205,110,.13);color:#f6e6c4;font-size:12.5px;cursor:pointer}
+.kit-next:hover{background:rgba(255,205,110,.22)}
+
+/* 答题期间把地名整层藏掉 —— 国名直接就是答案。
+   这里只能动 display：syncLabelLayers 每帧都在改 visibility，
+   用 visibility 跟它打架，字会在"藏了又露"之间闪。 */
+body.quiz-on #labels,
+body.quiz-on #tlabels,
+body.quiz-on #labels-canvas{display:none!important}
+
 /* 抽屉：五组，每组一行小标题 + 一行图标按钮 */
 #tools-body{
   position:absolute;left:0;bottom:calc(100% + 10px);
@@ -2523,6 +2569,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     </section>
 
     <section class="tg tg-wide">
+
       <h3>环流</h3>
       <div class="tg-r">
         <button class="tool-btn" id="btn-current" type="button" aria-pressed="false">
@@ -2552,6 +2599,26 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       </div>
     </section>
 
+    <section class="tg tg-wide">
+
+      <h3>测验</h3>
+      <div class="tg-r">
+        <button class="tool-btn" id="btn-quiz" type="button" aria-pressed="false">
+          <!-- 一个问号：开口的圈 + 一个点，缩到 16px 也还认得出 -->
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="8.3"/>
+            <path d="M9.6 9.5a2.5 2.5 0 1 1 3.2 2.4c-.8.3-1.1 1-1.1 1.9"/>
+            <circle cx="11.7" cy="16.7" r=".9" fill="currentColor" stroke="none"/>
+          </svg>
+          <span class="tl">看图猜国家</span>
+>
+        </button>
+      </div>
+    </section>
+        </button>
+      </div>
+    </section>
+
   </div>
 </div>
 
@@ -2563,6 +2630,23 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
 
 <!-- 自绘提示气泡：浏览器原生 title 太慢、样式也不受控 -->
 <div id="tip" class="tip" aria-hidden="true"></div>
+
+<!-- 课堂教具：看图猜国家。默认隐藏，由工具栏「课堂」那颗按钮开关。
+     和档案卡一样占右侧，靠 quizMode 互斥 —— 测验期间档案卡打不开，否则一开就泄题。 -->
+<section id="quiz-panel" class="kit-panel" hidden aria-label="随堂测验：看图猜国家">
+  <header class="kit-head">
+    <strong>看图猜国家</strong>
+    <span class="kit-sub" id="quiz-score">0 / 0</span>
+    <button class="kit-x" type="button" aria-label="关闭随堂测验">×</button>
+  </header>
+  <div class="kit-body">
+    <p class="quiz-ask" id="quiz-ask">地球会转到一个国家，猜猜它是谁？</p>
+    <div class="quiz-opts" id="quiz-opts"></div>
+    <p class="quiz-fb" id="quiz-fb"></p>
+    <button class="kit-next" id="quiz-next" type="button" hidden>下一题 →</button>
+  </div>
+  <p class="kit-foot">金色细线是该国国界，不写国名。一轮固定 5 题、不重复；答题时地名临时隐藏，答完收起测验就恢复。只从人口 500 万以上的国家出题。</p>
+</section>
 
 <!-- 旧版遗留的状态位，保留 id 以免脚本取空 -->
 <span id="globe-sub" hidden></span>
@@ -2989,6 +3073,9 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
   }
 
   function openDetail(iso, item, quiet) {
+    /* 测验进行中锁档案：点球面、点地名都不许开 —— 档案卡一出来就直接泄题。
+       切面板 / 关测验时由 setOpen 把 globe.quizMode 清掉，立刻解锁。 */
+    if (globe.quizMode) return;
     /* 点击音挂在这里而不是 openCountry：打开档案有三条路（搜索框、球面标签、
        下方卡片），只有"标签"那条经过 openCountry，挂在上面另外两条就没声了。 */
     if (!quiet && !globe.timeMode) keyClick();
@@ -8270,6 +8357,26 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       globe.active = null;
     };
 
+    /* 只撤某一国的金线（随堂测验切题用）。
+       clearLit 是"关掉全部国境线"的整盘操作，会连用户自己拼上的块一起熄掉；
+       这里只清指定这一国，别的都不动 —— 否则测完一轮，用户之前看的国家也黑了。 */
+    globe.unlightBorder = function (iso) {
+      if (!iso) return;
+      iso = String(iso).toUpperCase();
+      globe.wantLit[iso] = false;
+      delete pendingLit[iso];
+      var gone = [];
+      if (borderCache[iso]) { gone.push(borderCache[iso]); delete borderCache[iso]; delete borderSrc[iso]; }
+      if (globe.groups[iso]) { gone.push(globe.groups[iso]); delete globe.groups[iso]; }
+      gone.forEach(function (o) {
+        o.visible = false;
+        if (spin) { try { spin.remove(o); } catch (e) {} }
+        try { o.geometry.dispose(); } catch (e) {}
+      });
+      if (gone.indexOf(curLit) >= 0) curLit = null;
+      if (globe.active === iso) globe.active = null;
+    };
+
     /* 清盘：全量国境线关掉时调用，连同已拼的块一起熄灭。 */
     globe.clearLit = function () {
       Object.keys(borderCache).forEach(function (k) { borderCache[k].visible = false; });
@@ -11529,6 +11636,215 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       if (b) b.style.visibility = ((layerOn && !globe.allBordersOn) || extras) ? 'visible' : 'hidden';
     }
     globe.syncLabelLayers = syncLabelLayers;
+
+    /* ---------- 课堂教具：看图猜国家 ----------
+       一轮固定 5 题：开局把 5 个互不相同的国家抽进队列，逐题 shift 出去 ——
+       只要队列不回填，一轮里就不可能撞题。干扰项优先取同一洲（难度对了才叫测验），
+       但避开本轮后面还要考的国家，免得提前露脸。
+
+       题目条件只有两样：金色国界 + 镜头停的位置。地名整层藏掉（body.quiz-on），
+       档案卡由 globe.quizMode 挡住 —— 少一样都不是"猜"。 */
+    (function bindQuiz() {
+      var btn = document.getElementById('btn-quiz');
+      var panel = document.getElementById('quiz-panel');
+      if (!btn || !panel) return;
+      var elAsk = document.getElementById('quiz-ask');
+      var elOpts = document.getElementById('quiz-opts');
+      var elFb = document.getElementById('quiz-fb');
+      var elNext = document.getElementById('quiz-next');
+      var elScore = document.getElementById('quiz-score');
+      var QUIZ_N = 5;
+      var quiz = { pool: [], queue: [], right: 0, total: 0, answer: null,
+                   borderIso: null, locked: true, finished: false };
+      var open = false;
+
+      function getMeta(cb) {
+        if (LABEL_META) { cb(LABEL_META); return; }
+        fetchAny('geo/meta.json').then(function (m) {
+          LABEL_META = m || null; cb(LABEL_META);
+        }).catch(function () { cb(null); });
+      }
+      /* meta.json 的 cont 里混着 8 条"公海"，那不是国家；港澳台是中国的一部分，
+         其余带 parent 的属地也不是主权国家 —— 这些都不能进选项。 */
+      function countriesOf(meta) {
+        var out = [];
+        Object.keys(meta || {}).forEach(function (iso) {
+          var d = meta[iso];
+          if (!d || !d.n || !d.cont || d.cont === '公海') return;
+          var up = String(iso).toUpperCase();
+          if (up === 'HK' || up === 'MO' || up === 'TW' || SOVEREIGN[up]) return;
+          if (typeof d.lon !== 'number' || typeof d.lat !== 'number') return;
+          out.push({ iso: iso, n: d.n, cont: d.cont, pop: d.pop || 0, lon: d.lon, lat: d.lat });
+        });
+        return out;
+      }
+      function shuffle(a) {
+        for (var i = a.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var t = a[i]; a[i] = a[j]; a[j] = t;
+        }
+        return a;
+      }
+      function fmtPop(n) {
+        if (!n) return '';
+        return n >= 1e8 ? (n / 1e8).toFixed(1) + ' 亿人' : (n / 1e4).toFixed(0) + ' 万人';
+      }
+
+      function setOpen(on) {
+        open = !!on;
+        panel.hidden = !open;
+        btn.classList.toggle('on', open);
+        btn.setAttribute('aria-pressed', open ? 'true' : 'false');
+        __setTip(btn, open ? '结束随堂测验' : '看图猜国家');
+        /* 只有面板亮着时才锁档案，收起立刻解锁 */
+        globe.quizMode = open;
+        document.body.classList.toggle('quiz-on', open);
+        if (window.__tipHide) window.__tipHide();
+      }
+      /* 只撤本题这条金线，不动用户自己拼的块 */
+      function clearBorder() {
+        if (!quiz.borderIso) return;
+        var iso = quiz.borderIso;
+        quiz.borderIso = null;
+        if (globe.unlightBorder) { try { globe.unlightBorder(iso); } catch (e) {} }
+      }
+
+      function start() {
+        quiz.finished = false;
+        quiz.right = 0; quiz.total = 0; quiz.answer = null;
+        quiz.locked = true;
+        if (elScore) elScore.textContent = '0 / ' + QUIZ_N;
+        if (elOpts) elOpts.innerHTML = '';
+        if (elFb) elFb.innerHTML = '';
+        if (elNext) { elNext.hidden = true; elNext.textContent = '下一题 →'; }
+        if (elAsk) elAsk.textContent = '正在抽取国家…';
+        getMeta(function (meta) {
+          if (!open) return;                 // 面板已经关了，别再往下跑
+          var all = countriesOf(meta);
+          var pool = all.filter(function (c) { return c.pop >= 5000000; });
+          if (pool.length < QUIZ_N + 3) pool = all;   // 人口字段缺失时退回全量
+          quiz.pool = pool;
+          quiz.queue = shuffle(pool.slice()).slice(0, QUIZ_N);
+          nextQuestion();
+        });
+      }
+
+      function nextQuestion() {
+        if (!open || !elOpts) return;
+        if (!quiz.queue.length) { finish(); return; }
+        clearBorder();                        // 上一题的轮廓先撤，别叠在下一题上
+        if (elNext) elNext.hidden = true;
+        if (elFb) elFb.innerHTML = '';
+        var right = quiz.queue.shift();
+        quiz.answer = right; quiz.locked = false;
+        if (elAsk) {
+          elAsk.textContent = '第 ' + (quiz.total + 1) + ' / ' + QUIZ_N +
+            ' 题 · 地球已经转到某个国家，看看它的轮廓与位置，猜猜是哪个？';
+        }
+        /* 本轮还没考的国家不当干扰项 */
+        var upcoming = {};
+        quiz.queue.forEach(function (c) { upcoming[c.iso] = true; });
+        var eligible = quiz.pool.filter(function (c) {
+          return c.iso !== right.iso && !upcoming[c.iso];
+        });
+        if (eligible.length < 3) {
+          eligible = quiz.pool.filter(function (c) { return c.iso !== right.iso; });
+        }
+        var same = shuffle(eligible.filter(function (c) {
+          return c.cont === right.cont;
+        })).slice(0, 3);
+        var rest = shuffle(eligible.filter(function (c) {
+          return c.iso !== right.iso && same.indexOf(c) < 0;
+        }));
+        var picks = same.slice();
+        while (picks.length < 3 && rest.length) picks.push(rest.pop());
+        picks.push(right);
+        shuffle(picks);
+        elOpts.innerHTML = '';
+        picks.forEach(function (c) {
+          var b = document.createElement('button');
+          b.type = 'button'; b.className = 'quiz-opt'; b.textContent = c.n;
+          b.addEventListener('click', function () { answer(c, b); });
+          elOpts.appendChild(b);
+        });
+        globe.camMode = 'near';
+        flyTo(right.lon, right.lat, CAM_NEAR);
+        globe.idleUntil = performance.now() + 1e9;   // 测验期间不自转
+        /* 国界描金：轮廓本身就是题目条件，不算泄题 */
+        quiz.borderIso = String(right.iso).toUpperCase();
+        try { setActive(quiz.borderIso); } catch (e) {}
+      }
+
+      function answer(c, b) {
+        if (quiz.locked) return;
+        quiz.locked = true;
+        quiz.total++;
+        var ok = (c.iso === quiz.answer.iso);
+        if (ok) quiz.right++;
+        Array.prototype.forEach.call(elOpts.children, function (n) {
+          n.disabled = true;
+          if (n.textContent === quiz.answer.n) n.classList.add('ok');
+        });
+        if (!ok) b.classList.add('bad');
+        if (elScore) elScore.textContent = quiz.right + ' / ' + QUIZ_N;
+        if (elFb) {
+          elFb.innerHTML = '';
+          elFb.appendChild(document.createTextNode(ok ? '答对了：' : '答错了，正确答案是 '));
+          var em = document.createElement('b'); em.textContent = quiz.answer.n;
+          elFb.appendChild(em);
+          elFb.appendChild(document.createTextNode('（' + quiz.answer.cont +
+            (quiz.answer.pop ? '，' + fmtPop(quiz.answer.pop) : '') + '）'));
+        }
+        if (elNext) {
+          elNext.textContent = quiz.queue.length ? '下一题 →' : '查看本轮成绩 →';
+          elNext.hidden = false;
+        }
+      }
+
+      function finish() {
+        clearBorder();
+        quiz.locked = true; quiz.finished = true;
+        if (elOpts) elOpts.innerHTML = '';
+        if (elAsk) elAsk.textContent = '本轮 ' + QUIZ_N + ' 题已完成';
+        if (elFb) {
+          elFb.innerHTML = '';
+          var b = document.createElement('b');
+          b.textContent = '答对 ' + quiz.right + ' / ' + QUIZ_N + ' 题';
+          elFb.appendChild(b);
+          elFb.appendChild(document.createTextNode(
+            quiz.right >= 4 ? '，很棒！' : '，再来一轮试试？'));
+        }
+        if (elNext) { elNext.textContent = '再来一轮 →'; elNext.hidden = false; }
+        try { flyOut(); } catch (e) {}
+      }
+
+      function close() {
+        clearBorder();
+        setOpen(false);
+        quiz.locked = true; quiz.finished = false;
+        try { flyOut(); } catch (e) {}
+      }
+
+      btn.addEventListener('click', function () {
+        if (open) { close(); return; }
+        /* 档案卡也占右边，先让位 —— 只在真的开着时收，
+           免得顺手把用户已经拼上的金线一起熄了。 */
+        if (document.body.classList.contains('panel-open')) {
+          try { closePanel(); } catch (e) {}
+        }
+        setOpen(true);
+        start();
+      });
+      var x = panel.querySelector('.kit-x');
+      if (x) x.addEventListener('click', close);
+      if (elNext) {
+        elNext.addEventListener('click', function () {
+          if (quiz.finished) start(); else nextQuestion();
+        });
+      }
+      /* 收起面板但测验没关（比如点了别的工具）时也要解锁档案 */
+      globe.quizClose = close;
+    })();
 
 
     /* 工具栏收纳（只在手机上生效，桌面永远整条展开）。

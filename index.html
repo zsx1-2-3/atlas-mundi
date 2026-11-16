@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-16-BE">
+<meta name="build" content="2026-11-16-BF">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -3338,6 +3338,9 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
          用户看到的就是"点一下顿一下"。decoding=async 让浏览器把解码
          挪到别的线程，主线程只负责布局。 */
       pic.decoding = 'async';
+      /* 主图是"点进来第一眼要看的东西"，缩略图只是胶片带。
+         没这一行，Chrome 把 6 张图的请求按同级排队，主图会被自己的缩略图拖着走。 */
+      try { pic.setAttribute('fetchpriority', 'high'); } catch (e) {}
       picWrap.appendChild(pic);
       /* 放大提示 + 点击查看大图 */
       picWrap.appendChild(el('div', 'zoomhint', '⤢'));
@@ -3395,6 +3398,8 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
               picWrap.classList.remove('loading', 'revealed');
             }, 340);
           })(seq);
+          if (globe.startThumbs) globe.startThumbs();
+          if (globe.startPrefetch) globe.startPrefetch();
           /* 兜底：cards.json 里没有 portrait 的老数据，仍按实际尺寸补一次。
              有标记的不会走到这里改变框型，所以不会跳。 */
           if (it.portrait == null && !(it.size && it.size.detail)) {
@@ -3493,13 +3498,24 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
          OBS 上主图 50~150KB、实测 0.2 秒就到 —— 早取早显示，比"等 1.6 秒
          飞完再取"体验好得多。主图先发，五张缩略图错开 60ms 跟上，
          别和主图挤在同一帧。 */
-      if (picSeq === 0) showPic(0);
-      if (strip) {
+      /* 缩略图要等主图落地之后再发。
+         以前 6 张图在 300ms 内一起发出去，挤在同一条慢链路（OBS 冷连接）上排队，
+         主图排在队尾 —— 实测点开一个国家 3 秒才见到照片，其中大半时间是在等队列。
+         现在主图 onload 之后才开始（900ms 兜底，主图挂了也不至于胶片带空着）。 */
+      var thumbsStarted = false;
+      var startThumbs = function () {
+        if (thumbsStarted || !strip) return;
+        thumbsStarted = true;
         imgs.forEach(function (it, i) {
           var node = items[i];
           if (!node || !node.__load) return;
-          setTimeout(function () { node.__load(it.thumb_url || it.url, it.v); }, i * 60);
+          setTimeout(function () { node.__load(it.thumb_url || it.url, it.v); }, i * 80);
         });
+      };
+      globe.startThumbs = startThumbs;
+      if (picSeq === 0) showPic(0);
+      setTimeout(startThumbs, 900);
+      if (strip) {
 
         /* 预取详情图（1080 宽，60~120KB）。
            胶片带只预载 240px 缩略图，1080 的原图以前是点开才下 —— 这是"切一张等一会儿"的根。
@@ -3520,10 +3536,18 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         try {
           var conn = navigator.connection || {};
           if (!conn.saveData && !/2g/.test(conn.effectiveType || '')) {
-            imgs.forEach(function (it, i) {
-              if (i === 0) return;
-              setTimeout(function () { prefetchDetail(i); }, 700 + i * 160);
-            });
+            /* 1080 的原图也不能早发：5 张合计 400~600KB，一发就把主图挤后面了。
+               等主图落地（onload 里调 startPrefetch）再补，2.2 秒兜底。 */
+            var armed = false;
+            globe.startPrefetch = function () {
+              if (armed) return;
+              armed = true;
+              imgs.forEach(function (it, i) {
+                if (i === 0) return;
+                setTimeout(function () { prefetchDetail(i); }, 400 + i * 200);
+              });
+            };
+            setTimeout(function () { if (globe.startPrefetch) globe.startPrefetch(); }, 2200);
             items.forEach(function (node, i) {
               node.addEventListener('mouseenter', function () { prefetchDetail(i); });
               node.addEventListener('touchstart', function () { prefetchDetail(i); }, { passive: true });

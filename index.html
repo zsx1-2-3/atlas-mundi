@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-16-BB">
+<meta name="build" content="2026-11-16-BC">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -605,6 +605,20 @@
     color:rgba(160,184,214,.5);
     border-top:1px solid rgba(120,150,190,.13);
   }
+  /* 索引还没到时的占位：和真实条目同高（54px），
+     所以数据到了只换内容、面板高度不跳。 */
+  .sr-skel{display:flex;align-items:center;gap:13px;padding:10px 15px;height:54px;box-sizing:border-box}
+  .sr-skel .s-ico{flex:0 0 auto;width:34px;height:34px;border-radius:50%;
+    background:rgba(148,182,224,.10)}
+  .sr-skel .s-lines{flex:1 1 auto;min-width:0}
+  .sr-skel .s-l1,.sr-skel .s-l2{display:block;border-radius:5px;background:rgba(148,182,224,.10)}
+  .sr-skel .s-l1{height:11px;width:38%;margin-bottom:7px}
+  .sr-skel .s-l2{height:9px;width:58%}
+  .sr-skel{animation:skelPulse 1.5s ease-in-out infinite}
+  @keyframes skelPulse{0%,100%{opacity:.5}50%{opacity:1}}
+  /* 数据到货时内容淡进来，而不是"啪"地一下换掉 */
+  .sr-swap{animation:srSwap .2s ease both}
+  @keyframes srSwap{from{opacity:.45}to{opacity:1}}
   /* 兼容旧的居中行（其余地方还在用 sr-country-row） */
   .sr-country-row{display:flex;align-items:center;gap:13px;padding:9px 15px}
 
@@ -2428,36 +2442,6 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     </section>
 
     <section class="tg tg-wide">
-      <h3>环流</h3>
-      <div class="tg-r">
-        <button class="tool-btn" id="btn-current" type="button" aria-pressed="false">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M3.2 9.6c2.6-2.5 4.3 2.5 6.9 0s4.3 2.5 6.9 0"/>
-            <path d="M3.2 15.2c2.6-2.5 4.3 2.5 6.9 0s4.3 2.5 6.9 0"/>
-            <path d="M18.6 4.2l3.1 2.1-3.1 2.1z" fill="currentColor" stroke="none"/>
-          </svg>
-          <span class="tl">显示洋流</span>
-        </button>
-        <button class="tool-btn" id="btn-monsoon" type="button" aria-pressed="false">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M3 8.4c2.4-2.2 4 -.6 5.6-2.2M3 13c2.4-2.2 4-.6 5.6-2.2M3 17.6c2.4-2.2 4-.6 5.6-2.2"/>
-            <path d="M11.2 12.6c3.2-3.2 6-4.4 9.4-4.2"/>
-            <path d="M17.4 5.5l3.6 2.8-3.9 1.9" />
-          </svg>
-          <span class="tl">显示季风带</span>
-        </button>
-        <button class="tool-btn" id="btn-windbelt" type="button" aria-pressed="false">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M3.2 7.4h11.2a2.4 2.4 0 1 0-2.4-2.4"/>
-            <path d="M3.2 12.4h15.4a2.3 2.3 0 1 1-2.3 2.3"/>
-            <path d="M3.2 17.4h8.4"/>
-          </svg>
-          <span class="tl">显示气压带与风带</span>
-        </button>
-      </div>
-    </section>
-
-    <section class="tg">
       <h3>定位</h3>
       <div class="tg-r">
         <button class="tool-btn" id="btn-time" type="button" aria-pressed="false">
@@ -2492,6 +2476,36 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
             <circle cx="14.1" cy="17.6" r="1.6" fill="currentColor" stroke="none"/>
           </svg>
           <span class="tl">气温定位：点任意位置看实时气温</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="tg tg-wide">
+      <h3>环流</h3>
+      <div class="tg-r">
+        <button class="tool-btn" id="btn-current" type="button" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3.2 9.6c2.6-2.5 4.3 2.5 6.9 0s4.3 2.5 6.9 0"/>
+            <path d="M3.2 15.2c2.6-2.5 4.3 2.5 6.9 0s4.3 2.5 6.9 0"/>
+            <path d="M18.6 4.2l3.1 2.1-3.1 2.1z" fill="currentColor" stroke="none"/>
+          </svg>
+          <span class="tl">显示洋流</span>
+        </button>
+        <button class="tool-btn" id="btn-monsoon" type="button" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 8.4c2.4-2.2 4 -.6 5.6-2.2M3 13c2.4-2.2 4-.6 5.6-2.2M3 17.6c2.4-2.2 4-.6 5.6-2.2"/>
+            <path d="M11.2 12.6c3.2-3.2 6-4.4 9.4-4.2"/>
+            <path d="M17.4 5.5l3.6 2.8-3.9 1.9" />
+          </svg>
+          <span class="tl">显示季风带</span>
+        </button>
+        <button class="tool-btn" id="btn-windbelt" type="button" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3.2 7.4h11.2a2.4 2.4 0 1 0-2.4-2.4"/>
+            <path d="M3.2 12.4h15.4a2.3 2.3 0 1 1-2.3 2.3"/>
+            <path d="M3.2 17.4h8.4"/>
+          </svg>
+          <span class="tl">显示气压带与风带</span>
         </button>
       </div>
     </section>
@@ -5402,11 +5416,23 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
      空输入直接点开时它就是入口，用户不用先背关键词。 */
   function showCountryList() {
     if (!IDX || !IDX.docs) {
+      /* 1MB 的检索索引比首屏那几张图慢到：这时候给几条和真实条目同高的
+         骨架，而不是一行"尚未就绪"—— 数据到了一换就好，面板高度不跳。
+         索引到货后由 rerenderIfListOpen() 自动补一次渲染。 */
       qRes.innerHTML = '';
       qRes.hidden = false;
-      var emptyBox = el('div', 'sr-list');
-      emptyBox.appendChild(el('div', 'sr-empty', '知识库索引尚未就绪'));
-      qRes.appendChild(emptyBox);
+      var skelBox = el('div', 'sr-list');
+      for (var si = 0; si < 6; si++) {
+        var sk = el('div', 'sr-skel');
+        sk.appendChild(el('i', 's-ico'));
+        var sl = el('div', 's-lines');
+        sl.appendChild(el('i', 's-l1'));
+        sl.appendChild(el('i', 's-l2'));
+        sk.appendChild(sl);
+        skelBox.appendChild(sk);
+      }
+      qRes.appendChild(skelBox);
+      qRes.appendChild(el('div', 'sr-foot', '正在载入知识库…'));
       return;
     }
     var seen = {}, list = [];
@@ -5558,6 +5584,16 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
        只藏文字、保留 logo，顶栏不会变成一条空条。 */
     var tbEl = document.getElementById('topbar');
     if (tbEl) tbEl.classList.toggle('searching', !!open);
+    /* 展开这一下不要跑宽度动画。
+       卡片 #q-res 是 width:100%，跟着 .46s 的宽度过渡一帧一帧重排 ——
+       236 条国家列表就在半透明的状态下不断换行、重新分栏，
+       眼睛看到的是"框先出来，内容随后突然填进去"。
+       宽度一帧跳到终值，只留 220ms 的淡入；收起方向仍保留收缩动画，
+       那时视线已经离开，动画反而是个收尾。 */
+    if (open) {
+      searchWrap.style.transitionProperty = 'none';
+      void searchWrap.offsetWidth;          // 先把"无过渡"落成实际样式
+    }
     searchWrap.classList.toggle('open', !!open);
     if (!open) {
       qRes.hidden = true;
@@ -5568,6 +5604,10 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     searchWrap.classList.toggle('list-open', !!list);
     if (list) showCountryList(); else qRes.hidden = true;
     fitSearchWidth();
+    /* 宽度已定，两帧之后把过渡还给 CSS（确保这一帧真的按"无过渡"渲染过） */
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { searchWrap.style.transitionProperty = ''; });
+    });
   }
 
   /* ---------- 框宽跟着内容走 ----------
@@ -5859,12 +5899,23 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
     });
   });
 
+  /* 下拉正开着（还停在空列表状态）就把内容补上。
+     以前索引到了什么都不做，面板一直停在"尚未就绪"，用户只能重新点一次。 */
+  function rerenderIfListOpen() {
+    if (!qRes || qRes.hidden) return;
+    if (!searchWrap || !searchWrap.classList.contains('list-open')) return;
+    showCountryList();
+    var box = qRes.querySelector('.sr-list');
+    if (box) box.classList.add('sr-swap');
+  }
+
   function loadSearchIndex() {
     fetchAny('data/search.json')
       .then(function (d) {
         IDX = buildIdx(d.docs || []);
         mergeCountryDocs();
         updateIdxSub();
+        rerenderIfListOpen();
       })
       .catch(function (e) {
         if (qSub) qSub.textContent = '索引未加载（' + e.message + '）';
@@ -5879,6 +5930,7 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
         LABEL_META = m || null;
         mergeCountryDocs();
         updateIdxSub();
+        rerenderIfListOpen();     // 排序按人口，元数据到了顺序才算得出来
       })
       .catch(function () { /* 拿不到就退化成"只有三国可查"，不影响地球本体 */ });
   }

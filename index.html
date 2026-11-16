@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-16-BL">
+<meta name="build" content="2026-11-16-BM">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2599,25 +2599,6 @@ body.quiz-on #labels-canvas{display:none!important}
       </div>
     </section>
 
-    <section class="tg tg-wide">
-
-      <h3>测验</h3>
-      <div class="tg-r">
-        <button class="tool-btn" id="btn-quiz" type="button" aria-pressed="false">
-          <!-- 一个问号：开口的圈 + 一个点，缩到 16px 也还认得出 -->
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <circle cx="12" cy="12" r="8.3"/>
-            <path d="M9.6 9.5a2.5 2.5 0 1 1 3.2 2.4c-.8.3-1.1 1-1.1 1.9"/>
-            <circle cx="11.7" cy="16.7" r=".9" fill="currentColor" stroke="none"/>
-          </svg>
-          <span class="tl">看图猜国家</span>
->
-        </button>
-      </div>
-    </section>
-        </button>
-      </div>
-    </section>
 
   </div>
 </div>
@@ -5997,6 +5978,17 @@ body.quiz-on #labels-canvas{display:none!important}
       '<path d="M8.6 19.4h6.8M12 15.8v3.6"/></svg>' +
       '<span class="tl">投影模式</span>';
     row.appendChild(btn);
+    /* 看图猜国家与投影同属课堂教具，收进同一组（原来单独占一组「测验」） */
+    var qbtn = el('button', 'tool-btn');
+    qbtn.id = 'btn-quiz';
+    qbtn.type = 'button';
+    qbtn.setAttribute('aria-pressed', 'false');
+    qbtn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">' +
+      '<circle cx="12" cy="12" r="8.3"/>' +
+      '<path d="M9.6 9.5a2.5 2.5 0 1 1 3.2 2.4c-.8.3-1.1 1-1.1 1.9"/>' +
+      '<circle cx="11.7" cy="16.7" r=".9" fill="currentColor" stroke="none"/></svg>' +
+      '<span class="tl">看图猜国家</span>';
+    row.appendChild(qbtn);
     sec.appendChild(row);
     tb.appendChild(sec);
 

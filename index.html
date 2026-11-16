@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-16-BH">
+<meta name="build" content="2026-11-16-BI">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -2289,9 +2289,18 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
   #tools{left:calc(14px + env(safe-area-inset-left, 0px));
          bottom:calc(14px + env(safe-area-inset-bottom, 0px))}
   /* 横屏高度只有 390：两列网格本来就矮，再压一点就行 */
-  #tools-body{width:200px;padding:9px 9px 8px;gap:7px 8px}
-  .tool-btn{width:40px;height:42px}
-  .tg h3{margin-bottom:5px;font-size:9px}
+  /* 390 高的横屏：抽屉 ~335px 会把第一组顶出屏幕外。
+     按钮压到 34px、间距再收，五组 281px 正好装下；
+     再给面板限高滚动兜底（更矮的屏、带浏览器地址栏时也不会顶出）。 */
+  #tools-body{width:200px;padding:8px;gap:5px 8px;
+              max-height:calc(100vh - 74px);overflow-y:auto;
+              overscroll-behavior:contain;scrollbar-width:thin}
+  #tools-body::-webkit-scrollbar{width:5px}
+  #tools-body::-webkit-scrollbar-thumb{background:rgba(120,150,190,.32);border-radius:3px}
+  #tools-body::-webkit-scrollbar-track{background:transparent}
+  .tool-btn{width:34px;height:34px;border-radius:9px}
+  .tool-btn svg{width:14px;height:14px}
+  .tg h3{margin-bottom:4px;font-size:9px}
 }
 
 </style>

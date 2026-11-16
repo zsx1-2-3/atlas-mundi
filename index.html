@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-16-BG">
+<meta name="build" content="2026-11-16-BH">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -277,6 +277,29 @@
     font-size:12px;color:var(--ink-faint);letter-spacing:.06em;
   }
   footer .r{font-family:Georgia,serif;font-style:italic;color:var(--gold);opacity:.75}
+
+  /* ---- 竖屏提示：寰宇图志是横屏体验 ----
+     手机竖屏时球、面板、抽屉全都在为宽屏排布，硬适配等于两套 UI 都做不精。
+     统一策略：竖屏只显示一个"请横屏"的遮罩，横屏（含手机横过来）走正常布局。
+     "锁定横屏"按钮请求全屏 + orientation.lock —— iOS Safari 不支持锁定，
+     但遮罩提示仍然有效，用户手动横过来即可。 */
+  #rotate-hint{
+    position:fixed;inset:0;z-index:210000;display:none;
+    flex-direction:column;align-items:center;justify-content:center;
+    gap:14px;padding:28px;text-align:center;
+    background:#050a12;color:#dfe9f8;
+  }
+  #rotate-hint .rh-ico{width:64px;height:64px;opacity:.9;
+    animation:rhTilt 2.2s ease-in-out infinite}
+  @keyframes rhTilt{0%,20%{transform:rotate(0)}50%,70%{transform:rotate(90deg)}100%{transform:rotate(90deg)}}
+  #rotate-hint .rh-t{font-size:17px;color:#f0f4fb}
+  #rotate-hint .rh-s{font-size:12.5px;line-height:1.7;color:rgba(196,216,244,.72)}
+  #rotate-hint button{
+    margin-top:6px;font:inherit;font-size:13.5px;padding:9px 22px;border-radius:999px;
+    color:#f3e2bd;background:rgba(216,178,106,.14);border:1px solid rgba(216,178,106,.38);
+    cursor:pointer}
+  #rotate-hint button:active{background:rgba(216,178,106,.26)}
+  @media (orientation:portrait) and (max-width:600px){ #rotate-hint{display:flex} }
 
   @media (max-width:560px){
     .row{grid-template-columns:1fr;gap:6px}
@@ -12040,6 +12063,35 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
       var m = document.querySelector('meta[name="build"]');
       var t = document.getElementById('build-tag');
       if (m && t) t.textContent = 'build ' + (m.content || '?');
+    })();
+  </script>
+
+  <!-- 竖屏遮罩：寰宇图志只按横屏设计，竖屏一律引导旋转 -->
+  <div id="rotate-hint" aria-hidden="true">
+    <svg class="rh-ico" viewBox="0 0 64 64" aria-hidden="true">
+      <rect x="14" y="6" width="36" height="52" rx="6" fill="none"
+            stroke="#9db6d8" stroke-width="2.5"/>
+      <path d="M20 50h24" stroke="#9db6d8" stroke-width="2" stroke-linecap="round"/>
+      <path d="M44 26l8-8M52 26V10h-16" fill="none" stroke="#d8b26a" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div class="rh-t">寰宇图志是横屏体验</div>
+    <div class="rh-s">请把手机旋转 90°；<br>也可以点下面按钮，横屏后自动全屏锁定</div>
+    <button id="rh-lock" type="button">锁定横屏</button>
+  </div>
+  <script>
+    (function () {
+      var btn = document.getElementById('rh-lock');
+      if (!btn) return;
+      btn.addEventListener('click', function () {
+        var el = document.documentElement;
+        var rq = el.requestFullscreen || el.webkitRequestFullscreen;
+        try { if (rq) rq.call(el); } catch (e) {}
+        try {
+          if (screen.orientation && screen.orientation.lock)
+            screen.orientation.lock('landscape').catch(function () {});
+        } catch (e) {}
+      });
     })();
   </script>
 

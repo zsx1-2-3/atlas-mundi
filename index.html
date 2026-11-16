@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-16-BJ">
+<meta name="build" content="2026-11-16-BK">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -12094,8 +12094,21 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
   <script>
     (function () {
       var btn = document.getElementById('rh-lock');
-      if (!btn) return;
-      btn.addEventListener('click', function () {
+      /* 转屏/全屏之后，有的浏览器会把焦点还给输入框，键盘立刻弹出来把屏幕盖掉。
+         这里在转屏落定后主动收一次：给 body 派一个合成点击，走站点统一的
+         "点框外收起搜索"逻辑，再把输入框失焦。只跑一次，别打扰正常操作。 */
+      var lastCalm = 0;   /* 2.5s 内只收一次；横竖来回切也要每次都收 */
+      function calmDown() {
+        if (Date.now() - lastCalm < 2500) return;
+        lastCalm = Date.now();
+        setTimeout(function () {
+          var q = document.getElementById('q');
+          if (q && document.activeElement === q && q.blur) q.blur();
+          document.body.dispatchEvent(new MouseEvent('click',
+            { bubbles: true, cancelable: true, view: window }));
+        }, 400);
+      }
+      if (btn) btn.addEventListener('click', function () {
         var el = document.documentElement;
         var rq = el.requestFullscreen || el.webkitRequestFullscreen;
         try { if (rq) rq.call(el); } catch (e) {}
@@ -12103,7 +12116,9 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
           if (screen.orientation && screen.orientation.lock)
             screen.orientation.lock('landscape').catch(function () {});
         } catch (e) {}
+        calmDown();
       });
+      window.addEventListener('orientationchange', calmDown);
     })();
   </script>
 

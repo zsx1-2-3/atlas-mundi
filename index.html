@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-17-BO">
+<meta name="build" content="2026-11-17-BP">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -4922,7 +4922,7 @@ body.quiz-on #labels-canvas{display:none!important}
         var row = el('div', 'ka');
         row.appendChild(el('b', '', nm));
         row.appendChild(el('span', '', '看它的位置与气候，再回头看表格里的差异'));
-        row.appendChild(el('i', '', '飞过去 ›'));
+        row.appendChild(el('i', '', '›'));
         row.addEventListener('click', function () {
           var tgt = String((typeof targetIso === 'function' ? targetIso(iso) : iso) || iso).toUpperCase();
           flyToCountry(tgt);
@@ -4957,7 +4957,7 @@ body.quiz-on #labels-canvas{display:none!important}
         var row = el('div', 'ka');
         row.appendChild(el('b', '', a.where || a.iso));
         row.appendChild(el('span', '', a.see || ''));
-        row.appendChild(el('i', '', '飞过去 ›'));
+        row.appendChild(el('i', '', '›'));
         row.addEventListener('click', function () {
           var tgt = String((typeof targetIso === 'function' ? targetIso(a.iso) : a.iso) || a.iso).toUpperCase();
           flyToCountry(tgt);

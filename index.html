@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-17-BP">
+<meta name="build" content="2026-11-17-BQ">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -4862,6 +4862,10 @@ body.quiz-on #labels-canvas{display:none!important}
 
   function openKCard(it, opt) {
     if (!it) return;
+    /* 搜索命中的往往是 IDX 文档快照（有 level 没有 media）——开卡前先换回
+       TEACH 数组里的本体，图示、追问链这些富字段才拿得到。 */
+    var canon = (typeof tchFind === "function") && tchFind(it.id);
+    if (canon) it = canon;
     opt = opt || {};
     /* 面板本来关着 → 这是新的一条链，从零开始；点面包屑 → 用它给的路径。 */
     if (!detail.classList.contains('open')) K_PATH = [];

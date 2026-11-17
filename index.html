@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-17-CB">
+<meta name="build" content="2026-11-17-CC">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -5003,7 +5003,8 @@ body.quiz-on #labels-canvas{display:none!important}
       /* 真实图（USGS / 官方制图 / 实拍）优先于手绘 SVG：它的信息密度和"专业感"
          是示意图给不了的；SVG 只留给没有现成好图的概念。 */
       var isImg = !!(it.media.img && TEACH_IMG[it.media.img]);
-      md.appendChild(el('b', '', isImg ? '原图' : (it.media.svg ? '图示' : '图示 / 动画位')));
+      md.appendChild(el('b', '', isImg ? '原图 · 点击放大'
+        : (it.media.svg ? '图示' : '图示 / 动画位')));
       if (isImg) {
         var im = TEACH_IMG[it.media.img];
         var fig = el('div', 'kmedia-img' + (im.dark ? ' dark' : ''));
@@ -5017,7 +5018,13 @@ body.quiz-on #labels-canvas{display:none!important}
         pic.decoding = 'async';
         /* 取图失败就退回文字说明，别给用户留一个空白框 */
         pic.onerror = function () { fig.style.display = 'none'; md.appendChild(el('span', '', it.media.hint || '')); };
+        /* 卡片图框只有 ~460px，USGS 那种信息密集的图在这里字会小到看不清。
+           点一下走站点已有的灯箱（同一张 1200 宽原图，不额外请求）。 */
         fig.appendChild(pic);
+        fig.style.cursor = 'zoom-in';
+        fig.addEventListener('click', function () {
+          openLightbox(pic.src, im.cap || im.alt || '', im.credit || '', '');
+        });
         md.appendChild(fig);
         var cr = el('div', 'kmedia-credit');
         if (im.cap) cr.appendChild(el('span', '', im.cap));

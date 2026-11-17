@@ -70,3 +70,5 @@ assets/*/*/*.png
 # 图层索引/贴图例外：climate.png 是调色板贴图，属于生成物，必须入库
 !assets/tex/*.png
 选图台.html
+shots_ui/
+shots_*/

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-17-CK">
+<meta name="build" content="2026-11-17-CL">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -755,21 +755,31 @@
      中性白，hover 只把底色提一档并轻微上浮，不靠描边和金光做强调。
      金色只留给"今天"标签和悬停时的一线暖描边，品牌感还在，但不扎眼。 */
   .sr-sug{padding:14px 16px 18px;border-bottom:1px solid rgba(120,150,190,.1)}
-  .sr-daily{display:flex;align-items:center;gap:11px;margin-bottom:14px;padding:12px 14px;
-    border-radius:14px;background:rgba(255,255,255,.055);border:1px solid transparent;
+  /* 今天这一条只留标题：左边一枚"日"图标示意今天，右边一枚箭头示意可进，
+     不写"今天""看看"四个字，也不写知识点正文 —— 一行高，不抢"可以这样问"的位置 */
+  .sr-daily{display:flex;align-items:center;gap:10px;margin-bottom:12px;padding:8px 12px 8px 9px;
+    border-radius:13px;background:rgba(255,255,255,.055);border:1px solid transparent;
     cursor:pointer;
     transition:background .22s cubic-bezier(.22,.61,.36,1),border-color .22s ease,
       box-shadow .22s ease,transform .22s cubic-bezier(.22,.61,.36,1)}
   .sr-daily:hover{background:rgba(255,255,255,.085);border-color:rgba(255,255,255,.07);
     box-shadow:0 2px 10px rgba(0,0,0,.2);transform:translateY(-1px)}
   .sr-daily:active{transform:translateY(0);background:rgba(255,255,255,.07)}
-  .sr-daily-tag{flex:0 0 auto;font-size:10.5px;letter-spacing:.06em;padding:3px 8px;border-radius:7px;
-    color:rgba(244,220,172,.98);background:rgba(216,178,106,.16);border:0}
-  .sr-daily-txt{min-width:0;flex:1 1 auto}
-  .sr-daily-name{font-size:14px;font-weight:500;color:rgba(240,245,252,.97)}
-  .sr-daily-line{margin-top:3px;font-size:12px;line-height:1.55;color:rgba(176,196,222,.82);
-    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .sr-daily-go{flex:0 0 auto;font-size:12px;color:rgba(232,196,128,.85)}
+  .sr-daily-ico{flex:0 0 auto;width:28px;height:28px;border-radius:9px;
+    display:flex;align-items:center;justify-content:center;
+    background:rgba(216,178,106,.15);color:rgba(244,220,172,.95);
+    transition:background .22s ease}
+  .sr-daily:hover .sr-daily-ico{background:rgba(216,178,106,.24)}
+  .sr-daily-ico svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.7;
+    stroke-linecap:round;stroke-linejoin:round}
+  .sr-daily-name{min-width:0;flex:1 1 auto;font-size:13.5px;font-weight:500;
+    color:rgba(240,245,252,.97);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .sr-daily-go{flex:0 0 auto;display:flex;align-items:center;justify-content:center;
+    width:15px;height:15px;color:rgba(186,204,230,.5);
+    transition:color .22s ease,transform .22s cubic-bezier(.22,.61,.36,1)}
+  .sr-daily:hover .sr-daily-go{color:rgba(244,220,172,.9);transform:translateX(1.5px)}
+  .sr-daily-go svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:2;
+    stroke-linecap:round;stroke-linejoin:round}
 
   /* 空输入推荐 / 多结果列表头 */
   .sr-sug-h{display:flex;align-items:center;gap:8px;font-size:11.5px;font-weight:500;
@@ -4684,12 +4694,25 @@ body.quiz-on #labels-canvas{display:none!important}
       var dayN = Math.floor(Date.now() / 86400000);
       var daily = poolDaily[dayN % poolDaily.length];
       var dc = el('div', 'sr-daily');
-      dc.appendChild(el('span', 'sr-daily-tag', '今天'));
-      var dtx = el('div', 'sr-daily-txt');
-      dtx.appendChild(el('div', 'sr-daily-name', daily.name));
-      dtx.appendChild(el('div', 'sr-daily-line', String(daily.line || '').slice(0, 68)));
-      dc.appendChild(dtx);
-      dc.appendChild(el('span', 'sr-daily-go', '看看 ›'));
+      dc.setAttribute('role', 'button');
+      dc.setAttribute('aria-label', '今日知识点：' + daily.name);
+      dc.title = daily.name;
+      /* 左：太阳（今天）；中间：只有标题；右：箭头（可进） */
+      var ico = el('span', 'sr-daily-ico');
+      ico.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">' +
+        '<circle cx="12" cy="12" r="4.1"/>' +
+        '<path d="M12 2.7v2.3M12 19v2.3M2.7 12h2.3M19 12h2.3' +
+        'M5.5 5.5l1.65 1.65M16.85 16.85l1.65 1.65M18.5 5.5l-1.65 1.65M7.15 16.85 5.5 18.5"/></svg>';
+      dc.appendChild(ico);
+      /* 只写标题，且和 chip 一样去掉冒号后的副题（"防灾减灾：三种地理信息技术怎么分工"
+         → "防灾减灾"）—— 一行就够，正文进来再看不迟；全名和正文都挂在 title 上 */
+      var dName = String(daily.name || '');
+      var dCi = dName.search(/[：:]/);
+      if (dCi >= 2) dName = dName.slice(0, dCi);
+      dc.appendChild(el('span', 'sr-daily-name', dName));
+      var go = el('span', 'sr-daily-go');
+      go.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 6.5 15 12l-5.5 5.5"/></svg>';
+      dc.appendChild(go);
       dc.addEventListener('mousedown', function (e) { e.preventDefault(); });
       dc.addEventListener('click', function (e) { e.stopPropagation(); openKCard(daily); });
       wrap.appendChild(dc);

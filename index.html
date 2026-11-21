@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-21-CW">
+<meta name="build" content="2026-11-21-CY">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -294,7 +294,8 @@
   @keyframes rhTilt{0%,20%{transform:rotate(0)}50%,70%{transform:rotate(90deg)}100%{transform:rotate(90deg)}}
   /* ---- 太阳系模式：只留球和提示条，其余 UI 让位 ---- */
   body.solar-on #labels-canvas,body.solar-on #tools,body.solar-on #search-wrap,
-  body.solar-on #detail,body.solar-on #q-res,body.solar-on #hud{display:none !important}
+  body.solar-on #detail,body.solar-on #q-res,body.solar-on #hud,
+  body.solar-on #globe-msg{display:none !important}
   #solar-hint{position:fixed;left:50%;bottom:26px;z-index:60;padding:9px 18px;
     border-radius:999px;font-size:12.5px;letter-spacing:.02em;
     color:rgba(214,232,255,.86);background:rgba(8,14,24,.74);
@@ -9780,7 +9781,10 @@ body.quiz-on #labels-canvas{display:none!important}
       tl.setCrossOrigin('anonymous');
       /* 先用 OBS，取不到再退回同仓的 assets/tex/（本地预览、离线演示都要能出图） */
       function solarTex(name, cb) {
-        tl.load(assetSrc('assets/tex/' + name), function (t) {
+        /* 直接拼 OBS 地址：assetSrc 会在 assets/tex 被判"缺失"时改走相对路径，
+           而相对路径在 Pages 上不存在 —— 太阳系里的地球就会变成一颗黑球。 */
+        var remote = (typeof OBS_BASE === 'string' && OBS_BASE) ? (OBS_BASE + 'assets/tex/' + name) : '';
+        tl.load(remote || ('assets/tex/' + name), function (t) {
           t.colorSpace && (t.colorSpace = THREE.SRGBColorSpace); cb(t);
         }, null, function () {
           tl.load('assets/tex/' + name, function (t) {

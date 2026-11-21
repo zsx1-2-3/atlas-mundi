@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-17-CL">
+<meta name="build" content="2026-11-21-CP">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -292,6 +292,16 @@
   #rotate-hint .rh-ico{width:64px;height:64px;opacity:.9;
     animation:rhTilt 2.2s ease-in-out infinite}
   @keyframes rhTilt{0%,20%{transform:rotate(0)}50%,70%{transform:rotate(90deg)}100%{transform:rotate(90deg)}}
+  /* ---- 太阳系模式：只留球和提示条，其余 UI 让位 ---- */
+  body.solar-on #labels-canvas,body.solar-on #tools,body.solar-on #search-wrap,
+  body.solar-on #detail,body.solar-on #q-res,body.solar-on #hud{display:none !important}
+  #solar-hint{position:fixed;left:50%;bottom:26px;z-index:60;padding:9px 18px;
+    border-radius:999px;font-size:12.5px;letter-spacing:.02em;
+    color:rgba(214,232,255,.86);background:rgba(8,14,24,.74);
+    border:1px solid rgba(140,170,210,.26);backdrop-filter:blur(10px);
+    opacity:0;pointer-events:none;transform:translate(-50%,10px);
+    transition:opacity .35s ease,transform .35s ease}
+  body.solar-on #solar-hint{opacity:1;transform:translate(-50%,0)}
   #rotate-hint .rh-t{font-size:17px;color:#f0f4fb}
   #rotate-hint .rh-s{font-size:12.5px;line-height:1.7;color:rgba(196,216,244,.72)}
   #rotate-hint button{
@@ -6170,6 +6180,20 @@ body.quiz-on #labels-canvas{display:none!important}
       '<circle cx="11.7" cy="16.7" r=".9" fill="currentColor" stroke="none"/></svg>' +
       '<span class="tl">看图猜国家</span>';
     row.appendChild(qbtn);
+    /* 太阳系：公转讲不了就白瞎了那半个单元 */
+    var sbtn = el('button', 'tool-btn');
+    sbtn.id = 'btn-solar';
+    sbtn.type = 'button';
+    sbtn.setAttribute('aria-pressed', 'false');
+    sbtn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">' +
+      '<circle cx="12" cy="12" r="3.4"/>' +
+      '<ellipse cx="12" cy="12" rx="9.6" ry="4.6" transform="rotate(-18 12 12)"/>' +
+      '<circle cx="19.6" cy="9.2" r="1.5" fill="currentColor" stroke="none"/></svg>' +
+      '<span class="tl">太阳系</span>';
+    row.appendChild(sbtn);
+    sbtn.addEventListener('click', function () {
+      if (window.__solarToggle) window.__solarToggle();
+    });
     sec.appendChild(row);
     tb.appendChild(sec);
 
@@ -9510,6 +9534,421 @@ body.quiz-on #labels-canvas{display:none!important}
       openDetail(tgt, cardOf(tgt), false);
     });
 
+    /* ================= 太阳系模式 =================
+       课本里"地球绕太阳转"是很大一块，但主界面是一颗孤立的地球，讲不了公转。
+       这里加一个独立视野：八大行星绕太阳公转，地球带真实的昼夜分界。
+
+       两个刻意的取舍：
+       1) 轨道半径与行星大小都不是真实比例（真实比例下地球只有 0.0004 个太阳半径，
+          根本看不见）。距离压缩到 0.58~2.34，大小按"能看清"排，太阳 0.30。
+       2) 不用 THREE 的光照，全部自己写 lambert。太阳在原点，方向光就是
+          -normalize(worldPos)，一行点乘就够；好处是不受 three 版本里
+          光照单位（useLegacyLights / 物理光照）变化的影响。 */
+    var solar = {
+      on: false, t: 0, target: 0,      // t=0 地球，t=1 太阳系
+      r0: 3.02,                         // 进入那一刻的相机距离
+      az0: 0, el0: 0,                   // 进入那一刻的拖拽基准角
+      root: null, planets: [], sun: null, sunUni: null,
+      camMinBack: CAM_MIN, camMaxBack: CAM_MAX
+    };
+    var SOLAR_FAR = 6.35;               // 太阳系默认机位：竖屏刚好装下最外圈 2.34
+
+    /* ---------- 程序化贴图：日冕、土星环、行星名 ---------- */
+    function solarGlowTex() {
+      var c = document.createElement('canvas');
+      c.width = c.height = 256;
+      var g = c.getContext('2d');
+      var rg = g.createRadialGradient(128, 128, 0, 128, 128, 128);
+      rg.addColorStop(0.00, 'rgba(255,250,225,0.95)');
+      rg.addColorStop(0.18, 'rgba(255,206,120,0.62)');
+      rg.addColorStop(0.42, 'rgba(255,150,60,0.26)');
+      rg.addColorStop(0.72, 'rgba(220,110,40,0.07)');
+      rg.addColorStop(1.00, 'rgba(200,90,30,0)');
+      g.fillStyle = rg;
+      g.fillRect(0, 0, 256, 256);
+      var t = new THREE.CanvasTexture(c);
+      t.needsUpdate = true;
+      return t;
+    }
+
+    function solarRingTex() {
+      var c = document.createElement('canvas');
+      c.width = 256; c.height = 256;
+      var g = c.getContext('2d');
+      g.clearRect(0, 0, 256, 256);
+      var bands = [[0.46, 0.52, 0.30], [0.53, 0.62, 0.62], [0.63, 0.66, 0.14],
+                   [0.67, 0.78, 0.52], [0.80, 0.86, 0.22], [0.88, 0.96, 0.34]];
+      bands.forEach(function (b) {
+        var r0 = b[0] * 128, r1 = b[1] * 128;
+        var grd = g.createRadialGradient(128, 128, r0, 128, 128, r1);
+        grd.addColorStop(0, 'rgba(226,210,178,' + b[2] + ')');
+        grd.addColorStop(1, 'rgba(206,188,152,' + b[2] + ')');
+        g.strokeStyle = grd;
+        g.lineWidth = r1 - r0;
+        g.beginPath();
+        g.arc(128, 128, (r0 + r1) / 2, 0, Math.PI * 2);
+        g.stroke();
+      });
+      var t = new THREE.CanvasTexture(c);
+      t.needsUpdate = true;
+      return t;
+    }
+
+    function solarLabel(name, color) {
+      var c = document.createElement('canvas');
+      c.width = 256; c.height = 72;
+      var g = c.getContext('2d');
+      g.font = '500 40px "Microsoft YaHei", "PingFang SC", sans-serif';
+      g.textAlign = 'center';
+      g.textBaseline = 'middle';
+      g.fillStyle = 'rgba(6,12,22,.55)';
+      g.fillText(name, 129, 38);
+      g.fillStyle = color || 'rgba(214,232,255,.92)';
+      g.fillText(name, 128, 36);
+      var t = new THREE.CanvasTexture(c);
+      t.needsUpdate = true;
+      var m = new THREE.SpriteMaterial({ map: t, transparent: true, depthWrite: false });
+      var sp = new THREE.Sprite(m);
+      sp.scale.set(0.30, 0.084, 1);
+      return sp;
+    }
+
+    /* ---------- 材质 ---------- */
+    function solarPlanetMat(c1, c2, seed, bands) {
+      return new THREE.ShaderMaterial({
+        uniforms: {
+          uC1: { value: new THREE.Color(c1) },
+          uC2: { value: new THREE.Color(c2) },
+          uSeed: { value: seed },
+          uBands: { value: bands }
+        },
+        vertexShader: [
+          'varying vec3 vNw; varying vec3 vPw; varying vec3 vL;',
+          'void main() {',
+          '  vL = position;',
+          '  vNw = normalize(mat3(modelMatrix) * normal);',
+          '  vPw = (modelMatrix * vec4(position, 1.0)).xyz;',
+          '  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);',
+          '}'
+        ].join('\n'),
+        fragmentShader: [
+          'uniform vec3 uC1; uniform vec3 uC2; uniform float uSeed; uniform float uBands;',
+          'varying vec3 vNw; varying vec3 vPw; varying vec3 vL;',
+          'void main() {',
+          '  vec3 n = normalize(vNw);',
+          '  vec3 L = normalize(-vPw);',                 // 太阳在原点
+          '  float lit = smoothstep(-0.10, 0.24, dot(n, L));',
+          /* 纬度条纹：用局部坐标的 y（没被公转带动），气态行星才有明显带 */
+          '  float band = 0.5 + 0.5 * sin(vL.y * 26.0 * uBands + uSeed);',
+          '  float nz = 0.5 + 0.5 * sin(dot(vL, vec3(11.0, 7.0, 13.0)) * 4.0 + uSeed);',
+          '  float mixv = clamp(mix(band, nz, 0.45), 0.0, 1.0);',
+          '  vec3 base = mix(uC1, uC2, mixv);',
+          '  vec3 col = base * (0.11 + 1.02 * lit);',
+          '  gl_FragColor = vec4(col, 1.0);',
+          '}'
+        ].join('\n')
+      });
+    }
+
+    function solarEarthMat(dayTex, nightTex) {
+      return new THREE.ShaderMaterial({
+        uniforms: {
+          uDay: { value: dayTex },
+          uNight: { value: nightTex }
+        },
+        vertexShader: [
+          'varying vec2 vUv; varying vec3 vNw; varying vec3 vPw;',
+          'void main() {',
+          '  vUv = uv;',
+          '  vNw = normalize(mat3(modelMatrix) * normal);',
+          '  vPw = (modelMatrix * vec4(position, 1.0)).xyz;',
+          '  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);',
+          '}'
+        ].join('\n'),
+        fragmentShader: [
+          'uniform sampler2D uDay; uniform sampler2D uNight;',
+          'varying vec2 vUv; varying vec3 vNw; varying vec3 vPw;',
+          'void main() {',
+          '  vec3 n = normalize(vNw);',
+          '  vec3 L = normalize(-vPw);',
+          /* 晨昏线要给一点过渡，硬切会像贴了半张纸 */
+          '  float lit = smoothstep(-0.12, 0.26, dot(n, L));',
+          '  vec3 day = texture2D(uDay, vUv).rgb;',
+          '  vec3 night = texture2D(uNight, vUv).rgb;',
+          '  vec3 col = mix(night * 1.30 + day * 0.035, day * 1.04, lit);',
+          '  vec3 V = normalize(cameraPosition - vPw);',
+          '  float rim = pow(1.0 - clamp(dot(n, V), 0.0, 1.0), 3.0);',
+          '  col += vec3(0.20, 0.48, 1.00) * rim * lit * 0.75;',   // 大气边缘
+          '  gl_FragColor = vec4(col, 1.0);',
+          '}'
+        ].join('\n')
+      });
+    }
+
+    /* ---------- 建场景 ---------- */
+    var SOLAR_DEF = [
+      { name: '水星', a: 0.58, r: 0.036, c1: '#a2968c', c2: '#6a5f58', sp: 0.62, inc: 0.055 },
+      { name: '金星', a: 0.72, r: 0.062, c1: '#efd8a4', c2: '#c29455', sp: 0.46, inc: 0.028 },
+      { name: '地球', a: 0.88, r: 0.066, earth: true, sp: 0.38, inc: 0.0 },
+      { name: '火星', a: 1.06, r: 0.044, c1: '#cd6f48', c2: '#8a4630', sp: 0.30, inc: -0.042 },
+      { name: '木星', a: 1.46, r: 0.165, c1: '#eddcc0', c2: '#b1875c', sp: 0.16, inc: 0.020, bands: 2.2 },
+      { name: '土星', a: 1.82, r: 0.138, c1: '#eedfb0', c2: '#bfa269', sp: 0.12, inc: -0.018, bands: 1.8, ring: true },
+      { name: '天王星', a: 2.10, r: 0.096, c1: '#b3dfe6', c2: '#6ea6bb', sp: 0.085, inc: 0.048 },
+      { name: '海王星', a: 2.34, r: 0.094, c1: '#7aa4ec', c2: '#3a60ad', sp: 0.065, inc: -0.030 }
+    ];
+
+    function solarBuild() {
+      if (solar.root) return;
+      var root = new THREE.Group();
+      root.visible = false;
+      scene.add(root);
+      solar.root = root;
+
+      /* ---- 太阳 ---- */
+      var sunGeo = new THREE.SphereGeometry(0.34, 64, 48);
+      solar.sunUni = { uTime: { value: 0 } };
+      var sunMat = new THREE.ShaderMaterial({
+        uniforms: solar.sunUni,
+        vertexShader: [
+          'varying vec3 vN; varying vec3 vV;',
+          'void main() {',
+          '  vN = normalize(normalMatrix * normal);',
+          '  vec4 mv = modelViewMatrix * vec4(position, 1.0);',
+          '  vV = -mv.xyz;',
+          '  gl_Position = projectionMatrix * mv;',
+          '}'
+        ].join('\n'),
+        fragmentShader: [
+          'uniform float uTime;',
+          'varying vec3 vN; varying vec3 vV;',
+          'void main() {',
+          '  vec3 n = normalize(vN);',
+          /* 米粒组织：两层低频正弦交叉，够"沸腾"又不像噪声贴图 */
+          '  float t = uTime;',
+          '  float a = sin(n.x * 13.0 + t * 0.55) * sin(n.y * 16.0 - t * 0.47) * sin(n.z * 14.0 + t * 0.39);',
+          '  float b = sin(n.x * 29.0 - t * 0.85) * sin(n.y * 25.0 + t * 0.71) * sin(n.z * 31.0 - t * 0.63);',
+          '  float g = 0.5 + 0.5 * (a * 0.66 + b * 0.34);',
+          '  vec3 cool = vec3(1.00, 0.55, 0.13);',
+          '  vec3 hot  = vec3(1.00, 0.96, 0.76);',
+          '  vec3 col = mix(cool, hot, pow(g, 1.35));',
+          /* 边缘变暗：视线越斜，看到的太阳大气层越冷 */
+          '  float mu = clamp(dot(n, normalize(vV)), 0.0, 1.0);',
+          '  col *= 0.58 + 0.55 * pow(mu, 0.55);',
+          '  gl_FragColor = vec4(col * 1.30, 1.0);',
+          '}'
+        ].join('\n')
+      });
+      solar.sun = new THREE.Mesh(sunGeo, sunMat);
+      root.add(solar.sun);
+
+      /* 日冕：两层径向渐变叠加，外圈更大更淡 */
+      var glowTex = solarGlowTex();
+      [[1.55, 0.85], [3.10, 0.45]].forEach(function (g) {
+        var sp = new THREE.Sprite(new THREE.SpriteMaterial({
+          map: glowTex, transparent: true, blending: THREE.AdditiveBlending,
+          depthWrite: false, opacity: g[1]
+        }));
+        sp.scale.setScalar(0.34 * 2 * g[0]);
+        root.add(sp);
+      });
+
+      var sunLab = solarLabel('太阳', 'rgba(255,228,168,.95)');
+      sunLab.position.set(0, 0.47, 0);
+      sunLab.scale.set(0.34, 0.095, 1);
+      root.add(sunLab);
+
+      /* ---- 地球贴图：直接复用站点已有的 4K 日/夜图 ---- */
+      var earthDay = null, earthNight = null, earthMat = null;
+      function applyEarthTex() {
+        if (!earthMat || !earthDay || !earthNight) return;
+        earthMat.uniforms.uDay.value = earthDay;
+        earthMat.uniforms.uNight.value = earthNight;
+        earthMat.needsUpdate = true;
+      }
+      var tl = new THREE.TextureLoader();
+      tl.setCrossOrigin('anonymous');
+      tl.load(assetSrc('assets/tex/earth-day.webp'), function (t) {
+        t.colorSpace && (t.colorSpace = THREE.SRGBColorSpace);
+        earthDay = t; applyEarthTex();
+      }, null, function () { });
+      tl.load(assetSrc('assets/tex/earth-night.webp'), function (t) {
+        t.colorSpace && (t.colorSpace = THREE.SRGBColorSpace);
+        earthNight = t; applyEarthTex();
+      }, null, function () { });
+
+      /* ---- 八大行星 ---- */
+      SOLAR_DEF.forEach(function (d, i) {
+        var orbit = new THREE.Group();
+        orbit.rotation.x = d.inc;                       // 轨道倾角，让系统有厚度
+        root.add(orbit);
+
+        /* 轨道线 */
+        var pts = [];
+        for (var k = 0; k <= 128; k++) {
+          var th = k / 128 * Math.PI * 2;
+          pts.push(new THREE.Vector3(Math.cos(th) * d.a, 0, Math.sin(th) * d.a));
+        }
+        var line = new THREE.Line(
+          new THREE.BufferGeometry().setFromPoints(pts),
+          new THREE.LineBasicMaterial({ color: 0x6d89ab, transparent: true, opacity: 0 })
+        );
+        orbit.add(line);
+
+        var holder = new THREE.Group();                  // 行星本体（随公转移动）
+        orbit.add(holder);
+
+        var geo = new THREE.SphereGeometry(d.r, 40, 28);
+        var mat;
+        if (d.earth) {
+          earthMat = solarEarthMat(null, null);
+          mat = earthMat;
+        } else {
+          mat = solarPlanetMat(d.c1, d.c2, i * 1.7 + 0.6, d.bands || 0);
+        }
+        var mesh = new THREE.Mesh(geo, mat);
+        if (d.earth) mesh.rotation.z = 23.44 * Math.PI / 180;   // 黄赤交角
+        holder.add(mesh);
+
+        if (d.ring) {
+          var ring = new THREE.Mesh(
+            new THREE.RingGeometry(d.r * 1.35, d.r * 2.35, 96),
+            new THREE.MeshBasicMaterial({
+              map: solarRingTex(), transparent: true, side: THREE.DoubleSide,
+              depthWrite: false, opacity: 0.9
+            })
+          );
+          ring.rotation.x = Math.PI / 2 - 0.28;
+          mesh.add(ring);
+        }
+
+        var lab = solarLabel(d.name);
+        lab.position.set(0, d.r + 0.055, 0);
+        holder.add(lab);
+
+        solar.planets.push({
+          def: d, holder: holder, mesh: mesh, line: line,
+          theta: Math.random() * Math.PI * 2, spin: 0
+        });
+      });
+    }
+
+    /* ---------- 每帧 ---------- */
+    function solarTick(dtf) {
+      var s = solar;
+      var dtSec = Math.min(0.05, dtf / 60);
+
+      /* 过渡曲线：0→1 用指数逼近，视觉上比线性更像"被推出去" */
+      s.t += (s.target - s.t) * (1 - Math.pow(0.90, dtf));
+      if (Math.abs(s.target - s.t) < 0.0015) s.t = s.target;
+      var e = s.t * s.t * (3 - 2 * s.t);               // smoothstep
+
+      /* 地球淡出、太阳系淡入：两组整体缩放，避免材质透明度那套麻烦事 */
+      var globeOut = Math.max(0, 1 - e * 1.7);
+      tilt.scale.setScalar(Math.max(0.0001, globeOut));
+      tilt.visible = globeOut > 0.004;
+      /* 大气壳是直接挂在 scene 上的两个独立球（不在地球组里），
+         不一起收掉就会变成罩住整个太阳系的一层蓝膜。 */
+      if (typeof atmoIn !== 'undefined') atmoIn.visible = globeOut > 0.02;
+      if (typeof atmoOut !== 'undefined') atmoOut.visible = globeOut > 0.02;
+
+      solar.root.visible = e > 0.004;
+      if (solar.root.visible) {
+        solar.root.scale.setScalar(0.86 + 0.14 * e);
+        /* 行星从小到大"长"出来，像系统被点亮 */
+        var grow = Math.max(0, (e - 0.18) / 0.82);
+        solar.planets.forEach(function (p) {
+          p.holder.scale.setScalar(grow);
+          p.line.material.opacity = 0.44 * Math.max(0, (e - 0.35) / 0.65);
+          p.line.visible = p.line.material.opacity > 0.002;
+        });
+        s.sunUni && (s.sunUni.uTime.value = performance.now() / 1000);
+
+        /* 公转 + 自转：只在系统基本成形后跑，否则会看到行星在原点打转 */
+        if (e > 0.9) {
+          solar.planets.forEach(function (p) {
+            p.theta += p.def.sp * 0.22 * dtSec;
+            p.holder.position.set(Math.cos(p.theta) * p.def.a, 0, Math.sin(p.theta) * p.def.a);
+            p.spin += 0.5 * dtSec;
+            p.mesh.rotation.y = p.spin;
+          });
+        }
+      }
+
+      /* 相机：方位角/仰角直接吃拖拽写进 spin/tilt 的量，
+         这样惯性、触屏双指、阻尼全都白拿，不用另写一套。 */
+      var azDelta = -(spin.rotation.y - s.az0);
+      var elDelta = (tilt.rotation.x - s.el0);
+      /* 过渡里的拖拽量必须跟着 e 一起归零，否则退出瞬间相机会从
+         斜视角"啪"地跳回正视角（t 归零但 azDelta 还在）。 */
+      var az = e * (azDelta - 0.42);
+      var el = Math.max(-1.15, Math.min(1.15, e * (elDelta + 0.34)));
+      var R = s.r0 + (globe.camTarget - s.r0) * e;
+      camera.position.set(
+        R * Math.cos(el) * Math.sin(az),
+        R * Math.sin(el),
+        R * Math.cos(el) * Math.cos(az)
+      );
+      camera.lookAt(0, 0, 0);
+
+      /* 太阳系里地球不该自己悠悠转（会把视角带着飘） */
+      if (s.t > 0.02) globe.autoSpin = false;
+
+      if (s.t === 0 && s.target === 0) {
+        s.on = false;
+        globe.solarOn = false;
+        tilt.scale.setScalar(1);
+        tilt.visible = true;
+        solar.root.visible = false;
+        camera.position.set(0, 0, globe.camTarget);
+        camera.lookAt(0, 0, 0);
+        CAM_MIN = s.camMinBack;
+        CAM_MAX = s.camMaxBack;
+        globe.autoSpin = true;
+        document.body.classList.remove('solar-on');
+      }
+    }
+
+    function solarToggle() {
+      solarBuild();
+      var s = solar;
+      if (!s.on) {
+        s.r0 = camera.position.z;
+        s.az0 = spin.rotation.y;
+        s.el0 = tilt.rotation.x;
+        s.t = 0; s.target = 1;
+        s.on = true;
+        globe.solarOn = true;
+        s.camMinBack = CAM_MIN;
+        s.camMaxBack = CAM_MAX;
+        /* 太阳系要退得更远，也要能飞到太阳边上 */
+        CAM_MIN = 0.42;
+        CAM_MAX = 9.2;
+        globe.camTarget = SOLAR_FAR;
+        globe.flying = false;
+        var _sw = document.getElementById('search-wrap');
+        if (_sw) _sw.classList.remove('open');
+        document.body.classList.add('solar-on');
+      } else {
+        s.target = 0;
+        globe.camTarget = Math.max(CAM_MIN, Math.min(CAM_MAX, s.r0));
+        document.body.classList.remove('solar-on');
+      }
+      var b = document.getElementById('btn-solar');
+      if (b) {
+        b.setAttribute('aria-pressed', s.target === 1 ? 'true' : 'false');
+        var sp = b.querySelector('.tl');
+        if (sp) sp.textContent = s.target === 1 ? '退出太阳系' : '太阳系';
+      }
+    }
+
+    globe.solarToggle = solarToggle;
+    globe.solarTick = solarTick;
+    window.__solarToggle = solarToggle;
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && solar.on && solar.target === 1) solarToggle();
+    });
+
     // ---- 渲染循环 ----
     function render() {
       globe.raf = requestAnimationFrame(render);
@@ -9541,7 +9980,12 @@ body.quiz-on #labels-canvas{display:none!important}
 
       /* 帧率无关的指数逼近：60fps 下系数 0.12，144fps 下自动变小，
          否则高刷屏上"飞近国家"会瞬间到位、看不到过程。 */
-      camera.position.z += (globe.camTarget - camera.position.z) * (1 - Math.pow(0.88, dtf));
+      if (globe.solarOn && globe.solarTick) {
+        /* 太阳系模式自己算相机（球坐标绕原点），这里不能再让 z 单独逼近 */
+        globe.solarTick(dtf);
+      } else {
+        camera.position.z += (globe.camTarget - camera.position.z) * (1 - Math.pow(0.88, dtf));
+      }
       if (STAR_MAT) STAR_MAT.uniforms.uTime.value = performance.now() / 1000;
       /* 洋流：箭头是真的沿着流路往前挪，所以每帧要按时间推进一次。
          dt 取上一帧的实际间隔（并且封顶 0.06 秒）—— 标签页切回来时
@@ -12641,5 +13085,6 @@ body.quiz-on #labels-canvas{display:none!important}
     })();
   </script>
 
+  <div id="solar-hint">拖动旋转 · 滚轮缩放 · Esc 或再点按钮返回</div>
 </body>
 </html>

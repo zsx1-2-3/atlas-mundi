@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-21-DQ">
+<meta name="build" content="2026-11-21-DR">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -10562,14 +10562,24 @@ body.quiz-on #labels-canvas{display:none!important}
       }
     })();
 
+    /* 把太阳系里所有贴图先传进显存。只认 m.map 和 uniforms.uMap 是不够的 ——
+       太阳系地球用的是 uDay/uNight/uCloud，天穹是 uCube，全被漏掉；
+       结果是切进太阳系的那一秒才现场上传 4096×2048 的日夜贴图，
+       实测两笔 texSubImage2D 加起来 1.5 秒。所以这里遍历所有 uniform。 */
     function root_traverse_tex(obj, r) {
       obj.traverse(function (o) {
         var m = o.material;
         if (!m) return;
-        if (m.map) r.initTexture(m.map);
-        if (m.uniforms && m.uniforms.uMap && m.uniforms.uMap.value) {
-          r.initTexture(m.uniforms.uMap.value);
-        }
+        (Array.isArray(m) ? m : [m]).forEach(function (mat) {
+          if (mat.map && mat.map.image) r.initTexture(mat.map);
+          if (mat.uniforms) {
+            for (var k in mat.uniforms) {
+              var v = mat.uniforms[k] && mat.uniforms[k].value;
+              /* 图还没到就别 init：会把"已初始化"标记写死，之后再上传就漏了 */
+              if (v && v.isTexture && v.image) r.initTexture(v);
+            }
+          }
+        });
       });
     }
 

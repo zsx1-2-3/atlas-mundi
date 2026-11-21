@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-21-DS">
+<meta name="build" content="2026-11-21-DT">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -296,6 +296,13 @@
   body.solar-on #labels-canvas,body.solar-on #tools,body.solar-on #search-wrap,
   body.solar-on #detail,body.solar-on #q-res,body.solar-on #hud,
   body.solar-on #globe-msg{display:none !important}
+  /* 国名/地形名是 DOM 层，跟着"球体缩放"走 —— 转场里地球被缩到 0.0001，
+     所有标签的投影点会一起挤到画面正中，看起来就是中间糊着"美国 法国"
+     几个大字。所以太阳系里整层收掉，转场期间也收（由 solarTick 挂
+     solar-nolabel 类控制，用 visibility 不用 display：不触发布局）。 */
+  body.solar-on #labels,body.solar-on #tlabels,
+  body.solar-nolabel #labels,body.solar-nolabel #tlabels,
+  body.solar-nolabel #labels-canvas{visibility:hidden !important}
   /* 署名放在右下角，和构建号同一层级：小、灰、不抢画面 */
   #solar-credit{position:fixed;right:16px;bottom:28px;z-index:60;
     font-size:10.5px;letter-spacing:.02em;color:rgba(150,172,200,.55);
@@ -7059,12 +7066,23 @@ body.quiz-on #labels-canvas{display:none!important}
         '  vC = aColor;',
         '  vS = aSpike;',
         '  vec4 mv = modelViewMatrix * vec4(position, 1.0);',
-        // 每颗星的呼吸周期不同（0.9~2.3 倍速），相位也随机
-        '  float tw = 0.5 + 0.5 * sin(uTime * (0.9 + fract(aPhase) * 2.4) + aPhase * 7.0);',
-        '  vA = 0.5 + 0.5 * tw;',
+        /* ---- 闪烁 ----
+           真实夜空里肉眼看到的闪烁是大气抖动（10~30Hz，星星高度角越低越明显），
+           但幅度很浅：亮星也就 ±10% 上下，深度调制只发生在近地平线的暗星身上。
+           所以假闪烁的观感问题从来不是"闪得不够快"，是"闪得太深、太齐"。
+           这里给两层慢噪声叠加：主周期 5~14 秒、总幅度 ±20%，只有带星芒的亮星
+           再叠 4% 的快抖动。之前那版是单层 2~7 秒、幅度 50%，还带尺寸抖动 ——
+           尺寸在 1px 上下跳会被光栅化成"有/无"，看过去就是一片灯在闪。 */
+        '  float ph = aPhase;',
+        '  float w1 = 0.45 + fract(ph * 0.7137) * 0.75;',
+        '  float tw = 0.5 + 0.5 * sin(uTime * w1 + ph * 6.2831);',
+        '  tw = 0.72 * tw + 0.28 * (0.5 + 0.5 * sin(uTime * (w1 * 2.37 + 0.31) + ph * 17.0));',
+        '  float shim = aSpike * 0.04 * sin(uTime * 7.3 + ph * 41.0);',
+        '  vA = 0.80 + 0.20 * tw + shim;',
         // 点的大小要给足：1 像素以下的点在浏览器里基本看不见，
-         // 之前那版就是这样，整片夜空看起来"没有星星"
-        '  gl_PointSize = clamp(aSize * uDpr * (52.0 / -mv.z) * (0.85 + 0.3 * tw)',
+         // 之前那版就是这样，整片夜空看起来"没有星星"。
+         // 尺寸这里**不跟闪烁联动**：亚像素的尺寸抖动会被光栅化放大成忽明忽暗。
+        '  gl_PointSize = clamp(aSize * uDpr * (52.0 / -mv.z)',
         '                       * (1.0 + aSpike * 1.6), 1.0, 9.0 * uDpr);',
         '  gl_Position = projectionMatrix * mv;',
         '}'
@@ -7083,7 +7101,11 @@ body.quiz-on #labels-canvas{display:none!important}
         '  float sx = smoothstep(0.045, 0.0, abs(q.x)) * smoothstep(0.5, 0.02, d);',
         '  float sy = smoothstep(0.045, 0.0, abs(q.y)) * smoothstep(0.5, 0.02, d);',
         '  float a = max(core, max(sx, sy) * vS * 0.9);',
-        '  gl_FragColor = vec4(vC * vA, a * vA * uFade);',
+        /* 亮度只跟 vA 成一次正比：additive 混合下 rgb 再乘一遍 vA 就成了平方，
+           20% 的亮度起伏会被放大成 36%，看着比实际更"跳"。
+           0.70 是把平方换成一次之后的补偿系数：原来 vA² 的均值 0.583，
+           现在 0.70×0.90=0.63，整片星空的总亮度跟改之前基本一致。 */
+        '  gl_FragColor = vec4(vC * 0.70, a * vA * uFade);',
         '}'
       ].join('\n'),
       transparent: true,
@@ -9591,6 +9613,10 @@ body.quiz-on #labels-canvas{display:none!important}
     var solar = {
       on: false, t: 0, target: 0,      // t=0 地球，t=1 太阳系
       r0: 3.02,
+      /* 转场半径的两个端点：rA = 起步半径、rB = 目标半径。
+         几何级数插值用（见 solarTick 里的注释），每次切换时由 toggle 重设。 */
+      rA: 3.02, rB: 3.02,
+      lblShow: true,                   // 国名层当前是不是露着的（跟 body.solar-nolabel 同步）
       az0: 0, el0: 0,
       root: null, planets: [], sun: null, sunUni: null, moon: null,
       sky: null, skyMat: null, corona: [], speed: 1,
@@ -10214,9 +10240,14 @@ body.quiz-on #labels-canvas{display:none!important}
         var geo = new THREE.SphereGeometry(d.r, 48, 32);
         var mesh;
         if (d.earth) {
+          /* 复用主球已经传上显存的日夜贴图。太阳系里的地球只是个小球，
+             再单独解码 + 上传一份 4096×2048 白花 300~700ms 主线程
+             （预热里最大的一笔开销，就砸在首屏）。两条加载路径取的是
+             同一张图，Texture 对象直接共用没有副作用。 */
+          var gU = globe.earthMat && globe.earthMat.uniforms;
           var em = solarEarthMat(
-            solarTexFile('assets/tex/earth-day.webp'),
-            solarTexFile('assets/tex/earth-night.webp'),
+            (gU && gU.dayMap && gU.dayMap.value) || solarTexFile('assets/tex/earth-day.webp'),
+            (gU && gU.nightMap && gU.nightMap.value) || solarTexFile('assets/tex/earth-night.webp'),
             planetTex('clouds.webp'));
           mesh = new THREE.Mesh(geo, em);
         } else {
@@ -10283,17 +10314,26 @@ body.quiz-on #labels-canvas{display:none!important}
       var s = solar;
       var dtSec = Math.min(0.05, dtf / 60);
 
-      /* 0.972 大约 2.3 秒走完 —— 原来 0.90 只要 0.4 秒，像被弹过去 */
-      s.t += (s.target - s.t) * (1 - Math.pow(0.983, dtf));
-      if (Math.abs(s.target - s.t) < 0.0015) s.t = s.target;
+      /* t 走**匀速**，不走向目标指数逼近。
+         指数逼近的尾巴永远到不了 0：实测退出 4.5 秒后 t 还挂在 0.01，而
+         s.on 要等 t 严格等于 0 才变 false —— 这段时间里再点"太阳系"按钮，
+         solarToggle 会走进"已经在退出中"的分支，按钮等于死了。等它慢慢
+         磨到 0.0015 以下（还要两三秒）才又能点，就是用户说的"过一会儿再点才行"。
+         现在 2.4 秒严格走完，并且中途反向（退到一半又点进去）是连续的。 */
+      var stepT = (dtf * 16.667) / 2400;
+      if (s.t < s.target) s.t = Math.min(s.target, s.t + stepT);
+      else if (s.t > s.target) s.t = Math.max(s.target, s.t - stepT);
       var e = s.t * s.t * (3 - 2 * s.t);
 
       /* 地球淡出、太阳系淡入 */
       /* 地球先"缩走"、太阳系再"长出来"：两组在时间上错开，
          否则太阳会以接近全尺寸顶在地球背后，像地球后面挂了个大灯泡。 */
       /* 0.30 → 0.42：原来地球在 0.35 秒内就缩没了，第一帧还是满屏、下一帧就空了，
-         看着像"啪"地切走。窗口拉长到 0.6 秒左右，才看得出是缩着退场。 */
-      var globeOut = Math.max(0, 1 - Math.max(0, (e - 0.02) / 0.42));
+         看着像"啪"地切走。窗口拉长到 0.6 秒左右，才看得出是缩着退场。
+         起点再往后挪到 e=0.10：头 0.25 秒让相机先退开（半径 3.02→3.2，地球
+         靠透视缩一点），再开始本体收缩 —— 否则第一帧就开始"变小"，读起来
+         是"地球被缩小了"，而不是"我飞远了"。 */
+      var globeOut = Math.max(0, 1 - Math.max(0, (e - 0.10) / 0.38));
       tilt.scale.setScalar(Math.max(0.0001, globeOut));
       tilt.visible = globeOut > 0.004;
       /* 大气壳跟着 tilt 一起缩（见 buildGlobe 里的注释），
@@ -10374,15 +10414,37 @@ body.quiz-on #labels-canvas{display:none!important}
       var elDelta = (tilt.rotation.x - s.el0);
       /* 过渡里的拖拽量必须跟着 e 一起归零，否则退出瞬间相机会从
          斜视角"啪"地跳回正视角（t 归零但 azDelta 还在）。 */
-      var az = e * (azDelta - 0.62);
-      var el = Math.max(-1.15, Math.min(1.15, e * (elDelta + 0.52)));
-      var R = s.r0 + (globe.camTarget - s.r0) * e;
+      /* ---------- 相机：以原点（地球/太阳）为锚点的推拉 ----------
+         半径走**几何级数** r(e) = rA·(rB/rA)^e，不走线性：
+         线性插值时每帧位移恒定，可屏幕上的缩放倍率在近端大、远端小，
+         观感是"先猛冲一下再慢慢停"；几何级数每秒的倍率恒定，地球一直钉在
+         画面正中匀速"缩"小、回来时匀速"放"大 —— 就是飞船匀速飞离/飞近。
+         端点必须用 rA/rB：退出时 globe.camTarget 已经在 toggle 里改回进太阳系
+         之前的值，若还拿它插值，第一帧 R 就从 5.35 掉到 3.02，用户看到的
+         就是"啪地跳到一个固定视角，然后才开始转场"。 */
+      var R = (s.target === 1 && s.t === 1)
+        ? globe.camTarget
+        : s.rA * Math.pow(s.rB / s.rA, e);
+      /* 方位/仰角偏移只负责把黄道面转过来一点 —— 纯正面看过去九条轨道会叠成
+         一条线。0.62 → 0.26：原来的横向甩动太大，读起来像"绕着地球转了半圈"，
+         而不是"从地球上退出去"。 */
+      var az = e * (azDelta - 0.26);
+      var el = Math.max(-1.15, Math.min(1.15, e * (elDelta + 0.42)));
       camera.position.set(
         R * Math.cos(el) * Math.sin(az),
         R * Math.sin(el),
         R * Math.cos(el) * Math.cos(az)
       );
       camera.lookAt(0, 0, 0);
+      /* 国名/地形名是 DOM 层，投影点跟着 tilt 的缩放走：球被缩到 0.0001 时
+         几十个标签全挤到画面正中，中间就糊着"美国 法国"几个大字。
+         门限卡在 globeOut > 0.985（球基本还是原尺寸），这样退出时它们
+         是在地球已经差不多长回来的那一帧才回来，不会提前飘到中间去。 */
+      var lblShow = globeOut > 0.985;
+      if (lblShow !== s.lblShow) {
+        s.lblShow = lblShow;
+        document.body.classList.toggle('solar-nolabel', !lblShow);
+      }
 
       if (s.t > 0.02) globe.autoSpin = false;
 
@@ -10404,6 +10466,8 @@ body.quiz-on #labels-canvas{display:none!important}
         CAM_MIN = s.camMinBack;
         CAM_MAX = s.camMaxBack;
         globe.autoSpin = true;
+        s.lblShow = true;
+        document.body.classList.remove('solar-nolabel');
         document.body.classList.remove('solar-on');
       }
     }
@@ -10411,23 +10475,48 @@ body.quiz-on #labels-canvas{display:none!important}
     function solarToggle() {
       solarBuild();
       var s = solar;
-      if (!s.on) {
-        s.r0 = camera.position.z;
-        s.az0 = spin.rotation.y;
-        s.el0 = tilt.rotation.x;
-        s.t = 0; s.target = 1;
-        s.on = true;
-        globe.solarOn = true;
-        s.camMinBack = CAM_MIN;
-        s.camMaxBack = CAM_MAX;
-        CAM_MIN = 0.42;
-        CAM_MAX = 9.2;
+      /* 判据用 target（"想去哪儿"），不用 on（"是不是还在动"）。
+         退出动画要跑 2.4 秒，这期间 on 仍是 true；按 on 判的话，再点一下会
+         落进 else 分支、把 target 又设成 0（等于什么都没发生），按钮就"死了"。
+         按 target 判还顺手得到两个好处：
+           · 退到一半又点进去 → 从当前 t 继续往回走，不重启、不跳帧；
+           · 进到一半又点退出 → 同理。
+         rA/rB 每帧从当前真实半径起算，所以任何时刻反向都不会跳。 */
+      if (s.target !== 1) {
+        if (!s.on) {
+          /* 第一次进（或已完全退出后再进）：记下"从哪儿来的"，退出要回到这里 */
+          s.r0 = camera.position.length() || globe.camTarget;
+          s.az0 = spin.rotation.y;
+          s.el0 = tilt.rotation.x;
+          s.on = true;
+          globe.solarOn = true;
+          s.camMinBack = CAM_MIN;
+          s.camMaxBack = CAM_MAX;
+          CAM_MIN = 0.42;
+          CAM_MAX = 9.2;
+        }
+        /* 半径的两个端点是"曲线在 e=0 / e=1 处的值"，跟目标方向绑死：
+           e=1 那头永远是太阳系主视角 SOLAR_FAR；e=0 那头按当前半径反解
+           （正常从地球进就是当前半径本身；退到一半又点进来时解得一个更近的
+           值，于是曲线从当前位置穿过去，不跳）。 */
+        var curF = camera.position.length() || globe.camTarget;
+        s.rB = SOLAR_FAR;
+        s.rA = (s.t > 0.9)
+          ? (s.r0 || curF)
+          : Math.max(0.35, Math.exp((Math.log(curF) - s.t * Math.log(s.rB)) / (1 - s.t)));
+        s.target = 1;
         globe.camTarget = SOLAR_FAR;
         globe.flying = false;
         var _sw = document.getElementById('search-wrap');
         if (_sw) _sw.classList.remove('open');
         document.body.classList.add('solar-on');
       } else {
+        /* 反过来：e=0 那头钉在"当初出发的半径"s.r0，e=1 那头按当前半径反解 */
+        var curB = camera.position.length() || SOLAR_FAR;
+        s.rA = s.r0;
+        s.rB = (s.t < 0.1)
+          ? SOLAR_FAR
+          : Math.min(9.5, Math.exp(Math.log(s.rA) + (Math.log(curB) - Math.log(s.rA)) / s.t));
         s.target = 0;
         globe.camTarget = Math.max(CAM_MIN, Math.min(CAM_MAX, s.r0));
         document.body.classList.remove('solar-on');
@@ -10505,6 +10594,11 @@ body.quiz-on #labels-canvas{display:none!important}
         return readyAll;
       }
 
+      /* 预热拆成三步、步与步之间各让出 200ms —— 原来是一整块同步做完，
+         实测主线程一次长冻 800~1200ms（采样：texSubImage2D 900ms +
+         getProgramInfoLog/链接 550ms），而且整块就落在首屏"球从星空里
+         浮出来"的那 2.8 秒里。用户看到的就是"刚进来地球自转卡两下"。
+         拆开之后峰值降到 1/3 左右，而且发生在淡入结束之后。 */
       function shoot() {
         if (shootDone) return;
         shootDone = true;
@@ -10513,57 +10607,97 @@ body.quiz-on #labels-canvas{display:none!important}
         solar.root.visible = true;
         if (solar.sky) solar.sky.visible = true;
         var prev = null, rt = null;
-        try {
-          /* 先烘天穹再渲：烘完穹顶换成按方向采样立方体的材质，
-             下面这一帧就会把它一起编译+上传。要是反着来，第一次进太阳系
-             会为了那张 6MB 的立方体贴图单掉一帧（实测 50ms）。 */
-          solarSkyBake();
-          if (THREE.WebGLRenderTarget) {
-            /* 轨道线平时 opacity=0、visible=false（进太阳系后才淡入），
-               于是它们的程序要等第一次淡入那一刻才编译 —— 实测正好是
-               进去后第 12 帧、50ms 的一顿。这里先让它们"可见"，把程序编掉。 */
-            var lineState = [];
-            solar.planets.forEach(function (p) {
-              lineState.push([p.line.visible, p.line.material.opacity]);
-              p.line.visible = true;
-              p.line.material.opacity = 1;
-            });
-            /* 相机必须框住整圈轨道，否则被视锥裁掉的星球根本不会画，
-               它们的着色器也就没编译 —— 之前 fov 42 视锥太窄，
-               9 个程序全漏到"真正进太阳系"的那几帧里编译。
-               fov 70、距离 8.4：半径 2.4 的轨道在 45° 以内，全在画面里。 */
-            var cam = new THREE.PerspectiveCamera(70, 1.78, 0.05, 300);
-            cam.position.set(0, 4.2, 7.0);
-            cam.lookAt(0, 0, 0);
-            rt = new THREE.WebGLRenderTarget(64, 64);
-            prev = renderer.getRenderTarget();
-            renderer.setRenderTarget(rt);
-            renderer.render(scene, cam);
-            /* render 只编"画得到"的材质：透明度为 0 的轨道线、被收起来的
-               底图星场都不会画。compile() 是按对象遍历的，把剩下的一起编掉，
-               免得它们挑"真正进太阳系"那几帧去编（实测 50ms 一顿）。 */
-            if (renderer.compile) renderer.compile(scene, cam);
-            solar.planets.forEach(function (p, i) {
-              p.line.visible = lineState[i][0];
-              p.line.material.opacity = lineState[i][1];
-            });
-          } else if (renderer.compile) {
-            renderer.compile(scene, camera);
-          }
-        } catch (e) { /* 预热失败不能影响主流程 */ }
-        try {
-          if (rt) { renderer.setRenderTarget(prev); rt.dispose(); }
-          if (renderer.initTexture) {
-            root_traverse_tex(solar.root, renderer);
+
+        function finish() {
+          solar.root.visible = wasRoot;
+          if (solar.sky) solar.sky.visible = wasSky;
+          solar.warmed = true;
+        }
+
+        /* 各步耗时记在 solar.pwLog 里（[名字, 毫秒]）。首屏偶尔还会有人说"卡一下"，
+           有这个表就能立刻看出是烘天穹、编程序还是某张贴图，不用再采样猜。 */
+        var pw = solar.pwLog || (solar.pwLog = []);
+        function mark(name, fn) {
+          if (solar.warmed) return;
+          var t0 = performance.now();
+          try { fn(); } catch (e) {}
+          pw.push([name, Math.round(performance.now() - t0), Math.round(t0)]);
+        }
+
+        /* ① 烘天穹：6 次 512² 的 fbm 渲染。GPU 重、CPU 轻，单独一步。
+            烘完穹顶换成按方向采样立方体的材质，第 ② 步就会把它一起编译+上传；
+            要是反着来，第一次进太阳系会为了那张 6MB 的立方体贴图单掉一帧。 */
+        mark('bake', solarSkyBake);
+
+        setTimeout(function () {
+          /* ② 编译 */
+          mark('compile', function () {
+            if (THREE.WebGLRenderTarget) {
+              /* 轨道线平时 opacity=0、visible=false（进太阳系后才淡入），
+                 于是它们的程序要等第一次淡入那一刻才编译 —— 实测正好是
+                 进去后第 12 帧、50ms 的一顿。这里先让它们"可见"，把程序编掉。 */
+              var lineState = [];
+              solar.planets.forEach(function (p) {
+                lineState.push([p.line.visible, p.line.material.opacity]);
+                p.line.visible = true;
+                p.line.material.opacity = 1;
+              });
+              /* 相机必须框住整圈轨道，否则被视锥裁掉的星球根本不会画，
+                 它们的着色器也就没编译 —— 之前 fov 42 视锥太窄，
+                 9 个程序全漏到"真正进太阳系"的那几帧里编译。
+                 fov 70、距离 8.4：半径 2.4 的轨道在 45° 以内，全在画面里。 */
+              var cam = new THREE.PerspectiveCamera(70, 1.78, 0.05, 300);
+              cam.position.set(0, 4.2, 7.0);
+              cam.lookAt(0, 0, 0);
+              rt = new THREE.WebGLRenderTarget(64, 64);
+              prev = renderer.getRenderTarget();
+              renderer.setRenderTarget(rt);
+              renderer.render(scene, cam);
+              /* render 只编"画得到"的材质：透明度为 0 的轨道线、被收起来的
+                 底图星场都不会画。compile() 是按对象遍历的，把剩下的一起编掉。 */
+              if (renderer.compile) renderer.compile(scene, cam);
+              solar.planets.forEach(function (p, i) {
+                p.line.visible = lineState[i][0];
+                p.line.material.opacity = lineState[i][1];
+              });
+            } else if (renderer.compile) {
+              renderer.compile(scene, camera);
+            }
+          });
+
+          setTimeout(function () {
+            /* ③ 传贴图：一张一张来，每张之间让出一帧。
+                十几张行星贴图 + 太阳系地球的 4096×2048 日夜云三张，
+                一次性 initTexture 就是 900ms 的冻。 */
+            try {
+              if (rt) { renderer.setRenderTarget(prev); rt.dispose(); rt = null; }
+            } catch (e) {}
+            if (!renderer.initTexture) return finish();
+            var q = [];
+            var push = function (obj) {
+              obj.traverse(function (n) {
+                var m = n.material;
+                if (!m) return;
+                (Array.isArray(m) ? m : [m]).forEach(function (mm) {
+                  texOf(mm).forEach(function (t) {
+                    if (t && t.image && q.indexOf(t) < 0) q.push(t);
+                  });
+                });
+              });
+            };
+            push(solar.root);
             /* 天穹已经不在 root 里了（见 solarBuild 的注释），单独走一遍：
                它那张 6MB 的立方体贴图必须在预热阶段就上传，否则第一次进
                太阳系会为它单掉一帧。 */
-            if (solar.sky) root_traverse_tex(solar.sky, renderer);
-          }
-        } catch (e) {}
-        solar.root.visible = wasRoot;
-        if (solar.sky) solar.sky.visible = wasSky;
-        solar.warmed = true;
+            if (solar.sky) push(solar.sky);
+            (function next() {
+              var t = q.shift();
+              if (!t) return finish();
+              mark('tex', function () { if (t.image) renderer.initTexture(t); });
+              setTimeout(next, 0);
+            })();
+          }, 200);
+        }, 200);
       }
 
       var booted = false;
@@ -10592,10 +10726,17 @@ body.quiz-on #labels-canvas{display:none!important}
         })();
       }
 
-      /* 触发方式：页面加载后 1.2 秒无条件跑一次；鼠标移到"太阳系"按钮上
-         再补一次（rIC 在持续 3D 渲染的页面里经常拿不到空闲片，
-         实测线上 12 秒都没预热上，点下去就是 900ms 的卡顿）。 */
-      setTimeout(boot, 800);
+      /* 触发时机：等球真正"从星空里浮出来"再动手。
+         原来是加载后 800ms 无条件跑一次，正好撞在 2.8 秒淡入最亮的那一段，
+         预热的长冻跟淡入叠在一起，就是首屏"地球自转卡两下"的来源。
+         鼠标移到"太阳系"按钮上再补一次（rIC 在持续 3D 渲染的页面里
+         经常拿不到空闲帧，实测线上 12 秒都没预热上，点下去就是 900ms 的卡顿）。 */
+      var bootWait = 0;
+      (function waitFade() {
+        bootWait++;
+        if ((globe.fadeDone && !globe.dragging) || bootWait > 60) return setTimeout(boot, 1200);
+        setTimeout(waitFade, 250);
+      })();
       var _bs = document.getElementById('btn-solar');
       if (_bs) {
         _bs.addEventListener('mouseenter', boot);

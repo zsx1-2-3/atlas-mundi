@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-21-DN">
+<meta name="build" content="2026-11-21-DP">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -301,6 +301,19 @@
     font-size:10.5px;letter-spacing:.02em;color:rgba(150,172,200,.55);
     opacity:0;pointer-events:none;transition:opacity .4s ease}
   body.solar-on #solar-credit{opacity:1}
+  /* 出口：工具栏在太阳系模式里整体让位，按钮也就跟着消失了，
+     光靠 Esc 等于把用户关在里面。右上角留一个小圆按钮，只画一个 ×，不写字。 */
+  #solar-exit{position:fixed;top:18px;right:18px;z-index:60;
+    width:38px;height:38px;border-radius:50%;display:none;
+    align-items:center;justify-content:center;padding:0;
+    color:rgba(210,228,248,.82);background:rgba(255,255,255,.05);
+    border:1px solid rgba(148,182,224,.22);cursor:pointer;font-family:inherit;
+    transition:color .2s ease,background .2s ease,border-color .2s ease,opacity .3s ease}
+  body.solar-on #solar-exit{display:flex}
+  #solar-exit:hover{color:#eef4fe;background:rgba(255,255,255,.1);
+    border-color:rgba(148,182,224,.5)}
+  #solar-exit svg{width:18px;height:18px;fill:none;stroke:currentColor;
+    stroke-width:2.1;stroke-linecap:round}
   #rotate-hint .rh-t{font-size:17px;color:#f0f4fb}
   #rotate-hint .rh-s{font-size:12.5px;line-height:1.7;color:rgba(196,216,244,.72)}
   #rotate-hint button{
@@ -7056,7 +7069,7 @@ body.quiz-on #labels-canvas{display:none!important}
         '  vec2 q = gl_PointCoord - vec2(0.5);',
         '  float d = length(q);',
         // 星核：软边圆点
-        '  float core = smoothstep(0.5, 0.06, d);',
+        '  float core = smoothstep(0.5, 0.20, d);',
         // 十字星芒：两条极窄的亮带叠在核上，只有 vS=1 的亮星才有
         '  float sx = smoothstep(0.045, 0.0, abs(q.x)) * smoothstep(0.5, 0.02, d);',
         '  float sy = smoothstep(0.045, 0.0, abs(q.y)) * smoothstep(0.5, 0.02, d);',
@@ -8141,6 +8154,17 @@ body.quiz-on #labels-canvas{display:none!important}
 
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera(42, w / h, 0.1, 100);
+
+    /* 太阳系的两盏灯**常驻场景**（强度 0，进太阳系再淡入）。
+       为什么不放在太阳系的 root 里：three 的着色器程序按"灯的数量"分变体，
+       灯跟着 root.visible 一开一关，等于让全场景材质在切入那一刻重编译一遍。
+       常驻之后灯数从头到尾不变，材质只编一次。 */
+    var SOLAR_SUN_LIGHT = new THREE.PointLight(0xfff2dc, 0, 0, 0);
+    SOLAR_SUN_LIGHT.decay = 0;                       // 反平方衰减会让海王星暗成黑点
+    SOLAR_SUN_LIGHT.position.set(0, 0, 0);
+    scene.add(SOLAR_SUN_LIGHT);
+    var SOLAR_AMB_LIGHT = new THREE.AmbientLight(0x9fb6d0, 0);
+    scene.add(SOLAR_AMB_LIGHT);
 
     /* 整球入画所需的相机距离。
        注意是 sin 不是 tan：球体的投影边界由切线锥决定，视半角 = asin(R/z)。
@@ -9551,10 +9575,10 @@ body.quiz-on #labels-canvas{display:none!important}
       r0: 3.02,
       az0: 0, el0: 0,
       root: null, planets: [], sun: null, sunUni: null, moon: null,
-      sky: null, corona: [], speed: 1, baseStars: null,
+      sky: null, skyMat: null, corona: [], speed: 1, baseStars: null,
       camMinBack: CAM_MIN, camMaxBack: CAM_MAX
     };
-    var SOLAR_FAR = 7.15;
+    var SOLAR_FAR = 5.35;               // 主视角：轨道外圈留一点边，八大行星全在画面里
     var PLANET_TEX = {};                // 贴图缓存，进过一次就留着
 
     /* ---------- 贴图：先 OBS，再退回同仓文件 ----------
@@ -9781,114 +9805,180 @@ body.quiz-on #labels-canvas{display:none!important}
     ];
 
 
-    /* ---------- 日冕流：从日面往外甩的放射状流纹 ---------- */
+    /* ---------- 日冕流：从日面往外甩的放射状流纹 ----------
+       贴图坐标约定（很重要，改参数前先看这里）：
+       画布 512²，中心 = 太阳中心，1/f 个半宽 = 太阳半径 —— 也就是说
+       sprite 的 scale 取 0.34*2*f 时，画布上距中心 (256/f) px 的那个圆正好是日面边缘。
+       所以射线一律从 0.55R（R=256）开始、到 0.98R 收尾：
+       对 f=1.62 那层，起点 141px < 日面边缘 158px，射线是从日面"背后"冒出来的；
+       对 f=2.05 那层，起点落在日面之外，靠 alpha 从 0 渐入，不会出现一圈硬边。
+
+       每根射线用十几段逐段变细、逐段变淡的短线拼成锥形 —— 一段到底的
+       stroke 两头不淡，那就是之前"像激光、又长又刺眼"的观感来源。 */
     function coronaTex() {
+      var S = 512, R = S / 2, cx = R, cy = R;
       var c = document.createElement('canvas');
-      c.width = c.height = 512;
+      c.width = c.height = S;
       var g = c.getContext('2d');
-      g.clearRect(0, 0, 512, 512);
-      var cx = 256, cy = 256;
-      /* 放射状条纹：角度上做不均匀，才像被磁场拉出来的流线而不是风车 */
-      for (var i = 0; i < 260; i++) {
+      g.clearRect(0, 0, S, S);
+      g.globalCompositeOperation = 'lighter';
+
+      /* 1) 连续的环状辉光：日冕本来是一整层，只有射线会显得很"假" */
+      var ring = g.createRadialGradient(cx, cy, R * 0.50, cx, cy, R * 0.99);
+      ring.addColorStop(0.00, 'rgba(255,226,176,0.00)');
+      ring.addColorStop(0.10, 'rgba(255,216,158,0.10)');
+      ring.addColorStop(0.45, 'rgba(255,186,110,0.05)');
+      ring.addColorStop(1.00, 'rgba(255,160,80,0.00)');
+      g.fillStyle = ring;
+      g.beginPath(); g.arc(cx, cy, R * 0.99, 0, 6.2832); g.fill();
+
+      /* 2) 放射状流纹 */
+      var RAYS = 150;
+      for (var i = 0; i < RAYS; i++) {
         var a = Math.random() * Math.PI * 2;
-        var len = 90 + Math.random() * 170;
-        var w = 0.6 + Math.random() * 2.2;
-        var al = 0.02 + Math.random() * 0.09;
-        var grd = g.createLinearGradient(cx + Math.cos(a) * 78, cy + Math.sin(a) * 78,
-          cx + Math.cos(a) * len, cy + Math.sin(a) * len);
-        grd.addColorStop(0, 'rgba(255,232,180,' + (al * 1.6) + ')');
-        grd.addColorStop(1, 'rgba(255,170,90,0)');
-        g.strokeStyle = grd;
-        g.lineWidth = w;
-        g.beginPath();
-        g.moveTo(cx + Math.cos(a) * 78, cy + Math.sin(a) * 78);
-        g.lineTo(cx + Math.cos(a) * len, cy + Math.sin(a) * len);
-        g.stroke();
+        var r0 = R * 0.55 + Math.random() * R * 0.03;
+        /* 长度：多数短、少数长（幂次 1.8），平均不到 1.45 个太阳半径 */
+        var len = R * (0.10 + Math.pow(Math.random(), 1.8) * 0.33);
+        var r1 = Math.min(R * 0.975, r0 + len);
+        var w0 = 1.0 + Math.random() * 3.6;          // 根部宽度
+        var bend = (Math.random() - 0.5) * 0.05;     // 轻微弯曲，别像风车
+        var al = 0.028 + Math.random() * 0.062;
+        var steps = 12;
+        for (var k = 1; k <= steps; k++) {
+          var f0 = (k - 1) / steps, f1 = k / steps, fm = (f0 + f1) * 0.5;
+          var ra = r0 + (r1 - r0) * f0, rb = r0 + (r1 - r0) * f1;
+          var ww = w0 * (1 - fm * 0.9);              // 越往外越细
+          /* 两端都淡：sin 包络，起点为 0、终点为 0，中段最亮 */
+          var env = Math.sin(Math.PI * Math.min(1, fm * 1.02));
+          var aa = al * Math.pow(env, 1.25);
+          if (aa < 0.002) continue;
+          g.strokeStyle = 'rgba(255,' + ((230 - 44 * fm) | 0) + ',' + ((182 - 66 * fm) | 0) + ',' + aa + ')';
+          g.lineWidth = Math.max(0.45, ww);
+          g.beginPath();
+          g.moveTo(cx + Math.cos(a) * ra, cy + Math.sin(a) * ra);
+          g.lineTo(cx + Math.cos(a + bend) * rb, cy + Math.sin(a + bend) * rb);
+          g.stroke();
+        }
       }
+
       var t = new THREE.CanvasTexture(c);
       t.needsUpdate = true;
       return t;
     }
 
-    /* ---------- 太阳系专属星空：全天球 + 银河带 + 星云 ---------- */
-    function milkyWayTex() {
-      var W = 2048, H = 1024;
-      var c = document.createElement('canvas');
-      c.width = W; c.height = H;
-      var g = c.getContext('2d');
-      g.clearRect(0, 0, W, H);
-
-      /* 银河带：沿一条斜贯的大圆铺软斑，越靠带心越亮 */
-      for (var i = 0; i < 620; i++) {
-        var a = Math.random() * Math.PI * 2;
-        var jitter = (Math.random() - 0.5) * 120;
-        var x = 1024 + Math.cos(a) * 1024;
-        var y = 512 + Math.sin(a) * 300 + jitter;
-        var spread = 40 + Math.random() * 110;
-        var warm = Math.random() < 0.45;
-        var col = warm ? '255,214,180' : '160,190,255';
-        var al = 0.018 + Math.random() * 0.040;
-        var grd = g.createRadialGradient(x, y, 0, x, y, spread);
-        grd.addColorStop(0, 'rgba(' + col + ',' + al + ')');
-        grd.addColorStop(1, 'rgba(' + col + ',0)');
-        g.fillStyle = grd;
-        g.beginPath(); g.arc(x, y, spread, 0, 6.2832); g.fill();
-      }
-
-      /* 星带里的密点：远看是"颗粒感"，这是照片上最像的部分 */
-      for (var k = 0; k < 7000; k++) {
-        var a2 = Math.random() * Math.PI * 2;
-        var off = (Math.random() - 0.5) * 210;
-        off = off * Math.abs(off) / 210;              // 往中间挤，带心更密
-        var px = 1024 + Math.cos(a2) * 1024;
-        var py = 512 + Math.sin(a2) * 300 + off;
-        var r = 0.30 + Math.random() * 0.55;
-        var al2 = 0.04 + Math.random() * 0.18;
-        g.fillStyle = 'rgba(255,250,240,' + al2 + ')';
-        g.beginPath(); g.arc(px, py, r, 0, 6.2832); g.fill();
-      }
-
-      /* 几团有颜色的星云：紫、青、暗红，大小不一 */
-      var NEB = [[280, 380, 240, '150,110,220'], [1620, 690, 210, '90,170,210'],
-                 [980, 250, 170, '210,120,140'], [1320, 880, 150, '120,150,230']];
-      NEB.forEach(function (n) {
-        var grd = g.createRadialGradient(n[0], n[1], 0, n[0], n[1], n[2]);
-        grd.addColorStop(0, 'rgba(' + n[3] + ',0.07)');
-        grd.addColorStop(0.45, 'rgba(' + n[3] + ',0.03)');
-        grd.addColorStop(1, 'rgba(' + n[3] + ',0)');
-        g.fillStyle = grd;
-        g.beginPath(); g.arc(n[0], n[1], n[2], 0, 6.2832); g.fill();
-      });
-
-      var t = new THREE.CanvasTexture(c);
-      t.needsUpdate = true;
-      return t;
-    }
+    /* ---------- 太阳系专属星空：全天球 + 银河带 + 星云 ----------
+       这里刻意不用"等距柱状贴图 + 球面"的老做法，那版有三个实测出来的毛病：
+       1) 贴图贴在球上，u=0/1 那条缝必然断 —— 画在贴图边缘的星团被切一半，
+          正对镜头就是一条笔直的亮暗分界线；
+       2) 光斑是 8bit canvas 上 alpha 0.02~0.06 的径向渐变，只有十几个色阶可用，
+          投影出来是一坨坨同心圆斑块，完全没有星点的颗粒感；
+       3) 2048×1024 画布上要画 620 个渐变 + 7000 个圆点，实测 160ms 同步阻塞，
+          正好砸在"点按钮之后"那一帧，用户感觉到的就是"卡住了一下"。
+       改成 fbm 噪声后：没有缝（方向连续）、亮度是浮点算的（末尾再补一层
+       8bit 抖动压色带）、生成成本为零。 */
+    var SOLAR_GAL_AXIS = new THREE.Vector3(0.62, 0.66, 0.42).normalize();
 
     function solarSkyBuild() {
       var g = new THREE.Group();
 
-      /* 1) 全天球星点：主视角的星空只有一个锥，绕着看就只剩半边，
-            太阳系必须是一整颗球 */
-      var N = 2800;
+      /* 1) 银河带穹顶：反面渲染的球，片元里按"离银道面的角距"叠 fbm 噪声 */
+      var skyMat = new THREE.ShaderMaterial({
+        uniforms: { uOpacity: { value: 0 }, uAxis: { value: SOLAR_GAL_AXIS } },
+        vertexShader: [
+          'varying vec3 vDir;',
+          'void main() {',
+          '  vDir = position;',
+          '  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);',
+          '}'
+        ].join('\n'),
+        fragmentShader: [
+          'uniform float uOpacity; uniform vec3 uAxis;',
+          'varying vec3 vDir;',
+          'float h13(vec3 p){',
+          '  p = fract(p * 0.3183099 + vec3(0.71, 0.113, 0.419));',
+          '  p *= 17.0;',
+          '  return fract(p.x * p.y * p.z * (p.x + p.y + p.z));',
+          '}',
+          'float vnoise(vec3 x){',
+          '  vec3 i = floor(x), f = fract(x);',
+          '  f = f * f * (3.0 - 2.0 * f);',
+          '  return mix(mix(mix(h13(i), h13(i + vec3(1,0,0)), f.x),',
+          '                 mix(h13(i + vec3(0,1,0)), h13(i + vec3(1,1,0)), f.x), f.y),',
+          '             mix(mix(h13(i + vec3(0,0,1)), h13(i + vec3(1,0,1)), f.x),',
+          '                 mix(h13(i + vec3(0,1,1)), h13(i + vec3(1,1,1)), f.x), f.y), f.z);',
+          '}',
+          'float fbm(vec3 p){',
+          '  float s = 0.0, a = 0.5;',
+          '  for (int i = 0; i < 5; i++) { s += a * vnoise(p); p *= 2.03; a *= 0.5; }',
+          '  return s;',
+          '}',
+          'void main() {',
+          '  vec3 d = normalize(vDir);',
+          '  float lat = dot(d, uAxis);',
+          '  float band = exp(-pow(lat / 0.21, 2.0));',      // 带子的宽度
+          '  float core = exp(-pow(lat / 0.075, 2.0));',     // 带心（做暗尘埃用）
+          '  float n1 = fbm(d * 2.35 + 17.0);',              // 大尺度团块
+          '  float n2 = fbm(d * 6.20 - 9.0);',               // 细节与尘埃
+          '  float dust = smoothstep(0.44, 0.66, n2);',
+          /* 团块取 n1 的平方：亮部更少更集中，才像拍出来的银河而不是一条雾带 */
+          '  float glow = band * (0.20 + 1.25 * n1 * n1) * (1.0 - 0.62 * core * dust);',
+          '  glow += 0.010;',
+          '  vec3 warm = vec3(1.00, 0.87, 0.72);',
+          '  vec3 cool = vec3(0.60, 0.73, 1.00);',
+          '  vec3 col = mix(cool, warm, clamp(n1 * 1.45, 0.0, 1.0));',
+          '  col *= clamp(glow, 0.0, 1.8) * uOpacity * 0.42;',
+          /* 8bit 抖动：大面积低亮度渐变不加这一层会出同心色带 */
+          '  col += (h13(vec3(gl_FragCoord.xy, 0.37)) - 0.5) / 255.0;',
+          '  gl_FragColor = vec4(max(col, 0.0), 1.0);',
+          '}'
+        ].join('\n'),
+        side: THREE.BackSide, transparent: true, depthWrite: false, depthTest: false,
+        blending: THREE.AdditiveBlending
+      });
+      var dome = new THREE.Mesh(new THREE.SphereGeometry(58, 48, 32), skyMat);
+      dome.renderOrder = -5;
+      dome.userData.wantOpacity = 0.58;
+      g.add(dome);
+      solar.skyMat = skyMat;
+      solar.skyDome = dome;
+
+      /* 2) 全天球星点：主视角那半个星场只撒在视野锥里，绕到背面就空了。
+            这里撒整颗球，并且一半的星压向银道面，跟上面的带子对得上。 */
+      var N = 5200;
       var pos = new Float32Array(N * 3), col = new Float32Array(N * 3);
       var pha = new Float32Array(N), siz = new Float32Array(N), spk = new Float32Array(N);
+      var ax = SOLAR_GAL_AXIS;
+      var t1 = new THREE.Vector3(0, 0, 1).cross(ax).normalize();
+      var t2 = new THREE.Vector3().crossVectors(ax, t1).normalize();
       for (var i = 0; i < N; i++) {
-        var u = Math.random() * 2 - 1, th = Math.random() * Math.PI * 2;
-        var rr = Math.sqrt(Math.max(0, 1 - u * u));
+        var dx, dy, dz;
+        if (i % 2 === 0) {
+          /* 沿银道面取方位角，纬度用三次均匀分布压向 0 → 带子附近更密 */
+          var latg = (Math.random() + Math.random() + Math.random() - 1.5) * 0.15;
+          var ca = Math.sqrt(Math.max(0, 1 - latg * latg));
+          var ph = Math.random() * Math.PI * 2;
+          var cp = Math.cos(ph), sp = Math.sin(ph);
+          dx = (t1.x * cp + t2.x * sp) * ca + ax.x * latg;
+          dy = (t1.y * cp + t2.y * sp) * ca + ax.y * latg;
+          dz = (t1.z * cp + t2.z * sp) * ca + ax.z * latg;
+        } else {
+          var u = Math.random() * 2 - 1, th = Math.random() * Math.PI * 2;
+          var rr = Math.sqrt(Math.max(0, 1 - u * u));
+          dx = rr * Math.cos(th); dy = u; dz = rr * Math.sin(th);
+        }
         var R = 46 + Math.random() * 12;
-        pos[i * 3] = R * rr * Math.cos(th);
-        pos[i * 3 + 1] = R * u;
-        pos[i * 3 + 2] = R * rr * Math.sin(th);
+        pos[i * 3] = R * dx; pos[i * 3 + 1] = R * dy; pos[i * 3 + 2] = R * dz;
         var b = 0.42 + Math.random() * 0.58;
-        var t2 = Math.random();
-        if (t2 < 0.16) { col[i*3] = b; col[i*3+1] = b*0.84; col[i*3+2] = b*0.70; }
-        else if (t2 < 0.46) { col[i*3] = b*0.76; col[i*3+1] = b*0.87; col[i*3+2] = b; }
+        var t3 = Math.random();
+        if (t3 < 0.16) { col[i*3] = b; col[i*3+1] = b*0.84; col[i*3+2] = b*0.70; }
+        else if (t3 < 0.46) { col[i*3] = b*0.76; col[i*3+1] = b*0.87; col[i*3+2] = b; }
         else { col[i*3] = b; col[i*3+1] = b; col[i*3+2] = b; }
         pha[i] = Math.random() * Math.PI * 2;
-        siz[i] = 0.35 + Math.pow(Math.random(), 3.2) * 1.15;
-        spk[i] = Math.random() < 0.04 ? 1 : 0;
+        /* 尺寸：多数压到 1px 的"针尖"，少数几颗撑到 2~3px 带星芒 ——
+           全体都撒成 1~2px 的糊点，就是用户说的"块状一团" */
+        siz[i] = 0.80 + Math.pow(Math.random(), 3.4) * 1.55;
       }
+      for (var q = 0; q < N; q++) spk[q] = Math.random() < 0.05 ? 1 : 0;
       var geo = new THREE.BufferGeometry();
       geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
       geo.setAttribute('aColor', new THREE.BufferAttribute(col, 3));
@@ -9899,20 +9989,8 @@ body.quiz-on #labels-canvas{display:none!important}
       pts.renderOrder = -6;
       g.add(pts);
 
-      /* 2) 银河带穹顶（反面渲染的球，贴在整片夜空后面） */
-      var domeMat = new THREE.MeshBasicMaterial({
-        map: milkyWayTex(), side: THREE.BackSide, transparent: true,
-        opacity: 0, depthWrite: false, depthTest: false
-      });
-      var dome = new THREE.Mesh(new THREE.SphereGeometry(58, 48, 32), domeMat);
-      /* 带子本来绕赤道一圈；转一下让它斜贯画面，才像实拍里的银河 */
-      dome.rotation.z = 0.52;
-      dome.rotation.y = 0.9;
-      dome.userData.wantOpacity = 0.55;
-      dome.renderOrder = -5;
-      g.add(dome);
-
-      /* 3) 两团独立星云：比贴图更近、更亮，转视角时会有视差 */
+      /* 3) 两团独立星云：比穹顶近、转视角时有视差。压得很淡，
+            只当背景里的一点颜色，别抢行星的戏 */
       var NEB2 = [[-30, 14, -40, 0x8f6fe0, 15], [34, -10, -36, 0x4f9fd8, 12]];
       NEB2.forEach(function (n) {
         var sp = new THREE.Sprite(new THREE.SpriteMaterial({
@@ -9921,13 +9999,73 @@ body.quiz-on #labels-canvas{display:none!important}
         }));
         sp.position.set(n[0], n[1], n[2]);
         sp.scale.setScalar(n[4]);
-        sp.userData.wantOpacity = 0.30;
+        sp.userData.wantOpacity = 0.15;
         sp.renderOrder = -4;
         g.add(sp);
       });
 
       g.visible = false;
       return g;
+    }
+
+    /* ---------- 把天穹烘成一张立方体贴图 ----------
+       fbm 那个片元着色器每像素要算 10 次 3D 噪声，而穹顶是 depthTest:false、
+       盖满全屏的一层 —— 等于每个像素每帧都重算一遍。实测在 Intel UHD 630 上
+       （1872×1053）会让将近一成的帧掉到 30fps，正好落在相机拉远那段动画里，
+       摸起来就是"卡一下"。
+
+       天穹只是极缓慢地转（0.004 rad/s，自转一圈 26 分钟），内容根本不随时间变，
+       所以烘一次就够了：用 CubeCamera 在原点渲 6 面 512²，换成按方向采样
+       立方体的极简着色器（一次纹理取样）。纹素和屏幕像素差不多 1:1，
+       而画面本身是低频雾气，看不出分辨率损失。
+       立方体采样没有等距柱状贴图那条 u=0/1 的缝 —— 内容是按方向连续算的，
+       相邻面在边界上的值天然相等，硬件又是无缝过滤。 */
+    function solarSkyBake() {
+      if (solar.skyBaked || !renderer || !solar.skyDome || !THREE.CubeCamera) return false;
+      var dome = solar.skyDome, fbmMat = solar.skyMat;
+      var oldOp = fbmMat.uniforms.uOpacity.value;
+      try {
+        var rt = new THREE.WebGLCubeRenderTarget(512, {
+          generateMipmaps: false,
+          minFilter: THREE.LinearFilter,
+          magFilter: THREE.LinearFilter
+        });
+        var cubeCam = new THREE.CubeCamera(0.1, 300, rt);
+        var tmp = new THREE.Scene();
+        tmp.add(new THREE.Mesh(dome.geometry, fbmMat));
+        /* 烘的是"满亮度"的底图，透明度留到采样时乘，
+           否则 0.58 会被烘进去，后面再乘一次就暗两档 */
+        fbmMat.uniforms.uOpacity.value = 1.0;
+        cubeCam.update(renderer, tmp);
+
+        var cubeMat = new THREE.ShaderMaterial({
+          uniforms: { uCube: { value: rt.texture }, uOpacity: { value: oldOp } },
+          vertexShader: [
+            'varying vec3 vDir;',
+            'void main() {',
+            '  vDir = position;',
+            '  gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);',
+            '}'
+          ].join('\n'),
+          fragmentShader: [
+            'uniform samplerCube uCube; uniform float uOpacity;',
+            'varying vec3 vDir;',
+            'void main() {',
+            '  vec3 c = textureCube(uCube, normalize(vDir)).rgb;',
+            '  gl_FragColor = vec4(c * uOpacity, 1.0);',
+            '}'
+          ].join('\n'),
+          side: THREE.BackSide, transparent: true, depthWrite: false, depthTest: false,
+          blending: THREE.AdditiveBlending
+        });
+        dome.material = cubeMat;
+        solar.skyCubeMat = cubeMat;
+        solar.skyBaked = true;
+        return true;
+      } catch (e) {
+        fbmMat.uniforms.uOpacity.value = oldOp;
+        return false;                 // 烘失败就继续用 fbm，只是费一点
+      }
     }
 
     function solarBuild() {
@@ -9939,17 +10077,22 @@ body.quiz-on #labels-canvas{display:none!important}
 
       /* 行星用 MeshPhongMaterial，就得有灯：太阳在原点放一盏点光，decay=0 让
          外圈行星不至于暗成黑点（真实衰减在示意模型里只会让海王星消失）。
-         地球是自写着色器，不受这两盏灯影响。 */
-      var sunLight = new THREE.PointLight(0xfff2dc, 3.6, 0, 0);
-      sunLight.decay = 0;
-      sunLight.position.set(0, 0, 0);
-      root.add(sunLight);
-      /* 环境光给足：纯点光下背光面全黑，行星看起来像半个贴纸。
-         这里的"补光"只是让暗面能看清轮廓，不代表真实照明。 */
-      root.add(new THREE.AmbientLight(0x9fb6d0, 1.45));
+         地球是自写着色器，不受这两盏灯影响。
+
+         关键：这两盏灯在文件开头就挂进 scene 了（见 SOLAR_SUN_LIGHT），
+         这里只是取回来用，**不新建**。挂进 root 的后果是"灯光数量随
+         root.visible 变"，而 three 的着色器按灯数分变体 —— 进太阳系那一瞬间
+         灯从 0 盏变 2 盏，地球那一堆材质全要重编，实测第一次点按钮掉 50ms、
+         正好砸在动画开头。灯常驻 + 强度开关就没有这回事。 */
+      solar.sunLight = SOLAR_SUN_LIGHT;
+      solar.ambLight = SOLAR_AMB_LIGHT;
 
       /* ---- 太阳：真实贴图 + 边缘变暗 + 两层暖辉光 ---- */
-      solar.sunUni = { uTime: { value: 0 }, uMap: { value: planetTex('sun.webp') } };
+      /* 贴图必须 Repeat 环绕：着色器里对 uv.x 取 fract 做无缝横移，
+         但采样器如果是 Clamp 模式，接缝两侧的线性过滤会把边缘像素拖出来一条线。 */
+      var sunTex = planetTex('sun.webp');
+      sunTex.wrapS = sunTex.wrapT = THREE.RepeatWrapping;
+      solar.sunUni = { uTime: { value: 0 }, uMap: { value: sunTex } };
       var sunMat = new THREE.ShaderMaterial({
         uniforms: solar.sunUni,
         vertexShader: [
@@ -9966,14 +10109,17 @@ body.quiz-on #labels-canvas{display:none!important}
           'uniform float uTime; uniform sampler2D uMap;',
           'varying vec2 vUv; varying vec3 vN; varying vec3 vV;',
           'void main() {',
-          /* 贴图缓慢横移：太阳是流体，静止的贴图看着像塑料球 */
-          '  vec2 uv = vec2(vUv.x + uTime * 0.0035, vUv.y);',
+          /* 贴图缓慢横移：太阳是流体，静止的贴图看着像塑料球。
+             必须 fract() —— 贴图是 ClampToEdge，直接让 uv.x 一路加下去，
+             几分钟后 uv 全部 >1，整颗球就只剩边缘那一列被拉成一片，
+             看着就像"太阳贴图只有一小瓣是正常的"（这就是那个 bug）。 */
+          '  vec2 uv = vec2(fract(vUv.x + uTime * 0.0042), vUv.y);',
           '  vec3 tex = texture2D(uMap, uv).rgb;',
           '  float mu = clamp(dot(normalize(vN), normalize(vV)), 0.0, 1.0);',
           /* 边缘变暗（临边昏暗）：贴图本身没有这层，得自己补 */
-          '  vec3 col = tex * (0.62 + 0.62 * pow(mu, 0.42));',
-          '  col += vec3(0.55, 0.20, 0.03) * pow(1.0 - mu, 3.0);',   // 边缘偏橙
-          '  gl_FragColor = vec4(col * 0.80, 1.0);',
+          '  vec3 col = tex * (0.42 + 0.58 * pow(mu, 0.45));',
+          '  col += vec3(0.44, 0.16, 0.02) * pow(1.0 - mu, 2.8);',   // 边缘偏橙
+          '  gl_FragColor = vec4(col * 0.74, 1.0);',
           '}'
         ].join('\n')
       });
@@ -9981,7 +10127,9 @@ body.quiz-on #labels-canvas{display:none!important}
       root.add(solar.sun);
 
       var glowTex = solarGlowTex();
-      [[2.30, 0.60, 0xffd8a0], [3.90, 0.34, 0xff9a3c]].forEach(function (g) {
+      /* 光晕半径：以"太阳半径"为单位。原来 2.30 / 3.90 意味着外圈辉光有 3.9 个
+         太阳半径远，整个画面被一层橙雾糊住 —— 压到 1.75 / 2.55，亮度也砍掉一半 */
+      [[1.75, 0.30, 0xffd8a0], [2.55, 0.14, 0xff9a3c]].forEach(function (g) {
         var sp = new THREE.Sprite(new THREE.SpriteMaterial({
           map: glowTex, color: g[2], transparent: true, blending: THREE.AdditiveBlending,
           depthWrite: false, depthTest: false, opacity: g[1]
@@ -9991,9 +10139,11 @@ body.quiz-on #labels-canvas{display:none!important}
         root.add(sp);
       });
 
-      /* 日冕流：两层同款贴图反向缓慢旋转，叠出"流动"的感觉 */
+      /* 日冕流：两层同款贴图反向缓慢旋转，叠出"流动"的感觉。
+         1.62 → 射线正好从日面边缘（0.62 半径处）冒出来；2.05 → 一层更远更淡的
+         外冕。原来 2.10 / 3.10 是 6 个太阳半径，那才是"光线又长又刺眼"的根源。 */
       var cTex = coronaTex();
-      [[2.10, 0.55, 0.055], [3.10, 0.34, -0.032]].forEach(function (cfg) {
+      [[1.62, 0.34, 0.055], [2.05, 0.16, -0.032]].forEach(function (cfg) {
         var sp = new THREE.Sprite(new THREE.SpriteMaterial({
           map: cTex, transparent: true, blending: THREE.AdditiveBlending,
           depthWrite: false, depthTest: false, opacity: cfg[1], rotation: Math.random() * 6.28
@@ -10114,7 +10264,9 @@ body.quiz-on #labels-canvas{display:none!important}
       /* 地球淡出、太阳系淡入 */
       /* 地球先"缩走"、太阳系再"长出来"：两组在时间上错开，
          否则太阳会以接近全尺寸顶在地球背后，像地球后面挂了个大灯泡。 */
-      var globeOut = Math.max(0, 1 - Math.max(0, (e - 0.02) / 0.30));
+      /* 0.30 → 0.42：原来地球在 0.35 秒内就缩没了，第一帧还是满屏、下一帧就空了，
+         看着像"啪"地切走。窗口拉长到 0.6 秒左右，才看得出是缩着退场。 */
+      var globeOut = Math.max(0, 1 - Math.max(0, (e - 0.02) / 0.42));
       tilt.scale.setScalar(Math.max(0.0001, globeOut));
       tilt.visible = globeOut > 0.004;
       /* 大气壳是直接挂在 scene 上的两个独立球（不在地球组里），
@@ -10123,6 +10275,10 @@ body.quiz-on #labels-canvas{display:none!important}
       if (typeof atmoOut !== 'undefined') atmoOut.visible = globeOut > 0.02;
 
       solar.root.visible = e > 0.08;
+      /* 灯的强度跟着 e 走：0 → 3.6 / 0 → 1.45。灯一直在场景里（见 solarBuild
+         的注释），只是靠强度开关，这样材质变体不会因为进出模式而重编译。 */
+      if (solar.sunLight) solar.sunLight.intensity = 3.6 * Math.min(1, e / 0.22);
+      if (solar.ambLight) solar.ambLight.intensity = 1.45 * Math.min(1, e / 0.22);
       if (solar.root.visible) {
         var rg = Math.min(1, Math.max(0, (e - 0.08) / 0.55));
         solar.root.scale.setScalar(0.04 + 0.96 * Math.pow(rg, 1.15));
@@ -10145,8 +10301,13 @@ body.quiz-on #labels-canvas{display:none!important}
         if (s.sky) {
           var kSky = Math.min(1, Math.max(0, (e - 0.15) / 0.55));
           s.sky.visible = e > 0.02;
+          /* 穹顶是 ShaderMaterial，透明度得走 uniform（material.opacity 对它无效）。
+             烘成立方体贴图之后，管透明度的是那一层极简材质。 */
+          var smat = (s.skyBaked && s.skyCubeMat) ? s.skyCubeMat : s.skyMat;
+          if (smat) smat.uniforms.uOpacity.value = 0.58 * kSky;
           s.sky.children.forEach(function (ch) {
-            if (ch.material && ch.material.transparent && ch.userData.wantOpacity) {
+            if (ch.material && ch.material.transparent && ch.userData.wantOpacity &&
+                ch.material.isSpriteMaterial) {
               ch.material.opacity = ch.userData.wantOpacity * kSky;
             }
           });
@@ -10247,6 +10408,159 @@ body.quiz-on #labels-canvas{display:none!important}
     globe.solarToggle = solarToggle;
     globe.solarTick = solarTick;
     window.__solarToggle = solarToggle;
+    window.__solarDbg = solar;          // 调试/验收用：控制台可改 solar.speed、solar.sky.visible
+
+    /* 右上角的 × ：太阳系模式里工具栏整体隐藏，这就是除了 Esc 之外的出口 */
+    var _solarExitBtn = document.getElementById('solar-exit');
+    if (_solarExitBtn) {
+      _solarExitBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (solar.on && solar.target === 1) solarToggle();
+      });
+      _solarExitBtn.addEventListener('pointerdown', function (e) { e.stopPropagation(); });
+    }
+
+    /* Esc 退出：只删提示语，快捷键得留着 —— 没有它这个模式就没有出口了
+       （界面上不再写"Esc 返回"，但手会自己按）。 */
+    document.addEventListener('keydown', function (e) {
+      if (e.key !== 'Escape') return;
+      if (!solar.on) return;
+      /* 正在退出的过程中再按就没有意义了，避免来回抖 */
+      if (solar.target !== 1) return;
+      e.preventDefault();
+      solarToggle();
+    });
+
+    /* 预热：solarBuild 里有日冕画布、12 张行星贴图、一套新着色器。
+       第一次点按钮才做的话，实测同步 160ms + 首帧着色器编译/贴图上传，
+       加起来会有 0.8~1s 的卡顿，正好砸在切换动画的开头。
+       空闲时先建好并预编译一次，点按钮时只剩相机插值。 */
+    (function solarPrewarm() {
+      /* 预热做三件事：把场景建好 → 等贴图真的解码完 → 用一台能看全的相机
+         渲一张 64×64 的离屏图。
+         只建不渲是不够的：程序是懒编译、贴图是懒上传，两个都会砸在
+         "第一次真正画出来"那一帧上（实测那一帧 550ms）。
+         拿主相机渲也不行：主相机在球面附近，半视场只到 1.15，
+         土星/天王星/海王星全在视锥外被裁掉，等于没预热到。 */
+      var shootDone = false;
+
+      function texOf(m) {
+        var out = [];
+        if (!m) return out;
+        if (m.map) out.push(m.map);
+        if (m.uniforms) {
+          for (var k in m.uniforms) {
+            var v = m.uniforms[k] && m.uniforms[k].value;
+            if (v && v.isTexture) out.push(v);
+          }
+        }
+        return out;
+      }
+
+      function allReady() {
+        if (!solar.root) return true;
+        var readyAll = true;
+        solar.root.traverse(function (o) {
+          var m = o.material;
+          if (!m || Array.isArray(m)) return;
+          texOf(m).forEach(function (t) { if (!t.image) readyAll = false; });
+        });
+        return readyAll;
+      }
+
+      function shoot() {
+        if (shootDone) return;
+        shootDone = true;
+        var wasRoot = solar.root.visible;
+        var wasSky = solar.sky ? solar.sky.visible : false;
+        solar.root.visible = true;
+        if (solar.sky) solar.sky.visible = true;
+        var prev = null, rt = null;
+        try {
+          /* 先烘天穹再渲：烘完穹顶换成按方向采样立方体的材质，
+             下面这一帧就会把它一起编译+上传。要是反着来，第一次进太阳系
+             会为了那张 6MB 的立方体贴图单掉一帧（实测 50ms）。 */
+          solarSkyBake();
+          if (THREE.WebGLRenderTarget) {
+            /* 轨道线平时 opacity=0、visible=false（进太阳系后才淡入），
+               于是它们的程序要等第一次淡入那一刻才编译 —— 实测正好是
+               进去后第 12 帧、50ms 的一顿。这里先让它们"可见"，把程序编掉。 */
+            var lineState = [];
+            solar.planets.forEach(function (p) {
+              lineState.push([p.line.visible, p.line.material.opacity]);
+              p.line.visible = true;
+              p.line.material.opacity = 1;
+            });
+            /* 相机必须框住整圈轨道，否则被视锥裁掉的星球根本不会画，
+               它们的着色器也就没编译 —— 之前 fov 42 视锥太窄，
+               9 个程序全漏到"真正进太阳系"的那几帧里编译。
+               fov 70、距离 8.4：半径 2.4 的轨道在 45° 以内，全在画面里。 */
+            var cam = new THREE.PerspectiveCamera(70, 1.78, 0.05, 300);
+            cam.position.set(0, 4.2, 7.0);
+            cam.lookAt(0, 0, 0);
+            rt = new THREE.WebGLRenderTarget(64, 64);
+            prev = renderer.getRenderTarget();
+            renderer.setRenderTarget(rt);
+            renderer.render(scene, cam);
+            /* render 只编"画得到"的材质：透明度为 0 的轨道线、被收起来的
+               底图星场都不会画。compile() 是按对象遍历的，把剩下的一起编掉，
+               免得它们挑"真正进太阳系"那几帧去编（实测 50ms 一顿）。 */
+            if (renderer.compile) renderer.compile(scene, cam);
+            solar.planets.forEach(function (p, i) {
+              p.line.visible = lineState[i][0];
+              p.line.material.opacity = lineState[i][1];
+            });
+          } else if (renderer.compile) {
+            renderer.compile(scene, camera);
+          }
+        } catch (e) { /* 预热失败不能影响主流程 */ }
+        try {
+          if (rt) { renderer.setRenderTarget(prev); rt.dispose(); }
+          if (renderer.initTexture) root_traverse_tex(solar.root, renderer);
+        } catch (e) {}
+        solar.root.visible = wasRoot;
+        if (solar.sky) solar.sky.visible = wasSky;
+        solar.warmed = true;
+      }
+
+      function boot() {
+        try { solarBuild(); } catch (e) {}
+        var tries = 0;
+        (function waitTex() {
+          tries++;
+          if (allReady() || tries > 30) return whenIdle();
+          setTimeout(waitTex, 200);
+        })();
+      }
+
+      /* 预热本身要上传十来张贴图、编译十来个程序，放在用户正拖着地球的那一帧
+         就是一次明显的顿。所以挑"手停下来了"的时刻再渲：
+         和挂 8K 贴图用同一个判据（dragging / flying / 最近 900ms 有输入就等）。 */
+      function whenIdle() {
+        var n = 0;
+        (function chk() {
+          var busy = globe.dragging || globe.flying ||
+                     (performance.now() - (globe.lastInput || 0) < 900);
+          if (!busy || n++ > 40) return shoot();
+          setTimeout(chk, 400);
+        })();
+      }
+
+      if (window.requestIdleCallback) requestIdleCallback(boot, { timeout: 1500 });
+      else setTimeout(boot, 1200);
+    })();
+
+    function root_traverse_tex(obj, r) {
+      obj.traverse(function (o) {
+        var m = o.material;
+        if (!m) return;
+        if (m.map) r.initTexture(m.map);
+        if (m.uniforms && m.uniforms.uMap && m.uniforms.uMap.value) {
+          r.initTexture(m.uniforms.uMap.value);
+        }
+      });
+    }
 
     /* 双击复位到主视角：和地球那边"双击回全球视角"是同一个手势 */
     cv.addEventListener('dblclick', function () {
@@ -13393,5 +13707,8 @@ body.quiz-on #labels-canvas{display:none!important}
   </script>
 
   <div id="solar-credit">行星贴图 Solar System Scope · CC BY 4.0</div>
+  <button id="solar-exit" type="button" aria-label="退出太阳系" title="退出太阳系">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.2 8.2 15.8 15.8M15.8 8.2 8.2 15.8"/></svg>
+  </button>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-21-CP">
+<meta name="build" content="2026-11-21-CW">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -9596,20 +9596,24 @@ body.quiz-on #labels-canvas{display:none!important}
 
     function solarLabel(name, color) {
       var c = document.createElement('canvas');
-      c.width = 256; c.height = 72;
+      c.width = 384; c.height = 108;
       var g = c.getContext('2d');
-      g.font = '500 40px "Microsoft YaHei", "PingFang SC", sans-serif';
+      g.font = '500 62px "Microsoft YaHei", "PingFang SC", sans-serif';
       g.textAlign = 'center';
       g.textBaseline = 'middle';
       g.fillStyle = 'rgba(6,12,22,.55)';
-      g.fillText(name, 129, 38);
+      g.fillText(name, 194, 58);
       g.fillStyle = color || 'rgba(214,232,255,.92)';
-      g.fillText(name, 128, 36);
+      g.fillText(name, 192, 56);
       var t = new THREE.CanvasTexture(c);
+      /* 缩小显示时 mipmap 会把汉字糊成一团，直接关掉、只留线性过滤 */
+      t.generateMipmaps = false;
+      t.minFilter = THREE.LinearFilter;
+      t.magFilter = THREE.LinearFilter;
       t.needsUpdate = true;
       var m = new THREE.SpriteMaterial({ map: t, transparent: true, depthWrite: false });
       var sp = new THREE.Sprite(m);
-      sp.scale.set(0.30, 0.084, 1);
+      sp.scale.set(0.34, 0.096, 1);
       return sp;
     }
 
@@ -9675,7 +9679,9 @@ body.quiz-on #labels-canvas{display:none!important}
           '  float lit = smoothstep(-0.12, 0.26, dot(n, L));',
           '  vec3 day = texture2D(uDay, vUv).rgb;',
           '  vec3 night = texture2D(uNight, vUv).rgb;',
-          '  vec3 col = mix(night * 1.30 + day * 0.035, day * 1.04, lit);',
+          /* 日面要更亮、夜面要更暗，早上线那一版日面只有 1.04，
+             在太阳系里看起来像颗暗蓝球，昼夜分界几乎读不出来。 */
+          '  vec3 col = mix(night * 1.45 + day * 0.02, day * 1.34, lit);',
           '  vec3 V = normalize(cameraPosition - vPw);',
           '  float rim = pow(1.0 - clamp(dot(n, V), 0.0, 1.0), 3.0);',
           '  col += vec3(0.20, 0.48, 1.00) * rim * lit * 0.75;',   // 大气边缘
@@ -9687,10 +9693,10 @@ body.quiz-on #labels-canvas{display:none!important}
 
     /* ---------- 建场景 ---------- */
     var SOLAR_DEF = [
-      { name: '水星', a: 0.58, r: 0.036, c1: '#a2968c', c2: '#6a5f58', sp: 0.62, inc: 0.055 },
-      { name: '金星', a: 0.72, r: 0.062, c1: '#efd8a4', c2: '#c29455', sp: 0.46, inc: 0.028 },
-      { name: '地球', a: 0.88, r: 0.066, earth: true, sp: 0.38, inc: 0.0 },
-      { name: '火星', a: 1.06, r: 0.044, c1: '#cd6f48', c2: '#8a4630', sp: 0.30, inc: -0.042 },
+      { name: '水星', a: 0.64, r: 0.042, c1: '#a2968c', c2: '#6a5f58', sp: 0.62, inc: 0.055 },
+      { name: '金星', a: 0.80, r: 0.072, c1: '#efd8a4', c2: '#c29455', sp: 0.46, inc: 0.028 },
+      { name: '地球', a: 0.98, r: 0.088, earth: true, sp: 0.38, inc: 0.0 },
+      { name: '火星', a: 1.18, r: 0.054, c1: '#cd6f48', c2: '#8a4630', sp: 0.30, inc: -0.042 },
       { name: '木星', a: 1.46, r: 0.165, c1: '#eddcc0', c2: '#b1875c', sp: 0.16, inc: 0.020, bands: 2.2 },
       { name: '土星', a: 1.82, r: 0.138, c1: '#eedfb0', c2: '#bfa269', sp: 0.12, inc: -0.018, bands: 1.8, ring: true },
       { name: '天王星', a: 2.10, r: 0.096, c1: '#b3dfe6', c2: '#6ea6bb', sp: 0.085, inc: 0.048 },
@@ -9728,13 +9734,15 @@ body.quiz-on #labels-canvas{display:none!important}
           '  float a = sin(n.x * 13.0 + t * 0.55) * sin(n.y * 16.0 - t * 0.47) * sin(n.z * 14.0 + t * 0.39);',
           '  float b = sin(n.x * 29.0 - t * 0.85) * sin(n.y * 25.0 + t * 0.71) * sin(n.z * 31.0 - t * 0.63);',
           '  float g = 0.5 + 0.5 * (a * 0.66 + b * 0.34);',
-          '  vec3 cool = vec3(1.00, 0.55, 0.13);',
-          '  vec3 hot  = vec3(1.00, 0.96, 0.76);',
-          '  vec3 col = mix(cool, hot, pow(g, 1.35));',
+          '  vec3 cool = vec3(0.96, 0.36, 0.06);',
+          '  vec3 hot  = vec3(1.00, 0.86, 0.46);',
+          '  vec3 col = mix(cool, hot, pow(g, 1.55));',
           /* 边缘变暗：视线越斜，看到的太阳大气层越冷 */
           '  float mu = clamp(dot(n, normalize(vV)), 0.0, 1.0);',
           '  col *= 0.58 + 0.55 * pow(mu, 0.55);',
-          '  gl_FragColor = vec4(col * 1.30, 1.0);',
+          /* 别再乘 1.3：颜色本身就在 1.0 附近，一乘就全部截顶，
+             米粒组织糊成一团白 —— 教科书里的太阳是有纹理的，不是灯泡。 */
+          '  gl_FragColor = vec4(col * 0.96, 1.0);',
           '}'
         ].join('\n')
       });
@@ -9746,15 +9754,18 @@ body.quiz-on #labels-canvas{display:none!important}
       [[1.55, 0.85], [3.10, 0.45]].forEach(function (g) {
         var sp = new THREE.Sprite(new THREE.SpriteMaterial({
           map: glowTex, transparent: true, blending: THREE.AdditiveBlending,
-          depthWrite: false, opacity: g[1]
+          /* 测深会让 sprite 的四边形和太阳球面相交，在球上切出一条直边；
+             关掉测深并抢到最前面画，它就成了纯背景辉光，行星照常盖在上面。 */
+          depthWrite: false, depthTest: false, opacity: g[1]
         }));
         sp.scale.setScalar(0.34 * 2 * g[0]);
+        sp.renderOrder = -2;
         root.add(sp);
       });
 
       var sunLab = solarLabel('太阳', 'rgba(255,228,168,.95)');
       sunLab.position.set(0, 0.47, 0);
-      sunLab.scale.set(0.34, 0.095, 1);
+      sunLab.scale.set(0.40, 0.112, 1);
       root.add(sunLab);
 
       /* ---- 地球贴图：直接复用站点已有的 4K 日/夜图 ---- */
@@ -9767,14 +9778,18 @@ body.quiz-on #labels-canvas{display:none!important}
       }
       var tl = new THREE.TextureLoader();
       tl.setCrossOrigin('anonymous');
-      tl.load(assetSrc('assets/tex/earth-day.webp'), function (t) {
-        t.colorSpace && (t.colorSpace = THREE.SRGBColorSpace);
-        earthDay = t; applyEarthTex();
-      }, null, function () { });
-      tl.load(assetSrc('assets/tex/earth-night.webp'), function (t) {
-        t.colorSpace && (t.colorSpace = THREE.SRGBColorSpace);
-        earthNight = t; applyEarthTex();
-      }, null, function () { });
+      /* 先用 OBS，取不到再退回同仓的 assets/tex/（本地预览、离线演示都要能出图） */
+      function solarTex(name, cb) {
+        tl.load(assetSrc('assets/tex/' + name), function (t) {
+          t.colorSpace && (t.colorSpace = THREE.SRGBColorSpace); cb(t);
+        }, null, function () {
+          tl.load('assets/tex/' + name, function (t) {
+            t.colorSpace && (t.colorSpace = THREE.SRGBColorSpace); cb(t);
+          }, null, function () { });
+        });
+      }
+      solarTex('earth-day.webp', function (t) { earthDay = t; applyEarthTex(); });
+      solarTex('earth-night.webp', function (t) { earthNight = t; applyEarthTex(); });
 
       /* ---- 八大行星 ---- */
       SOLAR_DEF.forEach(function (d, i) {
@@ -9822,12 +9837,14 @@ body.quiz-on #labels-canvas{display:none!important}
         }
 
         var lab = solarLabel(d.name);
-        lab.position.set(0, d.r + 0.055, 0);
+        lab.position.set(0, d.r + 0.075, 0);
         holder.add(lab);
 
         solar.planets.push({
           def: d, holder: holder, mesh: mesh, line: line,
-          theta: Math.random() * Math.PI * 2, spin: 0
+          /* 起始角固定：随机起始每次进来行星都挤在一侧，
+             而且同一节课讲两次画面不一样。黄金角散开，永远疏密均匀。 */
+          theta: i * 2.399, spin: 0
         });
       });
     }
@@ -9880,8 +9897,8 @@ body.quiz-on #labels-canvas{display:none!important}
       var elDelta = (tilt.rotation.x - s.el0);
       /* 过渡里的拖拽量必须跟着 e 一起归零，否则退出瞬间相机会从
          斜视角"啪"地跳回正视角（t 归零但 azDelta 还在）。 */
-      var az = e * (azDelta - 0.42);
-      var el = Math.max(-1.15, Math.min(1.15, e * (elDelta + 0.34)));
+      var az = e * (azDelta - 0.62);
+      var el = Math.max(-1.15, Math.min(1.15, e * (elDelta + 0.52)));
       var R = s.r0 + (globe.camTarget - s.r0) * e;
       camera.position.set(
         R * Math.cos(el) * Math.sin(az),

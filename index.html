@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-21-DR">
+<meta name="build" content="2026-11-21-DS">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -6982,6 +6982,11 @@ body.quiz-on #labels-canvas{display:none!important}
      随机相位，亮度按 sin 缓慢呼吸（周期各不相同），才有真正夜空的感觉。
      半径 26~66 落在相机 far(100) 之内，不跟随地球自转，所以它是"背景"。 */
   var STAR_MAT = null;
+  /* 地球模式那套星场的 Points。太阳系模式要临时把它收掉、回来再放出来，
+     所以得拿个句柄 —— 原来是在 solarTick 里 traverse 反查的，但那段代码
+     只写在 root.visible 为真的分支里，退出过渡的最后几帧 e 掉到 0.08 以下
+     就再也不会执行，星场永远停在 false，地球模式直接一片黑。 */
+  var BASE_STARS = null;
   function addStars(scene) {
     /* 相机永远看着球心、fov 固定，所以视野其实是**一个固定的圆锥**。
        把星星撒满整个球面，只有 3% 会出现在画面里 —— 3200 颗看起来像 100 颗。
@@ -7035,7 +7040,10 @@ body.quiz-on #labels-canvas{display:none!important}
     STAR_MAT = new THREE.ShaderMaterial({
       uniforms: {
         uTime: { value: 0 },
-        uDpr: { value: Math.min(window.devicePixelRatio || 1, 2) }
+        uDpr: { value: Math.min(window.devicePixelRatio || 1, 2) },
+        /* 整体淡出用：进出太阳系时地球星场要和天穹交叉淡切。
+           星点没有 opacity 可用（ShaderMaterial 不吃 material.opacity）。 */
+        uFade: { value: 1 }
       },
       vertexShader: [
         'attribute vec3 aColor;',
@@ -7065,6 +7073,7 @@ body.quiz-on #labels-canvas{display:none!important}
         'varying vec3 vC;',
         'varying float vA;',
         'varying float vS;',
+        'uniform float uFade;',
         'void main() {',
         '  vec2 q = gl_PointCoord - vec2(0.5);',
         '  float d = length(q);',
@@ -7074,14 +7083,15 @@ body.quiz-on #labels-canvas{display:none!important}
         '  float sx = smoothstep(0.045, 0.0, abs(q.x)) * smoothstep(0.5, 0.02, d);',
         '  float sy = smoothstep(0.045, 0.0, abs(q.y)) * smoothstep(0.5, 0.02, d);',
         '  float a = max(core, max(sx, sy) * vS * 0.9);',
-        '  gl_FragColor = vec4(vC * vA, a * vA);',
+        '  gl_FragColor = vec4(vC * vA, a * vA * uFade);',
         '}'
       ].join('\n'),
       transparent: true,
       depthWrite: false,
       blending: THREE.AdditiveBlending
     });
-    scene.add(new THREE.Points(g, STAR_MAT));
+    BASE_STARS = new THREE.Points(g, STAR_MAT);
+    scene.add(BASE_STARS);
   }
 
   function srgbToLin(c) { return Math.pow(c, 2.2); }
@@ -8332,8 +8342,16 @@ body.quiz-on #labels-canvas{display:none!important}
     atmoOut.renderOrder = 3;
     window.__atmo = globe.atmo;          // 调试用：命令行里可以直接调参
     window.__globe = globe;
-    scene.add(atmoIn);
-    scene.add(atmoOut);
+    /* 大气壳必须挂在 tilt 里，不能直接挂 scene。
+       它只是个球，进气壳绕 Y 转不转看不出来；但挂 scene 的后果是
+       "地球缩小时气壳不缩" —— 进出太阳系那 0.6 秒里地球缩到 0.2，
+       两个半径 1.0 的气壳还留在原地，画面就是一个巨大的蓝色鱼缸，
+       里面浮着一颗小地球和一套小太阳系。原来那两行
+       `if (typeof atmoIn !== 'undefined') atmoIn.visible = ...` 更是
+       一句死代码：atmoIn 是 buildGlobe 的局部变量，solarTick 里 typeof
+       恒为 undefined，等于什么都没做。 */
+    tilt.add(atmoIn);
+    tilt.add(atmoOut);
 
     /* 经纬网与大陆轮廓：只在没有贴图时显示（兜底形态）。
        有贴图后它们会显得杂乱，所以贴图一到就隐藏。 */
@@ -9575,7 +9593,7 @@ body.quiz-on #labels-canvas{display:none!important}
       r0: 3.02,
       az0: 0, el0: 0,
       root: null, planets: [], sun: null, sunUni: null, moon: null,
-      sky: null, skyMat: null, corona: [], speed: 1, baseStars: null,
+      sky: null, skyMat: null, corona: [], speed: 1,
       camMinBack: CAM_MIN, camMaxBack: CAM_MAX
     };
     var SOLAR_FAR = 5.35;               // 主视角：轨道外圈留一点边，八大行星全在画面里
@@ -9985,9 +10003,14 @@ body.quiz-on #labels-canvas{display:none!important}
       geo.setAttribute('aPhase', new THREE.BufferAttribute(pha, 1));
       geo.setAttribute('aSize', new THREE.BufferAttribute(siz, 1));
       geo.setAttribute('aSpike', new THREE.BufferAttribute(spk, 1));
-      var pts = new THREE.Points(geo, STAR_MAT);
+      /* 星点用 STAR_MAT 的**副本**：两边都要各自控制淡入淡出（uFade），
+         共用一个材质就只能整体改，地球星场收掉时天穹的星星会跟着一起黑。 */
+      var skyStarMat = STAR_MAT.clone();
+      skyStarMat.uniforms.uFade = { value: 0 };
+      var pts = new THREE.Points(geo, skyStarMat);
       pts.renderOrder = -6;
       g.add(pts);
+      solar.skyStarMat = skyStarMat;
 
       /* 3) 两团独立星云：比穹顶近、转视角时有视差。压得很淡，
             只当背景里的一点颜色，别抢行星的戏 */
@@ -10155,9 +10178,13 @@ body.quiz-on #labels-canvas{display:none!important}
         solar.corona.push(sp);
       });
 
-      /* 太阳系专属星空 */
+      /* 太阳系专属星空。
+         注意挂 scene 不挂 root：root 在过渡里要从 1 缩到 0.04（太阳"长出来"
+         那个效果），天穹半径 58 会被一起缩到 2.3 —— 相机在 5 左右，
+         等于整片星空往镜头里扑，同时星星被挤成一团，这就是"切回地球时
+         星空运动很诡异"。天穹只该淡出，不该跟着缩放。 */
       solar.sky = solarSkyBuild();
-      root.add(solar.sky);
+      scene.add(solar.sky);
 
       var sunLab = solarLabel('太阳', 'rgba(255,228,168,.95)');
       sunLab.position.set(0, 0.50, 0);
@@ -10269,10 +10296,8 @@ body.quiz-on #labels-canvas{display:none!important}
       var globeOut = Math.max(0, 1 - Math.max(0, (e - 0.02) / 0.42));
       tilt.scale.setScalar(Math.max(0.0001, globeOut));
       tilt.visible = globeOut > 0.004;
-      /* 大气壳是直接挂在 scene 上的两个独立球（不在地球组里），
-         不一起收掉就会变成罩住整个太阳系的一层蓝膜。 */
-      if (typeof atmoIn !== 'undefined') atmoIn.visible = globeOut > 0.02;
-      if (typeof atmoOut !== 'undefined') atmoOut.visible = globeOut > 0.02;
+      /* 大气壳跟着 tilt 一起缩（见 buildGlobe 里的注释），
+         这里不用再单独开关 —— 它们现在是地球组的一部分。 */
 
       solar.root.visible = e > 0.08;
       /* 灯的强度跟着 e 走：0 → 3.6 / 0 → 1.45。灯一直在场景里（见 solarBuild
@@ -10297,30 +10322,6 @@ body.quiz-on #labels-canvas{display:none!important}
           sp.material.opacity = (i ? 0.34 : 0.55) * (0.86 + 0.14 * Math.sin(nowS * 0.7 + i * 2.1));
         });
 
-        /* 星空：淡入 + 极慢自转，像在转天球 */
-        if (s.sky) {
-          var kSky = Math.min(1, Math.max(0, (e - 0.15) / 0.55));
-          s.sky.visible = e > 0.02;
-          /* 穹顶是 ShaderMaterial，透明度得走 uniform（material.opacity 对它无效）。
-             烘成立方体贴图之后，管透明度的是那一层极简材质。 */
-          var smat = (s.skyBaked && s.skyCubeMat) ? s.skyCubeMat : s.skyMat;
-          if (smat) smat.uniforms.uOpacity.value = 0.58 * kSky;
-          s.sky.children.forEach(function (ch) {
-            if (ch.material && ch.material.transparent && ch.userData.wantOpacity &&
-                ch.material.isSpriteMaterial) {
-              ch.material.opacity = ch.userData.wantOpacity * kSky;
-            }
-          });
-          s.sky.rotation.y += 0.004 * dtSec;
-        }
-        /* 主视角那半个星场（只撒在视野锥里）在太阳系里会让星空缺一半，收掉 */
-        if (!s.baseStars) {
-          scene.traverse(function (o) {
-            if (o.isPoints && o.material === STAR_MAT && (!s.sky || o.parent !== s.sky)) s.baseStars = o;
-          });
-        }
-        if (s.baseStars) s.baseStars.visible = s.t < 0.05;
-
         /* 位置与自转从一开始就按真实节奏走 —— 相机拉远的过程中就能看见
            行星各自在自己的轨道上跑，而不是等系统"成形"后才启动。 */
         solar.planets.forEach(function (p) {
@@ -10341,7 +10342,34 @@ body.quiz-on #labels-canvas{display:none!important}
         }
       }
 
-      /* 相机：方位/仰角吃拖拽写进 spin/tilt 的量，惯性与双指缩放全都白拿 */
+      /* ---------- 两套星空的交叉淡切（每帧都跑，不受 root.visible 影响） ----------
+         天穹 kSky：e>0.04 起亮、0.42 满；地球星场 kBase：e<0.32 开始回来、0.02 前全亮。
+         两个区间必须**重叠**：天穹刚起亮时只有一成透明度，如果这时候地球星场
+         已经黑透，背景会先暗一下再亮回来（第一版 0.10/0.18 就是这样，进去的
+         头半秒能看出"星空闪了一下"）。 */
+      if (s.sky) {
+        var kSky = Math.min(1, Math.max(0, (e - 0.04) / 0.38));
+        s.sky.visible = kSky > 0.003;
+        /* 穹顶是 ShaderMaterial，透明度得走 uniform（material.opacity 对它无效）。
+           烘成立方体贴图之后，管透明度的是那一层极简材质。 */
+        var smat = (s.skyBaked && s.skyCubeMat) ? s.skyCubeMat : s.skyMat;
+        if (smat) smat.uniforms.uOpacity.value = 0.58 * kSky;
+        /* 天穹里的 5200 颗星点是独立材质（STAR_MAT 的副本），同样走 uniform 淡出 */
+        if (s.skyStarMat) s.skyStarMat.uniforms.uFade.value = kSky;
+        s.sky.children.forEach(function (ch) {
+          if (ch.material && ch.material.transparent && ch.userData.wantOpacity &&
+              ch.material.isSpriteMaterial) {
+            ch.material.opacity = ch.userData.wantOpacity * kSky;
+          }
+        });
+        if (s.sky.visible) s.sky.rotation.y += 0.004 * dtSec;
+      }
+      if (BASE_STARS) {
+        var kBase = Math.min(1, Math.max(0, 1 - (e - 0.02) / 0.30));
+        BASE_STARS.visible = kBase > 0.003;
+        if (STAR_MAT) STAR_MAT.uniforms.uFade.value = kBase;
+      }
+
       var azDelta = -(spin.rotation.y - s.az0);
       var elDelta = (tilt.rotation.x - s.el0);
       /* 过渡里的拖拽量必须跟着 e 一起归零，否则退出瞬间相机会从
@@ -10364,6 +10392,13 @@ body.quiz-on #labels-canvas{display:none!important}
         tilt.scale.setScalar(1);
         tilt.visible = true;
         solar.root.visible = false;
+        /* 收尾把两套星空钉回"地球模式"的状态：上面的交叉淡切在 e=0 时
+           本来就算得对，这里再显式写一次，防的是中途切标签页 / 掉帧
+           导致某一帧没跑到 solarTick 就退出，星空停在半透明状态。 */
+        if (s.sky) s.sky.visible = false;
+        if (s.skyStarMat) s.skyStarMat.uniforms.uFade.value = 0;
+        if (BASE_STARS) BASE_STARS.visible = true;
+        if (STAR_MAT) STAR_MAT.uniforms.uFade.value = 1;
         camera.position.set(0, 0, globe.camTarget);
         camera.lookAt(0, 0, 0);
         CAM_MIN = s.camMinBack;
@@ -10409,6 +10444,7 @@ body.quiz-on #labels-canvas{display:none!important}
     globe.solarTick = solarTick;
     window.__solarToggle = solarToggle;
     window.__solarDbg = solar;          // 调试/验收用：控制台可改 solar.speed、solar.sky.visible
+    window.__baseStars = BASE_STARS;    // 同上：验收"退出太阳系后星场有没有回来"
 
     /* 右上角的 × ：太阳系模式里工具栏整体隐藏，这就是除了 Esc 之外的出口 */
     var _solarExitBtn = document.getElementById('solar-exit');
@@ -10517,7 +10553,13 @@ body.quiz-on #labels-canvas{display:none!important}
         } catch (e) { /* 预热失败不能影响主流程 */ }
         try {
           if (rt) { renderer.setRenderTarget(prev); rt.dispose(); }
-          if (renderer.initTexture) root_traverse_tex(solar.root, renderer);
+          if (renderer.initTexture) {
+            root_traverse_tex(solar.root, renderer);
+            /* 天穹已经不在 root 里了（见 solarBuild 的注释），单独走一遍：
+               它那张 6MB 的立方体贴图必须在预热阶段就上传，否则第一次进
+               太阳系会为它单掉一帧。 */
+            if (solar.sky) root_traverse_tex(solar.sky, renderer);
+          }
         } catch (e) {}
         solar.root.visible = wasRoot;
         if (solar.sky) solar.sky.visible = wasSky;
@@ -10629,6 +10671,9 @@ body.quiz-on #labels-canvas{display:none!important}
         camera.position.z += (globe.camTarget - camera.position.z) * (1 - Math.pow(0.88, dtf));
       }
       if (STAR_MAT) STAR_MAT.uniforms.uTime.value = performance.now() / 1000;
+      if (globe.solarOn && solar.skyStarMat) {
+        solar.skyStarMat.uniforms.uTime.value = performance.now() / 1000;
+      }
       /* 洋流：箭头是真的沿着流路往前挪，所以每帧要按时间推进一次。
          dt 取上一帧的实际间隔（并且封顶 0.06 秒）—— 标签页切回来时
          那一下巨大的 dt 不会让箭头瞬移半条洋流。

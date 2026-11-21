@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-21-DT">
+<meta name="build" content="2026-11-22-DU">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -1653,7 +1653,10 @@ body.panel-open #globe-stage{
 }
 /* ---------- 地形标签（气候 / 地形图层专用） ----------
    和国名共用同一套投影 + 避让，只换数据源和样式。
-   图层打开时国名整层藏起来（visibility，不是 display —— 还要靠它量宽高）。 */
+   图层打开时国名整层藏起来（visibility，不是 display —— 还要靠它量宽高）。 *//* 首屏淡入：地名层跟着球一起浮出来。球还黑着的时候，"美国 墨西哥"已经
+   挂在半空，看着就是"标签先到、地球后到"。值由渲染循环按球体淡入量写，
+   淡入结束就撤掉这个变量（回到 1），不影响之后任何状态。 */
+#labels,#tlabels{opacity:var(--lbl-fade,1)}
 #tlabels{
   position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:5;
   visibility:hidden;will-change:transform;
@@ -1776,7 +1779,10 @@ body.labels-canvas .mlabel{color:transparent!important;-webkit-text-stroke:0!imp
 #globe-stage #labels-canvas{
   position:absolute;left:0;top:0;z-index:10;
   pointer-events:none;
-  opacity:1!important;
+  /* --lbl-fade：首屏跟球体一起淡入（见渲染循环）。默认 1，淡入结束后撤掉变量。
+     这里必须 !important —— 上面那条 #globe-stage canvas 的 opacity:0 是同权重的
+     元素选择器，靠 .ready 才显形，覆盖顺序很容易踩错。 */
+  opacity:var(--lbl-fade,1)!important;
   transition:none!important;
   width:auto;height:auto;
 }
@@ -7049,8 +7055,10 @@ body.quiz-on #labels-canvas{display:none!important}
         uTime: { value: 0 },
         uDpr: { value: Math.min(window.devicePixelRatio || 1, 2) },
         /* 整体淡出用：进出太阳系时地球星场要和天穹交叉淡切。
-           星点没有 opacity 可用（ShaderMaterial 不吃 material.opacity）。 */
-        uFade: { value: 1 }
+           星点没有 opacity 可用（ShaderMaterial 不吃 material.opacity）。
+           初值 0：首屏星空要**跟着地球一起浮出来**，不能先于地球亮着
+           （见渲染循环里跟着 globe.fadeVal 写入的那一句）。 */
+        uFade: { value: 0 }
       },
       vertexShader: [
         'attribute vec3 aColor;',
@@ -7073,12 +7081,14 @@ body.quiz-on #labels-canvas{display:none!important}
            这里给两层慢噪声叠加：主周期 5~14 秒、总幅度 ±20%，只有带星芒的亮星
            再叠 4% 的快抖动。之前那版是单层 2~7 秒、幅度 50%，还带尺寸抖动 ——
            尺寸在 1px 上下跳会被光栅化成"有/无"，看过去就是一片灯在闪。 */
+        /* 只有约 8% 的星会"呼吸"，周期 9~22 秒、幅度 ±6%，其余一律恒亮。
+           真实夜空的闪烁是大气抖动，肉眼看到的其实是"静的"，只有少数亮星
+           在很慢地喘。之前是 20% 幅度、2~7 秒一轮，整片天像在打信号灯。 */
         '  float ph = aPhase;',
-        '  float w1 = 0.45 + fract(ph * 0.7137) * 0.75;',
-        '  float tw = 0.5 + 0.5 * sin(uTime * w1 + ph * 6.2831);',
-        '  tw = 0.72 * tw + 0.28 * (0.5 + 0.5 * sin(uTime * (w1 * 2.37 + 0.31) + ph * 17.0));',
-        '  float shim = aSpike * 0.04 * sin(uTime * 7.3 + ph * 41.0);',
-        '  vA = 0.80 + 0.20 * tw + shim;',
+        '  float sel = step(0.92, fract(ph * 1.618));',
+        '  float w1 = 0.29 + fract(ph * 0.7137) * 0.40;',
+        '  float tw = sin(uTime * w1 + ph * 6.2831);',
+        '  vA = 0.94 + sel * 0.06 * tw;',
         // 点的大小要给足：1 像素以下的点在浏览器里基本看不见，
          // 之前那版就是这样，整片夜空看起来"没有星星"。
          // 尺寸这里**不跟闪烁联动**：亚像素的尺寸抖动会被光栅化放大成忽明忽暗。
@@ -9618,6 +9628,12 @@ body.quiz-on #labels-canvas{display:none!important}
       rA: 3.02, rB: 3.02,
       lblShow: true,                   // 国名层当前是不是露着的（跟 body.solar-nolabel 同步）
       az0: 0, el0: 0,
+      /* 地球是转场的**锚点**：它一直存在，只是从"主视角那颗球"缩到轨道上的
+         那颗小地球。earthTheta 是转场中地球在轨道上的方位（挑在相机视线的
+         垂线上，这样它是从画面侧面进出，不会从太阳背后穿过去）。 */
+      earthTheta: 0, thetaFrom: 0, thetaDelta: 0,
+      earthHolder: null, earthMesh: null, earthLabel: null, earthDef: null,
+      sunLabel: null, glow: [],
       root: null, planets: [], sun: null, sunUni: null, moon: null,
       sky: null, skyMat: null, corona: [], speed: 1,
       camMinBack: CAM_MIN, camMaxBack: CAM_MAX
@@ -10141,7 +10157,7 @@ body.quiz-on #labels-canvas{display:none!important}
          但采样器如果是 Clamp 模式，接缝两侧的线性过滤会把边缘像素拖出来一条线。 */
       var sunTex = planetTex('sun.webp');
       sunTex.wrapS = sunTex.wrapT = THREE.RepeatWrapping;
-      solar.sunUni = { uTime: { value: 0 }, uMap: { value: sunTex } };
+      solar.sunUni = { uTime: { value: 0 }, uMap: { value: sunTex }, uFade: { value: 0 } };
       var sunMat = new THREE.ShaderMaterial({
         uniforms: solar.sunUni,
         vertexShader: [
@@ -10155,7 +10171,7 @@ body.quiz-on #labels-canvas{display:none!important}
           '}'
         ].join('\n'),
         fragmentShader: [
-          'uniform float uTime; uniform sampler2D uMap;',
+          'uniform float uTime; uniform sampler2D uMap; uniform float uFade;',
           'varying vec2 vUv; varying vec3 vN; varying vec3 vV;',
           'void main() {',
           /* 贴图缓慢横移：太阳是流体，静止的贴图看着像塑料球。
@@ -10168,9 +10184,17 @@ body.quiz-on #labels-canvas{display:none!important}
           /* 边缘变暗（临边昏暗）：贴图本身没有这层，得自己补 */
           '  vec3 col = tex * (0.42 + 0.58 * pow(mu, 0.45));',
           '  col += vec3(0.44, 0.16, 0.02) * pow(1.0 - mu, 2.8);',   // 边缘偏橙
-          '  gl_FragColor = vec4(col * 0.74, 1.0);',
+          /* uFade 由太阳系进度驱动：地球模式里太阳必须彻底不存在。
+             颜色乘 uFade（不是 alpha 渐变）+ 加法混合 —— 半透明的日面会
+             变成一块"发褐的暗暗的圆盘"，加法混合才是"光源逐渐点亮"的样子，
+             而且永远不会挡住别的天体。 */
+          '  if (uFade < 0.004) discard;',
+          '  gl_FragColor = vec4(col * 0.74 * uFade, 1.0);',
           '}'
-        ].join('\n')
+        ].join('\n'),
+        transparent: true,
+        depthWrite: false,
+        blending: THREE.AdditiveBlending
       });
       solar.sun = new THREE.Mesh(new THREE.SphereGeometry(0.34, 64, 48), sunMat);
       root.add(solar.sun);
@@ -10185,6 +10209,11 @@ body.quiz-on #labels-canvas{display:none!important}
         }));
         sp.scale.setScalar(0.34 * 2 * g[0]);
         sp.renderOrder = -2;
+        /* 这两个 sprite 是 depthTest:false + additive：只要在场景里、透明度不为 0，
+           它们就会盖在**任何东西**上面。太阳系进度为 0 时必须一起收掉，
+           不然地球模式中间会有一团暖白光。baseOp 留着按 sunK 缩放。 */
+        sp.userData.baseOp = g[1];
+        solar.glow.push(sp);
         root.add(sp);
       });
 
@@ -10215,6 +10244,7 @@ body.quiz-on #labels-canvas{display:none!important}
       var sunLab = solarLabel('太阳', 'rgba(255,228,168,.95)');
       sunLab.position.set(0, 0.50, 0);
       sunLab.scale.set(0.079, 0.022, 1);
+      solar.sunLabel = sunLab;
       root.add(sunLab);
 
       /* ---- 八大行星 ---- */
@@ -10250,6 +10280,11 @@ body.quiz-on #labels-canvas{display:none!important}
             (gU && gU.nightMap && gU.nightMap.value) || solarTexFile('assets/tex/earth-night.webp'),
             planetTex('clouds.webp'));
           mesh = new THREE.Mesh(geo, em);
+          /* 这颗小球**永远不显示**：太阳系里的地球就是主场景那颗真实地球
+             （见 solarTick 里把 tilt 整体搬到轨道上的那一段）。留一个占位
+             mesh 只是为了让 holder/轨道/月球的层级不变。 */
+          mesh.visible = false;
+          solar.earthMesh = mesh;
         } else {
           mesh = new THREE.Mesh(geo, new THREE.MeshPhongMaterial({
             map: planetTex(d.tex),
@@ -10289,6 +10324,11 @@ body.quiz-on #labels-canvas{display:none!important}
         var lab = solarLabel(d.name);
         lab.position.set(0, d.r + 0.085, 0);
         holder.add(lab);
+        if (d.earth) {
+          solar.earthLabel = lab;
+          solar.earthHolder = holder;
+          solar.earthDef = d;
+        }
 
         solar.planets.push({
           def: d, holder: holder, mesh: mesh, axis: axis, line: line,
@@ -10325,46 +10365,100 @@ body.quiz-on #labels-canvas{display:none!important}
       else if (s.t > s.target) s.t = Math.max(s.target, s.t - stepT);
       var e = s.t * s.t * (3 - 2 * s.t);
 
-      /* 地球淡出、太阳系淡入 */
-      /* 地球先"缩走"、太阳系再"长出来"：两组在时间上错开，
-         否则太阳会以接近全尺寸顶在地球背后，像地球后面挂了个大灯泡。 */
-      /* 0.30 → 0.42：原来地球在 0.35 秒内就缩没了，第一帧还是满屏、下一帧就空了，
-         看着像"啪"地切走。窗口拉长到 0.6 秒左右，才看得出是缩着退场。
-         起点再往后挪到 e=0.10：头 0.25 秒让相机先退开（半径 3.02→3.2，地球
-         靠透视缩一点），再开始本体收缩 —— 否则第一帧就开始"变小"，读起来
-         是"地球被缩小了"，而不是"我飞远了"。 */
-      var globeOut = Math.max(0, 1 - Math.max(0, (e - 0.10) / 0.38));
-      tilt.scale.setScalar(Math.max(0.0001, globeOut));
-      tilt.visible = globeOut > 0.004;
-      /* 大气壳跟着 tilt 一起缩（见 buildGlobe 里的注释），
-         这里不用再单独开关 —— 它们现在是地球组的一部分。 */
+      /* ---------- 地球 = 整个转场的锚点 ----------
+         以前是"地球缩没 → 太阳系长出来 → 里面另有一颗小地球"，退出时反过来，
+         所以两头都能看出"地球消失又出现"。现在全程只有**一颗**地球：主场景
+         那颗真实球（tilt 组）。它只是随着视角推远，尺度从 1 缩到轨道尺度、
+         位置从原点挪到自己的轨道点上；太阳系里那颗占位小球（earthMesh）永久隐藏。
 
-      solar.root.visible = e > 0.08;
+         两个曲线：
+           · 尺度 scl = 0.088^e —— 几何级数，屏幕上每一帧缩小同样倍数，
+             跟相机的几何级数推拉同源，读起来是"匀速飞离"，不是"被缩小"。
+           · 位移 dK = e^0.45 —— 指数小于 1，让位移**跑在收缩前面**。
+             地球半径 1→0.088、太阳半径 0.34，两者在 e≈0.4 会互相穿插；
+             位移先走开，太阳再亮起来，就没有"太阳从地球里穿出来"的画面。 */
+      var dE = s.earthDef || { a: 0.98, r: 0.088 };
+      var dK = Math.pow(e, 0.45);
+      var scl = Math.pow(dE.r, e);
+      /* 锚点方位：退出时用前 45% 的行程把方位摆到目标上（那时地球还很小，
+         摆动看不出突兀，读起来是"它在地球轨道上滑了一段"）；进入时方位固定。 */
+      var thP = Math.min(1, Math.max(0, (1 - e) / 0.45));
+      thP = thP * thP * (3 - 2 * thP);
+      /* 地球的方位角：已经在太阳系里（t 满）就按真实公转走，否则由锚点插值。
+         两种情况都写回 p.theta —— 转场结束时轨道从这里接上，不会跳一格。 */
+      var earthP = solar.planets[2];
+      var thE;
+      if (s.t >= 1 && earthP) {
+        earthP.theta += (Math.PI * 2) / (ORBIT_BASE * earthP.def.period) * dtSec * s.speed;
+        thE = earthP.theta;
+      } else {
+        thE = s.thetaFrom + s.thetaDelta * thP;
+        if (earthP) earthP.theta = thE;
+      }
+      s.earthTheta = thE;
+      var ex = Math.cos(thE) * dE.a * dK;
+      var ez = Math.sin(thE) * dE.a * dK;
+
+      tilt.position.set(ex, 0, ez);
+      tilt.scale.setScalar(scl);
+      tilt.visible = true;
+      /* 大气壳跟着 tilt 一起缩（见 buildGlobe 里的注释），不用单独开关。 */
+
+      /* ---------- 太阳：只在 e>0.35 之后才存在 ----------
+         前面算过，e<0.4 时地球还包着太阳，此时太阳若可见就是"从地球里穿出来"。
+         所以太阳本体、光晕、日冕、名字全部乘同一个 sunK。
+         本体 uFade 到 0 时片元直接 discard（连深度都不写），
+         否则一颗全透明但写深度的球会把地球挖出一个洞。 */
+      /* 窗口按方向给两套：
+           · 进入 0.42~0.72 —— 必须等地球把太阳让开（见上面位移的注释），
+             太早亮就是"太阳从地球里穿出来"。
+           · 退出 0.18~0.46 —— 反过来要让它亮到最后：镜头是朝地球推过去的，
+             太阳在背后慢慢退场、被长大的地球吃掉，比"整片太阳系 0.3 秒内
+             啪地灭掉"自然得多。 */
+      var sunLo = (s.target === 1) ? 0.42 : 0.18;
+      var sunHi = (s.target === 1) ? 0.72 : 0.46;
+      var sunK = Math.min(1, Math.max(0, (e - sunLo) / (sunHi - sunLo)));
+      sunK = sunK * sunK * (3 - 2 * sunK);
+      if (s.sunUni) s.sunUni.uFade.value = sunK;
+      if (s.sunLabel && s.sunLabel.material) s.sunLabel.material.opacity = sunK;
+      s.glow.forEach(function (sp) { sp.material.opacity = sp.userData.baseOp * sunK; });
+
+      /* 行星、轨道线、行星名全部跟着同一个 sunK 起来：太阳没点亮之前
+         先看见一圈行星飘在黑影里，是最出戏的一帧。 */
+      solar.root.visible = sunK > 0.003;
       /* 灯的强度跟着 e 走：0 → 3.6 / 0 → 1.45。灯一直在场景里（见 solarBuild
          的注释），只是靠强度开关，这样材质变体不会因为进出模式而重编译。 */
       if (solar.sunLight) solar.sunLight.intensity = 3.6 * Math.min(1, e / 0.22);
       if (solar.ambLight) solar.ambLight.intensity = 1.45 * Math.min(1, e / 0.22);
       if (solar.root.visible) {
-        var rg = Math.min(1, Math.max(0, (e - 0.08) / 0.55));
-        solar.root.scale.setScalar(0.04 + 0.96 * Math.pow(rg, 1.15));
-        var grow = Math.max(0, (e - 0.05) / 0.95);
+        /* root 不再整体缩放：地球的落点是真实坐标，root 一动，
+           轨道位置就跟地球对不上了（原来那套 0.04→1 的"长出来"是旧方案的）。 */
+        solar.root.scale.setScalar(1);
         solar.planets.forEach(function (p) {
-          p.holder.scale.setScalar(grow);
-          p.line.material.opacity = 0.44 * Math.max(0, (e - 0.35) / 0.65);
+          /* 地球 holder 保持 1：月球挂在它下面，缩放会让月球轨道半径跟着变 */
+          p.holder.scale.setScalar(p.def.earth ? 1 : Math.max(0.02, sunK));
+          p.line.material.opacity = 0.44 * sunK;
           p.line.visible = p.line.material.opacity > 0.002;
         });
         s.sunUni && (s.sunUni.uTime.value = performance.now() / 1000);
 
-        /* 日冕流：两层反向转 + 轻微呼吸 */
+        /* 日冕流：两层反向转 + 轻微呼吸（再乘 sunK，太阳没亮起来之前不许有光） */
         var nowS = performance.now() / 1000;
         s.corona.forEach(function (sp, i) {
           sp.material.rotation += sp.userData.spin * dtSec;
-          sp.material.opacity = (i ? 0.34 : 0.55) * (0.86 + 0.14 * Math.sin(nowS * 0.7 + i * 2.1));
+          sp.material.opacity = (i ? 0.34 : 0.55) * sunK *
+            (0.86 + 0.14 * Math.sin(nowS * 0.7 + i * 2.1));
         });
 
         /* 位置与自转从一开始就按真实节奏走 —— 相机拉远的过程中就能看见
            行星各自在自己的轨道上跑，而不是等系统"成形"后才启动。 */
         solar.planets.forEach(function (p) {
+          if (p.def.earth) {
+            /* 地球的位置由锚点决定（就是主场景那颗球），这里只是让 holder
+               跟过去，月球才挂在正确的轨道上。θ 已经在上面算好了。 */
+            p.holder.position.set(ex, 0, ez);
+            return;
+          }
           var w = (Math.PI * 2) / (ORBIT_BASE * p.def.period);
           p.theta += w * dtSec * s.speed;
           p.holder.position.set(Math.cos(p.theta) * p.def.a, 0, Math.sin(p.theta) * p.def.a);
@@ -10379,6 +10473,11 @@ body.quiz-on #labels-canvas{display:none!important}
           solar.moon.a += (Math.PI * 2 / 20) * dtSec * s.speed;   // 月球 27.3 天，夹到 20 秒
           solar.moon.pivot.rotation.y = solar.moon.a;
           solar.moon.mesh.rotation.y = -solar.moon.a;             // 潮汐锁定
+        }
+        /* 地球名字：等它缩到轨道尺度、跟别的行星一个量级了才挂出来 */
+        if (s.earthLabel && s.earthLabel.material) {
+          var eLab = Math.min(1, Math.max(0, (e - 0.45) / 0.35));
+          s.earthLabel.material.opacity = eLab;
         }
       }
 
@@ -10404,17 +10503,19 @@ body.quiz-on #labels-canvas{display:none!important}
         });
         if (s.sky.visible) s.sky.rotation.y += 0.004 * dtSec;
       }
+      /* 地球星场：太阳系里是"沉下去"的（跟着 kBase），回到地球模式要回到 1。
+         首屏的淡入量由渲染循环写（跟球体同一个 fadeVal），这里只管转场。 */
       if (BASE_STARS) {
         var kBase = Math.min(1, Math.max(0, 1 - (e - 0.02) / 0.30));
         BASE_STARS.visible = kBase > 0.003;
-        if (STAR_MAT) STAR_MAT.uniforms.uFade.value = kBase;
+        if (STAR_MAT && s.t > 0) STAR_MAT.uniforms.uFade.value = kBase;
       }
 
       var azDelta = -(spin.rotation.y - s.az0);
       var elDelta = (tilt.rotation.x - s.el0);
       /* 过渡里的拖拽量必须跟着 e 一起归零，否则退出瞬间相机会从
          斜视角"啪"地跳回正视角（t 归零但 azDelta 还在）。 */
-      /* ---------- 相机：以原点（地球/太阳）为锚点的推拉 ----------
+      /* ---------- 相机：以地球为锚点的推拉 ----------
          半径走**几何级数** r(e) = rA·(rB/rA)^e，不走线性：
          线性插值时每帧位移恒定，可屏幕上的缩放倍率在近端大、远端小，
          观感是"先猛冲一下再慢慢停"；几何级数每秒的倍率恒定，地球一直钉在
@@ -10435,12 +10536,16 @@ body.quiz-on #labels-canvas{display:none!important}
         R * Math.sin(el),
         R * Math.cos(el) * Math.cos(az)
       );
-      camera.lookAt(0, 0, 0);
-      /* 国名/地形名是 DOM 层，投影点跟着 tilt 的缩放走：球被缩到 0.0001 时
-         几十个标签全挤到画面正中，中间就糊着"美国 法国"几个大字。
-         门限卡在 globeOut > 0.985（球基本还是原尺寸），这样退出时它们
-         是在地球已经差不多长回来的那一帧才回来，不会提前飘到中间去。 */
-      var lblShow = globeOut > 0.985;
+      /* 视线往地球上再压一点（越接近地球模式压得越多）：飞近的时候，
+         地球从轨道上那个偏心的位置被"拽"到画面正中，而不是镜头对着太阳、
+         地球斜着从旁边飘出去。系数 0.85 留一点余量，避免末段视线抖。 */
+      var aimK = Math.max(0, 1 - e);
+      aimK = aimK * aimK * 0.85;
+      camera.lookAt(ex * aimK, 0, ez * aimK);
+      /* 国名/地形名是 DOM 层，投影点跟着 tilt 的缩放走：地球缩到轨道尺度时
+         几十个标签会全挤到那个小球上，糊成一团字。门限卡在 0.992
+         （球基本还是原尺寸），这样它们是在地球差不多长回来的那一帧才回来。 */
+      var lblShow = scl > 0.992;
       if (lblShow !== s.lblShow) {
         s.lblShow = lblShow;
         document.body.classList.toggle('solar-nolabel', !lblShow);
@@ -10452,6 +10557,7 @@ body.quiz-on #labels-canvas{display:none!important}
         s.on = false;
         globe.solarOn = false;
         tilt.scale.setScalar(1);
+        tilt.position.set(0, 0, 0);      // 地球回到原点 —— 它就是原来那颗，位置必须归零
         tilt.visible = true;
         solar.root.visible = false;
         /* 收尾把两套星空钉回"地球模式"的状态：上面的交叉淡切在 e=0 时
@@ -10495,6 +10601,14 @@ body.quiz-on #labels-canvas{display:none!important}
           CAM_MIN = 0.42;
           CAM_MAX = 9.2;
         }
+        /* 地球的落点方位：放在相机水平视线的**垂线**上。
+           推导：相机方位角 az 处，视线水平方向是 (sin az, 0, cos az)；
+           地球在 θ 处的位置方向是 (cos θ, 0, sin θ)，点积 = sin(θ+az)，
+           所以 θ = -az 时正好正交 —— 地球从画面侧面飞出去，不会从太阳背后穿。
+           进场时 azDelta 刚被 az0 归零，所以这里的 -az = +0.26。 */
+        var azE = -(spin.rotation.y - s.az0) - 0.26;
+        s.thetaFrom = -azE;
+        s.thetaDelta = 0;
         /* 半径的两个端点是"曲线在 e=0 / e=1 处的值"，跟目标方向绑死：
            e=1 那头永远是太阳系主视角 SOLAR_FAR；e=0 那头按当前半径反解
            （正常从地球进就是当前半径本身；退到一半又点进来时解得一个更近的
@@ -10517,6 +10631,17 @@ body.quiz-on #labels-canvas{display:none!important}
         s.rB = (s.t < 0.1)
           ? SOLAR_FAR
           : Math.min(9.5, Math.exp(Math.log(s.rA) + (Math.log(curB) - Math.log(s.rA)) / s.t));
+        /* 退出：地球现在停在轨道某个方位上，得先把它摆到"相机视线的垂线"方向，
+           再往里收 —— 否则它可能正好在太阳背后，整段退场都被太阳挡着。
+           摆方位放在行程前 45%（见 solarTick 的 thP），那时地球还很小，
+           看起来就是"它在地球轨道上滑了一段"，不是瞬移。 */
+        var azB = -(spin.rotation.y - s.az0) - 0.26;
+        var thTo = -azB;
+        var dth = thTo - (s.earthTheta || 0);
+        while (dth > Math.PI) dth -= Math.PI * 2;
+        while (dth < -Math.PI) dth += Math.PI * 2;
+        s.thetaFrom = s.earthTheta || 0;
+        s.thetaDelta = dth;
         s.target = 0;
         globe.camTarget = Math.max(CAM_MIN, Math.min(CAM_MAX, s.r0));
         document.body.classList.remove('solar-on');
@@ -10602,15 +10727,10 @@ body.quiz-on #labels-canvas{display:none!important}
       function shoot() {
         if (shootDone) return;
         shootDone = true;
-        var wasRoot = solar.root.visible;
-        var wasSky = solar.sky ? solar.sky.visible : false;
-        solar.root.visible = true;
-        if (solar.sky) solar.sky.visible = true;
-        var prev = null, rt = null;
 
         function finish() {
-          solar.root.visible = wasRoot;
-          if (solar.sky) solar.sky.visible = wasSky;
+          solar.root.visible = false;
+          if (solar.sky) solar.sky.visible = false;
           solar.warmed = true;
         }
 
@@ -10630,22 +10750,36 @@ body.quiz-on #labels-canvas{display:none!important}
         mark('bake', solarSkyBake);
 
         setTimeout(function () {
-          /* ② 编译 */
+          /* ② 编译 + 真渲一帧。
+             这里有三个必须"同步收尾"的东西，少一个就会漏到画面上：
+               · root/sky 的 visible：只在这一段里为真，函数一出去就还原。
+                 之前是进入 shoot 就置真、400ms 后在 finish 里还原，中间这几百
+                 毫秒主循环照样往画布上画 —— 用户看到的就是"地球中心亮一下，
+                 太阳贴到地球模型上了"。
+               · renderTarget：必须在同一个同步块里还原并 dispose。留在 64×64
+                 的离屏 target 上跨定时器，中间每帧主循环都画进那个 64² 的靶子，
+                 屏幕上一整块冻结。
+               · 轨道线：平时 opacity=0、visible=false，这里临时点亮把程序编掉。 */
           mark('compile', function () {
-            if (THREE.WebGLRenderTarget) {
-              /* 轨道线平时 opacity=0、visible=false（进太阳系后才淡入），
-                 于是它们的程序要等第一次淡入那一刻才编译 —— 实测正好是
-                 进去后第 12 帧、50ms 的一顿。这里先让它们"可见"，把程序编掉。 */
-              var lineState = [];
-              solar.planets.forEach(function (p) {
-                lineState.push([p.line.visible, p.line.material.opacity]);
-                p.line.visible = true;
-                p.line.material.opacity = 1;
-              });
+            if (!THREE.WebGLRenderTarget) {
+              if (renderer.compile) renderer.compile(scene, camera);
+              return;
+            }
+            var wasRoot = solar.root.visible;
+            var wasSky = solar.sky ? solar.sky.visible : false;
+            var lineState = [];
+            var rt = null, prev = null;
+            solar.planets.forEach(function (p) {
+              lineState.push([p.line.visible, p.line.material.opacity]);
+              p.line.visible = true;
+              p.line.material.opacity = 1;
+            });
+            solar.root.visible = true;
+            if (solar.sky) solar.sky.visible = true;
+            try {
               /* 相机必须框住整圈轨道，否则被视锥裁掉的星球根本不会画，
-                 它们的着色器也就没编译 —— 之前 fov 42 视锥太窄，
-                 9 个程序全漏到"真正进太阳系"的那几帧里编译。
-                 fov 70、距离 8.4：半径 2.4 的轨道在 45° 以内，全在画面里。 */
+                 它们的着色器也就没编译 —— fov 70、距离 7.6：半径 2.4 的
+                 轨道在 45° 以内，全在画面里。 */
               var cam = new THREE.PerspectiveCamera(70, 1.78, 0.05, 300);
               cam.position.set(0, 4.2, 7.0);
               cam.lookAt(0, 0, 0);
@@ -10653,15 +10787,27 @@ body.quiz-on #labels-canvas{display:none!important}
               prev = renderer.getRenderTarget();
               renderer.setRenderTarget(rt);
               renderer.render(scene, cam);
+              /* 关键顺序：先把渲染目标切回屏幕，再 compile()。
+                 渲染到离屏 target 时，three 会按 target 的纹理编码（线性）
+                 编译程序；而正式运行时是渲染到屏幕（sRGB）—— 两套 cacheKey
+                 不一样。以前 compile() 是在 target 还绑着的时候调的，于是
+                 编出来的全是"线性版"，第一次进太阳系还得现场重链 8 个程序，
+                 实测掉 83ms，正好卡在转场中段。 */
+              renderer.setRenderTarget(prev);
               /* render 只编"画得到"的材质：透明度为 0 的轨道线、被收起来的
                  底图星场都不会画。compile() 是按对象遍历的，把剩下的一起编掉。 */
               if (renderer.compile) renderer.compile(scene, cam);
+            } finally {
+              if (rt) {
+                try { renderer.setRenderTarget(prev); } catch (e) {}
+                try { rt.dispose(); } catch (e) {}
+              }
+              solar.root.visible = wasRoot;
+              if (solar.sky) solar.sky.visible = wasSky;
               solar.planets.forEach(function (p, i) {
                 p.line.visible = lineState[i][0];
                 p.line.material.opacity = lineState[i][1];
               });
-            } else if (renderer.compile) {
-              renderer.compile(scene, camera);
             }
           });
 
@@ -10669,9 +10815,6 @@ body.quiz-on #labels-canvas{display:none!important}
             /* ③ 传贴图：一张一张来，每张之间让出一帧。
                 十几张行星贴图 + 太阳系地球的 4096×2048 日夜云三张，
                 一次性 initTexture 就是 900ms 的冻。 */
-            try {
-              if (rt) { renderer.setRenderTarget(prev); rt.dispose(); rt = null; }
-            } catch (e) {}
             if (!renderer.initTexture) return finish();
             var q = [];
             var push = function (obj) {
@@ -10864,6 +11007,15 @@ body.quiz-on #labels-canvas{display:none!important}
           var ef = kf * kf * (3 - 2 * kf);
           U.uFade.value = ef;
           globe.fadeVal = ef;
+          /* 星空和地名层跟地球**同一个淡入量**：星场乘 1.3 让星点比球面
+             早一两帧出现（球是"从星空里长出来"的，不能反过来星空比球晚到）；
+             地名层则跟球面走 —— 球还没亮的时候，标签先挂在半空最扎眼。 */
+          if (!globe.solarOn && STAR_MAT) {
+            STAR_MAT.uniforms.uFade.value = Math.min(1, ef * 1.3);
+          }
+          if (globe.fadeStart && !globe.lblFaded) {
+            document.body.style.setProperty('--lbl-fade', (0.06 + 0.94 * ef).toFixed(3));
+          }
           /* 线框与大陆轮廓反向淡出：球 0→1 的同时它们 1→0，
              两者在中间交叠，观感是"骨架化成了实体"，而不是"线框没了、球才来"。 */
           if (globe.wire) {
@@ -10874,7 +11026,13 @@ body.quiz-on #labels-canvas{display:none!important}
             });
             if (kf >= 1) globe.wire = null;
           }
-          if (kf >= 1) { globe.fadeStart = 0; globe.fadeDone = true; }
+          if (kf >= 1) {
+            globe.fadeStart = 0;
+            globe.fadeDone = true;
+            globe.lblFaded = true;
+            document.body.style.removeProperty('--lbl-fade');
+            if (STAR_MAT) STAR_MAT.uniforms.uFade.value = 1;
+          }
         }
         /* 大气壳的透明度每帧算一次：淡入值 × 夜面衰减。
            夜面时蓝色气壳几乎收掉，否则整颗球像蒙着蓝纱、城市灯光也糊。 */

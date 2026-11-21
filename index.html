@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-21-CZ">
+<meta name="build" content="2026-11-21-DA">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -9617,7 +9617,7 @@ body.quiz-on #labels-canvas{display:none!important}
       var m = new THREE.SpriteMaterial({ map: t, transparent: true, depthWrite: false,
         sizeAttenuation: false });
       var sp = new THREE.Sprite(m);
-      sp.scale.set(0.046, 0.013, 1);
+      sp.scale.set(0.068, 0.019, 1);
       return sp;
     }
 
@@ -9755,7 +9755,7 @@ body.quiz-on #labels-canvas{display:none!important}
 
       /* 日冕：两层径向渐变叠加，外圈更大更淡 */
       var glowTex = solarGlowTex();
-      [[1.55, 0.85], [3.10, 0.45]].forEach(function (g) {
+      [[1.30, 0.42], [2.85, 0.30]].forEach(function (g) {
         var sp = new THREE.Sprite(new THREE.SpriteMaterial({
           map: glowTex, transparent: true, blending: THREE.AdditiveBlending,
           /* 测深会让 sprite 的四边形和太阳球面相交，在球上切出一条直边；
@@ -9769,7 +9769,7 @@ body.quiz-on #labels-canvas{display:none!important}
 
       var sunLab = solarLabel('太阳', 'rgba(255,228,168,.95)');
       sunLab.position.set(0, 0.47, 0);
-      sunLab.scale.set(0.058, 0.016, 1);
+      sunLab.scale.set(0.079, 0.022, 1);
       root.add(sunLab);
 
       /* ---- 地球贴图：直接复用站点已有的 4K 日/夜图 ---- */

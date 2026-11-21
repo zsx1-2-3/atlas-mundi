@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-21-DP">
+<meta name="build" content="2026-11-21-DQ">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -10524,31 +10524,42 @@ body.quiz-on #labels-canvas{display:none!important}
         solar.warmed = true;
       }
 
+      var booted = false;
       function boot() {
+        if (booted) return;
+        booted = true;
         try { solarBuild(); } catch (e) {}
         var tries = 0;
         (function waitTex() {
           tries++;
-          if (allReady() || tries > 30) return whenIdle();
-          setTimeout(waitTex, 200);
+          if (allReady() || tries > 20) return whenIdle();
+          setTimeout(waitTex, 150);
         })();
       }
 
       /* 预热本身要上传十来张贴图、编译十来个程序，放在用户正拖着地球的那一帧
-         就是一次明显的顿。所以挑"手停下来了"的时刻再渲：
-         和挂 8K 贴图用同一个判据（dragging / flying / 最近 900ms 有输入就等）。 */
+         就是一次明显的顿。所以挑"手停下来了"的时刻再渲。
+         但别等太久：预热的全部意义就是"点按钮之前做完"，等不到就硬上。 */
       function whenIdle() {
         var n = 0;
         (function chk() {
           var busy = globe.dragging || globe.flying ||
-                     (performance.now() - (globe.lastInput || 0) < 900);
-          if (!busy || n++ > 40) return shoot();
-          setTimeout(chk, 400);
+                     (performance.now() - (globe.lastInput || 0) < 500);
+          if (!busy || n++ > 12) return shoot();
+          setTimeout(chk, 250);
         })();
       }
 
-      if (window.requestIdleCallback) requestIdleCallback(boot, { timeout: 1500 });
-      else setTimeout(boot, 1200);
+      /* 触发方式：页面加载后 1.2 秒无条件跑一次；鼠标移到"太阳系"按钮上
+         再补一次（rIC 在持续 3D 渲染的页面里经常拿不到空闲片，
+         实测线上 12 秒都没预热上，点下去就是 900ms 的卡顿）。 */
+      setTimeout(boot, 800);
+      var _bs = document.getElementById('btn-solar');
+      if (_bs) {
+        _bs.addEventListener('mouseenter', boot);
+        _bs.addEventListener('focus', boot);
+        _bs.addEventListener('pointerdown', boot);
+      }
     })();
 
     function root_traverse_tex(obj, r) {

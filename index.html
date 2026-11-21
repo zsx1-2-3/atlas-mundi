@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-21-CY">
+<meta name="build" content="2026-11-21-CZ">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -9612,9 +9612,12 @@ body.quiz-on #labels-canvas{display:none!important}
       t.minFilter = THREE.LinearFilter;
       t.magFilter = THREE.LinearFilter;
       t.needsUpdate = true;
-      var m = new THREE.SpriteMaterial({ map: t, transparent: true, depthWrite: false });
+      /* sizeAttenuation:false —— 标签按屏幕像素定大小，不跟着镜头缩放。
+         否则滚近以后"太阳"两个字比太阳本身还大。 */
+      var m = new THREE.SpriteMaterial({ map: t, transparent: true, depthWrite: false,
+        sizeAttenuation: false });
       var sp = new THREE.Sprite(m);
-      sp.scale.set(0.34, 0.096, 1);
+      sp.scale.set(0.046, 0.013, 1);
       return sp;
     }
 
@@ -9766,7 +9769,7 @@ body.quiz-on #labels-canvas{display:none!important}
 
       var sunLab = solarLabel('太阳', 'rgba(255,228,168,.95)');
       sunLab.position.set(0, 0.47, 0);
-      sunLab.scale.set(0.40, 0.112, 1);
+      sunLab.scale.set(0.058, 0.016, 1);
       root.add(sunLab);
 
       /* ---- 地球贴图：直接复用站点已有的 4K 日/夜图 ---- */
@@ -9841,7 +9844,7 @@ body.quiz-on #labels-canvas{display:none!important}
         }
 
         var lab = solarLabel(d.name);
-        lab.position.set(0, d.r + 0.075, 0);
+        lab.position.set(0, d.r + 0.085, 0);
         holder.add(lab);
 
         solar.planets.push({

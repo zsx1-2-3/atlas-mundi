@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-22-DX">
+<meta name="build" content="2026-11-22-DY">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -9120,8 +9120,13 @@ body.quiz-on #labels-canvas{display:none!important}
         /* 太阳系里左右拖拽转的是**相机方位**，不是球本身：
            azDelta 是由 az0 反推出来的（见 solarTick），所以把拖拽量记在 az0 上。
            球自己的自转仍由 solarTick 负责，两者互不干扰 —— 否则球面纹理和
-           镜头同时动，同样的手速看起来会快一倍。 */
-        solar.az0 += dx * 0.0016;
+           镜头同时动，同样的手速看起来会快一倍。
+
+           **这里是减号，不是加号**：azDelta = -((spin.y - az0) - azAuto)，
+           az0 在负号里面，所以 az0 += dx 会让 azDelta 变大、相机朝右转、
+           画面整体往左跑 —— 正好跟鼠标相反（用户原话"我鼠标往左，视角往右了"）。
+           减号才和主模式那条 `spin.y += dx` 同向：内容跟着手指走。 */
+        solar.az0 -= dx * 0.0016;
       } else {
         globe.spin.rotation.y += dx * 0.0016;
       }
@@ -11304,8 +11309,9 @@ body.quiz-on #labels-canvas{display:none!important}
         var dtms = Math.min(64, dtf * 16.667);
         var decay = Math.exp(-0.0062 * dtms);
         if (globe.solarOn) {
-          /* 太阳系里惯性也作用在相机方位上（和 pointermove 里的做法一致） */
-          solar.az0 += globe.vel.x * dtms;
+          /* 太阳系里惯性也作用在相机方位上（和 pointermove 里一样是减号，
+             见那里的注释：az0 在 azDelta 的负号里面） */
+          solar.az0 -= globe.vel.x * dtms;
         } else {
           spin.rotation.y += globe.vel.x * dtms;
         }

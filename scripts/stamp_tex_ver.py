@@ -29,14 +29,27 @@ END = "    /* TEX_VER:end */"
 
 
 def collect():
-    """只收 index.html 里真正引用到的贴图（tex / texLo 字段）。"""
+    """只收 index.html 里真正引用到的贴图（tex / texLo / koppenTex 字段）。"""
     html = open(HTML, encoding="utf-8").read()
-    names = sorted(set(re.findall(r"tex(?:Lo)?:\s*'([^']+)'", html)))
+    # koppenTex 也要收：它是气候图层的第二张图（柯本 30 类），同样走 OBS 缓存，
+    # 漏掉它的话只有这张图会退回用构建号，每次发版都重新下一遍。
+    names = sorted(set(re.findall(r"(?:koppenTex|tex(?:Lo)?):\s*'([^']+)'", html)))
+    # 本地没有的文件（planet 图、terrain 这些只在 OBS / 别处）不能直接丢掉：
+    # 丢掉等于把线上那条哈希换成构建号，回访用户又要重下一遍。
+    # 保留表里已有的旧值，只对本地存在的文件重算。
+    old = {}
+    i, j = html.find(START), html.find(END)
+    if i >= 0 and j > i:
+        for m in re.finditer(r"'([^']+)':\s*'([0-9a-f]{8})'", html[i:j]):
+            old[m.group(1)] = m.group(2)
     out = []
     for n in names:
         p = os.path.join(TEXDIR, n)
         if not os.path.isfile(p):
-            print("  缺少文件:", n)
+            if n in old:
+                out.append((n, old[n], -1))
+            else:
+                print("  缺少文件且无旧值:", n)
             continue
         h = hashlib.md5(open(p, "rb").read()).hexdigest()[:8]
         out.append((n, h, os.path.getsize(p)))
@@ -53,18 +66,26 @@ def main():
         print("没找到任何贴图引用")
         return 1
 
-    body = "".join("    '%s': '%s',\n" % (n, h) for n, h, _ in items)
     html = open(HTML, encoding="utf-8").read()
     i, j = html.find(START), html.find(END)
     if i < 0 or j < 0:
         print("index.html 里找不到 TEX_VER 标记")
         return 1
+    # 以旧表为底再覆盖，不整表重建：有些贴图（temp.webp、行星图）不是走 tex 字段
+    # 加载的，正则收不到，整表重建会把它们的哈希一起抹掉。
+    table = {}
+    for m in re.finditer(r"'([^']+)':\s*'([0-9a-f]{8})'", html[i:j]):
+        table[m.group(1)] = m.group(2)
+    for n, h, _ in items:
+        table[n] = h
+    body = "".join("    '%s': '%s',\n" % (n, table[n]) for n in sorted(table))
     new = html[:i + len(START)] + "\n" + body + html[j:]
 
     changed = [n for n, h, _ in items if ("'%s': '%s'" % (n, h)) not in html[i:j]]
     for n, h, sz in items:
-        print("  %-18s %s  %7.1f KB %s" % (n, h, sz / 1024,
-                                            "（新）" if n in changed else ""))
+        print("  %-18s %s  %s %s" % (n, h,
+              ("%7.1f KB" % (sz / 1024)) if sz >= 0 else "  本地无  ",
+              "（新）" if n in changed else ""))
     if new == html:
         print("版本表已是最新")
         return 0

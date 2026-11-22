@@ -2261,7 +2261,7 @@ body.quiz-on #labels-canvas{display:none!important}
    半透明玻璃底，压在地球上但不抢画面。 */
 #layer-legend{
   position:fixed;right:18px;bottom:34px;z-index:36;
-  width:268px;padding:12px 14px 11px;border-radius:13px;
+  width:296px;padding:12px 14px 11px;border-radius:13px;
   background:rgba(7,15,27,.86);
   border:1px solid rgba(150,185,230,.26);
   box-shadow:0 14px 34px rgba(0,0,0,.5);
@@ -2304,6 +2304,27 @@ body.quiz-on #labels-canvas{display:none!important}
   display:block;width:12px;height:12px;border-radius:2.5px;
   box-shadow:inset 0 0 0 1px rgba(0,0,0,.28), 0 0 0 1px rgba(255,255,255,.06);
 }
+/* 面积占比：小一号、压暗，紧跟类型名。放在同一行里当副信息，
+   不单独占一列 —— 12 类各占一行的话图例会高出一倍。 */
+#layer-legend .lg-item em{
+  font-style:normal;margin-left:1px;font-size:10px;letter-spacing:0;
+  color:rgba(168,196,224,.72);
+}
+/* 口径切换：标题右边两个小胶囊。做得小是故意的 —— 它是"换个看法"，
+   不是主操作，抢了视觉焦点反而让人以为要选一个才能看。 */
+#layer-legend .lg-mode{
+  margin-left:auto;display:flex;gap:2px;padding:2px;border-radius:7px;
+  background:rgba(150,185,230,.10);
+}
+#layer-legend .lg-mode button{
+  border:0;background:transparent;color:rgba(190,214,240,.7);
+  font:inherit;font-size:10.5px;line-height:1.3;padding:2px 7px;
+  border-radius:5px;cursor:pointer;transition:background .16s,color .16s;
+}
+#layer-legend .lg-mode button:hover{color:#e8f3ff}
+#layer-legend .lg-mode button.on{background:rgba(150,190,235,.24);color:#f4f9ff}
+/* 柯本模式的图例只标代码（Af / BSk / Dwa），全名在 title 里 */
+#layer-legend .lg-code{font-size:11px;letter-spacing:.02em;cursor:help}
 #layer-legend .lg-band{
   height:12px;margin:5px 0 6px;border-radius:3px;
   box-shadow:inset 0 0 0 1px rgba(0,0,0,.28);
@@ -7004,14 +7025,22 @@ body.quiz-on #labels-canvas{display:none!important}
      网络太慢（5.2 秒下不完 8K）才回退到"先出 4K"，迟到的 8K 等手停再挂。 */
   var TEX_BASES = [OBS_BASE + 'assets/tex/', 'assets/tex/'];
 
+  /* ---------- 气候分类表（脚本生成，勿手改：scripts/build_koppen_layer.py） ----------
+     教材 12 类（人教版必修一）与柯本 30 类两套口径共用一张索引贴图：
+     图里只存柯本序号，颜色在这里查表 —— 换配色、切口径都不用重做 8K 贴图。
+     share 是按 cos(纬度)×海岸覆盖率加权的面积占比，与球面上的色块面积一致。 */
+  window.CLIMATE_PAL = {"alt":11,"share":[4.6,3.4,12.4,19.6,8.5,3.2,1.4,3.2,14.6,13.3,13.3,2.7],"exam":[{"c":"Af","zh":"热带雨林气候","short":"雨林","hex":"#17663A","ids":[0],"key":"全年高温多雨，各月均温 25℃ 以上，年降水 2000mm 以上","note":"亚马孙平原、刚果盆地、马来群岛"},{"c":"Am","zh":"热带季风气候","short":"季风","hex":"#2F8A4F","ids":[1],"key":"全年高温，分旱雨两季，雨季降水集中且量大","note":"印度半岛西岸、中南半岛、菲律宾"},{"c":"Aw","zh":"热带草原气候","short":"草原","hex":"#B0B654","ids":[3,2],"key":"全年高温，干湿季分明，湿季草木繁茂、干季草原枯黄","note":"东非高原、巴西高原、澳大利亚北部"},{"c":"BWh","zh":"热带沙漠气候","short":"沙漠","hex":"#DFAB63","ids":[6,4],"key":"全年炎热干燥，年降水不足 250mm，气温日较差大","note":"撒哈拉、阿拉伯半岛、澳大利亚中西部"},{"c":"Cwa","zh":"亚热带季风气候","short":"亚热带季风","hex":"#79BF6E","ids":[14,8,15,16],"key":"夏季高温多雨、冬季温和少雨，最冷月 0~15℃","note":"秦岭—淮河以南、美国东南部、巴西东南部"},{"c":"Csa","zh":"地中海气候","short":"地中海","hex":"#C2A34D","ids":[11,12,13,21,22,23],"key":"夏季炎热干燥、冬季温和多雨，雨热不同期","note":"地中海沿岸、加州、智利中部、南非西南"},{"c":"Dwa","zh":"温带季风气候","short":"温带季风","hex":"#5A9C8C","ids":[24,25],"key":"夏季高温多雨、冬季寒冷干燥，最冷月低于 0℃","note":"中国华北与东北、朝鲜半岛、日本北部"},{"c":"Cfb","zh":"温带海洋性气候","short":"温带海洋性","hex":"#4D8FB2","ids":[9,10],"key":"全年温和湿润，最热月低于 22℃、最冷月高于 0℃","note":"西欧、新西兰、智利南部、北美西北沿岸"},{"c":"BSk","zh":"温带大陆性气候","short":"温带大陆性","hex":"#7A8EA8","ids":[5,7,17,18],"key":"冬冷夏热、气温年较差大，降水少且集中在夏季","note":"蒙古、中亚、北美大平原、中国内蒙古与新疆"},{"c":"Dfc","zh":"亚寒带针叶林气候","short":"亚寒带针叶林","hex":"#5A76BC","ids":[19,20,26,27],"key":"冬季漫长严寒，夏季短促温暖，最热月 10℃ 以上不足四个月","note":"西伯利亚、加拿大北部、北欧"},{"c":"ET","zh":"极地气候（苔原／冰原）","short":"极地","hex":"#D5DFE9","ids":[28,29],"key":"全年严寒，最热月低于 10℃，无木本植物","note":"北冰洋沿岸、格陵兰、南极大陆"},{"c":"H","zh":"高原山地气候","short":"高原山地","hex":"#A596AD","ids":[],"key":"海拔高、气温低，年较差小、日较差大，垂直地带性显著","note":"青藏高原、安第斯山、埃塞俄比亚高原"}],"koppen":[{"i":0,"c":"Af","zh":"热带雨林气候","hex":"#960000","g":"A","key":"各月降水均超过 60mm，全年高温多雨","note":"亚马孙平原、刚果盆地、马来群岛"},{"i":1,"c":"Am","zh":"热带季风气候","hex":"#F50000","g":"A","key":"干湿季分明，湿季降水极多，干季仍不至于成旱","note":"印度西岸、缅甸、菲律宾"},{"i":2,"c":"As","zh":"热带夏干气候","hex":"#FF5A5A","g":"A","key":"极罕见：夏半年反而少雨，冬半年多雨","note":"夏威夷背风局部、加勒比个别岛屿"},{"i":3,"c":"Aw","zh":"热带草原气候","hex":"#FFB2B2","g":"A","key":"干湿季分明且干季更长，最热月出现在雨季前","note":"东非高原、巴西高原、德干高原"},{"i":4,"c":"BSh","zh":"热带半干旱气候","hex":"#CF901F","g":"B","key":"降水不足但未到沙漠程度，蒸发旺盛","note":"萨赫勒、印度西北、澳大利亚内陆边缘"},{"i":5,"c":"BSk","zh":"温带半干旱气候","hex":"#CCA54A","g":"B","key":"冷冬半干旱草原，降水多集中在夏季","note":"蒙古、中亚、北美大平原西部、中国内蒙古"},{"i":6,"c":"BWh","zh":"热带沙漠气候","hex":"#F2C314","g":"B","key":"年降水量远低于潜在蒸散，全年炎热","note":"撒哈拉、阿拉伯半岛、澳大利亚中部"},{"i":7,"c":"BWk","zh":"温带沙漠气候","hex":"#FFFD60","g":"B","key":"同上但冬季寒冷，气温年较差大","note":"塔克拉玛干、戈壁、伊朗中部"},{"i":8,"c":"Cfa","zh":"亚热带湿润气候","hex":"#1E880C","g":"C","key":"四季有雨、夏雨偏多，最热月高于 22℃","note":"中国东南、美国东南、阿根廷潘帕斯"},{"i":9,"c":"Cfb","zh":"温带海洋性气候","hex":"#005800","g":"C","key":"全年温和、降水均匀，最热月低于 22℃","note":"西欧、新西兰、智利南部"},{"i":10,"c":"Cfc","zh":"亚寒带海洋性气候","hex":"#003200","g":"C","key":"短夏凉爽，一年中少于四个月高于 10℃","note":"冰岛、挪威沿海、阿拉斯加东南"},{"i":11,"c":"Csa","zh":"地中海气候（夏干热）","hex":"#88EC00","g":"C","key":"夏炎热干燥、冬温和多雨，雨热不同期","note":"地中海沿岸、加州、智利中部"},{"i":12,"c":"Csb","zh":"地中海气候（夏干暖）","hex":"#1BDE00","g":"C","key":"同上但夏季不酷热","note":"旧金山、开普敦、智利中部"},{"i":13,"c":"Csc","zh":"地中海气候（夏干冷）","hex":"#05AA00","g":"C","key":"高海拔少见，夏季冷凉","note":"智利南部高地、安第斯局部"},{"i":14,"c":"Cwa","zh":"亚热带季风气候","hex":"#B2BC00","g":"C","key":"夏湿热、冬干凉，冬季降水不足夏季十分之一","note":"中国华南、台湾、印度北部"},{"i":15,"c":"Cwb","zh":"亚热带高原气候","hex":"#939300","g":"C","key":"冬干夏雨，因海拔高夏季不酷热","note":"昆明、墨西哥高原、安第斯山区"},{"i":16,"c":"Cwc","zh":"亚寒带高原气候","hex":"#595405","g":"C","key":"极罕见，高原上冬干且夏凉","note":"玻利维亚高原"},{"i":17,"c":"Dfa","zh":"温带大陆性湿润气候","hex":"#550252","g":"D","key":"夏热冬冷、全年有雨，最冷月低于 0℃","note":"美国中西部、中国华北部分"},{"i":18,"c":"Dfb","zh":"温带大陆性气候","hex":"#7C007C","g":"D","key":"夏暖冬寒，最热月低于 22℃","note":"东欧、俄罗斯欧洲部分、加拿大南部"},{"i":19,"c":"Dfc","zh":"亚寒带针叶林气候","hex":"#CD0ACD","g":"D","key":"长冬短夏，一年中仅一至三个月高于 10℃","note":"西伯利亚、加拿大北部"},{"i":20,"c":"Dfd","zh":"亚寒带极冷冬气候","hex":"#FE6DFE","g":"D","key":"同上但最冷月低于 -38℃","note":"东西伯利亚"},{"i":21,"c":"Dsa","zh":"地中海型大陆性（夏干）","hex":"#726472","g":"D","key":"夏干热、冬冷，雨热不同期","note":"伊朗、土耳其、中亚山地"},{"i":22,"c":"Dsb","zh":"地中海型大陆性（夏暖）","hex":"#929292","g":"D","key":"同上，夏季较凉","note":"伊朗北部、高加索"},{"i":23,"c":"Dsc","zh":"地中海型大陆性（夏冷）","hex":"#BFBFBF","g":"D","key":"同上，夏季冷凉","note":"阿拉斯加内陆、西伯利亚山地"},{"i":24,"c":"Dwa","zh":"温带季风气候","hex":"#7831BE","g":"D","key":"夏湿热、冬干冷，冬季降水不足夏季十分之一","note":"中国华北与东北、朝鲜半岛"},{"i":25,"c":"Dwb","zh":"温带季风气候（夏暖）","hex":"#B567FA","g":"D","key":"同上，最热月低于 22℃","note":"中国东北北部、俄罗斯远东"},{"i":26,"c":"Dwc","zh":"亚寒带季风气候","hex":"#C799FA","g":"D","key":"冬干冷、夏季短而凉","note":"西伯利亚东部、蒙古北部"},{"i":27,"c":"Dwd","zh":"亚寒带季风气候（极冷冬）","hex":"#D2D2FF","g":"D","key":"最冷月低于 -38℃","note":"东西伯利亚，雅库茨克一带"},{"i":28,"c":"ET","zh":"苔原气候","hex":"#64FFFF","g":"E","key":"最热月 0~10℃，无木本植物","note":"北极沿岸、青藏高原部分"},{"i":29,"c":"EF","zh":"冰原气候","hex":"#F0FFFF","g":"E","key":"全年冰冻，最热月低于 0℃","note":"南极、格陵兰冰盖"}]};
+
   /* 贴图版本号 = 文件内容的 md5 前 8 位，由 scripts/stamp_tex_ver.py 写进来。
      别再用全局 BUILD_TAG：那玩意儿每次发版都变，哪怕只改了一行 CSS，
      回访用户也要把 2MB 贴图整套重下一遍 —— 华为云流量告警就是这么来的。
      内容哈希只在图片真的重新生成时才变，没变的图永远命中缓存。 */
   var TEX_VER = {
     /* TEX_VER:start */
-    'climate-lo.png': '39eadfb4',
-    'climate.png': 'b011d715',
+    'climate-koppen.webp': '52b0e232',
+    'climate-lo.webp': '04ca2ba6',
+    'climate.webp': 'bf19be1f',
+    'climate_idx.png': '9985acdc',
     'temp.webp': 'dc0c15ce',
     'terrain-lo.webp': '1439af05',
     'terrain.webp': '124b640d',
@@ -9498,22 +9527,43 @@ body.quiz-on #labels-canvas{display:none!important}
     /* ---------- 点选查询：气候 / 海拔 ----------
        两张索引图都放仓库、同源加载：OBS 没配 CORS，跨域图画进 canvas 会把
        canvas 污染，getImageData 直接抛错。
-       气候查的是 climate_idx.png —— 每像素直接存类别编号（1~31，0=海洋），
+       气候查的是 climate_idx.png —— R = 柯本序号 + 1（0 = 海洋），G = 高原标记，
        不用从颜色反猜（官方配色和我们的柔和配色改一次就得重标一次，太脆）。 */
-    var PROBE_CLASSES = [
-      null,
-      ['热带雨林气候', 23, 102, 58],   // 1
-      ['热带草原气候', 176, 182, 84],   // 2
-      ['热带季风气候', 47, 138, 79],   // 3
-      ['热带沙漠气候', 223, 171, 99],   // 4
-      ['亚热带季风气候', 121, 191, 110],   // 5
-      ['地中海气候', 194, 163, 77],   // 6
-      ['温带季风气候', 90, 156, 140],   // 7
-      ['温带海洋性气候', 77, 143, 178],   // 8
-      ['温带大陆性气候', 122, 142, 168],   // 9
-      ['寒带气候', 213, 223, 233],   // 10
-      ['高原山地气候', 165, 150, 173]    // 11
-    ];
+    /* 索引图的约定：R = 柯本序号 + 1（0 = 海洋），G = 高原标记。
+       类型名走教材 12 类（CLIMATE_PAL.exam），柯本代码单独附上 ——
+       学生看到「温带季风气候 · Dwa」比只看中文名多一层信息，
+       也和专业口径（柯本 30 类）对得上。 */
+    var PROBE_CLASSES = (function () {
+      var P = window.CLIMATE_PAL, out = [null];
+      if (!P) return out;
+      var byKoppen = {};
+      P.exam.forEach(function (e) {
+        (e.ids || []).forEach(function (i) { byKoppen[i] = e; });
+      });
+      P.koppen.forEach(function (k, i) {
+        var e = byKoppen[i];
+        var hx = e ? e.hex : k.hex;
+        out.push([e ? e.zh : k.zh,
+                  parseInt(hx.slice(1, 3), 16),
+                  parseInt(hx.slice(3, 5), 16),
+                  parseInt(hx.slice(5, 7), 16),
+                  k.c]);
+      });
+      return out;
+    })();
+    var PROBE_KOPPEN = (function () {
+      var P = window.CLIMATE_PAL, out = [null];
+      if (!P) return out;
+      P.koppen.forEach(function (k) { out.push(k.zh); });
+      return out;
+    })();
+    var PROBE_ALT = (function () {
+      var P = window.CLIMATE_PAL;
+      var e = P && P.exam[P.alt];
+      if (!e) e = { hex: '#A596AD', zh: '高原山地气候', c: 'H' };
+      return [parseInt(e.hex.slice(1, 3), 16), parseInt(e.hex.slice(3, 5), 16),
+              parseInt(e.hex.slice(5, 7), 16), e.zh, e.c];
+    })();
     var probeClim = null, probeElev = null, probeQ = { clim: null, elev: null };
 
     function probeImg(src, done) {
@@ -9537,7 +9587,11 @@ body.quiz-on #labels-canvas{display:none!important}
       if (have) { cb(); return; }
       if (probeQ[key]) { probeQ[key].push(cb); return; }
       probeQ[key] = [cb];
-      probeImg(key === 'elev' ? 'assets/tex/elev.png' : 'assets/tex/climate_idx.png',
+      /* 索引图必须带版本号：这版把 R 通道的编码从「11 类序号」换成了
+         「柯本序号 + 1」，浏览器缓存里那张旧图会把类型名全判错，
+         而 probeImg 走的是 <img> 而不是贴图 loader，不吃 TEX_VER 的自动拼参数。 */
+      var pfile = (key === 'elev') ? 'assets/tex/elev.png' : 'assets/tex/climate_idx.png';
+      probeImg(pfile + (TEX_VER[pfile] ? '?v=' + TEX_VER[pfile] : ''),
                function (o) {
         if (key === 'elev') probeElev = o; else probeClim = o;
         var q = probeQ[key]; probeQ[key] = null;
@@ -9652,11 +9706,21 @@ body.quiz-on #labels-canvas{display:none!important}
       if (!probeClim) return null;
       var p = llToPixel(probeClim, lon, lat);
       var d = probeClim.ctx.getImageData(p[0], p[1], 1, 1).data;
-      var v = d[0];                                  // 灰度就是类别编号
-      if (!v) return null;                           // 0 = 海洋
+      var v = d[0];                                  // 柯本序号 + 1，0 = 海洋
+      if (!v) return null;
+      /* G 通道是构建时烘好的高原标记（纬度 45° 以内且海拔 ≥2800m）。
+         拉萨的柯本值是 Dwc，只读 R 会报成「亚寒带针叶林」—— 教材里它是高原山地，
+         这一条在实验室里反复踩过，最后是靠海拔而不是纬度定下来的。 */
+      /* 高原标记只在教材口径下生效：柯本分类里没有「高原山地」这一类，
+         切到柯本时拉萨就该老老实实显示 Dwc（亚寒带大陆性）。 */
+      if (d[1] > 127 && window.__climExam) {
+        return [PROBE_ALT[0], PROBE_ALT[1], PROBE_ALT[2],
+                PROBE_ALT[3] + ' · ' + PROBE_ALT[4]];
+      }
       var c = PROBE_CLASSES[v];
       if (!c) return null;
-      return [c[1], c[2], c[3], c[0]];
+      var nm = (window.__climExam || !PROBE_KOPPEN[v]) ? c[0] : PROBE_KOPPEN[v];
+      return [c[1], c[2], c[3], nm + ' · ' + c[4]];
     }
 
     function probeElevAt(lon, lat) {
@@ -12305,22 +12369,67 @@ body.quiz-on #labels-canvas{display:none!important}
        气候图的海洋是 alpha=0，所以海面仍透出卫星影像，只有陆地被染色；
        地形图不透明，整颗球换成地图册式的高程着色。
        贴图懒加载：点开才下，不占首屏带宽。 */
+    /* 图例按教材的 12 类分 6 组，后面跟面积占比。
+       占比是构建时按 cos(纬度)×海岸覆盖率算好的（CLIMATE_PAL.share），
+       不是前端估的 —— 和球面上的色块面积严格一致。
+       用短名（CLIMATE_PAL.exam[].short）：「亚热带季风气候」写全会把一行挤成两行。 */
+    /* 口径：true = 教材 12 类（默认），false = 柯本原始 30 亚类。
+       两套共用同一份分类数据，只是配色与归并不同 —— 学生背的是 12 类，
+       看专业图时又要能对上柯本代码，所以给一个切换而不是二选一。 */
+    var climExam = (window.__climExam = true);
+
+    function climRows() {
+      var P = window.CLIMATE_PAL;
+      if (!P) return [];
+      if (!climExam) {
+        /* 柯本模式：中文名太长（"亚寒带大陆性气候"一行放不下几个），
+           图例只标代码，全名放 title 里；按柯本自己的 5 个气候带分组。 */
+        var GR = [['A 热带', 'A'], ['B 干旱', 'B'], ['C 亚热带', 'C'],
+                  ['D 大陆性', 'D'], ['E 极地', 'E']];
+        return GR.map(function (g) {
+          return [g[0], P.koppen.filter(function (k) { return k.g === g[1]; })
+            .map(function (k) {
+              return [k.hex, '<span class="lg-code" title="' + k.zh + '">' + k.c + '</span>'];
+            })];
+        }).filter(function (r) { return r[1].length > 0; });
+      }
+      var GROUPS = [['热带', ['Af', 'Am', 'Aw', 'BWh']],
+                    ['亚热带', ['Cwa', 'Csa']],
+                    ['温带', ['Dwa', 'Cfb', 'BSk']],
+                    ['亚寒带', ['Dfc']],
+                    ['极地', ['ET']],
+                    ['高原', ['H']]];
+      var by = {};
+      P.exam.forEach(function (e, i) {
+        by[e.c] = { e: e, s: (P.share && P.share[i] != null) ? P.share[i] : null };
+      });
+      return GROUPS.map(function (g) {
+        return [g[0], g[1].map(function (c) {
+          var o = by[c];
+          if (!o) return null;
+          var label = o.e.short || o.e.zh;
+          if (o.s != null) label += '<em>' + o.s + '%</em>';
+          return [o.e.hex, label];
+        }).filter(Boolean)];
+      }).filter(function (r) { return r[1].length > 0; });
+    }
+
     var LG = {
       climate: {
-        title: '气候带',
-        tex: 'climate.png',
-        texLo: 'climate-lo.png',
-        src: 'Köppen-Geiger 分类归并为初中地理 11 种气候类型 · Kottek et al. 2006 / Rubel et al. 2017（5 弧分）',
-        /* 图例就是初中地理（人教版）那 11 种气候类型，图上只会出现这 11 个颜色 —— 
-           不再按柯本的 31 个亚类各给一色（那样既有图例列不下的杂色，
-           球面缩到 700px 也是一盘散沙）。 */
-        rows: [
-          ['热带', [['#17663a', '雨林'], ['#b0b654', '草原'], ['#2f8a4f', '季风'], ['#dfab63', '沙漠']]],
-          ['亚热带', [['#79bf6e', '季风'], ['#c2a34d', '地中海']]],
-          ['温带', [['#5a9c8c', '季风'], ['#4d8fb2', '海洋性'], ['#7a8ea8', '大陆性']]],
-          ['寒带', [['#d5dfe9', '寒带']]],
-          ['高原', [['#a596ad', '高原山地']]]
-        ]
+        title: '气候',
+        tex: 'climate.webp',
+        texLo: 'climate-lo.webp',
+        /* 数据换成 0.5° 的 Kottek/Rubel 网格 + 教材 12 类归并。
+           原来的 5 弧分产品在中国站点稀疏，插值偏干 —— 北京、天津、石家庄
+           一整片被判成 BSk（温带半干旱），华北平原的温带季风几乎消失。
+           0.5° 版本在北京、济南、兰州的结果与教材一致，所以分类用它；
+           海岸线另取项目自己的国界多边形，两边是同一套几何。 */
+        src: '柯本—盖格分类归并为高中教材 12 种 · Kottek et al. 2006（0.5°，1961—1990，CC BY 4.0）· 高原按 WorldClim 海拔 ≥2800m 单列',
+        /* 专业口径：柯本原始的 30 个亚类，配色用柯本挂图的官方色。
+           只备 4K（763KB）—— 这是给"想细看"的人准备的，再翻 8K 显存翻倍不划算。 */
+        koppenTex: 'climate-koppen.webp',
+        koppenSrc: '柯本—盖格原始 30 亚类 · Kottek et al. 2006（0.5°，1961—1990）· 与教材模式共用同一份分类数据，只是不做归并',
+        rows: climRows()
       },
       terrain: {
         title: '地形',
@@ -12343,14 +12452,15 @@ body.quiz-on #labels-canvas{display:none!important}
     var lgEl = document.getElementById('layer-legend');
     var lgTex = {}, lgCur = '', lgAnim = 0, lgMix = 0;
 
-    function lgLoad(name, cb) {
-      if (lgTex[name]) { cb(lgTex[name]); return; }
+    /* 按文件名加载（不经过 LG[name]）。切「教材 / 柯本」两种口径时贴图不是同一张，
+       缓存要按文件走，否则切回来会拿着上一张。 */
+    var lgFile = {};
+    function loadTexFile(file, cb) {
+      if (lgFile[file]) { cb(lgFile[file]); return; }
       var loader = new THREE.TextureLoader();
       var i = 0;
       /* 必须带版本号：OBS 上的对象带 7 天 Cache-Control，换了贴图不换 URL
          的话浏览器一直用旧的（用户会以为"改了没生效"）。 */
-      var useLo = !LG_HI || lgMaxTexSize() < 8192;
-      var file = (useLo && LG[name].texLo) ? LG[name].texLo : LG[name].tex;
       var ver = TEX_VER[file] || BUILD_TAG;
       var q = ver ? ('?v=' + encodeURIComponent(ver)) : '';
       (function next() {
@@ -12365,13 +12475,23 @@ body.quiz-on #labels-canvas{display:none!important}
           t.minFilter = THREE.LinearMipmapLinearFilter;
           t.magFilter = THREE.LinearFilter;
           t.needsUpdate = true;
-          lgTex[name] = t;
+          lgFile[file] = t;
           /* 上传 GPU 的事拆到 lgUpload —— 8K 贴图 initTexture（含 mipmap 生成）
              是同步的，一次就是 300~600ms。下载可以随时做，上传必须挑时候，
              否则用户正拖着地球，突然卡半秒。 */
           cb(t);
         }, undefined, next);
       })();
+    }
+
+    function lgLoad(name, cb) {
+      if (lgTex[name]) { cb(lgTex[name]); return; }
+      var useLo = !LG_HI || lgMaxTexSize() < 8192;
+      var file = (useLo && LG[name].texLo) ? LG[name].texLo : LG[name].tex;
+      loadTexFile(file, function (t) {
+        if (t) lgTex[name] = t;
+        cb(t);
+      });
     }
 
     /* 把贴图推上显存（含 mipmap 生成）。8K 一次 300~600ms，只在
@@ -12419,8 +12539,11 @@ body.quiz-on #labels-canvas{display:none!important}
       var cfg = name ? LG[name] : null, h = '';
       if (cfg) {
         h += '<div class="lg-head"><span class="lg-title">' + cfg.title + '</span>' +
+             (name === 'climate' ? climChips() : '') +
              '<button class="lg-close" type="button" aria-label="关闭图例">×</button></div>';
-        (cfg.rows || []).forEach(function (r) {
+        /* climate 的图例要按当前口径现算：rows 是在 LG 初始化时求值的静态数组，
+           切了教材/柯本之后不重算就还是上一套。 */
+        ((name === 'climate') ? climRows() : (cfg.rows || [])).forEach(function (r) {
           h += '<div class="lg-line"><span class="lg-key">' + r[0] + '</span><span class="lg-grid">' +
                r[1].map(function (x) {
                  return '<span class="lg-item"><i style="background:' + x[0] + '"></i>' + x[1] + '</span>';
@@ -12430,7 +12553,8 @@ body.quiz-on #labels-canvas{display:none!important}
           h += '<div class="lg-band" style="background:linear-gradient(90deg,' + cfg.band.join(',') + ')"></div>';
           h += '<div class="lg-ticks">' + cfg.ticks.map(function (t) { return '<span>' + t + '</span>'; }).join('') + '</div>';
         }
-        h += '<div class="lg-src">' + cfg.src + '</div>';
+        h += '<div class="lg-src">' +
+             (name === 'climate' && !climExam ? cfg.koppenSrc : cfg.src) + '</div>';
       }
       if (ocOn) h += ocLegendHTML();
       if (mnOn) h += mnLegendHTML();
@@ -12445,6 +12569,42 @@ body.quiz-on #labels-canvas{display:none!important}
       lgEl.setAttribute('aria-hidden', 'false');
       var cx = lgEl.querySelector('.lg-close');
       if (cx) cx.addEventListener('click', lgClose);
+      var mbs = lgEl.querySelectorAll('.lg-mode button');
+      for (var mi = 0; mi < mbs.length; mi++) {
+        mbs[mi].addEventListener('click', function (ev) {
+          climSetMode(ev.currentTarget.getAttribute('data-exam') === '1');
+        });
+      }
+    }
+
+    /* 口径切换的两个小胶囊，塞在图例标题右边。 */
+    function climChips() {
+      return '<span class="lg-mode">' +
+        '<button type="button" data-exam="1" class="' + (climExam ? 'on' : '') + '">教材 12</button>' +
+        '<button type="button" data-exam="0" class="' + (climExam ? '' : 'on') + '">柯本 30</button>' +
+        '</span>';
+    }
+
+    /* 换口径 = 换一张贴图（教材版 8K / 柯本版 4K），图例与气泡跟着变。
+       不动 lgCur、不动 uLayerMix —— 图层本来就是开着的，只是内容换了。
+       柯本图在后台预热过（lgPrewarm 只预热了教材版，这里首次切换会等一下）。 */
+    function climSetMode(exam) {
+      if (climExam === exam || !globe.earthMat) return;
+      climExam = (window.__climExam = exam);
+      var file = exam
+        ? ((!LG_HI || lgMaxTexSize() < 8192) ? 'climate-lo.webp' : 'climate.webp')
+        : LG.climate.koppenTex;
+      lgLegend('climate');            // 先把 chips 与图例换成新口径
+      loadTexFile(file, function (t) {
+        if (!t || !globe.earthMat) return;
+        try {
+          if (globe.renderer && globe.renderer.initTexture) globe.renderer.initTexture(t);
+        } catch (e) { /* 老版本 three 没有，交给首帧 */ }
+        globe.earthMat.uniforms.uLayerMap.value = t;
+        if (globe.syncBorderColor) globe.syncBorderColor();
+        /* 旧气泡是按上一套口径算出来的类型名，留着会自相矛盾 */
+        if (globe.clearPins) globe.clearPins('climate');
+      });
     }
 
     /* 季节这一行是动态的：切了按钮要能马上看到现在是哪一季。

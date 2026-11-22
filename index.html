@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-22-DU">
+<meta name="build" content="2026-11-22-DV">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -7058,7 +7058,12 @@ body.quiz-on #labels-canvas{display:none!important}
            星点没有 opacity 可用（ShaderMaterial 不吃 material.opacity）。
            初值 0：首屏星空要**跟着地球一起浮出来**，不能先于地球亮着
            （见渲染循环里跟着 globe.fadeVal 写入的那一句）。 */
-        uFade: { value: 0 }
+        uFade: { value: 0 },
+        /* 闪烁幅度系数：1 = 地球模式（少数星 ±6% 的呼吸），
+           太阳系天穹把它压到 0.14（±0.8%，基本就是"静止"）。
+           用户的原话是"太阳系模式下干脆别闪了" —— 但完全钉死会显得是张
+           静态贴图，留一丝比肉眼阈值略高的微动最舒服。 */
+        uTw: { value: 1 }
       },
       vertexShader: [
         'attribute vec3 aColor;',
@@ -7067,6 +7072,7 @@ body.quiz-on #labels-canvas{display:none!important}
         'attribute float aSpike;',
         'uniform float uTime;',
         'uniform float uDpr;',
+        'uniform float uTw;',
         'varying vec3 vC;',
         'varying float vA;',
         'varying float vS;',
@@ -7088,7 +7094,7 @@ body.quiz-on #labels-canvas{display:none!important}
         '  float sel = step(0.92, fract(ph * 1.618));',
         '  float w1 = 0.29 + fract(ph * 0.7137) * 0.40;',
         '  float tw = sin(uTime * w1 + ph * 6.2831);',
-        '  vA = 0.94 + sel * 0.06 * tw;',
+        '  vA = 0.94 + sel * 0.06 * uTw * tw;',
         // 点的大小要给足：1 像素以下的点在浏览器里基本看不见，
          // 之前那版就是这样，整片夜空看起来"没有星星"。
          // 尺寸这里**不跟闪烁联动**：亚像素的尺寸抖动会被光栅化放大成忽明忽暗。
@@ -7142,6 +7148,7 @@ body.quiz-on #labels-canvas{display:none!important}
          uTermOn=0 时完全不参与计算，行为和以前一模一样。 */
       uSunDir: { value: new THREE.Vector3(1, 0, 0) },
       uTermOn: { value: 0 },
+      uAmbK: { value: 0 },
       /* 地形法线：贴图没到时 uBump 保持 0，整段计算被跳过，
          行为和加这个功能之前完全一样。 */
       uNormalMap: { value: dayTex },
@@ -7191,6 +7198,9 @@ body.quiz-on #labels-canvas{display:none!important}
       'uniform float uFade;',
       'uniform vec3 uSunDir;',
       'uniform float uTermOn;',
+      /* 夜面的最低照度（地球反照）。主模式恒 0：那里夜面有城市灯光顶着，
+         太阳系里缩到四十来像素时只剩一颗黑球，得给一点底光才认得出轮廓。 */
+      'uniform float uAmbK;',
       'uniform sampler2D uNormalMap;',
       'uniform float uBump;',
       'uniform float uNormalScale;',
@@ -7278,14 +7288,17 @@ body.quiz-on #labels-canvas{display:none!important}
          这里补回来，夜里还是一眼能看出城市带。 */
       '    vec3 night = lights * 2.9 + day * 0.10;',
       /* 昼夜分界：世界坐标法线点太阳方向，>0 是白昼侧。
-         ±0.05 的过渡带 ≈ 3°，一条柔和的过渡，不是一条硬线。 */
-      '    if (uTermOn > 0.5) {',
-      // 用局部法线：分界跟着地表走，转球/自转都不会让它跑掉
-      '      float sd = dot(normalize(vNL), normalize(uSunDir));',
-      '      float dayK = smoothstep(-0.05, 0.05, sd);',
-      '      nightK = max(nightMix, (1.0 - dayK) * uTermOn);',
-      '    }',
+         ±0.05 的过渡带 ≈ 3°，一条柔和的过渡，不是一条硬线。
+         uTermOn 同时是**淡入系数**：太阳系里要强制打开（见 solarTick），
+         进出转场时靠它在 0~1 之间滑，不能写成 if (uTermOn > 0.5) ——
+         那样只有 0 和 1 两态，转场里会"啪"地切换日夜贴图。 */
+      '  float sd = dot(normalize(vNL), normalize(uSunDir));',
+      '  float dayK = smoothstep(-0.05, 0.05, sd);',
+      '  nightK = max(nightK, (1.0 - dayK) * uTermOn);',
       '    col = mix(day, night, nightK);',
+      /* 只加在夜侧：白天那半已经是满亮度，再加就过曝、分界反而没了。
+         0.20 的量级是"能看出大陆轮廓、但一眼知道那是背光面"。 */
+      '    col += day * uAmbK * nightK;',
       '  }',
       // 边缘大气：Fresnel 越靠轮廓越亮，模拟散射
       '  float rim = pow(1.0 - facing, 3.8);',
@@ -8205,6 +8218,13 @@ body.quiz-on #labels-canvas{display:none!important}
     SOLAR_SUN_LIGHT.decay = 0;                       // 反平方衰减会让海王星暗成黑点
     SOLAR_SUN_LIGHT.position.set(0, 0, 0);
     scene.add(SOLAR_SUN_LIGHT);
+    /* 环境光只负责"背光面的最低可见度"。
+       1.45 看着偏高，是刻意的：严格按物理走（暗面近乎全黑）会让远日行星
+       在屏幕上只剩半个球，教学上认不出形状。它和点光 3.6 的差值就是
+       行星身上那层明暗（昼夜分界由 MeshPhongMaterial 自己算）。
+       地球不走这条：它是自写 shader，昼夜由 uTermOn/uSunDir 控制。 */
+    var SOLAR_LIGHT_K = 3.6;                         // 太阳点光满强度
+    var SOLAR_AMB_K = 1.45;                          // 环境光满强度
     var SOLAR_AMB_LIGHT = new THREE.AmbientLight(0x9fb6d0, 0);
     scene.add(SOLAR_AMB_LIGHT);
 
@@ -9640,6 +9660,10 @@ body.quiz-on #labels-canvas{display:none!important}
     };
     var SOLAR_FAR = 5.35;               // 主视角：轨道外圈留一点边，八大行星全在画面里
     var PLANET_TEX = {};                // 贴图缓存，进过一次就留着
+    /* 地球昼夜用：每帧把"指向太阳"的世界方向转成球体局部坐标（见 solarTick）。
+       提到外面声明，转场里每帧都要用，不能在里面 new。 */
+    var _sunGeo = new THREE.Vector3();
+    var _sunM3 = new THREE.Matrix3();
 
     /* ---------- 贴图：先 OBS，再退回同仓文件 ----------
        两个坑：
@@ -9847,8 +9871,13 @@ body.quiz-on #labels-canvas{display:none!important}
     /* period = 公转周期（地球年，真实值）；day = 自转周期（地球日，负=逆向自转）；
        tilt = 自转轴倾角（度）。公转按真实比例走，只是整体乘一个统一的时间系数
        （ORBIT_BASE 秒 = 地球转一圈），所以"越远越慢"是真比例，不是编的。 */
-    var ORBIT_BASE = 30;                 // 地球公转一圈 30 秒（真实比例的统一加速）
-    var SPIN_BASE = 6;                   // 地球自转一圈 6 秒
+    /* 30 → 110：原来地球 30 秒一圈，水星只有 7.2 秒 —— 屏幕上那颗小点
+       一秒挪好几度，鼠标根本追不上（后面还要挂星球档案卡）。110 秒是
+       "肉眼能看出在动，但不急着跑"的档：水星 26.5 秒、金星 68 秒、
+       地球 110 秒、火星 3.5 分钟，木星以外基本就是缓慢挪动。
+       周期比值保持真实值不变，"越远越慢"仍然是物理比例，没有编造。 */
+    var ORBIT_BASE = 110;                // 地球公转一圈 110 秒（真实比例的统一加速）
+    var SPIN_BASE = 14;                  // 地球自转一圈 14 秒
     var SOLAR_DEF = [
       { name: '水星', a: 0.64, r: 0.042, tex: 'mercury.webp', period: 0.2408, day: 58.65, tilt: 0.03, inc: 0.055 },
       { name: '金星', a: 0.80, r: 0.072, tex: 'venus.webp', period: 0.6152, day: -243.0, tilt: 177.4, inc: 0.028,
@@ -10049,6 +10078,9 @@ body.quiz-on #labels-canvas{display:none!important}
          共用一个材质就只能整体改，地球星场收掉时天穹的星星会跟着一起黑。 */
       var skyStarMat = STAR_MAT.clone();
       skyStarMat.uniforms.uFade = { value: 0 };
+      /* 天穹的星点几乎不闪（±0.8%）：这是"太空里看星星"的视角，
+         没有大气抖动，星点本来就该是钉死的。地球模式下那层才保留呼吸感。 */
+      skyStarMat.uniforms.uTw.value = 0.14;
       var pts = new THREE.Points(geo, skyStarMat);
       pts.renderOrder = -6;
       g.add(pts);
@@ -10404,6 +10436,39 @@ body.quiz-on #labels-canvas{display:none!important}
       tilt.visible = true;
       /* 大气壳跟着 tilt 一起缩（见 buildGlobe 里的注释），不用单独开关。 */
 
+      /* ---------- 地球的昼夜分界 ----------
+         八颗行星里只有地球是自写 shader，明暗不走场景灯光，而是靠
+         uTermOn/uSunDir 切日夜贴图。但 uTermOn 平时是"昼夜分界"按钮管的，
+         用户不点就是 0 —— 于是太阳系里这颗地球是一颗均匀发亮的蓝球，
+         八颗里就它没有明暗。这里强制接管：
+
+         · 方向不用 updateSunTerm 的真实太阳直射点（那是地表某个经纬度，
+           跟太阳系里太阳的方位毫无关系），改用几何：太阳在原点，
+           从地球指向原点就是亮面朝向。
+         · uSunDir 是球体**局部**坐标，乘 matrixWorld 的逆转回去。
+           每帧算一次正好抵消自转 —— 暗面于是稳稳锁在背光那一侧，
+           不会跟着球一起自转。
+         · 两个窗口淡入淡出：进入 0.34~0.60（地球已经缩到轨道尺度），
+           退出 0.10~0.36（快回到主视角时收掉），避免贴图切换"啪"地一声。 */
+      var gUe = globe.earthMat && globe.earthMat.uniforms;
+      if (gUe && gUe.uSunDir && gUe.uTermOn) {
+        _sunGeo.set(-ex, 0, -ez);
+        if (_sunGeo.lengthSq() > 1e-10) {
+          _sunM3.setFromMatrix4(sphere.matrixWorld).invert();
+          _sunGeo.normalize().applyMatrix3(_sunM3).normalize();
+          gUe.uSunDir.value.copy(_sunGeo);
+        }
+        var termK = (s.target === 1)
+          ? Math.min(1, Math.max(0, (e - 0.34) / 0.26))
+          : Math.min(1, Math.max(0, (e - 0.10) / 0.26));
+        gUe.uTermOn.value = Math.max((globe.term && globe.term.on) ? 1 : 0, termK);
+        /* 夜面补光：跟着 termK 一起淡入，退出时回到 0（主模式不能有）。
+           0.42 是拿八颗行星的观感对齐出来的：夜面约等于白天的四成，
+           球体轮廓和大陆都清楚，晨昏线的对比又还在 —— 再低就成了黑点，
+           再高昼夜两半就糊成一样亮。 */
+        if (gUe.uAmbK) gUe.uAmbK.value = 0.42 * termK;
+      }
+
       /* ---------- 太阳：只在 e>0.35 之后才存在 ----------
          前面算过，e<0.4 时地球还包着太阳，此时太阳若可见就是"从地球里穿出来"。
          所以太阳本体、光晕、日冕、名字全部乘同一个 sunK。
@@ -10426,10 +10491,11 @@ body.quiz-on #labels-canvas{display:none!important}
       /* 行星、轨道线、行星名全部跟着同一个 sunK 起来：太阳没点亮之前
          先看见一圈行星飘在黑影里，是最出戏的一帧。 */
       solar.root.visible = sunK > 0.003;
-      /* 灯的强度跟着 e 走：0 → 3.6 / 0 → 1.45。灯一直在场景里（见 solarBuild
-         的注释），只是靠强度开关，这样材质变体不会因为进出模式而重编译。 */
-      if (solar.sunLight) solar.sunLight.intensity = 3.6 * Math.min(1, e / 0.22);
-      if (solar.ambLight) solar.ambLight.intensity = 1.45 * Math.min(1, e / 0.22);
+      /* 灯的强度跟着 e 走：0 → SOLAR_LIGHT_K / 0 → SOLAR_AMB_K。灯一直在场景里
+         （见 solarBuild 的注释），只是靠强度开关，这样材质变体不会因为
+         进出模式而重编译。太阳点光满强度、环境光只有 0.17 —— 差值就是昼夜分界。 */
+      if (solar.sunLight) solar.sunLight.intensity = SOLAR_LIGHT_K * Math.min(1, e / 0.22);
+      if (solar.ambLight) solar.ambLight.intensity = SOLAR_AMB_K * Math.min(1, e / 0.22);
       if (solar.root.visible) {
         /* root 不再整体缩放：地球的落点是真实坐标，root 一动，
            轨道位置就跟地球对不上了（原来那套 0.04→1 的"长出来"是旧方案的）。 */
@@ -10470,7 +10536,7 @@ body.quiz-on #labels-canvas{display:none!important}
           p.mesh.rotation.y = p.spin;
         });
         if (solar.moon) {
-          solar.moon.a += (Math.PI * 2 / 20) * dtSec * s.speed;   // 月球 27.3 天，夹到 20 秒
+          solar.moon.a += (Math.PI * 2 / 34) * dtSec * s.speed;   // 月球 27.3 天，夹到 34 秒
           solar.moon.pivot.rotation.y = solar.moon.a;
           solar.moon.mesh.rotation.y = -solar.moon.a;             // 潮汐锁定
         }
@@ -10567,6 +10633,10 @@ body.quiz-on #labels-canvas{display:none!important}
         if (s.skyStarMat) s.skyStarMat.uniforms.uFade.value = 0;
         if (BASE_STARS) BASE_STARS.visible = true;
         if (STAR_MAT) STAR_MAT.uniforms.uFade.value = 1;
+        /* 昼夜方向交还给"真实太阳直射点"：太阳系里那份是几何算的，
+           地球回到原点后它就没意义了（用户开着昼夜分界时，否则分界线会
+           停在一个错的经度上，直到下一次 60 秒的定时更新）。 */
+        if (globe.term && globe.term.on && globe.updateSunTerm) globe.updateSunTerm();
         camera.position.set(0, 0, globe.camTarget);
         camera.lookAt(0, 0, 0);
         CAM_MIN = s.camMinBack;

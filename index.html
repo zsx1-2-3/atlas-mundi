@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-22-EB">
+<meta name="build" content="2026-11-22-EC">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -308,10 +308,9 @@
     font-size:10.5px;letter-spacing:.02em;color:rgba(150,172,200,.55);
     opacity:0;pointer-events:none;transition:opacity .4s ease}
   body.solar-on #solar-credit{opacity:1}
-  /* 星球档案卡打开时：右下角的贴图署名会被卡片压住（z-index 60 > 46），
-     右上角的"退出太阳系"按钮也正好在卡片底下点不到 —— 让它俩让位。 */
+  /* 星球档案卡打开时：右下角的贴图署名会被卡片压住（z-index 46），
+     直接收掉。右上角的"退出太阳系"按钮同理，见下面 #solar-exit 的规则。 */
   body.pcard-open #solar-credit{opacity:0}
-  body.pcard-open #solar-exit{right:calc(min(452px, 100vw - 32px) + 44px)}
   /* 出口：工具栏在太阳系模式里整体让位，按钮也就跟着消失了，
      光靠 Esc 等于把用户关在里面。右上角留一个小圆按钮，只画一个 ×，不写字。 */
   #solar-exit{position:fixed;top:18px;right:18px;z-index:60;
@@ -321,6 +320,10 @@
     border:1px solid rgba(148,182,224,.22);cursor:pointer;font-family:inherit;
     transition:color .2s ease,background .2s ease,border-color .2s ease,opacity .3s ease}
   body.solar-on #solar-exit{display:flex}
+  /* 星球档案卡打开时把"退出太阳系"整颗收掉（用户要求）：卡片里已经有自己的
+     × 用来退出特写，右上角再来一颗圆 × 会让人分不清哪个关什么。
+     必须写在这一行**之后** —— 两条选择器特异性相同，靠顺序决胜。 */
+  body.pcard-open #solar-exit{display:none}
   #solar-exit:hover{color:#eef4fe;background:rgba(255,255,255,.1);
     border-color:rgba(148,182,224,.5)}
   #solar-exit svg{width:18px;height:18px;fill:none;stroke:currentColor;
@@ -1191,6 +1194,11 @@ body.panel-open #globe-stage{
      而用户接受面板压住一点地球，所以让球保持原尺寸左移即可。 */
   transform:translateX(-14%);
 }
+/* 太阳系里永远不许有这层平移。JS 进太阳系时已经会摘掉 .panel-open，
+   但那条 transform 带 0.5 秒过渡 —— 摘掉的那一瞬间画布还停在左移的位置上
+   往回滑，右边就露出一条正在收窄的黑边（实测进太阳系 0.35 秒时还有 158px）。
+   transform:none 只是改了终点，过渡照样在跑，所以 transition 也必须一起掐掉。 */
+body.solar-on #globe-stage{transform:none !important;transition:none !important}
 
 /* --- 顶部栏 --- */
 #topbar{
@@ -1545,25 +1553,58 @@ body.panel-open #globe-stage{
 #pcard .pk-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:0 0 20px}
 #pcard .pk-cell{
   background:rgba(255,255,255,.042);border:1px solid rgba(148,182,224,.13);
-  border-radius:12px;padding:9px 12px 10px;
+  border-radius:12px;padding:10px 13px 11px;
 }
-#pcard .pk-k{font-size:10.5px;letter-spacing:.08em;color:rgba(150,175,205,.9)}
+/* 参数名（"赤道直径""距太阳"…）：原来 10.5px + 40% 灰，投影上一片糊。
+   现在按"次要但仍要读得清"定 12.5px、接近九成白 —— 它是这格里唯一的说明文字，
+   读数的人得先看清它才知道下面那个数字是什么。 */
+#pcard .pk-k{
+  font-size:12.5px;letter-spacing:.05em;line-height:1.45;
+  color:rgba(190,210,236,.96);
+}
 #pcard .pk-v{
-  margin-top:3px;font-size:15px;font-weight:600;color:#fff;
-  font-variant-numeric:tabular-nums;line-height:1.35;
+  margin-top:4px;font-size:16.5px;font-weight:600;color:#fff;
+  font-variant-numeric:tabular-nums;line-height:1.3;
 }
-#pcard .pk-v small{font-size:11.5px;font-weight:400;color:rgba(160,186,220,.85);margin-left:2px}
+#pcard .pk-v small{font-size:12px;font-weight:400;color:rgba(178,200,228,.9);margin-left:3px}
 #pcard .pk-shots{display:grid;grid-template-columns:1fr;gap:11px;margin:0 0 20px}
+/* 照片位：**先占位再加载**。
+   .pk-shot 的 aspect-ratio 由渲染时按图片真实宽高写进 style（见 renderPlanetCard），
+   所以在图片一个字节都还没到的时候，这块的高度就已经定好了 —— 卡片不会随图片
+   一张张"长高"，滚动条也不会跳。
+   加载中：深底 + 一道扫光（骨架）；onload 后先 .revealed 让扫光淡出、
+   img 自己淡入，再由 JS 摘掉 .loading（换掉扫光不能有"闪一层灰底"）。 */
 #pcard .pk-shot{
   position:relative;border-radius:13px;overflow:hidden;
-  background:rgba(255,255,255,.05);border:1px solid rgba(148,182,224,.12);
+  background:linear-gradient(160deg,#0d1322,#0a0f1c);
+  border:1px solid rgba(148,182,224,.12);
 }
-#pcard .pk-shot img{display:block;width:100%;height:auto}
+#pcard .pk-shot.loading::after{
+  content:"";position:absolute;inset:0;z-index:2;
+  background:linear-gradient(100deg,transparent 20%,rgba(140,165,220,.14) 50%,transparent 80%);
+  background-size:220% 100%;
+  animation:pcardShimmer 1.35s linear infinite;
+}
+#pcard .pk-shot.loading.revealed::after{animation:none;opacity:0;transition:opacity .32s ease}
+@keyframes pcardShimmer{
+  from{background-position:180% 0}
+  to{background-position:-80% 0}
+}
+#pcard .pk-shot img{
+  position:absolute;left:0;top:0;width:100%;height:100%;
+  object-fit:cover;                 /* 框的比例就是原图比例，实际不会裁 */
+  opacity:0;transition:opacity .42s ease;
+}
+#pcard .pk-shot.loaded img{opacity:1}
 #pcard .pk-cap{
   position:absolute;left:0;right:0;bottom:0;padding:18px 12px 8px;
-  font-size:10.5px;line-height:1.45;color:rgba(255,255,255,.9);
+  font-size:11px;line-height:1.45;color:rgba(255,255,255,.9);
   background:linear-gradient(to top,rgba(5,8,14,.9) 0%,rgba(5,8,14,.55) 55%,rgba(5,8,14,0) 100%);
 }
+/* 重点词标注：直接复用国家档案卡那套 .kw（概念，青色下划线）/ .kn（数字，
+   暖色下划线）class，不另起一套颜色 —— 两处档案卡一左一右，风格要一致。
+   em 默认斜体，中文斜体压在深色面板上很难看，必须掰正。 */
+#pcard .kw,#pcard .kn{font-style:normal}
 #pcard .pk-tips{margin:0;padding:0;list-style:none}
 #pcard .pk-tips li{
   position:relative;padding-left:17px;margin:0 0 9px;
@@ -1573,10 +1614,9 @@ body.panel-open #globe-stage{
   content:"";position:absolute;left:2px;top:8px;width:5px;height:5px;
   border-radius:50%;background:rgba(226,199,150,.85);
 }
-#pcard .pk-hint{
-  margin:16px 0 0;padding-top:13px;border-top:1px solid rgba(148,182,224,.13);
-  font-size:11.5px;line-height:1.6;color:rgba(150,175,205,.72);
-}
+/* 卡片最下方原来还有一段"怎么退出特写 + 影像来源"的提示语，用户要求去掉：
+   退出方式卡上本来就有 × 和"点空白"，来源在每张图的说明里已经写了。
+   留着只是让人以为正文还没读完。 */
 @media (max-width:620px){
   #pcard .pk-grid{grid-template-columns:1fr 1fr}
 }
@@ -1617,9 +1657,12 @@ body.panel-open #globe-stage{
 #detail video,#detail canvas{max-width:100%;height:auto}
 #detail .dwrap,#detail .dblock,#detail .meta,#detail .facets{min-width:0}
 #detail pre,#detail code{white-space:pre-wrap;word-break:break-word}
+/* 关闭按钮：原来 42px 的圈压在 26px 的标题旁边，比标题还抢眼。
+   收到 34px、图标 16px —— 还是一颗好点的按钮（手机上也够 34px 的触控），
+   但不再是"面板里最大的东西"。国家档案卡和星球档案卡共用这个类。 */
 .dclose{
-  position:absolute;top:14px;right:14px;
-  width:42px;height:42px;border-radius:50%;
+  position:absolute;top:12px;right:12px;
+  width:34px;height:34px;border-radius:50%;
   display:flex;align-items:center;justify-content:center;
   cursor:pointer;
   color:rgba(238,244,254,.9);background:rgba(255,255,255,.07);
@@ -1628,7 +1671,7 @@ body.panel-open #globe-stage{
 }
 .dclose:hover{color:#fff;border-color:rgba(148,182,224,.6);background:rgba(148,182,224,.16);transform:scale(1.05)}
 .dclose:active{transform:scale(.96)}
-  .dclose svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2.1;stroke-linecap:round}
+  .dclose svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.1;stroke-linecap:round}
   #d-sub:empty{display:none}
 
 /* 面板里空间窄，详情原本的两列网格改为单列。
@@ -10561,13 +10604,28 @@ body.quiz-on #labels-canvas{display:none!important}
       if (!f) return 0;
       f.k += (f.closing ? -dtSec / 1.05 : dtSec / 1.15);
       f.k = Math.max(0, Math.min(1, f.k));
-      if (f.closing && f.k <= 0.0001) { s.focus = null; return 0; }
+      if (f.closing && f.k <= 0.0001) { s.focus = null; s.focusK = 0; return 0; }
 
       f.holder.getWorldPosition(_fpA);
       var dist = f.radius / (0.3839 * 0.42);
       if (f.ring) dist *= 1.85;
+      /* 太阳再退远一点（1.35 倍）：它外面裹着两层光晕 + 两层日冕 sprite，
+         贴着边缘取景会把日冕挤出画面，只剩一个橙色圆盘 —— 那还不如不特写。
+         退到这距离，球面约占画面三成半高，四周还能留出日冕。 */
+      if (f.sun) dist *= 1.15;
 
-      _fpB.copy(_fpA).negate().normalize();            // 行星 → 太阳
+      /* 机位方向 = "从行星指向太阳"的反向（站在向阳侧）。
+         太阳是个例外：它就在原点，"行星→太阳"退化成一个零向量，
+         归一化之后是 (0,0,0)，机位会直接落到太阳球心（整屏糊成一片）。
+         所以太阳用打开卡片时记下的来向（f.dir）—— 那一刻相机在哪边，
+         就从哪边飞过去，不会绕圈。 */
+      if (f.sun) {
+        _fpB.copy(f.dir || _AXY);
+        if (_fpB.lengthSq() < 1e-6) _fpB.set(0, 0.3, 1);
+        _fpB.normalize();
+      } else {
+        _fpB.copy(_fpA).negate().normalize();
+      }
       _fpC.crossVectors(_fpB, _AXY);
       if (_fpC.lengthSq() < 1e-6) _fpC.set(1, 0, 0); else _fpC.normalize();
 
@@ -10590,6 +10648,7 @@ body.quiz-on #labels-canvas{display:none!important}
       _focusAt.copy(_fpA);
 
       var kk = f.k * f.k * (3 - 2 * f.k);
+      s.focusK = kk;
       /* 行星名标签（sprite，固定世界尺寸）在特写里会被推到画面顶部、飘在
          球外面。跟着 k 一起淡掉；退出时 k 归 0，透明度自己回到基准值，
          不需要额外的收尾。基准值只在第一帧记一次（地球那个的透明度是
@@ -10644,7 +10703,8 @@ body.quiz-on #labels-canvas{display:none!important}
       var thE;
       if (s.t >= 1 && earthP) {
         /* 地球特写时同样压慢公转（同上） */
-        var eSpd = (s.focus && !s.focus.closing && s.focus.def === earthP.def) ? 0.08 : 1;
+        var eSpd = (s.focus && !s.focus.closing &&
+                    (s.focus.sun || s.focus.def === earthP.def)) ? 0.08 : 1;
         earthP.theta += (Math.PI * 2) / (ORBIT_BASE * earthP.def.period) * dtSec * s.speed * eSpd;
         thE = earthP.theta;
       } else {
@@ -10692,7 +10752,9 @@ body.quiz-on #labels-canvas{display:none!important}
       var sunK = Math.min(1, Math.max(0, (e - sunLo) / (sunHi - sunLo)));
       sunK = sunK * sunK * (3 - 2 * sunK);
       if (s.sunUni) s.sunUni.uFade.value = sunK;
-      if (s.sunLabel && s.sunLabel.material) s.sunLabel.material.opacity = sunK;
+      /* 太阳特写时太阳名要收掉：它挂在上方 0.50 处，镜头一贴近就飘到画面顶上
+         挡住日冕。s.focusK 由 planetFocusTick 写（早一帧，看不出差）。 */
+      if (s.sunLabel && s.sunLabel.material) s.sunLabel.material.opacity = sunK * (1 - (s.focusK || 0));
       s.glow.forEach(function (sp) { sp.material.opacity = sp.userData.baseOp * sunK; });
 
       /* 行星、轨道线、行星名全部跟着同一个 sunK 起来：太阳没点亮之前
@@ -10736,7 +10798,8 @@ body.quiz-on #labels-canvas{display:none!important}
           /* 正在特写的那颗把公转压到 8%：相机跟着它走，按原速（水星 26.5 秒
              一圈）整块背景每帧都在甩，看久了晕。压慢而不是完全停 —— 停住
              会让人以为是静态贴图，也看不出"它确实在公转"。 */
-          var fSpd = (s.focus && !s.focus.closing && s.focus.def === p.def) ? 0.08 : 1;
+          var fSpd = (s.focus && !s.focus.closing &&
+                      (s.focus.sun || s.focus.def === p.def)) ? 0.08 : 1;
           p.theta += w * dtSec * s.speed * fSpd;
           p.holder.position.set(Math.cos(p.theta) * p.def.a, 0, Math.sin(p.theta) * p.def.a);
           /* 自转周期也按真实值，但两头夹一下：水星 58 天、金星 243 天照搬会看不出在转；
@@ -11019,6 +11082,7 @@ body.quiz-on #labels-canvas{display:none!important}
     var SOLAR_INFO = [
       {
         name: '水星', en: 'Mercury',
+        kw: ['昼夜温差', '环形山', '五行'],
         lead: '离太阳最近、也是八大行星里最小的一颗。几乎没有大气，白天 427℃、夜里 -173℃，' +
               '昼夜温差近 600℃。表面布满环形山，长得像月球。',
         stats: [
@@ -11030,7 +11094,7 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '0', '颗']
         ],
         photos: [
-          { file: 'assets/nasa/mercury-2.webp', cap: '水星全球影像 · MESSENGER 探测器拼接（NASA / JHUAPL）' },
+          { file: 'assets/nasa/mercury-2.webp', ar: 1.3151, cap: '水星全球影像 · MESSENGER 探测器拼接（NASA / JHUAPL）' },
         ],
         tips: [
           '一年只有 88 天，但一个白天要过 176 天 —— 它转得太慢，太阳在天空里几乎不动。',
@@ -11040,6 +11104,7 @@ body.quiz-on #labels-canvas{display:none!important}
       },
       {
         name: '金星', en: 'Venus',
+        kw: ['浓硫酸云', '温室效应', '启明'],
         lead: '大小和地球最接近，却被 90 倍地球大气压、460℃ 的浓硫酸云包着 —— 它是太阳系' +
               '最热的行星，比离太阳更近的水星还热。',
         stats: [
@@ -11051,8 +11116,8 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '0', '颗']
         ],
         photos: [
-          { file: 'assets/nasa/venus-1.webp', cap: '金星全球雷达影像 · 麦哲伦号，颜色按地形起伏着色（NASA / JPL）' },
-          { file: 'assets/nasa/venus-2.webp', cap: '金星北半球 · 麦哲伦号雷达影像（NASA / JPL）' },
+          { file: 'assets/nasa/venus-1.webp', ar: 1.5, cap: '金星全球雷达影像 · 麦哲伦号，颜色按地形起伏着色（NASA / JPL）' },
+          { file: 'assets/nasa/venus-2.webp', ar: 1.5, cap: '金星北半球 · 麦哲伦号雷达影像（NASA / JPL）' },
         ],
         tips: [
           '自转方向和其他行星相反，而且"一天比一年长"：自转 243 天 > 公转 225 天。',
@@ -11062,6 +11127,7 @@ body.quiz-on #labels-canvas{display:none!important}
       },
       {
         name: '地球', en: 'Earth',
+        kw: ['液态水', '板块运动', '自转轴倾角', '扁球', '光合作用'],
         lead: '目前已知唯一有液态水海洋、板块运动和生命的行星。23.4° 的自转轴倾角带来四季，' +
               '一颗异常大的卫星稳定着它的自转轴。',
         stats: [
@@ -11073,8 +11139,8 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '1', '颗（月球）']
         ],
         photos: [
-          { file: 'assets/nasa/earth-x1.webp', cap: '蓝色弹珠 · 2014 年 3 月，东半球（NASA / NOAA）' },
-          { file: 'assets/nasa/earth-x2.webp', cap: '黑色弹珠 · 2012 年夜间灯光（NASA / NOAA）' },
+          { file: 'assets/nasa/earth-x1.webp', ar: 1.7778, cap: '蓝色弹珠 · 2014 年 3 月，东半球（NASA / NOAA）' },
+          { file: 'assets/nasa/earth-x2.webp', ar: 1.7778, cap: '黑色弹珠 · 2012 年夜间灯光（NASA / NOAA）' },
         ],
         tips: [
           '它其实是个扁球：赤道半径比极半径长 21 km。',
@@ -11084,6 +11150,7 @@ body.quiz-on #labels-canvas{display:none!important}
       },
       {
         name: '火星', en: 'Mars',
+        kw: ['氧化铁', '奥林帕斯山', '水手谷', '水冰', '沙尘暴'],
         lead: '一颗被氧化铁染红的沙漠行星。有太阳系最高的火山（奥林帕斯山，21.9 km）和' +
               '最长的峡谷（水手谷，4000 km）。',
         stats: [
@@ -11095,8 +11162,8 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '2', '颗']
         ],
         photos: [
-          { file: 'assets/nasa/mars-x1.webp', cap: '哈勃望远镜拍到的火星全球（NASA / ESA / STScI）' },
-          { file: 'assets/nasa/mars-x2.webp', cap: '古谢夫陨石坑 · 勇气号着陆区的轨道影像（NASA / JPL / MSSS）' },
+          { file: 'assets/nasa/mars-x1.webp', ar: 2.0, cap: '哈勃望远镜拍到的火星全球（NASA / ESA / STScI）' },
+          { file: 'assets/nasa/mars-x2.webp', ar: 1.1047, cap: '古谢夫陨石坑 · 勇气号着陆区的轨道影像（NASA / JPL / MSSS）' },
         ],
         tips: [
           '两极是水冰和干冰，地下有大量水冰，但液态水在表面无法稳定存在。',
@@ -11106,6 +11173,7 @@ body.quiz-on #labels-canvas{display:none!important}
       },
       {
         name: '木星', en: 'Jupiter',
+        kw: ['大红斑', '扁球', '木卫二'],
         lead: '质量是其余七颗行星加起来的两倍多。没有固体表面，只有越往内越稠的氢。' +
               '大红斑是一个比地球还大的风暴，至少已经刮了 190 年。',
         stats: [
@@ -11117,9 +11185,9 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '95', '颗以上']
         ],
         photos: [
-          { file: 'assets/nasa/jupiter-1.webp', cap: '大红斑 · Juno 号 2018 年拍摄（NASA / JPL-Caltech / SwRI / MSSS）' },
-          { file: 'assets/nasa/jupiter-3.webp', cap: '大红斑特写，能看到云带的湍流层次（NASA / JPL-Caltech）' },
-          { file: 'assets/nasa/jupiter-2.webp', cap: '大红斑的近红外影像，亮斑是高空云顶（NASA / JPL / STScI）' },
+          { file: 'assets/nasa/jupiter-1.webp', ar: 1.5311, cap: '大红斑 · Juno 号 2018 年拍摄（NASA / JPL-Caltech / SwRI / MSSS）' },
+          { file: 'assets/nasa/jupiter-3.webp', ar: 2.167, cap: '大红斑特写，能看到云带的湍流层次（NASA / JPL-Caltech）' },
+          { file: 'assets/nasa/jupiter-2.webp', ar: 1.337, cap: '大红斑的近红外影像，亮斑是高空云顶（NASA / JPL / STScI）' },
         ],
         tips: [
           '自转最快：不到 10 小时一圈，快到把自己甩成了明显的扁球。',
@@ -11129,6 +11197,7 @@ body.quiz-on #labels-canvas{display:none!important}
       },
       {
         name: '土星', en: 'Saturn',
+        kw: ['密度比水还低', '水冰碎块', '土卫六', '土卫二'],
         lead: '密度比水还低 —— 真有那么大的水池，它能浮起来。环主要由水冰碎块组成，' +
               '宽度约 28 万 km，厚度却只有十几米。',
         stats: [
@@ -11140,8 +11209,8 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '270', '颗以上']
         ],
         photos: [
-          { file: 'assets/nasa/saturn-1.webp', cap: '卡西尼号拍摄的土星与主环（NASA / JPL-Caltech / SSI）' },
-          { file: 'assets/nasa/saturn-2.webp', cap: '离开土卫四时的环面侧视（NASA / JPL-Caltech / SSI）' },
+          { file: 'assets/nasa/saturn-1.webp', ar: 1.9592, cap: '卡西尼号拍摄的土星与主环（NASA / JPL-Caltech / SSI）' },
+          { file: 'assets/nasa/saturn-2.webp', ar: 1.7112, cap: '离开土卫四时的环面侧视（NASA / JPL-Caltech / SSI）' },
         ],
         tips: [
           '环的宽厚比像一张纸：宽度是厚度的两万多倍。',
@@ -11151,6 +11220,7 @@ body.quiz-on #labels-canvas{display:none!important}
       },
       {
         name: '天王星', en: 'Uranus',
+        kw: ['躺着自转', '甲烷', '赫歇尔'],
         lead: '躺着自转的行星：自转轴倾斜 98°，几乎是横躺着绕太阳滚。大气里的甲烷吸收红光，' +
               '所以呈青蓝色。',
         stats: [
@@ -11162,7 +11232,7 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '28', '颗']
         ],
         photos: [
-          { file: 'assets/nasa/uranus-1.webp', cap: '旅行者 2 号 1986 年 1 月掠过时拍摄（NASA / JPL）' },
+          { file: 'assets/nasa/uranus-1.webp', ar: 1.3313, cap: '旅行者 2 号 1986 年 1 月掠过时拍摄（NASA / JPL）' },
         ],
         tips: [
           '1781 年赫歇尔用望远镜发现，是第一颗被望远镜发现的行星。',
@@ -11172,6 +11242,7 @@ body.quiz-on #labels-canvas{display:none!important}
       },
       {
         name: '海王星', en: 'Neptune',
+        kw: ['先算出来', '勒维耶', '海卫一', '氮气冰火山'],
         lead: '离太阳最远，也是唯一"先算出来、后看到"的行星 —— 天文学家从天王星轨道的偏差' +
               '推算出它该在哪。风速可超过 2,000 km/h，是太阳系最猛的风。',
         stats: [
@@ -11183,8 +11254,8 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '16', '颗']
         ],
         photos: [
-          { file: 'assets/nasa/neptune-1.webp', cap: '旅行者 2 号 1989 年 8 月拍摄（NASA / JPL）' },
-          { file: 'assets/nasa/neptune-2.webp', cap: '云带的伪色处理，突出高层甲烷云（NASA / JPL）' },
+          { file: 'assets/nasa/neptune-1.webp', ar: 1.35, cap: '旅行者 2 号 1989 年 8 月拍摄（NASA / JPL）' },
+          { file: 'assets/nasa/neptune-2.webp', ar: 1.3313, cap: '云带的伪色处理，突出高层甲烷云（NASA / JPL）' },
         ],
         tips: [
           '1846 年按勒维耶的计算被找到，位置误差不到 1°。',
@@ -11194,39 +11265,140 @@ body.quiz-on #labels-canvas{display:none!important}
       }
     ];
 
+    /* 太阳的档案卡。结构和行星那张完全一样，只是它不在 solar.planets 里
+       （那颗恒星是另一个对象、没有轨道、没有公转），所以单独一份数据 +
+       单独的打开入口（openSunCard）。 */
+    var SUN_INFO = {
+      name: '太阳', en: 'Sun',
+      kw: ['核聚变', '光球层', '日冕', '太阳风'],
+      lead: '太阳系的中心天体，占了整个系统 99.86% 的质量。核心每秒把约 6 亿吨氢' +
+            '聚变成氦，靠核聚变产生的向外的压力撑住自身引力 —— 它已经这样烧了 46 亿年。',
+      stats: [
+        ['赤道直径', '1,392,700', 'km'],
+        ['距地球', '1', 'AU（1.496 亿 km）'],
+        ['表面温度', '约 5,500', '℃'],
+        ['核心温度', '1,500 万', '℃'],
+        ['自转周期', '25.4', '天（赤道）'],
+        ['年龄', '约 46', '亿年']
+      ],
+      photos: [
+        { file: 'assets/nasa/sun-2.webp', ar: 1, cap: '太阳全盘 · SDO/AIA 304 埃，右侧是一次日珥爆发（NASA / SDO）' },
+        { file: 'assets/nasa/sun-1.webp', ar: 1, cap: '太阳全盘 · SDO/AIA 335 埃，看到的是高温日冕结构（NASA / SDO）' },
+        { file: 'assets/nasa/sun-3.webp', ar: 1, cap: '日珥特写 · 等离子体沿磁力线成环，被抛出去又落回来（NASA / SDO）' }
+      ],
+      tips: [
+        '光从核心跑到表面要几万年，从表面到地球只要 8 分 20 秒。',
+        '日冕比下面的光球层热几百倍（上百万度），"日冕加热问题"到现在还没有定论。',
+        '太阳活动大约 11 年一个周期，黑子多的年份极光也更容易看到。'
+      ]
+    };
+
     var pcard = document.getElementById('pcard');
     var pTitle = document.getElementById('p-title');
     var pEn = document.getElementById('p-en');
     var pBody = document.getElementById('p-body');
     var pCloseBtn = document.getElementById('p-close');
 
+    /* ---------- 重点词标注 ----------
+       和国家档案卡（.kw / .kn）同一套视觉：概念词青色、数字暖色，都带一根
+       细下划线。没复用那边 markKeywords —— 它依赖全局 KW_LIST（由当前国家的
+       facets 决定），而星球卡是固定数据，每颗星自带 kw 列表更可控。
+       同一条里一个词只标第一次：满屏下划线等于什么都没标。 */
+    var PC_NUM = /\d+(?:[,，]\d{3})*(?:\.\d+)?\s*(?:亿|万|%|km|AU|℃|°|倍|年|天|时|分|颗|个)/;
+
+    function pcEsc(t) {
+      return String(t).replace(/[&<>"]/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+      });
+    }
+
+    function markCard(text, kws) {
+      var src = String(text || '');
+      var list = kws || [];
+      if (!list.length && !PC_NUM.test(src)) return pcEsc(src);
+      var used = {};
+      var out = '', i = 0, guard = 0;
+      while (i < src.length && guard++ < 800) {
+        var hit = null, hitAt = -1, isNum = false;
+        for (var k = 0; k < list.length; k++) {
+          var kw = list[k];
+          if (used[kw]) continue;
+          var at = src.indexOf(kw, i);
+          if (at < 0) continue;
+          if (hitAt < 0 || at < hitAt || (at === hitAt && kw.length > hit.length)) {
+            hitAt = at; hit = kw;
+          }
+        }
+        var m = src.slice(i).match(PC_NUM);
+        if (m && !used[m[0]]) {
+          var nat = i + m.index;
+          if (hitAt < 0 || nat < hitAt) { hitAt = nat; hit = m[0]; isNum = true; }
+        }
+        if (hitAt < 0) { out += pcEsc(src.slice(i)); break; }
+        used[hit] = 1;
+        out += pcEsc(src.slice(i, hitAt)) +
+               '<em class="' + (isNum ? 'kn' : 'kw') + '">' + pcEsc(hit) + '</em>';
+        i = hitAt + hit.length;
+      }
+      return out;
+    }
+
     function renderPlanetCard(info) {
-      var h = '<p class="pk-lead">' + info.lead + '</p>';
+      var kws = info.kw || [];
+      var h = '<p class="pk-lead">' + markCard(info.lead, kws) + '</p>';
       h += '<div class="pk-h">关键数据</div><div class="pk-grid">';
       info.stats.forEach(function (r) {
-        h += '<div class="pk-cell"><div class="pk-k">' + r[0] + '</div>' +
-             '<div class="pk-v">' + r[1] + (r[2] ? '<small>' + r[2] + '</small>' : '') +
+        h += '<div class="pk-cell"><div class="pk-k">' + pcEsc(r[0]) + '</div>' +
+             '<div class="pk-v">' + pcEsc(r[1]) + (r[2] ? '<small>' + pcEsc(r[2]) + '</small>' : '') +
              '</div></div>';
       });
       h += '</div>';
       if (info.photos && info.photos.length) {
         h += '<div class="pk-h">NASA 影像</div><div class="pk-shots">';
         info.photos.forEach(function (ph) {
-          h += '<div class="pk-shot"><img src="' + ph.file + '" alt="' + info.name +
-               '" loading="lazy" decoding="async">' +
-               (ph.cap ? '<div class="pk-cap">' + ph.cap + '</div>' : '') + '</div>';
+          /* aspect-ratio 用的是图片真实宽高（数据里的 ar，构建时量出来的）：
+             图还没到就先按这个比例把高度占住 —— 否则卡片会随图片一张张下载
+             而不断"长高"，滚动条跳、顶部内容被推走。
+             img 绝对定位铺满这个框（object-fit:cover 不会裁，因为比例就是原图比例），
+             这样 lazy 加载也能拿到一个有高度的盒子，才不会被浏览器当成"不可见"。 */
+          h += '<div class="pk-shot loading" style="aspect-ratio:' + (ph.ar || 1.6) + '">' +
+               '<img src="' + ph.file + '" alt="' + pcEsc(info.name) + '" ' +
+               'loading="lazy" decoding="async">' +
+               (ph.cap ? '<div class="pk-cap">' + pcEsc(ph.cap) + '</div>' : '') + '</div>';
         });
         h += '</div>';
       }
       if (info.tips && info.tips.length) {
         h += '<div class="pk-h">看点</div><ul class="pk-tips">';
-        info.tips.forEach(function (t) { h += '<li>' + t + '</li>'; });
+        info.tips.forEach(function (t) { h += '<li>' + markCard(t, kws) + '</li>'; });
         h += '</ul>';
       }
-      h += '<p class="pk-hint">相机已经跟住这颗行星（公转降到 8%，方便看清）。' +
-           '点空白、再点一次它、或按右上角 × 都能退出特写。<br>' +
-           '影像均为 NASA 公有领域素材（图库 images-api.nasa.gov），仅作教学示意。</p>';
       pBody.innerHTML = h;
+
+      /* 骨架收尾：load 后先 revealed（扫光淡出，同时照片自己淡入），0.36 秒后
+         再摘 .loading —— 直接摘会露出深灰底，看着像"闪一下"。 */
+      Array.prototype.forEach.call(pBody.querySelectorAll('.pk-shot'), function (box) {
+        var im = box.querySelector('img');
+        if (!im) return;
+        var settled = false;
+        function done() {
+          if (settled) return;
+          settled = true;
+          box.classList.add('revealed');
+          box.classList.add('loaded');
+          setTimeout(function () { box.classList.remove('loading'); }, 360);
+        }
+        function failed() {
+          if (settled) return;
+          settled = true;
+          box.classList.remove('loading');
+          box.classList.add('blank');
+        }
+        if (im.complete && im.naturalWidth) { done(); return; }
+        im.addEventListener('load', done);
+        im.addEventListener('error', failed);
+      });
+
       var sc = pBody.parentNode;
       if (sc && sc.scrollTo) sc.scrollTo(0, 0); else if (sc) sc.scrollTop = 0;
     }
@@ -11249,6 +11421,29 @@ body.quiz-on #labels-canvas{display:none!important}
       pTitle.textContent = info.name;
       pEn.textContent = info.en;
       renderPlanetCard(info);
+      pcard.classList.add('open');
+      pcard.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('pcard-open');
+    }
+
+    /* 太阳特写：和行星同一条路径（相机飞过去、跟住、卡片滑出），只是
+       holder 是太阳本体。radius 直接给 0.34（见 solarBuild 里的球半径）。 */
+    function openSunCard() {
+      if (!solar.sun) return;
+      if (solar.focus && solar.focus.sun && !solar.focus.closing) { closePlanet(); return; }
+      var prevK = solar.focus ? solar.focus.k : 0;
+      var fromDir = new THREE.Vector3().copy(camera.position);
+      if (fromDir.lengthSq() < 1e-6) fromDir.set(0, 0.3, 1);
+      fromDir.normalize();
+      solar.focus = {
+        sun: true, holder: solar.sun, def: { a: 0, r: 0.34 },
+        radius: 0.34, ring: false, dir: fromDir,
+        k: prevK, closing: false,
+        yaw: (solar.focus && solar.focus.yaw) || 0
+      };
+      pTitle.textContent = SUN_INFO.name;
+      pEn.textContent = SUN_INFO.en;
+      renderPlanetCard(SUN_INFO);
       pcard.classList.add('open');
       pcard.setAttribute('aria-hidden', 'false');
       document.body.classList.add('pcard-open');
@@ -11292,9 +11487,12 @@ body.quiz-on #labels-canvas{display:none!important}
         if (p.def.earth) { if (typeof sphere !== 'undefined' && sphere) list.push(sphere); }
         else if (p.mesh) list.push(p.mesh);
       });
+      /* 太阳也参与射线命中：它盘面大，点中就是点中，不需要屏幕容差兜底 */
+      if (solar.sun) list.push(solar.sun);
       var hits = _pickRay.intersectObjects(list, false);
       if (hits.length) {
         var obj = hits[0].object, hitIdx = -1;
+        if (obj === solar.sun) { openSunCard(); return; }
         for (var i = 0; i < solar.planets.length; i++) {
           var pp = solar.planets[i];
           if ((pp.def.earth && obj === sphere) || (!pp.def.earth && obj === pp.mesh)) {
@@ -11323,12 +11521,26 @@ body.quiz-on #labels-canvas{display:none!important}
       var s = solar;
       /* 进出太阳系都要先退出行星特写：留在 focus 里的话，退出转场时相机
          还被它拉着 —— 人已经在往地球飞，镜头却还盯着木星。 */
-      if (s.focus) s.focus = null;
+      if (s.focus) { s.focus = null; s.focusK = 0; }
       if (pcard) {
         pcard.classList.remove('open');
         pcard.setAttribute('aria-hidden', 'true');
         document.body.classList.remove('pcard-open');
       }
+      /* 国家档案 / 知识卡（共用 #detail）开着的时候进太阳系，必须真把它收掉。
+         只靠 CSS 的 `body.solar-on #detail{display:none}` 不够：面板是藏了，
+         但 body.panel-open 这条还在名单上 —— 它会给 #globe-stage 加
+         translateX(-14%)，画布整体左移，右边就空出一条黑边。用户报的
+         "开过档案再点太阳系，右侧出现一块黑色" 就是这个。
+         这里顺手把 .panel-open / .open 一起摘掉，退出太阳系时不会突然又
+         蹦出一张旧档案卡。flyOut 不调：它会改 camTarget 和 autoSpin，
+         跟正在开始的转场打架。 */
+      var dPanel = document.getElementById('detail');
+      if (dPanel) {
+        dPanel.classList.remove('open');
+        dPanel.setAttribute('aria-hidden', 'true');
+      }
+      document.body.classList.remove('panel-open');
       /* 判据用 target（"想去哪儿"），不用 on（"是不是还在动"）。
          退出动画要跑 2.4 秒，这期间 on 仍是 true；按 on 判的话，再点一下会
          落进 else 分支、把 target 又设成 0（等于什么都没发生），按钮就"死了"。
@@ -11422,6 +11634,7 @@ body.quiz-on #labels-canvas{display:none!important}
     window.__solarToggle = solarToggle;
     window.__solarDbg = solar;          // 调试/验收用：控制台可改 solar.speed、solar.sky.visible
     window.__openPlanet = openPlanet;   // 验收用：直接开某颗行星的档案卡
+    window.__openSun = openSunCard;      // 同上：太阳档案卡
     window.__closePlanet = closePlanet;
     window.__solarPick = solarPick;
     window.__baseStars = BASE_STARS;    // 同上：验收"退出太阳系后星场有没有回来"

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-22-DY">
+<meta name="build" content="2026-11-22-EA">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -308,6 +308,10 @@
     font-size:10.5px;letter-spacing:.02em;color:rgba(150,172,200,.55);
     opacity:0;pointer-events:none;transition:opacity .4s ease}
   body.solar-on #solar-credit{opacity:1}
+  /* 星球档案卡打开时：右下角的贴图署名会被卡片压住（z-index 60 > 46），
+     右上角的"退出太阳系"按钮也正好在卡片底下点不到 —— 让它俩让位。 */
+  body.pcard-open #solar-credit{opacity:0}
+  body.pcard-open #solar-exit{right:calc(min(452px, 100vw - 32px) + 44px)}
   /* 出口：工具栏在太阳系模式里整体让位，按钮也就跟着消失了，
      光靠 Esc 等于把用户关在里面。右上角留一个小圆按钮，只画一个 ×，不写字。 */
   #solar-exit{position:fixed;top:18px;right:18px;z-index:60;
@@ -1504,6 +1508,79 @@ body.panel-open #globe-stage{
 }
 #detail[hidden]{display:none}
 
+/* --- 星球档案卡（太阳系模式） ---
+   和国家档案同一套视觉语言（浮卡 + 圆角 + 柔和阴影 + 右侧滑入），
+   但内容结构完全不同（参数表 + NASA 照片墙），所以是独立面板，不复用 #detail
+   的 DOM —— 那边有大量按国家数据定制的类（.dimg-wrap / .thumbstrip 等），
+   硬塞进来只会互相打架。 */
+#pcard{
+  font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC","Source Han Sans SC",
+              "Segoe UI",system-ui,sans-serif;
+  position:fixed;top:16px;right:16px;bottom:16px;z-index:46;
+  width:min(452px, calc(100vw - 32px));
+  display:flex;flex-direction:column;
+  background:linear-gradient(165deg, rgba(20,27,41,.95) 0%, rgba(11,15,23,.97) 100%) padding-box;
+  border:1px solid rgba(148,182,224,.20);
+  border-radius:20px;
+  box-shadow:0 28px 70px rgba(0,0,0,.66), 0 2px 8px rgba(0,0,0,.4);
+  transform:translateX(calc(100% + 28px));
+  visibility:hidden;
+  transition:transform .5s cubic-bezier(.22,.61,.36,1), visibility 0s linear .5s;
+  overflow:hidden;
+}
+#pcard.open{transform:none;visibility:visible;transition:transform .5s cubic-bezier(.22,.61,.36,1),visibility 0s}
+#pcard *{max-width:100%}
+#pcard .pk-en{
+  margin-top:6px;font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;
+  color:rgba(160,186,220,.72);font-variant-numeric:tabular-nums;
+}
+#pcard .pk-lead{
+  margin:0 0 16px;font-size:14px;line-height:1.78;color:rgba(230,238,250,.9);
+}
+#pcard .pk-h{
+  display:flex;align-items:baseline;gap:9px;margin:0 0 11px;
+  font-size:11.5px;letter-spacing:.12em;color:rgba(150,175,205,.95);
+}
+#pcard .pk-h::after{content:"";flex:1;height:1px;background:rgba(148,182,224,.16)}
+#pcard .pk-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:0 0 20px}
+#pcard .pk-cell{
+  background:rgba(255,255,255,.042);border:1px solid rgba(148,182,224,.13);
+  border-radius:12px;padding:9px 12px 10px;
+}
+#pcard .pk-k{font-size:10.5px;letter-spacing:.08em;color:rgba(150,175,205,.9)}
+#pcard .pk-v{
+  margin-top:3px;font-size:15px;font-weight:600;color:#fff;
+  font-variant-numeric:tabular-nums;line-height:1.35;
+}
+#pcard .pk-v small{font-size:11.5px;font-weight:400;color:rgba(160,186,220,.85);margin-left:2px}
+#pcard .pk-shots{display:grid;grid-template-columns:1fr;gap:11px;margin:0 0 20px}
+#pcard .pk-shot{
+  position:relative;border-radius:13px;overflow:hidden;
+  background:rgba(255,255,255,.05);border:1px solid rgba(148,182,224,.12);
+}
+#pcard .pk-shot img{display:block;width:100%;height:auto}
+#pcard .pk-cap{
+  position:absolute;left:0;right:0;bottom:0;padding:18px 12px 8px;
+  font-size:10.5px;line-height:1.45;color:rgba(255,255,255,.9);
+  background:linear-gradient(to top,rgba(5,8,14,.9) 0%,rgba(5,8,14,.55) 55%,rgba(5,8,14,0) 100%);
+}
+#pcard .pk-tips{margin:0;padding:0;list-style:none}
+#pcard .pk-tips li{
+  position:relative;padding-left:17px;margin:0 0 9px;
+  font-size:13.5px;line-height:1.68;color:rgba(224,232,244,.9);
+}
+#pcard .pk-tips li::before{
+  content:"";position:absolute;left:2px;top:8px;width:5px;height:5px;
+  border-radius:50%;background:rgba(226,199,150,.85);
+}
+#pcard .pk-hint{
+  margin:16px 0 0;padding-top:13px;border-top:1px solid rgba(148,182,224,.13);
+  font-size:11.5px;line-height:1.6;color:rgba(150,175,205,.72);
+}
+@media (max-width:620px){
+  #pcard .pk-grid{grid-template-columns:1fr 1fr}
+}
+
 .dhead{
   padding:22px 26px 16px;border-bottom:1px solid var(--line);
   flex:0 0 auto;
@@ -2523,6 +2600,16 @@ body.quiz-on #labels-canvas{display:none!important}
     <div id="d-sub"></div>
   </div>
   <div class="dscroll"><div id="d-body"></div></div>
+</aside>
+
+<!-- 星球档案卡：太阳系模式里点某颗行星弹出。 -->
+<aside id="pcard" aria-hidden="true">
+  <button class="dclose" id="p-close" aria-label="关闭档案"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 6.6 17.4 17.4M17.4 6.6 6.6 17.4"/></svg></button>
+  <div class="dhead">
+    <h2 id="p-title">星球档案</h2>
+    <div class="pk-en" id="p-en"></div>
+  </div>
+  <div class="dscroll"><div id="p-body"></div></div>
 </aside>
 
 <!-- 工具栏：左下角一颗图标，点开是一个分类面板。
@@ -9127,6 +9214,10 @@ body.quiz-on #labels-canvas{display:none!important}
            画面整体往左跑 —— 正好跟鼠标相反（用户原话"我鼠标往左，视角往右了"）。
            减号才和主模式那条 `spin.y += dx` 同向：内容跟着手指走。 */
         solar.az0 -= dx * 0.0016;
+        /* 特写里轨道方位被 focus 完全覆盖，再改 az0 就是空转 —— 横向拖拽
+           改成绕这颗行星公转（yaw）。符号与 az0 那条一致：往右拖，行星跟着
+           手指往右走。 */
+        if (solar.focus) solar.focus.yaw -= dx * 0.005;
       } else {
         globe.spin.rotation.y += dx * 0.0016;
       }
@@ -9631,7 +9722,11 @@ body.quiz-on #labels-canvas{display:none!important}
       /* 太阳系模式：这颗地球只是轨道上的一个点，点它开国家档案卡没道理
          （用户实测就踩了：太阳系里点一下地球，右边弹出「国家档案」）。
          行星自己的档案卡以后单独做一套拾取，不走这条国家路径。 */
-      if (globe.solarOn) return;
+      if (globe.solarOn) {
+        /* 行星拾取（星球档案卡），不走国家那条路径 */
+        solarPick(e.clientX, e.clientY);
+        return;
+      }
       var rect = cv.getBoundingClientRect();
       ndc.x = ((e.clientX - rect.left) / rect.width) * 2 - 1;
       ndc.y = -((e.clientY - rect.top) / rect.height) * 2 + 1;
@@ -9691,7 +9786,11 @@ body.quiz-on #labels-canvas{display:none!important}
       sunLabel: null, glow: [],
       root: null, planets: [], sun: null, sunUni: null, moon: null,
       sky: null, skyMat: null, corona: [], speed: 1,
-      camMinBack: CAM_MIN, camMaxBack: CAM_MAX
+      camMinBack: CAM_MIN, camMaxBack: CAM_MAX,
+      /* 星球特写：点某颗行星后相机飞过去并跟随它。
+         { idx, holder, def, radius, ring, k, closing }
+         k 是"轨道视角 → 特写"的混合权重（0~1），closing 时往回走。 */
+      focus: null
     };
     var SOLAR_FAR = 5.35;               // 主视角：轨道外圈留一点边，八大行星全在画面里
     var PLANET_TEX = {};                // 贴图缓存，进过一次就留着
@@ -9706,6 +9805,15 @@ body.quiz-on #labels-canvas{display:none!important}
     var _sunQ1 = new THREE.Quaternion();
     var _sunQ2 = new THREE.Quaternion();
     var _AXZ = new THREE.Vector3(0, 0, 1);
+    var _AXY = new THREE.Vector3(0, 1, 0);
+    /* 星球特写用：轨道视角基准位、特写目标位、混合后的视线点 */
+    var _camBase = new THREE.Vector3();
+    var _lookBase = new THREE.Vector3();
+    var _focusPos = new THREE.Vector3();
+    var _focusAt = new THREE.Vector3();
+    var _fpA = new THREE.Vector3();
+    var _fpB = new THREE.Vector3();
+    var _fpC = new THREE.Vector3();
 
     /* ---------- 贴图：先 OBS，再退回同仓文件 ----------
        两个坑：
@@ -10122,7 +10230,10 @@ body.quiz-on #labels-canvas{display:none!important}
       skyStarMat.uniforms.uFade = { value: 0 };
       /* 天穹的星点几乎不闪（±0.8%）：这是"太空里看星星"的视角，
          没有大气抖动，星点本来就该是钉死的。地球模式下那层才保留呼吸感。 */
-      skyStarMat.uniforms.uTw.value = 0.14;
+      /* 0：太阳系天穹里的星点**完全不闪**（用户："都让它们安静的就好"）。
+         0 是把呼吸幅度系数整体归零，不是把周期拉到很长 —— 后者在某些帧率下
+         仍会有极慢的亮度漂移，肉眼盯久了还是能看出在"呼吸"。 */
+      skyStarMat.uniforms.uTw.value = 0;
       var pts = new THREE.Points(geo, skyStarMat);
       pts.renderOrder = -6;
       g.add(pts);
@@ -10409,7 +10520,7 @@ body.quiz-on #labels-canvas{display:none!important}
         }
 
         solar.planets.push({
-          def: d, holder: holder, mesh: mesh, axis: axis, line: line,
+          def: d, holder: holder, mesh: mesh, axis: axis, line: line, label: lab,
           theta: i * 2.399, spin: 0
         });
       });
@@ -10425,6 +10536,65 @@ body.quiz-on #labels-canvas{display:none!important}
       solar.moon = { pivot: moonPivot, mesh: moonMesh, a: 0 };
       var earthHolder = solar.planets[2].holder;
       earthHolder.add(moonPivot);
+    }
+
+    /* ---------- 星球特写：相机去哪、看哪 ----------
+       返回混合权重 0~1（0 = 纯轨道视角，1 = 纯特写）。相机的位置/视线由
+       调用方（solarTick）拿 _focusPos/_focusAt 与轨道基准做 lerp。
+
+       几个刻意的取值：
+       · 距离按行星半径反算，让球在画面里占约 42% 高（fov 42°、tan(21°)=0.384）。
+         土星乘 1.85 —— 环的外径到 2.35r，不后退就只能看见一个芯。
+       · 机位在"向阳侧 + 侧向 + 上抬"的合成方向上：向阳侧保证看到被照亮的
+         半球（纯侧向会是半明半暗，纯背光是一颗黑球），侧向和上抬负责立体感。
+       · 最后把相机半径夹到 0.78 以内不进去：水星、金星离太阳太近，按几何
+         算出的机位会掉进太阳辉光 sprite（半径 0.6）里面，整屏泛白 ——
+         用户上次刚说过"太阳和透明的一样"，这里不能再踩。 */
+    function planetFocusTick(dtSec) {
+      var s = solar, f = s.focus;
+      if (!f) return 0;
+      f.k += (f.closing ? -dtSec / 1.05 : dtSec / 1.15);
+      f.k = Math.max(0, Math.min(1, f.k));
+      if (f.closing && f.k <= 0.0001) { s.focus = null; return 0; }
+
+      f.holder.getWorldPosition(_fpA);
+      var dist = f.radius / (0.3839 * 0.42);
+      if (f.ring) dist *= 1.85;
+
+      _fpB.copy(_fpA).negate().normalize();            // 行星 → 太阳
+      _fpC.crossVectors(_fpB, _AXY);
+      if (_fpC.lengthSq() < 1e-6) _fpC.set(1, 0, 0); else _fpC.normalize();
+
+      _focusPos.copy(_fpA)
+        .addScaledVector(_fpB, dist * 0.62)
+        .addScaledVector(_fpC, dist * 0.62)
+        .addScaledVector(_AXY, dist * 0.26);
+      /* 用户横向拖拽 = 绕这颗行星转一圈（见 pointermove 里的 yaw）。
+         先绕行星的 Y 轴转偏移向量，再做半径钳制 —— 旋转不改变离行星的距离，
+         所以钳制放最后仍然有效。 */
+      /* 绕行的角度夹在 ±54° 以内：再转下去相机就绕到行星背后，看到的是
+         纯粹夜面（一颗灰球），而且太阳会晃进画面正中抢镜。给的是"绕着看
+         这个半球"的自由，不是"绕到背面"。 */
+      f.yaw = Math.max(-0.95, Math.min(0.95, f.yaw || 0));
+      if (f.yaw) {
+        _fpB.copy(_focusPos).sub(_fpA).applyAxisAngle(_AXY, f.yaw);
+        _focusPos.copy(_fpA).add(_fpB);
+      }
+      if (_focusPos.length() < 0.78) _focusPos.setLength(0.78);
+      _focusAt.copy(_fpA);
+
+      var kk = f.k * f.k * (3 - 2 * f.k);
+      /* 行星名标签（sprite，固定世界尺寸）在特写里会被推到画面顶部、飘在
+         球外面。跟着 k 一起淡掉；退出时 k 归 0，透明度自己回到基准值，
+         不需要额外的收尾。基准值只在第一帧记一次（地球那个的透明度是
+         solarTick 每帧按转场进度写的，不能每帧重新取样）。 */
+      for (var li = 0; li < s.planets.length; li++) {
+        var lb = s.planets[li].label;
+        if (!lb || !lb.material) continue;
+        if (lb.userData.baseOp === undefined) lb.userData.baseOp = 1;
+        lb.material.opacity = lb.userData.baseOp * (1 - kk);
+      }
+      return kk;
     }
 
     /* ---------- 每帧 ---------- */
@@ -10467,7 +10637,9 @@ body.quiz-on #labels-canvas{display:none!important}
       var earthP = solar.planets[2];
       var thE;
       if (s.t >= 1 && earthP) {
-        earthP.theta += (Math.PI * 2) / (ORBIT_BASE * earthP.def.period) * dtSec * s.speed;
+        /* 地球特写时同样压慢公转（同上） */
+        var eSpd = (s.focus && !s.focus.closing && s.focus.def === earthP.def) ? 0.08 : 1;
+        earthP.theta += (Math.PI * 2) / (ORBIT_BASE * earthP.def.period) * dtSec * s.speed * eSpd;
         thE = earthP.theta;
       } else {
         thE = s.thetaFrom + s.thetaDelta * thP;
@@ -10489,7 +10661,10 @@ body.quiz-on #labels-canvas{display:none!important}
          像素，照搬那速度就完全看不出它在动。
          转的是 spin（球体的父组），不是 sphere —— 经纬反算、uSunDir 换算
          都指着 spin 那一层的坐标系，动 sphere 会把它们弄歪。 */
-      if (s.t > 0.002) {
+      /* 受"自转"按钮管：主模式里昼夜分界一开就得停转，太阳系里同理 ——
+         按钮灭着球却在转的话，就成了用户说的"两个按钮同时亮"的反向版本
+         （看着是灭的，实际在转）。 */
+      if (s.t > 0.002 && globe.spinWanted !== false) {
         var dSpin = (Math.PI * 2 / 26) * dtSec;
         spin.rotation.y += dSpin;
         s.azAuto += dSpin;   // 自转量单独记账，别让它进相机方位（见 azDelta）
@@ -10552,7 +10727,11 @@ body.quiz-on #labels-canvas{display:none!important}
             return;
           }
           var w = (Math.PI * 2) / (ORBIT_BASE * p.def.period);
-          p.theta += w * dtSec * s.speed;
+          /* 正在特写的那颗把公转压到 8%：相机跟着它走，按原速（水星 26.5 秒
+             一圈）整块背景每帧都在甩，看久了晕。压慢而不是完全停 —— 停住
+             会让人以为是静态贴图，也看不出"它确实在公转"。 */
+          var fSpd = (s.focus && !s.focus.closing && s.focus.def === p.def) ? 0.08 : 1;
+          p.theta += w * dtSec * s.speed * fSpd;
           p.holder.position.set(Math.cos(p.theta) * p.def.a, 0, Math.sin(p.theta) * p.def.a);
           /* 自转周期也按真实值，但两头夹一下：水星 58 天、金星 243 天照搬会看不出在转；
              木星 0.41 天照搬会糊成频闪。夹到 3.5~45 秒，方向保留（金星、天王星倒转）。 */
@@ -10627,7 +10806,9 @@ body.quiz-on #labels-canvas{display:none!important}
          而不是"从地球上退出去"。 */
       var az = e * (azDelta - 0.26);
       var el = Math.max(-1.15, Math.min(1.15, e * (elDelta + 0.42)));
-      camera.position.set(
+      /* 先算"轨道视角"的基准位置与视线点，不直接写 camera —— 星球特写要拿它
+         当混合基准（特写权重 k 从 0 涨到 1，相机从基准位飞到行星旁边）。 */
+      _camBase.set(
         R * Math.cos(el) * Math.sin(az),
         R * Math.sin(el),
         R * Math.cos(el) * Math.cos(az)
@@ -10637,7 +10818,27 @@ body.quiz-on #labels-canvas{display:none!important}
          地球斜着从旁边飘出去。系数 0.85 留一点余量，避免末段视线抖。 */
       var aimK = Math.max(0, 1 - e);
       aimK = aimK * aimK * 0.85;
-      camera.lookAt(ex * aimK, 0, ez * aimK);
+      _lookBase.set(ex * aimK, 0, ez * aimK);
+
+      /* ---------- 星球特写 ----------
+         点中某颗行星后，相机从轨道视角飞到它旁边并一直跟着它走。
+         混合而不是"直接切过去"：k 用 smoothstep，进出都是 1.1 秒的缓动，
+         中途反向（看 A 又点 B）也是从当前 k 接着走，不会闪回轨道视角。
+
+         飞行路径上额外拱起一段高度：轨道视角在半径 5.35 的外圈，目标行星
+         可能在太阳正对面，直线插值会从太阳里穿过去（整屏白闪一下）。
+         拱高按两点距离的 30% 算，k=1 时正好归零。 */
+      if (s.focus) {
+        var fk = planetFocusTick(dtSec);
+        if (fk > 0.0005) {
+          var arcH = _camBase.distanceTo(_focusPos) * 0.30;
+          _camBase.lerp(_focusPos, fk);
+          _camBase.y += Math.sin(Math.PI * fk) * arcH;
+          _lookBase.lerp(_focusAt, fk);
+        }
+      }
+      camera.position.copy(_camBase);
+      camera.lookAt(_lookBase);
       /* ---------- 地球的昼夜分界 ----------
          八颗行星里只有地球是自写 shader，明暗不走场景灯光，而是靠
          uTermOn/uSunDir 切日夜贴图。uTermOn 平时是"昼夜分界"按钮管的，
@@ -10783,6 +10984,9 @@ body.quiz-on #labels-canvas{display:none!important}
           /* 分界线是按"此刻的太阳位置"算的，按钮既然被我们留成开着的，
              每分钟对时的那条定时器也得一并接上。 */
           if (keepTerm && globe.startSunTimer) globe.startSunTimer();
+          /* 昼夜还开着 ⇒ 地球仍然不转（autoSpin 的条件），自转按钮必须灭，
+             否则又是一亮一实。 */
+          if (keepTerm && globe.setSpinWanted) globe.setSpinWanted(false);
         }
         s.termK = globe.term && globe.term.on ? 1 : 0;
         s.termOff = false;
@@ -10797,9 +11001,328 @@ body.quiz-on #labels-canvas{display:none!important}
       }
     }
 
+    /* ================= 星球档案卡 =================
+       太阳系里点某颗行星：相机飞过去、跟住它，右侧滑出档案卡。
+       独立面板 #pcard（不复用国家档案的 #detail —— 那边是按国家数据定制的
+       结构，硬塞只会互相打架）。
+
+       数据按 SOLAR_DEF 的顺序排（0 水星 … 7 海王星）。数值取 NASA 行星概览的
+       量级，教学够用；会变的数（卫星数量）写成下界，避免过两年变错的数字。
+       照片是 NASA 图库的公有领域影像（images-api.nasa.gov），缩到 960px 宽、
+       webp，loading="lazy" 按需加载。 */
+    var SOLAR_INFO = [
+      {
+        name: '水星', en: 'Mercury',
+        lead: '离太阳最近、也是八大行星里最小的一颗。几乎没有大气，白天 427℃、夜里 -173℃，' +
+              '昼夜温差近 600℃。表面布满环形山，长得像月球。',
+        stats: [
+          ['赤道直径', '4,879', 'km'],
+          ['距太阳', '0.39', 'AU'],
+          ['公转周期', '88', '天'],
+          ['自转周期', '58.6', '天'],
+          ['表面温度', '-173 ~ 427', '℃'],
+          ['卫星', '0', '颗']
+        ],
+        photos: [
+          { file: 'assets/nasa/mercury-2.webp', cap: '水星全球影像 · MESSENGER 探测器拼接（NASA / JHUAPL）' },
+        ],
+        tips: [
+          '一年只有 88 天，但一个白天要过 176 天 —— 它转得太慢，太阳在天空里几乎不动。',
+          '"水星"是中国人按五行起的名字，它上面一滴水也没有。',
+          '2011 年 MESSENGER 成为第一颗绕它飞行的探测器，2015 年燃料耗尽撞上去。'
+        ]
+      },
+      {
+        name: '金星', en: 'Venus',
+        lead: '大小和地球最接近，却被 90 倍地球大气压、460℃ 的浓硫酸云包着 —— 它是太阳系' +
+              '最热的行星，比离太阳更近的水星还热。',
+        stats: [
+          ['赤道直径', '12,104', 'km'],
+          ['距太阳', '0.72', 'AU'],
+          ['公转周期', '224.7', '天'],
+          ['自转周期', '243', '天（逆向）'],
+          ['表面温度', '约 464', '℃'],
+          ['卫星', '0', '颗']
+        ],
+        photos: [
+          { file: 'assets/nasa/venus-1.webp', cap: '金星全球雷达影像 · 麦哲伦号，颜色按地形起伏着色（NASA / JPL）' },
+          { file: 'assets/nasa/venus-2.webp', cap: '金星北半球 · 麦哲伦号雷达影像（NASA / JPL）' },
+        ],
+        tips: [
+          '自转方向和其他行星相反，而且"一天比一年长"：自转 243 天 > 公转 225 天。',
+          '温室效应失控的典型样本：如果地球大气全换成 CO₂，大概就是这个下场。',
+          '中国古代把它叫"启明"（清晨）和"长庚"（黄昏），是天上最亮的行星。'
+        ]
+      },
+      {
+        name: '地球', en: 'Earth',
+        lead: '目前已知唯一有液态水海洋、板块运动和生命的行星。23.4° 的自转轴倾角带来四季，' +
+              '一颗异常大的卫星稳定着它的自转轴。',
+        stats: [
+          ['赤道直径', '12,742', 'km'],
+          ['距太阳', '1', 'AU（1.496 亿 km）'],
+          ['公转周期', '365.26', '天'],
+          ['自转周期', '23 时 56', '分'],
+          ['表面温度', '-89 ~ 57', '℃'],
+          ['卫星', '1', '颗（月球）']
+        ],
+        photos: [
+          { file: 'assets/nasa/earth-x1.webp', cap: '蓝色弹珠 · 2014 年 3 月，东半球（NASA / NOAA）' },
+          { file: 'assets/nasa/earth-x2.webp', cap: '黑色弹珠 · 2012 年夜间灯光（NASA / NOAA）' },
+        ],
+        tips: [
+          '它其实是个扁球：赤道半径比极半径长 21 km。',
+          '大气 78% 是氮、21% 是氧；氧气是蓝细菌光合作用攒了二十多亿年的结果。',
+          '转速正在变慢：潮汐摩擦让一天每世纪长约 1.7 毫秒。'
+        ]
+      },
+      {
+        name: '火星', en: 'Mars',
+        lead: '一颗被氧化铁染红的沙漠行星。有太阳系最高的火山（奥林帕斯山，21.9 km）和' +
+              '最长的峡谷（水手谷，4000 km）。',
+        stats: [
+          ['赤道直径', '6,779', 'km'],
+          ['距太阳', '1.52', 'AU'],
+          ['公转周期', '687', '天'],
+          ['自转周期', '24 时 37', '分'],
+          ['表面温度', '-143 ~ 35', '℃'],
+          ['卫星', '2', '颗']
+        ],
+        photos: [
+          { file: 'assets/nasa/mars-x1.webp', cap: '哈勃望远镜拍到的火星全球（NASA / ESA / STScI）' },
+          { file: 'assets/nasa/mars-x2.webp', cap: '古谢夫陨石坑 · 勇气号着陆区的轨道影像（NASA / JPL / MSSS）' },
+        ],
+        tips: [
+          '两极是水冰和干冰，地下有大量水冰，但液态水在表面无法稳定存在。',
+          '一天 24 小时 37 分，跟地球几乎一样 —— 火星车的作息表就是照这个排的。',
+          '有太阳系最大的沙尘暴，一次能盖住整颗星球、持续几个月。'
+        ]
+      },
+      {
+        name: '木星', en: 'Jupiter',
+        lead: '质量是其余七颗行星加起来的两倍多。没有固体表面，只有越往内越稠的氢。' +
+              '大红斑是一个比地球还大的风暴，至少已经刮了 190 年。',
+        stats: [
+          ['赤道直径', '139,820', 'km'],
+          ['距太阳', '5.20', 'AU'],
+          ['公转周期', '11.86', '年'],
+          ['自转周期', '9 时 56', '分'],
+          ['云顶温度', '约 -145', '℃'],
+          ['卫星', '95', '颗以上']
+        ],
+        photos: [
+          { file: 'assets/nasa/jupiter-1.webp', cap: '大红斑 · Juno 号 2018 年拍摄（NASA / JPL-Caltech / SwRI / MSSS）' },
+          { file: 'assets/nasa/jupiter-3.webp', cap: '大红斑特写，能看到云带的湍流层次（NASA / JPL-Caltech）' },
+          { file: 'assets/nasa/jupiter-2.webp', cap: '大红斑的近红外影像，亮斑是高空云顶（NASA / JPL / STScI）' },
+        ],
+        tips: [
+          '自转最快：不到 10 小时一圈，快到把自己甩成了明显的扁球。',
+          '木卫二（Europa）的冰壳下可能有液态海洋，是找地外生命的热门目标。',
+          '它像一台吸尘器，替内太阳系挡下了大量彗星和小行星。'
+        ]
+      },
+      {
+        name: '土星', en: 'Saturn',
+        lead: '密度比水还低 —— 真有那么大的水池，它能浮起来。环主要由水冰碎块组成，' +
+              '宽度约 28 万 km，厚度却只有十几米。',
+        stats: [
+          ['赤道直径', '116,460', 'km'],
+          ['距太阳', '9.58', 'AU'],
+          ['公转周期', '29.46', '年'],
+          ['自转周期', '10 时 42', '分'],
+          ['云顶温度', '约 -178', '℃'],
+          ['卫星', '270', '颗以上']
+        ],
+        photos: [
+          { file: 'assets/nasa/saturn-1.webp', cap: '卡西尼号拍摄的土星与主环（NASA / JPL-Caltech / SSI）' },
+          { file: 'assets/nasa/saturn-2.webp', cap: '离开土卫四时的环面侧视（NASA / JPL-Caltech / SSI）' },
+        ],
+        tips: [
+          '环的宽厚比像一张纸：宽度是厚度的两万多倍。',
+          '土卫六（Titan）有厚大气和液态甲烷湖泊，是唯一有"地面液体"的卫星。',
+          '土卫二（Enceladus）南极喷出的水汽羽流里检出过有机分子。'
+        ]
+      },
+      {
+        name: '天王星', en: 'Uranus',
+        lead: '躺着自转的行星：自转轴倾斜 98°，几乎是横躺着绕太阳滚。大气里的甲烷吸收红光，' +
+              '所以呈青蓝色。',
+        stats: [
+          ['赤道直径', '50,724', 'km'],
+          ['距太阳', '19.2', 'AU'],
+          ['公转周期', '84', '年'],
+          ['自转周期', '17 时 14', '分（逆向）'],
+          ['云顶温度', '约 -224', '℃'],
+          ['卫星', '28', '颗']
+        ],
+        photos: [
+          { file: 'assets/nasa/uranus-1.webp', cap: '旅行者 2 号 1986 年 1 月掠过时拍摄（NASA / JPL）' },
+        ],
+        tips: [
+          '1781 年赫歇尔用望远镜发现，是第一颗被望远镜发现的行星。',
+          '因为躺着转，两极各有 42 年的极昼和 42 年的极夜。',
+          '至今只有旅行者 2 号在 1986 年掠过它一次，之后再没去过。'
+        ]
+      },
+      {
+        name: '海王星', en: 'Neptune',
+        lead: '离太阳最远，也是唯一"先算出来、后看到"的行星 —— 天文学家从天王星轨道的偏差' +
+              '推算出它该在哪。风速可超过 2,000 km/h，是太阳系最猛的风。',
+        stats: [
+          ['赤道直径', '49,244', 'km'],
+          ['距太阳', '30.1', 'AU'],
+          ['公转周期', '164.8', '年'],
+          ['自转周期', '16 时 6', '分'],
+          ['云顶温度', '约 -214', '℃'],
+          ['卫星', '16', '颗']
+        ],
+        photos: [
+          { file: 'assets/nasa/neptune-1.webp', cap: '旅行者 2 号 1989 年 8 月拍摄（NASA / JPL）' },
+          { file: 'assets/nasa/neptune-2.webp', cap: '云带的伪色处理，突出高层甲烷云（NASA / JPL）' },
+        ],
+        tips: [
+          '1846 年按勒维耶的计算被找到，位置误差不到 1°。',
+          '1846 年发现，直到 2011 年才第一次绕回发现时的位置 —— 一圈 165 年。',
+          '海卫一（Triton）逆行公转，很可能是被俘获的柯伊伯带天体，表面有氮气冰火山。'
+        ]
+      }
+    ];
+
+    var pcard = document.getElementById('pcard');
+    var pTitle = document.getElementById('p-title');
+    var pEn = document.getElementById('p-en');
+    var pBody = document.getElementById('p-body');
+    var pCloseBtn = document.getElementById('p-close');
+
+    function renderPlanetCard(info) {
+      var h = '<p class="pk-lead">' + info.lead + '</p>';
+      h += '<div class="pk-h">关键数据</div><div class="pk-grid">';
+      info.stats.forEach(function (r) {
+        h += '<div class="pk-cell"><div class="pk-k">' + r[0] + '</div>' +
+             '<div class="pk-v">' + r[1] + (r[2] ? '<small>' + r[2] + '</small>' : '') +
+             '</div></div>';
+      });
+      h += '</div>';
+      if (info.photos && info.photos.length) {
+        h += '<div class="pk-h">NASA 影像</div><div class="pk-shots">';
+        info.photos.forEach(function (ph) {
+          h += '<div class="pk-shot"><img src="' + ph.file + '" alt="' + info.name +
+               '" loading="lazy" decoding="async">' +
+               (ph.cap ? '<div class="pk-cap">' + ph.cap + '</div>' : '') + '</div>';
+        });
+        h += '</div>';
+      }
+      if (info.tips && info.tips.length) {
+        h += '<div class="pk-h">看点</div><ul class="pk-tips">';
+        info.tips.forEach(function (t) { h += '<li>' + t + '</li>'; });
+        h += '</ul>';
+      }
+      h += '<p class="pk-hint">相机已经跟住这颗行星（公转降到 8%，方便看清）。' +
+           '点空白、再点一次它、或按右上角 × 都能退出特写。<br>' +
+           '影像均为 NASA 公有领域素材（图库 images-api.nasa.gov），仅作教学示意。</p>';
+      pBody.innerHTML = h;
+      var sc = pBody.parentNode;
+      if (sc && sc.scrollTo) sc.scrollTo(0, 0); else if (sc) sc.scrollTop = 0;
+    }
+
+    function openPlanet(idx) {
+      var p = solar.planets[idx], info = SOLAR_INFO[idx];
+      if (!p || !info) return;
+      /* 再点同一颗 = 收起（和"点空白收起"同一个手感） */
+      if (solar.focus && solar.focus.idx === idx && !solar.focus.closing) {
+        closePlanet();
+        return;
+      }
+      var prevK = solar.focus ? solar.focus.k : 0;
+      solar.focus = {
+        idx: idx, holder: p.holder, def: p.def,
+        radius: p.def.r, ring: !!p.def.ring,
+        k: prevK, closing: false,
+        yaw: (solar.focus && solar.focus.yaw) || 0   // 换行星时保留用户转到的方位
+      };
+      pTitle.textContent = info.name;
+      pEn.textContent = info.en;
+      renderPlanetCard(info);
+      pcard.classList.add('open');
+      pcard.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('pcard-open');
+    }
+
+    function closePlanet() {
+      if (!solar.focus || solar.focus.closing) return;
+      solar.focus.closing = true;
+      pcard.classList.remove('open');
+      pcard.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('pcard-open');
+    }
+
+    if (pCloseBtn) {
+      pCloseBtn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        closePlanet();
+      });
+    }
+
+    /* 拾取：两套命中。
+       ① 射线精确命中 —— 大行星、特写时够用；
+       ② 屏幕空间最近的一颗（30px 容差）—— 水星在总览视角只有十一二个像素，
+          纯射线根本点不中（用户的原话："水星那么快，用户点都点不到"）。
+       都没命中 → 正在特写就收起（点空白退出）。
+       必须等转场基本走完（t>0.98）才认，否则 t=0.5 时 tilt 那颗地球还在
+       主视角尺度上，射线一打一个准，会误判。 */
+    var _pickRay = new THREE.Raycaster();
+    var _pickNdc = new THREE.Vector2();
+    var _pickV = new THREE.Vector3();
+
+    function solarPick(cx, cy) {
+      if (!solar.on || solar.t < 0.98 || !solar.planets.length) return;
+      var rect = cv.getBoundingClientRect();
+      _pickNdc.x = ((cx - rect.left) / rect.width) * 2 - 1;
+      _pickNdc.y = -((cy - rect.top) / rect.height) * 2 + 1;
+      _pickRay.setFromCamera(_pickNdc, camera);
+
+      var list = [];
+      solar.planets.forEach(function (p) {
+        if (p.def.earth) { if (typeof sphere !== 'undefined' && sphere) list.push(sphere); }
+        else if (p.mesh) list.push(p.mesh);
+      });
+      var hits = _pickRay.intersectObjects(list, false);
+      if (hits.length) {
+        var obj = hits[0].object, hitIdx = -1;
+        for (var i = 0; i < solar.planets.length; i++) {
+          var pp = solar.planets[i];
+          if ((pp.def.earth && obj === sphere) || (!pp.def.earth && obj === pp.mesh)) {
+            hitIdx = i; break;
+          }
+        }
+        if (hitIdx >= 0) { openPlanet(hitIdx); return; }
+      }
+
+      var best = -1, bestD = 30;
+      for (var j = 0; j < solar.planets.length; j++) {
+        solar.planets[j].holder.getWorldPosition(_pickV);
+        _pickV.project(camera);
+        if (_pickV.z > 1) continue;
+        var sx = rect.left + (_pickV.x * 0.5 + 0.5) * rect.width;
+        var sy = rect.top + (-_pickV.y * 0.5 + 0.5) * rect.height;
+        var dd = Math.sqrt((sx - cx) * (sx - cx) + (sy - cy) * (sy - cy));
+        if (dd < bestD) { bestD = dd; best = j; }
+      }
+      if (best >= 0) openPlanet(best);
+      else if (solar.focus) closePlanet();
+    }
+
     function solarToggle() {
       solarBuild();
       var s = solar;
+      /* 进出太阳系都要先退出行星特写：留在 focus 里的话，退出转场时相机
+         还被它拉着 —— 人已经在往地球飞，镜头却还盯着木星。 */
+      if (s.focus) s.focus = null;
+      if (pcard) {
+        pcard.classList.remove('open');
+        pcard.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('pcard-open');
+      }
       /* 判据用 target（"想去哪儿"），不用 on（"是不是还在动"）。
          退出动画要跑 2.4 秒，这期间 on 仍是 true；按 on 判的话，再点一下会
          落进 else 分支、把 target 又设成 0（等于什么都没发生），按钮就"死了"。
@@ -10826,14 +11349,10 @@ body.quiz-on #labels-canvas{display:none!important}
           /* 起点就是"进场前按钮的状态"：本来就开着的话，uTermOn 首帧必须是 1，
              否则球一放大、分界线先消失再淡回来，等于闪一下。 */
           s.termK = s.termBack ? 1 : 0;
-          if (globe.term) {
-            globe.term.on = true;
-            var _bt = document.getElementById('btn-term');
-            if (_bt) {
-              _bt.classList.add('on');
-              if (window.__setTip) window.__setTip(_bt, '关闭昼夜分界');
-            }
-          }
+          /* 走统一入口：setTermOn 会一并把"自转"按钮灭掉（太阳系里这颗地球
+             的自转由 solarTick 管，按钮语义仍是主模式那套"自转/停转"） */
+          if (globe.setTermOn) globe.setTermOn(true);
+          else if (globe.term) globe.term.on = true;
           s.camMinBack = CAM_MIN;
           s.camMaxBack = CAM_MAX;
           CAM_MIN = 0.42;
@@ -10896,6 +11415,9 @@ body.quiz-on #labels-canvas{display:none!important}
     globe.solarTick = solarTick;
     window.__solarToggle = solarToggle;
     window.__solarDbg = solar;          // 调试/验收用：控制台可改 solar.speed、solar.sky.visible
+    window.__openPlanet = openPlanet;   // 验收用：直接开某颗行星的档案卡
+    window.__closePlanet = closePlanet;
+    window.__solarPick = solarPick;
     window.__baseStars = BASE_STARS;    // 同上：验收"退出太阳系后星场有没有回来"
 
     /* 右上角的 × ：太阳系模式里工具栏整体隐藏，这就是除了 Esc 之外的出口 */
@@ -11312,6 +11834,7 @@ body.quiz-on #labels-canvas{display:none!important}
           /* 太阳系里惯性也作用在相机方位上（和 pointermove 里一样是减号，
              见那里的注释：az0 在 azDelta 的负号里面） */
           solar.az0 -= globe.vel.x * dtms;
+          if (solar.focus) solar.focus.yaw -= globe.vel.x * dtms * 3.75;
         } else {
           spin.rotation.y += globe.vel.x * dtms;
         }
@@ -13774,17 +14297,35 @@ body.quiz-on #labels-canvas{display:none!important}
     })();
 
     /* 自转：用户意愿单独存一个 spinWanted。autoSpin 会被飞行、拖动、钉中国
-       这些逻辑临时改，用它当开关会被"飞过去再也没转回来"。 */
+       这些逻辑临时改，用它当开关会被"飞过去再也没转回来"。
+
+       **与"昼夜分界"互斥（build DZ）**：那个按钮一开地球就得停转，不然
+       分界线会跟着大陆一起转，"此刻的昼夜"根本定不住。既然实际不转，
+       自转按钮就不能还亮着 —— 用户的原话是"不能说两个按钮同时亮"。
+       所以两个按钮的 UI 状态一律只走 setSpinWanted / setTermOn，
+       任何地方都不许再各自 classList.toggle。 */
     var bsp = document.getElementById('btn-spin');
-    if (bsp) {
-      bsp.classList.toggle('on', globe.spinWanted !== false);
-      bsp.addEventListener('click', function () {
-        globe.spinWanted = !(globe.spinWanted !== false);
+
+    globe.setSpinWanted = function (v) {
+      globe.spinWanted = !!v;
+      if (bsp) {
         bsp.classList.toggle('on', globe.spinWanted);
         bsp.setAttribute('aria-pressed', globe.spinWanted ? 'true' : 'false');
         var stx = bsp.querySelector('.tl');
         if (stx) stx.textContent = globe.spinWanted ? '暂停自转' : '开启自转';
-        if (globe.spinWanted) globe.idleUntil = performance.now() + 250;
+      }
+      if (globe.spinWanted) {
+        globe.idleUntil = performance.now() + 250;
+        /* 开自转 ⇒ 关昼夜。递减方向不会回调回来（setTermOn(false) 里只在
+           T.on 为真时才调 setSpinWanted），不会打转。 */
+        if (globe.term && globe.term.on && globe.setTermOn) globe.setTermOn(false);
+      }
+    };
+
+    if (bsp) {
+      globe.setSpinWanted(globe.spinWanted !== false);
+      bsp.addEventListener('click', function () {
+        globe.setSpinWanted(!(globe.spinWanted !== false));
         if (window.__tipHide) window.__tipHide();
       });
     }
@@ -13843,10 +14384,11 @@ body.quiz-on #labels-canvas{display:none!important}
     var btm = document.getElementById('btn-term');
     var sunTimer = 0;
     if (btm) {
-      btm.addEventListener('click', function () {
+      /* 唯一的开关入口（按钮点击、太阳系进场代管、退出收尾都走这里） */
+      globe.setTermOn = function (on) {
         var T = globe.term;
         if (!T || !globe.earthMat) return;
-        T.on = !T.on;
+        T.on = !!on;
         /* 太阳系里这个按钮是**被代管**的（进去时自动点亮，见 solarToggle）。
            用户在这里关掉，得让 solarTick 别再强行打开，否则按下去没反应。
            而且这时**不能直接写 uniform** —— 太阳系里的 uTermOn 由 solarTick
@@ -13864,8 +14406,17 @@ body.quiz-on #labels-canvas{display:none!important}
           clearInterval(sunTimer);
         }
         btm.classList.toggle('on', T.on);
+        btm.setAttribute('aria-pressed', T.on ? 'true' : 'false');
         __setTip(btm, T.on
           ? '关闭昼夜分界' : '按此刻的太阳位置分出昼夜两半');
+        /* 开昼夜 ⇒ 地球停转（autoSpin 的条件里就有 !term.on），那自转按钮
+           必须跟着灭，否则"两个按钮同时亮"而球一动不动。 */
+        if (T.on && globe.setSpinWanted) globe.setSpinWanted(false);
+      };
+      btm.addEventListener('click', function () {
+        var T = globe.term;
+        if (!T || !globe.earthMat) return;
+        globe.setTermOn(!T.on);
         if (window.__tipHide) window.__tipHide();
       });
       /* 太阳系退出后这个按钮可能被"代管"成开着的（见 solarTick 的收尾），

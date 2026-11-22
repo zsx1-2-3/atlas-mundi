@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-22-EA">
+<meta name="build" content="2026-11-22-EB">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -8591,6 +8591,12 @@ body.quiz-on #labels-canvas{display:none!important}
 
       sphere.material = earthMaterial(dayTex, nightTex);
       globe.earthMat = sphere.material;
+      /* 贴图没到之前 globe.earthMat 是空的，那时点"昼夜分界"按钮只能改状态、
+         写不了 uniform（见 setTermOn）。材质一建好就把这个积压的意愿补上，
+         否则要等用户再点两次才生效。线上首屏实测有 5~6 秒是这段空窗。 */
+      if (globe.term && globe.term.on) {
+        globe.earthMat.uniforms.uTermOn.value = 1;
+      }
       /* 法线贴图可能比材质先到（它更快），也可能后到（回调里自己挂） */
       if (globe.normalTex) {
         globe.earthMat.uniforms.uNormalMap.value = globe.normalTex;
@@ -14387,8 +14393,17 @@ body.quiz-on #labels-canvas{display:none!important}
       /* 唯一的开关入口（按钮点击、太阳系进场代管、退出收尾都走这里） */
       globe.setTermOn = function (on) {
         var T = globe.term;
-        if (!T || !globe.earthMat) return;
+        if (!T) return;
         T.on = !!on;
+        /* 按钮状态先落地。地球材质要等贴图就绪才创建，这之前 globe.earthMat
+           是空的 —— 老代码在这里 `return`，用户点了按钮**毫无反应**（线上
+           首屏实测有 5~6 秒的空窗）。uniform 那步放在后面按需跳过即可。 */
+        btm.classList.toggle('on', T.on);
+        btm.setAttribute('aria-pressed', T.on ? 'true' : 'false');
+        __setTip(btm, T.on
+          ? '关闭昼夜分界' : '按此刻的太阳位置分出昼夜两半');
+        if (T.on && globe.setSpinWanted) globe.setSpinWanted(false);
+        if (!globe.earthMat) return;
         /* 太阳系里这个按钮是**被代管**的（进去时自动点亮，见 solarToggle）。
            用户在这里关掉，得让 solarTick 别再强行打开，否则按下去没反应。
            而且这时**不能直接写 uniform** —— 太阳系里的 uTermOn 由 solarTick
@@ -14405,17 +14420,12 @@ body.quiz-on #labels-canvas{display:none!important}
         } else {
           clearInterval(sunTimer);
         }
-        btm.classList.toggle('on', T.on);
-        btm.setAttribute('aria-pressed', T.on ? 'true' : 'false');
-        __setTip(btm, T.on
-          ? '关闭昼夜分界' : '按此刻的太阳位置分出昼夜两半');
-        /* 开昼夜 ⇒ 地球停转（autoSpin 的条件里就有 !term.on），那自转按钮
-           必须跟着灭，否则"两个按钮同时亮"而球一动不动。 */
-        if (T.on && globe.setSpinWanted) globe.setSpinWanted(false);
       };
       btm.addEventListener('click', function () {
         var T = globe.term;
-        if (!T || !globe.earthMat) return;
+        /* 这里**不能**再拦 !globe.earthMat：材质没就绪时按钮也得有反应，
+           否则首屏几秒内点了像卡死（setTermOn 自己会跳过 uniform 那一步）。 */
+        if (!T) return;
         globe.setTermOn(!T.on);
         if (window.__tipHide) window.__tipHide();
       });

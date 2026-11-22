@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-22-DW">
+<meta name="build" content="2026-11-22-DX">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -8329,17 +8329,24 @@ body.quiz-on #labels-canvas{display:none!important}
        这里给的是球体局部坐标，shader 里也改用局部法线比 ——
        分界线于是钉在地表上，转球或自转都不会把它带跑。 */
     var _sunTmp = new THREE.Vector3();
-    function updateSunTerm() {
-      var m = globe.earthMat;
-      if (!m || !m.uniforms.uSunDir || !sphere) return;
+    /* 直射点方向单独成一个函数：太阳系转场退出的末段要把 uSunDir 从
+       "太阳系里那套几何方向"平滑地插回这里算出的真实方向，只写进 uniform
+       的话就没法在中途取值了。返回的是球体**局部**坐标的单位向量。 */
+    function sunTermDir(out) {
       var now = new Date();
       var utcH = now.getUTCHours() + now.getUTCMinutes() / 60 + now.getUTCSeconds() / 3600;
       var lon = -(utcH - 12) * 15;
       var doy = Math.floor((now - Date.UTC(now.getUTCFullYear(), 0, 0)) / 86400000);
       var decl = 23.44 * Math.sin(2 * Math.PI * (284 + doy) / 365);
-      llToVec3(lon, decl, 1, _sunTmp);
-      m.uniforms.uSunDir.value.copy(_sunTmp);
+      llToVec3(lon, decl, 1, out);
+      return out;
     }
+    function updateSunTerm() {
+      var m = globe.earthMat;
+      if (!m || !m.uniforms.uSunDir || !sphere) return;
+      m.uniforms.uSunDir.value.copy(sunTermDir(_sunTmp));
+    }
+    globe.sunTermDir = sunTermDir;
     globe.updateSunTerm = updateSunTerm;
 
     /* 大气：两层菲涅尔壳。
@@ -9109,7 +9116,15 @@ body.quiz-on #labels-canvas{display:none!important}
       globe.last.y = e.clientY;
       globe.moved += Math.abs(dx) + Math.abs(dy);
       // 0.0016 弧度/像素：拖满 1200px 约转 110°，手一抖不会转到背面
-      globe.spin.rotation.y += dx * 0.0016;
+      if (globe.solarOn) {
+        /* 太阳系里左右拖拽转的是**相机方位**，不是球本身：
+           azDelta 是由 az0 反推出来的（见 solarTick），所以把拖拽量记在 az0 上。
+           球自己的自转仍由 solarTick 负责，两者互不干扰 —— 否则球面纹理和
+           镜头同时动，同样的手速看起来会快一倍。 */
+        solar.az0 += dx * 0.0016;
+      } else {
+        globe.spin.rotation.y += dx * 0.0016;
+      }
       globe.tilt.rotation.x += dy * 0.0016;
 
       /* 松手后那一段惯性，速度必须是「弧度/毫秒」，不能是「弧度/事件」。
@@ -9652,11 +9667,17 @@ body.quiz-on #labels-canvas{display:none!important}
       rA: 3.02, rB: 3.02,
       lblShow: true,                   // 国名层当前是不是露着的（跟 body.solar-nolabel 同步）
       az0: 0, el0: 0,
-      /* 方位基准的**冻结值**：太阳系里地球自己在自转（spin.rotation.y 每帧涨），
-         相机方位不能每帧跟着读实时值，否则镜头会绕着地球转圈。 */
-      azSpin: 0,
-      /* 进来之前"昼夜分界"按钮是开是关。太阳系里强制打开，退出要还回去。 */
+      /* 太阳系里地球自转累积的角度。相机方位 = -(spin.rotation.y - az0 - azAuto)，
+         扣掉自转、只留用户拖拽 —— 不扣的话镜头会跟着自转绕圈；整个冻结掉
+         的话左右拖拽就彻底失效（用户实测：太阳系里只能缩放和上下拖）。 */
+      azAuto: 0,
+      /* 进来之前"昼夜分界"按钮是开是关。只影响进场那一段：
+         本来就开着的话，进场首帧就不能把分界线关掉（否则球一放大就闪一下）。
+         退出时按用户要求**保持打开**，不再还原。 */
       termBack: false,
+      /* 昼夜分界的当前混合量（0 全关、1 全开）。指数趋近的目标值见 solarTick：
+         太阳系里恒为 1，退出也保持 1（用户要求"退出别关掉"）。 */
+      termK: 0,
       /* 地球是转场的**锚点**：它一直存在，只是从"主视角那颗球"缩到轨道上的
          那颗小地球。earthTheta 是转场中地球在轨道上的方位（挑在相机视线的
          垂线上，这样它是从画面侧面进出，不会从太阳背后穿过去）。 */
@@ -9673,6 +9694,13 @@ body.quiz-on #labels-canvas{display:none!important}
        提到外面声明，转场里每帧都要用，不能在里面 new。 */
     var _sunGeo = new THREE.Vector3();
     var _sunM3 = new THREE.Matrix3();
+    /* 退出末段要把"太阳系的几何光照方向"插回"真实直射点"：两个方向都可能是
+       任意朝向（甚至接近相反），直接 lerp 会在中途穿过零点、normailze 发飘。
+       用四元数 slerp 走大圆弧，方向转得再大也是匀速的。 */
+    var _sunReal = new THREE.Vector3();
+    var _sunQ1 = new THREE.Quaternion();
+    var _sunQ2 = new THREE.Quaternion();
+    var _AXZ = new THREE.Vector3(0, 0, 1);
 
     /* ---------- 贴图：先 OBS，再退回同仓文件 ----------
        两个坑：
@@ -10456,7 +10484,11 @@ body.quiz-on #labels-canvas{display:none!important}
          像素，照搬那速度就完全看不出它在动。
          转的是 spin（球体的父组），不是 sphere —— 经纬反算、uSunDir 换算
          都指着 spin 那一层的坐标系，动 sphere 会把它们弄歪。 */
-      if (s.t > 0.002) spin.rotation.y += (Math.PI * 2 / 26) * dtSec;
+      if (s.t > 0.002) {
+        var dSpin = (Math.PI * 2 / 26) * dtSec;
+        spin.rotation.y += dSpin;
+        s.azAuto += dSpin;   // 自转量单独记账，别让它进相机方位（见 azDelta）
+      }
 
       /* ---------- 太阳：只在 e>0.35 之后才存在 ----------
          前面算过，e<0.4 时地球还包着太阳，此时太阳若可见就是"从地球里穿出来"。
@@ -10566,10 +10598,11 @@ body.quiz-on #labels-canvas{display:none!important}
         if (STAR_MAT && s.t > 0) STAR_MAT.uniforms.uFade.value = kBase;
       }
 
-      /* 方位基准用**冻结值** azSpin，不用实时的 spin.rotation.y：
-         太阳系里地球是在自转的（见下面的 spin 累加），实时读数会让
-         相机每帧跟着转 —— 画面就成了地球钉死、整个太阳系在绕。 */
-      var azDelta = -(s.azSpin - s.az0);
+      /* 相机方位 = 用户拖拽量 = spin.rotation.y - 进场基准 - 自转累积。
+         只扣自转、留下拖拽：这样左右拖拽照旧能绕着太阳系转，而自转不会把
+         镜头带着绕圈（第一版直接读 spin.rotation.y，镜头每帧跟着地球转；
+         第二版把它整个冻成 azSpin，左右拖拽就彻底没反应了）。 */
+      var azDelta = -((spin.rotation.y - s.az0) - s.azAuto);
       var elDelta = (tilt.rotation.x - s.el0);
       /* 过渡里的拖拽量必须跟着 e 一起归零，否则退出瞬间相机会从
          斜视角"啪"地跳回正视角（t 归零但 azDelta 还在）。 */
@@ -10608,10 +10641,11 @@ body.quiz-on #labels-canvas{display:none!important}
 
          · 方向不用 updateSunTerm 的真实太阳直射点（那是地表某个经纬度，
            跟太阳系里太阳的方位毫无关系），改用几何：太阳在原点，
-           从地球指向原点就是亮面朝向。
+           从地球指向原点就是亮面朝向；退出末段再 slerp 插回真实直射点。
          · uSunDir 是球体**局部**坐标，乘 matrixWorld 的逆转回去；每帧算
            一次正好抵消自转，暗面锁在背光一侧，不会跟着球一起转跑。
-         · 两个窗口淡入淡出：进入 e 0.34~0.60、退出 0.10~0.36。
+         · uTermOn 指数趋近 1：转场里慢慢"抽"出来，中途反向也不跳；
+           退出**不关**（用户要求），只有用户在里面手动点掉才回 0。
 
          还有一件绕不开的观感问题：这个视角在轨道外侧，地球转到远侧时
          可见半球整个是白天，转到近侧时整个是夜里（补光后是一颗暗蓝球）——
@@ -10623,8 +10657,10 @@ body.quiz-on #labels-canvas{display:none!important}
          没人分得出；反过来"整颗球均匀发亮"是一眼就假的。 */
       var gUe = globe.earthMat && globe.earthMat.uniforms;
       if (gUe && gUe.uSunDir && gUe.uTermOn) {
+        var geoOk = false;
         _sunGeo.set(-ex, 0, -ez);
         if (_sunGeo.lengthSq() > 1e-10) {
+          geoOk = true;
           _sunGeo.normalize();
           /* 可见性钳制：d = dot(亮面朝向, 地球→相机)。
              d=+1 可见半球全白天、d=-1 全黑夜、d=0 晨昏线正好穿过球心。
@@ -10651,18 +10687,48 @@ body.quiz-on #labels-canvas{display:none!important}
           }
           _sunM3.setFromMatrix4(sphere.matrixWorld).invert();
           _sunGeo.applyMatrix3(_sunM3).normalize();
-          gUe.uSunDir.value.copy(_sunGeo);
         }
-        var termK = (s.target === 1)
-          ? Math.min(1, Math.max(0, (e - 0.34) / 0.26))
-          : Math.min(1, Math.max(0, (e - 0.10) / 0.26));
-        /* 用户在太阳系里把按钮关掉就真的关掉（termOff 由按钮那边置位） */
-        if (s.termOff) termK = 0;
-        gUe.uTermOn.value = Math.max((globe.term && globe.term.on) ? 1 : 0, termK);
-        /* 夜面补光：跟着 termK 一起淡入，退出时回到 0（主模式不能有）。
-           0.28 是"能看出大陆轮廓、又明显比白天暗一档"的量：
-           0.42 试过，夜面太亮，整颗球看着还是均匀的。 */
-        if (gUe.uAmbK) gUe.uAmbK.value = 0.28 * termK;
+        /* 方向必须在两套坐标系之间连续：
+           e≈1 用上面这套"几何 + 钳制"（太阳系里唯一说得通的），
+           e≈0 用真实太阳直射点（主模式下分界线得落在真实经纬度上）。
+           中间用四元数 slerp 走大圆弧 —— 两个方向可能接近相反，直接 lerp
+           会在中点穿过零向量、normalize 后方向乱翻。
+           geoK 按 e/0.30 过渡：地球缩到七成大小之前就切完，那时球面上
+           根本看不出十几度的角度差。 */
+        var geoK = Math.min(1, Math.max(0, e / 0.30));
+        geoK = geoK * geoK * (3 - 2 * geoK);
+        if (geoK < 0.999) {
+          sunTermDir(_sunReal);
+          if (!geoOk || geoK < 0.001) {
+            _sunGeo.copy(_sunReal);
+          } else {
+            _sunQ1.setFromUnitVectors(_AXZ, _sunReal);
+            _sunQ2.setFromUnitVectors(_AXZ, _sunGeo);
+            _sunQ1.slerp(_sunQ2, geoK);
+            _sunGeo.copy(_AXZ).applyQuaternion(_sunQ1).normalize();
+          }
+        }
+        gUe.uSunDir.value.copy(_sunGeo);
+
+        /* uTermOn 走**指数趋近**，不按 e 划窗口：
+           划窗口的话，进到一半又点退出（target 翻转）时会从另一套公式里
+           取到差很多的值，画面就是一次明暗突跳。
+           目标值恒为 1 —— 用户要求"退出太阳系也别关掉"，只有他在太阳系里
+           手动点掉（termOff）才归 0。
+           0.978/帧：60fps 下约 1.7 秒走到 90% —— 刻意比 2.4 秒的转场略快一点
+           但同一量级，肉眼看是晨昏线在飞行途中慢慢"抽"出来，不是一刀切成
+           一半黑（0.96 那一版 0.6 秒就到位了，太快，用户会觉得是"啪"了一下）。 */
+        var termGoal = s.termOff ? 0 : 1;
+        s.termK += (termGoal - s.termK) * (1 - Math.pow(0.978, dtf));
+        if (Math.abs(termGoal - s.termK) < 0.003) s.termK = termGoal;
+        gUe.uTermOn.value = s.termK;
+        /* 夜面补光只负责"球小到看不清"的那段：e>0.25 之后才给，地球回到
+           主尺寸时必定是 0（主模式的夜面是城市灯光，整体抬亮就假了）。 */
+        if (gUe.uAmbK) {
+          var ambK = Math.min(1, Math.max(0, (e - 0.05) / 0.20));
+          ambK = ambK * ambK * (3 - 2 * ambK);
+          gUe.uAmbK.value = 0.28 * s.termK * ambK;
+        }
       }
       /* 国名/地形名是 DOM 层，投影点跟着 tilt 的缩放走：地球缩到轨道尺度时
          几十个标签会全挤到那个小球上，糊成一团字。门限卡在 0.992
@@ -10689,21 +10755,31 @@ body.quiz-on #labels-canvas{display:none!important}
         if (s.skyStarMat) s.skyStarMat.uniforms.uFade.value = 0;
         if (BASE_STARS) BASE_STARS.visible = true;
         if (STAR_MAT) STAR_MAT.uniforms.uFade.value = 1;
-        /* 昼夜按钮还原成进来之前的状态（太阳系里是被代管、强制打开的） */
+        /* 昼夜分界**保持打开**（用户要求"退出也别关掉，不然太突兀"）：
+           转场最后 30% 已经把 uSunDir 从太阳系那套几何方向 slerp 回真实
+           直射点，这里只是把状态钉住，不再动画面。
+           唯一例外是用户在太阳系里手动把它点掉了（termOff）—— 那就尊重他。 */
         if (globe.term) {
-          globe.term.on = !!s.termBack;
-          if (globe.earthMat) globe.earthMat.uniforms.uTermOn.value = s.termBack ? 1 : 0;
+          var keepTerm = !s.termOff;
+          globe.term.on = keepTerm;
+          if (globe.earthMat) {
+            globe.earthMat.uniforms.uTermOn.value = keepTerm ? 1 : 0;
+            /* 夜面补光是给"缩到四十像素的小球"用的，主模式必须是 0 */
+            var _gu = globe.earthMat.uniforms;
+            if (_gu.uAmbK) _gu.uAmbK.value = 0;
+          }
           var _bt2 = document.getElementById('btn-term');
           if (_bt2) {
-            _bt2.classList.toggle('on', !!s.termBack);
-            if (window.__setTip) window.__setTip(_bt2, s.termBack
+            _bt2.classList.toggle('on', keepTerm);
+            if (window.__setTip) window.__setTip(_bt2, keepTerm
               ? '关闭昼夜分界' : '按此刻的太阳位置分出昼夜两半');
           }
-          /* 昼夜方向交还给"真实太阳直射点"：太阳系里那份是几何算的，
-             地球回到原点后它就没意义了（用户开着昼夜分界时，否则分界线
-             会停在一个错的经度上，直到下一次 60 秒的定时更新）。 */
-          if (s.termBack && globe.updateSunTerm) globe.updateSunTerm();
+          if (keepTerm && globe.updateSunTerm) globe.updateSunTerm();
+          /* 分界线是按"此刻的太阳位置"算的，按钮既然被我们留成开着的，
+             每分钟对时的那条定时器也得一并接上。 */
+          if (keepTerm && globe.startSunTimer) globe.startSunTimer();
         }
+        s.termK = globe.term && globe.term.on ? 1 : 0;
         s.termOff = false;
         camera.position.set(0, 0, globe.camTarget);
         camera.lookAt(0, 0, 0);
@@ -10731,18 +10807,22 @@ body.quiz-on #labels-canvas{display:none!important}
           /* 第一次进（或已完全退出后再进）：记下"从哪儿来的"，退出要回到这里 */
           s.r0 = camera.position.length() || globe.camTarget;
           s.az0 = spin.rotation.y;
-          s.azSpin = spin.rotation.y;
+          s.azAuto = 0;
           s.el0 = tilt.rotation.x;
           s.on = true;
           globe.solarOn = true;
           /* 太阳系里"昼夜分界"是必须开着的（不然地球就是一颗均匀发亮的
-             蓝球）。用户自己提的办法是"转场的时候把按钮打开" —— 就按这个做：
-             进来自动点亮，按钮状态跟画面一致；退出还原成进来之前的开关。 */
+             蓝球）。按用户的要求：点进来的那一刻按钮就跟画面同步点亮。
+             注意这里**只点按钮、不写 uniform** —— uTermOn 交给 solarTick 按
+             转场进度淡入；进场就把它写成 1 的话，地球会在第一帧"啪"地一半
+             变黑，用户的原话是"太突兀不丝滑"。 */
           s.termBack = !!(globe.term && globe.term.on);
           s.termOff = false;
-          if (globe.term && globe.earthMat) {
+          /* 起点就是"进场前按钮的状态"：本来就开着的话，uTermOn 首帧必须是 1，
+             否则球一放大、分界线先消失再淡回来，等于闪一下。 */
+          s.termK = s.termBack ? 1 : 0;
+          if (globe.term) {
             globe.term.on = true;
-            globe.earthMat.uniforms.uTermOn.value = 1;
             var _bt = document.getElementById('btn-term');
             if (_bt) {
               _bt.classList.add('on');
@@ -10759,7 +10839,7 @@ body.quiz-on #labels-canvas{display:none!important}
            地球在 θ 处的位置方向是 (cos θ, 0, sin θ)，点积 = sin(θ+az)，
            所以 θ = -az 时正好正交 —— 地球从画面侧面飞出去，不会从太阳背后穿。
            进场时 azDelta 刚被 az0 归零，所以这里的 -az = +0.26。 */
-        var azE = -(s.azSpin - s.az0) - 0.26;
+        var azE = -((spin.rotation.y - s.az0) - s.azAuto) - 0.26;
         s.thetaFrom = -azE;
         s.thetaDelta = 0;
         /* 半径的两个端点是"曲线在 e=0 / e=1 处的值"，跟目标方向绑死：
@@ -10788,7 +10868,7 @@ body.quiz-on #labels-canvas{display:none!important}
            再往里收 —— 否则它可能正好在太阳背后，整段退场都被太阳挡着。
            摆方位放在行程前 45%（见 solarTick 的 thP），那时地球还很小，
            看起来就是"它在地球轨道上滑了一段"，不是瞬移。 */
-        var azB = -(s.azSpin - s.az0) - 0.26;
+        var azB = -((spin.rotation.y - s.az0) - s.azAuto) - 0.26;
         var thTo = -azB;
         var dth = thTo - (s.earthTheta || 0);
         while (dth > Math.PI) dth -= Math.PI * 2;
@@ -11065,8 +11145,10 @@ body.quiz-on #labels-canvas{display:none!important}
     /* 双击复位到主视角：和地球那边"双击回全球视角"是同一个手势 */
     cv.addEventListener('dblclick', function () {
       if (!solar.on) return;
-      solar.az0 = spin.rotation.y;      // 把当前拖拽量当成新的基准 → 方位角归零
-      solar.azSpin = spin.rotation.y;
+      /* 归零的是"拖拽量"：azDelta = -((spin.y - az0) - azAuto)，要让它是 0，
+         az0 必须解成 spin.y - azAuto，不能直接抄 spin.y（抄了会多减一份自转，
+         镜头会瞬间跳到 -azAuto 那个方位上）。 */
+      solar.az0 = spin.rotation.y - solar.azAuto;
       solar.el0 = tilt.rotation.x;
       globe.camTarget = SOLAR_FAR;
     });
@@ -11221,7 +11303,12 @@ body.quiz-on #labels-canvas{display:none!important}
            （帧率一低，原来那种写法会"滑很久"）。 */
         var dtms = Math.min(64, dtf * 16.667);
         var decay = Math.exp(-0.0062 * dtms);
-        spin.rotation.y += globe.vel.x * dtms;
+        if (globe.solarOn) {
+          /* 太阳系里惯性也作用在相机方位上（和 pointermove 里的做法一致） */
+          solar.az0 += globe.vel.x * dtms;
+        } else {
+          spin.rotation.y += globe.vel.x * dtms;
+        }
         tilt.rotation.x += globe.vel.y * dtms;
         globe.vel.x *= decay;
         globe.vel.y *= decay;
@@ -13754,10 +13841,15 @@ body.quiz-on #labels-canvas{display:none!important}
         var T = globe.term;
         if (!T || !globe.earthMat) return;
         T.on = !T.on;
-        globe.earthMat.uniforms.uTermOn.value = T.on ? 1 : 0;
         /* 太阳系里这个按钮是**被代管**的（进去时自动点亮，见 solarToggle）。
-           用户在这里关掉，得让 solarTick 别再每帧强行打开，否则按下去没反应。 */
-        if (globe.solarOn && window.__solarDbg) window.__solarDbg.termOff = !T.on;
+           用户在这里关掉，得让 solarTick 别再强行打开，否则按下去没反应。
+           而且这时**不能直接写 uniform** —— 太阳系里的 uTermOn 由 solarTick
+           指数趋近驱动，直接写就是一刀切，跟转场节奏脱节。 */
+        if (globe.solarOn && window.__solarDbg) {
+          window.__solarDbg.termOff = !T.on;
+        } else {
+          globe.earthMat.uniforms.uTermOn.value = T.on ? 1 : 0;
+        }
         if (T.on) {
           globe.updateSunTerm();
           clearInterval(sunTimer);
@@ -13770,6 +13862,13 @@ body.quiz-on #labels-canvas{display:none!important}
           ? '关闭昼夜分界' : '按此刻的太阳位置分出昼夜两半');
         if (window.__tipHide) window.__tipHide();
       });
+      /* 太阳系退出后这个按钮可能被"代管"成开着的（见 solarTick 的收尾），
+         那边需要把"每分钟对一次太阳位置"的定时器重启 —— 否则分界线会停在
+         退出那一刻的经度上，挂久了越偏越多。 */
+      globe.startSunTimer = function () {
+        clearInterval(sunTimer);
+        sunTimer = setInterval(globe.updateSunTerm, 60000);
+      };
     }
 
     /* 时间指示的按钮已经和另外两个定位一起绑到 setPick 了，

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="build" content="2026-11-22-EC">
+<meta name="build" content="2026-11-22-ED">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <!-- OBS 是图片/音频/贴图的唯一源站。提早点亮 DNS 和 TLS：
@@ -785,6 +785,17 @@
   body.class-mode .kexit-btn{font-size:14px;padding:8px 15px}
   body.class-mode .kpath{display:none}
   body.class-mode .tch-lv{margin:0 0 16px}
+  /* 投影模式下主图被"压扁"的根因：面板拉到 1180 宽，而 .dimg-wrap 的高度
+     还是桌面那套 clamp(230px,34vh,372px) —— 实测拿到的是 1108×275，一个
+     4:1 的横窗，再 object-fit:cover 裁一张 16:10 的图，就只剩中间一条山脊，
+     看起来就是"图片被压扁了"。投影时高度交给宽高比，图就整张装进去。 */
+  body.class-mode #detail .dimg-wrap{
+    height:auto;aspect-ratio:16/9;max-height:none;
+  }
+  body.class-mode #detail .dimg-wrap.fit{aspect-ratio:4/5;max-height:58vh}
+  /* 缩略图条和元信息跟着放大：64×46 / 11.5px 在教室后排等于没有 */
+  body.class-mode .ts-item{width:96px;height:69px}
+  body.class-mode #detail .meta{font-size:15px;line-height:1.9}
 
   /* ---- 搜索面板顶部：今天一条 / 可以这样问 / 最近看过 ----
      参考 Google 搜索页的"温润"质感：大圆角、无硬边框、底色是很淡的一层
@@ -1596,15 +1607,17 @@ body.solar-on #globe-stage{transform:none !important;transition:none !important}
   opacity:0;transition:opacity .42s ease;
 }
 #pcard .pk-shot.loaded img{opacity:1}
+#pcard .pk-shot.loaded{cursor:zoom-in}
 #pcard .pk-cap{
   position:absolute;left:0;right:0;bottom:0;padding:18px 12px 8px;
   font-size:11px;line-height:1.45;color:rgba(255,255,255,.9);
   background:linear-gradient(to top,rgba(5,8,14,.9) 0%,rgba(5,8,14,.55) 55%,rgba(5,8,14,0) 100%);
 }
 /* 重点词标注：直接复用国家档案卡那套 .kw（概念，青色下划线）/ .kn（数字，
-   暖色下划线）class，不另起一套颜色 —— 两处档案卡一左一右，风格要一致。
-   em 默认斜体，中文斜体压在深色面板上很难看，必须掰正。 */
-#pcard .kw,#pcard .kn{font-style:normal}
+   暖色下划线）class，不另起一套颜色和字重 —— 两处档案卡一左一右，必须一模一样。
+   注意**不要**在这里写 font-style:normal：国家档案卡的 .kw 是 <em>，吃的是
+   默认斜体，之前在这里掰正过，结果星球卡是正的、国家卡是斜的，用户一眼看出
+   "样式不一样"。要改就两边一起改，别单边改。 */
 #pcard .pk-tips{margin:0;padding:0;list-style:none}
 #pcard .pk-tips li{
   position:relative;padding-left:17px;margin:0 0 9px;
@@ -1660,16 +1673,21 @@ body.solar-on #globe-stage{transform:none !important;transition:none !important}
 /* 关闭按钮：原来 42px 的圈压在 26px 的标题旁边，比标题还抢眼。
    收到 34px、图标 16px —— 还是一颗好点的按钮（手机上也够 34px 的触控），
    但不再是"面板里最大的东西"。国家档案卡和星球档案卡共用这个类。 */
+/* 关闭按钮：默认**只画一个 ×，不画圆圈**（用户："不要一直显示圆圈了，
+   改成鼠标悬停的时候才显示圆圈"）。圆圈是 hover 态，鼠标一进来才浮现。
+   位置右移 2px 补偿隐藏的描边，视觉中心保持不变。 */
 .dclose{
   position:absolute;top:12px;right:12px;
   width:34px;height:34px;border-radius:50%;
   display:flex;align-items:center;justify-content:center;
   cursor:pointer;
-  color:rgba(238,244,254,.9);background:rgba(255,255,255,.07);
-  border:1px solid var(--line);font-family:inherit;
+  color:rgba(226,236,250,.62);
+  background:transparent;border:1px solid transparent;
+  font-family:inherit;
   transition:color .2s ease,border-color .2s ease,background .2s ease,transform .16s ease;
 }
-.dclose:hover{color:#fff;border-color:rgba(148,182,224,.6);background:rgba(148,182,224,.16);transform:scale(1.05)}
+.dclose:hover,.dclose:focus-visible{color:#fff;border-color:rgba(148,182,224,.6);
+  background:rgba(148,182,224,.16);transform:scale(1.05)}
 .dclose:active{transform:scale(.96)}
   .dclose svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.1;stroke-linecap:round}
   #d-sub:empty{display:none}
@@ -9863,6 +9881,7 @@ body.quiz-on #labels-canvas{display:none!important}
     var _fpA = new THREE.Vector3();
     var _fpB = new THREE.Vector3();
     var _fpC = new THREE.Vector3();
+    var _fpD = new THREE.Vector3();
 
     /* ---------- 贴图：先 OBS，再退回同仓文件 ----------
        两个坑：
@@ -10613,6 +10632,10 @@ body.quiz-on #labels-canvas{display:none!important}
          贴着边缘取景会把日冕挤出画面，只剩一个橙色圆盘 —— 那还不如不特写。
          退到这距离，球面约占画面三成半高，四周还能留出日冕。 */
       if (f.sun) dist *= 1.15;
+      /* 月球半径只有 0.024，按 42% 画幅反算出来的机位离它只有 0.15 ——
+         而地球半径 0.088、月地距离 0.155，这个机位有一半概率直接掉进地球里
+         （画面一片深蓝）。所以先退到 2 倍，收尾再兜一层"离地心至少 0.125"。 */
+      if (f.moon) dist *= 2.0;
 
       /* 机位方向 = "从行星指向太阳"的反向（站在向阳侧）。
          太阳是个例外：它就在原点，"行星→太阳"退化成一个零向量，
@@ -10645,6 +10668,17 @@ body.quiz-on #labels-canvas{display:none!important}
         _focusPos.copy(_fpA).add(_fpB);
       }
       if (_focusPos.length() < 0.78) _focusPos.setLength(0.78);
+      if (f.moon) {
+        var ep = solar.planets[2] && solar.planets[2].holder;
+        if (ep) {
+          ep.getWorldPosition(_fpD);
+          _fpB.copy(_focusPos).sub(_fpD);
+          if (_fpB.lengthSq() < 1e-8) _fpB.set(0, 0, 1);
+          if (_fpB.length() < 0.125) {
+            _focusPos.copy(_fpD).addScaledVector(_fpB.normalize(), 0.125);
+          }
+        }
+      }
       _focusAt.copy(_fpA);
 
       var kk = f.k * f.k * (3 - 2 * f.k);
@@ -10727,10 +10761,14 @@ body.quiz-on #labels-canvas{display:none!important}
          像素，照搬那速度就完全看不出它在动。
          转的是 spin（球体的父组），不是 sphere —— 经纬反算、uSunDir 换算
          都指着 spin 那一层的坐标系，动 sphere 会把它们弄歪。 */
-      /* 受"自转"按钮管：主模式里昼夜分界一开就得停转，太阳系里同理 ——
-         按钮灭着球却在转的话，就成了用户说的"两个按钮同时亮"的反向版本
-         （看着是灭的，实际在转）。 */
-      if (s.t > 0.002 && globe.spinWanted !== false) {
+      /* 太阳系里地球**永远自转**，不再看"自转"按钮。
+         之前是跟着 globe.spinWanted 走的：进太阳系会顺手点亮昼夜分界，
+         而昼夜分界和自转是互斥的，于是这颗地球在太阳系里是死的。
+         用户的原话："太阳系的时候地球肯定要自转才可以的呀，不然都不符合
+         物理现象了（在太阳系里演示的时候不用考虑和现实的昼夜分界线一样）"。
+         所以这里和按钮彻底脱钩 —— 主模式那套互斥语义不变，太阳系里由这段
+         自己记账（azAuto 只扣自转量，相机方位不受影响，见 azDelta）。 */
+      if (s.t > 0.002) {
         var dSpin = (Math.PI * 2 / 26) * dtSec;
         spin.rotation.y += dSpin;
         s.azAuto += dSpin;   // 自转量单独记账，别让它进相机方位（见 azDelta）
@@ -10810,7 +10848,10 @@ body.quiz-on #labels-canvas{display:none!important}
           p.mesh.rotation.y = p.spin;
         });
         if (solar.moon) {
-          solar.moon.a += (Math.PI * 2 / 34) * dtSec * s.speed;   // 月球 27.3 天，夹到 34 秒
+          /* 正在特写月球时同样压到 8%：镜头跟着它绕地球转，按原速 34 秒一圈，
+             整块背景（地球、太阳）每帧都在甩。 */
+          var mSpd = (s.focus && !s.focus.closing && s.focus.moon) ? 0.08 : 1;
+          solar.moon.a += (Math.PI * 2 / 34) * dtSec * s.speed * mSpd;   // 月球 27.3 天，夹到 34 秒
           solar.moon.pivot.rotation.y = solar.moon.a;
           solar.moon.mesh.rotation.y = -solar.moon.a;             // 潮汐锁定
         }
@@ -10841,7 +10882,12 @@ body.quiz-on #labels-canvas{display:none!important}
             ch.material.opacity = ch.userData.wantOpacity * kSky;
           }
         });
-        if (s.sky.visible) s.sky.rotation.y += 0.004 * dtSec;
+        /* 天穹**不许转**。原来是 0.004 rad/s（0.23°/s），听起来很慢，但换算到
+           屏幕上就是每秒 7~8 个像素 —— 星点本身只有 1~2px，整体平移等于让每一颗
+           星每帧都落在亚像素的新位置上，光栅化之后忽明忽暗，看起来就是"满天皇
+           星在疯狂闪"。用户为这件事说过两次（"让它们安静的就好"），
+           这次直接钉死：静态的星空才是对的（真实太空里也不会有大气抖动）。 */
+        /* if (s.sky.visible) s.sky.rotation.y += 0.004 * dtSec; */
       }
       /* 地球星场：太阳系里是"沉下去"的（跟着 kBase），回到地球模式要回到 1。
          首屏的淡入量由渲染循环写（跟球体同一个 fadeVal），这里只管转场。 */
@@ -11094,6 +11140,7 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '0', '颗']
         ],
         photos: [
+          { file: 'assets/nasa/mercury-a.webp', ar: 1, cap: '水星全球影像 · MESSENGER 拼接，中心 0°N / 180°E（NASA / JHUAPL / CIW）' },
           { file: 'assets/nasa/mercury-2.webp', ar: 1.3151, cap: '水星全球影像 · MESSENGER 探测器拼接（NASA / JHUAPL）' },
         ],
         tips: [
@@ -11116,8 +11163,8 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '0', '颗']
         ],
         photos: [
-          { file: 'assets/nasa/venus-1.webp', ar: 1.5, cap: '金星全球雷达影像 · 麦哲伦号，颜色按地形起伏着色（NASA / JPL）' },
-          { file: 'assets/nasa/venus-2.webp', ar: 1.5, cap: '金星北半球 · 麦哲伦号雷达影像（NASA / JPL）' },
+          { file: 'assets/nasa/venus-a.webp', ar: 1, cap: '金星全球视图 · 麦哲伦号雷达数据，颜色按地形起伏着色（NASA / JPL）' },
+          { file: 'assets/nasa/venus-b.webp', ar: 1, cap: '金星北半球 · 同一批雷达数据的另一面（NASA / JPL）' },
         ],
         tips: [
           '自转方向和其他行星相反，而且"一天比一年长"：自转 243 天 > 公转 225 天。',
@@ -11139,7 +11186,7 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '1', '颗（月球）']
         ],
         photos: [
-          { file: 'assets/nasa/earth-x1.webp', ar: 1.7778, cap: '蓝色弹珠 · 2014 年 3 月，东半球（NASA / NOAA）' },
+          { file: 'assets/nasa/earth-a.webp', ar: 1, cap: '蓝色弹珠 · 全盘地球，非洲与欧洲正对镜头（NASA / NOAA）' },
           { file: 'assets/nasa/earth-x2.webp', ar: 1.7778, cap: '黑色弹珠 · 2012 年夜间灯光（NASA / NOAA）' },
         ],
         tips: [
@@ -11162,7 +11209,7 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '2', '颗']
         ],
         photos: [
-          { file: 'assets/nasa/mars-x1.webp', ar: 2.0, cap: '哈勃望远镜拍到的火星全球（NASA / ESA / STScI）' },
+          { file: 'assets/nasa/mars-a.webp', ar: 1, cap: '火星全球视图 · 海盗号拼接，横贯赤道的水手谷清晰可见（NASA / JPL / USGS）' },
           { file: 'assets/nasa/mars-x2.webp', ar: 1.1047, cap: '古谢夫陨石坑 · 勇气号着陆区的轨道影像（NASA / JPL / MSSS）' },
         ],
         tips: [
@@ -11185,9 +11232,8 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '95', '颗以上']
         ],
         photos: [
+          { file: 'assets/nasa/jupiter-a.webp', ar: 1, cap: '木星全盘 · 朱诺号数据拼出的"木星大理石"，大红斑在右侧（NASA / JPL-Caltech / SwRI / MSSS）' },
           { file: 'assets/nasa/jupiter-1.webp', ar: 1.5311, cap: '大红斑 · Juno 号 2018 年拍摄（NASA / JPL-Caltech / SwRI / MSSS）' },
-          { file: 'assets/nasa/jupiter-3.webp', ar: 2.167, cap: '大红斑特写，能看到云带的湍流层次（NASA / JPL-Caltech）' },
-          { file: 'assets/nasa/jupiter-2.webp', ar: 1.337, cap: '大红斑的近红外影像，亮斑是高空云顶（NASA / JPL / STScI）' },
         ],
         tips: [
           '自转最快：不到 10 小时一圈，快到把自己甩成了明显的扁球。',
@@ -11209,8 +11255,8 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '270', '颗以上']
         ],
         photos: [
-          { file: 'assets/nasa/saturn-1.webp', ar: 1.9592, cap: '卡西尼号拍摄的土星与主环（NASA / JPL-Caltech / SSI）' },
-          { file: 'assets/nasa/saturn-2.webp', ar: 1.7112, cap: '离开土卫四时的环面侧视（NASA / JPL-Caltech / SSI）' },
+          { file: 'assets/nasa/saturn-a.webp', ar: 1.3417, cap: '土星与主环 · 卡西尼号逆光拍摄，环的层次全在阴影里（NASA / JPL-Caltech / SSI）' },
+          { file: 'assets/nasa/saturn-b.webp', ar: 2.0672, cap: '土星全盘 · 卡西尼号任务四年后的影像（NASA / JPL-Caltech / SSI）' },
         ],
         tips: [
           '环的宽厚比像一张纸：宽度是厚度的两万多倍。',
@@ -11232,7 +11278,7 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '28', '颗']
         ],
         photos: [
-          { file: 'assets/nasa/uranus-1.webp', ar: 1.3313, cap: '旅行者 2 号 1986 年 1 月掠过时拍摄（NASA / JPL）' },
+          { file: 'assets/nasa/uranus-a.webp', ar: 1, cap: '天王星 · 旅行者 2 号 1986 年 1 月掠过时拍摄（NASA / JPL）' },
         ],
         tips: [
           '1781 年赫歇尔用望远镜发现，是第一颗被望远镜发现的行星。',
@@ -11254,7 +11300,7 @@ body.quiz-on #labels-canvas{display:none!important}
           ['卫星', '16', '颗']
         ],
         photos: [
-          { file: 'assets/nasa/neptune-1.webp', ar: 1.35, cap: '旅行者 2 号 1989 年 8 月拍摄（NASA / JPL）' },
+          { file: 'assets/nasa/neptune-a.webp', ar: 1.0013, cap: '海王星全盘 · 旅行者 2 号 1989 年 8 月拍摄（NASA / JPL）' },
           { file: 'assets/nasa/neptune-2.webp', ar: 1.3313, cap: '云带的伪色处理，突出高层甲烷云（NASA / JPL）' },
         ],
         tips: [
@@ -11290,6 +11336,33 @@ body.quiz-on #labels-canvas{display:none!important}
         '光从核心跑到表面要几万年，从表面到地球只要 8 分 20 秒。',
         '日冕比下面的光球层热几百倍（上百万度），"日冕加热问题"到现在还没有定论。',
         '太阳活动大约 11 年一个周期，黑子多的年份极光也更容易看到。'
+      ]
+    };
+
+    /* 月球：太阳系里它挂在"地球 holder"下面（见 solarBuild 末尾），
+       既不在 solar.planets 里、也不是恒星，所以和太阳一样单开一张卡。 */
+    var MOON_INFO = {
+      name: '月球', en: 'Moon',
+      kw: ['潮汐锁定', '月海', '月壤', '阿波罗 11 号'],
+      lead: '地球唯一的天然卫星，直径约是地球的四分之一。它被地球潮汐锁定，' +
+            '自转一圈和绕地球一圈都是 27.3 天 —— 所以站在地面上永远只能看到同一面。',
+      stats: [
+        ['赤道直径', '3,475', 'km'],
+        ['距地球', '384,400', 'km'],
+        ['公转周期', '27.3', '天'],
+        ['自转周期', '27.3', '天（同步）'],
+        ['表面温度', '-173 ~ 127', '℃'],
+        ['重力', '约 1/6', '地球']
+      ],
+      photos: [
+        { file: 'assets/nasa/moon-a.webp', ar: 1, cap: '月球正面 · 完整月盘拼接，深色的斑块是月海（NASA / GSFC / ASU）' },
+        { file: 'assets/nasa/moon-b.webp', ar: 1, cap: '月球背面 · 几乎全是环形山，1959 年才第一次被拍到（NASA / GSFC / ASU）' },
+        { file: 'assets/nasa/moon-c.webp', ar: 1, cap: '阿波罗 11 号 · 登月舱"鹰"与奥尔德林，1969 年 7 月（NASA）' }
+      ],
+      tips: [
+        '1969 年 7 月 20 日，阿波罗 11 号的阿姆斯特朗成为第一个踩上月面的人。',
+        '月海不是海，是三十多亿年前玄武岩熔岩灌满巨大撞击盆地后凝成的平原。',
+        '月球正以每年约 3.8 cm 的速度远离地球，地球上的一天也在跟着变长。'
       ]
     };
 
@@ -11369,7 +11442,7 @@ body.quiz-on #labels-canvas{display:none!important}
         h += '</div>';
       }
       if (info.tips && info.tips.length) {
-        h += '<div class="pk-h">看点</div><ul class="pk-tips">';
+        h += '<div class="pk-h">细节</div><ul class="pk-tips">';
         info.tips.forEach(function (t) { h += '<li>' + markCard(t, kws) + '</li>'; });
         h += '</ul>';
       }
@@ -11394,6 +11467,21 @@ body.quiz-on #labels-canvas{display:none!important}
           box.classList.remove('loading');
           box.classList.add('blank');
         }
+        /* 点开看大图：和国家档案卡走同一个灯箱（#lightbox，z-index 96）。
+           图是 1600px 宽的原尺寸压缩，放大后仍然清楚；卡片里只显示到 428 宽，
+           木星大红斑、土星环缝那种细节必须放大才看得见。
+           **必须挂在下面的 return 之前** —— 图已经在缓存里时（complete 为真）
+           会直接 done() + return，写在后头就永远注册不上（这个坑踩过一次）。 */
+        box.addEventListener('click', function () {
+          if (!im.naturalWidth) return;
+          /* 说明文字直接从 DOM 取：这个循环只拿得到 box，外层 forEach 的 ph
+             在这儿是未定义（第一版就写成了 ph.cap，点一下抛 ReferenceError，
+             灯箱自然打不开）。 */
+          var capEl = box.querySelector('.pk-cap');
+          openLightbox(im.currentSrc || im.src,
+                       (capEl && capEl.textContent) || (info.name + ' 影像'), '', '');
+        });
+
         if (im.complete && im.naturalWidth) { done(); return; }
         im.addEventListener('load', done);
         im.addEventListener('error', failed);
@@ -11449,6 +11537,25 @@ body.quiz-on #labels-canvas{display:none!important}
       document.body.classList.add('pcard-open');
     }
 
+    /* 月球特写：holder 是挂在地球下面的那颗小球（solar.moon.mesh）。 */
+    function openMoonCard() {
+      if (!solar.moon || !solar.moon.mesh) return;
+      if (solar.focus && solar.focus.moon && !solar.focus.closing) { closePlanet(); return; }
+      var prevK = solar.focus ? solar.focus.k : 0;
+      solar.focus = {
+        moon: true, holder: solar.moon.mesh, def: { a: 0, r: 0.024 },
+        radius: 0.024, ring: false,
+        k: prevK, closing: false,
+        yaw: (solar.focus && solar.focus.yaw) || 0
+      };
+      pTitle.textContent = MOON_INFO.name;
+      pEn.textContent = MOON_INFO.en;
+      renderPlanetCard(MOON_INFO);
+      pcard.classList.add('open');
+      pcard.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('pcard-open');
+    }
+
     function closePlanet() {
       if (!solar.focus || solar.focus.closing) return;
       solar.focus.closing = true;
@@ -11487,12 +11594,15 @@ body.quiz-on #labels-canvas{display:none!important}
         if (p.def.earth) { if (typeof sphere !== 'undefined' && sphere) list.push(sphere); }
         else if (p.mesh) list.push(p.mesh);
       });
-      /* 太阳也参与射线命中：它盘面大，点中就是点中，不需要屏幕容差兜底 */
+      /* 太阳也参与射线命中：它盘面大，点中就是点中，不需要屏幕容差兜底。
+         月球同理（它只有 0.024 半径，但射线一打一个准，只要真点在上头）。 */
       if (solar.sun) list.push(solar.sun);
+      if (solar.moon && solar.moon.mesh) list.push(solar.moon.mesh);
       var hits = _pickRay.intersectObjects(list, false);
       if (hits.length) {
         var obj = hits[0].object, hitIdx = -1;
         if (obj === solar.sun) { openSunCard(); return; }
+        if (solar.moon && obj === solar.moon.mesh) { openMoonCard(); return; }
         for (var i = 0; i < solar.planets.length; i++) {
           var pp = solar.planets[i];
           if ((pp.def.earth && obj === sphere) || (!pp.def.earth && obj === pp.mesh)) {
@@ -11512,8 +11622,20 @@ body.quiz-on #labels-canvas{display:none!important}
         var dd = Math.sqrt((sx - cx) * (sx - cx) + (sy - cy) * (sy - cy));
         if (dd < bestD) { bestD = dd; best = j; }
       }
-      if (best >= 0) openPlanet(best);
-      else if (solar.focus) closePlanet();
+      if (best >= 0) { openPlanet(best); return; }
+      /* 月球兜底：它屏幕直径只有十几像素，容差给 18px（比行星的 30 小，
+         因为月地相距本来就近，容差一大就会跟"点地球"抢）。 */
+      if (solar.moon && solar.moon.mesh) {
+        solar.moon.mesh.getWorldPosition(_pickV);
+        _pickV.project(camera);
+        if (_pickV.z <= 1) {
+          var mx = rect.left + (_pickV.x * 0.5 + 0.5) * rect.width;
+          var my = rect.top + (-_pickV.y * 0.5 + 0.5) * rect.height;
+          var mdd = Math.sqrt((mx - cx) * (mx - cx) + (my - cy) * (my - cy));
+          if (mdd < 18) { openMoonCard(); return; }
+        }
+      }
+      if (solar.focus) closePlanet();
     }
 
     function solarToggle() {
@@ -11635,6 +11757,7 @@ body.quiz-on #labels-canvas{display:none!important}
     window.__solarDbg = solar;          // 调试/验收用：控制台可改 solar.speed、solar.sky.visible
     window.__openPlanet = openPlanet;   // 验收用：直接开某颗行星的档案卡
     window.__openSun = openSunCard;      // 同上：太阳档案卡
+    window.__openMoon = openMoonCard;    // 同上：月球档案卡
     window.__closePlanet = closePlanet;
     window.__solarPick = solarPick;
     window.__baseStars = BASE_STARS;    // 同上：验收"退出太阳系后星场有没有回来"
@@ -11651,15 +11774,30 @@ body.quiz-on #labels-canvas{display:none!important}
     }
 
     /* Esc 退出：只删提示语，快捷键得留着 —— 没有它这个模式就没有出口了
-       （界面上不再写"Esc 返回"，但手会自己按）。 */
+       （界面上不再写"Esc 返回"，但手会自己按）。
+
+       必须**一层一层退**（用户原话："为啥直接退出太阳系了呀，不应该一层一层来吗"）：
+           大图查看层 → 星球档案卡 → 太阳系
+       所以这个监听器挂在**捕获阶段**：同一批 document 监听器按注册顺序跑，
+       而关大图的那个（bindPanel 里）注册得更早 —— 冒泡阶段跑的话它先把大图
+       关掉，这边再看 LB 就已经是关的，会顺手把整个太阳系退了。捕获阶段先跑，
+       看到"这一层还开着"就直接 return，把这一下让给下面那层。 */
     document.addEventListener('keydown', function (e) {
       if (e.key !== 'Escape') return;
       if (!solar.on) return;
+      /* 大图开着：这一下归它（bindPanel 的监听器会关） */
+      if (LB && LB.classList.contains('on')) return;
+      /* 档案卡开着：只收卡片，相机退回轨道视角 */
+      if (pcard && pcard.classList.contains('open')) {
+        e.preventDefault();
+        closePlanet();
+        return;
+      }
       /* 正在退出的过程中再按就没有意义了，避免来回抖 */
       if (solar.target !== 1) return;
       e.preventDefault();
       solarToggle();
-    });
+    }, true);
 
     /* 预热：solarBuild 里有日冕画布、12 张行星贴图、一套新着色器。
        第一次点按钮才做的话，实测同步 160ms + 首帧着色器编译/贴图上传，
